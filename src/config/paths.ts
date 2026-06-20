@@ -21,8 +21,13 @@ export const cacheDir = path.join(projectRoot, "cache");
 /**
  * Output directory for the translated Russian language pack. `apply` mirrors
  * the EN source here (translations applied, English kept where untranslated),
- * leaving the original `Language_EN` untouched. Override with `TAIWU_LANG_RU_DIR`.
+ * leaving the original `Language_EN` untouched.
+ *
+ * The game has no Russian slot, so we hijack the Korean one: the default points
+ * at the `Language_KO` junction (into the game's `StreamingAssets/Language_KO`).
+ * `apply` overwrites Korean with the EN/RU pack; pick Korean in-game to play in
+ * Russian. Override with `TAIWU_LANG_RU_DIR` to write elsewhere.
  */
 export const languageRuDir = process.env.TAIWU_LANG_RU_DIR
   ? path.resolve(process.env.TAIWU_LANG_RU_DIR)
-  : path.join(projectRoot, "Language_RU");
+  : path.join(projectRoot, "Language_KO");
