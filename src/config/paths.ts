@@ -15,6 +15,9 @@ export const languageCnDir = path.join(projectRoot, "Language_CN");
 /** Git-tracked translation memory (one JSON per source file). */
 export const tmDir = path.join(projectRoot, "tm");
 
+/** Git-tracked API response cache (one append-only JSONL per engine). */
+export const cacheDir = path.join(projectRoot, "cache");
+
 /**
  * Output directory for the translated Russian language pack. `apply` mirrors
  * the EN source here (translations applied, English kept where untranslated),
