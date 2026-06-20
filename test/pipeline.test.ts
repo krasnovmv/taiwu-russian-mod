@@ -4,7 +4,7 @@ import { test } from "node:test";
 import { MockEngine } from "../src/engine/mock.js";
 import type { TranslationEngine, TranslationRequest } from "../src/engine/types.js";
 import type { TmUnit } from "../src/model/tm.js";
-import { needsTranslation, translateFile } from "../src/translate/pipeline.js";
+import { needsTranslation, planFile, translateFile } from "../src/translate/pipeline.js";
 
 /**
  * End-to-end pipeline on a real small file with the offline mock engine and
@@ -88,6 +88,19 @@ test("length window restricts which units are translated", async () => {
   assert.ok(longOnly.translated <= all.translated);
   // The two disjoint windows together cover exactly the whole file's translatable set.
   assert.equal(shortOnly.translated + longOnly.translated, all.translated);
+});
+
+test("planFile matches the units actually sent to the engine (global bar total)", async () => {
+  for (const opts of [{}, { maxLen: 15 }, { minLen: 16 }]) {
+    const planned = await planFile(SAMPLE, new MockEngine().id, opts);
+    let onStart = -1;
+    await translateFile(SAMPLE, new MockEngine(), {
+      ...opts,
+      dryRun: true,
+      onStart: (t) => (onStart = t),
+    });
+    assert.equal(planned, onStart, `plan must equal onStart for ${JSON.stringify(opts)}`);
+  }
 });
 
 test("needsTranslation re-translates on engine mismatch (routing/overwrite)", () => {

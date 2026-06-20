@@ -58,15 +58,18 @@ export class Progress {
 }
 
 /**
- * Two stacked bars for `translate`: overall files progress plus units within the
- * current file. No-op when not a TTY.
+ * Two stacked bars for `translate`: overall files progress plus a GLOBAL units
+ * bar — its total is the units to translate across all files, and its value
+ * accumulates as files complete (it does not reset per file). No-op when not a
+ * TTY.
  */
 export class FileProgress {
   private readonly multibar: cliProgress.MultiBar | null;
   private readonly filesBar: cliProgress.SingleBar | null;
   private readonly unitBar: cliProgress.SingleBar | null;
+  private done = 0;
 
-  constructor(totalFiles: number) {
+  constructor(totalFiles: number, totalUnits: number) {
     if (!isTty) {
       this.multibar = null;
       this.filesBar = null;
@@ -78,23 +81,22 @@ export class FileProgress {
       cliProgress.Presets.shades_classic,
     );
     this.filesBar = this.multibar.create(totalFiles, 0, { name: "files", suffix: "" });
-    this.unitBar = this.multibar.create(0, 0, { name: "units", suffix: "" });
+    this.unitBar = this.multibar.create(totalUnits, 0, { name: "units", suffix: "" });
   }
 
-  /** Begin a file: reset the unit bar to its unit total and show the file name. */
-  startFile(file: string, totalUnits: number): void {
-    this.unitBar?.setTotal(totalUnits);
-    this.unitBar?.update(0, { name: "units", suffix: clip(file) });
+  /** Begin a file: just show its name (the unit total/value stay global). */
+  startFile(file: string): void {
+    this.unitBar?.update(this.done, { name: "units", suffix: clip(file) });
   }
 
-  /** Update units done within the current file. */
+  /** Set the cumulative units done across ALL files so far (absolute). */
   unit(done: number): void {
+    this.done = done;
     this.unitBar?.update(done);
   }
 
-  /** Finish the current file and advance the files bar. */
+  /** Advance the files bar (the global unit bar keeps its accumulated value). */
   finishFile(): void {
-    this.unitBar?.update(this.unitBar.getTotal());
     this.filesBar?.increment();
   }
 

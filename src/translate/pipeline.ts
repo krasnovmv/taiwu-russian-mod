@@ -17,7 +17,7 @@
  * upgraded to `machine` as checkpoints complete.
  */
 import { GLOSSARY_VERSION } from "../config/glossary.js";
-import { alignFile } from "../align/bilingual.js";
+import { alignFile, type AlignedFile } from "../align/bilingual.js";
 import type { SourceUnit } from "../formats/adapter.js";
 import { mask, restore } from "../engine/protect.js";
 import type { ProgressCallback, TranslationEngine, TranslationRequest } from "../engine/types.js";
@@ -70,16 +70,20 @@ export function needsTranslation(
   return prev.srcHash !== hash || prev.engine !== engineId;
 }
 
-export async function translateFile(
-  file: string,
-  engine: TranslationEngine,
-  options: TranslateOptions = {},
-): Promise<TranslateStats> {
-  const aligned = await alignFile(file);
-  const existing = await loadTm(file);
+/**
+ * Select which units a run will (re)translate: build the TM unit map and the
+ * engine work list, applying the length window, the limit, and the up-to-date /
+ * engine-match skip. Shared by {@link translateFile} and {@link planFile} so the
+ * progress total and the actual work never drift.
+ */
+function selectWork(
+  aligned: AlignedFile,
+  existing: TmFile | null,
+  engineId: string,
+  options: Pick<TranslateOptions, "minLen" | "maxLen" | "limit">,
+): { units: Record<string, TmUnit>; work: WorkItem[]; pending: number; skipped: number } {
   const minLen = options.minLen ?? 0;
   const maxLen = options.maxLen ?? Infinity;
-
   const units: Record<string, TmUnit> = {};
   const work: WorkItem[] = [];
   let pending = 0;
@@ -92,15 +96,13 @@ export async function translateFile(
 
     // Outside this run's length window, or already up to date: carry forward
     // unchanged (a unit out of window keeps any translation another pass made).
-    if (!inWindow || !needsTranslation(prev, hash, engine.id)) {
+    if (!inWindow || !needsTranslation(prev, hash, engineId)) {
       units[unit.key] = prev ? { ...prev, cn: unit.cn } : newPendingUnit(unit, hash);
       skipped++;
       continue;
     }
 
     pending++;
-    // Every key is present in the TM from the start, as pending; checkpoints
-    // upgrade the translated ones in place.
     units[unit.key] = prev ? { ...prev, cn: unit.cn } : newPendingUnit(unit, hash);
 
     if (options.limit !== undefined && work.length >= options.limit) {
@@ -109,6 +111,33 @@ export async function translateFile(
     }
     work.push({ unit, hash, masked: mask(unit.en) });
   }
+  return { units, work, pending, skipped };
+}
+
+/**
+ * Count how many units a run would send to the engine for `file` (the
+ * translatable work) — without translating. Used to size a single global
+ * progress total across all files before a run starts.
+ */
+export async function planFile(
+  file: string,
+  engineId: string,
+  options: Pick<TranslateOptions, "minLen" | "maxLen" | "limit"> = {},
+): Promise<number> {
+  const aligned = await alignFile(file);
+  const existing = await loadTm(file);
+  const { work } = selectWork(aligned, existing, engineId, options);
+  return work.reduce((n, w) => (w.masked.translatable ? n + 1 : n), 0);
+}
+
+export async function translateFile(
+  file: string,
+  engine: TranslationEngine,
+  options: TranslateOptions = {},
+): Promise<TranslateStats> {
+  const aligned = await alignFile(file);
+  const existing = await loadTm(file);
+  const { units, work, pending, skipped } = selectWork(aligned, existing, engine.id, options);
 
   const tm: TmFile = {
     schemaVersion: TM_SCHEMA_VERSION,

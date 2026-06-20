@@ -20,8 +20,8 @@ import { ROUTING_THRESHOLD } from "../config/translate.js";
 import { createEngine, parseEngineId, type EngineId } from "../engine/factory.js";
 import type { TranslationEngine } from "../engine/types.js";
 import { listSourceFiles } from "../scan.js";
-import { translateFile } from "../translate/pipeline.js";
-import { FileProgress } from "./progress.js";
+import { planFile, translateFile } from "../translate/pipeline.js";
+import { FileProgress, Progress } from "./progress.js";
 
 interface Args {
   file: string | undefined;
@@ -85,18 +85,35 @@ async function runPass(
   label: string,
 ): Promise<PassResult> {
   console.log(label);
-  const bars = new FileProgress(files.length);
-  const out: PassResult = { translated: 0, failed: 0, failures: [] };
+
+  // Plan: count the units this pass will send to the engine across ALL files, so
+  // the unit bar shows one global total rather than resetting per file.
+  const plan = new Progress(files.length, "plan");
+  let grandTotal = 0;
   for (const f of files) {
+    grandTotal += await planFile(f, engine.id, opts);
+    plan.increment(f);
+  }
+  plan.finish();
+
+  const bars = new FileProgress(files.length, grandTotal);
+  const out: PassResult = { translated: 0, failed: 0, failures: [] };
+  let base = 0; // units completed in the already-finished files
+  for (const f of files) {
+    let fileTotal = 0;
     const stats = await translateFile(f, engine, {
       limit: opts.limit,
       dryRun: opts.dryRun,
       now: opts.now,
       minLen: opts.minLen,
       maxLen: opts.maxLen,
-      onStart: (totalUnits) => bars.startFile(f, totalUnits),
-      onProgress: (done) => bars.unit(done),
+      onStart: (totalUnits) => {
+        fileTotal = totalUnits;
+        bars.startFile(f);
+      },
+      onProgress: (done) => bars.unit(base + done),
     });
+    base += fileTotal;
     out.translated += stats.translated;
     out.failed += stats.failed;
     out.failures.push(...stats.failures);
