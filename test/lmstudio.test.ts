@@ -32,7 +32,7 @@ test("cleanOutput removes a single pair of wrapping quotes", () => {
 });
 
 test("cleanOutput preserves placeholder tokens", () => {
-  assert.equal(cleanOutput("Наносит ⟦0⟧ урона"), "Наносит ⟦0⟧ урона");
+  assert.equal(cleanOutput("Наносит <m0></m0> урона"), "Наносит <m0></m0> урона");
 });
 
 test("mapPool preserves order with bounded concurrency", async () => {
@@ -67,13 +67,17 @@ test("ensureModel picks the first non-embedding model; reference markup is strip
       );
     }
     chatBody = JSON.parse(init?.body as string) as typeof chatBody;
-    return Promise.resolve(jsonResponse({ choices: [{ message: { content: "привет ⟦0⟧" } }] }));
+    return Promise.resolve(
+      jsonResponse({ choices: [{ message: { content: "привет <m0></m0>" } }] }),
+    );
   }) as FetchFn;
 
   await withFetch(fetchImpl, async () => {
     const engine = new LmStudioEngine({});
-    const out = await engine.translate([{ text: "hello ⟦0⟧", reference: "<color=#x>甲</color>" }]);
-    assert.deepEqual(out, ["привет ⟦0⟧"]);
+    const out = await engine.translate([
+      { text: "hello <m0></m0>", reference: "<color=#x>甲</color>" },
+    ]);
+    assert.deepEqual(out, ["привет <m0></m0>"]);
     assert.equal(chatBody.model, "qwen-chat");
     const user = chatBody.messages?.[1]?.content ?? "";
     assert.ok(user.includes("甲"), "CN meaning present");

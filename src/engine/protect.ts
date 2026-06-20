@@ -12,9 +12,10 @@
  * engine dropped, duplicated or mangled a sentinel, restore fails and the caller
  * flags the unit instead of writing corrupted text.
  *
- * Sentinels use rare mathematical white square brackets ⟦n⟧ (U+27E6/U+27E7),
- * which machine translators reliably pass through and which never occur in the
- * source data.
+ * Sentinels are empty paired tags `<mN></mN>`. Yandex's HTML translation mode
+ * passes them through verbatim (no spacing/attribute changes), and an LLM keeps
+ * them as opaque tokens — both far more reliable than bracket characters, which
+ * Yandex sometimes mangles. They never occur in the source data.
  */
 
 /** Matches any `<…>` tag, including `<NL>`, `<color=#x>`, `<Character …/>`. */
@@ -22,8 +23,11 @@ const TAG_RE = /<[^>]+>/g;
 /** Matches C# format placeholders like `{0}`. */
 const PLACEHOLDER_RE = /\{\d+\}/g;
 
-const SENTINEL_RE = /⟦(\d+)⟧/g;
-const sentinel = (index: number): string => `⟦${index}⟧`;
+// Empty paired tags `<mN></mN>` survive Yandex's HTML translation mode verbatim
+// (no spacing, no attribute "normalisation"), unlike ⟦⟧ in plain text — which
+// Yandex sometimes mangles — or self-closing `<mN/>`, which it pads with a space.
+const SENTINEL_RE = /<m(\d+)><\/m\1>/g;
+const sentinel = (index: number): string => `<m${index}></m${index}>`;
 
 export interface Masked {
   /** Source with protected spans replaced by sentinels, whitespace-trimmed. */
@@ -66,7 +70,8 @@ export function mask(text: string, glossary: ReadonlyMap<string, string> = new M
     masked = replace(masked, glossaryRegex(glossary), (m) => glossary.get(m.toLowerCase()) ?? m);
   }
 
-  const translatable = /\p{L}/u.test(masked);
+  // Sentinels contain a literal "m"; strip them before checking for real letters.
+  const translatable = /\p{L}/u.test(masked.replace(SENTINEL_RE, ""));
   return { masked, tokens, leading, trailing, translatable };
 }
 
@@ -103,7 +108,7 @@ export function restore(translated: string, m: Masked): RestoreResult {
       return {
         ok: false,
         text: "",
-        error: `sentinel ⟦${i}⟧ appears ${seen[i]} time(s), expected 1`,
+        error: `sentinel <m${i}> appears ${seen[i]} time(s), expected 1`,
       };
     }
   }

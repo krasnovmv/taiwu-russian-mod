@@ -7,7 +7,7 @@
  *   TAIWU_LMSTUDIO_CONCURRENCY default 4
  *
  * Each masked text is translated with one chat completion. The system prompt
- * tells the model to preserve the ⟦n⟧ placeholder tokens verbatim; the pipeline
+ * tells the model to preserve the <mN></mN> placeholder tags verbatim; the pipeline
  * still validates this on restore, so a model that mangles them flags the unit
  * rather than writing corrupt output.
  *
@@ -25,13 +25,13 @@ const SYSTEM_PROMPT = [
   "The English is itself machine-translated from Chinese, so a Chinese original may",
   "be provided as a MEANING reference — when the English is ambiguous or awkward,",
   "trust the Chinese meaning, but always translate the English text. Rules:",
-  "1. Preserve every placeholder token of the form ⟦N⟧ (N is a number) EXACTLY —",
-  "   same tokens, same numbers, same count. Never translate, reorder or drop them.",
+  "1. Preserve every placeholder tag of the form <mN></mN> (N is a number) EXACTLY —",
+  "   same tags, same numbers, same count. Never translate, reorder, alter or drop them.",
   "2. Keep the wuxia tone; translate names/terms naturally into Russian.",
   "3. Output ONLY the Russian translation — no quotes, no notes, no original text.",
 ].join(" ");
 
-const MARKUP_RE = /<[^>]*>|\{\d+\}|⟦\d+⟧/g;
+const MARKUP_RE = /<[^>]*>|\{\d+\}/g;
 
 /** A Chinese reference is meaning-only context; strip its markup to avoid noise. */
 function referenceContext(reference: string | null | undefined): string | null {

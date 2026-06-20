@@ -83,7 +83,8 @@ export class YandexEngine implements TranslationEngine {
       texts,
       sourceLanguageCode: this.cfg.sourceLang,
       targetLanguageCode: this.cfg.targetLang,
-      format: translationService.TranslateRequest_Format.PLAIN_TEXT,
+      // HTML mode preserves the `<mN></mN>` markup sentinels verbatim.
+      format: translationService.TranslateRequest_Format.HTML,
     });
 
     for (let attempt = 0; ; attempt++) {

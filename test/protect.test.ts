@@ -11,8 +11,8 @@ function goodEngine(masked: string): string {
 test("tags and placeholders are masked and restored verbatim", () => {
   const src = "Deals {0} damage <color=#brightred>now</color><NL>see <Character key=X str=Y/>!";
   const m = mask(src);
-  // No tag/placeholder remains in the masked text.
-  assert.ok(!/[<>{}]/.test(m.masked.replace(/⟦\d+⟧/g, "")));
+  // No real tag/placeholder remains once the sentinels are stripped.
+  assert.ok(!/[<>{}]/.test(m.masked.replace(/<m\d+><\/m\d+>/g, "")));
   const r = restore(goodEngine(m.masked), m);
   assert.ok(r.ok, r.error ?? "restore failed");
   // Every original span is present again.
@@ -45,14 +45,14 @@ test("tag-only / placeholder-only values are marked not translatable", () => {
 
 test("restore fails (no throw) when a sentinel is dropped", () => {
   const m = mask("Deals {0} damage");
-  const r = restore("ru: damage", m); // dropped ⟦0⟧
+  const r = restore("ru: damage", m); // dropped <m0></m0>
   assert.equal(r.ok, false);
   assert.match(r.error ?? "", /sentinel/);
 });
 
 test("restore fails when a sentinel is duplicated", () => {
   const m = mask("{0} and {1}");
-  const r = restore("⟦0⟧ ⟦0⟧ ⟦1⟧", m);
+  const r = restore("<m0></m0> <m0></m0> <m1></m1>", m);
   assert.equal(r.ok, false);
 });
 
