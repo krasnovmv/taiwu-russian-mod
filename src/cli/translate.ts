@@ -12,7 +12,7 @@
 import { createEngine, parseEngineId, type EngineId } from "../engine/factory.js";
 import { listSourceFiles } from "../scan.js";
 import { translateFile } from "../translate/pipeline.js";
-import { Progress } from "./progress.js";
+import { FileProgress } from "./progress.js";
 
 function parseArgs(argv: string[]): {
   file: string | undefined;
@@ -59,7 +59,7 @@ async function main(): Promise<void> {
 
   console.log(`Engine: ${engine.id}${dryRun ? " (dry-run)" : ""} | files: ${files.length}`);
 
-  const bar = new Progress(files.length, "translate");
+  const bars = new FileProgress(files.length);
   let translated = 0;
   let failed = 0;
   const failures: { key: string; error: string }[] = [];
@@ -68,14 +68,15 @@ async function main(): Promise<void> {
       limit,
       dryRun,
       now,
-      onProgress: (done) => bar.note(`${f} — ${done} units`),
+      onStart: (totalUnits) => bars.startFile(f, totalUnits),
+      onProgress: (done) => bars.unit(done),
     });
     translated += stats.translated;
     failed += stats.failed;
     failures.push(...stats.failures);
-    bar.increment(f);
+    bars.finishFile();
   }
-  bar.finish();
+  bars.stop();
 
   console.log(`Total translated: ${translated}, failed: ${failed}`);
   if (failures.length > 0) {

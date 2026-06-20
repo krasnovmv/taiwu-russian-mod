@@ -32,6 +32,8 @@ export interface TranslateOptions {
   dryRun?: boolean;
   /** ISO timestamp to stamp on updated units (kept injectable for determinism). */
   now?: string;
+  /** Called once with the number of units that will be sent to the engine. */
+  onStart?: (totalUnits: number) => void;
   /** Called with the running count of units sent to the engine for this file. */
   onProgress?: ProgressCallback;
 }
@@ -105,6 +107,9 @@ export async function translateFile(
   const flush = async (): Promise<void> => {
     if (!options.dryRun) await saveTm(tm);
   };
+
+  // The unit bar tracks units that actually hit the engine (translatable).
+  options.onStart?.(work.reduce((n, w) => n + (w.masked.translatable ? 1 : 0), 0));
 
   let translated = 0;
   let failed = 0;
