@@ -28,5 +28,5 @@ export * from "./apply/build.js";
 export * from "./apply/fs.js";
 export * from "./apply/apply.js";
 export * from "./validate/qa.js";
-export { languageDir, languageCnDir, tmDir, projectRoot } from "./config/paths.js";
+export { languageDir, languageCnDir, languageRuDir, tmDir, projectRoot } from "./config/paths.js";
 export { GLOSSARY_VERSION } from "./config/glossary.js";

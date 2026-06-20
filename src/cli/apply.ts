@@ -1,16 +1,17 @@
 /**
- * Apply the translation memory into the EN language files, in place.
+ * Build the Russian language pack from the translation memory.
  *
- *   npm run apply -- --dry-run          # preview, write nothing (default-safe)
+ *   npm run apply -- --all              # every file -> Language_RU
  *   npm run apply -- <file>             # one file
- *   npm run apply -- --all              # every translatable file
+ *   npm run apply -- --all --dry-run    # preview, write nothing
  *
- * In-place writing modifies the actual game files (via the Language_EN
- * junction). Originals are backed up once to backups/ before the first write,
- * and writes are atomic with a structural guard. A bare run with no target is
- * treated as a dry-run to avoid accidental writes.
+ * Writes into `Language_RU` (mirroring the source layout); the original
+ * `Language_EN` is never modified. Untranslated text stays English, so the
+ * output is a complete, loadable language folder. Re-run any time — it is
+ * idempotent and overwrites the output.
  */
 import { applyFile } from "../apply/apply.js";
+import { languageRuDir } from "../config/paths.js";
 import { listSourceFiles } from "../scan.js";
 
 async function main(): Promise<void> {
@@ -26,6 +27,7 @@ async function main(): Promise<void> {
   }
 
   const files = all ? await listSourceFiles() : [fileArg as string];
+  console.log(`Output: ${languageRuDir}${dryRun ? " (dry-run)" : ""}\n`);
 
   let written = 0;
   let appliedTotal = 0;
@@ -36,25 +38,21 @@ async function main(): Promise<void> {
     const r = await applyFile(file, { dryRun });
     appliedTotal += r.applied;
     unsafeTotal += r.unsafe;
-    if (r.written) {
-      written++;
-      console.log(`  ✓ ${file}: ${r.applied} values written`);
-    } else if (r.reason && r.reason.startsWith("structural guard")) {
+    if (r.written) written++;
+    else if (r.reason?.startsWith("structural guard")) {
       blocked.push(`${file}: ${r.reason}`);
       console.error(`  ✗ ${file}: ${r.reason}`);
-    } else if (r.applied > 0) {
-      console.log(`  ~ ${file}: ${r.applied} ready (${r.reason})`);
     }
   }
 
-  console.log(`\nFiles written: ${written}`);
+  console.log(`Files written:  ${written}`);
   console.log(`Values applied: ${appliedTotal}`);
-  if (unsafeTotal > 0) console.log(`Unsafe (newline in RU, skipped): ${unsafeTotal}`);
+  if (unsafeTotal > 0) console.log(`Unsafe (skipped): ${unsafeTotal}`);
   if (blocked.length > 0) {
-    console.error(`\nBlocked by structural guard: ${blocked.length} (nothing written for these)`);
+    console.error(`\nBlocked by structural guard: ${blocked.length}`);
     process.exitCode = 1;
   }
-  if (dryRun) console.log(`\n(dry-run: no files were modified)`);
+  if (dryRun) console.log(`\n(dry-run: nothing written)`);
 }
 
 await main();

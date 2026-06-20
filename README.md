@@ -6,7 +6,8 @@ zero-runtime-deps core, a git-tracked translation memory, and byte-exact writing
 with backups.
 
 - **Source:** `Language_EN` (English) · **Reference:** `Language_CN` (Chinese)
-- **Target:** Russian, written back **in place** into `Language_EN`
+- **Target:** Russian, written to a separate **`Language_RU`** folder (the source
+  is never modified)
 - **Engines:** Yandex Cloud Translate (official SDK) · LM Studio (local LLM) ·
   offline `mock` for dry runs
 
@@ -45,7 +46,7 @@ cp .env.example .env
 | `TAIWU_LANG_DIR`              | Override EN source dir (default `./Language_EN`)               |
 | `TAIWU_LANG_CN_DIR`           | Override CN reference dir                                      |
 | `TAIWU_TM_DIR`                | Translation-memory dir (default `./tm`)                        |
-| `TAIWU_BACKUP_DIR`            | Pristine backup dir (default `./backups/Language_EN.original`) |
+| `TAIWU_LANG_RU_DIR`          | RU output dir for `apply` (default `./Language_RU`)            |
 | `TAIWU_GLOSSARY`              | Glossary file (default `./data/glossary.json`)                 |
 | `TAIWU_YANDEX_RATE_RUB_PER_M` | Price estimate, RUB per 1M chars (default 419)                 |
 | `TAIWU_LMSTUDIO_BASE_URL`     | LM Studio server (default `http://localhost:1234/v1`)          |
@@ -74,7 +75,7 @@ engine call and validated on restore, so the same safety applies to all engines.
 npm run estimate                       # how many units / chars / ~cost
 npm run translate -- --all --engine yandex   # translate into the TM (resumable)
 npm run validate                       # QA the translations in the TM
-npm run apply -- --all                 # write into Language_EN (backup + atomic)
+npm run apply -- --all                 # build Language_RU (source untouched)
 ```
 
 Smaller, safer steps while getting started:
@@ -112,32 +113,27 @@ source changed so you can re-check them.
 | `npm run sync [-- --dry-run]`                                                          | Reconcile the TM after a game update      |
 | `npm run roundtrip`                                                                    | Byte-exact round-trip check of all `.txt` |
 
-## Safety & restore
+## Safety
 
-In-place writing modifies the actual game files. Protections:
+`apply` writes to a separate `Language_RU` folder and never touches the original
+`Language_EN`, so it is fully reversible — **delete `Language_RU` to undo**.
+Further protections:
 
-- A **pristine backup** of each file is taken once, before its first write, in
-  `backups/Language_EN.original/` (never overwritten).
 - Writes are **atomic** (temp file + rename) and pass a **structural guard**
   (keys, line/column counts, JSON paths unchanged) — corrupted output is refused.
 - Markup (`{0}`, `<color=…>`, `<NL>`, `<Character …/>`) is masked during
   translation and validated on restore; a unit with broken markup is flagged,
   not written.
 
-**Restore the originals** by copying the backup back over the game files, e.g.:
-
-```bash
-cp -r backups/Language_EN.original/* Language_EN/
-```
-
-(or restore via Steam: _Verify integrity of game files_).
+To deploy into the game, point the game at `Language_RU` (e.g. copy it into the
+game's `StreamingAssets`).
 
 ## How it works
 
 ```
 Language_EN ─┐                         ┌─► tm/*.json (translation memory, git-tracked)
 Language_CN ─┴─ align (by key) ─ mask ─┤
-                                       └─► Yandex/mock ─ restore+validate ─► TM ─ apply ─► Language_EN
+                                       └─► engine ─ restore+validate ─► TM ─ apply ─► Language_RU
 ```
 
 - **Translation memory** (`tm/`): one JSON per source file, holding `en`, `cn`,

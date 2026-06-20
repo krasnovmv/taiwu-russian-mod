@@ -35,9 +35,10 @@ export const tmDir = process.env.TAIWU_TM_DIR
   : path.join(projectRoot, "tm");
 
 /**
- * Directory holding pristine backups of original EN files, created once before
- * the first in-place write. Override with `TAIWU_BACKUP_DIR`. Gitignored.
+ * Output directory for the translated Russian language pack. `apply` mirrors
+ * the EN source here (translations applied, English kept where untranslated),
+ * leaving the original `Language_EN` untouched. Override with `TAIWU_LANG_RU_DIR`.
  */
-export const backupDir = process.env.TAIWU_BACKUP_DIR
-  ? path.resolve(process.env.TAIWU_BACKUP_DIR)
-  : path.join(projectRoot, "backups", "Language_EN.original");
+export const languageRuDir = process.env.TAIWU_LANG_RU_DIR
+  ? path.resolve(process.env.TAIWU_LANG_RU_DIR)
+  : path.join(projectRoot, "Language_RU");
