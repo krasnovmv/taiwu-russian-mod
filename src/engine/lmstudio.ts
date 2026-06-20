@@ -125,9 +125,12 @@ export class LmStudioEngine implements TranslationEngine {
         { role: "system", content: SYSTEM_PROMPT },
         { role: "user", content: userContent },
       ],
-      // Disable reasoning. `enable_thinking` works for Qwen3 via LM Studio;
+      // Disable reasoning. Different models honour different switches, so send
+      // all of them (unknown params are ignored): `enable_thinking` works for
+      // Qwen3.5, `reasoning_effort` for small Qwen3 (e.g. 0.6b), and
       // `chat_template_kwargs` covers other servers/models.
       enable_thinking: false,
+      reasoning_effort: "none",
       chat_template_kwargs: { enable_thinking: false },
     });
 
