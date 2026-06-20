@@ -38,8 +38,3 @@ export async function loadGlossary(): Promise<ReadonlyMap<string, string>> {
   cached = map;
   return cached;
 }
-
-/** Test-only: reset the cache. */
-export function resetGlossaryCache(): void {
-  cached = null;
-}

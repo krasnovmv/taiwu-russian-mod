@@ -5,7 +5,7 @@ import path from "node:path";
 import { test } from "node:test";
 
 import { applyFile } from "../src/apply/apply.js";
-import { writeFileAtomic } from "../src/apply/fs.js";
+import { writeFileAtomic } from "../src/util/fs.js";
 import { TM_SCHEMA_VERSION, type TmFile } from "../src/model/tm.js";
 
 async function tmpDir(): Promise<string> {

@@ -124,6 +124,20 @@
 - [x] Junction `Language_RU` → `StreamingAssets/Language_RU` игры (симметрично EN/CN):
       `apply` пишет прямо в игру, папка удобно открывается из корня проекта.
 
+## Ревью кода (поддерживаемость / адаптеры / версии) ✅
+
+- [x] Версии пакетов — все последние (`npm outdated` пусто).
+- [x] Must-fix: ретраи LM Studio без backoff → общий `src/util/async.ts` (delay+backoff),
+      единый путь ретраев (4xx — fail-fast, 5xx/сеть — backoff); Yandex переведён туда же.
+- [x] Адаптерные границы: build-логика paired-txt перенесена из `apply/` в
+      `formats/paired-txt-build.ts`; `index.ts` больше не реэкспортит конкретные движки
+      (только `createEngine`/интерфейс) — барьер абстракции; `json-tip.extract` защищён try/catch.
+- [x] Чистка: удалены `setValue`, `resetGlossaryCache`, `@deprecated AlignedUnit`;
+      `writeFileAtomic` вынесен в `util/fs.ts` (+уникальный temp-суффикс), `saveTm` атомарен;
+      `Progress` тихий в non-TTY; `estimate` различает pending/stale; предупреждение о неизвестном `--engine`.
+- [x] Тесты: сетевые пути LM Studio (модель/4xx/5xx-ретрай/нет модели), сбой разметки в
+      пайплайне (failed, не пишется), `validateBilingual`, `syncFile` без TM. **774 теста**.
+
 ## Фаза 6 — Поддержка обновлений игры + документация ✅
 
 - [x] CLI `sync`: реконсиляция TM с источником — новые ключи в `pending`, удалённые удаляются, дрейф источника помечается (machine → ретранслейт, reviewed/locked → ревью); движок не вызывается (`src/tm/sync.ts`, чистая `reconcile`).

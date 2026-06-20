@@ -36,6 +36,9 @@ function lastSegment(path: string): string {
   return path.slice(path.lastIndexOf("/") + 1);
 }
 
+// Array elements are addressed by numeric string keys (e.g. "atoms/0/content");
+// `obj[part]` works for both object and array nodes, and the post-apply guard
+// re-validates the full set of translatable paths.
 function setAtPath(root: Json, path: string, value: string): boolean {
   const parts = path.split("/");
   let cur: Json = root;
@@ -54,8 +57,14 @@ export const jsonTipAdapter: FormatAdapter = {
   id: "json-tip",
 
   extract(enContent, cnContent): ExtractResult {
+    let enRoot: Json;
+    try {
+      enRoot = JSON.parse(enContent) as Json;
+    } catch (err) {
+      return { units: [], onlyCn: [], warnings: [`invalid JSON: ${(err as Error).message}`] };
+    }
     const enMap = new Map<string, string>();
-    collect(JSON.parse(enContent) as Json, "", enMap);
+    collect(enRoot, "", enMap);
 
     const cnMap = new Map<string, string>();
     if (cnContent) {

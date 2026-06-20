@@ -93,11 +93,6 @@ export function parsePairs(content: string): ParseResult {
   return { raw, entries, warnings };
 }
 
-/** Apply a translated value to the raw layer in place. */
-export function setValue(raw: RawTextFile, entry: Entry, newValue: string): void {
-  raw.lines[entry.valueIndex] = newValue;
-}
-
 function truncate(text: string, max = 60): string {
   return text.length > max ? `${text.slice(0, max)}…` : text;
 }

@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import { parsePairs, parseRaw, serializeRaw, setValue } from "../src/formats/paired-txt.js";
+import { parsePairs, parseRaw, serializeRaw } from "../src/formats/paired-txt.js";
 
 test("parseRaw/serializeRaw is a byte-exact inverse on edge cases", () => {
   const cases = [
@@ -32,13 +32,6 @@ test("parsePairs extracts keys, values and value indices", () => {
       { key: "Name_1", value: "", valueIndex: 3 },
     ],
   );
-});
-
-test("setValue mutates only the targeted line; other bytes survive", () => {
-  const content = "Name_0\nIron Ring\nName_1\nSteel Abacus\n\n";
-  const { raw, entries } = parsePairs(content);
-  setValue(raw, entries[0]!, "Железное кольцо");
-  assert.equal(serializeRaw(raw), "Name_0\nЖелезное кольцо\nName_1\nSteel Abacus\n\n");
 });
 
 test("parsePairs accepts rich keys (dots, spaces, trailing space)", () => {

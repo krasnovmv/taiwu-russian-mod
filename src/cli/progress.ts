@@ -23,7 +23,7 @@ export class Progress {
       {
         format: `${label} [{bar}] {value}/{total} {percentage}% {suffix}`,
         stream: process.stderr,
-        noTTYOutput: false,
+        noTTYOutput: true, // silent under redirection; live only in a TTY
         hideCursor: true,
         clearOnComplete: false,
         forceRedraw: false,

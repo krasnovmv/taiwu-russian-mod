@@ -92,3 +92,10 @@ test("refreshes CN reference and source for pending units", () => {
   assert.equal(out.units["P"]!.cn, "新");
   assert.equal(out.units["P"]!.srcHash, srcHash("fresh en", GLOSSARY_VERSION));
 });
+
+test("syncFile is a no-op when a file has no TM yet", async () => {
+  const { syncFile } = await import("../src/tm/sync.js");
+  const r = await syncFile("Loong_language.txt", { dryRun: true });
+  assert.equal(r.hadTm, false);
+  assert.equal(r.total, 0);
+});

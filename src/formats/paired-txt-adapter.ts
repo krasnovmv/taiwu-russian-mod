@@ -2,9 +2,9 @@
  * Format adapter for the paired-`.txt` files (the bulk of the game text).
  * Thin wrapper over {@link parsePairs} and {@link buildTranslatedContent}.
  */
-import { buildTranslatedContent } from "../apply/build.js";
 import type { ApplyOutcome, ExtractResult, FormatAdapter } from "./adapter.js";
 import { parsePairs } from "./paired-txt.js";
+import { buildTranslatedContent } from "./paired-txt-build.js";
 
 function indexByKey(content: string): Map<string, string> {
   const map = new Map<string, string>();

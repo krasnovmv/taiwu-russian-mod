@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 
 import { TM_SCHEMA_VERSION, type TmFile, type TmUnit } from "../src/model/tm.js";
-import { validateTm } from "../src/validate/qa.js";
+import { validateBilingual, validateTm } from "../src/validate/qa.js";
 
 function u(en: string, ru: string | null): TmUnit {
   return { en, cn: null, ru, status: "machine", srcHash: "x", engine: "mock", updatedAt: null };
@@ -44,4 +44,15 @@ test("detects length anomaly", () => {
 
 test("pending units (ru=null) are ignored", () => {
   assert.deepEqual(validateTm(tm({ A: u("Hello world", null) })), []);
+});
+
+test("validateBilingual flags EN<->CN markup divergence, skips missing CN", () => {
+  const issues = validateBilingual("Demo.txt", [
+    { key: "A", en: "Deals {0} damage", cn: "造成 {0} 伤害" }, // markup matches -> ok
+    { key: "B", en: "Deals {0} damage", cn: "造成伤害" }, // EN has {0}, CN none -> divergence
+    { key: "C", en: "plain", cn: null }, // no CN -> skipped
+  ]);
+  assert.equal(issues.length, 1);
+  assert.equal(issues[0]!.kind, "cn-divergence");
+  assert.equal(issues[0]!.key, "B");
 });

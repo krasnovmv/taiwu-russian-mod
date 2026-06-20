@@ -11,8 +11,9 @@
  *     pending — corrupted markup is never written.
  */
 import { GLOSSARY_VERSION } from "../config/glossary.js";
-import { alignFile, type AlignedUnit } from "../align/bilingual.js";
+import { alignFile } from "../align/bilingual.js";
 import { loadGlossary } from "../glossary/load.js";
+import type { SourceUnit } from "../formats/adapter.js";
 import { mask, restore } from "../engine/protect.js";
 import type { ProgressCallback, TranslationEngine, TranslationRequest } from "../engine/types.js";
 import { TM_SCHEMA_VERSION, type TmFile, type TmUnit } from "../model/tm.js";
@@ -42,7 +43,7 @@ export interface TranslateStats {
 }
 
 interface WorkItem {
-  unit: AlignedUnit;
+  unit: SourceUnit;
   hash: string;
   masked: ReturnType<typeof mask>;
   /** Index into the engine batch, or -1 if it needs no engine call. */
@@ -148,7 +149,7 @@ export async function translateFile(
   };
 }
 
-function newPendingUnit(unit: AlignedUnit, hash: string): TmUnit {
+function newPendingUnit(unit: SourceUnit, hash: string): TmUnit {
   return {
     en: unit.en,
     cn: unit.cn,

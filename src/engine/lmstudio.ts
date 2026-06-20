@@ -17,6 +17,7 @@
  * `TAIWU_LMSTUDIO_THINKING=on`. Any inline `<think>…</think>` is also stripped as
  * a fallback for models that ignore the flag.
  */
+import { backoffMs, delay } from "../util/async.js";
 import type { ProgressCallback, TranslationEngine, TranslationRequest } from "./types.js";
 
 const SYSTEM_PROMPT = [
@@ -43,6 +44,8 @@ function referenceContext(reference: string | null | undefined): string | null {
 const THINK_RE = /<think>[\s\S]*?<\/think>/gi;
 const MAX_RETRIES = 3;
 const REQUEST_TIMEOUT_MS = 120_000;
+
+// Shared backoff/delay live in util/async.
 
 export interface LmStudioConfig {
   baseUrl?: string;
@@ -137,17 +140,24 @@ export class LmStudioEngine implements TranslationEngine {
     const body = JSON.stringify(payload);
 
     for (let attempt = 0; ; attempt++) {
+      let res: Response;
       try {
-        const res = await fetchWithTimeout(`${this.baseUrl}/chat/completions`, body);
-        if (!res.ok) {
-          if (res.status >= 500 && attempt < MAX_RETRIES) continue;
-          throw new Error(`LM Studio chat/completions ${res.status}`);
-        }
+        res = await fetchWithTimeout(`${this.baseUrl}/chat/completions`, body);
+      } catch (err) {
+        if (attempt >= MAX_RETRIES) throw err; // network/timeout
+        await delay(backoffMs(attempt));
+        continue;
+      }
+
+      if (res.ok) {
         const json = (await res.json()) as ChatResponse;
         return cleanOutput(json.choices[0]?.message.content ?? "");
-      } catch (err) {
-        if (attempt >= MAX_RETRIES) throw err;
       }
+      // Client errors fail fast; only transient 5xx are retried with backoff.
+      if (res.status < 500 || attempt >= MAX_RETRIES) {
+        throw new Error(`LM Studio chat/completions ${res.status}`);
+      }
+      await delay(backoffMs(attempt));
     }
   }
 }

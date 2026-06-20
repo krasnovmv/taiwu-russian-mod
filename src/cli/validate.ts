@@ -30,11 +30,16 @@ async function collect(files: string[], semantic: boolean): Promise<QaIssue[]> {
 }
 
 async function main(): Promise<void> {
-  const args = process.argv.slice(2);
-  const semantic = args.includes("--semantic");
-  const kindIdx = args.indexOf("--kind");
-  const kindFilter = kindIdx >= 0 ? (args[kindIdx + 1] as IssueKind | undefined) : undefined;
-  const fileArg = args.find((a) => !a.startsWith("--") && a !== kindFilter);
+  const argv = process.argv.slice(2);
+  let semantic = false;
+  let kindFilter: IssueKind | undefined;
+  let fileArg: string | undefined;
+  for (let i = 0; i < argv.length; i++) {
+    const arg = argv[i];
+    if (arg === "--semantic") semantic = true;
+    else if (arg === "--kind") kindFilter = argv[++i] as IssueKind | undefined;
+    else if (arg && !arg.startsWith("--")) fileArg = arg;
+  }
 
   const files = fileArg ? [fileArg] : await listSourceFiles();
   const issues = (await collect(files, semantic)).filter(

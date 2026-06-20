@@ -1,7 +1,24 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import { cleanOutput, mapPool } from "../src/engine/lmstudio.js";
+import { cleanOutput, LmStudioEngine, mapPool } from "../src/engine/lmstudio.js";
+
+type FetchFn = typeof globalThis.fetch;
+
+/** Run `body` with globalThis.fetch replaced, restoring it afterwards. */
+async function withFetch(fetchImpl: FetchFn, body: () => Promise<void>): Promise<void> {
+  const real = globalThis.fetch;
+  globalThis.fetch = fetchImpl;
+  try {
+    await body();
+  } finally {
+    globalThis.fetch = real;
+  }
+}
+
+function jsonResponse(value: unknown, status = 200): Response {
+  return new Response(JSON.stringify(value), { status });
+}
 
 test("cleanOutput strips <think> blocks", () => {
   assert.equal(cleanOutput("<think>reasoning here</think>Привет"), "Привет");
@@ -39,4 +56,76 @@ test("mapPool runs at most `concurrency` tasks at once", async () => {
     },
   );
   assert.ok(peak <= 3, `peak concurrency ${peak} exceeded 3`);
+});
+
+test("ensureModel picks the first non-embedding model; reference markup is stripped", async () => {
+  let chatBody: { model?: string; messages?: { content: string }[] } = {};
+  const fetchImpl = ((url: string | URL, init?: RequestInit) => {
+    if (String(url).endsWith("/models")) {
+      return Promise.resolve(
+        jsonResponse({ data: [{ id: "text-embedding-x" }, { id: "qwen-chat" }] }),
+      );
+    }
+    chatBody = JSON.parse(init?.body as string) as typeof chatBody;
+    return Promise.resolve(jsonResponse({ choices: [{ message: { content: "привет ⟦0⟧" } }] }));
+  }) as FetchFn;
+
+  await withFetch(fetchImpl, async () => {
+    const engine = new LmStudioEngine({});
+    const out = await engine.translate([{ text: "hello ⟦0⟧", reference: "<color=#x>甲</color>" }]);
+    assert.deepEqual(out, ["привет ⟦0⟧"]);
+    assert.equal(chatBody.model, "qwen-chat");
+    const user = chatBody.messages?.[1]?.content ?? "";
+    assert.ok(user.includes("甲"), "CN meaning present");
+    assert.ok(!user.includes("<color"), "CN markup stripped");
+  });
+});
+
+test("client errors (4xx) fail fast without retry", async () => {
+  let chatCalls = 0;
+  const fetchImpl = ((url: string | URL) => {
+    if (String(url).endsWith("/models"))
+      return Promise.resolve(jsonResponse({ data: [{ id: "m" }] }));
+    chatCalls++;
+    return Promise.resolve(new Response("bad request", { status: 400 }));
+  }) as FetchFn;
+
+  await withFetch(fetchImpl, async () => {
+    const engine = new LmStudioEngine({});
+    await assert.rejects(engine.translate([{ text: "x" }]), /400/);
+    assert.equal(chatCalls, 1); // no retry
+  });
+});
+
+test("transient 5xx is retried, then succeeds", async () => {
+  let chatCalls = 0;
+  const fetchImpl = ((url: string | URL) => {
+    if (String(url).endsWith("/models"))
+      return Promise.resolve(jsonResponse({ data: [{ id: "m" }] }));
+    chatCalls++;
+    return Promise.resolve(
+      chatCalls === 1
+        ? new Response("upstream", { status: 503 })
+        : jsonResponse({ choices: [{ message: { content: "ok" } }] }),
+    );
+  }) as FetchFn;
+
+  await withFetch(fetchImpl, async () => {
+    const engine = new LmStudioEngine({});
+    const out = await engine.translate([{ text: "x" }]);
+    assert.deepEqual(out, ["ok"]);
+    assert.equal(chatCalls, 2);
+  });
+});
+
+test("errors clearly when no model is loaded", async () => {
+  const fetchImpl = ((url: string | URL) =>
+    String(url).endsWith("/models")
+      ? Promise.resolve(jsonResponse({ data: [] }))
+      : Promise.resolve(jsonResponse({}))) as FetchFn;
+
+  await withFetch(fetchImpl, async () => {
+    const engine = new LmStudioEngine({});
+    await assert.rejects(engine.translate([{ text: "x" }]), /no model/i);
+  });
 });

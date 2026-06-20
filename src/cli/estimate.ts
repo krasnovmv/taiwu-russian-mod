@@ -36,17 +36,22 @@ async function main(): Promise<void> {
   bar.finish();
 
   const total = sumCoverage(coverages);
-  const toTranslate = total.pending + total.stale;
-  const chars = total.pendingChars; // stale chars are recomputed at sync; pending is the floor
   const ratePerM = rate();
-  const costRub = (chars / 1_000_000) * ratePerM;
+  // Cost is computed from pending characters only; stale units re-use their
+  // original source whose chars are not tracked separately, so the cost is a
+  // lower bound when stale units exist.
+  const costRub = (total.pendingChars / 1_000_000) * ratePerM;
+  const fmt = (n: number): string => n.toLocaleString("en-US");
 
-  console.log(`Files:               ${files.length}`);
-  console.log(`Units total:         ${total.total.toLocaleString("en-US")}`);
-  console.log(`Units to translate:  ${toTranslate.toLocaleString("en-US")}`);
-  console.log(`Source characters:   ${chars.toLocaleString("en-US")} (pending only)`);
+  console.log(`Files:               ${fmt(files.length)}`);
+  console.log(`Units total:         ${fmt(total.total)}`);
+  console.log(`Units pending:       ${fmt(total.pending)}`);
+  console.log(`Units stale:         ${fmt(total.stale)} (source drifted; re-translate via sync)`);
+  console.log(`Pending characters:  ${fmt(total.pendingChars)}`);
   console.log(`\nRate:  ${ratePerM} RUB / 1M chars (approx; override TAIWU_YANDEX_RATE_RUB_PER_M)`);
-  console.log(`Cost:  ~${costRub.toFixed(2)} RUB`);
+  console.log(
+    `Cost:  ~${costRub.toFixed(2)} RUB (pending only${total.stale > 0 ? "; lower bound" : ""})`,
+  );
 }
 
 await main();

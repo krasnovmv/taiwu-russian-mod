@@ -42,3 +42,13 @@ test("CN reference is threaded through to the engine", async () => {
     "expected at least one request with a CN reference",
   );
 });
+
+test("a markup-mangling engine flags units as failed (never writes corrupt output)", async () => {
+  const breaker: TranslationEngine = {
+    id: "breaker",
+    translate: (reqs) => Promise.resolve(reqs.map(() => "BROKEN")), // drops all sentinels
+  };
+  const stats = await translateFile("BodyPart_language.txt", breaker, { dryRun: true });
+  assert.ok(stats.failed > 0, "expected markup units to fail restore validation");
+  assert.equal(stats.failures.length, stats.failed);
+});

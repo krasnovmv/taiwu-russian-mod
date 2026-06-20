@@ -1,26 +1,23 @@
 /**
- * Build translated file content from the original EN file and the TM.
+ * Build translated content for a paired-`.txt` file from a `key → RU` map.
+ * Used by the paired-txt format adapter (kept in its own file so the adapter
+ * stays readable).
  *
- * Pure (no filesystem) so it can be tested exhaustively. Safety properties:
+ * Pure (no filesystem). Safety properties:
  *   - Only VALUE lines are replaced (by index); key lines are never touched.
  *   - A translation containing a real newline would corrupt the strict
  *     key/value alternation, so such units are refused (counted `unsafe`) and
  *     the original value is kept.
- *   - After building, a structural guard re-parses the result and asserts the
- *     key sequence and line count are unchanged. If not, the build is rejected
- *     and nothing should be written.
+ *   - A structural guard re-parses the result and asserts the key sequence and
+ *     line count are unchanged; otherwise the build is rejected (`guardOk:false`).
  *   - Units without a translation keep their original EN value (graceful
  *     partial translation).
  */
-import type { ApplyOutcome } from "../formats/adapter.js";
-import { parsePairs, serializeRaw } from "../formats/paired-txt.js";
+import type { ApplyOutcome } from "./adapter.js";
+import { parsePairs, serializeRaw } from "./paired-txt.js";
 
 const NEWLINE_RE = /[\r\n]/;
 
-/**
- * Build translated content for a paired-`.txt` file from a `key → RU` map.
- * Used by the paired-txt format adapter.
- */
 export function buildTranslatedContent(
   originalContent: string,
   translations: ReadonlyMap<string, string>,

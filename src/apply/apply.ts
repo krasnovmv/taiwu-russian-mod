@@ -15,7 +15,7 @@ import { languageDir, languageRuDir } from "../config/paths.js";
 import { adapterFor } from "../formats/registry.js";
 import type { TmFile } from "../model/tm.js";
 import { loadTm } from "../tm/store.js";
-import { writeFileAtomic } from "./fs.js";
+import { writeFileAtomic } from "../util/fs.js";
 
 export interface ApplyOptions {
   /** EN source dir (default `Language_EN`). */

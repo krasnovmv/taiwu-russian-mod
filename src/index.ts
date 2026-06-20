@@ -1,9 +1,11 @@
 /**
  * Public entry point for the Taiwu localization toolkit.
  *
- * Phase 1 exposes the paired-`.txt` format layer; Phase 2 adds bilingual
- * EN↔CN alignment and the translation-memory model/store. The translation
- * engine and remaining format adapters are added in later phases.
+ * Engines are exposed only through the `TranslationEngine` interface + the
+ * `createEngine` factory (concrete engine classes are intentionally not
+ * re-exported, so callers stay decoupled from a specific implementation).
+ * Likewise, formats are reached through the `FormatAdapter` interface +
+ * `adapterFor` registry.
  */
 export * from "./model/types.js";
 export * from "./model/tm.js";
@@ -18,15 +20,11 @@ export * from "./tm/sync.js";
 export * from "./scan.js";
 export * from "./engine/types.js";
 export * from "./engine/protect.js";
-export * from "./engine/factory.js";
-export { MockEngine } from "./engine/mock.js";
-export { YandexEngine } from "./engine/yandex.js";
-export { LmStudioEngine } from "./engine/lmstudio.js";
+export { createEngine, parseEngineId, type EngineId } from "./engine/factory.js";
 export * from "./glossary/load.js";
 export * from "./translate/pipeline.js";
-export * from "./apply/build.js";
-export * from "./apply/fs.js";
 export * from "./apply/apply.js";
 export * from "./validate/qa.js";
+export { writeFileAtomic } from "./util/fs.js";
 export { languageDir, languageCnDir, languageRuDir, tmDir, projectRoot } from "./config/paths.js";
 export { GLOSSARY_VERSION } from "./config/glossary.js";

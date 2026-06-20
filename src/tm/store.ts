@@ -3,11 +3,12 @@
  * serialized deterministically (stable key order, 2-space indent, LF, trailing
  * newline) so git diffs stay clean and reviewable.
  */
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import path from "node:path";
 
 import { tmDir } from "../config/paths.js";
 import type { TmFile } from "../model/tm.js";
+import { writeFileAtomic } from "../util/fs.js";
 
 function tmPathFor(file: string): string {
   return path.join(tmDir, `${file}.json`);
@@ -32,7 +33,5 @@ export function serializeTm(tm: TmFile): string {
 
 /** Persist the TM for a source file (creates nested dirs for tsv/json paths). */
 export async function saveTm(tm: TmFile): Promise<void> {
-  const dest = tmPathFor(tm.file);
-  await mkdir(path.dirname(dest), { recursive: true });
-  await writeFile(dest, serializeTm(tm), "utf8");
+  await writeFileAtomic(tmPathFor(tm.file), serializeTm(tm));
 }

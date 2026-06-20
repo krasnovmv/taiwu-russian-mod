@@ -13,12 +13,12 @@
 import { Session } from "@yandex-cloud/nodejs-sdk";
 import { translationService } from "@yandex-cloud/nodejs-sdk/ai-translate-v2";
 
+import { backoffMs, delay } from "../util/async.js";
 import type { ProgressCallback, TranslationEngine, TranslationRequest } from "./types.js";
 
 const CHAR_BUDGET = 9000;
 const MAX_TEXTS = 100;
 const MAX_RETRIES = 5;
-const BASE_DELAY_MS = 500;
 
 export interface YandexConfig {
   iamToken: string;
@@ -79,7 +79,7 @@ export class YandexEngine implements TranslationEngine {
         return response.translations.map((t) => t.text);
       } catch (err) {
         if (attempt >= MAX_RETRIES) throw err;
-        await delay(BASE_DELAY_MS * 2 ** attempt);
+        await delay(backoffMs(attempt));
       }
     }
   }
@@ -102,8 +102,4 @@ export function batchByChars(texts: string[], charBudget: number, maxTexts: numb
   }
   if (current.length > 0) batches.push(current);
   return batches;
-}
-
-function delay(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms));
 }

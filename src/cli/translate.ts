@@ -29,8 +29,13 @@ function parseArgs(argv: string[]): {
 
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
-    if (arg === "--engine") engine = parseEngineId(argv[++i]);
-    else if (arg === "--limit") limit = Number(argv[++i]);
+    if (arg === "--engine") {
+      const value = argv[++i];
+      engine = parseEngineId(value);
+      if (value !== undefined && value !== engine) {
+        console.error(`Unknown engine "${value}"; falling back to "${engine}".`);
+      }
+    } else if (arg === "--limit") limit = Number(argv[++i]);
     else if (arg === "--dry-run") dryRun = true;
     else if (arg === "--all") all = true;
     else if (arg && !arg.startsWith("--")) file = arg;

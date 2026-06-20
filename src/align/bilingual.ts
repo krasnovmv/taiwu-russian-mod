@@ -10,9 +10,6 @@ import { languageCnDir, languageDir } from "../config/paths.js";
 import type { SourceUnit } from "../formats/adapter.js";
 import { adapterFor } from "../formats/registry.js";
 
-/** @deprecated use {@link SourceUnit}; kept as a name for back-compat. */
-export type AlignedUnit = SourceUnit;
-
 export interface AlignedFile {
   file: string;
   units: SourceUnit[];

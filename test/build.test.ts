@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import { buildTranslatedContent } from "../src/apply/build.js";
+import { buildTranslatedContent } from "../src/formats/paired-txt-build.js";
 
 const ORIGINAL = "Name_0\nIron Ring\nName_1\nSteel Abacus\n\n";
 
