@@ -36,6 +36,7 @@ export interface YandexConfig {
 
 export class YandexEngine implements TranslationEngine {
   readonly id = "yandex";
+  readonly checkpointSize = 100; // fast batched MT; whole files complete quickly
   private readonly cfg: Required<Pick<YandexConfig, "sourceLang" | "targetLang">> & YandexConfig;
   private client: ReturnType<typeof createTranslationClient> | null = null;
   private folderId: string | null = null;

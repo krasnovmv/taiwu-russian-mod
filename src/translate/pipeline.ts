@@ -1,5 +1,5 @@
 /**
- * Translation pipeline for one paired-`.txt` file.
+ * Translation pipeline for one source file.
  *
  * Flow per unit: align EN↔CN → mask markup/glossary → (engine if translatable)
  * → restore + validate → write into the translation memory. Writes ONLY the TM
@@ -9,6 +9,11 @@
  *     refreshed, but `ru` is preserved);
  *   - units whose restore validation fails are counted as `failed` and left
  *     pending — corrupted markup is never written.
+ *
+ * The TM is flushed in checkpoints of `engine.checkpointSize` units, so an
+ * interrupted run loses at most one checkpoint's worth of work (not the whole
+ * file). Every key is present in the TM from the first flush as `pending` and is
+ * upgraded to `machine` as checkpoints complete.
  */
 import { GLOSSARY_VERSION } from "../config/glossary.js";
 import { alignFile } from "../align/bilingual.js";
@@ -46,8 +51,6 @@ interface WorkItem {
   unit: SourceUnit;
   hash: string;
   masked: ReturnType<typeof mask>;
-  /** Index into the engine batch, or -1 if it needs no engine call. */
-  batchIndex: number;
 }
 
 function needsTranslation(prev: TmUnit | undefined, hash: string): boolean {
@@ -67,7 +70,6 @@ export async function translateFile(
 
   const units: Record<string, TmUnit> = {};
   const work: WorkItem[] = [];
-  const batch: TranslationRequest[] = [];
   let pending = 0;
   let skipped = 0;
 
@@ -83,51 +85,15 @@ export async function translateFile(
     }
 
     pending++;
+    // Every key is present in the TM from the start, as pending; checkpoints
+    // upgrade the translated ones in place.
+    units[unit.key] = prev ? { ...prev, cn: unit.cn } : newPendingUnit(unit, hash);
+
     if (options.limit !== undefined && work.length >= options.limit) {
-      // Beyond the limit: keep any previous state, else leave pending.
-      units[unit.key] = prev ? { ...prev, cn: unit.cn } : newPendingUnit(unit, hash);
-      skipped++;
+      skipped++; // beyond the limit: stays pending
       continue;
     }
-
-    const masked = mask(unit.en, glossary);
-    const item: WorkItem = { unit, hash, masked, batchIndex: -1 };
-    if (masked.translatable) {
-      item.batchIndex = batch.length;
-      batch.push({ text: masked.masked, reference: unit.cn });
-    }
-    work.push(item);
-  }
-
-  const translations = batch.length > 0 ? await engine.translate(batch, options.onProgress) : [];
-
-  let translated = 0;
-  let failed = 0;
-  const failures: { key: string; error: string }[] = [];
-
-  for (const item of work) {
-    const { unit, hash, masked } = item;
-    const engineOut = item.batchIndex >= 0 ? (translations[item.batchIndex] ?? "") : masked.masked;
-    const restored = restore(engineOut, masked);
-
-    if (!restored.ok) {
-      failed++;
-      failures.push({ key: unit.key, error: restored.error ?? "restore failed" });
-      const prev = existing?.units[unit.key];
-      units[unit.key] = prev ? { ...prev, cn: unit.cn } : newPendingUnit(unit, hash);
-      continue;
-    }
-
-    translated++;
-    units[unit.key] = {
-      en: unit.en,
-      cn: unit.cn,
-      ru: restored.text,
-      status: "machine",
-      srcHash: hash,
-      engine: engine.id,
-      updatedAt: options.now ?? null,
-    };
+    work.push({ unit, hash, masked: mask(unit.en, glossary) });
   }
 
   const tm: TmFile = {
@@ -136,7 +102,60 @@ export async function translateFile(
     glossaryVersion: GLOSSARY_VERSION,
     units,
   };
-  if (!options.dryRun) await saveTm(tm);
+  const flush = async (): Promise<void> => {
+    if (!options.dryRun) await saveTm(tm);
+  };
+
+  let translated = 0;
+  let failed = 0;
+  let progressBase = 0;
+  const failures: { key: string; error: string }[] = [];
+  const checkpoint = Math.max(1, engine.checkpointSize);
+
+  for (let start = 0; start < work.length; start += checkpoint) {
+    const chunk = work.slice(start, start + checkpoint);
+
+    // Only translatable items hit the engine; the rest restore to themselves.
+    const requests: TranslationRequest[] = [];
+    const requestIndex = chunk.map((item) => {
+      if (!item.masked.translatable) return -1;
+      requests.push({ text: item.masked.masked, reference: item.unit.cn });
+      return requests.length - 1;
+    });
+
+    const base = progressBase;
+    const translations =
+      requests.length > 0
+        ? await engine.translate(requests, (n) => options.onProgress?.(base + n))
+        : [];
+    progressBase += requests.length;
+
+    chunk.forEach((item, i) => {
+      const ri = requestIndex[i] ?? -1;
+      const engineOut = ri >= 0 ? (translations[ri] ?? "") : item.masked.masked;
+      const restored = restore(engineOut, item.masked);
+      if (!restored.ok) {
+        failed++;
+        failures.push({ key: item.unit.key, error: restored.error ?? "restore failed" });
+        return; // leave the pending placeholder in place
+      }
+      translated++;
+      units[item.unit.key] = {
+        en: item.unit.en,
+        cn: item.unit.cn,
+        ru: restored.text,
+        status: "machine",
+        srcHash: item.hash,
+        engine: engine.id,
+        updatedAt: options.now ?? null,
+      };
+    });
+
+    await flush(); // checkpoint after each chunk
+  }
+
+  // No work (e.g. fully cached or limit 0): still persist carried-forward CN refresh.
+  if (work.length === 0) await flush();
 
   return {
     file,

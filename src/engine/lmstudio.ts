@@ -61,6 +61,7 @@ interface ChatResponse {
 
 export class LmStudioEngine implements TranslationEngine {
   readonly id = "lmstudio";
+  readonly checkpointSize = 20; // slow local LLM (~1s/unit); checkpoint often
   private readonly baseUrl: string;
   private readonly concurrency: number;
   private model: string | null;

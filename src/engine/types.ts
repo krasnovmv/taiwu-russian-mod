@@ -22,6 +22,12 @@ export interface TranslationEngine {
   /** Stable identifier recorded in the TM, e.g. "yandex" or "lmstudio". */
   readonly id: string;
   /**
+   * How many units the pipeline translates before flushing a TM checkpoint.
+   * Smaller = less work lost if interrupted; tune per engine speed (a slow local
+   * LLM wants a small value, fast batched MT a larger one).
+   */
+  readonly checkpointSize: number;
+  /**
    * Translate a batch of requests, returning a same-length array of
    * translations (index-aligned). Implementations should preserve any opaque
    * sentinel tokens in `text` verbatim; the caller validates this afterwards.

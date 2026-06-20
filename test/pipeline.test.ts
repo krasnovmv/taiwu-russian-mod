@@ -29,6 +29,7 @@ test("CN reference is threaded through to the engine", async () => {
   const requests: TranslationRequest[] = [];
   const recorder: TranslationEngine = {
     id: "recorder",
+    checkpointSize: 100,
     translate(reqs) {
       requests.push(...reqs);
       return Promise.resolve(reqs.map((r) => `ru:${r.text}`));
@@ -43,9 +44,27 @@ test("CN reference is threaded through to the engine", async () => {
   );
 });
 
+test("progress is cumulative across checkpoints (does not reset per chunk)", async () => {
+  const seen: number[] = [];
+  const engine: TranslationEngine = {
+    id: "cp",
+    checkpointSize: 1, // one unit per checkpoint -> many chunks
+    translate: (reqs, onProgress) => {
+      reqs.forEach((_, i) => onProgress?.(i + 1));
+      return Promise.resolve(reqs.map((r) => `ru:${r.text}`));
+    },
+  };
+  await translateFile(SAMPLE, engine, { dryRun: true, onProgress: (n) => seen.push(n) });
+  assert.ok(seen.length > 1, "expected multiple checkpoints");
+  for (let i = 1; i < seen.length; i++) {
+    assert.ok(seen[i]! > seen[i - 1]!, `progress must increase, got ${seen.join(",")}`);
+  }
+});
+
 test("a markup-mangling engine flags units as failed (never writes corrupt output)", async () => {
   const breaker: TranslationEngine = {
     id: "breaker",
+    checkpointSize: 5,
     translate: (reqs) => Promise.resolve(reqs.map(() => "BROKEN")), // drops all sentinels
   };
   const stats = await translateFile("BodyPart_language.txt", breaker, { dryRun: true });

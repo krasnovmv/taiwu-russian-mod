@@ -7,6 +7,7 @@ import type { ProgressCallback, TranslationEngine, TranslationRequest } from "./
  */
 export class MockEngine implements TranslationEngine {
   readonly id = "mock";
+  readonly checkpointSize = 200;
 
   translate(requests: TranslationRequest[], onProgress?: ProgressCallback): Promise<string[]> {
     return Promise.resolve(
