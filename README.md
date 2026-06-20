@@ -78,10 +78,14 @@ npm run validate                       # QA the translations in the TM
 npm run apply -- --all                 # build Language_RU (source untouched)
 ```
 
-`--route` splits by source length at `ROUTING_THRESHOLD` (`src/config/translate.ts`,
-default 40): short UI strings go to fast/cheap Yandex, long markup-heavy prose to
-the local LLM (better grammar/declension). Both are applied. Or pick one engine
-with `--engine`, optionally windowed by `--min-len`/`--max-len`. Changing the
+`--route` splits by source length at `--threshold` (default `ROUTING_THRESHOLD`
+in `src/config/translate.ts`, 40): short UI strings go to fast/cheap Yandex,
+longer markup-heavy prose to the local LLM (better grammar/declension). Add
+`--max-len N` to **skip** anything longer than N entirely (English kept) — handy
+for a one-off run where the slow LLM shouldn't churn through the longest prose.
+So `--route --threshold 20 --max-len 40` means: ≤20 → Yandex, 21–40 → LM Studio,
+&gt;40 → skipped. Both translated tiers are applied. Or pick one engine with
+`--engine`, optionally windowed by `--min-len`/`--max-len`. Changing the
 threshold re-routes units across the boundary on the next run (cache-first, so
 re-routing is free where that engine already translated the text).
 

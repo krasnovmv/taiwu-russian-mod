@@ -3,16 +3,18 @@
  *
  *   npm run translate -- <file> [--engine mock|yandex|lmstudio] [--limit N] [--dry-run]
  *   npm run translate -- --all   [--engine mock|yandex|lmstudio] [--limit N]
- *   npm run translate -- --all --route [--threshold N]
+ *   npm run translate -- --all --route [--threshold N] [--max-len N]
  *
  * Writes only the TM (tm/<file>.json), never the game files. Default engine is
  * `mock` (offline, free). `--engine yandex` needs TAIWU_YANDEX_* env vars;
  * `--engine lmstudio` talks to a local LM Studio server. `--all` is resumable:
  * TM is saved per file, so re-running skips already-translated units.
  *
- * `--route` ignores `--engine` and routes by source length: units up to the
- * threshold (default ROUTING_THRESHOLD) go to Yandex, longer ones to LM Studio.
- * `--min-len`/`--max-len` restrict a single-engine run to a length window.
+ * `--route` ignores `--engine` and routes by source length: units up to
+ * `--threshold` (default ROUTING_THRESHOLD) go to Yandex, longer ones to LM
+ * Studio. With `--max-len N`, units longer than N are skipped entirely (English
+ * kept) — e.g. `--route --threshold 20 --max-len 40`: ≤20 Yandex, 21–40 LM
+ * Studio, >40 skipped. `--min-len`/`--max-len` also window a single-engine run.
  */
 import { ROUTING_THRESHOLD } from "../config/translate.js";
 import { createEngine, parseEngineId, type EngineId } from "../engine/factory.js";
@@ -122,13 +124,17 @@ async function main(): Promise<void> {
   const passes: PassResult[] = [];
 
   if (args.route) {
-    // Length-routed: Yandex for short units, LM Studio for long ones.
+    // Length-routed: Yandex for short units, LM Studio for mid-length ones, and
+    // (with --max-len) skip anything longer so a one-off run isn't held up by the
+    // slow LLM on the longest prose — those stay untranslated (English on apply).
     const t = args.threshold ?? ROUTING_THRESHOLD;
+    const cap = args.maxLen; // optional upper bound; units longer than this are skipped
     const [yandex, lmstudio] = await Promise.all([
       createEngine("yandex"),
       createEngine("lmstudio"),
     ]);
-    console.log(`Route${suffix} | files: ${files.length} | threshold: ${t} chars`);
+    const capNote = cap !== undefined ? ` | skip > ${cap}` : "";
+    console.log(`Route${suffix} | files: ${files.length} | Yandex ≤${t} < LM Studio${capNote}`);
     passes.push(
       await runPass(
         files,
@@ -137,12 +143,13 @@ async function main(): Promise<void> {
         `\nPass 1/2 — Yandex (≤ ${t} chars)`,
       ),
     );
+    const lmRange = cap !== undefined ? `${t + 1}–${cap}` : `> ${t}`;
     passes.push(
       await runPass(
         files,
         lmstudio,
-        { dryRun: args.dryRun, now, minLen: t + 1 },
-        `\nPass 2/2 — LM Studio (> ${t} chars)`,
+        { dryRun: args.dryRun, now, minLen: t + 1, maxLen: cap },
+        `\nPass 2/2 — LM Studio (${lmRange} chars)`,
       ),
     );
   } else {
