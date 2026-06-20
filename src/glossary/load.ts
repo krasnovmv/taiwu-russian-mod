@@ -8,9 +8,7 @@ import path from "node:path";
 
 import { projectRoot } from "../config/paths.js";
 
-const glossaryPath = process.env.TAIWU_GLOSSARY
-  ? path.resolve(process.env.TAIWU_GLOSSARY)
-  : path.join(projectRoot, "data", "glossary.json");
+const glossaryPath = path.join(projectRoot, "data", "glossary.json");
 
 let cached: ReadonlyMap<string, string> | null = null;
 

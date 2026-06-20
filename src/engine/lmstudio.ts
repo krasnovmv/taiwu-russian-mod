@@ -11,11 +11,10 @@
  * still validates this on restore, so a model that mangles them flags the unit
  * rather than writing corrupt output.
  *
- * Reasoning is disabled by default (`enable_thinking: false`) — for a reasoning
- * model like Qwen3 it cuts latency dramatically (~70s → ~1s per request) and the
- * thinking trace never reaches the output. Re-enable with
- * `TAIWU_LMSTUDIO_THINKING=on`. Any inline `<think>…</think>` is also stripped as
- * a fallback for models that ignore the flag.
+ * Reasoning is always disabled (`enable_thinking: false`) — for a reasoning model
+ * like Qwen3 it cuts latency dramatically (~70s → ~1s per request) and the
+ * thinking trace never reaches the output. Any inline `<think>…</think>` is also
+ * stripped as a fallback for models that ignore the flag.
  */
 import { backoffMs, delay } from "../util/async.js";
 import type { ProgressCallback, TranslationEngine, TranslationRequest } from "./types.js";
@@ -51,8 +50,6 @@ export interface LmStudioConfig {
   baseUrl?: string;
   model?: string;
   concurrency?: number;
-  /** Allow the model to emit reasoning. Default false (much faster). */
-  thinking?: boolean;
 }
 
 interface ModelsResponse {
@@ -66,14 +63,12 @@ export class LmStudioEngine implements TranslationEngine {
   readonly id = "lmstudio";
   private readonly baseUrl: string;
   private readonly concurrency: number;
-  private readonly thinking: boolean;
   private model: string | null;
 
   constructor(cfg: LmStudioConfig = {}) {
     this.baseUrl = (cfg.baseUrl ?? "http://localhost:1234/v1").replace(/\/$/, "");
     this.model = cfg.model ?? null;
     this.concurrency = Math.max(1, cfg.concurrency ?? 4);
-    this.thinking = cfg.thinking ?? false;
   }
 
   static fromEnv(): LmStudioEngine {
@@ -82,7 +77,6 @@ export class LmStudioEngine implements TranslationEngine {
       baseUrl: process.env.TAIWU_LMSTUDIO_BASE_URL,
       model: process.env.TAIWU_LMSTUDIO_MODEL,
       concurrency: Number.isFinite(concurrency) ? concurrency : undefined,
-      thinking: /^(on|1|true|yes)$/i.test(process.env.TAIWU_LMSTUDIO_THINKING ?? ""),
     });
   }
 
@@ -122,7 +116,7 @@ export class LmStudioEngine implements TranslationEngine {
     const userContent = reference
       ? `Chinese original (meaning reference): ${reference}\n\nEnglish to translate:\n${req.text}`
       : req.text;
-    const payload: Record<string, unknown> = {
+    const body = JSON.stringify({
       model: this.model,
       temperature: 0,
       stream: false,
@@ -130,14 +124,11 @@ export class LmStudioEngine implements TranslationEngine {
         { role: "system", content: SYSTEM_PROMPT },
         { role: "user", content: userContent },
       ],
-    };
-    if (!this.thinking) {
       // Disable reasoning. `enable_thinking` works for Qwen3 via LM Studio;
       // `chat_template_kwargs` covers other servers/models.
-      payload.enable_thinking = false;
-      payload.chat_template_kwargs = { enable_thinking: false };
-    }
-    const body = JSON.stringify(payload);
+      enable_thinking: false,
+      chat_template_kwargs: { enable_thinking: false },
+    });
 
     for (let attempt = 0; ; attempt++) {
       let res: Response;
