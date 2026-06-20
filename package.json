@@ -8,13 +8,20 @@
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc --noEmit",
     "test": "node --import tsx --test test/**/*.test.ts",
-    "roundtrip": "node --import tsx src/cli/roundtrip.ts"
+    "roundtrip": "node --import tsx src/cli/roundtrip.ts",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
-  "dependencies": {},
   "devDependencies": {
-    "@types/node": "^22.10.2",
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.2"
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.0.0",
+    "eslint": "^10.5.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.4",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.61.1"
   },
   "private": true
 }

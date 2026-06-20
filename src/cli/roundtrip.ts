@@ -48,7 +48,9 @@ async function main(): Promise<void> {
     process.exitCode = 1;
     console.error("\nFAILED — see issues above.");
   } else {
-    console.log("\nOK — all files round-trip byte-identical; only known multiline files quarantined.");
+    console.log(
+      "\nOK — all files round-trip byte-identical; only known multiline files quarantined.",
+    );
   }
 }
 
