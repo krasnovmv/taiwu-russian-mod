@@ -42,24 +42,32 @@ async function main(): Promise<void> {
   }
 
   const files = fileArg ? [fileArg] : await listSourceFiles();
-  const issues = (await collect(files, semantic)).filter(
-    (i) => !kindFilter || i.kind === kindFilter,
-  );
+  const all = (await collect(files, semantic)).filter((i) => !kindFilter || i.kind === kindFilter);
+
+  // `untranslated` (RU == EN) is expected while translation is incomplete — it is
+  // informational, not an error: it is reported but never fails the run.
+  const INFO_KINDS = new Set<IssueKind>(["untranslated"]);
+  const errors = all.filter((i) => !INFO_KINDS.has(i.kind));
+  const info = all.filter((i) => INFO_KINDS.has(i.kind));
 
   const byKind = new Map<string, number>();
-  for (const i of issues) byKind.set(i.kind, (byKind.get(i.kind) ?? 0) + 1);
+  for (const i of all) byKind.set(i.kind, (byKind.get(i.kind) ?? 0) + 1);
 
   const mode = semantic ? "EN↔CN semantic" : "TM";
-  console.log(`Checked ${files.length} file(s) [${mode}]; ${issues.length} issue(s).\n`);
+  console.log(
+    `Checked ${files.length} file(s) [${mode}]; ${errors.length} error(s)` +
+      (info.length > 0 ? `, ${info.length} informational` : "") +
+      `.\n`,
+  );
   for (const [kind, count] of [...byKind].sort((a, b) => b[1] - a[1])) {
-    console.log(`  ${kind}: ${count}`);
+    console.log(`  ${kind}: ${count}${INFO_KINDS.has(kind as IssueKind) ? " (info)" : ""}`);
   }
 
-  if (issues.length > 0) {
+  if (errors.length > 0) {
     console.log(`\nSamples:`);
-    for (const i of issues.slice(0, 25))
+    for (const i of errors.slice(0, 25))
       console.log(`  [${i.kind}] ${i.file} ${i.key}: ${i.detail}`);
-    if (issues.length > 25) console.log(`  … and ${issues.length - 25} more`);
+    if (errors.length > 25) console.log(`  … and ${errors.length - 25} more`);
     process.exitCode = 1;
   }
 }
