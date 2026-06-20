@@ -38,6 +38,7 @@ async function main(): Promise<void> {
   console.log(`Files:               ${fmt(files.length)}`);
   console.log(`Units total:         ${fmt(total.total)}`);
   console.log(`Units pending:       ${fmt(total.pending)}`);
+  console.log(`Units out of scope:  ${fmt(total.outOfScope)} (over length cap; not translated)`);
   console.log(`Units stale:         ${fmt(total.stale)} (source drifted; re-translate via sync)`);
   console.log(`Pending characters:  ${fmt(total.pendingChars)}`);
   console.log(`\nRate:  ${RATE_RUB_PER_M} RUB / 1M chars (approx)`);

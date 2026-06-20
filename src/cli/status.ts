@@ -40,6 +40,9 @@ async function main(): Promise<void> {
   console.log(
     `  pending:        ${total.pending.toLocaleString("en-US")} (${pct(total.pending, total.total)})`,
   );
+  console.log(
+    `  out of scope:   ${total.outOfScope.toLocaleString("en-US")} (over length cap; English kept)`,
+  );
   console.log(`\nKeys EN-only (no CN reference): ${total.onlyEn.toLocaleString("en-US")}`);
   console.log(`Keys CN-only (no EN source):    ${total.onlyCn.toLocaleString("en-US")}`);
 

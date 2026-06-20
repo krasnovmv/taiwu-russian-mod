@@ -12,6 +12,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 
 import { languageDir, languageRuDir } from "../config/paths.js";
+import { withinLengthCap } from "../config/translate.js";
 import { adapterFor } from "../formats/registry.js";
 import type { TmFile } from "../model/tm.js";
 import { loadTm } from "../tm/store.js";
@@ -44,11 +45,15 @@ export async function applyFile(file: string, options: ApplyOptions = {}): Promi
 
   const original = await readFile(path.join(srcDir, file), "utf8");
 
-  // Every unit (ru ?? en): translated where available, English otherwise.
+  // Per unit: the RU translation where usable, English otherwise. A machine
+  // translation is used only if the source is within the length cap; human
+  // (reviewed/locked) translations are always used regardless of length.
   const translations = new Map<string, string>();
   if (tm) {
     for (const [key, unit] of Object.entries(tm.units)) {
-      translations.set(key, unit.ru ?? unit.en);
+      const human = unit.status === "reviewed" || unit.status === "locked";
+      const usable = unit.ru != null && (human || withinLengthCap(unit.en));
+      translations.set(key, usable ? (unit.ru as string) : unit.en);
     }
   }
 

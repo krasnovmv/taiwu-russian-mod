@@ -13,7 +13,7 @@ import { translateFile } from "../src/translate/pipeline.js";
 const SAMPLE = "Loong_language.txt";
 
 test(`translateFile runs clean on ${SAMPLE} (mock, dry-run)`, async () => {
-  const stats = await translateFile(SAMPLE, new MockEngine(), { dryRun: true });
+  const stats = await translateFile(SAMPLE, new MockEngine(), { dryRun: true, maxLen: Infinity });
   assert.ok(stats.total > 0);
   assert.equal(stats.failed, 0, JSON.stringify(stats.failures));
   assert.ok(stats.translated > 0, "expected some units translated");
@@ -35,7 +35,7 @@ test("CN reference is threaded through to the engine", async () => {
       return Promise.resolve(reqs.map((r) => `ru:${r.text}`));
     },
   };
-  await translateFile(SAMPLE, recorder, { dryRun: true });
+  await translateFile(SAMPLE, recorder, { dryRun: true, maxLen: Infinity });
   assert.ok(requests.length > 0);
   // Loong has CN references, so at least one request carries one.
   assert.ok(
@@ -54,7 +54,11 @@ test("progress is cumulative across checkpoints (does not reset per chunk)", asy
       return Promise.resolve(reqs.map((r) => `ru:${r.text}`));
     },
   };
-  await translateFile(SAMPLE, engine, { dryRun: true, onProgress: (n) => seen.push(n) });
+  await translateFile(SAMPLE, engine, {
+    dryRun: true,
+    maxLen: Infinity,
+    onProgress: (n) => seen.push(n),
+  });
   assert.ok(seen.length > 1, "expected multiple checkpoints");
   for (let i = 1; i < seen.length; i++) {
     assert.ok(seen[i]! > seen[i - 1]!, `progress must increase, got ${seen.join(",")}`);
@@ -67,7 +71,18 @@ test("a markup-mangling engine flags units as failed (never writes corrupt outpu
     checkpointSize: 5,
     translate: (reqs) => Promise.resolve(reqs.map(() => "BROKEN")), // drops all sentinels
   };
-  const stats = await translateFile("BodyPart_language.txt", breaker, { dryRun: true });
+  const stats = await translateFile("BodyPart_language.txt", breaker, {
+    dryRun: true,
+    maxLen: Infinity,
+  });
   assert.ok(stats.failed > 0, "expected markup units to fail restore validation");
   assert.equal(stats.failures.length, stats.failed);
+});
+
+test("length cap leaves longer units untranslated (live filter)", async () => {
+  // A tiny cap: only the shortest units are sent to the engine.
+  const small = await translateFile(SAMPLE, new MockEngine(), { dryRun: true, maxLen: 5 });
+  const big = await translateFile(SAMPLE, new MockEngine(), { dryRun: true, maxLen: Infinity });
+  assert.ok(small.translated < big.translated, "a smaller cap must translate fewer units");
+  assert.equal(small.translated + small.skipped + small.failed, small.total);
 });
