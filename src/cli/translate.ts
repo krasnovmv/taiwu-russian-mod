@@ -1,22 +1,27 @@
 /**
- * Translate one file's pending units into the translation memory.
+ * Translate pending units into the translation memory.
  *
  *   npm run translate -- <file> [--engine mock|yandex] [--limit N] [--dry-run]
+ *   npm run translate -- --all   [--engine mock|yandex] [--limit N]
  *
  * Writes only the TM (tm/<file>.json), never the game files. Default engine is
  * `mock` (offline, free). Use `--engine yandex` with TAIWU_YANDEX_IAM_TOKEN and
- * TAIWU_YANDEX_FOLDER_ID set for real translation.
+ * TAIWU_YANDEX_FOLDER_ID set for real translation. `--all` is resumable: TM is
+ * saved per file, so re-running skips already-translated units.
  */
 import { createEngine, type EngineId } from "../engine/factory.js";
-import { translateFile } from "../translate/pipeline.js";
+import { listTranslatableTxtFiles } from "../scan.js";
+import { translateFile, type TranslateStats } from "../translate/pipeline.js";
 
 function parseArgs(argv: string[]): {
   file: string | undefined;
+  all: boolean;
   engine: EngineId;
   limit: number | undefined;
   dryRun: boolean;
 } {
   let file: string | undefined;
+  let all = false;
   let engine: EngineId = "mock";
   let limit: number | undefined;
   let dryRun = false;
@@ -26,43 +31,48 @@ function parseArgs(argv: string[]): {
     if (arg === "--engine") engine = argv[++i] === "yandex" ? "yandex" : "mock";
     else if (arg === "--limit") limit = Number(argv[++i]);
     else if (arg === "--dry-run") dryRun = true;
+    else if (arg === "--all") all = true;
     else if (arg && !arg.startsWith("--")) file = arg;
   }
-  return { file, engine, limit, dryRun };
+  return { file, all, engine, limit, dryRun };
+}
+
+function printStats(stats: TranslateStats, label: string): void {
+  console.log(
+    `  ${label}: ${stats.translated} translated, ${stats.skipped} skipped, ${stats.failed} failed`,
+  );
 }
 
 async function main(): Promise<void> {
-  const { file, engine: engineId, limit, dryRun } = parseArgs(process.argv.slice(2));
-  if (!file) {
+  const { file, all, engine: engineId, limit, dryRun } = parseArgs(process.argv.slice(2));
+  if (!all && !file) {
     console.error(
-      "Usage: npm run translate -- <file> [--engine mock|yandex] [--limit N] [--dry-run]",
+      "Usage: npm run translate -- (<file> | --all) [--engine mock|yandex] [--limit N] [--dry-run]",
     );
     process.exitCode = 1;
     return;
   }
 
   const engine = createEngine(engineId);
-  const stats = await translateFile(file, engine, {
-    limit,
-    dryRun,
-    now: new Date().toISOString(),
-  });
+  const now = new Date().toISOString();
+  const files = all ? await listTranslatableTxtFiles() : [file as string];
 
-  console.log(`File:        ${stats.file}`);
-  console.log(`Engine:      ${engine.id}${dryRun ? " (dry-run, TM not written)" : ""}`);
-  console.log(`Units:       ${stats.total}`);
-  console.log(`Pending:     ${stats.pending}`);
-  console.log(`Translated:  ${stats.translated}`);
-  console.log(`Skipped:     ${stats.skipped}`);
-  console.log(`Failed:      ${stats.failed}`);
+  console.log(`Engine: ${engine.id}${dryRun ? " (dry-run)" : ""} | files: ${files.length}\n`);
 
-  if (stats.failures.length > 0) {
-    console.log(`\nFailures (markup validation):`);
-    for (const f of stats.failures.slice(0, 20)) {
-      console.log(`  ${f.key}: ${f.error}`);
+  let translated = 0;
+  let failed = 0;
+  for (const f of files) {
+    const stats = await translateFile(f, engine, { limit, dryRun, now });
+    translated += stats.translated;
+    failed += stats.failed;
+    if (!all || stats.translated > 0 || stats.failed > 0) printStats(stats, f);
+    if (stats.failures.length > 0 && !all) {
+      for (const fail of stats.failures.slice(0, 20))
+        console.log(`      ${fail.key}: ${fail.error}`);
     }
-    if (stats.failures.length > 20) console.log(`  … and ${stats.failures.length - 20} more`);
   }
+
+  console.log(`\nTotal translated: ${translated}, failed: ${failed}`);
 }
 
 await main();

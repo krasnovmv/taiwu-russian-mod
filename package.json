@@ -12,6 +12,8 @@
     "status": "node --env-file-if-exists=.env --import tsx src/cli/status.ts",
     "estimate": "node --env-file-if-exists=.env --import tsx src/cli/estimate.ts",
     "translate": "node --env-file-if-exists=.env --import tsx src/cli/translate.ts",
+    "validate": "node --env-file-if-exists=.env --import tsx src/cli/validate.ts",
+    "apply": "node --env-file-if-exists=.env --import tsx src/cli/apply.ts",
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check ."

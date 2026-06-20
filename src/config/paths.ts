@@ -33,3 +33,11 @@ export const languageCnDir = process.env.TAIWU_LANG_CN_DIR
 export const tmDir = process.env.TAIWU_TM_DIR
   ? path.resolve(process.env.TAIWU_TM_DIR)
   : path.join(projectRoot, "tm");
+
+/**
+ * Directory holding pristine backups of original EN files, created once before
+ * the first in-place write. Override with `TAIWU_BACKUP_DIR`. Gitignored.
+ */
+export const backupDir = process.env.TAIWU_BACKUP_DIR
+  ? path.resolve(process.env.TAIWU_BACKUP_DIR)
+  : path.join(projectRoot, "backups", "Language_EN.original");

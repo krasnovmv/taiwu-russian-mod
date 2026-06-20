@@ -110,6 +110,15 @@ export function restore(translated: string, m: Masked): RestoreResult {
   return { ok: true, text: m.leading + body + m.trailing };
 }
 
+/**
+ * Extract the sorted multiset of markup tokens (tags + placeholders) in a
+ * string. Used by QA to assert EN and RU carry identical markup.
+ */
+export function extractMarkup(text: string): string[] {
+  const found = [...(text.match(TAG_RE) ?? []), ...(text.match(PLACEHOLDER_RE) ?? [])];
+  return found.sort();
+}
+
 function escapeRegExp(s: string): string {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
