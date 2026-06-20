@@ -92,6 +92,33 @@ test("editing a term re-translates only texts that contain it", async () => {
   assert.deepEqual(c.seen, ["your Qi", "your Qi"]);
 });
 
+test("invalid outputs are not cached (re-translated on the next run)", async () => {
+  const file = await cacheFile();
+  let calls = 0;
+  const broken: TranslationEngine = {
+    id: "x",
+    checkpointSize: 50,
+    translate(reqs: TranslationRequest[]) {
+      calls += reqs.length;
+      return Promise.resolve(reqs.map(() => "BROKEN"));
+    },
+  };
+  // Reject any output containing "BROKEN".
+  const eng = new CachingEngine(broken, file, new Map(), (_i, o) => !o.includes("BROKEN"));
+  assert.deepEqual(await eng.translate([{ text: "a" }]), ["BROKEN"]); // returned anyway
+  await eng.translate([{ text: "a" }]); // same text: cache miss -> inner runs again
+  assert.equal(calls, 2, "invalid output must not be cached");
+});
+
+test("valid outputs are still cached", async () => {
+  const file = await cacheFile();
+  const c = counter();
+  const eng = new CachingEngine(c.engine, file, new Map(), (_i, o) => !o.includes("BROKEN"));
+  await eng.translate([{ text: "a" }]);
+  await eng.translate([{ text: "a" }]);
+  assert.deepEqual(c.seen, ["a"]); // cached after the first call
+});
+
 test("progress reaches the full request count (hits + misses)", async () => {
   const file = await cacheFile();
   const c = counter();

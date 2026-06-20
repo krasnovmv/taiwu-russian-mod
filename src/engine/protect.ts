@@ -105,11 +105,19 @@ export function restore(translated: string, m: Masked): RestoreResult {
       };
     }
   }
-  // After restoring valid pairs nothing of the `<mN…>` shape may remain. A leftover
-  // fragment means the engine hallucinated or mangled a placeholder (e.g. an LLM
-  // appending a stray `<m1>`); reject it so it never reaches the TM/game.
-  const leftover = /<\/?m\d+>/.exec(body);
-  if (leftover) return { ok: false, text: "", error: `leftover sentinel fragment ${leftover[0]}` };
+  // Markup parity: the restored text must carry EXACTLY the source's markup and
+  // nothing the engine invented — a hallucinated/mangled token (stray `<m1>`,
+  // `<mo>`, `<0>`, Cyrillic `<м1>`, …) shows up here as extra markup. Reject it
+  // so it never reaches the TM/game.
+  const expected = [...m.tokens].sort();
+  const got = extractMarkup(body);
+  if (expected.length !== got.length || expected.some((t, i) => t !== got[i])) {
+    return {
+      ok: false,
+      text: "",
+      error: `markup changed: [${expected.join(" ")}] vs [${got.join(" ")}]`,
+    };
+  }
   return { ok: true, text: m.leading + body + m.trailing };
 }
 
@@ -120,4 +128,16 @@ export function restore(translated: string, m: Masked): RestoreResult {
 export function extractMarkup(text: string): string[] {
   const found = [...(text.match(TAG_RE) ?? []), ...(text.match(PLACEHOLDER_RE) ?? [])];
   return found.sort();
+}
+
+/**
+ * True when `output` carries exactly the same markup (sentinels / placeholders)
+ * as `input`. The masked input's only markup is its `<mN></mN>` sentinels, so a
+ * mismatch means the engine dropped, added or mangled markup — such an output is
+ * invalid and must not be cached (it would poison every later run).
+ */
+export function markupPreserved(input: string, output: string): boolean {
+  const a = extractMarkup(input);
+  const b = extractMarkup(output);
+  return a.length === b.length && a.every((t, i) => t === b[i]);
 }

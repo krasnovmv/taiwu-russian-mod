@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import { mask, restore } from "../src/engine/protect.js";
+import { mask, markupPreserved, restore } from "../src/engine/protect.js";
 
 /** Simulate an engine that preserves sentinels (good engine). */
 function goodEngine(masked: string): string {
@@ -56,11 +56,29 @@ test("restore fails when a sentinel is duplicated", () => {
   assert.equal(r.ok, false);
 });
 
-test("restore rejects a hallucinated leftover sentinel (no markup in source)", () => {
+test("restore rejects engine-invented markup, incl. mangled/Cyrillic variants", () => {
   const m = mask("Monarch Seal"); // no markup -> no sentinels expected
-  const r = restore("Печать «Ушуйинь» <m1>", m); // LLM invented a stray <m1>
-  assert.equal(r.ok, false);
-  assert.match(r.error ?? "", /leftover sentinel/);
+  for (const bad of [
+    "Печать «Ушуйинь» <m1>", // stray Latin sentinel
+    "Печать <м1>", // Cyrillic м
+    "Печать <mo>", // letter o instead of 0
+    "Печать <0>", // missing m
+    "Печать </mo> <mo>", // mangled pair
+  ]) {
+    const r = restore(bad, m);
+    assert.equal(r.ok, false, `should reject: ${bad}`);
+    assert.match(r.error ?? "", /markup changed/);
+  }
+  // A clean translation with no invented markup passes.
+  assert.equal(restore("Печать Ушуйинь", m).ok, true);
+});
+
+test("markupPreserved detects added/dropped/mangled markup", () => {
+  assert.equal(markupPreserved("a <m0></m0> b", "ру <m0></m0>"), true);
+  assert.equal(markupPreserved("Monarch Seal", "Печать"), true); // no markup either side
+  assert.equal(markupPreserved("Monarch Seal", "Печать <m1>"), false); // invented
+  assert.equal(markupPreserved("a <m0></m0>", "ру"), false); // dropped
+  assert.equal(markupPreserved("a <m0></m0>", "ру <mo></mo>"), false); // mangled
 });
 
 test("glossary terms are NOT masked — they reach the engine verbatim", () => {
