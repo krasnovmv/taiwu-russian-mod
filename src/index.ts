@@ -21,6 +21,7 @@ export * from "./engine/protect.js";
 export * from "./engine/factory.js";
 export { MockEngine } from "./engine/mock.js";
 export { YandexEngine } from "./engine/yandex.js";
+export { LmStudioEngine } from "./engine/lmstudio.js";
 export * from "./glossary/load.js";
 export * from "./translate/pipeline.js";
 export * from "./apply/build.js";

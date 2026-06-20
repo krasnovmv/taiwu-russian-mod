@@ -14,7 +14,7 @@ import { GLOSSARY_VERSION } from "../config/glossary.js";
 import { alignFile, type AlignedUnit } from "../align/bilingual.js";
 import { loadGlossary } from "../glossary/load.js";
 import { mask, restore } from "../engine/protect.js";
-import type { TranslationEngine } from "../engine/types.js";
+import type { TranslationEngine, TranslationRequest } from "../engine/types.js";
 import { TM_SCHEMA_VERSION, type TmFile, type TmUnit } from "../model/tm.js";
 import { srcHash } from "../tm/hash.js";
 import { loadTm, saveTm } from "../tm/store.js";
@@ -64,7 +64,7 @@ export async function translateFile(
 
   const units: Record<string, TmUnit> = {};
   const work: WorkItem[] = [];
-  const batch: string[] = [];
+  const batch: TranslationRequest[] = [];
   let pending = 0;
   let skipped = 0;
 
@@ -91,7 +91,7 @@ export async function translateFile(
     const item: WorkItem = { unit, hash, masked, batchIndex: -1 };
     if (masked.translatable) {
       item.batchIndex = batch.length;
-      batch.push(masked.masked);
+      batch.push({ text: masked.masked, reference: unit.cn });
     }
     work.push(item);
   }

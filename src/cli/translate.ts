@@ -1,15 +1,15 @@
 /**
  * Translate pending units into the translation memory.
  *
- *   npm run translate -- <file> [--engine mock|yandex] [--limit N] [--dry-run]
- *   npm run translate -- --all   [--engine mock|yandex] [--limit N]
+ *   npm run translate -- <file> [--engine mock|yandex|lmstudio] [--limit N] [--dry-run]
+ *   npm run translate -- --all   [--engine mock|yandex|lmstudio] [--limit N]
  *
  * Writes only the TM (tm/<file>.json), never the game files. Default engine is
- * `mock` (offline, free). Use `--engine yandex` with TAIWU_YANDEX_IAM_TOKEN and
- * TAIWU_YANDEX_FOLDER_ID set for real translation. `--all` is resumable: TM is
- * saved per file, so re-running skips already-translated units.
+ * `mock` (offline, free). `--engine yandex` needs TAIWU_YANDEX_* env vars;
+ * `--engine lmstudio` talks to a local LM Studio server. `--all` is resumable:
+ * TM is saved per file, so re-running skips already-translated units.
  */
-import { createEngine, type EngineId } from "../engine/factory.js";
+import { createEngine, parseEngineId, type EngineId } from "../engine/factory.js";
 import { listSourceFiles } from "../scan.js";
 import { translateFile, type TranslateStats } from "../translate/pipeline.js";
 
@@ -28,7 +28,7 @@ function parseArgs(argv: string[]): {
 
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
-    if (arg === "--engine") engine = argv[++i] === "yandex" ? "yandex" : "mock";
+    if (arg === "--engine") engine = parseEngineId(argv[++i]);
     else if (arg === "--limit") limit = Number(argv[++i]);
     else if (arg === "--dry-run") dryRun = true;
     else if (arg === "--all") all = true;

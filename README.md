@@ -7,7 +7,8 @@ with backups.
 
 - **Source:** `Language_EN` (English) · **Reference:** `Language_CN` (Chinese)
 - **Target:** Russian, written back **in place** into `Language_EN`
-- **Engine:** Yandex Cloud Translate (official SDK); offline `mock` for dry runs
+- **Engines:** Yandex Cloud Translate (official SDK) · LM Studio (local LLM) ·
+  offline `mock` for dry runs
 
 ## Requirements
 
@@ -47,6 +48,25 @@ cp .env.example .env
 | `TAIWU_BACKUP_DIR`            | Pristine backup dir (default `./backups/Language_EN.original`) |
 | `TAIWU_GLOSSARY`              | Glossary file (default `./data/glossary.json`)                 |
 | `TAIWU_YANDEX_RATE_RUB_PER_M` | Price estimate, RUB per 1M chars (default 419)                 |
+| `TAIWU_LMSTUDIO_BASE_URL`     | LM Studio server (default `http://localhost:1234/v1`)          |
+| `TAIWU_LMSTUDIO_MODEL`        | Model id (default: first non-embedding model loaded)           |
+| `TAIWU_LMSTUDIO_CONCURRENCY`  | Parallel requests to LM Studio (default 4)                     |
+
+## Engines
+
+| Engine     | Use it for                | Setup                                               |
+| ---------- | ------------------------- | --------------------------------------------------- |
+| `mock`     | dry runs / tests (free)   | none                                                |
+| `yandex`   | fast machine translation  | `TAIWU_YANDEX_IAM_TOKEN` + `TAIWU_YANDEX_FOLDER_ID` |
+| `lmstudio` | local LLM (free, private) | LM Studio running with a chat model loaded          |
+
+```bash
+# Local LLM via LM Studio (start the server and load a model first):
+npm run translate -- --all --engine lmstudio
+```
+
+Markup (`{0}`, `<color=…>`, `<NL>`, …) is masked to `⟦n⟧` tokens before every
+engine call and validated on restore, so the same safety applies to all engines.
 
 ## Workflow
 

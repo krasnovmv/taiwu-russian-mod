@@ -13,7 +13,7 @@
 import { Session } from "@yandex-cloud/nodejs-sdk";
 import { translationService } from "@yandex-cloud/nodejs-sdk/ai-translate-v2";
 
-import type { TranslationEngine } from "./types.js";
+import type { TranslationEngine, TranslationRequest } from "./types.js";
 
 const CHAR_BUDGET = 9000;
 const MAX_TEXTS = 100;
@@ -50,7 +50,9 @@ export class YandexEngine implements TranslationEngine {
     return new YandexEngine({ iamToken, folderId });
   }
 
-  async translate(texts: string[]): Promise<string[]> {
+  async translate(requests: TranslationRequest[]): Promise<string[]> {
+    // Yandex is pure machine translation; the CN reference is not used.
+    const texts = requests.map((r) => r.text);
     const result: string[] = [];
     for (const batch of batchByChars(texts, CHAR_BUDGET, MAX_TEXTS)) {
       result.push(...(await this.translateBatch(batch)));
