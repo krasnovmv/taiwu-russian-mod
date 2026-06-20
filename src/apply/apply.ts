@@ -12,7 +12,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 
 import { languageDir, languageRuDir } from "../config/paths.js";
-import { withinLengthCap } from "../config/translate.js";
+import { MAX_TRANSLATE_LEN } from "../config/translate.js";
 import { adapterFor } from "../formats/registry.js";
 import type { TmFile } from "../model/tm.js";
 import { loadTm } from "../tm/store.js";
@@ -27,6 +27,8 @@ export interface ApplyOptions {
   tm?: TmFile | null;
   /** Build and validate, but do not write. */
   dryRun?: boolean;
+  /** Max source length whose machine translation is applied. Default: config cap. */
+  maxLen?: number;
 }
 
 export interface ApplyResult {
@@ -41,6 +43,7 @@ export interface ApplyResult {
 export async function applyFile(file: string, options: ApplyOptions = {}): Promise<ApplyResult> {
   const srcDir = options.srcDir ?? languageDir;
   const outDir = options.outDir ?? languageRuDir;
+  const maxLen = options.maxLen ?? MAX_TRANSLATE_LEN;
   const tm = options.tm !== undefined ? options.tm : await loadTm(file);
 
   const original = await readFile(path.join(srcDir, file), "utf8");
@@ -52,7 +55,7 @@ export async function applyFile(file: string, options: ApplyOptions = {}): Promi
   if (tm) {
     for (const [key, unit] of Object.entries(tm.units)) {
       const human = unit.status === "reviewed" || unit.status === "locked";
-      const usable = unit.ru != null && (human || withinLengthCap(unit.en));
+      const usable = unit.ru != null && (human || unit.en.length <= maxLen);
       translations.set(key, usable ? (unit.ru as string) : unit.en);
     }
   }
