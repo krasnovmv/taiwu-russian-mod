@@ -14,6 +14,7 @@ export * from "./align/bilingual.js";
 export * from "./tm/hash.js";
 export * from "./tm/store.js";
 export * from "./tm/coverage.js";
+export * from "./tm/sync.js";
 export * from "./scan.js";
 export * from "./engine/types.js";
 export * from "./engine/protect.js";
