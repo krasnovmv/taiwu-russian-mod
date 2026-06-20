@@ -56,6 +56,13 @@ test("restore fails when a sentinel is duplicated", () => {
   assert.equal(r.ok, false);
 });
 
+test("restore rejects a hallucinated leftover sentinel (no markup in source)", () => {
+  const m = mask("Monarch Seal"); // no markup -> no sentinels expected
+  const r = restore("Печать «Ушуйинь» <m1>", m); // LLM invented a stray <m1>
+  assert.equal(r.ok, false);
+  assert.match(r.error ?? "", /leftover sentinel/);
+});
+
 test("glossary terms are NOT masked — they reach the engine verbatim", () => {
   // Glossary is applied by the engine now, not by masking; mask leaves words alone.
   const m = mask("Restore your Qi now");

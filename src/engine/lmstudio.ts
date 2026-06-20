@@ -28,6 +28,8 @@ const SYSTEM_PROMPT = [
   "trust the Chinese meaning, but always translate the English text. Rules:",
   "1. Preserve every placeholder tag of the form <mN></mN> (N is a number) EXACTLY —",
   "   same tags, same numbers, same count. Never translate, reorder, alter or drop them.",
+  "   NEVER add a placeholder tag that is not in the source — if the source has none,",
+  "   your output must contain none.",
   "2. Keep the wuxia tone; translate names/terms naturally into Russian.",
   "3. If a GLOSSARY is given, use exactly those Russian translations for the listed",
   "   terms, declining them naturally to fit the sentence's grammar (case, number).",

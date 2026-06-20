@@ -105,6 +105,11 @@ export function restore(translated: string, m: Masked): RestoreResult {
       };
     }
   }
+  // After restoring valid pairs nothing of the `<mN…>` shape may remain. A leftover
+  // fragment means the engine hallucinated or mangled a placeholder (e.g. an LLM
+  // appending a stray `<m1>`); reject it so it never reaches the TM/game.
+  const leftover = /<\/?m\d+>/.exec(body);
+  if (leftover) return { ok: false, text: "", error: `leftover sentinel fragment ${leftover[0]}` };
   return { ok: true, text: m.leading + body + m.trailing };
 }
 
