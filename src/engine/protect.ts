@@ -106,19 +106,15 @@ export function restore(translated: string, m: Masked): RestoreResult {
     }
   }
   // Markup parity: the restored text must carry exactly the source's markup and
-  // nothing the engine invented — a hallucinated/mangled token (stray `<m1>`,
-  // `<mo>`, `<0>`, Cyrillic `<м1>`, …) shows up here as extra markup. Compare
-  // both sides via extractMarkup on the RECONSTRUCTED source so tokenisation is
-  // identical — e.g. a `{0}` embedded in a tag (`<SpName={0}>`) is counted the
-  // same way on both, avoiding a false mismatch.
+  // nothing the engine invented (stray `<m1>`, `<mo>`, `<0>`, Cyrillic `<м1>`,
+  // dropped/extra tags). Reconstruct the source and use the SAME predicate as QA
+  // (markupPreserved) so the translate-time and validate-time checks can't drift.
   const source = m.masked.replace(SENTINEL_RE, (_w, d: string) => m.tokens[Number(d)] ?? "");
-  const expected = extractMarkup(source);
-  const got = extractMarkup(body);
-  if (expected.length !== got.length || expected.some((t, i) => t !== got[i])) {
+  if (!markupPreserved(source, body)) {
     return {
       ok: false,
       text: "",
-      error: `markup changed: [${expected.join(" ")}] vs [${got.join(" ")}]`,
+      error: `markup changed: [${extractMarkup(source).join(" ")}] vs [${extractMarkup(body).join(" ")}]`,
     };
   }
   return { ok: true, text: m.leading + body + m.trailing };
@@ -134,13 +130,15 @@ export function extractMarkup(text: string): string[] {
 }
 
 /**
- * True when `output` carries exactly the same markup (sentinels / placeholders)
- * as `input`. The masked input's only markup is its `<mN></mN>` sentinels, so a
- * mismatch means the engine dropped, added or mangled markup — such an output is
- * invalid and must not be cached (it would poison every later run).
+ * True when two strings carry exactly the same markup multiset (tags +
+ * placeholders, order-independent). The single source of markup-parity truth,
+ * shared by: the cache (masked input vs engine output — a mismatch means the
+ * engine mangled markup, so the result must not be cached), `restore`
+ * (source vs restored output), and QA (`en` vs `ru`). Keeping one predicate
+ * means those checks can never drift apart.
  */
-export function markupPreserved(input: string, output: string): boolean {
-  const a = extractMarkup(input);
-  const b = extractMarkup(output);
-  return a.length === b.length && a.every((t, i) => t === b[i]);
+export function markupPreserved(a: string, b: string): boolean {
+  const ma = extractMarkup(a);
+  const mb = extractMarkup(b);
+  return ma.length === mb.length && ma.every((t, i) => t === mb[i]);
 }
