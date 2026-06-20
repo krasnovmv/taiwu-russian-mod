@@ -17,7 +17,6 @@
  * upgraded to `machine` as checkpoints complete.
  */
 import { GLOSSARY_VERSION } from "../config/glossary.js";
-import { MAX_TRANSLATE_LEN } from "../config/translate.js";
 import { alignFile } from "../align/bilingual.js";
 import type { SourceUnit } from "../formats/adapter.js";
 import { mask, restore } from "../engine/protect.js";
@@ -33,7 +32,8 @@ export interface TranslateOptions {
   dryRun?: boolean;
   /** ISO timestamp to stamp on updated units (kept injectable for determinism). */
   now?: string;
-  /** Max source length to translate; longer units stay untranslated. Default: config cap. */
+  /** Only translate units with `minLen <= en.length <= maxLen` (the engine's window). */
+  minLen?: number;
   maxLen?: number;
   /** Called once with the number of units that will be sent to the engine. */
   onStart?: (totalUnits: number) => void;
@@ -58,10 +58,16 @@ interface WorkItem {
   masked: ReturnType<typeof mask>;
 }
 
-function needsTranslation(prev: TmUnit | undefined, hash: string): boolean {
+export function needsTranslation(
+  prev: TmUnit | undefined,
+  hash: string,
+  engineId: string,
+): boolean {
   if (!prev || prev.ru === null) return true;
   if (prev.status === "reviewed" || prev.status === "locked") return false;
-  return prev.srcHash !== hash; // machine translation whose source drifted
+  // Re-translate machine units whose source drifted OR whose engine no longer
+  // matches the routed engine (so routing/cap changes adopt the chosen engine).
+  return prev.srcHash !== hash || prev.engine !== engineId;
 }
 
 export async function translateFile(
@@ -71,7 +77,8 @@ export async function translateFile(
 ): Promise<TranslateStats> {
   const aligned = await alignFile(file);
   const existing = await loadTm(file);
-  const maxLen = options.maxLen ?? MAX_TRANSLATE_LEN;
+  const minLen = options.minLen ?? 0;
+  const maxLen = options.maxLen ?? Infinity;
 
   const units: Record<string, TmUnit> = {};
   const work: WorkItem[] = [];
@@ -81,10 +88,12 @@ export async function translateFile(
   for (const unit of aligned.units) {
     const hash = srcHash(unit.en, GLOSSARY_VERSION);
     const prev = existing?.units[unit.key];
+    const inWindow = unit.en.length >= minLen && unit.en.length <= maxLen;
 
-    // Carry forward units that don't need (re)translation.
-    if (!needsTranslation(prev, hash) && prev) {
-      units[unit.key] = { ...prev, cn: unit.cn };
+    // Outside this run's length window, or already up to date: carry forward
+    // unchanged (a unit out of window keeps any translation another pass made).
+    if (!inWindow || !needsTranslation(prev, hash, engine.id)) {
+      units[unit.key] = prev ? { ...prev, cn: unit.cn } : newPendingUnit(unit, hash);
       skipped++;
       continue;
     }
@@ -93,13 +102,6 @@ export async function translateFile(
     // Every key is present in the TM from the start, as pending; checkpoints
     // upgrade the translated ones in place.
     units[unit.key] = prev ? { ...prev, cn: unit.cn } : newPendingUnit(unit, hash);
-
-    // Length cap: leave longer units untranslated. A live filter (not baked into
-    // the hash), so raising/lowering the cap is consistent — see config/translate.
-    if (unit.en.length > maxLen) {
-      skipped++;
-      continue;
-    }
 
     if (options.limit !== undefined && work.length >= options.limit) {
       skipped++; // beyond the limit: stays pending

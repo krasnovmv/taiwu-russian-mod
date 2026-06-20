@@ -1,29 +1,23 @@
 /**
- * Length-based translation cap.
+ * Length-based engine routing threshold.
  *
- * Only source units up to {@link MAX_TRANSLATE_LEN} characters are translated;
- * longer units are left in English (apply emits the source). The cap is a LIVE
- * filter, applied at translate AND apply time — it is NOT baked into the TM or
- * the source hash — so changing it is automatically consistent and lossless:
+ * Units up to {@link ROUTING_THRESHOLD} characters are translated by the fast
+ * machine engine (Yandex); longer units go to the local LLM (LM Studio), which
+ * handles long, markup-heavy prose and declension far better. Run both with
+ * `translate --route`.
  *
- *   - raise it  → the next `translate` fills the newly-eligible (shorter) units;
- *   - lower it  → `apply` stops emitting machine translations that are now too
- *                 long, and `status`/`estimate` drop them from the pending work;
- *                 their TM entries are kept and reused if you raise it again.
+ * This is PURE routing — it only chooses the engine, it does NOT gate apply:
+ * everything translated (short or long) is applied to `Language_RU`.
  *
- * Because it never touches the hash, changing the cap costs no re-translation:
- * already-translated units that stay eligible are untouched. Human-reviewed or
- * locked units are always applied regardless of length.
+ * Changing it re-routes units across the boundary: on the next run a unit whose
+ * stored engine no longer matches its routed engine is re-translated (cache-first,
+ * so it is free if that engine already has it). The threshold is never baked into
+ * the source hash, so it triggers no blanket re-translation.
  *
- * Edit the constant below, or override per run with `TAIWU_MAX_TRANSLATE_LEN`.
+ * Edit the constant below, or override with `TAIWU_ROUTING_THRESHOLD`.
  */
-const DEFAULT_MAX_TRANSLATE_LEN = 40;
+const DEFAULT_ROUTING_THRESHOLD = 40;
 
-const envValue = Number(process.env.TAIWU_MAX_TRANSLATE_LEN);
-export const MAX_TRANSLATE_LEN =
-  Number.isFinite(envValue) && envValue > 0 ? envValue : DEFAULT_MAX_TRANSLATE_LEN;
-
-/** True when `en` is short enough to translate/apply under the current cap. */
-export function withinLengthCap(en: string): boolean {
-  return en.length <= MAX_TRANSLATE_LEN;
-}
+const envValue = Number(process.env.TAIWU_ROUTING_THRESHOLD);
+export const ROUTING_THRESHOLD =
+  Number.isFinite(envValue) && envValue > 0 ? envValue : DEFAULT_ROUTING_THRESHOLD;

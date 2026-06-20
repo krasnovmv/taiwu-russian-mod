@@ -4,7 +4,6 @@
  * mutates the TM (sync/translation happens in later phases).
  */
 import { GLOSSARY_VERSION } from "../config/glossary.js";
-import { withinLengthCap } from "../config/translate.js";
 import type { AlignedFile } from "../align/bilingual.js";
 import type { TmFile } from "../model/tm.js";
 import { srcHash } from "./hash.js";
@@ -16,12 +15,10 @@ export interface FileCoverage {
   translated: number;
   /** Has RU but the source has drifted since (needs re-translation/review). */
   stale: number;
-  /** No usable RU yet (and eligible for translation under the length cap). */
+  /** No usable RU yet. */
   pending: number;
   /** EN source characters across pending units (the work left to translate). */
   pendingChars: number;
-  /** Units left untranslated by the length cap (not counted as pending). */
-  outOfScope: number;
   onlyEn: number;
   onlyCn: number;
 }
@@ -31,18 +28,10 @@ export function computeCoverage(aligned: AlignedFile, tm: TmFile | null): FileCo
   let stale = 0;
   let pending = 0;
   let pendingChars = 0;
-  let outOfScope = 0;
 
   for (const unit of aligned.units) {
-    const tmUnit = tm?.units[unit.key];
-    const human = tmUnit?.status === "reviewed" || tmUnit?.status === "locked";
-    // Units beyond the length cap are out of scope (English is kept), unless a
-    // human curated them — those are always honoured.
-    if (!human && !withinLengthCap(unit.en)) {
-      outOfScope++;
-      continue;
-    }
     const hash = srcHash(unit.en, GLOSSARY_VERSION);
+    const tmUnit = tm?.units[unit.key];
     if (tmUnit?.ru != null) {
       if (tmUnit.srcHash === hash) translated++;
       else stale++;
@@ -59,7 +48,6 @@ export function computeCoverage(aligned: AlignedFile, tm: TmFile | null): FileCo
     stale,
     pending,
     pendingChars,
-    outOfScope,
     onlyEn: aligned.onlyEn.length,
     onlyCn: aligned.onlyCn.length,
   };
@@ -73,7 +61,6 @@ export function sumCoverage(parts: FileCoverage[]): Omit<FileCoverage, "file"> {
     stale: 0,
     pending: 0,
     pendingChars: 0,
-    outOfScope: 0,
     onlyEn: 0,
     onlyCn: 0,
   };
@@ -83,7 +70,6 @@ export function sumCoverage(parts: FileCoverage[]): Omit<FileCoverage, "file"> {
     acc.stale += p.stale;
     acc.pending += p.pending;
     acc.pendingChars += p.pendingChars;
-    acc.outOfScope += p.outOfScope;
     acc.onlyEn += p.onlyEn;
     acc.onlyCn += p.onlyCn;
     return acc;

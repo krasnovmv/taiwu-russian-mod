@@ -3,7 +3,8 @@ import { test } from "node:test";
 
 import { MockEngine } from "../src/engine/mock.js";
 import type { TranslationEngine, TranslationRequest } from "../src/engine/types.js";
-import { translateFile } from "../src/translate/pipeline.js";
+import type { TmUnit } from "../src/model/tm.js";
+import { needsTranslation, translateFile } from "../src/translate/pipeline.js";
 
 /**
  * End-to-end pipeline on a real small file with the offline mock engine and
@@ -79,10 +80,31 @@ test("a markup-mangling engine flags units as failed (never writes corrupt outpu
   assert.equal(stats.failures.length, stats.failed);
 });
 
-test("length cap leaves longer units untranslated (live filter)", async () => {
-  // A tiny cap: only the shortest units are sent to the engine.
-  const small = await translateFile(SAMPLE, new MockEngine(), { dryRun: true, maxLen: 5 });
-  const big = await translateFile(SAMPLE, new MockEngine(), { dryRun: true, maxLen: Infinity });
-  assert.ok(small.translated < big.translated, "a smaller cap must translate fewer units");
-  assert.equal(small.translated + small.skipped + small.failed, small.total);
+test("length window restricts which units are translated", async () => {
+  const shortOnly = await translateFile(SAMPLE, new MockEngine(), { dryRun: true, maxLen: 5 });
+  const longOnly = await translateFile(SAMPLE, new MockEngine(), { dryRun: true, minLen: 6 });
+  const all = await translateFile(SAMPLE, new MockEngine(), { dryRun: true });
+  assert.ok(shortOnly.translated < all.translated, "a tight max window translates fewer");
+  assert.ok(longOnly.translated <= all.translated);
+  // The two disjoint windows together cover exactly the whole file's translatable set.
+  assert.equal(shortOnly.translated + longOnly.translated, all.translated);
+});
+
+test("needsTranslation re-translates on engine mismatch (routing/overwrite)", () => {
+  const u = (over: Partial<TmUnit>): TmUnit => ({
+    en: "x",
+    cn: null,
+    ru: "ру",
+    status: "machine",
+    srcHash: "h",
+    engine: "yandex",
+    updatedAt: null,
+    ...over,
+  });
+  assert.equal(needsTranslation(undefined, "h", "yandex"), true); // new
+  assert.equal(needsTranslation(u({ ru: null }), "h", "yandex"), true); // no RU
+  assert.equal(needsTranslation(u({}), "h", "yandex"), false); // same engine + hash
+  assert.equal(needsTranslation(u({}), "h", "lmstudio"), true); // engine changed -> redo
+  assert.equal(needsTranslation(u({}), "h2", "yandex"), true); // source drifted -> redo
+  assert.equal(needsTranslation(u({ status: "reviewed" }), "h2", "lmstudio"), false); // human kept
 });

@@ -73,10 +73,17 @@ engine call and validated on restore, so the same safety applies to all engines.
 
 ```bash
 npm run estimate                       # how many units / chars / ~cost
-npm run translate -- --all --engine yandex   # translate into the TM (resumable)
+npm run translate -- --all --route     # short→Yandex, long→LM Studio (resumable)
 npm run validate                       # QA the translations in the TM
 npm run apply -- --all                 # build Language_RU (source untouched)
 ```
+
+`--route` splits by source length at `ROUTING_THRESHOLD` (`src/config/translate.ts`,
+default 40): short UI strings go to fast/cheap Yandex, long markup-heavy prose to
+the local LLM (better grammar/declension). Both are applied. Or pick one engine
+with `--engine`, optionally windowed by `--min-len`/`--max-len`. Changing the
+threshold re-routes units across the boundary on the next run (cache-first, so
+re-routing is free where that engine already translated the text).
 
 Smaller, safer steps while getting started:
 
@@ -103,16 +110,16 @@ source changed so you can re-check them.
 
 ## Commands
 
-| Command                                                                                          | What it does                              |
-| ------------------------------------------------------------------------------------------------ | ----------------------------------------- |
-| `npm run status [-- --files]`                                                                    | Coverage: translated / stale / pending    |
-| `npm run estimate`                                                                               | Pending units, characters, ~Yandex cost   |
-| `npm run translate -- (<file>\|--all) [--engine mock\|yandex\|lmstudio] [--limit N] [--dry-run]` | Translate into the TM                     |
-| `npm run validate [-- <file>] [--semantic] [--kind <kind>]`                                      | QA the TM, or EN↔CN markup divergence     |
-| `npm run apply -- (<file>\|--all) [--dry-run]`                                                   | Build `Language_RU` from the TM           |
-| `npm run sync [-- --dry-run]`                                                                    | Reconcile the TM after a game update      |
-| `npm run roundtrip`                                                                              | Byte-exact round-trip check of all `.txt` |
-| `npm run glossary:candidates [-- --min N --top N --phrases --json f --skeleton f]`               | Mine source for glossary term candidates  |
+| Command                                                                                                          | What it does                                      |
+| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| `npm run status [-- --files]`                                                                                    | Coverage: translated / stale / pending            |
+| `npm run estimate`                                                                                               | Pending units, characters, ~Yandex cost           |
+| `npm run translate -- (<file>\|--all) [--engine …\|--route] [--limit N] [--min-len N] [--max-len N] [--dry-run]` | Translate into the TM (`--route` = length-routed) |
+| `npm run validate [-- <file>] [--semantic] [--kind <kind>]`                                                      | QA the TM, or EN↔CN markup divergence             |
+| `npm run apply -- (<file>\|--all) [--dry-run]`                                                                   | Build `Language_RU` from the TM                   |
+| `npm run sync [-- --dry-run]`                                                                                    | Reconcile the TM after a game update              |
+| `npm run roundtrip`                                                                                              | Byte-exact round-trip check of all `.txt`         |
+| `npm run glossary:candidates [-- --min N --top N --phrases --json f --skeleton f]`                               | Mine source for glossary term candidates          |
 
 ## Safety
 
