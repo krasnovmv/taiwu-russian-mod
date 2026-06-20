@@ -9,6 +9,8 @@
     "typecheck": "tsc --noEmit",
     "test": "node --import tsx --test test/**/*.test.ts",
     "roundtrip": "node --import tsx src/cli/roundtrip.ts",
+    "status": "node --import tsx src/cli/status.ts",
+    "estimate": "node --import tsx src/cli/estimate.ts",
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check ."

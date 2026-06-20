@@ -25,3 +25,11 @@ export const languageDir = process.env.TAIWU_LANG_DIR
 export const languageCnDir = process.env.TAIWU_LANG_CN_DIR
   ? path.resolve(process.env.TAIWU_LANG_CN_DIR)
   : path.join(path.dirname(languageDir), "Language_CN");
+
+/**
+ * Directory holding the git-tracked translation memory (one JSON per source
+ * file, mirroring the language layout). Override with `TAIWU_TM_DIR`.
+ */
+export const tmDir = process.env.TAIWU_TM_DIR
+  ? path.resolve(process.env.TAIWU_TM_DIR)
+  : path.join(projectRoot, "tm");
