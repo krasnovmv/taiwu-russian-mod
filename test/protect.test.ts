@@ -73,6 +73,14 @@ test("restore rejects engine-invented markup, incl. mangled/Cyrillic variants", 
   assert.equal(restore("Печать Ушуйинь", m).ok, true);
 });
 
+test("a placeholder embedded in a tag does not trip the markup-parity check", () => {
+  const src = "Boost <SpName={0}> by {1} then {2}"; // {0} lives inside the tag
+  const m = mask(src);
+  const r = restore(goodEngine(m.masked), m);
+  assert.ok(r.ok, r.error ?? "");
+  assert.equal(r.text, `ru:${src}`);
+});
+
 test("markupPreserved detects added/dropped/mangled markup", () => {
   assert.equal(markupPreserved("a <m0></m0> b", "ру <m0></m0>"), true);
   assert.equal(markupPreserved("Monarch Seal", "Печать"), true); // no markup either side

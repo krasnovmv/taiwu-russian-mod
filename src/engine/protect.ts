@@ -105,11 +105,14 @@ export function restore(translated: string, m: Masked): RestoreResult {
       };
     }
   }
-  // Markup parity: the restored text must carry EXACTLY the source's markup and
+  // Markup parity: the restored text must carry exactly the source's markup and
   // nothing the engine invented — a hallucinated/mangled token (stray `<m1>`,
-  // `<mo>`, `<0>`, Cyrillic `<м1>`, …) shows up here as extra markup. Reject it
-  // so it never reaches the TM/game.
-  const expected = [...m.tokens].sort();
+  // `<mo>`, `<0>`, Cyrillic `<м1>`, …) shows up here as extra markup. Compare
+  // both sides via extractMarkup on the RECONSTRUCTED source so tokenisation is
+  // identical — e.g. a `{0}` embedded in a tag (`<SpName={0}>`) is counted the
+  // same way on both, avoiding a false mismatch.
+  const source = m.masked.replace(SENTINEL_RE, (_w, d: string) => m.tokens[Number(d)] ?? "");
+  const expected = extractMarkup(source);
   const got = extractMarkup(body);
   if (expected.length !== got.length || expected.some((t, i) => t !== got[i])) {
     return {
