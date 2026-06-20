@@ -1,0 +1,8 @@
+# Enforce LF line endings everywhere. This project does byte-exact round-trip
+# of LF-only game files, so CRLF must never sneak into the repo or working tree.
+* text=auto eol=lf
+
+# Binary files: never touch.
+*.png binary
+*.jpg binary
+*.dll binary
