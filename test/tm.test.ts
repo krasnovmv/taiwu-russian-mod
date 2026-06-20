@@ -43,12 +43,13 @@ test("computeCoverage classifies translated / stale / pending", () => {
   const aligned: AlignedFile = {
     file: "Demo.txt",
     units: [
-      { key: "A", en: "alpha", cn: "甲", enValueIndex: 1 },
-      { key: "B", en: "bravo", cn: "乙", enValueIndex: 3 },
-      { key: "C", en: "charlie", cn: null, enValueIndex: 5 },
+      { key: "A", en: "alpha", cn: "甲" },
+      { key: "B", en: "bravo", cn: "乙" },
+      { key: "C", en: "charlie", cn: null },
     ],
     onlyEn: ["C"],
     onlyCn: ["Z"],
+    warnings: [],
   };
   const tm: TmFile = {
     schemaVersion: TM_SCHEMA_VERSION,
@@ -89,9 +90,10 @@ test("computeCoverage classifies translated / stale / pending", () => {
 test("computeCoverage with no TM marks everything pending", () => {
   const aligned: AlignedFile = {
     file: "Demo.txt",
-    units: [{ key: "A", en: "alpha", cn: "甲", enValueIndex: 1 }],
+    units: [{ key: "A", en: "alpha", cn: "甲" }],
     onlyEn: [],
     onlyCn: [],
+    warnings: [],
   };
   const cov = computeCoverage(aligned, null);
   assert.equal(cov.pending, 1);

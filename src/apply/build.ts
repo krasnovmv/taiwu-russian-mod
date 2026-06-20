@@ -12,25 +12,19 @@
  *   - Units without a translation keep their original EN value (graceful
  *     partial translation).
  */
+import type { ApplyOutcome } from "../formats/adapter.js";
 import { parsePairs, serializeRaw } from "../formats/paired-txt.js";
-import type { TmFile } from "../model/tm.js";
-
-export interface BuildResult {
-  content: string;
-  /** Units whose RU value was written. */
-  applied: number;
-  /** Units skipped because the RU value contained a newline (hazard). */
-  unsafe: number;
-  /** Keys flagged unsafe, for reporting. */
-  unsafeKeys: string[];
-  /** True when the structural guard passed; never write when false. */
-  guardOk: boolean;
-  guardError?: string;
-}
 
 const NEWLINE_RE = /[\r\n]/;
 
-export function buildTranslatedContent(originalContent: string, tm: TmFile): BuildResult {
+/**
+ * Build translated content for a paired-`.txt` file from a `key → RU` map.
+ * Used by the paired-txt format adapter.
+ */
+export function buildTranslatedContent(
+  originalContent: string,
+  translations: ReadonlyMap<string, string>,
+): ApplyOutcome {
   const { raw, entries } = parsePairs(originalContent);
   const originalKeys = entries.map((e) => e.key);
 
@@ -39,8 +33,7 @@ export function buildTranslatedContent(originalContent: string, tm: TmFile): Bui
   const unsafeKeys: string[] = [];
 
   for (const entry of entries) {
-    const unit = tm.units[entry.key.trim()];
-    const ru = unit?.ru;
+    const ru = translations.get(entry.key.trim());
     if (ru == null || ru === entry.value) continue;
     if (NEWLINE_RE.test(ru)) {
       unsafe++;

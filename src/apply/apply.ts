@@ -8,9 +8,9 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 
 import { backupDir as defaultBackupDir, languageDir } from "../config/paths.js";
+import { adapterFor } from "../formats/registry.js";
 import type { TmFile } from "../model/tm.js";
 import { loadTm } from "../tm/store.js";
-import { buildTranslatedContent } from "./build.js";
 import { ensureBackup, writeFileAtomic } from "./fs.js";
 
 export interface ApplyOptions {
@@ -43,7 +43,14 @@ export async function applyFile(file: string, options: ApplyOptions = {}): Promi
   }
 
   const original = await readFile(path.join(srcDir, file), "utf8");
-  const built = buildTranslatedContent(original, tm);
+
+  // Pass every unit (ru ?? en) so adapters that need the full key set (anchored)
+  // have it; identity entries (ru === en) are no-ops in every adapter.
+  const translations = new Map<string, string>();
+  for (const [key, unit] of Object.entries(tm.units)) {
+    translations.set(key, unit.ru ?? unit.en);
+  }
+  const built = adapterFor(file).apply(original, translations);
 
   if (!built.guardOk) {
     return {

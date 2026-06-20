@@ -30,8 +30,9 @@ export function serializeTm(tm: TmFile): string {
   return `${JSON.stringify(tm, null, 2)}\n`;
 }
 
-/** Persist the TM for a source file. */
+/** Persist the TM for a source file (creates nested dirs for tsv/json paths). */
 export async function saveTm(tm: TmFile): Promise<void> {
-  await mkdir(tmDir, { recursive: true });
-  await writeFile(tmPathFor(tm.file), serializeTm(tm), "utf8");
+  const dest = tmPathFor(tm.file);
+  await mkdir(path.dirname(dest), { recursive: true });
+  await writeFile(dest, serializeTm(tm), "utf8");
 }

@@ -8,7 +8,7 @@
  * (rubles per 1,000,000 characters).
  */
 import { alignFile } from "../align/bilingual.js";
-import { listTranslatableTxtFiles } from "../scan.js";
+import { listSourceFiles } from "../scan.js";
 import { computeCoverage, sumCoverage, type FileCoverage } from "../tm/coverage.js";
 import { loadTm } from "../tm/store.js";
 
@@ -22,7 +22,7 @@ function rate(): number {
 }
 
 async function main(): Promise<void> {
-  const files = await listTranslatableTxtFiles();
+  const files = await listSourceFiles();
 
   const coverages: FileCoverage[] = [];
   for (const file of files) {

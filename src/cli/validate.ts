@@ -5,7 +5,7 @@
  *   npm run validate -- <file>       # one file
  *   npm run validate -- --kind markup-mismatch
  */
-import { listTranslatableTxtFiles } from "../scan.js";
+import { listSourceFiles } from "../scan.js";
 import { loadTm } from "../tm/store.js";
 import { validateTm, type IssueKind, type QaIssue } from "../validate/qa.js";
 
@@ -15,7 +15,7 @@ async function main(): Promise<void> {
   const kindFilter = kindIdx >= 0 ? (args[kindIdx + 1] as IssueKind | undefined) : undefined;
   const fileArg = args.find((a) => !a.startsWith("--") && a !== kindFilter);
 
-  const files = fileArg ? [fileArg] : await listTranslatableTxtFiles();
+  const files = fileArg ? [fileArg] : await listSourceFiles();
 
   const all: QaIssue[] = [];
   let withTm = 0;

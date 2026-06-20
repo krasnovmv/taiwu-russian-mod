@@ -3,13 +3,9 @@
  * paired-`.txt` adapter, because some values contain *real* newlines (rather
  * than the usual `<NL>` token) and therefore span multiple physical lines.
  *
- * These were discovered in Phase 1 by the desync detector. They are quarantined
- * from naive alternation parsing/translation until handled explicitly — the
- * planned approach is to use the CN file as a structural oracle to recover true
- * key boundaries (key sequences are shared across languages).
- *
- * Their *raw* round-trip is still byte-exact, so they are never corrupted; they
- * are simply not auto-translated yet.
+ * Discovered in Phase 1 by the desync detector. The format registry routes them
+ * to the {@link anchoredTxtAdapter}, which uses the clean CN file as a structural
+ * oracle to recover the true key boundaries. Their raw round-trip is byte-exact.
  */
 export const MULTILINE_VALUE_FILES: ReadonlySet<string> = new Set([
   "CricketPolymorphEvent_language.txt",

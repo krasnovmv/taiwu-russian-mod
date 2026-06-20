@@ -10,7 +10,7 @@
  * saved per file, so re-running skips already-translated units.
  */
 import { createEngine, type EngineId } from "../engine/factory.js";
-import { listTranslatableTxtFiles } from "../scan.js";
+import { listSourceFiles } from "../scan.js";
 import { translateFile, type TranslateStats } from "../translate/pipeline.js";
 
 function parseArgs(argv: string[]): {
@@ -55,7 +55,7 @@ async function main(): Promise<void> {
 
   const engine = createEngine(engineId);
   const now = new Date().toISOString();
-  const files = all ? await listTranslatableTxtFiles() : [file as string];
+  const files = all ? await listSourceFiles() : [file as string];
 
   console.log(`Engine: ${engine.id}${dryRun ? " (dry-run)" : ""} | files: ${files.length}\n`);
 

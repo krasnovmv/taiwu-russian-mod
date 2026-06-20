@@ -19,7 +19,7 @@ test(`alignFile pairs EN with CN for ${SAMPLE}`, async () => {
   for (const u of aligned.units) {
     assert.equal(typeof u.key, "string");
     assert.ok(u.key.length > 0);
-    assert.ok(Number.isInteger(u.enValueIndex) && u.enValueIndex >= 1);
+    assert.equal(typeof u.en, "string");
   }
 });
 

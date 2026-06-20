@@ -8,6 +8,8 @@
 export * from "./model/types.js";
 export * from "./model/tm.js";
 export * as pairedTxt from "./formats/paired-txt.js";
+export * from "./formats/adapter.js";
+export { adapterFor } from "./formats/registry.js";
 export * from "./align/bilingual.js";
 export * from "./tm/hash.js";
 export * from "./tm/store.js";

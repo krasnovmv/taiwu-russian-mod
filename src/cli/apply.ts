@@ -11,7 +11,7 @@
  * treated as a dry-run to avoid accidental writes.
  */
 import { applyFile } from "../apply/apply.js";
-import { listTranslatableTxtFiles } from "../scan.js";
+import { listSourceFiles } from "../scan.js";
 
 async function main(): Promise<void> {
   const args = process.argv.slice(2);
@@ -25,7 +25,7 @@ async function main(): Promise<void> {
     return;
   }
 
-  const files = all ? await listTranslatableTxtFiles() : [fileArg as string];
+  const files = all ? await listSourceFiles() : [fileArg as string];
 
   let written = 0;
   let appliedTotal = 0;

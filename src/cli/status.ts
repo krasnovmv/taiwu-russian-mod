@@ -5,8 +5,7 @@
  *   npm run status -- --files # per-file breakdown of unfinished files
  */
 import { alignFile } from "../align/bilingual.js";
-import { isMultilineValueFile } from "../config/known-issues.js";
-import { listTxtFiles, listTranslatableTxtFiles } from "../scan.js";
+import { listSourceFiles } from "../scan.js";
 import { computeCoverage, sumCoverage, type FileCoverage } from "../tm/coverage.js";
 import { loadTm } from "../tm/store.js";
 
@@ -17,7 +16,7 @@ function pct(part: number, whole: number): string {
 
 async function main(): Promise<void> {
   const showFiles = process.argv.includes("--files");
-  const files = await listTranslatableTxtFiles();
+  const files = await listSourceFiles();
 
   const coverages: FileCoverage[] = [];
   for (const file of files) {
@@ -27,10 +26,8 @@ async function main(): Promise<void> {
   }
 
   const total = sumCoverage(coverages);
-  const allTxt = await listTxtFiles();
-  const quarantined = allTxt.filter(isMultilineValueFile);
 
-  console.log(`Translatable .txt files: ${files.length} (quarantined: ${quarantined.length})\n`);
+  console.log(`Source files (all formats): ${files.length}\n`);
   console.log(`Units total:      ${total.total.toLocaleString("en-US")}`);
   console.log(
     `  translated:     ${total.translated.toLocaleString("en-US")} (${pct(total.translated, total.total)})`,
