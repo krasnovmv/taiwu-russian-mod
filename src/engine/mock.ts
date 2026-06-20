@@ -1,4 +1,4 @@
-import type { TranslationEngine, TranslationRequest } from "./types.js";
+import type { ProgressCallback, TranslationEngine, TranslationRequest } from "./types.js";
 
 /**
  * Deterministic, offline engine for tests and dry runs. It prefixes each text
@@ -8,7 +8,12 @@ import type { TranslationEngine, TranslationRequest } from "./types.js";
 export class MockEngine implements TranslationEngine {
   readonly id = "mock";
 
-  translate(requests: TranslationRequest[]): Promise<string[]> {
-    return Promise.resolve(requests.map((r) => `ru:${r.text}`));
+  translate(requests: TranslationRequest[], onProgress?: ProgressCallback): Promise<string[]> {
+    return Promise.resolve(
+      requests.map((r, i) => {
+        onProgress?.(i + 1);
+        return `ru:${r.text}`;
+      }),
+    );
   }
 }

@@ -15,6 +15,9 @@ export interface TranslationRequest {
   reference?: string | null;
 }
 
+/** Reports cumulative completed requests, for progress display. */
+export type ProgressCallback = (completed: number) => void;
+
 export interface TranslationEngine {
   /** Stable identifier recorded in the TM, e.g. "yandex" or "lmstudio". */
   readonly id: string;
@@ -22,6 +25,7 @@ export interface TranslationEngine {
    * Translate a batch of requests, returning a same-length array of
    * translations (index-aligned). Implementations should preserve any opaque
    * sentinel tokens in `text` verbatim; the caller validates this afterwards.
+   * `onProgress` (optional) is called with the running completed count.
    */
-  translate(requests: TranslationRequest[]): Promise<string[]>;
+  translate(requests: TranslationRequest[], onProgress?: ProgressCallback): Promise<string[]>;
 }

@@ -8,6 +8,7 @@ import { alignFile } from "../align/bilingual.js";
 import { listSourceFiles } from "../scan.js";
 import { computeCoverage, sumCoverage, type FileCoverage } from "../tm/coverage.js";
 import { loadTm } from "../tm/store.js";
+import { Progress } from "./progress.js";
 
 function pct(part: number, whole: number): string {
   if (whole === 0) return "—";
@@ -18,12 +19,15 @@ async function main(): Promise<void> {
   const showFiles = process.argv.includes("--files");
   const files = await listSourceFiles();
 
+  const bar = new Progress(files.length, "status");
   const coverages: FileCoverage[] = [];
   for (const file of files) {
     const aligned = await alignFile(file);
     const tm = await loadTm(file);
     coverages.push(computeCoverage(aligned, tm));
+    bar.increment(file);
   }
+  bar.finish();
 
   const total = sumCoverage(coverages);
 

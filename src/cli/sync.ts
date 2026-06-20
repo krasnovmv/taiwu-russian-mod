@@ -10,19 +10,23 @@
  */
 import { listSourceFiles } from "../scan.js";
 import { syncFile } from "../tm/sync.js";
+import { Progress } from "./progress.js";
 
 async function main(): Promise<void> {
   const dryRun = process.argv.includes("--dry-run");
   const files = await listSourceFiles();
 
+  const bar = new Progress(files.length, "sync");
   let reconciled = 0;
   let added = 0;
   let removed = 0;
   let driftedMachine = 0;
   let driftedReviewed = 0;
+  const changes: string[] = [];
 
   for (const file of files) {
     const r = await syncFile(file, { dryRun });
+    bar.increment(file);
     if (!r.hadTm) continue;
     reconciled++;
     added += r.added;
@@ -30,13 +34,15 @@ async function main(): Promise<void> {
     driftedMachine += r.driftedMachine;
     driftedReviewed += r.driftedReviewed;
     if (r.added || r.removed || r.driftedMachine || r.driftedReviewed) {
-      console.log(
+      changes.push(
         `  ${file}: +${r.added} new, -${r.removed} removed, ` +
           `${r.driftedMachine} drifted, ${r.driftedReviewed} need review`,
       );
     }
   }
+  bar.finish();
 
+  for (const c of changes) console.log(c);
   console.log(`\nReconciled ${reconciled} file(s)${dryRun ? " (dry-run, nothing written)" : ""}`);
   console.log(`New keys (pending):        ${added}`);
   console.log(`Removed keys:              ${removed}`);

@@ -11,6 +11,7 @@ import { alignFile } from "../align/bilingual.js";
 import { listSourceFiles } from "../scan.js";
 import { computeCoverage, sumCoverage, type FileCoverage } from "../tm/coverage.js";
 import { loadTm } from "../tm/store.js";
+import { Progress } from "./progress.js";
 
 /** Approximate Yandex Translate price, rubles per 1M source characters. */
 const DEFAULT_RATE_RUB_PER_M = 419;
@@ -24,12 +25,15 @@ function rate(): number {
 async function main(): Promise<void> {
   const files = await listSourceFiles();
 
+  const bar = new Progress(files.length, "estimate");
   const coverages: FileCoverage[] = [];
   for (const file of files) {
     const aligned = await alignFile(file);
     const tm = await loadTm(file);
     coverages.push(computeCoverage(aligned, tm));
+    bar.increment(file);
   }
+  bar.finish();
 
   const total = sumCoverage(coverages);
   const toTranslate = total.pending + total.stale;

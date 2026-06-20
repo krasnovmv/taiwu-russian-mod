@@ -11,7 +11,8 @@
  */
 import { createEngine, parseEngineId, type EngineId } from "../engine/factory.js";
 import { listSourceFiles } from "../scan.js";
-import { translateFile, type TranslateStats } from "../translate/pipeline.js";
+import { translateFile } from "../translate/pipeline.js";
+import { Progress } from "./progress.js";
 
 function parseArgs(argv: string[]): {
   file: string | undefined;
@@ -37,17 +38,11 @@ function parseArgs(argv: string[]): {
   return { file, all, engine, limit, dryRun };
 }
 
-function printStats(stats: TranslateStats, label: string): void {
-  console.log(
-    `  ${label}: ${stats.translated} translated, ${stats.skipped} skipped, ${stats.failed} failed`,
-  );
-}
-
 async function main(): Promise<void> {
   const { file, all, engine: engineId, limit, dryRun } = parseArgs(process.argv.slice(2));
   if (!all && !file) {
     console.error(
-      "Usage: npm run translate -- (<file> | --all) [--engine mock|yandex] [--limit N] [--dry-run]",
+      "Usage: npm run translate -- (<file> | --all) [--engine mock|yandex|lmstudio] [--limit N] [--dry-run]",
     );
     process.exitCode = 1;
     return;
@@ -57,22 +52,32 @@ async function main(): Promise<void> {
   const now = new Date().toISOString();
   const files = all ? await listSourceFiles() : [file as string];
 
-  console.log(`Engine: ${engine.id}${dryRun ? " (dry-run)" : ""} | files: ${files.length}\n`);
+  console.log(`Engine: ${engine.id}${dryRun ? " (dry-run)" : ""} | files: ${files.length}`);
 
+  const bar = new Progress(files.length, "translate");
   let translated = 0;
   let failed = 0;
+  const failures: { key: string; error: string }[] = [];
   for (const f of files) {
-    const stats = await translateFile(f, engine, { limit, dryRun, now });
+    const stats = await translateFile(f, engine, {
+      limit,
+      dryRun,
+      now,
+      onProgress: (done) => bar.note(`${f} — ${done} units`),
+    });
     translated += stats.translated;
     failed += stats.failed;
-    if (!all || stats.translated > 0 || stats.failed > 0) printStats(stats, f);
-    if (stats.failures.length > 0 && !all) {
-      for (const fail of stats.failures.slice(0, 20))
-        console.log(`      ${fail.key}: ${fail.error}`);
-    }
+    failures.push(...stats.failures);
+    bar.increment(f);
   }
+  bar.finish();
 
-  console.log(`\nTotal translated: ${translated}, failed: ${failed}`);
+  console.log(`Total translated: ${translated}, failed: ${failed}`);
+  if (failures.length > 0) {
+    console.log(`\nMarkup-validation failures (${failures.length}):`);
+    for (const fail of failures.slice(0, 20)) console.log(`  ${fail.key}: ${fail.error}`);
+    if (failures.length > 20) console.log(`  … and ${failures.length - 20} more`);
+  }
 }
 
 await main();

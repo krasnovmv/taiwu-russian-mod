@@ -13,6 +13,7 @@
 import { applyFile } from "../apply/apply.js";
 import { languageRuDir } from "../config/paths.js";
 import { listSourceFiles } from "../scan.js";
+import { Progress } from "./progress.js";
 
 async function main(): Promise<void> {
   const args = process.argv.slice(2);
@@ -27,8 +28,9 @@ async function main(): Promise<void> {
   }
 
   const files = all ? await listSourceFiles() : [fileArg as string];
-  console.log(`Output: ${languageRuDir}${dryRun ? " (dry-run)" : ""}\n`);
+  console.log(`Output: ${languageRuDir}${dryRun ? " (dry-run)" : ""}`);
 
+  const bar = new Progress(files.length, "apply");
   let written = 0;
   let appliedTotal = 0;
   let unsafeTotal = 0;
@@ -39,12 +41,12 @@ async function main(): Promise<void> {
     appliedTotal += r.applied;
     unsafeTotal += r.unsafe;
     if (r.written) written++;
-    else if (r.reason?.startsWith("structural guard")) {
-      blocked.push(`${file}: ${r.reason}`);
-      console.error(`  ✗ ${file}: ${r.reason}`);
-    }
+    else if (r.reason?.startsWith("structural guard")) blocked.push(`${file}: ${r.reason}`);
+    bar.increment(file);
   }
+  bar.finish();
 
+  for (const b of blocked) console.error(`  ✗ ${b}`);
   console.log(`Files written:  ${written}`);
   console.log(`Values applied: ${appliedTotal}`);
   if (unsafeTotal > 0) console.log(`Unsafe (skipped): ${unsafeTotal}`);

@@ -2,8 +2,8 @@
 
 Translate **The Scroll of Taiwu** language files from English to Russian, using
 the Chinese original as a meaning-of-record. Built for long-term maintenance:
-zero-runtime-deps core, a git-tracked translation memory, and byte-exact writing
-with backups.
+a lean-dependency core, a git-tracked translation memory, and byte-exact,
+reversible output.
 
 - **Source:** `Language_EN` (English) · **Reference:** `Language_CN` (Chinese)
 - **Target:** Russian, written to a separate **`Language_RU`** folder (the source
@@ -14,19 +14,20 @@ with backups.
 ## Requirements
 
 - Node.js ≥ 22.15 (developed on 25)
-- The game installed; the repo expects two junctions in its root pointing at the
-  game's `StreamingAssets`:
-  - `Language_EN` → `.../StreamingAssets/Language_EN`
-  - `Language_CN` → `.../StreamingAssets/Language_CN`
+- The game installed; the repo uses junctions in its root pointing at the game's
+  `StreamingAssets`:
+  - `Language_EN` → `.../StreamingAssets/Language_EN` (source)
+  - `Language_CN` → `.../StreamingAssets/Language_CN` (reference)
+  - `Language_RU` → `.../StreamingAssets/Language_RU` (output; `apply` writes here)
 
-  (Both are gitignored. Override locations with `TAIWU_LANG_DIR` /
-  `TAIWU_LANG_CN_DIR` if your layout differs.)
+  (All gitignored. Override with `TAIWU_LANG_DIR` / `TAIWU_LANG_CN_DIR` /
+  `TAIWU_LANG_RU_DIR` if your layout differs — e.g. to keep RU out of the game.)
 
 ## Install
 
 ```bash
 npm install
-npm test          # 760 tests
+npm test          # 766 tests
 npm run typecheck
 ```
 
@@ -39,19 +40,19 @@ npm run typecheck
 cp .env.example .env
 ```
 
-| Variable                      | Purpose                                                        |
-| ----------------------------- | -------------------------------------------------------------- |
-| `TAIWU_YANDEX_IAM_TOKEN`      | IAM token: `yc iam create-token` (valid ~12h)                  |
-| `TAIWU_YANDEX_FOLDER_ID`      | Yandex Cloud folder id                                         |
-| `TAIWU_LANG_DIR`              | Override EN source dir (default `./Language_EN`)               |
-| `TAIWU_LANG_CN_DIR`           | Override CN reference dir                                      |
-| `TAIWU_TM_DIR`                | Translation-memory dir (default `./tm`)                        |
-| `TAIWU_LANG_RU_DIR`          | RU output dir for `apply` (default `./Language_RU`)            |
-| `TAIWU_GLOSSARY`              | Glossary file (default `./data/glossary.json`)                 |
-| `TAIWU_YANDEX_RATE_RUB_PER_M` | Price estimate, RUB per 1M chars (default 419)                 |
-| `TAIWU_LMSTUDIO_BASE_URL`     | LM Studio server (default `http://localhost:1234/v1`)          |
-| `TAIWU_LMSTUDIO_MODEL`        | Model id (default: first non-embedding model loaded)           |
-| `TAIWU_LMSTUDIO_CONCURRENCY`  | Parallel requests to LM Studio (default 4)                     |
+| Variable                      | Purpose                                               |
+| ----------------------------- | ----------------------------------------------------- |
+| `TAIWU_YANDEX_IAM_TOKEN`      | IAM token: `yc iam create-token` (valid ~12h)         |
+| `TAIWU_YANDEX_FOLDER_ID`      | Yandex Cloud folder id                                |
+| `TAIWU_LANG_DIR`              | Override EN source dir (default `./Language_EN`)      |
+| `TAIWU_LANG_CN_DIR`           | Override CN reference dir                             |
+| `TAIWU_TM_DIR`                | Translation-memory dir (default `./tm`)               |
+| `TAIWU_LANG_RU_DIR`           | RU output dir for `apply` (default `./Language_RU`)   |
+| `TAIWU_GLOSSARY`              | Glossary file (default `./data/glossary.json`)        |
+| `TAIWU_YANDEX_RATE_RUB_PER_M` | Price estimate, RUB per 1M chars (default 419)        |
+| `TAIWU_LMSTUDIO_BASE_URL`     | LM Studio server (default `http://localhost:1234/v1`) |
+| `TAIWU_LMSTUDIO_MODEL`        | Model id (default: first non-embedding model loaded)  |
+| `TAIWU_LMSTUDIO_CONCURRENCY`  | Parallel requests to LM Studio (default 4)            |
 
 ## Engines
 
@@ -103,15 +104,15 @@ source changed so you can re-check them.
 
 ## Commands
 
-| Command                                                                                | What it does                              |
-| -------------------------------------------------------------------------------------- | ----------------------------------------- |
-| `npm run status [-- --files]`                                                          | Coverage: translated / stale / pending    |
-| `npm run estimate`                                                                     | Pending units, characters, ~Yandex cost   |
-| `npm run translate -- (<file>\|--all) [--engine mock\|yandex] [--limit N] [--dry-run]` | Translate into the TM                     |
-| `npm run validate [-- <file>] [--semantic] [--kind <kind>]`                            | QA the TM, or EN↔CN markup divergence     |
-| `npm run apply -- (<file>\|--all) [--dry-run]`                                         | Write the TM into `Language_EN`           |
-| `npm run sync [-- --dry-run]`                                                          | Reconcile the TM after a game update      |
-| `npm run roundtrip`                                                                    | Byte-exact round-trip check of all `.txt` |
+| Command                                                                                          | What it does                              |
+| ------------------------------------------------------------------------------------------------ | ----------------------------------------- |
+| `npm run status [-- --files]`                                                                    | Coverage: translated / stale / pending    |
+| `npm run estimate`                                                                               | Pending units, characters, ~Yandex cost   |
+| `npm run translate -- (<file>\|--all) [--engine mock\|yandex\|lmstudio] [--limit N] [--dry-run]` | Translate into the TM                     |
+| `npm run validate [-- <file>] [--semantic] [--kind <kind>]`                                      | QA the TM, or EN↔CN markup divergence     |
+| `npm run apply -- (<file>\|--all) [--dry-run]`                                                   | Build `Language_RU` from the TM           |
+| `npm run sync [-- --dry-run]`                                                                    | Reconcile the TM after a game update      |
+| `npm run roundtrip`                                                                              | Byte-exact round-trip check of all `.txt` |
 
 ## Safety
 
@@ -125,8 +126,9 @@ Further protections:
   translation and validated on restore; a unit with broken markup is flagged,
   not written.
 
-To deploy into the game, point the game at `Language_RU` (e.g. copy it into the
-game's `StreamingAssets`).
+With the `Language_RU` junction pointing into the game's `StreamingAssets`,
+`apply` deploys straight into the game. To keep output local instead, set
+`TAIWU_LANG_RU_DIR` to a project path.
 
 ## How it works
 

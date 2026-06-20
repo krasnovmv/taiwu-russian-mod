@@ -10,8 +10,10 @@ import { alignFile } from "../align/bilingual.js";
 import { listSourceFiles } from "../scan.js";
 import { loadTm } from "../tm/store.js";
 import { validateBilingual, validateTm, type IssueKind, type QaIssue } from "../validate/qa.js";
+import { Progress } from "./progress.js";
 
 async function collect(files: string[], semantic: boolean): Promise<QaIssue[]> {
+  const bar = new Progress(files.length, "validate");
   const all: QaIssue[] = [];
   for (const file of files) {
     if (semantic) {
@@ -21,7 +23,9 @@ async function collect(files: string[], semantic: boolean): Promise<QaIssue[]> {
       const tm = await loadTm(file);
       if (tm) all.push(...validateTm(tm));
     }
+    bar.increment(file);
   }
+  bar.finish();
   return all;
 }
 

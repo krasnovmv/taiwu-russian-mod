@@ -17,7 +17,7 @@
  * `TAIWU_LMSTUDIO_THINKING=on`. Any inline `<think>…</think>` is also stripped as
  * a fallback for models that ignore the flag.
  */
-import type { TranslationEngine, TranslationRequest } from "./types.js";
+import type { ProgressCallback, TranslationEngine, TranslationRequest } from "./types.js";
 
 const SYSTEM_PROMPT = [
   "You are a professional game localizer for The Scroll of Taiwu, a Chinese wuxia",
@@ -83,9 +83,17 @@ export class LmStudioEngine implements TranslationEngine {
     });
   }
 
-  async translate(requests: TranslationRequest[]): Promise<string[]> {
+  async translate(
+    requests: TranslationRequest[],
+    onProgress?: ProgressCallback,
+  ): Promise<string[]> {
     await this.ensureModel();
-    return mapPool(requests, this.concurrency, (req) => this.translateOne(req));
+    let done = 0;
+    return mapPool(requests, this.concurrency, async (req) => {
+      const out = await this.translateOne(req);
+      onProgress?.(++done);
+      return out;
+    });
   }
 
   /** Resolve the model id once: explicit config, else first non-embedding model. */

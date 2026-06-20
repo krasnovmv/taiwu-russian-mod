@@ -14,7 +14,7 @@ import { GLOSSARY_VERSION } from "../config/glossary.js";
 import { alignFile, type AlignedUnit } from "../align/bilingual.js";
 import { loadGlossary } from "../glossary/load.js";
 import { mask, restore } from "../engine/protect.js";
-import type { TranslationEngine, TranslationRequest } from "../engine/types.js";
+import type { ProgressCallback, TranslationEngine, TranslationRequest } from "../engine/types.js";
 import { TM_SCHEMA_VERSION, type TmFile, type TmUnit } from "../model/tm.js";
 import { srcHash } from "../tm/hash.js";
 import { loadTm, saveTm } from "../tm/store.js";
@@ -26,6 +26,8 @@ export interface TranslateOptions {
   dryRun?: boolean;
   /** ISO timestamp to stamp on updated units (kept injectable for determinism). */
   now?: string;
+  /** Called with the running count of units sent to the engine for this file. */
+  onProgress?: ProgressCallback;
 }
 
 export interface TranslateStats {
@@ -96,7 +98,7 @@ export async function translateFile(
     work.push(item);
   }
 
-  const translations = batch.length > 0 ? await engine.translate(batch) : [];
+  const translations = batch.length > 0 ? await engine.translate(batch, options.onProgress) : [];
 
   let translated = 0;
   let failed = 0;
