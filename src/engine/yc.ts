@@ -1,7 +1,8 @@
 /**
  * Thin wrapper around the Yandex Cloud CLI (`yc`). Isolated here so the
- * subprocess integration can be swapped or mocked. Used as a fallback to obtain
- * credentials when they are not provided via environment variables.
+ * subprocess integration can be swapped or mocked. This is the sole source of
+ * Yandex credentials (IAM token + folder id); `yc` must be on PATH and
+ * initialized (`yc init`).
  */
 import { exec } from "node:child_process";
 import { promisify } from "node:util";
