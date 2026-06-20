@@ -6,8 +6,10 @@
  *   - Unity rich text:     <color=#brightred> </color> <align=right> <line-height=0>
  *   - Game tags:           <NL> <Character key=RoleTaiwu str=GenderSubject/>
  *
- * Strategy: replace every protected span (and optional glossary terms) with an
- * opaque sentinel before translation, then restore by index afterwards. The
+ * Strategy: replace every protected span with an opaque sentinel before
+ * translation, then restore by index afterwards. (Glossary terms are NOT masked
+ * here — they are passed to the engine to apply and inflect; see
+ * `src/glossary/match.ts`.) The
  * restore step VALIDATES that every sentinel survived exactly once — if the
  * engine dropped, duplicated or mangled a sentinel, restore fails and the caller
  * flags the unit instead of writing corrupted text.
@@ -42,33 +44,24 @@ export interface Masked {
   readonly translatable: boolean;
 }
 
-/**
- * Mask protected spans (and glossary terms) in `text`.
- *
- * @param glossary lowercased EN term → canonical RU term. Matched terms are
- *   replaced by a sentinel whose restore value is the RU term, guaranteeing
- *   consistent terminology regardless of the engine.
- */
-export function mask(text: string, glossary: ReadonlyMap<string, string> = new Map()): Masked {
+/** Mask protected spans (tags + placeholders) in `text`. */
+export function mask(text: string): Masked {
   const leading = /^\s*/.exec(text)?.[0] ?? "";
   const trailing = text.length > leading.length ? (/\s*$/.exec(text)?.[0] ?? "") : "";
   const core = text.slice(leading.length, text.length - trailing.length);
 
   const tokens: string[] = [];
-  const replace = (input: string, re: RegExp, value: (match: string) => string): string =>
+  const replace = (input: string, re: RegExp): string =>
     input.replace(re, (match) => {
       const index = tokens.length;
-      tokens.push(value(match));
+      tokens.push(match);
       return sentinel(index);
     });
 
-  // Order matters: tags first (so a glossary term inside a tag is not touched),
-  // then placeholders, then glossary. Sentinels never match the later regexes.
-  let masked = replace(core, TAG_RE, (m) => m);
-  masked = replace(masked, PLACEHOLDER_RE, (m) => m);
-  if (glossary.size > 0) {
-    masked = replace(masked, glossaryRegex(glossary), (m) => glossary.get(m.toLowerCase()) ?? m);
-  }
+  // Tags first (so a placeholder inside a tag is not double-masked), then
+  // placeholders. Sentinels never match the later regex.
+  let masked = replace(core, TAG_RE);
+  masked = replace(masked, PLACEHOLDER_RE);
 
   // Sentinels contain a literal "m"; strip them before checking for real letters.
   const translatable = /\p{L}/u.test(masked.replace(SENTINEL_RE, ""));
@@ -122,14 +115,4 @@ export function restore(translated: string, m: Masked): RestoreResult {
 export function extractMarkup(text: string): string[] {
   const found = [...(text.match(TAG_RE) ?? []), ...(text.match(PLACEHOLDER_RE) ?? [])];
   return found.sort();
-}
-
-function escapeRegExp(s: string): string {
-  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
-
-/** Build a case-insensitive, longest-match-first alternation of glossary terms. */
-function glossaryRegex(glossary: ReadonlyMap<string, string>): RegExp {
-  const terms = [...glossary.keys()].sort((a, b) => b.length - a.length).map(escapeRegExp);
-  return new RegExp(`\\b(?:${terms.join("|")})\\b`, "gi");
 }

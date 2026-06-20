@@ -66,6 +66,32 @@ test("cache persists to disk and survives a fresh engine instance", async () => 
   assert.deepEqual(second.seen, []);
 });
 
+test("glossary-free texts keep key === text (cache reused across glossary edits)", async () => {
+  const file = await cacheFile();
+  const c = counter();
+  // Same text, different glossaries; the text has no glossary term either way.
+  await new CachingEngine(c.engine, file, new Map([["qi", "ци"]])).translate([{ text: "plain" }]);
+  const reloaded = new CachingEngine(c.engine, file, new Map([["qi", "чи"]]));
+  assert.deepEqual(await reloaded.translate([{ text: "plain" }]), ["ru:plain"]);
+  assert.deepEqual(c.seen, ["plain"]); // second call served from cache, not re-run
+});
+
+test("editing a term re-translates only texts that contain it", async () => {
+  const file = await cacheFile();
+  const c = counter();
+  await new CachingEngine(c.engine, file, new Map([["qi", "ци"]])).translate([{ text: "your Qi" }]);
+  assert.deepEqual(c.seen, ["your Qi"]);
+
+  // Changing Qi's RU value changes the signature → cache miss → re-translate.
+  const edited = new CachingEngine(c.engine, file, new Map([["qi", "чи"]]));
+  await edited.translate([{ text: "your Qi" }]);
+  assert.deepEqual(c.seen, ["your Qi", "your Qi"]);
+
+  // Re-running with the same (edited) glossary is now a cache hit.
+  await edited.translate([{ text: "your Qi" }]);
+  assert.deepEqual(c.seen, ["your Qi", "your Qi"]);
+});
+
 test("progress reaches the full request count (hits + misses)", async () => {
   const file = await cacheFile();
   const c = counter();

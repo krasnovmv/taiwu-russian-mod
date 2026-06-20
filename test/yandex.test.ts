@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import { YandexEngine, batchByChars } from "../src/engine/yandex.js";
+import { YandexEngine, batchByChars, glossaryPairsForTexts } from "../src/engine/yandex.js";
 
 test("batchByChars respects the character budget", () => {
   const texts = ["aaaa", "bbbb", "cccc"]; // 4 chars each
@@ -19,6 +19,26 @@ test("a single oversized text is its own batch (never dropped)", () => {
   const texts = ["x".repeat(50), "y"];
   const batches = batchByChars(texts, 10, 100);
   assert.deepEqual(batches, [["x".repeat(50)], ["y"]]);
+});
+
+test("glossaryPairsForTexts builds exact:false pairs for terms in the batch", () => {
+  const glossary = new Map([
+    ["qi", "ци"],
+    ["sect", "секта"],
+    ["loong", "лун"],
+  ]);
+  const pairs = glossaryPairsForTexts(["Restore your Qi in the Sect", "again the Sect"], glossary);
+  assert.deepEqual(pairs, [
+    { sourceText: "qi", translatedText: "ци", exact: false },
+    { sourceText: "sect", translatedText: "секта", exact: false },
+  ]);
+  // a term that never appears is omitted
+  assert.ok(!pairs.some((p) => p.sourceText === "loong"));
+});
+
+test("glossaryPairsForTexts is empty without a glossary or matches", () => {
+  assert.deepEqual(glossaryPairsForTexts(["plain text"], new Map()), []);
+  assert.deepEqual(glossaryPairsForTexts(["plain text"], new Map([["qi", "ци"]])), []);
 });
 
 test("YandexEngine.fromEnv builds an engine (yc creds resolved lazily)", () => {

@@ -15,6 +15,7 @@
     "validate": "node --env-file-if-exists=.env --import tsx src/cli/validate.ts",
     "apply": "node --env-file-if-exists=.env --import tsx src/cli/apply.ts",
     "sync": "node --env-file-if-exists=.env --import tsx src/cli/sync.ts",
+    "glossary:candidates": "node --env-file-if-exists=.env --import tsx src/cli/glossary-candidates.ts",
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check ."

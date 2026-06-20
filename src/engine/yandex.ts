@@ -13,6 +13,7 @@
 import { Session } from "@yandex-cloud/nodejs-sdk";
 import { translationService } from "@yandex-cloud/nodejs-sdk/ai-translate-v2";
 
+import { matchGlossary } from "../glossary/match.js";
 import { backoffMs, delay } from "../util/async.js";
 import type { ProgressCallback, TranslationEngine, TranslationRequest } from "./types.js";
 import { ycFolderId, ycIamToken } from "./yc.js";
@@ -20,6 +21,8 @@ import { ycFolderId, ycIamToken } from "./yc.js";
 const CHAR_BUDGET = 9000;
 const MAX_TEXTS = 100;
 const MAX_RETRIES = 5;
+/** Yandex caps a request's glossary at 50 pairs. */
+const MAX_GLOSSARY_PAIRS = 50;
 
 function createTranslationClient(iamToken: string) {
   return new Session({ iamToken }).client(translationService.TranslationServiceClient);
@@ -32,17 +35,21 @@ export interface YandexConfig {
   getFolderId: () => Promise<string>;
   sourceLang?: string;
   targetLang?: string;
+  /** EN→RU glossary; applied via `glossaryConfig` so Yandex inflects each term. */
+  glossary?: ReadonlyMap<string, string>;
 }
 
 export class YandexEngine implements TranslationEngine {
   readonly id = "yandex";
   readonly checkpointSize = 100; // fast batched MT; whole files complete quickly
   private readonly cfg: Required<Pick<YandexConfig, "sourceLang" | "targetLang">> & YandexConfig;
+  private readonly glossary: ReadonlyMap<string, string>;
   private client: ReturnType<typeof createTranslationClient> | null = null;
   private folderId: string | null = null;
 
   constructor(cfg: YandexConfig) {
     this.cfg = { sourceLang: "en", targetLang: "ru", ...cfg };
+    this.glossary = cfg.glossary ?? new Map();
   }
 
   /**
@@ -52,8 +59,8 @@ export class YandexEngine implements TranslationEngine {
    * when translation actually runs. Inject providers via the constructor to test
    * or to source credentials differently.
    */
-  static fromEnv(): YandexEngine {
-    return new YandexEngine({ getIamToken: ycIamToken, getFolderId: ycFolderId });
+  static fromEnv(glossary?: ReadonlyMap<string, string>): YandexEngine {
+    return new YandexEngine({ getIamToken: ycIamToken, getFolderId: ycFolderId, glossary });
   }
 
   /** Resolve credentials and build the gRPC client once, lazily. */
@@ -85,6 +92,7 @@ export class YandexEngine implements TranslationEngine {
       targetLanguageCode: this.cfg.targetLang,
       // HTML mode preserves the `<mN></mN>` markup sentinels verbatim.
       format: translationService.TranslateRequest_Format.HTML,
+      glossaryConfig: this.glossaryConfigFor(texts),
     });
 
     for (let attempt = 0; ; attempt++) {
@@ -97,6 +105,42 @@ export class YandexEngine implements TranslationEngine {
       }
     }
   }
+
+  /**
+   * Build the request glossary from the terms that occur across `texts`. Omitted
+   * (undefined) when none apply, so a request without glossary terms is plain.
+   */
+  private glossaryConfigFor(texts: string[]) {
+    const pairs = glossaryPairsForTexts(texts, this.glossary);
+    return pairs.length > 0 ? { glossaryData: { glossaryPairs: pairs } } : undefined;
+  }
+}
+
+/** A Yandex glossary pair. `exact: false` lets the neuroglossary inflect the RU term. */
+export interface YandexGlossaryPair {
+  sourceText: string;
+  translatedText: string;
+  exact: boolean;
+}
+
+/**
+ * The deduplicated union of glossary terms occurring across a batch of texts,
+ * capped at Yandex's 50-pair limit, as `{sourceText, translatedText, exact}`.
+ * `exact: false` so Yandex declines each RU term to fit grammar (indeclinable
+ * terms simply pass through unchanged).
+ */
+export function glossaryPairsForTexts(
+  texts: string[],
+  glossary: ReadonlyMap<string, string>,
+): YandexGlossaryPair[] {
+  if (glossary.size === 0) return [];
+  const union = new Map<string, string>();
+  for (const text of texts) {
+    for (const { en, ru } of matchGlossary(text, glossary)) union.set(en, ru);
+  }
+  return [...union.entries()]
+    .slice(0, MAX_GLOSSARY_PAIRS)
+    .map(([sourceText, translatedText]) => ({ sourceText, translatedText, exact: false }));
 }
 
 /** Split texts into batches under both a character budget and a count cap. */

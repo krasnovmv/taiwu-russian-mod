@@ -1,8 +1,9 @@
 /**
  * Translation pipeline for one source file.
  *
- * Flow per unit: align EN↔CN → mask markup/glossary → (engine if translatable)
- * → restore + validate → write into the translation memory. Writes ONLY the TM
+ * Flow per unit: align EN↔CN → mask markup → (engine, which applies the glossary,
+ * if translatable) → restore + validate → write into the translation memory.
+ * Writes ONLY the TM
  * (never the game files). Incremental and idempotent:
  *   - units already translated with a matching srcHash are skipped;
  *   - `reviewed`/`locked` units are never overwritten (their CN reference is
@@ -17,7 +18,6 @@
  */
 import { GLOSSARY_VERSION } from "../config/glossary.js";
 import { alignFile } from "../align/bilingual.js";
-import { loadGlossary } from "../glossary/load.js";
 import type { SourceUnit } from "../formats/adapter.js";
 import { mask, restore } from "../engine/protect.js";
 import type { ProgressCallback, TranslationEngine, TranslationRequest } from "../engine/types.js";
@@ -67,7 +67,6 @@ export async function translateFile(
   options: TranslateOptions = {},
 ): Promise<TranslateStats> {
   const aligned = await alignFile(file);
-  const glossary = await loadGlossary();
   const existing = await loadTm(file);
 
   const units: Record<string, TmUnit> = {};
@@ -95,7 +94,7 @@ export async function translateFile(
       skipped++; // beyond the limit: stays pending
       continue;
     }
-    work.push({ unit, hash, masked: mask(unit.en, glossary) });
+    work.push({ unit, hash, masked: mask(unit.en) });
   }
 
   const tm: TmFile = {

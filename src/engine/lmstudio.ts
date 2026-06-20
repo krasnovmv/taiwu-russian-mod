@@ -16,6 +16,7 @@
  * thinking trace never reaches the output. Any inline `<think>…</think>` is also
  * stripped as a fallback for models that ignore the flag.
  */
+import { matchGlossary } from "../glossary/match.js";
 import { backoffMs, delay } from "../util/async.js";
 import type { ProgressCallback, TranslationEngine, TranslationRequest } from "./types.js";
 
@@ -28,8 +29,18 @@ const SYSTEM_PROMPT = [
   "1. Preserve every placeholder tag of the form <mN></mN> (N is a number) EXACTLY —",
   "   same tags, same numbers, same count. Never translate, reorder, alter or drop them.",
   "2. Keep the wuxia tone; translate names/terms naturally into Russian.",
-  "3. Output ONLY the Russian translation — no quotes, no notes, no original text.",
+  "3. If a GLOSSARY is given, use exactly those Russian translations for the listed",
+  "   terms, declining them naturally to fit the sentence's grammar (case, number).",
+  "4. Output ONLY the Russian translation — no quotes, no notes, no original text.",
 ].join(" ");
+
+/** Render the glossary terms that apply to `text` as a prompt block (or null). */
+function glossaryBlock(text: string, glossary: ReadonlyMap<string, string>): string | null {
+  const matches = matchGlossary(text, glossary);
+  if (matches.length === 0) return null;
+  const lines = matches.map((m) => `${m.en} → ${m.ru}`).join("\n");
+  return `Glossary (use these Russian translations, declined to fit grammar):\n${lines}`;
+}
 
 const MARKUP_RE = /<[^>]*>|\{\d+\}/g;
 
@@ -50,6 +61,8 @@ export interface LmStudioConfig {
   baseUrl?: string;
   model?: string;
   concurrency?: number;
+  /** EN→RU glossary; matched terms are injected into each request's prompt. */
+  glossary?: ReadonlyMap<string, string>;
 }
 
 interface ModelsResponse {
@@ -64,20 +77,23 @@ export class LmStudioEngine implements TranslationEngine {
   readonly checkpointSize = 20; // slow local LLM (~1s/unit); checkpoint often
   private readonly baseUrl: string;
   private readonly concurrency: number;
+  private readonly glossary: ReadonlyMap<string, string>;
   private model: string | null;
 
   constructor(cfg: LmStudioConfig = {}) {
     this.baseUrl = (cfg.baseUrl ?? "http://localhost:1234/v1").replace(/\/$/, "");
     this.model = cfg.model ?? null;
     this.concurrency = Math.max(1, cfg.concurrency ?? 4);
+    this.glossary = cfg.glossary ?? new Map();
   }
 
-  static fromEnv(): LmStudioEngine {
+  static fromEnv(glossary?: ReadonlyMap<string, string>): LmStudioEngine {
     const concurrency = Number(process.env.TAIWU_LMSTUDIO_CONCURRENCY);
     return new LmStudioEngine({
       baseUrl: process.env.TAIWU_LMSTUDIO_BASE_URL,
       model: process.env.TAIWU_LMSTUDIO_MODEL,
       concurrency: Number.isFinite(concurrency) ? concurrency : undefined,
+      glossary,
     });
   }
 
@@ -114,9 +130,14 @@ export class LmStudioEngine implements TranslationEngine {
 
   private async translateOne(req: TranslationRequest): Promise<string> {
     const reference = referenceContext(req.reference);
-    const userContent = reference
-      ? `Chinese original (meaning reference): ${reference}\n\nEnglish to translate:\n${req.text}`
-      : req.text;
+    const glossary = glossaryBlock(req.text, this.glossary);
+    const userContent = [
+      glossary,
+      reference ? `Chinese original (meaning reference): ${reference}` : null,
+      `English to translate:\n${req.text}`,
+    ]
+      .filter((part): part is string => part !== null)
+      .join("\n\n");
     const body = JSON.stringify({
       model: this.model,
       temperature: 0,

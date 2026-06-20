@@ -1,6 +1,7 @@
 import path from "node:path";
 
 import { cacheDir } from "../config/paths.js";
+import { loadGlossary } from "../glossary/load.js";
 import { CachingEngine } from "./caching.js";
 import { LmStudioEngine } from "./lmstudio.js";
 import { MockEngine } from "./mock.js";
@@ -25,15 +26,16 @@ function cacheFile(id: EngineId): string {
  * {@link CachingEngine} so identical source strings are translated once and
  * never re-billed/re-run (the cache survives deleting the translation memory).
  * `mock` is free/deterministic and left unwrapped.
+ *
+ * The glossary is loaded once and handed to both the engine (which applies it —
+ * Yandex via `glossaryConfig`, LM Studio via the prompt) and the cache (which
+ * folds matched terms into its key). `mock` ignores the glossary.
  */
-export function createEngine(id: EngineId): TranslationEngine {
-  switch (id) {
-    case "mock":
-      return new MockEngine();
-    case "lmstudio":
-      return new CachingEngine(LmStudioEngine.fromEnv(), cacheFile(id));
-    case "yandex":
-      // Credentials come from the `yc` CLI, resolved lazily on first use.
-      return new CachingEngine(YandexEngine.fromEnv(), cacheFile(id));
-  }
+export async function createEngine(id: EngineId): Promise<TranslationEngine> {
+  if (id === "mock") return new MockEngine();
+  const glossary = await loadGlossary();
+  const inner =
+    // Credentials come from the `yc` CLI, resolved lazily on first use.
+    id === "yandex" ? YandexEngine.fromEnv(glossary) : LmStudioEngine.fromEnv(glossary);
+  return new CachingEngine(inner, cacheFile(id), glossary);
 }

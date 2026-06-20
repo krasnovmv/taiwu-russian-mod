@@ -112,6 +112,7 @@ source changed so you can re-check them.
 | `npm run apply -- (<file>\|--all) [--dry-run]`                                                   | Build `Language_RU` from the TM           |
 | `npm run sync [-- --dry-run]`                                                                    | Reconcile the TM after a game update      |
 | `npm run roundtrip`                                                                              | Byte-exact round-trip check of all `.txt` |
+| `npm run glossary:candidates [-- --min N --top N --phrases --json f --skeleton f]`               | Mine source for glossary term candidates  |
 
 ## Safety
 
@@ -141,9 +142,15 @@ Language_CN ─┴─ align (by key) ─ mask ─┤
   `ru`, `status` (`pending`/`machine`/`reviewed`/`locked`) and a source hash for
   incremental re-runs. It is the durable asset — review and hand-edit it, set
   `status` to `reviewed`/`locked` to protect entries from re-translation.
-- **Glossary** (`data/glossary.json`): EN→RU terms enforced verbatim. Bump
-  `GLOSSARY_VERSION` in `src/config/glossary.ts` after edits to re-translate
-  affected machine units.
+- **Glossary** (`data/glossary.json`): EN→RU terms handed to the engine to
+  enforce — Yandex via its native `glossaryConfig` (`exact: false`, so it
+  **declines** each term to fit Russian grammar), LM Studio via the prompt. Only
+  terms that occur in a unit are sent, and the response cache folds those terms
+  into its key, so editing a term re-translates only the units containing it.
+  Bump `GLOSSARY_VERSION` in `src/config/glossary.ts` after edits to re-translate
+  affected machine units. Run `npm run glossary:candidates` to mine the source
+  for recurring proper nouns and domain terms worth adding (ranked by frequency,
+  with a CN example per term); `--skeleton f` writes a fill-in stub to curate.
 
 ### Formats
 

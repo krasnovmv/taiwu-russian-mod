@@ -85,6 +85,47 @@ test("ensureModel picks the first non-embedding model; reference markup is strip
   });
 });
 
+test("glossary terms in the text are injected into the prompt", async () => {
+  let user = "";
+  const fetchImpl = ((url: string | URL, init?: RequestInit) => {
+    if (String(url).endsWith("/models"))
+      return Promise.resolve(jsonResponse({ data: [{ id: "m" }] }));
+    const body = JSON.parse(init?.body as string) as { messages: { content: string }[] };
+    user = body.messages[1]?.content ?? "";
+    return Promise.resolve(jsonResponse({ choices: [{ message: { content: "ok" } }] }));
+  }) as FetchFn;
+
+  await withFetch(fetchImpl, async () => {
+    const glossary = new Map([
+      ["qi", "ци"],
+      ["loong", "лун"],
+    ]);
+    const engine = new LmStudioEngine({ glossary });
+    await engine.translate([{ text: "Restore your Qi" }]);
+    assert.ok(user.includes("Glossary"), "glossary block present");
+    assert.ok(user.includes("qi → ци"), "matched term listed");
+    assert.ok(!user.includes("лун"), "unmatched term omitted");
+    assert.ok(user.includes("Restore your Qi"), "source text present");
+  });
+});
+
+test("no glossary block when no term applies", async () => {
+  let user = "";
+  const fetchImpl = ((url: string | URL, init?: RequestInit) => {
+    if (String(url).endsWith("/models"))
+      return Promise.resolve(jsonResponse({ data: [{ id: "m" }] }));
+    const body = JSON.parse(init?.body as string) as { messages: { content: string }[] };
+    user = body.messages[1]?.content ?? "";
+    return Promise.resolve(jsonResponse({ choices: [{ message: { content: "ok" } }] }));
+  }) as FetchFn;
+
+  await withFetch(fetchImpl, async () => {
+    const engine = new LmStudioEngine({ glossary: new Map([["qi", "ци"]]) });
+    await engine.translate([{ text: "nothing relevant here" }]);
+    assert.ok(!user.includes("Glossary"), "no glossary block");
+  });
+});
+
 test("client errors (4xx) fail fast without retry", async () => {
   let chatCalls = 0;
   const fetchImpl = ((url: string | URL) => {

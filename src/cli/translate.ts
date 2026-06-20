@@ -53,7 +53,7 @@ async function main(): Promise<void> {
     return;
   }
 
-  const engine = createEngine(engineId);
+  const engine = await createEngine(engineId);
   const now = new Date().toISOString();
   const files = all ? await listSourceFiles() : [file as string];
 

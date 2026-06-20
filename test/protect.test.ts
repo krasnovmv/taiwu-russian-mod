@@ -56,11 +56,9 @@ test("restore fails when a sentinel is duplicated", () => {
   assert.equal(r.ok, false);
 });
 
-test("glossary terms are substituted with canonical RU verbatim", () => {
-  const glossary = new Map([["qi", "ци"]]);
-  const m = mask("Restore your Qi now", glossary);
-  const r = restore(goodEngine(m.masked), m);
-  assert.ok(r.ok);
-  assert.ok(r.text.includes("ци"));
-  assert.ok(!/Qi/i.test(r.text));
+test("glossary terms are NOT masked — they reach the engine verbatim", () => {
+  // Glossary is applied by the engine now, not by masking; mask leaves words alone.
+  const m = mask("Restore your Qi now");
+  assert.ok(m.masked.includes("Qi"), "term stays in the text for the engine to translate");
+  assert.equal(m.tokens.length, 0);
 });

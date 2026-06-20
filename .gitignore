@@ -21,4 +21,10 @@ yarn-error.log*
 
 /backups
 
+# Generated glossary-mining reports (curated data/glossary.json stays tracked)
+/data/glossary-candidates.json
+/data/glossary-candidates.tsv
+/data/glossary-candidates-indeclinable.tsv
+/data/glossary-skeleton.json
+
 /.idea
