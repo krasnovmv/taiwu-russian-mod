@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
+import { GLOSSARY_VERSION } from "../src/config/glossary.js";
 import type { AlignedFile } from "../src/align/bilingual.js";
 import type { TmFile } from "../src/model/tm.js";
 import { TM_SCHEMA_VERSION } from "../src/model/tm.js";
@@ -54,14 +55,14 @@ test("computeCoverage classifies translated / stale / pending", () => {
   const tm: TmFile = {
     schemaVersion: TM_SCHEMA_VERSION,
     file: "Demo.txt",
-    glossaryVersion: 0,
+    glossaryVersion: GLOSSARY_VERSION,
     units: {
       A: {
         en: "alpha",
         cn: "甲",
         ru: "альфа",
         status: "machine",
-        srcHash: srcHash("alpha", 0),
+        srcHash: srcHash("alpha", GLOSSARY_VERSION),
         engine: "yandex",
         updatedAt: null,
       },
@@ -70,7 +71,7 @@ test("computeCoverage classifies translated / stale / pending", () => {
         cn: "乙",
         ru: "браво",
         status: "reviewed",
-        srcHash: srcHash("OLD", 0),
+        srcHash: srcHash("OLD", GLOSSARY_VERSION),
         engine: "yandex",
         updatedAt: null,
       },

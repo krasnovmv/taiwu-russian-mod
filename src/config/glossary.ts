@@ -3,6 +3,6 @@
  * in the translation memory (their `srcHash` stops matching), forcing a re-run
  * with the updated terminology while leaving `reviewed`/`locked` units alone.
  *
- * The glossary content itself (wuxia terminology) is introduced in Phase 3.
+ * The glossary content (wuxia terminology) lives in `data/glossary.json`.
  */
-export const GLOSSARY_VERSION = 0;
+export const GLOSSARY_VERSION = 2;
