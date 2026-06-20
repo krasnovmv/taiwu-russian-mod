@@ -5,4 +5,4 @@
  *
  * The glossary content (wuxia terminology) lives in `data/glossary.json`.
  */
-export const GLOSSARY_VERSION = 4;
+export const GLOSSARY_VERSION = 5;
