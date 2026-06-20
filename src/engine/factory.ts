@@ -23,14 +23,8 @@ export function createEngine(id: EngineId): TranslationEngine {
       return new MockEngine();
     case "lmstudio":
       return LmStudioEngine.fromEnv();
-    case "yandex": {
-      const engine = YandexEngine.fromEnv();
-      if (!engine) {
-        throw new Error(
-          "Yandex engine needs TAIWU_YANDEX_IAM_TOKEN and TAIWU_YANDEX_FOLDER_ID in the environment.",
-        );
-      }
-      return engine;
-    }
+    case "yandex":
+      // Credentials come from env or the `yc` CLI, resolved lazily on first use.
+      return YandexEngine.fromEnv();
   }
 }

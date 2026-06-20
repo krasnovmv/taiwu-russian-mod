@@ -15,45 +15,56 @@ import { translationService } from "@yandex-cloud/nodejs-sdk/ai-translate-v2";
 
 import { backoffMs, delay } from "../util/async.js";
 import type { ProgressCallback, TranslationEngine, TranslationRequest } from "./types.js";
+import { folderIdProvider, iamTokenProvider } from "./yandex-creds.js";
 
 const CHAR_BUDGET = 9000;
 const MAX_TEXTS = 100;
 const MAX_RETRIES = 5;
 
+function createTranslationClient(iamToken: string) {
+  return new Session({ iamToken }).client(translationService.TranslationServiceClient);
+}
+
 export interface YandexConfig {
-  iamToken: string;
-  folderId: string;
+  /** Lazily resolves an IAM token (env value or `yc iam create-token`). */
+  getIamToken: () => Promise<string>;
+  /** Lazily resolves the folder id (env value or `yc config get folder-id`). */
+  getFolderId: () => Promise<string>;
   sourceLang?: string;
   targetLang?: string;
 }
 
 export class YandexEngine implements TranslationEngine {
   readonly id = "yandex";
-  private readonly client;
-  private readonly folderId: string;
-  private readonly sourceLang: string;
-  private readonly targetLang: string;
+  private readonly cfg: Required<Pick<YandexConfig, "sourceLang" | "targetLang">> & YandexConfig;
+  private client: ReturnType<typeof createTranslationClient> | null = null;
+  private folderId: string | null = null;
 
   constructor(cfg: YandexConfig) {
-    const session = new Session({ iamToken: cfg.iamToken });
-    this.client = session.client(translationService.TranslationServiceClient);
-    this.folderId = cfg.folderId;
-    this.sourceLang = cfg.sourceLang ?? "en";
-    this.targetLang = cfg.targetLang ?? "ru";
+    this.cfg = { sourceLang: "en", targetLang: "ru", ...cfg };
   }
 
-  /** Build from environment, or return null if credentials are missing. */
-  static fromEnv(): YandexEngine | null {
-    const iamToken = process.env.TAIWU_YANDEX_IAM_TOKEN;
-    const folderId = process.env.TAIWU_YANDEX_FOLDER_ID;
-    if (!iamToken || !folderId) return null;
-    return new YandexEngine({ iamToken, folderId });
+  /**
+   * Build from environment, falling back to the `yc` CLI for any credential not
+   * set (see {@link iamTokenProvider}/{@link folderIdProvider}). Credentials are
+   * resolved lazily on first translate, so a missing/expired token surfaces a
+   * clear error only when translation actually runs.
+   */
+  static fromEnv(): YandexEngine {
+    return new YandexEngine({ getIamToken: iamTokenProvider(), getFolderId: folderIdProvider() });
+  }
+
+  /** Resolve credentials and build the gRPC client once, lazily. */
+  private async ready(): Promise<void> {
+    this.client ??= createTranslationClient(await this.cfg.getIamToken());
+    this.folderId ??= await this.cfg.getFolderId();
   }
 
   async translate(
     requests: TranslationRequest[],
     onProgress?: ProgressCallback,
   ): Promise<string[]> {
+    await this.ready();
     // Yandex is pure machine translation; the CN reference is not used.
     const texts = requests.map((r) => r.text);
     const result: string[] = [];
@@ -66,16 +77,16 @@ export class YandexEngine implements TranslationEngine {
 
   private async translateBatch(texts: string[]): Promise<string[]> {
     const request = translationService.TranslateRequest.fromPartial({
-      folderId: this.folderId,
+      folderId: this.folderId ?? undefined,
       texts,
-      sourceLanguageCode: this.sourceLang,
-      targetLanguageCode: this.targetLang,
+      sourceLanguageCode: this.cfg.sourceLang,
+      targetLanguageCode: this.cfg.targetLang,
       format: translationService.TranslateRequest_Format.PLAIN_TEXT,
     });
 
     for (let attempt = 0; ; attempt++) {
       try {
-        const response = await this.client.translate(request);
+        const response = await this.client!.translate(request);
         return response.translations.map((t) => t.text);
       } catch (err) {
         if (attempt >= MAX_RETRIES) throw err;

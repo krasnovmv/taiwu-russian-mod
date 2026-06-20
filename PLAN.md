@@ -124,6 +124,13 @@
 - [x] Junction `Language_RU` → `StreamingAssets/Language_RU` игры (симметрично EN/CN):
       `apply` пишет прямо в игру, папка удобно открывается из корня проекта.
 
+## Дополнения — продолжение
+
+- [x] Yandex: IAM-токен и folder-id берутся из env, **а при их отсутствии — вызовом
+      `yc`** (`yc iam create-token` / `yc config get folder-id`). Интеграция с CLI
+      изолирована в `src/engine/yc.ts`, выбор env-vs-yc — в `src/engine/yandex-creds.ts`;
+      креды резолвятся лениво на первом переводе. `.env` с Yandex теперь опционален.
+
 ## Ревью кода (поддерживаемость / адаптеры / версии) ✅
 
 - [x] Версии пакетов — все последние (`npm outdated` пусто).
