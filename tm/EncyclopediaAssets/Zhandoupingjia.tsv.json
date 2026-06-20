@@ -1,0 +1,709 @@
+{
+  "schemaVersion": 1,
+  "file": "EncyclopediaAssets/Zhandoupingjia.tsv",
+  "glossaryVersion": 5,
+  "units": {
+    "r0c0": {
+      "en": "<align=\"center\">Victorious</align>",
+      "cn": "<align=\"center\">克敌制胜</align>",
+      "ru": "<align=\"center\">Победоносный</align>",
+      "status": "machine",
+      "srcHash": "fc10aaec4756bd69",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r0c1": {
+      "en": "Battle Won",
+      "cn": "战斗胜利",
+      "ru": "Битва выиграна",
+      "status": "machine",
+      "srcHash": "251e46b45c69e9c8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "r1c0": {
+      "en": "<align=\"center\">Outplayed</align>",
+      "cn": "<align=\"center\">技不如人</align>",
+      "ru": "<align=\"center\">Переиграл</align>",
+      "status": "machine",
+      "srcHash": "c0dab248e0bf1df1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r1c1": {
+      "en": "Battle Lost",
+      "cn": "战斗失败",
+      "ru": "Битва проиграна",
+      "status": "machine",
+      "srcHash": "df08933650a1fb42",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "r2c0": {
+      "en": "<align=\"center\">Flee As Fast As Possible</align>",
+      "cn": "<align=\"center\">落荒而逃</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4307042384fb0bab",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r2c1": {
+      "en": "Flee",
+      "cn": "逃离战斗",
+      "ru": "Бежать",
+      "status": "machine",
+      "srcHash": "827618724e85a5a6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "r3c0": {
+      "en": "<align=\"center\">Kneeling in Defeat</align>",
+      "cn": "<align=\"center\">屈膝束手</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "05952bc9b2cf9d13",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r3c1": {
+      "en": "Surrender in battle",
+      "cn": "在战斗中认输投降",
+      "ru": "Сдаваться в бою",
+      "status": "machine",
+      "srcHash": "7353216171362d1f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "r4c0": {
+      "en": "<align=\"center\">Dire</align>",
+      "cn": "<align=\"center\">九死一生</align>",
+      "ru": "<align=\"center\">Ужасный</align>",
+      "status": "machine",
+      "srcHash": "e8e65d3d72bb9193",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r4c1": {
+      "en": "Engage in combat when [Battle Difficulty] in the World Details is set to Extreme",
+      "cn": "在世界细节「战斗的难度」设置为极难时，进行战斗",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "08f48ae490fddd85",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r5c0": {
+      "en": "<align=\"center\">Dancing with Death</align>",
+      "cn": "<align=\"center\">十死无生</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d42d5a7041ebc8d5",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r5c1": {
+      "en": "Engage in combat when [Battle Difficulty] in the World Details is set to Doom",
+      "cn": "在世界细节「战斗的难度」设置为必死时，进行战斗",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d5860d66b9fa16cd",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r6c0": {
+      "en": "<align=\"center\">Basic Instruction</align>",
+      "cn": "<align=\"center\">指点一二</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6f9b3075f84d373b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r6c1": {
+      "en": "Spar with an opponent whose Pure Essence is less than yours",
+      "cn": "与精纯低于自己的对手切磋武功",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d37bb5c2a076f46f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r7c0": {
+      "en": "<align=\"center\">Bring It On</align>",
+      "cn": "<align=\"center\">兵来将挡</align>",
+      "ru": "<align=\"center\">Продолжай в том же духе</align>",
+      "status": "machine",
+      "srcHash": "ffc31a48cf642a5f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r7c1": {
+      "en": "Fight an opponent whose Pure Essence is less than yours in a Trial",
+      "cn": "与精纯低于自己的对手进行接招",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fa74febde5ae0f72",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r8c0": {
+      "en": "<align=\"center\">Effortless Mastery</align>",
+      "cn": "<align=\"center\">游刃有余</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c746fc6911998bf0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r8c1": {
+      "en": "Fight an opponent whose Pure Essence is less than yours in a Brawl",
+      "cn": "与精纯低于自己的对手发生恶斗",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0cfef6dacee20997",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r9c0": {
+      "en": "<align=\"center\">A Close Call</align>",
+      "cn": "<align=\"center\">有惊无险</align>",
+      "ru": "<align=\"center\">На волосок от гибели</align>",
+      "status": "machine",
+      "srcHash": "faa002e07b914cf9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r9c1": {
+      "en": "Fight an opponent whose Pure Essence is less than yours in a Duel",
+      "cn": "与精纯低于自己的对手发生死斗",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "aa3c41c617613d62",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r10c0": {
+      "en": "<align=\"center\">Friendly Sparring</align>",
+      "cn": "<align=\"center\">切磋感悟</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f614794886f37588",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r10c1": {
+      "en": "Spar with an opponent whose Pure Essence is no less than yours",
+      "cn": "与精纯不低于自己的对手切磋武功",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6cb4bafeb6eb4a5e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r11c0": {
+      "en": "<align=\"center\">Trial Excellence</align>",
+      "cn": "<align=\"center\">见招拆招</align>",
+      "ru": "<align=\"center\">Превосходство в Испытаниях</align>",
+      "status": "machine",
+      "srcHash": "2640ac5f7f226aea",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r11c1": {
+      "en": "Fight an opponent whose Pure Essence is no less than yours in a Trial",
+      "cn": "与精纯不低于自己的对手进行接招",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "aec506a37dca4938",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r12c0": {
+      "en": "<align=\"center\">Barbarous Brawl</align>",
+      "cn": "<align=\"center\">险恶之战</align>",
+      "ru": "<align=\"center\">Варварская драка</align>",
+      "status": "machine",
+      "srcHash": "b5baec772069e492",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r12c1": {
+      "en": "Fight an opponent whose Pure Essence is no less than yours in a Brawl",
+      "cn": "与精纯不低于自己的对手发生恶斗",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6c33310f7874e6c0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r13c0": {
+      "en": "<align=\"center\">Deadly Duel</align>",
+      "cn": "<align=\"center\">生死之战</align>",
+      "ru": "<align=\"center\">Смертельный Поединок</align>",
+      "status": "machine",
+      "srcHash": "1ed5f8c22218fee9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r13c1": {
+      "en": "Fight an opponent whose Pure Essence is no less than yours in a Duel",
+      "cn": "与精纯不低于自己的对手发生死斗",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1b9c94ec21fdb12c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r14c0": {
+      "en": "<align=\"center\">Outnumber</align>",
+      "cn": "<align=\"center\">以多欺少</align>",
+      "ru": "<align=\"center\">Превосходят численностью</align>",
+      "status": "machine",
+      "srcHash": "a5689696f2d3dd88",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r14c1": {
+      "en": "Defeat opponents that you outnumber (Brawl and Duel only).",
+      "cn": "在我方人数比敌方人数多的情况下战胜对手（仅限恶斗、死斗）",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8011dc7d3efc0b8a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r15c0": {
+      "en": "<align=\"center\">Bully the Weak</align>",
+      "cn": "<align=\"center\">欺凌幼小</align>",
+      "ru": "<align=\"center\">Запугивать слабых</align>",
+      "status": "machine",
+      "srcHash": "ce785960febe49f3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r15c1": {
+      "en": "Defeat an opponent who is younger than you and not of age (Brawl and Duel only).",
+      "cn": "击败尚未成年且比自己年幼的对手（仅限恶斗、死斗）",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "eb3782fbaa75ae4d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r16c0": {
+      "en": "<align=\"center\">Equipment Advantage</align>",
+      "cn": "<align=\"center\">装备凌弱</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c41c5338e6e88ca7",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r16c1": {
+      "en": "Defeat an opponent whose equipment is overall weaker than yours (Brawl and Duel only).",
+      "cn": "击败装备整体比自己弱的对手（仅限恶斗、死斗）",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "645b218d585080c7",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r17c0": {
+      "en": "<align=\"center\">True Qi Advantage</align>",
+      "cn": "<align=\"center\">真气凌弱</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9bd67f3928640d16",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r17c1": {
+      "en": "Defeat an opponent whose True Qi is much lower than yours (Brawl and Duel only)",
+      "cn": "击败真气比自己低很多的对手（仅限恶斗、死斗）",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c8c90ea49f32ccc8",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r18c0": {
+      "en": "<align=\"center\">Martial Arts Advantage</align>",
+      "cn": "<align=\"center\">武学凌弱</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ef98ccafe9c048ed",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r18c1": {
+      "en": "Defeat an opponent who uses a less advanced Martial Art than yours (Brawl and Duel only).",
+      "cn": "使用了相较对手所使用的武学而言更为高深的武学击败对手（仅限恶斗、死斗）",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7080b35e9fe833c6",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r19c0": {
+      "en": "<align=\"center\">Pure Essence Advantage</align>",
+      "cn": "<align=\"center\">精纯凌弱</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3f47f944ddb3c373",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r19c1": {
+      "en": "Defeat an opponent whose Pure Essence is 3 levels (or more) lower than yours (Brawl and Duel only).",
+      "cn": "在自己的精纯比对手高3或以上的情况下击败对手（仅限恶斗、死斗）",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "164586c366e4ea5b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r20c0": {
+      "en": "<align=\"center\">Exploit One's Vulnerability</align>",
+      "cn": "<align=\"center\">趁人之危</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4e330aed5e0f3c6c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r20c1": {
+      "en": "Defeat a pregnant opponent (Brawl and Duel only).",
+      "cn": "击败身怀六甲的对手（仅限恶斗、死斗）",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8712d023f9f0a56e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r21c0": {
+      "en": "<align=\"center\">Less Is More</align>",
+      "cn": "<align=\"center\">以少胜多</align>",
+      "ru": "<align=\"center\">Меньше Значит больше</align>",
+      "status": "machine",
+      "srcHash": "8ff3b21eb1cf42d5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r21c1": {
+      "en": "Defeat opponents who outnumber you (Brawl and Duel only).",
+      "cn": "在我方人数比敌方人数少的情况下战胜对手（仅限恶斗、死斗）",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "04e413497386cd7b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r22c0": {
+      "en": "<align=\"center\">Fearless Youth</align>",
+      "cn": "<align=\"center\">初生之犊</align>",
+      "ru": "<align=\"center\">Бесстрашный юноша</align>",
+      "status": "machine",
+      "srcHash": "96ecf2d77c82074d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r22c1": {
+      "en": "Defeat an opponent who is older than you when you are not of age (Brawl and Duel only).",
+      "cn": "在尚未成年且对方比自己年长的情况下击败对手（仅限恶斗、死斗）",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2c2bcfa07e7e52d9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r23c0": {
+      "en": "<align=\"center\">Equipment Disadvantage</align>",
+      "cn": "<align=\"center\">装备胜强</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "76c1159fce760e04",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r23c1": {
+      "en": "Defeat an opponent whose equipment is overall stronger than yours (Brawl and Duel only).",
+      "cn": "击败装备整体比自己强的对手（仅限恶斗、死斗）",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c1e0f982abc5824c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r24c0": {
+      "en": "<align=\"center\">True Qi Disadvantage</align>",
+      "cn": "<align=\"center\">真气胜强</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3152717627e1b468",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r24c1": {
+      "en": "Defeat an opponent whose True Qi is much higher than yours (Brawl and Duel only).",
+      "cn": "击败真气比自己高很多的对手（仅限恶斗、死斗）",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d55de65369a46e45",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r25c0": {
+      "en": "<align=\"center\">Martial Arts Disadvantage</align>",
+      "cn": "<align=\"center\">武学胜强</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "66dd3352ba01e0fa",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r25c1": {
+      "en": "Defeat an opponent who uses a more advanced Martial Art than yours (Brawl and Duel only).",
+      "cn": "仅用了相较对手所使用的武学而言更为粗浅的武学击败对手（仅限恶斗、死斗）",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7d3fff45a19255cc",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r26c0": {
+      "en": "<align=\"center\">Pure Essence Disadvantage</align>",
+      "cn": "<align=\"center\">精纯胜强</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2e7e41601becef5a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r26c1": {
+      "en": "Defeat an opponent whose Pure Essence is 3 levels (or more) higher than yours (Brawl and Duel only).",
+      "cn": "在自己的精纯比对手低3或以上的情况下击败对手（仅限恶斗、死斗）",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ed11b6022e344c77",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r27c0": {
+      "en": "<align=\"center\">Lioness Might</align>",
+      "cn": "<align=\"center\">河东狮吼</align>",
+      "ru": "<align=\"center\">Львица могла бы</align>",
+      "status": "machine",
+      "srcHash": "e462d5f4e33b5741",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r27c1": {
+      "en": "Defeat an opponent when you are pregnant (Brawl and Duel only).",
+      "cn": "在自己身怀六甲的情况下击败对手（仅限恶斗、死斗）",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ac25f726c2fb4064",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r28c0": {
+      "en": "<align=\"center\">Helping Hand</align>",
+      "cn": "<align=\"center\">驱魔除邪</align>",
+      "ru": "<align=\"center\">Рука помощи</align>",
+      "status": "machine",
+      "srcHash": "f8fc4a08b16908e1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r28c1": {
+      "en": "Saved a Bewitched in battle",
+      "cn": "在战斗中救治了失心人",
+      "ru": "Спас Заколдованного в бою",
+      "status": "machine",
+      "srcHash": "72c91db97f2acd04",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r29c0": {
+      "en": "<align=\"center\">Helping Hand</align>",
+      "cn": "<align=\"center\">驱魔除邪</align>",
+      "ru": "<align=\"center\">Рука помощи</align>",
+      "status": "machine",
+      "srcHash": "f8fc4a08b16908e1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r29c1": {
+      "en": "Saved a Bewitched in battle whose Pure Essence is not lower than your own",
+      "cn": "在战斗中救治了精纯不低于自己的失心人",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "28dac660b05d6900",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r30c0": {
+      "en": "<align=\"center\">Act as Justice Demands</align>",
+      "cn": "<align=\"center\">行侠仗义</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e48fff02e3c57ff8",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r30c1": {
+      "en": "Outlaw Eliminated",
+      "cn": "击败外道",
+      "ru": "Преступник ликвидирован",
+      "status": "machine",
+      "srcHash": "78b3386156ab71b4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "r31c0": {
+      "en": "<align=\"center\">Outlaw Eliminated</align>",
+      "cn": "<align=\"center\">消灭外道</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3e6bd15834ad2c38",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r31c1": {
+      "en": "Defeat an Outlaw whose Pure Essence is no less than yours.",
+      "cn": "击败精纯不低于自己的外道",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fc368726c96d79ac",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r32c0": {
+      "en": "<align=\"center\">Wicked Heart</align>",
+      "cn": "<align=\"center\">伤天害理</align>",
+      "ru": "<align=\"center\">Злое сердце</align>",
+      "status": "machine",
+      "srcHash": "b1f64b3f94f29f46",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r32c1": {
+      "en": "Xiake Eliminated",
+      "cn": "击败义士",
+      "ru": "Сяке устранен",
+      "status": "machine",
+      "srcHash": "e943e3df860aef16",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "r33c0": {
+      "en": "<align=\"center\">Kill Xiakes</align>",
+      "cn": "<align=\"center\">杀害义士</align>",
+      "ru": "<align=\"center\">Убить Сяйкса</align>",
+      "status": "machine",
+      "srcHash": "5e576d2b00a2d36e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r33c1": {
+      "en": "Defeat a Xiake whose Pure Essence is no less than yours.",
+      "cn": "击败精纯不低于自己的义士",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b85f601a2142d393",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r34c0": {
+      "en": "<align=\"center\">Exterminate Underlings</align>",
+      "cn": "<align=\"center\">除灭爪牙</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "5b7643a753b96a39",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r34c1": {
+      "en": "Defeat Xiangshu Underling",
+      "cn": "击败相枢爪牙",
+      "ru": "Победить подчиненного Сяншу",
+      "status": "machine",
+      "srcHash": "42a2648ce17c400d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r35c0": {
+      "en": "<align=\"center\">Exterminate Underlings</align>",
+      "cn": "<align=\"center\">除灭爪牙</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "5b7643a753b96a39",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r35c1": {
+      "en": "Defeat a Xiangshu Underling whose Pure Essence is no less than yours.",
+      "cn": "击败精纯不低于自己的相枢爪牙",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "feacf70416fb2047",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r36c0": {
+      "en": "<align=\"center\">Dummy Training</align>",
+      "cn": "<align=\"center\">木人训练</align>",
+      "ru": "<align=\"center\">Тренировка манекена</align>",
+      "status": "machine",
+      "srcHash": "82d5108f08e3847e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r36c1": {
+      "en": "Train in Combat Mode with the training dummy in the Training Hall.",
+      "cn": "与练功房木偶以实战模式进行训练",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c243590df6ddf93b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r37c0": {
+      "en": "<align=\"center\">Bastion of Will</align>",
+      "cn": "<align=\"center\">抵御侵袭</align>",
+      "ru": "<align=\"center\">Бастион воли</align>",
+      "status": "machine",
+      "srcHash": "a1e25b1a9e9d7e3b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r37c1": {
+      "en": "Defeat a Xiangshu Incarnation emerging from a Sword Mound",
+      "cn": "击败破冢而出的相枢化身",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "33308806af29b1d7",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r38c0": {
+      "en": "<align=\"center\">Sword Mastery</align>",
+      "cn": "<align=\"center\">神剑归心</align>",
+      "ru": "<align=\"center\">Мастерство владения Мечом</align>",
+      "status": "machine",
+      "srcHash": "8de39ca4ab29b071",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r38c1": {
+      "en": "Defeat a Xiangshu Incarnation in a Sword Mound",
+      "cn": "击败剑冢内的相枢化身",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "36ce40251a93fac8",
+      "engine": null,
+      "updatedAt": null
+    }
+  }
+}

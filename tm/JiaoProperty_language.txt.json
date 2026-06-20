@@ -1,0 +1,358 @@
+{
+  "schemaVersion": 1,
+  "file": "JiaoProperty_language.txt",
+  "glossaryVersion": 5,
+  "units": {
+    "Name_0": {
+      "en": "Travel Cost",
+      "cn": "旅行消耗",
+      "ru": "Стоимость проезда",
+      "status": "machine",
+      "srcHash": "6bcc63e925848854",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_1": {
+      "en": "Travel Bag Weight",
+      "cn": "行囊负重",
+      "ru": "Вес дорожной сумки",
+      "status": "machine",
+      "srcHash": "a66ea078d7c98178",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_2": {
+      "en": "Loot Drop",
+      "cn": "战利品掉落",
+      "ru": "Выпадение добычи",
+      "status": "machine",
+      "srcHash": "857aded6461fc457",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_3": {
+      "en": "Prisoner Capture",
+      "cn": "俘虏抓捕",
+      "ru": "Захват заключенного",
+      "status": "machine",
+      "srcHash": "edef85319251d221",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_4": {
+      "en": "Prisoner Slots",
+      "cn": "关押栏位",
+      "ru": "Места для заключенных",
+      "status": "machine",
+      "srcHash": "770d1053f24b391d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_5": {
+      "en": "Rewards for exploration",
+      "cn": "探索的奖励",
+      "ru": "Вознаграждение за исследование",
+      "status": "machine",
+      "srcHash": "3a55145b96934dbc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_6": {
+      "en": "Value",
+      "cn": "价值",
+      "ru": "Ценность",
+      "status": "machine",
+      "srcHash": "d1300d80b5205a0f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_7": {
+      "en": "Gifting Mood",
+      "cn": "赠礼心情",
+      "ru": "Дарящее настроение",
+      "status": "machine",
+      "srcHash": "74f4cd1a1919e9ff",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_8": {
+      "en": "Gifting Favorability",
+      "cn": "赠礼好感",
+      "ru": "Дарение Благосклонности",
+      "status": "machine",
+      "srcHash": "e857dd14c577f082",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_9": {
+      "en": "Body Length",
+      "cn": "体长",
+      "ru": "длина тела",
+      "status": "machine",
+      "srcHash": "8f5f531a12afb3ea",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_10": {
+      "en": "Body Weight",
+      "cn": "体重",
+      "ru": "Масса тела",
+      "status": "machine",
+      "srcHash": "5dac10fbfa24f3aa",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_11": {
+      "en": "Lifespan",
+      "cn": "寿命",
+      "ru": "Продолжительность жизни",
+      "status": "machine",
+      "srcHash": "c44073e546e1973c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_12": {
+      "en": "Price",
+      "cn": "价格",
+      "ru": "Цена",
+      "status": "machine",
+      "srcHash": "85cd1c41c6ec56c9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "EventDescUp_0": {
+      "en": "Travel costs have decreased.",
+      "cn": "旅行消耗减少了",
+      "ru": "Расходы на поездки снизились.",
+      "status": "machine",
+      "srcHash": "2fd768d95aec812d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "EventDescUp_1": {
+      "en": "Inventory limit has increased.",
+      "cn": "行囊负重增加了",
+      "ru": "Лимит запасов увеличился.",
+      "status": "machine",
+      "srcHash": "6158d31d9513932d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "EventDescUp_2": {
+      "en": "Loot drop ability has increased",
+      "cn": "战利品掉落能力提升了",
+      "ru": "Способность сбрасывать добычу увеличена",
+      "status": "machine",
+      "srcHash": "57e8a30bb425ad2c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "EventDescUp_3": {
+      "en": "Prisoner Capture ability up",
+      "cn": "俘虏抓捕能力提升了",
+      "ru": "Возможность захвата заключенного увеличилась",
+      "status": "machine",
+      "srcHash": "32e5c58fa2be3f61",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "EventDescUp_4": {
+      "en": "Prisoner Slots have increased",
+      "cn": "关押栏位增加了",
+      "ru": "Количество мест для заключенных увеличилось",
+      "status": "machine",
+      "srcHash": "e252421409d7d29c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "EventDescUp_5": {
+      "en": "Exploration Reward Enrichment ability up",
+      "cn": "丰富探索奖励的能力提升了",
+      "ru": "Вознаграждение за разведку Увеличивает способность к обогащению",
+      "status": "machine",
+      "srcHash": "179540d81be4e41a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "EventDescUp_6": {
+      "en": "Value has increased",
+      "cn": "价值提升了",
+      "ru": "Ценность возросла",
+      "status": "machine",
+      "srcHash": "bc6cc1aacaf8f8bd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "EventDescUp_7": {
+      "en": "Gifting Mood has increased",
+      "cn": "赠礼心情提升了",
+      "ru": "Настроение дарить подарки повысилось",
+      "status": "machine",
+      "srcHash": "6b74e213a23c16e2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "EventDescUp_8": {
+      "en": "Gifting Favorability has increased",
+      "cn": "赠礼好感提升了",
+      "ru": "Возросла Благосклонность к подаркам",
+      "status": "machine",
+      "srcHash": "bd46de08a686901c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "EventDescUp_9": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "EventDescUp_10": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "EventDescUp_11": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "EventDescUp_12": {
+      "en": "Price has increased",
+      "cn": "价格提升了",
+      "ru": "Цена увеличилась",
+      "status": "machine",
+      "srcHash": "e9e6a9c327b1d25a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "EventDescDown_0": {
+      "en": "Travel costs have increased.",
+      "cn": "旅行消耗增加了",
+      "ru": "Дорожные расходы возросли.",
+      "status": "machine",
+      "srcHash": "0136c3b31c81d035",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "EventDescDown_1": {
+      "en": "Inventory limit has decreased.",
+      "cn": "行囊负重减少了",
+      "ru": "Лимит запасов уменьшился.",
+      "status": "machine",
+      "srcHash": "922e31ddebd59cc2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "EventDescDown_2": {
+      "en": "Loot drop ability has decreased",
+      "cn": "战利品掉落能力下降了",
+      "ru": "Способность сбрасывать добычу уменьшилась",
+      "status": "machine",
+      "srcHash": "39d0928778bc39a5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "EventDescDown_3": {
+      "en": "Prisoner Capture ability down",
+      "cn": "俘虏抓捕能力下降了",
+      "ru": "Способность к захвату заключенного снижена",
+      "status": "machine",
+      "srcHash": "cae2b03ccacc0725",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "EventDescDown_4": {
+      "en": "Prisoner Slots have decreased",
+      "cn": "关押栏位减少了",
+      "ru": "Количество мест для заключенных сократилось",
+      "status": "machine",
+      "srcHash": "851c88141fb0c42a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "EventDescDown_5": {
+      "en": "Exploration Reward Enrichment ability down",
+      "cn": "丰富探索奖励的能力下降了",
+      "ru": "Снижение способности к обогащению за разведку",
+      "status": "machine",
+      "srcHash": "99e02ae9acec2949",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "EventDescDown_6": {
+      "en": "Value has decreased",
+      "cn": "价值下降了",
+      "ru": "Значение уменьшилось",
+      "status": "machine",
+      "srcHash": "1d03feadaf01ddb2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "EventDescDown_7": {
+      "en": "Gifting Mood has declined",
+      "cn": "赠礼心情下降了",
+      "ru": "Настроение дарить подарки ухудшилось",
+      "status": "machine",
+      "srcHash": "a39d2eeb9efef9f3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "EventDescDown_8": {
+      "en": "Gifting Favorability has declined",
+      "cn": "赠礼好感下降了",
+      "ru": "Благосклонность к подаркам снизилась",
+      "status": "machine",
+      "srcHash": "0e2cbbb83cacc0c7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "EventDescDown_9": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "EventDescDown_10": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "EventDescDown_11": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "EventDescDown_12": {
+      "en": "Price has decreased",
+      "cn": "价格下降了",
+      "ru": "Цена снизилась",
+      "status": "machine",
+      "srcHash": "39dab52831217f63",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    }
+  }
+}

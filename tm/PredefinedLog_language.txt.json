@@ -1,0 +1,889 @@
+{
+  "schemaVersion": 1,
+  "file": "PredefinedLog_language.txt",
+  "glossaryVersion": 5,
+  "units": {
+    "Name_0": {
+      "en": "Remove Secret data",
+      "cn": "抹除秘闻数据",
+      "ru": "Удаление секретных данных",
+      "status": "machine",
+      "srcHash": "5f54d500aec17393",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_1": {
+      "en": "Failed to load Mod config",
+      "cn": "加载Mod配置失败",
+      "ru": "Не удалось загрузить конфигурацию мода",
+      "status": "machine",
+      "srcHash": "9d119df5545a9882",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_2": {
+      "en": "Failed to load Mod config",
+      "cn": "加载Mod配置失败",
+      "ru": "Не удалось загрузить конфигурацию мода",
+      "status": "machine",
+      "srcHash": "9d119df5545a9882",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_3": {
+      "en": "Failed to load Mod settings",
+      "cn": "加载Mod设置失败",
+      "ru": "Не удалось загрузить настройки мода",
+      "status": "machine",
+      "srcHash": "bc8b6008e9c4fb82",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_4": {
+      "en": "Failed to load global Mod settings",
+      "cn": "加载Mod全局设置失败",
+      "ru": "Не удалось загрузить глобальные настройки мода",
+      "status": "machine",
+      "srcHash": "59429a20cd6f8564",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Name_5": {
+      "en": "Battle error: Negative frame count",
+      "cn": "战斗行为剩余帧为负",
+      "ru": "Ошибка боя: отрицательное количество кадров",
+      "status": "machine",
+      "srcHash": "95fcb1a3c2b72d03",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Name_6": {
+      "en": "Aspiration animation runtime exception",
+      "cn": "志向动画运行时异常",
+      "ru": "Исключение времени выполнения анимации Устремления",
+      "status": "machine",
+      "srcHash": "b05cce3ea61883fd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Name_7": {
+      "en": "Martial Art effect runtime exception",
+      "cn": "功法特效运行时异常",
+      "ru": "Исключение времени выполнения эффекта Боевой техники",
+      "status": "machine",
+      "srcHash": "732940ffa22dee1f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Name_8": {
+      "en": "Battle runtime exception",
+      "cn": "战斗运行时异常",
+      "ru": "Исключение во время выполнения битвы",
+      "status": "machine",
+      "srcHash": "f440461c4999b5df",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_9": {
+      "en": "Unsupported video format exception",
+      "cn": "视频格式不支持异常",
+      "ru": "Исключение неподдерживаемого видеоформата",
+      "status": "machine",
+      "srcHash": "dbf26e69c2ba3428",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Name_10": {
+      "en": "Quest Data Exception",
+      "cn": "任务数据异常",
+      "ru": "Исключение из данных задания",
+      "status": "machine",
+      "srcHash": "19a1f906675a8783",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_11": {
+      "en": "Map Loading Exception",
+      "cn": "地图运行时异常",
+      "ru": "Исключение при загрузке карты",
+      "status": "machine",
+      "srcHash": "a36193ef33c5c437",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_12": {
+      "en": "Character Loading Exception",
+      "cn": "角色运行时异常",
+      "ru": "Исключение при загрузке символов",
+      "status": "machine",
+      "srcHash": "7eee0393fd9e4753",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_13": {
+      "en": "Martial Arts Runtime Exception",
+      "cn": "功法运行时异常",
+      "ru": "Исключение во время выполнения Боевых искусств",
+      "status": "machine",
+      "srcHash": "7c4a6ca4122a1d54",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_14": {
+      "en": "Communication Runtime Exception",
+      "cn": "通信运行时异常",
+      "ru": "Исключение во время выполнения связи",
+      "status": "machine",
+      "srcHash": "cb72b95074117b46",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Name_15": {
+      "en": "Debate Action Expired",
+      "cn": "较艺操作过期",
+      "ru": "Срок действия Диспута истек",
+      "status": "machine",
+      "srcHash": "6d9dd6bef3a070b5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_16": {
+      "en": "Mismatched Memory Save",
+      "cn": "梦回存档世界不匹配",
+      "ru": "Сохранение несоответствующей памяти",
+      "status": "machine",
+      "srcHash": "ae1a2f08c891928b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_17": {
+      "en": "Loong Awakening UI Refresh Exception",
+      "cn": "化龙界面元素刷新异常",
+      "ru": "Исключение обновления пользовательского интерфейса при пробуждении Луны",
+      "status": "machine",
+      "srcHash": "d2799ac9749e805e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Name_18": {
+      "en": "General UI Refresh Exception",
+      "cn": "通用界面元素刷新异常",
+      "ru": "Общее исключение обновления пользовательского интерфейса",
+      "status": "machine",
+      "srcHash": "f3634dbe80fcb00c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_19": {
+      "en": "World Loading Exception",
+      "cn": "世界运行时异常",
+      "ru": "Исключение при загрузке мира",
+      "status": "machine",
+      "srcHash": "7510a2d18da1cc38",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_20": {
+      "en": "Duplicate Item",
+      "cn": "道具重复",
+      "ru": "Повторяющийся элемент",
+      "status": "machine",
+      "srcHash": "cabba8e948039a58",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_21": {
+      "en": "Item Not Owned",
+      "cn": "道具未被持有",
+      "ru": "Предмет, не принадлежащий",
+      "status": "machine",
+      "srcHash": "d26571c32ba603f9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_22": {
+      "en": "Event System Exception",
+      "cn": "事件系统异常",
+      "ru": "Исключение системы событий",
+      "status": "machine",
+      "srcHash": "2502b204c2bf210c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_23": {
+      "en": "Battle AI Loading Exception",
+      "cn": "战斗 Ai 加载异常",
+      "ru": "Исключение при загрузке боевого ИИ",
+      "status": "machine",
+      "srcHash": "7aeaed9e03506ab1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_24": {
+      "en": "Mod Configuration Missing Exception",
+      "cn": "Mod 新增配置丢失异常",
+      "ru": "Исключение, отсутствующее в конфигурации мода",
+      "status": "machine",
+      "srcHash": "d8ab62fd634ef0cd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Name_25": {
+      "en": "Parameter Value Cannot Be Empty",
+      "cn": "参数值不能为空",
+      "ru": "Значение параметра Не может быть Пустым",
+      "status": "machine",
+      "srcHash": "14bc7687794b0888",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Name_26": {
+      "en": "Parameter Not Found in Config Table",
+      "cn": "配置表找不到此参数",
+      "ru": "Параметр не найден в таблице конфигурации",
+      "status": "machine",
+      "srcHash": "3708b9d9509b6867",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Name_27": {
+      "en": "Event Not Found",
+      "cn": "找不到该事件",
+      "ru": "Событие Не найдено",
+      "status": "machine",
+      "srcHash": "e194c88f29ef0929",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_28": {
+      "en": "Invalid Enumeration",
+      "cn": "无效的枚举",
+      "ru": "Недопустимое перечисление",
+      "status": "machine",
+      "srcHash": "5913b19a46d9267c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_29": {
+      "en": "Lua script execution exception",
+      "cn": "Lua脚本执行异常",
+      "ru": "Исключение при выполнении Lua-скрипта",
+      "status": "machine",
+      "srcHash": "a3dc569ea0354de9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_30": {
+      "en": "Caching Exception: Move Chickens",
+      "cn": "缓存异常：移动元鸡",
+      "ru": "Исключение кэширования: Перемещение цыплят",
+      "status": "machine",
+      "srcHash": "15aab8fbf8b9f077",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Name_31": {
+      "en": "Caching Exception: Move Chickens",
+      "cn": "缓存异常：移动元鸡",
+      "ru": "Исключение кэширования: Перемещение цыплят",
+      "status": "machine",
+      "srcHash": "15aab8fbf8b9f077",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Name_32": {
+      "en": "Caching Exception: Delete Chickens",
+      "cn": "缓存异常：删除元鸡",
+      "ru": "Исключение кэширования: Удаление цыплят",
+      "status": "machine",
+      "srcHash": "2044ee01fe99d4c9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Name_33": {
+      "en": "Unknown penalty type detected during wanted punishment.",
+      "cn": "通缉惩罚时发现未知的惩罚类型",
+      "ru": "Неизвестный тип наказания, обнаруженный во время разыскиваемого наказания.",
+      "status": "machine",
+      "srcHash": "b1bc2b301dd83ba9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:16:14.880Z"
+    },
+    "Name_34": {
+      "en": "Attempt to acquire non-surviving character's displayed age",
+      "cn": "尝试获取非存活角色的显示年龄",
+      "ru": "Попытайтесь узнать отображаемый возраст персонажа, который не выжил",
+      "status": "machine",
+      "srcHash": "2fa128dec145f167",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:16:14.880Z"
+    },
+    "Name_35": {
+      "en": "Failed to resolve configuration settings",
+      "cn": "配置设置解析失败",
+      "ru": "Не удалось разрешить параметры конфигурации",
+      "status": "machine",
+      "srcHash": "e422200036cdc09d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Name_36": {
+      "en": "Failed to resolve Encounter Element",
+      "cn": "奇遇元素解析失败",
+      "ru": "Не удалось разрешить элемент Encounter",
+      "status": "machine",
+      "srcHash": "878c6496b2d82206",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Name_37": {
+      "en": "Failed to resolve Major Event Template",
+      "cn": "大事件模板解析失败",
+      "ru": "Не удалось разрешить шаблон основного события",
+      "status": "machine",
+      "srcHash": "8f7ff0b0d8c3f0f5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Name_38": {
+      "en": "Failed to resolve Encounter Template",
+      "cn": "奇遇模板解析失败",
+      "ru": "Не удалось разрешить шаблон встречи",
+      "status": "machine",
+      "srcHash": "7b4d414a9bc63b1c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Name_39": {
+      "en": "Encounter Event Queue Overflow",
+      "cn": "奇遇事件队列溢出",
+      "ru": "Столкновение с переполнением очереди событий",
+      "status": "machine",
+      "srcHash": "69adfb56da0e035f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_40": {
+      "en": "Encounter generation failed",
+      "cn": "奇遇生成失败",
+      "ru": "Не удалось сгенерировать встречу",
+      "status": "machine",
+      "srcHash": "14ccade11027e7d9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_41": {
+      "en": "Failed to generate additional bets.",
+      "cn": "额外赌注生成失败",
+      "ru": "Не удалось сгенерировать дополнительные ставки.",
+      "status": "machine",
+      "srcHash": "b84a43c77a7c8066",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Name_42": {
+      "en": "Soul Transformation state transition failed.",
+      "cn": "升灵状态转变失败",
+      "ru": "Переход в состояние трансформации души не удался.",
+      "status": "machine",
+      "srcHash": "99d6db0b17576df2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:16:14.880Z"
+    },
+    "Name_43": {
+      "en": "Save Load Abnormality",
+      "cn": "加载存档异常",
+      "ru": "Сохранить ненормальность загрузки",
+      "status": "machine",
+      "srcHash": "bda6ffd27912dfa7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_44": {
+      "en": "Save Backup Failed",
+      "cn": "保存备份存档失败",
+      "ru": "Не удалось сохранить резервную копию",
+      "status": "machine",
+      "srcHash": "bedc8a9ebb92fd55",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_45": {
+      "en": "NPC Target Creation Failed",
+      "cn": "NPC目标创建失败",
+      "ru": "Не удалось создать цель NPC",
+      "status": "machine",
+      "srcHash": "81fbd67a6ce2f60d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_46": {
+      "en": "NPC Behavior Planning Failed",
+      "cn": "NPC行为规划失败",
+      "ru": "Не удалось спланировать поведение NPC",
+      "status": "machine",
+      "srcHash": "b6895db2a2dc2382",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_47": {
+      "en": "NPC Behavior Execution Failed",
+      "cn": "NPC行为执行失败",
+      "ru": "Не удалось выполнить поведение NPC",
+      "status": "machine",
+      "srcHash": "4517601fb12a1c70",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_48": {
+      "en": "Notification text parameter anomaly",
+      "cn": "通知类文本参数异常",
+      "ru": "Аномалия текстового параметра уведомления",
+      "status": "machine",
+      "srcHash": "f4cc3f7da8c46520",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Info_0": {
+      "en": "Illegal Secret data detected and removed.",
+      "cn": "因检测到非法的秘闻数据，已作清空处理",
+      "ru": "Обнаружены и удалены незаконные секретные данные.",
+      "status": "machine",
+      "srcHash": "25ba099aa8c843e6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:16:14.880Z"
+    },
+    "Info_1": {
+      "en": "Loading Mod - Failed to load Mod config file for {0} located in {1}, operation skipped.\\nError: {2}",
+      "cn": "加载 Mod - {0} 位于 {1} 的 Mod 配置文件失败, 已跳过.\\n报错信息: {2}",
+      "ru": "Загрузка мода - Не удалось загрузить конфигурационный файл мода для {0} , расположенный в {1}, операция пропущена.\\Ошибка: {2}",
+      "status": "machine",
+      "srcHash": "b941b36faac0be25",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:16:14.880Z"
+    },
+    "Info_2": {
+      "en": "Failed to load Mod config file located in {0}, operation skipped.\\nError: {1}",
+      "cn": "加载位于 {0} 的 Mod 配置文件失败, 已跳过. \\n报错信息:{1}",
+      "ru": "Не удалось загрузить конфигурационный файл мода, расположенный в {0}, операция пропущена.\\Ошибка: {1}",
+      "status": "machine",
+      "srcHash": "7384bc4f53bb0ba9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:16:14.880Z"
+    },
+    "Info_3": {
+      "en": "Loading Mod - Failed to load Mod settings for {0} located in {1}, operation skipped and files removed.\\nError: {2}",
+      "cn": "加载 Mod - {0} 位于 {1} 的 Mod 设置文件失败, 已跳过并移除.\\n报错信息: {2}",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "32f89e5079c96b57",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_4": {
+      "en": "Failed to load the global Mod settings located in {0}, operation skipped and files removed.\\nError: {1}",
+      "cn": "加载位于 {0} 的 Mod 全局设置文件失败,已跳过并移除. \\n报错信息: {1}",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f5cba07336313fd0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_5": {
+      "en": "Action Skipped: Negative frames detected in this battle.",
+      "cn": "当前战斗状态出现负数的剩余帧，已跳过本行为",
+      "ru": "Пропущенное действие: В этой битве обнаружены негативные кадры.",
+      "status": "machine",
+      "srcHash": "ca17a2df39bb32f3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:16:14.880Z"
+    },
+    "Info_6": {
+      "en": "An runtime animation exception occurred during the execution of the {1} skill in {0} Aspiration. The current skill execution has been skipped.\\nError message: {2}",
+      "cn": "执行 {0} 志向的 {1} 技能时，动画运行时出现异常，已跳过当前技能执行。\\n报错信息：{2}",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1d24534d68ceb4ca",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_7": {
+      "en": "An runtime exception occurred during the execution of effect ID {0}. We've noticed the problem and have applied compatibility fixes to keep the game running.\\nIf you see this log, please visit the official website to submit it for troubleshooting.\\nException details: {1}",
+      "cn": "特效 ID {0} 运行时出现异常状况，我们已注意到该问题，并尝试通过兼容处理使游戏得以继续。\\n如出现本日志，请前往官网提交日志以协助排查问题。\\n异常信息：{1}",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "27424dd2dcf7b15f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_8": {
+      "en": "A runtime exception occurred during battle. We've noticed the problem and have applied compatibility fixes to keep the game running.\\nIf you see this log, please visit the official website to submit it for troubleshooting.\\nException details: {0}",
+      "cn": "战斗运行时出现异常状况，我们已注意到该问题，并尝试通过兼容处理使游戏得以继续。\\n如出现本日志，请前往官网提交日志以协助排查问题。\\n异常信息：{0}",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a8119dcefeeed933",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_9": {
+      "en": "Due to system limitations, this video cannot be played at the moment. This exception does not affect the creation of a save file or entering the game. You may click \"Clear\" to proceed.",
+      "cn": "由于系统原因，暂时无法播放此视频；该异常不影响继续创建存档进入游戏，可以直接点击Clear继续游戏",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fd6a3774367ec57c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_10": {
+      "en": "Detected Abnormal Quest ID: {0}",
+      "cn": "发现异常任务Id:{0}",
+      "ru": "Обнаружен ненормальный идентификатор задания: {0}",
+      "status": "machine",
+      "srcHash": "06dda503c2d5256f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Info_11": {
+      "en": "A runtime exception occurred while loading the map. We've noticed the problem and have applied compatibility fixes to keep the game running.\\nIf you see this log, please visit the official website to submit it for troubleshooting.\\nException details: {0}",
+      "cn": "地图运行时出现异常状况，我们已注意到该问题，并尝试通过兼容处理使游戏得以继续。\\n如出现本日志，请前往官网提交日志以协助排查问题。\\n异常信息：{0}",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e7d9e85f7bcf8315",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_12": {
+      "en": "A runtime exception occurred while loading the character. We've noticed the problem and have applied compatibility fixes to keep the game running.\\nIf you see this log, please visit the official website to submit it for troubleshooting.\\nException details: {0}",
+      "cn": "角色运行时出现异常状况，我们已注意到该问题，并尝试通过兼容处理使游戏得以继续。\\n如出现本日志，请前往官网提交日志以协助排查问题。\\n异常信息：{0}",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c104e2d52e8f39d0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_13": {
+      "en": "A runtime exception occurred during the execution of a Martial Art. We've noticed the problem and have applied compatibility fixes to keep the game running.\\nIf you see this log, please visit the official website to submit it for troubleshooting.\\nException details: {0}",
+      "cn": "功法运行时出现异常状况，我们已注意到该问题，并尝试通过兼容处理使游戏得以继续。\\n如出现本日志，请前往官网提交日志以协助排查问题。\\n异常信息：{0}",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "eabe28ca579fdcc9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_14": {
+      "en": "A runtime exception occurred during communication. We've noticed the problem and have applied compatibility fixes to keep the game running.\\nIf you see this log, please visit the official website to submit it for troubleshooting.\\nException details: {0}",
+      "cn": "通信运行时出现异常状况，我们已注意到该问题，并尝试通过兼容处理使游戏得以继续。\\n如出现本日志，请前往官网提交日志以协助排查问题。\\n异常信息：{0}",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b33e87369bd46270",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_15": {
+      "en": "The Debate system abnormally received an expired action: {0} (Timestamp: {1}) at turn {2}.\\nIt has been invalidated.",
+      "cn": "较艺系统不正常地接收到过期操作 {0}(时间戳: {1}) 在轮手数 {2}\\n已使其无效化",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d26733b7c5a6ae40",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_16": {
+      "en": "The memory you're returning to doesn't match your original save. Proceeding may cause unexpected errors!",
+      "cn": "请注意，当前梦回穿越的世界与原世界存档不匹配，继续游戏可能出现各种未知错误!",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4270c48009ffd5c0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_17": {
+      "en": "We detected an exception with the Loong Awakening interface. We've noticed the problem and have applied compatibility fixes to keep the game running.\\nIf you see this log, please visit the official website to submit it for troubleshooting.",
+      "cn": "化龙界面运行时发现异常状况，我们已注意到该问题，并尝试通过兼容处理使游戏得以继续。\\n如出现本日志，请前往官网提交日志以协助排查问题。",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c4d87ce443e53f69",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_18": {
+      "en": "A runtime exception has occurred. We've noticed the issue and have applied compatibility fixes to keep the game running.\\nThe exception recorded in this log may not be the same each time, please submit this log on the official website for troubleshooting whenever it appears.\\nException details: {0}",
+      "cn": "我们已注意到当前出现的异常状况，并尝试通过兼容处理使游戏得以继续。\\n本日志出现时所记录的异常情况，有可能并不相同，每当出现本日志时，请前往官网提交日志以协助排查问题。\\n异常信息：{0}",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "329013aaa89481d1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_19": {
+      "en": "A runtime exception occurred while loading the world. We've noticed the problem and have applied compatibility fixes to keep the game running.\\nIf you see this log, please visit the official website to submit it for troubleshooting.\\nError details: {0}",
+      "cn": "世界运行时出现异常状况，我们已注意到该问题，并尝试通过兼容处理使游戏得以继续。\\n如出现本日志，请前往官网提交日志以协助排查问题。\\n异常信息：{0}",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e088a53ef55321bb",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_20": {
+      "en": " Attempted to add a non-stackable item {0} to container {1}, but it already exists in another container {2}.",
+      "cn": "检测到尝试向容器{1}中添加不可堆叠道具{0}时, 该道具同时已存在于另一容器{2}中.",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c3358015484bbbde",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_21": {
+      "en": "Attempted to remove a non-stackable item {0} from container {1}, but no owner was recorded for it.",
+      "cn": "尝试将不可堆叠道具{0}从容器{1}中移除时, 检测到该道具此前并未记录持有者.",
+      "ru": "Предпринята попытка удалить элемент, который нельзя штабелировать {0} из контейнера {1}, но ни один владелец не был зарегистрирован на него.",
+      "status": "machine",
+      "srcHash": "d70d38445d8c87e2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:16:14.880Z"
+    },
+    "Info_22": {
+      "en": "The event had changed but wasn't properly entered. Continuing may corrupt your save.\\nIf you see this log, please visit the official website to submit it for troubleshooting.\\nGUID: {0}=>{1}",
+      "cn": "事件已产生过变化，但并未实际进入，继续游戏可能会产生坏档。\\n如出现本日志，请前往官网提交日志以协助排查问题。\\nGuid: {0}=>{1}",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f7a107c616767271",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_23": {
+      "en": "An error occurred while loading AI data from path {0}. Please verify the integrityof the game or contact customer support.\\nError details: {1}",
+      "cn": "尝试从路径 {0} 加载 Ai 数据时出现异常，请检查游戏完整性，或尝试向客服寻求支持。\\n异常信息：{1}",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4a8b25f4f1066b44",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_24": {
+      "en": "A mod-added template (ID: {0}) is missing from the current game configuration ({1}). We've attempted to remove its associated data for compatibility. If you want to retain it, enable the related Mod and reload your save.",
+      "cn": "检测到通过 Mod 添加的模板ID为{0}的配置在当前游戏{1}配置数据中不存在，已通过试图将其关联数据删除进行兼容，如想保留请启用相关Mod后重新读档。",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a961729e6dccc53a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_25": {
+      "en": "Parameter Value Cannot Be Empty",
+      "cn": "参数值不能为空",
+      "ru": "Значение параметра Не может быть Пустым",
+      "status": "machine",
+      "srcHash": "14bc7687794b0888",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Info_26": {
+      "en": "Parameter Not Found in {0} Config Table",
+      "cn": "在{0}配置表中找不到该参数",
+      "ru": "Параметр, не найденный в {0} Таблица настроек",
+      "status": "machine",
+      "srcHash": "fd1a0581857de5f9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Info_27": {
+      "en": "The event does not belong to any event group",
+      "cn": "该事件未出现在任何事件组中",
+      "ru": "Это событие не относится ни к какой группе событий",
+      "status": "machine",
+      "srcHash": "4e5d6da6cb6899ce",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:16:14.880Z"
+    },
+    "Info_28": {
+      "en": "Invalid Enum Value: {0}",
+      "cn": "无效的枚举值：{0}",
+      "ru": "Недопустимое значение перечисления: {0}",
+      "status": "machine",
+      "srcHash": "351da060d0beaa35",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Info_29": {
+      "en": "Throws {0} exception during Lua script execution.",
+      "cn": "执行 Lua 脚本时抛出 {0} 异常",
+      "ru": "Бросает {0} исключение во время выполнения Lua-скрипта.",
+      "status": "machine",
+      "srcHash": "38e28b061d06ce1a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:16:14.880Z"
+    },
+    "Info_30": {
+      "en": "There are no Chickens at Settlement {3}. This may affect Chickens-related functions including but not limited to Feather-Seeking.\\nPlease save immediately and reload to restore normal cache status.\\nIf this log appears, submit it via official website for troubleshooting.\\nChickens Cache Status: {0}. Chickens Real Status: {1}\\nCall Stack:{2}",
+      "cn": "定居点{3}不存在元鸡。这可能会影响元鸡包括但不限于寻羽图在内的相关功能。\\n请尽快存档并重新读档以确保缓存状态正常。\\n如出现本日志，请前往官网提交日志以协助排查问题。\\n元鸡缓存状态：{0}，元鸡真实状态：{1}\\n调用堆栈：{2}",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4bed2107f829d4de",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_31": {
+      "en": "There are no Chickens with the id of {4} at Settlement {3}. This may affect Chickens-related functions including but not limited to Feather-Seeking.\\nPlease save immediately and reload to restore normal cache state.\\nIf this log appears, submit it via official website for troubleshooting.\\nChickens Cache State: {0}. Chickens Real State: {1}\\nCall Stack:{2}",
+      "cn": "定居点{3}不存在id为{4}元鸡。这可能会影响元鸡包括但不限于寻羽图在内的相关功能。\\n请尽快存档并重新读档以确保缓存状态正常。\\n如出现本日志，请前往官网提交日志以协助排查问题。\\n元鸡缓存状态：{0}，元鸡真实状态：{1}\\n调用堆栈：{2}",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1aeafa8918a88c68",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_32": {
+      "en": "Chickens with the id of {3} not exist. This may affect Chickens-related functions including but not limited to Feather-Seeking.\\nPlease save immediately and reload to restore normal cache status.\\nIf this log appears, submit it via official website for troubleshooting.\\nChickens Cache Status: {0}. Chickens Real Status: {1}\\nCall Stack:{2}",
+      "cn": "不存在id为{3}元鸡。这可能会影响元鸡包括但不限于寻羽图在内的相关功能。\\n请尽快存档并重新读档以确保缓存状态正常。\\n如出现本日志，请前往官网提交日志以协助排查问题。\\n元鸡缓存状态：{0}，元鸡真实状态：{1}\\n调用堆栈：{2}",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3e6c124f57e9c216",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_33": {
+      "en": "Generated unknown penalty type at {0} with severity {1}.",
+      "cn": "生成了未知的惩罚类型于 {0}, 惩罚程度为 {1}",
+      "ru": "Сгенерирован неизвестный тип штрафа по адресу {0} со строгостью {1}.",
+      "status": "machine",
+      "srcHash": "e6737ea9a9c6a6c5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:16:14.880Z"
+    },
+    "Info_34": {
+      "en": "Attempt to acquire non-surviving character's displayed age. Character Id:{0}",
+      "cn": "尝试获取非存活角色的显示年龄，角色Id:{0}",
+      "ru": "Попытайтесь узнать отображаемый возраст персонажа, который не выжил. Идентификатор персонажа:{0}",
+      "status": "machine",
+      "srcHash": "76a41c9783b12801",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:16:14.880Z"
+    },
+    "Info_35": {
+      "en": "Configuration setting file {0} failed to resolve as {1}. Related items may be treated as default value",
+      "cn": "配置设置文件 {0} 解析失败为 {1}；相关条目可能被处理为默认值",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "cd85dbc7b001fda2",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_36": {
+      "en": "The Encounter Element can't be found. Please check whether the Encounter Element name has been filled in the Encounter Editor.",
+      "cn": "找不到该奇遇元素，请检查是否在奇遇编辑器中填写了奇遇元素的名字",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fd18560f8b1391d0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_37": {
+      "en": "The Major Event can't be found. Please check whether the Major Event name has been filled in the Major Event Editor.",
+      "cn": "找不到该大事件，请检查是否在大事件编辑器中填写了大事件的名字",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "665b0f6b69d92d6e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_38": {
+      "en": "The Encounter can't be found. Please check whether the Encounter name has been filled in the Encounter Editor.",
+      "cn": "找不到该奇遇，请检查是否在奇遇编辑器中填写了奇遇的名字",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "cecbd5dfad6a1f58",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_39": {
+      "en": "The Encounter Event queue is too long. The current event can't be triggered due to queue overflow. Please simplify the event trigger structure. Debug info: {0}",
+      "cn": "奇遇事件队列过长，当前事件因队列溢出无法正常触发，需要简化事件触发结构，调试信息：{0}",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c810b29becc2bb93",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_40": {
+      "en": "Unable to generate Encounter normally. Exception: {0}",
+      "cn": "无法正常生成奇遇，异常信息：{0}",
+      "ru": "Не удается нормально сгенерировать встречу. Исключение: {0}",
+      "status": "machine",
+      "srcHash": "ebee515cb7cc5cbf",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:16:14.880Z"
+    },
+    "Info_41": {
+      "en": "Unable to generate additional bets. Error message: {0}",
+      "cn": "无法正常生成额外赌注，异常信息：{0}",
+      "ru": "Не удается сгенерировать дополнительные ставки. Сообщение об ошибке: {0}",
+      "status": "machine",
+      "srcHash": "382d6295ce589c37",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:16:14.880Z"
+    },
+    "Info_42": {
+      "en": "Soul Transformation state transition failed. Unable to transition from {0} to {1}, which may result in functional anomalies and save data corruption.\\nIf this log appears, please visit the official website to submit it to assist with troubleshooting.",
+      "cn": "升灵状态转变失败，无法从 {0} 转变为 {1}，可能会造成部分功能异常与存档数据错乱。\\n如出现本日志，请前往官网提交日志以协助排查问题。",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "645e7015a6473119",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_43": {
+      "en": "Unable to load save file properly. Please ensure the save file exists and is not corrupted.\\nPath: {0}\\nException Info: {1}",
+      "cn": "无法正常加载存档，请确保存档文件存在且未损坏.\\n路径:{0}\\n异常信息:{1}",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6a676cc32203ce3d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_44": {
+      "en": "Unable to back up save file properly. Please ensure you have correct read/write permissions, sufficient disk space, and avoid modifying files while the game is running.\\nPath: {0}\\nException Info: {1}",
+      "cn": "无法正常备份存档文件，请确保您有正确的读写权限，足够的硬盘空间，并避免在游戏进行中修改文件.\\n路径:{0}\\n异常信息:{1}",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "99ae8fd5fd4b296d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Info_45": {
+      "en": "Unable to create target [{1}] for character {0}.\\nException Info: {2}",
+      "cn": "无法正常为人物{0}创建目标[{1}].\\n异常信息:{2}",
+      "ru": "Не удается создать цель [{1}] для персонажа {0}.\\Информация о следующем исключении: {2}",
+      "status": "machine",
+      "srcHash": "ae39cc8af1f8cc93",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:16:14.880Z"
+    },
+    "Info_46": {
+      "en": "Unable to plan behavior/pathfinding for target [{1}] of character {0}.\\nException Info: {2}",
+      "cn": "无法正常为人物{0}规划目标[{1}]的行为寻路.\\n异常信息:{2}",
+      "ru": "Не удается спланировать поведение/поиск пути для целевого [{1}] персонажа {0}.\\Информация о следующем исключении: {2}",
+      "status": "machine",
+      "srcHash": "46af99db81037f91",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:16:14.880Z"
+    },
+    "Info_47": {
+      "en": "Unable to execute behavior [{2}] for target [{1}] of character {0}.\\nException Info: {3}",
+      "cn": "无法正常为人物{0}执行目标[{1}]的行为[{2}].\\n异常信息:{3}",
+      "ru": "Не удается выполнить поведение [{2}] для целевого [{1}] символа {0}.\\Информация о следующем исключении: {3}",
+      "status": "machine",
+      "srcHash": "40bcc057553fe464",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:16:14.880Z"
+    },
+    "Info_48": {
+      "en": "Cannot properly concatenate text [{0}]({1}), parameter index: {2}, parameter type: {3}",
+      "cn": "无法正常拼接文本[{0}]({1}), 参数序号:{2},参数类型:{3}",
+      "ru": "Не удается должным образом объединить текст [{0}]({1}), индекс параметра: {2}, тип параметра: {3}",
+      "status": "machine",
+      "srcHash": "a49c23847391c882",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:16:14.880Z"
+    }
+  }
+}

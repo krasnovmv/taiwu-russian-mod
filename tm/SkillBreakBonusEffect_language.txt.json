@@ -1,0 +1,871 @@
+{
+  "schemaVersion": 1,
+  "file": "SkillBreakBonusEffect_language.txt",
+  "glossaryVersion": 5,
+  "units": {
+    "ShortName_0": {
+      "en": "Music",
+      "cn": "音律",
+      "ru": "Музыка",
+      "status": "machine",
+      "srcHash": "46304db7d762fd57",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_1": {
+      "en": "Weiqi",
+      "cn": "弈棋",
+      "ru": "Вэйци",
+      "status": "machine",
+      "srcHash": "836e015fa01cadf9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_2": {
+      "en": "Literature",
+      "cn": "诗书",
+      "ru": "Литература",
+      "status": "machine",
+      "srcHash": "f39e11711c5ff332",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_3": {
+      "en": "Painting",
+      "cn": "绘画",
+      "ru": "Живопись",
+      "status": "machine",
+      "srcHash": "6ece0b3383f76237",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_4": {
+      "en": "Medical Art",
+      "cn": "医术",
+      "ru": "Медицинское искусство",
+      "status": "machine",
+      "srcHash": "3c7c0f4709fb7774",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "ShortName_5": {
+      "en": "Toxicology",
+      "cn": "毒术",
+      "ru": "Токсикология",
+      "status": "machine",
+      "srcHash": "ca9ac2b19f4aafb7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_6": {
+      "en": "Smithing",
+      "cn": "锻造",
+      "ru": "Кузнечное дело",
+      "status": "machine",
+      "srcHash": "7025dbb7cc16f70a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_7": {
+      "en": "Carpentry",
+      "cn": "制木",
+      "ru": "Столярное дело",
+      "status": "machine",
+      "srcHash": "a15c0f3edd1d4887",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_8": {
+      "en": "Weaving",
+      "cn": "织锦",
+      "ru": "Ткачество",
+      "status": "machine",
+      "srcHash": "931595e2dfc8c3bb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_9": {
+      "en": "Jewelcrafting",
+      "cn": "巧匠",
+      "ru": "Изготовление ювелирных изделий",
+      "status": "machine",
+      "srcHash": "5461f87383d751d7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "ShortName_10": {
+      "en": "Astrology",
+      "cn": "术数",
+      "ru": "Астрология",
+      "status": "machine",
+      "srcHash": "be0e4c88ac6ba636",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_11": {
+      "en": "Appreciation",
+      "cn": "品鉴",
+      "ru": "Признательность",
+      "status": "machine",
+      "srcHash": "d222a6df2489a771",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "ShortName_12": {
+      "en": "Culinary Arts",
+      "cn": "厨艺",
+      "ru": "Кулинарное искусство",
+      "status": "machine",
+      "srcHash": "b75824c5752dd2cf",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "ShortName_13": {
+      "en": "Unorthodox Arts",
+      "cn": "杂学",
+      "ru": "Неортодоксальные искусства",
+      "status": "machine",
+      "srcHash": "676a6f93f9c965c0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "ShortName_14": {
+      "en": "Buddhism",
+      "cn": "佛学",
+      "ru": "Буддизм",
+      "status": "machine",
+      "srcHash": "27e308107abaf3d1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_15": {
+      "en": "Taoism",
+      "cn": "道法",
+      "ru": "Даосизм",
+      "status": "machine",
+      "srcHash": "10c1459d95d85514",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_16": {
+      "en": "Heal Injuries",
+      "cn": "疗伤",
+      "ru": "Залечивать травмы",
+      "status": "machine",
+      "srcHash": "ff7c60f384b25262",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "ShortName_17": {
+      "en": "Heal Injuries",
+      "cn": "疗伤",
+      "ru": "Залечивать травмы",
+      "status": "machine",
+      "srcHash": "ff7c60f384b25262",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "ShortName_18": {
+      "en": "Detoxify",
+      "cn": "解毒",
+      "ru": "Выводит токсины",
+      "status": "machine",
+      "srcHash": "8b06ffeb10fec670",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_19": {
+      "en": "Inner Breath",
+      "cn": "内息",
+      "ru": "Внутреннее дыхание",
+      "status": "machine",
+      "srcHash": "6d8610d8f0ddb74e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "ShortName_20": {
+      "en": "Health",
+      "cn": "健康",
+      "ru": "Здоровье",
+      "status": "machine",
+      "srcHash": "57e562479061c728",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_21": {
+      "en": "Attack",
+      "cn": "攻击",
+      "ru": "Атака",
+      "status": "machine",
+      "srcHash": "35a25d0ac298810c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_22": {
+      "en": "Defense",
+      "cn": "防御",
+      "ru": "Защита",
+      "status": "machine",
+      "srcHash": "16fc42939c176ce7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_23": {
+      "en": "Hit",
+      "cn": "命中",
+      "ru": "Удар",
+      "status": "machine",
+      "srcHash": "85b101cc45063327",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_24": {
+      "en": "Deflect",
+      "cn": "化解",
+      "ru": "Отклонять",
+      "status": "machine",
+      "srcHash": "6017a12d6dccbf11",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_25": {
+      "en": "Vigor",
+      "cn": "气势",
+      "ru": "Сила",
+      "status": "machine",
+      "srcHash": "d8fc171fcd3b1f32",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_26": {
+      "en": "Cast Speed",
+      "cn": "施展",
+      "ru": "Скорость заброса",
+      "status": "machine",
+      "srcHash": "df5aec15a1d0de1f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_27": {
+      "en": "Movement Speed",
+      "cn": "移速",
+      "ru": "Скорость перемещения",
+      "status": "machine",
+      "srcHash": "564d6b5d7da8caf9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "ShortName_28": {
+      "en": "Attack Speed",
+      "cn": "攻速",
+      "ru": "Скорость Атаки",
+      "status": "machine",
+      "srcHash": "ae7e81c533ea5187",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "ShortName_29": {
+      "en": "Metal",
+      "cn": "金铁",
+      "ru": "Металл",
+      "status": "machine",
+      "srcHash": "bc2c492c7e0642cd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_30": {
+      "en": "Wood",
+      "cn": "木材",
+      "ru": "Дерево",
+      "status": "machine",
+      "srcHash": "7c91f85c380ae738",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_31": {
+      "en": "Jade",
+      "cn": "玉石",
+      "ru": "Нефрит",
+      "status": "machine",
+      "srcHash": "f2b7d0b0b58834b0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_32": {
+      "en": "Fabric",
+      "cn": "织物",
+      "ru": "Ткань",
+      "status": "machine",
+      "srcHash": "3b08ef82a0357614",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_33": {
+      "en": "Love",
+      "cn": "爱慕",
+      "ru": "Любовь",
+      "status": "machine",
+      "srcHash": "4bbab74cbcf4107d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_34": {
+      "en": "Grudge",
+      "cn": "仇恨",
+      "ru": "Зависть",
+      "status": "machine",
+      "srcHash": "52b3120d3dae4df0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_35": {
+      "en": "Fruit",
+      "cn": "水果",
+      "ru": "Фрукты",
+      "status": "machine",
+      "srcHash": "60f12414ddecd827",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_36": {
+      "en": "Tea",
+      "cn": "茶",
+      "ru": "Чай",
+      "status": "machine",
+      "srcHash": "cf9b5e6816cef638",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_37": {
+      "en": "XP",
+      "cn": "历练",
+      "ru": "ОПЫТ",
+      "status": "machine",
+      "srcHash": "7b4d7c66b3c901ea",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_38": {
+      "en": "Food",
+      "cn": "食物",
+      "ru": "Еда",
+      "status": "machine",
+      "srcHash": "6faf83c8948ddcfd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_39": {
+      "en": "Liquor",
+      "cn": "酒",
+      "ru": "Вино",
+      "status": "machine",
+      "srcHash": "50fd5a914a115e6c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_40": {
+      "en": "Souldew",
+      "cn": "血露",
+      "ru": "Плесень",
+      "status": "machine",
+      "srcHash": "a93b45f54ed262ea",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_41": {
+      "en": "Poisons",
+      "cn": "毒药",
+      "ru": "Яды",
+      "status": "machine",
+      "srcHash": "edc20e3e9ae64795",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_42": {
+      "en": "Poisons",
+      "cn": "毒药",
+      "ru": "Яды",
+      "status": "machine",
+      "srcHash": "edc20e3e9ae64795",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_43": {
+      "en": "Poisons",
+      "cn": "毒药",
+      "ru": "Яды",
+      "status": "machine",
+      "srcHash": "edc20e3e9ae64795",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_44": {
+      "en": "Poisons",
+      "cn": "毒药",
+      "ru": "Яды",
+      "status": "machine",
+      "srcHash": "edc20e3e9ae64795",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_45": {
+      "en": "Poisons",
+      "cn": "毒药",
+      "ru": "Яды",
+      "status": "machine",
+      "srcHash": "edc20e3e9ae64795",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_46": {
+      "en": "Poisons",
+      "cn": "毒药",
+      "ru": "Яды",
+      "status": "machine",
+      "srcHash": "edc20e3e9ae64795",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "ShortName_47": {
+      "en": "Intimate",
+      "cn": "亲友",
+      "ru": "Интимный",
+      "status": "machine",
+      "srcHash": "efe0c381d37c0b3d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_0": {
+      "en": "Fine Arts Book: Music",
+      "cn": "音律技艺书",
+      "ru": "Книга по Ремеслу: Музыка",
+      "status": "machine",
+      "srcHash": "820844c1752f340d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_1": {
+      "en": "Fine Arts Book: Weiqi",
+      "cn": "弈棋技艺书",
+      "ru": "Книга по Ремеслу: Weiqi",
+      "status": "machine",
+      "srcHash": "c60ad8c5247e3850",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_2": {
+      "en": "Fine Arts Book: Literature",
+      "cn": "诗书技艺书",
+      "ru": "Книга по Ремеслу: Литература",
+      "status": "machine",
+      "srcHash": "223f8cdcaa44de8d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_3": {
+      "en": "Fine Arts Book: Painting",
+      "cn": "绘画技艺书",
+      "ru": "Книга \"Ремесла\": Живопись",
+      "status": "machine",
+      "srcHash": "90284908da518314",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_4": {
+      "en": "Fine Arts Book: Medical Arts",
+      "cn": "医术技艺书",
+      "ru": "Книга \"Ремесла\": \"Медицинское искусство\"",
+      "status": "machine",
+      "srcHash": "08cdbf8f04da3661",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_5": {
+      "en": "Fine Arts Book: Toxicology",
+      "cn": "毒术技艺书",
+      "ru": "Книга по Ремеслу: Токсикология",
+      "status": "machine",
+      "srcHash": "cb9e96b08fbea7ae",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_6": {
+      "en": "Fine Arts Book: Smithing",
+      "cn": "锻造技艺书",
+      "ru": "Книга по Ремеслам: Кузнечное дело",
+      "status": "machine",
+      "srcHash": "7ba1b4497f077546",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_7": {
+      "en": "Fine Arts Book: Carpentry",
+      "cn": "制木技艺书",
+      "ru": "Книга по Ремеслам: Столярное дело",
+      "status": "machine",
+      "srcHash": "264d77e6c8557131",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_8": {
+      "en": "Fine Arts Book: Weaving",
+      "cn": "织锦技艺书",
+      "ru": "Книга по Ремеслам: Ткачество",
+      "status": "machine",
+      "srcHash": "16ecbca56874093a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_9": {
+      "en": "Fine Arts Book: Jewelcrafting",
+      "cn": "巧匠技艺书",
+      "ru": "Книга по Ремеслу: Ювелирное дело",
+      "status": "machine",
+      "srcHash": "6d09801656ae21d2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_10": {
+      "en": "Fine Arts Book: Astrology",
+      "cn": "术数技艺书",
+      "ru": "Книга по Ремеслам: Астрология",
+      "status": "machine",
+      "srcHash": "13c6eb295f43b0d2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_11": {
+      "en": "Fine Arts Book: Appreciation",
+      "cn": "品鉴技艺书",
+      "ru": "Книга по Ремеслу: Оценка",
+      "status": "machine",
+      "srcHash": "d41edfb9281a2570",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_12": {
+      "en": "Fine Arts Book: Culinary Arts",
+      "cn": "厨艺技艺书",
+      "ru": "Книга \"Ремесла\": Кулинарное искусство",
+      "status": "machine",
+      "srcHash": "13918b435964e9cb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_13": {
+      "en": "Fine Arts Book: Unorthodox Arts",
+      "cn": "杂学技艺书",
+      "ru": "Книга \"Ремесла\": Неортодоксальное искусство",
+      "status": "machine",
+      "srcHash": "23f8c27ec4a97843",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Name_14": {
+      "en": "Fine Arts Book: Buddhism",
+      "cn": "佛学技艺书",
+      "ru": "Книга по Ремеслам: Буддизм",
+      "status": "machine",
+      "srcHash": "c89f280a68c4205c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_15": {
+      "en": "Fine Arts Book: Taoism",
+      "cn": "道法技艺书",
+      "ru": "Книга по Ремеслам: Даосизм",
+      "status": "machine",
+      "srcHash": "6079d69bc6fc1f5c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_16": {
+      "en": "External Injury Pills",
+      "cn": "外伤丹药",
+      "ru": "Таблетки от Внешних травм",
+      "status": "machine",
+      "srcHash": "7882ccedb9ab22d6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_17": {
+      "en": "Internal Injury Pills",
+      "cn": "内伤丹药",
+      "ru": "Таблетки от Внутренних травм",
+      "status": "machine",
+      "srcHash": "60e7f7da4b6555b6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_18": {
+      "en": "Detoxify Pills",
+      "cn": "解毒丹药",
+      "ru": "Таблетки для детоксикации",
+      "status": "machine",
+      "srcHash": "94f730aa7fd2b5f7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_19": {
+      "en": "Inner Breath Pills",
+      "cn": "内息丹药",
+      "ru": "Таблетки для Внутреннего дыхания",
+      "status": "machine",
+      "srcHash": "fbfbfc2606916b55",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_20": {
+      "en": "Health Pills",
+      "cn": "健康丹药",
+      "ru": "Таблетки для Здоровья",
+      "status": "machine",
+      "srcHash": "57ec862465d0fd29",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_21": {
+      "en": "Attack Pills",
+      "cn": "攻击丹药",
+      "ru": "Таблетки для Атаки",
+      "status": "machine",
+      "srcHash": "2c0c118d21a849e9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_22": {
+      "en": "Defense Pills",
+      "cn": "防御丹药",
+      "ru": "Защитные таблетки",
+      "status": "machine",
+      "srcHash": "70a447c5deb2b4e1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_23": {
+      "en": "Hit Pills",
+      "cn": "命中丹药",
+      "ru": "Принимайте таблетки",
+      "status": "machine",
+      "srcHash": "dc3ed5137742fba0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_24": {
+      "en": "Deflection Pills",
+      "cn": "化解丹药",
+      "ru": "Отклоняющие таблетки",
+      "status": "machine",
+      "srcHash": "e18543c653e0cad9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_25": {
+      "en": "Inhale & Stance Pills",
+      "cn": "气势丹药",
+      "ru": "Таблетки для вдыхания и принятия Стойки",
+      "status": "machine",
+      "srcHash": "332d6e3ac3e95efd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_26": {
+      "en": "Cast Pills",
+      "cn": "施展丹药",
+      "ru": "Литые таблетки",
+      "status": "machine",
+      "srcHash": "db37a50cb504b520",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_27": {
+      "en": "Movement Speed Pills",
+      "cn": "移速丹药",
+      "ru": "Таблетки для ускорения передвижения",
+      "status": "machine",
+      "srcHash": "c70caec2bf4cbfd5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_28": {
+      "en": "Attack Speed Pills",
+      "cn": "攻速丹药",
+      "ru": "Таблетки для ускорения Атаки",
+      "status": "machine",
+      "srcHash": "a50e180facc91e9c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_29": {
+      "en": "Metal Reagent",
+      "cn": "金铁引子",
+      "ru": "Металлический Реагент",
+      "status": "machine",
+      "srcHash": "8d597f5547bd470d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_30": {
+      "en": "Wood Reagent",
+      "cn": "木材引子",
+      "ru": "Реагент для древесины",
+      "status": "machine",
+      "srcHash": "f71844dbb0c7b9be",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_31": {
+      "en": "Jade Reagent",
+      "cn": "玉石引子",
+      "ru": "Реагент из Нефрита",
+      "status": "machine",
+      "srcHash": "d972d3be4cd06c3e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_32": {
+      "en": "Fabric Reagent",
+      "cn": "织物引子",
+      "ru": "Тканевый Реагент",
+      "status": "machine",
+      "srcHash": "879f6aaf7623141f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_33": {
+      "en": "Mutual Love",
+      "cn": "相互爱慕",
+      "ru": "Взаимная любовь",
+      "status": "machine",
+      "srcHash": "dc43d43d849a5c46",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_34": {
+      "en": "Mutual Hatred",
+      "cn": "相互仇恨",
+      "ru": "Взаимная ненависть",
+      "status": "machine",
+      "srcHash": "c2b18e07b8c98c5b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_35": {
+      "en": "Fruit",
+      "cn": "水果",
+      "ru": "Фрукты",
+      "status": "machine",
+      "srcHash": "60f12414ddecd827",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_36": {
+      "en": "Tea",
+      "cn": "茶",
+      "ru": "Чай",
+      "status": "machine",
+      "srcHash": "cf9b5e6816cef638",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_37": {
+      "en": "XP",
+      "cn": "历练",
+      "ru": "ОПЫТ",
+      "status": "machine",
+      "srcHash": "7b4d7c66b3c901ea",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_38": {
+      "en": "Food",
+      "cn": "食物",
+      "ru": "Еда",
+      "status": "machine",
+      "srcHash": "6faf83c8948ddcfd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_39": {
+      "en": "Liquor",
+      "cn": "酒",
+      "ru": "Вино",
+      "status": "machine",
+      "srcHash": "50fd5a914a115e6c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_40": {
+      "en": "Souldew",
+      "cn": "血露",
+      "ru": "Плесень",
+      "status": "machine",
+      "srcHash": "a93b45f54ed262ea",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_41": {
+      "en": "Acritoxin",
+      "cn": "烈毒毒药",
+      "ru": "Акритоксин",
+      "status": "machine",
+      "srcHash": "7dfed75a906e1344",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_42": {
+      "en": "Umbritoxin",
+      "cn": "郁毒毒药",
+      "ru": "Умбротоксин",
+      "status": "machine",
+      "srcHash": "dbd4921761b88ea5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_43": {
+      "en": "Pyrotoxin",
+      "cn": "赤毒毒药",
+      "ru": "Пиротоксин",
+      "status": "machine",
+      "srcHash": "d0d8dc11783ce590",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_44": {
+      "en": "Cryotoxin",
+      "cn": "寒毒毒药",
+      "ru": "Криотоксин",
+      "status": "machine",
+      "srcHash": "8074c8bb53bbcbce",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_45": {
+      "en": "Necrotoxin",
+      "cn": "腐毒毒药",
+      "ru": "Некротоксин",
+      "status": "machine",
+      "srcHash": "a0f7d2398c56d3a7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_46": {
+      "en": "Oneirotoxin",
+      "cn": "幻毒毒药",
+      "ru": "Онейротоксин",
+      "status": "machine",
+      "srcHash": "b00744e7cf311052",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_47": {
+      "en": "Intimate with",
+      "cn": "互为亲友",
+      "ru": "Близок с",
+      "status": "machine",
+      "srcHash": "8d8669e638e77579",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    }
+  }
+}

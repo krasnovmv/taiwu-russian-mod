@@ -1,0 +1,1330 @@
+{
+  "schemaVersion": 1,
+  "file": "CombatEvaluation_language.txt",
+  "glossaryVersion": 5,
+  "units": {
+    "Name_0": {
+      "en": "Outplayed",
+      "cn": "技不如人",
+      "ru": "Переигран",
+      "status": "machine",
+      "srcHash": "40e38538ac57f422",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_1": {
+      "en": "Evenly Matched",
+      "cn": "不分胜负",
+      "ru": "Равномерно подобранный",
+      "status": "machine",
+      "srcHash": "c2414e9feeef8999",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_2": {
+      "en": "Flee As Fast As Possible",
+      "cn": "落荒而逃",
+      "ru": "Бегите как можно быстрее",
+      "status": "machine",
+      "srcHash": "a5ab9bd514944351",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_3": {
+      "en": "Victorious",
+      "cn": "克敌制胜",
+      "ru": "Победоносный",
+      "status": "machine",
+      "srcHash": "9db98914c0c11c79",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_4": {
+      "en": "Friendly Sparring",
+      "cn": "切磋感悟",
+      "ru": "Дружеский спарринг",
+      "status": "machine",
+      "srcHash": "5be000aff0f327bb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_5": {
+      "en": "Trial Excellence",
+      "cn": "见招拆招",
+      "ru": "Превосходство в Испытаниях",
+      "status": "machine",
+      "srcHash": "20768defe1fe64c4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_6": {
+      "en": "Barbarous Brawl",
+      "cn": "险恶之战",
+      "ru": "Варварская драка",
+      "status": "machine",
+      "srcHash": "78601621f8362b20",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_7": {
+      "en": "Deadly Duel",
+      "cn": "生死之战",
+      "ru": "Смертельный Поединок",
+      "status": "machine",
+      "srcHash": "6a51cf1466675922",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_8": {
+      "en": "Sword Mastery",
+      "cn": "神剑归心",
+      "ru": "Мастерство владения Мечом",
+      "status": "machine",
+      "srcHash": "07870b2753f9d649",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_9": {
+      "en": "Outnumber",
+      "cn": "以多欺少",
+      "ru": "Численный перевес",
+      "status": "machine",
+      "srcHash": "988fded46f447c2d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_10": {
+      "en": "Bully the Weak",
+      "cn": "欺凌幼小",
+      "ru": "Запугивать слабых",
+      "status": "machine",
+      "srcHash": "70d48fe7994f12db",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_11": {
+      "en": "Equipment Advantage",
+      "cn": "装备凌弱",
+      "ru": "Преимущество Снаряжения",
+      "status": "machine",
+      "srcHash": "0acca2480dc8e9df",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_12": {
+      "en": "True Qi Advantage",
+      "cn": "真气凌弱",
+      "ru": "Преимущество Истинной ци",
+      "status": "machine",
+      "srcHash": "47550f6e6b5363e1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_13": {
+      "en": "Martial Arts Advantage",
+      "cn": "武学凌弱",
+      "ru": "Преимущество Боевых искусств",
+      "status": "machine",
+      "srcHash": "7fd4756fe17d54dd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_14": {
+      "en": "Pure Essence Advantage",
+      "cn": "精纯凌弱",
+      "ru": "Преимущество Чистой эссенции",
+      "status": "machine",
+      "srcHash": "4b5c98aec5839267",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_15": {
+      "en": "Exploit One's Vulnerability",
+      "cn": "趁人之危",
+      "ru": "Использовать чью-то уязвимость",
+      "status": "machine",
+      "srcHash": "7c11b76993bd7271",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_16": {
+      "en": "Less Is More",
+      "cn": "以少胜多",
+      "ru": "Меньше Значит больше",
+      "status": "machine",
+      "srcHash": "bd4bc967ce0decbd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_17": {
+      "en": "Fearless Youth",
+      "cn": "初生之犊",
+      "ru": "Бесстрашный юноша",
+      "status": "machine",
+      "srcHash": "6cb9dbc75d4e0283",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_18": {
+      "en": "Equipment Disadvantage",
+      "cn": "装备胜强",
+      "ru": "Недостаток Снаряжения",
+      "status": "machine",
+      "srcHash": "50a79698d3c02ebd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_19": {
+      "en": "True Qi Disadvantage",
+      "cn": "真气胜强",
+      "ru": "Недостаток Истинной Ци",
+      "status": "machine",
+      "srcHash": "4c0603956f040cd4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_20": {
+      "en": "Martial Arts Disadvantage",
+      "cn": "武学胜强",
+      "ru": "Недостаток Боевых искусств",
+      "status": "machine",
+      "srcHash": "ba69e01b9e071e75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_21": {
+      "en": "Pure Essence Disadvantage",
+      "cn": "精纯胜强",
+      "ru": "Недостаток Чистой эссенции",
+      "status": "machine",
+      "srcHash": "9b57f7b4d2aab7ab",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_22": {
+      "en": "Lioness Might",
+      "cn": "河东狮吼",
+      "ru": "Львица могла бы",
+      "status": "machine",
+      "srcHash": "ca13ba640885ea26",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_23": {
+      "en": "Helping Hand",
+      "cn": "驱魔除邪",
+      "ru": "Рука помощи",
+      "status": "machine",
+      "srcHash": "d8bd16ad0d462385",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_24": {
+      "en": "Helping Hand",
+      "cn": "驱魔除邪",
+      "ru": "Рука помощи",
+      "status": "machine",
+      "srcHash": "d8bd16ad0d462385",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_25": {
+      "en": "Act as Justice Demands",
+      "cn": "行侠仗义",
+      "ru": "Действуй так, как требует справедливость",
+      "status": "machine",
+      "srcHash": "5c3cffe3919e1c7b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_26": {
+      "en": "Banish Outlaw",
+      "cn": "驱逐外道",
+      "ru": "Изгнать преступника",
+      "status": "machine",
+      "srcHash": "0e6a1c78c72ec922",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_27": {
+      "en": "Wrongdoer",
+      "cn": "为非作歹",
+      "ru": "Правонарушитель",
+      "status": "machine",
+      "srcHash": "2275702aa173ec32",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_28": {
+      "en": "Repel Xiake",
+      "cn": "逼退义士",
+      "ru": "Отразить Сяке",
+      "status": "machine",
+      "srcHash": "7cf21f6e50d0d684",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_29": {
+      "en": "Lion's Dominance",
+      "cn": "狮相雄威",
+      "ru": "Доминирование льва",
+      "status": "machine",
+      "srcHash": "5d341d643f3c4e28",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_30": {
+      "en": "Lion's Dominance",
+      "cn": "狮相雄威",
+      "ru": "Доминирование льва",
+      "status": "machine",
+      "srcHash": "5d341d643f3c4e28",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_31": {
+      "en": "Lion's Dominance",
+      "cn": "狮相雄威",
+      "ru": "Доминирование льва",
+      "status": "machine",
+      "srcHash": "5d341d643f3c4e28",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_32": {
+      "en": "Triumph of Simplicity",
+      "cn": "返璞归真",
+      "ru": "Торжество простоты",
+      "status": "machine",
+      "srcHash": "f5ee7ba0871d2a5f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_33": {
+      "en": "Practical Insights",
+      "cn": "实战领悟",
+      "ru": "Практические идеи",
+      "status": "machine",
+      "srcHash": "baac54512fa0e116",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_34": {
+      "en": "Dummy Training",
+      "cn": "木人训练",
+      "ru": "Тренировка манекена",
+      "status": "machine",
+      "srcHash": "7613b1f7f1bbcba4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_35": {
+      "en": "Loong's Ascent",
+      "cn": "龙腾四海",
+      "ru": "Восхождение Луна",
+      "status": "machine",
+      "srcHash": "a39bf737b5fd6838",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_36": {
+      "en": "Dire",
+      "cn": "九死一生",
+      "ru": "Ужасный",
+      "status": "machine",
+      "srcHash": "df410f3b473728ff",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_37": {
+      "en": "Dancing with Death",
+      "cn": "十死无生",
+      "ru": "Танцующий со смертью",
+      "status": "machine",
+      "srcHash": "d9cd3e27512f59a5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_38": {
+      "en": "Bastion of Will",
+      "cn": "抵御侵袭",
+      "ru": "Бастион воли",
+      "status": "machine",
+      "srcHash": "50ef0850b8d94fda",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_39": {
+      "en": "Basic Instruction",
+      "cn": "指点一二",
+      "ru": "Основная инструкция",
+      "status": "machine",
+      "srcHash": "2ae40d904f2f99bc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_40": {
+      "en": "Bring It On",
+      "cn": "兵来将挡",
+      "ru": "Продолжай в том же духе",
+      "status": "machine",
+      "srcHash": "cf04c35a6d0e3f4a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_41": {
+      "en": "Effortless Mastery",
+      "cn": "游刃有余",
+      "ru": "Мастерство без усилий",
+      "status": "machine",
+      "srcHash": "3f840bc5fae0f4cb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_42": {
+      "en": "A Close Call",
+      "cn": "有惊无险",
+      "ru": "На волосок от гибели",
+      "status": "machine",
+      "srcHash": "ffc4bdc239e5a8ab",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_43": {
+      "en": "Instant Circulation",
+      "cn": "实战周天",
+      "ru": "Мгновенная циркуляция",
+      "status": "machine",
+      "srcHash": "71792b3c9a2fd985",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_44": {
+      "en": "Practice Completed",
+      "cn": "练习完成",
+      "ru": "Практика завершена",
+      "status": "machine",
+      "srcHash": "0149f929eaa51a68",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_45": {
+      "en": "Kneeling in Defeat",
+      "cn": "屈膝束手",
+      "ru": "Преклоняя колени в поражении",
+      "status": "machine",
+      "srcHash": "bcb23384245c40d5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_46": {
+      "en": "Exterminate Underlings",
+      "cn": "除灭爪牙",
+      "ru": "Уничтожать подчиненных",
+      "status": "machine",
+      "srcHash": "3fb906b4bfe5b631",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_47": {
+      "en": "Exterminate Underlings",
+      "cn": "除灭爪牙",
+      "ru": "Уничтожать подчиненных",
+      "status": "machine",
+      "srcHash": "3fb906b4bfe5b631",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_48": {
+      "en": "Evil Prevails",
+      "cn": "魔高一丈",
+      "ru": "Зло побеждает",
+      "status": "machine",
+      "srcHash": "8bead47ed6eb2474",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Desc_0": {
+      "en": "Battle lost!",
+      "cn": "战斗失败！",
+      "ru": "Битва проиграна!",
+      "status": "machine",
+      "srcHash": "f83d335048565692",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Desc_1": {
+      "en": "Evenly Matched...",
+      "cn": "不分胜负……",
+      "ru": "Равномерно подобранные...",
+      "status": "machine",
+      "srcHash": "51b2a0d6c59d864d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Desc_2": {
+      "en": "Flee in a panic...",
+      "cn": "落荒而逃……",
+      "ru": "Бегите в панике...",
+      "status": "machine",
+      "srcHash": "b0ce0df3f496fd90",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Desc_3": {
+      "en": "Battle won!",
+      "cn": "战斗胜利！",
+      "ru": "Битва выиграна!",
+      "status": "machine",
+      "srcHash": "c2f6c19c7fc6db59",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Desc_4": {
+      "en": "Spar with an opponent whose Pure Essence is no less than yours.",
+      "cn": "与精纯不低于自己的对手切磋武功。",
+      "ru": "Сразитесь с противником, чья Чистая эссенция ничуть не меньше вашей.",
+      "status": "machine",
+      "srcHash": "1caa1b1b3acc0e9c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_5": {
+      "en": "Fight an opponent whose Pure Essence is no less than yours in a Trial.",
+      "cn": "与精纯不低于自己的对手进行接招。",
+      "ru": "Сразитесь в Испытании с противником, чья Чистая эссенция ничуть не меньше вашей.",
+      "status": "machine",
+      "srcHash": "5c113a09b807607a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_6": {
+      "en": "Fight an opponent whose Pure Essence is no less than yours in a Brawl.",
+      "cn": "与精纯不低于自己的对手发生恶斗。",
+      "ru": "Сразитесь в драке с противником, чья Чистая эссенция ничуть не меньше вашей.",
+      "status": "machine",
+      "srcHash": "628e096c17eb46e3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_7": {
+      "en": "Fight an opponent whose Pure Essence is no less than yours in a Duel.",
+      "cn": "与精纯不低于自己的对手发生死斗。",
+      "ru": "Сразитесь в Поединке с противником, чья Чистая эссенция ничуть не меньше вашей.",
+      "status": "machine",
+      "srcHash": "89af5ddef2a4537c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_8": {
+      "en": "Defeat Xiangshu Incarnation!",
+      "cn": "击败了相枢化身！",
+      "ru": "Победи воплощение Сяншу!",
+      "status": "machine",
+      "srcHash": "9fd3e0afd7b6ae7c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Desc_9": {
+      "en": "Defeat opponents that you outnumber.",
+      "cn": "在我方人数比敌方人数多的情况下战胜对手。",
+      "ru": "Побеждайте противников, которых вы превосходите численностью.",
+      "status": "machine",
+      "srcHash": "d60533aa3fb1ec2f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Desc_10": {
+      "en": "Defeat an opponent who is younger than you and not of age.",
+      "cn": "击败尚未成年且比自己年幼的对手。",
+      "ru": "Победите противника, который моложе вас и не по возрасту.",
+      "status": "machine",
+      "srcHash": "44082e681f8dd1aa",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_11": {
+      "en": "Defeat an opponent whose equipment is overall weaker than yours.",
+      "cn": "击败装备整体比自己弱的对手。",
+      "ru": "Победите противника, чье Снаряжение в целом слабее вашего.",
+      "status": "machine",
+      "srcHash": "2b13a0b626bce6ac",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_12": {
+      "en": "Defeat an opponent whose True Qi is much lower than yours.",
+      "cn": "击败真气比自己低很多的对手。",
+      "ru": "Победите противника, Истинная ци которого намного ниже вашей.",
+      "status": "machine",
+      "srcHash": "e7711defb0268b13",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_13": {
+      "en": "Defeat an opponent who uses a less advanced Martial Art than yours.",
+      "cn": "使用了相较对手所使用的武学而言更为高深的武学击败对手。",
+      "ru": "Победите противника, который использует менее продвинутую Боевую технику, чем ваша.",
+      "status": "machine",
+      "srcHash": "3f1cffb6cfdbcf69",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_14": {
+      "en": "Defeat an opponent whose Pure Essence is 3 levels (or more) lower than yours.",
+      "cn": "在自己的精纯境界比对手高3或以上的情况下击败对手。",
+      "ru": "Победите противника, чья Чистая эссенция на 3 уровня (или более) ниже вашей.",
+      "status": "machine",
+      "srcHash": "7afddc27156769ad",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_15": {
+      "en": "Defeat a pregnant opponent.",
+      "cn": "击败身怀六甲的对手。",
+      "ru": "Победите беременную соперницу.",
+      "status": "machine",
+      "srcHash": "2dcb56f3c239b370",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Desc_16": {
+      "en": "Defeat opponents who outnumber you.",
+      "cn": "在我方人数比敌方人数少的情况下战胜对手。",
+      "ru": "Побеждайте противников, которые превосходят вас численностью.",
+      "status": "machine",
+      "srcHash": "70c65613674a1cb1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Desc_17": {
+      "en": "Defeat an opponent who is older than you when you are not of age.",
+      "cn": "在尚未成年且对方比自己年长的情况下击败对手。",
+      "ru": "Победите противника, который старше вас, когда вы еще не достигли совершеннолетия.",
+      "status": "machine",
+      "srcHash": "66da5be0b3e22c3c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_18": {
+      "en": "Defeat an opponent whose equipment is overall stronger than yours.",
+      "cn": "击败装备整体比自己强的对手。",
+      "ru": "Победите противника, чье Снаряжение в целом сильнее вашего.",
+      "status": "machine",
+      "srcHash": "b43a27f077e49a51",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_19": {
+      "en": "Defeat an opponent whose True Qi is much higher than yours.",
+      "cn": "击败真气比自己高很多的对手。",
+      "ru": "Победите противника, Истинная ци которого намного выше вашей.",
+      "status": "machine",
+      "srcHash": "12ce276e6a5cca7a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_20": {
+      "en": "Defeat an opponent who uses a more advanced Martial Art than yours.",
+      "cn": "仅用了相较对手所使用的武学而言更为粗浅的武学击败对手。",
+      "ru": "Победите противника, который использует более продвинутую Боевую технику, чем ваша.",
+      "status": "machine",
+      "srcHash": "04b8af5ab9067ec2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_21": {
+      "en": "Defeat an opponent whose Pure Essence is 3 levels (or more) higher than yours.",
+      "cn": "在自己的精纯境界比对手低3或以上的情况下击败对手。",
+      "ru": "Победите противника, чья Чистая эссенция на 3 уровня (или более) выше вашей.",
+      "status": "machine",
+      "srcHash": "f1c8bd980182d237",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_22": {
+      "en": "Defeat an opponent when you are pregnant.",
+      "cn": "在自己身怀六甲的情况下击败对手。",
+      "ru": "Победите соперника, когда вы беременны.",
+      "status": "machine",
+      "srcHash": "cf3e382bd5b1cc59",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_23": {
+      "en": "Restore the mind of an opponent who is bewitched by Xiangshu.",
+      "cn": "令堕入相枢魔道者的心神得以复原。",
+      "ru": "Восстановите разум противника, околдованного Сяншу.",
+      "status": "machine",
+      "srcHash": "a0fce0beb1af55e1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_24": {
+      "en": "Restore the mind of an opponent who is bewitched by Xiangshu and has no less Pure Essence than you.",
+      "cn": "令精纯不低于自己的堕入相枢魔道者的心神得以复原。",
+      "ru": "Восстановите разум противника, который околдован Сяншу и обладает не менее Чистой эссенцией, чем вы.",
+      "status": "machine",
+      "srcHash": "784450977355088f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_25": {
+      "en": "Defeated the Outlaw who committed wrongdoings.",
+      "cn": "击败了为非作歹的外道。",
+      "ru": "Победил преступника, совершившего проступок.",
+      "status": "machine",
+      "srcHash": "fa7555cb077e8ae7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_26": {
+      "en": "Defeated the Outlaw whose Pure Essence is no less than yours.",
+      "cn": "击败了精纯不低于自己的外道。",
+      "ru": "Победил Преступника, чья Чистая эссенция ничуть не меньше вашей.",
+      "status": "machine",
+      "srcHash": "43979dcd7e147941",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_27": {
+      "en": "Defeated the Xiake who upholds justice.",
+      "cn": "击败了行侠仗义的义士。",
+      "ru": "Победил Сяке, который отстаивает справедливость.",
+      "status": "machine",
+      "srcHash": "539ef5e3a6f34c99",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Desc_28": {
+      "en": "Defeated the Xiake whose Pure Essence is no less than yours.",
+      "cn": "击败了精纯不低于自己的义士。",
+      "ru": "Победил Сяке, чья Чистая эссенция ничуть не меньше твоей.",
+      "status": "machine",
+      "srcHash": "f3237d3ba1830600",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_29": {
+      "en": "The Lion-Face Clan now tirelessly celebrates your every feat. You gain more Prestige from beating your opponents.",
+      "cn": "因为狮相门的宣扬，战胜对手获得了更多的威望。",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "24934f221d96c656",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_30": {
+      "en": "The Lion-Face Clan now tirelessly celebrates your every feat. You gain more Prestige from beating your opponents.",
+      "cn": "因为狮相门的宣扬，战胜对手获得了更多的威望。",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "24934f221d96c656",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_31": {
+      "en": "The Lion-Face Clan now tirelessly celebrates your every feat. You gain more Prestige from beating your opponents.",
+      "cn": "因为狮相门的宣扬，战胜对手获得了更多的威望。",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "24934f221d96c656",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_32": {
+      "en": "Gain much greater Prestige for defeating an enemy with the simplest Emperor Long Fist.",
+      "cn": "以最为质朴的太祖长拳击败敌人，获得的威望大幅提高。",
+      "ru": "Получите гораздо больший Престиж, победив врага простейшим Длинным кулаком Императора.",
+      "status": "machine",
+      "srcHash": "a427e5ad237a64f1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_33": {
+      "en": "Gain Study Progress of the current book after practicing in combat.",
+      "cn": "于实战中有所领悟，正在研读的书籍的研读进度增加了。",
+      "ru": "Получите прогресс в изучении текущей книги после тренировки в бою.",
+      "status": "machine",
+      "srcHash": "df6c7233a1e313e0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_34": {
+      "en": "Practice your combat skills with the wooden dummy...",
+      "cn": "与练功木人进行实战训练，实战领悟的几率大幅提高……",
+      "ru": "Попрактикуйтесь в своих боевых навыках с деревянным манекеном...",
+      "status": "machine",
+      "srcHash": "2a39dac9d6890879",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_35": {
+      "en": "Pass the Divine Loong's trial, gaining blessings that flow like celestial rivers...",
+      "cn": "通过神龙的挑战，自此福泽绵长，贵不可言……",
+      "ru": "Пройдите Испытание Божественного Лун, обретя благословения, которые текут подобно небесным рекам...",
+      "status": "machine",
+      "srcHash": "9ce4b5c0775cac33",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_36": {
+      "en": "Battle at Extreme difficulty. Increases XP gained and the chance of triggering Practical Insights ...",
+      "cn": "以极难难度战斗，获得的历练提高，实战领悟的几率提高……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6579103fc7f3de76",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_37": {
+      "en": "Battle at Doom difficulty. Greatly increases XP gained and the chance of triggering Practical Insights ...",
+      "cn": "以必死难度战斗，获得的历练大幅提高，实战领悟的几率大幅提高……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "cb6318afaeb802a7",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_38": {
+      "en": "Vanquish Xiangshu Incarnation! Greatly increases XP and Prestige gained and improves the chance of triggering Practical Insights ...",
+      "cn": "奋力抵御出冢的相枢化身！获得的历练、威望大幅提高，实战领悟的几率提高……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "68e79b9fc5849b1a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_39": {
+      "en": "Spar with an opponent whose Pure Essence is less than yours.",
+      "cn": "与精纯低于自己的对手切磋武功。",
+      "ru": "Сразитесь с противником, чья Чистая эссенция меньше вашей.",
+      "status": "machine",
+      "srcHash": "d7b239260498ee91",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_40": {
+      "en": "Fight an opponent whose Pure Essence is less than yours in a Trial.",
+      "cn": "与精纯低于自己的对手进行接招。",
+      "ru": "Сразитесь в Испытании с противником, чья Чистая эссенция меньше вашей.",
+      "status": "machine",
+      "srcHash": "f0c3e7cdcb95ebc7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_41": {
+      "en": "Fight an opponent whose Pure Essence is less than yours in a Brawl.",
+      "cn": "与精纯低于自己的对手发生恶斗。",
+      "ru": "Сразитесь в драке с противником, чья Чистая эссенция меньше вашей.",
+      "status": "machine",
+      "srcHash": "17a8e6f174dd94fe",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_42": {
+      "en": "Fight an opponent whose Pure Essence is less than yours in a Duel.",
+      "cn": "与精纯低于自己的对手发生死斗。",
+      "ru": "Сразитесь в Поединке с противником, чья Чистая эссенция меньше вашей.",
+      "status": "machine",
+      "srcHash": "07526526132a6c4c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_43": {
+      "en": "Perceive insights during combat. The Qi and True Qi of active Qi Art increase.",
+      "cn": "于实战中有所感应，正在运转的内功的内力与真气获取增加了。",
+      "ru": "Воспринимайте озарения во время боя. Ци и Истинная Ци активного искусства Ци увеличиваются.",
+      "status": "machine",
+      "srcHash": "8d82676d2d034147",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_44": {
+      "en": "It's merely a casual practice, thus granting no XP or Prestige, nor any battle evaluation.",
+      "cn": "因仅是随意试练，故而无法获得历练与威望，也不会获得任何战斗评价…",
+      "ru": "Это всего лишь случайная практика, которая не дает ни опыта, ни Престижа, ни какой-либо оценки боя.",
+      "status": "machine",
+      "srcHash": "d4f1ee9ed832fdb9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_45": {
+      "en": "Voluntarily concede in battle, resulting in severe injuries.",
+      "cn": "在战斗中主动认输，受到了严重损伤……",
+      "ru": "Добровольно уступают в бою, что приводит к тяжелым ранениям.",
+      "status": "machine",
+      "srcHash": "02e274a3f5c6cb99",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_46": {
+      "en": "Exterminate Xiangshu Underlings.",
+      "cn": "消灭相枢爪牙。",
+      "ru": "Уничтожьте подчиненных Сяншу.",
+      "status": "machine",
+      "srcHash": "1ea85f9c6ebdc023",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Desc_47": {
+      "en": "Defeat a Xiangshu Underling whose Pure Essence is no less than yours.",
+      "cn": "消灭精纯不低于自己的相枢爪牙。",
+      "ru": "Победите подчиненного Сяншу, чья Чистая эссенция ничуть не меньше вашей.",
+      "status": "machine",
+      "srcHash": "feacf70416fb2047",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_48": {
+      "en": "Defeated in the Demonic Trials, mind became confused, and Martial Arts lacks the practical experience to advance...",
+      "cn": "在诛魔试炼中落败，心念迷乱，功法未能获得实战积累…",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b1a69f3ec658a206",
+      "engine": null,
+      "updatedAt": null
+    },
+    "SmallVillageDesc_0": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_1": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_2": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_3": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_4": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_5": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_6": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_7": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_8": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_9": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_10": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_11": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_12": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_13": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_14": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_15": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_16": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_17": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_18": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_19": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_20": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_21": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_22": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_23": {
+      "en": "Restore the mind of an opponent who is corrupted by Xiangshu.",
+      "cn": "令堕入魔道者的心神得以复原。",
+      "ru": "Восстановите разум противника, который развращен Сяншу.",
+      "status": "machine",
+      "srcHash": "72a289e867727031",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "SmallVillageDesc_24": {
+      "en": "Restore the mind of an opponent who is corrupted by Xiangshu and has no less Pure Essence than you.",
+      "cn": "令精纯不低于自己的堕入魔道者的心神得以复原。",
+      "ru": "Восстановите разум противника, который развращен Сяншу и обладает не менее Чистой эссенцией, чем вы.",
+      "status": "machine",
+      "srcHash": "a8b4c904baef88d8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "SmallVillageDesc_25": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_26": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_27": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_28": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_29": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_30": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_31": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_32": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_33": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_34": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_35": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_36": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_37": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_38": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_39": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_40": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_41": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_42": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_43": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_44": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_45": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "SmallVillageDesc_46": {
+      "en": "Exterminate Corrupted Underlings.",
+      "cn": "消灭魔道爪牙。",
+      "ru": "Уничтожайте коррумпированных подчиненных.",
+      "status": "machine",
+      "srcHash": "ffa0ee656a05e363",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "SmallVillageDesc_47": {
+      "en": "Defeat a Corrupted Underling whose Pure Essence is no less than yours.",
+      "cn": "消灭精纯不低于自己的魔道爪牙。",
+      "ru": "Победите коррумпированного подчиненного, чья Чистая эссенция ничуть не меньше вашей.",
+      "status": "machine",
+      "srcHash": "9181f1bb8bab11ae",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "SmallVillageDesc_48": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "166f829e016f2315",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    }
+  }
+}

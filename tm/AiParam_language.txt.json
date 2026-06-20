@@ -1,0 +1,763 @@
+{
+  "schemaVersion": 1,
+  "file": "AiParam_language.txt",
+  "glossaryVersion": 5,
+  "units": {
+    "Name_0": {
+      "en": "Divination",
+      "cn": "整数",
+      "ru": "Гадание",
+      "status": "machine",
+      "srcHash": "19df1435f2087803",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_1": {
+      "en": "Boolean",
+      "cn": "布尔",
+      "ru": "Логическое значение",
+      "status": "machine",
+      "srcHash": "491237da326ea8d1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_2": {
+      "en": "Martial Art",
+      "cn": "功法",
+      "ru": "Боевая техника",
+      "status": "machine",
+      "srcHash": "4f5c9cf68175b48b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_3": {
+      "en": "Enemy or Ally",
+      "cn": "敌我",
+      "ru": "Враг или союзник",
+      "status": "machine",
+      "srcHash": "f42feb9fd837f9ef",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_4": {
+      "en": "Text",
+      "cn": "文本",
+      "ru": "Текст",
+      "status": "machine",
+      "srcHash": "0ec7d45f1121fc5f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_5": {
+      "en": "Battle Difficulty",
+      "cn": "战斗难度",
+      "ru": "Сложность сражения",
+      "status": "machine",
+      "srcHash": "e74300f2c4177d95",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_6": {
+      "en": "The Companion's Command",
+      "cn": "同道指令",
+      "ru": "Команда компаньона",
+      "status": "machine",
+      "srcHash": "937e544ba0f4da0d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_7": {
+      "en": "Martial Art Type",
+      "cn": "主动功法类型",
+      "ru": "Тип Боевой техники",
+      "status": "machine",
+      "srcHash": "d762038aba92d394",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_8": {
+      "en": "Other Action Types",
+      "cn": "其它行为类型",
+      "ru": "Другие типы действий",
+      "status": "machine",
+      "srcHash": "b9549b13b5fcbcb3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_9": {
+      "en": "Front and Back",
+      "cn": "前后",
+      "ru": "Спереди и сзади",
+      "status": "machine",
+      "srcHash": "e1e23e458abcd1a9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_10": {
+      "en": "Part",
+      "cn": "部位",
+      "ru": "Часть",
+      "status": "machine",
+      "srcHash": "66e364e17958c5bb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_11": {
+      "en": "Expression",
+      "cn": "表达式",
+      "ru": "Выражение",
+      "status": "machine",
+      "srcHash": "b615bdf721245cf5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_12": {
+      "en": "Orthodox or Heterodox",
+      "cn": "正逆",
+      "ru": "Ортодоксальный или неортодоксальный",
+      "status": "machine",
+      "srcHash": "b4bd0c16d6dd40d1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_13": {
+      "en": "Internal and External",
+      "cn": "内外",
+      "ru": "Внутренние и внешние",
+      "status": "machine",
+      "srcHash": "abef2f75119c13c3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_14": {
+      "en": "Toxin",
+      "cn": "毒素",
+      "ru": "Токсин",
+      "status": "machine",
+      "srcHash": "528a06d2c9e6f4d8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_15": {
+      "en": "Gu Growth",
+      "cn": "蛊虫成长",
+      "ru": "Рост Гу",
+      "status": "machine",
+      "srcHash": "ccda86bef8468e31",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_16": {
+      "en": "Gu Attunement",
+      "cn": "蛊虫识主",
+      "ru": "Настройка Гу",
+      "status": "machine",
+      "srcHash": "6abf06de28472a0c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_17": {
+      "en": "Gu Type",
+      "cn": "蛊虫类型",
+      "ru": "Тип Гу",
+      "status": "machine",
+      "srcHash": "d9365a8315d2fdf9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_18": {
+      "en": "True Qi Type",
+      "cn": "真气类型",
+      "ru": "Тип Истинной ци",
+      "status": "machine",
+      "srcHash": "82fd1ff01252e488",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_19": {
+      "en": "Style",
+      "cn": "蓄式",
+      "ru": "Стиль",
+      "status": "machine",
+      "srcHash": "a3cd98a2e23cb65c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_20": {
+      "en": "Weapon",
+      "cn": "兵器",
+      "ru": "Оружие",
+      "status": "machine",
+      "srcHash": "0cfefae8cdddcc0d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_21": {
+      "en": "Weapon Type",
+      "cn": "兵器类型",
+      "ru": "Тип Оружия",
+      "status": "machine",
+      "srcHash": "45954494da1d6957",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_22": {
+      "en": "Five Elements",
+      "cn": "五行",
+      "ru": "Пять элементов",
+      "status": "machine",
+      "srcHash": "c44ad30f5973bd37",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_23": {
+      "en": "Battle Type",
+      "cn": "战斗类型",
+      "ru": "Тип боя",
+      "status": "machine",
+      "srcHash": "f9d129d58f164e03",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_24": {
+      "en": "Battle State Name",
+      "cn": "战斗状态名",
+      "ru": "Название боевого состояния",
+      "status": "machine",
+      "srcHash": "ff0a5f89faa84533",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_25": {
+      "en": "Sundries",
+      "cn": "杂物",
+      "ru": "Всякая всячина",
+      "status": "machine",
+      "srcHash": "89de423a346d743d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Desc_0": {
+      "en": "Input any integer, but it cannot be greater than or equal to one billion or less than or equal to negative one billion",
+      "cn": "输入任意整数，但不可大于等于十亿或小于等于负十亿",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f63ea7a2cdd21a89",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_1": {
+      "en": "Input any boolean, such as True or False",
+      "cn": "输入任意布尔，如 True、False",
+      "ru": "Введите любое логическое значение, например True или False",
+      "status": "machine",
+      "srcHash": "b951b30c88e88025",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "Desc_2": {
+      "en": "Input the Martial Art name, it must be exactly the same as in the configuration table. If there are multiple Martial Arts with the same name, a warning will appear, and the first Martial Art with that name will be applied",
+      "cn": "输入功法名，必须与配置表中功法名完全相同，若存在同名功法则会显示警告并应用首个该名称功法",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0152bb346ab4faeb",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_3": {
+      "en": "Input any boolean, True represents the player side, False represents the opponent",
+      "cn": "输入任意布尔，True 代表己方，False 代表对方",
+      "ru": "Введите любое логическое значение, True представляет сторону игрока, False представляет противника",
+      "status": "machine",
+      "srcHash": "b4fd7040f8a4583a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_4": {
+      "en": "Input any text, such as \"abc123,\" \"example\"",
+      "cn": "输入任意文本，如 “abc123”、“示例”",
+      "ru": "Введите любой текст, например \"abc123\", \"пример\"",
+      "status": "machine",
+      "srcHash": "79682c31dfba9670",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_5": {
+      "en": "Input the battle difficulty name, such as Normal, Hard, Very Hard, or Doom",
+      "cn": "输入战斗难度名称，如普通、困难、极难、必死",
+      "ru": "Введите название сложности боя, например \"Обычная\", \"Сложная\", \"Очень сложная\" или \"Обреченная\".",
+      "status": "machine",
+      "srcHash": "71b67afabd0cd1ec",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_6": {
+      "en": "Input a general companion command name, such as Attack, Defense, Control, etc. Negative commands cannot be entered",
+      "cn": "输入一般同道指令名称，如攻击、防御、牵制等，不可输入负面指令",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "68a0a3195907f779",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_7": {
+      "en": "Input the active Martial Art type, such as Annihilation, Nimble, or Protection",
+      "cn": "输入主动功法类型，如摧破、轻灵、护体",
+      "ru": "Введите тип активной Боевой техники, такой как Сокрушение, Ловкость или защита",
+      "status": "machine",
+      "srcHash": "37e4438c0d0c54c4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_8": {
+      "en": "Input other action types, such as Healing, Detox, Escape",
+      "cn": "输入其它行为类型，如疗伤、驱毒、逃跑",
+      "ru": "Введите другие типы действий, такие как исцеление, детоксикация, побег",
+      "status": "machine",
+      "srcHash": "3a2029722b08ed0b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_9": {
+      "en": "Input any boolean, True represents the front yard, False represents the rear yard",
+      "cn": "输入任意布尔，True 代表前方，False 代表后方",
+      "ru": "Введите любое логическое значение, True представляет передний двор, False представляет задний двор",
+      "status": "machine",
+      "srcHash": "2a355f1c08fe53ea",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_10": {
+      "en": "Input part name, such as Head-and-Neck, Left Arm, Right Leg",
+      "cn": "输入部位名，如头颈、左臂、右腿",
+      "ru": "Введите название детали, например, Голова и шея, левая рука, правая нога",
+      "status": "machine",
+      "srcHash": "74d49b18815b7fc1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_11": {
+      "en": "Input an expression with Dispositions, such as 20 + Intelligence × 40 ÷ 100",
+      "cn": "输入含有七元赋性类型的表达式，如 20 + 聪颖 × 40 ÷ 100",
+      "ru": "Введите выражение с предрасположенностями, например 20 + Интеллект × 40 ÷ 100",
+      "status": "machine",
+      "srcHash": "512dc33a37395f5b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_12": {
+      "en": "Input any boolean, True represents Orthodox Training, False represents Heterodox Training",
+      "cn": "输入任意布尔，True 代表正练，False 代表逆练",
+      "ru": "Введите любое логическое значение, True представляет ортодоксальное обучение, False представляет неортодоксальное обучение",
+      "status": "machine",
+      "srcHash": "8bb47d8f10ab3d8c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_13": {
+      "en": "Internal Input any boolean, True represents Internal, False represents External",
+      "cn": "输入任意布尔，True 代表内，False 代表外",
+      "ru": "Внутренний ввод - любое логическое значение, True представляет внутренний, False представляет внешний",
+      "status": "machine",
+      "srcHash": "2dd6034bfeb943a8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_14": {
+      "en": "Input poison type, such as Acritoxin, Oneirotoxin",
+      "cn": "输入毒素类型，如烈毒、幻毒",
+      "ru": "Введите тип Яда, такой как Акритоксин, Онейротоксин",
+      "status": "machine",
+      "srcHash": "ada020b3f15acef6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_15": {
+      "en": "Input any boolean, True represents grown, False represents not yet grown",
+      "cn": "输入任意布尔，True 代表已成长的，False 代表未成长的",
+      "ru": "Введите любое логическое значение, True означает выращенный, False означает еще не выращенный",
+      "status": "machine",
+      "srcHash": "3de0c8c01625f531",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_16": {
+      "en": "Input any boolean, True represents Attuned, False represents Un-attuned",
+      "cn": "输入任意布尔，True 代表已识主的，False 代表未识主的",
+      "ru": "Введите любое логическое значение, True представляет настроенный, False представляет не настроенный",
+      "status": "machine",
+      "srcHash": "a3e5fc52e3bb1849",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_17": {
+      "en": "Input the Gu type, such as Red-eye, Illusionary, Corruptive, Inner Demon, Tenebrous, Ice Silkworm, Golden Silkworm, Cyan, or input 0-7 to represent",
+      "cn": "输入蛊虫类型，如赤目,魑魅,黑血,心魔,尸螭,冰蚕,金蚕,青髓，也可简化输入 0~7 来指代",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f63249f5d744c763",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_18": {
+      "en": "Input the True Qi type, such as Annihilation, Nimble, Protection, Acumen, or input 0-3 to represent",
+      "cn": "输入真气类型，如摧破、轻灵、护体、奇窍，也可简化输入 0~3 来指代",
+      "ru": "Введите тип Истинной ци, такой как Сокрушение, Ловкость, Защита, проницательность, или введите 0-3 для представления",
+      "status": "machine",
+      "srcHash": "eea080fbae9b113d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_19": {
+      "en": "Input style name, such as Hack, Stab, Upswing",
+      "cn": "输入蓄式名，如劈、刺、撩",
+      "ru": "Название стиля ввода, например Hack, Stab, Upswing",
+      "status": "machine",
+      "srcHash": "9b19d309e57ca9a7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_20": {
+      "en": "Weapon Input weapon name, such as Zhanlu, Juque",
+      "cn": "输入兵器名，如湛卢、巨阙",
+      "ru": "Оружие Введите название Оружия, например Zhanlu, Juque",
+      "status": "machine",
+      "srcHash": "772fa24cfbf222c9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_21": {
+      "en": "Input weapon type, such as Needle Box, Piercer, Sword, Blade",
+      "cn": "输入兵器类型，如针匣、对刺、剑、刀",
+      "ru": "Введите тип Оружия, например игольницу, Пирсинг, Меч, Клинок",
+      "status": "machine",
+      "srcHash": "7bc75dff6c9bae04",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_22": {
+      "en": "Input five elements type, such as Metal, Wood, Water, Fire, Earth, Hunyuan, or simplify input 0-5 to represent",
+      "cn": "输入五行类型，如金刚、紫霞、玄阴、纯阳、归元、混元，也可简化输入 0~5 来指代",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "13bb433900b846f6",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_23": {
+      "en": "Input battle type, such as Sparring, Brawl, Duel, Trial",
+      "cn": "输入战斗类型，如切磋、恶斗、死斗、接招",
+      "ru": "Введите тип боя, такой как спарринг, драка, Поединок, Испытание",
+      "status": "machine",
+      "srcHash": "ac823296e683501b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_24": {
+      "en": "Input battle state name, such as Lightened Body, Fu Xi Mastery",
+      "cn": "输入战斗状态名称，如轻身术、驭使负屃",
+      "ru": "Введите название боевого состояния, например, Облегченное тело, мастерство Фу Си",
+      "status": "machine",
+      "srcHash": "9f8ea4a3dfb97a8d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T23:07:40.560Z"
+    },
+    "Desc_25": {
+      "en": "Enter Sundries Name",
+      "cn": "输入杂物名",
+      "ru": "Введите название всякой всячины",
+      "status": "machine",
+      "srcHash": "070011c72952b7cb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "PrintingAliases_1_0": {
+      "en": "True",
+      "cn": "真",
+      "ru": "Верно",
+      "status": "machine",
+      "srcHash": "2f5a131ce251a977",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_1_1": {
+      "en": "False",
+      "cn": "假",
+      "ru": "Ложный",
+      "status": "machine",
+      "srcHash": "d3b5466205b89a69",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_3_0": {
+      "en": "You",
+      "cn": "己方",
+      "ru": "Ты",
+      "status": "machine",
+      "srcHash": "2ab2d42028fd05f9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_3_1": {
+      "en": "Opponent",
+      "cn": "对方",
+      "ru": "Противник",
+      "status": "machine",
+      "srcHash": "88e3e246d9a676a3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_9_0": {
+      "en": "Front",
+      "cn": "前方",
+      "ru": "Спереди",
+      "status": "machine",
+      "srcHash": "f25984edca7a072b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_9_1": {
+      "en": "Back",
+      "cn": "后方",
+      "ru": "Назад",
+      "status": "machine",
+      "srcHash": "8468f3ae0b4c8aae",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_12_0": {
+      "en": "Orthodox",
+      "cn": "正练",
+      "ru": "Ортодоксальный",
+      "status": "machine",
+      "srcHash": "e1d80c7a60ef1f14",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_12_1": {
+      "en": "Heterodox",
+      "cn": "逆练",
+      "ru": "Неортодоксальный",
+      "status": "machine",
+      "srcHash": "76eebebee897b9d0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_13_0": {
+      "en": "Internal",
+      "cn": "内",
+      "ru": "Внутренний",
+      "status": "machine",
+      "srcHash": "b18f44fb9f86e801",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_13_1": {
+      "en": "External",
+      "cn": "外",
+      "ru": "Внешний",
+      "status": "machine",
+      "srcHash": "675e8d8f39079476",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_15_0": {
+      "en": "Grown",
+      "cn": "已成长的",
+      "ru": "Выращенный",
+      "status": "machine",
+      "srcHash": "966f58878d540700",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_15_1": {
+      "en": "Not yet grown",
+      "cn": "未成长的",
+      "ru": "Еще не вырос",
+      "status": "machine",
+      "srcHash": "02cb85c888156df6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "PrintingAliases_16_0": {
+      "en": "Attuned",
+      "cn": "已识主的",
+      "ru": "Настроенный",
+      "status": "machine",
+      "srcHash": "388633a7e8d06a88",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_16_1": {
+      "en": "Un-attuned",
+      "cn": "未识主的",
+      "ru": "Не настроенный",
+      "status": "machine",
+      "srcHash": "e019a41feb60a538",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_17_0": {
+      "en": "Red-eye Gu Infection",
+      "cn": "赤目",
+      "ru": "Инфекция Гу, вызывающая покраснение глаз",
+      "status": "machine",
+      "srcHash": "2157ff8f7b0ffc89",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "PrintingAliases_17_1": {
+      "en": "Illusionary Gu",
+      "cn": "魑魅",
+      "ru": "Иллюзорная Гу",
+      "status": "machine",
+      "srcHash": "59a20428c8e9a908",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "PrintingAliases_17_2": {
+      "en": "Corruptive Gu",
+      "cn": "黑血",
+      "ru": "Коррумпированный Гу",
+      "status": "machine",
+      "srcHash": "24840414f533975d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "PrintingAliases_17_3": {
+      "en": "Inner Demon",
+      "cn": "心魔",
+      "ru": "Внутренний демон",
+      "status": "machine",
+      "srcHash": "a99ff41801770543",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "PrintingAliases_17_4": {
+      "en": "Tenebrous King Gu",
+      "cn": "尸螭",
+      "ru": "Мрачный король Гу",
+      "status": "machine",
+      "srcHash": "510d5f38a5e255cb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "PrintingAliases_17_5": {
+      "en": "Ice Silkworm King Gu",
+      "cn": "冰蚕",
+      "ru": "Король ледяного шелкопряда Гу",
+      "status": "machine",
+      "srcHash": "2c688838b83955b6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "PrintingAliases_17_6": {
+      "en": "Golden Silkworm",
+      "cn": "金蚕",
+      "ru": "Золотой шелкопряд",
+      "status": "machine",
+      "srcHash": "83a1e444e81a67c2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "PrintingAliases_17_7": {
+      "en": "Cyan",
+      "cn": "青髓",
+      "ru": "Голубой",
+      "status": "machine",
+      "srcHash": "7b544eb18d4c1cc9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_18_0": {
+      "en": "Annihilation",
+      "cn": "摧破",
+      "ru": "Сокрушение",
+      "status": "machine",
+      "srcHash": "8ecb503da5b243aa",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "PrintingAliases_18_1": {
+      "en": "Nimble",
+      "cn": "轻灵",
+      "ru": "Проворный",
+      "status": "machine",
+      "srcHash": "3a28bd1c5dac4b85",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_18_2": {
+      "en": "Protection",
+      "cn": "护体",
+      "ru": "Защита",
+      "status": "machine",
+      "srcHash": "bebf744db0f1105d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_18_3": {
+      "en": "Acumen",
+      "cn": "奇窍",
+      "ru": "Проницательность",
+      "status": "machine",
+      "srcHash": "144febbb34286c95",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_22_0": {
+      "en": "Metal",
+      "cn": "金刚",
+      "ru": "Металл",
+      "status": "machine",
+      "srcHash": "bc2c492c7e0642cd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_22_1": {
+      "en": "Wood",
+      "cn": "紫霞",
+      "ru": "Дерево",
+      "status": "machine",
+      "srcHash": "7c91f85c380ae738",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_22_2": {
+      "en": "Water",
+      "cn": "玄阴",
+      "ru": "Вода",
+      "status": "machine",
+      "srcHash": "12571d13fab8ccee",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_22_3": {
+      "en": "Fire",
+      "cn": "纯阳",
+      "ru": "Огонь",
+      "status": "machine",
+      "srcHash": "0ce38d92ddc97499",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_22_4": {
+      "en": "Earth",
+      "cn": "归元",
+      "ru": "Земля",
+      "status": "machine",
+      "srcHash": "2a62981f877c4ba1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "PrintingAliases_22_5": {
+      "en": "Hunyuan",
+      "cn": "混元",
+      "ru": "Хуньюань",
+      "status": "machine",
+      "srcHash": "cbc6461dea9e0b9c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    }
+  }
+}

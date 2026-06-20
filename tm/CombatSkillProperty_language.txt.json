@@ -1,0 +1,673 @@
+{
+  "schemaVersion": 1,
+  "file": "CombatSkillProperty_language.txt",
+  "glossaryVersion": 5,
+  "units": {
+    "Name_0": {
+      "en": "Current Power",
+      "cn": "当前威力",
+      "ru": "Текущая мощность",
+      "status": "machine",
+      "srcHash": "45ff69edbde1eb9d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_1": {
+      "en": "Power Cap",
+      "cn": "威力上限",
+      "ru": "Предел мощи",
+      "status": "machine",
+      "srcHash": "140fc1912ddaacfb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_2": {
+      "en": "Cast Speed",
+      "cn": "施展时间",
+      "ru": "Скорость заброса",
+      "status": "machine",
+      "srcHash": "df5aec15a1d0de1f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_3": {
+      "en": "Inhale & Stance Cost",
+      "cn": "气势消耗",
+      "ru": "Стоимость вдоха и Стойки",
+      "status": "machine",
+      "srcHash": "17af4cb2d050e4d3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_4": {
+      "en": "Qi Art Ratio",
+      "cn": "内功比例",
+      "ru": "Художественное соотношение Ци",
+      "status": "machine",
+      "srcHash": "bb82a827e89a0715",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_5": {
+      "en": "Qi Art Conversion",
+      "cn": "内功转换",
+      "ru": "Преобразование искусства Ци",
+      "status": "machine",
+      "srcHash": "60d447b77227ceee",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_6": {
+      "en": "Qi Quantity",
+      "cn": "内力总量",
+      "ru": "Количество Ци",
+      "status": "machine",
+      "srcHash": "ee2782ac5a84cee6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_7": {
+      "en": "Qi Acquisition",
+      "cn": "获取内力",
+      "ru": "Приобретение Ци",
+      "status": "machine",
+      "srcHash": "4176b94727faa3a7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_8": {
+      "en": "Five-Element Transfer",
+      "cn": "五行转移",
+      "ru": "Передача из пяти элементов",
+      "status": "machine",
+      "srcHash": "956f5dc7b986417b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_9": {
+      "en": "Utility Slot",
+      "cn": "万用格数",
+      "ru": "Служебный слот",
+      "status": "machine",
+      "srcHash": "5963c66ee8e43940",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_10": {
+      "en": "Stamina Cost",
+      "cn": "脚力消耗",
+      "ru": "Стоимость Выносливости",
+      "status": "machine",
+      "srcHash": "fd20486e5acf9896",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_11": {
+      "en": "Movement Speed",
+      "cn": "移动速度",
+      "ru": "Скорость перемещения",
+      "status": "machine",
+      "srcHash": "564d6b5d7da8caf9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_12": {
+      "en": "Force Increase",
+      "cn": "增加力道",
+      "ru": "Увеличение силы",
+      "status": "machine",
+      "srcHash": "6f4ec2bae8d94e2e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_13": {
+      "en": "Precision Increase",
+      "cn": "增加精妙",
+      "ru": "Повышение точности",
+      "status": "machine",
+      "srcHash": "a39923f87ce34454",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_14": {
+      "en": "Dexterity Increase",
+      "cn": "增加迅疾",
+      "ru": "Увеличение Ловкости",
+      "status": "machine",
+      "srcHash": "4c4de83c77517727",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_15": {
+      "en": "Sway Increase",
+      "cn": "增加动心",
+      "ru": "Увеличение влияния",
+      "status": "machine",
+      "srcHash": "b75079fa1c1f74cb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_16": {
+      "en": "Footwork Arts Decay",
+      "cn": "身法衰减",
+      "ru": "Искусство работы ногами приходит в упадок",
+      "status": "machine",
+      "srcHash": "b15230b6b2c515d8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_17": {
+      "en": "Footwork Arts Cost",
+      "cn": "身法消耗",
+      "ru": "Стоимость искусства работы ногами",
+      "status": "machine",
+      "srcHash": "bc5eb1b3da395bdb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_18": {
+      "en": "Phy. Defense Increase",
+      "cn": "增加御体",
+      "ru": "Повышение физической защиты",
+      "status": "machine",
+      "srcHash": "71de6f1b28fb0246",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_19": {
+      "en": "Qi Defense Increase",
+      "cn": "增加御气",
+      "ru": "Усиление защиты Ци",
+      "status": "machine",
+      "srcHash": "52f1b83aa388c10a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_20": {
+      "en": "Resistance Increase",
+      "cn": "增加卸力",
+      "ru": "Увеличение Сопротивления",
+      "status": "machine",
+      "srcHash": "44f6832efc9f85ad",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_21": {
+      "en": "Parry Increase",
+      "cn": "增加拆招",
+      "ru": "Увеличение Парирования",
+      "status": "machine",
+      "srcHash": "3f327c63fcff84c6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_22": {
+      "en": "Dodge Increase",
+      "cn": "增加闪避",
+      "ru": "Увеличение Уклонения",
+      "status": "machine",
+      "srcHash": "366c30c53aa71741",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_23": {
+      "en": "Poise Increase",
+      "cn": "增加守心",
+      "ru": "Повышение самообладания",
+      "status": "machine",
+      "srcHash": "5b4b940575800451",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_24": {
+      "en": "Counter Power",
+      "cn": "反击威力",
+      "ru": "Встречная мощность",
+      "status": "machine",
+      "srcHash": "d2e3903d15994757",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_25": {
+      "en": "External Injury Reflection",
+      "cn": "外伤反震",
+      "ru": "Отражение Внешней травмы",
+      "status": "machine",
+      "srcHash": "e4fe327adf2cc8b0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_26": {
+      "en": "Internal Injury Reflection",
+      "cn": "内伤反震",
+      "ru": "Отражение Внутренней травмы",
+      "status": "machine",
+      "srcHash": "274a3593f2fde326",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_27": {
+      "en": "Reflection Distance",
+      "cn": "反震范围",
+      "ru": "Расстояние отражения",
+      "status": "machine",
+      "srcHash": "6e3b5231cd1f1dd9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_28": {
+      "en": "Duration",
+      "cn": "持续时间",
+      "ru": "Продолжительность",
+      "status": "machine",
+      "srcHash": "4393479e634d0420",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_29": {
+      "en": "Attack Increase",
+      "cn": "提高攻击",
+      "ru": "Усиление Атаки",
+      "status": "machine",
+      "srcHash": "a7d3b1b8de44710c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_30": {
+      "en": "Hit Increase",
+      "cn": "提高命中",
+      "ru": "Увеличение попадания",
+      "status": "machine",
+      "srcHash": "b68f002912d37492",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_31": {
+      "en": "Force Level",
+      "cn": "力道成数",
+      "ru": "Уровень силы",
+      "status": "machine",
+      "srcHash": "e5751f429cc3e4a4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_32": {
+      "en": "Precision Level",
+      "cn": "精妙成数",
+      "ru": "Уровень точности",
+      "status": "machine",
+      "srcHash": "f4623884a76cef48",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_33": {
+      "en": "Dexterity Level",
+      "cn": "迅疾成数",
+      "ru": "Уровень Ловкости",
+      "status": "machine",
+      "srcHash": "0086a127e2340158",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_34": {
+      "en": "Attack Range",
+      "cn": "攻击范围",
+      "ru": "Дальность Атаки",
+      "status": "machine",
+      "srcHash": "314da506cb361bf1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_35": {
+      "en": "Attacks Torso",
+      "cn": "攻击胸背",
+      "ru": "Атаки туловищем",
+      "status": "machine",
+      "srcHash": "906a8758fc7acc42",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_36": {
+      "en": "Attacks Midsection",
+      "cn": "攻击腰腹",
+      "ru": "Атакует в живот",
+      "status": "machine",
+      "srcHash": "01fedd93c38d07f8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_37": {
+      "en": "Attacks Head",
+      "cn": "攻击头部",
+      "ru": "Атаки головой",
+      "status": "machine",
+      "srcHash": "31da0db9fe7559f0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_38": {
+      "en": "Attacks Hands",
+      "cn": "攻击双手",
+      "ru": "Атаки Руками",
+      "status": "machine",
+      "srcHash": "f8ebaaab22c3298f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_39": {
+      "en": "Attacks Feet",
+      "cn": "攻击双足",
+      "ru": "Атаки Ногами",
+      "status": "machine",
+      "srcHash": "493631e259f2b48d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_40": {
+      "en": "Acupoint Seal Level",
+      "cn": "封穴级别",
+      "ru": "Уровень Печати Акупунктурной точки",
+      "status": "machine",
+      "srcHash": "d6b4eddf1753fee3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_41": {
+      "en": "Opening Level",
+      "cn": "破绽级别",
+      "ru": "Уровень открытия",
+      "status": "machine",
+      "srcHash": "d7ff2b981213ff5e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_42": {
+      "en": "Inflicts Acritoxin",
+      "cn": "施加烈毒",
+      "ru": "Выделяет Акритоксин",
+      "status": "machine",
+      "srcHash": "31f136f99a3d3935",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_43": {
+      "en": "Inflicts Umbritoxin",
+      "cn": "施加郁毒",
+      "ru": "Выделяет Умбротоксин",
+      "status": "machine",
+      "srcHash": "ea3d88772b452411",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_44": {
+      "en": "Inflicts Cryotoxin",
+      "cn": "施加寒毒",
+      "ru": "Выделяет Криотоксин",
+      "status": "machine",
+      "srcHash": "e212b191329c7557",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_45": {
+      "en": "Inflicts Pyrotoxin",
+      "cn": "施加赤毒",
+      "ru": "Выделяет Пиротоксин",
+      "status": "machine",
+      "srcHash": "70b1a4712d4c407a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_46": {
+      "en": "Inflicts Necrotoxin",
+      "cn": "施加腐毒",
+      "ru": "Выделяет Некротоксин",
+      "status": "machine",
+      "srcHash": "7f1738ca97ecdd5e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_47": {
+      "en": "Inflicts Oneirotoxin",
+      "cn": "施加幻毒",
+      "ru": "Вызывает Онейротоксин",
+      "status": "machine",
+      "srcHash": "2926755712307ea3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_48": {
+      "en": "Usage Requirements",
+      "cn": "发挥需求",
+      "ru": "Требования к использованию",
+      "status": "machine",
+      "srcHash": "6e8d66f808549cb4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_49": {
+      "en": "Annihilation Slot",
+      "cn": "摧破栏位",
+      "ru": "Слот для Сокрушения",
+      "status": "machine",
+      "srcHash": "c7c337190d05618f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_50": {
+      "en": "Nimble Slot",
+      "cn": "轻灵栏位",
+      "ru": "Проворный слот",
+      "status": "machine",
+      "srcHash": "7a772770117146c0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_51": {
+      "en": "Protection Slot",
+      "cn": "护体栏位",
+      "ru": "Защитный слот",
+      "status": "machine",
+      "srcHash": "878f4d43b7189033",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_52": {
+      "en": "Acumen Slot",
+      "cn": "奇窍栏位",
+      "ru": "Прорезь для проницательности",
+      "status": "machine",
+      "srcHash": "5d01dcd11267e79a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_53": {
+      "en": "Req. Punch",
+      "cn": "需要掷式",
+      "ru": "Требование. Удар",
+      "status": "machine",
+      "srcHash": "d3fa2a47604aac04",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_54": {
+      "en": "Req. Jab",
+      "cn": "需要弹式",
+      "ru": "Повторный удар",
+      "status": "machine",
+      "srcHash": "0bba9d3f3736356f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_55": {
+      "en": "Req. Grapple",
+      "cn": "需要御式",
+      "ru": "Требуемый захват",
+      "status": "machine",
+      "srcHash": "426100bfb4ec02b9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_56": {
+      "en": "Req. Hack",
+      "cn": "需要劈式",
+      "ru": "Требование. Мотыга",
+      "status": "machine",
+      "srcHash": "f3e40989d5eb97cb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_57": {
+      "en": "Req. Stab",
+      "cn": "需要刺式",
+      "ru": "Повторный удар",
+      "status": "machine",
+      "srcHash": "1c8a005d76e68311",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_58": {
+      "en": "Req. Upswing",
+      "cn": "需要撩式",
+      "ru": "Требуемый подъем",
+      "status": "machine",
+      "srcHash": "41e1a313b92560cf",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_59": {
+      "en": "Req. Throw",
+      "cn": "需要崩式",
+      "ru": "Req. Бросок",
+      "status": "machine",
+      "srcHash": "9b4c603ba8c0401b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_60": {
+      "en": "Req. Flick",
+      "cn": "需要点式",
+      "ru": "Повторный щелчок",
+      "status": "machine",
+      "srcHash": "01543f38807d8b07",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_61": {
+      "en": "Req. Grab",
+      "cn": "需要拿式",
+      "ru": "Требуемый захват",
+      "status": "machine",
+      "srcHash": "da4919801862b717",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_62": {
+      "en": "Req. Tone Moves",
+      "cn": "需要音式",
+      "ru": "Требование. Движения тона",
+      "status": "machine",
+      "srcHash": "c5b009e51267ace4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_63": {
+      "en": "Req. Entangle",
+      "cn": "需要缠式",
+      "ru": "Требование. Запутать",
+      "status": "machine",
+      "srcHash": "382e8a887cae7d14",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_64": {
+      "en": "Req. Spell",
+      "cn": "需要咒式",
+      "ru": "Требуемое заклинание",
+      "status": "machine",
+      "srcHash": "afab40958e57d8c7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_65": {
+      "en": "Req. Harness",
+      "cn": "需要机式",
+      "ru": "Требование. Жгут проводов",
+      "status": "machine",
+      "srcHash": "ec94c6b6ac8f1755",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_66": {
+      "en": "Req. Medicine",
+      "cn": "需要药式",
+      "ru": "Требуемая медицина",
+      "status": "machine",
+      "srcHash": "c4493b196d593acd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_67": {
+      "en": "Req. Poison",
+      "cn": "需要毒式",
+      "ru": "Требование. Яд",
+      "status": "machine",
+      "srcHash": "17f414e128dd75ed",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_68": {
+      "en": "Req. Sweep",
+      "cn": "需要扫式",
+      "ru": "Требование. Подметать",
+      "status": "machine",
+      "srcHash": "c5202cb70c9ec10a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_69": {
+      "en": "Charge-up Rate",
+      "cn": "蓄力进度",
+      "ru": "Скорость зарядки",
+      "status": "machine",
+      "srcHash": "6b5a11c6c250ac20",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_70": {
+      "en": "Seal Chance",
+      "cn": "封禁概率",
+      "ru": "Шанс на Печать",
+      "status": "machine",
+      "srcHash": "e8ff6601fa20c839",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_71": {
+      "en": "Seal Duration",
+      "cn": "封禁时间",
+      "ru": "Продолжительность действия Печати",
+      "status": "machine",
+      "srcHash": "10a2b178ab7b9533",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_72": {
+      "en": "Attack Increase",
+      "cn": "增加攻击",
+      "ru": "Усиление Атаки",
+      "status": "machine",
+      "srcHash": "a7d3b1b8de44710c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    },
+    "Name_73": {
+      "en": "Hit Increase",
+      "cn": "增加命中",
+      "ru": "Увеличение попадания",
+      "status": "machine",
+      "srcHash": "b68f002912d37492",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T21:49:13.615Z"
+    }
+  }
+}

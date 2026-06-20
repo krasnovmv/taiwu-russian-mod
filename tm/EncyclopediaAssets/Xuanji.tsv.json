@@ -1,0 +1,1519 @@
+{
+  "schemaVersion": 1,
+  "file": "EncyclopediaAssets/Xuanji.tsv",
+  "glossaryVersion": 5,
+  "units": {
+    "r0c0": {
+      "en": "<align=\"center\">XP</align>",
+      "cn": "<align=\"center\">历练</align>",
+      "ru": "<align=\"center\">XP (ОПЫТ)</align>",
+      "status": "machine",
+      "srcHash": "34a7d56f75aa0ed2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r0c1": {
+      "en": "Reduces the technique's <color=#6fb6ff><u><link=\"发挥需求\">usage requirements</link></u></color>",
+      "cn": "降低功法的<color=#6fb6ff><u><link=\"发挥需求\">发挥需求</link></u></color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "dd141d07de234d79",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r0c2": {
+      "en": "Usage requirements decrease % = Mechanism Tier + 4",
+      "cn": "发挥需求降低% = 玄机品级 + 4",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2499b012003032fd",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r1c0": {
+      "en": "<align=\"center\">Mutual Love</align>",
+      "cn": "<align=\"center\">相互爱慕关系</align>",
+      "ru": "<align=\"center\">Взаимная любовь</align>",
+      "status": "machine",
+      "srcHash": "26cdadce694dddb8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r1c1": {
+      "en": "Grants the technique an effect that increases Sway",
+      "cn": "使功法获得增加动心的运功效果",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f61f389453b112ba",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r1c2": {
+      "en": "Sway Increase: Character Favorability/1000\\u002c minimum 0",
+      "cn": "动心增加 = 人物好感 ÷ 1000，最小为0",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a26c3ea23c14f536",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r2c0": {
+      "en": "<align=\"center\">Enemy</align>",
+      "cn": "<align=\"center\">仇敌关系</align>",
+      "ru": "<align=\"center\">Враг</align>",
+      "status": "machine",
+      "srcHash": "a69b274b07bfc1d4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r2c1": {
+      "en": "Grants the technique an effect that increases Poise",
+      "cn": "使功法获得增加守心的运功效果",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9407e840cb7177b3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r2c2": {
+      "en": "Poise Increase: -1 × Character Favorability/1000\\u002c minimum 0",
+      "cn": "守心增加 = -人物好感 ÷ 1000，最小为0",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "02ed7456c83d9913",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r3c0": {
+      "en": "<align=\"center\">Friends</align>",
+      "cn": "<align=\"center\">亲友关系</align>",
+      "ru": "<align=\"center\">Друзья</align>",
+      "status": "machine",
+      "srcHash": "8884b2d41486514d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r3c1": {
+      "en": "Increases the technique's current <color=#6fb6ff><u><link=\"威力\">Power</link></u></color>",
+      "cn": "增加功法的当前<color=#6fb6ff><u><link=\"威力\">威力</link></u></color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e258daf92a1bdb66",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r3c2": {
+      "en": "Power Increase = 1 + Character's corresponding Martial Arts Attainment × Favorability Level × 50 ÷ 10000\\u002c min 1\\u002c max 10",
+      "cn": "威力增加 = 1 + 人物对应武学造诣 × 好感等级 × 50 ÷ 10000，最小为1，最大为10",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e86491d7724e2caa",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r4c0": {
+      "en": "<align=\"center\">Music Book</align>",
+      "cn": "<align=\"center\">音律书籍</align>",
+      "ru": "<align=\"center\">Музыкальная книга</align>",
+      "status": "machine",
+      "srcHash": "992e68d60876f5d9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r4c1": {
+      "en": "Increases the efficacy of all fine arts within the martial art's usage requirements",
+      "cn": "增加功法的发挥需求中，所有技艺的发挥程度",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0ad4d7a0fd8e8d16",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r4c2": {
+      "en": "Performance Increase = Music Attainment × (Book Tier + 2) ÷ 100\\u002c minimum 1",
+      "cn": "发挥增加 = 音律造诣 × (书籍品级 + 2) ÷ 100，最小为1",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "dcbca84baf65644f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r5c0": {
+      "en": "<align=\"center\">Weiqi Book</align>",
+      "cn": "<align=\"center\">弈棋书籍</align>",
+      "ru": "<align=\"center\">Книга Вэйци</align>",
+      "status": "machine",
+      "srcHash": "d7379c77ad5b1dd9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r5c1": {
+      "en": "Increases the efficacy of all fine arts within the martial art's usage requirements",
+      "cn": "增加功法的发挥需求中，所有技艺的发挥程度",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0ad4d7a0fd8e8d16",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r5c2": {
+      "en": "Performance Increase = Weiqi Attainment × (Book Tier + 2) ÷ 100\\u002c minimum 1",
+      "cn": "发挥增加 = 弈棋造诣 × (书籍品级 + 2) ÷ 100，最小为1",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e41ef9f78f30fc79",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r6c0": {
+      "en": "<align=\"center\">Literature Book</align>",
+      "cn": "<align=\"center\">诗书书籍</align>",
+      "ru": "<align=\"center\">Литературная книга</align>",
+      "status": "machine",
+      "srcHash": "29fc895560396974",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r6c1": {
+      "en": "Increases the efficacy of all fine arts within the martial art's usage requirements",
+      "cn": "增加功法的发挥需求中，所有技艺的发挥程度",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0ad4d7a0fd8e8d16",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r6c2": {
+      "en": "Performance Increase = Literature Attainment × (Book Tier + 2) ÷ 100\\u002c minimum 1",
+      "cn": "发挥增加 = 诗书造诣 × (书籍品级 + 2) ÷ 100，最小为1",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0b55cbef6af28e80",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r7c0": {
+      "en": "<align=\"center\">Painting Book</align>",
+      "cn": "<align=\"center\">绘画书籍</align>",
+      "ru": "<align=\"center\">Книга для рисования</align>",
+      "status": "machine",
+      "srcHash": "4c191b95772352cf",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r7c1": {
+      "en": "Increases the efficacy of all fine arts within the martial art's usage requirements",
+      "cn": "增加功法的发挥需求中，所有技艺的发挥程度",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0ad4d7a0fd8e8d16",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r7c2": {
+      "en": "Performance Increase = Painting Attainment × (Book Tier + 2) ÷ 100\\u002c minimum 1",
+      "cn": "发挥增加 = 绘画造诣 × (书籍品级 + 2) ÷ 100，最小为1",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a9ca8e6fa5dde090",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r8c0": {
+      "en": "<align=\"center\">Astrology Book</align>",
+      "cn": "<align=\"center\">术数书籍</align>",
+      "ru": "<align=\"center\">Книга по астрологии</align>",
+      "status": "machine",
+      "srcHash": "3714dafe6cc0ada7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r8c1": {
+      "en": "Reduces the technique's <color=#6fb6ff><u><link=\"施展时间\">Casting Time</link></u></color>",
+      "cn": "降低功法的<color=#6fb6ff><u><link=\"施展时间\">施展时间</link></u></color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "91c3008967d7d5bd",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r8c2": {
+      "en": "Casting Time Reduction % = Astrology Attainment × (Book Tier + 2)/500\\u002c minimum 1\\u002c maximum 10",
+      "cn": "施展时间降低% = 术数造诣 × (书籍品级 + 2) ÷ 500，最小为1，最大为10",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "5b5b91ee6e0db81a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r9c0": {
+      "en": "<align=\"center\">Appreciation Book</align>",
+      "cn": "<align=\"center\">品鉴书籍</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "41275e270c891f88",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r9c1": {
+      "en": "Reduces the technique's casting time",
+      "cn": "降低功法的施展时间",
+      "ru": "Сокращает время выполнения техники литья",
+      "status": "machine",
+      "srcHash": "01874f738e621e7a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r9c2": {
+      "en": "Casting Time Reduction % = Appreciation Attainment × (Book Tier + 2)/500\\u002c minimum 1\\u002c maximum 10",
+      "cn": "施展时间降低% = 品鉴造诣 × (书籍品级 + 2) ÷ 500，最小为1，最大为10",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9aea4cc1a9354cc9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r10c0": {
+      "en": "<align=\"center\">Smithing Book</align>",
+      "cn": "<align=\"center\">锻造书籍</align>",
+      "ru": "<align=\"center\">Кузнечная книга</align>",
+      "status": "machine",
+      "srcHash": "caef44eef59461f4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r10c1": {
+      "en": "Reduces the technique's <color=#6fb6ff><u><link=\"架势\">Stance</link></u></color> cost",
+      "cn": "降低功法的<color=#6fb6ff><u><link=\"架势\">架势</link></u></color>消耗",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "70a5013d85b615f5",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r10c2": {
+      "en": "Stance Cost Reduction % = Smithing Attainment × (Book Tier + 2)/1000\\u002c minimum 1\\u002c maximum 5",
+      "cn": "架势消耗降低% = 锻造造诣 × (书籍品级 + 2) ÷ 1000，最小为1，最大为5",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b434d2a4a64939ab",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r11c0": {
+      "en": "<align=\"center\">Carpentry Book</align>",
+      "cn": "<align=\"center\">制木书籍</align>",
+      "ru": "<align=\"center\">Книга по Столярному делу</align>",
+      "status": "machine",
+      "srcHash": "9030f3a6a54170cf",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r11c1": {
+      "en": "Reduces the technique's Stance cost.",
+      "cn": "降低功法的架势消耗",
+      "ru": "Снижает стоимость Стойки техники.",
+      "status": "machine",
+      "srcHash": "4eb3539611d1fa4b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r11c2": {
+      "en": "Stance Cost Reduction % = Carpentry Attainment × (Book Tier + 2)/1000\\u002c minimum 1\\u002c maximum 5",
+      "cn": "架势消耗降低% = 制木造诣 × (书籍品级 + 2) ÷ 1000，最小为1，最大为5",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "80a4761149205c14",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r12c0": {
+      "en": "<align=\"center\">Brocade-Weaving Book</align>",
+      "cn": "<align=\"center\">织锦书籍</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "33dd7a478c173614",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r12c1": {
+      "en": "Reduces the technique's Stance cost.",
+      "cn": "降低功法的架势消耗",
+      "ru": "Снижает стоимость Стойки техники.",
+      "status": "machine",
+      "srcHash": "4eb3539611d1fa4b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r12c2": {
+      "en": "Stance Cost Reduction % = Weaving Attainment × (Book Tier + 2)/1000\\u002c minimum 1\\u002c maximum 5",
+      "cn": "架势消耗降低% = 织锦造诣 × (书籍品级 + 2) ÷ 1000，最小为1，最大为5",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "dc3edd751e7d9095",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r13c0": {
+      "en": "<align=\"center\">Jewelcrafting Book</align>",
+      "cn": "<align=\"center\">巧匠书籍</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f35bcf332057f208",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r13c1": {
+      "en": "Reduces the technique's Stance cost.",
+      "cn": "降低功法的架势消耗",
+      "ru": "Снижает стоимость Стойки техники.",
+      "status": "machine",
+      "srcHash": "4eb3539611d1fa4b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r13c2": {
+      "en": "Stance Cost Reduction % = Jewelcrafting Attainment × (Book Tier + 2)/1000\\u002c minimum 1\\u002c maximum 5",
+      "cn": "架势消耗降低% = 巧匠造诣 × (书籍品级 + 2) ÷ 1000，最小为1，最大为5",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3b6e7c0ce4b53917",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r14c0": {
+      "en": "<align=\"center\">Medical Art Book</align>",
+      "cn": "<align=\"center\">医术书籍</align>",
+      "ru": "<align=\"center\">Книга по медицинскому искусству</align>",
+      "status": "machine",
+      "srcHash": "8c88f8ca025b36a6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r14c1": {
+      "en": "Reduces the technique's cost of <color=#6fb6ff><u><link=\"提气\">Inhale</link></u></color>",
+      "cn": "降低功法的<color=#6fb6ff><u><link=\"提气\">提气</link></u></color>消耗",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b54ae32a714f46d5",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r14c2": {
+      "en": "Inhale Cost Reduction % = Medical Art Attainment × (Book Tier + 2)/1000\\u002c minimum 1\\u002c maximum 5",
+      "cn": "提气消耗降低% = 医术造诣 × (书籍品级 + 2) ÷ 1000，最小为1，最大为5",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "979a993b4a2bd580",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r15c0": {
+      "en": "<align=\"center\">Toxicology Book</align>",
+      "cn": "<align=\"center\">毒术书籍</align>",
+      "ru": "<align=\"center\">Книга по токсикологии</align>",
+      "status": "machine",
+      "srcHash": "ddce0d187d53e279",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r15c1": {
+      "en": "Reduces the technique's cost of Inhale.",
+      "cn": "降低功法的提气消耗",
+      "ru": "Снижает стоимость техники вдоха.",
+      "status": "machine",
+      "srcHash": "906f009a0eaed81d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r15c2": {
+      "en": "Inhale Cost Reduction % = Toxicology Attainment × (Book Tier + 2)/1000\\u002c minimum 1\\u002c maximum 5",
+      "cn": "提气消耗降低% = 毒术造诣 × (书籍品级 + 2) ÷ 1000，最小为1，最大为5",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4e3b8a12cc2a5978",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r16c0": {
+      "en": "<align=\"center\">Taoism Book</align>",
+      "cn": "<align=\"center\">道法书籍</align>",
+      "ru": "<align=\"center\">Книга по Даосизму</align>",
+      "status": "machine",
+      "srcHash": "168f9d450d83adef",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r16c1": {
+      "en": "Increases the technique's <color=#6fb6ff><u><link=\"威力上限\">Power Cap</link></u></color>",
+      "cn": "增加功法的<color=#6fb6ff><u><link=\"威力上限\">威力上限</link></u></color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6abe21c7287b383a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r16c2": {
+      "en": "Power Cap Increase = Taoism Attainment × (Book Tier + 2)/500\\u002c minimum 1\\u002c maximum 10",
+      "cn": "威力上限增加 = 道法造诣 × (书籍品级 + 2) ÷ 500，最小为1，最大为10",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "01e711b6a015564e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r17c0": {
+      "en": "<align=\"center\">Buddhism Book</align>",
+      "cn": "<align=\"center\">佛学书籍</align>",
+      "ru": "<align=\"center\">Книга о Буддизме</align>",
+      "status": "machine",
+      "srcHash": "8e38b85cf0072430",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r17c1": {
+      "en": "Increases the technique's Power Cap.",
+      "cn": "增加功法的威力上限",
+      "ru": "Увеличивает Предел мощи техники.",
+      "status": "machine",
+      "srcHash": "1896b11a2117fc6a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r17c2": {
+      "en": "Power Cap Increase = Buddhism Attainment × (Book Tier + 2)/500\\u002c minimum 1\\u002c maximum 10",
+      "cn": "威力上限增加 = 佛学造诣 × (书籍品级 + 2) ÷ 500，最小为1，最大为10",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "21ff2179019edbd8",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r18c0": {
+      "en": "<align=\"center\">Cooking Book</align>",
+      "cn": "<align=\"center\">厨艺书籍</align>",
+      "ru": "<align=\"center\">Кулинарная книга</align>",
+      "status": "machine",
+      "srcHash": "3159ff9eb94b495e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r18c1": {
+      "en": "Reduces the technique's casting time",
+      "cn": "降低功法的施展时间",
+      "ru": "Сокращает время выполнения техники литья",
+      "status": "machine",
+      "srcHash": "01874f738e621e7a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r18c2": {
+      "en": "Casting Time Reduction % = Culinary Arts Attainment × (Book Tier + 2)/500\\u002c minimum 1\\u002c maximum 10",
+      "cn": "施展时间降低% = 厨艺造诣 × (书籍品级 + 2) ÷ 500，最小为1，最大为10",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "eff80613055ed357",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r19c0": {
+      "en": "<align=\"center\">Unorthodox Arts Book</align>",
+      "cn": "<align=\"center\">杂学书籍</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8a73ffc9319377ff",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r19c1": {
+      "en": "Reduces the technique's casting time",
+      "cn": "降低功法的施展时间",
+      "ru": "Сокращает время выполнения техники литья",
+      "status": "machine",
+      "srcHash": "01874f738e621e7a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r19c2": {
+      "en": "Casting Time Reduction % = Unorthodox Arts Attainment × (Book Tier + 2)/500\\u002c minimum 1\\u002c maximum 10",
+      "cn": "施展时间降低% = 杂学造诣 × (书籍品级 + 2) ÷ 500，最小为1，最大为10",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "eb4453663753cc76",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r20c0": {
+      "en": "<align=\"center\">Internal Injury Concoction</align>",
+      "cn": "<align=\"center\">内伤丹药</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1a15813ef98cca6a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r20c1": {
+      "en": "Increases the technique's <color=#6fb6ff><u><link=\"内伤强健\">Internal Injury Resilience</link></u></color>",
+      "cn": "提高功法的<color=#6fb6ff><u><link=\"内伤强健\">内伤强健</link></u></color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fee80a526cfb0309",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r20c2": {
+      "en": "Internal Injury Resilience Increase% = 5 + (Concoction Tier + 2) × 2",
+      "cn": "内伤强健提高% = 5 + (丹药品级 + 2) × 2",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c177a47c02c3dc91",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r21c0": {
+      "en": "<align=\"center\">External Injury Concoction</align>",
+      "cn": "<align=\"center\">外伤丹药</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2331ea7966f6eb5c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r21c1": {
+      "en": "Increases the technique's <color=#6fb6ff><u><link=\"外伤强健\">External Injury Resilience</link></u></color>",
+      "cn": "提高功法的<color=#6fb6ff><u><link=\"外伤强健\">外伤强健</link></u></color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8b0bf894633da4a1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r21c2": {
+      "en": "External Injury Resilience Increase% = 5 + (Concoction Tier + 2) × 2",
+      "cn": "外伤强健提高% = 5 + (丹药品级 + 2) × 2",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3cce6c495cea01e0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r22c0": {
+      "en": "<align=\"center\">Inner Breath Concoction</align>",
+      "cn": "<align=\"center\">内息丹药</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7ede36421b260884",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r22c1": {
+      "en": "Increases the technique's <color=#6fb6ff><u><link=\"失神强健\">Daze Resilience</link></u></color>",
+      "cn": "提高功法的<color=#6fb6ff><u><link=\"失神强健\">失神强健</link></u></color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fa06a904d1e2f9ce",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r22c2": {
+      "en": "Daze Resilience Increase% = 5 + (Concoction Tier + 2) × 2",
+      "cn": "失神强健提高% = 5 + (丹药品级 + 2) × 2",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "14110e2d85d007b3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r23c0": {
+      "en": "<align=\"center\">Health Concoction</align>",
+      "cn": "<align=\"center\">健康丹药</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9e45fdd4693e216f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r23c1": {
+      "en": "Increases the technique's <color=#6fb6ff><u><link=\"重创强健\">Wound Resilience</link></u></color>",
+      "cn": "提高功法的<color=#6fb6ff><u><link=\"重创强健\">重创强健</link></u></color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1bd47a80d142fe81",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r23c2": {
+      "en": "Wound Resilience Increase% = 5 + (Concoction Tier + 2) × 2",
+      "cn": "重创强健提高% = 5 + (丹药品级 + 2) × 2",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1a2a7a7f44086a1b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r24c0": {
+      "en": "<align=\"center\">Detoxification Concoction</align>",
+      "cn": "<align=\"center\">解毒丹药</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "cf9f4791565c9e40",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r24c1": {
+      "en": "Grants the technique an effect that increases Toxin Resistance to the corresponding toxin type.",
+      "cn": "使功法获得增加对应类型毒素抵抗的运功效果",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2a3296dfe54890e7",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r24c2": {
+      "en": "Toxin Resistance Increase = Concoction Tier + 2",
+      "cn": "毒素抵抗增加 = 丹药品级 + 2",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "17a10599c8665989",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r25c0": {
+      "en": "<align=\"center\">Attack Concoction</align>",
+      "cn": "<align=\"center\">攻击丹药</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "64ba7e45aea1c8ed",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r25c1": {
+      "en": "Grants the technique an effect that increases corresponding Attack attribute",
+      "cn": "使功法获得增加对应攻击属性的运功效果",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8311530ad1ff13a7",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r25c2": {
+      "en": "Attribute Increase = (Concoction Tier + 2) ×3",
+      "cn": "属性增加 = (丹药品级 + 2) × 3",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "93a5cdf35781109a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r26c0": {
+      "en": "<align=\"center\">Defense Concoction</align>",
+      "cn": "<align=\"center\">防御丹药</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e7de4ef6b02afae5",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r26c1": {
+      "en": "Grants the technique an effect that increases corresponding Defense attribute",
+      "cn": "使功法获得增加对应防御属性的运功效果",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6c5000aa865313cb",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r26c2": {
+      "en": "Attribute Increase = (Concoction Tier + 2) ×3",
+      "cn": "属性增加 = (丹药品级 + 2) × 3",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "93a5cdf35781109a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r27c0": {
+      "en": "<align=\"center\">Hit Concoction</align>",
+      "cn": "<align=\"center\">命中丹药</align>",
+      "ru": "<align=\"center\">Хитовая смесь</align>",
+      "status": "machine",
+      "srcHash": "843bce69bf92a00e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r27c1": {
+      "en": "Grants the technique an effect that increases corresponding Hit attribute",
+      "cn": "使功法获得增加对应命中属性的运功效果",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a5ccf55366cc9ed8",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r27c2": {
+      "en": "Attribute Increase = (Concoction Tier + 2) ×2",
+      "cn": "属性增加 = (丹药品级 + 2) × 2",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9e02bd5357066d96",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r28c0": {
+      "en": "<align=\"center\">Neutralize Concoction</align>",
+      "cn": "<align=\"center\">化解丹药</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ab5c3ea4f38746bd",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r28c1": {
+      "en": "Grants the technique an effect that increases corresponding Deflect attribute",
+      "cn": "使功法获得增加对应化解属性的运功效果",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fa44febbee88ebc8",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r28c2": {
+      "en": "Attribute Increase = (Concoction Tier + 2) ×2",
+      "cn": "属性增加 = (丹药品级 + 2) × 2",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9e02bd5357066d96",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r29c0": {
+      "en": "<align=\"center\">Secondary Attribute Concoction</align>",
+      "cn": "<align=\"center\">次要属性丹药</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d4d558fb7d8af243",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r29c1": {
+      "en": "Grants the technique an effect that increases corresponding secondary attribute",
+      "cn": "使功法获得增加对应次要属性的运功效果",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "128caea79a240442",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r29c2": {
+      "en": "Attribute Increase = Concoction Tier + 2",
+      "cn": "属性增加 = 丹药品级 + 2",
+      "ru": "Увеличение атрибута = Ранг приготовления + 2",
+      "status": "machine",
+      "srcHash": "117a6aef22ab6c17",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r30c0": {
+      "en": "<align=\"center\">Poison</align>",
+      "cn": "<align=\"center\">毒药</align>",
+      "ru": "<align=\"center\">Яд</align>",
+      "status": "machine",
+      "srcHash": "f79f5b77a440cdcc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r30c1": {
+      "en": "Increase the technique's corresponding Toxin Amount",
+      "cn": "提高功法施加的对应类型毒素量",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bed6751e68869ada",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r30c2": {
+      "en": "Toxin Infliction Increase% = (Toxin Tier + 2) × 2",
+      "cn": "施加毒素提高% = (毒药品级 + 2) × 2",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1dc405088e2dc1a2",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r31c0": {
+      "en": "<align=\"center\">Metal Reagent (Qi Art)</align>",
+      "cn": "<align=\"center\">金铁引子（内功）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "10abf1c813a2757b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r31c1": {
+      "en": "The technique provides +1 <color=#6fb6ff><u><link=\"摧破栏位\">Annihilation Slot</link></u></color>\\u002c and increases the Power Cap of all techniques in Annihilation Slots.",
+      "cn": "功法额外提供1格<color=#6fb6ff><u><link=\"摧破栏位\">摧破栏位</link></u></color>，并增加摧破栏位中所有功法的威力上限",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6a36c39afb9a55fe",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r31c2": {
+      "en": "Martial Arts Power Cap Increase = Reagent Tier + 2\\u002c minimum 1",
+      "cn": "功法威力上限增加 = 引子品级 + 2，最小为1",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4a50433f46d94098",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r32c0": {
+      "en": "<align=\"center\">Wood Reagent (Qi Art)</align>",
+      "cn": "<align=\"center\">木材引子（内功）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1386e909107d9189",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r32c1": {
+      "en": "The technique provides +1 <color=#6fb6ff><u><link=\"护体栏位\">Protection Slot</link></u></color>\\u002c and increases the Power Cap of all techniques in Protection Slots.",
+      "cn": "功法额外提供1格<color=#6fb6ff><u><link=\"护体栏位\">护体栏位</link></u></color>，并增加护体栏位中所有功法的威力上限",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4d8baa3a41653656",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r32c2": {
+      "en": "Martial Arts Power Cap Increase = Reagent Tier + 2\\u002c minimum 1",
+      "cn": "功法威力上限增加 = 引子品级 + 2，最小为1",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4a50433f46d94098",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r33c0": {
+      "en": "<align=\"center\">Jade Reagent (Qi Art)</align>",
+      "cn": "<align=\"center\">玉石引子（内功）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "af62bd8da146c13e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r33c1": {
+      "en": "The technique provides +1 <color=#6fb6ff><u><link=\"奇窍栏位\">Acumen Slot</link></u></color>\\u002c and increases the Power Cap of all techniques in Acumen Slots.",
+      "cn": "功法额外提供1格<color=#6fb6ff><u><link=\"奇窍栏位\">奇窍栏位</link></u></color>，并增加奇窍栏位中所有功法的威力上限",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "67e46e2e54b2a7da",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r33c2": {
+      "en": "Martial Arts Power Cap Increase = Reagent Tier + 2\\u002c minimum 1",
+      "cn": "功法威力上限增加 = 引子品级 + 2，最小为1",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4a50433f46d94098",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r34c0": {
+      "en": "<align=\"center\">Fabric Reagent (Qi Art)</align>",
+      "cn": "<align=\"center\">织物引子（内功）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e981f427ec2dec14",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r34c1": {
+      "en": "The Martial Arts grant +1 <color=#6fb6ff><u><link=\"轻灵栏位\">Nimble Slot</link></u></color>\\u002c and increase the Power cap of all Martial Arts in Nimble Slots.",
+      "cn": "功法额外提供1格<color=#6fb6ff><u><link=\"轻灵栏位\">轻灵栏位</link></u></color>，并增加轻灵栏位中所有功法的威力上限",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0649599861634fbf",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r34c2": {
+      "en": "Martial Arts Power Cap Increase = Reagent Tier + 2\\u002c minimum 1",
+      "cn": "功法威力上限增加 = 引子品级 + 2，最小为1",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4a50433f46d94098",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r35c0": {
+      "en": "<align=\"center\">Metal Reagent (Annihilation)</align>",
+      "cn": "<align=\"center\">金铁引子（摧破）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a76616c739462bee",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r35c1": {
+      "en": "Increases Annihilation's <color=#6fb6ff><u><link=\"直接伤害\">Direct DMG</link></u></color>",
+      "cn": "提高摧破造成的<color=#6fb6ff><u><link=\"直接伤害\">直接伤害</link></u></color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d909ee133da1ec49",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r35c2": {
+      "en": "Direct DMG Increase % = Reagent Tier + 3",
+      "cn": "直接伤害提高% = 引子品级 + 3",
+      "ru": "Увеличение Прямого урона DMG % = Ранг Реагента + 3",
+      "status": "machine",
+      "srcHash": "011ce0f7162fa08d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r36c0": {
+      "en": "<align=\"center\">Wood Reagent (Annihilation)</align>",
+      "cn": "<align=\"center\">木材引子（摧破）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b2d8578d1becb7c1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r36c1": {
+      "en": "Increases Annihilation's <color=#6fb6ff><u><link=\"攻击范围\">Attack Range</link></u></color> (melee)",
+      "cn": "增加摧破的<color=#6fb6ff><u><link=\"攻击范围\">攻击范围</link></u></color>（近）",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "93a356127dfa369b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r36c2": {
+      "en": "Attack range (melee) increase = Reagent Tier/10",
+      "cn": "攻击范围（近）增加 = 引子品级 ÷ 10",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ae4297d2711ef062",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r37c0": {
+      "en": "<align=\"center\">Jade Reagent (Annihilation)</align>",
+      "cn": "<align=\"center\">玉石引子（摧破）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "dfe50c622e6953b1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r37c1": {
+      "en": "Boosts Annihilation's Hit bonus.",
+      "cn": "提高摧破的命中加成",
+      "ru": "Увеличивает бонус к попаданию при Сокрушении.",
+      "status": "machine",
+      "srcHash": "fbfe8a0012feae8e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r37c2": {
+      "en": "Hit bonus increase % = Reagent Tier + 3",
+      "cn": "命中加成提高% = 引子品级 + 3",
+      "ru": "Увеличение бонуса за попадание % = Ранг Реагента + 3",
+      "status": "machine",
+      "srcHash": "e05f564dafd11fb8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r38c0": {
+      "en": "<align=\"center\">Fabric Reagent (Annihilation)</align>",
+      "cn": "<align=\"center\">织物引子（摧破）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "00ca922eb0ddc80d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r38c1": {
+      "en": "Increases Annihilation's attack range (ranged).",
+      "cn": "增加摧破的攻击范围（远）",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "da47cada67385623",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r38c2": {
+      "en": "Attack range (ranged) increase = Reagent Tier/10",
+      "cn": "攻击范围（远）增加 = 引子品级 ÷ 10",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "5e156938e93ebf5f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r39c0": {
+      "en": "<align=\"center\">Metal Reagent (Footwork Arts)</align>",
+      "cn": "<align=\"center\">金铁引子（身法）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bea2b7dbcbff612c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r39c1": {
+      "en": "Boosts Footwork Arts' Hit bonus.",
+      "cn": "提高身法的命中加成",
+      "ru": "Увеличивает бонус к попаданию в Footwork Arts.",
+      "status": "machine",
+      "srcHash": "86a805656e3f75ab",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r39c2": {
+      "en": "Hit bonus increase % = Reagent Tier + 3",
+      "cn": "命中加成提高% = 引子品级 + 3",
+      "ru": "Увеличение бонуса за попадание % = Ранг Реагента + 3",
+      "status": "machine",
+      "srcHash": "e05f564dafd11fb8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r40c0": {
+      "en": "<align=\"center\">Wood Reagent (Footwork Arts)</align>",
+      "cn": "<align=\"center\">木材引子（身法）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8108ba33bdd14600",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r40c1": {
+      "en": "Reduces the sustained Footwork cost for Footwork Arts",
+      "cn": "降低身法的持续脚力消耗",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "580f484d85d5f777",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r40c2": {
+      "en": "Stamina cost reduction % = Reagent Tier + 3",
+      "cn": "脚力消耗降低% = 引子品级 + 3",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e5867fce95ae388b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r41c0": {
+      "en": "<align=\"center\">Jade Reagent (Footwork Arts)</align>",
+      "cn": "<align=\"center\">玉石引子（身法）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bfebecd88dcf7cd9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r41c1": {
+      "en": "Reduces the movement Footwork cost for Footwork Arts",
+      "cn": "降低身法的移动脚力消耗",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "af0538f60257e29e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r41c2": {
+      "en": "Stamina cost reduction % = Reagent Tier + 3",
+      "cn": "脚力消耗降低% = 引子品级 + 3",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e5867fce95ae388b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r42c0": {
+      "en": "<align=\"center\">Fabric Reagent (Footwork Arts)</align>",
+      "cn": "<align=\"center\">织物引子（身法）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4e4d3e14c4dad15f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r42c1": {
+      "en": "Reduces the Stamina required to cast Footwork Arts.",
+      "cn": "降低身法施展需要的脚力消耗",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "35e56cd67cd15e13",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r42c2": {
+      "en": "Footwork Cost Reduction% = (Reagent Tier + 3) × 2",
+      "cn": "脚力消耗降低% = (引子品级 + 3) × 2",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "5e7291a022027e6d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r43c0": {
+      "en": "<align=\"center\">Metal Reagent (Protection)</align>",
+      "cn": "<align=\"center\">金铁引子（护体）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0541651a02ee9022",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r43c1": {
+      "en": "Increases Protection's Defense bonus.",
+      "cn": "提高护体的防御加成",
+      "ru": "Увеличивает бонус к защите.",
+      "status": "machine",
+      "srcHash": "1168ab638364f99f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r43c2": {
+      "en": "Defense increase % = Reagent Tier + 3",
+      "cn": "防御属性提高% = 引子品级 + 3",
+      "ru": "% увеличения защиты = Ранг Реагента + 3",
+      "status": "machine",
+      "srcHash": "aef3ad364d22c21c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r44c0": {
+      "en": "<align=\"center\">Wood Reagent (Protection)</align>",
+      "cn": "<align=\"center\">木材引子（护体）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "cf425d6477c885e3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r44c1": {
+      "en": "Increase the technique's <color=#6fb6ff><u><link=\"反击\">Counterattack</link></u></color> power",
+      "cn": "提高功法的<color=#6fb6ff><u><link=\"反击\">反击</link></u></color>威力",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "80881f488d56549d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r44c2": {
+      "en": "Counter Power Increase% = (Reagent Tier + 3) × 2",
+      "cn": "反击威力提高% = (引子品级 + 3) × 2",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "76e1f8ca8b658cb2",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r45c0": {
+      "en": "<align=\"center\">Jade Reagent (Protection)</align>",
+      "cn": "<align=\"center\">玉石引子（护体）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "da8a124278d79efa",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r45c1": {
+      "en": "Increase the technique's <color=#6fb6ff><u><link=\"反震\">Reflection</link></u></color> power",
+      "cn": "提高功法的<color=#6fb6ff><u><link=\"反震\">反震</link></u></color>威力",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "39a6793cf9d0bd46",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r45c2": {
+      "en": "Reflection Power Increase% = (Reagent Tier + 3) × 2",
+      "cn": "反震威力提高% = (引子品级 + 3) × 2",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "005e719a00f2d96f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r46c0": {
+      "en": "<align=\"center\">Fabric Reagent (Protection)</align>",
+      "cn": "<align=\"center\">织物引子（护体）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "95feb89ae87c38c2",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r46c1": {
+      "en": "Increases Protection's Deflect bonus",
+      "cn": "提高护体的化解加成",
+      "ru": "Увеличивает бонус к отражению защиты",
+      "status": "machine",
+      "srcHash": "b5b10157fb4e0db8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r46c2": {
+      "en": "Deflect increase % = Reagent Tier + 3",
+      "cn": "化解属性提高% = 引子品级 + 3",
+      "ru": "Увеличение отклонения % = Ранг Реагента + 3",
+      "status": "machine",
+      "srcHash": "d3e978cf85cf2971",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r47c0": {
+      "en": "<align=\"center\">Metal Reagent (Acumen)</align>",
+      "cn": "<align=\"center\">金铁引子（奇窍）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f1ac6ed7086690ae",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r47c1": {
+      "en": "The technique's practice effects (Force and Resistance) gain an additional bonus.",
+      "cn": "功法的运功效果提供的力道、卸力额外增加",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b59760366febf06d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r47c2": {
+      "en": "Attribute Increase = (Reagent Tier + 3) × 2",
+      "cn": "属性增加 = (引子品级 + 3) × 2",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4936cdfb1e965090",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r48c0": {
+      "en": "<align=\"center\">Wood Reagent (Acumen)</align>",
+      "cn": "<align=\"center\">木材引子（奇窍）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "40009d67e85e3ea8",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r48c1": {
+      "en": "The technique's practice effects (Precision and Parry) gain an additional bonus.",
+      "cn": "功法的运功效果提供的精妙、拆招额外增加",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "71b90bf04a9f8d84",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r48c2": {
+      "en": "Attribute Increase = (Reagent Tier + 3) × 2",
+      "cn": "属性增加 = (引子品级 + 3) × 2",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4936cdfb1e965090",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r49c0": {
+      "en": "<align=\"center\">Jade Reagent (Acumen)</align>",
+      "cn": "<align=\"center\">玉石引子（奇窍）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "793a827fc6e9c04f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r49c1": {
+      "en": "The technique's practice effects (Sway and Poise) gain an additional bonus.",
+      "cn": "功法的运功效果提供的动心、守心额外增加",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f596bcb639153945",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r49c2": {
+      "en": "Attribute Increase = (Reagent Tier + 3) × 2",
+      "cn": "属性增加 = (引子品级 + 3) × 2",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4936cdfb1e965090",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r50c0": {
+      "en": "<align=\"center\">Fabric Reagent (Acumen)</align>",
+      "cn": "<align=\"center\">织物引子（奇窍）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "90960ccf7cff0867",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r50c1": {
+      "en": "The technique's practice effects (Dexterity and Dodge) gain an additional bonus.",
+      "cn": "功法的运功效果提供的迅疾、闪避额外增加",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4eabbd012d70d53d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r50c2": {
+      "en": "Attribute Increase = (Reagent Tier + 3) × 2",
+      "cn": "属性增加 = (引子品级 + 3) × 2",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4936cdfb1e965090",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r51c0": {
+      "en": "<align=\"center\">Dish</align>",
+      "cn": "<align=\"center\">菜肴</align>",
+      "ru": "<align=\"center\">Блюдо</align>",
+      "status": "machine",
+      "srcHash": "e112a692dff98228",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r51c1": {
+      "en": "Grants the technique an effect that increases corresponding primary attributes",
+      "cn": "使功法获得增加主要属性的运功效果",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "815bc7a65756ea01",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r51c2": {
+      "en": "Primary Attributes increase = Dish Recovery Attribute/10 (rounded down)",
+      "cn": "主要属性增加 = 菜肴恢复的属性 ÷ 10（向下取整）",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6a67b00f2e10ad5d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r52c0": {
+      "en": "<align=\"center\">Fruit</align>",
+      "cn": "<align=\"center\">水果</align>",
+      "ru": "<align=\"center\">Фрукты</align>",
+      "status": "machine",
+      "srcHash": "58c99da2b7e4daa3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r52c1": {
+      "en": "Increases the Qi Cap obtainable from <color=#6fb6ff><u><link=\"周天运转\">Microcosmic Circulation</link></u></color> (Qi Art only).",
+      "cn": "增加<color=#6fb6ff><u><link=\"周天运转\">周天运转</link></u></color>可增长的内力上限（仅可用于内功）",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "be441da7fe256afa",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r52c2": {
+      "en": "Qi Growth Cap Increase = (Fruit Tier + 2) × 10",
+      "cn": "内力增长上限增加 = (水果品级 + 2) × 10",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "556c59c58dd7c08f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r53c0": {
+      "en": "<align=\"center\">Tea</align>",
+      "cn": "<align=\"center\">茶</align>",
+      "ru": "<align=\"center\">Чай</align>",
+      "status": "machine",
+      "srcHash": "1de8e4b27a692736",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r53c1": {
+      "en": "Grants the practice an effect that increases <color=#6fb6ff><u><link=\"调息吐纳\">Breath Control</link></u></color>",
+      "cn": "使功法获得增加<color=#6fb6ff><u><link=\"调息吐纳\">调息吐纳</link></u></color>的运功效果",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ab21575ca1fa4c8d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r53c2": {
+      "en": "Breath Control Increase = Tea Tier + 2",
+      "cn": "调息吐纳增加 = 茶品级 + 2",
+      "ru": "Увеличение контроля дыхания = Ранг чая + 2",
+      "status": "machine",
+      "srcHash": "418a5cb9dac86c8d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r54c0": {
+      "en": "<align=\"center\">Wine</align>",
+      "cn": "<align=\"center\">酒</align>",
+      "ru": "<align=\"center\">Вино</align>",
+      "status": "machine",
+      "srcHash": "fcbab19e682d0aca",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r54c1": {
+      "en": "Grants the practice an effect that increases <color=#6fb6ff><u><link=\"内功发挥\">Qi Art Efficacy</link></u></color>",
+      "cn": "使功法获得增加<color=#6fb6ff><u><link=\"内功发挥\">内功发挥</link></u></color>的运功效果",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8a6ceb2991be7102",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r54c2": {
+      "en": "Qi Art Efficacy increase = Liquor Tier + 2",
+      "cn": "内功发挥增加 = 酒品级 + 2",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "12b83ec7b89c94cf",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r55c0": {
+      "en": "<align=\"center\">Souldew</align>",
+      "cn": "<align=\"center\">血露</align>",
+      "ru": "<align=\"center\">Плесень</align>",
+      "status": "machine",
+      "srcHash": "ead88fd6baa6520e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r55c1": {
+      "en": "Expands the adjustable range of <color=#6fb6ff><u><link=\"内外功比例\">Qi/Physical Martial Arts Ratio</link></u></color> in techniques",
+      "cn": "增加功法的<color=#6fb6ff><u><link=\"内外功比例\">内外功比例</link></u></color>的可调节范围",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0669bfb61952141c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r55c2": {
+      "en": "Adjustable range increase = (Souldew Tier + 2) × 2",
+      "cn": "可调节范围增加 = (血露品级 + 2) × 2",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a68d84efb95dab71",
+      "engine": null,
+      "updatedAt": null
+    }
+  }
+}

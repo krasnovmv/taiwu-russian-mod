@@ -1,0 +1,4534 @@
+{
+  "schemaVersion": 1,
+  "file": "EncyclopediaAssets/Jianzhu_Jiyi_Zhizao.tsv",
+  "glossaryVersion": 5,
+  "units": {
+    "r0c0": {
+      "en": "<align=\"center\"><td rowspan=\"2\">Category</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"2\">类别</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "da3c2bac2ee6a0c6",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r0c1": {
+      "en": "<align=\"center\"><td rowspan=\"2\">Building</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"2\">建筑</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "034e475b3ebe6244",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r0c2": {
+      "en": "<align=\"center\"><td rowspan=\"2\">Unlocking requires Fine Arts</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"2\">解锁需要技艺</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "70b2cd1d4e892ca6",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r0c3": {
+      "en": "<align=\"center\"><td rowspan=\"2\">Core Material</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"2\">心材</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "45a028594a96597d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r0c4": {
+      "en": "<align=\"center\"><td rowspan=\"2\">Dependent Building</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"2\">依赖建筑</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "462949781d704a2c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r0c5": {
+      "en": "<align=\"center\"><td rowspan=\"2\">Dependent Natural Resource</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"2\">依赖自然资源</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fbf92d7591fe9552",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r0c6": {
+      "en": "<align=\"center\"><td rowspan=\"2\">Effects</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"2\">效果</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "516008094309c5a8",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r0c7": {
+      "en": "<align=\"center\"><td colspan=\"2\">Management Requirements</td></align>",
+      "cn": "<align=\"center\"><td colspan=\"2\">经营需求</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1ec598de9af31df9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r0c9": {
+      "en": "<align=\"center\"><td colspan=\"2\">Cultivation Requirements</td></align>",
+      "cn": "<align=\"center\"><td colspan=\"2\">培养需求</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c26d73ce8973aa0d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r1c7": {
+      "en": "<align=\"center\">Attainment</align>",
+      "cn": "<align=\"center\">造诣</align>",
+      "ru": "<align=\"center\">Достижение</align>",
+      "status": "machine",
+      "srcHash": "76f9a997acf7b7e1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r1c8": {
+      "en": "<align=\"center\">Settlement</align>",
+      "cn": "<align=\"center\">定居点</align>",
+      "ru": "<align=\"center\">Поселение</align>",
+      "status": "machine",
+      "srcHash": "0e2303f6b498f2fd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r1c9": {
+      "en": "<align=\"center\">Steward Profession</align>",
+      "cn": "<align=\"center\">主事身份</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4e8fe9d3e9896b07",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r1c10": {
+      "en": "<align=\"center\">Apprentice Septanima</align>",
+      "cn": "<align=\"center\">学徒七元</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "34f90511ced688f0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r2c0": {
+      "en": "<align=\"center\"><td rowspan=\"10\">Smithing</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"10\">锻造</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4b4b20823f470549",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r2c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">Forge</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">火炼室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4ea40c6a117a14fe",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r2c6": {
+      "en": "Basic Smithing building. Enables the creation\\u002c repair\\u002c and refinement of metal products.\\nIncreases the study efficiency of Smithing books for characters within the settlement's influence area.",
+      "cn": "基础锻造建筑，可制造、修理、精制金铁器具\\n可提高此定居点影响范围内的人物研读锻造书籍时的效率",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "430dfd5ff3ae6b92",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r2c7": {
+      "en": "<align=\"center\">Smithing</align>",
+      "cn": "<align=\"center\">锻造</align>",
+      "ru": "<align=\"center\">Кузнечное дело</align>",
+      "status": "machine",
+      "srcHash": "8df02b55433cd2c8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r2c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r2c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r3c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-铁匠铺\">Blacksmith Shop</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-铁匠铺\">铁匠铺</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e068bf0b12215e0c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r3c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-鼎书\"><color=#GradeColor_0>The Manual of Ding</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-鼎书\"><color=#GradeColor_0>鼎书</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b03f93e21ffb3109",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r3c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">Forge</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">火炼室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4ea40c6a117a14fe",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r3c6": {
+      "en": "Sell metal items for Silver",
+      "cn": "售卖金铁器具，以赚取银钱",
+      "ru": "Продаем металлические изделия за серебро",
+      "status": "machine",
+      "srcHash": "896cbdb591a6b3e5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r3c7": {
+      "en": "<align=\"center\">Smithing</align>",
+      "cn": "<align=\"center\">锻造</align>",
+      "ru": "<align=\"center\">Кузнечное дело</align>",
+      "status": "machine",
+      "srcHash": "8df02b55433cd2c8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r3c8": {
+      "en": "<align=\"center\">Stability > 50</align>",
+      "cn": "<align=\"center\">安定＞50</align>",
+      "ru": "<align=\"center\">Стабильность &gt; 50</align>",
+      "status": "machine",
+      "srcHash": "a22f91a37b44d344",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r3c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r3c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r4c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-锻冶坊\">Foundry</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-锻冶坊\">锻冶坊</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c98d18fb6612fd0a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r4c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-火爆诀\"><color=#GradeColor_1>The Mnemonics of Blasting</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-火爆诀\"><color=#GradeColor_1>火爆诀</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9d9ad8e714f33877",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r4c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"红炉锻打台\"><color=#GradeColor_0>Kiln Forging Table</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"红炉锻打台\"><color=#GradeColor_0>红炉锻打台</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4d7e8f8a53592817",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r4c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">Forge</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">火炼室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4ea40c6a117a14fe",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r4c6": {
+      "en": "Recruit talents with exceptional Smithing Aptitude",
+      "cn": "招募锻造资质卓越的人才",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1a1ab993f472b32f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r4c7": {
+      "en": "<align=\"center\">Smithing</align>",
+      "cn": "<align=\"center\">锻造</align>",
+      "ru": "<align=\"center\">Кузнечное дело</align>",
+      "status": "machine",
+      "srcHash": "8df02b55433cd2c8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r4c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r4c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r5c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-金铺\">Gold Shop</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-金铺\">金铺</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9427f42ac8f229e5",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r5c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-古今刀剑录\"><color=#GradeColor_2>Register of Ancient and Recent Swords</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-古今刀剑录\"><color=#GradeColor_2>古今刀剑录</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "64dfa051d145cf5a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r5c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">Forge</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">火炼室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4ea40c6a117a14fe",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r5c6": {
+      "en": "Sell metal items to earn Prestige",
+      "cn": "售卖金铁器具，以获取威望",
+      "ru": "Продавайте металлические изделия, чтобы заработать Престиж",
+      "status": "machine",
+      "srcHash": "7104055d68f0caf1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r5c7": {
+      "en": "<align=\"center\">Smithing</align>",
+      "cn": "<align=\"center\">锻造</align>",
+      "ru": "<align=\"center\">Кузнечное дело</align>",
+      "status": "machine",
+      "srcHash": "8df02b55433cd2c8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r5c8": {
+      "en": "<align=\"center\">Stability > 50</align>",
+      "cn": "<align=\"center\">安定＞50</align>",
+      "ru": "<align=\"center\">Стабильность &gt; 50</align>",
+      "status": "machine",
+      "srcHash": "a22f91a37b44d344",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r5c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r5c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r6c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-水排\">Water Sluice</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-水排\">水排</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d8806aebd688b4bf",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r6c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-薛烛相剑\"><color=#GradeColor_3>Xue Zhu Judges the Swords</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-薛烛相剑\"><color=#GradeColor_3>薛烛相剑</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "df6ebc96bca93114",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r6c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">Forge</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">火炼室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4ea40c6a117a14fe",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r6c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-水域\">Waters</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-水域\">水域</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b50a83670c306eb4",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r6c6": {
+      "en": "When training apprentices in buildings of this settlement\\u002c increases the apprentices' chance of gaining Smithing Talent by 40%.",
+      "cn": "在此定居点的建筑中培养学徒时，学徒锻造资质的增长概率提高40%",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d1cc7a43e1a300e4",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r7c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-陨铁矿场\">Meteoric Iron Site</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-陨铁矿场\">陨铁矿场</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c97d9703233995c2",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r7c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-水经注\"><color=#GradeColor_4>Commentary on the Water Classic</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-水经注\"><color=#GradeColor_4>水经注</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8bbcae16b6e899b0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r7c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"天铁犁\"><color=#GradeColor_2>Heaven Plough</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"天铁犁\"><color=#GradeColor_2>天铁犁</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "13dafcee12a23094",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r7c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">Forge</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">火炼室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4ea40c6a117a14fe",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r7c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-陨铁坑\">Meteoric Iron Crater</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-陨铁坑\">陨铁坑</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "019d1be7502fd8dc",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r7c6": {
+      "en": "Smithing Attainment for characters within the settlement's influence area +100",
+      "cn": "此定居点影响范围内人物的锻造造诣+100",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0e916edcb331e33a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r8c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-淘洗池\">Panning Pool</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-淘洗池\">淘洗池</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "72c315bb4810603e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r8c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-越王秘藏\"><color=#GradeColor_5>Secret Collection of Goujian</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-越王秘藏\"><color=#GradeColor_5>越王秘藏</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1f35b3e22472d921",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r8c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"浣金砂\"><color=#GradeColor_4>Golden Grit</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"浣金砂\"><color=#GradeColor_4>浣金砂</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "16066629c93455d4",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r8c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">Forge</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">火炼室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4ea40c6a117a14fe",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r8c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-石山\">Stone Ridge</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-石山\">石山</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "162e8d38e6c292fb",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r8c6": {
+      "en": "Obtain Metal (Gold/Silver) Reagent",
+      "cn": "收获金铁（金银）引子",
+      "ru": "Получение металлического (золотого/серебряного) Реагента",
+      "status": "machine",
+      "srcHash": "b2fd76525f1bb81a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r8c7": {
+      "en": "<align=\"center\">Smithing</align>",
+      "cn": "<align=\"center\">锻造</align>",
+      "ru": "<align=\"center\">Кузнечное дело</align>",
+      "status": "machine",
+      "srcHash": "8df02b55433cd2c8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r8c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r8c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r9c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-精炼室\">Refinery</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-精炼室\">精炼室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e47725f22f0fb25d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r9c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-越王秘藏\"><color=#GradeColor_5>Secret Collection of Goujian</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-越王秘藏\"><color=#GradeColor_5>越王秘藏</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1f35b3e22472d921",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r9c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"化火沉金池\"><color=#GradeColor_4>Kiln Pool</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"化火沉金池\"><color=#GradeColor_4>化火沉金池</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "722361530aec08aa",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r9c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">Forge</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">火炼室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4ea40c6a117a14fe",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r9c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-石山\">Stone Ridge</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-石山\">石山</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "162e8d38e6c292fb",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r9c6": {
+      "en": "Harvest Metal (Iron) Reagent",
+      "cn": "收获金铁（铁质）引子",
+      "ru": "Реагент для сбора металла (железа)",
+      "status": "machine",
+      "srcHash": "b213ac921d3cc850",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r9c7": {
+      "en": "<align=\"center\">Smithing</align>",
+      "cn": "<align=\"center\">锻造</align>",
+      "ru": "<align=\"center\">Кузнечное дело</align>",
+      "status": "machine",
+      "srcHash": "8df02b55433cd2c8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r9c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r9c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r10c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-龙泉七星井\">Loong Spring Septenary Well</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-龙泉七星井\">龙泉七星井</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fefba793768862fa",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r10c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-考工记\"><color=#GradeColor_6>Artificer's Record</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-考工记\"><color=#GradeColor_6>考工记</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "270a02a2e6939bdd",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r10c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"龙王水府\"><color=#GradeColor_6>Long King Statue</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"龙王水府\"><color=#GradeColor_6>龙王水府</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "75ef589b1ea727de",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r10c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">Forge</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">火炼室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4ea40c6a117a14fe",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r10c6": {
+      "en": "Increase the tier of metal items crafted in a dependent building",
+      "cn": "在依赖建筑中制造金铁器具时，提升产物的品级",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6dbd173822da0af0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r11c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-神火铸\">Celestial Forge</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-神火铸\">神火铸</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b02c893604890654",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r11c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-欧祖遗书\"><color=#GradeColor_7>Lost Book of Ou Yezi</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-欧祖遗书\"><color=#GradeColor_7>欧祖遗书</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "77b0c625196dd4b1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r11c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"神火炉薪\"><color=#GradeColor_7>Celestial Firewood</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"神火炉薪\"><color=#GradeColor_7>神火炉薪</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f4108aeda9f92a61",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r11c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">Forge</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火炼室\">火炼室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4ea40c6a117a14fe",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r11c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火池\">Flame Pond</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火池\">火池</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3df1520ceaa63c50",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r11c6": {
+      "en": "Reduce the Smithing Attainment required for crafting and processing items in dependent buildings",
+      "cn": "在依赖建筑中制造加工时，降低锻造造诣需求",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "48397c7557cfb9d3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r12c0": {
+      "en": "<align=\"center\"><td rowspan=\"10\">Carpentry</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"10\">制木</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4fc754a7ee17f271",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r12c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">Woodworking Shed</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">木工房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ba56f312c88aadf9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r12c6": {
+      "en": "Basic Carpentry building. Enables the creation\\u002c repair\\u002c and refinement of Carpentry products.\\nIncreases the study efficiency of Carpentry books for characters within the settlement's influence area.",
+      "cn": "基础制木建筑，可制造、修理、精制木材器具\\n可提高此定居点影响范围内的人物研读制木书籍时的效率",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "28610c4ca8354218",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r12c7": {
+      "en": "<align=\"center\">Carpentry</align>",
+      "cn": "<align=\"center\">制木</align>",
+      "ru": "<align=\"center\">Столярное дело</align>",
+      "status": "machine",
+      "srcHash": "3a224d0a6a3ae171",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r12c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r12c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r13c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工铺\">Carpentry Shop</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工铺\">木工铺</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f312ee90814930a8",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r13c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-木工考\"><color=#GradeColor_0>An Examination of Carpentry</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-木工考\"><color=#GradeColor_0>木工考</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7e624a48a43b511e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r13c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">Woodworking Shed</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">木工房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ba56f312c88aadf9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r13c6": {
+      "en": "Sell wood items for Silver",
+      "cn": "售卖木材器具，以赚取银钱",
+      "ru": "Продавайте изделия из дерева за серебро",
+      "status": "machine",
+      "srcHash": "253ae1f773e972e6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r13c7": {
+      "en": "<align=\"center\">Carpentry</align>",
+      "cn": "<align=\"center\">制木</align>",
+      "ru": "<align=\"center\">Столярное дело</align>",
+      "status": "machine",
+      "srcHash": "3a224d0a6a3ae171",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r13c8": {
+      "en": "<align=\"center\">Stability > 50</align>",
+      "cn": "<align=\"center\">安定＞50</align>",
+      "ru": "<align=\"center\">Стабильность &gt; 50</align>",
+      "status": "machine",
+      "srcHash": "a22f91a37b44d344",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r13c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r13c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r14c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-制木坊\">Carpentry Mill</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-制木坊\">制木坊</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0f8495cf60ddf7d8",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r14c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-东园杂录\"><color=#GradeColor_1>Notes on the East Garden</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-东园杂录\"><color=#GradeColor_1>东园杂录</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7664ec9dad7ef75d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r14c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"治木百宝\"><color=#GradeColor_0>Carpenter Tools</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"治木百宝\"><color=#GradeColor_0>治木百宝</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bada7c9f9a4ffd23",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r14c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">Woodworking Shed</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">木工房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ba56f312c88aadf9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r14c6": {
+      "en": "Recruit talents with exceptional Carpentry Aptitude",
+      "cn": "招募制木资质卓越的人才",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2283ec7b5f0fe2d9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r14c7": {
+      "en": "<align=\"center\">Carpentry</align>",
+      "cn": "<align=\"center\">制木</align>",
+      "ru": "<align=\"center\">Столярное дело</align>",
+      "status": "machine",
+      "srcHash": "3a224d0a6a3ae171",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r14c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r14c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r15c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-营造坊\">Construction Workshop</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-营造坊\">营造坊</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2c9d3d13f737a15e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r15c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-舟车枢要\"><color=#GradeColor_2>Manual on Boats and Carriages</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-舟车枢要\"><color=#GradeColor_2>舟车枢要</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c6f1e60a3d71c6e8",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r15c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">Woodworking Shed</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">木工房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ba56f312c88aadf9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r15c6": {
+      "en": "Sell wood items to gain Prestige",
+      "cn": "售卖木材器具，以获取威望",
+      "ru": "Продавайте изделия из дерева, чтобы завоевать Престиж",
+      "status": "machine",
+      "srcHash": "37cc946cf2b1364e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r15c7": {
+      "en": "<align=\"center\">Carpentry</align>",
+      "cn": "<align=\"center\">制木</align>",
+      "ru": "<align=\"center\">Столярное дело</align>",
+      "status": "machine",
+      "srcHash": "3a224d0a6a3ae171",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r15c8": {
+      "en": "<align=\"center\">Stability > 50</align>",
+      "cn": "<align=\"center\">安定＞50</align>",
+      "ru": "<align=\"center\">Стабильность &gt; 50</align>",
+      "status": "machine",
+      "srcHash": "a22f91a37b44d344",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r15c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r15c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r16c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-黑脂池\">Tar Basin</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-黑脂池\">黑脂池</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "378278ab2fddb8ff",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r16c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-九章算术\"><color=#GradeColor_3>Nine Chapters on the Art of Mathematics</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-九章算术\"><color=#GradeColor_3>九章算术</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0bb26d80ae2e5efe",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r16c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">Woodworking Shed</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">木工房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ba56f312c88aadf9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r16c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-毒沼\">Toxic Swamp</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-毒沼\">毒沼</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3599b816d3ae3696",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r16c6": {
+      "en": "When training apprentices in buildings of this settlement\\u002c increases the apprentices' chance of gaining Carpentry Talent by 40%.",
+      "cn": "在此定居点的建筑中培养学徒时，学徒制木资质的增长概率提高40%",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7d65564927bc96a0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r17c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木料标本\">Lumber Samples</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木料标本\">木料标本</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f401ca30ed595e15",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r17c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-竹鹊志\"><color=#GradeColor_4>Bamboo Magpie Record</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-竹鹊志\"><color=#GradeColor_4>竹鹊志</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fbf54172bc92f3d5",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r17c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"透色琼脂\"><color=#GradeColor_2>Pure Agar</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"透色琼脂\"><color=#GradeColor_2>透色琼脂</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7f1e8bd343d8af4d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r17c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">Woodworking Shed</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">木工房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ba56f312c88aadf9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r17c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-密林\">Thick Woods</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-密林\">密林</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "03d97478449a2b0d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r17c6": {
+      "en": "Carpentry Attainment for characters within the settlement's influence area +100",
+      "cn": "此定居点影响范围内人物的制木造诣+100",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e27f45ac6996c9b2",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r18c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-伐木场\">Timber Yard</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-伐木场\">伐木场</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2906eaed20c82a34",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r18c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-周髀算经\"><color=#GradeColor_5>Arithmetical Classic of the Gnomon and the Circular Paths of the Heaven</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-周髀算经\"><color=#GradeColor_5>周髀算经</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e0cfbd617f114c7e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r18c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"百人锯\"><color=#GradeColor_4>Giant Saw</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"百人锯\"><color=#GradeColor_4>百人锯</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e801790f463a0f9c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r18c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">Woodworking Shed</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">木工房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ba56f312c88aadf9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r18c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-树林\">Woodland</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-树林\">树林</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6f55fddac55a83c7",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r18c6": {
+      "en": "Harvest Wood (Wood) Reagent",
+      "cn": "收获木材（木质）引子",
+      "ru": "Реагент для заготовки древесины (Wood)",
+      "status": "machine",
+      "srcHash": "8fadcc91156408ea",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r18c7": {
+      "en": "<align=\"center\">Carpentry</align>",
+      "cn": "<align=\"center\">制木</align>",
+      "ru": "<align=\"center\">Столярное дело</align>",
+      "status": "machine",
+      "srcHash": "3a224d0a6a3ae171",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r18c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r18c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r19c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-林场\">Forestry Station</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-林场\">林场</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "904b3ee2aca35893",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r19c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-周髀算经\"><color=#GradeColor_5>Arithmetical Classic of the Gnomon and the Circular Paths of the Heaven</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-周髀算经\"><color=#GradeColor_5>周髀算经</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e0cfbd617f114c7e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r19c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"盘山水龙\"><color=#GradeColor_4>Mountain Canal</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"盘山水龙\"><color=#GradeColor_4>盘山水龙</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6e05587e66b0b78e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r19c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">Woodworking Shed</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">木工房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ba56f312c88aadf9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r19c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-树林\">Woodland</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-树林\">树林</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6f55fddac55a83c7",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r19c6": {
+      "en": "Harvest Wood (Vine) Reagent",
+      "cn": "收获木材（藤质）引子",
+      "ru": "Реагент для сбора урожая древесины (виноградной лозы)",
+      "status": "machine",
+      "srcHash": "68be667678241b4a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r19c7": {
+      "en": "<align=\"center\">Carpentry</align>",
+      "cn": "<align=\"center\">制木</align>",
+      "ru": "<align=\"center\">Столярное дело</align>",
+      "status": "machine",
+      "srcHash": "3a224d0a6a3ae171",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r19c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r19c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r20c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽冥窑\">Netherworld Kiln</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽冥窑\">幽冥窑</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7c7db003892fd7b7",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r20c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-大匠传\"><color=#GradeColor_6>Record of an Artisan</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-大匠传\"><color=#GradeColor_6>大匠传</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ef9a0ea24d171d89",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r20c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"银骨冷烟煤\"><color=#GradeColor_6>Frost Charcoal</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"银骨冷烟煤\"><color=#GradeColor_6>银骨冷烟煤</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "081652e93ddb2b34",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r20c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">Woodworking Shed</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">木工房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ba56f312c88aadf9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r20c6": {
+      "en": "Increase the tier of wood items crafted in a dependent building",
+      "cn": "在依赖建筑中制造木材器具时，提升产物的品级",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f5c1af9dcd3478ef",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r21c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-神木林\">Sacred Grove</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-神木林\">神木林</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d11d7c8123b77676",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r21c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-玲珑玄机\"><color=#GradeColor_7>Intricate Mechanism</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-玲珑玄机\"><color=#GradeColor_7>玲珑玄机</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "13a1c178b3816fdf",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r21c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"神木根\"><color=#GradeColor_7>Sacred Root</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"神木根\"><color=#GradeColor_7>神木根</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7d2b603851d71762",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r21c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">Woodworking Shed</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-木工房\">木工房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ba56f312c88aadf9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r21c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-太始林\">Ancient Forest</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-太始林\">太始林</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "cf5b9ac2b0acb779",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r21c6": {
+      "en": "Reduce the Carpentry Attainment required for crafting and processing items in dependent buildings",
+      "cn": "在依赖建筑中制造加工时，降低制木造诣需求",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "60f1bb6ff2b5e21f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r22c0": {
+      "en": "<align=\"center\"><td rowspan=\"10\">Jewelcrafting</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"10\">巧匠</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4af56c1d83d9e430",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r22c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">Jewelcrafter Workshop</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">巧匠屋</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "58ab75a588694342",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r22c6": {
+      "en": "Basic Jewelcrafting building. Enables the creation\\u002c repair\\u002c and refinement of jade products.\\nIncreases the study efficiency of jewelcrafting books for characters within the settlement's influence area.",
+      "cn": "基础巧匠建筑，可制造、修理、精制玉石器具\\n可提高此定居点影响范围内的人物研读巧匠书籍时的效率",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "68e9da42b527d984",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r22c7": {
+      "en": "<align=\"center\">Jewelcrafting</align>",
+      "cn": "<align=\"center\">巧匠</align>",
+      "ru": "<align=\"center\">Изготовление ювелирных изделий</align>",
+      "status": "machine",
+      "srcHash": "2ceb955af14dc093",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r22c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r22c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r23c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-珠宝铺\">Jewelry Shop</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-珠宝铺\">珠宝铺</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "227fc60e1ee7bc12",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r23c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-解玉\"><color=#GradeColor_0>The Jade Polishing Compendium</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-解玉\"><color=#GradeColor_0>解玉</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4a047919eda56304",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r23c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">Jewelcrafter Workshop</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">巧匠屋</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "58ab75a588694342",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r23c6": {
+      "en": "Sell jade items for Silver",
+      "cn": "售卖玉石器具，以赚取银钱",
+      "ru": "Продавайте изделия из Нефрита за серебро",
+      "status": "machine",
+      "srcHash": "2f7a327bd54079b5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r23c7": {
+      "en": "<align=\"center\">Jewelcrafting</align>",
+      "cn": "<align=\"center\">巧匠</align>",
+      "ru": "<align=\"center\">Изготовление ювелирных изделий</align>",
+      "status": "machine",
+      "srcHash": "2ceb955af14dc093",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r23c8": {
+      "en": "<align=\"center\">Stability > 50</align>",
+      "cn": "<align=\"center\">安定＞50</align>",
+      "ru": "<align=\"center\">Стабильность &gt; 50</align>",
+      "status": "machine",
+      "srcHash": "a22f91a37b44d344",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r23c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r23c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r24c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-毛石坊\">Crude Stone Shop</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-毛石坊\">毛石坊</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "259c35343dbc102f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r24c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-六瑞图\"><color=#GradeColor_1>Ritualistic Jadeware</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-六瑞图\"><color=#GradeColor_1>六瑞图</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "385c21c2ac810ba9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r24c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"三山毛石\"><color=#GradeColor_0>Crude Stone</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"三山毛石\"><color=#GradeColor_0>三山毛石</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "626fae553ae07008",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r24c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">Jewelcrafter Workshop</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">巧匠屋</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "58ab75a588694342",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r24c6": {
+      "en": "Recruit talents with exceptional Jewelcrafting Aptitude",
+      "cn": "招募巧匠资质卓越的人才",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0ce580b4f5ac449a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r24c7": {
+      "en": "<align=\"center\">Jewelcrafting</align>",
+      "cn": "<align=\"center\">巧匠</align>",
+      "ru": "<align=\"center\">Изготовление ювелирных изделий</align>",
+      "status": "machine",
+      "srcHash": "2ceb955af14dc093",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r24c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r24c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r25c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-琳琅阁\">Treasure Exchange</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-琳琅阁\">琳琅阁</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "64675983aa26f32e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r25c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-琢玉录\"><color=#GradeColor_2>Records of Jade Carving</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-琢玉录\"><color=#GradeColor_2>琢玉录</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e2a5283bb50d2e3b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r25c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">Jewelcrafter Workshop</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">巧匠屋</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "58ab75a588694342",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r25c6": {
+      "en": "Sell jade items to gain Prestige",
+      "cn": "售卖玉石器具，以获取威望",
+      "ru": "Продавайте изделия из Нефрита, чтобы завоевать Престиж",
+      "status": "machine",
+      "srcHash": "611109af75d0051c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r25c7": {
+      "en": "<align=\"center\">Jewelcrafting</align>",
+      "cn": "<align=\"center\">巧匠</align>",
+      "ru": "<align=\"center\">Изготовление ювелирных изделий</align>",
+      "status": "machine",
+      "srcHash": "2ceb955af14dc093",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r25c8": {
+      "en": "<align=\"center\">Stability > 50</align>",
+      "cn": "<align=\"center\">安定＞50</align>",
+      "ru": "<align=\"center\">Стабильность &gt; 50</align>",
+      "status": "machine",
+      "srcHash": "a22f91a37b44d344",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r25c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r25c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r26c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-攻玉楼\">Jade Craft</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-攻玉楼\">攻玉楼</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "00bcc3014e1154b7",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r26c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-八珍八宝记\"><color=#GradeColor_3>Record of Precious Jewels</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-八珍八宝记\"><color=#GradeColor_3>八珍八宝记</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e17f72556405b6b0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r26c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">Jewelcrafter Workshop</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">巧匠屋</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "58ab75a588694342",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r26c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-石山\">Stone Ridge</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-石山\">石山</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "162e8d38e6c292fb",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r26c6": {
+      "en": "When training apprentices in buildings of this settlement\\u002c increases the apprentices' chance of gaining Jewelcrafting Talent by 40%.",
+      "cn": "在此定居点的建筑中培养学徒时，学徒巧匠资质的增长概率提高40%",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6cb6fef793673189",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r27c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-赤血镜\">Crimson Mirror</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-赤血镜\">赤血镜</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9df3687e795c4c38",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r27c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-石华说\"><color=#GradeColor_4>Blossoming Stones</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-石华说\"><color=#GradeColor_4>石华说</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f65b100b21b335cf",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r27c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"火池红晶\"><color=#GradeColor_2>Flame Crystal</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"火池红晶\"><color=#GradeColor_2>火池红晶</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2740b4745e9d7dc5",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r27c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">Jewelcrafter Workshop</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">巧匠屋</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "58ab75a588694342",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r27c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火池\">Flame Pond</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-火池\">火池</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3df1520ceaa63c50",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r27c6": {
+      "en": "Jewelcrafting Attainment for characters within the settlement's influence area +100",
+      "cn": "此定居点影响范围内人物的巧匠造诣+100",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3841b6183561d39e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r28c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-浣宝池\">Elucidation Pool</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-浣宝池\">浣宝池</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "65dcdd7a4e353033",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r28c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-异魂志\"><color=#GradeColor_5>Records of a Mysterious Ghost</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-异魂志\"><color=#GradeColor_5>异魂志</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "56ccb1a48263b376",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r28c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"浣宝砂\"><color=#GradeColor_4>Lapidary Grit</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"浣宝砂\"><color=#GradeColor_4>浣宝砂</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ac7ef94da4874a72",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r28c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">Jewelcrafter Workshop</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">巧匠屋</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "58ab75a588694342",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r28c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-宝石\">Gemstones</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-宝石\">宝石</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2119c33877750e7a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r28c6": {
+      "en": "Harvest Jade (Jade) Reagent",
+      "cn": "收获玉石（玉质）引子",
+      "ru": "Реагент для сбора урожая Нефрита (Нефрит)",
+      "status": "machine",
+      "srcHash": "73c9066ace0e42e0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r28c7": {
+      "en": "<align=\"center\">Jewelcrafting</align>",
+      "cn": "<align=\"center\">巧匠</align>",
+      "ru": "<align=\"center\">Изготовление ювелирных изделий</align>",
+      "status": "machine",
+      "srcHash": "2ceb955af14dc093",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r28c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r28c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r29c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-金刚解玉台\">Diamond Platform</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-金刚解玉台\">金刚解玉台</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "5dee22936269014e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r29c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-异魂志\"><color=#GradeColor_5>Records of a Mysterious Ghost</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-异魂志\"><color=#GradeColor_5>异魂志</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "56ccb1a48263b376",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r29c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"金刚锯\"><color=#GradeColor_4>Diamond Saw</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"金刚锯\"><color=#GradeColor_4>金刚锯</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "888f4aacf84c4387",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r29c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">Jewelcrafter Workshop</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">巧匠屋</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "58ab75a588694342",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r29c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-宝石\">Gemstones</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-宝石\">宝石</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2119c33877750e7a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r29c6": {
+      "en": "Harvest Jade (Stone) Reagent",
+      "cn": "收获玉石（石质）引子",
+      "ru": "Сбор урожая Нефрита (камня) Реагент",
+      "status": "machine",
+      "srcHash": "2ad8624175cc1e6d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r29c7": {
+      "en": "<align=\"center\">Jewelcrafting</align>",
+      "cn": "<align=\"center\">巧匠</align>",
+      "ru": "<align=\"center\">Изготовление ювелирных изделий</align>",
+      "status": "machine",
+      "srcHash": "2ceb955af14dc093",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r29c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r29c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r30c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-玲珑台\">Exquisite Stand</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-玲珑台\">玲珑台</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "27f266abc1b7b0aa",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r30c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-宝铊经\"><color=#GradeColor_6>New Tools for Jadeworking</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-宝铊经\"><color=#GradeColor_6>宝铊经</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7af8d5e2c698f2e4",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r30c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"玲珑八宝\"><color=#GradeColor_6>Tools of Intricacy</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"玲珑八宝\"><color=#GradeColor_6>玲珑八宝</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d8238ea4632867ff",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r30c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">Jewelcrafter Workshop</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">巧匠屋</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "58ab75a588694342",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r30c6": {
+      "en": "Increase the tier of jade items crafted in a dependent building",
+      "cn": "在依赖建筑中制造玉石器具时，提升产物的品级",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "91840881d2b1770c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r31c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-神光璧\">Blessed Jade Disk</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-神光璧\">神光璧</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "96e6f2144a82438b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r31c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-以向养玉经\"><color=#GradeColor_7>Classic of Yi Xiang: Jade Cultivation</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-以向养玉经\"><color=#GradeColor_7>以向养玉经</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bfd33f2c45ac226a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r31c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"千年玉母\"><color=#GradeColor_7>Millennia Jade</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"千年玉母\"><color=#GradeColor_7>千年玉母</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bf3592e3e5dc459d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r31c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">Jewelcrafter Workshop</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-巧匠屋\">巧匠屋</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "58ab75a588694342",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r31c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-灵脉\">Spirit Vein</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-灵脉\">灵脉</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c844baaa19fb823e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r31c6": {
+      "en": "Reduce the Jewelcrafting Attainment required for crafting and processing items in dependent buildings",
+      "cn": "在依赖建筑中制造加工时，降低巧匠造诣需求",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "74bd5dca4ea2b253",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r32c0": {
+      "en": "<align=\"center\"><td rowspan=\"10\">Weaving</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"10\">织锦</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "60ba7264b07425cd",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r32c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">Embroidery Edifice</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">绣楼</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "69aa00af70296c32",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r32c6": {
+      "en": "Basic Weaving building. Enables the creation\\u002c repair\\u002c and refinement of fabric products.\\nIncreases the study efficiency of weaving books for characters within the settlement's influence area.",
+      "cn": "基础织锦建筑，可制造、修理、精制织物器具\\n可提高此定居点影响范围内的人物研读织锦书籍时的效率",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d54ef48af5e7e692",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r32c7": {
+      "en": "<align=\"center\">Weaving</align>",
+      "cn": "<align=\"center\">织锦</align>",
+      "ru": "<align=\"center\">Ткачество</align>",
+      "status": "machine",
+      "srcHash": "c2496548060a4b4c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r32c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r32c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r33c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-布庄\">Cloth Manor</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-布庄\">布庄</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "19bd2f145de627f8",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r33c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-花罗谱\"><color=#GradeColor_0>Collection of Patterned Gauze</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-花罗谱\"><color=#GradeColor_0>花罗谱</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "854b9f85b1816508",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r33c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">Embroidery Edifice</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">绣楼</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "69aa00af70296c32",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r33c6": {
+      "en": "Sell fabric items for Silver",
+      "cn": "售卖织物器具，以赚取银钱",
+      "ru": "Продаю изделия из ткани за серебро",
+      "status": "machine",
+      "srcHash": "24dcf56fef818303",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r33c7": {
+      "en": "<align=\"center\">Weaving</align>",
+      "cn": "<align=\"center\">织锦</align>",
+      "ru": "<align=\"center\">Ткачество</align>",
+      "status": "machine",
+      "srcHash": "c2496548060a4b4c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r33c8": {
+      "en": "<align=\"center\">Stability > 50</align>",
+      "cn": "<align=\"center\">安定＞50</align>",
+      "ru": "<align=\"center\">Стабильность &gt; 50</align>",
+      "status": "machine",
+      "srcHash": "a22f91a37b44d344",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r33c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r33c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r34c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-织造坊\">Weaving Workshop</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-织造坊\">织造坊</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f608d3fe10df44be",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r34c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-黎人古语\"><color=#GradeColor_1>Adages of the Li</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-黎人古语\"><color=#GradeColor_1>黎人古语</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a40ebc3074d0174f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r34c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"织机染料\"><color=#GradeColor_0>Dye & Loom</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"织机染料\"><color=#GradeColor_0>织机染料</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fd31141a12bc0c81",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r34c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">Embroidery Edifice</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">绣楼</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "69aa00af70296c32",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r34c6": {
+      "en": "Recruit talents with exceptional Weaving Aptitude",
+      "cn": "招募织锦资质卓越的人才",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "599249ae862b519e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r34c7": {
+      "en": "<align=\"center\">Weaving</align>",
+      "cn": "<align=\"center\">织锦</align>",
+      "ru": "<align=\"center\">Ткачество</align>",
+      "status": "machine",
+      "srcHash": "c2496548060a4b4c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r34c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r34c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r35c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-锦绣阁\">Brocade Pavilion</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-锦绣阁\">锦绣阁</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "427ba7eb53b75ba5",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r35c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-练染集注\"><color=#GradeColor_2>The Dyeing Commentary</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-练染集注\"><color=#GradeColor_2>练染集注</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "aac82dfa3f43da5a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r35c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">Embroidery Edifice</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">绣楼</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "69aa00af70296c32",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r35c6": {
+      "en": "Sell fabric items to gain Prestige",
+      "cn": "售卖织物器具，以获取威望",
+      "ru": "Продавайте изделия из ткани, чтобы завоевать Престиж",
+      "status": "machine",
+      "srcHash": "ec3d522073c1e147",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r35c7": {
+      "en": "<align=\"center\">Weaving</align>",
+      "cn": "<align=\"center\">织锦</align>",
+      "ru": "<align=\"center\">Ткачество</align>",
+      "status": "machine",
+      "srcHash": "c2496548060a4b4c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r35c8": {
+      "en": "<align=\"center\">Stability > 50</align>",
+      "cn": "<align=\"center\">安定＞50</align>",
+      "ru": "<align=\"center\">Стабильность &gt; 50</align>",
+      "status": "machine",
+      "srcHash": "a22f91a37b44d344",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r35c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r35c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r36c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-缀星阁\">Stellar Adorned Hall</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-缀星阁\">缀星阁</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "394cad83f8b4b05b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r36c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-桑蚕经\"><color=#GradeColor_3>Classic of the Mulberry Tree</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-桑蚕经\"><color=#GradeColor_3>桑蚕经</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0d34278ed3708f89",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r36c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">Embroidery Edifice</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">绣楼</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "69aa00af70296c32",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r36c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-宝石\">Gemstones</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-宝石\">宝石</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2119c33877750e7a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r36c6": {
+      "en": "When training apprentices in buildings of this settlement\\u002c increases the apprentices' chance of gaining Weaving Talent by 40%.",
+      "cn": "在此定居点的建筑中培养学徒时，提高学徒织锦资质的增长概率提高40%",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ead126e794ab7e6d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r37c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-蛇骨绫机\">Serpentine Weaving Frame</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-蛇骨绫机\">蛇骨绫机</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2d3c2c978f96128b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r37c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-借衣记\"><color=#GradeColor_4>The Tang Apparel Records</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-借衣记\"><color=#GradeColor_4>借衣记</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f35a2a7ac8962d12",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r37c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"玄蛇细骨\"><color=#GradeColor_2>Serpent Bone</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"玄蛇细骨\"><color=#GradeColor_2>玄蛇细骨</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6c7e45c18fb24555",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r37c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">Embroidery Edifice</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">绣楼</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "69aa00af70296c32",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r37c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-玄蛇窟\">Mystic Serpent Lair</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-玄蛇窟\">玄蛇窟</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "08d98b83677f0f2c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r37c6": {
+      "en": "Weaving Attainment for characters within the settlement's influence area +100",
+      "cn": "此定居点影响范围内人物的织锦造诣+100",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "5cb96d7709a0fbee",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r38c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-百花瀑\">Flower Falls</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-百花瀑\">百花瀑</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2660608867a2bba8",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r38c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-莲塘乳鸭图\"><color=#GradeColor_5>Ducks on a Lotus Pond</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-莲塘乳鸭图\"><color=#GradeColor_5>莲塘乳鸭图</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b102a9a9e7564999",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r38c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"百花种子\"><color=#GradeColor_4>Floral Seed</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"百花种子\"><color=#GradeColor_4>百花种子</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3902708ff1dc8de9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r38c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">Embroidery Edifice</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">绣楼</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "69aa00af70296c32",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r38c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-花谷\">Floral Valley</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-花谷\">花谷</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "14b142d6bab6b906",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r38c6": {
+      "en": "Harvest Fabric (Fabric) Reagent",
+      "cn": "收获织物（织造）引子",
+      "ru": "Реагент для сбора урожая ткани (Fabric)",
+      "status": "machine",
+      "srcHash": "77ba19c6b468c9d4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r38c7": {
+      "en": "<align=\"center\">Weaving</align>",
+      "cn": "<align=\"center\">织锦</align>",
+      "ru": "<align=\"center\">Ткачество</align>",
+      "status": "machine",
+      "srcHash": "c2496548060a4b4c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r38c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r38c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r39c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-奇珍园\">Marvel Orchard</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-奇珍园\">奇珍园</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d2048607c150a40d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r39c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-莲塘乳鸭图\"><color=#GradeColor_5>Ducks on a Lotus Pond</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-莲塘乳鸭图\"><color=#GradeColor_5>莲塘乳鸭图</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b102a9a9e7564999",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r39c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"奇珍胎卵\"><color=#GradeColor_4>Otherworldly Spawn</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"奇珍胎卵\"><color=#GradeColor_4>奇珍胎卵</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2385d7d2444a5632",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r39c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">Embroidery Edifice</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">绣楼</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "69aa00af70296c32",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r39c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-花谷\">Floral Valley</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-花谷\">花谷</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "14b142d6bab6b906",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r39c6": {
+      "en": "Obtain Fabric (Fur) Reagent",
+      "cn": "收获织物（毛皮）引子",
+      "ru": "Получение Реагента для ткани (меха)",
+      "status": "machine",
+      "srcHash": "5026b652f49606ee",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r39c7": {
+      "en": "<align=\"center\">Weaving</align>",
+      "cn": "<align=\"center\">织锦</align>",
+      "ru": "<align=\"center\">Ткачество</align>",
+      "status": "machine",
+      "srcHash": "c2496548060a4b4c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r39c9": {
+      "en": "<align=\"center\">Artisan</align>",
+      "cn": "<align=\"center\">匠人</align>",
+      "ru": "<align=\"center\">Ремесленник</align>",
+      "status": "machine",
+      "srcHash": "4b42e1da82bef2b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r39c10": {
+      "en": "<align=\"center\">Fortitude</align>",
+      "cn": "<align=\"center\">坚毅</align>",
+      "ru": "<align=\"center\">Стойкость</align>",
+      "status": "machine",
+      "srcHash": "30e12fbe81cca770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r40c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-彩桑园\">Rainbow Sericulture Orchard</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-彩桑园\">彩桑园</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4ab60af98d2af006",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r40c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-仪礼\"><color=#GradeColor_6>Book of Etiquette and Ceremonial</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-仪礼\"><color=#GradeColor_6>仪礼</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c02a05464e017f06",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r40c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"十二色彩蚕\"><color=#GradeColor_6>Rainbow Silkworm</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"十二色彩蚕\"><color=#GradeColor_6>十二色彩蚕</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d988d4dbae08a58b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r40c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">Embroidery Edifice</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">绣楼</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "69aa00af70296c32",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r40c6": {
+      "en": "Increase the tier of fabric items crafted in a dependent building",
+      "cn": "在依赖建筑中制造织物器具时，提升产物的品级",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6c96dcce0b2dec94",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r41c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-神彩梭\">Celestial Weaving Shuttle</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-神彩梭\">神彩梭</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9a11f4882c077224",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r41c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-百花锦册\"><color=#GradeColor_7>Book of Patterns</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-百花锦册\"><color=#GradeColor_7>百花锦册</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "495a78cbcdcec41c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r41c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"神彩晶磁\"><color=#GradeColor_7>Magnetic Shard</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"神彩晶磁\"><color=#GradeColor_7>神彩晶磁</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "06455dc93ddfa028",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r41c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">Embroidery Edifice</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-绣楼\">绣楼</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "69aa00af70296c32",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r41c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-奇香原\">Aromatic Meadow</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-奇香原\">奇香原</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a04bcfd09ad8ad62",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r41c6": {
+      "en": "Reduce the Weaving Attainment required for crafting and processing items in dependent buildings",
+      "cn": "在依赖建筑中制造加工时，降低织锦造诣需求",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f345bfa486ed2562",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r42c0": {
+      "en": "<align=\"center\"><td rowspan=\"10\">Medical Art</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"10\">医术</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d4ecd576a721ec07",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r42c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">Pharmacy</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">药房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0a8e8206716e3cab",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r42c6": {
+      "en": "Basic Medical Arts building. Enables the crafting of Concoction and Poison Cream\\nIncreases the study efficiency of medical arts books for characters within the settlement's influence area.",
+      "cn": "基础医术建筑，可制造丹药、药霜\\n可提高此定居点影响范围内的人物研读医术书籍时的效率",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2909ae0343dae0b0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r42c7": {
+      "en": "<align=\"center\">Medical Art</align>",
+      "cn": "<align=\"center\">医术</align>",
+      "ru": "<align=\"center\">Медицинское искусство</align>",
+      "status": "machine",
+      "srcHash": "c99600f42b4ded36",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r42c9": {
+      "en": "<align=\"center\">Doctor</align>",
+      "cn": "<align=\"center\">大夫</align>",
+      "ru": "<align=\"center\">Доктор</align>",
+      "status": "machine",
+      "srcHash": "32453ccd84646884",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r42c10": {
+      "en": "<align=\"center\">Composure</align>",
+      "cn": "<align=\"center\">冷静</align>",
+      "ru": "<align=\"center\">Самообладание</align>",
+      "status": "machine",
+      "srcHash": "6ab371c39f3584e5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r43c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-熟药铺\">Herbal Dispensary</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-熟药铺\">熟药铺</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "374b40e608cb6a7b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r43c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-脉经\"><color=#GradeColor_0>The Pulse Classic</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-脉经\"><color=#GradeColor_0>脉经</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ae205391d91fd6be",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r43c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">Pharmacy</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">药房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0a8e8206716e3cab",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r43c6": {
+      "en": "Sell Concoction for Silver",
+      "cn": "售卖丹药，以赚取银钱",
+      "ru": "Продаю варево за серебро",
+      "status": "machine",
+      "srcHash": "7cc1a3fd2d6ee7bf",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r43c7": {
+      "en": "<align=\"center\">Medical Art</align>",
+      "cn": "<align=\"center\">医术</align>",
+      "ru": "<align=\"center\">Медицинское искусство</align>",
+      "status": "machine",
+      "srcHash": "c99600f42b4ded36",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r43c8": {
+      "en": "<align=\"center\">Stability＜50</align>",
+      "cn": "<align=\"center\">安定＜50</align>",
+      "ru": "<align=\"center\">Стабильность≈50</align>",
+      "status": "machine",
+      "srcHash": "00d2e078098b6f5f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r43c9": {
+      "en": "<align=\"center\">Doctor</align>",
+      "cn": "<align=\"center\">大夫</align>",
+      "ru": "<align=\"center\">Доктор</align>",
+      "status": "machine",
+      "srcHash": "32453ccd84646884",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r43c10": {
+      "en": "<align=\"center\">Composure</align>",
+      "cn": "<align=\"center\">冷静</align>",
+      "ru": "<align=\"center\">Самообладание</align>",
+      "status": "machine",
+      "srcHash": "6ab371c39f3584e5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r44c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药师馆\">Pharmacy Research Academy</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药师馆\">药师馆</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fdc94e363866178b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r44c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-褚氏遗书\"><color=#GradeColor_1>The Posthumous Works of Mr. Chu</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-褚氏遗书\"><color=#GradeColor_1>褚氏遗书</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "14c31434edf07035",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r44c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"红木药柜\"><color=#GradeColor_0>Rosewood Cabinet</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"红木药柜\"><color=#GradeColor_0>红木药柜</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7f72d2fb137ba6ee",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r44c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">Pharmacy</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">药房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0a8e8206716e3cab",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r44c6": {
+      "en": "Recruit talents with exceptional Medical Art Aptitude",
+      "cn": "招募医术资质卓越的人才",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "054649b0f607a7d3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r44c7": {
+      "en": "<align=\"center\">Medical Art</align>",
+      "cn": "<align=\"center\">医术</align>",
+      "ru": "<align=\"center\">Медицинское искусство</align>",
+      "status": "machine",
+      "srcHash": "c99600f42b4ded36",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r44c9": {
+      "en": "<align=\"center\">Doctor</align>",
+      "cn": "<align=\"center\">大夫</align>",
+      "ru": "<align=\"center\">Доктор</align>",
+      "status": "machine",
+      "srcHash": "32453ccd84646884",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r44c10": {
+      "en": "<align=\"center\">Composure</align>",
+      "cn": "<align=\"center\">冷静</align>",
+      "ru": "<align=\"center\">Самообладание</align>",
+      "status": "machine",
+      "srcHash": "6ab371c39f3584e5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r45c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-病坊\">Clinic</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-病坊\">病坊</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2f8c21531d9dd3c4",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r45c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-难经\"><color=#GradeColor_2>Classic of Questioning</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-难经\"><color=#GradeColor_2>难经</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d75e82d10f570969",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r45c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">Pharmacy</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">药房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0a8e8206716e3cab",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r45c6": {
+      "en": "Sell Concoction to gain Prestige",
+      "cn": "售卖丹药，以获取威望",
+      "ru": "Продавайте стряпню, чтобы завоевать Престиж",
+      "status": "machine",
+      "srcHash": "700dab552ee07423",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r45c7": {
+      "en": "<align=\"center\">Medical Art</align>",
+      "cn": "<align=\"center\">医术</align>",
+      "ru": "<align=\"center\">Медицинское искусство</align>",
+      "status": "machine",
+      "srcHash": "c99600f42b4ded36",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r45c8": {
+      "en": "<align=\"center\">Stability＜50</align>",
+      "cn": "<align=\"center\">安定＜50</align>",
+      "ru": "<align=\"center\">Стабильность≈50</align>",
+      "status": "machine",
+      "srcHash": "00d2e078098b6f5f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r45c9": {
+      "en": "<align=\"center\">Doctor</align>",
+      "cn": "<align=\"center\">大夫</align>",
+      "ru": "<align=\"center\">Доктор</align>",
+      "status": "machine",
+      "srcHash": "32453ccd84646884",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r45c10": {
+      "en": "<align=\"center\">Composure</align>",
+      "cn": "<align=\"center\">冷静</align>",
+      "ru": "<align=\"center\">Самообладание</align>",
+      "status": "machine",
+      "srcHash": "6ab371c39f3584e5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r46c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-兽医馆\">Veterinarian Hall</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-兽医馆\">兽医馆</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "887a6f1d6212ebe6",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r46c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-千金翼方\"><color=#GradeColor_3>Supplement to the Prescriptions Worth a Thousand Gold</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-千金翼方\"><color=#GradeColor_3>千金翼方</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2a3b982b1d239eed",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r46c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">Pharmacy</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">药房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0a8e8206716e3cab",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r46c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-兽群\">Beast Pack</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-兽群\">兽群</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fd2828dcf7541a4e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r46c6": {
+      "en": "When training apprentices in buildings of this settlement\\u002c increases the apprentices' chance of gaining Medical Arts Talent by 40%.",
+      "cn": "在此定居点的建筑中培养学徒时，学徒医术资质的增长概率提高40%",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bb4d30cb6a7d73cd",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r47c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-银盖冰棺\">Silvered Ice Coffin</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-银盖冰棺\">银盖冰棺</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "81548be815c92927",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r47c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-伤寒论\"><color=#GradeColor_4>Treatise on Cold Pathogenic Diseases</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-伤寒论\"><color=#GradeColor_4>伤寒论</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "5d8949d9f4c8d1a9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r47c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"寒玉冰棺\"><color=#GradeColor_2>Glacia Coffin</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"寒玉冰棺\"><color=#GradeColor_2>寒玉冰棺</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2db731b62160bc3f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r47c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">Pharmacy</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">药房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0a8e8206716e3cab",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r47c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-玄冰\">Permafrost</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-玄冰\">玄冰</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8fc91ef61c0d7a24",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r47c6": {
+      "en": "Medical Art Attainment for characters within the settlement's influence area +100",
+      "cn": "此定居点影响范围内人物的医术造诣+100",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0e8e6150a204a46f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r48c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药圃\">Medicinal Herb Garden</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药圃\">药圃</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "78781f42747c103e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r48c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-青囊书\"><color=#GradeColor_5>Green Bag Book</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-青囊书\"><color=#GradeColor_5>青囊书</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a2ebff7cd49e298a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r48c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"四时定光珠\"><color=#GradeColor_4>Warmth Orb</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"四时定光珠\"><color=#GradeColor_4>四时定光珠</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f41e67fc6191c2ce",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r48c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">Pharmacy</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">药房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0a8e8206716e3cab",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r48c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-草药\">Herbs</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-草药\">草药</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3da835782c524adf",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r48c6": {
+      "en": "Obtain Herb (Yang) Reagent",
+      "cn": "收获药材（阳性）引子",
+      "ru": "Получить Реагент из травы (Ян)",
+      "status": "machine",
+      "srcHash": "d32a39f2375486fc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r48c7": {
+      "en": "<align=\"center\">Medical Art</align>",
+      "cn": "<align=\"center\">医术</align>",
+      "ru": "<align=\"center\">Медицинское искусство</align>",
+      "status": "machine",
+      "srcHash": "c99600f42b4ded36",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r48c9": {
+      "en": "<align=\"center\">Doctor</align>",
+      "cn": "<align=\"center\">大夫</align>",
+      "ru": "<align=\"center\">Доктор</align>",
+      "status": "machine",
+      "srcHash": "32453ccd84646884",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r48c10": {
+      "en": "<align=\"center\">Composure</align>",
+      "cn": "<align=\"center\">冷静</align>",
+      "ru": "<align=\"center\">Самообладание</align>",
+      "status": "machine",
+      "srcHash": "6ab371c39f3584e5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r49c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-养药室\">Herbal Cultivation Room</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-养药室\">养药室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "864967cac4e9d3f5",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r49c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-青囊书\"><color=#GradeColor_5>Green Bag Book</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-青囊书\"><color=#GradeColor_5>青囊书</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a2ebff7cd49e298a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r49c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"通元百窍石\"><color=#GradeColor_4>Cavern Stone</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"通元百窍石\"><color=#GradeColor_4>通元百窍石</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "70ae34965775ef25",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r49c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">Pharmacy</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">药房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0a8e8206716e3cab",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r49c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-草药\">Herbs</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-草药\">草药</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3da835782c524adf",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r49c6": {
+      "en": "Obtain Herb (Yin) Reagent",
+      "cn": "收获药材（阴性）引子",
+      "ru": "Получить травяной Реагент (Инь)",
+      "status": "machine",
+      "srcHash": "ded3960157f5aea5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r49c7": {
+      "en": "<align=\"center\">Medical Art</align>",
+      "cn": "<align=\"center\">医术</align>",
+      "ru": "<align=\"center\">Медицинское искусство</align>",
+      "status": "machine",
+      "srcHash": "c99600f42b4ded36",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r49c9": {
+      "en": "<align=\"center\">Doctor</align>",
+      "cn": "<align=\"center\">大夫</align>",
+      "ru": "<align=\"center\">Доктор</align>",
+      "status": "machine",
+      "srcHash": "32453ccd84646884",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r49c10": {
+      "en": "<align=\"center\">Composure</align>",
+      "cn": "<align=\"center\">冷静</align>",
+      "ru": "<align=\"center\">Самообладание</align>",
+      "status": "machine",
+      "srcHash": "6ab371c39f3584e5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r50c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-水火青炉\">Aquaflame Crucible</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-水火青炉\">水火青炉</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "74e1b0a7b81a1232",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r50c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-金匮要略\"><color=#GradeColor_6>Synopsis of Golden Chamber</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-金匮要略\"><color=#GradeColor_6>金匮要略</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3bb7e6328e1311d7",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r50c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"水火无烟炭\"><color=#GradeColor_6>Fumeless Coal</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"水火无烟炭\"><color=#GradeColor_6>水火无烟炭</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4d75e43b3fab1520",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r50c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">Pharmacy</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">药房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0a8e8206716e3cab",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r50c6": {
+      "en": "Increase the tier of pills crafted in a dependent building",
+      "cn": "在依赖建筑中制造丹药时，提升产物的品级",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2ad1e7fcadea4ed5",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r51c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-神农涧\">Gully of the Divine Farmer</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-神农涧\">神农涧</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "062da4ec3d31c219",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r51c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-神农本草经\"><color=#GradeColor_7>Divine Farmer's Classic of Materia Medica</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-神农本草经\"><color=#GradeColor_7>神农本草经</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "232492f1f2e98d3d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r51c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"神农血\"><color=#GradeColor_7>Divine Farmer Blood</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"神农血\"><color=#GradeColor_7>神农血</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e9d01c75866f0239",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r51c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">Pharmacy</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-药房\">药房</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0a8e8206716e3cab",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r51c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-长春涧\">Everspring Gorge</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-长春涧\">长春涧</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c9af62580e7daca3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r51c6": {
+      "en": "Reduce the Medical Arts Attainment required for crafting and processing items in dependent buildings",
+      "cn": "在依赖建筑中制造加工时，降低医术造诣需求",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c2b5b16cd6d0afb8",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r52c0": {
+      "en": "<align=\"center\"><td rowspan=\"10\">Toxicology</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"10\">毒术</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b0ea6fc46f61dbea",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r52c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">Secluded Chamber</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">幽室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bea468ad7445dd49",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r52c6": {
+      "en": "Basic Toxicology building. Enables the creation of poisons and Arsenopyrite to envenom and detoxify.\\nIncreases the study efficiency of medical arts books for characters within the settlement's influence area.",
+      "cn": "基础毒术建筑，可制造毒药、毒砂，给物品淬毒、解毒\\n可提高此定居点影响范围内的人物研读毒术书籍时的效率",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "5f788b3aad4b5a4e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r52c7": {
+      "en": "<align=\"center\">Toxicology</align>",
+      "cn": "<align=\"center\">毒术</align>",
+      "ru": "<align=\"center\">Токсикология</align>",
+      "status": "machine",
+      "srcHash": "0d8042e46d910bfe",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r52c9": {
+      "en": "<align=\"center\">Doctor</align>",
+      "cn": "<align=\"center\">大夫</align>",
+      "ru": "<align=\"center\">Доктор</align>",
+      "status": "machine",
+      "srcHash": "32453ccd84646884",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r52c10": {
+      "en": "<align=\"center\">Composure</align>",
+      "cn": "<align=\"center\">冷静</align>",
+      "ru": "<align=\"center\">Самообладание</align>",
+      "status": "machine",
+      "srcHash": "6ab371c39f3584e5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r53c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-毒市\">Poison Market</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-毒市\">毒市</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e850761fadd8a7ec",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r53c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-六害经\"><color=#GradeColor_0>Guide to the Six Symptoms</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-六害经\"><color=#GradeColor_0>六害经</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "acdef9d5aa7a266d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r53c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">Secluded Chamber</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">幽室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bea468ad7445dd49",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r53c6": {
+      "en": "Sell poisons for Silver",
+      "cn": "售卖毒药，以赚取银钱",
+      "ru": "Продавайте Яды за серебро",
+      "status": "machine",
+      "srcHash": "c8d96666afc2a1d8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r53c7": {
+      "en": "<align=\"center\">Toxicology</align>",
+      "cn": "<align=\"center\">毒术</align>",
+      "ru": "<align=\"center\">Токсикология</align>",
+      "status": "machine",
+      "srcHash": "0d8042e46d910bfe",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r53c8": {
+      "en": "<align=\"center\">Stability＜50</align>",
+      "cn": "<align=\"center\">安定＜50</align>",
+      "ru": "<align=\"center\">Стабильность≈50</align>",
+      "status": "machine",
+      "srcHash": "00d2e078098b6f5f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r53c9": {
+      "en": "<align=\"center\">Doctor</align>",
+      "cn": "<align=\"center\">大夫</align>",
+      "ru": "<align=\"center\">Доктор</align>",
+      "status": "machine",
+      "srcHash": "32453ccd84646884",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r53c10": {
+      "en": "<align=\"center\">Composure</align>",
+      "cn": "<align=\"center\">冷静</align>",
+      "ru": "<align=\"center\">Самообладание</align>",
+      "status": "machine",
+      "srcHash": "6ab371c39f3584e5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r54c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-暗牢\">Secret Prison</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-暗牢\">暗牢</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bb204340c2a663c2",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r54c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-毒经\"><color=#GradeColor_1>Classic on Poison</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-毒经\"><color=#GradeColor_1>毒经</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "30f1bf7762ca03b7",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r54c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"刑戮架\"><color=#GradeColor_0>Judgment Rack</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"刑戮架\"><color=#GradeColor_0>刑戮架</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d385728219db4613",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r54c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">Secluded Chamber</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">幽室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bea468ad7445dd49",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r54c6": {
+      "en": "Recruit talents with exceptional Toxicology Aptitude",
+      "cn": "招募毒术资质卓越的人才",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "93884e032763012d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r54c7": {
+      "en": "<align=\"center\">Toxicology</align>",
+      "cn": "<align=\"center\">毒术</align>",
+      "ru": "<align=\"center\">Токсикология</align>",
+      "status": "machine",
+      "srcHash": "0d8042e46d910bfe",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r54c9": {
+      "en": "<align=\"center\">Doctor</align>",
+      "cn": "<align=\"center\">大夫</align>",
+      "ru": "<align=\"center\">Доктор</align>",
+      "status": "machine",
+      "srcHash": "32453ccd84646884",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r54c10": {
+      "en": "<align=\"center\">Composure</align>",
+      "cn": "<align=\"center\">冷静</align>",
+      "ru": "<align=\"center\">Самообладание</align>",
+      "status": "machine",
+      "srcHash": "6ab371c39f3584e5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r55c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-密医\">Unorthodox Doctor</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-密医\">密医</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "defda3b74815b26c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r55c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-洗冤集录\"><color=#GradeColor_2>Records of Redressing Grievances</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-洗冤集录\"><color=#GradeColor_2>洗冤集录</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d5cceaaf940c47d4",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r55c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">Secluded Chamber</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">幽室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bea468ad7445dd49",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r55c6": {
+      "en": "Sell poisons to gain Prestige",
+      "cn": "售卖毒药，以获取威望",
+      "ru": "Продавайте Яды, чтобы завоевать Престиж",
+      "status": "machine",
+      "srcHash": "ca9a67557b1b07bc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r55c7": {
+      "en": "<align=\"center\">Toxicology</align>",
+      "cn": "<align=\"center\">毒术</align>",
+      "ru": "<align=\"center\">Токсикология</align>",
+      "status": "machine",
+      "srcHash": "0d8042e46d910bfe",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r55c8": {
+      "en": "<align=\"center\">Stability＜50</align>",
+      "cn": "<align=\"center\">安定＜50</align>",
+      "ru": "<align=\"center\">Стабильность≈50</align>",
+      "status": "machine",
+      "srcHash": "00d2e078098b6f5f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r55c9": {
+      "en": "<align=\"center\">Doctor</align>",
+      "cn": "<align=\"center\">大夫</align>",
+      "ru": "<align=\"center\">Доктор</align>",
+      "status": "machine",
+      "srcHash": "32453ccd84646884",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r55c10": {
+      "en": "<align=\"center\">Composure</align>",
+      "cn": "<align=\"center\">冷静</align>",
+      "ru": "<align=\"center\">Самообладание</align>",
+      "status": "machine",
+      "srcHash": "6ab371c39f3584e5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r56c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-豢养室\">Livestock Pen</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-豢养室\">豢养室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "48fd95f11eb72dd3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r56c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-邪物论\"><color=#GradeColor_3>On Evil Substances</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-邪物论\"><color=#GradeColor_3>邪物论</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "79dea95863283b74",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r56c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">Secluded Chamber</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">幽室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bea468ad7445dd49",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r56c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-兽群\">Beast Pack</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-兽群\">兽群</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fd2828dcf7541a4e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r56c6": {
+      "en": "When training apprentices in buildings of this settlement\\u002c increases the apprentices' chance of gaining Toxicology Talent by 40%.",
+      "cn": "在此定居点的建筑中培养学徒时，学徒毒术资质的增长概率提高40%",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "46fb2d73b48cbde8",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r57c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-无人居\">Deserted Dwelling</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-无人居\">无人居</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2bd9e8c2c0c24fa6",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r57c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-幽潭全书\"><color=#GradeColor_4>Collection of Hidden Toxicants</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-幽潭全书\"><color=#GradeColor_4>幽潭全书</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "76a0d39dc5c61e83",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r57c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"避人香\"><color=#GradeColor_2>Vile-Smell-Incense Burner</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"避人香\"><color=#GradeColor_2>避人香</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c47b517df427788a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r57c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">Secluded Chamber</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">幽室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bea468ad7445dd49",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r57c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-密林\">Thick Woods</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-密林\">密林</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "03d97478449a2b0d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r57c6": {
+      "en": "Toxicology Attainment for characters within the settlement's influence area +100",
+      "cn": "此定居点影响范围内人物的毒术造诣+100",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "116500abc1e7a8fc",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r58c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-炼瘴池\">Miasma Basin</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-炼瘴池\">炼瘴池</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fc2672a732650a63",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r58c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-鬼壶经\"><color=#GradeColor_5>Classic of Poisonous Liquor</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-鬼壶经\"><color=#GradeColor_5>鬼壶经</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "816db6ddf7c4cb68",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r58c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"吞鬼化瘴炉\"><color=#GradeColor_4>Miasma Kiln</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"吞鬼化瘴炉\"><color=#GradeColor_4>吞鬼化瘴炉</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fbd958973f259c0a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r58c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">Secluded Chamber</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">幽室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bea468ad7445dd49",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r58c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-毒沼\">Toxic Swamp</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-毒沼\">毒沼</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3599b816d3ae3696",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r58c6": {
+      "en": "Obtain Poison (Yang) Reagent",
+      "cn": "收获毒物（阳性）引子",
+      "ru": "Получите Реагент для получения Яда (Ян)",
+      "status": "machine",
+      "srcHash": "a66a78dd0170f68f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r58c7": {
+      "en": "<align=\"center\">Toxicology</align>",
+      "cn": "<align=\"center\">毒术</align>",
+      "ru": "<align=\"center\">Токсикология</align>",
+      "status": "machine",
+      "srcHash": "0d8042e46d910bfe",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r58c9": {
+      "en": "<align=\"center\">Doctor</align>",
+      "cn": "<align=\"center\">大夫</align>",
+      "ru": "<align=\"center\">Доктор</align>",
+      "status": "machine",
+      "srcHash": "32453ccd84646884",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r58c10": {
+      "en": "<align=\"center\">Composure</align>",
+      "cn": "<align=\"center\">冷静</align>",
+      "ru": "<align=\"center\">Самообладание</align>",
+      "status": "machine",
+      "srcHash": "6ab371c39f3584e5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r59c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-废人窟\">Forsaken Den</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-废人窟\">废人窟</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3c082bfab2b3bcff",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r59c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-鬼壶经\"><color=#GradeColor_5>Classic of Poisonous Liquor</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-鬼壶经\"><color=#GradeColor_5>鬼壶经</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "816db6ddf7c4cb68",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r59c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"饲人笼\"><color=#GradeColor_4>Human Cage</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"饲人笼\"><color=#GradeColor_4>饲人笼</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "790edbd825f1b451",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r59c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">Secluded Chamber</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">幽室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bea468ad7445dd49",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r59c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-毒沼\">Toxic Swamp</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-毒沼\">毒沼</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3599b816d3ae3696",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r59c6": {
+      "en": "Obtain Poison (Yin) Reagent",
+      "cn": "收获毒物（阴性）引子",
+      "ru": "Получите Реагент для получения Яда (Инь)",
+      "status": "machine",
+      "srcHash": "f97a2d074afdfc07",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r59c7": {
+      "en": "<align=\"center\">Toxicology</align>",
+      "cn": "<align=\"center\">毒术</align>",
+      "ru": "<align=\"center\">Токсикология</align>",
+      "status": "machine",
+      "srcHash": "0d8042e46d910bfe",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r59c9": {
+      "en": "<align=\"center\">Doctor</align>",
+      "cn": "<align=\"center\">大夫</align>",
+      "ru": "<align=\"center\">Доктор</align>",
+      "status": "machine",
+      "srcHash": "32453ccd84646884",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r59c10": {
+      "en": "<align=\"center\">Composure</align>",
+      "cn": "<align=\"center\">冷静</align>",
+      "ru": "<align=\"center\">Самообладание</align>",
+      "status": "machine",
+      "srcHash": "6ab371c39f3584e5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r60c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-血池\">Blood Pool</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-血池\">血池</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1bd7bcab71947544",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r60c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-本经下品注\"><color=#GradeColor_6>Notes on the Low Herbs of the Divine Farmer</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-本经下品注\"><color=#GradeColor_6>本经下品注</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2ef09c45014997ad",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r60c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"化血石\"><color=#GradeColor_6>Sanguine Stone</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"化血石\"><color=#GradeColor_6>化血石</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2972dceb90b1d5fe",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r60c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">Secluded Chamber</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">幽室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bea468ad7445dd49",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r60c6": {
+      "en": "Increase the tier of poisons crafted in a dependent building",
+      "cn": "在依赖建筑中制造毒药时，提升产物的品级",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "06ba9b2d8e902297",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r61c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-神龙柱\">Divine Loong Pillar</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-神龙柱\">神龙柱</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ce4b16baaff028e2",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r61c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-百损经\"><color=#GradeColor_7>Toxicants to Disrupt Meridians</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-百损经\"><color=#GradeColor_7>百损经</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ee01c3a5e6c39554",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r61c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"奇香神龙木\"><color=#GradeColor_7>Fragrant Loong Wood</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"奇香神龙木\"><color=#GradeColor_7>奇香神龙木</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "26d593a45e5c079d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r61c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">Secluded Chamber</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-幽室\">幽室</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bea468ad7445dd49",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r61c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-玄蛇窟\">Mystic Serpent Lair</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-玄蛇窟\">玄蛇窟</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "08d98b83677f0f2c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r61c6": {
+      "en": "Reduce the Toxicology Attainment required for crafting and processing items in dependent buildings",
+      "cn": "在依赖建筑中制造加工时，降低毒术造诣需求",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d432cb3f944c6763",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r62c0": {
+      "en": "<align=\"center\"><td rowspan=\"10\">Cooking</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"10\">厨艺</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "5d3cc4f8e93e8d89",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r62c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">Kitchen</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">食窖</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f3b927045a5a2dc1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r62c6": {
+      "en": "Basic Cooking building. Enables the creation of dishes. Increases the study efficiency of cooking books for characters within the settlement's influence area.",
+      "cn": "基础厨艺建筑，可制造菜肴\\n可提高此定居点影响范围内的人物研读厨艺书籍时的效率",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "434d0da477b1a36f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r62c7": {
+      "en": "<align=\"center\">Cooking</align>",
+      "cn": "<align=\"center\">厨艺</align>",
+      "ru": "<align=\"center\">Приготовление еды</align>",
+      "status": "machine",
+      "srcHash": "61fbadb46ef99da1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r62c9": {
+      "en": "<align=\"center\">Farmer</align>",
+      "cn": "<align=\"center\">农户</align>",
+      "ru": "<align=\"center\">Крестьянин</align>",
+      "status": "machine",
+      "srcHash": "2c6a8195fe3588a2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r62c10": {
+      "en": "<align=\"center\">Harmony</align>",
+      "cn": "<align=\"center\">合道</align>",
+      "ru": "<align=\"center\">Гармония</align>",
+      "status": "machine",
+      "srcHash": "ebe6d3e4b899a5e9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r63c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-酒楼\">Tavern</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-酒楼\">酒楼</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "042c4f0ce2158c4a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r63c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-四民食录\"><color=#GradeColor_0>Cookbook for the Four Classes</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-四民食录\"><color=#GradeColor_0>四民食录</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "82b012ccf0eec2bb",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r63c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">Kitchen</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">食窖</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f3b927045a5a2dc1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r63c6": {
+      "en": "Sell dishes for Silver",
+      "cn": "售卖菜肴，以赚取银钱",
+      "ru": "Продаю посуду из серебра",
+      "status": "machine",
+      "srcHash": "6cc83907e6902ccb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r63c7": {
+      "en": "<align=\"center\">Cooking</align>",
+      "cn": "<align=\"center\">厨艺</align>",
+      "ru": "<align=\"center\">Приготовление еды</align>",
+      "status": "machine",
+      "srcHash": "61fbadb46ef99da1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r63c8": {
+      "en": "<align=\"center\">Stability > 50</align>",
+      "cn": "<align=\"center\">安定＞50</align>",
+      "ru": "<align=\"center\">Стабильность &gt; 50</align>",
+      "status": "machine",
+      "srcHash": "a22f91a37b44d344",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r63c9": {
+      "en": "<align=\"center\">Farmer</align>",
+      "cn": "<align=\"center\">农户</align>",
+      "ru": "<align=\"center\">Крестьянин</align>",
+      "status": "machine",
+      "srcHash": "2c6a8195fe3588a2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r63c10": {
+      "en": "<align=\"center\">Harmony</align>",
+      "cn": "<align=\"center\">合道</align>",
+      "ru": "<align=\"center\">Гармония</align>",
+      "status": "machine",
+      "srcHash": "ebe6d3e4b899a5e9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r64c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-百家宴\">Feast Hall</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-百家宴\">百家宴</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1a2bb6b79b3eff12",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r64c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-宋嫂食单\"><color=#GradeColor_1>Lady Song's Menu</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-宋嫂食单\"><color=#GradeColor_1>宋嫂食单</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "15d52c0a4543407c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r64c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"百千碗盏\"><color=#GradeColor_0>Quaint Bowls</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"百千碗盏\"><color=#GradeColor_0>百千碗盏</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d688df10bad4ea73",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r64c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">Kitchen</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">食窖</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f3b927045a5a2dc1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r64c6": {
+      "en": "Recruit talents with exceptional Cooking Aptitude",
+      "cn": "招募厨艺资质卓越的人才",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0170d60884dbd51a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r64c7": {
+      "en": "<align=\"center\">Cooking</align>",
+      "cn": "<align=\"center\">厨艺</align>",
+      "ru": "<align=\"center\">Приготовление еды</align>",
+      "status": "machine",
+      "srcHash": "61fbadb46ef99da1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r64c9": {
+      "en": "<align=\"center\">Farmer</align>",
+      "cn": "<align=\"center\">农户</align>",
+      "ru": "<align=\"center\">Крестьянин</align>",
+      "status": "machine",
+      "srcHash": "2c6a8195fe3588a2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r64c10": {
+      "en": "<align=\"center\">Harmony</align>",
+      "cn": "<align=\"center\">合道</align>",
+      "ru": "<align=\"center\">Гармония</align>",
+      "status": "machine",
+      "srcHash": "ebe6d3e4b899a5e9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r65c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-争妍阁\">Gourmet Pavilion</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-争妍阁\">争妍阁</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a9dd724fd9abc345",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r65c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-本心斋食谱\"><color=#GradeColor_2>Benxin's Vegetarian Recipes</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-本心斋食谱\"><color=#GradeColor_2>本心斋食谱</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "437b5928ea092b36",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r65c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">Kitchen</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">食窖</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f3b927045a5a2dc1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r65c6": {
+      "en": "Sell dishes to gain Prestige",
+      "cn": "售卖菜肴，以获取威望",
+      "ru": "Продавайте посуду, чтобы завоевать Престиж",
+      "status": "machine",
+      "srcHash": "bb329aa812741530",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r65c7": {
+      "en": "<align=\"center\">Cooking</align>",
+      "cn": "<align=\"center\">厨艺</align>",
+      "ru": "<align=\"center\">Приготовление еды</align>",
+      "status": "machine",
+      "srcHash": "61fbadb46ef99da1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r65c8": {
+      "en": "<align=\"center\">Stability > 50</align>",
+      "cn": "<align=\"center\">安定＞50</align>",
+      "ru": "<align=\"center\">Стабильность &gt; 50</align>",
+      "status": "machine",
+      "srcHash": "a22f91a37b44d344",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r65c9": {
+      "en": "<align=\"center\">Farmer</align>",
+      "cn": "<align=\"center\">农户</align>",
+      "ru": "<align=\"center\">Крестьянин</align>",
+      "status": "machine",
+      "srcHash": "2c6a8195fe3588a2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r65c10": {
+      "en": "<align=\"center\">Harmony</align>",
+      "cn": "<align=\"center\">合道</align>",
+      "ru": "<align=\"center\">Гармония</align>",
+      "status": "machine",
+      "srcHash": "ebe6d3e4b899a5e9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r66c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-百兽园\">Rare Game Reserve</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-百兽园\">百兽园</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0c2d0dc1aa216af2",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r66c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-氾胜之书\"><color=#GradeColor_3>Fan Shengzhi's Works on Agriculture</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-氾胜之书\"><color=#GradeColor_3>氾胜之书</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bd655572e324c7bb",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r66c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">Kitchen</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">食窖</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f3b927045a5a2dc1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r66c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-兽群\">Beast Pack</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-兽群\">兽群</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fd2828dcf7541a4e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r66c6": {
+      "en": "When training apprentices in buildings of this settlement\\u002c increases the apprentices' chance of gaining Culinary Arts Talent by 40%.",
+      "cn": "在此定居点的建筑中培养学徒时，学徒厨艺资质的增长概率提高40%",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6b60db16c6778448",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r67c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-灶王玄鼎\">Divine Cooking Ding</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-灶王玄鼎\">灶王玄鼎</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9a2c67267e7bd175",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r67c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-烧尾食单\"><color=#GradeColor_4>The Tail-Burning Banquet</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-烧尾食单\"><color=#GradeColor_4>烧尾食单</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "95f90cb4402c43bd",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r67c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"天铁玄鼎\"><color=#GradeColor_2>Heaven Ding</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"天铁玄鼎\"><color=#GradeColor_2>天铁玄鼎</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "caa8a7f817b419e3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r67c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">Kitchen</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">食窖</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f3b927045a5a2dc1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r67c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-陨铁坑\">Meteoric Iron Crater</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-陨铁坑\">陨铁坑</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "019d1be7502fd8dc",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r67c6": {
+      "en": "Culinary Arts Attainment for characters within the settlement's influence area +100",
+      "cn": "此定居点影响范围内人物的厨艺造诣+100",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4ce5ad27e7cdcdc6",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r68c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-四季园\">Seasonal Garden</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-四季园\">四季园</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e7e3970ecdbe87f6",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r68c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-山家清供\"><color=#GradeColor_5>Hospitality of a Household in Mountains</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-山家清供\"><color=#GradeColor_5>山家清供</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "918c7671b68338fb",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r68c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"四季流风\"><color=#GradeColor_4>Wind of Seasons</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"四季流风\"><color=#GradeColor_4>四季流风</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ae52c03606f5777c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r68c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">Kitchen</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">食窖</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f3b927045a5a2dc1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r68c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-沃野\">Fertile Land</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-沃野\">沃野</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "db0c71dca8fb0a06",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r68c6": {
+      "en": "Harvest Foodstuff (Vegetable\\u002c Beasts) Reagent",
+      "cn": "收获食材（素菜、兽类）引子",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0488df6adf912b52",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r68c7": {
+      "en": "<align=\"center\">Cooking</align>",
+      "cn": "<align=\"center\">厨艺</align>",
+      "ru": "<align=\"center\">Приготовление еды</align>",
+      "status": "machine",
+      "srcHash": "61fbadb46ef99da1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r68c9": {
+      "en": "<align=\"center\">Farmer</align>",
+      "cn": "<align=\"center\">农户</align>",
+      "ru": "<align=\"center\">Крестьянин</align>",
+      "status": "machine",
+      "srcHash": "2c6a8195fe3588a2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r68c10": {
+      "en": "<align=\"center\">Harmony</align>",
+      "cn": "<align=\"center\">合道</align>",
+      "ru": "<align=\"center\">Гармония</align>",
+      "status": "machine",
+      "srcHash": "ebe6d3e4b899a5e9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r69c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-天成乡\">Idyllic Hamlet</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-天成乡\">天成乡</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c3c6424d74a24226",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r69c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-山家清供\"><color=#GradeColor_5>Hospitality of a Household in Mountains</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-山家清供\"><color=#GradeColor_5>山家清供</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "918c7671b68338fb",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r69c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"天成化雨\"><color=#GradeColor_4>Heavenly Rain</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"天成化雨\"><color=#GradeColor_4>天成化雨</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "5cc6181ecb2af905",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r69c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">Kitchen</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">食窖</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f3b927045a5a2dc1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r69c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-沃野\">Fertile Land</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-沃野\">沃野</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "db0c71dca8fb0a06",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r69c6": {
+      "en": "Obtain Foodstuff (Seafood and Poultry) Reagent",
+      "cn": "收获食材（水产、禽类）引子",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "244728b9c87025b9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r69c7": {
+      "en": "<align=\"center\">Cooking</align>",
+      "cn": "<align=\"center\">厨艺</align>",
+      "ru": "<align=\"center\">Приготовление еды</align>",
+      "status": "machine",
+      "srcHash": "61fbadb46ef99da1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r69c9": {
+      "en": "<align=\"center\">Farmer</align>",
+      "cn": "<align=\"center\">农户</align>",
+      "ru": "<align=\"center\">Крестьянин</align>",
+      "status": "machine",
+      "srcHash": "2c6a8195fe3588a2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "r69c10": {
+      "en": "<align=\"center\">Harmony</align>",
+      "cn": "<align=\"center\">合道</align>",
+      "ru": "<align=\"center\">Гармония</align>",
+      "status": "machine",
+      "srcHash": "ebe6d3e4b899a5e9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:52:55.908Z"
+    },
+    "r70c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-香料馆\">Spice House</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-香料馆\">香料馆</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "35ad5419417a567a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r70c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-食经\"><color=#GradeColor_6>Classic of Food</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-食经\"><color=#GradeColor_6>食经</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "50c740b987e6736e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r70c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"双耳万国壶\"><color=#GradeColor_6>Exotic Jug</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"双耳万国壶\"><color=#GradeColor_6>双耳万国壶</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4c5ccc846f4fcac1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r70c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">Kitchen</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">食窖</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f3b927045a5a2dc1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r70c6": {
+      "en": "Increase the tier of dishes crafted in a dependent building",
+      "cn": "在依赖建筑中制造菜肴时，提升产物的品级",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "06895f6640d78c20",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r71c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-龙宫\">Loong Palace</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-龙宫\">龙宫</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "13a687370c9e7cb5",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r71c2": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"技艺-齐民要术\"><color=#GradeColor_7>Important Arts for the People's Welfare</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"技艺-齐民要术\"><color=#GradeColor_7>齐民要术</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "150eb086396911ac",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r71c3": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"水晶冰砖\"><color=#GradeColor_7>Crystal Tile</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"水晶冰砖\"><color=#GradeColor_7>水晶冰砖</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "08ccaee4f0738e91",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r71c4": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">Kitchen</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-食窖\">食窖</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f3b927045a5a2dc1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r71c5": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"建筑-玄冰\">Permafrost</link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"建筑-玄冰\">玄冰</link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8fc91ef61c0d7a24",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r71c6": {
+      "en": "Reduce the Cooking Attainment required for crafting and processing items in dependent buildings",
+      "cn": "在依赖建筑中制造加工时，降低厨艺造诣需求",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d077bc392419b3f7",
+      "engine": null,
+      "updatedAt": null
+    }
+  }
+}

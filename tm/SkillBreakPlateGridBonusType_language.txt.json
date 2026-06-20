@@ -1,0 +1,2401 @@
+{
+  "schemaVersion": 1,
+  "file": "SkillBreakPlateGridBonusType_language.txt",
+  "glossaryVersion": 5,
+  "units": {
+    "Name_0": {
+      "en": "Force",
+      "cn": "力道",
+      "ru": "Сила",
+      "status": "machine",
+      "srcHash": "bd9db75a9df20a09",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_1": {
+      "en": "Precision",
+      "cn": "精妙",
+      "ru": "Точность",
+      "status": "machine",
+      "srcHash": "1c359fff65c290b9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_2": {
+      "en": "Dexterity",
+      "cn": "迅疾",
+      "ru": "Ловкость",
+      "status": "machine",
+      "srcHash": "082104f0720f3ae2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_3": {
+      "en": "Sway",
+      "cn": "动心",
+      "ru": "Раскачиваться",
+      "status": "machine",
+      "srcHash": "d14927c25ed62c39",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_4": {
+      "en": "Phy. Penetration",
+      "cn": "破体",
+      "ru": "Физика. Проникновение",
+      "status": "machine",
+      "srcHash": "135ea5f127eb7ac8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_5": {
+      "en": "Qi Penetration",
+      "cn": "破气",
+      "ru": "Пробой Ци",
+      "status": "machine",
+      "srcHash": "e6fd80f8ed687784",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_6": {
+      "en": "Resistance",
+      "cn": "卸力",
+      "ru": "Сопротивление",
+      "status": "machine",
+      "srcHash": "083ca4ee4280f207",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_7": {
+      "en": "Parry",
+      "cn": "拆招",
+      "ru": "Парирование",
+      "status": "machine",
+      "srcHash": "836e5af2838bf06e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_8": {
+      "en": "Dodge",
+      "cn": "闪避",
+      "ru": "Уклонение",
+      "status": "machine",
+      "srcHash": "762b6592538522ac",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_9": {
+      "en": "Poise",
+      "cn": "守心",
+      "ru": "Уравновешенность",
+      "status": "machine",
+      "srcHash": "176d47865aa75f9d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_10": {
+      "en": "Phy. Defense",
+      "cn": "御体",
+      "ru": "Физическая защита",
+      "status": "machine",
+      "srcHash": "1d98627169014768",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_11": {
+      "en": "Qi Defense",
+      "cn": "御气",
+      "ru": "Защита Ци",
+      "status": "machine",
+      "srcHash": "69e2b597eaaaf17e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_12": {
+      "en": "Stance",
+      "cn": "架势",
+      "ru": "Стойка",
+      "status": "machine",
+      "srcHash": "64302ddde65870e6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_13": {
+      "en": "Inhale",
+      "cn": "提气",
+      "ru": "Вдохните",
+      "status": "machine",
+      "srcHash": "11145a8f35d2a597",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_14": {
+      "en": "Movement Speed",
+      "cn": "移速",
+      "ru": "Скорость перемещения",
+      "status": "machine",
+      "srcHash": "564d6b5d7da8caf9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_15": {
+      "en": "Steadiness",
+      "cn": "稳健",
+      "ru": "Уравновешенность",
+      "status": "machine",
+      "srcHash": "b41b279e268745a4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_16": {
+      "en": "Cast Speed",
+      "cn": "施展",
+      "ru": "Скорость заброса",
+      "status": "machine",
+      "srcHash": "df5aec15a1d0de1f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_17": {
+      "en": "Qi Burst",
+      "cn": "冲关",
+      "ru": "Взрыв Ци",
+      "status": "machine",
+      "srcHash": "125c98f3dad019eb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_18": {
+      "en": "Weapon",
+      "cn": "兵器",
+      "ru": "Оружие",
+      "status": "machine",
+      "srcHash": "0cfefae8cdddcc0d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_19": {
+      "en": "Attack Speed",
+      "cn": "攻速",
+      "ru": "Скорость Атаки",
+      "status": "machine",
+      "srcHash": "ae7e81c533ea5187",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_20": {
+      "en": "Qi Arts",
+      "cn": "内功",
+      "ru": "Внутренние искусства",
+      "status": "machine",
+      "srcHash": "75280bb9bc5359f3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_21": {
+      "en": "Qi Steadiness",
+      "cn": "调息",
+      "ru": "Устойчивость Ци",
+      "status": "machine",
+      "srcHash": "8d849326ab717040",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_22": {
+      "en": "Toughness",
+      "cn": "强韧",
+      "ru": "Прочность",
+      "status": "machine",
+      "srcHash": "9036f27b317192b0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_23": {
+      "en": "Unimpeded",
+      "cn": "顺畅",
+      "ru": "Беспрепятственный",
+      "status": "machine",
+      "srcHash": "bf0bb8951ef8e0a9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_24": {
+      "en": "Warmth",
+      "cn": "炽烈",
+      "ru": "Тепло",
+      "status": "machine",
+      "srcHash": "573b140b5916b81a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_25": {
+      "en": "Flowing Blood",
+      "cn": "活血",
+      "ru": "Текущая кровь",
+      "status": "machine",
+      "srcHash": "a1d7acc94863f17f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_26": {
+      "en": "Pure Heart",
+      "cn": "辟尘",
+      "ru": "Чистое сердце",
+      "status": "machine",
+      "srcHash": "6f11f07a3d43efb8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_27": {
+      "en": "Clear Mind",
+      "cn": "明神",
+      "ru": "Ясный ум",
+      "status": "machine",
+      "srcHash": "c6f49762a355fead",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_28": {
+      "en": "Charm",
+      "cn": "魅力",
+      "ru": "Очарование",
+      "status": "machine",
+      "srcHash": "54a4e0c8a3f95af2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_29": {
+      "en": "Fertility",
+      "cn": "生育",
+      "ru": "Плодовитость",
+      "status": "machine",
+      "srcHash": "c389c2f5ca6a29ca",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_30": {
+      "en": "Greater Power",
+      "cn": "增威",
+      "ru": "Большая сила",
+      "status": "machine",
+      "srcHash": "de973c3b4817b3ce",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_31": {
+      "en": "Lifted Limit",
+      "cn": "破限",
+      "ru": "Снятый лимит",
+      "status": "machine",
+      "srcHash": "96f250d13fc49494",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_32": {
+      "en": "Smooth Cast",
+      "cn": "神合",
+      "ru": "Гладкий бросок",
+      "status": "machine",
+      "srcHash": "8a82b79f21be886c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_33": {
+      "en": "Lower Cost",
+      "cn": "百炼",
+      "ru": "Более низкая стоимость",
+      "status": "machine",
+      "srcHash": "dce0b3bcbf7d5bed",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_34": {
+      "en": "Qi Deflection",
+      "cn": "化气",
+      "ru": "Отклонение Ци",
+      "status": "machine",
+      "srcHash": "3096c4557ae5b29c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_35": {
+      "en": "Adaptability",
+      "cn": "应变",
+      "ru": "Адаптивность",
+      "status": "machine",
+      "srcHash": "39a8c99c99de21e1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_36": {
+      "en": "Qi Gaining",
+      "cn": "深湛",
+      "ru": "Набирающая силу Ци",
+      "status": "machine",
+      "srcHash": "972413c59b7bda9a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_37": {
+      "en": "Qi Efficiency",
+      "cn": "通元",
+      "ru": "Эффективность Ци",
+      "status": "machine",
+      "srcHash": "095949bb984239c9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_38": {
+      "en": "Elemental Conversion",
+      "cn": "融转",
+      "ru": "Элементарное преобразование",
+      "status": "machine",
+      "srcHash": "506a54dde3a22742",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_39": {
+      "en": "Greater Utility",
+      "cn": "秘诀",
+      "ru": "Большая полезность",
+      "status": "machine",
+      "srcHash": "b3d948871c48e679",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_40": {
+      "en": "Light Pace",
+      "cn": "捷足",
+      "ru": "Легкий темп",
+      "status": "machine",
+      "srcHash": "c586a610aabc3a54",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_41": {
+      "en": "Speedy Pace",
+      "cn": "疾驰",
+      "ru": "Быстрый темп",
+      "status": "machine",
+      "srcHash": "c2432e6fd9c979b8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_42": {
+      "en": "Forceful Pace",
+      "cn": "不动",
+      "ru": "Энергичный темп",
+      "status": "machine",
+      "srcHash": "695fea48677189b3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_43": {
+      "en": "Accurate Pace",
+      "cn": "见机",
+      "ru": "Точный темп",
+      "status": "machine",
+      "srcHash": "13590e8bb2f6bede",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_44": {
+      "en": "Agile Pace",
+      "cn": "飞身",
+      "ru": "Быстрый темп",
+      "status": "machine",
+      "srcHash": "70adbcb31841b8d6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_45": {
+      "en": "Driving Pace",
+      "cn": "听心",
+      "ru": "Стремительный темп",
+      "status": "machine",
+      "srcHash": "b98333ece4f812b0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_46": {
+      "en": "Calm Footwork",
+      "cn": "松沉",
+      "ru": "Спокойная работа ног",
+      "status": "machine",
+      "srcHash": "9c103b1a36ce650a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_47": {
+      "en": "Nimble Footwork",
+      "cn": "灵动",
+      "ru": "Ловкая работа ног",
+      "status": "machine",
+      "srcHash": "4032b139ca79d313",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_48": {
+      "en": "Greater Defense",
+      "cn": "金身",
+      "ru": "Лучшая защита",
+      "status": "machine",
+      "srcHash": "ded56e50f3786355",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_49": {
+      "en": "Greater Qi Defense",
+      "cn": "气墙",
+      "ru": "Большая защита от Ци",
+      "status": "machine",
+      "srcHash": "27ffa0ebdcdc54b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_50": {
+      "en": "Greater Resistance",
+      "cn": "化力",
+      "ru": "Большее Сопротивление",
+      "status": "machine",
+      "srcHash": "81ab44ea9f74b2d6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_51": {
+      "en": "Form Shift",
+      "cn": "移形",
+      "ru": "Изменение формы",
+      "status": "machine",
+      "srcHash": "394f66e538ce8538",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_52": {
+      "en": "Greater Dodge",
+      "cn": "换影",
+      "ru": "Большее Уклонение",
+      "status": "machine",
+      "srcHash": "fa411e4477d59957",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_53": {
+      "en": "Greater Integrity",
+      "cn": "清心",
+      "ru": "Большая целостность",
+      "status": "machine",
+      "srcHash": "0363a15ede695536",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_54": {
+      "en": "Greater Counterattack",
+      "cn": "截击",
+      "ru": "Более мощная контратака",
+      "status": "machine",
+      "srcHash": "40f723cee5f13804",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_55": {
+      "en": "Greater Clash",
+      "cn": "震响",
+      "ru": "Большее столкновение",
+      "status": "machine",
+      "srcHash": "59cab87595a16928",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_56": {
+      "en": "Recoil",
+      "cn": "反噬",
+      "ru": "Отдача",
+      "status": "machine",
+      "srcHash": "68c276152052aba8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_57": {
+      "en": "Tiangang Qi",
+      "cn": "罡气",
+      "ru": "Тяньган Ци",
+      "status": "machine",
+      "srcHash": "5fe145461c42ea72",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_58": {
+      "en": "Greater Enduring",
+      "cn": "强顽",
+      "ru": "Более стойкий",
+      "status": "machine",
+      "srcHash": "5d24b25e7fc68902",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_59": {
+      "en": "Penetrating Annihilation",
+      "cn": "摧元",
+      "ru": "Проникающее Сокрушение",
+      "status": "machine",
+      "srcHash": "2e8b381f847ec004",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_60": {
+      "en": "Accurate Annihilation",
+      "cn": "化极",
+      "ru": "Точное Сокрушение",
+      "status": "machine",
+      "srcHash": "ee534f32a5f1c79c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_61": {
+      "en": "Accuracy to Force",
+      "cn": "刚猛",
+      "ru": "Точность в отношении силы",
+      "status": "machine",
+      "srcHash": "7a577ab69149fff9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_62": {
+      "en": "Agility to Force",
+      "cn": "勇力",
+      "ru": "Проворство в принуждении",
+      "status": "machine",
+      "srcHash": "c7783e87bfe8ccb9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_63": {
+      "en": "Force to Accuracy",
+      "cn": "虚余",
+      "ru": "Соотношение силы и точности",
+      "status": "machine",
+      "srcHash": "cf769540fdc9f36e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_64": {
+      "en": "Prolonged Protection",
+      "cn": "周全",
+      "ru": "Длительная защита",
+      "status": "machine",
+      "srcHash": "932a0ccfc530bcf9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_65": {
+      "en": "Force to Agility",
+      "cn": "用巧",
+      "ru": "Сила к Проворству",
+      "status": "machine",
+      "srcHash": "6e95b416c4d0f01c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_66": {
+      "en": "Accuracy to Agility",
+      "cn": "坠星",
+      "ru": "От точности к Проворству",
+      "status": "machine",
+      "srcHash": "5c3dc4fc74626d0f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_67": {
+      "en": "Ranged Annihilation",
+      "cn": "劲风",
+      "ru": "Дальнобойное Сокрушение",
+      "status": "machine",
+      "srcHash": "edab67af2b9d8555",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_68": {
+      "en": "Torso Annihilation",
+      "cn": "摧心",
+      "ru": "Сокрушение туловища",
+      "status": "machine",
+      "srcHash": "c6001e4a01dd87d5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_69": {
+      "en": "Abdomen Annihilation",
+      "cn": "断肠",
+      "ru": "Сокрушение брюшной полости",
+      "status": "machine",
+      "srcHash": "6c3ec403dfb34926",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_70": {
+      "en": "Head Annihilation",
+      "cn": "绝杀",
+      "ru": "Сокрушение головы",
+      "status": "machine",
+      "srcHash": "19e268df934590d5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_71": {
+      "en": "Hands Annihilation",
+      "cn": "阻杀",
+      "ru": "Сокрушение руками",
+      "status": "machine",
+      "srcHash": "75820955d8622137",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_72": {
+      "en": "Feet Annihilation",
+      "cn": "止行",
+      "ru": "Сокрушение ног",
+      "status": "machine",
+      "srcHash": "a1142731db1cda44",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_73": {
+      "en": "Acupoint Annihilation",
+      "cn": "断脉",
+      "ru": "Акупунктурная точка Сокрушения",
+      "status": "machine",
+      "srcHash": "f21e7afccb11b6cd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_74": {
+      "en": "Break Annihilation",
+      "cn": "摧坚",
+      "ru": "Прервать Сокрушение",
+      "status": "machine",
+      "srcHash": "9b8d27eeb0e4dc50",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_75": {
+      "en": "Potent Annihilation",
+      "cn": "烈杀",
+      "ru": "Мощное Сокрушение",
+      "status": "machine",
+      "srcHash": "efaa3e04ad2ff261",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_76": {
+      "en": "Depressant Annihilation",
+      "cn": "郁气",
+      "ru": "Сокрушение депрессанта",
+      "status": "machine",
+      "srcHash": "488197d7ac6b2bd3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_77": {
+      "en": "Permafrost",
+      "cn": "玄冰",
+      "ru": "Вечная мерзлота",
+      "status": "machine",
+      "srcHash": "56d6b7edc192529b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_78": {
+      "en": "Nerve Annihilation",
+      "cn": "焚血",
+      "ru": "Сокрушение нервов",
+      "status": "machine",
+      "srcHash": "773c9c2f711d4957",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_79": {
+      "en": "Cadaver Poison",
+      "cn": "尸毒",
+      "ru": "Трупный Яд",
+      "status": "machine",
+      "srcHash": "0ae88a33245e3b67",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_80": {
+      "en": "Psychoactive Annihilation",
+      "cn": "惑心",
+      "ru": "Психоактивное Сокрушение",
+      "status": "machine",
+      "srcHash": "61ab239c40d18ac6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_81": {
+      "en": "Universal Harmony",
+      "cn": "通融",
+      "ru": "Всеобщая гармония",
+      "status": "machine",
+      "srcHash": "f3ac05bdd25d1a67",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_82": {
+      "en": "Annihilation",
+      "cn": "摧破",
+      "ru": "Сокрушение",
+      "status": "machine",
+      "srcHash": "8ecb503da5b243aa",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_83": {
+      "en": "Nimble",
+      "cn": "轻灵",
+      "ru": "Проворный",
+      "status": "machine",
+      "srcHash": "3a28bd1c5dac4b85",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_84": {
+      "en": "Protection",
+      "cn": "护体",
+      "ru": "Защита",
+      "status": "machine",
+      "srcHash": "bebf744db0f1105d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_85": {
+      "en": "Acumen",
+      "cn": "奇窍",
+      "ru": "Проницательность",
+      "status": "machine",
+      "srcHash": "144febbb34286c95",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_86": {
+      "en": "Throwing Annihilation",
+      "cn": "却掷",
+      "ru": "Метательное Сокрушение",
+      "status": "machine",
+      "srcHash": "8d7160770d66f795",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_87": {
+      "en": "Flicking Annihilation",
+      "cn": "却弹",
+      "ru": "Мгновенное Сокрушение",
+      "status": "machine",
+      "srcHash": "16f97eec759fc261",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_88": {
+      "en": "Impelling Annihilation",
+      "cn": "却御",
+      "ru": "Побуждающий к Сокрушению",
+      "status": "machine",
+      "srcHash": "e6016e57298fd805",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_89": {
+      "en": "Hacking Annihilation",
+      "cn": "却劈",
+      "ru": "Хакерское Сокрушение",
+      "status": "machine",
+      "srcHash": "05c7cbf5f624114f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_90": {
+      "en": "Stabbing Annihilation",
+      "cn": "却刺",
+      "ru": "Колющее Сокрушение",
+      "status": "machine",
+      "srcHash": "62aa49f86d787978",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_91": {
+      "en": "Upswinging Annihilation",
+      "cn": "却撩",
+      "ru": "Стремительное Сокрушение",
+      "status": "machine",
+      "srcHash": "37a556a642190042",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_92": {
+      "en": "Punching Annihilation",
+      "cn": "却崩",
+      "ru": "Пробивающее Сокрушение",
+      "status": "machine",
+      "srcHash": "f524d1276fbd5c8b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_93": {
+      "en": "Jabbing Annihilation",
+      "cn": "却点",
+      "ru": "Колющее Сокрушение",
+      "status": "machine",
+      "srcHash": "263dcf08a4839983",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_94": {
+      "en": "Grabbing Annihilation",
+      "cn": "却拿",
+      "ru": "Захватывающее Сокрушение",
+      "status": "machine",
+      "srcHash": "f6568cbebb28c399",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_95": {
+      "en": "Tone Annihilation",
+      "cn": "却音",
+      "ru": "Сокрушение тона",
+      "status": "machine",
+      "srcHash": "db5520ec7d5e185d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_96": {
+      "en": "Entangling Annihilation",
+      "cn": "却缠",
+      "ru": "Запутывающее Сокрушение",
+      "status": "machine",
+      "srcHash": "e136b9b8de1b634b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_97": {
+      "en": "Spell Annihilation",
+      "cn": "却咒",
+      "ru": "Заклинание Сокрушения",
+      "status": "machine",
+      "srcHash": "9c4a9e11b75f27a1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_98": {
+      "en": "Harnessing Annihilation",
+      "cn": "却机",
+      "ru": "Обуздание Сокрушения",
+      "status": "machine",
+      "srcHash": "82d2462b06fbbae3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_99": {
+      "en": "Medicine Annihilation",
+      "cn": "却药",
+      "ru": "Лекарство от Сокрушения",
+      "status": "machine",
+      "srcHash": "46f650839ab178e2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_100": {
+      "en": "Poison Annihilation",
+      "cn": "却毒",
+      "ru": "Сокрушение Ядом",
+      "status": "machine",
+      "srcHash": "0977a386500da086",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_101": {
+      "en": "Sweeping Annihilation",
+      "cn": "却扫",
+      "ru": "Стремительное Сокрушение",
+      "status": "machine",
+      "srcHash": "7fecc97345f30c55",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_102": {
+      "en": "Quick Charge-up",
+      "cn": "腾云",
+      "ru": "Быстрая зарядка",
+      "status": "machine",
+      "srcHash": "f6229fbcdb4a2fb5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_103": {
+      "en": "Power Throw",
+      "cn": "劲掷",
+      "ru": "Силовой бросок",
+      "status": "machine",
+      "srcHash": "e9512e77dba0f339",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_104": {
+      "en": "Power Flick",
+      "cn": "劲弹",
+      "ru": "Мощный щелчок",
+      "status": "machine",
+      "srcHash": "2599caeff0b7ec5a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_105": {
+      "en": "Power Impel",
+      "cn": "劲御",
+      "ru": "Сила побуждает",
+      "status": "machine",
+      "srcHash": "b363cf66179a794f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_106": {
+      "en": "Power Hack",
+      "cn": "劲劈",
+      "ru": "Взлом власти",
+      "status": "machine",
+      "srcHash": "09cbdd980c3794f7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_107": {
+      "en": "Power Stab",
+      "cn": "劲刺",
+      "ru": "Мощный удар",
+      "status": "machine",
+      "srcHash": "79717ff9eaf633eb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_108": {
+      "en": "Power Upswing",
+      "cn": "劲撩",
+      "ru": "Скачок мощности",
+      "status": "machine",
+      "srcHash": "2bbdddf3749bfba4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_109": {
+      "en": "Power Punch",
+      "cn": "劲崩",
+      "ru": "Мощный удар",
+      "status": "machine",
+      "srcHash": "172e43e14cc1ee2b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_110": {
+      "en": "Power Jab",
+      "cn": "劲点",
+      "ru": "Мощный удар",
+      "status": "machine",
+      "srcHash": "ecec2d9602647ee5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_111": {
+      "en": "Power Grab",
+      "cn": "劲拿",
+      "ru": "Захват власти",
+      "status": "machine",
+      "srcHash": "906445e4d5a622ed",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_112": {
+      "en": "Power Entangle",
+      "cn": "劲缠",
+      "ru": "Власть запутывает",
+      "status": "machine",
+      "srcHash": "d9e8e45e85cd7d81",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_113": {
+      "en": "Power Harness",
+      "cn": "劲机",
+      "ru": "Жгут проводов питания",
+      "status": "machine",
+      "srcHash": "f56cf2de00ed3740",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_114": {
+      "en": "Power Medicine",
+      "cn": "劲药",
+      "ru": "Энергетическая медицина",
+      "status": "machine",
+      "srcHash": "31a2a0885f9261a1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_115": {
+      "en": "Power Poison",
+      "cn": "劲毒",
+      "ru": "Яд силы",
+      "status": "machine",
+      "srcHash": "f72b9bd3f8297a42",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_116": {
+      "en": "Power Sweep",
+      "cn": "劲扫",
+      "ru": "Размах мощности",
+      "status": "machine",
+      "srcHash": "63fdfd273ae205e8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_117": {
+      "en": "Spirit Throw",
+      "cn": "灵掷",
+      "ru": "Бросок Духа",
+      "status": "machine",
+      "srcHash": "3068ed0453e579f1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_118": {
+      "en": "Spirit Flick",
+      "cn": "灵弹",
+      "ru": "Щелчок Духа",
+      "status": "machine",
+      "srcHash": "ee3afd8a4eaa0ce9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_119": {
+      "en": "Spirit Impel",
+      "cn": "灵御",
+      "ru": "Дух Побуждает",
+      "status": "machine",
+      "srcHash": "ebf9431e676c7f81",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_120": {
+      "en": "Spirit Hack",
+      "cn": "灵劈",
+      "ru": "Взлом Духа",
+      "status": "machine",
+      "srcHash": "b0e919c5628628b0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_121": {
+      "en": "Spirit Stab",
+      "cn": "灵刺",
+      "ru": "Удар Духа",
+      "status": "machine",
+      "srcHash": "8beb6345f4e7c01a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_122": {
+      "en": "Spirit Upswing",
+      "cn": "灵撩",
+      "ru": "Подъем Духа",
+      "status": "machine",
+      "srcHash": "4a2e5d13fe1e14c7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_123": {
+      "en": "Spirit Punch",
+      "cn": "灵崩",
+      "ru": "Удар Духом",
+      "status": "machine",
+      "srcHash": "89b2bf1c0aec5bf0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_124": {
+      "en": "Spirit Jab",
+      "cn": "灵点",
+      "ru": "Удар Духом",
+      "status": "machine",
+      "srcHash": "5a70139bd9406913",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_125": {
+      "en": "Spirit Grab",
+      "cn": "灵拿",
+      "ru": "Захват Духа",
+      "status": "machine",
+      "srcHash": "a0c21f4cec18c5c8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_126": {
+      "en": "Spirit Tone",
+      "cn": "灵音",
+      "ru": "Тон Духа",
+      "status": "machine",
+      "srcHash": "9c36dc4bf7109c53",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_127": {
+      "en": "Spirit Entangle",
+      "cn": "灵缠",
+      "ru": "Дух опутывает",
+      "status": "machine",
+      "srcHash": "2bf57abd3b180efa",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_128": {
+      "en": "Spirit Spell",
+      "cn": "灵咒",
+      "ru": "Заклинание Духа",
+      "status": "machine",
+      "srcHash": "7bcd29d047873a63",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_129": {
+      "en": "Spirit Harness",
+      "cn": "灵机",
+      "ru": "Упряжь Духа",
+      "status": "machine",
+      "srcHash": "edd2288210f54a1a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_130": {
+      "en": "Spirit Medicine",
+      "cn": "灵药",
+      "ru": "Лекарство от Духа",
+      "status": "machine",
+      "srcHash": "02c0c5f4d2ec48e6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_131": {
+      "en": "Spirit Poison",
+      "cn": "灵毒",
+      "ru": "Яд Духа",
+      "status": "machine",
+      "srcHash": "7e1d18ce678a0051",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_132": {
+      "en": "Spirit Sweep",
+      "cn": "灵扫",
+      "ru": "Проносящийся Дух",
+      "status": "machine",
+      "srcHash": "c405c9f0c9178e18",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Desc_0": {
+      "en": "<color=#brightblue>Boosts character's Force</color> after practicing a Martial Art. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物力道属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c3257bf4034f1f65",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_1": {
+      "en": "<color=#brightblue>Boosts character's Precision</color> after practicing a technique. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物精妙属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "62aaf1580e059177",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_2": {
+      "en": "<color=#brightblue>Boosts character's Dexterity</color> after practicing a technique. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物迅疾属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "48c39e4a9242943e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_3": {
+      "en": "<color=#brightblue>Boosts character's Sway</color> after practicing a Martial Art. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物动心属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6ed7e888e65540a3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_4": {
+      "en": "<color=#brightblue>Boosts character's Phy. Penetration</color> after practicing a technique. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物破体属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a27c96da8d6b61e2",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_5": {
+      "en": "<color=#brightblue>Boosts character's Qi Penetration</color> after practicing a technique. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物破气属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "43b25a69951a5295",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_6": {
+      "en": "<color=#brightblue>Boosts character's Resistance</color> after practicing a technique. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物卸力属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1f490a9a0e912bdf",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_7": {
+      "en": "<color=#brightblue>Boosts character's Parry</color> after practicing a technique. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物拆招属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bbea114f5814c9b3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_8": {
+      "en": "<color=#brightblue>Boosts character's Dodge</color> after practicing a technique. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物闪避属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ffd15d8ee157b1b0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_9": {
+      "en": "<color=#brightblue>Boosts character's Poise</color> after practicing a technique. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物守心属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "881b7e4ec2d618b3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_10": {
+      "en": "<color=#brightblue>Boosts character's Phy. Defense</color> after practicing a technique. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物御体属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f5879ef546202b87",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_11": {
+      "en": "<color=#brightblue>Boosts character's Qi Defense</color> after practicing a technique. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物御气属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f9e8b37403de2a16",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_12": {
+      "en": "<color=#brightblue>Boosts character's Stance Recovery</color> after practicing a Martial Art. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物架势恢复属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ed4fb485f6999d5f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_13": {
+      "en": "<color=#brightblue>Boosts character's Inhale Recovery</color> after practicing a Martial Art. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物提气恢复属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "afe63f4d131451d8",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_14": {
+      "en": "<color=#brightblue>Boosts character's Movement Speed</color> after practicing a Martial Art. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物移动速度属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ee674d9174492fbd",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_15": {
+      "en": "<color=#brightblue>Boosts character's Footing Steadiness</color> after practicing a Martial Art. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物步伐稳健属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f199005a9556d48e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_16": {
+      "en": "<color=#brightblue>Boosts character's Cast Speed</color> after practicing a Martial Art. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物施展速度属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2eee0bdabc391bcb",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_17": {
+      "en": "<color=#brightblue>Boosts character's Qi Burst</color> after practicing a Martial Art. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物引气冲关属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4be32009db3aa47f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_18": {
+      "en": "<color=#brightblue>Boosts the attribute bonus from Weapon</color> after practicing a Martial Art. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物武具应用属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "11d70362b10a4da1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_19": {
+      "en": "<color=#brightblue>Boosts character's Attack Speed</color> after practicing a Martial Art. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物攻击速度属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "31e7c2b7b9b791fd",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_20": {
+      "en": "<color=#brightblue>Boosts character's Qi Art Efficacy</color> after practicing a Martial Art. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物内功发挥属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4f278992b3fe3675",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_21": {
+      "en": "<color=#brightblue>Boosts character's Breath Control</color> after practicing a Martial Art. Applies to all types of Martial Arts...",
+      "cn": "运功后<color=#brightblue>增加人物调息吐纳属性</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0c9496b93def16d2",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_22": {
+      "en": "<color=#brightblue>Boosts character's <color=#hotpoison>Acritoxin</color> Resistance</color> after practicing a technique. Only applies to Qi Arts and passive Unique Arts...",
+      "cn": "运功后<color=#brightblue>增加人物<color=#hotpoison>烈毒</color>抵抗属性</color>，仅可应用在内功或被动绝技上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "29456cdd6df75b42",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_23": {
+      "en": "<color=#brightblue>Boosts character's <color=#gloomypoison>Umbritoxin</color> Resistance</color> after practicing a technique. Only applies to Qi Arts or passive Unique Arts...",
+      "cn": "运功后<color=#brightblue>增加人物<color=#gloomypoison>郁毒</color>抵抗属性</color>，仅可应用在内功或被动绝技上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8723de50888f7c91",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_24": {
+      "en": "<color=#brightblue>Boosts character's <color=#coldpoison>Cryotoxin</color> Resistance</color> after practicing a technique. Only applies to Qi Arts or passive Unique Arts...",
+      "cn": "运功后<color=#brightblue>增加人物<color=#coldpoison>寒毒</color>抵抗属性</color>，仅可应用在内功或被动绝技上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2bd179ebd9e15ee0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_25": {
+      "en": "<color=#brightblue>Boosts character's <color=#redpoison>Pyrotoxin</color> Resistance</color> after practicing a technique. Only applies to Qi Arts or passive Unique Arts...",
+      "cn": "运功后<color=#brightblue>增加人物<color=#redpoison>赤毒</color>抵抗属性</color>，仅可应用在内功或被动绝技上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "093f141fe8961897",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_26": {
+      "en": "<color=#brightblue>Boosts character's <color=#rottenpoison>Necrotoxin</color> Resistance</color> after practicing a technique. Only applies to Qi Arts or passive Unique Arts...",
+      "cn": "运功后<color=#brightblue>增加人物<color=#rottenpoison>腐毒</color>抵抗属性</color>，仅可应用在内功或被动绝技上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "82c17341bd1c04fc",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_27": {
+      "en": "<color=#brightblue>Boosts character's <color=#illusorypoison>Oneirotoxin</color> Resistance</color> after practicing a technique. Only applies to Qi Arts or passive Unique Arts...",
+      "cn": "运功后<color=#brightblue>增加人物<color=#illusorypoison>幻毒</color>抵抗属性</color>，仅可应用在内功或被动绝技上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7323b2073b91e36e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_28": {
+      "en": "<color=#brightblue>Boosts character's Charm</color> after practicing a technique. Only applies to Qi Art or passive Unique Arts...",
+      "cn": "运功后<color=#brightblue>增加人物魅力属性</color>，仅可应用在内功或被动绝技上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d95adbfdb0ec797a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_29": {
+      "en": "<color=#brightblue>Boosts character's Fertility</color> after practicing a technique. Only applies to Qi Art or passive Unique Arts...",
+      "cn": "运功后<color=#brightblue>增加人物生育能力</color>，仅可应用在内功或被动绝技上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "79144b186f551b30",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_30": {
+      "en": "<color=#brightblue>Boosts the power of this Martial Art</color>. Applies to all types of Martial Arts...",
+      "cn": "<color=#brightblue>增加此功法的功法威力</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "50a31de426ce7de4",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_31": {
+      "en": "<color=#brightblue>Raises the power cap of this Martial Art</color>. Applies to all types of Martial Arts...",
+      "cn": "<color=#brightblue>增加此功法的威力上限</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "575c567e99c8ea56",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_32": {
+      "en": "<color=#brightblue>Lowers the casting time required to perform this Martial Art</color>. Applies to all types of Martial Arts...",
+      "cn": "<color=#brightblue>降低此功法在施展时所需的施展时间</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d66d8c025fc94301",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_33": {
+      "en": "<color=#brightblue>Decreases the Inhale & Stance cost when casting this Martial Art</color>. Cannot apply to Footwork Arts.",
+      "cn": "<color=#brightblue>减少此功法在施展时的气势消耗</color>，不可应用在身法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "914b09ed101796bb",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_34": {
+      "en": "<color=#brightblue>Raises the max Qi Art Ratio for this Martial Art</color>. Cannot apply to Qi Art or passive Unique Arts...",
+      "cn": "<color=#brightblue>增加此功法的最大内功比例</color>，不可应用在内功或被动绝技上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2241a14eac5b2a79",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_35": {
+      "en": "<color=#brightblue>Increases the adjustable range of Qi/Physical Martial Arts Ratio of this Martial Art</color>. Cannot apply to Qi Art or passive Unique Arts...",
+      "cn": "<color=#brightblue>增加此功法的内外功比例可调整范围</color>，不可应用在内功或被动绝技上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9a1a5e370e8eb7ca",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_36": {
+      "en": "<color=#brightblue>Increases the total Qi gained from Microcosmic Circulation</color>. Only applies to Qi Arts...",
+      "cn": "<color=#brightblue>增加此功法在周天运转后可获取的内力总量</color>，仅可应用在内功上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0bfcad638fd1c18d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_37": {
+      "en": "<color=#brightblue>Enhances the efficiency of gaining Qi from Microcosmic Circulation for this Martial Art</color>. Only applies to Qi Art...",
+      "cn": "<color=#brightblue>增加此功法在周天运转后获取内力的效率</color>，仅可应用在内功上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "39e3833e376d7eed",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_38": {
+      "en": "<color=#brightblue>Enhances the efficiency of transferring elemental attributes from Microcosmic Circulation for this Martial Art</color>. Only applies to non-Hunyuan Qi Art...",
+      "cn": "<color=#brightblue>增加此功法在周天运转后五行转移的效率</color>，仅可应用在非混元属性的内功上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "75a7b08aeaf2a137",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_39": {
+      "en": "<color=#brightblue>Provides an additional Utility Slot for this Martial Art</color>. Only applies to Qi Art...",
+      "cn": "<color=#brightblue>增加此功法提供的万用栏位</color>，仅可应用在内功上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f0096cef2300c3ed",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_40": {
+      "en": "<color=#brightblue>Decreases Stamina cost when performing this martial art</color>. Only applies to Footwork Arts and Kicking Arts...",
+      "cn": "<color=#brightblue>减少此功法施展时的脚力消耗</color>，仅可应用在身法、腿法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7b4dd655194ed29b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_41": {
+      "en": "<color=#brightblue>Enhances the movement speed bonus after casting this Martial Art</color>. Only applies to Footwork Arts...",
+      "cn": "<color=#brightblue>增加此功法施展后提供的移动速度</color>，仅可应用在身法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fb5b080312afb1cd",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_42": {
+      "en": "<color=#brightblue>Increases Force bonus after casting this Martial Art</color> but <color=#brightred>consumes extra Stamina</color>. Only applies to Footwork Arts that already grant Force bonus (excluding bonus from breakthrough achievements)...",
+      "cn": "<color=#brightblue>增加此功法施展后提供的力道属性加成</color>，但会<color=#brightred>消耗额外的脚力</color>，仅可应用在提供了力道属性（不包含普通突破成就）的身法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3385ba9d425c831c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_43": {
+      "en": "<color=#brightblue>Increases Precision bonus after casting this Martial Art</color> but <color=#brightred>consumes extra Stamina</color>. Only applies to Footwork Arts that already grant Precision bonus (excluding bonus from breakthrough achievements)...",
+      "cn": "<color=#brightblue>增加此功法施展后提供的精妙属性加成</color>，但会<color=#brightred>消耗额外的脚力</color>，仅可应用在提供了精妙属性（不包含普通突破成就）的身法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f379b67ca1f780d6",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_44": {
+      "en": "<color=#brightblue>Increases Agility bonus after casting this Martial Art</color> but <color=#brightred>consumes extra Stamina</color>. Only applies to Footwork Arts that already grant Agility bonus (excluding bonus from breakthrough achievements)...",
+      "cn": "<color=#brightblue>增加此功法施展后提供的迅疾属性加成</color>，但会<color=#brightred>消耗额外的脚力</color>，仅可应用在提供了迅疾属性（不包含普通突破成就）的身法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "14478ef2fbad5bd9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_45": {
+      "en": "<color=#brightblue>Increases Sway bonus after casting this Martial Art</color> but <color=#brightred>consumes extra Stamina</color>. Only applies to Footwork Arts that already grant Sway bonus (excluding bonus from breakthrough achievements)...",
+      "cn": "<color=#brightblue>增加此功法施展后提供的动心属性加成</color>，但会<color=#brightred>消耗额外的脚力</color>，仅可应用在提供了动心属性（不包含普通突破成就）的身法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1f4113fc26b7446d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_46": {
+      "en": "<color=#brightblue>Lowers the ongoing Stamina cost while the Footwork Art is active</color>. Only applies to Footwork Arts...",
+      "cn": "<color=#brightblue>减少身法持续期间的脚力持续消耗</color>，仅可应用在身法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "32f361861b6be1a9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_47": {
+      "en": "<color=#brightblue>Lowers the Stamina movement cost while the Footwork Art is active</color>. Only applies to Footwork Arts...",
+      "cn": "<color=#brightblue>减少身法持续期间的脚力移动消耗</color>，仅可应用在身法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bfb4e529d068ef5e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_48": {
+      "en": "<color=#brightblue>Increases the Defense bonus after casting this Martial Art</color> but <color=#brightred>consumes extra Inhale & Stance</color>. Only applies to Protection martial arts that grant Phy. Defense...",
+      "cn": "<color=#brightblue>增加此功法施展后提供的御体属性加成</color>，但会<color=#brightred>消耗额外的气势</color>，仅可应用在提供了御体属性的护体上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8ddd1557240393d2",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_49": {
+      "en": "<color=#brightblue>Increases the Qi Defense bonus after casting this Martial Art</color> but <color=#brightred>consumes extra Inhale & Stance</color>. Only applies to Protection martial arts that grant Qi Defense...",
+      "cn": "<color=#brightblue>增加此功法施展后提供的御气属性加成</color>，但会<color=#brightred>消耗额外的气势</color>，仅可应用在提供了御气属性的护体上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f44d36b74aceaee7",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_50": {
+      "en": "<color=#brightblue>Increases the Resistance bonus after casting this Martial Art</color> but <color=#brightred>consumes extra Inhale & Stance</color>. Only applies to Protection martial arts that grant Resistance...",
+      "cn": "<color=#brightblue>增加此功法施展后提供的卸力属性加成</color>，但会<color=#brightred>消耗额外的气势</color>，仅可应用在提供了卸力属性的护体上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c5f83dfd908e7363",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_51": {
+      "en": "<color=#brightblue>Increases the Parry bonus after casting this Martial Art</color> but <color=#brightred>consumes extra Inhale & Stance</color>. Only applies to Protection martial arts that grant Parry...",
+      "cn": "<color=#brightblue>增加此功法施展后提供的拆招属性加成</color>，但会<color=#brightred>消耗额外的气势</color>，仅可应用在提供了拆招属性的护体上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9307a6d4f60f8aaf",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_52": {
+      "en": "<color=#brightblue>Increases the Dodge bonus after casting this Martial Art</color> but <color=#brightred>consumes extra Inhale & Stance</color>. Only applies to Protection martial arts that grant Dodge...",
+      "cn": "<color=#brightblue>增加此功法施展后提供的闪避属性加成</color>，但会<color=#brightred>消耗额外的气势</color>，仅可应用在提供了闪避属性的护体上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "5705b531bb567430",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_53": {
+      "en": "<color=#brightblue>Increases the Poise bonus after casting this Martial Art</color> but <color=#brightred>consumes extra Inhale & Stance</color>. Only applies to Protection martial arts that grant Poise...",
+      "cn": "<color=#brightblue>增加此功法施展后提供的守心属性加成</color>，但会<color=#brightred>消耗额外的气势</color>，仅可应用在提供了守心属性的护体上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8143485c03380e74",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_54": {
+      "en": "<color=#brightblue>Increases the Counter Power bonus after casting this Martial Art</color> but <color=#brightred>consumes extra Inhale & Stance</color>. Only applies to Protection martial arts that grant Counter Power...",
+      "cn": "<color=#brightblue>增加此功法施展后提供的反击威力加成</color>，但会<color=#brightred>消耗额外的气势</color>，仅可应用在提供了反击威力的护体上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f8a882c79730618f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_55": {
+      "en": "<color=#brightblue>Increases the External Injury Reflection bonus after casting this Martial Art</color> but <color=#brightred>consumes extra Inhale & Stance</color>. Only applies to Protection martial arts that grant External Injury Reflection...",
+      "cn": "<color=#brightblue>增加此功法施展后提供的外伤反震加成</color>，但会<color=#brightred>消耗额外的气势</color>，仅可应用在提供了外伤反震的护体上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6d7f7cc39b8aa119",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_56": {
+      "en": "<color=#brightblue>Increases the Internal Injury Reflection bonus after casting this Martial Art</color> but <color=#brightred>consumes extra Inhale & Stance</color>. Only applies to Protection martial arts that grant Internal Injury Reflection...",
+      "cn": "<color=#brightblue>增加此功法施展后提供的内伤反震加成</color>，但会<color=#brightred>消耗额外的气势</color>，仅可应用在提供了内伤反震的护体上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4c6cca351a3ae9b3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_57": {
+      "en": "<color=#brightblue>Increases the Reflection Distance bonus after casting this Martial Art</color> but <color=#brightred>consumes extra Inhale & Stance</color>. Only applies to Protection martial arts that grant Reflection Distance...",
+      "cn": "<color=#brightblue>增加此功法施展后提供的反震距离加成</color>，但会<color=#brightred>消耗额外的气势</color>，仅可应用在提供了反震距离的护体上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f703167de81cfc8f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_58": {
+      "en": "<color=#brightblue>Increases the duration of this Martial Art after casting it</color> but <color=#brightred>consumes extra Inhale & Stance</color>. Only applies to Protection Martial Arts...",
+      "cn": "<color=#brightblue>增加此功法施展后的持续时间</color>，但会<color=#brightred>消耗额外的气势</color>，仅可应用在护体上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "de90940ec38944f5",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_59": {
+      "en": "<color=#brightblue>Boosts Phy. Penetration and Qi Penetration bonus after casting this Martial Art</color>. Only applies to Annihilation Martial Arts...",
+      "cn": "<color=#brightblue>增加此功法施展后提供的破体破气加成</color>，仅可应用在摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "649c0cab46ab18a6",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_60": {
+      "en": "<color=#brightblue>Boosts overall Hit bonus after casting this Martial Art</color>. Only applies to Annihilation Martial Arts...",
+      "cn": "<color=#brightblue>增加此功法施展后提供的总体命中加成</color>，仅可应用在摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9c003518dcbcfee2",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_61": {
+      "en": "<color=#brightblue>Converts a portion of Precision from this Martial Art into Force</color> but <color=#brightred>reduces overall Hit</color>. Only applies to Annihilation techniques with at least 10% Precision...",
+      "cn": "将此功法的<color=#brightblue>一部分精妙成数转化为力道成数</color>，但会<color=#brightred>降低总体命中</color>，仅可应用在当前精妙成数大于一成的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "5d6e6f5e749daa3c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_62": {
+      "en": "<color=#brightblue>Converts a portion of Dexterity from this Martial Art into Force</color> but <color=#brightred>reduces overall Hit</color>. Only applies to Annihilation techniques with at least 10% Dexterity...",
+      "cn": "将此功法的<color=#brightblue>一部分迅疾成数转化为力道成数</color>，但会<color=#brightred>降低总体命中</color>，仅可应用在当前迅疾成数大于一成的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a97571800df6f5e4",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_63": {
+      "en": "<color=#brightblue>Converts a portion of Force from this Martial Art into Precision</color> but <color=#brightred>reduces overall Hit</color>. Only applies to Annihilation techniques with at least 10% Force...",
+      "cn": "将此功法的<color=#brightblue>一部分力道成数转化为精妙成数</color>，但会<color=#brightred>降低总体命中</color>，仅可应用在当前力道成数大于一成的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d4d48f777caa4e21",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_64": {
+      "en": "<color=#brightblue>Converts a portion of Dexterity from this Martial Art into Precision</color> but <color=#brightred>reduces overall Hit</color>. Only applies to Annihilation techniques with at least 10% Dexterity...",
+      "cn": "将此功法的<color=#brightblue>一部分迅疾成数转化为精妙成数</color>，但会<color=#brightred>降低总体命中</color>，仅可应用在当前迅疾成数大于一成的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f53501a71f9c4b99",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_65": {
+      "en": "<color=#brightblue>Converts a portion of Force from this Martial Art into Dexterity</color> but <color=#brightred>reduces overall Hit</color>. Only applies to Annihilation techniques with at least 10% Force...",
+      "cn": "将此功法的<color=#brightblue>一部分力道成数转化为迅疾成数</color>，但会<color=#brightred>降低总体命中</color>，仅可应用在当前力道成数大于一成的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8419dcba550f9b3a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_66": {
+      "en": "<color=#brightblue>Converts a portion of Precision from this Martial Art into Dexterity</color> but <color=#brightred>reduces overall Hit</color>. Only applies to Annihilation techniques with at least 10% Precision...",
+      "cn": "将此功法的<color=#brightblue>一部分精妙成数转化为迅疾成数</color>，但会<color=#brightred>降低总体命中</color>，仅可应用在当前精妙成数大于一成的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "08123286afc3a43e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_67": {
+      "en": "<color=#brightblue>Increases the attack range of this Martial Art</color> but <color=#brightred>reduces its Phy. Penetration and Qi Penetration</color>. Only applies to Annihilation Martial Arts...",
+      "cn": "<color=#brightblue>增加此功法的攻击范围加成</color>，但会<color=#brightred>降低破体破气</color>，仅可应用在摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "191aac554c961a1f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_68": {
+      "en": "<color=#brightblue>Raises the chance of attacking Torso for this Martial Art</color> but <color=#brightred>reduces the attack range bonus</color>. Only applies to Annihilation Martial Arts that already grant the chance to attack Torso...",
+      "cn": "<color=#brightblue>增加此功法攻击胸背的概率</color>，但会<color=#brightred>降低提供的攻击范围加成</color>，仅可应用在提供了胸背攻击概率的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "046d3582690a6c3e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_69": {
+      "en": "<color=#brightblue>Raises the chance of attacking Midsection for this Martial Art</color> but <color=#brightred>reduces the attack range bonus</color>. Only applies to Annihilation Martial Arts that already grant the chance to attack Midsection...",
+      "cn": "<color=#brightblue>增加此功法攻击腰腹的概率</color>，但会<color=#brightred>降低提供的攻击范围加成</color>，仅可应用在提供了腰腹攻击概率的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "959c748f65488f88",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_70": {
+      "en": "<color=#brightblue>Raises the chance of attacking Head for this Martial Art</color> but <color=#brightred>reduces the attack range bonus</color>. Only applies to Annihilation Martial Arts that already grant the chance to attack Head...",
+      "cn": "<color=#brightblue>增加此功法攻击头部的概率</color>，但会<color=#brightred>降低提供的攻击范围加成</color>，仅可应用在提供了头部攻击概率的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1dbf05546a677681",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_71": {
+      "en": "<color=#brightblue>Raises the chance of attacking Hands for this Martial Art</color> but <color=#brightred>reduces the attack range bonus</color>. Only applies to Annihilation Martial Arts that already grant the chance to attack Hands...",
+      "cn": "<color=#brightblue>增加此功法攻击双手的概率</color>，但会<color=#brightred>降低提供的攻击范围加成</color>，仅可应用在提供了双手攻击概率的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a9c6fde43e30a7f9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_72": {
+      "en": "<color=#brightblue>Raises the chance of attacking Feet for this Martial Art</color> but <color=#brightred>reduces the attack range bonus</color>. Only applies to Annihilation Martial Arts that already grant the chance to attack Feet...",
+      "cn": "<color=#brightblue>增加此功法攻击双足的概率</color>，但会<color=#brightred>降低提供的攻击范围加成</color>，仅可应用在提供了双足攻击概率的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "48f10285b5d3a689",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_73": {
+      "en": "<color=#brightblue>Increases the level of acupoint strikes for this Martial Art</color> but <color=#brightred>extends the casting time</color>. Only applies to Annihilation Martial Arts with acupoint effects...",
+      "cn": "<color=#brightblue>增加此功法造成点穴时的点穴级别</color>，但会<color=#brightred>提高此功法在施展时所需的施展时间</color>，仅可应用在提供了点穴效果的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "582df7bf9958a0f2",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_74": {
+      "en": "<color=#brightblue>Increases the level of Openings for this Martial Art</color> but <color=#brightred>extends the casting time</color>. Only applies to Annihilation martial arts...",
+      "cn": "<color=#brightblue>增加此功法造成破绽时的破绽级别</color>，但会<color=#brightred>提高此功法在施展时所需的施展时间</color>，仅可应用在摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d0c33b86cc3b465b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_75": {
+      "en": "<color=#brightblue>Increases the quantity of <color=#hotpoison>Acritoxin</color> for this Martial Art</color> but <color=#brightred>lowers the caster's resistance to <color=#hotpoison>Acritoxin</color></color>. Only applies to Annihilation martial arts with <color=#hotpoison>Acritoxin</color>...",
+      "cn": "<color=#brightblue>增加此功法的<color=#hotpoison>烈毒</color>毒素量</color>，但运功后会<color=#brightred>降低人物的<color=#hotpoison>烈毒</color>抵抗属性</color>，仅可应用在提供了<color=#hotpoison>烈毒</color>毒素的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2dbc2702b3d36545",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_76": {
+      "en": "<color=#brightblue>Increases the quantity of <color=#gloomypoison>Umbritoxin</color> for this Martial Art</color> but <color=#brightred>lowers the caster's resistance to <color=#gloomypoison>Umbritoxin</color></color>. Only applies to Annihilation Martial Arts with <color=#gloomypoison>Umbritoxin</color>...",
+      "cn": "<color=#brightblue>增加此功法的<color=#gloomypoison>郁毒</color>毒素量</color>，但运功后会<color=#brightred>降低人物的<color=#gloomypoison>郁毒</color>抵抗属性</color>，仅可应用在提供了<color=#gloomypoison>郁毒</color>毒素的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "867f8fcab6e7c1cf",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_77": {
+      "en": "<color=#brightblue>Increases the quantity of <color=#coldpoison>Cryotoxin</color> for this Martial Art</color> but <color=#brightred>lowers the caster's resistance to <color=#coldpoison>Cryotoxin</color></color>. Only applies to Annihilation Martial Arts with <color=#coldpoison>Cryotoxin</color>...",
+      "cn": "<color=#brightblue>增加此功法的<color=#coldpoison>寒毒</color>毒素量</color>，但运功后会<color=#brightred>降低人物的<color=#coldpoison>寒毒</color>抵抗属性</color>，仅可应用在提供了<color=#coldpoison>寒毒</color>毒素的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ca4daf94f63873d0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_78": {
+      "en": "<color=#brightblue>Increases the quantity of <color=#redpoison>Pyrotoxin</color> for this Martial Art</color> but <color=#brightred>lowers the caster's resistance to <color=#redpoison>Pyrotoxin</color></color>. Only applies to Annihilation martial arts with <color=#redpoison>Pyrotoxin</color>...",
+      "cn": "<color=#brightblue>增加此功法的<color=#redpoison>赤毒</color>毒素量</color>，但运功后会<color=#brightred>降低人物的<color=#redpoison>赤毒</color>抵抗属性</color>，仅可应用在提供了<color=#redpoison>赤毒</color>毒素的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "dfcdfa0c375e34bd",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_79": {
+      "en": "<color=#brightblue>Increases the quantity of <color=#rottenpoison>Necrotoxin</color> for this Martial Art</color> but <color=#brightred>lowers the caster's resistance to <color=#rottenpoison>Necrotoxin</color></color>. Only applies to Annihilation Martial Arts with <color=#rottenpoison>Necrotoxin</color>...",
+      "cn": "<color=#brightblue>增加此功法的<color=#rottenpoison>腐毒</color>毒素量</color>，但运功后会<color=#brightred>降低人物的<color=#rottenpoison>腐毒</color>抵抗属性</color>，仅可应用在提供了<color=#rottenpoison>腐毒</color>毒素的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b12efd10d4729bd2",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_80": {
+      "en": "<color=#brightblue>Increases the quantity of <color=#illusorypoison>Oneirotoxin</color> for this Martial Art</color> but <color=#brightred>lowers the caster's resistance to <color=#illusorypoison>Oneirotoxin</color></color>. Only applies to Annihilation Martial Arts with <color=#illusorypoison>Oneirotoxin</color>...",
+      "cn": "<color=#brightblue>增加此功法的<color=#illusorypoison>幻毒</color>毒素量</color>，但运功后会<color=#brightred>降低人物的<color=#illusorypoison>幻毒</color>抵抗属性</color>，仅可应用在提供了<color=#illusorypoison>幻毒</color>毒素的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "05005d23883c4b9c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_81": {
+      "en": "<color=#brightblue>Reduces the usage requirements of this Martial Art</color>. Applies to all types of Martial Arts...",
+      "cn": "<color=#brightblue>减少此功法所有的发挥需求</color>，可以应用在所有类型的功法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c5e33ac10f5762d6",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_82": {
+      "en": "<color=#brightblue>Increases the Annihilation slots provided by this Martial Art</color>, but <color=#brightred>reduces the caster's Stance Recovery and Inhale Recovery after practicing the martial art</color>. Only applies to Qi Art...",
+      "cn": "<color=#brightblue>增加此功法提供的摧破栏位</color>，但运功后会<color=#brightred>减少人物的架势恢复属性和提气恢复属性</color>，仅可应用在内功上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a2590a3ace72824d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_83": {
+      "en": "<color=#brightblue>Increases the Nimble slots provided by this Martial Art</color>, but <color=#brightred>reduces the caster's Movement Speed and Footing Steadiness after practicing the martial art</color>. Only applies to Qi Art...",
+      "cn": "<color=#brightblue>增加此功法提供的轻灵栏位</color>，但运功后会<color=#brightred>减少人物的移动速度属性和步伐稳健属性</color>，仅可应用在内功上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "932f84688d4ce0aa",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_84": {
+      "en": "<color=#brightblue>Increases the Protection slots provided by this Martial Art</color>, but <color=#brightred>reduces the caster's Equipment Mastery and Attack Speed after practicing the martial art</color>. Only applies to Qi Art...",
+      "cn": "<color=#brightblue>增加此功法提供的护体栏位</color>，但运功后会<color=#brightred>减少人物的武具运用属性和攻击速度属性</color>，仅可应用在内功上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ff11cbe9fa33a953",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_85": {
+      "en": "<color=#brightblue>Increases the Acumen slots provided by this Martial Art</color>, but <color=#brightred>reduces the caster's Cast Speed and Qi Burst after practicing the martial art</color>. Only applies to Qi Art...",
+      "cn": "<color=#brightblue>增加此功法提供的奇窍栏位</color>，但运功后会<color=#brightred>减少人物的施展速度属性和引气冲关属性</color>，仅可应用在内功上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "29d3479e482bc107",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_86": {
+      "en": "<color=#brightblue>Decreases the number of [Throw] consumed when casting this Martial Art</color> but <color=#brightred>introduces a chance of temporarily sealing this Martial Art</color> if the casting is done or interrupted. Only applies to Annihilation martial arts that require [Throw] and currently have at least [Throw] ×1...",
+      "cn": "<color=#brightblue>减少此功法施展时消耗的「掷」式数量</color>，但功法施展结束或中断后，此功法<color=#brightred>有一定概率被封禁一段时间</color>，仅可应用在需要消耗「掷」式，且当前「掷」式不小于1的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "563f563173eacc34",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_87": {
+      "en": "<color=#brightblue>Decreases the number of [Flick] consumed when casting this Martial Art</color> but <color=#brightred>introduces a chance of temporarily sealing this Martial Art</color> if the casting is done or interrupted. Only applies to Annihilation martial arts that require [Flick] and currently have at least [Flick] ×1...",
+      "cn": "<color=#brightblue>减少此功法施展时消耗的「弹」式数量</color>，但功法施展结束或中断后，此功法<color=#brightred>有一定概率被封禁一段时间</color>，仅可应用在需要消耗「弹」式，且当前「弹」式不小于1的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ad756fb0d67a901e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_88": {
+      "en": "<color=#brightblue>Decreases the number of [Impel] consumed when casting this Martial Art</color> but <color=#brightred>introduces a chance of temporarily sealing this Martial Art</color> if the casting is done or interrupted. Only applies to Annihilation martial arts that require [Impel] and currently have at least [Impel] ×1...",
+      "cn": "<color=#brightblue>减少此功法施展时消耗的「御」式数量</color>，但功法施展结束或中断后，此功法<color=#brightred>有一定概率被封禁一段时间</color>，仅可应用在需要消耗「御」式，且当前「御」式不小于1的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a6002b727a2f728c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_89": {
+      "en": "<color=#brightblue>Decreases the number of [Hack] consumed when casting this Martial Art</color> but <color=#brightred>introduces a chance of temporarily sealing this Martial Art</color> if the casting is done or interrupted. Only applies to Annihilation Martial Arts that require [Hack] and currently have at least [Hack] ×1...",
+      "cn": "<color=#brightblue>减少此功法施展时消耗的「劈」式数量</color>，但功法施展结束或中断后，此功法<color=#brightred>有一定概率被封禁一段时间</color>，仅可应用在需要消耗「劈」式，且当前「劈」式不小于1的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6af07034ac4d401e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_90": {
+      "en": "<color=#brightblue>Decreases the number of [Stab] consumed when casting this Martial Art</color> but <color=#brightred>introduces a chance of temporarily sealing this Martial Art</color> if the casting is done or interrupted. Only applies to Annihilation Martial Arts that require [Stab] and currently have at least [Stab] ×1...",
+      "cn": "<color=#brightblue>减少此功法施展时消耗的「刺」式数量</color>，但功法施展结束或中断后，此功法<color=#brightred>有一定概率被封禁一段时间</color>，仅可应用在需要消耗「刺」式，且当前「刺」式不小于1的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6ba1cc23748eee50",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_91": {
+      "en": "<color=#brightblue>Decreases the number of [Upswing] consumed when casting this Martial Art</color> but <color=#brightred>introduces a chance of temporarily sealing this Martial Art</color> if the casting is done or interrupted. Only applies to Annihilation martial arts that require [Upswing] and currently have at least [Upswing] ×1...",
+      "cn": "<color=#brightblue>减少此功法施展时消耗的「撩」式数量</color>，但功法施展结束或中断后，此功法<color=#brightred>有一定概率被封禁一段时间</color>，仅可应用在需要消耗「撩」式，且当前「撩」式不小于1的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "55560a8a92fcef5e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_92": {
+      "en": "<color=#brightblue>Decreases the number of [Punch] consumed when casting this Martial Art</color> but <color=#brightred>introduces a chance of temporarily sealing this Martial Art</color> if the casting is done or interrupted. Only applies to Annihilation martial arts that require [Punch] and currently have at least [Punch] ×1...",
+      "cn": "<color=#brightblue>减少此功法施展时消耗的「崩」式数量</color>，但功法施展结束或中断后，此功法<color=#brightred>有一定概率被封禁一段时间</color>，仅可应用在需要消耗「崩」式，且当前「崩」式不小于1的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "63885126c88df9ff",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_93": {
+      "en": "<color=#brightblue>Decreases the number of [Jab] consumed when casting this Martial Art</color> but <color=#brightred>introduces a chance of temporarily sealing this Martial Art</color> if the casting is done or interrupted. Only applies to Annihilation martial arts that require [Jab] and currently have at least [Jab] ×1...",
+      "cn": "<color=#brightblue>减少此功法施展时消耗的「点」式数量</color>，但功法施展结束或中断后，此功法<color=#brightred>有一定概率被封禁一段时间</color>，仅可应用在需要消耗「点」式，且当前「点」式不小于1的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7ab04f0065419db1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_94": {
+      "en": "<color=#brightblue>Decreases the number of [Grab] consumed when casting this Martial Art</color> but <color=#brightred>introduces a chance of temporarily sealing this Martial Art</color> if the casting is done or interrupted. Only applies to Annihilation martial arts that require [Grab] and currently have at least [Grab] ×1...",
+      "cn": "<color=#brightblue>减少此功法施展时消耗的「拿」式数量</color>，但功法施展结束或中断后，此功法<color=#brightred>有一定概率被封禁一段时间</color>，仅可应用在需要消耗「拿」式，且当前「拿」式不小于1的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8a7622ca6c925edc",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_95": {
+      "en": "<color=#brightblue>Decreases the number of [Tone Forms] consumed when casting this Martial Art</color> but <color=#brightred>introduces a chance of temporarily sealing this Martial Art</color> if the casting is done or interrupted. Only applies to Annihilation martial arts that require [Tone Forms] and currently have at least [Tone Forms] ×1...",
+      "cn": "<color=#brightblue>减少此功法施展时消耗的「音」式数量</color>，但功法施展结束或中断后，此功法<color=#brightred>有一定概率被封禁一段时间</color>，仅可应用在需要消耗「音」式，且当前「音」式不小于1的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8fee3237acf8c4c3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_96": {
+      "en": "<color=#brightblue>Decreases the number of [Entangle] consumed when casting this Martial Art</color> but <color=#brightred>introduces a chance of temporarily sealing this Martial Art</color> if the casting is done or interrupted. Only applies to Annihilation martial arts that require [Entangle] and currently have at least [Entangle] ×1...",
+      "cn": "<color=#brightblue>减少此功法施展时消耗的「缠」式数量</color>，但功法施展结束或中断后，此功法<color=#brightred>有一定概率被封禁一段时间</color>，仅可应用在需要消耗「缠」式，且当前「缠」式不小于1的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1b1245f280843faa",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_97": {
+      "en": "<color=#brightblue>Decreases the number of [Spell] consumed when casting this Martial Art</color> but <color=#brightred>introduces a chance of temporarily sealing this Martial Art</color> if the casting is done or interrupted. Only applies to Annihilation Martial Arts that require [Spell] and currently have at least [Spell] ×1...",
+      "cn": "<color=#brightblue>减少此功法施展时消耗的「咒」式数量</color>，但功法施展结束或中断后，此功法<color=#brightred>有一定概率被封禁一段时间</color>，仅可应用在需要消耗「咒」式，且当前「咒」式不小于1的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "22463adb2fd970ee",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_98": {
+      "en": "<color=#brightblue>Decreases the number of [Harness] consumed when casting this Martial Art</color> but <color=#brightred>introduces a chance of temporarily sealing this Martial Art</color> if the casting is done or interrupted. Only applies to Annihilation martial arts that require [Harness] and currently have at least [Harness] ×1...",
+      "cn": "<color=#brightblue>减少此功法施展时消耗的「机」式数量</color>，但功法施展结束或中断后，此功法<color=#brightred>有一定概率被封禁一段时间</color>，仅可应用在需要消耗「机」式，且当前「机」式不小于1的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "671fbd65e3a46dc4",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_99": {
+      "en": "<color=#brightblue>Decreases the number of [Medicine] consumed when casting this Martial Art</color> but <color=#brightred>introduces a chance of temporarily sealing this Martial Art</color> if the casting is done or interrupted. Only applies to Annihilation martial arts that require [Medicine] and currently have at least [Medicine] ×1...",
+      "cn": "<color=#brightblue>减少此功法施展时消耗的「药」式数量</color>，但功法施展结束或中断后，此功法<color=#brightred>有一定概率被封禁一段时间</color>，仅可应用在需要消耗「药」式，且当前「药」式不小于1的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "309023c5d36781b4",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_100": {
+      "en": "<color=#brightblue>Decreases the number of [Poison] consumed when casting this Martial Art</color> but <color=#brightred>introduces a chance of temporarily sealing this Martial Art</color> if the casting is done or interrupted. Only applies to Annihilation martial arts that require [Poison] and currently have at least [Poison] ×1...",
+      "cn": "<color=#brightblue>减少此功法施展时消耗的「毒」式数量</color>，但功法施展结束或中断后，此功法<color=#brightred>有一定概率被封禁一段时间</color>，仅可应用在需要消耗「毒」式，且当前「毒」式不小于1的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9b9c8fd46d76a17c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_101": {
+      "en": "<color=#brightblue>Decreases the number of [Sweep] consumed when casting this Martial Art</color> but <color=#brightred>introduces a chance of temporarily sealing this Martial Art</color> if the casting is done or interrupted. Only applies to Annihilation martial arts that require [Sweep] and currently have at least [Sweep] ×1...",
+      "cn": "<color=#brightblue>减少此功法施展时消耗的「扫」式数量</color>，但功法施展结束或中断后，此功法<color=#brightred>有一定概率被封禁一段时间</color>，仅可应用在需要消耗「扫」式，且当前「扫」式不小于1的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d4d1c1616aff414d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_102": {
+      "en": "<color=#brightblue>Reduces the time needed to use Charged Movement</color>. Only applies to Footwork Arts that require charging...",
+      "cn": "<color=#brightblue>减少此功法在蓄力移动时蓄力所需的时间</color>，仅可应用在需要蓄力的身法上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "598b1253434b3628",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_103": {
+      "en": "<color=#brightblue>Adds to and raises the Phy./Qi Penetration bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Throw\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Throw\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的破体破气加成</color>，但<color=#brightred>增加施展功法所需的「掷」式</color>，仅可应用在原本需要消耗「掷」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c6446104fa267375",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_104": {
+      "en": "<color=#brightblue>Adds to and raises the Phy./Qi Penetration bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Flick\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Flick\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的破体破气加成</color>，但<color=#brightred>增加施展功法所需的「弹」式</color>，仅可应用在原本需要消耗「弹」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7ad14d840a47c630",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_105": {
+      "en": "<color=#brightblue>Adds to and raises the Phy./Qi Penetration bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Impel\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Impel\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的破体破气加成</color>，但<color=#brightred>增加施展功法所需的「御」式</color>，仅可应用在原本需要消耗「御」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "32e8d1e25d1a4484",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_106": {
+      "en": "<color=#brightblue>Adds to and raises the Phy./Qi Penetration bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Hack\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Hack\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的破体破气加成</color>，但<color=#brightred>增加施展功法所需的「劈」式</color>，仅可应用在原本需要消耗「劈」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b35ec7536566e957",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_107": {
+      "en": "<color=#brightblue>Adds to and raises the Phy./Qi Penetration bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Stab\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Stab\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的破体破气加成</color>，但<color=#brightred>增加施展功法所需的「刺」式</color>，仅可应用在原本需要消耗「刺」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a117bf7a8ff157ec",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_108": {
+      "en": "<color=#brightblue>Adds to and raises the Phy./Qi Penetration bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Upswing\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Upswing\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的破体破气加成</color>，但<color=#brightred>增加施展功法所需的「撩」式</color>，仅可应用在原本需要消耗「撩」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "598042fe0337e1db",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_109": {
+      "en": "<color=#brightblue>Adds to and raises the Phy./Qi Penetration bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Punch\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Punch\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的破体破气加成</color>，但<color=#brightred>增加施展功法所需的「崩」式</color>，仅可应用在原本需要消耗「崩」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "48c511d91fc446a7",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_110": {
+      "en": "<color=#brightblue>Adds to and raises the Phy./Qi Penetration bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Jab\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Jab\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的破体破气加成</color>，但<color=#brightred>增加施展功法所需的「点」式</color>，仅可应用在原本需要消耗「点」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f26a9ff51a1d11de",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_111": {
+      "en": "<color=#brightblue>Adds to and raises the Phy./Qi Penetration bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Grab\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Grab\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的破体破气加成</color>，但<color=#brightred>增加施展功法所需的「拿」式</color>，仅可应用在原本需要消耗「拿」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ef899deb55d1dfde",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_112": {
+      "en": "<color=#brightblue>Adds to and raises the Phy./Qi Penetration bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Entangle\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Entangle\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的破体破气加成</color>，但<color=#brightred>增加施展功法所需的「缠」式</color>，仅可应用在原本需要消耗「缠」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "023599aab566d6ab",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_113": {
+      "en": "<color=#brightblue>Adds to and raises the Phy./Qi Penetration bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Harness\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Harness\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的破体破气加成</color>，但<color=#brightred>增加施展功法所需的「机」式</color>，仅可应用在原本需要消耗「机」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "42b7ff640629006a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_114": {
+      "en": "<color=#brightblue>Adds to and raises the Phy./Qi Penetration bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Medicine\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Medicine\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的破体破气加成</color>，但<color=#brightred>增加施展功法所需的「药」式</color>，仅可应用在原本需要消耗「药」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "985d43e000ecf37b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_115": {
+      "en": "<color=#brightblue>Adds to and raises the Phy./Qi Penetration bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Poison\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Poison\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的破体破气加成</color>，但<color=#brightred>增加施展功法所需的「毒」式</color>，仅可应用在原本需要消耗「毒」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f2ca43e90010058e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_116": {
+      "en": "<color=#brightblue>Adds to and raises the Phy./Qi Penetration bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Sweep\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Sweep\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的破体破气加成</color>，但<color=#brightred>增加施展功法所需的「扫」式</color>，仅可应用在原本需要消耗「扫」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9c225bccd19e515d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_117": {
+      "en": "<color=#brightblue>Adds to and raises the overall Hit bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Throw\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Throw\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的总体命中加成</color>，但<color=#brightred>增加施展功法所需的「掷」式</color>，仅可应用在原本需要消耗「掷」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "52bbccc151b7e579",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_118": {
+      "en": "<color=#brightblue>Adds to and raises the overall Hit bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Flick\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Flick\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的总体命中加成</color>，但<color=#brightred>增加施展功法所需的「弹」式</color>，仅可应用在原本需要消耗「弹」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7759a629fc4eda8c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_119": {
+      "en": "<color=#brightblue>Adds to and raises the overall Hit bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Impel\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Impel\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的总体命中加成</color>，但<color=#brightred>增加施展功法所需的「御」式</color>，仅可应用在原本需要消耗「御」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "732b6c76175e97b8",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_120": {
+      "en": "<color=#brightblue>Adds to and raises the overall Hit bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Hack\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Hack\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的总体命中加成</color>，但<color=#brightred>增加施展功法所需的「劈」式</color>，仅可应用在原本需要消耗「劈」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8c66dcdcb14a5112",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_121": {
+      "en": "<color=#brightblue>Adds to and raises the overall Hit bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Stab\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Stab\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的总体命中加成</color>，但<color=#brightred>增加施展功法所需的「刺」式</color>，仅可应用在原本需要消耗「刺」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "73947f0f37d30adf",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_122": {
+      "en": "<color=#brightblue>Adds to and raises the overall Hit bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Upswing\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Upswing\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的总体命中加成</color>，但<color=#brightred>增加施展功法所需的「撩」式</color>，仅可应用在原本需要消耗「撩」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a666a2c112c8b743",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_123": {
+      "en": "<color=#brightblue>Adds to and raises the overall Hit bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Punch\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Punch\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的总体命中加成</color>，但<color=#brightred>增加施展功法所需的「崩」式</color>，仅可应用在原本需要消耗「崩」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7f98b2745f57145b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_124": {
+      "en": "<color=#brightblue>Adds to and raises the overall Hit bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Jab\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Jab\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的总体命中加成</color>，但<color=#brightred>增加施展功法所需的「点」式</color>，仅可应用在原本需要消耗「点」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e015eba68c01d43b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_125": {
+      "en": "<color=#brightblue>Adds to and raises the overall Hit bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Grab\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Grab\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的总体命中加成</color>，但<color=#brightred>增加施展功法所需的「拿」式</color>，仅可应用在原本需要消耗「拿」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a6e22f36750fcb8a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_126": {
+      "en": "<color=#brightblue>Adds to and raises the overall Hit bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Tone\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Tone\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的总体命中加成</color>，但<color=#brightred>增加施展功法所需的「音」式</color>，仅可应用在原本需要消耗「音」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fab46013372907c7",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_127": {
+      "en": "<color=#brightblue>Adds to and raises the overall Hit bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Entangle\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Entangle\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的总体命中加成</color>，但<color=#brightred>增加施展功法所需的「缠」式</color>，仅可应用在原本需要消耗「缠」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "545c14dd8de0b71e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_128": {
+      "en": "<color=#brightblue>Adds to and raises the overall Hit bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Spell\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Spell\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的总体命中加成</color>，但<color=#brightred>增加施展功法所需的「咒」式</color>，仅可应用在原本需要消耗「咒」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "74b568601d04bfd6",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_129": {
+      "en": "<color=#brightblue>Adds to and raises the overall Hit bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Harness\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Harness\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的总体命中加成</color>，但<color=#brightred>增加施展功法所需的「机」式</color>，仅可应用在原本需要消耗「机」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "33433d937f77dcee",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_130": {
+      "en": "<color=#brightblue>Adds to and raises the overall Hit bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Medicine\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Medicine\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的总体命中加成</color>，但<color=#brightred>增加施展功法所需的「药」式</color>，仅可应用在原本需要消耗「药」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e76eaf21923d24e1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_131": {
+      "en": "<color=#brightblue>Adds to and raises the overall Hit bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Poison\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Poison\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的总体命中加成</color>，但<color=#brightred>增加施展功法所需的「毒」式</color>，仅可应用在原本需要消耗「毒」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7ccb7b9af65db655",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_132": {
+      "en": "<color=#brightblue>Adds to and raises the overall Hit bonus this Art grants upon casting</color>, but <color=#brightred>increases the \"Sweep\" Charges required to invoke it</color>. Applicable only to Annihilations that originally consume \"Sweep\" Charges...",
+      "cn": "<color=#brightblue>增加、提高此功法施展后提供的总体命中加成</color>，但<color=#brightred>增加施展功法所需的「扫」式</color>，仅可应用在原本需要消耗「扫」式的摧破上……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "041e6818d6baf359",
+      "engine": null,
+      "updatedAt": null
+    }
+  }
+}

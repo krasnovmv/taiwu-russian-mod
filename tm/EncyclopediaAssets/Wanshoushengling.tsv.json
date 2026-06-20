@@ -1,0 +1,574 @@
+{
+  "schemaVersion": 1,
+  "file": "EncyclopediaAssets/Wanshoushengling.tsv",
+  "glossaryVersion": 5,
+  "units": {
+    "r0c0": {
+      "en": "<align=\"center\"><td rowspan=\"2\">Monkey</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"2\">猴</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3473dd6a7eb12713",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r0c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"猴子\"><color=#GradeColor_2>Monkey</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"猴子\"><color=#GradeColor_2>猴子</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4ae133293299d87b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r0c2": {
+      "en": "<align=\"left\"><td rowspan=\"2\">Advance: Decrease the distance between two parties by 1</td></align>",
+      "cn": "<align=\"left\"><td rowspan=\"2\">迅进：将双方的距离拉近1</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "cad360e91a4a3a83",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r0c3": {
+      "en": "<align=\"left\"><td rowspan=\"2\">Retreat: Increase the distance between two parties by 1</td></align>",
+      "cn": "<align=\"left\"><td rowspan=\"2\">拉回：将双方的距离拉远1</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1cd642263932e5e9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r0c4": {
+      "en": "<align=\"left\">Mastery: For 60 seconds\\u002c Enhances the increase effects of the user's final Martial Art Power by 25%\\u002c and weakens the reduction effects by 25%.</align>",
+      "cn": "<align=\"left\">驭使：在60秒内，使主战者功法威力的增加效果最终提高25%，功法威力的减少效果最终降低25%</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0bd19b0a84c5ccae",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r1c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"灵猴\"><color=#GradeColor_5>Nimble Monkey</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"灵猴\"><color=#GradeColor_5>灵猴</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ab303454c417955f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r1c4": {
+      "en": "<align=\"left\">Mastery: For 60 seconds\\u002c Enhances the increase effects of the main combatant's final Martial Art Power by 40%\\u002c and weakens the reduction effects by 40%.</align>",
+      "cn": "<align=\"left\">驭使：在60秒内，使主战者功法威力的增加效果最终提高40%，功法威力的减少效果最终降低40%</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "cca1879aaaa8eb68",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r2c0": {
+      "en": "<align=\"center\"><td rowspan=\"2\">Bird</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"2\">鸟</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "58631bb58676acd7",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r2c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"恶鹰\"><color=#GradeColor_2>Eagle</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"恶鹰\"><color=#GradeColor_2>恶鹰</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "95c34ce94f421ebe",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r2c2": {
+      "en": "<align=\"left\"><td rowspan=\"2\">Aggro: For 30 seconds\\u002c grant the main combatant 40% of your Force\\u002c Precision\\u002c Dexterity\\u002c and Sway attributes.</td></align>",
+      "cn": "<align=\"left\"><td rowspan=\"2\">掠阵：在30秒内以自身力道、精妙、迅疾、动心的40%，增加主战者的对应属性</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ff4dcff56971ad04",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r2c3": {
+      "en": "<align=\"left\"><td rowspan=\"2\">Caution: For 30 seconds\\u002c grant the main combatant 20% of your Resistance\\u002c Parry\\u002c Dodge\\u002c and Poise attributes.</td></align>",
+      "cn": "<align=\"left\"><td rowspan=\"2\">警示：在30秒内以自身卸力、拆招、闪避、守心的20%，增加主战者的对应属性</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "41be42414997b8ef",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r2c4": {
+      "en": "<align=\"left\">Mastery: For 60 seconds\\u002c the greater the distance from the target\\u002c the higher the main combatant's chance to land a Critical Hit (The chance to Critical Hit increases by Distance × 40%)</align>",
+      "cn": "<align=\"left\">驭使：在60秒内，使主战者距离敌人越远，主战者命中敌人要害的几率就越高（命中要害几率提高 = 距离 × 40%）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b0c33c3ea597703d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r3c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"金鹏\"><color=#GradeColor_5>Golden Eagle</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"金鹏\"><color=#GradeColor_5>金鹏</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "88b11b6fcfca3fb3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r3c4": {
+      "en": "<align=\"left\">Mastery: For 60 seconds\\u002c the greater the distance from the target\\u002c the higher the main combatant's chance to land a Critical Hit (The chance to Critical Hit increases by Distance × 60%)</align>",
+      "cn": "<align=\"left\">驭使：在60秒内，使主战者距离敌人越远，主战者命中敌人要害的几率就越高（命中要害几率提高 = 距离 × 60%）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0669f289431609b5",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r4c0": {
+      "en": "<align=\"center\"><td rowspan=\"2\">Pig</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"2\">猪</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e4157b016d5ede88",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r4c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"野猪\"><color=#GradeColor_2>Boar</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"野猪\"><color=#GradeColor_2>野猪</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "eb5c8f72a65a9474",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r4c2": {
+      "en": "<align=\"left\"><td rowspan=\"2\">Deploy: Fight in place of the main combatant for 10 seconds. During this time\\u002c you can control this companion\\u002c whose Attack\\u002c Defense\\u002c Hit\\u002c and Deflect are all increased by 20%.</td></align>",
+      "cn": "<align=\"left\"><td rowspan=\"2\">出战：在10秒内代替主战者进行战斗期间玩家可以操控此同道，且此同道的攻击、防御、命中、化解属性均提高20%</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d1f090534aa607ee",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r4c3": {
+      "en": "<align=\"left\"><td rowspan=\"2\">Advance: Decrease the distance between two parties by 1</td></align>",
+      "cn": "<align=\"left\"><td rowspan=\"2\">迅进：将双方的距离拉近1</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "cad360e91a4a3a83",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r4c4": {
+      "en": "<align=\"left\">Mastery: For 60 seconds\\u002c the closer the distance from the target\\u002c the higher the main combatant's chance to land a Critical Hit (Chance to Critical Hit increase = (14 - Distance) × 40%)</align>",
+      "cn": "<align=\"left\">驭使：在60秒内，使主战者距离敌人越近，主战者命中敌人要害的几率就越高（命中要害几率提高 = (14 - 距离) × 40%）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b1e069984c82283a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r5c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"玄猪\"><color=#GradeColor_5>Black Boar</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"玄猪\"><color=#GradeColor_5>玄猪</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d763db6083915388",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r5c4": {
+      "en": "<align=\"left\">Mastery: For 60 seconds\\u002c the closer the distance from the target\\u002c the higher the main combatant's chance to land a Critical Hit (Chance to Critical Hit increase = (14 - Distance) × 60%)</align>",
+      "cn": "<align=\"left\">驭使：在60秒内，使主战者距离敌人越近，主战者命中敌人要害的几率就越高（命中要害几率提高 = (14 - 距离) × 60%）</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f312f7e333d4ba6a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r6c0": {
+      "en": "<align=\"center\"><td rowspan=\"2\">Bear</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"2\">熊</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2d94cab90addc95d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r6c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"棕熊\"><color=#GradeColor_3>Brown Bear</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"棕熊\"><color=#GradeColor_3>棕熊</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "38496a3bd2a58931",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r6c2": {
+      "en": "<align=\"left\"><td rowspan=\"2\">Deploy: Fight in place of the main combatant for 10 seconds. During this time\\u002c you can control this companion\\u002c whose Attack\\u002c Defense\\u002c Hit\\u002c and Deflect are all increased by 20%.</td></align>",
+      "cn": "<align=\"left\"><td rowspan=\"2\">出战：在10秒内代替主战者进行战斗期间玩家可以操控此同道，且此同道的攻击、防御、命中、化解属性均提高20%</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d1f090534aa607ee",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r6c3": {
+      "en": "<align=\"left\"><td rowspan=\"2\">Retreat: Increase the distance between two parties by 1</td></align>",
+      "cn": "<align=\"left\"><td rowspan=\"2\">拉回：将双方的距离拉远1</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1cd642263932e5e9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r6c4": {
+      "en": "<align=\"left\">Mastery: For 60 seconds\\u002c the main combatant deals 25% more Direct Wound Damage to enemies while taking 25% less Direct Wound Damage from them.</align>",
+      "cn": "<align=\"left\">驭使：在60秒内，使主战者对敌人造成的直接重创伤害最终提高25%；敌人对主战者造成的直接重创伤害最终降低25%</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2341247d5cbc8092",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r7c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"白熊\"><color=#GradeColor_6>Albino Bear</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"白熊\"><color=#GradeColor_6>白熊</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "66067c7b20321216",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r7c4": {
+      "en": "<align=\"left\">Mastery: For 60 seconds\\u002c the main combatant deals 40% more Direct Wound Damage to enemies while taking 40% less Direct Wound Damage from them.</align>",
+      "cn": "<align=\"left\">驭使：在60秒内，使主战者对敌人造成的直接重创伤害最终提高40%；敌人对主战者造成的直接重创伤害最终降低40%</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2e78cd6e66aaa00c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r8c0": {
+      "en": "<align=\"center\"><td rowspan=\"2\">Cattle</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"2\">牛</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2f37d764f1021fd1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r8c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"野牛\"><color=#GradeColor_3>Bison</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"野牛\"><color=#GradeColor_3>野牛</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "5628e9198ed6b4df",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r8c2": {
+      "en": "<align=\"left\"><td rowspan=\"2\">Deploy: Fight in place of the main combatant for 10 seconds. During this time\\u002c you can control this companion\\u002c whose Attack\\u002c Defense\\u002c Hit\\u002c and Deflect are all increased by 20%.</td></align>",
+      "cn": "<align=\"left\"><td rowspan=\"2\">出战：在10秒内代替主战者进行战斗期间玩家可以操控此同道，且此同道的攻击、防御、命中、化解属性均提高20%</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d1f090534aa607ee",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r8c3": {
+      "en": "<align=\"left\"><td rowspan=\"2\">Cover: Removes 2 openings from the main combatant</td></align>",
+      "cn": "<align=\"left\"><td rowspan=\"2\">还护：为主战者消除2个破绽</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9ec478463ecc4677",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r8c4": {
+      "en": "<align=\"left\">Mastery: For 60 seconds\\u002c increase the main combatant's Reflection Power by 25%</align>",
+      "cn": "<align=\"left\">驭使：在60秒内，使主战者的反震威力提高25%</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "717578068a456b26",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r9c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"夔牛\"><color=#GradeColor_6>Kuiniu</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"夔牛\"><color=#GradeColor_6>夔牛</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f04cbad2dd6875a0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r9c4": {
+      "en": "<align=\"left\">Mastery: For 60 seconds\\u002c increase the main combatant's Reflection Power by 40%</align>",
+      "cn": "<align=\"left\">驭使：在60秒内，使主战者的反震威力提高40%</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f7a31ad3606c9778",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r10c0": {
+      "en": "<align=\"center\"><td rowspan=\"2\">Snake</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"2\">蛇</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "743119b7a2c2b6c8",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r10c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"巨蛇\"><color=#GradeColor_3>Python</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"巨蛇\"><color=#GradeColor_3>巨蛇</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "59a13bb69256631b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r10c2": {
+      "en": "<align=\"left\"><td rowspan=\"2\">Deploy: Fight in place of the main combatant for 10 seconds. During this time\\u002c you can control this companion\\u002c whose Attack\\u002c Defense\\u002c Hit\\u002c and Deflect are all increased by 20%.</td></align>",
+      "cn": "<align=\"left\"><td rowspan=\"2\">出战：在10秒内代替主战者进行战斗期间玩家可以操控此同道，且此同道的攻击、防御、命中、化解属性均提高20%</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d1f090534aa607ee",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r10c3": {
+      "en": "<align=\"left\"><td rowspan=\"2\">Unseal Acupoint: Unseals 2 sealed acupoints for the main combatant</td></align>",
+      "cn": "<align=\"left\"><td rowspan=\"2\">解穴：为主战者解开2个封穴</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "42a3b949bd43a876",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r10c4": {
+      "en": "<align=\"left\">Mastery: For 60 seconds\\u002c increases the main combatant's final Healing and Detox effects by 25%\\u002c and reduces the enemy's final Healing and Detox effects by 25%</align>",
+      "cn": "<align=\"left\">驭使：在60秒内，使主战者的疗伤、驱毒效果最终提高25%；敌人的疗伤、驱毒效果最终降低25%</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a93b7e8f02298669",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r11c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"巴蟒\"><color=#GradeColor_6>Bashe</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"巴蟒\"><color=#GradeColor_6>巴蟒</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d3f709209e026577",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r11c4": {
+      "en": "<align=\"left\">Mastery: For 60 seconds\\u002c increases the main combatant's final Healing and Detox effects by 40%\\u002c and reduces the enemy's final Healing and Detox effects by 40%</align>",
+      "cn": "<align=\"left\">驭使：在60秒内，使主战者的疗伤、驱毒效果最终提高40%；敌人的疗伤、驱毒效果最终降低40%</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "42d4f3605a67579e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r12c0": {
+      "en": "<align=\"center\"><td rowspan=\"2\">Leopard</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"2\">豹</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "38a0ede61cd1431a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r12c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"花豹\"><color=#GradeColor_4>Leopard</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"花豹\"><color=#GradeColor_4>花豹</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "4da0ef6be82d3e44",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r12c2": {
+      "en": "<align=\"left\"><td rowspan=\"2\">Deploy: Fight in place of the main combatant for 10 seconds. During this time\\u002c you can control this companion\\u002c whose Attack\\u002c Defense\\u002c Hit\\u002c and Deflect are all increased by 20%.</td></align>",
+      "cn": "<align=\"left\"><td rowspan=\"2\">出战：在10秒内代替主战者进行战斗期间玩家可以操控此同道，且此同道的攻击、防御、命中、化解属性均提高20%</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d1f090534aa607ee",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r12c3": {
+      "en": "<align=\"left\"><td rowspan=\"2\">Distract: Prevents enemy companions from using Support Commands for 15 seconds</td></align>",
+      "cn": "<align=\"left\"><td rowspan=\"2\">牵制：在15秒内阻止敌方同道使用助战指令</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fe7d49bb246af936",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r12c4": {
+      "en": "<align=\"left\">Mastery: For 60 seconds\\u002c increase the main combatant's Counter Power by 25%</align>",
+      "cn": "<align=\"left\">驭使：在60秒内，使主战者的反击威力提高25%</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "83db0946d9529147",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r13c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"黑豹\"><color=#GradeColor_7>Noir Leopard</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"黑豹\"><color=#GradeColor_7>黑豹</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "493a5cf2117985b2",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r13c4": {
+      "en": "<align=\"left\">Mastery: For 60 seconds\\u002c increase the main combatant's Counter Power by 40%</align>",
+      "cn": "<align=\"left\">驭使：在60秒内，使主战者的反击威力提高40%</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "600af94341e326f5",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r14c0": {
+      "en": "<align=\"center\"><td rowspan=\"2\">Lion</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"2\">狮</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b61247a9d6899bb3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r14c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"狮子\"><color=#GradeColor_4>Lion</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"狮子\"><color=#GradeColor_4>狮子</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ff61354cc0c9ffe4",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r14c2": {
+      "en": "<align=\"left\"><td rowspan=\"2\">Deploy: Fight in place of the main combatant for 10 seconds. During this time\\u002c you can control this companion\\u002c whose Attack\\u002c Defense\\u002c Hit\\u002c and Deflect are all increased by 20%.</td></align>",
+      "cn": "<align=\"left\"><td rowspan=\"2\">出战：在10秒内代替主战者进行战斗期间玩家可以操控此同道，且此同道的攻击、防御、命中、化解属性均提高20%</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d1f090534aa607ee",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r14c3": {
+      "en": "<align=\"left\"><td rowspan=\"2\">True Qi: Transfers 5 points of each True Qi type from yourself to the main combatant.</td></align>",
+      "cn": "<align=\"left\"><td rowspan=\"2\">真气：将自身的各类真气各5点传输给主战者</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2d8eff7c435a93c9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r14c4": {
+      "en": "<align=\"left\">Mastery: For 60 seconds\\u002c increases the main combatant's ability to weaken the enemy's Footwork Arts\\u002c Footwork\\u002c Inhale\\u002c and Stance by 25%\\u002c and reduces the same weakening effects inflicted on the main combatant by the enemy by 25%</align>",
+      "cn": "<align=\"left\">驭使：在60秒内，使主战者损耗敌人身法、脚力、提气、架势的效果最终提高25%，主战者被敌人损耗身法、脚力、提气、架势的效果最终降低25%</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "20f825e3322b6140",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r15c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"金狮\"><color=#GradeColor_7>Aureate Lion</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"金狮\"><color=#GradeColor_7>金狮</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "050ee85f3c370d31",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r15c4": {
+      "en": "<align=\"left\">Mastery: For 60 seconds\\u002c increases the main combatant's ability to weaken the enemy's Footwork Arts\\u002c Footwork\\u002c Inhale\\u002c and Stance by 40%\\u002c and reduces the same weakening effects inflicted on the main combatant by the enemy by 40%</align>",
+      "cn": "<align=\"left\">驭使：在60秒内，使主战者损耗敌人身法、脚力、提气、架势的效果最终提高40%，主战者被敌人损耗身法、脚力、提气、架势的效果最终降低40%</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6e696ac763a20a3a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r16c0": {
+      "en": "<align=\"center\"><td rowspan=\"2\">Tiger</td></align>",
+      "cn": "<align=\"center\"><td rowspan=\"2\">虎</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "81cefdaf82a8907e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r16c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"老虎\"><color=#GradeColor_4>Tiger</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"老虎\"><color=#GradeColor_4>老虎</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "37ba2eef3ac2e4c3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r16c2": {
+      "en": "<align=\"left\"><td rowspan=\"2\">Deploy: Fight in place of the main combatant for 10 seconds. During this time\\u002c you can control this companion\\u002c whose Attack\\u002c Defense\\u002c Hit\\u002c and Deflect are all increased by 20%.</td></align>",
+      "cn": "<align=\"left\"><td rowspan=\"2\">出战：在10秒内代替主战者进行战斗期间玩家可以操控此同道，且此同道的攻击、防御、命中、化解属性均提高20%</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d1f090534aa607ee",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r16c3": {
+      "en": "<align=\"left\"><td rowspan=\"2\">Encourage: Increases the Cast Progress of the main combatant's Martial Arts by 30%.</td></align>",
+      "cn": "<align=\"left\"><td rowspan=\"2\">催发：使主战者功法的施展进度增加30%</td></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6a0a1bc30075ec46",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r16c4": {
+      "en": "<align=\"left\">Mastery: For 60 seconds\\u002c the main combatant's accrued Follow-up Damage dealt to enemies increases by 20% until the end of Follow-up.</align>",
+      "cn": "<align=\"left\">驭使：在60秒内，使主战者对敌人造成的追击伤害累积提高20%，持续直到追击结束</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6e18faa72a01b896",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r17c1": {
+      "en": "<align=\"center\"><color=#9eb767><u><link=\"白虎\"><color=#GradeColor_7>White Tiger</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"白虎\"><color=#GradeColor_7>白虎</color></link></u></color></align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "35d9abc23187e192",
+      "engine": null,
+      "updatedAt": null
+    },
+    "r17c4": {
+      "en": "<align=\"left\">Mastery: For 60 seconds\\u002c the main combatant's accrued Follow-up Damage dealt to enemies increases by 40% until the end of Follow-up.</align>",
+      "cn": "<align=\"left\">驭使：在60秒内，使主战者对敌人造成的追击伤害累积提高40%，持续直到追击结束</align>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e1d67fd351194e68",
+      "engine": null,
+      "updatedAt": null
+    }
+  }
+}

@@ -1,0 +1,781 @@
+{
+  "schemaVersion": 1,
+  "file": "WorldCreation_language.txt",
+  "glossaryVersion": 5,
+  "units": {
+    "Name_0": {
+      "en": "Lifespan",
+      "cn": "人物的寿元",
+      "ru": "Продолжительность жизни",
+      "status": "machine",
+      "srcHash": "c44073e546e1973c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_1": {
+      "en": "Battle Difficulty",
+      "cn": "战斗的难度",
+      "ru": "Сложность сражения",
+      "status": "machine",
+      "srcHash": "e74300f2c4177d95",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_2": {
+      "en": "Study Speed",
+      "cn": "研读的速度",
+      "ru": "Скорость изучения",
+      "status": "machine",
+      "srcHash": "5c633bdce327cf2a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_3": {
+      "en": "Breakthrough Difficulty",
+      "cn": "突破的难度",
+      "ru": "Сложность Прорыва",
+      "status": "machine",
+      "srcHash": "986160195d09beb9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_4": {
+      "en": "Circulation Speed",
+      "cn": "周天的速度",
+      "ru": "Скорость циркуляции",
+      "status": "machine",
+      "srcHash": "558d84c91088ad41",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_5": {
+      "en": "Number of Outlaws",
+      "cn": "外道的数量",
+      "ru": "Количество преступников",
+      "status": "machine",
+      "srcHash": "e88efe292c84bf07",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_6": {
+      "en": "Invasion Speed",
+      "cn": "破冢的速度",
+      "ru": "Скорость вторжения",
+      "status": "machine",
+      "srcHash": "c532e64bde09c413",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_7": {
+      "en": "World Resources",
+      "cn": "世界的资源",
+      "ru": "Мировые Ресурсы",
+      "status": "machine",
+      "srcHash": "fbd228f6a607c84c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:02:12.265Z"
+    },
+    "Name_8": {
+      "en": "Population",
+      "cn": "世界的人数",
+      "ru": "Население",
+      "status": "machine",
+      "srcHash": "f820ee27a301b1a7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Name_9": {
+      "en": "Mindset Limitation",
+      "cn": "立场的限制",
+      "ru": "Ограничение Позиции",
+      "status": "machine",
+      "srcHash": "c90125f3112a4131",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_10": {
+      "en": "Random Successor",
+      "cn": "随机继承人",
+      "ru": "Случайный Преемник",
+      "status": "machine",
+      "srcHash": "00d4b90ebf277810",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_11": {
+      "en": "Enemy Cultivation",
+      "cn": "敌人的修习",
+      "ru": "Культивирование врага",
+      "status": "machine",
+      "srcHash": "82cfa66cd6003c18",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_12": {
+      "en": "Relationship Dynamics",
+      "cn": "人情的变化",
+      "ru": "Динамика взаимоотношений",
+      "status": "machine",
+      "srcHash": "075486719243c055",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:41:42.055Z"
+    },
+    "Name_13": {
+      "en": "Aspiration Growth",
+      "cn": "志向的成长",
+      "ru": "Рост Устремления",
+      "status": "machine",
+      "srcHash": "14f34500b5044439",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T22:06:46.416Z"
+    },
+    "Name_14": {
+      "en": "Loot Drop",
+      "cn": "战利品收益",
+      "ru": "Выпадение добычи",
+      "status": "machine",
+      "srcHash": "857aded6461fc457",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Desc_0": {
+      "en": "The Lifespan of all characters in the world.\\n<color=#E3C66DFF>Character Lifespan settings cannot be changed once the game has begun!</color>",
+      "cn": "世界中所有人物寿命的长短。\\n<color=#E3C66DFF>人物的寿元设置在开始游戏后将无法更改！</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "042893c72877921e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_1": {
+      "en": "The strength and adaptability of enemies in battle.\\n<color=#E3C66DFF>The higher the battle difficulty, the stronger the enemies' overall power, the more flexible their movements, and the better they are at seizing opportunities for offense and defense.</color>",
+      "cn": "战斗中敌人的实力与应变能力。\\n<color=#E3C66DFF>战斗的难度越高，敌人的整体实力越强，行动更加灵活，也更擅长把握进攻与防守的时机。</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f9c53b34136d00bb",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_2": {
+      "en": "The efficiency of book study.\\n<color=#yellow>The higher the study speed, the faster Taiwu can cultivate in Fine Arts and Martial Arts.</color>",
+      "cn": "书籍的研读效率。\\n<color=#yellow>研读的速度越高，太吾能够以越快的速度修习技艺和武学。</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9b0bd2de24377617",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_3": {
+      "en": "The success rate of connecting Breakthrough nodes.\\n<color=#yellow>The lower the breakthrough difficulty, the more easily Taiwu can break through Martial Arts bottlenecks.</color>",
+      "cn": "连接突破格的成功率。\\n<color=#yellow>突破的难度越低，太吾可以越轻松地突破武学玄关。</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "98312fbc1da845dc",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_4": {
+      "en": "The efficiency of Microcosmic Circulation.\\n<color=#yellow>The higher the circulation speed, the faster Taiwu can obtain Inner Qi and Circulation True Qi from Qi Arts.</color>",
+      "cn": "周天运转的效率。\\n<color=#yellow>周天的速度越高，太吾能够以越快的速度从内功中获取内力与周天真气。</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "139e7e9809a51ec3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_5": {
+      "en": "The number of evildoers and Outlaws scattered across the world.\\n<color=#E3C66DFF>The more Outlaws there are, the more often Taiwu will be ambushed during travel.</color>",
+      "cn": "散布于世界各地的邪士恶徒的数量。\\n<color=#E3C66DFF>外道的数量越多，太吾在旅行途中越容易遭遇袭击。</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "5eb6ba5f5473e9ff",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_6": {
+      "en": "The speed at which Xiangshu Incarnations emerge from Sword Mounds.\\n<color=#E3C66DFF>The faster they emerge, the more easily Taiwu Village will be destroyed by Xiangshu's invasion.</color>\\n<color=#E3C66DFF>It's game over once Taiwu Village is destroyed!</color>",
+      "cn": "相枢化身破冢而出的速度。\\n<color=#E3C66DFF>破冢的速度越快，太吾村越容易因相枢化身的袭击而覆灭。</color>\\n<color=#E3C66DFF>太吾村一旦覆灭，将导致游戏失败！</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0ffc8bab5abba383",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_7": {
+      "en": "The level of prosperity and wealth in the world.\\n<color=#E3C66DFF>The richer the world resources, the faster tile resources recover, and the more resources people hold, increasing Taiwu's income from selling items and managing Taiwu Village.</color>",
+      "cn": "世界的繁荣富足程度。\\n<color=#E3C66DFF>世界的资源越丰富，地格资源的恢复速度越快，世人持有的资源越多，太吾出售物品以及经营太吾村的收入也会越多。</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ed820895656f05be",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_8": {
+      "en": "The number of active characters in the world.\\n<color=#E3C66DFF>The larger the population, the more intricate and interconnected the Taiwu world becomes.</color>\\n<color=#E3C66DFF>The larger the population, the greater the hardware performance required.\\n<color=#E4504DFF>The world population setting cannot be changed after starting a new game!",
+      "cn": "世界中活跃的人物数量。\\n<color=#E3C66DFF>世界的人数越多，太吾世界越错综复杂。</color>\\n<color=#E3C66DFF>世界的人数越多，需要的电脑性能越好。\\n<color=#E4504DFF>世界的人数设置在开始游戏后将无法更改！",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "391dcbb4355c8471",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_9": {
+      "en": "Mindset determines the event options available to Taiwu, contributing to a more grounded experience...",
+      "cn": "根据太吾的处世立场，限制太吾可选择的事件选项，以获得更为真实的体验…",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "58a135a4b11a68f1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_10": {
+      "en": "When Taiwu dies or reaches Mania, if no heir exists, determines whether a random successor will appear so the Taiwu Clan's legacy can continue...\\n<color=#E3C66DFF>It's game over once the Taiwu Clan is left without an heir!",
+      "cn": "当太吾死亡或入魔时，如果没有任何继承人，是否出现随机的继承人以保证太吾氏得以延续…\\n<color=#E3C66DFF>若无人可传承太吾，将导致游戏失败！",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0b8a7e4447add650",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_11": {
+      "en": "The extent of enemies' Martial Arts cultivation.\\n<color=#E3C66DFF>The higher the enemies' cultivation capability, the better their command of Martial Arts, allowing them to wield their techniques with greater ease.",
+      "cn": "敌人的功法修习程度。\\n<color=#E3C66DFF>敌人的修习能力越强，敌人对于功法的掌握程度越高，能够更自如地运用其功法。",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6e92cacd38da04ea",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_12": {
+      "en": "The difficulty of changing characters' Favorability.\\n<color=#E3C66DFF>The lower the favorability difficulty, the more easily Taiwu can raise others' Favorability.</color>",
+      "cn": "人物好感变化的难度。\\n<color=#E3C66DFF>人情的变化难度越低，太吾能够更容易地提升他人的好感。</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b543a7d93ba6aff5",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_13": {
+      "en": "The rate at which Aspiration seniority is gained.\\n<color=#E3C66DFF>The faster Aspirations grow, the sooner Taiwu can unlock Aspiration skills and acquire special abilities.</color>",
+      "cn": "志向资历的获取速度。\\n<color=#E3C66DFF>志向的成长速度越快，太吾能够以越快的速度解锁志向技能，获得特殊的能力。</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ccc5a0965c000935",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_14": {
+      "en": "The amount of loot.\\n<color=#E3C66DFF>The higher the loot yield, the greater the chance Taiwu has of obtaining more loot after defeating enemies.</color>",
+      "cn": "战利品的数量。\\n<color=#E3C66DFF>战利品收益越高，太吾击败敌人后能够获得更多战利品的几率就越高。</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a91e7c95b137e83b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Options_0_0": {
+      "en": "Short",
+      "cn": "早夭",
+      "ru": "Короткий",
+      "status": "machine",
+      "srcHash": "40b10ee0bff4c2ad",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_0_1": {
+      "en": "Average",
+      "cn": "正常",
+      "ru": "Средний",
+      "status": "machine",
+      "srcHash": "d825f1c5936ebb22",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_0_2": {
+      "en": "Long",
+      "cn": "较长",
+      "ru": "Длинный",
+      "status": "machine",
+      "srcHash": "49836b86361b5bc4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_0_3": {
+      "en": "Very Long",
+      "cn": "极长",
+      "ru": "очень длинный",
+      "status": "machine",
+      "srcHash": "5e27551e9a82d76a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_1_0": {
+      "en": "Normal",
+      "cn": "普通",
+      "ru": "Обычный",
+      "status": "machine",
+      "srcHash": "2d194c32397827fc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_1_1": {
+      "en": "Hard",
+      "cn": "困难",
+      "ru": "Трудный",
+      "status": "machine",
+      "srcHash": "28a2d71ae2c2c306",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_1_2": {
+      "en": "Extreme",
+      "cn": "极难",
+      "ru": "Экстремальный",
+      "status": "machine",
+      "srcHash": "4de41f5f25395f23",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_1_3": {
+      "en": "Doom",
+      "cn": "必死",
+      "ru": "Рок",
+      "status": "machine",
+      "srcHash": "9eb2fae88e4d6502",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_2_0": {
+      "en": "Super",
+      "cn": "极快",
+      "ru": "Супер",
+      "status": "machine",
+      "srcHash": "9f63e5090b131af3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_2_1": {
+      "en": "Normal",
+      "cn": "普通",
+      "ru": "Обычный",
+      "status": "machine",
+      "srcHash": "2d194c32397827fc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_2_2": {
+      "en": "Slow",
+      "cn": "缓慢",
+      "ru": "Медленный",
+      "status": "machine",
+      "srcHash": "e24a58822b0af942",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_2_3": {
+      "en": "Obtuse",
+      "cn": "天书",
+      "ru": "Тупой",
+      "status": "machine",
+      "srcHash": "a219ada7d881732d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_3_0": {
+      "en": "Easy",
+      "cn": "轻松",
+      "ru": "Легко",
+      "status": "machine",
+      "srcHash": "a7a1a2b303209ef0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_3_1": {
+      "en": "Normal",
+      "cn": "普通",
+      "ru": "Обычный",
+      "status": "machine",
+      "srcHash": "2d194c32397827fc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_3_2": {
+      "en": "Hard",
+      "cn": "困难",
+      "ru": "Трудный",
+      "status": "machine",
+      "srcHash": "28a2d71ae2c2c306",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_3_3": {
+      "en": "Esoteric",
+      "cn": "失传",
+      "ru": "Эзотерический",
+      "status": "machine",
+      "srcHash": "381cfb2d96833297",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_4_0": {
+      "en": "Swift",
+      "cn": "速成",
+      "ru": "Быстрый",
+      "status": "machine",
+      "srcHash": "66ff06d7a75cab16",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_4_1": {
+      "en": "Normal",
+      "cn": "普通",
+      "ru": "Обычный",
+      "status": "machine",
+      "srcHash": "2d194c32397827fc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_4_2": {
+      "en": "Slow",
+      "cn": "缓慢",
+      "ru": "Медленный",
+      "status": "machine",
+      "srcHash": "e24a58822b0af942",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_4_3": {
+      "en": "Arduous",
+      "cn": "苦修",
+      "ru": "Трудный",
+      "status": "machine",
+      "srcHash": "884af34fa41ecbc1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_5_0": {
+      "en": "Low",
+      "cn": "较少",
+      "ru": "Низкий",
+      "status": "machine",
+      "srcHash": "2f13544735c3d441",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_5_1": {
+      "en": "Normal",
+      "cn": "普通",
+      "ru": "Обычный",
+      "status": "machine",
+      "srcHash": "2d194c32397827fc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_5_2": {
+      "en": "High",
+      "cn": "较多",
+      "ru": "Высокий",
+      "status": "machine",
+      "srcHash": "973f42a0d4b734fe",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_5_3": {
+      "en": "Very High",
+      "cn": "极多",
+      "ru": "очень высокий",
+      "status": "machine",
+      "srcHash": "cbd6365baa25178d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_6_0": {
+      "en": "Dormant",
+      "cn": "停止",
+      "ru": "Бездействующий",
+      "status": "machine",
+      "srcHash": "783458c437086e94",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_6_1": {
+      "en": "Normal",
+      "cn": "普通",
+      "ru": "Обычный",
+      "status": "machine",
+      "srcHash": "2d194c32397827fc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_6_2": {
+      "en": "Fast",
+      "cn": "较快",
+      "ru": "Быстро",
+      "status": "machine",
+      "srcHash": "666e3aa24bf30cff",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_6_3": {
+      "en": "Super",
+      "cn": "极快",
+      "ru": "Супер",
+      "status": "machine",
+      "srcHash": "9f63e5090b131af3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_7_0": {
+      "en": "Havens",
+      "cn": "桃源",
+      "ru": "Убежища",
+      "status": "machine",
+      "srcHash": "e8404c7bec5b91a6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_7_1": {
+      "en": "Normal",
+      "cn": "普通",
+      "ru": "Обычный",
+      "status": "machine",
+      "srcHash": "2d194c32397827fc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_7_2": {
+      "en": "Bare",
+      "cn": "贫瘠",
+      "ru": "Голый",
+      "status": "machine",
+      "srcHash": "7ea39d2f303f5b52",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_7_3": {
+      "en": "Barren",
+      "cn": "荒芜",
+      "ru": "Бесплодный",
+      "status": "machine",
+      "srcHash": "0be5a05e3e5e5c20",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_8_0": {
+      "en": "Low",
+      "cn": "较少",
+      "ru": "Низкий",
+      "status": "machine",
+      "srcHash": "2f13544735c3d441",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_8_1": {
+      "en": "Normal",
+      "cn": "普通",
+      "ru": "Обычный",
+      "status": "machine",
+      "srcHash": "2d194c32397827fc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_8_2": {
+      "en": "High",
+      "cn": "较多",
+      "ru": "Высокий",
+      "status": "machine",
+      "srcHash": "973f42a0d4b734fe",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_8_3": {
+      "en": "Very High",
+      "cn": "极多",
+      "ru": "очень высокий",
+      "status": "machine",
+      "srcHash": "cbd6365baa25178d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_9_0": {
+      "en": "On",
+      "cn": "开启",
+      "ru": "На",
+      "status": "machine",
+      "srcHash": "8421c1bb730a569c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_9_1": {
+      "en": "Off",
+      "cn": "关闭",
+      "ru": "Прочь",
+      "status": "machine",
+      "srcHash": "f269aaa7f39e0f82",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_10_0": {
+      "en": "On",
+      "cn": "开启",
+      "ru": "На",
+      "status": "machine",
+      "srcHash": "8421c1bb730a569c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_10_1": {
+      "en": "Off",
+      "cn": "关闭",
+      "ru": "Прочь",
+      "status": "machine",
+      "srcHash": "f269aaa7f39e0f82",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_11_0": {
+      "en": "Normal",
+      "cn": "普通",
+      "ru": "Обычный",
+      "status": "machine",
+      "srcHash": "2d194c32397827fc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_11_1": {
+      "en": "Moderate",
+      "cn": "较高",
+      "ru": "Умеренный",
+      "status": "machine",
+      "srcHash": "8950a2bc75c6bf6f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_11_2": {
+      "en": "Extreme",
+      "cn": "极高",
+      "ru": "Экстремальный",
+      "status": "machine",
+      "srcHash": "4de41f5f25395f23",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_11_3": {
+      "en": "Mastery",
+      "cn": "精通",
+      "ru": "Мастерство",
+      "status": "machine",
+      "srcHash": "596e54ff79bf7df8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_12_0": {
+      "en": "Easy",
+      "cn": "轻松",
+      "ru": "Легко",
+      "status": "machine",
+      "srcHash": "a7a1a2b303209ef0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_12_1": {
+      "en": "Normal",
+      "cn": "普通",
+      "ru": "Обычный",
+      "status": "machine",
+      "srcHash": "2d194c32397827fc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_12_2": {
+      "en": "Hard",
+      "cn": "困难",
+      "ru": "Трудный",
+      "status": "machine",
+      "srcHash": "28a2d71ae2c2c306",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_12_3": {
+      "en": "Harsh",
+      "cn": "刻薄",
+      "ru": "Суровый",
+      "status": "machine",
+      "srcHash": "52193f9d1d4a2742",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_13_0": {
+      "en": "Swift",
+      "cn": "速成",
+      "ru": "Быстрый",
+      "status": "machine",
+      "srcHash": "66ff06d7a75cab16",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_13_1": {
+      "en": "Normal",
+      "cn": "普通",
+      "ru": "Обычный",
+      "status": "machine",
+      "srcHash": "2d194c32397827fc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_13_2": {
+      "en": "Slow",
+      "cn": "缓慢",
+      "ru": "Медленный",
+      "status": "machine",
+      "srcHash": "e24a58822b0af942",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_13_3": {
+      "en": "Difficult",
+      "cn": "艰难",
+      "ru": "Трудный",
+      "status": "machine",
+      "srcHash": "48439e888377553b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_14_0": {
+      "en": "Abundant",
+      "cn": "丰富",
+      "ru": "Обильный",
+      "status": "machine",
+      "srcHash": "14349520ed271750",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_14_1": {
+      "en": "Average",
+      "cn": "正常",
+      "ru": "Средний",
+      "status": "machine",
+      "srcHash": "d825f1c5936ebb22",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_14_2": {
+      "en": "Scarce",
+      "cn": "稀少",
+      "ru": "Дефицитный",
+      "status": "machine",
+      "srcHash": "c0b4073af3306095",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    },
+    "Options_14_3": {
+      "en": "Rare",
+      "cn": "罕见",
+      "ru": "Редкий",
+      "status": "machine",
+      "srcHash": "db52db97249083eb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-20T20:14:49.687Z"
+    }
+  }
+}
