@@ -1,54 +1,52 @@
 /**
- * Minimal zero-dependency terminal progress bar.
- *
- * Renders to stderr (so stdout stays clean for piped results) and only when
- * stderr is a TTY — under redirection it is silent. Renders are throttled to
- * avoid flicker on fast loops.
+ * Thin adapter over `cli-progress` exposing the small API the CLIs use. Renders
+ * to stderr (so stdout stays clean for piped results) and stays silent when
+ * stderr is not a TTY.
  */
-const BAR_WIDTH = 24;
-const RENDER_INTERVAL_MS = 80;
+import cliProgress from "cli-progress";
+
+const SUFFIX_MAX = 60;
+
+function clip(text: string): string {
+  return text.length > SUFFIX_MAX ? `${text.slice(0, SUFFIX_MAX - 1)}…` : text;
+}
 
 export class Progress {
+  private readonly bar: cliProgress.SingleBar;
   private current = 0;
-  private lastRender = 0;
-  private readonly isTty = process.stderr.isTTY === true;
 
   constructor(
     private readonly total: number,
-    private readonly label: string,
-  ) {}
+    label: string,
+  ) {
+    this.bar = new cliProgress.SingleBar(
+      {
+        format: `${label} [{bar}] {value}/{total} {percentage}% {suffix}`,
+        stream: process.stderr,
+        noTTYOutput: false,
+        hideCursor: true,
+        clearOnComplete: false,
+        forceRedraw: false,
+      },
+      cliProgress.Presets.shades_classic,
+    );
+    this.bar.start(total, 0, { suffix: "" });
+  }
 
   /** Advance by one step, optionally updating the trailing text. */
   increment(suffix = ""): void {
     this.current++;
-    this.render(suffix, true);
+    this.bar.update(this.current, { suffix: clip(suffix) });
   }
 
-  /** Re-render with new trailing text without advancing (e.g. sub-progress). */
+  /** Re-render with new trailing text without advancing (sub-progress). */
   note(suffix: string): void {
-    this.render(suffix, false);
+    this.bar.update(this.current, { suffix: clip(suffix) });
   }
 
   /** Finish the bar and move to a new line. */
   finish(suffix = ""): void {
-    if (!this.isTty) return;
-    this.current = this.total;
-    this.render(suffix, true);
-    process.stderr.write("\n");
-  }
-
-  private render(suffix: string, force: boolean): void {
-    if (!this.isTty) return;
-    const now = Date.now();
-    if (!force && now - this.lastRender < RENDER_INTERVAL_MS) return;
-    this.lastRender = now;
-
-    const ratio = this.total > 0 ? Math.min(1, this.current / this.total) : 1;
-    const filled = Math.round(ratio * BAR_WIDTH);
-    const bar = "█".repeat(filled) + "░".repeat(BAR_WIDTH - filled);
-    const pct = (ratio * 100).toFixed(0).padStart(3);
-    const line = `${this.label} [${bar}] ${this.current}/${this.total} ${pct}% ${suffix}`;
-    const max = (process.stderr.columns ?? 120) - 1;
-    process.stderr.write(`\r${line.length > max ? line.slice(0, max) : line}\x1b[K`);
+    this.bar.update(this.total, { suffix: clip(suffix) });
+    this.bar.stop();
   }
 }

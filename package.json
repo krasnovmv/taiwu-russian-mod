@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@types/cli-progress": "^3.11.6",
     "@types/node": "^26.0.0",
     "eslint": "^10.5.0",
     "eslint-config-prettier": "^10.1.8",
@@ -31,6 +32,7 @@
   },
   "private": true,
   "dependencies": {
-    "@yandex-cloud/nodejs-sdk": "^3.2.0"
+    "@yandex-cloud/nodejs-sdk": "^3.2.0",
+    "cli-progress": "^3.12.0"
   }
 }

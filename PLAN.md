@@ -118,9 +118,9 @@
       зеркалит источник в `Language_RU` (перевод где есть, английский fallback),
       оригинал не трогается → откат = удалить папку. Бэкап убран за ненадобностью.
 - [x] Прогресс-бары во всех CLI по файлам (`translate`/`apply`/`status`/`estimate`/
-      `validate`/`sync`), у `translate` ещё под-прогресс по единицам внутри файла
-      (`src/cli/progress.ts`, рисует в stderr только в TTY). Движки получили
-      опциональный `onProgress`-колбэк.
+      `validate`/`sync`), у `translate` ещё под-прогресс по единицам внутри файла.
+      Рендер — библиотека `cli-progress` (тонкий адаптер `src/cli/progress.ts`,
+      пишет в stderr, в TTY). Движки получили опциональный `onProgress`-колбэк.
 - [x] Junction `Language_RU` → `StreamingAssets/Language_RU` игры (симметрично EN/CN):
       `apply` пишет прямо в игру, папка удобно открывается из корня проекта.
 
