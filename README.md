@@ -40,26 +40,27 @@ npm run typecheck
 cp .env.example .env
 ```
 
-| Variable                      | Purpose                                                 |
-| ----------------------------- | ------------------------------------------------------- |
-| `TAIWU_YANDEX_IAM_TOKEN`      | IAM token (optional; else `yc iam create-token` is run) |
-| `TAIWU_YANDEX_FOLDER_ID`      | Folder id (optional; else `yc config get folder-id`)    |
-| `TAIWU_LANG_DIR`              | Override EN source dir (default `./Language_EN`)        |
-| `TAIWU_LANG_CN_DIR`           | Override CN reference dir                               |
-| `TAIWU_TM_DIR`                | Translation-memory dir (default `./tm`)                 |
-| `TAIWU_LANG_RU_DIR`           | RU output dir for `apply` (default `./Language_RU`)     |
-| `TAIWU_GLOSSARY`              | Glossary file (default `./data/glossary.json`)          |
-| `TAIWU_YANDEX_RATE_RUB_PER_M` | Price estimate, RUB per 1M chars (default 419)          |
-| `TAIWU_LMSTUDIO_BASE_URL`     | LM Studio server (default `http://localhost:1234/v1`)   |
-| `TAIWU_LMSTUDIO_MODEL`        | Model id (default: first non-embedding model loaded)    |
-| `TAIWU_LMSTUDIO_CONCURRENCY`  | Parallel requests to LM Studio (default 4)              |
+Yandex credentials are not configured here — they always come from the `yc` CLI
+(run `yc init` once). Optional variables:
+
+| Variable                      | Purpose                                               |
+| ----------------------------- | ----------------------------------------------------- |
+| `TAIWU_LANG_DIR`              | Override EN source dir (default `./Language_EN`)      |
+| `TAIWU_LANG_CN_DIR`           | Override CN reference dir                             |
+| `TAIWU_TM_DIR`                | Translation-memory dir (default `./tm`)               |
+| `TAIWU_LANG_RU_DIR`           | RU output dir for `apply` (default `./Language_RU`)   |
+| `TAIWU_GLOSSARY`              | Glossary file (default `./data/glossary.json`)        |
+| `TAIWU_YANDEX_RATE_RUB_PER_M` | Price estimate, RUB per 1M chars (default 419)        |
+| `TAIWU_LMSTUDIO_BASE_URL`     | LM Studio server (default `http://localhost:1234/v1`) |
+| `TAIWU_LMSTUDIO_MODEL`        | Model id (default: first non-embedding model loaded)  |
+| `TAIWU_LMSTUDIO_CONCURRENCY`  | Parallel requests to LM Studio (default 4)            |
 
 ## Engines
 
 | Engine     | Use it for                | Setup                                      |
 | ---------- | ------------------------- | ------------------------------------------ |
 | `mock`     | dry runs / tests (free)   | none                                       |
-| `yandex`   | fast machine translation  | `yc init` once (or set `TAIWU_YANDEX_*`)   |
+| `yandex`   | fast machine translation  | `yc init` once (credentials via `yc`)      |
 | `lmstudio` | local LLM (free, private) | LM Studio running with a chat model loaded |
 
 ```bash

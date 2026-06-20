@@ -1,8 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import { folderIdProvider, iamTokenProvider } from "../src/engine/yandex-creds.js";
-import { ycFolderId, ycIamToken } from "../src/engine/yc.js";
 import { YandexEngine, batchByChars } from "../src/engine/yandex.js";
 
 test("batchByChars respects the character budget", () => {
@@ -23,43 +21,25 @@ test("a single oversized text is its own batch (never dropped)", () => {
   assert.deepEqual(batches, [["x".repeat(50)], ["y"]]);
 });
 
-test("YandexEngine.fromEnv always builds an engine (creds resolved lazily)", () => {
+test("YandexEngine.fromEnv builds an engine (yc creds resolved lazily)", () => {
   const engine = YandexEngine.fromEnv();
   assert.equal(engine.id, "yandex");
 });
 
-async function withEnv(
-  vars: Record<string, string | undefined>,
-  body: () => Promise<void>,
-): Promise<void> {
-  const saved: Record<string, string | undefined> = {};
-  for (const [k, v] of Object.entries(vars)) {
-    saved[k] = process.env[k];
-    if (v === undefined) delete process.env[k];
-    else process.env[k] = v;
-  }
-  try {
-    await body();
-  } finally {
-    for (const [k, v] of Object.entries(saved)) {
-      if (v === undefined) delete process.env[k];
-      else process.env[k] = v;
-    }
-  }
-}
-
-test("credential providers use env when set, else fall back to yc", async () => {
-  await withEnv(
-    { TAIWU_YANDEX_IAM_TOKEN: "env-token", TAIWU_YANDEX_FOLDER_ID: "env-folder" },
-    async () => {
-      assert.equal(await iamTokenProvider()(), "env-token");
-      assert.equal(await folderIdProvider()(), "env-folder");
+test("credentials are resolved lazily, not at construction", () => {
+  let tokenCalls = 0;
+  let folderCalls = 0;
+  const engine = new YandexEngine({
+    getIamToken: () => {
+      tokenCalls++;
+      return Promise.resolve("t");
     },
-  );
-  await withEnv({ TAIWU_YANDEX_IAM_TOKEN: undefined, TAIWU_YANDEX_FOLDER_ID: undefined }, () => {
-    // Without env vars, the provider IS the yc resolver (not invoked here).
-    assert.equal(iamTokenProvider(), ycIamToken);
-    assert.equal(folderIdProvider(), ycFolderId);
-    return Promise.resolve();
+    getFolderId: () => {
+      folderCalls++;
+      return Promise.resolve("f");
+    },
   });
+  assert.equal(tokenCalls, 0); // constructing must not resolve credentials
+  assert.equal(folderCalls, 0);
+  assert.equal(engine.id, "yandex");
 });

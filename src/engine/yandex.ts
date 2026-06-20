@@ -15,7 +15,7 @@ import { translationService } from "@yandex-cloud/nodejs-sdk/ai-translate-v2";
 
 import { backoffMs, delay } from "../util/async.js";
 import type { ProgressCallback, TranslationEngine, TranslationRequest } from "./types.js";
-import { folderIdProvider, iamTokenProvider } from "./yandex-creds.js";
+import { ycFolderId, ycIamToken } from "./yc.js";
 
 const CHAR_BUDGET = 9000;
 const MAX_TEXTS = 100;
@@ -45,13 +45,14 @@ export class YandexEngine implements TranslationEngine {
   }
 
   /**
-   * Build from environment, falling back to the `yc` CLI for any credential not
-   * set (see {@link iamTokenProvider}/{@link folderIdProvider}). Credentials are
-   * resolved lazily on first translate, so a missing/expired token surfaces a
-   * clear error only when translation actually runs.
+   * Default engine: credentials always come from the `yc` CLI
+   * (`yc iam create-token` / `yc config get folder-id`), resolved lazily on the
+   * first translate so a missing/uninitialized CLI surfaces a clear error only
+   * when translation actually runs. Inject providers via the constructor to test
+   * or to source credentials differently.
    */
   static fromEnv(): YandexEngine {
-    return new YandexEngine({ getIamToken: iamTokenProvider(), getFolderId: folderIdProvider() });
+    return new YandexEngine({ getIamToken: ycIamToken, getFolderId: ycFolderId });
   }
 
   /** Resolve credentials and build the gRPC client once, lazily. */
