@@ -8097,11 +8097,11 @@
     "Desc_94": {
       "en": "Inject the options configured in the current event into another target event. The target event is the one whose guid the option ultimately appears in (e.g., to add a unique story interaction for a character, specify the original interactive event's GUID). The special interaction and display conditions are marked in the event that calls this command.",
       "cn": "向指定事件注入当前事件中配置的选项.目标事件为此选项最终出现在游戏内容里的事件guid,例如为人物添加剧情特殊互动,则参数填写的是原有互动事件的guid,剧情的特殊互动及其显示条件在调用此指令的事件进行标记.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Внедрите параметры, настроенные в текущем событии, в другое целевое событие. Целевое событие - это то, в чьем guid в конечном итоге появляется опция (например, чтобы добавить уникальное сюжетное взаимодействие для персонажа, укажите GUID исходного интерактивного события). Особые условия взаимодействия и отображения отмечаются в событии, вызывающем эту команду.",
+      "status": "machine",
       "srcHash": "e5ed261e18aec2cc",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T19:11:25.785Z"
     },
     "Desc_420": {
       "en": "Inject all options from one event into another.",
@@ -8124,11 +8124,11 @@
     "Desc_101": {
       "en": "Use this command to save or redefine local story data that must be stored. Different data within the same sect must use different data names. Data with the same name and type (e.g., both numeric) will overwrite old data when saved through this command again, while data with the same name but different types will be stored separately without overwriting.",
       "cn": "需要进行存档的地区剧情数据以此指令进行保存与重新定义.同一个门派的不同数据需要起不同的数据名,同类型（例如都是数字）的同名数据,在下一次调用此指令保存的时候会直接覆盖旧有数据,但类型不同的同名数据会被保存为多个,不会互相覆盖.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Используйте эту команду, чтобы сохранить или переопределить данные локальной истории, которые необходимо сохранить. Разные данные в пределах одной и той же Секты должны использовать разные имена данных. Данные с тем же именем и типом (например, оба числовые) перезапишут старые данные при повторном сохранении с помощью этой команды, в то время как данные с тем же именем, но разных типов будут сохранены отдельно без перезаписи.",
+      "status": "machine",
       "srcHash": "8194f56c3e22339f",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T19:11:25.785Z"
     },
     "Desc_102": {
       "en": "",
@@ -8304,11 +8304,11 @@
     "Desc_483": {
       "en": "A black mask that covers the entire screen, including the event interface.\\nCheck the first parameter to show the fading mask during playback, and uncheck to hide the fading mask during playback.\\nThe next event will pop up when the mask animation finishes. It can also be set as an empty event, and skip using an ordinary event skip order. When skipping using the latter mechanism, the popping up of the next event will play at the same time as the mask. It is forbidden to set a non-empty follow-up event and skip to an event at the same time.",
       "cn": "覆盖全屏的黑屏遮罩, 该遮罩会挡住整个事件界面. \\n第一个参数勾选表示播放显示遮罩渐变, 不勾选表示播放隐藏遮罩渐变.\\n后续事件将在遮罩动画播放完成后弹出. 此外也可以将其设为空事件,  然后通过正常的事件跳转指令进行跳转, 通过这种方式跳转时下一级事件的弹出和遮罩动画的播放将同步进行. 注意禁止同时设置非空的后续事件和进行事件跳转.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Черная маска, закрывающая весь экран, включая интерфейс событий.\\N Установите флажок в первом параметре, чтобы отображать маску затухания во время воспроизведения, и снимите флажок, чтобы скрыть маску затухания во время воспроизведения.Следующее событие появится, когда анимация маски завершится. Его также можно установить как пустое событие и пропустить, используя обычный порядок пропуска событий. При пропуске с использованием последнего механизма всплывающее окно следующего события будет воспроизводиться одновременно с маской. Запрещается устанавливать непустое последующее событие и одновременно переходить к какому-либо событию.",
+      "status": "machine",
       "srcHash": "ae909de915451925",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T19:11:25.785Z"
     },
     "Desc_829": {
       "en": "This data is not saved and only takes effect during the current event. Used for silently granting items and similar actions under special circumstances. Enabled by default.",
@@ -8961,11 +8961,11 @@
     "Desc_145": {
       "en": "Execute the global advance month action configured. Some require preparation. Advance month encounter needs to be created via this command (only one instance per configuration can be created at the same time; removed automatically after completion). When region is forced to be not None (-1), this command attempts to bypass the configuration and force generate in the designated region.",
       "cn": "运行配置的全局过月行为.部分需要进行提前准备、过月拉人的奇遇需要通过该指令创建（单一配置同一时间只能创建一个,完成后该行为自动移除）.强制区域不为 None (-1) 时,将尝试避开配置强行在指定区域生成.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Выполните настроенное глобальное действие за месяц вперед. Некоторые из них требуют подготовки. С помощью этой команды необходимо создать предварительную встречу за месяц (одновременно может быть создан только один экземпляр для каждой конфигурации; автоматически удаляется после завершения). Когда для региона принудительно задано значение not None (-1), эта команда пытается обойти конфигурацию и принудительно сгенерировать в указанном регионе.",
+      "status": "machine",
       "srcHash": "16ac666a022bc26c",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T19:11:25.785Z"
     },
     "Desc_92": {
       "en": "Create non-persistent enemy character from template. Match Taiwu's Pure Essence only when the template GroupId ≥ 0.",
@@ -9564,11 +9564,11 @@
     "Desc_71": {
       "en": "Create a boolean variable; the system returns true or false based on the result of this variable. This variable needs to be set manually in command editor module. In the editor, all conditions default to an AND connection but can be combined with basic instructions or called externally to complete the logic.",
       "cn": "设定一个类型为bool的变量,系统将根据此变量的判断结果返回true或false.编辑指令模块中需要自行设定变量,而编辑条件模块中则会默认将所有条件将以“and”形式进行连接,可以通过和基础指令进行组合,或在其他地方调用创建的变量,以完成逻辑的拼接",
-      "ru": null,
-      "status": "pending",
+      "ru": "Создайте логическую переменную; система вернет значение true или false в зависимости от результата использования этой переменной. Эту переменную необходимо задать вручную в модуле редактора команд. В редакторе все условия по умолчанию равны соединению И, но могут быть объединены с основными инструкциями или вызваны извне для завершения логики.",
+      "status": "machine",
       "srcHash": "fa9b69d424799878",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T18:59:14.255Z"
     },
     "Desc_109": {
       "en": "Return True when all conditions in this range are True.",
