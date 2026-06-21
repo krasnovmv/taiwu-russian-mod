@@ -19,7 +19,17 @@
  */
 import path from "node:path";
 
-import { languageCnDir, languageDir, languageRuDir, projectRoot } from "./paths.js";
+import { realpathSync } from "node:fs";
+
+import {
+  languageCnDir,
+  languageDir,
+  languageRuDir,
+  mirrorToOutput,
+  outLang,
+  outputDir,
+  projectRoot,
+} from "./paths.js";
 
 /** Id prefix for the root quest folder (gated behind `TAIWU_EVENTS`). */
 export const EVENT_PREFIX = "Event_Languages/";
@@ -45,10 +55,21 @@ export interface SourcePaths {
 export function resolveSource(file: string): SourcePaths {
   const posix = file.replace(/\\/g, "/");
   if (isEventFile(posix)) {
-    // Event ids are full repo-relative paths; EN/CN/KO are filename siblings.
-    const sibling = (lang: string): string =>
-      path.join(projectRoot, posix.replace(/_Language_EN\.txt$/, `_Language_${lang}.txt`));
-    return { en: path.join(projectRoot, posix), cn: sibling("CN"), out: sibling("KO") };
+    // Event ids are full repo-relative paths; EN/CN/output are filename siblings.
+    // EN source and CN reference always come from the game tree. The output
+    // sibling stays in-place in the game by default, or — when TAIWU_OUTPUT_DIR
+    // is set — is re-rooted under the local mirror at its real game-root-relative
+    // path (so the folder overlays a game install), with the language suffix
+    // swapped to outLang.
+    const enPath = path.join(projectRoot, posix);
+    const out = outputDir
+      ? mirrorToOutput(realpathSync(enPath))
+      : path.join(projectRoot, posix.replace(/_Language_EN\.txt$/, `_Language_${outLang}.txt`));
+    return {
+      en: enPath,
+      cn: path.join(projectRoot, posix.replace(/_Language_EN\.txt$/, "_Language_CN.txt")),
+      out,
+    };
   }
   return {
     en: path.join(languageDir, file),

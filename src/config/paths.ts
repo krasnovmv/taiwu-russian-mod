@@ -1,3 +1,4 @@
+import { realpathSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -42,15 +43,67 @@ export const tmDir = path.join(projectRoot, "tm");
 export const cacheDir = path.join(projectRoot, "cache");
 
 /**
- * Output directory for the translated Russian language pack. `apply` mirrors
- * the EN source here (translations applied, English kept where untranslated),
- * leaving the original `Language_EN` untouched.
+ * The single output-language slot the translated pack is written to. The game
+ * has no Russian slot, so by default we hijack the Korean one (`KO`); pick that
+ * language in-game to play in Russian. This ONE knob drives both output layouts:
+ * the main pack directory (`Language_<LANG>`) and the event filename suffix
+ * (`_Language_<LANG>.txt`), so they never drift apart. Set `TAIWU_OUT_LANG=EN`
+ * to overwrite the English slot instead (back up the originals first — `EN` is
+ * also the translation source).
+ */
+export const outLang = (process.env.TAIWU_OUT_LANG ?? "KO").toUpperCase();
+
+/**
+ * When set, ALL output (the main pack AND the event/quest text) is collected
+ * under this one local directory instead of being written into the game,
+ * preserving the game's relative layout: `Language_<outLang>/…` for the pack and
+ * `Event_Languages/…`, `Event_DLC/…` (filenames suffixed `_Language_<outLang>`)
+ * for quests. Lets you build a self-contained pack to inspect or distribute
+ * without touching the install. `null` = the legacy in-place game layout.
+ */
+export const outputDir = process.env.TAIWU_OUTPUT_DIR
+  ? path.resolve(process.env.TAIWU_OUTPUT_DIR)
+  : null;
+
+/**
+ * Game install root, resolved from the `Language_EN` junction target
+ * (`<root>/<…_Data>/StreamingAssets/Language_EN` → up three). Resolved lazily and
+ * cached, so commands that never mirror output don't pay the `realpath` (or fail
+ * when the junction is absent).
+ */
+let gameRootCache: string | null = null;
+export function gameRoot(): string {
+  if (gameRootCache) return gameRootCache;
+  const real = realpathSync(languageDir);
+  gameRootCache = path.dirname(path.dirname(path.dirname(real)));
+  return gameRootCache;
+}
+
+/**
+ * Map a real in-game file path to its slot under the local {@link outputDir}
+ * mirror, preserving the FULL game-root-relative layout (so the folder can be
+ * dropped straight onto a game install) and swapping the `Language_EN` token to
+ * `Language_<outLang>` (covers both the pack dir segment and the `_Language_EN`
+ * filename suffix of quest files). Only meaningful when `outputDir` is set.
+ */
+export function mirrorToOutput(realGamePath: string): string {
+  const rel = path.relative(gameRoot(), realGamePath).split("Language_EN").join(`Language_${outLang}`);
+  return path.join(outputDir as string, rel);
+}
+
+/**
+ * Output directory for the translated language pack. `apply` mirrors the EN
+ * source here (translations applied, English kept where untranslated), leaving
+ * the original `Language_EN` untouched (unless `outLang` is `EN` and output goes
+ * into the game in-place).
  *
- * The game has no Russian slot, so we hijack the Korean one: the default points
- * at the `Language_KO` junction (into the game's `StreamingAssets/Language_KO`).
- * `apply` overwrites Korean with the EN/RU pack; pick Korean in-game to play in
- * Russian. Override with `TAIWU_LANG_RU_DIR` to write elsewhere.
+ * - `TAIWU_LANG_RU_DIR` set → that exact path (highest priority).
+ * - `TAIWU_OUTPUT_DIR` set → the pack slot inside the game-root mirror
+ *   (`<outputDir>/<…_Data>/StreamingAssets/Language_<outLang>`).
+ * - otherwise → the in-game `Language_<outLang>` junction.
  */
 export const languageRuDir = process.env.TAIWU_LANG_RU_DIR
   ? path.resolve(process.env.TAIWU_LANG_RU_DIR)
-  : path.join(projectRoot, "Language_KO");
+  : outputDir
+    ? mirrorToOutput(realpathSync(languageDir))
+    : path.join(projectRoot, `Language_${outLang}`);
