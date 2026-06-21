@@ -9123,11 +9123,11 @@
     "Desc_124": {
       "en": "Leave the ongoing encounter.\\nAn post-exit event can be configured to trigger after encounter interface is completely closed.\\nThis event consists of two trigger parameters: adventure template (AdventureId) and a check for if the encounter is completed (IsComplete).",
       "cn": "退出当前正在进行中的奇遇. \\n可以设置退出后事件, 将在奇遇界面完全关闭后触发.\\n该事件包含两个触发参数: 奇遇模板 AdventureId 和 奇遇是否完成 IsComplete.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Оставьте продолжающуюся встречу.Событие \\NaN post-exit может быть настроено на запуск после полного закрытия интерфейса encounter.Это событие состоит из двух параметров запуска: шаблона приключения (AdventureId) и проверки того, завершена ли встреча (IsComplete).",
+      "status": "machine",
       "srcHash": "304e585deca63a93",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T15:23:10.817Z"
     },
     "Desc_143": {
       "en": "Retrieve the character pulled into encounter using monthly event behavior configuration linked to the encounter. The configuration information can be found in MonthlyActions list.",
@@ -9366,11 +9366,11 @@
     "Desc_227": {
       "en": "This trait is automatically added to all members within the Tier range in the settlement, and will be automatically removed when their organization or Rank no longer meet the requirement. Both the min and max Tier of the parameter range include this Tier itself. ",
       "cn": "定居点中所有符合品级范围的成员都会自动添加该特性, 并在组织或身份不再符合时自动移除. 参数中最低和最高品级都包含该品级自身.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Эта Черта автоматически добавляется ко всем участникам в пределах диапазона Рангов в поселении и будет автоматически удалена, когда их организация или ранг больше не будут соответствовать требованиям. Как минимальный, так и максимальный Ранги диапазона параметров включают в себя сам этот Ранг. ",
+      "status": "machine",
       "srcHash": "ef3a5fcae839f962",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T15:23:10.817Z"
     },
     "Desc_149": {
       "en": "Add a building in a specified Industry. Attempt to overwrite the resource tile if \"force add\" is enabled and there is insufficient empty slot in the specified Industry.",
@@ -11598,11 +11598,11 @@
     "Desc_316": {
       "en": "Adds the specific items to the character's consumable slot. The action consumes the item in the character's inventory by default, but consumes a copy instead of \"Consume Copy\" is selected. In this case, the item is not actually consumed and must be manually deleted.",
       "cn": "将指定道具添加到角色的服食栏位. 默认会直接消耗该角色行囊中的对应道具. 如果勾选了[服食拷贝], 则服食的将是复制品，并不会实际消耗道具, 因此需要手动将原道具删除.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Добавляет определенные предметы в слот для расходных материалов персонажа. Действие использует предмет из инвентаря персонажа по умолчанию, но использует копию вместо выбранного параметра \"Использовать копию\". В этом случае элемент фактически не используется и должен быть удален вручную.",
+      "status": "machine",
       "srcHash": "e1797fecc2732622",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T15:23:10.817Z"
     },
     "Desc_809": {
       "en": "0 - 8 is the hard limit.",
@@ -13479,11 +13479,11 @@
     "Desc_530": {
       "en": "Open the Trade Items interface. The input parameter identifies the current NPC. \\nNote: This command does not end the current event but opens a new UI and registers listeners. It must be used with ToEvent(string.Empty) or used in an option that leads to an empty event.",
       "cn": "打开交换物品界面. 传入的参数用于区分确认当前Npc。\\n这条指令不会结束当前事件，但会打开新界面并注册事件监听，因此需要与ToEvent(string.Empty)合用，或者在选项中使用并令选项指向空事件",
-      "ru": null,
-      "status": "pending",
+      "ru": "Откройте интерфейс торговых позиций. Входной параметр идентифицирует текущего NPC. Примечание: Эта команда не завершает текущее событие, а открывает новый пользовательский интерфейс и регистрирует слушателей. Он должен использоваться с ToEvent(строка.Пустой) или используется в опции, которая приводит к пустому событию.",
+      "status": "machine",
       "srcHash": "b374cd543d809a4a",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T15:23:10.817Z"
     },
     "Desc_531": {
       "en": "Save Character's specified Type and Tier",
@@ -15558,11 +15558,11 @@
     "Desc_825": {
       "en": "Get Active Wunian Followers List. Excludes those killed by Long Yufu and not yet released. Does not guarantee the released count is greater than 0. Excludes those who have died for any reason. Guarantees that all IDs returned at the moment the command is executed belong to living characters.",
       "cn": "获取活跃无念众列表，不包括被龙语茯杀了之后没放出来的，不保证获取数量释放大于0，不包括因各种原因死亡的，保证在指令执行的一瞬间，拿出来的id都是活人",
-      "ru": null,
-      "status": "pending",
+      "ru": "Получите список активных подписчиков Wunian. Исключаются те, кто был убит Лонг Юфу и еще не освобожден. Не гарантирует, что количество освобожденных больше 0. Исключаются те, кто умер по какой-либо причине. Гарантирует, что все идентификаторы, возвращаемые в момент выполнения команды, принадлежат живым символам.",
+      "status": "machine",
       "srcHash": "77debf5bed0ec848",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T15:23:10.817Z"
     },
     "Desc_826": {
       "en": "",

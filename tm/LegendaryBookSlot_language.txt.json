@@ -1284,11 +1284,11 @@
     "Desc_2": {
       "en": "<color=#pinkyellow>When the selected Martial Art is used, the other Martial Arts' Power </color><color=#brightblue>increases</color><color=#pinkyellow> or </color><color=#brightred>decreases</color><color=#pinkyellow> according to their elemental relation (neutral, generating or overcoming).</color>",
       "cn": "<color=#pinkyellow>运起放置其中的功法时，根据五行相同、相生、相克的不同，</color><color=#brightblue>增加</color><color=#pinkyellow>或</color><color=#brightred>减少</color><color=#pinkyellow>其它功法的威力。</color>",
-      "ru": null,
-      "status": "pending",
+      "ru": "<color=#pinkyellow>Когда используется выбранная Боевая техника, сила других Боевых техник возрастает. </color><color=#brightblue>увеличивает</color><color=#pinkyellow> или </color><color=#brightred>уменьшается</color><color=#pinkyellow> в соответствии с их элементарным соотношением (нейтральным, порождающим или преодолевающим).</color>",
+      "status": "machine",
       "srcHash": "b665412ba22bbf14",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T15:23:10.817Z"
     },
     "Desc_3": {
       "en": "<color=#brightred>The Annihilation, Nimble, Protection and Acumen Slots of the selected Martial Arts each decrease by 1, </color><color=#brightblue>but its Utility Slots increase by 3.</color>",
@@ -1563,11 +1563,11 @@
     "Desc_33": {
       "en": "<color=#brightblue>While an enemy is performing a Fist Arts and Martial Arts, if the user actively uses the Fist Arts and Martial Arts placed here to attack the enemy and unleashes it at full power, the enemy's Martial Arts will be interrupted;</color>",
       "cn": "<color=#brightblue>在敌人施展拳掌功法的过程中，如果运用者主动施展放置其中的拳掌功法攻击敌人，且发挥十成威力时，将可打断敌人的功法施展；</color>",
-      "ru": null,
-      "status": "pending",
+      "ru": "<color=#brightblue>Пока враг выполняет Искусство кулака и Боевую технику, если пользователь активно использует размещенные здесь Искусство кулака и Боевую технику для Атаки противника и задействует ее на полную мощность, Боевая техника противника будет прервана;</color>",
+      "status": "machine",
       "srcHash": "65f3d8d5412f46de",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T15:23:10.817Z"
     },
     "Desc_34": {
       "en": "<color=#brightblue>The Power of the selected Martial Arts changes at battle start: it increases by 20% for the user and decreases by 20% for the enemy.</color>",
@@ -1644,11 +1644,11 @@
     "Desc_42": {
       "en": "<color=#brightblue>The more acupoints are Sealed in the enemy, the more Direct DMG the selected Finger Arts technique deals when cast by the user. </color><color=#brightred>However, the technique will be [Sealed] until the end of the battle after use.</color>",
       "cn": "<color=#brightblue>敌人身上被封闭的穴道越多，运用者主动施展放置其中的指法时，指法的直接伤害就越高，</color><color=#brightred>但此指法在施展结束后将不可避免地被「封禁」，持续直到战斗结束。</color>",
-      "ru": null,
-      "status": "pending",
+      "ru": "<color=#brightblue>Чем больше акупунктурных точек запечатано у противника, тем больше Прямого урона наносит выбранная техника Искусства пальцев при наложении пользователем. </color><color=#brightred>Однако после использования техника будет [запечатана] до конца битвы.</color>",
+      "status": "machine",
       "srcHash": "0f1dc3993ec05d59",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T15:23:10.817Z"
     },
     "Desc_43": {
       "en": "<color=#brightblue>While an enemy is performing the Finger Arts, if the user actively uses the Finger Arts placed here to attack the enemy and unleashes it at full power, the enemy's Martial Arts will be interrupted;</color>",
@@ -1734,11 +1734,11 @@
     "Desc_52": {
       "en": "<color=#brightblue>The lower the enemy's Stamina, the more Direct DMG the selected Kicking Arts martial art deals when cast by the user. </color><color=#brightred>However, the martial art will be [Sealed] until the end of the battle after use.</color>",
       "cn": "<color=#brightblue>敌人的脚力越低，运用者主动施展放置其中的腿法时，腿法的直接伤害就越高，</color><color=#brightred>但此腿法在施展结束后将不可避免地被「封禁」，持续直到战斗结束。</color>",
-      "ru": null,
-      "status": "pending",
+      "ru": "<color=#brightblue>Чем ниже Выносливость противника, тем больше Прямого урона наносит выбранная пользователем Боевая техника Искусства ног при наложении. </color><color=#brightred>Однако после использования Боевая техника будет [запечатана] до конца битвы.</color>",
+      "status": "machine",
       "srcHash": "af1ceb724dc40a8a",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T15:23:10.817Z"
     },
     "Desc_53": {
       "en": "<color=#brightblue>While an enemy is performing the Kicking Arts, if the user actively uses the Kicking Arts placed here to attack the enemy and unleashes it at full power, the enemy's Martial Arts will be interrupted;</color>",
@@ -1824,20 +1824,20 @@
     "Desc_62": {
       "en": "<color=#brightblue>The farther the user is from the enemy, the more Direct DMG the selected Concealed Weapons Martial Art deals when cast by the user. </color><color=#brightred>However, the Martial Art will be [Sealed] until the end of the battle after use.</color>",
       "cn": "<color=#brightblue>运用者与敌人相距越远，运用者主动施展放置其中的暗器功法时，暗器功法的直接伤害就越高，</color><color=#brightred>但此暗器功法在施展结束后将不可避免地被「封禁」，持续直到战斗结束。</color>",
-      "ru": null,
-      "status": "pending",
+      "ru": "<color=#brightblue>Чем дальше пользователь находится от врага, тем больше Прямого урона наносит выбранное Скрытое оружие при использовании Боевой техники. </color><color=#brightred>Однако после использования Боевая техника будет [запечатана] до конца битвы.</color>",
+      "status": "machine",
       "srcHash": "b4f2cfe1aa9a81a0",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T15:23:10.817Z"
     },
     "Desc_63": {
       "en": "<color=#brightblue>While an enemy is performing the Concealed Weapons Martial Arts, if the user actively uses the Concealed Weapons Martial Arts placed here to attack the enemy and unleashes it at full power, the enemy's Martial Arts will be interrupted;</color>",
       "cn": "<color=#brightblue>在敌人施展暗器功法的过程中，如果运用者主动施展放置其中的暗器功法攻击敌人，且发挥十成威力时，将可打断敌人的功法施展；</color>",
-      "ru": null,
-      "status": "pending",
+      "ru": "<color=#brightblue>В то время как враг выполняет Боевую технику со Скрытым оружием, если пользователь активно использует размещенную здесь Боевую технику со Скрытым оружием для Атаки противника и задействует ее на полную мощность, Боевая техника противника будет прервана.;</color>",
+      "status": "machine",
       "srcHash": "7a963f210f48530b",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T15:23:10.817Z"
     },
     "Desc_64": {
       "en": "<color=#brightblue>The Power of the selected Martial Arts changes at battle start: it increases by 20% for the user and decreases by 20% for the enemy.</color>",
@@ -2103,11 +2103,11 @@
     "Desc_93": {
       "en": "<color=#brightblue>While an enemy is performing the Polearm Arts Martial Arts, if the user actively uses the Polearm Arts Martial Arts placed here to attack the enemy and unleashes it at full power, the enemy's Martial Arts will be interrupted;</color>",
       "cn": "<color=#brightblue>在敌人施展长兵功法的过程中，如果运用者主动施展放置其中的长兵功法攻击敌人，且发挥十成威力时，将可打断敌人的功法施展；</color>",
-      "ru": null,
-      "status": "pending",
+      "ru": "<color=#brightblue>В то время как враг выполняет Боевую технику с древковым оружием, если пользователь активно использует размещенную здесь Боевую технику с древковым оружием для Атаки противника и задействует ее на полную мощность, Боевая техника противника будет прервана;</color>",
+      "status": "machine",
       "srcHash": "6ea87a246c590fcf",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T15:23:10.817Z"
     },
     "Desc_94": {
       "en": "<color=#brightblue>The Power of the selected Martial Arts changes at battle start: it increases by 20% for the user and decreases by 20% for the enemy.</color>",
@@ -2193,11 +2193,11 @@
     "Desc_103": {
       "en": "<color=#brightblue>While an enemy is performing the Exotic Weapons Martial Arts, if the user actively uses the Exotic Weapons Martial Arts placed here to attack the enemy and unleashes it at full power, the enemy's Martial Arts will be interrupted;</color>",
       "cn": "<color=#brightblue>在敌人施展奇门功法的过程中，如果运用者主动施展放置其中的奇门功法攻击敌人，且发挥十成威力时，将可打断敌人的功法施展；</color>",
-      "ru": null,
-      "status": "pending",
+      "ru": "<color=#brightblue>В то время как враг выполняет Боевую технику с экзотическим оружием, если пользователь активно использует размещенную здесь Боевую технику с экзотическим оружием для Атаки противника и задействует ее на полную мощность, Боевая техника противника будет прервана;</color>",
+      "status": "machine",
       "srcHash": "19800b14ab541b15",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T15:23:10.817Z"
     },
     "Desc_104": {
       "en": "<color=#brightblue>The Power of the selected Martial Arts changes at battle start: it increases by 20% for the user and decreases by 20% for the enemy.</color>",
@@ -2364,20 +2364,20 @@
     "Desc_122": {
       "en": "<color=#brightblue>The more Pinpoint Strike attempts the user has, the more Direct DMG the selected Ranged Weapons Martial Art deals when cast by the user. </color><color=#brightred>However, this martial art will be [Sealed] until the end of the battle after use.</color>",
       "cn": "<color=#brightblue>运用者的变招次数越多，运用者主动施展放置其中的御射功法时，御射功法的直接伤害就越高，</color><color=#brightred>但此御射功法在施展结束后将不可避免地被「封禁」，持续直到战斗结束。</color>",
-      "ru": null,
-      "status": "pending",
+      "ru": "<color=#brightblue>Чем больше попыток точечного удара у пользователя, тем больше Прямого урона наносит выбранная Боевая техника дальнобойного оружия при использовании пользователем. </color><color=#brightred>Однако после использования эта Боевая техника будет [запечатана] до конца битвы.</color>",
+      "status": "machine",
       "srcHash": "277899500528e731",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T15:23:10.817Z"
     },
     "Desc_123": {
       "en": "<color=#brightblue>While an enemy is performing the Ranged Weapons Martial Arts, if the user actively uses the Ranged Weapons Martial Arts placed here to attack the enemy and unleashes it at full power, the enemy's Martial Arts will be interrupted;</color>",
       "cn": "<color=#brightblue>在敌人施展御射功法的过程中，如果运用者主动施展放置其中的御射功法攻击敌人，且发挥十成威力时，将可打断敌人的功法施展；</color>",
-      "ru": null,
-      "status": "pending",
+      "ru": "<color=#brightblue>В то время как враг выполняет Боевую технику с оружием дальнего боя, если пользователь активно использует размещенную здесь Боевую технику с оружием дальнего боя для Атаки противника и задействует ее на полную мощность, Боевая техника противника будет прервана;</color>",
+      "status": "machine",
       "srcHash": "64f6f62402d9b585",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T15:23:10.817Z"
     },
     "Desc_124": {
       "en": "<color=#brightblue>The Power of the selected Martial Arts changes at battle start: it increases by 20% for the user and decreases by 20% for the enemy.</color>",
@@ -2454,11 +2454,11 @@
     "Desc_132": {
       "en": "<color=#brightblue>The more Tone Moves the user has, the more mental damage the selected Enchanting Tones Martial Art deals when cast by the user. </color><color=#brightred>However, the Martial Art will be [Sealed] until the end of the battle after use.</color>",
       "cn": "<color=#brightblue>运用者的音式越多，运用者主动施展放置其中的魔音功法时，魔音功法的心神伤害就越高，</color><color=#brightred>但此魔音功法在施展结束后将不可避免地被「封禁」，持续直到战斗结束。</color>",
-      "ru": null,
-      "status": "pending",
+      "ru": "<color=#brightblue>Чем больше Тональных движений у пользователя, тем больше ментального урона наносит выбранная им Боевая техника зачаровывающих тонов при наложении пользователем. </color><color=#brightred>Однако после использования Боевая техника будет [запечатана] до конца битвы.</color>",
+      "status": "machine",
       "srcHash": "8a6c2e33be97db5a",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T15:23:10.817Z"
     },
     "Desc_133": {
       "en": "<color=#brightblue>While an enemy is performing the Enchanting Tones, if the user actively uses the Enchanting Tones placed here to attack the enemy and unleashes it at full power, the enemy's Martial Arts will be interrupted;</color>",
