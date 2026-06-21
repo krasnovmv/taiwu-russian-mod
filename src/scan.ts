@@ -59,16 +59,29 @@ export async function listEventFiles(): Promise<string[]> {
 }
 
 /**
+ * Whether the `Event_Languages` quest text participates in the pipeline. It is
+ * OFF by default (the quest corpus is large and translated separately); set
+ * `TAIWU_EVENTS=1` to fold it back into discovery so `translate`/`apply`/
+ * `status`/`estimate` pick it up. The adapter and resolver stay wired either
+ * way — this only gates source discovery.
+ */
+export function eventsEnabled(): boolean {
+  const v = process.env.TAIWU_EVENTS?.trim().toLowerCase();
+  return v === "1" || v === "true" || v === "yes" || v === "on";
+}
+
+/**
  * Every translatable source file (relative POSIX paths): all paired/anchored
- * `.txt`, the `.tsv` encyclopedia tables, the nested `.json` tips, and the
- * `Event_Languages` quest text. The adapter registry maps each to its format.
+ * `.txt`, the `.tsv` encyclopedia tables, the nested `.json` tips, and — when
+ * {@link eventsEnabled} — the `Event_Languages` quest text. The adapter registry
+ * maps each to its format.
  */
 export async function listSourceFiles(): Promise<string[]> {
   const [txt, tsv, json, events] = await Promise.all([
     listTxtFiles(),
     listUnder("EncyclopediaAssets", [".tsv"]),
     listUnder("CommonTip", [".json"]),
-    listEventFiles(),
+    eventsEnabled() ? listEventFiles() : Promise.resolve([]),
   ]);
   return [...txt, ...tsv, ...json, ...events];
 }
