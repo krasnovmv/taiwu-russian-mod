@@ -33,11 +33,11 @@
     "r1c1": {
       "en": "When this node is connected\\u002c the next connection target must be a Breakthrough node with a distance of 2.",
       "cn": "打通此格时，下次连接必须选择距离2的突破格为连接目标。",
-      "ru": null,
-      "status": "pending",
+      "ru": "Когда этот узел подключен\\u002c, следующей целью подключения должен быть узел Прорыва на расстоянии 2.",
+      "status": "machine",
       "srcHash": "2090f62db0f0d982",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:21:52.764Z"
     },
     "r2c0": {
       "en": "<align=\"center\">Oligomerization</align>",
@@ -51,11 +51,11 @@
     "r2c1": {
       "en": "When this node is connected\\u002c all adjacent Normal nodes change into random Special Breakthrough nodes.",
       "cn": "打通此格时，此格周围的所有“如常”格变化为随机的“特殊突破格”。",
-      "ru": null,
-      "status": "pending",
+      "ru": "Когда этот узел подключен\\u002c, все соседние обычные узлы превращаются в случайные специальные узлы Прорыва.",
+      "status": "machine",
       "srcHash": "ef71dacce85bc838",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:21:52.764Z"
     },
     "r3c0": {
       "en": "<align=\"center\">Sacrifice</align>",
@@ -159,11 +159,11 @@
     "r8c1": {
       "en": "This node's connection rate decreases by 60%. For each connected adjacent Breakthrough node\\u002c this node's connection rate increases by 20%\\u002c and Power cap +1.",
       "cn": "此格的打通成功率降低60%。此格周围每有1个打通的突破格，此格的打通成功率提高20%，且威力上限+1。",
-      "ru": null,
-      "status": "pending",
+      "ru": "Скорость подключения этого узла снижается на 60%. Для каждого подключенного соседнего узла Прорыва скорость подключения этого узла увеличивается на 20%, а Предел мощей +1.",
+      "status": "machine",
       "srcHash": "74ac8c007be6b6e0",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:21:52.764Z"
     },
     "r9c0": {
       "en": "<align=\"center\">Diligence</align>",
@@ -177,11 +177,11 @@
     "r9c1": {
       "en": "When this node is connected\\u002c the connection rates of its adjacent Breakthrough nodes decrease by 50%\\u002c with Power cap +2. They become connectable again after failing to be connected.",
       "cn": "打通此格时，周围突破格的打通成功率降低50%，威力上限+2，并且在打通失败时会重新变成可连接状态。",
-      "ru": null,
-      "status": "pending",
+      "ru": "Когда этот узел подключен \\u002c, скорость подключения соседних узлов Прорыва уменьшается на 50%\\u002c с Пределом мощи +2. Они снова становятся подключаемыми после неудачной попытки подключения.",
+      "status": "machine",
       "srcHash": "9c9a0978c633f3c0",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:21:52.764Z"
     },
     "r10c0": {
       "en": "<align=\"center\">Clarity</align>",
@@ -213,11 +213,11 @@
     "r11c1": {
       "en": "When this node is connected\\u002c 3 random adjacent nodes turn into a failed state and their Power Caps are transferred to this node.",
       "cn": "打通此格时，将周围随机3个格子变为打通失败状态，并将它们的威力上限转移至此格上。",
-      "ru": null,
-      "status": "pending",
+      "ru": "Когда этот узел подключен, 3 случайных соседних узла переходят в состояние сбоя, и их Пределы мощи передаются на этот узел.",
+      "status": "machine",
       "srcHash": "298c02a37b2e76a4",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:21:52.764Z"
     },
     "r12c0": {
       "en": "<align=\"center\">Normalization</align>",
@@ -231,11 +231,11 @@
     "r12c1": {
       "en": "This node's connection rate increases by 30%. When this node is connected\\u002c all adjacent Special Breakthrough nodes turn into Normal nodes.",
       "cn": "此格的打通成功率提高30%。打通此格时，此格周围的所有“特殊突破格”变化为“如常”。",
-      "ru": null,
-      "status": "pending",
+      "ru": "Скорость подключения этого узла увеличивается на 30%. Когда этот узел подключен, все соседние специальные узлы Прорыва превращаются в обычные узлы.",
+      "status": "machine",
       "srcHash": "9d3e2bd4eea79e45",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:21:52.764Z"
     },
     "r13c0": {
       "en": "<align=\"center\">Altruism</align>",
@@ -267,11 +267,11 @@
     "r14c1": {
       "en": "When this node is connected\\u002c Max Capacity +3\\u002c and the Power Cap of all adjacent Breakthrough nodes change to 0.",
       "cn": "打通此格时，天资上限+3，并将周围突破格的威力上限变为0。",
-      "ru": null,
-      "status": "pending",
+      "ru": "Когда этот узел подключен, максимальная мощность +3, а Предел мощей всех соседних узлов Прорыва изменяется на 0.",
+      "status": "machine",
       "srcHash": "b00506a8b96b9bf9",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:21:52.764Z"
     },
     "r15c0": {
       "en": "<align=\"center\">Abundance</align>",
@@ -285,11 +285,11 @@
     "r15c1": {
       "en": "The more your current Capacity exceeds half of the Max Capacity\\u002c the higher the connection rate granted to the node and all nodes around it.",
       "cn": "当前天资超过天资上限的一半越多，此格及此格周围所有格子的打通成功率就提高越多。",
-      "ru": null,
-      "status": "pending",
+      "ru": "Чем больше ваша текущая пропускная способность превышает половину максимальной пропускной способности\\u002c, тем выше скорость подключения, предоставляемая узлу и всем узлам вокруг него.",
+      "status": "machine",
       "srcHash": "5c6da2c2a206661f",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:21:52.764Z"
     },
     "r16c0": {
       "en": "<align=\"center\">Ambition</align>",
@@ -303,11 +303,11 @@
     "r16c1": {
       "en": "The further your current Capacity is below half of the Max Capacity\\u002c the higher the connection rate granted to the node and all nodes around it.",
       "cn": "当前天资相比天资上限的一半越少，此格及此格周围所有格子的打通成功率就提高越多。",
-      "ru": null,
-      "status": "pending",
+      "ru": "Чем больше ваша текущая пропускная способность ниже половины максимальной пропускной способности\\u002c, тем выше скорость подключения, предоставляемая узлу и всем узлам вокруг него.",
+      "status": "machine",
       "srcHash": "da34598f11e90d29",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:21:52.764Z"
     },
     "r17c0": {
       "en": "<align=\"center\">Ingenuity</align>",
@@ -321,11 +321,11 @@
     "r17c1": {
       "en": "When this node is connected\\u002c for your next connection\\u002c you can select any \"Ingenuity\" Breakthrough node as the target.",
       "cn": "打通此格时，下次连接可以选择任意“诀窍”突破格为连接目标。",
-      "ru": null,
-      "status": "pending",
+      "ru": "Когда этот узел подключен, для вашего следующего подключения вы можете выбрать любой узел Прорыва \"Ingenuity\" в качестве цели.",
+      "status": "machine",
       "srcHash": "280440664af486e9",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:21:52.764Z"
     },
     "r18c0": {
       "en": "<align=\"center\">Comprehension</align>",
@@ -357,11 +357,11 @@
     "r19c1": {
       "en": "Suffered setbacks at this node. This node's connection rate increases by 100%\\u002c but Health decreases whether the connection succeeds or fails.",
       "cn": "曾在此格遭受挫折。此格的打通成功率提高100%，但连接此格无论成功或失败均会损失一定的健康。",
-      "ru": null,
-      "status": "pending",
+      "ru": "Потерпел неудачу на этом узле. Скорость подключения этого узла увеличивается на 100%\\u002c, но Здоровье снижается независимо от того, успешно ли установлено соединение или нет.",
+      "status": "machine",
       "srcHash": "6f0d3121724f9c64",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:21:52.764Z"
     }
   }
 }

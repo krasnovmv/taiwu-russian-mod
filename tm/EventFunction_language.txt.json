@@ -9051,11 +9051,11 @@
     "Desc_69": {
       "en": "End a quest. Non-triggered quest cannot be ended. Triggering the next quest in linear quest chains automatically ends the previous quest, but quests cannot be automatically replaced in parallel chains; manual ending is required.",
       "cn": "结束任务. 无法结束非触发式任务.线性任务链中下一个任务触发会自动将前一个任务关闭,但并行任务链中的任务不会自动替换,需要在合适的时间手动关闭",
-      "ru": null,
-      "status": "pending",
+      "ru": "Завершите задание. Невыпущенный квест не может быть завершен. Запуск следующего задания в линейных цепочках заданий автоматически завершает выполнение предыдущего задания, но задания не могут быть автоматически заменены в параллельных цепочках; требуется завершение вручную.",
+      "status": "machine",
       "srcHash": "13b0fd8bf74c5c45",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:37:49.290Z"
     },
     "Desc_70": {
       "en": "End all missions in chain (cannot complete non-triggered missions).",
@@ -10239,11 +10239,11 @@
     "Desc_159": {
       "en": "Check if a character exists and is alive. Can be used to check if a smart character is alive or if a special character has been permanently deleted. This command cannot be used if the special character is only hidden from the map.",
       "cn": "检查角色是否存在且存活，可以检测智能人物是否存活，也可以检查特殊人物是否被彻底删除，如果特殊人物仅从地图上被隐藏时，此指令无法使用",
-      "ru": null,
-      "status": "pending",
+      "ru": "Проверьте, существует ли персонаж и жив ли он. Может использоваться для проверки того, жив ли смарт-символ или специальный символ был удален безвозвратно. Эта команда не может быть использована, если специальный символ скрыт только с карты.",
+      "status": "machine",
       "srcHash": "8e19da6f2924e2d0",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:37:49.290Z"
     },
     "Desc_516": {
       "en": "Check if the character is on any valid tile. A negative result means the character is off-map, likely abducted or traveling.",
@@ -11013,11 +11013,11 @@
     "Desc_256": {
       "en": "Attempt to retrieve the character's maximum tolerable Will value. If this value exists, return True and save the integer in the specified temporary variable. Otherwise, save 0 in the temporary variable.",
       "cn": "试获取人物可承受心念最大值, 如果存在该值则条件通过并将该整数值存入指定临时变量，否则将0存储入指定临时变量",
-      "ru": null,
-      "status": "pending",
+      "ru": "Попытайтесь восстановить максимально допустимое значение воли персонажа. Если это значение существует, верните True и сохраните целое число в указанной временной переменной. В противном случае сохраните 0 во временной переменной.",
+      "status": "machine",
       "srcHash": "e327e502203e2e70",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:37:49.290Z"
     },
     "Desc_257": {
       "en": "Check the quantity of Will Taiwu has",
@@ -11058,20 +11058,20 @@
     "Desc_264": {
       "en": "Delete Encounter. If the player is still in the encounter, they will automatically exit. Do not call this simultaneously with exiting the encounter. Calling this command indicates the encounter has been successfully or unsuccessfully completed.",
       "cn": "删除奇遇,玩家仍处于奇遇时，自动退出奇遇；禁止和退出奇遇同时调用，调用此指令时，表示奇遇成功或者失败",
-      "ru": null,
-      "status": "pending",
+      "ru": "Удалить встречу. Если игрок все еще находится в игре, он автоматически выйдет из нее. Не вызывайте это одновременно с выходом из encounter. Вызов этой команды указывает на то, что встреча была успешно или безуспешно завершена.",
+      "status": "machine",
       "srcHash": "a877e3c12fd3f084",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:37:49.290Z"
     },
     "Desc_811": {
       "en": "Delete Encounter. If the player is still in the encounter, they will automatically exit. Do not call this simultaneously with exiting the encounter. Calling this command indicates the encounter has been successfully or unsuccessfully completed.",
       "cn": "删除奇遇,玩家仍处于奇遇时，自动退出奇遇；禁止和退出奇遇同时调用，调用此指令时，表示奇遇成功或者失败",
-      "ru": null,
-      "status": "pending",
+      "ru": "Удалить встречу. Если игрок все еще находится в игре, он автоматически выйдет из нее. Не вызывайте это одновременно с выходом из encounter. Вызов этой команды указывает на то, что встреча была успешно или безуспешно завершена.",
+      "status": "machine",
       "srcHash": "a877e3c12fd3f084",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:37:49.290Z"
     },
     "Desc_265": {
       "en": "Check an encounter element variable against the set value (default element save key: ConchShipPresetKey_ElementId)",
@@ -11247,11 +11247,11 @@
     "Desc_484": {
       "en": "Plays the element deletion animation does not delete the elements. This is used before killing the character, during which element-related data is needed for real-time notifications, so it cannot be removed directly.",
       "cn": "播放元素删除动画, 不会直接删除元素. 主要用于在杀死角色前调用, 杀死角色过程中即时通知需要使用到元素相关数据, 因此不能直接移除.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Воспроизведение анимации удаления элемента не приводит к удалению элементов. Это используется перед уничтожением персонажа, во время которого данные, связанные с элементом, необходимы для уведомлений в режиме реального времени, поэтому они не могут быть удалены напрямую.",
+      "status": "machine",
       "srcHash": "394776eb9a9e301b",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:37:49.290Z"
     },
     "Desc_283": {
       "en": "Clear Inner Breath Chaos",
@@ -12183,11 +12183,11 @@
     "Desc_379": {
       "en": "The element's associated character joins Taiwu Village or becomes a companion. This will delete the element (non-smart characters will be converted to smart characters). If the party is full when attempting to add a companion, it will fail.",
       "cn": "元素关联角色加入太吾村或成为同道，会删除元素(非智能角色会转化为智能角色)，加入同道时如果已满则返回失败",
-      "ru": null,
-      "status": "pending",
+      "ru": "Связанный с элементом персонаж присоединяется к Деревне Тайу или становится компаньоном. Это приведет к удалению элемента (неинтеллектуальные символы будут преобразованы в интеллектуальные символы). Если группа заполнена при попытке добавить компаньона, это завершится неудачей.",
+      "status": "machine",
       "srcHash": "fe5426b5a3cee6a1",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:37:49.290Z"
     },
     "Desc_380": {
       "en": "Create random enemy and bind to element",
@@ -14568,20 +14568,20 @@
     "Desc_682": {
       "en": "Get Character Charm: Monstrous [0,100) Disgusting [100,200) Ugly [200,300) Ordinary [300,400) Attractive [400,500) Handsome/Elegant [500,600) Majestic/Graceful [600,700) Peerless/Divine [700,800) Ethereal [800,900)",
       "cn": "获取角色的魅力值 非人[0,100) 可憎[100,200) 不扬[200,300) 寻常[300,400) 出众[400,500) 瑾瑜/瑶碧[500,600) 龙姿/凤仪[600,700) 绝世/出尘[700,800) 天人[800,900]",
-      "ru": null,
-      "status": "pending",
+      "ru": "Получите очарование персонажа: Чудовищный [0,100) Отвратительный [100,200) Уродливый [200,300) Обычный [300,400) Привлекательный [400,500) Красивый/элегантный [500,600) Величественный/грациозный [600,700) Несравненный/Божественный [700,800) Неземной [800,900)",
+      "status": "machine",
       "srcHash": "9ffd6a8d45ab2bd1",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:37:49.290Z"
     },
     "Desc_683": {
       "en": "Check Character Charm: Monstrous [0,100) Disgusting [100,200) Ugly [200,300) Ordinary [300,400) Attractive [400,500) Handsome/Elegant [500,600) Majestic/Graceful [600,700) Peerless/Divine [700,800) Ethereal [800,900)",
       "cn": "检测角色的魅力值 非人[0,100) 可憎[100,200) 不扬[200,300) 寻常[300,400) 出众[400,500) 瑾瑜/瑶碧[500,600) 龙姿/凤仪[600,700) 绝世/出尘[700,800) 天人[800,900]",
-      "ru": null,
-      "status": "pending",
+      "ru": "Проверьте очарование персонажа: Чудовищный [0,100) Отвратительный [100,200) Уродливый [200,300) Обычный [300,400) Привлекательный [400,500) Красивый/элегантный [500,600) Величественный/грациозный [600,700) Несравненный/Божественный [700,800) Неземной [800,900)",
+      "status": "machine",
       "srcHash": "f9306f2eed76eac6",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:37:49.290Z"
     },
     "Desc_684": {
       "en": "",
@@ -14919,11 +14919,11 @@
     "Desc_738": {
       "en": "Sets the alias for the character on the left or right side of the event window. When the alias is no longer needed, set it to Invalid via this command. Otherwise, it will remain in effect for subsequent events.",
       "cn": "设置事件窗口左侧或右侧的人物代称。注意不再需要显示代称时应通过该指令将其设为Invalid，否则后续事件中将一直生效。",
-      "ru": null,
-      "status": "pending",
+      "ru": "Задает псевдоним для символа в левой или правой части окна события. Когда псевдоним больше не нужен, установите для него значение Invalid с помощью этой команды. В противном случае оно останется в силе для последующих событий.",
+      "status": "machine",
       "srcHash": "488f5496dec17623",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:37:49.290Z"
     },
     "Desc_739": {
       "en": "Start modifying name, input surname and given name separately",
@@ -15486,11 +15486,11 @@
     "Desc_814": {
       "en": "Convert the current NPC into a Hollow-Minded. If there are remaining conversion slots, the original NPC will die, and the new NPC's ID will be returned here. This also consumes one Mud Pill carried by Taiwu.",
       "cn": "将当前Npc转化为无念众（如果仍有剩余转化名额，原Npc会死亡，此处会返回新Npc的Id），并消耗太吾身上的一个泥丸。",
-      "ru": null,
-      "status": "pending",
+      "ru": "Превратите текущего NPC в пустоголового. Если останутся слоты для преобразования, исходный NPC умрет, и здесь будет возвращен идентификатор нового NPC. При этом также расходуется одна Пилюля грязи, которую носит с собой Тайу.",
+      "status": "machine",
       "srcHash": "e354e947be168c51",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T08:37:49.290Z"
     },
     "Desc_815": {
       "en": "Get Character Reputation Type",
