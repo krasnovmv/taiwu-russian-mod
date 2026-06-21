@@ -1,22 +1,23 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
-import path from "node:path";
 import { test } from "node:test";
 
-import { languageCnDir, languageDir } from "../src/config/paths.js";
+import { resolveSource } from "../src/config/sources.js";
 import type { FormatAdapter } from "../src/formats/adapter.js";
 import { adapterFor } from "../src/formats/registry.js";
 import { listSourceFiles } from "../src/scan.js";
 
 /**
- * Safety net for the non-txt formats: for every real `.tsv`, `.json` and
- * anchored `.txt`, extracting and then applying an *identity* translation
- * (key → original EN) must reproduce the file byte-for-byte. This proves apply
- * never corrupts untranslated content.
+ * Safety net for the non-txt formats: for every real `.tsv`, `.json`, anchored
+ * `.txt` and `Event_Languages` quest file, extracting and then applying an
+ * *identity* translation (key → original EN) must reproduce the file
+ * byte-for-byte. This proves apply never corrupts untranslated content. The
+ * EN/CN paths come from {@link resolveSource}, so every source family is read
+ * from its real on-disk layout.
  */
-async function readIf(dir: string, file: string): Promise<string | null> {
+async function readIf(file: string): Promise<string | null> {
   try {
-    return await readFile(path.join(dir, file), "utf8");
+    return await readFile(file, "utf8");
   } catch {
     return null;
   }
@@ -29,8 +30,9 @@ for (const file of files) {
   if (adapter.id === "paired-txt") continue; // covered by roundtrip.test.ts
 
   test(`identity apply byte-exact (${adapter.id}): ${file}`, async () => {
-    const en = await readFile(path.join(languageDir, file), "utf8");
-    const cn = await readIf(languageCnDir, file);
+    const { en: enPath, cn: cnPath } = resolveSource(file);
+    const en = await readFile(enPath, "utf8");
+    const cn = await readIf(cnPath);
     const { units } = adapter.extract(en, cn);
     const identity = new Map(units.map((u) => [u.key, u.en]));
     const out = adapter.apply(en, identity);

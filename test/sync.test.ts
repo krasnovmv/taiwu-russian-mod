@@ -95,7 +95,10 @@ test("refreshes CN reference and source for pending units", () => {
 
 test("syncFile is a no-op when a file has no TM yet", async () => {
   const { syncFile } = await import("../src/tm/sync.js");
-  const r = await syncFile("Loong_language.txt", { dryRun: true });
+  // A synthetic name with no `tm/<file>.json`: syncFile returns the no-TM result
+  // before it ever reads the source, so this stays true regardless of which real
+  // files have since been translated.
+  const r = await syncFile("__nonexistent_no_tm__.txt", { dryRun: true });
   assert.equal(r.hadTm, false);
   assert.equal(r.total, 0);
 });

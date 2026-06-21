@@ -12,6 +12,18 @@ export const languageDir = path.join(projectRoot, "Language_EN");
 /** CN original files, used as the meaning-of-record for cross-validation. */
 export const languageCnDir = path.join(projectRoot, "Language_CN");
 
+/**
+ * Quest/event text that lives OUTSIDE `StreamingAssets` — the game's `Event/
+ * EventLanguages` folder (the `Event_Languages` junction in the repo root).
+ *
+ * Unlike the `Language_*` packs, every language shares one directory and is
+ * distinguished by a filename suffix: `<package>_Language_EN.txt`,
+ * `…_Language_CN.txt`, `…_Language_KO.txt`. EN is the source, CN the reference,
+ * and the KO slot is hijacked for the Russian output (same trick as the main
+ * pack). See `resolveSource` in `config/sources.ts` for the id→file mapping.
+ */
+export const eventLanguagesDir = path.join(projectRoot, "Event_Languages");
+
 /** Git-tracked translation memory (one JSON per source file). */
 export const tmDir = path.join(projectRoot, "tm");
 
