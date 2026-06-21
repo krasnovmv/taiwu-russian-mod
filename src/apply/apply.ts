@@ -44,11 +44,16 @@ export async function applyFile(file: string, options: ApplyOptions = {}): Promi
 
   const original = await readFile(path.join(srcDir, file), "utf8");
 
-  // Every unit (ru ?? en): translated where available, English otherwise.
+  // Per unit: the RU translation where available, English otherwise. A cell that
+  // is identical in EN and CN is language-neutral (IDs, paths, codes) — keep the
+  // source and ignore any (stale) machine translation. Human-curated units
+  // (reviewed/locked) are always honoured.
   const translations = new Map<string, string>();
   if (tm) {
     for (const [key, unit] of Object.entries(tm.units)) {
-      translations.set(key, unit.ru ?? unit.en);
+      const human = unit.status === "reviewed" || unit.status === "locked";
+      const keepSource = !human && unit.cn !== null && unit.en === unit.cn;
+      translations.set(key, keepSource ? unit.en : (unit.ru ?? unit.en));
     }
   }
 

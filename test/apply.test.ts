@@ -71,6 +71,48 @@ test("applyFile mirrors English when there is no translation (complete pack)", a
   assert.equal(await readFile(path.join(out, file), "utf8"), original); // English copy
 });
 
+/** TM where the unit is identical in EN and CN, with a (stale) RU. */
+function tmSameEnCn(file: string, status: "machine" | "reviewed"): TmFile {
+  return {
+    schemaVersion: TM_SCHEMA_VERSION,
+    file,
+    glossaryVersion: 0,
+    units: {
+      Name_0: {
+        en: "Buzhuodian",
+        cn: "Buzhuodian", // language-neutral: same in EN and CN
+        ru: "Бужуодианец", // a stale/wrong machine translation
+        status,
+        srcHash: "x",
+        engine: "mock",
+        updatedAt: null,
+      },
+    },
+  };
+}
+
+test("applyFile keeps the source for cells identical in EN and CN", async () => {
+  const src = await tmpDir();
+  const out = await tmpDir();
+  const file = "Demo.txt";
+  await writeFile(path.join(src, file), "Name_0\nBuzhuodian\n\n");
+
+  await applyFile(file, { srcDir: src, outDir: out, tm: tmSameEnCn(file, "machine") });
+  const built = await readFile(path.join(out, file), "utf8");
+  assert.ok(built.includes("Buzhuodian"), "EN kept for language-neutral cell");
+  assert.ok(!built.includes("Бужуодианец"), "stale machine RU is not applied");
+});
+
+test("a human-reviewed translation is honoured even when EN equals CN", async () => {
+  const src = await tmpDir();
+  const out = await tmpDir();
+  const file = "Demo.txt";
+  await writeFile(path.join(src, file), "Name_0\nBuzhuodian\n\n");
+
+  await applyFile(file, { srcDir: src, outDir: out, tm: tmSameEnCn(file, "reviewed") });
+  assert.ok((await readFile(path.join(out, file), "utf8")).includes("Бужуодианец"));
+});
+
 test("applyFile dry-run writes nothing", async () => {
   const src = await tmpDir();
   const out = await tmpDir();

@@ -93,10 +93,13 @@ function selectWork(
     const hash = srcHash(unit.en, GLOSSARY_VERSION);
     const prev = existing?.units[unit.key];
     const inWindow = unit.en.length >= minLen && unit.en.length <= maxLen;
+    // Language-neutral: identical in EN and CN (IDs, paths, codes, untranslated
+    // terms) → never translate, the source is kept on apply.
+    const sameAsCn = unit.cn !== null && unit.en === unit.cn;
 
-    // Outside this run's length window, or already up to date: carry forward
+    // Out of window, language-neutral, or already up to date: carry forward
     // unchanged (a unit out of window keeps any translation another pass made).
-    if (!inWindow || !needsTranslation(prev, hash, engineId)) {
+    if (sameAsCn || !inWindow || !needsTranslation(prev, hash, engineId)) {
       units[unit.key] = prev ? { ...prev, cn: unit.cn } : newPendingUnit(unit, hash);
       skipped++;
       continue;
