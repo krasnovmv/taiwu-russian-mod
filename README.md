@@ -19,16 +19,22 @@ reversible output.
   - `Language_EN` → `.../StreamingAssets/Language_EN` (source)
   - `Language_CN` → `.../StreamingAssets/Language_CN` (reference)
   - `Language_RU` → `.../StreamingAssets/Language_RU` (output; `apply` writes here)
-  - `Event_Languages` → `.../Event/EventLanguages` (quest/event text — lives
+  - `Event_Languages` → `.../Event/EventLanguages` (root quest/event text — lives
     OUTSIDE `StreamingAssets`; EN/CN/output all share this one folder, keyed by
-    the `_Language_XX` filename suffix, and the KO slot is the RU output)
+    the `_Language_XX` filename suffix, and the KO slot is the RU output). Gated
+    behind `TAIWU_EVENTS` (off by default; large corpus).
+  - `Event_DLC/<DLC>` → `.../<DLC>` (one junction per expansion, into the game's
+    `…_Data`). Each DLC keeps versioned quest packs under
+    `<version>/Events/EventLanguages`; discovery uses the newest version with EN
+    text. Always on (small corpus).
 
   (All gitignored. Override with `TAIWU_LANG_DIR` / `TAIWU_LANG_CN_DIR` /
   `TAIWU_LANG_RU_DIR` if your layout differs — e.g. to keep RU out of the game.)
 
-  Create the event junction with:
-  `mklink /J Event_Languages "…\The Scroll Of Taiwu\Event\EventLanguages"`
-  (or `New-Item -ItemType Junction` in PowerShell).
+  Create the quest junctions with `mklink /J` (or PowerShell
+  `New-Item -ItemType Junction`), e.g.:
+  `mklink /J Event_Languages "…\The Scroll Of Taiwu\Event\EventLanguages"` and,
+  per DLC, `mklink /J Event_DLC\FiveLoong "…\The Scroll of Taiwu_Data\FiveLoong"`.
 
 ## Install
 
@@ -178,7 +184,7 @@ Language_CN ─┴─ align (by key) ─ mask ─┤
 | `.tsv` tables             | `EncyclopediaAssets/*.tsv`                | `tsv` (cell text, tab grid preserved) |
 | Nested `.json` tips       | `CommonTip/**/*.json`                     | `json-tip` (only `title`/`content`)   |
 | Multiline `.txt`          | `CricketPolymorphEvent`, `ImplementedDlc` | `anchored-txt` (CN as key oracle)     |
-| Quest/event text          | `Event_Languages/*_Language_EN.txt`       | `event-languages` (GUID-keyed blocks) |
+| Quest/event text          | `Event_Languages/*` and `Event_DLC/**`    | `event-languages` (GUID-keyed blocks) |
 
 All adapters guarantee a byte-exact identity round-trip (verified over every real
 file in the test suite). The `event-languages` adapter parses GUID-keyed event

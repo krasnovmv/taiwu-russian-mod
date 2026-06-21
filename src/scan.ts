@@ -4,8 +4,8 @@
 import { readdir } from "node:fs/promises";
 import path from "node:path";
 
-import { eventLanguagesDir, languageDir } from "./config/paths.js";
-import { EVENT_PREFIX } from "./config/sources.js";
+import { eventDlcDir, eventLanguagesDir, languageDir } from "./config/paths.js";
+import { EVENT_DLC_PREFIX, EVENT_PREFIX } from "./config/sources.js";
 
 /** Top-level `.txt` files (the paired-txt format), sorted. */
 export async function listTxtFiles(): Promise<string[]> {
@@ -58,12 +58,70 @@ export async function listEventFiles(): Promise<string[]> {
   }
 }
 
+/** Compare dotted numeric versions ("1.0.1.0" > "0.84.67.0"); longer wins ties. */
+function compareVersions(a: string, b: string): number {
+  const pa = a.split(".").map(Number);
+  const pb = b.split(".").map(Number);
+  for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
+    const d = (pa[i] ?? 0) - (pb[i] ?? 0);
+    if (d !== 0) return d;
+  }
+  return 0;
+}
+
+async function readDirNames(dir: string): Promise<string[] | null> {
+  try {
+    // Junctions/symlinks (the per-DLC links) report as reparse points, not
+    // directories, so accept those too — readdir follows them when we recurse.
+    return (await readdir(dir, { withFileTypes: true }))
+      .filter((e) => e.isDirectory() || e.isSymbolicLink())
+      .map((e) => e.name);
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === "ENOENT") return null;
+    throw err;
+  }
+}
+
 /**
- * Whether the `Event_Languages` quest text participates in the pipeline. It is
- * OFF by default (the quest corpus is large and translated separately); set
+ * Per-DLC quest packs under `Event_DLC/<DLC>/<version>/Events/EventLanguages`.
+ * Each DLC keeps several versioned subfolders; only the NEWEST version that
+ * actually carries EN text is used (older ones are CN-only stubs). Ids are full
+ * repo-relative paths so {@link resolveSource} can find the CN/KO siblings.
+ * Unlike the root quest folder, this is always on (the DLC corpus is small).
+ */
+export async function listDlcEventFiles(): Promise<string[]> {
+  const dlcs = await readDirNames(eventDlcDir);
+  if (!dlcs) return [];
+  const out: string[] = [];
+  for (const dlc of dlcs.sort()) {
+    const versions = await readDirNames(path.join(eventDlcDir, dlc));
+    if (!versions) continue;
+    // Newest version first; take the first one that has EN package files.
+    for (const ver of versions.sort(compareVersions).reverse()) {
+      const langRel = `${dlc}/${ver}/Events/EventLanguages`;
+      let names: string[];
+      try {
+        names = (await readdir(path.join(eventDlcDir, langRel), { withFileTypes: true }))
+          .filter((e) => e.isFile() && e.name.endsWith("_Language_EN.txt"))
+          .map((e) => e.name);
+      } catch (err) {
+        if ((err as NodeJS.ErrnoException).code === "ENOENT") continue;
+        throw err;
+      }
+      if (names.length === 0) continue;
+      for (const name of names.sort()) out.push(`${EVENT_DLC_PREFIX}${langRel}/${name}`);
+      break; // newest version with EN content wins; ignore older ones
+    }
+  }
+  return out;
+}
+
+/**
+ * Whether the root `Event_Languages` quest text participates in the pipeline. It
+ * is OFF by default (that corpus is large and translated separately); set
  * `TAIWU_EVENTS=1` to fold it back into discovery so `translate`/`apply`/
- * `status`/`estimate` pick it up. The adapter and resolver stay wired either
- * way — this only gates source discovery.
+ * `status`/`estimate` pick it up. This gates ONLY the root folder — the DLC
+ * quest packs ({@link listDlcEventFiles}) are always included.
  */
 export function eventsEnabled(): boolean {
   const v = process.env.TAIWU_EVENTS?.trim().toLowerCase();
@@ -72,16 +130,17 @@ export function eventsEnabled(): boolean {
 
 /**
  * Every translatable source file (relative POSIX paths): all paired/anchored
- * `.txt`, the `.tsv` encyclopedia tables, the nested `.json` tips, and — when
- * {@link eventsEnabled} — the `Event_Languages` quest text. The adapter registry
- * maps each to its format.
+ * `.txt`, the `.tsv` encyclopedia tables, the nested `.json` tips, the always-on
+ * DLC quest packs, and — when {@link eventsEnabled} — the root `Event_Languages`
+ * quest text. The adapter registry maps each to its format.
  */
 export async function listSourceFiles(): Promise<string[]> {
-  const [txt, tsv, json, events] = await Promise.all([
+  const [txt, tsv, json, events, dlc] = await Promise.all([
     listTxtFiles(),
     listUnder("EncyclopediaAssets", [".tsv"]),
     listUnder("CommonTip", [".json"]),
     eventsEnabled() ? listEventFiles() : Promise.resolve([]),
+    listDlcEventFiles(),
   ]);
-  return [...txt, ...tsv, ...json, ...events];
+  return [...txt, ...tsv, ...json, ...events, ...dlc];
 }

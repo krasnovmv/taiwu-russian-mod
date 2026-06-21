@@ -24,6 +24,17 @@ export const languageCnDir = path.join(projectRoot, "Language_CN");
  */
 export const eventLanguagesDir = path.join(projectRoot, "Event_Languages");
 
+/**
+ * Container of per-DLC junctions (one per expansion: `Event_DLC/<DLC>` →
+ * `…_Data/<DLC>`). Each DLC keeps versioned subfolders
+ * (`<version>/Events/EventLanguages/<package>_Language_XX.txt`) in the same
+ * block format as the root `Event_Languages`; discovery picks the newest
+ * version that actually has EN text. Unlike the root quest folder, DLC quests
+ * are NOT gated behind `TAIWU_EVENTS` — they are a small, always-on part of the
+ * pipeline.
+ */
+export const eventDlcDir = path.join(projectRoot, "Event_DLC");
+
 /** Git-tracked translation memory (one JSON per source file). */
 export const tmDir = path.join(projectRoot, "tm");
 

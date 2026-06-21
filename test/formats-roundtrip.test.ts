@@ -5,7 +5,7 @@ import { test } from "node:test";
 import { resolveSource } from "../src/config/sources.js";
 import type { FormatAdapter } from "../src/formats/adapter.js";
 import { adapterFor } from "../src/formats/registry.js";
-import { listEventFiles, listSourceFiles } from "../src/scan.js";
+import { listDlcEventFiles, listEventFiles, listSourceFiles } from "../src/scan.js";
 
 /**
  * Safety net for the non-txt formats: for every real `.tsv`, `.json`, anchored
@@ -23,10 +23,16 @@ async function readIf(file: string): Promise<string | null> {
   }
 }
 
-// Always cover the event corpus here, even though it is gated out of the
-// pipeline by default (TAIWU_EVENTS) — the round-trip safety net should not
-// depend on whether quest translation is currently enabled.
-const files = [...new Set([...(await listSourceFiles()), ...(await listEventFiles())])];
+// Always cover the full event corpus here (root + DLC), even though the root
+// folder is gated out of the pipeline by default (TAIWU_EVENTS) — the round-trip
+// safety net should not depend on whether quest translation is currently on.
+const files = [
+  ...new Set([
+    ...(await listSourceFiles()),
+    ...(await listEventFiles()),
+    ...(await listDlcEventFiles()),
+  ]),
+];
 
 for (const file of files) {
   const adapter: FormatAdapter = adapterFor(file);
