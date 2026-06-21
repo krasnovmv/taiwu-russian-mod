@@ -1,0 +1,2905 @@
+{
+  "schemaVersion": 1,
+  "file": "Event_Languages/Taiwu_EventPackage_Adventure_EnemyNest_StrangeCourtyard_Language_EN.txt",
+  "glossaryVersion": 5,
+  "units": {
+    "242b0ba4-b862-4710-afe0-d477c242c679/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5c6ffa90-1c95-44f9-9f76-cbcbf9617d57/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "cd3fc547-aad1-49c1-8ebc-0d8e1c6b7595/EventContent": {
+      "en": "<Character key=NPC str=Name/> looks up and stares at <Character key=RoleTaiwu str=Name/> before speaking with a half smile.<NL><NL>\"You must be an elegant soul, too. If you want a debate, you're gonna get it.<NL>But I am engrossed in research and don't wish to be disturbed. If you don't think you stand a chance, then give it up.\"",
+      "cn": "<Character key=NPC str=Name/>抬眼打量<Character key=RoleTaiwu str=Name/>片刻，似笑非笑地拱手道：<NL><NL>“阁下既来此处，想来亦是风雅之辈，若要较艺，在下奉陪。<NL>只是我正潜心钻研，最忌旁人扰我清思，阁下若无胜算，便莫要轻试……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "df8d82d69dd0f831",
+      "engine": null,
+      "updatedAt": null
+    },
+    "cd3fc547-aad1-49c1-8ebc-0d8e1c6b7595/Option_1": {
+      "en": "(Debate with them...)",
+      "cn": "（与其较艺……）",
+      "ru": "(Диспут с ними...)",
+      "status": "machine",
+      "srcHash": "abf3dd4e539dda64",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "cd3fc547-aad1-49c1-8ebc-0d8e1c6b7595/Option_2": {
+      "en": "(Do nothing...)",
+      "cn": "（暂且作罢……）\n",
+      "ru": "(Ничего не делай...)",
+      "status": "machine",
+      "srcHash": "8a59862e5d3adb2c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c8dc6fef-6c13-481b-b9f1-4dee73b382e5/EventContent": {
+      "en": "\"You are really an elegant person.<NL>But I didn't play my best because I was distracted by a cold wind blowing toward me.<NL>Let me take a break before we have another contest somewhere else...\"",
+      "cn": "“阁下当真为风雅之士。<NL>方才凉风灌顶，在下一时神思不属，未能尽展所学，<NL>且容在下歇息片刻，另择一地再行讨教……”",
+      "ru": "\"Вы действительно элегантный человек.<NL>Но я сыграл не лучшим образом, потому что меня отвлек холодный ветер, дувший в мою сторону.<NL>Позвольте мне сделать перерыв, прежде чем мы проведем еще одно соревнование где-нибудь в другом месте...\"",
+      "status": "machine",
+      "srcHash": "95fc0effe1d4274b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "c8dc6fef-6c13-481b-b9f1-4dee73b382e5/Option_1": {
+      "en": "(Why not...)",
+      "cn": "（有何不可……）\n",
+      "ru": "(Почему бы и нет...)",
+      "status": "machine",
+      "srcHash": "b9e525a1f99887b3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "45f7ef7f-ac5e-449d-89aa-b730bfa6105b/EventContent": {
+      "en": "\"I thought you were someone of great capabilities coming here to challenge me.<NL>Turns out... you are nobody...\"<NL><NL><Character key=NPC str=Name/> snorts with a look of disdain.",
+      "cn": "“特意来扰我清思，原以为是何方高人，<NL>不想……也不过尔尔……”<NL><NL><Character key=NPC str=Name/>轻嗤一声，眼中尽是不屑……",
+      "ru": "\"Я думал, что ты человек с большими способностями, пришедший сюда, чтобы бросить мне вызов.<NL>Оказывается... ты никто...\"<NL><NL><Character key=NPC str=Name/> фыркает с презрительным видом.",
+      "status": "machine",
+      "srcHash": "5677b982b898c530",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "45f7ef7f-ac5e-449d-89aa-b730bfa6105b/Option_1": {
+      "en": "(Leave helplessly...)",
+      "cn": "（无奈离开……）",
+      "ru": "(Беспомощно уходи...)",
+      "status": "machine",
+      "srcHash": "91bd623db3bd3b7d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "45f7ef7f-ac5e-449d-89aa-b730bfa6105b/Option_2": {
+      "en": "(Take on fight!)",
+      "cn": "（与之一斗！）\n",
+      "ru": "(Вступай в бой!)",
+      "status": "machine",
+      "srcHash": "48760721f973de75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b77f125e-143e-43ad-b597-5ccc685d7a00/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "24f645ec-47ee-4a16-8291-3229d1d9f031/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4ed815c3-ea79-4c53-849d-e94ed3aabd76/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a6cfb1b1-9fa5-414a-9997-f8a6a09dfdec/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> steps into the pavilion and notices a Guqin on the stone table. The Guqin, made of bronze and ornamented with pearls and jades, is far beyond ordinary.<NL>Next to it is <Character key=NPC str=Name/> who speaks leisurely, with a tea cup in hand.<NL><NL>\"Since you are here, would you like to join me for some tea with me in this beautiful place?\"<NL><NL><color=#lightgrey>(Drinking tea reduces one stack of \"Unwilling to fight\" trait.)</color>",
+      "cn": "<Character key=RoleTaiwu str=Name/>步入亭中，见石桌之上横置一琴，古铜为体，珠玉为徽，非凡品可比。<NL>一旁<Character key=NPC str=Name/>手持茶盏，悠然道：<NL><NL>“景幽茶香，阁下既来，不妨与在下共饮一杯。”<NL><NL><color=#lightgrey>（饮茶将削减一层「无心战斗」特性的影响）</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d810d2fa0085db42",
+      "engine": null,
+      "updatedAt": null
+    },
+    "a6cfb1b1-9fa5-414a-9997-f8a6a09dfdec/Option_1": {
+      "en": "(Have some tea and see what you're trying to pull...)",
+      "cn": "（姑且一饮，看你作何玄虚……）",
+      "ru": "(Выпей немного чая и посмотри, чего ты пытаешься добиться...)",
+      "status": "machine",
+      "srcHash": "6ca1fdd247b2e192",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a6cfb1b1-9fa5-414a-9997-f8a6a09dfdec/Option_2": {
+      "en": "(Cut the small talk and start the contest!)",
+      "cn": "（省却虚文，与其一较高下！）\n",
+      "ru": "(Прекратите светскую беседу и начинайте конкурс!)",
+      "status": "machine",
+      "srcHash": "1839546344c7354d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1cbabb7a-de23-42ad-9c75-307cdf1af05c/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> steps into the pavilion and notices that the chess pieces in <Character key=NPC str=Name/>'s hand are made of jade, particularly bright and smooth.<NL><Character key=NPC str=Name/> says, brewing tea.<NL><NL>\"A contest without tea is not a good one. Please have a cup of tea...\"<NL><NL><color=#lightgrey>(Drinking tea reduces one stack of \"Unwilling to fight\" trait.)</color>",
+      "cn": "<Character key=RoleTaiwu str=Name/>步入亭中，见<Character key=NPC str=Name/>手中把玩的棋子皆由玉琢而成，莹润异常。<NL><Character key=NPC str=Name/>一面烹茶，一面说道：<NL><NL>“手谈无茶，未免扫兴，阁下且饮一杯茶……”<NL><NL><color=#lightgrey>（饮茶将削减一层「无心战斗」特性的影响）</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e87e2f9272c34761",
+      "engine": null,
+      "updatedAt": null
+    },
+    "1cbabb7a-de23-42ad-9c75-307cdf1af05c/Option_1": {
+      "en": "(Have some tea and see what you're trying to pull...)",
+      "cn": "（姑且一饮，看你作何玄虚……）",
+      "ru": "(Выпей немного чая и посмотри, чего ты пытаешься добиться...)",
+      "status": "machine",
+      "srcHash": "6ca1fdd247b2e192",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1cbabb7a-de23-42ad-9c75-307cdf1af05c/Option_2": {
+      "en": "(Cut the small talk and start the contest!)",
+      "cn": "（省却虚文，与其一较高下！）\n",
+      "ru": "(Прекратите светскую беседу и начинайте конкурс!)",
+      "status": "machine",
+      "srcHash": "1839546344c7354d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "36e69a32-e73e-40b7-8cc6-45ba5fcf94d5/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> steps into the pavilion and<NL>notices that the brush in <Character key=NPC str=Name/>'s hand is far beyond ordinary. The brush has a neat tip and a smooth head, leaving forcible and vigorous strokes on the paper.<NL><Character key=NPC str=Name/> says without looking away from the paper.<NL><NL>\"There's fresh tea on the table. Please help yourself...\"<NL><NL><color=#lightgrey>(Drinking tea reduces one stack of \"Unwilling to fight\" trait.)</color>",
+      "cn": "<Character key=RoleTaiwu str=Name/>步入亭中，<NL>见<Character key=NPC str=Name/>手中之笔，尖齐圆健，落墨处力透纸背，非凡品可比。<NL><Character key=NPC str=Name/>目不离纸，随口道：<NL><NL>“桌上有今岁之新茶，阁下还请自便……”<NL><NL><color=#lightgrey>（饮茶将削减一层「无心战斗」特性的影响）</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1e8513c307d56cf7",
+      "engine": null,
+      "updatedAt": null
+    },
+    "36e69a32-e73e-40b7-8cc6-45ba5fcf94d5/Option_1": {
+      "en": "(Have some tea and see what you're trying to pull...)",
+      "cn": "（姑且一饮，看你作何玄虚……）",
+      "ru": "(Выпей немного чая и посмотри, чего ты пытаешься добиться...)",
+      "status": "machine",
+      "srcHash": "6ca1fdd247b2e192",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "36e69a32-e73e-40b7-8cc6-45ba5fcf94d5/Option_2": {
+      "en": "(Cut the small talk and start the contest!)",
+      "cn": "（省却虚文，与其一较高下！）\n",
+      "ru": "(Прекратите светскую беседу и начинайте конкурс!)",
+      "status": "machine",
+      "srcHash": "1839546344c7354d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e200c71b-e7ca-4b7a-9521-984a9c573262/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> steps into the pavilion where <Character key=NPC str=Name/> is drawing a picture.<NL>The picture is very different from what is seen before, with the vividly drawn clouds and mountains that almost look real.<NL><Character key=NPC str=Name/> stops drawing with a smile after noticing that someone is watching.<NL><NL>\"You must feel tired from the long travel. You can have a cup of green tea I just made.\"<NL><NL><color=#lightgrey>(Drinking tea reduces one stack of \"Unwilling to fight\" trait.)</color>",
+      "cn": "<Character key=RoleTaiwu str=Name/>步入亭中，见<Character key=NPC str=Name/>正挥毫作画，<NL>纸上云山隐现，几欲破壁而出，与此前所见截然不同。<NL><Character key=NPC str=Name/>察觉有人，便搁笔笑道：<NL><NL>“阁下一路行来，想必乏了，在下备有清茶，且饮一盏……”<NL><NL><color=#lightgrey>（饮茶将削减一层「无心战斗」特性的影响）</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "657567e87038326c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "e200c71b-e7ca-4b7a-9521-984a9c573262/Option_1": {
+      "en": "(Have some tea and see what you're trying to pull...)",
+      "cn": "（姑且一饮，看你作何玄虚……）",
+      "ru": "(Выпей немного чая и посмотри, чего ты пытаешься добиться...)",
+      "status": "machine",
+      "srcHash": "6ca1fdd247b2e192",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e200c71b-e7ca-4b7a-9521-984a9c573262/Option_2": {
+      "en": "(Cut the small talk and start the contest!)",
+      "cn": "（省却虚文，与其一较高下！）\n",
+      "ru": "(Прекратите светскую беседу и начинайте конкурс!)",
+      "status": "machine",
+      "srcHash": "1839546344c7354d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5f8c2605-6cd3-4a6d-8d28-18dfc988d314/EventContent": {
+      "en": "After a cup of tea, <Character key=RoleTaiwu str=Name/> feels more clear-minded and more willing to fight.<NL><Character key=NPC str=Name/> smiles, placing the cup on the table.<NL><NL>\"Now we've had tea, shall we get started?\"",
+      "cn": "一盏茶饮尽，<Character key=RoleTaiwu str=Name/>只觉神思清朗，斗志亦有所恢复，<NL><Character key=NPC str=Name/>含笑搁盏，道：<NL><NL>“茶已饮罢，阁下可愿与我一较高下？”",
+      "ru": "После чашки чая, <Character key=RoleTaiwu str=Name/> чувствует себя более трезвомыслящим и более готовым к борьбе.<NL><Character key=NPC str=Name/> улыбается, ставя чашку на стол.<NL><NL>- Теперь, когда мы выпили чаю, может, начнем?",
+      "status": "machine",
+      "srcHash": "fd46b8289753e270",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "5f8c2605-6cd3-4a6d-8d28-18dfc988d314/Option_1": {
+      "en": "(Start the debate...)",
+      "cn": "（开始较艺……）\n",
+      "ru": "(Начинаем Диспут...)",
+      "status": "machine",
+      "srcHash": "ff63d972feb11921",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "82e03e4c-246d-43ff-a4e2-8d27b2df8e46/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "22d6cc93-f344-47b8-aee6-d6fffcacd00f/EventContent": {
+      "en": "\"You do have some real stuff...\"<NL><Character key=NPC str=Name/> shakes <Character key=NPC str=GenderPossessive/> head in disbelief.<NL><NL>\"No. It must be the tea. I drank it too fast and impatiently that I wasn't at my best...\"",
+      "cn": "“阁下倒是有几分真才实学……”<NL><Character key=NPC str=Name/>似是难以置信，连连摇头：<NL><NL>“不对，必是那茶误我，饮得太急，心浮气躁，这才失了水准……“",
+      "ru": "\"У тебя действительно есть кое-что настоящее...\"<NL><Character key=NPC str=Name/> трясет <Character key=NPC str=GenderPossessive/> недоверчиво качаю головой.<NL><NL>\"Нет. Должно быть, это из-за чая. Я выпил его слишком быстро и нетерпеливо, потому что был не в лучшей форме...\"",
+      "status": "machine",
+      "srcHash": "8e22ac0e8955f67d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "22d6cc93-f344-47b8-aee6-d6fffcacd00f/Option_1": {
+      "en": "(Nonsense!)",
+      "cn": "（强词夺理！）\n",
+      "ru": "(Чепуха!)",
+      "status": "machine",
+      "srcHash": "aa2365b12c460eae",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f698cbe0-cd32-4f66-8f57-fbb7adc498f3/EventContent": {
+      "en": "\"Too bad...\"<NL><Character key=NPC str=Name/> sighs, but looking a little complacent.<NL><NL>\"You are still weak. Why don't you spend a few more years improving yourself? The House of Eccentrics is no place for ordinary people. I think you should leave...\"",
+      "cn": "“可惜了……”<NL><Character key=NPC str=Name/>虽摇头叹息，面上却带着几分得意之色：<NL><NL>“阁下根基尚浅，不如归去勤修几载。异士居不容平庸之辈，恕不远送……”",
+      "ru": "\"Очень жаль...\"<NL><Character key=NPC str=Name/> вздыхает, но выглядит немного самодовольным.<NL><NL>\"Ты все еще слаб. Почему бы тебе не потратить еще несколько лет на самосовершенствование? Дом эксцентриков - не место для обычных людей. Я думаю, тебе следует уйти...\"",
+      "status": "machine",
+      "srcHash": "75af7f464a6678e7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "f698cbe0-cd32-4f66-8f57-fbb7adc498f3/Option_1": {
+      "en": "(Retreat from the challenge...)",
+      "cn": "（知难而退……）",
+      "ru": "(Отступление от вызова...)",
+      "status": "machine",
+      "srcHash": "162fad7242a51fa4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f698cbe0-cd32-4f66-8f57-fbb7adc498f3/Option_2": {
+      "en": "(Take on fight!)",
+      "cn": "（与之一斗！）\n",
+      "ru": "(Вступай в бой!)",
+      "status": "machine",
+      "srcHash": "48760721f973de75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "dbdc1b09-9554-46a0-ba2b-328ea55d6961/EventContent": {
+      "en": "\"I'm glad you know yourself well. You have saved me a lot of trouble...<NL>Goodbye. Perhaps we'll see each other again...\"<NL><NL><Character key=NPC str=Name/> walks <Character key=RoleTaiwu str=Name/> to the garden entrance and leaves without looking back...",
+      "cn": "“难得阁下有自知之明，倒省了许多麻烦……<NL>去罢，来日或有再会之时。”<NL><NL><Character key=NPC str=Name/>将<Character key=RoleTaiwu str=Name/>送至园外，随即拂袖而去……",
+      "ru": "- Я рад, что ты хорошо знаешь себя. Вы избавили меня от многих неприятностей...<NL>Прощай. Возможно, мы еще увидимся...\"<NL><NL><Character key=NPC str=Name/> прогулки <Character key=RoleTaiwu str=Name/> ко входу в сад и уходит, не оглядываясь...",
+      "status": "machine",
+      "srcHash": "a79c51b3b895226e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "dbdc1b09-9554-46a0-ba2b-328ea55d6961/Option_1": {
+      "en": "(Leave helplessly...)",
+      "cn": "（无奈离开……）\n",
+      "ru": "(Беспомощно уходи...)",
+      "status": "machine",
+      "srcHash": "91bd623db3bd3b7d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "cf5d374f-7fd4-4723-a09b-125381ab1203/EventContent": {
+      "en": "Prepared for that, <Character key=NPC str=Name/> ducks out of the way and says.<NL>\"Forget it. You can never understand. Hope you won't get killed because of this.\"<NL><NL>With that, <Character key=NPC str=Name/> lands on the lake and treads on water to disappear in the distance...",
+      "cn": "<Character key=NPC str=Name/>早有防备，侧身避过，旋即说道：<NL>“罢了，道不同不相为谋，只望阁下莫为此送了性命……”<NL><NL>话音未落，人已掠上湖面，踏水数步后飘然而去……",
+      "ru": "Подготовленный к этому, <Character key=NPC str=Name/> отскакивает в сторону и говорит.<NL>- Забудь об этом. Ты никогда не сможешь понять. Надеюсь, тебя из-за этого не убьют.\"<NL><NL>С этим, <Character key=NPC str=Name/> приземляется на озеро и ступает по воде, чтобы исчезнуть вдали...",
+      "status": "machine",
+      "srcHash": "73f46cdccff4ff0c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "cf5d374f-7fd4-4723-a09b-125381ab1203/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6b941fab-4770-456b-b3cb-2e27d5c859b9/EventContent": {
+      "en": "<Character key=NPC str=Name/> snorts and says coldly. <NL><NL>\"I didn't do my best. You can go and take a walk.<NL>I feel a little tired. Let me take a break before we compete again...\"",
+      "cn": "<Character key=NPC str=Name/>轻嗤一声，冷言道：<NL><NL>“在下确是未尽全力，阁下且自去逛罢，<NL>我有些乏了，待我歇息片刻，再与你一较高下……”",
+      "ru": "<Character key=NPC str=Name/> фыркает и холодно говорит. <NL><NL>\"Я не сделал все, что мог. Ты можешь пойти и прогуляться.<NL>Я чувствую себя немного усталым. Позволь мне сделать перерыв, прежде чем мы снова начнем соревноваться...\"",
+      "status": "machine",
+      "srcHash": "59822645751a5678",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "6b941fab-4770-456b-b3cb-2e27d5c859b9/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "67768f67-54be-4efe-b436-cef6bda03449/EventContent": {
+      "en": "\"What can I do for you?\"",
+      "cn": "“阁下有何贵干？”",
+      "ru": "- Что я могу для вас сделать?",
+      "status": "machine",
+      "srcHash": "3ad48229dd2248b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "67768f67-54be-4efe-b436-cef6bda03449/Option_1": {
+      "en": "(Nothing else for now...)",
+      "cn": "（暂无他事……）\n",
+      "ru": "(Пока больше ничего...)",
+      "status": "machine",
+      "srcHash": "2e28e25ccadac7b4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "082419c3-1acb-4de0-9ccf-cdca1fc19177/EventContent": {
+      "en": "<color=#orange>\"You can't go there!\"</color><NL><NL><Character key=RoleTaiwu str=Name/> is about to set foot in the bamboo forest when <Character key=NPC str=Name/> rushes over and blocks <Character key=RoleTaiwu str=Name/>'s way.<NL><NL>\"Anyway... I was distracted by a cold wind blowing toward me.<NL>Now I'm all ready. If you defeat me again, then I'll be sincerely convinced!\"",
+      "cn": "<color=#orange>“此处不可擅入！”</color><NL><NL>见<Character key=RoleTaiwu str=Name/>欲踏入竹林，<Character key=NPC str=Name/>疾步追来，将<Character key=RoleTaiwu str=Name/>拦在路中：<NL><NL>“不过……上次凉风灌顶，令在下一时神思不属，<NL>眼下我已准备万全，阁下若还能胜我，我便再无话说！”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0ba2d2e3ba4881ad",
+      "engine": null,
+      "updatedAt": null
+    },
+    "082419c3-1acb-4de0-9ccf-cdca1fc19177/Option_1": {
+      "en": "(Debate with them...)",
+      "cn": "（与其较艺……）",
+      "ru": "(Диспут с ними...)",
+      "status": "machine",
+      "srcHash": "abf3dd4e539dda64",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "082419c3-1acb-4de0-9ccf-cdca1fc19177/Option_2": {
+      "en": "(Get ready first...)",
+      "cn": "（稍作准备……）\n",
+      "ru": "(Сначала приготовься...)",
+      "status": "machine",
+      "srcHash": "5792db2e4f48856b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4150661e-8a80-4bd1-8c6c-53ff0f665e19/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "adfbff7a-cf1a-4703-b38d-deab1703ecd0/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d4e31a6a-ad05-488d-8591-18e94ba895fe/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "bad33e26-e57e-436a-b860-d70674e1d4af/EventContent": {
+      "en": "\"Too bad...\"<NL><Character key=NPC str=Name/> sighs, but obviously looking a little complacent.<NL><NL>\"It was not easy for you to defeat me twice. But the House of Eccentrics is no place for ordinary people. I think you should leave...\"",
+      "cn": "“可惜了……”<NL><Character key=NPC str=Name/>虽摇头叹息，面上却分明带着几分得意之色：<NL><NL>“阁下能胜我两局已是不易，只是异士居不容平庸之辈，恕不远送……”",
+      "ru": "\"Очень жаль...\"<NL><Character key=NPC str=Name/> вздыхает, но явно выглядит немного самодовольным.<NL><NL>\"Тебе было нелегко победить меня дважды. Но Дом эксцентриков - это не место для обычных людей. Я думаю, тебе следует уйти...\"",
+      "status": "machine",
+      "srcHash": "de1ff55ec064266e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "bad33e26-e57e-436a-b860-d70674e1d4af/Option_1": {
+      "en": "(Retreat from the challenge...)",
+      "cn": "（知难而退……）",
+      "ru": "(Отступление от вызова...)",
+      "status": "machine",
+      "srcHash": "162fad7242a51fa4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "bad33e26-e57e-436a-b860-d70674e1d4af/Option_2": {
+      "en": "(Refuse to give up...)",
+      "cn": "（不肯放弃……）\n",
+      "ru": "(Отказываюсь сдаваться...)",
+      "status": "machine",
+      "srcHash": "426a63f226ea7d64",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "62a47f2c-8c68-4dfd-984a-5678c23bd68a/EventContent": {
+      "en": "\"Oh, you've had 3 straight wins. I guess you have enough knowledge.<NL>But the House of Eccentrics expects more than that. Allow me to test your learning again.\"<NL><NL>Deluded Hermit, with an arrogant look, blocks <Character key=RoleTaiwu str=Name/>'s way...",
+      "cn": "“你既连胜三局，算你有几分学识，<NL>只是我异士居底蕴深厚，岂止于此？且让在下再考考阁下才学……”<NL><NL>无明子面露倨色，将<Character key=RoleTaiwu str=Name/>拦于路中……",
+      "ru": "\"О, у тебя было 3 победы подряд. Я думаю, у вас достаточно знаний.<NL>Но Дом эксцентриков ожидает большего. Позволь мне еще раз проверить твои знания.\"<NL><NL>Введенный в заблуждение отшельник с высокомерным видом блокирует <Character key=RoleTaiwu str=Name/>таким образом...",
+      "status": "machine",
+      "srcHash": "23434396d47b6f94",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "62a47f2c-8c68-4dfd-984a-5678c23bd68a/Option_1": {
+      "en": "(Debate with them...)",
+      "cn": "（与其较艺……）",
+      "ru": "(Диспут с ними...)",
+      "status": "machine",
+      "srcHash": "abf3dd4e539dda64",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "62a47f2c-8c68-4dfd-984a-5678c23bd68a/Option_2": {
+      "en": "(Take on fight!)",
+      "cn": "（与之一斗！）\n",
+      "ru": "(Вступай в бой!)",
+      "status": "machine",
+      "srcHash": "48760721f973de75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ebd2b81d-12fc-437f-b34e-6942ef46b427/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "73c28282-3b2d-495e-b46b-fffd7c560020/EventContent": {
+      "en": "\"It's been a while since I was defeated... That's a new experience.<NL>Only I'm not sure if it's good or bad...\"<NL><NL>Deluded Hermit stands there, his hands behind his back, staring at <Character key=RoleTaiwu str=Name/>, with a dejected look...",
+      "cn": "“许久未逢敌手……今日倒是开了眼界。<NL>只是这般滋味，竟不知是喜是忧……”<NL><NL>无明子负手而立，望着<Character key=RoleTaiwu str=Name/>，目中神色难辨，似是怅然若失……",
+      "ru": "\"Прошло много времени с тех пор, как я был побежден... Это новый опыт.<NL>Только я не уверен, хорошо это или плохо...\"<NL><NL>Обманутый отшельник стоит там, заложив руки за спину, и смотрит на <Character key=RoleTaiwu str=Name/>, с удрученным видом...",
+      "status": "machine",
+      "srcHash": "046e1c4617d6ad65",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "73c28282-3b2d-495e-b46b-fffd7c560020/Option_1": {
+      "en": "(Praise the fine arts...)",
+      "cn": "（赞其技艺……）",
+      "ru": "(Восхваляйте Ремесла...)",
+      "status": "machine",
+      "srcHash": "4808fc9c281d6bc5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "73c28282-3b2d-495e-b46b-fffd7c560020/Option_2": {
+      "en": "(Make a sneering comment...)",
+      "cn": "（出言讥讽……）\n",
+      "ru": "(Сделайте насмешливый комментарий...)",
+      "status": "machine",
+      "srcHash": "2520c01cc677e123",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "844d77d4-af1b-4f4c-b82b-8eace87a6028/EventContent": {
+      "en": "Deluded Hermit sighs, but looking a little complacent.<NL><NL>\"You do have some talent but that's all...<NL>Unfortunately... I never spare a loser's life...\"<NL><NL>With that, he springs into motion and comes at <Character key=RoleTaiwu str=Name/>!",
+      "cn": "无明子摇头叹息，面上却带着几分得意之色：<NL><NL>“阁下确有几分才学，但也仅限于此了……<NL>可惜……我从不留败者性命……”<NL><NL>言罢身形暴起，向<Character key=RoleTaiwu str=Name/>疾袭而来！",
+      "ru": "Обманутый отшельник вздыхает, но выглядит немного самодовольным.<NL><NL>- У тебя действительно есть некоторый Талант, но это все...<NL>К сожалению... Я никогда не щажу жизнь неудачника...\"<NL><NL>С этими словами он приходит в движение и наступает на <Character key=RoleTaiwu str=Name/>!",
+      "status": "machine",
+      "srcHash": "fff6222a11f3ea69",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "844d77d4-af1b-4f4c-b82b-8eace87a6028/Option_1": {
+      "en": "(Take on fight!)",
+      "cn": "（迎战敌人！）\n",
+      "ru": "(Вступай в бой!)",
+      "status": "machine",
+      "srcHash": "48760721f973de75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0998eeae-0bc8-4149-8290-ab8e486e05a5/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1d7e26f3-7b0a-471f-91e8-3476e5afae55/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ef8c1da0-9f85-4b51-8997-61d14f993ecf/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "141e62c4-9f37-43fc-9981-265f85e86441/EventContent": {
+      "en": "There's a chest.",
+      "cn": "此处有个箱子。",
+      "ru": "Там есть сундук.",
+      "status": "machine",
+      "srcHash": "5358a795aca6e01c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "141e62c4-9f37-43fc-9981-265f85e86441/Option_1": {
+      "en": "(Open the chest...)",
+      "cn": "（打开箱子……）",
+      "ru": "(Открой сундук...)",
+      "status": "machine",
+      "srcHash": "b7915407c3aa56a5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "141e62c4-9f37-43fc-9981-265f85e86441/Option_2": {
+      "en": "(Turn and leave...)",
+      "cn": "（转身离开……）\n",
+      "ru": "(Поворачивается и уходит...)",
+      "status": "machine",
+      "srcHash": "e10ea88152107276",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f4534ca4-d558-4d5c-ba74-8bd1b436fea8/EventContent": {
+      "en": "The lotus pond is overspread with large lotus leaves and graceful lotus flowers.<NL>The freshing scent of the flowers is wafted along by a breeze. The pond's surface is rippleless and the water is so clear you can see the bottom of the lake.<NL>Standing by the lake, <Character key=RoleTaiwu str=Name/> stares at the water, lost in thought...",
+      "cn": "一片荷塘延展开去，但见莲叶挨挨挤挤，荷花亭亭而立，<NL>微风过处，幽香沁人心脾。水波不兴，澄澈见底，似可承人而行。<NL><Character key=RoleTaiwu str=Name/>立于湖边，望着这一池静水，一时若有所思……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8c7c157330152898",
+      "engine": null,
+      "updatedAt": null
+    },
+    "f4534ca4-d558-4d5c-ba74-8bd1b436fea8/Option_1": {
+      "en": "(Admire the lotus blossoms...) (Painting Check: <ArgBox key=绘画成功百分比 type=int/>%)",
+      "cn": "（观赏荷花……）（绘画检定：<ArgBox key=绘画成功百分比 type=int/>%）",
+      "ru": "(Полюбуйтесь цветками лотоса...) (Проверка покраски: <ArgBox key=绘画成功百分比 type=int/>%)",
+      "status": "machine",
+      "srcHash": "12a1ce3472bc174a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f4534ca4-d558-4d5c-ba74-8bd1b436fea8/Option_2": {
+      "en": "(Step lightly upon the water...) (Footwork Arts Check: <ArgBox key=身法成功百分比 type=int/>%)",
+      "cn": "（轻点水面……）（身法检定：<ArgBox key=身法成功百分比 type=int/>%）",
+      "ru": "(Слегка ступайте по воде...) (Проверка мастерства работы ног: <ArgBox key=身法成功百分比 type=int/>%)",
+      "status": "machine",
+      "srcHash": "cdb62e1cdb894754",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f4534ca4-d558-4d5c-ba74-8bd1b436fea8/Option_3": {
+      "en": "(Leave for now...)",
+      "cn": "（暂且离去……）\n",
+      "ru": "(Оставь пока...)",
+      "status": "machine",
+      "srcHash": "944cc8402748d6b6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "09c4ca35-6cbc-4fac-99d0-dcda5727ea0b/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> admires the scenery attentively. The lotus flowers in the wind are flexible but not weak, swaying but not broken. They are free and at ease in a way.<NL><Character key=RoleTaiwu str=Name/> has a sudden enlightenment and makes progress in Footwork Arts.<NL><NL><color=#lightgrey>(Gained the trait [Dragonfly Skimming Water], with enhanced Footwork Arts)</color>",
+      "cn": "<Character key=RoleTaiwu str=Name/>凝神观赏，但见荷花随风而动，柔而不弱，摇而不折，自有一番从容之态。<NL>心中若有所悟，恍然间竟于身法上有所精进……<NL><NL><color=#lightgrey>（获得【蜻蜓点水】特性，提高了身法……）</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1ad692c6c8d8db27",
+      "engine": null,
+      "updatedAt": null
+    },
+    "09c4ca35-6cbc-4fac-99d0-dcda5727ea0b/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "19db0ddd-939b-4497-8c1f-0c22b69a001b/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> watches in silence for a while as the lotus flowers are swaying gently in the wind.<NL>The scenery is pleasant but doesn't stimulate inspiration.",
+      "cn": "<Character key=RoleTaiwu str=Name/>静观良久，但见荷花随风轻摇，<NL>虽觉赏心悦目，却不得其中深意……",
+      "ru": "<Character key=RoleTaiwu str=Name/> некоторое время молча наблюдает, как цветы лотоса мягко колышутся на ветру.<NL>Пейзаж приятный, но не вызывает вдохновения.",
+      "status": "machine",
+      "srcHash": "51ff2f224b1e0781",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "19db0ddd-939b-4497-8c1f-0c22b69a001b/Option_1": {
+      "en": "(Guess that's how it has to be...)",
+      "cn": "（只好如此……）\n",
+      "ru": "(Думаю, так и должно быть...)",
+      "status": "machine",
+      "srcHash": "6e390e39dac24598",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6dc997a0-42e6-4e46-96fe-38ca8786b1b8/EventContent": {
+      "en": "With great concentration, <Character key=RoleTaiwu str=Name/> gently touches the water surface with <Character key=RoleTaiwu str=GenderPossessive/> foot but suddenly loses <Character key=RoleTaiwu str=GenderPossessive/> balance and<NL>falls into the water, splashing water and frightening away fish and shrimps.",
+      "cn": "<Character key=RoleTaiwu str=Name/>提气凝神，足尖轻点水面，方觉身形平稳，下一瞬却失了重心，<NL>“扑通”一声落入塘中，溅起一片水花，惊得鱼虾四散……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "51a910e759980af3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "6dc997a0-42e6-4e46-96fe-38ca8786b1b8/Option_1": {
+      "en": "(Guess that's how it has to be...)",
+      "cn": "（只好如此……）\n",
+      "ru": "(Думаю, так и должно быть...)",
+      "status": "machine",
+      "srcHash": "6e390e39dac24598",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a12b83d7-a435-4eac-9639-de7ca04688c2/EventContent": {
+      "en": "With great concentration, <Character key=RoleTaiwu str=Name/> lightly touches the water with <Character key=RoleTaiwu str=GenderPossessive/> foot and then drifts out to safely stand on the water surface.<NL>The water ripples a little and feels like flat ground beneath <Character key=RoleTaiwu str=GenderPossessive/> feet.<NL><NL>Since then, <Character key=RoleTaiwu str=Name/> is able to walk freely on the lake in the House of Eccentrics.",
+      "cn": "<Character key=RoleTaiwu str=Name/>提气凝神，足尖轻点，身形飘然而出，竟稳稳落在水面之上。<NL>低头望去，只见脚下清波微漾，却如履平地一般。<NL><NL>自此，<Character key=RoleTaiwu str=Name/>可于异士居湖面上来去自如……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e94833d3ba3c241c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "a12b83d7-a435-4eac-9639-de7ca04688c2/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "404f6a0b-e942-4b1b-9237-6e9ff75df3de/EventContent": {
+      "en": "\"Those hands of yours, with such well-defined joints... They're perfectly suited for all manner of refined pursuits...\"",
+      "cn": "“阁下这双手，骨节分明，做何风雅之事皆是好材料……”",
+      "ru": "- Эти твои руки с такими четко очерченными суставами... Они идеально подходят для всех видов изысканных занятий...\"",
+      "status": "machine",
+      "srcHash": "8ac1e8edd44d8af3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "404f6a0b-e942-4b1b-9237-6e9ff75df3de/Option_1": {
+      "en": "(Debate with them...)",
+      "cn": "（与其较艺……）",
+      "ru": "(Диспут с ними...)",
+      "status": "machine",
+      "srcHash": "abf3dd4e539dda64",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "404f6a0b-e942-4b1b-9237-6e9ff75df3de/Option_2": {
+      "en": "(Putting on a mysterious act...)",
+      "cn": "（故弄玄虚……）",
+      "ru": "(Разыгрывает таинственный спектакль...)",
+      "status": "machine",
+      "srcHash": "654255cf99f113e1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "404f6a0b-e942-4b1b-9237-6e9ff75df3de/Option_3": {
+      "en": "(Putting on airs...)",
+      "cn": "（装腔作势……）",
+      "ru": "(Важничает...)",
+      "status": "machine",
+      "srcHash": "1245428bb6bbefde",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "404f6a0b-e942-4b1b-9237-6e9ff75df3de/Option_4": {
+      "en": "(Refuse to debate...)",
+      "cn": "（拒绝较艺……）\n",
+      "ru": "(Отказываюсь от Диспута...)",
+      "status": "machine",
+      "srcHash": "53996b2e1ba27c7f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a54aefff-3753-478b-923d-53b5980e4bd6/EventContent": {
+      "en": "\"You are indeed one of our kind, different from the common herd.<NL>Please go ahead, I would like to follow and observe your Debates with the others...\"<NL><NL><Character key=NPC str=Name/> nods slightly and makes way for <Character key=RoleTaiwu str=Name/>...<NL><NL><color=#lightgrey>(The progress of the Book <Character key=RoleTaiwu str=Name/> is Studying has slightly increased...)</color>",
+      "cn": "“阁下果然是我辈中人，与俗流不同。<NL>阁下且往前去，在下愿随行在侧，一观阁下与诸位较艺之风采……”<NL><NL><Character key=NPC str=Name/>微微颔首，为<Character key=RoleTaiwu str=Name/>让出了一条道路……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name/>正在研读的书籍进度小幅增加了……）</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6f68de87ab4133c7",
+      "engine": null,
+      "updatedAt": null
+    },
+    "a54aefff-3753-478b-923d-53b5980e4bd6/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "47c4de2a-3505-4dec-86c7-17092fadb546/EventContent": {
+      "en": "\"Your Fine Arts are remarkable, you have truly opened my eyes.<NL>I boldly ask to follow and watch you Debate with the others in the garden, may I?\"<NL><NL><Character key=NPC str=Name/> nods slightly and makes way for <Character key=RoleTaiwu str=Name/>...<NL><NL><color=#lightgrey>(The progress of the Book <Character key=RoleTaiwu str=Name/> is Studying has slightly increased...)</color>",
+      "cn": "“阁下技艺不俗，令在下大开眼界。<NL>在下斗胆随行，旁观阁下与园中诸人较艺，不知可否？”<NL><NL><Character key=NPC str=Name/>微微颔首，为<Character key=RoleTaiwu str=Name/>让出了一条道路……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name/>正在研读的书籍进度小幅增加了……）</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7074d6fcc1a8b350",
+      "engine": null,
+      "updatedAt": null
+    },
+    "47c4de2a-3505-4dec-86c7-17092fadb546/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "155ccfb5-7771-4274-8e80-0cf531f9c6f3/EventContent": {
+      "en": "\"So... that's how it is...\"<NL><NL><Character key=NPC str=Name/> looks dazed, standing still,<NL>seems still recalling the wonder of the previous match, and forgets to make way for <Character key=RoleTaiwu str=Name/>...<NL><NL><color=#lightgrey>(The progress of the Book <Character key=RoleTaiwu str=Name/> is Studying has slightly increased...)</color>",
+      "cn": "“原来……竟是如此……”<NL><NL><Character key=NPC str=Name/>神情恍惚，呆立原地，<NL>似乎犹在回忆方才对局之妙，竟忘了给<Character key=RoleTaiwu str=Name/>让出道路……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name/>正在研读的书籍进度小幅增加了……）</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "38b85998bed35766",
+      "engine": null,
+      "updatedAt": null
+    },
+    "155ccfb5-7771-4274-8e80-0cf531f9c6f3/Option_1": {
+      "en": "(Go around...)",
+      "cn": "（绕道走过……）\n",
+      "ru": "(Обойди вокруг...)",
+      "status": "machine",
+      "srcHash": "738857decbdfbced",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "2404fe78-05a6-4e0a-b7cb-6e4ea931d090/EventContent": {
+      "en": "\"Your bearing is quite extraordinary. No doubt you will add a touch of elegance to this gathering...\"",
+      "cn": "“阁下气度不俗，想必能为此间添几分雅趣……”",
+      "ru": "- Ваша осанка совершенно необычна. Без сомнения, вы придадите нотку элегантности этому собранию...\"",
+      "status": "machine",
+      "srcHash": "fe91acf18ecd4727",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "2404fe78-05a6-4e0a-b7cb-6e4ea931d090/Option_1": {
+      "en": "(Debate with them...)",
+      "cn": "（与其较艺……）",
+      "ru": "(Диспут с ними...)",
+      "status": "machine",
+      "srcHash": "abf3dd4e539dda64",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "2404fe78-05a6-4e0a-b7cb-6e4ea931d090/Option_2": {
+      "en": "(Putting on a mysterious act...)",
+      "cn": "（故弄玄虚……）",
+      "ru": "(Разыгрывает таинственный спектакль...)",
+      "status": "machine",
+      "srcHash": "654255cf99f113e1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "2404fe78-05a6-4e0a-b7cb-6e4ea931d090/Option_3": {
+      "en": "(Putting on airs...)",
+      "cn": "（装腔作势……）",
+      "ru": "(Важничает...)",
+      "status": "machine",
+      "srcHash": "1245428bb6bbefde",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "2404fe78-05a6-4e0a-b7cb-6e4ea931d090/Option_4": {
+      "en": "(Refuse to debate...)",
+      "cn": "（拒绝较艺……）\n",
+      "ru": "(Отказываюсь от Диспута...)",
+      "status": "machine",
+      "srcHash": "53996b2e1ba27c7f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ed4aad31-e6a2-455e-8f0a-ce5a4db7b928/EventContent": {
+      "en": "\"There is an unwritten rule in the House of Eccentrics—once two gazes meet, a contest must follow...\"",
+      "cn": "“异士居有个不成文的规矩，只要四目相接，便要一较高下……”",
+      "ru": "\"В Доме эксцентриков существует неписаное правило — как только взгляды двух людей встречаются, должно последовать состязание...\"",
+      "status": "machine",
+      "srcHash": "5533ace04995a575",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "ed4aad31-e6a2-455e-8f0a-ce5a4db7b928/Option_1": {
+      "en": "(Debate with them...)",
+      "cn": "（与其较艺……）",
+      "ru": "(Диспут с ними...)",
+      "status": "machine",
+      "srcHash": "abf3dd4e539dda64",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ed4aad31-e6a2-455e-8f0a-ce5a4db7b928/Option_2": {
+      "en": "(Putting on a mysterious act...)",
+      "cn": "（故弄玄虚……）",
+      "ru": "(Разыгрывает таинственный спектакль...)",
+      "status": "machine",
+      "srcHash": "654255cf99f113e1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ed4aad31-e6a2-455e-8f0a-ce5a4db7b928/Option_3": {
+      "en": "(Putting on airs...)",
+      "cn": "（装腔作势……）",
+      "ru": "(Важничает...)",
+      "status": "machine",
+      "srcHash": "1245428bb6bbefde",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ed4aad31-e6a2-455e-8f0a-ce5a4db7b928/Option_4": {
+      "en": "(Refuse to debate...)",
+      "cn": "（拒绝较艺……）\n",
+      "ru": "(Отказываюсь от Диспута...)",
+      "status": "machine",
+      "srcHash": "53996b2e1ba27c7f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "71a09afd-0297-4799-9c27-14337a8a24a7/EventContent": {
+      "en": "\"Your timing is impeccable. I've been itching for a worthy challenge. Would you care to offer some guidance?\"",
+      "cn": "“阁下来得正巧，在下正技痒难耐，不知可愿赐教？”",
+      "ru": "- Вы рассчитали время безупречно. Мне не терпелось принять достойный вызов. Не могли бы вы дать какие-нибудь рекомендации?\"",
+      "status": "machine",
+      "srcHash": "78ebaa5fcc86440f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "71a09afd-0297-4799-9c27-14337a8a24a7/Option_1": {
+      "en": "(Debate with them...)",
+      "cn": "（与其较艺……）",
+      "ru": "(Диспут с ними...)",
+      "status": "machine",
+      "srcHash": "abf3dd4e539dda64",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "71a09afd-0297-4799-9c27-14337a8a24a7/Option_2": {
+      "en": "(Putting on a mysterious act...)",
+      "cn": "（故弄玄虚……）",
+      "ru": "(Разыгрывает таинственный спектакль...)",
+      "status": "machine",
+      "srcHash": "654255cf99f113e1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "71a09afd-0297-4799-9c27-14337a8a24a7/Option_3": {
+      "en": "(Putting on airs...)",
+      "cn": "（装腔作势……）",
+      "ru": "(Важничает...)",
+      "status": "machine",
+      "srcHash": "1245428bb6bbefde",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "71a09afd-0297-4799-9c27-14337a8a24a7/Option_4": {
+      "en": "(Refuse to debate...)",
+      "cn": "（拒绝较艺……）\n",
+      "ru": "(Отказываюсь от Диспута...)",
+      "status": "machine",
+      "srcHash": "53996b2e1ba27c7f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6f244d48-b714-4bd2-93fd-0a1488d031b1/EventContent": {
+      "en": "\"Lost your way? Everyone here is searching for the path of fine arts. In that sense, who among us is not lost...?\"",
+      "cn": "“阁下迷了路？此间之人皆在技艺之道上求索，谁又不是迷途之人……”",
+      "ru": "- Заблудился? Каждый здесь ищет путь Ремесла. В этом смысле, кто из нас не потерян...?\"",
+      "status": "machine",
+      "srcHash": "d1f6c311d24423ff",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "6f244d48-b714-4bd2-93fd-0a1488d031b1/Option_1": {
+      "en": "(Debate with them...)",
+      "cn": "（与其较艺……）",
+      "ru": "(Диспут с ними...)",
+      "status": "machine",
+      "srcHash": "abf3dd4e539dda64",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6f244d48-b714-4bd2-93fd-0a1488d031b1/Option_2": {
+      "en": "(Putting on a mysterious act...)",
+      "cn": "（故弄玄虚……）",
+      "ru": "(Разыгрывает таинственный спектакль...)",
+      "status": "machine",
+      "srcHash": "654255cf99f113e1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6f244d48-b714-4bd2-93fd-0a1488d031b1/Option_3": {
+      "en": "(Putting on airs...)",
+      "cn": "（装腔作势……）",
+      "ru": "(Важничает...)",
+      "status": "machine",
+      "srcHash": "1245428bb6bbefde",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6f244d48-b714-4bd2-93fd-0a1488d031b1/Option_4": {
+      "en": "(Refuse to debate...)",
+      "cn": "（拒绝较艺……）\n",
+      "ru": "(Отказываюсь от Диспута...)",
+      "status": "machine",
+      "srcHash": "53996b2e1ba27c7f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0f23f755-ba6d-4ed6-a123-5722f3e51efa/EventContent": {
+      "en": "\"I've encountered some difficulties in my studies recently. Might you be willing to offer a few pointers?\"",
+      "cn": "“在下近日研习遇些难处，不知阁下可愿指点一二？”",
+      "ru": "\"Недавно я столкнулся с некоторыми трудностями в учебе. Не могли бы вы дать несколько советов?\"",
+      "status": "machine",
+      "srcHash": "05ecd9a3118113de",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "0f23f755-ba6d-4ed6-a123-5722f3e51efa/Option_1": {
+      "en": "(Debate with them...)",
+      "cn": "（与其较艺……）",
+      "ru": "(Диспут с ними...)",
+      "status": "machine",
+      "srcHash": "abf3dd4e539dda64",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0f23f755-ba6d-4ed6-a123-5722f3e51efa/Option_2": {
+      "en": "(Putting on a mysterious act...)",
+      "cn": "（故弄玄虚……）",
+      "ru": "(Разыгрывает таинственный спектакль...)",
+      "status": "machine",
+      "srcHash": "654255cf99f113e1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0f23f755-ba6d-4ed6-a123-5722f3e51efa/Option_3": {
+      "en": "(Putting on airs...)",
+      "cn": "（装腔作势……）",
+      "ru": "(Важничает...)",
+      "status": "machine",
+      "srcHash": "1245428bb6bbefde",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0f23f755-ba6d-4ed6-a123-5722f3e51efa/Option_4": {
+      "en": "(Refuse to debate...)",
+      "cn": "（拒绝较艺……）\n",
+      "ru": "(Отказываюсь от Диспута...)",
+      "status": "machine",
+      "srcHash": "53996b2e1ba27c7f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4b5e4715-8dc9-4632-87e1-054a3dca5334/EventContent": {
+      "en": "\"Did you know... a guqin consecrated with blood produces even more beautiful music?\"<NL><NL><Character key=NPC str=Name/>'s tone suddenly changes as they launch straight at <Character key=RoleTaiwu str=Name/>!",
+      "cn": "“你可知……用鲜血祭过的琴，乐声更动听？”<NL><NL><Character key=NPC str=Name/>话锋一转，径直向<Character key=RoleTaiwu str=Name/>袭来！",
+      "ru": "\"А ты знал... гуцинь, освященный кровью, издает еще более прекрасную музыку?\"<NL><NL><Character key=NPC str=Name/>тон внезапно меняется, когда они бросаются прямо на <Character key=RoleTaiwu str=Name/>!",
+      "status": "machine",
+      "srcHash": "405f0233241ae62b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "4b5e4715-8dc9-4632-87e1-054a3dca5334/Option_1": {
+      "en": "(Take on fight!)",
+      "cn": "（迎战敌人！）\n",
+      "ru": "(Вступай в бой!)",
+      "status": "machine",
+      "srcHash": "48760721f973de75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7ce37322-a350-423e-bde7-8627f0c3d001/EventContent": {
+      "en": "\"True kindred spirits are hard to find. The world fails to appreciate our refinement... Are you an exception?\"",
+      "cn": "“知音难觅，世人皆不懂我等风雅，阁下可是例外？”",
+      "ru": "- Трудно найти по-настоящему родственные Духи. Мир не в состоянии оценить нашу утонченность... Ты что, исключение?\"",
+      "status": "machine",
+      "srcHash": "63c327e3533ab7a8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "7ce37322-a350-423e-bde7-8627f0c3d001/Option_1": {
+      "en": "(Debate with them...)",
+      "cn": "（与其较艺……）",
+      "ru": "(Диспут с ними...)",
+      "status": "machine",
+      "srcHash": "abf3dd4e539dda64",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7ce37322-a350-423e-bde7-8627f0c3d001/Option_2": {
+      "en": "(Putting on a mysterious act...)",
+      "cn": "（故弄玄虚……）",
+      "ru": "(Разыгрывает таинственный спектакль...)",
+      "status": "machine",
+      "srcHash": "654255cf99f113e1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7ce37322-a350-423e-bde7-8627f0c3d001/Option_3": {
+      "en": "(Putting on airs...)",
+      "cn": "（装腔作势……）",
+      "ru": "(Важничает...)",
+      "status": "machine",
+      "srcHash": "1245428bb6bbefde",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7ce37322-a350-423e-bde7-8627f0c3d001/Option_4": {
+      "en": "(Refuse to debate...)",
+      "cn": "（拒绝较艺……）\n",
+      "ru": "(Отказываюсь от Диспута...)",
+      "status": "machine",
+      "srcHash": "53996b2e1ba27c7f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "aa57db72-c13d-4acc-89fa-bd0539a92390/EventContent": {
+      "en": "\"Can you smell it? The essence of this place is beyond the comprehension of ordinary people...\"",
+      "cn": "“阁下嗅到了么？此间气韵，非俗人所能领会……”",
+      "ru": "- Ты чувствуешь этот запах? Суть этого места находится за пределами Понимания обычных людей...\"",
+      "status": "machine",
+      "srcHash": "2a969d64f2a0111e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "aa57db72-c13d-4acc-89fa-bd0539a92390/Option_1": {
+      "en": "(Debate with them...)",
+      "cn": "（与其较艺……）",
+      "ru": "(Диспут с ними...)",
+      "status": "machine",
+      "srcHash": "abf3dd4e539dda64",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "aa57db72-c13d-4acc-89fa-bd0539a92390/Option_2": {
+      "en": "(Putting on a mysterious act...)",
+      "cn": "（故弄玄虚……）",
+      "ru": "(Разыгрывает таинственный спектакль...)",
+      "status": "machine",
+      "srcHash": "654255cf99f113e1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "aa57db72-c13d-4acc-89fa-bd0539a92390/Option_3": {
+      "en": "(Putting on airs...)",
+      "cn": "（装腔作势……）",
+      "ru": "(Важничает...)",
+      "status": "machine",
+      "srcHash": "1245428bb6bbefde",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "aa57db72-c13d-4acc-89fa-bd0539a92390/Option_4": {
+      "en": "(Refuse to debate...)",
+      "cn": "（拒绝较艺……）\n",
+      "ru": "(Отказываюсь от Диспута...)",
+      "status": "machine",
+      "srcHash": "53996b2e1ba27c7f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6123b056-c1c7-46e3-abef-ccfbe8d4b810/EventContent": {
+      "en": "\"You are truly hopelessly dull...\"<NL><NL><Character key=NPC str=Name/> lets out a disdainful scoff, eyes filled with contempt...",
+      "cn": "“阁下实在愚钝不堪……”<NL><NL><Character key=NPC str=Name/>轻嗤一声，眼中尽是不屑……",
+      "ru": "\"Ты действительно безнадежно скучен...\"<NL><NL><Character key=NPC str=Name/> издает презрительную усмешку, глаза полны презрения...",
+      "status": "machine",
+      "srcHash": "93ac3ec3e246fac4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "6123b056-c1c7-46e3-abef-ccfbe8d4b810/Option_1": {
+      "en": "(Leave helplessly...)",
+      "cn": "（无奈离开……）",
+      "ru": "(Беспомощно уходи...)",
+      "status": "machine",
+      "srcHash": "91bd623db3bd3b7d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6123b056-c1c7-46e3-abef-ccfbe8d4b810/Option_2": {
+      "en": "(Take on fight!)",
+      "cn": "（与之一斗！）\n",
+      "ru": "(Вступай в бой!)",
+      "status": "machine",
+      "srcHash": "48760721f973de75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "65430217-7bc1-4121-9067-4758574b7a72/EventContent": {
+      "en": "\"With proper polishing, human bones can make an excellent set of chess pieces...\"<NL><NL><Character key=NPC str=Name/> sneers coldly and charges directly at <Character key=RoleTaiwu str=Name/>!",
+      "cn": "“人骨好好打磨，倒也能做成一副好棋子……”<NL><NL><Character key=NPC str=Name/>冷笑一声，径直向<Character key=RoleTaiwu str=Name/>袭来！",
+      "ru": "\"При надлежащей полировке из человеческих костей может получиться отличный набор шахматных фигур...\"<NL><NL><Character key=NPC str=Name/> холодно усмехается и бросается прямо на <Character key=RoleTaiwu str=Name/>!",
+      "status": "machine",
+      "srcHash": "00b87073b9392e51",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "65430217-7bc1-4121-9067-4758574b7a72/Option_1": {
+      "en": "(Take on fight!)",
+      "cn": "（迎战敌人！）\n",
+      "ru": "(Вступай в бой!)",
+      "status": "machine",
+      "srcHash": "48760721f973de75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c8e388b2-26e4-45ec-9048-c3c294a47f8a/EventContent": {
+      "en": "\"The world reveres Xuan brushes and Hui ink,<NL>yet my brushes of human hair and ink of human blood surpass them all...\"<NL><NL><Character key=NPC str=Name/>'s expression darkens as they rush straight at <Character key=RoleTaiwu str=Name/>!",
+      "cn": "“世人皆以宣笔、徽墨为尊，<NL>在下的人毫笔、人血墨却要胜过它们许多……”<NL><NL><Character key=NPC str=Name/>面色一冷，径直向<Character key=RoleTaiwu str=Name/>袭来！",
+      "ru": "\"Мир почитает кисти Сюань и чернила Хуэй,<NL>и все же мои кисти из человеческих волос и чернила из человеческой крови превосходят их все...\"<NL><NL><Character key=NPC str=Name/>выражение их лиц темнеет, когда они бросаются прямо на <Character key=RoleTaiwu str=Name/>!",
+      "status": "machine",
+      "srcHash": "a790d463c8b3e55c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "c8e388b2-26e4-45ec-9048-c3c294a47f8a/Option_1": {
+      "en": "(Take on fight!)",
+      "cn": "（迎战敌人！）\n",
+      "ru": "(Вступай в бой!)",
+      "status": "machine",
+      "srcHash": "48760721f973de75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "01417ac8-3fba-4406-8515-e101f4281442/EventContent": {
+      "en": "\"Cinnabar paintings are dazzlingly beautiful,<NL>but I wonder whether a splash-ink painting made with your blood would look even better...\"<NL><NL><Character key=NPC str=Name/> smiles with murderous intent and lunges at <Character key=RoleTaiwu str=Name/>!",
+      "cn": "“丹砂作画，艳丽至极，<NL>却不知以你的血作一副泼墨画，好看不好看……”<NL><NL><Character key=NPC str=Name/>笑里藏刀，径直向<Character key=RoleTaiwu str=Name/>袭来！",
+      "ru": "\"Картины, выполненные киноварью, ослепительно красивы,<NL>но мне интересно, будет ли картина тушью, сделанная твоей кровью, выглядеть еще лучше...\"<NL><NL><Character key=NPC str=Name/> улыбается с убийственным намерением и бросается на <Character key=RoleTaiwu str=Name/>!",
+      "status": "machine",
+      "srcHash": "d6dd2f158e4bbd6c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "01417ac8-3fba-4406-8515-e101f4281442/Option_1": {
+      "en": "(Take on fight!)",
+      "cn": "（迎战敌人！）\n",
+      "ru": "(Вступай в бой!)",
+      "status": "machine",
+      "srcHash": "48760721f973de75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "93cf2ea0-5b81-43a3-b4ea-2ea5586a3801/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c82ea529-30c2-4cf3-b145-cd85fef8be57/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "14e0907e-7502-413e-8704-e4648d20841f/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f2ea7de8-2bde-4b89-90aa-1dc88b475cc7/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d55912d3-b8dd-4940-9405-a87267b9a1ca/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b5db9b6d-35ec-45c8-8960-3689aa0c5a20/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "669a49af-e1c8-44dc-98a7-b793a1e75d76/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e7dc9e3e-1701-4a76-b785-58274a96beaf/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "80c74ec7-d985-4eb2-bcae-b01c2cc49a27/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> moves to enter the bamboo forest, only to find <Character key=NPC str=Name/> still blocking the path without yielding an inch:<NL><NL>\"Hold it! This is no place for trespassers!<NL><color=#orange>If you wish to pass, you'll have to get through me first.</color>\"",
+      "cn": "<Character key=RoleTaiwu str=Name/>举步欲入竹林，却见<Character key=NPC str=Name/>依旧横于道中，不曾让开半步：<NL><NL>“且慢！此地岂容擅闯？<NL><color=#orange>阁下若要过去，先过我这一关。</color>”",
+      "ru": "<Character key=RoleTaiwu str=Name/> движется, чтобы войти в бамбуковый лес, но только для того, чтобы найти <Character key=NPC str=Name/> все еще преграждая путь, не уступая ни на дюйм:<NL><NL>- Держи это! Это не место для нарушителей границы!<NL><color=#orange>Если вы хотите пройти, вам сначала придется пройти через меня.</color>\"",
+      "status": "machine",
+      "srcHash": "e3f7159c52d033ef",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "80c74ec7-d985-4eb2-bcae-b01c2cc49a27/Option_1": {
+      "en": "(Debate with them...)",
+      "cn": "（与其较艺……）",
+      "ru": "(Диспут с ними...)",
+      "status": "machine",
+      "srcHash": "abf3dd4e539dda64",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "80c74ec7-d985-4eb2-bcae-b01c2cc49a27/Option_2": {
+      "en": "(Get ready first...)",
+      "cn": "（稍作准备……）\n",
+      "ru": "(Сначала приготовься...)",
+      "status": "machine",
+      "srcHash": "5792db2e4f48856b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4ebb4dad-5619-4f1d-be36-0bfbf4fb0dfd/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "614662db-45f7-4317-ad7e-c65930075918/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3f13fa1f-8a36-4521-a57b-997c358c5448/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1ae53728-6c90-4093-a654-532b4d18f2fc/EventContent": {
+      "en": "Passing beneath the flower trellis, the view suddenly opens up.<NL>More than a dozen stone steles stand before you, each engraved with poems and verses, every character bold and vigorous.<NL><Character key=RoleTaiwu str=Name/> examines them one by one, sensing hidden meanings within. If their mysteries can be unraveled, perhaps some benefit may be gained...",
+      "cn": "行过花架，眼前豁然开朗，<NL>但见十余通石碑林立其间，其上诗词满镌，字字遒劲有力。<NL><Character key=RoleTaiwu str=Name/>逐一细览，只觉似有深意隐于其中，若能参透，或可有所裨益……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b3ae654a48b2ebb2",
+      "engine": null,
+      "updatedAt": null
+    },
+    "1ae53728-6c90-4093-a654-532b4d18f2fc/Option_1": {
+      "en": "(Study the inscriptions carefully...) (Literature Check: <ArgBox key=诗书成功百分比 type=int/>%)",
+      "cn": "（仔细揣摩……）（诗书检定：<ArgBox key=诗书成功百分比 type=int/>%）",
+      "ru": "(Внимательно изучите надписи...) (Проверьте литературу: <ArgBox key=诗书成功百分比 type=int/>%)",
+      "status": "machine",
+      "srcHash": "3a04fb12152b3422",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1ae53728-6c90-4093-a654-532b4d18f2fc/Option_2": {
+      "en": "(Leave for now...)",
+      "cn": "（暂且离去……）\n",
+      "ru": "(Оставь пока...)",
+      "status": "machine",
+      "srcHash": "944cc8402748d6b6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ea4a5aa2-25f3-4a1c-baa7-182892dfdce1/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> studies word by word, pondering carefully,<NL>suddenly realizes that the poem's words connect with what he usually learns, and his mind clears up...<NL><NL><color=#lightgrey>(The progress of the Book <Character key=RoleTaiwu str=Name/> is Studying has greatly increased...)</color>",
+      "cn": "<Character key=RoleTaiwu str=Name/>逐字研读，细细揣摩，<NL>忽觉诗中所言竟与平日所学相通，心下豁然开朗……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name/>正在研读的书籍进度大幅增加了……）</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "cd75ffa84e8f40fc",
+      "engine": null,
+      "updatedAt": null
+    },
+    "ea4a5aa2-25f3-4a1c-baa7-182892dfdce1/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3e3fa18e-2129-48b9-b3f9-79c705540f4e/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> studies the inscriptions for a long while but remains baffled.<NL>In the end, their deeper meaning remains beyond comprehension...",
+      "cn": "<Character key=RoleTaiwu str=Name/>细观良久，不明所以，<NL>终究未能参透其中深意……",
+      "ru": "<Character key=RoleTaiwu str=Name/> долго изучает надписи, но остается сбитым с толку.<NL>В конце концов, их более глубокий смысл остается за пределами Понимания...",
+      "status": "machine",
+      "srcHash": "f208cade6ca74a0d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "3e3fa18e-2129-48b9-b3f9-79c705540f4e/Option_1": {
+      "en": "(Guess that's how it has to be...)",
+      "cn": "（只好如此……）\n",
+      "ru": "(Думаю, так и должно быть...)",
+      "status": "machine",
+      "srcHash": "6e390e39dac24598",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5ce8397f-780d-41bb-b64c-11e03ef7b7cf/EventContent": {
+      "en": "A half-finished chess game lies upon a stone table, black and white pieces intertwined. Deadly traps lurk throughout the board, yet hints of salvation seem hidden within.<NL><Character key=RoleTaiwu str=Name/> pauses to study it, sensing that this puzzle is no ordinary one. Solving it may yield unexpected rewards...",
+      "cn": "石桌上横陈一局残棋，黑白交错，杀机四伏，却又似暗藏生路。<NL><Character key=RoleTaiwu str=Name/>驻足细观，只觉此局非比寻常，若能将其破解，或有所得……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "3f2cb5679e08fe6f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "5ce8397f-780d-41bb-b64c-11e03ef7b7cf/Option_1": {
+      "en": "(Solve the chess puzzle...) (Weiqi Check: <ArgBox key=弈棋成功百分比 type=int/>%)",
+      "cn": "（破解残局……）（弈棋检定：<ArgBox key=弈棋成功百分比 type=int/>%）",
+      "ru": "(Решите шахматную головоломку...) (Проверка Weiqi: <ArgBox key=弈棋成功百分比 type=int/>%)",
+      "status": "machine",
+      "srcHash": "aaf3241414cb8a2e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5ce8397f-780d-41bb-b64c-11e03ef7b7cf/Option_2": {
+      "en": "(Leave for now...)",
+      "cn": "（暂且离去……）\n",
+      "ru": "(Оставь пока...)",
+      "status": "machine",
+      "srcHash": "944cc8402748d6b6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "130261e8-979a-45df-9c53-0e81ed6ff61c/EventContent": {
+      "en": "Atop the rockery, water flows in a gentle stream, its sound as clear as chiming jade pendants.<NL><Character key=RoleTaiwu str=Name/> listens for a moment and feels inspired. Perhaps a melody played in harmony with these natural sounds would create something truly beautiful...",
+      "cn": "假山之上，流水淙淙，其声如鸣佩环。<NL><Character key=RoleTaiwu str=Name/>聆听片刻，心有所感，若以曲相和，或可与此清音相得益彰……",
+      "ru": "На вершине рокария вода течет нежным ручейком, ее звук такой же чистый, как перезвон Нефрит-подвесок.<NL><Character key=RoleTaiwu str=Name/> прислушивается мгновение и чувствует вдохновение. Возможно, мелодия, сыгранная в гармонии с этими естественными звуками, создала бы нечто по-настоящему прекрасное...",
+      "status": "machine",
+      "srcHash": "63876a56bc6a32ed",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "130261e8-979a-45df-9c53-0e81ed6ff61c/Option_1": {
+      "en": "(Play in harmony with the stream...) (Music Check: <ArgBox key=音律成功百分比 type=int/>%)",
+      "cn": "（以曲相和……）（音律检定：<ArgBox key=音律成功百分比 type=int/>%）",
+      "ru": "(Играйте в гармонии с потоком...) (Проверка музыки: <ArgBox key=音律成功百分比 type=int/>%)",
+      "status": "machine",
+      "srcHash": "d74a0f3ec6786758",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "130261e8-979a-45df-9c53-0e81ed6ff61c/Option_2": {
+      "en": "(Leave for now...)",
+      "cn": "（暂且离去……）\n",
+      "ru": "(Оставь пока...)",
+      "status": "machine",
+      "srcHash": "944cc8402748d6b6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b26a4459-6948-4d6d-9f93-7720e0bed4c6/EventContent": {
+      "en": "A serene chamber lies hidden among the foliage, its door half-open. The room within is tranquil and immaculate.<NL><Character key=RoleTaiwu str=Name/> pauses to observe it, sensing a calm and concentrated atmosphere. Practicing here may prove beneficial...",
+      "cn": "一间静室掩映于草木之间，门扉半开半阖，室内幽静无尘。<NL><Character key=RoleTaiwu str=Name/>驻足细看，只觉此处气韵沉凝，若于此间静心习练，或可有所裨益……",
+      "ru": "Безмятежная комната скрыта среди листвы, ее дверь полуоткрыта. Комната внутри спокойная и безукоризненно убранная.<NL><Character key=RoleTaiwu str=Name/> останавливается, чтобы понаблюдать за этим, ощущая спокойную и сосредоточенную атмосферу. Практика здесь может оказаться полезной...",
+      "status": "machine",
+      "srcHash": "930b5d56c9bde1d1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "b26a4459-6948-4d6d-9f93-7720e0bed4c6/Option_1": {
+      "en": "(Practice Music...) (Music Check: <ArgBox key=音律成功百分比 type=int/>%)",
+      "cn": "（习练音律……）（音律检定：<ArgBox key=音律成功百分比 type=int/>%）",
+      "ru": "(Попрактикуйтесь в музыке...) (Проверка музыки: <ArgBox key=音律成功百分比 type=int/>%)",
+      "status": "machine",
+      "srcHash": "6a069c0989522b25",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b26a4459-6948-4d6d-9f93-7720e0bed4c6/Option_2": {
+      "en": "(Practice Chess...) (Weiqi Check: <ArgBox key=弈棋成功百分比 type=int/>%)",
+      "cn": "（习练弈棋……）（弈棋检定：<ArgBox key=弈棋成功百分比 type=int/>%）",
+      "ru": "(Потренируйтесь в шахматах...) (Проверка Weiqi: <ArgBox key=弈棋成功百分比 type=int/>%)",
+      "status": "machine",
+      "srcHash": "273aece0d71d1e2f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b26a4459-6948-4d6d-9f93-7720e0bed4c6/Option_3": {
+      "en": "(Practice Literature...) (Literature Check: <ArgBox key=诗书成功百分比 type=int/>%)",
+      "cn": "（习练诗书……）（诗书检定：<ArgBox key=诗书成功百分比 type=int/>%）",
+      "ru": "(Практическая литература...) (Проверка литературы: <ArgBox key=诗书成功百分比 type=int/>%)",
+      "status": "machine",
+      "srcHash": "cf35fc20176671e7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b26a4459-6948-4d6d-9f93-7720e0bed4c6/Option_4": {
+      "en": "(Practice Painting...) (Painting Check: <ArgBox key=绘画成功百分比 type=int/>%)",
+      "cn": "（习练绘画……）（绘画检定：<ArgBox key=绘画成功百分比 type=int/>%）",
+      "ru": "(Практикуйтесь в рисовании...) (Проверка рисования: <ArgBox key=绘画成功百分比 type=int/>%)",
+      "status": "machine",
+      "srcHash": "bab691b7a55829a3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b26a4459-6948-4d6d-9f93-7720e0bed4c6/Option_5": {
+      "en": "(Leave for now...)",
+      "cn": "（暂且离去……）\n",
+      "ru": "(Оставь пока...)",
+      "status": "machine",
+      "srcHash": "944cc8402748d6b6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d00023e2-11b6-4bdc-bb93-457021add9ea/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a720df99-8a3c-42d9-ac5d-e57659754795/EventContent": {
+      "en": "As the final note fades, the melody blends seamlessly with the murmur of the spring, creating a beautiful and lingering harmony.<NL>Everyone accompanying <Character key=RoleTaiwu str=Name/> feels refreshed and uplifted, and their admiration grows...<NL><NL><color=#lightgrey>(Favorability toward <Character key=RoleTaiwu str=Name/> has increased among companions...<NL><Character key=RoleTaiwu str=Name/> and the companions are now in a better mood...)</color>",
+      "cn": "一曲终了，乐音与泉声相和，悠扬动听。<NL>同行诸人无不心旷神怡，对<Character key=RoleTaiwu str=Name/>亦心生敬慕……<NL><NL><color=#lightgrey>（同道人物对<Character key=RoleTaiwu str=Name/>的好感提升了……<NL><Character key=RoleTaiwu str=Name/>和同道人物的心情上升了……）</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2ac53e36c7d7b19d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "a720df99-8a3c-42d9-ac5d-e57659754795/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f635f001-634e-4e6c-b750-766278b15188/EventContent": {
+      "en": "The tune played by <Character key=RoleTaiwu str=Name/> is harsh and grating to the ear.<NL>Startled by the dreadful performance, the birds in the forest scatter in all directions...",
+      "cn": "<Character key=RoleTaiwu str=Name/>所奏的乐音呕哑嘲哳，难以入耳，<NL>惊得林中飞鸟四散……",
+      "ru": "Мелодия, исполняемая <Character key=RoleTaiwu str=Name/> он резкий и режущий слух.<NL>Испуганные ужасным представлением, птицы в лесу разлетаются во все стороны...",
+      "status": "machine",
+      "srcHash": "5540597b43bdc270",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "f635f001-634e-4e6c-b750-766278b15188/Option_1": {
+      "en": "(Guess that's how it has to be...)",
+      "cn": "（只好如此……）\n",
+      "ru": "(Думаю, так и должно быть...)",
+      "status": "machine",
+      "srcHash": "6e390e39dac24598",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "01831fad-4c35-45ff-8873-e0e2f3b6a744/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> studies the board for a long time but fails to grasp its secrets.<NL>In the end, the puzzle remains unsolved...",
+      "cn": "<Character key=RoleTaiwu str=Name/>细观良久，不明所以，<NL>终究未能破解残局……",
+      "ru": "<Character key=RoleTaiwu str=Name/> долго изучает доску, но не может постичь ее Тайн.<NL>В конце концов, загадка остается неразгаданной...",
+      "status": "machine",
+      "srcHash": "6ff0ce86802a92a2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "01831fad-4c35-45ff-8873-e0e2f3b6a744/Option_1": {
+      "en": "(Guess that's how it has to be...)",
+      "cn": "（只好如此……）\n",
+      "ru": "(Думаю, так и должно быть...)",
+      "status": "machine",
+      "srcHash": "6e390e39dac24598",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "92d9d030-ebc4-4e80-a1f4-61ce3581284f/EventContent": {
+      "en": "After careful calculation, <Character key=RoleTaiwu str=Name/> finally places several decisive moves, solving the puzzle.<NL>With a sudden click, a stone slab beneath the table slowly slides aside, revealing a secret passage.<NL><Character key=RoleTaiwu str=Name/> descends the stairs and discovers towering bookshelves lining the walls. The scent of ink fills the air—it is a hidden library...",
+      "cn": "<Character key=RoleTaiwu str=Name/>凝神推演，终落几子，残局遂破。<NL>忽闻咔嚓一声，桌下石板徐徐滑开，一条密道赫然在目。<NL><Character key=RoleTaiwu str=Name/>循阶而入，但见四壁书架高耸，墨香扑鼻，竟是一处藏书之所……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7bf962091605074f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "92d9d030-ebc4-4e80-a1f4-61ce3581284f/Option_1": {
+      "en": "(Heaven's gifts should not be refused. Take a few volumes and have a look...)",
+      "cn": "（天予不取必受其咎，取几卷观之……）",
+      "ru": "(От небесных даров не следует отказываться. Возьмите несколько томов и взгляните...)",
+      "status": "machine",
+      "srcHash": "18e48080dbc06f98",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "92d9d030-ebc4-4e80-a1f4-61ce3581284f/Option_2": {
+      "en": "(Who knows what secrets lie here? Better leave it alone...)",
+      "cn": "（来路不明恐有蹊跷，还是作罢……）\n",
+      "ru": "(Кто знает, какие Тайны здесь кроются? Лучше оставь это в покое...)",
+      "status": "machine",
+      "srcHash": "9622a008e1429156",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1dbb29df-2a49-4b9b-939c-af2923bdc1f7/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> trains alone within the serene chamber, free from distraction.<NL>After an unknown length of time, enlightenment gradually dawns, and their mastery of Music improves...",
+      "cn": "<Character key=RoleTaiwu str=Name/>于静室中闭门习练，心无旁骛。<NL>不知过了多久，渐觉心有所悟，于音律一道有所精进……",
+      "ru": "<Character key=RoleTaiwu str=Name/> тренируется в одиночестве в безмятежной комнате, не отвлекаясь ни на что.<NL>По прошествии неизвестного промежутка времени постепенно наступает просветление, и их мастерство в музыке улучшается...",
+      "status": "machine",
+      "srcHash": "cdf418d4977976c3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "1dbb29df-2a49-4b9b-939c-af2923bdc1f7/Option_1": {
+      "en": "(Glad to hear that...)",
+      "cn": "（如此甚好……）\n",
+      "ru": "(Рад это слышать...)",
+      "status": "machine",
+      "srcHash": "ea87df651373c392",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e6424910-d617-4eca-bc9d-f17d1d2691e0/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> practices for a while within the serene chamber.<NL>Unfortunately, distracting thoughts constantly intrude, preventing true concentration, and no progress is made...",
+      "cn": "<Character key=RoleTaiwu str=Name/>于静室中习练片刻，<NL>奈何心中杂念纷扰，始终难以入定，习练未能有所精进……",
+      "ru": "<Character key=RoleTaiwu str=Name/> потренируйтесь некоторое время в безмятежной комнате.<NL>К сожалению, отвлекающие мысли постоянно вторгаются, препятствуя истинной концентрации, и никакого прогресса не достигается...",
+      "status": "machine",
+      "srcHash": "08033a35757365ab",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "e6424910-d617-4eca-bc9d-f17d1d2691e0/Option_1": {
+      "en": "(Guess that's how it has to be...)",
+      "cn": "（只好如此……）\n",
+      "ru": "(Думаю, так и должно быть...)",
+      "status": "machine",
+      "srcHash": "6e390e39dac24598",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3e55157c-b8e6-40db-b265-3b38d5b58d27/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> trains alone within the serene chamber, free from distraction.<NL>After an unknown length of time, enlightenment gradually dawns, and their mastery of Weiqi improves...",
+      "cn": "<Character key=RoleTaiwu str=Name/>于静室中闭门习练，心无旁骛。<NL>不知过了多久，渐觉心有所悟，于弈棋一道有所精进……",
+      "ru": "<Character key=RoleTaiwu str=Name/> тренируется в одиночестве в безмятежной комнате, не отвлекаясь ни на что.<NL>По прошествии неизвестного промежутка времени постепенно наступает просветление, и их мастерство владения Вэйци улучшается...",
+      "status": "machine",
+      "srcHash": "66129b4416f41c35",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "3e55157c-b8e6-40db-b265-3b38d5b58d27/Option_1": {
+      "en": "(Glad to hear that...)",
+      "cn": "（如此甚好……）\n",
+      "ru": "(Рад это слышать...)",
+      "status": "machine",
+      "srcHash": "ea87df651373c392",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "bb793e8c-f2b4-4f96-baae-32af89f663f4/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> practices for a while within the serene chamber.<NL>Unfortunately, distracting thoughts constantly intrude, preventing true concentration, and no progress is made...",
+      "cn": "<Character key=RoleTaiwu str=Name/>于静室中习练片刻，<NL>奈何心中杂念纷扰，始终难以入定，习练未能有所精进……",
+      "ru": "<Character key=RoleTaiwu str=Name/> потренируйтесь некоторое время в безмятежной комнате.<NL>К сожалению, отвлекающие мысли постоянно вторгаются, препятствуя истинной концентрации, и никакого прогресса не достигается...",
+      "status": "machine",
+      "srcHash": "08033a35757365ab",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "bb793e8c-f2b4-4f96-baae-32af89f663f4/Option_1": {
+      "en": "(Guess that's how it has to be...)",
+      "cn": "（只好如此……）\n",
+      "ru": "(Думаю, так и должно быть...)",
+      "status": "machine",
+      "srcHash": "6e390e39dac24598",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4a90c73e-5400-430c-810b-160d68153fb2/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> trains alone within the serene chamber, free from distraction.<NL>After an unknown length of time, enlightenment gradually dawns, and their mastery of Literature improves...",
+      "cn": "<Character key=RoleTaiwu str=Name/>于静室中闭门习练，心无旁骛。<NL>不知过了多久，渐觉心有所悟，于诗书一道有所精进……",
+      "ru": "<Character key=RoleTaiwu str=Name/> тренируется в одиночестве в безмятежной комнате, не отвлекаясь ни на что.<NL>По прошествии неизвестного промежутка времени постепенно наступает просветление, и их владение литературой улучшается...",
+      "status": "machine",
+      "srcHash": "3e0709d3f1ceead5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "4a90c73e-5400-430c-810b-160d68153fb2/Option_1": {
+      "en": "(Glad to hear that...)",
+      "cn": "（如此甚好……）\n",
+      "ru": "(Рад это слышать...)",
+      "status": "machine",
+      "srcHash": "ea87df651373c392",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1f660d51-7779-42e9-993a-5cf517e1552c/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> practices for a while within the serene chamber.<NL>Unfortunately, distracting thoughts constantly intrude, preventing true concentration, and no progress is made...",
+      "cn": "<Character key=RoleTaiwu str=Name/>于静室中习练片刻，<NL>奈何心中杂念纷扰，始终难以入定，习练未能有所精进……",
+      "ru": "<Character key=RoleTaiwu str=Name/> потренируйтесь некоторое время в безмятежной комнате.<NL>К сожалению, отвлекающие мысли постоянно вторгаются, препятствуя истинной концентрации, и никакого прогресса не достигается...",
+      "status": "machine",
+      "srcHash": "08033a35757365ab",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "1f660d51-7779-42e9-993a-5cf517e1552c/Option_1": {
+      "en": "(Guess that's how it has to be...)",
+      "cn": "（只好如此……）\n",
+      "ru": "(Думаю, так и должно быть...)",
+      "status": "machine",
+      "srcHash": "6e390e39dac24598",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "9272966f-2f96-47f3-bf1f-4d326f771293/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> trains alone within the serene chamber, free from distraction.<NL>After an unknown length of time, enlightenment gradually dawns, and their mastery of Painting improves...",
+      "cn": "<Character key=RoleTaiwu str=Name/>于静室中闭门习练，心无旁骛。<NL>不知过了多久，渐觉心有所悟，于绘画一道有所精进……",
+      "ru": "<Character key=RoleTaiwu str=Name/> тренируется в одиночестве в безмятежной комнате, не отвлекаясь ни на что.<NL>По прошествии неизвестного промежутка времени постепенно наступает просветление, и их мастерство в живописи улучшается...",
+      "status": "machine",
+      "srcHash": "a2fa33c2ebc6a61c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "9272966f-2f96-47f3-bf1f-4d326f771293/Option_1": {
+      "en": "(Glad to hear that...)",
+      "cn": "（如此甚好……）\n",
+      "ru": "(Рад это слышать...)",
+      "status": "machine",
+      "srcHash": "ea87df651373c392",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "2df874b0-f57a-4ae1-b88e-ca8441b85b4b/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> practices for a while within the serene chamber.<NL>Unfortunately, distracting thoughts constantly intrude, preventing true concentration, and no progress is made...",
+      "cn": "<Character key=RoleTaiwu str=Name/>于静室中习练片刻，<NL>奈何心中杂念纷扰，始终难以入定，习练未能有所精进……",
+      "ru": "<Character key=RoleTaiwu str=Name/> потренируйтесь некоторое время в безмятежной комнате.<NL>К сожалению, отвлекающие мысли постоянно вторгаются, препятствуя истинной концентрации, и никакого прогресса не достигается...",
+      "status": "machine",
+      "srcHash": "08033a35757365ab",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "2df874b0-f57a-4ae1-b88e-ca8441b85b4b/Option_1": {
+      "en": "(Guess that's how it has to be...)",
+      "cn": "（只好如此……）\n",
+      "ru": "(Думаю, так и должно быть...)",
+      "status": "machine",
+      "srcHash": "6e390e39dac24598",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1d5e645c-11b8-4ce9-9f52-6b66b6e38634/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5985f0f7-7b50-483e-acc4-203247cf9465/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "05d4074f-039b-454e-8b1f-11703fc5894d/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "455c1e9d-51f3-405f-897e-2724bea9ea4e/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "bb0e1df1-4203-42eb-a329-000706c9e217/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8532bf22-703f-4e26-b82e-b2cd3ad49dfb/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1516e2d0-f94e-45fa-a8a9-bd17a2c5c76f/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3b1253c2-e06d-43a0-9792-483b0518e0fe/EventContent": {
+      "en": "\"Since you are not good at literary duels, let me test your martial arts—\"",
+      "cn": "“阁下既然不堪文斗，便让我来试试武艺吧——”",
+      "ru": "— Поскольку ты не силен в литературных дуэлях, позволь мне проверить твои Боевые искусства...",
+      "status": "machine",
+      "srcHash": "95c7772049c26ce2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3b1253c2-e06d-43a0-9792-483b0518e0fe/Option_1": {
+      "en": "(Take on fight!)",
+      "cn": "（迎战敌人！）",
+      "ru": "(Вступай в бой!)",
+      "status": "machine",
+      "srcHash": "48760721f973de75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3b1253c2-e06d-43a0-9792-483b0518e0fe/Option_2": {
+      "en": "(Eliminate the enemy!)",
+      "cn": "（驱灭敌人！）",
+      "ru": "(Уничтожьте врага!)",
+      "status": "machine",
+      "srcHash": "5178a18af61c9074",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3b1253c2-e06d-43a0-9792-483b0518e0fe/Option_3": {
+      "en": "(Charge straight through...)",
+      "cn": "（横闯而过……）",
+      "ru": "(Заряжайте прямо сквозь...)",
+      "status": "machine",
+      "srcHash": "c4c16d0e1b341945",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3b1253c2-e06d-43a0-9792-483b0518e0fe/Option_4": {
+      "en": "(Dodge nimbly...)",
+      "cn": "（灵活闪躲……）",
+      "ru": "(Ловко уклоняясь от Уклонения...)",
+      "status": "machine",
+      "srcHash": "16846d292f19a8d1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3b1253c2-e06d-43a0-9792-483b0518e0fe/Option_5": {
+      "en": "(Hold your breath and slip past...)",
+      "cn": "（屏息回避……）\n",
+      "ru": "(Задержи дыхание и проскользни мимо...)",
+      "status": "machine",
+      "srcHash": "cd8b41f05cc59b60",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ede654f5-903a-4cc6-bf95-9f1cff19eac8/EventContent": {
+      "en": "\"To face so many alone shows quite a bit of courage—\"",
+      "cn": "“阁下以寡敌众，倒是有些胆量——”",
+      "ru": "\"Встретиться лицом к лицу со столькими людьми в одиночку — это проявление немалого мужества...\"",
+      "status": "machine",
+      "srcHash": "1716694684efcbae",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ede654f5-903a-4cc6-bf95-9f1cff19eac8/Option_1": {
+      "en": "(Take on fight!)",
+      "cn": "（迎战敌人！）",
+      "ru": "(Вступай в бой!)",
+      "status": "machine",
+      "srcHash": "48760721f973de75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ede654f5-903a-4cc6-bf95-9f1cff19eac8/Option_2": {
+      "en": "(Eliminate the enemy!)",
+      "cn": "（驱灭敌人！）",
+      "ru": "(Уничтожьте врага!)",
+      "status": "machine",
+      "srcHash": "5178a18af61c9074",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ede654f5-903a-4cc6-bf95-9f1cff19eac8/Option_3": {
+      "en": "(Charge straight through...)",
+      "cn": "（横闯而过……）",
+      "ru": "(Заряжайте прямо сквозь...)",
+      "status": "machine",
+      "srcHash": "c4c16d0e1b341945",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ede654f5-903a-4cc6-bf95-9f1cff19eac8/Option_4": {
+      "en": "(Dodge nimbly...)",
+      "cn": "（灵活闪躲……）",
+      "ru": "(Ловко уклоняясь от Уклонения...)",
+      "status": "machine",
+      "srcHash": "16846d292f19a8d1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ede654f5-903a-4cc6-bf95-9f1cff19eac8/Option_5": {
+      "en": "(Hold your breath and slip past...)",
+      "cn": "（屏息回避……）\n",
+      "ru": "(Задержи дыхание и проскользни мимо...)",
+      "status": "machine",
+      "srcHash": "cd8b41f05cc59b60",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6ed803b1-323c-4a26-85e7-00ece68e6850/EventContent": {
+      "en": "\"Well met! I shall use your blood to compose a new work—\"",
+      "cn": "“来得好！便用你的血写一幅字吧——”",
+      "ru": "- Рад встрече! Я использую твою кровь для создания нового произведения...\"",
+      "status": "machine",
+      "srcHash": "af0728ff8cfd1398",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6ed803b1-323c-4a26-85e7-00ece68e6850/Option_1": {
+      "en": "(Take on fight!)",
+      "cn": "（迎战敌人！）",
+      "ru": "(Вступай в бой!)",
+      "status": "machine",
+      "srcHash": "48760721f973de75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6ed803b1-323c-4a26-85e7-00ece68e6850/Option_2": {
+      "en": "(Eliminate the enemy!)",
+      "cn": "（驱灭敌人！）",
+      "ru": "(Уничтожьте врага!)",
+      "status": "machine",
+      "srcHash": "5178a18af61c9074",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6ed803b1-323c-4a26-85e7-00ece68e6850/Option_3": {
+      "en": "(Charge straight through...)",
+      "cn": "（横闯而过……）",
+      "ru": "(Заряжайте прямо сквозь...)",
+      "status": "machine",
+      "srcHash": "c4c16d0e1b341945",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6ed803b1-323c-4a26-85e7-00ece68e6850/Option_4": {
+      "en": "(Dodge nimbly...)",
+      "cn": "（灵活闪躲……）",
+      "ru": "(Ловко уклоняясь от Уклонения...)",
+      "status": "machine",
+      "srcHash": "16846d292f19a8d1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6ed803b1-323c-4a26-85e7-00ece68e6850/Option_5": {
+      "en": "(Hold your breath and slip past...)",
+      "cn": "（屏息回避……）\n",
+      "ru": "(Задержи дыхание и проскользни мимо...)",
+      "status": "machine",
+      "srcHash": "cd8b41f05cc59b60",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "86df5f2b-199f-41ab-ba48-6b398039e3d3/EventContent": {
+      "en": "\"A common wretch who disturbs the spirit... you have spoiled a most beautiful view—\"",
+      "cn": "“搅人雅兴的庸人，白白破坏了一幅美景——”",
+      "ru": "- Обычный негодяй, который тревожит Дух... вы испортили самый прекрасный вид...\"",
+      "status": "machine",
+      "srcHash": "d008e263a14ac710",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "86df5f2b-199f-41ab-ba48-6b398039e3d3/Option_1": {
+      "en": "(Take on fight!)",
+      "cn": "（迎战敌人！）",
+      "ru": "(Вступай в бой!)",
+      "status": "machine",
+      "srcHash": "48760721f973de75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "86df5f2b-199f-41ab-ba48-6b398039e3d3/Option_2": {
+      "en": "(Eliminate the enemy!)",
+      "cn": "（驱灭敌人！）",
+      "ru": "(Уничтожьте врага!)",
+      "status": "machine",
+      "srcHash": "5178a18af61c9074",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "86df5f2b-199f-41ab-ba48-6b398039e3d3/Option_3": {
+      "en": "(Charge straight through...)",
+      "cn": "（横闯而过……）",
+      "ru": "(Заряжайте прямо сквозь...)",
+      "status": "machine",
+      "srcHash": "c4c16d0e1b341945",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "86df5f2b-199f-41ab-ba48-6b398039e3d3/Option_4": {
+      "en": "(Dodge nimbly...)",
+      "cn": "（灵活闪躲……）",
+      "ru": "(Ловко уклоняясь от Уклонения...)",
+      "status": "machine",
+      "srcHash": "16846d292f19a8d1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "86df5f2b-199f-41ab-ba48-6b398039e3d3/Option_5": {
+      "en": "(Hold your breath and slip past...)",
+      "cn": "（屏息回避……）\n",
+      "ru": "(Задержи дыхание и проскользни мимо...)",
+      "status": "machine",
+      "srcHash": "cd8b41f05cc59b60",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "dc5e8d56-844d-45da-940d-8042a5910459/EventContent": {
+      "en": "\"So that's how it is...<NL>If that's the case, then all I need do is kill you, and no one in this world will ever surpass me again!\"<NL><NL>Deluded Hermit lets out a cold laugh, his expression growing increasingly sinister.<NL>With that, he suddenly bursts forward and charges straight at <Character key=RoleTaiwu str=Name/>!",
+      "cn": "“既然如此……<NL>只要杀了你，世上便无人再能胜我！”<NL><NL>无明子冷笑一声，神色渐转阴鸷，<NL>言罢身形暴起，向<Character key=RoleTaiwu str=Name/>疾袭而来！",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "14cc18f3adbb7cf3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "dc5e8d56-844d-45da-940d-8042a5910459/Option_1": {
+      "en": "(Take on fight!)",
+      "cn": "（迎战敌人！）\n",
+      "ru": "(Вступай в бой!)",
+      "status": "machine",
+      "srcHash": "48760721f973de75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1ea90838-8c49-4279-9e97-f66fca86b415/EventContent": {
+      "en": "Hearing these words, Deluded Hermit snaps back to his senses and throws back his head in laughter:<NL><NL>\"Excellent! Excellent!<NL>You are truly a kindred spirit unlike any other!<NL>I secluded myself here to escape the noise of the world and devote myself wholly to mastering my fine arts.<NL>Yet alas... the world is filled with mediocrity, and true understanding is so hard to find...\"",
+      "cn": "无明子闻言回过神来，仰天大笑：<NL><NL>“痛快！痛快！<NL>阁下可谓我平生知己！<NL>我避世于此，只求远离尘嚣，一心精研技艺。<NL>可惜……世人庸碌，知音难觅……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8627f149b80f0aee",
+      "engine": null,
+      "updatedAt": null
+    },
+    "1ea90838-8c49-4279-9e97-f66fca86b415/Option_1": {
+      "en": "No matter your grievances, taking lives and harming others here can never be the right path...",
+      "cn": "纵有苦衷，然踞于此地杀人害命，终非正道……",
+      "ru": "Независимо от ваших обид, отнимать жизни и причинять вред другим здесь никогда не может быть правильным путем...",
+      "status": "machine",
+      "srcHash": "3d3298e1b0ee4808",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1ea90838-8c49-4279-9e97-f66fca86b415/Option_2": {
+      "en": "I can understand some of your suffering, but all living beings endure hardship. Why add more bloodshed to the world...?",
+      "cn": "此番苦楚我亦懂得几分，但众生皆苦，何必再添杀孽……",
+      "ru": "Я могу понять некоторые из ваших страданий, но все живые существа терпят лишения. Зачем добавлять миру еще больше кровопролития...?",
+      "status": "machine",
+      "srcHash": "e8eb258bd11f56c4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "1ea90838-8c49-4279-9e97-f66fca86b415/Option_3": {
+      "en": "If you have already withdrawn from the world in pursuit of mastery, why concern yourself with what others think?",
+      "cn": "既已避世求艺，旁人如何，又何必挂怀……",
+      "ru": "Если вы уже удалились от мира в погоне за мастерством, зачем беспокоиться о том, что думают другие?",
+      "status": "machine",
+      "srcHash": "96a8db5252eca3fe",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "1ea90838-8c49-4279-9e97-f66fca86b415/Option_4": {
+      "en": "Life is short. One should live freely and joyfully—why bother with the opinions of others?",
+      "cn": "人生苦短，自当快意而活，管旁人作甚……",
+      "ru": "Жизнь коротка. Человек должен жить свободно и радостно — зачем беспокоиться о мнении других?",
+      "status": "machine",
+      "srcHash": "d3e296b3206e48f2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1ea90838-8c49-4279-9e97-f66fca86b415/Option_5": {
+      "en": "Mediocre people are unworthy of being compared with you and me...",
+      "cn": "庸碌之辈，岂配与你我相提并论……\n",
+      "ru": "Посредственные люди недостойны того, чтобы их сравнивали с вами и со мной...",
+      "status": "machine",
+      "srcHash": "39030396a447a7ef",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1784a4df-2aa2-4484-bcc1-b7e08a928ac2/EventContent": {
+      "en": "Struck fatally, <Character key=RoleTaiwu str=Name/> collapsed in a pool of blood...",
+      "cn": "<Character key=RoleTaiwu str=Name/>被击中要害，倒在了一片血泊之中……",
+      "ru": "Нанес смертельный удар, <Character key=RoleTaiwu str=Name/> рухнул в лужу крови...",
+      "status": "machine",
+      "srcHash": "cc83483a84de27e9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1784a4df-2aa2-4484-bcc1-b7e08a928ac2/Option_1": {
+      "en": "Ugh... Argh...",
+      "cn": "呃……啊……\n",
+      "ru": "Тьфу... Ах...",
+      "status": "machine",
+      "srcHash": "c4494168915cd4bf",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d3ca438e-636a-47cc-b65c-e1e7ac82f2af/EventContent": {
+      "en": "Just as <Character key=RoleTaiwu str=Name/> is about to step into the bamboo forest, several pebbles suddenly come whistling through the air!",
+      "cn": "<Character key=RoleTaiwu str=Name/>正欲举步踏入竹林，数枚石子已破空而至！",
+      "ru": "Точно так же, как <Character key=RoleTaiwu str=Name/> он уже собирается ступить в бамбуковый лес, как вдруг несколько камешков со свистом пролетают в воздухе!",
+      "status": "machine",
+      "srcHash": "670672a5ee78331e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "d3ca438e-636a-47cc-b65c-e1e7ac82f2af/Option_1": {
+      "en": "(Sidestep swiftly!)",
+      "cn": "（侧身闪过！）\n",
+      "ru": "(Быстро отойди в сторону!)",
+      "status": "machine",
+      "srcHash": "eb9e097ee0e5323e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "86dad554-27ec-479c-a0fa-8ed4a082b8af/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> sidesteps just in time, catching sight of a figure rushing from the forest, voice sharp and commanding:<NL><NL>\"You dare harbor murderous intent when outplayed? Wreak havoc in my House of Eccentrics?<NL>Today, you will not leave alive!\"",
+      "cn": "<Character key=RoleTaiwu str=Name/>侧身闪过，便见一道身影自林中袭至近前，厉声喝道：<NL><NL>“技不如人便动杀心，在我异士居逞凶？<NL>今日休想活着离开！”",
+      "ru": "<Character key=RoleTaiwu str=Name/> отступает в сторону как раз вовремя, замечая фигуру, выбегающую из леса, голос резкий и повелительный:<NL><NL>- Ты смеешь вынашивать убийственные намерения, когда тебя переигрывают? Сеять хаос в моем Доме эксцентриков?<NL>Сегодня ты не уйдешь живым!\"",
+      "status": "machine",
+      "srcHash": "62d397a9748479c3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "86dad554-27ec-479c-a0fa-8ed4a082b8af/Option_1": {
+      "en": "(Take on fight!)",
+      "cn": "（迎战敌人！）\n",
+      "ru": "(Вступай в бой!)",
+      "status": "machine",
+      "srcHash": "48760721f973de75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c7f53752-09cd-4ea1-81b8-62629b806931/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ee864a63-3f17-41b5-af48-58ad9933279b/EventContent": {
+      "en": "\"Though you bested me... it is merely the courage of a common man...\"<NL>Deluded Hermit is struck in a vital spot by <Character key=RoleTaiwu str=Name/>, collapsing into a pool of blood.<NL>His eyes bulge in unwillingness, yet after a brief struggle, his life ebbs away, leaving nothing but silence...<NL><NL><color=#lightgrey>(Gained Regional Favor)</color>",
+      "cn": "“你虽胜我……不过……匹夫之勇而已……”<NL>无明子被<Character key=RoleTaiwu str=Name/>击中要害，倒在一地血泊之中，<NL>其目眦欲裂，犹自不甘，片刻后终是气绝，再无声息……<NL><NL><color=#lightgrey>（获得了地区恩义）</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7b49b823ec75d5bf",
+      "engine": null,
+      "updatedAt": null
+    },
+    "ee864a63-3f17-41b5-af48-58ad9933279b/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "453c730a-0441-4d23-b6c7-0df74c2ef76d/EventContent": {
+      "en": "As <Character key=RoleTaiwu str=Name/> enters the garden, white walls and dark tiles, water and stones pristine, come into view.<NL>A few individuals sit scattered beneath pavilions and corridors, some writing or painting, others playing the Guqin or Weiqi, presenting a scene of leisurely elegance...",
+      "cn": "<Character key=RoleTaiwu str=Name/>甫入园中，但见白墙黛瓦，水石清华，<NL>数人散坐于亭榭廊下，或写书作画，或抚琴对弈，竟是一派闲雅之景……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "47ce14aebb6a6a82",
+      "engine": null,
+      "updatedAt": null
+    },
+    "453c730a-0441-4d23-b6c7-0df74c2ef76d/Option_1": {
+      "en": "(How could a gathering of evildoers be so tranquil...)",
+      "cn": "（妖人所聚之处，怎会这般恬静……）\n",
+      "ru": "(Как могло сборище злодеев быть таким спокойным...)",
+      "status": "machine",
+      "srcHash": "78c7723dfdf44552",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "9d8e87d2-06b8-4e4e-b4e4-bf05e95ac54d/EventContent": {
+      "en": "\"Ugh... ah...\"<NL><NL><Character key=NPC str=Name/> falls into a pool of blood after being struck in a vital area by <Character key=RoleTaiwu str=Name/>...",
+      "cn": "“呃……啊……”<NL><NL><Character key=NPC str=Name/>被<Character key=RoleTaiwu str=Name/>击中要害，倒在一片血泊之中……",
+      "ru": "\"Уф... ах...\"<NL><NL><Character key=NPC str=Name/> падает в лужу крови после удара в жизненно важную область <Character key=RoleTaiwu str=Name/>...",
+      "status": "machine",
+      "srcHash": "c895f502dca003c2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "9d8e87d2-06b8-4e4e-b4e4-bf05e95ac54d/Option_1": {
+      "en": "(Move forward...)",
+      "cn": "（继续前进……）\n",
+      "ru": "(Двигайся вперед...)",
+      "status": "machine",
+      "srcHash": "784bee87aeedf0d9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7f39d067-dc93-459c-a4cd-3303c61c97e3/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c0ab96db-5c60-4692-96ff-8006137257b4/EventContent": {
+      "en": "The moment <Character key=RoleTaiwu str=Name/> acts, the other eccentrics realize the visitor means harm and immediately swarm to attack!",
+      "cn": "<Character key=RoleTaiwu str=Name/>甫一动手，众异士方知来者不善，登时围杀上来！",
+      "ru": "Этот момент <Character key=RoleTaiwu str=Name/> действует, другие чудаки понимают, что посетитель хочет причинить вред, и немедленно бросаются в Атаку!",
+      "status": "machine",
+      "srcHash": "9c9f5bff3eff0177",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "c0ab96db-5c60-4692-96ff-8006137257b4/Option_1": {
+      "en": "(It seems this cannot end well...)",
+      "cn": "（看来此事已不可善了……）\n",
+      "ru": "(Кажется, это добром не кончится...)",
+      "status": "machine",
+      "srcHash": "ef5b258e09be048d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d41dc5e8-8054-42db-beac-dca12fad673e/EventContent": {
+      "en": "Reaching the exit of the House of Eccentrics, <Character key=RoleTaiwu str=Name/> pauses to look back.<NL>The white walls and dark tiles, half-hidden among the foliage, appear almost unreal.<NL>He considers that the place is peculiar, and if he leaves now, the entrance may be lost forever...",
+      "cn": "<Character key=RoleTaiwu str=Name/>行至异士居出口，不觉驻足回望，<NL>但见白墙黛瓦掩映于草木之间，恍惚竟有几分不真切，<NL>心下暗忖此地来路蹊跷，若就此离去，恐怕再难寻其入口……",
+      "ru": "Добираюсь до выхода из Дома эксцентриков, <Character key=RoleTaiwu str=Name/> останавливается, чтобы оглянуться назад.<NL>Белые стены и темная плитка, наполовину скрытые листвой, кажутся почти нереальными.<NL>Он считает, что это необычное место, и если он сейчас уйдет, вход может быть потерян навсегда...",
+      "status": "machine",
+      "srcHash": "0c3522f5e2a6493c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "d41dc5e8-8054-42db-beac-dca12fad673e/Option_1": {
+      "en": "(Leave...)",
+      "cn": "（决意离开……）",
+      "ru": "(Уходи...)",
+      "status": "machine",
+      "srcHash": "b4c5ef93ed3f5e81",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d41dc5e8-8054-42db-beac-dca12fad673e/Option_2": {
+      "en": "(Continue the tour...)",
+      "cn": "（继续游逛……）\n",
+      "ru": "(Продолжаем экскурсию...)",
+      "status": "machine",
+      "srcHash": "5d01960e88754f2d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "cfebf520-4214-4034-acbd-a85c344ab3e3/EventContent": {
+      "en": "Deluded Hermit nods lightly, clapping his hands with a faint laugh:<NL><NL>\"Your words are most reasonable.<NL>The victor holds sway. Were you to assume command of this House of Eccentrics, it would not be improper.<NL>Yet judging by your expression, you seem to have pressing matters elsewhere?\"",
+      "cn": "无明子微微颔首，抚掌轻笑：<NL><NL>“阁下所言极是。<NL>胜者为尊，如今阁下若是要执掌这异士居亦无不可，<NL>只是观阁下神色，似有要事在身？”",
+      "ru": "Обманутый Отшельник слегка кивает, хлопая в ладоши со слабым смехом:<NL><NL>- Ваши слова в высшей степени разумны.<NL>Победитель удерживает власть. Если бы вы приняли командование этим Домом эксцентриков, в этом не было бы ничего предосудительного.<NL>И все же, судя по выражению вашего лица, у вас, кажется, есть неотложные дела в другом месте?\"",
+      "status": "machine",
+      "srcHash": "4dab71767b3d2366",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "cfebf520-4214-4034-acbd-a85c344ab3e3/Option_1": {
+      "en": "\"No pressing matters; today's contest left me wanting more. Would you care for another?\"",
+      "cn": "暂无要事，今日一较意犹未尽，阁下可有兴致再叙？",
+      "ru": "\"Никаких неотложных дел; сегодняшнее соревнование заставило меня желать большего. Не хотите ли еще?\"",
+      "status": "machine",
+      "srcHash": "3ff00c9a29890c1c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "cfebf520-4214-4034-acbd-a85c344ab3e3/Option_2": {
+      "en": "\"Your fine arts surpass all; why not join my cause as my companion and lend me your strength...\"",
+      "cn": "阁下技艺超群，何不与我同道，助我一臂之力……\n",
+      "ru": "\"Твое Ремесло превосходит все; почему бы тебе не присоединиться к моему делу в качестве компаньона и не одолжить мне свою Силу...\"",
+      "status": "machine",
+      "srcHash": "9c589a9bf7a754f0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7065ec15-cd19-4f6e-a016-691e84447836/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> sits closely with Deluded Hermit, discussing arts and philosophy, unaware that dawn has come.<NL>Through their long conversation, both gain deep insights and much benefit.<NL><NL><color=#lightgrey>(Gained trait: ability to steadily improve Music, Weiqi, Literature, and Painting over the next 12 months)</color>",
+      "cn": "<Character key=RoleTaiwu str=Name/>与无明子促膝而坐，谈艺论道，不觉已至天明。<NL>此番长谈，各有所悟，二人皆大有收获。<NL><NL><color=#lightgrey>(获得可在12个月内持续提升音律、弈棋、诗书、绘画造诣的特性)</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c8385203f730aa28",
+      "engine": null,
+      "updatedAt": null
+    },
+    "7065ec15-cd19-4f6e-a016-691e84447836/Option_1": {
+      "en": "(Glad to hear that...)",
+      "cn": "（如此甚好……）\n",
+      "ru": "(Рад это слышать...)",
+      "status": "machine",
+      "srcHash": "ea87df651373c392",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c1d28549-278f-4411-85d8-92ec1c1cf86d/EventContent": {
+      "en": "Deluded Hermit's brows relax and he exclaims:<NL>\"Rare indeed that you value me so. I shall not decline your invitation.\"<NL>He adjusts his robe, performs a formal salute, and proceeds to walk side by side with <Character key=RoleTaiwu str=Name/>...<NL><NL><color=#lightgrey>(Wumingzi has joined <Character key=RoleTaiwu str=Name/>'s companion)</color>",
+      "cn": "无明子闻言眉宇舒展，朗声道：<NL>“难得阁下看重，承蒙相邀，岂敢推辞。”<NL>言罢撩袍拱手，郑重一礼，随即与<Character key=RoleTaiwu str=Name/>并肩而行……<NL><NL><color=#lightgrey>（无明子加入了<Character key=RoleTaiwu str=Name/>的同道行列）</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "52e09a62896df190",
+      "engine": null,
+      "updatedAt": null
+    },
+    "c1d28549-278f-4411-85d8-92ec1c1cf86d/Option_1": {
+      "en": "(Glad to hear that...)",
+      "cn": "（如此甚好……）",
+      "ru": "(Рад это слышать...)",
+      "status": "machine",
+      "srcHash": "ea87df651373c392",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c1d28549-278f-4411-85d8-92ec1c1cf86d/Option_2": {
+      "en": "(Order them to return to Taiwu Village...)",
+      "cn": "（令其返回太吾村……）\n",
+      "ru": "(Прикажите им вернуться в Деревню Тайу...)",
+      "status": "machine",
+      "srcHash": "202c0ddf4f5a0490",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1614a786-0152-4caa-a59c-e042b2a3743a/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> surveys the area<NL>and sees that each person here excels in some fine arts—music, chess, painting, or literature.<NL>To investigate further, he must first challenge and defeat one of them...",
+      "cn": "<Character key=RoleTaiwu str=Name/>定神环顾，<NL>见此地诸人各有所长，或擅琴棋，或通书画，<NL>若欲入内探查，须先较艺击败其中一人，方能近前一步……",
+      "ru": "<Character key=RoleTaiwu str=Name/> осматривает местность<NL>и видит, что каждый присутствующий здесь человек преуспевает в каком—нибудь Ремесле - музыке, шахматах, живописи или литературе.<NL>Чтобы продолжить расследование, он должен сначала бросить вызов и победить одного из них...",
+      "status": "machine",
+      "srcHash": "a86b389f175c9832",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "1614a786-0152-4caa-a59c-e042b2a3743a/Option_1": {
+      "en": "(Let us find someone to test skills against...)",
+      "cn": "（且寻一人与其较艺……）\n",
+      "ru": "(Давайте найдем кого-нибудь, с кем можно будет проверить свои навыки...)",
+      "status": "machine",
+      "srcHash": "26e00f3238ff0b3a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3b7cc124-dc12-49ce-9202-5595898a4264/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> suffers consecutive defeats, and the surrounding evildoers scoff and depart.<NL>Only <Character key=NPC str=Name/> remains, smiling ambiguously:<NL><NL>\"I thought you were some great talent, yet you are merely useless.<NL>Go ahead—this place does not tolerate mediocrity.\"",
+      "cn": "<Character key=RoleTaiwu str=Name/>连连落败，左右妖人异士嗤笑一声后纷纷离去，<NL>唯<Character key=NPC str=Name/>纹丝未动，似笑非笑道：<NL><NL>“我还当是何方高人，原来也是个无用之辈。<NL>阁下请便，此处……不留庸才。”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2d25134075edb31e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "3b7cc124-dc12-49ce-9202-5595898a4264/Option_1": {
+      "en": "(Retreat from the challenge...)",
+      "cn": "（知难而退……）",
+      "ru": "(Отступление от вызова...)",
+      "status": "machine",
+      "srcHash": "162fad7242a51fa4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3b7cc124-dc12-49ce-9202-5595898a4264/Option_2": {
+      "en": "(Take on fight!)",
+      "cn": "（与之一斗！）\n",
+      "ru": "(Вступай в бой!)",
+      "status": "machine",
+      "srcHash": "48760721f973de75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c5533b36-09e6-46c4-87b4-052f8c9e77d6/EventContent": {
+      "en": "Shaking their head with a faint smile, <Character key=NPC str=Name/> continues:<NL>\"I do have some fondness for talent. To see uncut jade neglected is a pity.<NL>Why insist on futile effort...\"<NL><NL>Saying this, <Character key=NPC str=Name/> coldly smiles and departs, unwilling to linger...",
+      "cn": "<Character key=NPC str=Name/>连连摇头，似笑非笑：<NL>“在下也有几分爱才之心，眼见璞玉蒙尘，总觉可惜。<NL>阁下又何苦执迷不悟……”<NL><NL>言罢，<Character key=NPC str=Name/>冷笑一声便拂袖而去，似是不愿多留……",
+      "ru": "Качая головой со слабой улыбкой, <Character key=NPC str=Name/> продолжается:<NL>- Я действительно испытываю некоторую симпатию к Талантам. Жаль видеть, как пренебрегают необработанным Нефритом.<NL>Зачем настаивать на тщетных усилиях...\"<NL><NL>Говоря это, <Character key=NPC str=Name/> холодно улыбается и уходит, не желая задерживаться...",
+      "status": "machine",
+      "srcHash": "a59a3e93be911cb9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "c5533b36-09e6-46c4-87b4-052f8c9e77d6/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "79a879d8-c6e4-4b4c-adcb-1f1e44f227e7/EventContent": {
+      "en": "Deeper into the garden, <Character key=RoleTaiwu str=Name/> sees someone standing with hands behind their back, calm and collected.<NL>As <Character key=RoleTaiwu str=Name/> approaches, they raise their gaze and arch an eyebrow:<NL><NL>\"Which outsider dares disturb my secluded practice?<NL>Since you are here, why not test your skills against me? Only then will you understand what it means to face the master of the House of Eccentrics.\"",
+      "cn": "<Character key=RoleTaiwu str=Name/>深入园中，便见一人负手而立，气定神闲。<NL>见<Character key=RoleTaiwu str=Name/>行近，便抬眼望来，眉峰微挑：<NL><NL>“何方俗客，胆敢扰我清修？<NL>阁下既来，不妨与我较艺一场，也好让你知晓，何为异士居之主。”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "51c66272b74ca7ff",
+      "engine": null,
+      "updatedAt": null
+    },
+    "79a879d8-c6e4-4b4c-adcb-1f1e44f227e7/Option_1": {
+      "en": "(Debate with them...)",
+      "cn": "（与其较艺……）",
+      "ru": "(Диспут с ними...)",
+      "status": "machine",
+      "srcHash": "abf3dd4e539dda64",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "79a879d8-c6e4-4b4c-adcb-1f1e44f227e7/Option_2": {
+      "en": "(Take on fight!)",
+      "cn": "（与之一斗！）",
+      "ru": "(Вступай в бой!)",
+      "status": "machine",
+      "srcHash": "48760721f973de75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "79a879d8-c6e4-4b4c-adcb-1f1e44f227e7/Option_3": {
+      "en": "(Turn around and leave...)",
+      "cn": "（转身就走……）\n",
+      "ru": "(Разворачиваюсь и ухожу...)",
+      "status": "machine",
+      "srcHash": "92311c2333224bff",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1e73943f-7013-4c0e-96e0-7bb3ce141baf/EventContent": {
+      "en": "Deluded Hermit was struck in a vital spot by <Character key=RoleTaiwu str=Name/> and collapsed into a pool of blood, whispering:<NL>\"Skilled in both pen and sword... such a figure exists in this world...\"<NL><NL>His voice fades, and he dies...<NL><NL><color=#lightgrey>(Gained Regional Favor)</color>",
+      "cn": "无明子被<Character key=RoleTaiwu str=Name/>击中要害，倒在一地血泊之中，嘶声道：<NL>“文武双全……当世竟有此等人物……”<NL><NL>无明子语声渐弱，终是气绝而亡……<NL><NL><color=#lightgrey>（获得了地区恩义）</color>",
+      "ru": "Введенный в заблуждение отшельник был поражен в жизненно важное место <Character key=RoleTaiwu str=Name/> и рухнул в лужу крови, шепча:<NL>\"Искусный как в обращении с пером, так и с Мечом... Такая фигура существует в этом мире...\"<NL><NL>Его голос затихает, и он умирает...<NL><NL><color=#lightgrey>(Завоевал популярность в регионе)</color>",
+      "status": "machine",
+      "srcHash": "4cd41a1c4ca546d9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "1e73943f-7013-4c0e-96e0-7bb3ce141baf/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4f8c2939-8773-49bf-9ef9-0804cbbc4993/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "32031696-2cf1-4abf-aee1-90489b45d405/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "80d34851-20f2-4a4d-a729-82e59bdcfd63/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8a110f03-4100-4dae-a98d-d029a8251a2f/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e92f6861-3d94-4113-bc84-d1362f5d050b/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "39c017d1-4427-43d2-a084-1d85e38bcfb9/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1ca6c969-6299-4777-b656-51e4b7bb1561/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "78904771-6fe4-4e3d-a968-bf62173ce86a/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a5a6e8a9-add3-464f-a252-beb15188ee32/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "2b390b5c-5605-448a-a266-f240b70b14b8/EventContent": {
+      "en": "It's best to run for now!",
+      "cn": "走为上计！",
+      "ru": "Сейчас лучше всего бежать!",
+      "status": "machine",
+      "srcHash": "d41ba49816d4acee",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "2b390b5c-5605-448a-a266-f240b70b14b8/Option_1": {
+      "en": "(Get out of here...)",
+      "cn": "（无意纠缠……）\n",
+      "ru": "(Убирайся отсюда...)",
+      "status": "machine",
+      "srcHash": "1367be4f1ee7cbf0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8874daca-c93b-4c29-96fd-1a120787afcc/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5d116801-29bd-492b-ae8f-536e903d19ea/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e7736556-9c6d-4b4d-8ff5-72aa235a374e/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "aacf32d8-b3fb-4d5c-b950-d00e9dc90c22/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "99f3c11f-0208-458d-8e7f-aa21ffbeb56e/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e5526dcd-4deb-4e1d-a210-9bf0800b68ea/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "cc3a9dba-9f14-4392-be2d-db250be40fb3/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8b1394b5-7379-4fd9-bdfb-30bbd38416f1/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "707757ad-14f5-4155-80c6-2a6b52380f91/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6f37713c-d99a-4d2d-9382-da96bf3b8a41/EventContent": {
+      "en": "\"Hmph—since you have come, do not think of leaving!\"",
+      "cn": "“哼，既然来了那也别走吧！”",
+      "ru": "\"Хм... раз уж ты пришел, не думай уходить!\"",
+      "status": "machine",
+      "srcHash": "81198a63d8c10f79",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6f37713c-d99a-4d2d-9382-da96bf3b8a41/Option_1": {
+      "en": "(Take on fight!)",
+      "cn": "（迎战敌人！）\n",
+      "ru": "(Вступай в бой!)",
+      "status": "machine",
+      "srcHash": "48760721f973de75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "85fa3a44-a3ce-4556-89fe-22fc347fdfbb/EventContent": {
+      "en": "The enemy proved truly troublesome, and Taiwu had no choice but to seize an opening and beat a hasty retreat...",
+      "cn": "敌人实在难缠，太吾不得不寻了机会慌忙脱身……",
+      "ru": "Враг оказался по-настоящему неприятным, и у Тайу не было другого выбора, кроме как воспользоваться открывшейся возможностью и поспешно отступить...",
+      "status": "machine",
+      "srcHash": "a4af7ef61197db78",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "85fa3a44-a3ce-4556-89fe-22fc347fdfbb/Option_1": {
+      "en": "(Not wishing to entangle further...)",
+      "cn": "（不愿纠缠罢了……）\n",
+      "ru": "(Не желая запутываться еще больше...)",
+      "status": "machine",
+      "srcHash": "6749e8a23975f1d5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "41996a49-4991-44e3-b358-92d32b473657/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "2e888bf3-f8ef-4557-848b-445e1e86823e/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "671eb22f-3b71-4c4f-8932-f7e05534ee18/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c52e70a1-391a-459b-a5bd-69ff4966ded8/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "9a360e0b-3766-4f9d-9ed6-9838856dcbc4/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "89ffa294-319c-4930-b9da-67a37e23e155/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "481f3e8b-31a1-40ec-aace-bbff53f4a56b/EventContent": {
+      "en": "\"Deluded Hermit... is he truly dead?<NL>We have followed the Deluded Hermit here for so long; what shall we do now?\"<NL><NL><Character key=NPC str=Name/> hesitates, and <Character key=RoleTaiwu str=Name/> thinks to himself:<NL>Everyone here is skilled in fine arts. Recruiting them as companions could be a great advantage...",
+      "cn": "“无明子……当真已死？<NL>我等追随无明子盘踞在此已久，往后……该何去何从？”<NL><NL><Character key=NPC str=Name/>一时踌躇无措，<Character key=RoleTaiwu str=Name/>见状心下暗忖，<NL>此地众人皆颇通技艺，若将其邀为同道，倒是一桩助力……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a26b816060a9199f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "481f3e8b-31a1-40ec-aace-bbff53f4a56b/Option_1": {
+      "en": "(Invite as companions...) (Harmony Check: <ArgBox key=合道成功百分比 type=int/>%)",
+      "cn": "（邀为同道……）（合道检定：<ArgBox key=合道成功百分比 type=int/>%）",
+      "ru": "(Пригласите в качестве компаньонов...) (Проверка гармонии: <ArgBox key=合道成功百分比 type=int/>%)",
+      "status": "machine",
+      "srcHash": "8ad83e7ddd3bf66f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "481f3e8b-31a1-40ec-aace-bbff53f4a56b/Option_2": {
+      "en": "(Never mind...)",
+      "cn": "（还是作罢……）\n",
+      "ru": "(Не бери в голову...)",
+      "status": "machine",
+      "srcHash": "66ca81841de86fe3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "746cf96c-919a-445f-a52a-2ea0b810fdd9/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "545bc610-8086-4e8f-8051-f79b283c2317/EventContent": {
+      "en": "<Character key=NPC str=Name/> considers for a moment, then bows in respect:<NL>\"A wise bird chooses its tree. I shall follow you...\"<NL><NL><color=#lightgrey>(<Character key=NPC str=Name/> has joined <Character key=RoleTaiwu str=Name/>'s companion)</color>",
+      "cn": "<Character key=NPC str=Name/>闻言沉吟片刻，随即抱拳一礼：<NL>“良禽择木而栖，在下便跟随阁下同行……”<NL><NL><color=#lightgrey>（<Character key=NPC str=Name/>加入了<Character key=RoleTaiwu str=Name/>的同道行列）</color>",
+      "ru": "<Character key=NPC str=Name/> задумывается на мгновение, затем кланяется в знак уважения:<NL>- Мудрая птица выбирает свое дерево. Я последую за тобой...\"<NL><NL><color=#lightgrey>(<Character key=NPC str=Name/> присоединился <Character key=RoleTaiwu str=Name/>компаньон)</color>",
+      "status": "machine",
+      "srcHash": "7b2e87c5a43de854",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "545bc610-8086-4e8f-8051-f79b283c2317/Option_1": {
+      "en": "(Glad to hear that...)",
+      "cn": "（如此甚好……）",
+      "ru": "(Рад это слышать...)",
+      "status": "machine",
+      "srcHash": "ea87df651373c392",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "545bc610-8086-4e8f-8051-f79b283c2317/Option_2": {
+      "en": "(Order them to return to Taiwu Village...)",
+      "cn": "（令其返回太吾村……）\n",
+      "ru": "(Прикажите им вернуться в Деревню Тайу...)",
+      "status": "machine",
+      "srcHash": "202c0ddf4f5a0490",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f3cba7e2-de23-45d8-97e1-800c4da82764/EventContent": {
+      "en": "With Deluded Hermit gone, the others are wary, and none dare oppose <Character key=RoleTaiwu str=Name/>.<NL><Character key=NPC str=Name/> hesitates to act rashly but still refuses to follow.<NL><Character key=RoleTaiwu str=Name/> considers...",
+      "cn": "无明子既亡，园中人人自危，无人再敢与<Character key=RoleTaiwu str=Name/>为敌。<NL><Character key=NPC str=Name/>虽不敢轻举妄动，却仍摇头不愿随行。<NL><Character key=RoleTaiwu str=Name/>见状，稍作思量……",
+      "ru": "Когда Обманутый Отшельник ушел, остальные насторожились, и никто не осмелился возражать <Character key=RoleTaiwu str=Name/>.<NL><Character key=NPC str=Name/> не решаясь действовать опрометчиво, но все же отказываясь следовать за ним.<NL><Character key=RoleTaiwu str=Name/> считает...",
+      "status": "machine",
+      "srcHash": "11d2243c5e088b0d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "f3cba7e2-de23-45d8-97e1-800c4da82764/Option_1": {
+      "en": "Leftist eccentrics cannot be tolerated... (Eliminate them on the spot...)",
+      "cn": "左道异士，不可姑息……（将其就地诛杀……）",
+      "ru": "Левацких эксцентриков терпеть нельзя... (Устраните их на месте...)",
+      "status": "machine",
+      "srcHash": "37a1f147920f4f3a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f3cba7e2-de23-45d8-97e1-800c4da82764/Option_2": {
+      "en": "The rabble is inconsequential... (Let them leave...)",
+      "cn": "乌合之众，已不足虑……（任其离开……）\n",
+      "ru": "Сброд несущественен... (Пусть они уйдут...)",
+      "status": "machine",
+      "srcHash": "44a4f54416195b72",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8d62e7b0-9024-47cf-8a0c-f20ddfcb4714/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> says no more and strikes <Character key=NPC str=Name/> in a vital spot, leaving <NL><Character key=NPC str=Name/> in a pool of blood...",
+      "cn": "<Character key=RoleTaiwu str=Name/>不再多言，出手击中<Character key=NPC str=Name/>要害，<NL><Character key=NPC str=Name/>倒在了一片血泊之中……",
+      "ru": "<Character key=RoleTaiwu str=Name/> больше ничего не говорит и наносит удар <Character key=NPC str=Name/> в жизненно важном месте, оставляя <NL><Character key=NPC str=Name/> в луже крови...",
+      "status": "machine",
+      "srcHash": "8dadf531fca8f086",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "8d62e7b0-9024-47cf-8a0c-f20ddfcb4714/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fac5366a-4522-463b-807a-f7cb53076555/EventContent": {
+      "en": "Ignoring <Character key=NPC str=Name/> thereafter, <Character key=RoleTaiwu str=Name/> turns and leaves, letting <NL> remain behind, dazed and lost...",
+      "cn": "<Character key=RoleTaiwu str=Name/>不再理会<Character key=NPC str=Name/>，径自转身离去，<NL>任由其兀自留在原地，茫然若失……",
+      "ru": "Игнорируя <Character key=NPC str=Name/> после этого, <Character key=RoleTaiwu str=Name/> поворачивается и уходит, позволяя <NL> остаюсь позади, ошеломленный и потерянный...",
+      "status": "machine",
+      "srcHash": "24ff72d01886ceb7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "fac5366a-4522-463b-807a-f7cb53076555/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "eaf49c78-3e27-4090-a0aa-7c0a788a0c7e/EventContent": {
+      "en": "The sound of bamboo flutes and ink fills the air.<NL><Character key=RoleTaiwu str=Name/> senses that the surroundings are no longer dangerous, and <NL>'s alertness fades, along with his fighting spirit...<NL><NL><color=#lightgrey>(Gained trait: Unconcerned with Combat—contests of skill may gradually reduce or nullify its effects)</color>",
+      "cn": "丝竹声入耳，墨香沁鼻。<NL><Character key=RoleTaiwu str=Name/>见周遭气韵浑然不似凶险之地，心神为之一荡，<NL>只觉戒备渐消，斗志亦随之散去……<NL><NL><color=#lightgrey>（获得「无心战斗」特性，与人较艺或可逐步削减影响，以至消除）</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9a7fd625f3ecfeb1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "eaf49c78-3e27-4090-a0aa-7c0a788a0c7e/Option_1": {
+      "en": "(The atmosphere in the garden is strange; proceed with caution...)",
+      "cn": "（园中气氛古怪，须得谨慎行事……）\n",
+      "ru": "(Атмосфера в саду странная; действуйте осторожно...)",
+      "status": "machine",
+      "srcHash": "a1bca22cd24c9a8e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4a0234ff-97ff-4de5-9af6-94233befde44/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d1e24143-1217-4f8f-96f9-056ec731b365/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "af888bc4-f489-4d05-bca8-fa481d735eb2/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d2f6039c-8479-4cfa-b040-09c787e5f35c/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    }
+  }
+}

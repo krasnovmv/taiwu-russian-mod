@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "file": "Event_Languages/Taiwu_EventPackage_SwordGraveInformation_Language_EN.txt",
+  "glossaryVersion": 5,
+  "units": {
+    "bfaaf83d-e7b0-4d20-881d-81f995e583a7/EventContent": {
+      "en": "<color=#lightgrey>(Achieve <color=#f3802a>Devoted</color> Favorability or <color=#lightblue>Get Closer</color> relationship with <Character key=CharacterId str=Name/> to enable <Character key=CharacterId str=GenderPossessive/> access to higher-tier Help...)</color>",
+      "cn": "<color=#lightgrey>（若与<Character key=CharacterId str=Name/>好感达到<color=#f3802a>不渝</color>或结成<color=#lightblue>亲近</color>关系，<Character key=RoleTaiwu str=Name/>能获得更高品阶的襄助……）</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8a038cc48ff35795",
+      "engine": null,
+      "updatedAt": null
+    },
+    "bfaaf83d-e7b0-4d20-881d-81f995e583a7/Option_1": {
+      "en": "(Seek assistance...)",
+      "cn": "（寻求协助……）",
+      "ru": "(Обратиться за помощью...)",
+      "status": "machine",
+      "srcHash": "71a6aa938292d6dc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "bfaaf83d-e7b0-4d20-881d-81f995e583a7/Option_2": {
+      "en": "(Seek Martial Arts guidance...)",
+      "cn": "（请教功法……）",
+      "ru": "(Обратитесь за руководством по Боевым искусствам...)",
+      "status": "machine",
+      "srcHash": "123e63e3ab297711",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "bfaaf83d-e7b0-4d20-881d-81f995e583a7/Option_3": {
+      "en": "(Invite as companion...)",
+      "cn": "（邀为同道……）",
+      "ru": "(Пригласите в качестве компаньона...)",
+      "status": "machine",
+      "srcHash": "fafdf65f01795376",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "bfaaf83d-e7b0-4d20-881d-81f995e583a7/Option_4": {
+      "en": "(Discuss later...)",
+      "cn": "（稍后再议……）\n",
+      "ru": "(Обсудим позже...)",
+      "status": "machine",
+      "srcHash": "03bdbcf7a5a296d5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "0327bc03-4d13-4523-af75-3cdff8ce13c4/EventContent": {
+      "en": "\"I see...<NL>I possess an item named <Item key=SwordTombGiftItem str=ColorName/>, which may prove useful in the future...\"",
+      "cn": "“原来如此……<NL>我有一物，名为<Item key=SwordTombGiftItem str=ColorName/>，或能于日后派上用场……”",
+      "ru": "- Я понимаю...<NL>У меня есть предмет под названием <Item key=SwordTombGiftItem str=ColorName/>, которые могут оказаться полезными в будущем...\"",
+      "status": "machine",
+      "srcHash": "e08c769000579abc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "0327bc03-4d13-4523-af75-3cdff8ce13c4/Option_1": {
+      "en": "(Accept the gift...) <color=#lightgrey>(Use of Insight Cost: 1)</color>",
+      "cn": "（收下赠礼……）<color=#lightgrey>（消耗见闻使用次数：1次）</color>",
+      "ru": "(Прими подарок...) <color=#lightgrey>(Стоимость использования Познаний: 1)</color>",
+      "status": "machine",
+      "srcHash": "174fc794f9de1141",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "0327bc03-4d13-4523-af75-3cdff8ce13c4/Option_2": {
+      "en": "(Consider further...)",
+      "cn": "（再做考虑……）\n",
+      "ru": "(Рассмотрим далее...)",
+      "status": "machine",
+      "srcHash": "d5eb95107a8eef3e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "9ffe7e03-456b-4abc-abf2-82da562cd3a3/EventContent": {
+      "en": "\"I hope this item may aid you on your journey...\"",
+      "cn": "“还望此物能助你一臂之力……”",
+      "ru": "\"Я надеюсь, что этот предмет поможет вам в вашем путешествии...\"",
+      "status": "machine",
+      "srcHash": "1095795738a6ed60",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "9ffe7e03-456b-4abc-abf2-82da562cd3a3/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "a679dd12-3e7d-404d-8f91-beca19a04cb0/EventContent": {
+      "en": "\"In that case, I do possess a rare treasure...<NL>Since you have a request, I shall part with this <Item key=SwordTombGiftItem str=ColorName/> for your sake!\"",
+      "cn": "“如此说来，我的确有一稀世珍宝……<NL>你既有所求……这本<Item key=SwordTombGiftItem str=ColorName/>便割让给你吧！”",
+      "ru": "- В таком случае, я действительно обладаю редким сокровищем...<NL>Поскольку у вас есть просьба, я расстанусь с этим <Item key=SwordTombGiftItem str=ColorName/> ради тебя самого!\"",
+      "status": "machine",
+      "srcHash": "84e43764e98a6d02",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "a679dd12-3e7d-404d-8f91-beca19a04cb0/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "082cc1db-af0b-46b1-a962-fa9ae8205064/EventContent": {
+      "en": "\"<CombatSkill key=SwordTombGiftCombatSkill str=SkillDesc/><NL>What if I pass this <CombatSkill key=SwordTombGiftCombatSkill str=SkillName/> on to you?\"",
+      "cn": "“<CombatSkill key=SwordTombGiftCombatSkill str=SkillDesc/><NL>我便将这<CombatSkill key=SwordTombGiftCombatSkill str=SkillName/>传授给你如何？”",
+      "ru": "\"<CombatSkill key=SwordTombGiftCombatSkill str=SkillDesc/><NL>Что, если я пройду это <CombatSkill key=SwordTombGiftCombatSkill str=SkillName/> на тебя?\"",
+      "status": "machine",
+      "srcHash": "942e6fffe2681765",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "082cc1db-af0b-46b1-a962-fa9ae8205064/Option_1": {
+      "en": "(Learn <CombatSkill key=SwordTombGiftCombatSkill str=SkillName/>...) <color=#lightgrey>(Use of Insight Cost: 1)</color>",
+      "cn": "（学习<CombatSkill key=SwordTombGiftCombatSkill str=SkillName/>……）<color=#lightgrey>（消耗见闻使用次数：1次）</color>",
+      "ru": "(Учитесь <CombatSkill key=SwordTombGiftCombatSkill str=SkillName/>...) <color=#lightgrey>(Стоимость использования Познаний: 1)</color>",
+      "status": "machine",
+      "srcHash": "fd919929f8ac7a5b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "082cc1db-af0b-46b1-a962-fa9ae8205064/Option_2": {
+      "en": "(Other topics...)",
+      "cn": "（其它话题……）\n",
+      "ru": "(Другие темы...)",
+      "status": "machine",
+      "srcHash": "7a159e3b76aa8968",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "da61b2a3-ec1c-4e09-a261-f554a88b4109/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name /> silently recites the incantations of <CombatSkill key=SwordTombGiftCombatSkillReceived str=SkillName/>;<NL><Character key=RoleTaiwu str=GenderSubject/> gradually grasps the cultivation method of <CombatSkill key=SwordTombGiftCombatSkillReceived str=SkillName/>...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> has mastered <CombatSkill key=SwordTombGiftCombatSkillReceived str=SkillName/>!)</color>",
+      "cn": "<Character key=RoleTaiwu str=Name />默默念诵<CombatSkill key=SwordTombGiftCombatSkillReceived str=SkillName/>的口诀，<NL>渐渐掌握了<CombatSkill key=SwordTombGiftCombatSkillReceived str=SkillName/>的修习法门……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />习得了<CombatSkill key=SwordTombGiftCombatSkillReceived str=SkillName/>！）</color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "105a59277ff06736",
+      "engine": null,
+      "updatedAt": null
+    },
+    "da61b2a3-ec1c-4e09-a261-f554a88b4109/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "5357edd4-25dd-456c-b1fb-1a12e3540cfc/EventContent": {
+      "en": "\"So...<NL>what you mean to say, is that you wish to invite me as a companion?\"",
+      "cn": "“如此……这般……<NL>你言下之意，莫非是要邀我同道而行？”",
+      "ru": "\"Итак...<NL>вы хотите сказать, что хотите пригласить меня в качестве компаньонки?\"",
+      "status": "machine",
+      "srcHash": "0e26b411d8468924",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "5357edd4-25dd-456c-b1fb-1a12e3540cfc/Option_1": {
+      "en": "(That is correct...) <color=#lightgrey>(Use of Insight Cost: 3)</color>",
+      "cn": "（便是如此……）<color=#lightgrey>（消耗见闻使用次数：3次）</color>",
+      "ru": "(Это верно...) <color=#lightgrey>(Стоимость использования Познаний: 3)</color>",
+      "status": "machine",
+      "srcHash": "d844c54f7c007570",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "5357edd4-25dd-456c-b1fb-1a12e3540cfc/Option_2": {
+      "en": "(Consider further...)",
+      "cn": "（再做考虑……）\n",
+      "ru": "(Рассмотрим далее...)",
+      "status": "machine",
+      "srcHash": "d5eb95107a8eef3e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "1da53983-cd7f-475f-b64c-745b1947e477/EventContent": {
+      "en": "\"One should always uphold righteousness.\"<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name/> becomes Taiwu's companion...)</color>",
+      "cn": "“行走江湖，怎少得了一身正气！”<NL><NL><color=#lightgrey>（<Character key=CharacterId str=Name/>加入了太吾的同道行列……）</color>",
+      "ru": "\"Человек всегда должен отстаивать праведность\".<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name/> становится компаньоном Тайу...)</color>",
+      "status": "machine",
+      "srcHash": "fa4473e5f7b1404f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "1da53983-cd7f-475f-b64c-745b1947e477/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "77b5e4b0-56f3-4cd0-851e-abbb900f4cba/EventContent": {
+      "en": "\"Glad to lend my skills to your cause...\"<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name/> becomes Taiwu's companion...)</color>",
+      "cn": "“能够为你尽一份绵薄之力，我十分欢喜……”<NL><NL><color=#lightgrey>（<Character key=CharacterId str=Name/>加入了太吾的同道行列……）</color>",
+      "ru": "\"Рад использовать свои навыки для вашего дела...\"<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name/> становится компаньоном Тайу...)</color>",
+      "status": "machine",
+      "srcHash": "4f83121a565b95ad",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "77b5e4b0-56f3-4cd0-851e-abbb900f4cba/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "955d6803-7cc5-4dfa-921e-c203dce41499/EventContent": {
+      "en": "\"It's best not to engage in disputes with others...\"<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name/> becomes Taiwu's companion...)</color>",
+      "cn": "“最好不要与人起争执……”<NL><NL><color=#lightgrey>（<Character key=CharacterId str=Name/>加入了太吾的同道行列……）</color>",
+      "ru": "\"Лучше всего не вступать в споры с другими...\"<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name/> становится компаньоном Тайу...)</color>",
+      "status": "machine",
+      "srcHash": "d184ff371ab5aa50",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "955d6803-7cc5-4dfa-921e-c203dce41499/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "c78109fa-d65e-4c51-8a6c-53f4dabad64a/EventContent": {
+      "en": "\"Great! I've got some interesting places on my list to explore!\"<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name/> becomes Taiwu's companion...)</color>",
+      "cn": "“好极了！我正有许多有趣的地方想去！”<NL><NL><color=#lightgrey>（<Character key=CharacterId str=Name/>加入了太吾的同道行列……）</color>",
+      "ru": "- Отлично! В моем списке есть несколько интересных мест, которые нужно исследовать!\"<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name/> становится компаньоном Тайу...)</color>",
+      "status": "machine",
+      "srcHash": "665e6f4555fd37e1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "c78109fa-d65e-4c51-8a6c-53f4dabad64a/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "e72877d3-5a7e-4e80-8433-707cb95356d6/EventContent": {
+      "en": "\"Allow me to demonstrate my skills...\"<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name/> becomes Taiwu's companion...)</color>",
+      "cn": "“便趁此机会让你见识一下我的手段……”<NL><NL><color=#lightgrey>（<Character key=CharacterId str=Name/>加入了太吾的同道行列……）</color>",
+      "ru": "\"Позвольте мне продемонстрировать свои навыки...\"<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name/> становится компаньоном Тайу...)</color>",
+      "status": "machine",
+      "srcHash": "d9e82ca1f5828ed2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "e72877d3-5a7e-4e80-8433-707cb95356d6/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "cdb7b4c6-b70f-4430-b16c-fac80222c0de/EventContent": {
+      "en": "\"So that <ArgBox key=SwordTombName type=string/> conceals such a menace beneath it!<NL>The Successor of Taiwu has now vanquished this Extraordinary, truly <ArgBox key=SwordTombBehavior type=string/>!<NL>Pity that I could not lend my strength in this endeavor...\"",
+      "cn": "“原来那<ArgBox key=SwordTombName type=string/>之下，竟压着如此祸害！<NL>太吾传人此番将那异人除去，可谓<ArgBox key=SwordTombBehavior type=string/>了！<NL>只可惜未能为此尽一份心力……”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e369648f94a87c16",
+      "engine": null,
+      "updatedAt": null
+    },
+    "fe8aa2bf-f4e6-43de-b45e-8ee288610ccf/EventContent": {
+      "en": "\"I see... the Successor of Taiwu brings peace to the world.<NL>, during that <ArgBox key=SwordTombName type=string/>, you endured <ArgBox key=SwordTombBehavior type=string/>...<NL>Though I am but feeble and lacking in talent, I long to serve the common folk,<NL>if ever you need help, you must let me know. I shall do all I can to assist...\"",
+      "cn": "“原来……太吾传人为天下开太平，<NL>竟于那<ArgBox key=SwordTombName type=string/>中，受<ArgBox key=SwordTombBehavior type=string/>……<NL>我虽力薄才疏，却也极盼望为苍生百姓尽一份绵薄之力，<NL>你若有所需，定要告知于我，我必会竭力相助……”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c684a5cca11a7cc4",
+      "engine": null,
+      "updatedAt": null
+    },
+    "2eb4a187-ab56-4bd6-b52f-b74df1571244/EventContent": {
+      "en": "\"<ArgBox key=SwordTombBehavior type=string/><NL>Ah, fate is unpredictable, and Heaven works in mysterious ways...<NL>Since this <ArgBox key=SwordTombName type=string/> concerns the realm at large, and I am fortunate enough to hear of it today, I must offer my aid...\"",
+      "cn": "“<ArgBox key=SwordTombBehavior type=string/><NL>到底是天道不测，造化弄人……<NL>这<ArgBox key=SwordTombName type=string/>原为天下之事，今日我既有缘听闻，自当出手相助……”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c77e498750989e74",
+      "engine": null,
+      "updatedAt": null
+    },
+    "d0fe948b-7534-4f76-8464-1294c21cb321/EventContent": {
+      "en": "\"<ArgBox key=SwordTombName type=string/>...<NL>So you're saying that tomb holds not dried bones, but hidden talents?<NL>That place, <ArgBox key=SwordTombBehavior type=string/>, what kind of person hides there? What's their appearance, what tone do they speak with?<NL>Why don't I join in and investigate for myself?\"",
+      "cn": "“<ArgBox key=SwordTombName type=string/>……<NL>如此说来，冢中不葬枯骨，却藏着能人异士？<NL>那地方<ArgBox key=SwordTombBehavior type=string/>，不知此人藏身此地，是何样貌，说话又是何种腔调……<NL>不如也叫我掺和一番，探个究竟？”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f92f404fe63f56be",
+      "engine": null,
+      "updatedAt": null
+    },
+    "4176fb90-550c-455c-afba-9953e62807de/EventContent": {
+      "en": "\"According to you, the Extraordinary, <ArgBox key=SwordTombBehavior type=string/>...<NL>If you seek to pacify <ArgBox key=SwordTombName type=string/>, it must be a desperate venture, fraught with peril...<NL>This matter is for you alone to resolve, but if you share a bit of your future glory with me, I shall lend my strength without hesitation!\"",
+      "cn": "“依你所言，这异人<ArgBox key=SwordTombBehavior type=string/>，<NL>你欲平定<ArgBox key=SwordTombName type=string/>，必是死地求生，前路多舛……<NL>此事唯有你能为之，若你也能将那盛世威名分我一分，我自会出手助你！”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "da0a76ef73f08f2b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "c4975bf2-f7c4-4aa9-9811-caa9d4e81c3c/EventContent": {
+      "en": "\"Namo Amitabha... the sea of suffering is boundless, but a turn of the head is the shore...<NL>That Extraordinary in <ArgBox key=SwordTombName type=string/> once held compassion, yet became possessed and harmed others—perhaps not of their own will...<NL>For the Successor of Taiwu to endure <ArgBox key=SwordTombBehavior type=string/> and offer aid to those in peril; this is a boundless act of merit.\"",
+      "cn": "“阿弥陀佛……苦海无涯，回头是岸……<NL>那<ArgBox key=SwordTombName type=string/>中异人本怀善心，入魔伤人，想来本是不愿为之……<NL>太吾传人甘愿忍<ArgBox key=SwordTombBehavior type=string/>，扶危救困，实在是功德无量。”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8dcd26e7769e55ac",
+      "engine": null,
+      "updatedAt": null
+    },
+    "69964475-1132-40eb-ab9e-03fc7f624115/EventContent": {
+      "en": "\"To slay evil and uphold the righteous path, to protect all living beings, even while enduring <ArgBox key=SwordTombBehavior type=string/>...<NL>The Successor of Taiwu, with both valor and tenderness, embodies the highest ideals. We disciples of Emei should take them as our model!<NL>Since this is the case, how can I ignore what is happening with <ArgBox key=SwordTombName type=string/>?\"",
+      "cn": "“诛杀奸邪，卫道除魔，为天下苍生，受<ArgBox key=SwordTombBehavior type=string/>……<NL>太吾传人侠胆柔肠、意气凌云，如此高义，我峨嵋弟子当奉为楷模啊！<NL>既然如此，<ArgBox key=SwordTombName type=string/>之事，我又怎能不闻不问？”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2aec65ad24c0f521",
+      "engine": null,
+      "updatedAt": null
+    },
+    "97ef4cf7-da8d-49c6-af7c-5bd83b9c618f/EventContent": {
+      "en": "\"The Successor of Taiwu truly lives up to the name!<NL>Now that <ArgBox key=SwordTombName type=string/> has been pacified, the people shall no longer suffer from <ArgBox key=SwordTombBehavior type=string/>.<NL>As our sect says, 'the Hundred Flowers heal the person, Taiwu heals the world.' I shall never forget this teaching. I only hope to contribute my part...\"",
+      "cn": "“太吾传人，果真名不虚传！<NL>如今平定了这<ArgBox key=SwordTombName type=string/>，世人便不用受<ArgBox key=SwordTombBehavior type=string/>了，<NL>门中所言‘百花医人，太吾医世’，我不敢忘怀，只望我亦能为此尽一份心力……”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0f13bc69e6f5f38d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "5abdaa52-baa7-4548-8883-847e91a84c83/EventContent": {
+      "en": "\"<ArgBox key=SwordTombBehavior type=string/><NL>That the Successor of Taiwu subdued the Extraordinary <ArgBox key=SwordTombName type=string/>, shows <Character key=RoleTaiwu str=GenderPossessive/> destiny is aligned with Heaven above and the people below.<NL>However... I fear that Yin alone cannot grow, and Yang alone cannot thrive. When calamities befall the world, how can Taiwu face them alone?\"",
+      "cn": "“<ArgBox key=SwordTombBehavior type=string/><NL>太吾传人此番能将那<ArgBox key=SwordTombName type=string/>异人降伏，自是上承天命，下应黎民，<NL>然而……我只怕孤阴不长，独阳不生，世间劫难当前，又岂能令太吾独自承担……”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "558175cb0cfeda8c",
+      "engine": null,
+      "updatedAt": null
+    },
+    "a01e37d7-ef93-4da3-a2c9-3cc8b2932c21/EventContent": {
+      "en": "\"Though <ArgBox key=SwordTombName type=string/> is riddled with hardship and danger,<NL>you subdued the Extraordinary within and achieved <ArgBox key=SwordTombBehavior type=string/>, surely the fruit of bitter cultivation.<NL>If in the future I may learn from your trials and receive your guidance, I shall repay this kindness with all my heart...\"",
+      "cn": "“那<ArgBox key=SwordTombName type=string/>之地虽多坎坷磨难，<NL>你却能于其中降伏异人，立下<ArgBox key=SwordTombBehavior type=string/>之功，想来必是苦修得果了。<NL>此后若能得你传授历练心得，助我修行，我自当结草衔环，感恩图报……”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d95c8f15dff22fa1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "69256f82-0b22-4210-b1f3-1e958bd2e4db/EventContent": {
+      "en": "\"Oh? What of the land of <ArgBox key=SwordTombBehavior type=string/>?<NL>The Lion-Face Clan commands ample provisions and a strong force, with disciples of solid foundation. That minor <ArgBox key=SwordTombName type=string/>, what foe could we not overcome, what ground could we not tread upon?<NL>If trouble comes your way, speak to me freely. There is no task too great for the Lion-Face Clan!\"",
+      "cn": "“哦？<ArgBox key=SwordTombBehavior type=string/>之地，又待如何？<NL>我狮相门粮多兵广，弟子功底扎实，那小小<ArgBox key=SwordTombName type=string/>，又有何敌不过、踏不得！<NL>你若遇上麻烦，尽管说与我听，再没有我狮相门帮不上的忙！”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8a9b09b6ec85f153",
+      "engine": null,
+      "updatedAt": null
+    },
+    "64044dd9-4bd3-483a-95e2-075512f306e5/EventContent": {
+      "en": "\"<ArgBox key=SwordTombBehavior type=string/><NL>Our disciples roam the four corners of the land, yet none have heard of such strange persons or events.<NL>It seems that while seeking seclusion and immortals has its charm, one is bound to miss the tales of the mortal world.<NL>Now that I have learned of this matter in <ArgBox key=SwordTombName type=string/>, if you have need of me, I shall do all I can to help!\"",
+      "cn": "“<ArgBox key=SwordTombBehavior type=string/><NL>我门中弟子云游四海，未曾听过此等奇人异事，<NL>看来避世寻仙虽有意趣，难免错过些许凡尘奇闻。<NL>如今我已知晓此<ArgBox key=SwordTombName type=string/>之事，你若有所需之处，我定当竭力相助！”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8ecc13f55f73aed9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "ddcc1c56-b180-4460-807c-c022739456fd/EventContent": {
+      "en": "\"Be it <ArgBox key=SwordTombName type=string/> or Xiangshu,<NL>within the Egarim lies supreme martial arts, connecting past and present, giving rise to all things. It only awaits the disciples of our Jade-Maiden Sect to comprehend its mysteries.<NL>Very well. Since the world acknowledges your achievements in <ArgBox key=SwordTombBehavior type=string/>, Jade-Maiden Sect has no grounds to turn you away.\"",
+      "cn": "“<ArgBox key=SwordTombName type=string/>也好，相枢邪魔也罢，<NL>一明珏内自有无上功法，通达古今，生化万物，只待我门中弟子参悟奥妙……<NL>也罢，世人皆知你有<ArgBox key=SwordTombBehavior type=string/>之功，我璇女派亦无严词相拒之理。”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "59626332d51f2a18",
+      "engine": null,
+      "updatedAt": null
+    },
+    "2e68e446-0e20-4038-9e33-e9fc9d3e751a/EventContent": {
+      "en": "\"<ArgBox key=SwordTombBehavior type=string/>... how lamentable indeed.<NL>That divine sword within <ArgBox key=SwordTombName type=string/>, though no common item, is forged with principles much the same.<NL>If you do not mind, speak with me in detail. I, from the Swordsmith Villa, may yet lend you a hand.\"",
+      "cn": "“<ArgBox key=SwordTombBehavior type=string/>实在令人唏嘘……<NL>那<ArgBox key=SwordTombName type=string/>中神剑，虽非凡物，铸造之理却是相通。<NL>你若不介怀，不妨与我细说，我铸剑山庄或可助你一臂之力……”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e6de6c72e97870a8",
+      "engine": null,
+      "updatedAt": null
+    },
+    "1425f0f3-4e36-4e94-8a5a-d368e1b98528/EventContent": {
+      "en": "\"Mortals live brief lives, ever uncertain of tomorrow...<NL>Since you know of that Extraordinary <ArgBox key=SwordTombBehavior type=string/>, yet still choose to investigate,<NL>either your skills are extraordinary, or this place holds a hidden treasure... Could it be that this land conceals the secret of immortality?<NL><ArgBox key=SwordTombName type=string/>If your journey truly bears fruit, then I see no reason not to assist you.\"",
+      "cn": "“凡人短寿，朝不保夕……<NL>你既知那异人<ArgBox key=SwordTombBehavior type=string/>，偏去一探，<NL>若非你能耐高强，便是此地藏有秘宝……莫非，此地竟然暗藏长生之秘？<NL><ArgBox key=SwordTombName type=string/>之行，若当真能有所得，我倒不妨帮你一帮……”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "856299707033f2a5",
+      "engine": null,
+      "updatedAt": null
+    },
+    "452c24ec-3b37-4f16-a48b-355770537527/EventContent": {
+      "en": "\"The Buddha sees all beings, yet did not reveal this to me...<NL>You say this Extraordinary <ArgBox key=SwordTombBehavior type=string/> now wishes to take a stand and quell the chaos in <ArgBox key=SwordTombName type=string/>.<NL>Truth or falsehood—how could I possibly know? Why not tell me the whole story in detail?<NL>If there is benefit to be gained, I shall aid you, and let you bask in the Buddha's light.\"",
+      "cn": "“佛爷观遍众生相，却未曾将此事告知于我……<NL>你说这异人<ArgBox key=SwordTombBehavior type=string/>，又意欲挺身而出，平<ArgBox key=SwordTombName type=string/>之异，<NL>真真假假，我如何能猜？不如你将其中图谋细细说来，<NL>若有好处，我自然助你，也叫你借借佛爷的光！”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "778e8e52b4ff457b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "03c69a08-ce18-400c-b986-00873451b472/EventContent": {
+      "en": "\"<ArgBox key=SwordTombName type=string/>? This...<NL>The affairs of foreign tribes are not ours, we Miao people should not be involved.<NL>And yet, hearing your words today, this place, <ArgBox key=SwordTombBehavior type=string/>, is not somewhere an ordinary person could survive.<NL>Since you possess such courage, our Five Immortals Sect shall not be cold-hearted. If you need assistance, speak freely.\"",
+      "cn": "“<ArgBox key=SwordTombName type=string/>？这……<NL>外族人之事，我等苗人本不应牵涉其中。<NL>只是今日听你一言，此地<ArgBox key=SwordTombBehavior type=string/>，绝非常人闯得，<NL>你既然有此胆识，我五仙教也并非铁石心肠，若你有需，不妨说来听听……”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "365fbbb76aabe23b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "264f4699-0e0c-4e32-bd18-0c70c2895fd6/EventContent": {
+      "en": "\"Even the jade of Jingxiu bears fine flaws,<NL>, and the pearl of the Loong holds minute cracks.<NL>If you understand this principle, you shall surely triumph within the realm of <ArgBox key=SwordTombBehavior type=string/>...<NL>Now that the matter of <ArgBox key=SwordTombName type=string/> is resolved, further words serve no purpose. If you require help, I shall offer it with all my might.\"",
+      "cn": "“荆岫之玉，必含纤瑕，<NL>骊龙之珠，亦有微隙。<NL>你若知晓其中道理，必能于<ArgBox key=SwordTombBehavior type=string/>之境中取得敌首……<NL>眼下<ArgBox key=SwordTombName type=string/>之事既了，多说无益。你若有所需，我便竭力相助……”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "16d26d308c99d4ba",
+      "engine": null,
+      "updatedAt": null
+    },
+    "d2d5ee9b-4152-4b31-b0c8-2398e20afd5d/EventContent": {
+      "en": "\"<ArgBox key=SwordTombBehavior type=string/>... This sounds most unusual.<NL>Alas, the Divine Loong refuses to show itself, and the arts of the Fuloong Sanctuary remain unmastered.<NL>I cannot yet help you in conquering the land of <ArgBox key=SwordTombName type=string/>.<NL>But if you have other requests, speak them plainly. I shall surely find a way to assist you.\"",
+      "cn": "“<ArgBox key=SwordTombBehavior type=string/>……听起来倒是非同一般，<NL>只可惜，神龙不肯显灵，我伏龙坛神功未成，<NL>暂且不能助你踏平这<ArgBox key=SwordTombName type=string/>之地！<NL>若有别的索求，你尽可一一道来，我必有相助之法！”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c8c8e11cbd3d1a0a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "80281d36-3e1f-40b9-819d-628cb6bb7c8f/EventContent": {
+      "en": "\"<ArgBox key=SwordTombBehavior type=string/>... Very well!<NL>That <ArgBox key=SwordTombName type=string/> is so extraordinary, and yet you still triumphed. It truly defies my expectations.<NL>If Taiwu is willing to take action and unravel the seals of Xiangshu one by one, our Sanguine Sect shall exhaust every resource to support you.\"",
+      "cn": "“<ArgBox key=SwordTombBehavior type=string/>……好！<NL>那<ArgBox key=SwordTombName type=string/>如此神异，你却仍能克敌制胜，实在出乎我之意料。<NL>若能得太吾出手，将相枢封印一一解开，我血犼教必会倾尽所能相助于你！”\n",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "babd597fbc404517",
+      "engine": null,
+      "updatedAt": null
+    }
+  }
+}

@@ -1,0 +1,1510 @@
+{
+  "schemaVersion": 1,
+  "file": "Event_Languages/Taiwu_EventPackage_Adventure_Flyaway_wuxianjiao_Language_EN.txt",
+  "glossaryVersion": 5,
+  "units": {
+    "b2931905-7deb-4509-baad-8b5efe0ba8cc/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> dealt with the guards and hurried to the storehouse, successfully locating the fishing boat.",
+      "cn": "<Character key=RoleTaiwu str=Name/>解决了守卫赶往库房，顺利寻得渔船，",
+      "ru": "<Character key=RoleTaiwu str=Name/> разобрался с охраной и поспешил на склад, успешно обнаружив рыбацкую лодку.",
+      "status": "machine",
+      "srcHash": "b9611ad87502c65d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "b2931905-7deb-4509-baad-8b5efe0ba8cc/Option_1": {
+      "en": "(Take the fishing boat...)",
+      "cn": "（取走渔船……）\n",
+      "ru": "(Возьмите рыбацкую лодку...)",
+      "status": "machine",
+      "srcHash": "5b4a796bfa6b86b7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e52d369d-6307-475f-9cbb-fca57651602f/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> and <Character key=wuxianduixiangA str=Name/> met for the first time in a quiet place.<NL><Character key=wuxianduixiangA str=Name/> said gravely:<NL>\"That you could come to me at this very moment is truly the will of heaven.<NL>I am bound by the sect, and only if we two are of one heart can we break through this trial.<NL>The Five Immortals Sect's grounds are cut off by the Black Water River. To flee, we must first secure a boat.\"",
+      "cn": "<Character key=RoleTaiwu str=Name/>与<Character key=wuxianduixiangA str=Name/>初会于僻静处……<NL><Character key=wuxianduixiangA str=Name/>神色凝重道：<NL>'为兄能在此刻前来，实乃天意。<NL>我为门派所困，唯有你我同心，方能闯出此关。<NL>五仙教驻地黑水河横亘，若要逃离必先取船。'",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "06f51ee5414a7ede",
+      "engine": null,
+      "updatedAt": null
+    },
+    "e52d369d-6307-475f-9cbb-fca57651602f/Option_1": {
+      "en": "Now that I have come, this journey shall not be wasted...",
+      "cn": "我既已来，此生不负……",
+      "ru": "Теперь, когда я здесь, это путешествие не пройдет даром...",
+      "status": "machine",
+      "srcHash": "38382dd3ce51f5ff",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e52d369d-6307-475f-9cbb-fca57651602f/Option_2": {
+      "en": "What is the plan? We must tread carefully.",
+      "cn": "计划如何？需谨慎行事。\n",
+      "ru": "Каков наш план? Мы должны действовать осторожно.",
+      "status": "machine",
+      "srcHash": "36a7e988aa942d2b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "73c18aa2-85f7-45ce-9f95-74100681d242/EventContent": {
+      "en": "After a brief pause, she continued: \"First, there is a storehouse containing a fishing boat. However, it is heavily guarded, and a direct assault may prove difficult.<NL>Second, you may travel west to the Gu Chamber and collect venomous insects, then proceed to the Poison Chamber to refine a sleeping poison.<NL>Use the poison to incapacitate the storehouse guards before taking the boat. This method requires more effort, but can avoid direct conflict.<NL>Third, travel east to the bamboo grove and harvest bamboo.<NL>Then take the bamboo to the workshop and construct a raft. However, crafting a raft requires a certain level of Woodworking attainment. Otherwise, success will be difficult.\"",
+      "cn": "稍作停顿，她继续道：“其一，有库房一座，内藏渔船，只是守卫森严，硬闯恐难成功；<NL>其二，可往西方，先至蛊房取蛊，再到毒房炼制迷毒，以迷毒晕守卫，<NL>再入库房取船，此法需多费些功夫，却可减少争斗；<NL>其三，去东方的竹林，砍伐竹子为材，<NL>再携竹至工坊制成竹筏，只是制作竹筏需有一定制木造诣，否则难成。”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0444761f94b56df0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "73c18aa2-85f7-45ce-9f95-74100681d242/Option_1": {
+      "en": "(Ask about the Warehouse...)",
+      "cn": "（询问库房信息……）",
+      "ru": "(Спросите о Складе...)",
+      "status": "machine",
+      "srcHash": "332e27d18fe11dda",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "73c18aa2-85f7-45ce-9f95-74100681d242/Option_2": {
+      "en": "(Ask about the West...)",
+      "cn": "（询问西方信息……）",
+      "ru": "(Спросите о Западе...)",
+      "status": "machine",
+      "srcHash": "a1648d7b72fa8dfe",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "73c18aa2-85f7-45ce-9f95-74100681d242/Option_3": {
+      "en": "(Ask about the East...)",
+      "cn": "（询问东方信息……）",
+      "ru": "(Спросите о Востоке...)",
+      "status": "machine",
+      "srcHash": "3de9100c1c24ce2a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "73c18aa2-85f7-45ce-9f95-74100681d242/Option_4": {
+      "en": "I understand...",
+      "cn": "我已知晓……\n",
+      "ru": "Я понимаю...",
+      "status": "machine",
+      "srcHash": "40dfcfb20a4af8dd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e98a0e61-9c28-4833-9d20-951856e20ddb/EventContent": {
+      "en": "\"This is the shortest route. Pass through the corridor and you will reach the warehouse. However, it is also the most dangerous...<NL>The storehouse is guarded by four elite sect experts.<NL>If <Character key=RoleTaiwu str=Name/>'s strength is sufficient to break through them in one decisive strike,<NL>you can claim the fishing boat directly and avoid many complications...<NL>But if your strength falls short, facing all four at once may prove impossible...\"",
+      "cn": "“此路最短，穿过回廊便至库房，然危机最甚……<NL>库房由四位门派高手看护，<NL>若<Character key=RoleTaiwu str=Name/>实力强劲，能一举破局，<NL>便可直取渔船，省却诸多周折……<NL>可若实力不济，恐难敌四位高手围攻……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "652217dbb6bca4e4",
+      "engine": null,
+      "updatedAt": null
+    },
+    "e98a0e61-9c28-4833-9d20-951856e20ddb/Option_1": {
+      "en": "(I'm already aware...)",
+      "cn": "（我已知晓……）",
+      "ru": "(Я уже в курсе...)",
+      "status": "machine",
+      "srcHash": "df3c61e2fc2c6cb3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e98a0e61-9c28-4833-9d20-951856e20ddb/Option_2": {
+      "en": "(Ask about the other routes...)",
+      "cn": "（询问其他路线……）\n",
+      "ru": "(Спросите о других маршрутах...)",
+      "status": "machine",
+      "srcHash": "169b4b9e1db416bd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b018f6b0-797c-4f5c-9340-e43edbe4524b/EventContent": {
+      "en": "\"If you head west, you must first visit the Gu Chamber to collect venomous insects, then proceed to the Poison Chamber to refine poison with the gu, and finally use it to incapacitate the warehouse guards.<NL>This method avoids a direct confrontation, but presents two difficulties:<NL>First, collecting gu and refining poison consume a great deal of stamina, making this the most exhausting of the three routes.<NL>Second, the venomous insects in the Gu Chamber are extremely aggressive.<NL>If you are careless while collecting them, you may be bitten and afflicted with gu poison, harming both body and mind. Exercise caution.\"",
+      "cn": "“若往西方，需先往蛊房取毒虫，再到毒房以蛊炼毒，最后用毒迷晕库房守卫。<NL>此法可避正面恶战，却有两处难处：<NL>一来取蛊、炼毒需大量精力，乃三条路中精力消耗最高；<NL>二来蛊房内的蛊虫性烈，取蛊时若不慎，恐被叮咬，<NL>中蛊后会损耗身心……需多加小心。”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9497cdece9e69aba",
+      "engine": null,
+      "updatedAt": null
+    },
+    "b018f6b0-797c-4f5c-9340-e43edbe4524b/Option_1": {
+      "en": "(I'm already aware...)",
+      "cn": "（我已知晓……）",
+      "ru": "(Я уже в курсе...)",
+      "status": "machine",
+      "srcHash": "df3c61e2fc2c6cb3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b018f6b0-797c-4f5c-9340-e43edbe4524b/Option_2": {
+      "en": "(Ask about the other routes...)",
+      "cn": "（询问其他路线……）\n",
+      "ru": "(Спросите о других маршрутах...)",
+      "status": "machine",
+      "srcHash": "169b4b9e1db416bd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f59d7e15-4e10-4b01-ba61-4c1f9c42afbb/EventContent": {
+      "en": "\"If you head east, you must first travel to the bamboo grove and gather six bamboo poles.<NL>Then bring them to the workshop and construct a bamboo raft before crossing the Blackwater River.<NL>This route consumes less stamina, but it also carries risks.<NL>— The sound of chopping bamboo is extremely loud and may attract disciples from the compound, so speed is essential.<NL>Furthermore, building a bamboo raft requires considerable carpentry attainment. Without sufficient skill, even six bamboo poles will not be enough to produce a usable raft...\"",
+      "cn": "“若往东方，需先去竹林伐竹，集齐 六根竹木，<NL>再携竹至工坊制成竹筏，而后乘筏渡黑水河。<NL>此法少耗精力，却也有隐患<NL>——伐竹声响极大，极易招来院中弟子，需速战速决。<NL>且制竹筏需精于制木造诣，若造诣不足，即便集齐竹木，也难成筏……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f8d5a2d7f965957b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "f59d7e15-4e10-4b01-ba61-4c1f9c42afbb/Option_1": {
+      "en": "(I'm already aware...)",
+      "cn": "（我已知晓……）",
+      "ru": "(Я уже в курсе...)",
+      "status": "machine",
+      "srcHash": "df3c61e2fc2c6cb3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f59d7e15-4e10-4b01-ba61-4c1f9c42afbb/Option_2": {
+      "en": "(Ask about the other routes...)",
+      "cn": "（询问其他路线……）\n",
+      "ru": "(Спросите о других маршрутах...)",
+      "status": "machine",
+      "srcHash": "169b4b9e1db416bd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5073ad63-fbb7-4f72-9757-7081c8f78c09/EventContent": {
+      "en": "An Clay Jar used to store Gu...<NL>Its dark crimson surface conceals whatever lies within...",
+      "cn": "存放蛊虫的瓦罐……<NL>通体暗红无法得知罐内的情况……",
+      "ru": "Глиняный кувшин, в котором хранили Гу...<NL>Его темно-малиновая поверхность скрывает все, что находится внутри...",
+      "status": "machine",
+      "srcHash": "0773766d9810fec9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5073ad63-fbb7-4f72-9757-7081c8f78c09/Option_1": {
+      "en": "(Extract the Gu...)",
+      "cn": "（掏取蛊虫……）",
+      "ru": "(Извлеките Гу...)",
+      "status": "machine",
+      "srcHash": "01700b85590ad2ab",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5073ad63-fbb7-4f72-9757-7081c8f78c09/Option_2": {
+      "en": "(Leave for now...)",
+      "cn": "（暂时离去……）\n",
+      "ru": "(Оставь пока...)",
+      "status": "machine",
+      "srcHash": "944cc8402748d6b6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b6f8643e-fea4-445f-8485-416253517fca/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> was quick of eye and quick of hand. In a moment the gu worm was sealed in the pouch, and <Character key=RoleTaiwu str=Name/> was not bitten.",
+      "cn": "<Character key=RoleTaiwu str=Name/>眼疾手快，片刻之间蛊虫已入口袋，<Character key=RoleTaiwu str=Name/>未被叮咬",
+      "ru": "<Character key=RoleTaiwu str=Name/> у него был острый глаз и быстрые руки. Через мгновение червь Гу был запечатан в мешочке, и <Character key=RoleTaiwu str=Name/> никто не был укушен.",
+      "status": "machine",
+      "srcHash": "57ca28e76f933958",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "b6f8643e-fea4-445f-8485-416253517fca/Option_1": {
+      "en": "That's great...",
+      "cn": "如此便好...\n",
+      "ru": "Это здорово...",
+      "status": "machine",
+      "srcHash": "b662280e593dbf39",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a89bbc4f-881f-43ff-84c4-0fb3d856dabd/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> mishandled the capture. Though the Gu was successfully bagged, a poisonous bite landed on their hand.",
+      "cn": "<Character key=RoleTaiwu str=Name/>捉虫不慎，虽然蛊虫入袋，但手上也被毒虫叮咬",
+      "ru": "<Character key=RoleTaiwu str=Name/> неправильно справился с захватом. Хотя Гу был успешно пойман, ядовитый укус пришелся им на руку.",
+      "status": "machine",
+      "srcHash": "fd4575e5b26a86c9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "a89bbc4f-881f-43ff-84c4-0fb3d856dabd/Option_1": {
+      "en": "Must be more careful...",
+      "cn": "必须小心...\n",
+      "ru": "Надо быть осторожнее...",
+      "status": "machine",
+      "srcHash": "9298361e82097c13",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "832ff74f-c5ba-444a-86a8-b01a7aadac91/EventContent": {
+      "en": "A bronze furnace used to refine poisons. Captured Gu can be processed into Bewildering Poison here...",
+      "cn": "用于提炼毒药的铜炉，可以将捕捉到的蛊虫制成迷毒……",
+      "ru": "Бронзовая печь, используемая для очистки Ядов. Пойманную Гу здесь можно превратить в ошеломляющий Яд...",
+      "status": "machine",
+      "srcHash": "04612c1695f337f5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "832ff74f-c5ba-444a-86a8-b01a7aadac91/Option_1": {
+      "en": "(Brew the befuddling poison...)",
+      "cn": "（制作迷毒……）",
+      "ru": "(Приготовьте одурманивающий Яд...)",
+      "status": "machine",
+      "srcHash": "7fdb904ba003c1a4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "832ff74f-c5ba-444a-86a8-b01a7aadac91/Option_2": {
+      "en": "(Leave for now...)",
+      "cn": "（暂时离去……）\n",
+      "ru": "(Оставь пока...)",
+      "status": "machine",
+      "srcHash": "944cc8402748d6b6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0e5c749f-53fc-455b-b3b7-c4b36d4c6179/EventContent": {
+      "en": "After much labor, <Character key=RoleTaiwu str=Name/> successfully brewed the befuddling poison.",
+      "cn": "忙碌一番后，<Character key=RoleTaiwu str=Name/>成功炼出了迷毒",
+      "ru": "После долгих трудов, <Character key=RoleTaiwu str=Name/> успешно сварил одурманивающий Яд.",
+      "status": "machine",
+      "srcHash": "471322209efe2560",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0e5c749f-53fc-455b-b3b7-c4b36d4c6179/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ead5dbf3-98d5-448c-938d-41fec58e707b/EventContent": {
+      "en": "A patrol of Five Immortals Sect guards appeared on the road. Seeing a stranger, they immediately shouted a stern challenge and moved to block the way...",
+      "cn": "途遇五仙教守卫巡查，守卫见生人便厉声喝问，欲加阻拦……",
+      "ru": "На дороге появился патруль из Секты пяти Бессмертных. Увидев незнакомца, они немедленно выкрикнули суровый вызов и двинулись, чтобы преградить ему путь...",
+      "status": "machine",
+      "srcHash": "cdabbe2b86e2ef08",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "ead5dbf3-98d5-448c-938d-41fec58e707b/Option_1": {
+      "en": "Attack!",
+      "cn": "动手!",
+      "ru": "Атака!",
+      "status": "machine",
+      "srcHash": "a12ad27ad85ac5c8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ead5dbf3-98d5-448c-938d-41fec58e707b/Option_2": {
+      "en": "(Engage in a Debate...)",
+      "cn": "（较艺比试……）",
+      "ru": "(Вступайте в Диспут...)",
+      "status": "machine",
+      "srcHash": "006ec2c116363eb6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ead5dbf3-98d5-448c-938d-41fec58e707b/Option_3": {
+      "en": "(Use the sleeping poison...)",
+      "cn": "（使用迷毒……）",
+      "ru": "(Используй снотворный Яд...)",
+      "status": "machine",
+      "srcHash": "ac46f07c5e461bee",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ead5dbf3-98d5-448c-938d-41fec58e707b/Option_4": {
+      "en": "(Dodge swiftly...)<color=#lightgrey>",
+      "cn": "（灵活闪避……）<color=#lightgrey>",
+      "ru": "(Быстро уклоняйся от Уклонения...)<color=#lightgrey>",
+      "status": "machine",
+      "srcHash": "21e21e28ad2e67a9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ead5dbf3-98d5-448c-938d-41fec58e707b/Option_5": {
+      "en": "(Charge through...)<color=#lightgrey>",
+      "cn": "（横闯而过……）<color=#lightgrey>",
+      "ru": "(Заряжайте через...)<color=#lightgrey>",
+      "status": "machine",
+      "srcHash": "bd3193d64f8b5bb9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ead5dbf3-98d5-448c-938d-41fec58e707b/Option_6": {
+      "en": "(Hold your breath and sneak...)",
+      "cn": "（屏息潜行……）",
+      "ru": "(Задержи дыхание и крадись...)",
+      "status": "machine",
+      "srcHash": "7523eac4d2cb3663",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ead5dbf3-98d5-448c-938d-41fec58e707b/Option_7": {
+      "en": "(Try to evade...)",
+      "cn": "（设法回避……）\n",
+      "ru": "(Попробуй уклониться...)",
+      "status": "machine",
+      "srcHash": "24a73a167e9e0e20",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0d099fc3-5eba-445c-b72d-5e97768ac385/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6c8664fa-98e1-4f28-96f5-d8c9826a3666/EventContent": {
+      "en": "After a brief clash, the guard was finally defeated.",
+      "cn": "一阵交手过后，守卫终是败下阵来",
+      "ru": "После короткой стычки охранник был окончательно повержен.",
+      "status": "machine",
+      "srcHash": "6097c6d38de1c297",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6c8664fa-98e1-4f28-96f5-d8c9826a3666/Option_1": {
+      "en": "Welp...",
+      "cn": "得罪了……\n",
+      "ru": "Хорошо...",
+      "status": "machine",
+      "srcHash": "122a82eed8653a01",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d95af9dc-87fc-49a3-8b41-74ba3431ab4f/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/>'s vision went black, and the battle was lost...",
+      "cn": "<Character key=RoleTaiwu str=Name/>两眼一黑，败下阵来...",
+      "ru": "<Character key=RoleTaiwu str=Name/>В глазах у него потемнело, и битва была проиграна...",
+      "status": "machine",
+      "srcHash": "945b51f5e454f1fa",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d95af9dc-87fc-49a3-8b41-74ba3431ab4f/Option_1": {
+      "en": "How could this happen...",
+      "cn": "怎会如此...\n",
+      "ru": "Как такое могло случиться?..",
+      "status": "machine",
+      "srcHash": "d7ed71761deab292",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ac5da80e-2934-42dd-b018-1bd85f0e41d0/EventContent": {
+      "en": "Feigning an attack, <Character key=RoleTaiwu str=Name/> quickly withdrew from the battle. Only one thought remained in mind: leave this place and make plans later.",
+      "cn": "<Character key=RoleTaiwu str=Name/>虚晃一招，随即抽身向战圈外疾退！心中唯有一个念头：离开此地，再图后计",
+      "ru": "Симулируя Атаку, <Character key=RoleTaiwu str=Name/> быстро вышел из боя. В голове оставалась только одна мысль: покинуть это место и строить планы позже.",
+      "status": "machine",
+      "srcHash": "28970cfdc95989b3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "ac5da80e-2934-42dd-b018-1bd85f0e41d0/Option_1": {
+      "en": "Retreat first!",
+      "cn": "先走为妙！\n",
+      "ru": "Отступаем первыми!",
+      "status": "machine",
+      "srcHash": "6402787684ba2a6b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "317aaf24-abf3-472a-984e-7e827c8c674c/EventContent": {
+      "en": "In the midst of battle, <Character key=RoleTaiwu str=Name/> swiftly untied an oil-soaked rope from the waist.<NL>Taking advantage of an opening, the rope lashed out like a serpent, wrapping around the guard's wrists and ankles!<NL>The guard was startled and tried to evade, but it was already too late.",
+      "cn": "战局之中，<Character key=RoleTaiwu str=Name/>迅速从腰间解下一卷浸过油的绳索。<NL>趁对方用招之际，绳索如灵蛇般缠向她的手腕与脚踝！<NL>守卫一惊，急忙躲避，但为时已晚。",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "750146d10fd9c478",
+      "engine": null,
+      "updatedAt": null
+    },
+    "317aaf24-abf3-472a-984e-7e827c8c674c/Option_1": {
+      "en": "My apologies. I only seek passage.",
+      "cn": "得罪，暂且借路\n",
+      "ru": "Приношу свои извинения. Я всего лишь ищу проход.",
+      "status": "machine",
+      "srcHash": "0ce3def9b1e7b409",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "45986622-bc9a-42e3-821e-5c462761d621/EventContent": {
+      "en": "An elder retired from the sect stood with sword in hand.<NL>She glanced left and right, and at last fixed her eyes upon <Character key=RoleTaiwu str=Name/>, and sighed:<NL>\"Do you really mean it? To lead the wayward disciple in betraying the sect?\"",
+      "cn": "一位退隐门派的前辈执剑而立。<NL>她左右看了看，最终将目光定在<Character key=RoleTaiwu str=Name/>身上，叹息道：<NL>“当真要如此，带逆徒叛出师门吗？",
+      "ru": "Старейшина, ушедший в отставку из Секты, стоял с Мечом в руке.<NL>Она посмотрела налево и направо и, наконец, остановила свой взгляд на <Character key=RoleTaiwu str=Name/>, и вздохнул:<NL>- Ты действительно так думаешь? Чтобы подтолкнуть своенравного ученика к предательству Секты?\"",
+      "status": "machine",
+      "srcHash": "7946e91de1c007e9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "45986622-bc9a-42e3-821e-5c462761d621/Option_1": {
+      "en": "(Take the punishment for them...)",
+      "cn": "(代其受罚……）",
+      "ru": "(Прими наказание за них...)",
+      "status": "machine",
+      "srcHash": "e09f02f53dff701d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "45986622-bc9a-42e3-821e-5c462761d621/Option_2": {
+      "en": "(Plead for mercy...)",
+      "cn": "（为其求情……）",
+      "ru": "(Молить о пощаде...)",
+      "status": "machine",
+      "srcHash": "30cdbecf3acebe91",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "45986622-bc9a-42e3-821e-5c462761d621/Option_3": {
+      "en": "(Accept the challenge...)",
+      "cn": "（接受挑战……）",
+      "ru": "(Прими вызов...)",
+      "status": "machine",
+      "srcHash": "280c777fd25a2060",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "45986622-bc9a-42e3-821e-5c462761d621/Option_4": {
+      "en": "Lend a hand.",
+      "cn": "出手相救。",
+      "ru": "Протяни руку помощи.",
+      "status": "machine",
+      "srcHash": "918df5c732ec42f5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "45986622-bc9a-42e3-821e-5c462761d621/Option_5": {
+      "en": "What concern is it of mine?",
+      "cn": "与我何干。\n",
+      "ru": "Какое мне до этого дело?",
+      "status": "machine",
+      "srcHash": "87426f533d5ba535",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ef071da6-4c6a-49c9-8aca-810bd0ba9fce/EventContent": {
+      "en": "Are you sure you wish to bear the punishment in her stead?<NL>[<Character key=RoleTaiwu str=Name/> gains the trait: <color=#E3C66DFF>\"Marrow Gu-Seed\"</color>]",
+      "cn": "确定要代其受罚吗？<NL>[<Character key=RoleTaiwu str=Name/>获得特性：<color=#E3C66DFF>「髓中种蛊」</color>]",
+      "ru": "Вы уверены, что хотите понести наказание вместо нее?<NL>[<Character key=RoleTaiwu str=Name/> приобретает Черту: <color=#E3C66DFF>\"Косточковое Гу-семя\"</color>]",
+      "status": "machine",
+      "srcHash": "6af2b0eb5e0aa435",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "ef071da6-4c6a-49c9-8aca-810bd0ba9fce/Option_1": {
+      "en": "Confirm",
+      "cn": "确认",
+      "ru": "Подтверждать",
+      "status": "machine",
+      "srcHash": "8ed0c6b282caf17d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ef071da6-4c6a-49c9-8aca-810bd0ba9fce/Option_2": {
+      "en": "Change your mind",
+      "cn": "反悔\n",
+      "ru": "Измени свое мнение",
+      "status": "machine",
+      "srcHash": "8503ce0ef5311942",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8b4b2c4e-3c11-4d06-adb7-782f28117dc7/EventContent": {
+      "en": "Are you sure you wish to plead with the elder?",
+      "cn": "确定要向前辈求情吗",
+      "ru": "Вы уверены, что хотите обратиться к старейшине?",
+      "status": "machine",
+      "srcHash": "20de3a6e8c16de6a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8b4b2c4e-3c11-4d06-adb7-782f28117dc7/Option_1": {
+      "en": "Confirm",
+      "cn": "确认",
+      "ru": "Подтверждать",
+      "status": "machine",
+      "srcHash": "8ed0c6b282caf17d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8b4b2c4e-3c11-4d06-adb7-782f28117dc7/Option_2": {
+      "en": "Change your mind",
+      "cn": "反悔\n",
+      "ru": "Измени свое мнение",
+      "status": "machine",
+      "srcHash": "8503ce0ef5311942",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "9ef63329-ea57-40dd-a675-c91315b8e99b/EventContent": {
+      "en": "Are you sure you wish to spar with the elder?",
+      "cn": "确定要与前辈切磋吗",
+      "ru": "Ты уверен, что хочешь сразиться со старшим?",
+      "status": "machine",
+      "srcHash": "8e52bd705e721d53",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "9ef63329-ea57-40dd-a675-c91315b8e99b/Option_1": {
+      "en": "Confirm",
+      "cn": "确认",
+      "ru": "Подтверждать",
+      "status": "machine",
+      "srcHash": "8ed0c6b282caf17d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "9ef63329-ea57-40dd-a675-c91315b8e99b/Option_2": {
+      "en": "Change your mind",
+      "cn": "反悔\n",
+      "ru": "Измени свое мнение",
+      "status": "machine",
+      "srcHash": "8503ce0ef5311942",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d0782ac0-cf84-4418-82ca-5148dde8a1a0/EventContent": {
+      "en": "Will you fight the senior to the death?",
+      "cn": "是否与前辈死斗？",
+      "ru": "Будешь ли ты сражаться со старшим насмерть?",
+      "status": "machine",
+      "srcHash": "9c1fdde70ac57792",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d0782ac0-cf84-4418-82ca-5148dde8a1a0/Option_1": {
+      "en": "Confirm",
+      "cn": "确认",
+      "ru": "Подтверждать",
+      "status": "machine",
+      "srcHash": "8ed0c6b282caf17d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d0782ac0-cf84-4418-82ca-5148dde8a1a0/Option_2": {
+      "en": "Change your mind",
+      "cn": "反悔\n",
+      "ru": "Измени свое мнение",
+      "status": "machine",
+      "srcHash": "8503ce0ef5311942",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c1a4e2cb-ae2f-4ab5-83a6-c3dbcf8762ad/EventContent": {
+      "en": "Through all this road, <Character key=RoleTaiwu str=Name/>'s taut nerves finally snapped, and though the way out was right within sight, it now seemed thousands of li away...<NL><color=#lightgrey>(Exit the adventure)</color>",
+      "cn": "一路走来，<Character key=RoleTaiwu str=Name/>的紧绷的神经终是崩裂，明明出路就在眼前，却好似差了千里万里....<NL><color=#lightgrey>（退出奇遇）</color>",
+      "ru": "Через всю эту дорогу, <Character key=RoleTaiwu str=Name/>Натянутые нервы наконец не выдержали, и хотя выход был прямо в поле зрения, теперь казалось, что он за тысячи ли отсюда...<NL><color=#lightgrey>(Выход из приключения)</color>",
+      "status": "machine",
+      "srcHash": "f6701114d7f69d0d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "c1a4e2cb-ae2f-4ab5-83a6-c3dbcf8762ad/Option_1": {
+      "en": "(This is beyond saving...)",
+      "cn": "（无力回天……）",
+      "ru": "(Это уже не спасти...)",
+      "status": "machine",
+      "srcHash": "5a104301fe8f48f0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c1a4e2cb-ae2f-4ab5-83a6-c3dbcf8762ad/Option_2": {
+      "en": "It isn't over yet!",
+      "cn": "还未结束！\n",
+      "ru": "Это еще не конец!",
+      "status": "machine",
+      "srcHash": "5d3c480019e146ab",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1a1b092b-a3b6-4e35-a965-85bbfead43c6/EventContent": {
+      "en": "\"You possess neither the courage to bear responsibility nor the wisdom to overcome adversity. How can you possibly protect her? Go back. This path is closed to you.\"<NL>The elder turned away, their back as immovable as a mountain.",
+      "cn": "“既无担当之勇，又无破局之智，安能护人周全？回去吧，此路你们过不去。”<NL>前辈转身，背影如山。",
+      "ru": "- У тебя нет ни мужества нести ответственность, ни мудрости преодолевать невзгоды. Как ты вообще можешь защитить ее? Возвращайся. Этот путь закрыт для тебя\".<NL>Старейшина отвернулся, их спины были неподвижны, как гора.",
+      "status": "machine",
+      "srcHash": "eb8e0713acd87e4f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "1a1b092b-a3b6-4e35-a965-85bbfead43c6/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6854c35f-92af-4f1d-abad-0c8a1cf5175d/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e5e1bb58-9e13-4700-be93-ddbcc1505a65/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4cef6004-4a69-4eb1-a7cf-3fbdac431e07/EventContent": {
+      "en": "The retired elder staggered half a step back, wiped the blood from the corner of her mouth, and looked at <Character key=RoleTaiwu str=Name/> with no anger in her eyes,<NL>but with a measure of admiration instead: \"Fine skill! Since I drew my sword, I will accept defeat with grace.<NL>Today I shall let you pass.\" She waved a hand and stepped aside to clear the way, saying to <Character key=RoleTaiwu str=Name/>:<NL>\"Wherever you go hereafter, <Character key=RoleTaiwu str=Name/>, please look after the wayward disciple for me.<NL>The road ahead is long. You... had best take good care.\"<NL>With that, she turned and walked toward the bamboo grove beside the path, her figure fading slowly into the morning mist.",
+      "cn": "退隐前辈踉跄半步，拭去嘴角血迹，望着<Character key=RoleTaiwu str=Name/>眼中却无怒意，<NL>反倒多了几分赞许：“好功夫！我既出手，便愿赌服输 —— <NL>今日，便让你们过去。”前辈摆了摆手，侧身让开通路，对<Character key=RoleTaiwu str=Name/>道：<NL>“日后在外，还请<Character key=RoleTaiwu str=Name/>多照拂逆徒。<NL>此去前路漫漫，你们……好自为之。”<NL> 说罢，便转身走向旁边的竹林，背影渐渐隐入晨雾中。",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2650f8a93fe7635e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "4cef6004-4a69-4eb1-a7cf-3fbdac431e07/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a1e192e6-516a-4b3f-9e2a-b44cb6c2e6f5/EventContent": {
+      "en": "She looked back at the gate of the Five Immortals Sect, receding behind her, and said softly:<NL>\"At last... we have left. Had it not been for <Character key=RoleTaiwu str=Name/> guarding me all the way, I doubt this day would ever have come...\"",
+      "cn": "她望着身后渐渐远去的五仙教山门，轻声道：<NL>“终于……离开了。若非<Character key=RoleTaiwu str=Name/>一路相护，我怕是难有今日……”",
+      "ru": "Она оглянулась на ворота Секты пяти Бессмертных, удаляющиеся позади нее, и тихо сказала:<NL>- Наконец-то... мы ушли. Если бы это не было для <Character key=RoleTaiwu str=Name/> охраняя меня всю дорогу, я сомневаюсь, что этот день когда-нибудь наступил бы...\"",
+      "status": "machine",
+      "srcHash": "7fd9d7455fba6f47",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "a1e192e6-516a-4b3f-9e2a-b44cb6c2e6f5/Option_1": {
+      "en": "The road of the Martial World is long, but we shall walk it together...",
+      "cn": "江湖路长，你我同心……\n",
+      "ru": "Путь Мира боевых искусств долог, но мы пройдем его вместе...",
+      "status": "machine",
+      "srcHash": "5a3afc45bab47214",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a6d8efa5-4abc-4bc8-9043-b74dc480abec/EventContent": {
+      "en": "The moment the gu energy entered the body, <Character key=RoleTaiwu str=Name/> felt a piercing ache deep in the spine,<NL>and then a thin chill settled into the very blood and bone, the mark of the gu worm sinking into the marrow.<NL>The elder waved her hand, then turned to look at the disciple, her voice softening:<NL>\"<Character key=RoleTaiwu str=Name/> has taken this heavy punishment for you. Do not fail <Character key=RoleTaiwu str=GenderObject/> hereafter. Go now,<NL>and do not return to the Five Immortals Sect. Do not let <Character key=RoleTaiwu str=GenderPossessive/> suffering be in vain.\"",
+      "cn": "蛊气入体的瞬间，<Character key=RoleTaiwu str=Name/>只觉脊骨处一阵刺骨隐痛，<NL>而后便有丝丝寒意沉在骨血之中，那是蛊虫入髓的印记。<NL>前辈摆了摆手，又看向她，语气软了几分：<NL>“<Character key=RoleTaiwu str=Name/>为你受此重罚，你日后切不可负他。去吧，<NL>莫要再回五仙教，也莫要让他的苦白受。”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "64ee600c6774b298",
+      "engine": null,
+      "updatedAt": null
+    },
+    "a6d8efa5-4abc-4bc8-9043-b74dc480abec/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "10fc733f-d69f-40c9-8088-f9f0b778c763/EventContent": {
+      "en": "The elder looked at them both, silent a long while, then sighed at last and let her sword drop to her side.<NL>The sternness left her eyes, and a touch of resignation took its place:<NL>\"Since you two are so set on it, and since you remember the bond with the sect, and out of the small ties <Character key=RoleTaiwu str=Name/> has shared with us,<NL>I shall let you go today. Do not come back to the sect, and do not, on the strength of this single mercy,<NL>forget the roots of the Five Immortals. Wherever you walk in the jianghu, keep a true heart, and do not bring shame upon the sect's name.\"",
+      "cn": "前辈望着二人，沉默良久，终是轻轻一叹，长剑垂落身侧，<NL>眼底的肃然散了几分，添了些许无奈：<NL>“你二人既有这份心意，又念及与教中的情义，也看在<Character key=RoleTaiwu str=Name/>与教中相交的薄面。<NL>今日放你走，不可再回教中，也不可因今日的容让，<NL>便忘了五仙教的根。日后行走江湖，守好本心，莫要堕了五仙教的名声。”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "77aeaea0b49bb988",
+      "engine": null,
+      "updatedAt": null
+    },
+    "10fc733f-d69f-40c9-8088-f9f0b778c763/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "2bb16d83-b815-4f71-a27e-fac953e02197/EventContent": {
+      "en": "The bamboo in this Bamboo Forest can be harvested as materials for constructing a bamboo raft.<NL>However, the sound of chopping is quite loud and may attract sect disciples to investigate, making conflict unavoidable.<NL>Consider the risks carefully before deciding.",
+      "cn": "此竹林之竹，可砍伐为材，以备制作竹筏。<NL>只是砍伐之声颇大，恐引门派弟子查探，届时难免一战。<NL>需权衡利弊，再做决断。",
+      "ru": "Бамбук в этом бамбуковом лесу можно собирать в качестве материала для постройки бамбукового плота.<NL>Однако звук рубки довольно громкий и может привлечь учеников Секты к расследованию, что делает конфликт неизбежным.<NL>Тщательно взвесьте риски, прежде чем принимать решение.",
+      "status": "machine",
+      "srcHash": "8b8438e9bfdf2788",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "2bb16d83-b815-4f71-a27e-fac953e02197/Option_1": {
+      "en": "(Cut down bamboo...)",
+      "cn": "（砍伐竹子……）",
+      "ru": "(Срубите бамбук...)",
+      "status": "machine",
+      "srcHash": "de8b9b39406d5f81",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "2bb16d83-b815-4f71-a27e-fac953e02197/Option_2": {
+      "en": "(Leave for now...)",
+      "cn": "（暂时离去……）\n",
+      "ru": "(Оставь пока...)",
+      "status": "machine",
+      "srcHash": "944cc8402748d6b6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1ae42fd9-4262-4a05-a0e9-545a19b2107d/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> took out a hatchet carried at the waist.<NL>Grasping a stalk of green bamboo, they deliberately held back most of their strength as the blade struck the stalk.<NL>With only a soft crack, the bamboo snapped cleanly.<NL>Before it could fall, it was caught and gently lowered to the ground, making almost no sound.",
+      "cn": "<Character key=RoleTaiwu str=Name/>取了随身短斧，<NL>抬手握住一根青竹，运力时收了七分劲，斧刃轻斫竹身，<NL>只听 “咔嚓” 一声轻响，青竹应声而断，<NL>落地时又被他伸手轻扶，缓缓放于地上，几无动静。",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a314a038edbe1174",
+      "engine": null,
+      "updatedAt": null
+    },
+    "1ae42fd9-4262-4a05-a0e9-545a19b2107d/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7892e8e4-d9b8-4e21-9a27-3cfd75994c26/EventContent": {
+      "en": "With a loud clang, the bamboo snapped and crashed heavily to the ground...<NL>The sharp rattling of bamboo joints echoed throughout the grove, overwhelming the sound of the wind.<NL>Urgent footsteps approached from nearby, accompanied by an angry shout:<NL>\"Who dares cut bamboo within the grove without permission? Show yourself at once!\"",
+      "cn": "只听 “哐当” 一声重响，青竹应声断裂，重重砸在地上……<NL>竹节碰撞的脆响在林间荡开，瞬间盖过了林风之声……<NL>不远处传来急促的脚步声，伴着弟子的厉声喝问：<NL>“何人在竹林中擅伐竹木！速速现身！”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6d4c4e33d9b14ebf",
+      "engine": null,
+      "updatedAt": null
+    },
+    "7892e8e4-d9b8-4e21-9a27-3cfd75994c26/Option_1": {
+      "en": "Attack!",
+      "cn": "动手！",
+      "ru": "Атака!",
+      "status": "machine",
+      "srcHash": "a12ad27ad85ac5c8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7892e8e4-d9b8-4e21-9a27-3cfd75994c26/Option_2": {
+      "en": "(Use the sleeping poison...)",
+      "cn": "（使用迷毒……）\n",
+      "ru": "(Используй снотворный Яд...)",
+      "status": "machine",
+      "srcHash": "ac46f07c5e461bee",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d2c3d783-1839-40bd-9c5c-4ca3efdb713a/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> gathered the tools and began stripping, shaping, and joining the bamboo, securing each section tightly with layers of hemp rope.<NL>Before long, a sturdy and well-balanced bamboo raft was completed. Its solid, muted sound when tapped proved it was fit for crossing the river.",
+      "cn": "<Character key=RoleTaiwu str=Name/>取过工具，将竹木刨皮修型、榫卯拼接，再以麻绳层层捆扎牢固。<NL>不多时，一张敦实平整的竹筏便成了，敲之闷响沉稳，渡水足矣。",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1c265a71c7cf31e3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "d2c3d783-1839-40bd-9c5c-4ca3efdb713a/Option_1": {
+      "en": "This is good",
+      "cn": "如此便好\n",
+      "ru": "Это хорошо",
+      "status": "machine",
+      "srcHash": "ef7cb41afe56c18a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "90549d3e-7f64-4064-9ae4-e55de993f189/EventContent": {
+      "en": "Following the bamboo path to the workshop, Taiwu found a small hut built of green bamboo hidden among the trees.<NL>The wooden door stood slightly ajar, and above it hung a faded sign bearing the words \"Crafting Workshop.\"<NL>Bamboo gathered here can be fashioned into a raft...<NL>",
+      "cn": "循竹径行至工坊前，只见一座青竹搭建的矮屋隐在林樾间，<NL>木门虚掩，门楣上刻着浅淡的 “造器坊” 三字，<NL>在此便能将竹木制成竹筏...<NL>",
+      "ru": "Пройдя по бамбуковой тропинке к мастерской, Тайу нашел маленькую хижину, построенную из зеленого бамбука, спрятанную среди деревьев.<NL>Деревянная дверь была слегка приоткрыта, а над ней висела выцветшая вывеска с надписью \"Ремесленная мастерская\".<NL>Из собранного здесь бамбука можно соорудить плот...<NL>",
+      "status": "machine",
+      "srcHash": "cea803584fad2feb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "90549d3e-7f64-4064-9ae4-e55de993f189/Option_1": {
+      "en": "(Build a bamboo raft...)",
+      "cn": "（制作竹筏……）",
+      "ru": "(Постройте бамбуковый плот...)",
+      "status": "machine",
+      "srcHash": "129d6cb28d3b1087",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "90549d3e-7f64-4064-9ae4-e55de993f189/Option_2": {
+      "en": "(Leave for now...)",
+      "cn": "(暂时离去……）\n",
+      "ru": "(Оставь пока...)",
+      "status": "machine",
+      "srcHash": "944cc8402748d6b6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "252b3f59-cc91-4784-974a-812582d3fe28/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7b2efa79-dda6-430d-9c92-b8f87de5aa3a/EventContent": {
+      "en": "After a brief exchange, the disciple was finally defeated.",
+      "cn": "一阵交手过后，那名弟子终是败下阵来",
+      "ru": "После краткой перепалки ученик был окончательно побежден.",
+      "status": "machine",
+      "srcHash": "e45ce018d78ce4e6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7b2efa79-dda6-430d-9c92-b8f87de5aa3a/Option_1": {
+      "en": "Welp...",
+      "cn": "得罪了……\n",
+      "ru": "Хорошо...",
+      "status": "machine",
+      "srcHash": "122a82eed8653a01",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0f06ff3a-dead-41e0-872f-9bcb55986e82/EventContent": {
+      "en": "The Sacred Maiden of the Five Immortals sat at the center of the study, deep in her reading, and did not notice that <Character key=RoleTaiwu str=Name/> had come.",
+      "cn": "书房正中的五仙圣女正专心研读书籍，没有察觉到<Character key=RoleTaiwu str=Name/>的到来。",
+      "ru": "Священная Дева Пяти Бессмертных сидела в центре кабинета, углубившись в чтение, и не заметила, что <Character key=RoleTaiwu str=Name/> пришел.",
+      "status": "machine",
+      "srcHash": "b3bccdab9641b7e9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "0f06ff3a-dead-41e0-872f-9bcb55986e82/Option_1": {
+      "en": "(Strike before she notices and eliminate the threat...)",
+      "cn": "（趁其不备，以绝后患……）",
+      "ru": "(Ударь прежде, чем она заметит, и устрани угрозу...)",
+      "status": "machine",
+      "srcHash": "25893d21c8586641",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0f06ff3a-dead-41e0-872f-9bcb55986e82/Option_2": {
+      "en": "(Use the sleeping poison...)",
+      "cn": "（使用迷毒……）",
+      "ru": "(Используй снотворный Яд...)",
+      "status": "machine",
+      "srcHash": "ac46f07c5e461bee",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0f06ff3a-dead-41e0-872f-9bcb55986e82/Option_3": {
+      "en": "(Take leave...)",
+      "cn": "（就此离开……）\n",
+      "ru": "(Прощаюсь...)",
+      "status": "machine",
+      "srcHash": "ccc2b01649a692ac",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "086632e9-6437-42f4-a513-f49718be57dd/EventContent": {
+      "en": "Just as Taiwu approached, the disciple suddenly looked up, immediately sensing the intrusion. Closing the book, she sprang to her feet and shouted while drawing her weapon:<NL>\"Who dares trespass here? To spy upon the sacred grounds of the Five Immortals Sect!\"",
+      "cn": "不料刚近前，弟子便抬眸察觉，当即合书起身，持械厉喝：<NL>“何人擅闯！竟敢窥我五仙教重地！” ",
+      "ru": "Как только Тайу приблизился, ученик внезапно поднял голову, сразу почувствовав вторжение. Закрыв книгу, она вскочила на ноги и закричала, выхватывая свое Оружие:<NL>- Кто осмелился вторгнуться сюда? Шпионить за священными землями Секты пяти Бессмертных!\"",
+      "status": "machine",
+      "srcHash": "4c99383eb1c1cc6d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "086632e9-6437-42f4-a513-f49718be57dd/Option_1": {
+      "en": "(There is no choice but to fight...)",
+      "cn": "（只能一战……）",
+      "ru": "(У нас нет другого выбора, кроме как сражаться...)",
+      "status": "machine",
+      "srcHash": "4db7957bd29d9386",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "086632e9-6437-42f4-a513-f49718be57dd/Option_2": {
+      "en": "(Use the sleeping poison...)",
+      "cn": "（使用迷毒……）\n",
+      "ru": "(Используй снотворный Яд...)",
+      "status": "machine",
+      "srcHash": "ac46f07c5e461bee",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7a9dd3cf-b128-454b-84a9-4d6f89dd30b5/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> raised a hand and scattered the sleeping poison. A pale green mist drifted toward the target.<NL>Caught completely off guard, the disciple inhaled the poison and soon felt dizzy and disoriented.<NL>After staggering a few steps, she collapsed unconscious.",
+      "cn": "<Character key=RoleTaiwu str=Name/>抬手将迷毒撒出，淡青色毒雾飘向那人。<NL>此人猝不及防吸入，片刻便觉头晕目眩，<NL>踉跄几步后便倒在地上昏了过去。",
+      "ru": "<Character key=RoleTaiwu str=Name/> поднял руку и рассыпал усыпляющий Яд. Бледно-зеленый туман поплыл к цели.<NL>Застигнутый врасплох, ученик вдохнул Яд и вскоре почувствовал головокружение и дезориентацию.<NL>Сделав, пошатываясь, несколько шагов, она упала без сознания.",
+      "status": "machine",
+      "srcHash": "1804f3b4b02a5ff2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "7a9dd3cf-b128-454b-84a9-4d6f89dd30b5/Option_1": {
+      "en": "Welp...",
+      "cn": "得罪了....\n",
+      "ru": "Хорошо...",
+      "status": "machine",
+      "srcHash": "122a82eed8653a01",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1cc04c91-1d6d-4d48-aa02-7f5294c9924c/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "372b17dd-1dbc-4e06-9f71-f245cc23f7bb/EventContent": {
+      "en": "After a brief exchange, the disciple was finally defeated. Upon the desk lay a secret manual of the Five Immortals Sect.",
+      "cn": "一阵交手过后，那名弟子终是败下阵来，而书桌前则摆放着几本五仙教秘籍",
+      "ru": "После короткой перепалки ученик был окончательно побежден. На столе лежало секретное руководство Секты пяти Бессмертных.",
+      "status": "machine",
+      "srcHash": "e64610eadfc6b97f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "372b17dd-1dbc-4e06-9f71-f245cc23f7bb/Option_1": {
+      "en": "(Take the manual and leave...)",
+      "cn": "（夺书而走……）\n",
+      "ru": "(Возьмите инструкцию и уходите...)",
+      "status": "machine",
+      "srcHash": "79bb9aada24da469",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c0f949eb-c963-4c3d-a044-6079e92fc1c1/EventContent": {
+      "en": "In the midst of the fight, <Character key=RoleTaiwu str=Name/> quickly drew an oiled coil of rope from the waist.<NL>While she was caught in the middle of a strike, the rope flew like a living serpent and wound itself about her wrists and ankles!<NL>Startled, she tried to dodge, but it was too late.<NL>On the desk lay several secret manuals of the Five Immortals Sect.",
+      "cn": "战局之中，<Character key=RoleTaiwu str=Name/>迅速从腰间解下一卷浸过油的绳索。<NL>趁对方用招之际，绳索如灵蛇般缠向她的手腕与脚踝！<NL>此人一惊，急忙躲避，但为时已晚。<NL>而书桌上则摆放着几本五仙教秘籍",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e5a5eb965836c421",
+      "engine": null,
+      "updatedAt": null
+    },
+    "c0f949eb-c963-4c3d-a044-6079e92fc1c1/Option_1": {
+      "en": "(Take the manual and leave...)",
+      "cn": "（夺书而走……）\n",
+      "ru": "(Возьмите инструкцию и уходите...)",
+      "status": "machine",
+      "srcHash": "79bb9aada24da469",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8c8438b9-380b-4704-8ffd-218d4fa03004/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0202865d-7301-4771-94af-a7e261129ae6/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0e9cd5fd-e093-43aa-9be8-2626939b3a22/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7f212148-bc1a-4341-b477-682c6808eefe/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "feb14a4a-bd3f-49eb-b40c-4e6cb868bab8/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "cca3a808-ad9c-4c52-9975-336372d839e9/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "700a07de-70b9-4ab9-b1a0-7c4f2f20517b/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "839b608c-5ce5-49ff-bb57-3d90393ac68e/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a1af98ad-7da9-4cf0-9d52-de4964980053/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b024d2db-4071-4c95-9d8e-263a9f9c5700/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> raised a hand and scattered the sleeping poison. A pale green mist drifted toward the target.<NL>Caught completely off guard, the disciple inhaled the poison and soon felt dizzy and disoriented.<NL>After staggering a few steps, she collapsed unconscious.",
+      "cn": "<Character key=RoleTaiwu str=Name/>抬手将迷毒撒出，淡青色毒雾飘向那人。<NL>此人猝不及防吸入，片刻便觉头晕目眩，<NL>踉跄几步后便倒在地上昏了过去。",
+      "ru": "<Character key=RoleTaiwu str=Name/> поднял руку и рассыпал усыпляющий Яд. Бледно-зеленый туман поплыл к цели.<NL>Застигнутый врасплох, ученик вдохнул Яд и вскоре почувствовал головокружение и дезориентацию.<NL>Сделав, пошатываясь, несколько шагов, она упала без сознания.",
+      "status": "machine",
+      "srcHash": "1804f3b4b02a5ff2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "b024d2db-4071-4c95-9d8e-263a9f9c5700/Option_1": {
+      "en": "Welp...",
+      "cn": "得罪了....\n",
+      "ru": "Хорошо...",
+      "status": "machine",
+      "srcHash": "122a82eed8653a01",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "633bd008-7dd8-4a34-8092-b4877bf3d25c/EventContent": {
+      "en": "As <Character key=RoleTaiwu str=Name/> crept through the grass, a sharp pain suddenly shot through the leg.<NL>A venomous insect hidden among the blades had bitten them, its toxin entering the body.<NL>The skin began to tingle and numb, while strength slowly seeped away.",
+      "cn": "<Character key=RoleTaiwu str=Name/>俯身于草丛中潜行，忽觉腿间一阵刺痛，<NL>竟是被藏于草间的毒虫叮咬，毒素入体，<NL>只觉肌肤发麻，气力微泄。",
+      "ru": "Как <Character key=RoleTaiwu str=Name/> пробирался по траве, и вдруг острая боль пронзила ногу.<NL>Ядовитое насекомое, спрятавшееся среди лезвий, укусило их, и его Токсин попал в организм.<NL>Кожу начало покалывать и неметь, в то время как Сила медленно покидала ее.",
+      "status": "machine",
+      "srcHash": "2620a04b841c6d8b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "633bd008-7dd8-4a34-8092-b4877bf3d25c/Option_1": {
+      "en": "Must be more careful...",
+      "cn": "必须小心...",
+      "ru": "Надо быть осторожнее...",
+      "status": "machine",
+      "srcHash": "9298361e82097c13",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "633bd008-7dd8-4a34-8092-b4877bf3d25c/Option_2": {
+      "en": "Reach out and catch the insects <color=#lightgrey>",
+      "cn": "伸手捉虫<color=#lightgrey>\n",
+      "ru": "Протяни руку и поймай насекомых <color=#lightgrey>",
+      "status": "machine",
+      "srcHash": "51bab6165f70782d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "09b9cca8-aa49-44d2-92fa-da0e57b2805c/EventContent": {
+      "en": "Well-versed in the principles of poison, <Character key=RoleTaiwu str=Name/> calmly applied their attainment of Toxicology. With a swift motion and a tap of gathered qi at the fingertips, the venomous insect was captured in a single move and sealed within a prepared porcelain vial.",
+      "cn": "<Character key=RoleTaiwu str=Name/>深谙毒理，运起自身毒术造诣，指尖凝气轻扣，只一合便将那毒虫稳稳擒住，收于备好的瓷瓶之中。",
+      "ru": "Хорошо разбирается в принципах действия Яда, <Character key=RoleTaiwu str=Name/> спокойно применяли свои достижения в области токсикологии. Быстрым движением и касанием собранной Ци кончиками пальцев ядовитое насекомое было поймано одним движением и запечатано в подготовленный фарфоровый флакон.",
+      "status": "machine",
+      "srcHash": "6772ec913dcaadc3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "09b9cca8-aa49-44d2-92fa-da0e57b2805c/Option_1": {
+      "en": "That's great...",
+      "cn": "如此便好...\n",
+      "ru": "Это здорово...",
+      "status": "machine",
+      "srcHash": "b662280e593dbf39",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a92e0fd0-0803-4e9f-808c-a9f3ca0749b0/EventContent": {
+      "en": "A sturdy fishing boat. It can be used to cross the Heishui River.",
+      "cn": "坚固的渔船，可以靠它渡过黑水河",
+      "ru": "Прочная рыбацкая лодка. По нему можно пересечь реку Хэйшуй.",
+      "status": "machine",
+      "srcHash": "274138b64f6d09e7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a92e0fd0-0803-4e9f-808c-a9f3ca0749b0/Option_1": {
+      "en": "This is good",
+      "cn": "如此便好\n",
+      "ru": "Это хорошо",
+      "status": "machine",
+      "srcHash": "ef7cb41afe56c18a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "76fce6c7-1b16-4d64-800b-285ce91387b0/EventContent": {
+      "en": "A poisonous Gu insect sealed within a jar. It can be refined into sleeping poison at the poison chamber and must be handled with care.",
+      "cn": "装在罐中含毒的蛊虫，可以在毒房将其炼制成迷毒，需要小心保管",
+      "ru": "Ядовитое насекомое-Гу, запечатанное в банке. Он может быть переработан в усыпляющий Яд в камере для Ядов, и обращаться с ним нужно осторожно.",
+      "status": "machine",
+      "srcHash": "23f07a1b8eac5c81",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "76fce6c7-1b16-4d64-800b-285ce91387b0/Option_1": {
+      "en": "Better be careful",
+      "cn": "小心为上\n",
+      "ru": "Лучше быть осторожным",
+      "status": "machine",
+      "srcHash": "e1eb75d73886b0bd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "762cb3b8-e7e1-4dab-9a14-4ae1b9a0d675/EventContent": {
+      "en": "Sleeping poison refined from a highly venomous Gu insect. A single vial is enough to render someone unconscious for an entire day.",
+      "cn": "使用剧毒的蛊虫制成的迷毒，一小瓶便能让人不省人事一整天",
+      "ru": "Сонный Яд, полученный из очень ядовитого насекомого Гу. Одного флакона достаточно, чтобы человек потерял сознание на целый день.",
+      "status": "machine",
+      "srcHash": "f67048b447f7fe92",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "762cb3b8-e7e1-4dab-9a14-4ae1b9a0d675/Option_1": {
+      "en": "This is good",
+      "cn": "如此便好\n",
+      "ru": "Это хорошо",
+      "status": "machine",
+      "srcHash": "ef7cb41afe56c18a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "72b2d482-ba7a-409d-b1ae-b0002eb25af0/EventContent": {
+      "en": "Durable bamboo timber. It can be crafted into a fishing boat at the workshop.",
+      "cn": "坚固的竹木，可以在工坊将其制为渔船",
+      "ru": "Прочная бамбуковая древесина. В мастерской из него можно изготовить рыбацкую лодку.",
+      "status": "machine",
+      "srcHash": "7435145f6329d08a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "72b2d482-ba7a-409d-b1ae-b0002eb25af0/Option_1": {
+      "en": "This is good",
+      "cn": "如此便好\n",
+      "ru": "Это хорошо",
+      "status": "machine",
+      "srcHash": "ef7cb41afe56c18a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "9f2c3b52-5261-42bd-8b1a-c3b595babcdb/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d89fce5a-4d1a-456e-ba05-5153eebc33aa/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e2d29f6a-4af7-4cf2-98ee-e877ccdc0a62/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "70cb638e-4a60-4fd1-92da-0a041303b9b0/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6077cd50-cc66-4277-bb55-99df3480bff5/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a25058e7-be65-488c-94e5-e763b4bb9846/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "211eea60-f20f-45cb-90d4-3016441b667b/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e63512ac-f083-489a-a5b4-4890306fbe40/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> encountered a guard and was about to fight,<NL>but the guard unexpectedly turned and fled in terror at the sight of <Character key=RoleTaiwu str=Name/>'s face...",
+      "cn": "<Character key=RoleTaiwu str=Name/>遭遇了守卫，<NL>守卫正要与之一战，不料守卫一看到<Character key=RoleTaiwu str=Name/>的面孔，便吓得落荒而逃.....",
+      "ru": "<Character key=RoleTaiwu str=Name/> столкнулся с охранником и собирался подраться,<NL>но охранник неожиданно повернулся и в ужасе убежал при виде <Character key=RoleTaiwu str=Name/>его лицо...",
+      "status": "machine",
+      "srcHash": "1c35d45901a16899",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "e63512ac-f083-489a-a5b4-4890306fbe40/Option_1": {
+      "en": "(Chase the enemy...)",
+      "cn": "(追击敌人……)",
+      "ru": "(Преследуй врага...)",
+      "status": "machine",
+      "srcHash": "41dac77d80f058bf",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e63512ac-f083-489a-a5b4-4890306fbe40/Option_2": {
+      "en": "(Eliminate the enemy...)",
+      "cn": "(驱灭敌人……)",
+      "ru": "(Уничтожьте врага...)",
+      "status": "machine",
+      "srcHash": "b91ab8fc9b697caa",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e63512ac-f083-489a-a5b4-4890306fbe40/Option_3": {
+      "en": "(Let it escape...)",
+      "cn": "(任其逃亡……)\n",
+      "ru": "(Позволь этому вырваться наружу...)",
+      "status": "machine",
+      "srcHash": "d246f06055e134df",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "402ae58a-e6f1-4c30-983e-01213f2246a7/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> swiftly slipped away, successfully evading the guard's follow-up.",
+      "cn": "<Character key=RoleTaiwu str=Name/>身形一闪，成功躲开了守卫的追击",
+      "ru": "<Character key=RoleTaiwu str=Name/> быстро ускользнул, успешно избежав преследования охранника.",
+      "status": "machine",
+      "srcHash": "e767a17577b9e797",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "402ae58a-e6f1-4c30-983e-01213f2246a7/Option_1": {
+      "en": "(That works for me...)",
+      "cn": "（如此便好.....)\n",
+      "ru": "(Это работает для меня...)",
+      "status": "machine",
+      "srcHash": "952b7869a50d3fcc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "375362ae-e309-4a89-aebf-cfadfdeb1fef/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> tried to avoid the guard's strike, but failed...<NL><color=#lightgrey>(The higher one's Purity, the greater the chance of escape...)</color>",
+      "cn": "<Character key=RoleTaiwu str=Name/>试图避开守卫的袭击，但失败了…<NL><color=#lightgrey>(精纯越高，逃跑成功率越高…）</color>",
+      "ru": "<Character key=RoleTaiwu str=Name/> попытался избежать удара охранника, но потерпел неудачу...<NL><color=#lightgrey>(Чем выше чистота человека, тем больше шансов спастись...)</color>",
+      "status": "machine",
+      "srcHash": "3d987d4131a05bee",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "375362ae-e309-4a89-aebf-cfadfdeb1fef/Option_1": {
+      "en": "(Confront the enemy...)",
+      "cn": "（迎战敌人.....)\n",
+      "ru": "(Сразись с врагом лицом к лицу...)",
+      "status": "machine",
+      "srcHash": "27bc49cbdf0f0d59",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1d0fefd5-5451-491b-b2d9-d2701a841fdf/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> encountered a guard and was about to fight,<NL>but the guard unexpectedly turned and fled in terror at the sight of <Character key=RoleTaiwu str=Name/>'s face...",
+      "cn": "<Character key=RoleTaiwu str=Name/>遭遇了守卫，<NL>守卫正要与之一战，不料守卫一看到<Character key=RoleTaiwu str=Name/>的面孔，便吓得落荒而逃.....",
+      "ru": "<Character key=RoleTaiwu str=Name/> столкнулся с охранником и собирался подраться,<NL>но охранник неожиданно повернулся и в ужасе убежал при виде <Character key=RoleTaiwu str=Name/>его лицо...",
+      "status": "machine",
+      "srcHash": "1c35d45901a16899",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "1d0fefd5-5451-491b-b2d9-d2701a841fdf/Option_1": {
+      "en": "(Chase the enemy...)",
+      "cn": "(追击敌人……)",
+      "ru": "(Преследуй врага...)",
+      "status": "machine",
+      "srcHash": "41dac77d80f058bf",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1d0fefd5-5451-491b-b2d9-d2701a841fdf/Option_2": {
+      "en": "(Eliminate the enemy...)",
+      "cn": "(驱灭敌人……)",
+      "ru": "(Уничтожьте врага...)",
+      "status": "machine",
+      "srcHash": "b91ab8fc9b697caa",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1d0fefd5-5451-491b-b2d9-d2701a841fdf/Option_3": {
+      "en": "(Let it escape...)",
+      "cn": "(任其逃亡……)\n",
+      "ru": "(Позволь этому вырваться наружу...)",
+      "status": "machine",
+      "srcHash": "d246f06055e134df",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f47c32a3-64f4-4213-82b1-ce97c496a147/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ea39ce9c-0aef-4f42-9389-5fa1e97f8774/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7a1a42b8-ceef-45b6-bbb7-f0851807e2ce/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> failed to persuade <Character key=shouwei str=Name/>.<NL>Words failed them, and cold sweat streamed down their face.<NL><Character key=shouwei str=Name/> grew impatient at the sight and immediately launched another attack against <Character key=RoleTaiwu str=Name/>!",
+      "cn": "<Character key=RoleTaiwu str=Name/>未能说服<Character key=shouwei str=Name/>，<NL>不由哑口无言，冷汗直流，<NL><Character key=shouwei str=Name/>见状颇为不耐，转眼又向<Character key=RoleTaiwu str=Name/>袭来！",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2d170c226fc20200",
+      "engine": null,
+      "updatedAt": null
+    },
+    "7a1a42b8-ceef-45b6-bbb7-f0851807e2ce/Option_1": {
+      "en": "(Engage in battle...)",
+      "cn": "（迎战敌人……）\n",
+      "ru": "(Вступайте в бой...)",
+      "status": "machine",
+      "srcHash": "cb3796dacd9aa833",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1f918d95-c360-4e5a-9eb6-dd809d134a4b/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> defeated <Character key=shouwei str=Name/> in a contest of skills!<NL><Character key=shouwei str=Name/> was humbled by <Character key=RoleTaiwu str=Name/>'s mastery and ultimately departed in despair, coughing up blood...",
+      "cn": "<Character key=RoleTaiwu str=Name/>在较艺中胜过了<Character key=shouwei str=Name/>！<NL><Character key=shouwei str=Name/>被<Character key=RoleTaiwu str=Name/>的技艺折服，最终心灰意冷，呕血而去……",
+      "ru": "<Character key=RoleTaiwu str=Name/> побежденный <Character key=shouwei str=Name/> участвуйте в конкурсе мастерства!<NL><Character key=shouwei str=Name/> был унижен <Character key=RoleTaiwu str=Name/>овладел собой и в конце концов ушел в отчаянии, кашляя кровью...",
+      "status": "machine",
+      "srcHash": "c37ebc0d26e8024a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:39:46.636Z"
+    },
+    "1f918d95-c360-4e5a-9eb6-dd809d134a4b/Option_1": {
+      "en": "(What a relief...)",
+      "cn": "（如此便好……)\n",
+      "ru": "(Какое облегчение...)",
+      "status": "machine",
+      "srcHash": "95e9f8c44a1fb398",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3d8c428c-f303-4b49-931a-08211a16512d/EventContent": {
+      "en": "test",
+      "cn": "test",
+      "ru": "test",
+      "status": "machine",
+      "srcHash": "1709246c8aee6784",
+      "engine": "neutral",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3d8c428c-f303-4b49-931a-08211a16512d/Option_1": {
+      "en": "Books",
+      "cn": "书\n",
+      "ru": "Книги",
+      "status": "machine",
+      "srcHash": "b10a37286b0a0dbb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "76fe88ef-c687-4b96-85d5-fb23400601c4/EventContent": {
+      "en": "The elder paused a moment, then nodded at last: \"An upright soul, true to vow and to honor. Very well, then. I shall plant the gu in your marrow and let her go.<NL>But remember: this gu has no cure. Hereafter, walking the jianghu, you must not so much as touch a trace of poison.\"<NL>So saying, the elder raised her hand and traced a sigil. A thin wisp of pale green gu energy gathered at her fingertip, and she reached toward <Character key=RoleTaiwu str=Name/>'s heart.",
+      "cn": "前辈沉默片刻，终是颔首：“刚正之人，重诺重义。也罢，我便依你 —— 罚你髓中种蛊，放她离去。<NL>只是需记着，此蛊无药可解，日后行走江湖，万不可沾半分毒物。”<NL>言罢，前辈抬手捏诀，指尖凝起一缕淡青蛊气，抬手便向<Character key=RoleTaiwu str=Name/>心口探去。",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ca5189af6d743008",
+      "engine": null,
+      "updatedAt": null
+    },
+    "76fe88ef-c687-4b96-85d5-fb23400601c4/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "91e94fa9-44fd-4447-94c6-9909a8a288fb/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> looked up at the elder, voice earnest and sincere:<NL>\"<Character key=RoleTaiwu str=Name/> knows the sect's rules cannot be broken, yet I would ask the elder to consider all she has felt for the sect,<NL>and the small thread of connection this junior has had with the Five Immortals Sect. Show us mercy.<NL>This kindness, she and I shall hold in our hearts. All our remaining days, we shall remember the forbearance of the Five Immortals.\"",
+      "cn": "<Character key=RoleTaiwu str=Name/>抬眸望向前辈，神色真挚：<NL>“<Character key=RoleTaiwu str=Name/>知门规不可违，却也盼前辈能念及她对师门的情分，<NL>念及晚辈与五仙教的些许渊源，网开一面。<NL>今日之情，晚辈与她记在心中，余生皆会感念五仙教的容让之德。”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ad9cd4a8f0216588",
+      "engine": null,
+      "updatedAt": null
+    },
+    "91e94fa9-44fd-4447-94c6-9909a8a288fb/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d6222e55-9a23-4ea3-be24-160604c09df5/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    }
+  }
+}

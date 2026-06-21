@@ -1,0 +1,2491 @@
+{
+  "schemaVersion": 1,
+  "file": "Event_Languages/Taiwu_EventPackage_NpcInteraction_Language_EN.txt",
+  "glossaryVersion": 5,
+  "units": {
+    "f55c0963-700a-431f-aae6-5652b2e3c091/EventContent": {
+      "en": "Whose displayed age do you wish to adjust?",
+      "cn": null,
+      "ru": "Чей отображаемый возраст вы хотите скорректировать?",
+      "status": "machine",
+      "srcHash": "1ae668f844913e40",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f55c0963-700a-431f-aae6-5652b2e3c091/Option_1": {
+      "en": "Taiwu",
+      "cn": null,
+      "ru": "Тайу",
+      "status": "machine",
+      "srcHash": "e387a8aec399c658",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f55c0963-700a-431f-aae6-5652b2e3c091/Option_2": {
+      "en": "<Character key=CharacterId str=Name/>'s ",
+      "cn": null,
+      "ru": "<Character key=CharacterId str=Name/>'s ",
+      "status": "machine",
+      "srcHash": "f19bf86e18e3c516",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f55c0963-700a-431f-aae6-5652b2e3c091/Option_3": {
+      "en": "Remove age adjustment and return to previous level",
+      "cn": null,
+      "ru": "Снимите возрастную поправку и вернитесь к предыдущему уровню",
+      "status": "machine",
+      "srcHash": "bdcd8847f62a2c55",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1cfea6f3-77ae-4add-bc43-a6e4c51c98b4/EventContent": {
+      "en": "Adjustment complete! <Character key=CharacterId str=Name/>'s biological age now displays as <ArgBox key=TargetCharacterDisplayAge type=int/> until TargetCharacterDisplayAge is manually removed from ArgBox!",
+      "cn": null,
+      "ru": "Корректировка завершена! <Character key=CharacterId str=Name/>Биологический возраст пользователя теперь отображается как <ArgBox key=TargetCharacterDisplayAge type=int/> до тех пор, пока TargetCharacterDisplayAge не будет удален вручную из ArgBox!",
+      "status": "machine",
+      "srcHash": "dcc02ac8f2004df6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "1cfea6f3-77ae-4add-bc43-a6e4c51c98b4/Option_1": {
+      "en": "(Oh no...)",
+      "cn": null,
+      "ru": "(О, нет...)",
+      "status": "machine",
+      "srcHash": "b297c97db7f81a8a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "bd81a6c7-543e-476f-bdb6-d8909b86c33d/EventContent": {
+      "en": "This event only checks if selected characters can undergo grooming with no actual pop-ups",
+      "cn": null,
+      "ru": "Это событие проверяет только то, могут ли выбранные персонажи подвергнуться уходу без каких-либо реальных всплывающих окон",
+      "status": "machine",
+      "srcHash": "dd875ecb91579229",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "351f8d43-37c5-436b-b08b-6846d1085c1f/EventContent": {
+      "en": "\"Taiwu... surrender your life...\"<NL><Character key=CharacterId str=Name/> groaned.<NL><Character key=RoleTaiwu str=Name/> attempted to converse with <Character key=CharacterId str=Name/>,<NL>but <Character key=CharacterId str=Name/> appeared lost between dreams and wakefulness, still under the bewitchment of Xiangshu...",
+      "cn": null,
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f81286821e7c899e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "351f8d43-37c5-436b-b08b-6846d1085c1f/Option_1": {
+      "en": "(Take the initiative to banish evil...)",
+      "cn": null,
+      "ru": "(Проявите инициативу, чтобы изгнать зло...)",
+      "status": "machine",
+      "srcHash": "4907b21537f846d8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "351f8d43-37c5-436b-b08b-6846d1085c1f/Option_2": {
+      "en": "(Observe their next move...)",
+      "cn": null,
+      "ru": "(Наблюдайте за их следующим ходом...)",
+      "status": "machine",
+      "srcHash": "ccd9f50433e7fefc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "59b5b9ab-f40a-43cc-8bcf-1cfdeab8b47a/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "59b5b9ab-f40a-43cc-8bcf-1cfdeab8b47a/Option_1": {
+      "en": "Confirm",
+      "cn": null,
+      "ru": "Подтверждать",
+      "status": "machine",
+      "srcHash": "8ed0c6b282caf17d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "59b5b9ab-f40a-43cc-8bcf-1cfdeab8b47a/Option_2": {
+      "en": "Cancel",
+      "cn": null,
+      "ru": "Отменить",
+      "status": "machine",
+      "srcHash": "748e25d8f930bfa8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a4239531-594e-42d9-9588-93d72ad88ce6/EventContent": {
+      "en": "Select items to gift:<NL>1 Food and 1 Fine Arts Book",
+      "cn": null,
+      "ru": "Выберите предметы для подарка:<NL>1 Книга о Еде и 1 книга по Ремеслам",
+      "status": "machine",
+      "srcHash": "774aab340ce6458b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a4239531-594e-42d9-9588-93d72ad88ce6/Option_1": {
+      "en": "(Confirm...)",
+      "cn": null,
+      "ru": "(Подтверждаю...)",
+      "status": "machine",
+      "srcHash": "3cf843140f31b490",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a4239531-594e-42d9-9588-93d72ad88ce6/Option_2": {
+      "en": "Cancel",
+      "cn": null,
+      "ru": "Отменить",
+      "status": "machine",
+      "srcHash": "748e25d8f930bfa8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "653407ae-58d0-49fa-b398-458bb16300ec/EventContent": {
+      "en": "\"There you go...<NL>Perfect! Take a look in the mirror...<NL><Character key=ShaveCharId str=Name />, see the difference?\"",
+      "cn": null,
+      "ru": "- Вот, держи...<NL>Идеально! Взгляни в зеркало...<NL><Character key=ShaveCharId str=Name /> видишь разницу?\"",
+      "status": "machine",
+      "srcHash": "db0110c1521df9ec",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "653407ae-58d0-49fa-b398-458bb16300ec/Option_1": {
+      "en": "(Other topics...)",
+      "cn": null,
+      "ru": "(Другие темы...)",
+      "status": "machine",
+      "srcHash": "7a159e3b76aa8968",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "bbd4e9ae-740a-4509-ade6-fbc56ad59668/EventContent": {
+      "en": "This event tests Encounter actors",
+      "cn": null,
+      "ru": "Это событие проверяет участников встречи",
+      "status": "machine",
+      "srcHash": "7c2d1777bfab02c7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "bbd4e9ae-740a-4509-ade6-fbc56ad59668/Option_1": {
+      "en": "Tests Taiwu's Child",
+      "cn": null,
+      "ru": "Проверяет ребенка Тайу",
+      "status": "machine",
+      "srcHash": "7bb8d3728cb4ff32",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "bbd4e9ae-740a-4509-ade6-fbc56ad59668/Option_2": {
+      "en": "Tests Enthralling Trap Husband",
+      "cn": null,
+      "ru": "Испытания Увлекательной ловушки Мужа",
+      "status": "machine",
+      "srcHash": "92604d121d2d5a53",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "bbd4e9ae-740a-4509-ade6-fbc56ad59668/Option_3": {
+      "en": "Tests Enthralling Trap Wife",
+      "cn": null,
+      "ru": "Испытания Увлекательной ловушки Жены",
+      "status": "machine",
+      "srcHash": "43a7300bf4ab08f8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "bbd4e9ae-740a-4509-ade6-fbc56ad59668/Option_4": {
+      "en": "Tests Enthralling Trap Somebody's Child",
+      "cn": null,
+      "ru": "Испытания, увлекающие в ловушку чьего-то ребенка",
+      "status": "machine",
+      "srcHash": "a0d79c38e2f1af09",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "bbd4e9ae-740a-4509-ade6-fbc56ad59668/Option_5": {
+      "en": "(Other topics...)",
+      "cn": null,
+      "ru": "(Другие темы...)",
+      "status": "machine",
+      "srcHash": "7a159e3b76aa8968",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "611b8967-a58a-4399-8fda-d3426eeefa43/EventContent": {
+      "en": "Grooming",
+      "cn": null,
+      "ru": "Ухаживающий",
+      "status": "machine",
+      "srcHash": "2354f8b47ee5b15e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "611b8967-a58a-4399-8fda-d3426eeefa43/Option_1": {
+      "en": "(Confirm...)",
+      "cn": null,
+      "ru": "(Подтверждаю...)",
+      "status": "machine",
+      "srcHash": "3cf843140f31b490",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "611b8967-a58a-4399-8fda-d3426eeefa43/Option_2": {
+      "en": "Cancel",
+      "cn": null,
+      "ru": "Отменить",
+      "status": "machine",
+      "srcHash": "748e25d8f930bfa8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4b180a34-6cab-4608-850b-618746df4214/EventContent": {
+      "en": "\"Can't decide?<NL>No need to stress about it. You've got your natural looks, and the hairstyle is where you can really shine!<NL>Invest in your hair, and you'll be extraordinary.\"",
+      "cn": null,
+      "ru": "- Не можешь решить?<NL>Не нужно переживать по этому поводу. У тебя естественная внешность, а прическа - это то, где ты можешь по-настоящему блистать!<NL>Уделите внимание своим волосам, и вы будете необыкновенной\".",
+      "status": "machine",
+      "srcHash": "0435ea448e74ba23",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "4b180a34-6cab-4608-850b-618746df4214/Option_1": {
+      "en": "(Other topics...)",
+      "cn": null,
+      "ru": "(Другие темы...)",
+      "status": "machine",
+      "srcHash": "7a159e3b76aa8968",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8dde8486-d7a7-4d6f-9059-9ecccfd06d0b/EventContent": {
+      "en": "Buttons on the right display character's Health Status Info when hovered",
+      "cn": null,
+      "ru": "Кнопки справа отображают информацию о состоянии Здоровья персонажа при наведении курсора мыши",
+      "status": "machine",
+      "srcHash": "b06969d509e54fd6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8dde8486-d7a7-4d6f-9059-9ecccfd06d0b/Option_1": {
+      "en": "Return",
+      "cn": null,
+      "ru": "Возвращать",
+      "status": "machine",
+      "srcHash": "79eaf3aebb957f5b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e538c035-0755-4b0a-81e5-936d3635fc03/EventContent": {
+      "en": "This event tests CG hiding: Editor first sets mask control to hide upon exit. Upon entry, CG texture display data loads. Exit sequence: CG fades == CG disappears in 1s =>Black screen fades => Screen clears in 0.5s => Game view reappears",
+      "cn": null,
+      "ru": "Это событие проверяет скрытие компьютерной графики: редактор сначала устанавливает управление маской на скрытие при выходе. При входе загружаются данные отображения компьютерной текстуры. Последовательность выхода: изображение исчезает == Изображение исчезает через 1 секунду =&gt; Черный экран исчезает =&gt; Экран очищается через 0,5 секунды =&gt; Снова появляется изображение игры",
+      "status": "machine",
+      "srcHash": "089ae207315e1f11",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "e538c035-0755-4b0a-81e5-936d3635fc03/Option_1": {
+      "en": "Return",
+      "cn": null,
+      "ru": "Возвращать",
+      "status": "machine",
+      "srcHash": "79eaf3aebb957f5b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "15b3e927-c1ce-4ed7-aa5c-14d79797383e/EventContent": {
+      "en": "\"Oh my... My apologies.<NL>These tools seemed to have a mind of their own, and things got out of hand...\"<NL><NL><color=#lightgrey>(Due to <Character key=CharacterId str=Name />'s mistake, <Character key=ShaveCharId str=Name />'s {0} was accidentally shaved off...)</color>",
+      "cn": null,
+      "ru": "\"О боже... Приношу свои извинения.<NL>Эти инструменты, казалось, обладали собственным разумом, и все вышло из-под контроля...\"<NL><NL><color=#lightgrey>(Из-за <Character key=CharacterId str=Name />это ошибка, <Character key=ShaveCharId str=Name />'s {0} был случайно сбрит...)</color>",
+      "status": "machine",
+      "srcHash": "32835feb8b61e0a6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "15b3e927-c1ce-4ed7-aa5c-14d79797383e/Option_1": {
+      "en": "(That's ridiculous...)",
+      "cn": null,
+      "ru": "(Это просто смешно...)",
+      "status": "machine",
+      "srcHash": "25558b7f3518a94e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "71988440-bc24-46c6-b764-ca2b2edab2f5/EventContent": {
+      "en": "All the Acritoxin Reagents you own:",
+      "cn": null,
+      "ru": "Все Реагенты на Акритоксин, которыми вы владеете:",
+      "status": "machine",
+      "srcHash": "6e66a73241081e5d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "71988440-bc24-46c6-b764-ca2b2edab2f5/Option_1": {
+      "en": "(Confirm...)",
+      "cn": null,
+      "ru": "(Подтверждаю...)",
+      "status": "machine",
+      "srcHash": "3cf843140f31b490",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d70622af-54c6-4c97-a234-19f9db65c2bd/EventContent": {
+      "en": "Anything the matter?",
+      "cn": null,
+      "ru": "Что-нибудь случилось?",
+      "status": "machine",
+      "srcHash": "77e47a68ade3d55e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d70622af-54c6-4c97-a234-19f9db65c2bd/Option_1": {
+      "en": "(Interact...)",
+      "cn": null,
+      "ru": "(Взаимодействовать...)",
+      "status": "machine",
+      "srcHash": "124292f3d008b764",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d70622af-54c6-4c97-a234-19f9db65c2bd/Option_2": {
+      "en": "Cultivation",
+      "cn": null,
+      "ru": "Культивирование",
+      "status": "machine",
+      "srcHash": "1abeda774e3987e7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d70622af-54c6-4c97-a234-19f9db65c2bd/Option_3": {
+      "en": "Battle",
+      "cn": null,
+      "ru": "Битва",
+      "status": "machine",
+      "srcHash": "2eca467dc78ea5c9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d70622af-54c6-4c97-a234-19f9db65c2bd/Option_4": {
+      "en": "Secret",
+      "cn": null,
+      "ru": "Секрет",
+      "status": "machine",
+      "srcHash": "6294e21056b0d799",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d70622af-54c6-4c97-a234-19f9db65c2bd/Option_5": {
+      "en": "CG Test...",
+      "cn": null,
+      "ru": "Компьютерный тест...",
+      "status": "machine",
+      "srcHash": "d62366900c0ba021",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d70622af-54c6-4c97-a234-19f9db65c2bd/Option_6": {
+      "en": "Tests Enthralling Trap Actors",
+      "cn": null,
+      "ru": "Тесты, захватывающие актеров-ловушек",
+      "status": "machine",
+      "srcHash": "1e98f4206df13905",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d70622af-54c6-4c97-a234-19f9db65c2bd/Option_7": {
+      "en": "Tests Input Module",
+      "cn": null,
+      "ru": "Тестирует входной модуль",
+      "status": "machine",
+      "srcHash": "bdd0fe4642f46df0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d70622af-54c6-4c97-a234-19f9db65c2bd/Option_8": {
+      "en": "Tests Display Age Adjustment",
+      "cn": null,
+      "ru": "Тесты отображают корректировку возраста",
+      "status": "machine",
+      "srcHash": "76aa84d00fc82b53",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d70622af-54c6-4c97-a234-19f9db65c2bd/Option_9": {
+      "en": "Tests Display Clothing Adjustment",
+      "cn": null,
+      "ru": "Тесты показывают подгонку одежды",
+      "status": "machine",
+      "srcHash": "f62c86cfd0b3e395",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d70622af-54c6-4c97-a234-19f9db65c2bd/Option_10": {
+      "en": "Tests Veil Function",
+      "cn": null,
+      "ru": "Проверяет функцию завесы",
+      "status": "machine",
+      "srcHash": "6a9b7ec4d618376b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d70622af-54c6-4c97-a234-19f9db65c2bd/Option_11": {
+      "en": "Click me for mysteries...",
+      "cn": null,
+      "ru": "Нажмите на меня, чтобы узнать больше о тайнах...",
+      "status": "machine",
+      "srcHash": "992752117def7157",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d70622af-54c6-4c97-a234-19f9db65c2bd/Option_12": {
+      "en": "Test Display NPC Health Status Info...",
+      "cn": null,
+      "ru": "Тестовое отображение информации о состоянии Здоровья NPC...",
+      "status": "machine",
+      "srcHash": "2e206d5cf296d6ff",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d70622af-54c6-4c97-a234-19f9db65c2bd/Option_13": {
+      "en": "\"Farewell now...\"",
+      "cn": null,
+      "ru": "- А теперь прощай...",
+      "status": "machine",
+      "srcHash": "840d84191707217a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5486b6fa-dd09-4f1b-a0ea-45cb2ef1d87f/EventContent": {
+      "en": "Cultivation? Such a diligent Taiwu!",
+      "cn": null,
+      "ru": "Культивирование? Такой прилежный Тайу!",
+      "status": "machine",
+      "srcHash": "ef967814d75db002",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5486b6fa-dd09-4f1b-a0ea-45cb2ef1d87f/Option_1": {
+      "en": "Book Trade...",
+      "cn": null,
+      "ru": "Книжная торговля...",
+      "status": "machine",
+      "srcHash": "3ce69850aa554c86",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5486b6fa-dd09-4f1b-a0ea-45cb2ef1d87f/Option_2": {
+      "en": "Return...",
+      "cn": null,
+      "ru": "Возвращайся...",
+      "status": "machine",
+      "srcHash": "fe369fee23d8faa4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "60d80307-5962-402a-8d6b-1cd17997f17f/EventContent": {
+      "en": "Farewell!",
+      "cn": null,
+      "ru": "Прощай!",
+      "status": "machine",
+      "srcHash": "cfa64478dd831406",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "60d80307-5962-402a-8d6b-1cd17997f17f/Option_1": {
+      "en": "Take care...",
+      "cn": null,
+      "ru": "Заботиться...",
+      "status": "machine",
+      "srcHash": "0ac12261933d219c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "af545928-adf1-4089-9768-2ae29485c7d4/EventContent": {
+      "en": "Select any food/teas and liquors to confirm",
+      "cn": null,
+      "ru": "Выберите любую Еду/чаи и ликеры для подтверждения",
+      "status": "machine",
+      "srcHash": "53f2169d2b02d8c0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "af545928-adf1-4089-9768-2ae29485c7d4/Option_1": {
+      "en": "(Confirm...)",
+      "cn": null,
+      "ru": "(Подтверждаю...)",
+      "status": "machine",
+      "srcHash": "3cf843140f31b490",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "af545928-adf1-4089-9768-2ae29485c7d4/Option_2": {
+      "en": "Cancel",
+      "cn": null,
+      "ru": "Отменить",
+      "status": "machine",
+      "srcHash": "748e25d8f930bfa8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "900b2f15-7dca-42f1-bfd7-571c6dbc00d5/EventContent": {
+      "en": "<Character key=CharacterId str=Name/> dons the veil",
+      "cn": null,
+      "ru": "<Character key=CharacterId str=Name/> надевает вуаль",
+      "status": "machine",
+      "srcHash": "d7f6bff9d6379034",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "900b2f15-7dca-42f1-bfd7-571c6dbc00d5/Option_1": {
+      "en": "Return...",
+      "cn": null,
+      "ru": "Возвращайся...",
+      "status": "machine",
+      "srcHash": "fe369fee23d8faa4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5db5b0bf-9301-45fc-ac1e-907e9e53bdb0/EventContent": {
+      "en": "Enter any integer:",
+      "cn": null,
+      "ru": "Введите любое целое число:",
+      "status": "machine",
+      "srcHash": "7f1ef552faab61ea",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5db5b0bf-9301-45fc-ac1e-907e9e53bdb0/Option_1": {
+      "en": "Confirm",
+      "cn": null,
+      "ru": "Подтверждать",
+      "status": "machine",
+      "srcHash": "8ed0c6b282caf17d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5db5b0bf-9301-45fc-ac1e-907e9e53bdb0/Option_2": {
+      "en": "(Cancel...)",
+      "cn": null,
+      "ru": "(Отменить...)",
+      "status": "machine",
+      "srcHash": "9ec0672190bb5d3d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0e3278be-81c5-4d79-9a4c-3cc23e4f8836/EventContent": {
+      "en": "(Select Secret...)",
+      "cn": null,
+      "ru": "(Выберите Секретный...)",
+      "status": "machine",
+      "srcHash": "86d3d6fe4cd48585",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0e3278be-81c5-4d79-9a4c-3cc23e4f8836/Option_1": {
+      "en": "Return",
+      "cn": null,
+      "ru": "Возвращать",
+      "status": "machine",
+      "srcHash": "79eaf3aebb957f5b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ec6c4342-8301-4c13-a4a3-f2b07a687420/EventContent": {
+      "en": "Greetings! I am <Actor key=LostChildMine str=Name />, <Actor key=LostChildMine str=Age /> years old—a <Actor key=LostChildMine str=ChildGender />.",
+      "cn": null,
+      "ru": "Приветствую вас! Я есть <Actor key=LostChildMine str=Name />, <Actor key=LostChildMine str=Age /> лет от роду — а <Actor key=LostChildMine str=ChildGender />.",
+      "status": "machine",
+      "srcHash": "eb7ef0be928394c7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "ec6c4342-8301-4c13-a4a3-f2b07a687420/Option_1": {
+      "en": "(Oh no...)",
+      "cn": null,
+      "ru": "(О, нет...)",
+      "status": "machine",
+      "srcHash": "b297c97db7f81a8a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a1968c60-8a53-48cf-be18-75e8a409eb0b/EventContent": {
+      "en": "... what... do you want?",
+      "cn": null,
+      "ru": "... чего... ты хочешь?",
+      "status": "machine",
+      "srcHash": "e5a15d48aa58d16c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a1968c60-8a53-48cf-be18-75e8a409eb0b/Option_1": {
+      "en": "(Oh no...)",
+      "cn": null,
+      "ru": "(О, нет...)",
+      "status": "machine",
+      "srcHash": "b297c97db7f81a8a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1cac0b69-4752-4161-9aca-25c4f8f3d81f/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> journeys through hardships to reach <Character key=MotherId str=Name/>'s side",
+      "cn": null,
+      "ru": "<Character key=RoleTaiwu str=Name/> путешествия через трудности, чтобы достичь <Character key=MotherId str=Name/>сторона клиента",
+      "status": "machine",
+      "srcHash": "8ccfb1b0ac537e5f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "1cac0b69-4752-4161-9aca-25c4f8f3d81f/Option_1": {
+      "en": "(Oh no...)",
+      "cn": null,
+      "ru": "(О, нет...)",
+      "status": "machine",
+      "srcHash": "b297c97db7f81a8a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "306a38fc-1a9e-4151-bff5-8aa58f60918d/EventContent": {
+      "en": "Veil function test event. Select character to don the veil:",
+      "cn": null,
+      "ru": "Событие тестирования функции Veil. Выберите персонажа, который наденет вуаль:",
+      "status": "machine",
+      "srcHash": "45558780e21ca24c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "306a38fc-1a9e-4151-bff5-8aa58f60918d/Option_1": {
+      "en": "Veil <Character key=RoleTaiwu str=Name/>",
+      "cn": null,
+      "ru": "Вуаль <Character key=RoleTaiwu str=Name/>",
+      "status": "machine",
+      "srcHash": "8a3f09dd66598a37",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "306a38fc-1a9e-4151-bff5-8aa58f60918d/Option_2": {
+      "en": "(Remove the veil...)",
+      "cn": null,
+      "ru": "(Снимите вуаль...)",
+      "status": "machine",
+      "srcHash": "77dff85ed2567a3a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "306a38fc-1a9e-4151-bff5-8aa58f60918d/Option_3": {
+      "en": "Veil <Character key=CharacterId str=Name/>",
+      "cn": null,
+      "ru": "Вуаль <Character key=CharacterId str=Name/>",
+      "status": "machine",
+      "srcHash": "3c3b7faa65e09423",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "306a38fc-1a9e-4151-bff5-8aa58f60918d/Option_4": {
+      "en": "(Remove the veil...)",
+      "cn": null,
+      "ru": "(Снимите вуаль...)",
+      "status": "machine",
+      "srcHash": "77dff85ed2567a3a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "306a38fc-1a9e-4151-bff5-8aa58f60918d/Option_5": {
+      "en": "Return...",
+      "cn": null,
+      "ru": "Возвращайся...",
+      "status": "machine",
+      "srcHash": "fe369fee23d8faa4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "83caf28b-1ddf-4fe8-ae44-a23f4840bd7a/EventContent": {
+      "en": "This event only checks cricket duel entry conditions, not to be displayed",
+      "cn": null,
+      "ru": "Это событие проверяет только условия участия в Поединке по Сверчку, которые не будут отображаться",
+      "status": "machine",
+      "srcHash": "0546eb39b2fceb94",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a3ac5596-5000-4fe0-8101-6132b688d9bd/EventContent": {
+      "en": "\"Thank you, sir...\"",
+      "cn": null,
+      "ru": "\"Благодарю вас, сэр...\"",
+      "status": "machine",
+      "srcHash": "9c0646da563c13de",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a3ac5596-5000-4fe0-8101-6132b688d9bd/Option_1": {
+      "en": "Outplayed",
+      "cn": null,
+      "ru": "Переигран",
+      "status": "machine",
+      "srcHash": "40e38538ac57f422",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "81d781f8-ce58-45e6-a77b-7431fbcd14fa/EventContent": {
+      "en": "Who wears this attire?",
+      "cn": null,
+      "ru": "Кто носит этот наряд?",
+      "status": "machine",
+      "srcHash": "38a7f59c4e568b6a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "81d781f8-ce58-45e6-a77b-7431fbcd14fa/Option_1": {
+      "en": "(Give...)",
+      "cn": null,
+      "ru": "(Дай...)",
+      "status": "machine",
+      "srcHash": "1d9216066cd648bc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "81d781f8-ce58-45e6-a77b-7431fbcd14fa/Option_2": {
+      "en": "(Give...)",
+      "cn": null,
+      "ru": "(Дай...)",
+      "status": "machine",
+      "srcHash": "1d9216066cd648bc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "81d781f8-ce58-45e6-a77b-7431fbcd14fa/Option_3": {
+      "en": "(Return to the previous interface...)",
+      "cn": null,
+      "ru": "(Вернитесь к предыдущему интерфейсу...)",
+      "status": "machine",
+      "srcHash": "59b45079eb11c14b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1fc493d5-f29c-4658-9adc-fc713b84927c/EventContent": {
+      "en": "Adjustment complete! <Character key=RoleTaiwu str=Name/>'s biological age now displays as <ArgBox key=MainCharacterDisplayAge type=int/> until MainCharacterDisplayAge is manually removed from ArgBox!",
+      "cn": null,
+      "ru": "Настройка завершена! <Character key=RoleTaiwu str=Name/>биологический возраст теперь отображается как <ArgBox key=MainCharacterDisplayAge type=int/> до тех пор, пока MainCharacterDisplayAge не будет удален вручную из ArgBox!",
+      "status": "machine",
+      "srcHash": "24c42882fc7e4a15",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "1fc493d5-f29c-4658-9adc-fc713b84927c/Option_1": {
+      "en": "(Oh no...)",
+      "cn": null,
+      "ru": "(О, нет...)",
+      "status": "machine",
+      "srcHash": "b297c97db7f81a8a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/EventContent": {
+      "en": "This event tests maximum visible option limit",
+      "cn": null,
+      "ru": "Это событие проверяет максимальное ограничение видимых параметров",
+      "status": "machine",
+      "srcHash": "1b7b1d23ffd4360a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_1": {
+      "en": "Option 1",
+      "cn": null,
+      "ru": "Вариант 1",
+      "status": "machine",
+      "srcHash": "e9511f98603d16a3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_2": {
+      "en": "Option 2",
+      "cn": null,
+      "ru": "Вариант 2",
+      "status": "machine",
+      "srcHash": "eec900f12cdda91f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_3": {
+      "en": "Option 3",
+      "cn": null,
+      "ru": "Вариант 3",
+      "status": "machine",
+      "srcHash": "bce10baa79765092",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_4": {
+      "en": "Option 4",
+      "cn": null,
+      "ru": "Вариант 4",
+      "status": "machine",
+      "srcHash": "52915e789f51466e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_5": {
+      "en": "Option 5",
+      "cn": null,
+      "ru": "Вариант 5",
+      "status": "machine",
+      "srcHash": "0b447ec6a7fd07af",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_6": {
+      "en": "Option 6",
+      "cn": null,
+      "ru": "Вариант 6",
+      "status": "machine",
+      "srcHash": "2f43ca52e5436b71",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_7": {
+      "en": "Option 7",
+      "cn": null,
+      "ru": "Вариант 7",
+      "status": "machine",
+      "srcHash": "154de53b4b4da5a7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_8": {
+      "en": "Option 8",
+      "cn": null,
+      "ru": "Вариант 8",
+      "status": "machine",
+      "srcHash": "eb553285e03cde29",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_9": {
+      "en": "Option 9",
+      "cn": null,
+      "ru": "Вариант 9",
+      "status": "machine",
+      "srcHash": "bca1bfee7a7ba31b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_10": {
+      "en": "Option 0",
+      "cn": null,
+      "ru": "Вариант 0",
+      "status": "machine",
+      "srcHash": "59b048126f1bae1b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_11": {
+      "en": "Option A",
+      "cn": null,
+      "ru": "Вариант А",
+      "status": "machine",
+      "srcHash": "953c891a46ba5b86",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_12": {
+      "en": "Option B",
+      "cn": null,
+      "ru": "Вариант В",
+      "status": "machine",
+      "srcHash": "ed7933e241b51064",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_13": {
+      "en": "Option C",
+      "cn": null,
+      "ru": "Вариант C",
+      "status": "machine",
+      "srcHash": "ec420733dbcde624",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_14": {
+      "en": "Option D",
+      "cn": null,
+      "ru": "Вариант D",
+      "status": "machine",
+      "srcHash": "8d3df0b5c6290c33",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_15": {
+      "en": "Option E",
+      "cn": null,
+      "ru": "Вариант E",
+      "status": "machine",
+      "srcHash": "caa48cb651489600",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_16": {
+      "en": "Option F",
+      "cn": null,
+      "ru": "Вариант F",
+      "status": "machine",
+      "srcHash": "5322e3b57c57b39f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_17": {
+      "en": "Option G",
+      "cn": null,
+      "ru": "Вариант G",
+      "status": "machine",
+      "srcHash": "dee4d524aa63f02b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_18": {
+      "en": "Option H",
+      "cn": null,
+      "ru": "Вариант H",
+      "status": "machine",
+      "srcHash": "a27d2aabd249be92",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_19": {
+      "en": "Option I",
+      "cn": null,
+      "ru": "Вариант I",
+      "status": "machine",
+      "srcHash": "2c89bad991a0f4c3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_20": {
+      "en": "Option J",
+      "cn": null,
+      "ru": "Вариант J",
+      "status": "machine",
+      "srcHash": "f9e98379a1d7fc68",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_21": {
+      "en": "Option K",
+      "cn": null,
+      "ru": "Вариант K",
+      "status": "machine",
+      "srcHash": "5886e2302a76cb99",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_22": {
+      "en": "Option L",
+      "cn": null,
+      "ru": "Вариант L",
+      "status": "machine",
+      "srcHash": "90bae7003682dc88",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_23": {
+      "en": "Option M",
+      "cn": null,
+      "ru": "Вариант M",
+      "status": "machine",
+      "srcHash": "261cff50f3f27473",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_24": {
+      "en": "Option N",
+      "cn": null,
+      "ru": "Вариант N",
+      "status": "machine",
+      "srcHash": "20d6ee17632ac851",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_25": {
+      "en": "Option O",
+      "cn": null,
+      "ru": "Вариант O",
+      "status": "machine",
+      "srcHash": "d574fb51e408e8f0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_26": {
+      "en": "Option P",
+      "cn": null,
+      "ru": "Вариант P",
+      "status": "machine",
+      "srcHash": "c4c751d54038e056",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_27": {
+      "en": "Option Q",
+      "cn": null,
+      "ru": "Вариант Q",
+      "status": "machine",
+      "srcHash": "109286af12d690a9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_28": {
+      "en": "Option R",
+      "cn": null,
+      "ru": "Вариант R",
+      "status": "machine",
+      "srcHash": "18a2a76a67ce2ad8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_29": {
+      "en": "Option S",
+      "cn": null,
+      "ru": "Вариант Ы",
+      "status": "machine",
+      "srcHash": "f032ce8097238d9f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_30": {
+      "en": "Option T",
+      "cn": null,
+      "ru": "Вариант T",
+      "status": "machine",
+      "srcHash": "d9ccb08e3ae6e525",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_31": {
+      "en": "Option U",
+      "cn": null,
+      "ru": "Вариант U",
+      "status": "machine",
+      "srcHash": "89606750aba188fc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_32": {
+      "en": "Option V",
+      "cn": null,
+      "ru": "Вариант V",
+      "status": "machine",
+      "srcHash": "c6d95866904968bb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_33": {
+      "en": "Option W",
+      "cn": null,
+      "ru": "Вариант W",
+      "status": "machine",
+      "srcHash": "93e546a148fba863",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_34": {
+      "en": "Option X",
+      "cn": null,
+      "ru": "Вариант X",
+      "status": "machine",
+      "srcHash": "86e3e35631b6707b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_35": {
+      "en": "Option Y",
+      "cn": null,
+      "ru": "Вариант Y",
+      "status": "machine",
+      "srcHash": "4b835bd37730f923",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_36": {
+      "en": "Option Z",
+      "cn": null,
+      "ru": "Вариант Z",
+      "status": "machine",
+      "srcHash": "7af7a05342178963",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "340961d1-0666-4291-b17a-20bbaf59806a/Option_37": {
+      "en": "Option Invisible",
+      "cn": null,
+      "ru": "Параметр Невидимый",
+      "status": "machine",
+      "srcHash": "757c6fa27a41da7b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "937439d8-5f97-4a4a-8f21-4050b48f41bc/EventContent": {
+      "en": "You selected <Character key=CharacterId str=Name/>'s <LifeSkill key=SelectedLifeSkill str=TypeName/> Fine Arts:<NL><LifeSkill key=SelectedLifeSkill str=SkillName/>",
+      "cn": null,
+      "ru": "Вы выбрали <Character key=CharacterId str=Name/>'s <LifeSkill key=SelectedLifeSkill str=TypeName/> Ремесла:<NL><LifeSkill key=SelectedLifeSkill str=SkillName/>",
+      "status": "machine",
+      "srcHash": "2f6128f8ce31dfb8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "937439d8-5f97-4a4a-8f21-4050b48f41bc/Option_1": {
+      "en": "(Oh no...)",
+      "cn": null,
+      "ru": "(О, нет...)",
+      "status": "machine",
+      "srcHash": "b297c97db7f81a8a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1930f5af-5d21-4eaf-b8e6-aa5596f51023/EventContent": {
+      "en": "Select 1 to 5 weapons from your inventory:",
+      "cn": null,
+      "ru": "Выберите от 1 до 5 видов оружия из своего инвентаря:",
+      "status": "machine",
+      "srcHash": "8c37afc218151760",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1930f5af-5d21-4eaf-b8e6-aa5596f51023/Option_1": {
+      "en": "(Confirm...)",
+      "cn": null,
+      "ru": "(Подтверждаю...)",
+      "status": "machine",
+      "srcHash": "3cf843140f31b490",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1930f5af-5d21-4eaf-b8e6-aa5596f51023/Option_2": {
+      "en": "Cancel",
+      "cn": null,
+      "ru": "Отменить",
+      "status": "machine",
+      "srcHash": "748e25d8f930bfa8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3053958c-df86-48e2-a1a3-d5106b42fdcc/EventContent": {
+      "en": "You entered integer: <ArgBox key=InputResult type=string/>",
+      "cn": null,
+      "ru": "Вы ввели целое число: <ArgBox key=InputResult type=string/>",
+      "status": "machine",
+      "srcHash": "ace76b81047ac072",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3053958c-df86-48e2-a1a3-d5106b42fdcc/Option_1": {
+      "en": "(Oh no...)",
+      "cn": null,
+      "ru": "(О, нет...)",
+      "status": "machine",
+      "srcHash": "b297c97db7f81a8a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "748e831d-2a75-4b17-96b7-2df59d957b5c/EventContent": {
+      "en": "This is the grooming event exit point, not to be displayed in the page",
+      "cn": null,
+      "ru": "Это точка выхода из события груминга, которая не будет отображаться на странице",
+      "status": "machine",
+      "srcHash": "3b3bfe8ec12e1558",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "77b9d2e8-0c1d-4312-80de-e8bed358d445/EventContent": {
+      "en": "Enter character's father's name",
+      "cn": null,
+      "ru": "Введите имя отца персонажа",
+      "status": "machine",
+      "srcHash": "5cac4a22c56a72fa",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "77b9d2e8-0c1d-4312-80de-e8bed358d445/Option_1": {
+      "en": "Confirm",
+      "cn": null,
+      "ru": "Подтверждать",
+      "status": "machine",
+      "srcHash": "8ed0c6b282caf17d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "77b9d2e8-0c1d-4312-80de-e8bed358d445/Option_2": {
+      "en": "(Cancel...)",
+      "cn": null,
+      "ru": "(Отменить...)",
+      "status": "machine",
+      "srcHash": "9ec0672190bb5d3d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/EventContent": {
+      "en": "Seeking interaction?",
+      "cn": null,
+      "ru": "Ищете взаимодействия?",
+      "status": "machine",
+      "srcHash": "23b80804e13b7a38",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_1": {
+      "en": "Invite as companion...",
+      "cn": null,
+      "ru": "Пригласите в качестве компаньона...",
+      "status": "machine",
+      "srcHash": "f769ae1cf1381b70",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_2": {
+      "en": "(Remove companion...)",
+      "cn": null,
+      "ru": "(Удалить компаньона...)",
+      "status": "machine",
+      "srcHash": "abf36757cda9109d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_3": {
+      "en": "(Look at the stock...)",
+      "cn": null,
+      "ru": "(Посмотрите на акции...)",
+      "status": "machine",
+      "srcHash": "8a5eb06b97a8c9c5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_4": {
+      "en": "Fine Arts Sparring...",
+      "cn": null,
+      "ru": "Спарринг по Ремеслам...",
+      "status": "machine",
+      "srcHash": "7eb9b72c5c9817de",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_5": {
+      "en": "Fine Arts Sparring...",
+      "cn": null,
+      "ru": "Спарринг по Ремеслам...",
+      "status": "machine",
+      "srcHash": "7eb9b72c5c9817de",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_6": {
+      "en": "Grooming",
+      "cn": null,
+      "ru": "Ухаживающий",
+      "status": "machine",
+      "srcHash": "2354f8b47ee5b15e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_7": {
+      "en": "(Cricket Duels...)",
+      "cn": null,
+      "ru": "(Поединки по Сверчку...)",
+      "status": "machine",
+      "srcHash": "edf084ba2ca56bb0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_8": {
+      "en": "Heal Injuries & Detox Poisons",
+      "cn": null,
+      "ru": "Лечит травмы и выводит токсины",
+      "status": "machine",
+      "srcHash": "072036332d1023a6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_9": {
+      "en": "Item",
+      "cn": null,
+      "ru": "Предмет",
+      "status": "machine",
+      "srcHash": "ec48e98b91ba5a6d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_10": {
+      "en": "Favor",
+      "cn": null,
+      "ru": "Польза",
+      "status": "machine",
+      "srcHash": "3c2a7b20ba5d65d2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_11": {
+      "en": "Increased Favorability...",
+      "cn": null,
+      "ru": "Повышенная Благосклонность...",
+      "status": "machine",
+      "srcHash": "7e5663efdce2145a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_12": {
+      "en": "Reduced Favorability...",
+      "cn": null,
+      "ru": "Сниженная Благосклонность...",
+      "status": "machine",
+      "srcHash": "e36c4136e0a2ee89",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_13": {
+      "en": "Select Item",
+      "cn": null,
+      "ru": "Выберите элемент",
+      "status": "machine",
+      "srcHash": "ccef2f9cafa7ea42",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_14": {
+      "en": "(Choose news...)",
+      "cn": null,
+      "ru": "(Выберите новости...)",
+      "status": "machine",
+      "srcHash": "687fdcbdd658a669",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_15": {
+      "en": "(Select Secret...)",
+      "cn": null,
+      "ru": "(Выберите Секретный...)",
+      "status": "machine",
+      "srcHash": "86d3d6fe4cd48585",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_16": {
+      "en": "Tests Selecting Target's Martial Art...",
+      "cn": null,
+      "ru": "Проверяет выбор Боевой техники цели...",
+      "status": "machine",
+      "srcHash": "32b4324f27418bb9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_17": {
+      "en": "Tests Selecting Target's Fine Art...",
+      "cn": null,
+      "ru": "Проверяет выбор Ремесла цели...",
+      "status": "machine",
+      "srcHash": "42d34e7044f622c2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_18": {
+      "en": "Tests Event Option Limit",
+      "cn": null,
+      "ru": "Ограничение параметров тестового события",
+      "status": "machine",
+      "srcHash": "a8bccc6852c9165b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_19": {
+      "en": "Tester selected Enlightenment on Reincarnation Mother...",
+      "cn": null,
+      "ru": "Тестировщик выбрал Просветление о реинкарнации Матери...",
+      "status": "machine",
+      "srcHash": "e3629ee77d693a3d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd9f2dae-3194-4de9-995a-8f250c8e25cc/Option_20": {
+      "en": "Return...",
+      "cn": null,
+      "ru": "Возвращайся...",
+      "status": "machine",
+      "srcHash": "fe369fee23d8faa4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "bcd3a1a7-f4cc-48d6-bfe5-a408bdb106a9/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "bcd3a1a7-f4cc-48d6-bfe5-a408bdb106a9/Option_1": {
+      "en": "Confirm",
+      "cn": null,
+      "ru": "Подтверждать",
+      "status": "machine",
+      "srcHash": "8ed0c6b282caf17d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "bcd3a1a7-f4cc-48d6-bfe5-a408bdb106a9/Option_2": {
+      "en": "Cancel",
+      "cn": null,
+      "ru": "Отменить",
+      "status": "machine",
+      "srcHash": "748e25d8f930bfa8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5d5c9c9b-0aae-4cf6-b797-21997f901438/EventContent": {
+      "en": "Choose Clothing:",
+      "cn": null,
+      "ru": "Выбирайте одежду:",
+      "status": "machine",
+      "srcHash": "ad6e2132fa5b7be6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5d5c9c9b-0aae-4cf6-b797-21997f901438/Option_1": {
+      "en": "Wilderness Linen Robes",
+      "cn": null,
+      "ru": "Льняные одеяния дикой природы",
+      "status": "machine",
+      "srcHash": "846883d3d7313e20",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5d5c9c9b-0aae-4cf6-b797-21997f901438/Option_2": {
+      "en": "Hunter's Robes",
+      "cn": null,
+      "ru": "Одежда охотника",
+      "status": "machine",
+      "srcHash": "d73cdf0dffaf78a0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5d5c9c9b-0aae-4cf6-b797-21997f901438/Option_3": {
+      "en": "Short Fatigues",
+      "cn": null,
+      "ru": "Короткая форма одежды",
+      "status": "machine",
+      "srcHash": "51cae736244f23b4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5d5c9c9b-0aae-4cf6-b797-21997f901438/Option_4": {
+      "en": "Taoist Master's Cloak",
+      "cn": null,
+      "ru": "Плащ даосского мастера",
+      "status": "machine",
+      "srcHash": "af9daae5a6ae6bea",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5d5c9c9b-0aae-4cf6-b797-21997f901438/Option_5": {
+      "en": "Golden Gauze Robes",
+      "cn": null,
+      "ru": "Золотистые газовые халаты",
+      "status": "machine",
+      "srcHash": "07d24aed00d887cb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5d5c9c9b-0aae-4cf6-b797-21997f901438/Option_6": {
+      "en": "Linen Garments",
+      "cn": null,
+      "ru": "Льняная одежда",
+      "status": "machine",
+      "srcHash": "1904769cc2d8d7cc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5d5c9c9b-0aae-4cf6-b797-21997f901438/Option_7": {
+      "en": "Faded Monk Robes",
+      "cn": null,
+      "ru": "Выцветшие одеяния Монаха",
+      "status": "machine",
+      "srcHash": "0591822dd120518c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5d5c9c9b-0aae-4cf6-b797-21997f901438/Option_8": {
+      "en": "Fortune's Silk Garb",
+      "cn": null,
+      "ru": "Шелковое одеяние Фортуны",
+      "status": "machine",
+      "srcHash": "af7f436bac173a7c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5d5c9c9b-0aae-4cf6-b797-21997f901438/Option_9": {
+      "en": "Jade-belt Purple Robes",
+      "cn": null,
+      "ru": "Пурпурные одежды с поясом из Нефрита",
+      "status": "machine",
+      "srcHash": "b4975b90ad833f66",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5d5c9c9b-0aae-4cf6-b797-21997f901438/Option_10": {
+      "en": "Remove all Clothing adjustments and return to previous level",
+      "cn": null,
+      "ru": "Снимите все настройки одежды и вернитесь к предыдущему уровню",
+      "status": "machine",
+      "srcHash": "7f4f01abe7946c33",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5d5c9c9b-0aae-4cf6-b797-21997f901438/Option_11": {
+      "en": "(Return to the previous interface...)",
+      "cn": null,
+      "ru": "(Вернитесь к предыдущему интерфейсу...)",
+      "status": "machine",
+      "srcHash": "59b45079eb11c14b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "575273b1-1dae-4882-95b5-3a218c0f726f/EventContent": {
+      "en": "Select items to gift:<NL>1 Food and 1 Martial Arts Book",
+      "cn": null,
+      "ru": "Выберите предметы для подарка:<NL>1 Еда и 1 книга по Боевым искусствам",
+      "status": "machine",
+      "srcHash": "76971be9600b72d6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "575273b1-1dae-4882-95b5-3a218c0f726f/Option_1": {
+      "en": "(Confirm...)",
+      "cn": null,
+      "ru": "(Подтверждаю...)",
+      "status": "machine",
+      "srcHash": "3cf843140f31b490",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "575273b1-1dae-4882-95b5-3a218c0f726f/Option_2": {
+      "en": "(Give...)",
+      "cn": null,
+      "ru": "(Дай...)",
+      "status": "machine",
+      "srcHash": "1d9216066cd648bc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "36395280-52c2-4507-a1f8-583134e21af7/EventContent": {
+      "en": "(Choose news...)",
+      "cn": null,
+      "ru": "(Выберите новости...)",
+      "status": "machine",
+      "srcHash": "687fdcbdd658a669",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "36395280-52c2-4507-a1f8-583134e21af7/Option_1": {
+      "en": "(Oh no...)",
+      "cn": null,
+      "ru": "(О, нет...)",
+      "status": "machine",
+      "srcHash": "b297c97db7f81a8a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "17bcfa46-6855-4e40-a917-f54644ec36be/EventContent": {
+      "en": "You want to fight? You have it! How shall we clash?",
+      "cn": null,
+      "ru": "Ты хочешь драться? У тебя это есть! Как мы столкнемся?",
+      "status": "machine",
+      "srcHash": "3dd71d916cae1329",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "17bcfa46-6855-4e40-a917-f54644ec36be/Option_1": {
+      "en": "Spar...",
+      "cn": null,
+      "ru": "Лонжерон...",
+      "status": "machine",
+      "srcHash": "56dd9c3a3ad77d28",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "17bcfa46-6855-4e40-a917-f54644ec36be/Option_2": {
+      "en": "Brawl",
+      "cn": null,
+      "ru": "Скандалить",
+      "status": "machine",
+      "srcHash": "2db755a81de5a03e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "17bcfa46-6855-4e40-a917-f54644ec36be/Option_3": {
+      "en": "Duel",
+      "cn": null,
+      "ru": "Поединок",
+      "status": "machine",
+      "srcHash": "7b337e43b11db270",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "17bcfa46-6855-4e40-a917-f54644ec36be/Option_4": {
+      "en": "Trial",
+      "cn": null,
+      "ru": "Испытание",
+      "status": "machine",
+      "srcHash": "c36469e3afddc52f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "17bcfa46-6855-4e40-a917-f54644ec36be/Option_5": {
+      "en": "Return",
+      "cn": null,
+      "ru": "Возвращать",
+      "status": "machine",
+      "srcHash": "79eaf3aebb957f5b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "95c63229-4ef6-4e42-922d-debffb4be6c2/EventContent": {
+      "en": "Just selecting items, with no action",
+      "cn": null,
+      "ru": "Просто выбираю элементы, без каких-либо действий",
+      "status": "machine",
+      "srcHash": "109d920bdfcd4a85",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "95c63229-4ef6-4e42-922d-debffb4be6c2/Option_1": {
+      "en": "Select Acritoxin Reagent",
+      "cn": null,
+      "ru": "Выберите Реагент на Акритоксин",
+      "status": "machine",
+      "srcHash": "be5ae9d98d10a4b4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "95c63229-4ef6-4e42-922d-debffb4be6c2/Option_2": {
+      "en": "Select all food & teas & liquors",
+      "cn": null,
+      "ru": "Выберите все виды Еды, чая и ликеров",
+      "status": "machine",
+      "srcHash": "33b0b7a8efd6d284",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "95c63229-4ef6-4e42-922d-debffb4be6c2/Option_3": {
+      "en": "Select 1 to 5 weapons",
+      "cn": null,
+      "ru": "Выберите от 1 до 5 видов оружия",
+      "status": "machine",
+      "srcHash": "0f740d27277e0ed4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "95c63229-4ef6-4e42-922d-debffb4be6c2/Option_4": {
+      "en": "Return...",
+      "cn": null,
+      "ru": "Возвращайся...",
+      "status": "machine",
+      "srcHash": "fe369fee23d8faa4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "143190e0-e5ec-4f51-916c-75edeae8e3e8/EventContent": {
+      "en": "<color=#lightgrey> (stares wide-eyed at <Character key=RoleTaiwu str=Name/>) </color>...",
+      "cn": null,
+      "ru": "<color=#lightgrey> (смотрит широко раскрытыми глазами на <Character key=RoleTaiwu str=Name/>) </color>...",
+      "status": "machine",
+      "srcHash": "53d000aaafefa0b2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "143190e0-e5ec-4f51-916c-75edeae8e3e8/Option_1": {
+      "en": "(Public execution...)",
+      "cn": null,
+      "ru": "(Публичная казнь...)",
+      "status": "machine",
+      "srcHash": "dd630778e0a900ff",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "143190e0-e5ec-4f51-916c-75edeae8e3e8/Option_2": {
+      "en": "Secretly Execute",
+      "cn": null,
+      "ru": "Тайно казнить",
+      "status": "machine",
+      "srcHash": "49c39f0863540ac6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "143190e0-e5ec-4f51-916c-75edeae8e3e8/Option_3": {
+      "en": "(Spare their life...)",
+      "cn": null,
+      "ru": "(Сохрани им жизнь...)",
+      "status": "machine",
+      "srcHash": "969e952ac79d7478",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "143190e0-e5ec-4f51-916c-75edeae8e3e8/Option_4": {
+      "en": "Take Captive...",
+      "cn": null,
+      "ru": "Возьмите Пленника...",
+      "status": "machine",
+      "srcHash": "4fc4c309017c0750",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a145ca5c-66f3-4c8d-a7eb-6d128b38a521/EventContent": {
+      "en": "Greetings! I am <Actor key=LostChildHis str=Name />, <Actor key=LostChildMine str=Age /> years old—a <Actor key=LostChildMine str=ChildGender />. <Actor key=LostHusband str=Name /> is my father, <Actor key=LostWife str=Name /> my mother.",
+      "cn": null,
+      "ru": "Приветствую! Я <Actor key=LostChildHis str=Name />, <Actor key=LostChildMine str=Age /> лет—а <Actor key=LostChildMine str=ChildGender />. <Actor key=LostHusband str=Name /> это мой отец, <Actor key=LostWife str=Name /> моя мать.",
+      "status": "machine",
+      "srcHash": "b5bee6147c33e4c0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "a145ca5c-66f3-4c8d-a7eb-6d128b38a521/Option_1": {
+      "en": "(Oh no...)",
+      "cn": null,
+      "ru": "(О, нет...)",
+      "status": "machine",
+      "srcHash": "b297c97db7f81a8a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c9cd5066-fbfe-477f-af10-d6c99274ebcf/EventContent": {
+      "en": "You entered integer: <ArgBox key=InputResult type=int/>",
+      "cn": null,
+      "ru": "Вы ввели целое число: <ArgBox key=InputResult type=int/>",
+      "status": "machine",
+      "srcHash": "08221830aa39da74",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c9cd5066-fbfe-477f-af10-d6c99274ebcf/Option_1": {
+      "en": "(Oh no...)",
+      "cn": null,
+      "ru": "(О, нет...)",
+      "status": "machine",
+      "srcHash": "b297c97db7f81a8a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "dcca7e6c-225d-4012-8d58-deb43f97f6b3/EventContent": {
+      "en": "I don't wish to engage in a Cricket Duel with you for now.",
+      "cn": null,
+      "ru": "Сейчас я не хочу вступать с вами в Поединок по Сверчку.",
+      "status": "machine",
+      "srcHash": "8b7a74372666e96d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "dcca7e6c-225d-4012-8d58-deb43f97f6b3/Option_1": {
+      "en": "(Return to the previous interface...)",
+      "cn": null,
+      "ru": "(Вернитесь к предыдущему интерфейсу...)",
+      "status": "machine",
+      "srcHash": "59b45079eb11c14b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1a39e482-2d40-46fc-b56c-093080675182/EventContent": {
+      "en": "You selected <Character key=CharacterId str=Name/>'s <CombatSkill key=SelectedCombatSkill str=TypeName/> Martial Arts:<NL><CombatSkill key=SelectedCombatSkill str=SkillName/>",
+      "cn": null,
+      "ru": "Вы выбрали <Character key=CharacterId str=Name/>'s <CombatSkill key=SelectedCombatSkill str=TypeName/> Боевые искусства:<NL><CombatSkill key=SelectedCombatSkill str=SkillName/>",
+      "status": "machine",
+      "srcHash": "fbfb0d248712732f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "1a39e482-2d40-46fc-b56c-093080675182/Option_1": {
+      "en": "(Oh no...)",
+      "cn": null,
+      "ru": "(О, нет...)",
+      "status": "machine",
+      "srcHash": "b297c97db7f81a8a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1542f638-ef2a-497c-b72d-9ce9bf6aed52/EventContent": {
+      "en": "\"Oh? What do you want to offer?\"",
+      "cn": null,
+      "ru": "- О? Что ты хочешь предложить?\"",
+      "status": "machine",
+      "srcHash": "babaeec7acdeb854",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1542f638-ef2a-497c-b72d-9ce9bf6aed52/Option_1": {
+      "en": "Gift Vegetarian Dish & Tier 5 Fine Arts Book...",
+      "cn": null,
+      "ru": "Подарочное вегетарианское блюдо и книга по Ремеслам 5-го Ранга...",
+      "status": "machine",
+      "srcHash": "381fe2229d0b15e3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1542f638-ef2a-497c-b72d-9ce9bf6aed52/Option_2": {
+      "en": "Gift Meat Dish & Tier 5 Martial Arts Book...",
+      "cn": null,
+      "ru": "Подарочное мясное блюдо и книга по Боевым искусствам 5-го Ранга...",
+      "status": "machine",
+      "srcHash": "4b2c255af8176952",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1542f638-ef2a-497c-b72d-9ce9bf6aed52/Option_3": {
+      "en": "I shall withhold gifts for now...",
+      "cn": null,
+      "ru": "Пока я воздержусь от подарков...",
+      "status": "machine",
+      "srcHash": "5731a7d42703c179",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "9ffbc80d-7e00-44eb-985a-1fe621489a7e/EventContent": {
+      "en": "Wise choice!<NL>",
+      "cn": null,
+      "ru": "Мудрый выбор!<NL>",
+      "status": "machine",
+      "srcHash": "5a7b6fdbc10e8a3e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "9ffbc80d-7e00-44eb-985a-1fe621489a7e/Option_1": {
+      "en": "Agreed.",
+      "cn": null,
+      "ru": "Согласен.",
+      "status": "machine",
+      "srcHash": "b9779c578d821153",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "cd3c8561-037a-4d65-865a-da1bfecef183/EventContent": {
+      "en": "Your cricket reigns supreme!<NL>Take this {0} as your due!<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name/>'s Favorability toward <Character key=RoleTaiwu str=Name/> {1}...)</color><NL><size=20>(Rumors spread on the Martial World: <Character key=CharacterId str=Name/> lost to <Character key=RoleTaiwu str=Name/> in a cricket duel...)</size>",
+      "cn": null,
+      "ru": null,
+      "status": "pending",
+      "srcHash": "5fd60e062eac1337",
+      "engine": null,
+      "updatedAt": null
+    },
+    "cd3c8561-037a-4d65-865a-da1bfecef183/Option_1": {
+      "en": "(Give away to ...)",
+      "cn": null,
+      "ru": "(Раздайте...)",
+      "status": "machine",
+      "srcHash": "2ab97176bba4c4e9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f1d2a189-0072-487e-918f-025d2fc5f3eb/EventContent": {
+      "en": "... what... do you want?",
+      "cn": null,
+      "ru": "... чего... ты хочешь?",
+      "status": "machine",
+      "srcHash": "e5a15d48aa58d16c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f1d2a189-0072-487e-918f-025d2fc5f3eb/Option_1": {
+      "en": "(Oh no...)",
+      "cn": null,
+      "ru": "(О, нет...)",
+      "status": "machine",
+      "srcHash": "b297c97db7f81a8a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c719c893-2718-4a52-8928-50cda90b7599/EventContent": {
+      "en": "Your gifts—<Item key=FoodKey str=ColorName/> and <Item key=SkillBookKey str=ColorName/>—delight me profoundly!",
+      "cn": null,
+      "ru": "Твои подарки—<Item key=FoodKey str=ColorName/> и <Item key=SkillBookKey str=ColorName/>— доставь мне глубокое удовольствие!",
+      "status": "machine",
+      "srcHash": "f52c3110cda354b5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "c719c893-2718-4a52-8928-50cda90b7599/Option_1": {
+      "en": "(Other topics...)",
+      "cn": null,
+      "ru": "(Другие темы...)",
+      "status": "machine",
+      "srcHash": "7a159e3b76aa8968",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "10114924-d888-41d9-b284-7d9795a69565/EventContent": {
+      "en": "Enter any string:",
+      "cn": null,
+      "ru": "Введите любую строку:",
+      "status": "machine",
+      "srcHash": "e7f56c05fe3d2ece",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "10114924-d888-41d9-b284-7d9795a69565/Option_1": {
+      "en": "Confirm",
+      "cn": null,
+      "ru": "Подтверждать",
+      "status": "machine",
+      "srcHash": "8ed0c6b282caf17d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "10114924-d888-41d9-b284-7d9795a69565/Option_2": {
+      "en": "(Cancel...)",
+      "cn": null,
+      "ru": "(Отменить...)",
+      "status": "machine",
+      "srcHash": "9ec0672190bb5d3d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "234a42b6-1174-428c-8736-658c2ed85243/EventContent": {
+      "en": "I yield defeat!",
+      "cn": null,
+      "ru": "Я признаю свое поражение!",
+      "status": "machine",
+      "srcHash": "069845285819fe01",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "234a42b6-1174-428c-8736-658c2ed85243/Option_1": {
+      "en": "(Give away to ...)",
+      "cn": null,
+      "ru": "(Раздайте...)",
+      "status": "machine",
+      "srcHash": "2ab97176bba4c4e9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a9cb9bf0-74a8-4c06-ab49-362fe617a686/EventContent": {
+      "en": "Veil worn!",
+      "cn": null,
+      "ru": "Надета вуаль!",
+      "status": "machine",
+      "srcHash": "aa2bc581611146a3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a9cb9bf0-74a8-4c06-ab49-362fe617a686/Option_1": {
+      "en": "Return...",
+      "cn": null,
+      "ru": "Возвращайся...",
+      "status": "machine",
+      "srcHash": "fe369fee23d8faa4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "2f176d99-619e-4a26-87c2-f00e711440cb/EventContent": {
+      "en": "My Attainment in {0} falls short of yours...",
+      "cn": null,
+      "ru": "Мое достижение в {0} не дотягивает до вашего...",
+      "status": "machine",
+      "srcHash": "032965bb6eef0619",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "2f176d99-619e-4a26-87c2-f00e711440cb/Option_1": {
+      "en": "(Give away to ...)",
+      "cn": null,
+      "ru": "(Раздайте...)",
+      "status": "machine",
+      "srcHash": "2ab97176bba4c4e9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7f6b0b0c-360c-40ba-b7ad-a1f7ecd94c0a/EventContent": {
+      "en": "Select input test type:",
+      "cn": null,
+      "ru": "Выберите тип входного теста:",
+      "status": "machine",
+      "srcHash": "d1a709681e463246",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7f6b0b0c-360c-40ba-b7ad-a1f7ecd94c0a/Option_1": {
+      "en": "Tests Unrestricted integer input",
+      "cn": null,
+      "ru": "Проверяет неограниченный целочисленный ввод",
+      "status": "machine",
+      "srcHash": "730da1f74f678e45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7f6b0b0c-360c-40ba-b7ad-a1f7ecd94c0a/Option_2": {
+      "en": "Tests Integer input (1500-3000)",
+      "cn": null,
+      "ru": "Проверяет целочисленный ввод (1500-3000)",
+      "status": "machine",
+      "srcHash": "37f669c93abef176",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7f6b0b0c-360c-40ba-b7ad-a1f7ecd94c0a/Option_3": {
+      "en": "Enter character's father's name",
+      "cn": null,
+      "ru": "Введите имя отца персонажа",
+      "status": "machine",
+      "srcHash": "5cac4a22c56a72fa",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7f6b0b0c-360c-40ba-b7ad-a1f7ecd94c0a/Option_4": {
+      "en": "Tests any string input",
+      "cn": null,
+      "ru": "Проверяет любой строковый ввод",
+      "status": "machine",
+      "srcHash": "5730882bf6babf25",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7f6b0b0c-360c-40ba-b7ad-a1f7ecd94c0a/Option_5": {
+      "en": "(Return to the previous interface...)",
+      "cn": null,
+      "ru": "(Вернитесь к предыдущему интерфейсу...)",
+      "status": "machine",
+      "srcHash": "59b45079eb11c14b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "77c6c3d4-43e0-4f7b-be8b-d82d6d7c0876/EventContent": {
+      "en": "This is the universal battle-end entry event (not UI-visible).",
+      "cn": null,
+      "ru": "Это универсальное событие завершения битвы (не видимое в пользовательском интерфейсе).",
+      "status": "machine",
+      "srcHash": "15be46fd1b6fc5d8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e167f261-512b-4646-9af7-2cb2936f966f/EventContent": {
+      "en": "Enter integer between 1500-3000:",
+      "cn": null,
+      "ru": "Введите целое число в диапазоне от 1500 до 3000:",
+      "status": "machine",
+      "srcHash": "b1503d871618871a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e167f261-512b-4646-9af7-2cb2936f966f/Option_1": {
+      "en": "Confirm",
+      "cn": null,
+      "ru": "Подтверждать",
+      "status": "machine",
+      "srcHash": "8ed0c6b282caf17d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e167f261-512b-4646-9af7-2cb2936f966f/Option_2": {
+      "en": "(Cancel...)",
+      "cn": null,
+      "ru": "(Отменить...)",
+      "status": "machine",
+      "srcHash": "9ec0672190bb5d3d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b7019eb5-40d0-41d8-8f48-5b26e45c7903/EventContent": {
+      "en": "This event tests CG display: The editor first configures black mask control. The parent event's OnOptionSelect interface then triggers CG texture display. Visual sequence initiates: Black screen begins == Black screen complete in 0.5s => CG begins appearing == 1s later CG fully renders => Event proceeds",
+      "cn": null,
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a8596761b7cfd7ff",
+      "engine": null,
+      "updatedAt": null
+    },
+    "b7019eb5-40d0-41d8-8f48-5b26e45c7903/Option_1": {
+      "en": "View CG hiding performance",
+      "cn": null,
+      "ru": "Просмотр производительности скрытия компьютерной графики",
+      "status": "machine",
+      "srcHash": "fc700d020d77fc1e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "62d3304f-9336-4f1d-888f-6c74f4a5ddca/EventContent": {
+      "en": "\"Thank you for your patronage!\"",
+      "cn": null,
+      "ru": "\"Спасибо вам за ваше покровительство!\"",
+      "status": "machine",
+      "srcHash": "52901ce1501f2d10",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "62d3304f-9336-4f1d-888f-6c74f4a5ddca/Option_1": {
+      "en": "Thank you for your patronage!",
+      "cn": null,
+      "ru": "Спасибо вам за ваше покровительство!",
+      "status": "machine",
+      "srcHash": "0ed0014ef21f0188",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "067aec36-3cfa-4282-b990-ffc8cb9fc4e3/EventContent": {
+      "en": "This event only judges Debate outcomes—victory/defeat branch to separate events.",
+      "cn": null,
+      "ru": "В этом событии судят только по результатам Диспутов — победа/поражение разделяются на отдельные события.",
+      "status": "machine",
+      "srcHash": "ff2eabf584130662",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3641b8fd-f1d0-47eb-bedd-0543e296e4da/EventContent": {
+      "en": "\"Your hair and beard... They're not really here.<NL>If you're looking for a grooming, it might be a bit tricky...\"",
+      "cn": null,
+      "ru": "- Твои волосы и борода... На самом деле их здесь нет.<NL>Если вы ищете уход за собой, это может быть немного сложно...\"",
+      "status": "machine",
+      "srcHash": "0f642b5a3dbccd80",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "3641b8fd-f1d0-47eb-bedd-0543e296e4da/Option_1": {
+      "en": "(Other topics...)",
+      "cn": null,
+      "ru": "(Другие темы...)",
+      "status": "machine",
+      "srcHash": "7a159e3b76aa8968",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6be1a30b-6dbc-4d98-80e6-db9faa98e1bb/EventContent": {
+      "en": "I suppose I'm a tad bit more skilled in {0}!",
+      "cn": null,
+      "ru": "Я полагаю, что я немного более опытен в {0}!",
+      "status": "machine",
+      "srcHash": "54b1738cf11f1ae8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6be1a30b-6dbc-4d98-80e6-db9faa98e1bb/Option_1": {
+      "en": "Your skill surpasses mine...",
+      "cn": null,
+      "ru": "Твое мастерство превосходит мое...",
+      "status": "machine",
+      "srcHash": "d4a84613b7e4f515",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "463892c2-a762-489d-8909-3133365d8f48/EventContent": {
+      "en": "Trade all thy Favor for our chickens—you profit handsomely!",
+      "cn": null,
+      "ru": "Обменяй всю свою благосклонность на наших цыплят — ты получишь хорошую прибыль!",
+      "status": "machine",
+      "srcHash": "84e10625a6216e27",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "463892c2-a762-489d-8909-3133365d8f48/Option_1": {
+      "en": "All rejoice!",
+      "cn": null,
+      "ru": "Все радуются!",
+      "status": "machine",
+      "srcHash": "dc5ca34540449f46",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "463892c2-a762-489d-8909-3133365d8f48/Option_2": {
+      "en": "Hold on a sec",
+      "cn": null,
+      "ru": "Подожди секунду",
+      "status": "machine",
+      "srcHash": "145df9519e567cd5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fe797306-c4e9-4acb-8753-82026397e4ef/EventContent": {
+      "en": "Hah! My champion cricket triumphs!<NL><NL>Since you lose, I claim {0}!<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name/>'s Favorability toward <Character key=RoleTaiwu str=Name/> rises...)</color><NL><NL><size=18>(Rumors spread on the Martial World: <Character key=RoleTaiwu str=Name/> lost to <Character key=CharacterId str=Name/> in a cricket duel...)</size>",
+      "cn": null,
+      "ru": null,
+      "status": "pending",
+      "srcHash": "90c315092d1d0466",
+      "engine": null,
+      "updatedAt": null
+    },
+    "fe797306-c4e9-4acb-8753-82026397e4ef/Option_1": {
+      "en": "Rematch next year...",
+      "cn": null,
+      "ru": "Матч-реванш в следующем году...",
+      "status": "machine",
+      "srcHash": "d5f6fe2b86f32e28",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e330225f-78f8-42ea-8b92-fade39bbaa56/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "cccd9a33-645d-4ba2-b241-c069280e1069/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d52d22e5-57d3-40a7-85a5-4fde87f4c49e/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8ae2e22c-70d0-418b-b978-0869a8125efa/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "caaff4e6-a797-454a-b7ee-040837cf9b24/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c2d61110-53a1-4347-a162-b422e3d178e6/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3b5cb283-a5e0-4f2d-8875-8c35489517be/EventContent": {
+      "en": "Test - Martial Artist's Four Skills",
+      "cn": null,
+      "ru": "Тест - Четыре навыка Мастера боевых искусств",
+      "status": "machine",
+      "srcHash": "2e434ccd64f95abe",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3b5cb283-a5e0-4f2d-8875-8c35489517be/Option_1": {
+      "en": "Release",
+      "cn": null,
+      "ru": "Выпускать",
+      "status": "machine",
+      "srcHash": "85563e849c0c9e73",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3b5cb283-a5e0-4f2d-8875-8c35489517be/Option_2": {
+      "en": "Cancel",
+      "cn": null,
+      "ru": "Отменить",
+      "status": "machine",
+      "srcHash": "748e25d8f930bfa8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "bb8dd1b9-9168-4cca-b56e-f519a62ad60e/EventContent": {
+      "en": "s's",
+      "cn": null,
+      "ru": "с",
+      "status": "machine",
+      "srcHash": "223d64193ae094c2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "678cae4f-1698-4967-a945-66adfb5d4729/EventContent": {
+      "en": "s ",
+      "cn": null,
+      "ru": "s ",
+      "status": "machine",
+      "srcHash": "ab35e4f3907ef955",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8fd04e86-d133-4ba6-91fa-9dda4fb03766/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1e0a8d1b-3463-4c48-a57c-57d41cc48ca7/EventContent": {
+      "en": "'s",
+      "cn": null,
+      "ru": "'s",
+      "status": "machine",
+      "srcHash": "cf0e07b189552f8e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1e0a8d1b-3463-4c48-a57c-57d41cc48ca7/Option_1": {
+      "en": "Reduce True Qi",
+      "cn": null,
+      "ru": "Уменьшите Истинную Ци",
+      "status": "machine",
+      "srcHash": "3b9e602e2441dc0b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1e0a8d1b-3463-4c48-a57c-57d41cc48ca7/Option_2": {
+      "en": "Increase True Qi",
+      "cn": null,
+      "ru": "Увеличьте Истинную Ци",
+      "status": "machine",
+      "srcHash": "7c2a5f8b09f59e36",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1e0a8d1b-3463-4c48-a57c-57d41cc48ca7/Option_3": {
+      "en": "Heal Random Injuries",
+      "cn": null,
+      "ru": "Исцелять случайные травмы",
+      "status": "machine",
+      "srcHash": "a6d280f2ece5ef72",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "9d67784d-4f28-4d48-a4d3-227de960a671/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4661d2c6-6988-4c14-b1e4-ff0f781af900/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4aa95155-338e-41aa-ab95-91784c73ddd8/EventContent": {
+      "en": "sd ",
+      "cn": null,
+      "ru": "sd ",
+      "status": "machine",
+      "srcHash": "cae69fdd081be0c6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5d41bc66-d0ff-4a12-9052-a11643a5a395/EventContent": {
+      "en": "sdf ",
+      "cn": null,
+      "ru": "sdf ",
+      "status": "machine",
+      "srcHash": "e66cdfab2bc0a03c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "619f0a48-b4c1-4972-ab4c-25c5234d7e86/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e4c73cd2-af48-4920-866f-8708a5b788bb/EventContent": {
+      "en": "Yes",
+      "cn": null,
+      "ru": "Да",
+      "status": "machine",
+      "srcHash": "71855910907bfc8f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "aa8c7cd0-f20d-4e2e-855d-03865412f82b/EventContent": {
+      "en": "s",
+      "cn": null,
+      "ru": "s",
+      "status": "machine",
+      "srcHash": "be4dc597dd6497be",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "080bd394-233e-4b69-890e-44bce851232c/EventContent": {
+      "en": "s",
+      "cn": null,
+      "ru": "s",
+      "status": "machine",
+      "srcHash": "be4dc597dd6497be",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "9852d4dc-1bdd-4266-a94d-0c0fb1dfa30a/EventContent": {
+      "en": "sdf",
+      "cn": null,
+      "ru": "sdf",
+      "status": "machine",
+      "srcHash": "379ad25519583d94",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "bba62ff3-c4b0-4eab-9a93-12a76901777c/EventContent": {
+      "en": "s",
+      "cn": null,
+      "ru": "s",
+      "status": "machine",
+      "srcHash": "be4dc597dd6497be",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "cd7c96c1-49f4-468d-a91f-d7303e0c3409/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ab7f385c-5841-4820-919d-3889fd4642f3/EventContent": {
+      "en": "sdf",
+      "cn": null,
+      "ru": "sdf",
+      "status": "machine",
+      "srcHash": "379ad25519583d94",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c64a7ef6-8d50-42ec-993e-c46e0c911bbc/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8e793937-6b1b-4381-a371-a9f958af8364/EventContent": {
+      "en": "Yes",
+      "cn": null,
+      "ru": "Да",
+      "status": "machine",
+      "srcHash": "71855910907bfc8f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    }
+  }
+}

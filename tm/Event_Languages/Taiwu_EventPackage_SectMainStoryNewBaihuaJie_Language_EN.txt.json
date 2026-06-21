@@ -1,0 +1,1159 @@
+{
+  "schemaVersion": 1,
+  "file": "Event_Languages/Taiwu_EventPackage_SectMainStoryNewBaihuaJie_Language_EN.txt",
+  "glossaryVersion": 5,
+  "units": {
+    "0fc236fd-a4b8-46aa-a79c-548590829b8b/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> walks into this place, when a sudden stench assaults the senses, sharp and acrid...<NL><NL>Raising their gaze, <Character key=RoleTaiwu str=GenderSubject/> sees <Character key=MonthlyEvent_arg0 str=Name/> standing in the middle of the path,<NL>wreathed in dark aura. The figure's form is gaunt and corpse-like, its face twisted and terrifying—as if a vengeful spirit had returned from death to claim a debt...<NL>All at once, <Character key=MonthlyEvent_arg0 str=Name/> lets out a thunderous roar and charges straight at <Character key=RoleTaiwu str=Name/>!",
+      "cn": "<Character key=RoleTaiwu str=Name/>行至此地，忽闻得一股刺鼻的异臭……<NL><NL>抬首望去，但见<Character key=MonthlyEvent_arg0 str=Name/>立于道中，<NL>其周身黑气缭绕，形若槁骸，面目骇人，竟好似前来索命的冤魂恶鬼一般……<NL>忽而，<Character key=MonthlyEvent_arg0 str=Name/>发出一声暴喝，骤然向<Character key=RoleTaiwu str=Name/>袭来！",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "812afa6bdd7f6e55",
+      "engine": null,
+      "updatedAt": null
+    },
+    "0fc236fd-a4b8-46aa-a79c-548590829b8b/Option_1": {
+      "en": "(Engage in battle!)",
+      "cn": "（与之一战！）",
+      "ru": "(Вступайте в бой!)",
+      "status": "machine",
+      "srcHash": "9a56839a8b852dcc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0fc236fd-a4b8-46aa-a79c-548590829b8b/Option_2": {
+      "en": "(Avoid the battle...)",
+      "cn": "（避而不战……）\n",
+      "ru": "(Избегайте битвы...)",
+      "status": "machine",
+      "srcHash": "9ad7b9b89e4bdb47",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "04c0eb45-9eed-419b-aa42-ab3938751995/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d522a30d-67c3-4d7b-9a6a-e4bbfeee98c3/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> knocks down <Character key=MonthlyEvent_arg0 str=Name/>.<NL><Character key=MonthlyEvent_arg0 str=Name/> is unable to fight back...",
+      "cn": "<Character key=RoleTaiwu str=Name/>将<Character key=MonthlyEvent_arg0 str=Name/>击倒在地，<NL><Character key=MonthlyEvent_arg0 str=Name/>再无还手之力......",
+      "ru": "<Character key=RoleTaiwu str=Name/> сбивает с ног <Character key=MonthlyEvent_arg0 str=Name/>.<NL><Character key=MonthlyEvent_arg0 str=Name/> не в состоянии дать отпор...",
+      "status": "machine",
+      "srcHash": "aa4b96f68fbd0c1c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "d522a30d-67c3-4d7b-9a6a-e4bbfeee98c3/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ad874052-400d-46f8-b4d7-c43d01abf41e/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> is knocked down by <Character key=MonthlyEvent_arg0 str=Name/> and is unable to fight back...",
+      "cn": "<Character key=RoleTaiwu str=Name/>被<Character key=MonthlyEvent_arg0 str=Name/>击倒在地，再无还手之力......",
+      "ru": "<Character key=RoleTaiwu str=Name/> сбит с ног <Character key=MonthlyEvent_arg0 str=Name/> и не в состоянии дать отпор...",
+      "status": "machine",
+      "srcHash": "288a4bec325cafa7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "ad874052-400d-46f8-b4d7-c43d01abf41e/Option_1": {
+      "en": "(Feeling helpless...)",
+      "cn": "（无可奈何……）\n",
+      "ru": "(Чувствуя себя беспомощным...)",
+      "status": "machine",
+      "srcHash": "da35b0984e20c125",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "930e3d91-1359-429e-89fe-5f51d30c64b7/EventContent": {
+      "en": "For months now, the dark aura has crept toward Taiwu Village.<NL>Though <Character key=RoleTaiwu str=Name/> longs to put a stop to it, the whereabouts of The One Reborn remain elusive.<NL>The words once spoken by Bai Wuyang and Xuan Wuyou still echo in <Character key=RoleTaiwu str=Name/>'s mind:<NL><NL>\"Only by destroying the living corpse—or truly bringing it back to life—can the deathly aura be cleansed...\"",
+      "cn": "黑气往太吾村袭来已有数月，<NL><Character key=RoleTaiwu str=Name/>虽有心阻止，却奈何难以寻得那“复生之人”的下落，<NL>白无恙与玄无忧前辈此前所言，彻底消弭死气的方法，犹在<Character key=RoleTaiwu str=Name/>耳边……<NL><NL>“唯有将那‘活尸’除去，亦或将其真的救活……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6e1722eeffb96ca0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "930e3d91-1359-429e-89fe-5f51d30c64b7/Option_1": {
+      "en": "Being worried and anxious...",
+      "cn": "（忧心忡忡……）\n",
+      "ru": "Быть взволнованным и встревоженной...",
+      "status": "machine",
+      "srcHash": "adf60e3ff539b2f3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1b8a0a06-cea2-4c51-87e1-b76f70d832d2/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> recalls fragmented dreams from the past.<NL>In those dreams, could The One Reborn have been the very first Taiwu?<NL><NL>And yet, from the mouths of both The One Reborn and Feng Qing, another name is spoken—<NL>another Taiwu who departed after the sealing of the Demonbane Sword Mound over three hundred years ago...<NL><NL>It is this Taiwu who seems to have grasped the whole, who wields one to command the many...<NL>But who could this person truly be?",
+      "cn": "<Character key=RoleTaiwu str=Name/>再又回想起此前那些支离破碎的梦境，<NL>以梦境而言，“复生之人”岂不正是世上第一位“太吾”？<NL><NL>可是，在“复生之人”的口中，在冯青的口中，却明明还有另一位——<NL>自三百多年前，封魔剑冢设下之后，便即“离去”的“太吾”……<NL><NL>而这位“太吾”，似乎才是以一持万，统率全局之人……<NL>这人，又会是谁呢？",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c5475e7c3a1a0aab",
+      "engine": null,
+      "updatedAt": null
+    },
+    "1b8a0a06-cea2-4c51-87e1-b76f70d832d2/Option_1": {
+      "en": "(The mystery remains unresolved...)",
+      "cn": "（迷团尚未能尽解……）\n",
+      "ru": "(Тайна остается неразгаданной...)",
+      "status": "machine",
+      "srcHash": "1eca1c852a5ffc4d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "70fa525e-dcdb-4f63-a691-30bfa371367b/EventContent": {
+      "en": "While <Character key=RoleTaiwu str=Name/> worries over the encroaching darkness,<NL>a strange wind lashes against <Character key=RoleTaiwu str=Name/>'s face, burning like knives.<NL>Turning toward the source, <Character key=RoleTaiwu str=Name/> sees a lone figure,<NL>who stands within the thickest shroud of dark aura...",
+      "cn": "<Character key=RoleTaiwu str=Name/>正为黑气而忧虑，<NL>一阵怪风忽地吹来，将<Character key=RoleTaiwu str=Name/>面上刮得生痛，<NL><Character key=RoleTaiwu str=Name/>往怪风来处一看，竟看到在那黑气最为浓重之地，<NL>有一个人影，矗立其中！",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b9e34dfd98cdfcb9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "70fa525e-dcdb-4f63-a691-30bfa371367b/Option_1": {
+      "en": "(Could it be!)",
+      "cn": "（莫非是！）\n",
+      "ru": "(Может ли это быть!)",
+      "status": "machine",
+      "srcHash": "80b38a78af480ba9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e86e08dd-1302-4022-9113-4d2ae449d2c2/EventContent": {
+      "en": "Looking closer, <Character key=RoleTaiwu str=Name/> realizes—<NL>it is not that the figure stands in the dark aura,<NL>but that the mist pours outward from the figure's chest,<NL>coiling tightly around them...",
+      "cn": "<Character key=RoleTaiwu str=Name/>定睛再看，<NL>只见并非是那人站在黑气浓重之地，<NL>而是无数黑气，自那人胸口涌出，<NL>将那人团团围绕！",
+      "ru": "Приглядываюсь повнимательнее, <Character key=RoleTaiwu str=Name/> осознает—<NL>дело не в том, что фигура стоит в темной ауре,<NL>но что туман изливается наружу из груди фигуры,<NL>плотно обвиваясь вокруг них...",
+      "status": "machine",
+      "srcHash": "ee307abedfa617ca",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "e86e08dd-1302-4022-9113-4d2ae449d2c2/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0ff68585-f513-4eda-8e2f-4c9127091a09/EventContent": {
+      "en": "A brief jolt of shock rises in <Character key=RoleTaiwu str=Name/>'s heart, only to quickly settle.<NL>Somehow, <Character key=RoleTaiwu str=GenderSubject/> has long sensed this person would return.<NL><NL>This is the place where that one was born... and where they died.<NL>The place where they once shared extraordinary trials with Taiwu...<NL>The very place where Feng Qing traded breath for life...",
+      "cn": "<Character key=RoleTaiwu str=Name/>稍感震惊，却又很快平复，<NL>似乎隐隐知道，此人回到这里，乃是早已可以料定之事，<NL><NL>此地乃是其生之地、其死之地，<NL>乃是其与“太吾”共同经历过非凡际遇之地，<NL>更是冯青……为其渡气换命之地……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "8c1c1e87f4803766",
+      "engine": null,
+      "updatedAt": null
+    },
+    "0ff68585-f513-4eda-8e2f-4c9127091a09/Option_1": {
+      "en": "(This calamity of death... must end where it began...)",
+      "cn": "（这次的死气之劫，亦需在此地终结……）\n",
+      "ru": "(Это бедствие смерти... должно закончиться там, где началось...)",
+      "status": "machine",
+      "srcHash": "923f04ad7b8f1d71",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd7534b5-bf1b-464c-9c66-331daba4b421/EventContent": {
+      "en": "A sudden cry of an owl rings out, followed by the appearance of White Deer.<NL>The owl and the deer both look anxious, as if recalling something from long ago.<NL>Without hesitation, they dart behind <Character key=RoleTaiwu str=Name/>, fixing their eyes on the figure within the dark aura.",
+      "cn": "紧接着，鸮鸣响起，随白鹿而来，<NL>一鸮一鹿神色慌张，似乎也想起了什么，<NL>径直躲到<Character key=RoleTaiwu str=Name/>身后，死死地盯着那黑气中的人影。",
+      "ru": "Внезапно раздается крик совы, за которым следует появление Белого оленя.<NL>Сова и олень оба выглядят встревоженными, как будто вспоминают что-то из давних времен.<NL>Не колеблясь, они бросаются за <Character key=RoleTaiwu str=Name/>, устремив свои взгляды на фигуру в темной ауре.",
+      "status": "machine",
+      "srcHash": "c069ac38e8778293",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "fd7534b5-bf1b-464c-9c66-331daba4b421/Option_1": {
+      "en": "(Dark Owl, White Deer... do you remember this figure too? It is The One Reborn... returned...)",
+      "cn": "（玄鸮、白鹿……你们还记得此人？是那“复生之人”回来了……）\n",
+      "ru": "(Темная сова, Белый олень... вы тоже помните эту цифру? Это Тот, Кто Возродился... вернулся...)",
+      "status": "machine",
+      "srcHash": "a7f564131b66311e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "35f1fecc-1a1f-470a-a36e-a9b2097d5092/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> gazes toward the heart of the dark aura.<NL>The One Reborn stands still, unmoving.<NL>Though they remain far apart, <Character key=RoleTaiwu str=GenderSubject/> can clearly feel the look in their eyes...<NL><NL>\"This matter... must be resolved...\"<NL>It is as if The One Reborn speaks directly to <Character key=RoleTaiwu str=Name/>.",
+      "cn": "遥望黑气深处，<NL>那“复生之人”既不移，也不动，<NL><Character key=RoleTaiwu str=Name/>与其虽相距甚远，却好似仍能触到彼此眼中的神色，<NL><NL>“此事应当……有所了结了……”<NL>“复生之人”仿佛在对<Character key=RoleTaiwu str=Name/>说。",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b2414fe1a0347c2d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "35f1fecc-1a1f-470a-a36e-a9b2097d5092/Option_1": {
+      "en": "(It must indeed... come to an end...)",
+      "cn": "（此事自当……有所了结……）\n",
+      "ru": "(Это действительно должно... закончиться...)",
+      "status": "machine",
+      "srcHash": "ea1a7fd004ce9c7a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c8c22efb-45d9-43aa-a5d2-0205d7d67d07/EventContent": {
+      "en": "Time passes since the fateful battle with The One Reborn.<NL>Thanks to <Character key=RoleTaiwu str=Name/>, and with the efforts of Bai Wuyang, Xuan Wuyou, and the Valley of Flowers,<NL>the lingering turmoil gradually settles...<NL><NL>Yet though Bai Wuyang and Xuan Wuyou have returned from death,<NL>old regrets rise once more to haunt them.<NL>After saving many lives, the two elders quietly leave without a word.",
+      "cn": "自与“复生之人”一战以后，已过去了许久。<NL>在<Character key=RoleTaiwu str=Name/>、白无恙与玄无忧，以及百花谷的努力下，<NL>此事的余波也终于渐渐地平息……<NL><NL>然而，白无恙与玄无忧二位前辈虽是死而复生，<NL>但那些过往的遗憾也随之重又萦绕回二人的心间，<NL>二位前辈在奋力救治了许多人后，便即悄然离去。",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f9bb051289015aed",
+      "engine": null,
+      "updatedAt": null
+    },
+    "c8c22efb-45d9-43aa-a5d2-0205d7d67d07/Option_1": {
+      "en": "Wounds of the heart run deeper than wounds of flesh... Who knows how they fare now?",
+      "cn": "心思之伤，更胜血肉之残，不知二位前辈现在如何了……\n",
+      "ru": "Раны сердца глубже, чем раны плоти... Кто знает, как у них сейчас обстоят дела?",
+      "status": "machine",
+      "srcHash": "8974a7d3e18556a8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c9b77c52-bbf2-42a9-aa8a-acb6c75d43a3/EventContent": {
+      "en": "As <Character key=RoleTaiwu str=Name/> ponders,<NL>a young deer suddenly leaps out from the thicket,<NL>its hooves barely making a sound. It steps lightly before <Character key=RoleTaiwu str=Name/>...",
+      "cn": "<Character key=RoleTaiwu str=Name/>正思量间，<NL>一头小鹿，兀地从一旁的树丛间跃出，<NL>踏着碎步来到<Character key=RoleTaiwu str=Name/>的面前……",
+      "ru": "Как <Character key=RoleTaiwu str=Name/> размышляет,<NL>внезапно из чащи выскакивает молодой олень,<NL>его копыта почти не издавали звука. Он легко ступает перед <Character key=RoleTaiwu str=Name/>...",
+      "status": "machine",
+      "srcHash": "b81a81fd53c67e62",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "c9b77c52-bbf2-42a9-aa8a-acb6c75d43a3/Option_1": {
+      "en": "You are...?",
+      "cn": "你是？\n",
+      "ru": "Ты...?",
+      "status": "machine",
+      "srcHash": "e5104bed865ecb95",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "86ca6b28-2953-4673-a42c-ca81961f45eb/EventContent": {
+      "en": "The fawn tilts its head, glances up at <Character key=RoleTaiwu str=Name/>,<NL>then lifts its neck with pride—revealing a silk pouch tied around it...<NL>Embroidered upon the pouch: a deer antler and an owl feather.",
+      "cn": "小鹿歪头看了<Character key=RoleTaiwu str=Name/>一眼，<NL>随后将脖子一挺，显出脖子上的一个锦囊来……<NL>锦囊上画着一支鹿角与一支鸮羽。",
+      "ru": "Олененок наклоняет голову, смотрит на <Character key=RoleTaiwu str=Name/>,<NL>затем с гордостью приподнимает шею, показывая завязанный вокруг нее шелковый мешочек...<NL>На мешочке вышиты: оленьи рога и совиное перо.",
+      "status": "machine",
+      "srcHash": "fa7576de255712d6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "86ca6b28-2953-4673-a42c-ca81961f45eb/Option_1": {
+      "en": "Antler... feather... could this be a message from Bai Wuyang and Xuan Wuyou?",
+      "cn": "鹿角……鸮羽……莫非是白无恙与玄无忧二位前辈的来信？\n",
+      "ru": "Рог... перо... может ли это быть сообщением от Бай Уяна и Сюань У Ю?",
+      "status": "machine",
+      "srcHash": "b29cf6fde399a2e0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4b3c03fb-f875-4de7-94cf-c15eceb096ad/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> swiftly unties the pouch.<NL>Having completed its task, the little deer spins happily in place, then bounds back into the forest,<NL>vanishing among the dappled light and shadow.",
+      "cn": "<Character key=RoleTaiwu str=Name/>立刻从小鹿脖颈上取下锦囊，<NL>完成使命的小鹿旋即在原地转了个圈，开开心心地又跃回了树丛之中，<NL>消失在一片斑驳的树影之外。",
+      "ru": "<Character key=RoleTaiwu str=Name/> быстро развязывает мешочек.<NL>Выполнив свою задачу, маленький олень радостно кружится на месте, а затем убегает обратно в лес,<NL>исчезающий среди пятнистого света и тени.",
+      "status": "machine",
+      "srcHash": "fb9c32e69da788a3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "4b3c03fb-f875-4de7-94cf-c15eceb096ad/Option_1": {
+      "en": "(Open the pouch...)",
+      "cn": "（打开锦囊……）\n",
+      "ru": "(Открой мешочек...)",
+      "status": "machine",
+      "srcHash": "565248b66f14a4ba",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c1be29a2-a267-4326-927b-3fb5e5ae44ba/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> opens the pouch and finds within a letter,<NL>its cover inscribed with bold words:<NL>\"To Taiwu.\" As the <Character key=RoleTaiwu str=Name/> unfolds the letter, a gentle scent of medicine drifts forth...<NL><NL>\"It has been some time since we parted.<NL>Taiwu, are you well?\"",
+      "cn": "<Character key=RoleTaiwu str=Name/>打开锦囊，<NL>果然在其中看到一封写着“太吾亲启”四个大字的书信，<NL><Character key=RoleTaiwu str=Name/>将书信展开，一阵柔和的药香亦随之而出：<NL><NL>距离上次一别，已有多时，<NL>不知“太吾”可还安好？",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "667cc87ad715420f",
+      "engine": null,
+      "updatedAt": null
+    },
+    "c1be29a2-a267-4326-927b-3fb5e5ae44ba/Option_1": {
+      "en": "As expected... it is a letter from Bai Wuyang and Xuan Wuyou.",
+      "cn": "果然是白无恙与玄无忧二位前辈的来信……\n",
+      "ru": "Как и ожидалось... это письмо от Бай Уяна и Сюань У Ю.",
+      "status": "machine",
+      "srcHash": "a5fbf453c48ee093",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "81ff19ce-49b3-4b10-af4d-4010181df1c2/EventContent": {
+      "en": "\"We apologize for our departure without a proper farewell. Please forgive us, Taiwu.<NL>After returning to life, we were overwhelmed.<NL>So many thoughts, so many emotions—yet no words could truly convey them.<NL><NL>Thus, we journeyed back to the places of old.<NL>To honor the departed, and to commune with Heaven and Earth once more...<NL>Day after day, Wuyang and I revisited those memories—of returning to our original selves, of receiving your guidance in Taiwu Village.<NL>And only then did we realize how far we had drifted from our original purpose...<NL>In that moment, we came to an understanding...\"",
+      "cn": "“此前不告而别，万望‘太吾’见谅！<NL>实乃，我与无恙复生之后，再世为人，<NL>一时思绪如潮，千言万语，难寻头绪。<NL><NL>故而，我等携手，重回旧地，<NL>一则祭拜故人，二则重与天地‘攀谈’……<NL>一连数十日，我与无恙再又回顾退回原身，在太吾村中，受你指点之情景，<NL>方才惊觉，我等此前之忧扰、之隔阂，已与初心渐行渐远，<NL>至此，我与无恙终有所悟……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c5e44ce145ad535a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "81ff19ce-49b3-4b10-af4d-4010181df1c2/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "25e0599b-36f2-47c6-940b-238605094ede/EventContent": {
+      "en": "\"We apologize for our departure without a proper farewell. Please forgive us, Taiwu.<NL>After returning to life, we were overwhelmed.<NL>So many thoughts, so many emotions—yet no words could truly convey them.<NL><NL>Thus, we each journeyed back to the places of old.<NL>To honor the departed, and to commune with Heaven and Earth once more...<NL>Day after day, Wuyang and I revisited those memories—of returning to our original selves, of receiving your care in Taiwu Village.<NL>And only then did we realize how far we had drifted from our original purpose...\"",
+      "cn": "“此前不告而别，万望‘太吾’见谅！<NL>实乃，我与无恙复生之后，再世为人，<NL>一时思绪如潮，千言万语，难寻头绪。<NL><NL>故而，我等分别重回旧地，<NL>一则祭拜故人，二则重与天地‘攀谈’……<NL>一连数十日，我与无恙再又回顾退回原身，在太吾村中，蒙你照料之情景，<NL>方才惊觉，我等此前之忧扰、之隔阂，已与初心渐行渐远……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "877b4953b7b734ee",
+      "engine": null,
+      "updatedAt": null
+    },
+    "25e0599b-36f2-47c6-940b-238605094ede/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "901ccfe8-1281-432c-9ad2-6ff8aaaa371a/EventContent": {
+      "en": "\"Though difficult to describe in full,<NL>we now seem to grasp the meaning of being Taiwu—<NL>'To rid the world of evil, ask not what came before or what follows.'<NL><NL>Still, Wuyang and I have yet to reach such clarity of heart.\"",
+      "cn": "“其中思绪，信中虽难以尽道……<NL>但我与无恙却似乎更明白了‘太吾’之含义——<NL>‘一心除魔，莫问前后’，<NL><NL>总之，我与无恙仍是难以企及此等心境的。”",
+      "ru": "\"Хотя это трудно описать в полном объеме,<NL>теперь, кажется, мы понимаем, что значит быть Тайу—<NL>\"Чтобы избавить мир от зла, не спрашивай, что было раньше или что последует\".<NL><NL>Тем не менее, нам с Уяном еще предстоит достичь такой ясности сердца\".",
+      "status": "machine",
+      "srcHash": "221169b6583419d9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "901ccfe8-1281-432c-9ad2-6ff8aaaa371a/Option_1": {
+      "en": "(To rid the world of evil, ask not what came before or what follows...)",
+      "cn": "（一心除魔，莫问前后……）\n",
+      "ru": "(Чтобы избавить мир от зла, не спрашивай, что было раньше или что последует...)",
+      "status": "machine",
+      "srcHash": "72a4117768f611c6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ce52a310-2fc8-487a-8e92-2d2f449ccf52/EventContent": {
+      "en": "\"These days, we reflect on our past,<NL>and on the nature of life and death.<NL>Our cultivation, we now see, remains shallow. We could not do enough—for each other, for the people, or for you, Taiwu...<NL><NL>So we have decided:<NL>I head south, and Wuyang north.<NL>We walk separate paths to deepen our practice...<NL><NL>May fate allow us insight in the days ahead...<NL>Taiwu, take care.\"",
+      "cn": "“我与无恙这些时日，<NL>反思过去，感悟生死，<NL>只觉得我等修行仍然太浅，难以为彼此，为世人，为‘太吾’……尽到我等之力，<NL><NL>思来想去，我与无恙决定，<NL>一往天南，一往海北，分别上路，<NL>再到世间好生修炼一番，<NL><NL>只盼，将来能有所悟……<NL>万望‘太吾’珍重……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d9d7f82ad922f19b",
+      "engine": null,
+      "updatedAt": null
+    },
+    "ce52a310-2fc8-487a-8e92-2d2f449ccf52/Option_1": {
+      "en": "Their regrets still linger in their hearts, unable to let go...",
+      "cn": "二位前辈终是放不下心中的遗憾……\n",
+      "ru": "Их сожаления все еще живут в их сердцах, не в силах их отпустить...",
+      "status": "machine",
+      "srcHash": "8759336baa058027",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a4d8b0c1-2dfa-401c-8f0a-fdbe07a265ff/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> finishes reading,<NL>and returns the letter to the pouch...",
+      "cn": "<Character key=RoleTaiwu str=Name/>将信看完，<NL>重又放回锦囊之中……",
+      "ru": "<Character key=RoleTaiwu str=Name/> заканчивает чтение,<NL>и возвращает письмо в сумку...",
+      "status": "machine",
+      "srcHash": "abee48e9eedf3268",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a4d8b0c1-2dfa-401c-8f0a-fdbe07a265ff/Option_1": {
+      "en": "(Guess that's how it has to be...)",
+      "cn": "（只好如此……）\n",
+      "ru": "(Думаю, так и должно быть...)",
+      "status": "machine",
+      "srcHash": "6e390e39dac24598",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "59a29670-3134-4dc6-9e25-eb6e6b4bcf5a/EventContent": {
+      "en": "\"Though difficult to describe in full,<NL>we now seem to grasp the meaning of being Taiwu—<NL>'To rid the world of evil, ask not what came before or what follows.'<NL><NL>Still, we may not yet reach such purity,\"<NL>but we still hope to offer our strength, however small, for your sake.\"",
+      "cn": "“其中思绪，信中虽难以尽道……<NL>但我与无恙却似乎更明白了‘太吾’之含义——<NL>‘一心除魔，莫问前后’，<NL><NL>总之，我与无恙虽仍无法企及此等心境，<NL>却仍希望能为‘太吾’尽我等绵薄之力！”",
+      "ru": "\"Хотя это трудно описать в полном объеме,<NL>теперь, кажется, мы понимаем, что значит быть Тайу—<NL>\"Чтобы избавить мир от зла, не спрашивай, что было раньше или что последует\".<NL><NL>И все же, возможно, мы еще не достигли такой чистоты\".<NL>но мы все еще надеемся предложить нашу Силу, какой бы незначительной она ни была, ради вас\".",
+      "status": "machine",
+      "srcHash": "15e017c6c807c62b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "59a29670-3134-4dc6-9e25-eb6e6b4bcf5a/Option_1": {
+      "en": "(To rid the world of evil, ask not what came before or what follows...)",
+      "cn": "（一心除魔，莫问前后……）\n",
+      "ru": "(Чтобы избавить мир от зла, не спрашивай, что было раньше или что последует...)",
+      "status": "machine",
+      "srcHash": "72a4117768f611c6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4b4a47f6-71e0-44b2-9e61-cd80fb936cb7/EventContent": {
+      "en": "\"In recent days, Wuyang and I have not only reflected and meditated,<NL>but have delved further into the Octomancy Requiem.<NL>Through our bond with you, we've come to realize its true essence:<NL><NL>once used to link the fates of several lives,<NL>rendering them unable to harm one another—<NL>a technique intended to end killing, though powerful and rigid,<NL>treating symptoms but not the root.<NL>Now, we have refined it—more fluid, more adaptable...<NL>We await you in the Valley of Flowers, Taiwu,<NL>that we might wield this art together,<NL>and bring peace to the world...\"",
+      "cn": "“我与无恙这些时日，<NL>除了反思、感悟，还一同将那八生八死之法继续钻研了一番，<NL>终于，经由与你相识，让我等悟得了其中的窍要——<NL><NL>这八生八死之法，<NL>原为将数人之生死气命相连，令得这数人相互不能杀伤，<NL>虽原本是有止战止杀之意，但强横有余，难以变通，可谓治其标，而难治其本，<NL>故而，我与无恙将其中窍要稍做改变，<NL>这八生八死之法，已可更灵活地运用……<NL>我与无恙，当在谷中静候‘太吾’，<NL>一同助‘太吾’运用此法，<NL>救世除魔……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "1237b9012adf6079",
+      "engine": null,
+      "updatedAt": null
+    },
+    "4b4a47f6-71e0-44b2-9e61-cd80fb936cb7/Option_1": {
+      "en": "So, the two elders have returned to the Valley of Flowers. Perhaps I should find time to visit and reunite with them...",
+      "cn": "原来如此，二位前辈已回了百花谷，不如寻个时间去谷中与他们重聚一番……\n",
+      "ru": "Итак, двое старейшин вернулись в Долину цветов. Возможно, мне следует найти время, чтобы навестить их и воссоединиться с ними...",
+      "status": "machine",
+      "srcHash": "96a1604c3e2a0b59",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "a16cc3b6-414e-430b-a313-e56f0c9cb428/EventContent": {
+      "en": "\"There is one more request I must make...<NL><NL>Wu Yang and I have one final item to entrust to you.<NL>Within this pouch lies a matched pair of Soulpierce Needles.<NL>They were a parting gift from Wuyang and me to Qing'er when she first ventured into the world.<NL>Qing'er has shown unwavering devotion to you, Taiwu.<NL>By safeguarding these needles, you help us lay down our lingering attachments and fulfill Qing'er's heartfelt wish. Please, do not refuse...\"",
+      "cn": "“另外，还有一事相求……<NL><NL>我与无恙还有一物，想要托付于‘太吾’，<NL>锦囊之中，还有一对‘命创心针’……<NL>是青儿当年出师之时，我与无恙一同给她的出山之礼，<NL>青儿对‘太吾’舍生忘死，此物交由‘太吾’保管，<NL>既是帮我二人放下这段执念，亦是成全了青儿的心愿，望‘太吾’切莫推辞……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6559d7754c6c9951",
+      "engine": null,
+      "updatedAt": null
+    },
+    "a16cc3b6-414e-430b-a313-e56f0c9cb428/Option_1": {
+      "en": "Soulpierce Needles? (Reaching into the pouch...)",
+      "cn": "命创心针？（往锦囊中一探……）\n",
+      "ru": "Иглы для прокалывания души? (Лезет в сумку...)",
+      "status": "machine",
+      "srcHash": "eab8204e855984bf",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "62987a5d-444e-43bd-9dda-ec67fb9c5c4c/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/>'s fingers touch something cold.<NL><Character key=RoleTaiwu str=UpperGenderSubject/> retrieves a small jade box.<NL>Inside, two long needles of differing hues and textures rest side by side.",
+      "cn": "<Character key=RoleTaiwu str=Name/>伸手往锦囊中一探，<NL>手中便触到了一丝冰凉，很快，从锦囊中摸出一个小小的玉匣来，<NL>玉匣当中，卧着两枚颜色、质地各异的长针。",
+      "ru": "<Character key=RoleTaiwu str=Name/>его пальцы касаются чего-то холодного.<NL><Character key=RoleTaiwu str=UpperGenderSubject/> достает маленькую шкатулку из Нефрита.<NL>Внутри бок о бок лежат две длинные иглы разных оттенков и текстур.",
+      "status": "machine",
+      "srcHash": "d94befeb3a1d44b7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "62987a5d-444e-43bd-9dda-ec67fb9c5c4c/Option_1": {
+      "en": "So these are the Soulpierce Needles? The elders have been most thoughtful...",
+      "cn": "这便是命创心针？二位前辈，有心了……\n",
+      "ru": "Значит, это иглы для прокалывания души? Старейшины были очень заботливы...",
+      "status": "machine",
+      "srcHash": "1750cd4d225f7f62",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "913fed24-2151-4a4a-98ad-9f2521346617/EventContent": {
+      "en": "Rumors speak of a madness spreading across the land, originating from a malevolent entity that lurked within the Valley of Flowers for centuries.<NL>Thanks to the efforts of the Successor of Taiwu and the Valley of Flowers' two founders, the evil is subdued, bringing an end to the plague.",
+      "cn": "据传，肆虐各地的疯症竟是一只潜伏于百花谷中数百年的妖邪散播，<NL>幸得太吾传人助百花谷二位祖师将其制服，平息了疯病。",
+      "ru": "Ходят слухи о безумии, распространяющемся по всей стране, исходящем от злобного существа, которое веками скрывалось в Долине цветов.<NL>Благодаря усилиям Преемника Тайу и двух основателей Долины цветов зло побеждено, что положило конец чуме.",
+      "status": "machine",
+      "srcHash": "185f81b5910393d0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "913fed24-2151-4a4a-98ad-9f2521346617/Option_1": {
+      "en": "(It seems the Martial World remains unaware of 'The One Reborn'...)",
+      "cn": "（看来江湖中人并未知晓“复生之人”……）\n",
+      "ru": "(Похоже, Мир боевых искусств по-прежнему не знает о \"Возрожденном\"...)",
+      "status": "machine",
+      "srcHash": "953d2a1de15bb156",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8a649290-7894-474c-b02c-2cab7a3bfab3/EventContent": {
+      "en": "Following this event, the two founders choose to emerge once more,<NL>dedicating themselves to the study of medical arts and the salvation of the world within the Valley of Flowers.<NL>Their disciples, inspired and heartened, rejoice at this renewed purpose!",
+      "cn": "此事之后，百花谷二位祖师亦决定再度出山，<NL>于百花谷中，共研医术，济世救人……<NL>百花谷弟子信心大振，无不欢喜！",
+      "ru": "После этого события два основателя решили появиться еще раз,<NL>посвящая себя изучению медицинского искусства и спасению мира в Долине цветов.<NL>Их ученики, вдохновленные и ободренные, радуются этой обновленной цели!",
+      "status": "machine",
+      "srcHash": "471933f4390ff254",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "8a649290-7894-474c-b02c-2cab7a3bfab3/Option_1": {
+      "en": "(The elders have resolved their inner conflicts, bringing renewed vigor to the Valley of Flowers...)",
+      "cn": "（二位前辈心结已解，百花谷也大受鼓舞……）\n",
+      "ru": "(Старейшины разрешили свои внутренние конфликты, придав новую силу Долине цветов...)",
+      "status": "machine",
+      "srcHash": "02525f1efd7ad978",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5c2dc280-8ef4-4db0-a257-c51aacd26988/EventContent": {
+      "en": "Rumors speak of a madness spreading across the land, originating from a malevolent entity that lurked within the Valley of Flowers for centuries.<NL>Thanks to the efforts of the Successor of Taiwu and the Valley of Flowers' two founders, the evil is subdued, bringing an end to the plague.",
+      "cn": "据传，肆虐各地的疯症竟是一只潜伏于百花谷中数百年的妖邪散播，<NL>幸得太吾传人助百花谷二位祖师将其制服，平息了疯病。",
+      "ru": "Ходят слухи о безумии, распространяющемся по всей стране, исходящем от злобного существа, которое веками скрывалось в Долине цветов.<NL>Благодаря усилиям Преемника Тайу и двух основателей Долины цветов зло побеждено, что положило конец чуме.",
+      "status": "machine",
+      "srcHash": "185f81b5910393d0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "5c2dc280-8ef4-4db0-a257-c51aacd26988/Option_1": {
+      "en": "(It seems the Martial World remains unaware of 'The One Reborn'...)",
+      "cn": "（看来江湖中人并未知晓“复生之人”……）\n",
+      "ru": "(Похоже, Мир боевых искусств по-прежнему не знает о \"Возрожденном\"...)",
+      "status": "machine",
+      "srcHash": "953d2a1de15bb156",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3e65f6f4-2d16-4651-a3cd-c338e23004d4/EventContent": {
+      "en": "After the crisis, the Valley of Flowers founders retreat into obscurity once more, leaving no trace.<NL>The disciples, feeling the weight of the world's suffering, couldn't help but feel disheartened.<NL>Even with their founders alive, they remained hidden—does this mean hope for salvation is lost...?",
+      "cn": "此事之后，百花谷二位祖师再又退隐，更无音讯，<NL>百花谷弟子深感济世之难，不由得心中失落，<NL>祖师尚在，却仍退隐，莫非济世无望……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "17cc9b80d2298a5e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "3e65f6f4-2d16-4651-a3cd-c338e23004d4/Option_1": {
+      "en": "(In the end, the elders could not resolve their inner turmoil...)",
+      "cn": "（二位前辈终是未能解开心结……）\n",
+      "ru": "(В конце концов, старейшины не смогли разрешить свое внутреннее смятение...)",
+      "status": "machine",
+      "srcHash": "4e8e1fa48a59c6a2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "74e18636-e855-4a8c-900e-d9adbdb0f287/EventContent": {
+      "en": "Rumors speak of a madness spreading across the land, originating from a malevolent entity that lurked within the Valley of Flowers for centuries.<NL>Thanks to the Successor of Taiwu who first uncovers the truth, the Valley of Flowers unites in their search.<NL>At last, the two founders of the Valley of Flowers emerge from seclusion and subdue the threat, bringing an end to the madness.",
+      "cn": "据传，肆虐各地的疯症竟是一只潜伏于百花谷中数百年的妖邪散播，<NL>幸得太吾传人率先探得此事，引得百花谷上下齐心查探，<NL>百花谷中二位祖师终于出山，将其制服，方才平息了疯病。",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2e8fdc4ba1d98454",
+      "engine": null,
+      "updatedAt": null
+    },
+    "74e18636-e855-4a8c-900e-d9adbdb0f287/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "46b18328-a924-4758-b7c0-105cdb8d0497/EventContent": {
+      "en": "After the crisis, the Valley of Flowers founders retreat into obscurity once more, leaving no trace.<NL>The disciples, feeling the weight of the world's suffering, couldn't help but feel disheartened.<NL>Even with their founders alive, they remained hidden—does this mean hope for salvation is lost...?",
+      "cn": "此事之后，百花谷二位祖师再又退隐，更无音讯，<NL>百花谷弟子深感济世之难，不由得心中失落，<NL>祖师尚在，却仍退隐，莫非济世无望……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "17cc9b80d2298a5e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "46b18328-a924-4758-b7c0-105cdb8d0497/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c35d82f4-406f-43db-a7b1-edeb5ac2eb8f/EventContent": {
+      "en": "\"So, it is you...<NL>The ever-changing nature of the world, its fleeting moments—I had anticipated this.<NL><NL>Regardless, I shall aid you, Taiwu... Lend you my strength...\"",
+      "cn": "“原来是你……<NL>此世间人事之易变，凋零之飘忽，我倒早有预料。<NL><NL>无论如何，我都将助‘太吾’……助你一臂之力……”",
+      "ru": "\"Итак, это ты...<NL>Постоянно меняющаяся природа мира, его мимолетные мгновения - я предвидел это.<NL><NL>Как бы то ни было, я помогу тебе, Тайу... Одолжу тебе свою Силу...\"",
+      "status": "machine",
+      "srcHash": "6565bb95f7a85125",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "c35d82f4-406f-43db-a7b1-edeb5ac2eb8f/Option_1": {
+      "en": "(Chat for a while...)",
+      "cn": "（闲聊片刻……）",
+      "ru": "(Поболтаем немного...)",
+      "status": "machine",
+      "srcHash": "ee7e9a85efe75bdd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c35d82f4-406f-43db-a7b1-edeb5ac2eb8f/Option_2": {
+      "en": "(Life and Death...)",
+      "cn": "（生关死节……）",
+      "ru": "(Жизнь и смерть...)",
+      "status": "machine",
+      "srcHash": "2a01ca567413ebb3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c35d82f4-406f-43db-a7b1-edeb5ac2eb8f/Option_3": {
+      "en": "(Nothing unusual occurs...)",
+      "cn": "（无事发生……）\n",
+      "ru": "(Ничего необычного не происходит...)",
+      "status": "machine",
+      "srcHash": "35df675b5b20cc7a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f11afa0f-8114-4db5-81b0-014edf3c0323/EventContent": {
+      "en": "\"Living in the Valley of Flowers,<NL>with its serene mountains and flowing waters, feels timeless.<NL>The blooming and wilting of flowers never cease to captivate; the beauty here is ever-refreshing...\"",
+      "cn": "“久居这百花谷中，<NL>晴山流水，静似太古。<NL>花开花谢，无不醉人，此地风光竟日日都看不厌……”",
+      "ru": "\"Живу в Долине цветов,<NL>с его безмятежными горами и текучими водами он кажется неподвластным времени.<NL>Цветение и увядание цветов никогда не перестают очаровывать; здешняя красота всегда освежает...\"",
+      "status": "machine",
+      "srcHash": "7208e56777dcb977",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "f11afa0f-8114-4db5-81b0-014edf3c0323/Option_1": {
+      "en": "(Chat for a while...)",
+      "cn": "（闲聊片刻……）",
+      "ru": "(Поболтаем немного...)",
+      "status": "machine",
+      "srcHash": "ee7e9a85efe75bdd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f11afa0f-8114-4db5-81b0-014edf3c0323/Option_2": {
+      "en": "(Life and Death...)",
+      "cn": "（生关死节……）",
+      "ru": "(Жизнь и смерть...)",
+      "status": "machine",
+      "srcHash": "2a01ca567413ebb3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f11afa0f-8114-4db5-81b0-014edf3c0323/Option_3": {
+      "en": "(Nothing unusual occurs...)",
+      "cn": "（无事发生……）\n",
+      "ru": "(Ничего необычного не происходит...)",
+      "status": "machine",
+      "srcHash": "35df675b5b20cc7a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "2a1ecbf3-04e2-4f28-88c0-29ce57ff324e/EventContent": {
+      "en": "\"So, it is you...<NL>The ever-changing nature of the world, its fleeting moments—I had anticipated this.<NL><NL>Regardless, I shall aid you, Taiwu... Lend you my strength...\"",
+      "cn": "“原来是你……<NL>此世间人事之易变，凋零之飘忽，我倒早有预料。<NL><NL>无论如何，我都将助‘太吾’……助你一臂之力……”",
+      "ru": "\"Итак, это ты...<NL>Постоянно меняющаяся природа мира, его мимолетные мгновения - я предвидел это.<NL><NL>Как бы то ни было, я помогу тебе, Тайу... Одолжу тебе свою Силу...\"",
+      "status": "machine",
+      "srcHash": "6565bb95f7a85125",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "2a1ecbf3-04e2-4f28-88c0-29ce57ff324e/Option_1": {
+      "en": "(Chat for a while...)",
+      "cn": "（闲聊片刻……）",
+      "ru": "(Поболтаем немного...)",
+      "status": "machine",
+      "srcHash": "ee7e9a85efe75bdd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "2a1ecbf3-04e2-4f28-88c0-29ce57ff324e/Option_2": {
+      "en": "(Life and Death...)",
+      "cn": "（生关死节……）",
+      "ru": "(Жизнь и смерть...)",
+      "status": "machine",
+      "srcHash": "2a01ca567413ebb3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "2a1ecbf3-04e2-4f28-88c0-29ce57ff324e/Option_3": {
+      "en": "(Nothing unusual occurs...)",
+      "cn": "（无事发生……）\n",
+      "ru": "(Ничего необычного не происходит...)",
+      "status": "machine",
+      "srcHash": "35df675b5b20cc7a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4a38e032-fc49-41df-81ca-babf7406c9d7/EventContent": {
+      "en": "\"In the Valley of Flowers,<NL>surrounded by flora and fauna, observing clouds and moonlight;<NL>conversing with birds and beasts, and having Wuyang by my side—<NL>such joy is unparalleled...\"",
+      "cn": "“于百花谷中，<NL>同草木山水，观云赏月；<NL>与林谷鸟兽，谈天说地，更有无恙，相伴我左右，<NL>自是不胜乐也……”",
+      "ru": "\"В Долине цветов,<NL>окруженный флорой и фауной, наблюдающий за облаками и лунным светом;<NL>беседую с птицами и зверями, и рядом со мной Уян—<NL>такая радость не имеет себе равных...\"",
+      "status": "machine",
+      "srcHash": "4373fb526e9d1b19",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "4a38e032-fc49-41df-81ca-babf7406c9d7/Option_1": {
+      "en": "(Chat for a while...)",
+      "cn": "（闲聊片刻……）",
+      "ru": "(Поболтаем немного...)",
+      "status": "machine",
+      "srcHash": "ee7e9a85efe75bdd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4a38e032-fc49-41df-81ca-babf7406c9d7/Option_2": {
+      "en": "(Life and Death...)",
+      "cn": "（生关死节……）",
+      "ru": "(Жизнь и смерть...)",
+      "status": "machine",
+      "srcHash": "2a01ca567413ebb3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4a38e032-fc49-41df-81ca-babf7406c9d7/Option_3": {
+      "en": "(Nothing unusual occurs...)",
+      "cn": "（无事发生……）\n",
+      "ru": "(Ничего необычного не происходит...)",
+      "status": "machine",
+      "srcHash": "35df675b5b20cc7a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4a458c17-4264-4343-b585-ebe0b0a45797/EventContent": {
+      "en": "\"In the past, Wuyou and I seldom returned to the Valley of Flowers.<NL>We wandered the world for years, experiencing the myriad facets of the martial realm.<NL><NL>Though our stays in the valley were brief,<NL>the disciples always greeted us with respect, honoring us as their founders...\"",
+      "cn": "“此前，我与无忧鲜少返回百花谷中，<NL>云游四海，经年累月，也算谙尽江湖百味。<NL><NL>细细数来，我二人未曾在这百花谷中停留太久，<NL>然而这谷中弟子，却恭而有礼，仍然将我二人尊称为祖师……”",
+      "ru": "\"В прошлом мы с У Ю редко возвращались в Долину цветов.<NL>Мы годами странствовали по миру, познавая мириады граней сферы боевых искусств.<NL><NL>Хотя наше пребывание в долине было недолгим,<NL>ученики всегда приветствовали нас с уважением, почитая как своих основателей...\"",
+      "status": "machine",
+      "srcHash": "40e7dc004e0d059e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "4a458c17-4264-4343-b585-ebe0b0a45797/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "9ada86e6-ea26-48d4-a517-653fb0e341d7/EventContent": {
+      "en": "\"Being the founder of the Valley of Flowers,<NL>we must not betray our disciples, nor the people of the world.<NL>Thus, I often ponder how best to uphold this title...\"",
+      "cn": "“既身负百花谷祖师之名，<NL>便不可负谷中弟子，更不可负天下人。<NL>故而，我也时常深想，当如何行事，方能担此‘祖师’之名……”",
+      "ru": "\"Быть основателем Долины цветов,<NL>мы не должны предавать ни наших учеников, ни людей всего мира.<NL>Таким образом, я часто размышляю о том, как лучше всего отстоять этот титул...\"",
+      "status": "machine",
+      "srcHash": "366df3bbfe94140a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "9ada86e6-ea26-48d4-a517-653fb0e341d7/Option_1": {
+      "en": "(I see...)",
+      "cn": "（原来如此……）\n",
+      "ru": "(Я вижу...)",
+      "status": "machine",
+      "srcHash": "35e816479365a5c3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "75571506-304f-4ca4-9f3b-ed8b78bc394d/EventContent": {
+      "en": "\"I have witnessed the cycles of fate, the gatherings and partings of humanity.<NL>Having lived as both deer and human, experiencing countless emotions over the centuries...\"",
+      "cn": "“我曾见世间缘起缘灭，也曾观人间聚散有时，<NL>既为鹿，亦为人，说来已有数千百载，各有不同滋味……”",
+      "ru": "\"Я был свидетелем циклов судьбы, встреч и расставаний человечества.<NL>Прожив и как олень, и как человек, испытав бесчисленные эмоции на протяжении веков...\"",
+      "status": "machine",
+      "srcHash": "f79d19de400f74ae",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "75571506-304f-4ca4-9f3b-ed8b78bc394d/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b6c5e8ea-006a-4179-87a8-6c70067a52b6/EventContent": {
+      "en": "\"As White Deer, I am free from human customs, living joyfully without constraints.<NL>As a human, I cherish the full spectrum of emotions, forming deep connections.<NL><NL>Yet, my origin... I can no longer recall...\"",
+      "cn": "“做那白鹿时不知凡人礼乐，自在快活，也无籓篱；<NL>做人时，又爱这万般喜怒哀乐，无论待人感物，此心皆有动情。<NL><NL>只是……更早之时，我原本的来处，却是再也记不得了……”",
+      "ru": "\"Как Белый олень, я свободен от человеческих обычаев, живу радостно, без ограничений.<NL>Как человек, я ценю весь спектр эмоций, формирующих глубокие связи.<NL><NL>И все же, мое происхождение... Я больше не могу вспомнить...\"",
+      "status": "machine",
+      "srcHash": "7d48afc8651798f0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "b6c5e8ea-006a-4179-87a8-6c70067a52b6/Option_1": {
+      "en": "Origin?",
+      "cn": "原本的来处？\n",
+      "ru": "Происхождение?",
+      "status": "machine",
+      "srcHash": "52ba4947411e1e76",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "aa5358b3-193f-40c9-88c9-0f542b2d2242/EventContent": {
+      "en": "\"Vague and formless,<NL>beyond comprehension.<NL>Perhaps... it lies beyond the heavens and earth, outside the known world...\"",
+      "cn": "“朦胧无形，高而无极，<NL>不知究竟何所在。<NL>或许……便是那天高地迥之处，天圆地方之外……”",
+      "ru": "\"Расплывчатый и бесформенный,<NL>за пределами Понимания.<NL>Возможно... это лежит за пределами небес и земли, за пределами известного мира...\"",
+      "status": "machine",
+      "srcHash": "eac6049897ad0ef6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "aa5358b3-193f-40c9-88c9-0f542b2d2242/Option_1": {
+      "en": "(Bewildered...)",
+      "cn": "（不明所以……）\n",
+      "ru": "(Сбитый с толку...)",
+      "status": "machine",
+      "srcHash": "c37585dc680aa205",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8c292ec0-a311-42b3-bfc3-5e58450f1f9e/EventContent": {
+      "en": "\"As you've observed, the Valley of Flowers is filled with compassion,<NL>delighting in goodness, aiding those in need, and rescuing the distressed.<NL>The world praises them for their unparalleled benevolence, for the disciples always extend a helping hand to those in crisis...\"",
+      "cn": "“如你所见，百花谷上下，<NL>无不悯人之凶，乐人之善，济人之急，救人之危。<NL>世人称其为仁义无双，正因谷中弟子逢人有急难之处，必伸手援之……”",
+      "ru": "- Как вы заметили, Долина цветов полна сострадания,<NL>радуясь добру, помогая нуждающимся и спасая страждущих.<NL>Мир восхваляет их за их несравненную доброжелательность, ибо ученики всегда протягивают руку помощи тем, кто находится в кризисе...\"",
+      "status": "machine",
+      "srcHash": "f8b3288c336032b9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "8c292ec0-a311-42b3-bfc3-5e58450f1f9e/Option_1": {
+      "en": "That's right...",
+      "cn": "正是如此……\n",
+      "ru": "Это верно...",
+      "status": "machine",
+      "srcHash": "e1b3ab815244c1d9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ab9eb679-b05a-4417-a319-8c844cc35846/EventContent": {
+      "en": "\"Back when the Valley of Flowers was founded,<NL>Wuyou and I came to this place, teaching the villagers the arts of healing and defense.<NL>Centuries later, the disciples remain true to their original intentions, upholding the path of compassion and the practice of healing.<NL>This benevolent path continues to flourish...\"",
+      "cn": "“昔时百花谷之源起，<NL>我与无忧前来此地，传授谷民悬壶济世之术与御敌之法；<NL>千百年后的今日，幸而百花谷众人仍不忘初心，内秉仁心之道，外守悬壶之行，<NL>此番仁爱之道，终得引续流传……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "02459f7544950310",
+      "engine": null,
+      "updatedAt": null
+    },
+    "ab9eb679-b05a-4417-a319-8c844cc35846/Option_1": {
+      "en": "That's great...",
+      "cn": "如此便好……\n",
+      "ru": "Это здорово...",
+      "status": "machine",
+      "srcHash": "b662280e593dbf39",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "13373b89-096d-4e1b-bf0e-3d96be7058c1/EventContent": {
+      "en": "\"Do you appreciate the mountain scenery?<NL>If you often walk these mountains, you'll notice that not only humans, but also birds and beasts suffer from ailments and injuries.<NL>When I encounter them, I do not hesitate to offer cures...\"",
+      "cn": "“你可喜爱这山野景色？<NL>若是常在这山间行走便能知晓，不仅是人，飞禽走兽亦常有病痛损伤。<NL>我若是见到了，倒也不妨出手救治一番……”",
+      "ru": "- Вам нравятся горные пейзажи?<NL>Если вы часто будете прогуливаться по этим горам, то заметите, что не только люди, но и птицы и звери страдают от недугов и травм.<NL>Когда я сталкиваюсь с ними, я без колебаний предлагаю лечение...\"",
+      "status": "machine",
+      "srcHash": "5d2270253eb8e08f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "13373b89-096d-4e1b-bf0e-3d96be7058c1/Option_1": {
+      "en": "You are truly compassionate...",
+      "cn": "前辈实在仁爱……\n",
+      "ru": "Вы по-настоящему сострадательны...",
+      "status": "machine",
+      "srcHash": "d21bc9248a96ba20",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "de7f26d7-29e9-491e-b465-4169b00d4056/EventContent": {
+      "en": "Bai Wuyang shakes his head:<NL>\"Yet, all things in the world are subject to birth, aging, illness, and death.<NL>Just as the sun waxes and wanes, and the moon cycles through phases, when flowers bloom and wither, and creatures reach their end,<NL>how can I intervene every time?<NL>This principle, I believe you have long understood...\"",
+      "cn": "白无恙又摇头道：<NL>“只是世间万物，生老病死，原就有本有则。<NL>正如日有长短而月有死生，若花开至萎落之时，物衰至当死之刻，<NL>我又如何能次次出手，时时救护？<NL>这番道理，想必你早已了悟……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "e24f2e6ea96c7140",
+      "engine": null,
+      "updatedAt": null
+    },
+    "de7f26d7-29e9-491e-b465-4169b00d4056/Option_1": {
+      "en": "(A sigh...)",
+      "cn": "（一声叹息……）\n",
+      "ru": "(Вздох...)",
+      "status": "machine",
+      "srcHash": "4dfcb721bf213dc1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "ffa76b97-17d6-4a73-922b-8b3c7e0075d0/EventContent": {
+      "en": "\"Within the Valley of Flowers, the morning breeze brings warmth, and all seasons feel like spring.<NL>I hear the chirping of swallows and warblers at dawn, and by noon, bees and butterflies dance among the flowers. There are also seven grand waterfalls and fourteen emerald pools...<NL>Have you witnessed them all?\"",
+      "cn": "“这百花谷内，晓风生暖，四时如春。<NL>我朝闻燕喃莺啼，过午又见蜂簇蝶飞，更有那七大飞瀑，十四碧水潭……<NL>你可都一一见识过？”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "aaa6f3bdeee6c3d4",
+      "engine": null,
+      "updatedAt": null
+    },
+    "ffa76b97-17d6-4a73-922b-8b3c7e0075d0/Option_1": {
+      "en": "The Valley of Flowers is a paradise; I often hear tales of its beauty...",
+      "cn": "百花谷内人间绝景，我常常得闻……\n",
+      "ru": "Долина цветов - настоящий рай; я часто слышу рассказы о ее красоте...",
+      "status": "machine",
+      "srcHash": "b5640a1f08aae59a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "160acf7e-9ef7-4200-8d2a-91365b611480/EventContent": {
+      "en": "Bai Wuyang nods:<NL>\"Nourished by the spiritual Qi of heaven and earth, the Valley of Flowers abounds with rare flora.<NL>Simply strolling and admiring the scenery each day brings immense peace and comfort...\"",
+      "cn": "白无恙颔首道：<NL>“百花谷受天地灵气滋养，奇花异草甚繁，<NL>光是每日漫步赏景，便已分外安乐闲舒……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "7dbb8ab1140a504d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "160acf7e-9ef7-4200-8d2a-91365b611480/Option_1": {
+      "en": "That's great...",
+      "cn": "如此便好……\n",
+      "ru": "Это здорово...",
+      "status": "machine",
+      "srcHash": "b662280e593dbf39",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a47ce45d-a762-4c39-ae62-6d0ebfb7ffe7/EventContent": {
+      "en": "\"Octomancy Requiem, interconnected through breath and fate. Death transforms into life, and life into death.<NL>Mastering this technique can aid you in saving the world and vanquishing evil...\"",
+      "cn": "“八生八死，气命相连，死而化生，生而化死。<NL>灵活用之，当可助你救世除魔……”",
+      "ru": "\"Реквием по октомантии, взаимосвязанный через дыхание и судьбу. Смерть превращается в жизнь, а жизнь - в смерть.<NL>Овладение этой техникой может помочь вам спасти мир и победить зло...\"",
+      "status": "machine",
+      "srcHash": "4ad2c6b0d3c88456",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "a47ce45d-a762-4c39-ae62-6d0ebfb7ffe7/Option_1": {
+      "en": "(Request assistance...)",
+      "cn": "（请求施为……）",
+      "ru": "(Запросите помощь...)",
+      "status": "machine",
+      "srcHash": "a11da59421059533",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a47ce45d-a762-4c39-ae62-6d0ebfb7ffe7/Option_2": {
+      "en": "(Reject politely...)",
+      "cn": "（婉言谢绝……）\n",
+      "ru": "(Вежливо отклонить...)",
+      "status": "machine",
+      "srcHash": "5630c06ad99e1f94",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c332b116-e285-446a-b844-97d221b13b25/EventContent": {
+      "en": "\"Octomancy Requiem, interconnected through breath and fate. Death transforms into life, and life into death.<NL>Mastering this technique can aid you in saving the world and vanquishing evil...\"",
+      "cn": "“八生八死，气命相连，死而化生，生而化死。<NL>运用此法，可助‘太吾’救世除魔……”",
+      "ru": "\"Реквием по октомантии, взаимосвязанный через дыхание и судьбу. Смерть превращается в жизнь, а жизнь - в смерть.<NL>Овладение этой техникой может помочь вам спасти мир и победить зло...\"",
+      "status": "machine",
+      "srcHash": "4ad2c6b0d3c88456",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "c332b116-e285-446a-b844-97d221b13b25/Option_1": {
+      "en": "(Request assistance...)",
+      "cn": "（请求施为……）",
+      "ru": "(Запросите помощь...)",
+      "status": "machine",
+      "srcHash": "a11da59421059533",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c332b116-e285-446a-b844-97d221b13b25/Option_2": {
+      "en": "(Reject politely...)",
+      "cn": "（婉言谢绝……）\n",
+      "ru": "(Вежливо отклонить...)",
+      "status": "machine",
+      "srcHash": "5630c06ad99e1f94",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e388ad04-c48d-49f8-8f36-defc2d68a17c/EventContent": {
+      "en": "\"Since my departure, I've wandered the Martial World for a century.<NL>Returning to the Valley now, I can't help but feel that things have changed.<NL><NL>Back then, Wuyang and I took human forms, teaching the arts of healing to the people here.<NL>Now, the mountains and waters remain, but those young disciples are nowhere to be seen...\"",
+      "cn": "“自我离去，沉浮江湖，转眼已过百年，<NL>再回谷中，不免生出物是人非之感，<NL><NL>那时我与无恙化为人身，于此传授众人岐黄之术，<NL>而今山水如故，却瞧不见那些小娃儿了……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "276d69bfb0d7591d",
+      "engine": null,
+      "updatedAt": null
+    },
+    "e388ad04-c48d-49f8-8f36-defc2d68a17c/Option_1": {
+      "en": "Days pass, months turn, and the world changes while things remain... How it stirs the heart...",
+      "cn": "日往月来，物是人非，确实令人感慨……\n",
+      "ru": "Проходят дни, сменяются месяцы, и мир меняется, в то время как все остается по-прежнему... Как это будоражит сердце...",
+      "status": "machine",
+      "srcHash": "fcb9f7ad89148393",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d7cc4c2f-d41d-461e-8f7b-574ba44bd8ec/EventContent": {
+      "en": "\"When I first arrived in this world, I had yet to take human form.<NL>I would witness the joys and sorrows, the hatred and love of humankind—yet none of it stirred me.<NL>It is only later, by chance and fate, that I awaken to true sentience. Thus I take on a human form, and only then do I begin to understand...\"",
+      "cn": "“我初到此世间之时，尚未化作人身，<NL>每每见世人情仇爱恨，喜怒哀乐，只觉得莫名，<NL>后来因缘际会，我生出灵智，化而为人，终于感同身受……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9d5d2820c54556de",
+      "engine": null,
+      "updatedAt": null
+    },
+    "d7cc4c2f-d41d-461e-8f7b-574ba44bd8ec/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c29480f8-d7bb-4f93-adc4-423dc66027b6/EventContent": {
+      "en": "\"If Wuyang were to hear us now, he'd surely laugh at our melancholy.<NL>All things in this world, born and gone, living and dying—such is the cycle eternal.<NL>It is simply the order of Heaven and Earth...\"",
+      "cn": "“无恙若是听见我们这话，可要笑你我看不开了，<NL>世间万物，生生死死，循环不息，<NL>原是天地之理……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "397dee28c9d801fb",
+      "engine": null,
+      "updatedAt": null
+    },
+    "c29480f8-d7bb-4f93-adc4-423dc66027b6/Option_1": {
+      "en": "(I see...)",
+      "cn": "（原来如此……）\n",
+      "ru": "(Я вижу...)",
+      "status": "machine",
+      "srcHash": "35e816479365a5c3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "506aeaab-f447-4ff7-9c81-7026bc337fca/EventContent": {
+      "en": "\"I have dwelled among people, felt their joys and mourned their losses, for countless centuries.<NL>At times, in dreams, I catch glimpses of azure birds, fenghuanges in flight...<NL>And in those moments, I almost forget—I am no mere mortal, and this place is not where I came from...\"",
+      "cn": "“我与人一般，通情感物，如此千百年，<NL>若不是偶尔梦中……似见翩翩青鸟，鸾凤翱翔……<NL>竟险些忘了自己并非凡人，此处亦非来处……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "5dd02d4bf79bd5b3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "506aeaab-f447-4ff7-9c81-7026bc337fca/Option_1": {
+      "en": "Not where you came from?",
+      "cn": "此处亦非来处？\n",
+      "ru": "Не оттуда, откуда ты родом?",
+      "status": "machine",
+      "srcHash": "8d56004850fc36d3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "af6fdb16-641c-4ca6-8ec5-8ec58d5af9a6/EventContent": {
+      "en": "\"Beyond heavens, beyond mountains... where such realms lie, I do not know.<NL>Perhaps... it is nothing but a long dream of mine. No need to ponder further... no need...\"",
+      "cn": "“天外之天，山外之山，难知其所在。<NL>或许……只是我一场大梦，不必深究，不必深究……”",
+      "ru": "- За пределами небес, за пределами гор... где находятся такие царства, я не знаю.<NL>Возможно... это не что иное, как моя давняя мечта. Нет необходимости размышлять дальше... нет необходимости...\"",
+      "status": "machine",
+      "srcHash": "872d12b0563e3a56",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "af6fdb16-641c-4ca6-8ec5-8ec58d5af9a6/Option_1": {
+      "en": "(Bewildered...)",
+      "cn": "（不明所以……）\n",
+      "ru": "(Сбитый с толку...)",
+      "status": "machine",
+      "srcHash": "c37585dc680aa205",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "00062d25-b7ff-4c26-ab95-85837239efb6/EventContent": {
+      "en": "\"In those years of great chaos, when the people suffered...<NL><NL>Wuyang and I passed through the White Deer Marsh.<NL>We heard word of the Valley of Flowers, whose people aided the desperate and cared for the ill.<NL>We were deeply moved, and so we entered the valley. There, we taught the villagers the arts of healing and defense,<NL>hoping they would carry the will to save lives and bring peace to the world...\"",
+      "cn": "“当年，天下大乱，民不聊生……<NL><NL>我与无恙途经白鹿泽，<NL>听闻百花谷民救济灾民之善举，不禁心生动容，<NL>于是前往谷中，传授谷民们岐黄之术与御敌之法，<NL>望他们能怀救世医人之志，解四海苍生之苦……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "cc97e7eee1153fc0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "00062d25-b7ff-4c26-ab95-85837239efb6/Option_1": {
+      "en": "(I see...)",
+      "cn": "（原来如此……）\n",
+      "ru": "(Я вижу...)",
+      "status": "machine",
+      "srcHash": "35e816479365a5c3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "41ae22d4-c5dd-42f7-adff-df705c450693/EventContent": {
+      "en": "\"Later, I left the valley to wander the lands.<NL>Through the centuries, I often heard tales of the disciples of the Valley of Flowers—how they showed compassion to the weak and lent aid to the dying.<NL>It gladdens me to know they did not fail the hopes Wuyang and I placed in them.\"",
+      "cn": "“后来，我离谷云游，百年之间，<NL>常常听闻百花谷弟子恤老怜贫，救死扶伤之举……<NL>他们果然未曾辜负我与无恙厚望。”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "db70dc45c1d7fbe1",
+      "engine": null,
+      "updatedAt": null
+    },
+    "41ae22d4-c5dd-42f7-adff-df705c450693/Option_1": {
+      "en": "(This is good...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это хорошо...)",
+      "status": "machine",
+      "srcHash": "cd8e5cb2900ce236",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "cfecbd2a-5a47-4362-8c66-3f459a25dcc4/EventContent": {
+      "en": "\"Can you not hear the laughter in the hills and woods?<NL>I often come here to converse with the birds, the beasts, the insects, and the fish.<NL>Only when their hearts are at peace, can their minds be free of burden—and when the mind is clear, the spirit becomes whole...\"",
+      "cn": "“你可听见山野林间，尽是笑语欢声？<NL>我常常到此，与这些鸟兽虫鱼倾谈，<NL>方令它们心畅而虑销，虑销而神完……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "5ea854fb0489306a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "cfecbd2a-5a47-4362-8c66-3f459a25dcc4/Option_1": {
+      "en": "When the spirit is whole, energy flows; when energy flows, no illness may linger...",
+      "cn": "神完则气足，气足则百病莫侵……\n",
+      "ru": "Когда Дух цел, течет Энергия; когда течет Энергия, никакая болезнь не может задержаться...",
+      "status": "machine",
+      "srcHash": "902de70b1268c12e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "174a09ed-b600-4590-92b9-d442a29ac7ea/EventContent": {
+      "en": "Hearing this, Xuan Wuyou nods repeatedly and laughs:<NL><NL>\"Indeed, indeed!<NL>To be free of worry, even in coarse robes and plain meals, is a joy.<NL>Yet weighed down by countless cares, even feasting in finery brings no peace.<NL>Should you ever feel troubled, come and speak with me...\"",
+      "cn": "玄无忧闻言，连连点头，哈哈笑道：<NL><NL>“便是如此，便是如此，<NL>无忧无虑，虽粗衣淡饭，亦觉欢喜，<NL>千愁万绪，虽锦衣厚味，只觉哀苦。<NL>你日后若有何愁闷，不妨来找我聊聊……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "c37376d1d83e4ddf",
+      "engine": null,
+      "updatedAt": null
+    },
+    "174a09ed-b600-4590-92b9-d442a29ac7ea/Option_1": {
+      "en": "Then I shall thank you in advance...",
+      "cn": "那便多谢前辈了……\n",
+      "ru": "Тогда я заранее поблагодарю вас...",
+      "status": "machine",
+      "srcHash": "c70f3297e54f4b4e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c4b00f6c-aca5-47f9-ba9a-f667426b9076/EventContent": {
+      "en": "\"Here in the Valley of Flowers,<NL>the streams run endlessly, the mountains stretch far, and the scenery is without compare.<NL>Deer roam gently, birds fly freely, and even wild creatures grow close to humankind.<NL>One who comes here—even burdened with a thousand sorrows, a hundred regrets—may yet find a moment of peace.<NL><NL>When you have the time, do come and enjoy the valley...\"",
+      "cn": "“这百花谷内，<NL>溪光不尽，山翠无穷，正是风光无限，<NL>更有呦呦游鹿，翩翩飞鸟，与人相亲，<NL>人若至此，纵有愁万结，恨万叠，亦能暂得消歇，<NL><NL>你闲暇之时，不妨来谷内游玩一番……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "249f32b848fb5f2a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "c4b00f6c-aca5-47f9-ba9a-f667426b9076/Option_1": {
+      "en": "Should leisure permit, I will be honored to pay you a visit...",
+      "cn": "若得闲暇，自当来拜访前辈……\n",
+      "ru": "Если позволит свободное время, я сочту за честь нанести вам визит...",
+      "status": "machine",
+      "srcHash": "76258e76a68b2913",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "07d2023b-55b4-4187-8329-4902b889b6ed/EventContent": {
+      "en": "\"That would be most wonderful.<NL>To walk side by side with you, Taiwu, through the Valley of Flowers,<NL>to admire the mountains and waters, and speak of the world and beyond...<NL>Is that not a joy in itself?\"",
+      "cn": "“再好不过，<NL>能与你太吾在这百花谷，<NL>把臂同游，观山览水，谈天说地，<NL>真可谓一件乐事！”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "9c3a415a32f2b075",
+      "engine": null,
+      "updatedAt": null
+    },
+    "07d2023b-55b4-4187-8329-4902b889b6ed/Option_1": {
+      "en": "That's great...",
+      "cn": "如此便好……\n",
+      "ru": "Это здорово...",
+      "status": "machine",
+      "srcHash": "b662280e593dbf39",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    }
+  }
+}

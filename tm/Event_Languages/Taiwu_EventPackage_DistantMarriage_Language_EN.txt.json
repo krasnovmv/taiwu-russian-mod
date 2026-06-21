@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "file": "Event_Languages/Taiwu_EventPackage_DistantMarriage_Language_EN.txt",
+  "glossaryVersion": 5,
+  "units": {
+    "861cf963-dace-4203-abfd-f5b702a179c4/EventContent": {
+      "en": "On this day, <Character key=CharId str=Name /> sent someone to deliver a letter. The letter read,<NL><NL>\"Through a matchmaker's arrangement, I am to be wed to <Character key=TargetCharId str=Name /> of <Character key=TargetCharId str=SettlementName />.<NL>This matter is not trivial; I only hope to receive your guidance...\"",
+      "cn": "此日，<Character key=CharId str=Name />托人送来一封书信，只见信中写道：<NL><NL>“经媒妁之言，撮合我与<Character key=TargetCharId str=SettlementName />的<Character key=TargetCharId str=Name />结为夫妻，<NL>此事非同儿戏，唯愿能得你指点迷津……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "87c2e44fb52a6b18",
+      "engine": null,
+      "updatedAt": null
+    },
+    "861cf963-dace-4203-abfd-f5b702a179c4/Option_1": {
+      "en": "(Congratulate...)",
+      "cn": "（良言相贺……）",
+      "ru": "(Поздравляю...)",
+      "status": "machine",
+      "srcHash": "313bd60f80fd3e72",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "861cf963-dace-4203-abfd-f5b702a179c4/Option_2": {
+      "en": "(Instigate...)",
+      "cn": "（恶语挑唆……）",
+      "ru": "(Подстрекать...)",
+      "status": "machine",
+      "srcHash": "5af8808fb9a40eaa",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "861cf963-dace-4203-abfd-f5b702a179c4/Option_3": {
+      "en": "(Dissuade...)",
+      "cn": "（婉言劝阻……）",
+      "ru": "(Отговаривать...)",
+      "status": "machine",
+      "srcHash": "9b97cfeed09d2a3c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "861cf963-dace-4203-abfd-f5b702a179c4/Option_4": {
+      "en": "(Let it be...)",
+      "cn": "（顺其自然……）\n",
+      "ru": "(Пусть будет так...)",
+      "status": "machine",
+      "srcHash": "ec3e749313d0b39d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f965c439-471f-4652-9d66-6205a7dd293c/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name /> heard of this matter and deeply felt that the two were a match made in heaven.<NL><Character key=RoleTaiwu str=UpperGenderSubject/> immediately wrote a reply, wishing for <Character key=CharId str=Name /> and <Character key=TargetCharId str=Name /> to join in wedlock, living in harmony and never parting from their love from then on.<NL><NL>Several days later, it was heard that <Character key=CharId str=Name /> and <Character key=TargetCharId str=Name /> had happily married and started their good life together...",
+      "cn": "<Character key=RoleTaiwu str=Name />闻有此事，深觉二人乃是天作之合，<NL>随即提笔回信，愿<Character key=CharId str=Name />与<Character key=TargetCharId str=Name />共结鸳盟，从此琴瑟和鸣，恩爱不移。<NL><NL>待得数日之后，便听闻<Character key=CharId str=Name />已与<Character key=TargetCharId str=Name />喜结连理，共谱良缘……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "cee3eb45e22f4fbd",
+      "engine": null,
+      "updatedAt": null
+    },
+    "f965c439-471f-4652-9d66-6205a7dd293c/Option_1": {
+      "en": "(That's great...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это здорово...)",
+      "status": "machine",
+      "srcHash": "9dab10564cf0abd9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "711532d2-b126-4a85-813f-462ee689cee7/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name /> heard of this matter and immediately wrote a reply,<NL>stating that <Character key=CharId str=Name /> and <Character key=TargetCharId str=Name /> were so mismatched. While marrying now is possible, it would likely lead to lifelong quarreling.<NL><NL>Several days later, it was heard that <Character key=CharId str=Name /> had doubts in heart, yet still married <Character key=TargetCharId str=Name />...",
+      "cn": "<Character key=RoleTaiwu str=Name />闻有此事，随即提笔回信，<NL>只道<Character key=CharId str=Name />与<Character key=TargetCharId str=Name />诸般不合，眼下成亲未为不可，只恐来日终为怨偶。<NL><NL>待得数日之后，便听闻<Character key=CharId str=Name />心存疑虑，却仍与<Character key=TargetCharId str=Name />结为了连理……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "585090caad79d00e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "711532d2-b126-4a85-813f-462ee689cee7/Option_1": {
+      "en": "(That's great...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это здорово...)",
+      "status": "machine",
+      "srcHash": "9dab10564cf0abd9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d24b16d3-35ff-4391-994c-46c00e2e9539/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name /> heard of this matter and felt concern, sensing the two were not well-suited.<NL><Character key=RoleTaiwu str=UpperGenderSubject/> promptly wrote a reply, advising against this marriage.<NL><NL>Feeling some regret upon receiving this counsel, <Character key=CharId str=Name /> thought it over, ultimately abandoned the matter, and never mentioned it again...",
+      "cn": "<Character key=RoleTaiwu str=Name />闻有此事，心中顿生忧虑，只觉二人非是良配，<NL>随即提笔回信，婉言劝阻此桩亲事。<NL><NL><Character key=CharId str=Name />受此劝阻，心中虽有憾意，然而思前想后，终将此事作罢，未再提起……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "93114c6ad4dc3c45",
+      "engine": null,
+      "updatedAt": null
+    },
+    "d24b16d3-35ff-4391-994c-46c00e2e9539/Option_1": {
+      "en": "(That's great...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это здорово...)",
+      "status": "machine",
+      "srcHash": "9dab10564cf0abd9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    }
+  }
+}

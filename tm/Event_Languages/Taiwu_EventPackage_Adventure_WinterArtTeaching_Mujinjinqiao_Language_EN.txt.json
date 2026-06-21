@@ -1,0 +1,2050 @@
+{
+  "schemaVersion": 1,
+  "file": "Event_Languages/Taiwu_EventPackage_Adventure_WinterArtTeaching_Mujinjinqiao_Language_EN.txt",
+  "glossaryVersion": 5,
+  "units": {
+    "fb1648fe-7e78-454b-bc6c-81b764890c29/EventContent": {
+      "en": "Before the market gate, banners flutter gently, the crowd grows lively, and Artisans come and go in a steady stream...<NL>The receptionist greets with a cupped-hand salute, leading the way inside, and calmly says:<NL>\"You're here to join the Hundred Crafts Debate, aren't you? Artisans from all directions gather here.<NL>The Debate rules are simple—identify materials and recognize items; the victor becomes the master Artisan.<NL>As for the venue, you can choose to Adventure through the markets, or directly seek someone for Sparring in the Arena area.\"",
+      "cn": "坊市门前，旗幡轻扬，人声渐沸，周遭匠人往来络绎……<NL>接待拱手为礼，侧身引向坊内，从容道：<NL>“你是来参加百工较艺的吧？此地四方匠人汇聚。<NL>较艺规矩简单——辨材识物，胜者为匠。<NL>至于场地方面，你可以选择去到坊市间游历，也可直接在擂台区寻人切磋。”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "d5ab46ae43de9c94",
+      "engine": null,
+      "updatedAt": null
+    },
+    "fb1648fe-7e78-454b-bc6c-81b764890c29/Option_1": {
+      "en": "Where are the market artisans?",
+      "cn": "坊市匠人在何处",
+      "ru": "Где рыночные ремесленники?",
+      "status": "machine",
+      "srcHash": "197dc059ea4d8384",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fb1648fe-7e78-454b-bc6c-81b764890c29/Option_2": {
+      "en": "Where is the Arena?",
+      "cn": "擂台在何处",
+      "ru": "Где находится Арена?",
+      "status": "machine",
+      "srcHash": "53ced50339173420",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fb1648fe-7e78-454b-bc6c-81b764890c29/Option_3": {
+      "en": "(I'm already aware...)",
+      "cn": "（我已知晓……）\n",
+      "ru": "(Я уже в курсе...)",
+      "status": "machine",
+      "srcHash": "df3c61e2fc2c6cb3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "98a4bb51-5762-48b2-be1b-f05e3227d3b7/EventContent": {
+      "en": "Inside the workshop, two pieces of wood with similar grain patterns lie on the workbench, shavings scattered nearby...<NL>The carpenter looks serious and asks <Character key=RoleTaiwu str=Name/>,<NL>\"Is this Chinese Elm or Nagkesar? Identifying wood is the fundamental skill of a carpenter.\"",
+      "cn": "坊内，案上摆着木纹相近的木料两条，刨花散落一旁……<NL>木匠神色严肃，向<Character key=RoleTaiwu str=Name/>问道：<NL>“这是白榆木还是铁梨木？辨认木材，是木匠的基本功。”",
+      "ru": "Внутри мастерской на верстаке лежат два куска дерева с похожим рисунком зерен, рядом разбросана стружка...<NL>Плотник выглядит серьезным и спрашивает <Character key=RoleTaiwu str=Name/>,<NL>- Это китайский вяз или Нагкесар? Идентификация древесины - это фундаментальный навык плотника.\"",
+      "status": "machine",
+      "srcHash": "46f6f1202bacba0c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "98a4bb51-5762-48b2-be1b-f05e3227d3b7/Option_1": {
+      "en": "(Identify wood...)",
+      "cn": "（辨别木材……）",
+      "ru": "(Определите древесину...)",
+      "status": "machine",
+      "srcHash": "ca8b71f73c21ce23",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "98a4bb51-5762-48b2-be1b-f05e3227d3b7/Option_2": {
+      "en": "(Chat...)",
+      "cn": "（闲聊……）",
+      "ru": "(Чат...)",
+      "status": "machine",
+      "srcHash": "d04dc7950d74f52f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "98a4bb51-5762-48b2-be1b-f05e3227d3b7/Option_3": {
+      "en": "(Leave it alone...)",
+      "cn": "（置之不理……）\n",
+      "ru": "(Оставь это в покое...)",
+      "status": "machine",
+      "srcHash": "307c2e55e401c4db",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b18342df-b18c-4b79-95f9-58e5b355f4f3/EventContent": {
+      "en": "\"If you have something to say, then say it. If not, step aside and let me get to work...\"",
+      "cn": "“有事说事，无事便让让，莫耽误我做工……”",
+      "ru": "- Если тебе есть что сказать, то говори это. Если нет, отойдите в сторону и дайте мне приступить к работе...\"",
+      "status": "machine",
+      "srcHash": "a31bff0d6fdda174",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b18342df-b18c-4b79-95f9-58e5b355f4f3/Option_1": {
+      "en": "Leave...",
+      "cn": "(离开……)\n",
+      "ru": "Покидать...",
+      "status": "machine",
+      "srcHash": "9ea25ddaee0ca147",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7aea756f-9f02-40a9-b101-87c06a2e96a8/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1954d2ab-b9ef-4acd-85f7-af32b09778d0/EventContent": {
+      "en": "The carpenter shakes their head, takes the wood back onto the workbench, and says coolly,<NL>\"Material identification requires caution. You need to train your eye a bit more...\"",
+      "cn": "木匠摇了摇头，将木料收回案上，淡淡道：<NL>“辨材需谨慎，还需再练练眼力……”",
+      "ru": "Плотник качает головой, кладет дрова обратно на верстак и холодно говорит,<NL>\"Идентификация материала требует осторожности. Тебе нужно еще немного потренировать свой глазомер...\"",
+      "status": "machine",
+      "srcHash": "459cc7f538c27da5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "1954d2ab-b9ef-4acd-85f7-af32b09778d0/Option_1": {
+      "en": "(Leave dejectedly...)",
+      "cn": "（黯然离去……）\n",
+      "ru": "(Удрученно уходит...)",
+      "status": "machine",
+      "srcHash": "8ecedd35543fcd63",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a78cb14f-e524-46f2-9c34-6b9bf20b3495/EventContent": {
+      "en": "The carpenter claps their hands and laughs heartily,<NL>\"Sharp eyes! You saw right through it at a glance. Truly an expert!\"",
+      "cn": "木匠抚掌，朗声笑道：<NL>“好眼力！一眼便道出究竟，果然行家！”",
+      "ru": "Плотник хлопает в ладоши и от души смеется,<NL>- Зоркие глаза! Вы с первого взгляда увидели его насквозь. Настоящий эксперт!\"",
+      "status": "machine",
+      "srcHash": "5079d1c6af9aa55e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "a78cb14f-e524-46f2-9c34-6b9bf20b3495/Option_1": {
+      "en": "You flatter me!",
+      "cn": "过奖了！\n",
+      "ru": "Вы мне льстите!",
+      "status": "machine",
+      "srcHash": "eaf4a7e73c1938b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b8ecf3cf-fb75-4262-8f40-c36df3eda550/EventContent": {
+      "en": "With his face half aglow from the furnace, the blacksmith puts down his tongs. He takes a piece of metal from a heap of materials and places it on the table:<NL>\"Take a look at this metal. Is it hard iron or soft iron?\"",
+      "cn": "炉火映红半张脸，铁匠搁下手中铁钳，从料堆中取出一块金铁，置于案上：<NL>“这块金铁，你且看看——是硬铁还是软铁？”",
+      "ru": "С лицом, наполовину освещенным пламенем печи, кузнец опускает щипцы. Он берет кусок металла из кучи материалов и кладет его на стол:<NL>- Взгляните на этот металл. Это твердое железо или мягкое?\"",
+      "status": "machine",
+      "srcHash": "a503ea60c590d83f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "b8ecf3cf-fb75-4262-8f40-c36df3eda550/Option_1": {
+      "en": "(Identify metal...)",
+      "cn": "（辨别铁料……）",
+      "ru": "(Идентифицируйте металл...)",
+      "status": "machine",
+      "srcHash": "3e34c4c278c1b36e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b8ecf3cf-fb75-4262-8f40-c36df3eda550/Option_2": {
+      "en": "(Chat...)",
+      "cn": "（闲聊……）",
+      "ru": "(Чат...)",
+      "status": "machine",
+      "srcHash": "d04dc7950d74f52f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b8ecf3cf-fb75-4262-8f40-c36df3eda550/Option_3": {
+      "en": "(Leave it alone...)",
+      "cn": "（置之不理……）\n",
+      "ru": "(Оставь это в покое...)",
+      "status": "machine",
+      "srcHash": "307c2e55e401c4db",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fe8bfa5d-0b0f-41cd-bbdd-a71f3471a7ab/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "20cb7611-4394-4d92-9a77-d21787764357/EventContent": {
+      "en": "The blacksmith puts the metal away and picks up the tongs again, saying noncommittally,<NL>\"Material identification requires caution. You need to train your eye a bit more...\"",
+      "cn": "铁匠将金铁收回，重新拾起铁钳，不置可否道：<NL>“辨材需谨慎，还需再练练眼力……”",
+      "ru": "Кузнец убирает металл и снова берет щипцы, уклончиво говоря,<NL>\"Идентификация материала требует осторожности. Тебе нужно еще немного потренировать свой глазомер...\"",
+      "status": "machine",
+      "srcHash": "6119518264a20af6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "20cb7611-4394-4d92-9a77-d21787764357/Option_1": {
+      "en": "(Leave dejectedly...)",
+      "cn": "（黯然离去……）\n",
+      "ru": "(Удрученно уходит...)",
+      "status": "machine",
+      "srcHash": "8ecedd35543fcd63",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "12661f92-7d6d-4726-820c-b057089faaaa/EventContent": {
+      "en": "The blacksmith puts down his hammer and slaps the anvil with his calloused hand, exclaiming in admiration:<NL>\"Excellent! You figured it out at first glance. Truly an expert!\"",
+      "cn": "铁匠放下铁锤，粗糙大手一拍砧面，赞赏道：<NL>“好眼力！一眼便道出究竟，果然行家！”",
+      "ru": "Кузнец опускает молот и хлопает по наковальне мозолистой рукой, восхищенно восклицая:<NL>- Превосходно! Вы поняли это с первого взгляда. Настоящий эксперт!\"",
+      "status": "machine",
+      "srcHash": "00b39e82f1d70a71",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "12661f92-7d6d-4726-820c-b057089faaaa/Option_1": {
+      "en": "You flatter me!",
+      "cn": "过奖了！\n",
+      "ru": "Вы мне льстите!",
+      "status": "machine",
+      "srcHash": "eaf4a7e73c1938b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "9cfde894-a4d0-4c44-9ee6-78251929c373/EventContent": {
+      "en": "The weaver stands beside the dye vat, holding two bolts of fabric, one dark and one light, suspended in midair for a careful comparison...<NL>Seeing <Character key=RoleTaiwu str=Name/> approach, they spread the fabrics side by side and ask,<NL>\"One of these is a hard-weave reagent, and the other is a soft-weave reagent.<NL>Can you tell which is which...\"",
+      "cn": "织工立于染缸旁，手中捏着两匹布料，一深一浅，悬于半空细细比对……<NL>见<Character key=RoleTaiwu str=Name/>到来，便将布料并排展开，问道：<NL>“这两匹布，一为硬布引子，一为软布引子。<NL>你可能分出哪匹是硬，哪匹是软……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "bbe85debe455dcf3",
+      "engine": null,
+      "updatedAt": null
+    },
+    "9cfde894-a4d0-4c44-9ee6-78251929c373/Option_1": {
+      "en": "(Identify cloth...)",
+      "cn": "（辨别布帛……）",
+      "ru": "(Идентифицируйте ткань...)",
+      "status": "machine",
+      "srcHash": "2e8a0745984d60d0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "9cfde894-a4d0-4c44-9ee6-78251929c373/Option_2": {
+      "en": "(Chat...)",
+      "cn": "（闲聊……）",
+      "ru": "(Чат...)",
+      "status": "machine",
+      "srcHash": "d04dc7950d74f52f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "9cfde894-a4d0-4c44-9ee6-78251929c373/Option_3": {
+      "en": "(Leave it alone...)",
+      "cn": "（置之不理……）\n",
+      "ru": "(Оставь это в покое...)",
+      "status": "machine",
+      "srcHash": "307c2e55e401c4db",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1f6ad12d-0299-4e10-85b4-86e81d035f3f/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "41514ee7-6a0a-48db-be44-2c6d6f8ba89f/EventContent": {
+      "en": "The weaver neatly folds the fabric back and places it on the table with a soft sigh,<NL>\"Material identification requires caution. You need to train your eye a bit more...\"",
+      "cn": "织工将布料重新叠好，放回案上，轻叹一声：<NL>“辨材需谨慎，还需再练练眼力……”",
+      "ru": "Ткачиха аккуратно складывает ткань обратно и с тихим вздохом кладет ее на стол,<NL>\"Идентификация материала требует осторожности. Тебе нужно еще немного потренировать свой глазомер...\"",
+      "status": "machine",
+      "srcHash": "c6c84393478a6019",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "41514ee7-6a0a-48db-be44-2c6d6f8ba89f/Option_1": {
+      "en": "(Leave dejectedly...)",
+      "cn": "（黯然离去……）\n",
+      "ru": "(Удрученно уходит...)",
+      "status": "machine",
+      "srcHash": "8ecedd35543fcd63",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e393d588-9ef9-48f7-9fe4-379438ce8412/EventContent": {
+      "en": "The weaver gathers the fabric and nods approvingly,<NL>\"Sharp eyes! You saw right through it at a glance. Truly an expert!\"",
+      "cn": "织工将布料收拢，颔首道：<NL>“好眼力！一眼便道出究竟，果然行家！”",
+      "ru": "Ткачиха собирает ткань и одобрительно кивает,<NL>- Зоркие глаза! Вы с первого взгляда увидели его насквозь. Настоящий эксперт!\"",
+      "status": "machine",
+      "srcHash": "72682563e0ecb250",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "e393d588-9ef9-48f7-9fe4-379438ce8412/Option_1": {
+      "en": "You flatter me!",
+      "cn": "过奖了！\n",
+      "ru": "Вы мне льстите!",
+      "status": "machine",
+      "srcHash": "eaf4a7e73c1938b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5dc8ddb5-1529-4e62-aed8-478e51565a55/EventContent": {
+      "en": "The jadeworker sits upright at his table, carefully polishing jade pieces with fine sandpaper.<NL>Hearing footsteps, he stops and places the two pieces of jade side by side on the table, then he looks up and says:<NL>\"One of these jade pieces is a rough sample of hard jade, and the other is a rough sample of soft jade.<NL>Can you tell which one is hard and which one is soft...?\"",
+      "cn": "玉匠端坐于案前，手持细砂纸，一点一点打磨手中玉料<NL>听得脚步声，方才停手，将两块玉料并排置于案上，抬头道：<NL>“这两块玉料，一为硬玉引子，一为软玉引子，<NL>你可分出哪块是硬、哪块是软……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "6799d47910644833",
+      "engine": null,
+      "updatedAt": null
+    },
+    "5dc8ddb5-1529-4e62-aed8-478e51565a55/Option_1": {
+      "en": "(Identify jade...)",
+      "cn": "（辨别玉石……）",
+      "ru": "(Опознать Нефрит...)",
+      "status": "machine",
+      "srcHash": "5817e825f6e337a8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5dc8ddb5-1529-4e62-aed8-478e51565a55/Option_2": {
+      "en": "(Chat...)",
+      "cn": "（闲聊……）",
+      "ru": "(Чат...)",
+      "status": "machine",
+      "srcHash": "d04dc7950d74f52f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5dc8ddb5-1529-4e62-aed8-478e51565a55/Option_3": {
+      "en": "(Leave it alone...)",
+      "cn": "（置之不理……）\n",
+      "ru": "(Оставь это в покое...)",
+      "status": "machine",
+      "srcHash": "307c2e55e401c4db",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "30a536ec-501a-458b-904d-ba914be448ca/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "bedcf38a-191d-444e-9308-35010ca6036f/EventContent": {
+      "en": "The jade artisan puts the jade rough away and picks up the sandpaper again, saying calmly,<NL>\"Material identification requires caution. You need to train your eye a bit more...\"",
+      "cn": "玉匠将玉料收回，重新执起砂纸，平静道：<NL>“辨材需谨慎，还需再练练眼力……”",
+      "ru": "Мастер по Нефриту откладывает необработанный Нефрит в сторону и снова берет наждачную бумагу, спокойно говоря,<NL>\"Идентификация материала требует осторожности. Тебе нужно еще немного потренировать свой глазомер...\"",
+      "status": "machine",
+      "srcHash": "f4ae6d29b029b046",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "bedcf38a-191d-444e-9308-35010ca6036f/Option_1": {
+      "en": "(Leave dejectedly...)",
+      "cn": "（黯然离去……）\n",
+      "ru": "(Удрученно уходит...)",
+      "status": "machine",
+      "srcHash": "8ecedd35543fcd63",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a1b22bcb-e625-40b1-bd57-a118a2172366/EventContent": {
+      "en": "The jadeworker picks up the jade pieces and examines them carefully, then bursts out in praise:<NL>\"Excellent! You figured it out at first glance. Truly an expert!\"",
+      "cn": "玉匠拿起两块玉料，细细端详片刻，赞许道：<NL>“好眼力！一眼便道出究竟，果然行家！”",
+      "ru": "Мастер по обработке нефрита берет кусочки Нефрита и внимательно рассматривает их, а затем рассыпается в похвалах:<NL>- Превосходно! Вы поняли это с первого взгляда. Настоящий эксперт!\"",
+      "status": "machine",
+      "srcHash": "d2a7821ee7d337b6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "a1b22bcb-e625-40b1-bd57-a118a2172366/Option_1": {
+      "en": "You flatter me!",
+      "cn": "过奖了！\n",
+      "ru": "Вы мне льстите!",
+      "status": "machine",
+      "srcHash": "eaf4a7e73c1938b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "07661f2b-6d6b-421c-9cf2-848a5ad17bd6/EventContent": {
+      "en": "Upon the solemn high platform of the training ground, the contest supervisor holds a registry and surveys the arena with a stern gaze. With a raise of his hand, he announces in a deep voice:<NL>\"This contest consists of two rounds: the preliminary round and the final round.<NL>In the preliminary round, choose any artisan to spar against in a test of identifying materials.<NL>The winner will advance to the final round to discuss the art of craftsmanship with a master. Are you interested in demonstrating your skills?\"",
+      "cn": "校场高台肃穆，监场官手持名册，目光威严扫视全场，抬手示意后沉声宣告：<NL>“此次较艺分初赛、决赛两场。初赛任选一位匠人，以辨材眼力切磋，<NL>胜者便可入决赛，与宗师论匠道，可有兴趣一展身手？”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "ce73cc4a2dc8f252",
+      "engine": null,
+      "updatedAt": null
+    },
+    "07661f2b-6d6b-421c-9cf2-848a5ad17bd6/Option_1": {
+      "en": "(Participate in the contest...)",
+      "cn": "（参加大会……）",
+      "ru": "(Участвуйте в конкурсе...)",
+      "status": "machine",
+      "srcHash": "e0b805f63697d8e3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "07661f2b-6d6b-421c-9cf2-848a5ad17bd6/Option_2": {
+      "en": "(Inquire about the rules...)",
+      "cn": "（询问规则……）",
+      "ru": "(Узнайте о правилах...)",
+      "status": "machine",
+      "srcHash": "6eb846d2c4c1c943",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "07661f2b-6d6b-421c-9cf2-848a5ad17bd6/Option_3": {
+      "en": "(Decide a little later...)",
+      "cn": "（稍后再说……）\n",
+      "ru": "(Решу чуть позже...)",
+      "status": "machine",
+      "srcHash": "031b1015bbafb02c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "17be5ed3-7959-425a-9437-34231cfe9f78/EventContent": {
+      "en": "The artisans stand solemnly on both sides, with their banners from the woodworking, ironworking, weaving, and jade workshops lining the field, awaiting the competition...<NL>The contest supervisor gestures towards the arena and solemnly announces:<NL>\"Several artisans are already waiting in the arena. Taiwu may choose any one to spar against.<NL>The winner will then discuss craftsmanship with a master...\"",
+      "cn": "两侧匠人肃立，木、铁、织、玉诸坊旗幡分列，场中静候比试……<NL>监场官侧身朝擂台方向一引，郑重道：<NL>“擂台已有数位匠人等候，你可任选一位切磋技艺，<NL>胜者便可与宗师论道……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b7ff3b0b3cfa0bc9",
+      "engine": null,
+      "updatedAt": null
+    },
+    "17be5ed3-7959-425a-9437-34231cfe9f78/Option_1": {
+      "en": "(Proceed to sparring...)",
+      "cn": "（前往切磋……）\n",
+      "ru": "(Приступайте к спаррингу...)",
+      "status": "machine",
+      "srcHash": "02d44294260c9729",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1b6da358-c6fd-4186-9b45-872d66990b93/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8af21b5a-6b06-4a2b-9c28-2ab9904a8bf9/EventContent": {
+      "en": "The contest supervisor calmly explains the competition rules one by one:<NL>\"In the preliminary round, choose any artisan in the arena to engage in a Fine Arts spar.The method of competition will depend entirely on the opponent's strengths.<NL>The winner will advance to the final round.<NL>The final round will be presided over by a master craftsman who will test your understanding of the art of craftsmanship.<NL>In addition, various opportunities are scattered throughout the venue. If you have some free time, feel free to wander around...\"",
+      "cn": "监场官不疾不徐，将规矩一一道来：<NL>“初赛之时，在擂台任选一位匠人，<NL>以技艺切磋，较量之法，全看对方所长。<NL>胜者，便可参加决赛。<NL>决赛由堂中宗师亲自主持，考的便是对匠道的领悟，<NL>此外，各处散布着机缘，若有余暇，不妨四处走走……”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "b0d5bc34d9261f11",
+      "engine": null,
+      "updatedAt": null
+    },
+    "8af21b5a-6b06-4a2b-9c28-2ab9904a8bf9/Option_1": {
+      "en": "(Go wander around...)",
+      "cn": "（四处走走……）\n",
+      "ru": "(Иди поброди вокруг...)",
+      "status": "machine",
+      "srcHash": "b31d70d5f31a7e1a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "49e01e96-d35e-48e9-bc4a-af34213a64a4/EventContent": {
+      "en": " In the gentle breeze and warm sunshine, a spectator in the training ground says to himself:<NL>\"The weather is fine today. Perfect for having a nice rest...\"",
+      "cn": "风轻日暖，校场上观众悠然自语：<NL>“今日天气晴好，正是休憩的好时候……”",
+      "ru": " Под легким ветерком и теплым солнечным светом зритель на тренировочной площадке говорит сам себе:<NL>\"Погода сегодня прекрасная. Идеально подходит для приятного отдыха...\"",
+      "status": "machine",
+      "srcHash": "ec1ee44d48a50ed8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "49e01e96-d35e-48e9-bc4a-af34213a64a4/Option_1": {
+      "en": "(Select a Carpentry Reagent...)",
+      "cn": "（挑选制木引子……）",
+      "ru": "(Выберите Реагент для Столярного дела...)",
+      "status": "machine",
+      "srcHash": "c7658d1267b6908b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "49e01e96-d35e-48e9-bc4a-af34213a64a4/Option_2": {
+      "en": "(Select a Weaving Reagent...)",
+      "cn": "（挑选织锦引子……）",
+      "ru": "(Выберите Реагент для Ткачества...)",
+      "status": "machine",
+      "srcHash": "17a6d9f576d1e07f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "49e01e96-d35e-48e9-bc4a-af34213a64a4/Option_3": {
+      "en": "(Select a Jade Reagent...)",
+      "cn": "（挑选玉石引子……）",
+      "ru": "(Выберите Реагент из Нефрита...)",
+      "status": "machine",
+      "srcHash": "b01c709e607ba916",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "49e01e96-d35e-48e9-bc4a-af34213a64a4/Option_4": {
+      "en": "(Select a Metal Reagent...)",
+      "cn": "（挑选金铁引子……）",
+      "ru": "(Выберите металлический Реагент...)",
+      "status": "machine",
+      "srcHash": "a7141673a94b10b5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "49e01e96-d35e-48e9-bc4a-af34213a64a4/Option_5": {
+      "en": "(Leave it alone...)",
+      "cn": "（置之不理……）\n",
+      "ru": "(Оставь это в покое...)",
+      "status": "machine",
+      "srcHash": "307c2e55e401c4db",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7748e6c5-947c-4500-85de-384acc3a0541/EventContent": {
+      "en": "The contest supervisor bows slightly in acknowledgment and solemnly states:<NL>\"The various artisans have been in the market for quite some time, awaiting your arrival to compete.<NL>If you are ready, the preliminary round can begin at any time...\"",
+      "cn": "监场官微微欠身示意，庄重道：<NL>“各方匠人已在墟市中候场多时，只待你登台较艺。<NL>若已准备妥当，随时可以开始初赛……”",
+      "ru": "Руководитель конкурса слегка кланяется в знак признательности и торжественно заявляет:<NL>\"Различные ремесленники работают на рынке уже довольно давно, ожидая вашего прибытия, чтобы посоревноваться.<NL>Если вы готовы, предварительный раунд может начаться в любое время...\"",
+      "status": "machine",
+      "srcHash": "6b056dd2865dc660",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "7748e6c5-947c-4500-85de-384acc3a0541/Option_1": {
+      "en": "(I'm already aware...)",
+      "cn": "（我已知晓……）\n",
+      "ru": "(Я уже в курсе...)",
+      "status": "machine",
+      "srcHash": "df3c61e2fc2c6cb3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1ac2ab2d-c293-49b6-a71f-4db4917f545d/EventContent": {
+      "en": "On the Arena stage, wood planks are neatly arranged on the table, with wood shavings and fine dust stirring gently in the breeze...<NL>The Carpenter stands behind the table, gives a cupped-hand salute, and says steadily:<NL>\"Since you dared to join the Contest, you must possess Unique Arts.<NL>In today's Preliminary, you and I will compete in 'Identifying Materials and Selecting Wood,'<NL>and among these materials, there is a Reagent for Carpentry.<NL>Whoever picks it out first wins.\"",
+      "cn": "擂台之上，木料整齐排列于案，刨花细屑随风微动……<NL>木匠立于案后，拱手为礼，沉稳道：<NL>“既然敢来参加比试，想必是身怀绝技。<NL>今日初赛，你我便以‘辨材选料’一较高下，<NL>在这些料子里，有一味是“制木”的引子，<NL>谁先挑出，谁便胜出。”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0ba38ec4cd3c3425",
+      "engine": null,
+      "updatedAt": null
+    },
+    "1ac2ab2d-c293-49b6-a71f-4db4917f545d/Option_1": {
+      "en": "(Go straight to the contest...)",
+      "cn": "（直接较艺……）",
+      "ru": "(Переходите сразу к конкурсу...)",
+      "status": "machine",
+      "srcHash": "bae7fcd9b8a0b292",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1ac2ab2d-c293-49b6-a71f-4db4917f545d/Option_2": {
+      "en": "(Choose a Reagent...)",
+      "cn": "（挑选引子……）",
+      "ru": "(Выберите Реагент...)",
+      "status": "machine",
+      "srcHash": "90a424229bc2e892",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1ac2ab2d-c293-49b6-a71f-4db4917f545d/Option_3": {
+      "en": "(Decide a little later...)",
+      "cn": "（稍后再说……）\n",
+      "ru": "(Решу чуть позже...)",
+      "status": "machine",
+      "srcHash": "031b1015bbafb02c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4c595e54-f4c1-407b-a418-45136947042f/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8b380b60-6075-4646-bd53-0d9e5e8fcb58/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "66e4868d-3316-401e-bc43-d9881911b5e5/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fad2f157-f78b-48e2-bcc8-3f64844e056b/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f1d8bf0e-0881-4a89-b2bd-fb4e03b17685/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "2e737fc0-f8bb-442d-9e9a-be1d2f07b8b8/EventContent": {
+      "en": "The carpenter gathers the materials, expression serene, and bows slightly,<NL>\"I win. Do not be discouraged; there will be other chances in the future...\"",
+      "cn": "木匠收起料子，神色平和，拱手道：<NL>“承让了。莫要气馁，来日方长……”",
+      "ru": "Плотник собирает материалы с безмятежным выражением лица и слегка кланяется,<NL>- Я победил. Не отчаивайтесь, в будущем будут и другие шансы...\"",
+      "status": "machine",
+      "srcHash": "51b0dab9f2566393",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "2e737fc0-f8bb-442d-9e9a-be1d2f07b8b8/Option_1": {
+      "en": "I have learned a lot...",
+      "cn": "受教了……\n",
+      "ru": "Я многому научился...",
+      "status": "machine",
+      "srcHash": "7565fcde57102032",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c79eab55-227f-4920-a734-673fc92ed1e6/EventContent": {
+      "en": "The Carpenter steps back, bows with clasped hands:<NL>\"Your Fine Arts are truly superb; I am convinced and yield. May you achieve further success in the Final...\"",
+      "cn": "木匠退后一步，拱手俯身：<NL>“技艺竟如此高超，在下心服口服，愿你在决赛中再创佳绩……”",
+      "ru": "Плотник отступает назад, кланяется, сложив руки:<NL>\"Ваше Ремесло поистине превосходно; я убежден и уступаю. Желаю вам добиться дальнейших успехов в финале...\"",
+      "status": "machine",
+      "srcHash": "c5eb2a6dafa1f13b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "c79eab55-227f-4920-a734-673fc92ed1e6/Option_1": {
+      "en": "You flatter me!",
+      "cn": "过奖了！\n",
+      "ru": "Вы мне льстите!",
+      "status": "machine",
+      "srcHash": "eaf4a7e73c1938b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "163bf147-a118-4dd6-b2be-0dc900f0c7a4/EventContent": {
+      "en": "nan",
+      "cn": "",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "163bf147-a118-4dd6-b2be-0dc900f0c7a4/Option_1": {
+      "en": "(Confirm...)",
+      "cn": "（确定……）",
+      "ru": "(Подтверждаю...)",
+      "status": "machine",
+      "srcHash": "3cf843140f31b490",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "163bf147-a118-4dd6-b2be-0dc900f0c7a4/Option_2": {
+      "en": "(Back...)",
+      "cn": "（返回……）\n",
+      "ru": "(Назад...)",
+      "status": "machine",
+      "srcHash": "86f64a546e5c57f2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e46b66c9-055e-481a-8412-9d4d707e8e0c/EventContent": {
+      "en": "Beside the Arena, the forge fire is still warm, and iron materials are neatly laid on the table...<NL>The Blacksmith wipes his hands and greets <Character key=RoleTaiwu str=Name/> with a cupped-hand salute:<NL>\"Since you dared to join the Contest, you must possess Unique Arts.<NL>In today's Preliminary, you and I will compete in 'Smithing.'\"",
+      "cn": "擂台一侧炉火尚温，铁料整齐摆于案上……<NL>铁匠擦了擦手，向<Character key=RoleTaiwu str=Name/>拱手：<NL>“既然敢来参加比试，想必是身怀绝技。<NL>今日初赛，你我便以“锻造”一较高下。”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "34645e6f3fd9fd4a",
+      "engine": null,
+      "updatedAt": null
+    },
+    "e46b66c9-055e-481a-8412-9d4d707e8e0c/Option_1": {
+      "en": "(Go straight to the contest...)",
+      "cn": "（直接较艺……）",
+      "ru": "(Переходите сразу к конкурсу...)",
+      "status": "machine",
+      "srcHash": "bae7fcd9b8a0b292",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e46b66c9-055e-481a-8412-9d4d707e8e0c/Option_2": {
+      "en": "(Choose a Reagent...)",
+      "cn": "（挑选引子……）",
+      "ru": "(Выберите Реагент...)",
+      "status": "machine",
+      "srcHash": "90a424229bc2e892",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e46b66c9-055e-481a-8412-9d4d707e8e0c/Option_3": {
+      "en": "(Decide a little later...)",
+      "cn": "（稍后再说……）\n",
+      "ru": "(Решу чуть позже...)",
+      "status": "machine",
+      "srcHash": "031b1015bbafb02c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7e017bd3-014e-4703-b9f9-077f3e43292e/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd823493-a516-4245-bbc5-e6a29e825a40/EventContent": {
+      "en": "The Blacksmith sweeps his gaze over the materials in everyone's hands and says:<NL>\"Alright, you all have your materials, right?<NL>Please pick out the Reagent for Smithing from the materials you currently have.\"",
+      "cn": "铁匠扫过众人手中料材道：<NL>“好了，料子都到手了罢？<NL>需要“锻造”的引子，请从你们手中现有的料子里挑出来。”",
+      "ru": "Кузнец окидывает взглядом материалы, которые у всех в руках, и говорит:<NL>\"Хорошо, у вас у всех есть свои материалы, верно?<NL>Пожалуйста, выберите Реагент для кузнечного дела из тех материалов, которые у вас есть в данный момент.\"",
+      "status": "machine",
+      "srcHash": "d9cd36c8ef6ad084",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "fd823493-a516-4245-bbc5-e6a29e825a40/Option_1": {
+      "en": "(Choose at random...)",
+      "cn": "（随意挑选……）",
+      "ru": "(Выбирайте наугад...)",
+      "status": "machine",
+      "srcHash": "2b600280a07460c3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd823493-a516-4245-bbc5-e6a29e825a40/Option_2": {
+      "en": "(Handpick carefully...) <color=grey>[Attainment determination]",
+      "cn": "（精挑细选……）<color=grey>[造诣判定]",
+      "ru": "(Тщательно подбирайте вручную...) <color=grey>[Определение достижения]",
+      "status": "machine",
+      "srcHash": "32ecb5e426df3b5c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fd823493-a516-4245-bbc5-e6a29e825a40/Option_3": {
+      "en": "(Go straight to the contest...)",
+      "cn": "（直接较艺……）\n",
+      "ru": "(Переходите сразу к конкурсу...)",
+      "status": "machine",
+      "srcHash": "bae7fcd9b8a0b292",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "861e9611-b8c3-41a6-ae19-0ee0257a6c4a/EventContent": {
+      "en": "The blacksmith's expression remains calm as they bow slightly,<NL>\"I win. Do not be discouraged; there will be other chances in the future...\"",
+      "cn": "铁匠神色平静，拱手道：<NL>“承让了。莫要气馁，来日方长……”",
+      "ru": "Выражение лица кузнеца остается спокойным, когда они слегка кланяются,<NL>- Я победил. Не отчаивайтесь, в будущем будут и другие шансы...\"",
+      "status": "machine",
+      "srcHash": "e5d65726597858ea",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "861e9611-b8c3-41a6-ae19-0ee0257a6c4a/Option_1": {
+      "en": "I have learned a lot...",
+      "cn": "受教了……\n",
+      "ru": "Я многому научился...",
+      "status": "machine",
+      "srcHash": "7565fcde57102032",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "92bc0275-479e-4628-9321-e4156767790a/EventContent": {
+      "en": "The Blacksmith gathers the materials, steps back, and says with a cupped-hand salute:<NL>\"Your Fine Arts are truly superb; I am convinced and yield. May you achieve further success in the Final...\"",
+      "cn": "铁匠将料子收拢，退后一步，拱手道：<NL>“技艺竟如此高超，在下心服口服，愿你在决赛中再创佳绩……”",
+      "ru": "Кузнец собирает материалы, отступает назад и говорит, салютуя сложенной чашечкой ладонью:<NL>\"Ваше Ремесло поистине превосходно; я убежден и уступаю. Желаю вам добиться дальнейших успехов в финале...\"",
+      "status": "machine",
+      "srcHash": "acf7968ea2069cfb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "92bc0275-479e-4628-9321-e4156767790a/Option_1": {
+      "en": "You flatter me!",
+      "cn": "过奖了！\n",
+      "ru": "Вы мне льстите!",
+      "status": "machine",
+      "srcHash": "eaf4a7e73c1938b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f8504e42-a82c-44f3-bb06-94c7f677feb4/EventContent": {
+      "en": "On the Arena stage, silk threads and cloth are neatly laid out on the table...<NL>The Weaver takes his position, greets <Character key=RoleTaiwu str=Name/> with a cupped-hand salute, and says:<NL>\"Since you dared to join the Contest, you must possess Unique Arts.<NL>In today's Preliminary, you and I will compete in 'Weaving.'\"",
+      "cn": "擂台一侧，丝线与布帛整齐铺陈于案……<NL>织工站定，向<Character key=RoleTaiwu str=Name/>拱手：<NL>“既然敢来参加比试，想必是身怀绝技。<NL>今日初赛，你我便以“织锦”一较高下。”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "747137c2d2c65215",
+      "engine": null,
+      "updatedAt": null
+    },
+    "f8504e42-a82c-44f3-bb06-94c7f677feb4/Option_1": {
+      "en": "(Go straight to the contest...)",
+      "cn": "（直接较艺……）",
+      "ru": "(Переходите сразу к конкурсу...)",
+      "status": "machine",
+      "srcHash": "bae7fcd9b8a0b292",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f8504e42-a82c-44f3-bb06-94c7f677feb4/Option_2": {
+      "en": "(Choose a Reagent...)",
+      "cn": "（挑选引子……）",
+      "ru": "(Выберите Реагент...)",
+      "status": "machine",
+      "srcHash": "90a424229bc2e892",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f8504e42-a82c-44f3-bb06-94c7f677feb4/Option_3": {
+      "en": "(Decide a little later...)",
+      "cn": "（稍后再说……）\n",
+      "ru": "(Решу чуть позже...)",
+      "status": "machine",
+      "srcHash": "031b1015bbafb02c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "336dbe92-c9dc-481a-beb3-b6cc31368561/EventContent": {
+      "en": "The Weaver sweeps his gaze over the materials in everyone's hands and says:<NL>\"Alright, you all have your materials, right?<NL>Please pick out the Reagent for Weaving from the materials you currently have.\"",
+      "cn": "织工扫过众人手中料材道：<NL>“好了，料子都到手了罢？<NL>需要“织锦”的引子，请从你们手中现有的料子里挑出来。”",
+      "ru": "Ткач окидывает взглядом материалы, которые у всех в руках, и говорит:<NL>\"Хорошо, у вас у всех есть свои материалы, верно?<NL>Пожалуйста, выберите Реагент для Ткачества из имеющихся у вас материалов.\"",
+      "status": "machine",
+      "srcHash": "513198c9d06c464a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "336dbe92-c9dc-481a-beb3-b6cc31368561/Option_1": {
+      "en": "(Choose at random...)",
+      "cn": "（随意挑选……）",
+      "ru": "(Выбирайте наугад...)",
+      "status": "machine",
+      "srcHash": "2b600280a07460c3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "336dbe92-c9dc-481a-beb3-b6cc31368561/Option_2": {
+      "en": "(Handpick carefully...) <color=grey>[Attainment determination]",
+      "cn": "（精挑细选……）<color=grey>[造诣判定]",
+      "ru": "(Тщательно подбирайте вручную...) <color=grey>[Определение достижения]",
+      "status": "machine",
+      "srcHash": "32ecb5e426df3b5c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "336dbe92-c9dc-481a-beb3-b6cc31368561/Option_3": {
+      "en": "(Go straight to the contest...)",
+      "cn": "（直接较艺……）\n",
+      "ru": "(Переходите сразу к конкурсу...)",
+      "status": "machine",
+      "srcHash": "bae7fcd9b8a0b292",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "09ca0b48-3f71-4aad-b90e-a559aa8a25b6/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "38b37a67-8f4a-498c-84af-e5fe5e7e67ce/EventContent": {
+      "en": "The weaver's expression remains calm as they bow slightly,<NL>\"I win. Do not be discouraged; there will be other chances in the future...\"",
+      "cn": "织工神色平静，拱手道：<NL>“承让了。莫要气馁，来日方长……”",
+      "ru": "Выражение лица ткачихи остается спокойным, когда они слегка кланяются,<NL>- Я победил. Не отчаивайтесь, в будущем будут и другие шансы...\"",
+      "status": "machine",
+      "srcHash": "5769353ba07ff962",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "38b37a67-8f4a-498c-84af-e5fe5e7e67ce/Option_1": {
+      "en": "I have learned a lot...",
+      "cn": "受教了……\n",
+      "ru": "Я многому научился...",
+      "status": "machine",
+      "srcHash": "7565fcde57102032",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e455dd8f-ef95-4dee-a8a4-bc53a65fda76/EventContent": {
+      "en": "The Weaver gathers the cloth, steps back, and says with a cupped-hand salute:<NL>\"Your Fine Arts are truly superb; I am convinced and yield. May you achieve further success in the Final...\"",
+      "cn": "织工将布帛收拢，退后一步，拱手道：<NL>“技艺竟如此高超，在下心服口服，愿你在决赛中再创佳绩……”",
+      "ru": "Ткач собирает ткань, отступает на шаг и произносит, салютуя сложенной чашечкой ладонью:<NL>\"Ваше Ремесло поистине превосходно; я убежден и уступаю. Желаю вам добиться дальнейших успехов в финале...\"",
+      "status": "machine",
+      "srcHash": "47510489bf43bca3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "e455dd8f-ef95-4dee-a8a4-bc53a65fda76/Option_1": {
+      "en": "You flatter me!",
+      "cn": "过奖了！\n",
+      "ru": "Вы мне льстите!",
+      "status": "machine",
+      "srcHash": "eaf4a7e73c1938b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0f1db2f4-0ee7-4de4-9241-74ad3125b73e/EventContent": {
+      "en": "On the Arena table, two pieces of jade material are placed side by side, with a warm Luster...<NL>The Jade Carver puts down his sandpaper, greets <Character key=RoleTaiwu str=Name/> with a cupped-hand salute, and says:<NL>\"Since you dared to join the Contest, you must possess Unique Arts.<NL>In today's Preliminary, you and I will compete in 'Jewelcrafting.'\"",
+      "cn": "擂台案上，两块玉料并排而置，光泽温润…·<NL>玉匠放下手中砂纸，向<Character key=RoleTaiwu str=Name/>拱手：<NL>“既然敢来参加比试，想必是身怀绝技。<NL>今日初赛，你我便以“巧匠”一较高下。”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "2cc506e0164f1e37",
+      "engine": null,
+      "updatedAt": null
+    },
+    "0f1db2f4-0ee7-4de4-9241-74ad3125b73e/Option_1": {
+      "en": "(Go straight to the contest...)",
+      "cn": "（直接较艺……）",
+      "ru": "(Переходите сразу к конкурсу...)",
+      "status": "machine",
+      "srcHash": "bae7fcd9b8a0b292",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0f1db2f4-0ee7-4de4-9241-74ad3125b73e/Option_2": {
+      "en": "(Choose a Reagent...)",
+      "cn": "（挑选引子……）",
+      "ru": "(Выберите Реагент...)",
+      "status": "machine",
+      "srcHash": "90a424229bc2e892",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0f1db2f4-0ee7-4de4-9241-74ad3125b73e/Option_3": {
+      "en": "(Decide a little later...)",
+      "cn": "（稍后再说……）\n",
+      "ru": "(Решу чуть позже...)",
+      "status": "machine",
+      "srcHash": "031b1015bbafb02c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "60033b22-af07-4a0c-b2c5-5439a82d813a/EventContent": {
+      "en": "The jade table is spotless, several pieces of jade material arranged left and right, shimmering faintly...<NL>The Jade Carver looks up and surveys the room: \"Alright, you all have your materials, right?<NL>Please pick out the Reagent for Weaving from the materials you currently have.\"",
+      "cn": "玉案光洁，数块玉料分列左右，微光莹然……<NL>玉匠抬头环视：“好了，料子都到手了罢？<NL>需要“织锦”的引子，请从你们手中现有的料子里挑出来。”",
+      "ru": "Стол из Нефрита безупречен, несколько кусочков материала из Нефрита, расположенных слева и справа, слабо мерцают...<NL>Резчик по Нефриту поднимает голову и осматривает комнату: \"Хорошо, у вас у всех есть свои материалы, верно?<NL>Пожалуйста, выберите Реагент для Ткачества из имеющихся у вас материалов.\"",
+      "status": "machine",
+      "srcHash": "e43c1aa3fed53df2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "60033b22-af07-4a0c-b2c5-5439a82d813a/Option_1": {
+      "en": "(Choose at random...)",
+      "cn": "（随意挑选……）",
+      "ru": "(Выбирайте наугад...)",
+      "status": "machine",
+      "srcHash": "2b600280a07460c3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "60033b22-af07-4a0c-b2c5-5439a82d813a/Option_2": {
+      "en": "(Handpick carefully...) <color=grey>[Attainment determination]",
+      "cn": "（精挑细选……）<color=grey>[造诣判定]",
+      "ru": "(Тщательно подбирайте вручную...) <color=grey>[Определение достижения]",
+      "status": "machine",
+      "srcHash": "32ecb5e426df3b5c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "60033b22-af07-4a0c-b2c5-5439a82d813a/Option_3": {
+      "en": "(Go straight to the contest...)",
+      "cn": "（直接较艺……）\n",
+      "ru": "(Переходите сразу к конкурсу...)",
+      "status": "machine",
+      "srcHash": "bae7fcd9b8a0b292",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1d7409ec-843e-456e-8e2d-a05c20531005/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "fbb520b4-89bf-4d07-87a7-00f77ca722d8/EventContent": {
+      "en": "The jade artisan's expression remains calm as they bow slightly,<NL>\"I win. Do not be discouraged; there will be other chances in the future...\"",
+      "cn": "玉匠神色平和，拱手道：<NL>“承让了。莫要气馁，来日方长……”",
+      "ru": "Выражение лица мастера по Нефриту остается спокойным, когда они слегка кланяются,<NL>- Я победил. Не отчаивайтесь, в будущем будут и другие шансы...\"",
+      "status": "machine",
+      "srcHash": "600d9594cf338296",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "fbb520b4-89bf-4d07-87a7-00f77ca722d8/Option_1": {
+      "en": "I have learned a lot...",
+      "cn": "受教了……\n",
+      "ru": "Я многому научился...",
+      "status": "machine",
+      "srcHash": "7565fcde57102032",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6dd2d6a2-11d8-497a-8020-9048261370a1/EventContent": {
+      "en": "The Jade Carver puts away the jade material, bows with clasped hands, and says sincerely:<NL>\"Your Fine Arts are truly superb; I am convinced and yield. May you achieve further success in the Final...\"",
+      "cn": "玉匠将玉料收起，拱手俯身，诚恳道：<NL>“技艺竟如此高超，在下心服口服，愿你在决赛中再创佳绩……”",
+      "ru": "Резчик по Нефриту убирает материал из Нефрита, кланяется, сложив руки, и искренне говорит:<NL>\"Ваше Ремесло поистине превосходно; я убежден и уступаю. Желаю вам добиться дальнейших успехов в финале...\"",
+      "status": "machine",
+      "srcHash": "34c91d5ae18b8319",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "6dd2d6a2-11d8-497a-8020-9048261370a1/Option_1": {
+      "en": "You flatter me!",
+      "cn": "过奖了！\n",
+      "ru": "Вы мне льстите!",
+      "status": "machine",
+      "srcHash": "eaf4a7e73c1938b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1c76cdd0-565e-4c27-85dd-3d4869304c33/EventContent": {
+      "en": "The contest supervisor steps forward, and with a look of compassion, says in a low voice:<NL>\"You certainly have the skill. It's simply a case of bad luck. Don't be discouraged.<NL>According to the rules, if you are willing to donate money to the contest or pledge your reputation,<NL>you may be afforded another chance.<NL>What do you think?\"",
+      "cn": "监场官走上前来，压低声音，神色不无惋惜：<NL>“你技艺本不差，只是时运不济，莫要气馁。<NL>按大会规矩，若肯给大会捐赠银钱，<NL>或是愿以名声作保，尚有一次机会。<NL>不知意下如何？”",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "a75f680eb36c6b71",
+      "engine": null,
+      "updatedAt": null
+    },
+    "1c76cdd0-565e-4c27-85dd-3d4869304c33/Option_1": {
+      "en": "(Give Silver...)",
+      "cn": "（给予银钱……）",
+      "ru": "(Дай серебро...)",
+      "status": "machine",
+      "srcHash": "94c46e242217e006",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1c76cdd0-565e-4c27-85dd-3d4869304c33/Option_2": {
+      "en": "(Spend Prestige...)",
+      "cn": "（消耗威望……）",
+      "ru": "(Потратьте Престиж...)",
+      "status": "machine",
+      "srcHash": "53db1298f490951a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1c76cdd0-565e-4c27-85dd-3d4869304c33/Option_3": {
+      "en": "(Quit the event...)",
+      "cn": "（退出大会……）\n",
+      "ru": "(Выйти из мероприятия...)",
+      "status": "machine",
+      "srcHash": "cbaa13cadb6a352f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "20d2c955-b48e-48c4-83ca-d15e2f075bad/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "76e10f8c-f76c-438d-9056-d649a3f0af65/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "12cf05b1-87a6-4dd1-b841-e1b0ce8fd07f/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "be656215-bc53-431a-bb15-f836c7ddcf6f/EventContent": {
+      "en": "With the arena set for the final round, a hush falls over the crowd...<NL>The carpenter's eyes burn with intensity as he gives a bow and says:<NL>\"The moment has finally arrived! Let us discuss the Fine Arts and see who prevails!\"",
+      "cn": "决赛擂台上，四下观众屏息凝神……<NL>木匠立于案后，目光灼灼，拱手一礼：<NL>“终于等到这一刻！你我各凭本事，只论技艺！”",
+      "ru": "Когда арена готовится к финальному раунду, в толпе воцаряется тишина...<NL>Глаза плотника напряженно горят, когда он отвешивает поклон и говорит:<NL>\"Наконец-то настал этот момент! Давайте обсудим Ремесла и посмотрим, кто победит!\"",
+      "status": "machine",
+      "srcHash": "280c664941b34b79",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "be656215-bc53-431a-bb15-f836c7ddcf6f/Option_1": {
+      "en": "(Go straight to the contest...)",
+      "cn": "（直接较艺……）",
+      "ru": "(Переходите сразу к конкурсу...)",
+      "status": "machine",
+      "srcHash": "bae7fcd9b8a0b292",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "be656215-bc53-431a-bb15-f836c7ddcf6f/Option_2": {
+      "en": "(Decide a little later...)",
+      "cn": "（稍后再说……）\n",
+      "ru": "(Решу чуть позже...)",
+      "status": "machine",
+      "srcHash": "031b1015bbafb02c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "aebee58b-0c5a-4117-900f-da4f642dcecc/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "334a9679-cb22-41f4-bfcd-bd09ae78e8ac/EventContent": {
+      "en": "The carpenter takes a step back and makes a deep, long bow before finally straightening up and saying:<NL>\"I wholeheartedly admit defeat...\"",
+      "cn": "木匠退后一步，深深一揖，久久方直起身来：<NL>“在下输得心服口服……”",
+      "ru": "Плотник делает шаг назад и отвешивает глубокий, продолжительный поклон, прежде чем, наконец, выпрямиться и сказать:<NL>\"Я от всего сердца признаю свое поражение...\"",
+      "status": "machine",
+      "srcHash": "4a20b33dc48db770",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "334a9679-cb22-41f4-bfcd-bd09ae78e8ac/Option_1": {
+      "en": "You flatter me!",
+      "cn": "过奖了！\n",
+      "ru": "Вы мне льстите!",
+      "status": "machine",
+      "srcHash": "eaf4a7e73c1938b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8d6f6f73-bb6d-421a-a5b4-acbc5bffe366/EventContent": {
+      "en": "The carpenter puts away the materials with a calm demeanor and gives a salute, saying:<NL>\"The essence of the Fine Arts lies in perseverance. I pray you, do not lose heart...\"",
+      "cn": "木匠收起料子，神色平和，拱手道：<NL>“技艺之道，贵在持之以恒，愿你莫要灰心……”",
+      "ru": "Плотник со спокойным видом убирает материалы и отдает честь, говоря:<NL>\"Суть Ремесла заключается в упорстве. Я молю вас, не падайте духом...\"",
+      "status": "machine",
+      "srcHash": "4b3fafaabf1b3f1b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "8d6f6f73-bb6d-421a-a5b4-acbc5bffe366/Option_1": {
+      "en": "I have learned a lot...",
+      "cn": "受教了……\n",
+      "ru": "Я многому научился...",
+      "status": "machine",
+      "srcHash": "7565fcde57102032",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e23a56de-6624-46f6-9a98-4432da0b1b18/EventContent": {
+      "en": "With the arena set for the final round, the furnace gives off a red glow. The blacksmith clenches his fists to his chest and says:<NL>\"The moment has finally arrived! Let us discuss the Fine Arts and see who prevails!\"",
+      "cn": "决赛擂台上，炉火映红四周，铁匠抱拳当胸：<NL>“终于等到这一刻！你我各凭本事，只论技艺！”",
+      "ru": "Когда арена готова к финальному раунду, печь испускает красное свечение. Кузнец прижимает кулаки к груди и говорит:<NL>\"Наконец-то настал этот момент! Давайте обсудим Ремесла и посмотрим, кто победит!\"",
+      "status": "machine",
+      "srcHash": "64b04c48f5bd3a4c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "e23a56de-6624-46f6-9a98-4432da0b1b18/Option_1": {
+      "en": "(Go straight to the contest...)",
+      "cn": "（直接较艺……）",
+      "ru": "(Переходите сразу к конкурсу...)",
+      "status": "machine",
+      "srcHash": "bae7fcd9b8a0b292",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e23a56de-6624-46f6-9a98-4432da0b1b18/Option_2": {
+      "en": "(Decide a little later...)",
+      "cn": "（稍后再说……）\n",
+      "ru": "(Решу чуть позже...)",
+      "status": "machine",
+      "srcHash": "031b1015bbafb02c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "cdc12ff0-e1a6-4e8d-adb7-a28450ad58a9/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3c532f7c-2f97-4266-839e-83ea133dad23/EventContent": {
+      "en": "The blacksmith puts down his tongs and makes a deep bow, saying:<NL>\"I wholeheartedly admit defeat...\"",
+      "cn": "铁匠放下铁钳，深深一揖：<NL>“在下输得心服口服……”",
+      "ru": "Кузнец кладет свои щипцы и отвешивает глубокий поклон, говоря:<NL>\"Я от всего сердца признаю свое поражение...\"",
+      "status": "machine",
+      "srcHash": "2cb37ddde7a6acd1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "3c532f7c-2f97-4266-839e-83ea133dad23/Option_1": {
+      "en": "You flatter me!",
+      "cn": "过奖了！\n",
+      "ru": "Вы мне льстите!",
+      "status": "machine",
+      "srcHash": "eaf4a7e73c1938b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b6c2bac5-3f6b-492c-b29f-66d27d972df5/EventContent": {
+      "en": "The blacksmith pats <Character key=RoleTaiwu str=Name/> on the shoulder,<NL>\"The essence of the Fine Arts lies in perseverance. Do not lose heart...\"",
+      "cn": "铁匠拍了拍<Character key=RoleTaiwu str=Name/>的肩：<NL>“技艺之道，贵在持之以恒，愿你莫要灰心……”",
+      "ru": "Кузнец похлопывает <Character key=RoleTaiwu str=Name/> на плече,<NL>\"Суть Ремесла заключается в упорстве. Не падай духом...\"",
+      "status": "machine",
+      "srcHash": "bc60e6ea67c19f9d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "b6c2bac5-3f6b-492c-b29f-66d27d972df5/Option_1": {
+      "en": "I have learned a lot...",
+      "cn": "受教了……\n",
+      "ru": "Я многому научился...",
+      "status": "machine",
+      "srcHash": "7565fcde57102032",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "56024c09-23aa-43b5-992f-b118708bf252/EventContent": {
+      "en": "With the arena set for the final round, silk fabrics shimmer with a radiant shine...<NL>The weaver straightens his sleeves and bows to <Character key=RoleTaiwu str=Name/>, saying:<NL>\"The moment has finally arrived! Let us discuss the Fine Arts and see who prevails!\"",
+      "cn": "决赛擂台上，丝帛铺陈，色泽鲜亮……<NL>织工整了整衣袖，向<Character key=RoleTaiwu str=Name/>拱手：<NL>“终于等到这一刻！你我各凭本事，只论技艺！”",
+      "ru": "Когда арена готова к финальному раунду, шелковые ткани переливаются сияющим блеском...<NL>Ткач расправляет рукава и кланяется <Character key=RoleTaiwu str=Name/>, говоря:<NL>\"Наконец-то настал этот момент! Давайте обсудим Ремесла и посмотрим, кто победит!\"",
+      "status": "machine",
+      "srcHash": "4539dbaf37bc8acc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "56024c09-23aa-43b5-992f-b118708bf252/Option_1": {
+      "en": "(Go straight to the contest...)",
+      "cn": "（直接较艺……）",
+      "ru": "(Переходите сразу к конкурсу...)",
+      "status": "machine",
+      "srcHash": "bae7fcd9b8a0b292",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "56024c09-23aa-43b5-992f-b118708bf252/Option_2": {
+      "en": "(Decide a little later...)",
+      "cn": "（稍后再说……）\n",
+      "ru": "(Решу чуть позже...)",
+      "status": "machine",
+      "srcHash": "031b1015bbafb02c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b1fb9bb3-7135-410a-a9f9-0f26175903ad/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "47338059-e7cd-4cf8-ad78-aa4c73edf65b/EventContent": {
+      "en": "The weaver collects his fabric and takes a step back, making a deep bow and saying:<NL>\"I wholeheartedly admit defeat...\"",
+      "cn": "织工将布帛收拢，退后一步，深深一揖：<NL>“在下输得心服口服……”",
+      "ru": "Ткач собирает свою ткань и делает шаг назад, отвешивая глубокий поклон и говоря:<NL>\"Я от всего сердца признаю свое поражение...\"",
+      "status": "machine",
+      "srcHash": "614639b0cb19a589",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "47338059-e7cd-4cf8-ad78-aa4c73edf65b/Option_1": {
+      "en": "You flatter me!",
+      "cn": "过奖了！\n",
+      "ru": "Вы мне льстите!",
+      "status": "machine",
+      "srcHash": "eaf4a7e73c1938b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5b9712db-37e9-4e77-b264-4de0630af044/EventContent": {
+      "en": "The weaver straightens out his silk thread and makes a slight bow, gently saying:<NL>\"The essence of the Fine Arts lies in perseverance. I pray you, do not lose heart...\"",
+      "cn": "织工将丝线重新理好，微微欠身，温和道：<NL>“技艺之道，贵在持之以恒，愿你莫要灰心……”",
+      "ru": "Ткач расправляет свою шелковую нить и слегка кланяется, мягко говоря:<NL>\"Суть Ремесла заключается в упорстве. Я молю вас, не падайте духом...\"",
+      "status": "machine",
+      "srcHash": "eb7dd934a228309d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "5b9712db-37e9-4e77-b264-4de0630af044/Option_1": {
+      "en": "I have learned a lot...",
+      "cn": "受教了……\n",
+      "ru": "Я многому научился...",
+      "status": "machine",
+      "srcHash": "7565fcde57102032",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d07d7bfa-3a83-4b02-bc1e-09d2568c3092/EventContent": {
+      "en": "With the arena set for the final round, jade is arranged upon the table...<NL>The jadeworker steps forward and says in a clarion voice:<NL>\"The moment has finally arrived! Let us discuss the Fine Arts and see who prevails!\"",
+      "cn": "决赛擂台上，玉料并排置于案……<NL>玉匠上前一步，朗声正气道：<NL>“终于等到这一刻！你我各凭本事，只论技艺！”",
+      "ru": "Когда арена готова к финальному раунду, Нефрит раскладывается на столе...<NL>Ювелир выходит вперед и говорит громким голосом:<NL>\"Наконец-то настал этот момент! Давайте обсудим Ремесла и посмотрим, кто победит!\"",
+      "status": "machine",
+      "srcHash": "66ab1ead3cc7da93",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "d07d7bfa-3a83-4b02-bc1e-09d2568c3092/Option_1": {
+      "en": "(Go straight to the contest...)",
+      "cn": "（直接较艺……）",
+      "ru": "(Переходите сразу к конкурсу...)",
+      "status": "machine",
+      "srcHash": "bae7fcd9b8a0b292",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d07d7bfa-3a83-4b02-bc1e-09d2568c3092/Option_2": {
+      "en": "(Decide a little later...)",
+      "cn": "（稍后再说……）\n",
+      "ru": "(Решу чуть позже...)",
+      "status": "machine",
+      "srcHash": "031b1015bbafb02c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "95ef7128-92f4-455f-9930-9e87b3d25c36/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "48101f1b-e75d-426d-b6a5-3f50b72b10d0/EventContent": {
+      "en": "The jadeworker picks up his sandpaper again, saying:<NL>\"The essence of the Fine Arts lies in perseverance. I pray you, do not lose heart...\"",
+      "cn": "玉匠重新执起砂纸，温言道：<NL>“技艺之道，贵在持之以恒，愿你莫要灰心……”",
+      "ru": "Ювелир снова берет в руки наждачную бумагу, говоря:<NL>\"Суть Ремесла заключается в упорстве. Я молю вас, не падайте духом...\"",
+      "status": "machine",
+      "srcHash": "1c531ed9cbec3a25",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "48101f1b-e75d-426d-b6a5-3f50b72b10d0/Option_1": {
+      "en": "I have learned a lot...",
+      "cn": "受教了……\n",
+      "ru": "Я многому научился...",
+      "status": "machine",
+      "srcHash": "7565fcde57102032",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3ae744b0-64ae-4169-866d-b815dbbff19f/EventContent": {
+      "en": "The jadeworker gently pushes the jade aside, then straightens up and bows, saying:<NL>\"I wholeheartedly admit defeat...\"",
+      "cn": "玉匠将玉料轻轻推开，起身一揖：<NL>“在下输得心服口服……”",
+      "ru": "Ювелир осторожно отодвигает Нефрит в сторону, затем выпрямляется и кланяется, говоря:<NL>\"Я от всего сердца признаю свое поражение...\"",
+      "status": "machine",
+      "srcHash": "1c9bc5ee33e5c324",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "3ae744b0-64ae-4169-866d-b815dbbff19f/Option_1": {
+      "en": "You flatter me!",
+      "cn": "过奖了！\n",
+      "ru": "Вы мне льстите!",
+      "status": "machine",
+      "srcHash": "eaf4a7e73c1938b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c62e6ae6-8f59-46bf-9f56-2f21828fe305/EventContent": {
+      "en": "The contest supervisor salutes with fist in palm and solemnly declares:<NL>\"Congratulations on winning your way to the finals! Your opponent is ready and waiting in the arena...\"",
+      "cn": "监场官拱手行礼，郑重宣告：<NL>“恭喜杀入决赛！对手也已在擂台处准备就绪……”",
+      "ru": "Руководитель конкурса отдает честь кулаком в ладонь и торжественно объявляет:<NL>\"Поздравляю с победой на пути к финалу! Ваш противник готов и ждет на арене...\"",
+      "status": "machine",
+      "srcHash": "3bb386804a5d387a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "c62e6ae6-8f59-46bf-9f56-2f21828fe305/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f7800705-04f0-496b-97b3-87aed54eb574/EventContent": {
+      "en": "The weather is fine today. Perfect for having a nice rest...",
+      "cn": "今日天气晴好，正是休憩的好时候……",
+      "ru": "Погода сегодня прекрасная. Идеально подходит для приятного отдыха...",
+      "status": "machine",
+      "srcHash": "f95f199257411a97",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f7800705-04f0-496b-97b3-87aed54eb574/Option_1": {
+      "en": "(Discuss Smithing...)",
+      "cn": "（探讨锻造……）",
+      "ru": "(Обсудите кузнечное дело...)",
+      "status": "machine",
+      "srcHash": "e99883cd9765f024",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f7800705-04f0-496b-97b3-87aed54eb574/Option_2": {
+      "en": "(Discuss Jewelcrafting...)",
+      "cn": "（探讨巧匠……）",
+      "ru": "(Обсудите изготовление ювелирных изделий...)",
+      "status": "machine",
+      "srcHash": "f0233cd512798364",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f7800705-04f0-496b-97b3-87aed54eb574/Option_3": {
+      "en": "(Discuss Weaving...)",
+      "cn": "（探讨织锦……）",
+      "ru": "(Обсудите Ткачество...)",
+      "status": "machine",
+      "srcHash": "a63f9a16ee9def86",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f7800705-04f0-496b-97b3-87aed54eb574/Option_4": {
+      "en": "(Discuss Carpentry...)",
+      "cn": "（探讨制木……）",
+      "ru": "(Обсудите Столярное дело...)",
+      "status": "machine",
+      "srcHash": "d48986eeb1d28277",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f7800705-04f0-496b-97b3-87aed54eb574/Option_5": {
+      "en": "(Engage in a Debate...) Carpentry",
+      "cn": "（较艺比试……）制木",
+      "ru": "(Вступайте в Диспут...) Столярное дело",
+      "status": "machine",
+      "srcHash": "d6a78c4bf039af3a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f7800705-04f0-496b-97b3-87aed54eb574/Option_6": {
+      "en": "(Engage in a Debate...) Smithing",
+      "cn": "（较艺比试……）锻造",
+      "ru": "(Вступайте в Диспут...) Кузнечное дело",
+      "status": "machine",
+      "srcHash": "6a444b6e88fbb8b0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f7800705-04f0-496b-97b3-87aed54eb574/Option_7": {
+      "en": "(Engage in a Debate...) Weaving",
+      "cn": "（较艺比试……）织锦",
+      "ru": "(Вступайте в Диспут...) Ткачество",
+      "status": "machine",
+      "srcHash": "7ffd6edcc59a2216",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f7800705-04f0-496b-97b3-87aed54eb574/Option_8": {
+      "en": "(Engage in a Debate...) Jewelcrafting",
+      "cn": "（较艺比试……）巧匠",
+      "ru": "(Вступайте в Диспут...) Изготовление ювелирных изделий",
+      "status": "machine",
+      "srcHash": "ff5a5b25056e7b42",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f7800705-04f0-496b-97b3-87aed54eb574/Option_9": {
+      "en": "(Overwhelming Fine Arts skill...)",
+      "cn": "（技艺碾压……）",
+      "ru": "(Потрясающее мастерство в Ремеслах...)",
+      "status": "machine",
+      "srcHash": "6cc60e7e568765f2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f7800705-04f0-496b-97b3-87aed54eb574/Option_10": {
+      "en": "(Other...)",
+      "cn": "（其他……）",
+      "ru": "(Другое...)",
+      "status": "machine",
+      "srcHash": "3c842c018ce18d3a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f7800705-04f0-496b-97b3-87aed54eb574/Option_11": {
+      "en": "(Nothing else for now...)",
+      "cn": "（暂无他事……）\n",
+      "ru": "(Пока больше ничего...)",
+      "status": "machine",
+      "srcHash": "2e28e25ccadac7b4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "7ef2992d-d35a-437a-b5ad-568917f7cb88/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "942ebd46-9ac4-42d4-b148-94a49033b838/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "3431259d-0e03-4ad4-83b6-bc8b5b7b669b/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "cec94b15-416a-48b3-9762-9a080e2e06b5/EventContent": {
+      "en": "Cheers erupt in the arena as the crowd goes wild. The atmosphere is electric...<NL>The spectators all nod in turn, saying:<NL>\"Well deserved. It is our honor to have witnessed this grand event...\"",
+      "cn": "擂台四周欢声雷动，众人簇拥喝彩，场间气氛热烈……<NL>观众连连点头，满面敬佩道：<NL>“实至名归。能亲眼见证此番盛事，是吾等之幸……”",
+      "ru": "На арене раздаются одобрительные возгласы, толпа приходит в неистовство. Атмосфера наэлектризована...<NL>Все зрители по очереди кивают, говоря:<NL>- Вполне заслуженно. Для нас большая честь быть свидетелями этого грандиозного события...\"",
+      "status": "machine",
+      "srcHash": "115f355cc52c3e72",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "cec94b15-416a-48b3-9762-9a080e2e06b5/Option_1": {
+      "en": "You flatter me!",
+      "cn": "过奖了！\n",
+      "ru": "Вы мне льстите!",
+      "status": "machine",
+      "srcHash": "eaf4a7e73c1938b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5964c43a-91e7-4950-b176-613934dcca78/EventContent": {
+      "en": "A gentle breeze caresses my face at the stone steps of the mountain gate...<NL>Looking back, the sounds of our contest fade into the distance...",
+      "cn": "山门石阶处，清风拂面……<NL>回望来路，较艺声已远……",
+      "ru": "Легкий ветерок ласкает мое лицо на каменных ступенях горных ворот...<NL>Оглядываясь назад, я вижу, как звуки нашего состязания затихают вдали...",
+      "status": "machine",
+      "srcHash": "fa0991a0f5ef4d48",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "5964c43a-91e7-4950-b176-613934dcca78/Option_1": {
+      "en": "(Stay a moment longer...)",
+      "cn": "（再留片刻……）",
+      "ru": "(Останься еще на мгновение...)",
+      "status": "machine",
+      "srcHash": "7e9babe9ad5c07fd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5964c43a-91e7-4950-b176-613934dcca78/Option_2": {
+      "en": "(Leave for now...)",
+      "cn": "（暂且离去……）",
+      "ru": "(Оставь пока...)",
+      "status": "machine",
+      "srcHash": "944cc8402748d6b6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5964c43a-91e7-4950-b176-613934dcca78/Option_3": {
+      "en": "(Leave it be...)",
+      "cn": "（就此离去……）\n",
+      "ru": "(Оставь все как есть...)",
+      "status": "machine",
+      "srcHash": "2d086e69ac2a1f53",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0dc9047d-9bb3-47b9-aed6-454b510018a4/EventContent": {
+      "en": "The weather is fine today. Perfect for having a nice rest...",
+      "cn": "今日天气晴好，正是休憩的好时候……",
+      "ru": "Погода сегодня прекрасная. Идеально подходит для приятного отдыха...",
+      "status": "machine",
+      "srcHash": "f95f199257411a97",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0dc9047d-9bb3-47b9-aed6-454b510018a4/Option_1": {
+      "en": "(Engage in a Debate...) <color=#lightgrey>Topic: Carpentry</color>",
+      "cn": "（较艺比试……）<color=#lightgrey>制木为主题</color>",
+      "ru": "(Вступайте в Диспут...) <color=#lightgrey>Тема: Столярное дело</color>",
+      "status": "machine",
+      "srcHash": "3196928811500060",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0dc9047d-9bb3-47b9-aed6-454b510018a4/Option_2": {
+      "en": "(Engage in a Debate...) <color=#lightgrey>Topic: Smithing</color>",
+      "cn": "（较艺比试……）<color=#lightgrey>锻造为主题</color>",
+      "ru": "(Вступайте в Диспут...) <color=#lightgrey>Тема: Кузнечное дело</color>",
+      "status": "machine",
+      "srcHash": "6fbbc6abb639a52c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0dc9047d-9bb3-47b9-aed6-454b510018a4/Option_3": {
+      "en": "(Engage in a Debate...) <color=#lightgrey>Topic: Weaving</color>",
+      "cn": "（较艺比试……）<color=#lightgrey>织锦为主题</color>",
+      "ru": "(Вступайте в Диспут...) <color=#lightgrey>Тема: Ткачество</color>",
+      "status": "machine",
+      "srcHash": "107009f37ba19ec6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0dc9047d-9bb3-47b9-aed6-454b510018a4/Option_4": {
+      "en": "(Engage in a Debate...) <color=#lightgrey>Topic: Jewelcrafting</color>",
+      "cn": "（较艺比试……）<color=#lightgrey>巧匠为主题</color>",
+      "ru": "(Вступайте в Диспут...) <color=#lightgrey>Тема: Изготовление ювелирных изделий</color>",
+      "status": "machine",
+      "srcHash": "460f8522ee008599",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0dc9047d-9bb3-47b9-aed6-454b510018a4/Option_5": {
+      "en": "(Other...)",
+      "cn": "（其他……）",
+      "ru": "(Другое...)",
+      "status": "machine",
+      "srcHash": "3c842c018ce18d3a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0dc9047d-9bb3-47b9-aed6-454b510018a4/Option_6": {
+      "en": "(Nothing else for now...)",
+      "cn": "（暂无他事……）\n",
+      "ru": "(Пока больше ничего...)",
+      "status": "machine",
+      "srcHash": "2e28e25ccadac7b4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8c9136aa-76c6-499a-aa2f-3abd331b30aa/EventContent": {
+      "en": "Cheers erupt in the arena as the crowd goes wild. The atmosphere is electric...<NL>The spectators all nod in turn, saying:<NL>\"Well deserved. It is our honor to have witnessed this grand event...\"",
+      "cn": "擂台四周欢声雷动，众人簇拥喝彩，场间气氛热烈……<NL>观众连连点头，满面敬佩道：<NL>“实至名归。能亲眼见证此番盛事，是吾等之幸……”",
+      "ru": "На арене раздаются одобрительные возгласы, толпа приходит в неистовство. Атмосфера наэлектризована...<NL>Все зрители по очереди кивают, говоря:<NL>- Вполне заслуженно. Для нас большая честь быть свидетелями этого грандиозного события...\"",
+      "status": "machine",
+      "srcHash": "115f355cc52c3e72",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "8c9136aa-76c6-499a-aa2f-3abd331b30aa/Option_1": {
+      "en": "You flatter me!",
+      "cn": "过奖了！\n",
+      "ru": "Вы мне льстите!",
+      "status": "machine",
+      "srcHash": "eaf4a7e73c1938b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5aca80af-f8a3-4854-a7ab-9f5af8534ccf/EventContent": {
+      "en": "The Carpenter stands with hands folded, his gaze falling on the pile of materials:<NL>\"Alright, you all have your materials, right?<NL>Please pick out the Reagent for Carpentry from the materials you currently have.\"",
+      "cn": "木匠叉手侍立，目光落在料堆之上：<NL>“好了，料子都到手了罢？<NL>需要“制木”的引子，请从你们手中现有的料子里挑出来”",
+      "ru": "Плотник стоит, сложив руки на груди, его взгляд падает на груду материалов:<NL>\"Хорошо, у вас у всех есть свои материалы, верно?<NL>Пожалуйста, выберите Реагент для Столярных дел из имеющихся у вас в данный момент материалов.\"",
+      "status": "machine",
+      "srcHash": "766de9e3c22dceaf",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "5aca80af-f8a3-4854-a7ab-9f5af8534ccf/Option_1": {
+      "en": "(Choose at random...)",
+      "cn": "（随意挑选……）",
+      "ru": "(Выбирайте наугад...)",
+      "status": "machine",
+      "srcHash": "2b600280a07460c3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5aca80af-f8a3-4854-a7ab-9f5af8534ccf/Option_2": {
+      "en": "(Handpick carefully...) <color=grey>[Attainment determination]",
+      "cn": "（精挑细选……）<color=grey>[造诣判定]",
+      "ru": "(Тщательно подбирайте вручную...) <color=grey>[Определение достижения]",
+      "status": "machine",
+      "srcHash": "32ecb5e426df3b5c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5aca80af-f8a3-4854-a7ab-9f5af8534ccf/Option_3": {
+      "en": "(Go straight to the contest...)",
+      "cn": "（直接较艺……）\n",
+      "ru": "(Переходите сразу к конкурсу...)",
+      "status": "machine",
+      "srcHash": "bae7fcd9b8a0b292",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "72946e4b-3d79-40e8-bbe5-d63b7d901e62/EventContent": {
+      "en": "The Carpenter stands with hands folded, his gaze falling on the pile of materials:<NL>\"Alright, you all have your materials, right?<NL>Please pick out the Reagent for Carpentry from the materials you currently have.\"",
+      "cn": "木匠叉手侍立，目光落在料堆之上：<NL>“好了，料子都到手了罢？<NL>需要“制木”的引子，请从你们手中现有的料子里挑出来”",
+      "ru": "Плотник стоит, сложив руки на груди, его взгляд падает на груду материалов:<NL>\"Хорошо, у вас у всех есть свои материалы, верно?<NL>Пожалуйста, выберите Реагент для Столярных дел из имеющихся у вас в данный момент материалов.\"",
+      "status": "machine",
+      "srcHash": "766de9e3c22dceaf",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "72946e4b-3d79-40e8-bbe5-d63b7d901e62/Option_1": {
+      "en": "(Choose at random...)",
+      "cn": "（随意挑选……）",
+      "ru": "(Выбирайте наугад...)",
+      "status": "machine",
+      "srcHash": "2b600280a07460c3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "72946e4b-3d79-40e8-bbe5-d63b7d901e62/Option_2": {
+      "en": "(Handpick carefully...) <color=grey>[Attainment determination]",
+      "cn": "（精挑细选……）<color=grey>[造诣判定]",
+      "ru": "(Тщательно подбирайте вручную...) <color=grey>[Определение достижения]",
+      "status": "machine",
+      "srcHash": "32ecb5e426df3b5c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "72946e4b-3d79-40e8-bbe5-d63b7d901e62/Option_3": {
+      "en": "(Go straight to the contest...)",
+      "cn": "（直接较艺……）\n",
+      "ru": "(Переходите сразу к конкурсу...)",
+      "status": "machine",
+      "srcHash": "bae7fcd9b8a0b292",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1f283379-ec04-4e82-b950-df87f253fe2b/EventContent": {
+      "en": "The jade table is spotless, several pieces of jade material arranged left and right, shimmering faintly...<NL>The Jade Carver looks up and surveys the room: \"Alright, you all have your materials, right?<NL>Please pick out the Reagent for Weaving from the materials you currently have.\"",
+      "cn": "玉案光洁，数块玉料分列左右，微光莹然……<NL>玉匠抬头环视：“好了，料子都到手了罢？<NL>需要“织锦”的引子，请从你们手中现有的料子里挑出来。”",
+      "ru": "Стол из Нефрита безупречен, несколько кусочков материала из Нефрита, расположенных слева и справа, слабо мерцают...<NL>Резчик по Нефриту поднимает голову и осматривает комнату: \"Хорошо, у вас у всех есть свои материалы, верно?<NL>Пожалуйста, выберите Реагент для Ткачества из имеющихся у вас материалов.\"",
+      "status": "machine",
+      "srcHash": "e43c1aa3fed53df2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "1f283379-ec04-4e82-b950-df87f253fe2b/Option_1": {
+      "en": "(Choose at random...)",
+      "cn": "（随意挑选……）",
+      "ru": "(Выбирайте наугад...)",
+      "status": "machine",
+      "srcHash": "2b600280a07460c3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1f283379-ec04-4e82-b950-df87f253fe2b/Option_2": {
+      "en": "(Handpick carefully...) <color=grey>[Attainment determination]",
+      "cn": "（精挑细选……）<color=grey>[造诣判定]",
+      "ru": "(Тщательно подбирайте вручную...) <color=grey>[Определение достижения]",
+      "status": "machine",
+      "srcHash": "32ecb5e426df3b5c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1f283379-ec04-4e82-b950-df87f253fe2b/Option_3": {
+      "en": "(Go straight to the contest...)",
+      "cn": "（直接较艺……）\n",
+      "ru": "(Переходите сразу к конкурсу...)",
+      "status": "machine",
+      "srcHash": "bae7fcd9b8a0b292",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "81c1f65a-e073-4fc3-80c3-3a9f3cda7a76/EventContent": {
+      "en": "The Weaver sweeps his gaze over the materials in everyone's hands and says:<NL>\"Alright, you all have your materials, right?<NL>Please pick out the Reagent for Weaving from the materials you currently have.\"",
+      "cn": "织工扫过众人手中料材道：<NL>“好了，料子都到手了罢？<NL>需要“织锦”的引子，请从你们手中现有的料子里挑出来。”",
+      "ru": "Ткач окидывает взглядом материалы, которые у всех в руках, и говорит:<NL>\"Хорошо, у вас у всех есть свои материалы, верно?<NL>Пожалуйста, выберите Реагент для Ткачества из имеющихся у вас материалов.\"",
+      "status": "machine",
+      "srcHash": "513198c9d06c464a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "81c1f65a-e073-4fc3-80c3-3a9f3cda7a76/Option_1": {
+      "en": "(Choose at random...)",
+      "cn": "（随意挑选……）",
+      "ru": "(Выбирайте наугад...)",
+      "status": "machine",
+      "srcHash": "2b600280a07460c3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "81c1f65a-e073-4fc3-80c3-3a9f3cda7a76/Option_2": {
+      "en": "(Handpick carefully...) <color=grey>[Attainment determination]",
+      "cn": "（精挑细选……）<color=grey>[造诣判定]",
+      "ru": "(Тщательно подбирайте вручную...) <color=grey>[Определение достижения]",
+      "status": "machine",
+      "srcHash": "32ecb5e426df3b5c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "81c1f65a-e073-4fc3-80c3-3a9f3cda7a76/Option_3": {
+      "en": "(Go straight to the contest...)",
+      "cn": "（直接较艺……）\n",
+      "ru": "(Переходите сразу к конкурсу...)",
+      "status": "machine",
+      "srcHash": "bae7fcd9b8a0b292",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5e94f7ca-6a47-43fc-982c-629d1382cab8/EventContent": {
+      "en": "The Blacksmith sweeps his gaze over the materials in everyone's hands and says:<NL>\"Alright, you all have your materials, right?<NL>Please pick out the Reagent for Smithing from the materials you currently have.\"",
+      "cn": "铁匠扫过众人手中料材道：<NL>“好了，料子都到手了罢？<NL>需要“锻造”的引子，请从你们手中现有的料子里挑出来。”",
+      "ru": "Кузнец окидывает взглядом материалы, которые у всех в руках, и говорит:<NL>\"Хорошо, у вас у всех есть свои материалы, верно?<NL>Пожалуйста, выберите Реагент для кузнечного дела из тех материалов, которые у вас есть в данный момент.\"",
+      "status": "machine",
+      "srcHash": "d9cd36c8ef6ad084",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "5e94f7ca-6a47-43fc-982c-629d1382cab8/Option_1": {
+      "en": "(Choose at random...)",
+      "cn": "（随意挑选……）",
+      "ru": "(Выбирайте наугад...)",
+      "status": "machine",
+      "srcHash": "2b600280a07460c3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5e94f7ca-6a47-43fc-982c-629d1382cab8/Option_2": {
+      "en": "(Handpick carefully...) <color=grey>[Attainment determination]",
+      "cn": "（精挑细选……）<color=grey>[造诣判定]",
+      "ru": "(Тщательно подбирайте вручную...) <color=grey>[Определение достижения]",
+      "status": "machine",
+      "srcHash": "32ecb5e426df3b5c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5e94f7ca-6a47-43fc-982c-629d1382cab8/Option_3": {
+      "en": "(Go straight to the contest...)",
+      "cn": "（直接较艺……）\n",
+      "ru": "(Переходите сразу к конкурсу...)",
+      "status": "machine",
+      "srcHash": "bae7fcd9b8a0b292",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c191b5e2-1fce-4418-a90d-4a543013504a/EventContent": {
+      "en": "The carpenter glances at the wrongly-picked pile of materials and smirks, saying with a scoff:<NL>\"Such arrogance! I thought some expert had come... Turns out, that's not the case.\"",
+      "cn": "木匠瞥了一眼那堆挑错的料子，嘴角微扯，讥诮道：<NL>“好大的口气，我还道来了什么高人……原来不过如此。”",
+      "ru": "Плотник бросает взгляд на неправильно подобранную кучу материалов и ухмыляется, говоря с издевкой:<NL>- Какое высокомерие! Я думал, пришел какой-нибудь эксперт... Оказывается, это не так.\"",
+      "status": "machine",
+      "srcHash": "3b61d5f1f81fd220",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "c191b5e2-1fce-4418-a90d-4a543013504a/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "bd5c0df8-02fe-40b6-a8ff-cda4135132d1/EventContent": {
+      "en": "The Carpenter carefully examines the material chosen by <Character key=RoleTaiwu str=Name/>, ponders for a moment, then clasps his hands and sighs in admiration:<NL>\"There is indeed such a uniquely perceptive and Peculiar individual; I am convinced and yield...\"",
+      "cn": "木匠细看<Character key=RoleTaiwu str=Name/>所挑之料，沉吟片刻，拱手叹服：<NL>“竟有这般独具慧眼的能人异士，在下心服口服……”",
+      "ru": "Плотник тщательно изучает материал, выбранный им <Character key=RoleTaiwu str=Name/>, на мгновение задумывается, затем хлопает в ладоши и восхищенно вздыхает:<NL>\"Действительно, существует такая уникально проницательная и своеобразная личность; я убежден и уступаю...\"",
+      "status": "machine",
+      "srcHash": "a88926397af2275d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "bd5c0df8-02fe-40b6-a8ff-cda4135132d1/Option_1": {
+      "en": "You flatter me!",
+      "cn": "过奖了！\n",
+      "ru": "Вы мне льстите!",
+      "status": "machine",
+      "srcHash": "eaf4a7e73c1938b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "29da1ea6-215c-4b41-b731-4051633466b9/EventContent": {
+      "en": "The jadeworker looks down at the wrongly-picked piece of jade and says softly:<NL>\"Such arrogance! I thought some expert had come... Turns out, that's not the case.\"",
+      "cn": "玉匠低头看了一眼那块挑错的玉料，淡淡道：<NL>“好大的口气，我还道来了什么高人……原来不过如此。”",
+      "ru": "Ювелир опускает взгляд на неправильно подобранный кусочек Нефрита и тихо говорит:<NL>- Какое высокомерие! Я думал, пришел какой-нибудь эксперт... Оказывается, это не так.\"",
+      "status": "machine",
+      "srcHash": "f199dca1cdf6c756",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "29da1ea6-215c-4b41-b731-4051633466b9/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "455e842a-225d-47e6-b1d3-2542019e4b5b/EventContent": {
+      "en": "The Jade Carver takes the jade material chosen by <Character key=RoleTaiwu str=Name/>, examines it against the light, nods slightly, and says:<NL>\"There is indeed such a uniquely perceptive and Peculiar individual; I am convinced and yield...\"",
+      "cn": "玉匠接过<Character key=RoleTaiwu str=Name/>所挑玉料，对光细看，微微颔首：<NL>“竟有这般独具慧眼的能人异士，在下心服口服……”",
+      "ru": "Резчик по Нефриту использует материал из Нефрита, выбранный <Character key=RoleTaiwu str=Name/>, рассматривает его на свет, слегка кивает и говорит:<NL>\"Действительно, существует такая уникально проницательная и своеобразная личность; я убежден и уступаю...\"",
+      "status": "machine",
+      "srcHash": "8a55ecd14ab6efaa",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "455e842a-225d-47e6-b1d3-2542019e4b5b/Option_1": {
+      "en": "You flatter me!",
+      "cn": "过奖了！\n",
+      "ru": "Вы мне льстите!",
+      "status": "machine",
+      "srcHash": "eaf4a7e73c1938b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a78de75b-dfe4-4b67-9d81-450540554f41/EventContent": {
+      "en": "The weaver sweeps an eye over the wrongly-picked piece of fabric and says with a disappointed shake of the head:<NL>\"Such arrogance! I thought some expert had come... Turns out, that's not the case.\"",
+      "cn": "织工扫了一眼那匹挑错的布料，失望摇头道：<NL>“好大的口气，我还道来了什么高人……原来不过如此。”",
+      "ru": "Ткач окидывает взглядом неправильно подобранный кусок ткани и говорит, разочарованно качая головой:<NL>- Какое высокомерие! Я думал, пришел какой-нибудь эксперт... Оказывается, это не так.\"",
+      "status": "machine",
+      "srcHash": "5a7422c489840123",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "a78de75b-dfe4-4b67-9d81-450540554f41/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e1f44fab-eabe-4b09-b8a3-1ade21ee5841/EventContent": {
+      "en": "The Weaver carefully examines the cloth chosen by <Character key=RoleTaiwu str=Name/>, nods slowly, and says with a cupped-hand salute:<NL>\"There is indeed such a uniquely perceptive and Peculiar individual; I am convinced and yield...\"",
+      "cn": "织工细看<Character key=RoleTaiwu str=Name/>所挑布料，缓缓点头，拱手道：<NL>“竟有这般独具慧眼的能人异士，在下心服口服……”",
+      "ru": "Ткач внимательно изучает ткань, выбранную <Character key=RoleTaiwu str=Name/>, медленно кивает и произносит, салютуя сложенной чашечкой ладонью:<NL>\"Действительно, существует такая уникально проницательная и своеобразная личность; я убежден и уступаю...\"",
+      "status": "machine",
+      "srcHash": "80cb3c8a6282674c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "e1f44fab-eabe-4b09-b8a3-1ade21ee5841/Option_1": {
+      "en": "You flatter me!",
+      "cn": "过奖了！\n",
+      "ru": "Вы мне льстите!",
+      "status": "machine",
+      "srcHash": "eaf4a7e73c1938b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "d83a98e8-8ba3-4c74-ad35-b25f76ebe226/EventContent": {
+      "en": "The blacksmith glances at the wrongly-picked piece of metal and says with a grunt:<NL>\"Such arrogance! I thought some expert had come... Turns out, that's not the case.\"",
+      "cn": "铁匠瞥了一眼那块挑错的铁料，冷哼一声：<NL>“好大的口气，我还道来了什么高人……原来不过如此。”",
+      "ru": "Кузнец бросает взгляд на неправильно подобранный кусок металла и ворчливо говорит:<NL>- Какое высокомерие! Я думал, пришел какой-нибудь эксперт... Оказывается, это не так.\"",
+      "status": "machine",
+      "srcHash": "83e8bb90733c2167",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "d83a98e8-8ba3-4c74-ad35-b25f76ebe226/Option_1": {
+      "en": "(...)",
+      "cn": "（……）\n",
+      "ru": "(...)",
+      "status": "machine",
+      "srcHash": "3c5b97dd623d6a45",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8af76670-6211-4952-9e97-ea8a898e4e4d/EventContent": {
+      "en": "The Blacksmith picks up the iron material chosen by <Character key=RoleTaiwu str=Name/>, examines it for a moment, then nods emphatically:<NL>\"There is indeed such a uniquely perceptive and Peculiar individual; I am convinced and yield...\"",
+      "cn": "铁匠拿起<Character key=RoleTaiwu str=Name/>所挑铁料，翻看片刻，重重点头：<NL>“竟有这般独具慧眼的能人异士，在下心服口服……”",
+      "ru": "Кузнец подбирает железный материал, выбранный <Character key=RoleTaiwu str=Name/>, мгновение рассматривает его, затем решительно кивает:<NL>\"Действительно, существует такая уникально проницательная и своеобразная личность; я убежден и уступаю...\"",
+      "status": "machine",
+      "srcHash": "25be0cdb2681e9d9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T23:09:46.516Z"
+    },
+    "8af76670-6211-4952-9e97-ea8a898e4e4d/Option_1": {
+      "en": "You flatter me!",
+      "cn": "过奖了！\n",
+      "ru": "Вы мне льстите!",
+      "status": "machine",
+      "srcHash": "eaf4a7e73c1938b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a8429f50-46d1-4603-84dd-59d7b581aaf7/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "44c47379-2a4c-42e4-83e2-6ab5f93abce4/EventContent": {
+      "en": "nan",
+      "cn": "\n",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c2c09ac6-4bd4-4c21-bce9-896a1bacda81/EventContent": {
+      "en": "A gentle breeze caresses my face at the stone steps of the mountain gate...<NL>Looking back, the sounds of our contest fade into the distance...",
+      "cn": "山门石阶处，清风拂面……<NL>回望来路，较艺声已远……",
+      "ru": "Легкий ветерок ласкает мое лицо на каменных ступенях горных ворот...<NL>Оглядываясь назад, я вижу, как звуки нашего состязания затихают вдали...",
+      "status": "machine",
+      "srcHash": "fa0991a0f5ef4d48",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "c2c09ac6-4bd4-4c21-bce9-896a1bacda81/Option_1": {
+      "en": "(Stay a moment longer...)",
+      "cn": "（再留片刻……）",
+      "ru": "(Останься еще на мгновение...)",
+      "status": "machine",
+      "srcHash": "7e9babe9ad5c07fd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c2c09ac6-4bd4-4c21-bce9-896a1bacda81/Option_2": {
+      "en": "(Leave for now...)",
+      "cn": "（暂且离去……）",
+      "ru": "(Оставь пока...)",
+      "status": "machine",
+      "srcHash": "944cc8402748d6b6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c2c09ac6-4bd4-4c21-bce9-896a1bacda81/Option_3": {
+      "en": "(Leave it be...)",
+      "cn": "（就此离去……）\n",
+      "ru": "(Оставь все как есть...)",
+      "status": "machine",
+      "srcHash": "2d086e69ac2a1f53",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    }
+  }
+}

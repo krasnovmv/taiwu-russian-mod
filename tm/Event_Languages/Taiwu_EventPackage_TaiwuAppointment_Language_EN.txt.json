@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "file": "Event_Languages/Taiwu_EventPackage_TaiwuAppointment_Language_EN.txt",
+  "glossaryVersion": 5,
+  "units": {
+    "53bf1bb3-0e24-4be4-9d5a-031078fa59bf/EventContent": {
+      "en": "nan",
+      "cn": "",
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "4a3ea05f-b232-487a-a6e2-482fa29b7dbc/EventContent": {
+      "en": "Send a letter via a cloud-soaring pigeon, as the fluttering wings flying far away.<NL><Character key=RoleTaiwu str=Name/> waited patiently for a long time. As dusk approached,<NL>the homing pigeon finally returned with a letter in its beak, leisurely flapping its wings...",
+      "cn": "寄书云间鸽，翼翼向远去。<NL><Character key=RoleTaiwu str=Name/>静心等待许久，待得天色渐晚时，<NL>终于见那信鸽喙衔回信，悠悠振翅，翩飞而返……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "76628b00f4359edb",
+      "engine": null,
+      "updatedAt": null
+    },
+    "4a3ea05f-b232-487a-a6e2-482fa29b7dbc/Option_1": {
+      "en": "(Check the reply...)",
+      "cn": "（查看回信……）\n",
+      "ru": "(Проверьте ответ...)",
+      "status": "machine",
+      "srcHash": "3888a9e2a04400e9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "eae3936b-a0de-4f21-8504-94c7faf4831e/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> took the reply letter, unfolded it, and read carefully.<NL>On the letter stated:<NL>\"Thank you for your invitation, but I am currently occupied with important matters and find it difficult to accept the appointment at this time...\"<NL><Character key=CharacterId str=Name/>, being preoccupied with urgent matters, could only decline <Character key=RoleTaiwu str=Name/>'s invitation...",
+      "cn": "<Character key=RoleTaiwu str=Name/>取下回信，展开细读，<NL>只见信中写道：<NL>“承蒙你来信邀约，奈何我尚有要事缠身，眼下恕难赴约……”<NL><Character key=CharacterId str=Name/>身有要事，只得推却了<Character key=RoleTaiwu str=Name/>的邀约……",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "0f6d0064289a914e",
+      "engine": null,
+      "updatedAt": null
+    },
+    "eae3936b-a0de-4f21-8504-94c7faf4831e/Option_1": {
+      "en": "(So be it...)",
+      "cn": "（只得如此……）\n",
+      "ru": "(Да будет так...)",
+      "status": "machine",
+      "srcHash": "76bb94ba87e9e5c3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    },
+    "cbbe9f67-ba52-4196-9c5b-49942cabaef4/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/> took the reply letter, unfolded it, and read carefully.<NL>The letter says: <NL>\"Since I have received your letter of invitation, I will set off now to meet you at the agreed place...\"<NL><Character key=CharacterId str=Name/> gladly accepted <Character key=RoleTaiwu str=Name/>'s invitation and has now set off to keep the appointment...<NL><NL><color=#lightgrey> (<Character key=CharacterId str=Name/> will arrive at the agreed place after a period of time...) </color>",
+      "cn": "<Character key=RoleTaiwu str=Name/>取下回信，展开细读，<NL>只见信中写道：<NL>“既蒙你来信邀约，我这便出发，前去约定之地与你相见……”<NL><Character key=CharacterId str=Name/>欣然接受了<Character key=RoleTaiwu str=Name/>的邀约，现下已动身启程，前往赴约……<NL><NL><color=#lightgrey>（<Character key=CharacterId str=Name/>将在一段时间后到达约定之地……） </color>",
+      "ru": null,
+      "status": "pending",
+      "srcHash": "fab90fbfa0fd4522",
+      "engine": null,
+      "updatedAt": null
+    },
+    "cbbe9f67-ba52-4196-9c5b-49942cabaef4/Option_1": {
+      "en": "(That's great...)",
+      "cn": "（如此便好……）\n",
+      "ru": "(Это здорово...)",
+      "status": "machine",
+      "srcHash": "9dab10564cf0abd9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:28:30.762Z"
+    }
+  }
+}

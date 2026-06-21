@@ -1,0 +1,772 @@
+{
+  "schemaVersion": 1,
+  "file": "Event_Languages/Taiwu_EventPackage_AdventureTEST0_Language_EN.txt",
+  "glossaryVersion": 5,
+  "units": {
+    "5affa87f-87ca-4780-b708-7db8ee3a3d0a/EventContent": {
+      "en": "The bushes keep swaying. <Character key=RoleTaiwu str=Name /> holds <Character key=RoleTaiwu str=GenderPossessive/> breath and focuses, observing every movement in the shrubbery...<NL>Suddenly, a dark shadow swiftly flashes past <Character key=RoleTaiwu str=Name />'s eyes—<NL>It's a <Character key=RoleBeast str=Name />!",
+      "cn": null,
+      "ru": null,
+      "status": "pending",
+      "srcHash": "f475d22c21697c89",
+      "engine": null,
+      "updatedAt": null
+    },
+    "5affa87f-87ca-4780-b708-7db8ee3a3d0a/Option_1": {
+      "en": "(Hunt the beast...)",
+      "cn": null,
+      "ru": "(Охоться на зверя...)",
+      "status": "machine",
+      "srcHash": "6b677155ee4fd9fb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5affa87f-87ca-4780-b708-7db8ee3a3d0a/Option_2": {
+      "en": "(Reconsider your options...)",
+      "cn": null,
+      "ru": "(Пересмотрите свои варианты...)",
+      "status": "machine",
+      "srcHash": "691e4c9dce05bae5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "2f452595-791b-4420-874d-540751f0f84b/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name /> follows the trail to its end and finds a <Character key=RoleBeast str=Name/> caught fast in a trap deep in the thick woods, struggling to break free...",
+      "cn": null,
+      "ru": "<Character key=RoleTaiwu str=Name /> проследует по следу до его конца и найдет... <Character key=RoleBeast str=Name/> попавший в ловушку глубоко в густом лесу, изо всех сил пытающийся вырваться на свободу...",
+      "status": "machine",
+      "srcHash": "f107265815bb98f0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "2f452595-791b-4420-874d-540751f0f84b/Option_1": {
+      "en": "(Hunt the beast...)",
+      "cn": null,
+      "ru": "(Охоться на зверя...)",
+      "status": "machine",
+      "srcHash": "6b677155ee4fd9fb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "2f452595-791b-4420-874d-540751f0f84b/Option_2": {
+      "en": "(Reconsider your options...)",
+      "cn": null,
+      "ru": "(Пересмотрите свои варианты...)",
+      "status": "machine",
+      "srcHash": "691e4c9dce05bae5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "03cca6f7-cb4b-4a2e-8786-082385279d84/EventContent": {
+      "en": "The hunt begins",
+      "cn": null,
+      "ru": "Охота начинается",
+      "status": "machine",
+      "srcHash": "d4bc3c58c197fd34",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "03cca6f7-cb4b-4a2e-8786-082385279d84/Option_1": {
+      "en": "(Join the hunt)",
+      "cn": null,
+      "ru": "(Присоединяйтесь к охоте)",
+      "status": "machine",
+      "srcHash": "48641825497c5b2a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a5cf97f9-42af-49a3-b3d8-ef959b450c71/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a5cf97f9-42af-49a3-b3d8-ef959b450c71/Option_1": {
+      "en": "Tally the Catch",
+      "cn": null,
+      "ru": "Подсчитайте улов",
+      "status": "machine",
+      "srcHash": "c9d99e760b915bac",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a5cf97f9-42af-49a3-b3d8-ef959b450c71/Option_2": {
+      "en": "Purchase Traps",
+      "cn": null,
+      "ru": "Покупайте ловушки",
+      "status": "machine",
+      "srcHash": "38900884723b7ce9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a5cf97f9-42af-49a3-b3d8-ef959b450c71/Option_3": {
+      "en": "Leave",
+      "cn": null,
+      "ru": "Покидать",
+      "status": "machine",
+      "srcHash": "4c37e26ad5e4b19b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "54407f7b-665c-4ba1-a727-c44ae9e4ff7b/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "54407f7b-665c-4ba1-a727-c44ae9e4ff7b/Option_1": {
+      "en": "Back",
+      "cn": null,
+      "ru": "Назад",
+      "status": "machine",
+      "srcHash": "8468f3ae0b4c8aae",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5560361b-98d8-42ca-b4de-c12f76be4132/EventContent": {
+      "en": "You wanna buy more traps? Well, this is no easy feat. It might take a bit of financial persuasion, perhaps with 1500 Silver...",
+      "cn": null,
+      "ru": "Вы хотите купить еще ловушек? Что ж, это не так-то просто. Возможно, потребуется немного финансовых усилий, например, 1500 серебряных монет...",
+      "status": "machine",
+      "srcHash": "db78283990c55593",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "5560361b-98d8-42ca-b4de-c12f76be4132/Option_1": {
+      "en": "Purchase Traps",
+      "cn": null,
+      "ru": "Покупайте ловушки",
+      "status": "machine",
+      "srcHash": "38900884723b7ce9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "5560361b-98d8-42ca-b4de-c12f76be4132/Option_2": {
+      "en": "Back",
+      "cn": null,
+      "ru": "Назад",
+      "status": "machine",
+      "srcHash": "8468f3ae0b4c8aae",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4287cef6-71ce-4582-84a1-3e25702e8738/EventContent": {
+      "en": "Taiwu is victorious!",
+      "cn": null,
+      "ru": "Тайу победил!",
+      "status": "machine",
+      "srcHash": "a72bb05daab59edd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "4287cef6-71ce-4582-84a1-3e25702e8738/Option_1": {
+      "en": "Leave this place",
+      "cn": null,
+      "ru": "Покинь это место",
+      "status": "machine",
+      "srcHash": "efab5b2040983549",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "264255ed-9c6a-4a43-9261-7b727b511912/EventContent": {
+      "en": "NPC is victorious!",
+      "cn": null,
+      "ru": "NPC победил!",
+      "status": "machine",
+      "srcHash": "5d83d8a3ae4f32af",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "264255ed-9c6a-4a43-9261-7b727b511912/Option_1": {
+      "en": "Leave this place",
+      "cn": null,
+      "ru": "Покинь это место",
+      "status": "machine",
+      "srcHash": "efab5b2040983549",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0f6ce128-dfce-4d21-a72e-ebfa282ace64/EventContent": {
+      "en": "\"Young lady, please stop. Our lady is seeking her husband, not a sister. Please go back!\"<NL>Before entering the Yunmeng Marsh, R0 is stopped by the servants receiving guests...",
+      "cn": null,
+      "ru": "\"Юная леди, пожалуйста, остановитесь. Наша леди ищет своего мужа, а не сестру. Пожалуйста, возвращайтесь!\"<NL>Перед входом на болото Юньменг R0 останавливают слуги, принимающие гостей...",
+      "status": "machine",
+      "srcHash": "3f853f5dcf84d8fe",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "0f6ce128-dfce-4d21-a72e-ebfa282ace64/Option_1": {
+      "en": "Leave this place",
+      "cn": null,
+      "ru": "Покинь это место",
+      "status": "machine",
+      "srcHash": "efab5b2040983549",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b462af39-9e0a-402f-9d50-1b5113485628/EventContent": {
+      "en": "\"Where does this child come from? Go play somewhere else...\"<NL>Before entering the Yunmeng Marsh, R0 is stopped by the servants receiving guests...",
+      "cn": null,
+      "ru": "\"Откуда взялся этот ребенок? Пойди поиграй где-нибудь в другом месте...\"<NL>Перед входом на болото Юньменг R0 останавливают слуги, принимающие гостей...",
+      "status": "machine",
+      "srcHash": "ddf322d202668995",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:33:58.892Z"
+    },
+    "b462af39-9e0a-402f-9d50-1b5113485628/Option_1": {
+      "en": "Leave this place",
+      "cn": null,
+      "ru": "Покинь это место",
+      "status": "machine",
+      "srcHash": "efab5b2040983549",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1699f3ee-01c0-4350-bca3-ac49f9c5ad80/EventContent": {
+      "en": "That <Character key=RoleBeast str=Name /> must die!",
+      "cn": null,
+      "ru": "Тот <Character key=RoleBeast str=Name /> должен умереть!",
+      "status": "machine",
+      "srcHash": "8ed0eb66fbbc4795",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "1699f3ee-01c0-4350-bca3-ac49f9c5ad80/Option_1": {
+      "en": "(Pick up the catch...)",
+      "cn": null,
+      "ru": "(Поднимите задвижку...)",
+      "status": "machine",
+      "srcHash": "dac8c7b1122a3fd2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "85696a26-b673-498f-91e6-d8ffa0ff76c4/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "85696a26-b673-498f-91e6-d8ffa0ff76c4/Option_1": {
+      "en": "(Feeling helpless...)",
+      "cn": null,
+      "ru": "(Чувствуя себя беспомощным...)",
+      "status": "machine",
+      "srcHash": "da35b0984e20c125",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8ae71972-12e4-4c6b-b4f7-89d3133da5e1/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "62d85576-e207-4d2d-b801-f4cb3eb84105/EventContent": {
+      "en": "There's a trap on the ground.",
+      "cn": null,
+      "ru": "На земле есть ловушка.",
+      "status": "machine",
+      "srcHash": "233d9c68e366f5ba",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "62d85576-e207-4d2d-b801-f4cb3eb84105/Option_1": {
+      "en": "(Pick up the trap...)",
+      "cn": null,
+      "ru": "(Поднимите ловушку...)",
+      "status": "machine",
+      "srcHash": "8a824e638d97d1f5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "62d85576-e207-4d2d-b801-f4cb3eb84105/Option_2": {
+      "en": "(Leave...)",
+      "cn": null,
+      "ru": "(Уходи...)",
+      "status": "machine",
+      "srcHash": "b4c5ef93ed3f5e81",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "000b105e-e3c1-471f-988d-e393c04b8c2f/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "000b105e-e3c1-471f-988d-e393c04b8c2f/Option_1": {
+      "en": "(Fight for the catch...)",
+      "cn": null,
+      "ru": "(Борьба за улов...)",
+      "status": "machine",
+      "srcHash": "510c0f783cc74143",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "000b105e-e3c1-471f-988d-e393c04b8c2f/Option_2": {
+      "en": "(Leave...)",
+      "cn": null,
+      "ru": "(Уходи...)",
+      "status": "machine",
+      "srcHash": "b4c5ef93ed3f5e81",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f25d1919-cdfb-4957-993f-389a27767d3f/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f25d1919-cdfb-4957-993f-389a27767d3f/Option_1": {
+      "en": "(Fight for the catch...)",
+      "cn": null,
+      "ru": "(Борьба за улов...)",
+      "status": "machine",
+      "srcHash": "510c0f783cc74143",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f25d1919-cdfb-4957-993f-389a27767d3f/Option_2": {
+      "en": "(Leave...)",
+      "cn": null,
+      "ru": "(Уходи...)",
+      "status": "machine",
+      "srcHash": "b4c5ef93ed3f5e81",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0f3a89f5-cd33-49eb-8e83-83e82e968064/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0f3a89f5-cd33-49eb-8e83-83e82e968064/Option_1": {
+      "en": "(Fight for the catch...)",
+      "cn": null,
+      "ru": "(Борьба за улов...)",
+      "status": "machine",
+      "srcHash": "510c0f783cc74143",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0f3a89f5-cd33-49eb-8e83-83e82e968064/Option_2": {
+      "en": "(Leave...)",
+      "cn": null,
+      "ru": "(Уходи...)",
+      "status": "machine",
+      "srcHash": "b4c5ef93ed3f5e81",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c2ea99f7-952f-479e-8a9e-becc24a3c764/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c2ea99f7-952f-479e-8a9e-becc24a3c764/Option_1": {
+      "en": "(Fight for the catch...)",
+      "cn": null,
+      "ru": "(Борьба за улов...)",
+      "status": "machine",
+      "srcHash": "510c0f783cc74143",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c2ea99f7-952f-479e-8a9e-becc24a3c764/Option_2": {
+      "en": "(Leave...)",
+      "cn": null,
+      "ru": "(Уходи...)",
+      "status": "machine",
+      "srcHash": "b4c5ef93ed3f5e81",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6373e6ad-6738-4e77-9c58-a917c0ca2253/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6373e6ad-6738-4e77-9c58-a917c0ca2253/Option_1": {
+      "en": "(Fight for the catch...)",
+      "cn": null,
+      "ru": "(Борьба за улов...)",
+      "status": "machine",
+      "srcHash": "510c0f783cc74143",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6373e6ad-6738-4e77-9c58-a917c0ca2253/Option_2": {
+      "en": "(Leave...)",
+      "cn": null,
+      "ru": "(Уходи...)",
+      "status": "machine",
+      "srcHash": "b4c5ef93ed3f5e81",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c66d6c93-88e4-4c9f-95a2-ae81d0bc09c8/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c66d6c93-88e4-4c9f-95a2-ae81d0bc09c8/Option_1": {
+      "en": "(Directly attack!)",
+      "cn": null,
+      "ru": "(Прямая Атака!)",
+      "status": "machine",
+      "srcHash": "cc63aa1e9cfd9a2d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c66d6c93-88e4-4c9f-95a2-ae81d0bc09c8/Option_2": {
+      "en": "(Back...)",
+      "cn": null,
+      "ru": "(Назад...)",
+      "status": "machine",
+      "srcHash": "86f64a546e5c57f2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "cb4f61d8-f97c-44da-86b7-237b82bcea08/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "cb4f61d8-f97c-44da-86b7-237b82bcea08/Option_1": {
+      "en": "(Accept the catch...)",
+      "cn": null,
+      "ru": "(Примите подвох...)",
+      "status": "machine",
+      "srcHash": "e6190b73e61a3b42",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6c162174-2b18-4329-bbc3-05fdbdb751f4/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6c162174-2b18-4329-bbc3-05fdbdb751f4/Option_1": {
+      "en": "(Feeling helpless...)",
+      "cn": null,
+      "ru": "(Чувствуя себя беспомощным...)",
+      "status": "machine",
+      "srcHash": "da35b0984e20c125",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e70935a9-7fbd-46a2-8434-c10ef8881da9/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "e70935a9-7fbd-46a2-8434-c10ef8881da9/Option_1": {
+      "en": "(Feeling helpless...)",
+      "cn": null,
+      "ru": "(Чувствуя себя беспомощным...)",
+      "status": "machine",
+      "srcHash": "da35b0984e20c125",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "def2b397-7eac-42e1-a917-8d32e77ca3e8/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "def2b397-7eac-42e1-a917-8d32e77ca3e8/Option_1": {
+      "en": "(Feeling helpless...)",
+      "cn": null,
+      "ru": "(Чувствуя себя беспомощным...)",
+      "status": "machine",
+      "srcHash": "da35b0984e20c125",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8655b2d1-0e34-41a5-b4cf-3689c5440b4f/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "92fd9de1-f5be-41f2-b53b-53c3c851a421/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "92fd9de1-f5be-41f2-b53b-53c3c851a421/Option_1": {
+      "en": "(Feeling helpless...)",
+      "cn": null,
+      "ru": "(Чувствуя себя беспомощным...)",
+      "status": "machine",
+      "srcHash": "da35b0984e20c125",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b5e492db-3744-43e4-b032-356362a9814f/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "b5e492db-3744-43e4-b032-356362a9814f/Option_1": {
+      "en": "(Feeling helpless...)",
+      "cn": null,
+      "ru": "(Чувствуя себя беспомощным...)",
+      "status": "machine",
+      "srcHash": "da35b0984e20c125",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "45181c8e-c38b-4c2f-beb3-2bfcd118cb6f/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a36b34df-b86d-4184-a1af-89cb20a85592/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "332e4ec6-fa80-46d8-82e6-d2dbffc1e313/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "13706966-c9e1-4aa7-a396-1b1ecbd1559d/EventContent": {
+      "en": "You picked up the trap.",
+      "cn": null,
+      "ru": "Ты попался в ловушку.",
+      "status": "machine",
+      "srcHash": "375a02ddbc575ffc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "13706966-c9e1-4aa7-a396-1b1ecbd1559d/Option_1": {
+      "en": "(Leave...)",
+      "cn": null,
+      "ru": "(Уходи...)",
+      "status": "machine",
+      "srcHash": "b4c5ef93ed3f5e81",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "6b7f5713-34b3-413c-b449-da9efeb1ec9d/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "c9e20481-09a7-478d-9015-3afc35fbd47a/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "829ee02b-f0e8-468a-a9c3-05ea252d479d/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "9dc7291c-ca71-482e-a5ba-329e04353d2b/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a1ef0987-f471-4404-a740-326577ffa95d/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a1ef0987-f471-4404-a740-326577ffa95d/Option_1": {
+      "en": "Set Trap",
+      "cn": null,
+      "ru": "Расставил ловушку",
+      "status": "machine",
+      "srcHash": "2c666d1cd5240680",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a1ef0987-f471-4404-a740-326577ffa95d/Option_2": {
+      "en": "Leave",
+      "cn": null,
+      "ru": "Покидать",
+      "status": "machine",
+      "srcHash": "4c37e26ad5e4b19b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "a897bf6a-9565-4d3c-9f0e-3a5cf0e65ba4/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "164441bc-d76b-44b0-afc3-05e7984a5aba/EventContent": {
+      "en": "Trap set successfully.",
+      "cn": null,
+      "ru": "Ловушка установлена успешно.",
+      "status": "machine",
+      "srcHash": "99a820408370a603",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "164441bc-d76b-44b0-afc3-05e7984a5aba/Option_1": {
+      "en": "Leave",
+      "cn": null,
+      "ru": "Покидать",
+      "status": "machine",
+      "srcHash": "4c37e26ad5e4b19b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "9ef76a47-aca0-4478-acbd-fe9d2bd8eb4b/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "f4c25b73-e7e6-4e44-894e-585d18ac766e/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "55da0d82-f205-4124-8677-55a6fc4b796b/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "55da0d82-f205-4124-8677-55a6fc4b796b/Option_1": {
+      "en": "(Pick up the catch...)",
+      "cn": null,
+      "ru": "(Поднимите задвижку...)",
+      "status": "machine",
+      "srcHash": "dac8c7b1122a3fd2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "8a1126eb-0680-4b60-8b70-c2698dc136bb/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    },
+    "0a83f810-d779-43f8-8481-a50b19404394/EventContent": {
+      "en": "nan",
+      "cn": null,
+      "ru": "бабушка",
+      "status": "machine",
+      "srcHash": "910ba46f7648772c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T21:21:05.664Z"
+    }
+  }
+}
