@@ -204,11 +204,11 @@
     "Desc_0": {
       "en": "If you win the duel, the opponent grants an additional random reward (if only the base XP reward is available, it is doubled).",
       "cn": "若最终决斗胜利，对方额外随机赠上一份赌注的奖品（若对方仅有保底的历练奖品，则该奖品翻倍）",
-      "ru": null,
-      "status": "pending",
+      "ru": "Если вы выигрываете Поединок, противник предоставляет дополнительную случайную награду (если доступна только базовая награда за опыт, она удваивается).",
+      "status": "machine",
       "srcHash": "a563cb6f7779e4a4",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_1": {
       "en": "Immediately triggers an additional critical hit.",
@@ -285,11 +285,11 @@
     "Desc_9": {
       "en": "50% of lost Resilience is restored as Endurance, and 50% of lost Endurance is restored as Resilience (rounded down).",
       "cn": "减少的斗性的50%会恢复为体力、减少的体力的50%会恢复为斗性（向下取整）",
-      "ru": null,
-      "status": "pending",
+      "ru": "50% утраченной упругости восстанавливается в виде выносливости, а 50% утраченной выносливости восстанавливается в виде упругости (округлено в меньшую сторону).",
+      "status": "machine",
       "srcHash": "45811d1070daa83d",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_10": {
       "en": "+6 Strength after a counterattack. Stacks and lasts until the battle ends.",
@@ -303,11 +303,11 @@
     "Desc_11": {
       "en": "When dealing Resilience/Endurance Injury: Injury = Base Injury × (120 + self corresponding Injury % × 5 ÷ 2) / 100. Self loses 10% of current Resilience or Endurance (rounded down)",
       "cn": "造成斗性/体力损伤时，分别对应损伤=原损伤*(120+自己对应损伤百分比*5/2)/100，自己损失当前10%的斗性或体力（向下取整）",
-      "ru": null,
-      "status": "pending",
+      "ru": "При нанесении Травмы на устойчивость/выносливость: Травма = Базовая Травма × (120 + соответствующая самому себе Травма % × 5 ÷ 2) / 100. Самость теряет 10% текущей жизнестойкости или выносливости (округлено в меньшую сторону)",
+      "status": "machine",
       "srcHash": "812f2c883788b68a",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_12": {
       "en": "+6 Bite Force after an attack. Stacks and lasts until the battle ends.",
@@ -321,20 +321,20 @@
     "Desc_13": {
       "en": "When reducing damage while defending, deal Endurance Injury equal to Bite Force and Resilience Injury equal to Vigor to the opponent.",
       "cn": "防御减伤时，对对手造成牙钳的体力损伤和气势的斗性损伤",
-      "ru": null,
-      "status": "pending",
+      "ru": "Уменьшая урон во время защиты, наносите противнику Травму на выносливость, равную силе укуса, и Травму на устойчивость, равную энергии.",
+      "status": "machine",
       "srcHash": "8f660fdce1eab8b8",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_14": {
       "en": "All attributes except Endurance and Resilience (including hidden attributes) ×1.5 (rounded up), lasting until the battle ends.",
       "cn": "除体力、斗性外全部属性（含隐藏属性）*1.5（向上取整），持续到战斗结束",
-      "ru": null,
-      "status": "pending",
+      "ru": "Все Характеристики, кроме выносливости и жизнестойкости (включая скрытые Характеристики) ×1,5 (округлено в большую сторону), действительны до окончания битвы.",
+      "status": "machine",
       "srcHash": "a6a33e4f39de494b",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_15": {
       "en": "Randomly doubles one of Bite Force, Strength, or Vigor (rounded up) for 1 round.",
@@ -348,11 +348,11 @@
     "Desc_16": {
       "en": "Restore Endurance and Resilience based on the Endurance and Resilience damage dealt to the opponent by critical hits.",
       "cn": "根据暴击时对对手造成的体力、斗性伤害，恢复自己的体力、斗性",
-      "ru": null,
-      "status": "pending",
+      "ru": "Восстанавливайте выносливость и сопротивляемость, основываясь на уроне выносливости и сопротивляемости, наносимом противнику критическими ударами.",
+      "status": "machine",
       "srcHash": "a1eff0fec14b32bb",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_17": {
       "en": "Gain +6 Vigor after dealing Resilience damage. Stacks and lasts until the battle ends.",
@@ -384,20 +384,20 @@
     "Desc_20": {
       "en": "After a natural Critical, the next incoming attack is guaranteed to be defended. After a natural Defense, the next attack is guaranteed to be a Critical.",
       "cn": "非效果暴击后下次被击100%防御、非效果防御后下次攻击100%暴击",
-      "ru": null,
-      "status": "pending",
+      "ru": "После естественного критического удара следующая входящая Атака гарантированно будет защищена. После естественной защиты следующая Атака гарантированно будет критической.",
+      "status": "machine",
       "srcHash": "ea6c59547f0057f2",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_21": {
       "en": "When attacked: Bite Force +1. When countered: Strength +1. When Taunted: Vigor +1. Stacks and lasts until the battle ends.",
       "cn": "被进攻牙钳+1，被反击角力+1，被鸣叫气势+1，可叠加持续到战斗结束",
-      "ru": null,
-      "status": "pending",
+      "ru": "При Атаке: Сила укуса +1. При противодействии: Сила +1. Когда насмехаются: Энергия +1. Складывается и сохраняется до окончания битвы.",
+      "status": "machine",
       "srcHash": "5ebb9bf77be4c040",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "EffectTips_0": {
       "en": "Even if I give you the advantage, you still can't win!",

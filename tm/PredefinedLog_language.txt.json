@@ -474,20 +474,20 @@
     "Info_3": {
       "en": "Loading Mod - Failed to load Mod settings for {0} located in {1}, operation skipped and files removed.\\nError: {2}",
       "cn": "加载 Mod - {0} 位于 {1} 的 Mod 设置文件失败, 已跳过并移除.\\n报错信息: {2}",
-      "ru": null,
-      "status": "pending",
+      "ru": "Загрузка мода - Не удалось загрузить настройки мода для {0} расположенный в {1}, операция пропущена и файлы удалены.\\нЕррор: {2}",
+      "status": "machine",
       "srcHash": "32f89e5079c96b57",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Info_4": {
       "en": "Failed to load the global Mod settings located in {0}, operation skipped and files removed.\\nError: {1}",
       "cn": "加载位于 {0} 的 Mod 全局设置文件失败,已跳过并移除. \\n报错信息: {1}",
-      "ru": null,
-      "status": "pending",
+      "ru": "Не удалось загрузить глобальные настройки мода, расположенные в {0}, операция пропущена и файлы удалены.\\нЕррор: {1}",
+      "status": "machine",
       "srcHash": "f5cba07336313fd0",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Info_5": {
       "en": "Action Skipped: Negative frames detected in this battle.",
@@ -501,11 +501,11 @@
     "Info_6": {
       "en": "An runtime animation exception occurred during the execution of the {1} skill in {0} Aspiration. The current skill execution has been skipped.\\nError message: {2}",
       "cn": "执行 {0} 志向的 {1} 技能时，动画运行时出现异常，已跳过当前技能执行。\\n报错信息：{2}",
-      "ru": null,
-      "status": "pending",
+      "ru": "Исключение анимации во время выполнения возникло во время выполнения {1} умение в {0} Устремление. Текущее выполнение навыка было пропущено.\\Сообщение об ошибке: {2}",
+      "status": "machine",
       "srcHash": "1d24534d68ceb4ca",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Info_7": {
       "en": "An runtime exception occurred during the execution of effect ID {0}. We've noticed the problem and have applied compatibility fixes to keep the game running.\\nIf you see this log, please visit the official website to submit it for troubleshooting.\\nException details: {1}",
@@ -528,11 +528,11 @@
     "Info_9": {
       "en": "Due to system limitations, this video cannot be played at the moment. This exception does not affect the creation of a save file or entering the game. You may click \"Clear\" to proceed.",
       "cn": "由于系统原因，暂时无法播放此视频；该异常不影响继续创建存档进入游戏，可以直接点击Clear继续游戏",
-      "ru": null,
-      "status": "pending",
+      "ru": "Из-за системных ограничений это видео в данный момент не может быть воспроизведено. Это исключение не влияет на создание файла сохранения или вход в игру. Вы можете нажать \"Очистить\", чтобы продолжить.",
+      "status": "machine",
       "srcHash": "fd6a3774367ec57c",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Info_10": {
       "en": "Detected Abnormal Quest ID: {0}",
@@ -582,20 +582,20 @@
     "Info_15": {
       "en": "The Debate system abnormally received an expired action: {0} (Timestamp: {1}) at turn {2}.\\nIt has been invalidated.",
       "cn": "较艺系统不正常地接收到过期操作 {0}(时间戳: {1}) 在轮手数 {2}\\n已使其无效化",
-      "ru": null,
-      "status": "pending",
+      "ru": "Система Диспутов аварийно получила действие с истекшим сроком действия: {0} (Временная метка: {1}) при повороте {2}.\\nIt был признан недействительным.",
+      "status": "machine",
       "srcHash": "d26733b7c5a6ae40",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Info_16": {
       "en": "The memory you're returning to doesn't match your original save. Proceeding may cause unexpected errors!",
       "cn": "请注意，当前梦回穿越的世界与原世界存档不匹配，继续游戏可能出现各种未知错误!",
-      "ru": null,
-      "status": "pending",
+      "ru": "Память, к которой вы возвращаетесь, не соответствует вашему первоначальному сохранению. Продолжение может привести к непредвиденным ошибкам!",
+      "status": "machine",
       "srcHash": "4270c48009ffd5c0",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Info_17": {
       "en": "We detected an exception with the Loong Awakening interface. We've noticed the problem and have applied compatibility fixes to keep the game running.\\nIf you see this log, please visit the official website to submit it for troubleshooting.",
@@ -627,11 +627,11 @@
     "Info_20": {
       "en": " Attempted to add a non-stackable item {0} to container {1}, but it already exists in another container {2}.",
       "cn": "检测到尝试向容器{1}中添加不可堆叠道具{0}时, 该道具同时已存在于另一容器{2}中.",
-      "ru": null,
-      "status": "pending",
+      "ru": " Предпринята попытка добавить элемент, не подлежащий штабелированию {0} в контейнер {1}, но он уже существует в другом контейнере {2}.",
+      "status": "machine",
       "srcHash": "c3358015484bbbde",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Info_21": {
       "en": "Attempted to remove a non-stackable item {0} from container {1}, but no owner was recorded for it.",
@@ -645,20 +645,20 @@
     "Info_22": {
       "en": "The event had changed but wasn't properly entered. Continuing may corrupt your save.\\nIf you see this log, please visit the official website to submit it for troubleshooting.\\nGUID: {0}=>{1}",
       "cn": "事件已产生过变化，但并未实际进入，继续游戏可能会产生坏档。\\n如出现本日志，请前往官网提交日志以协助排查问题。\\nGuid: {0}=>{1}",
-      "ru": null,
-      "status": "pending",
+      "ru": "Событие изменилось, но не было введено должным образом. Продолжение может привести к повреждению вашего сохранения.\\ Если вы видите этот журнал, пожалуйста, посетите официальный веб-сайт, чтобы отправить его для устранения неполадок.Руководство: {0}=&gt;{1}",
+      "status": "machine",
       "srcHash": "f7a107c616767271",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Info_23": {
       "en": "An error occurred while loading AI data from path {0}. Please verify the integrityof the game or contact customer support.\\nError details: {1}",
       "cn": "尝试从路径 {0} 加载 Ai 数据时出现异常，请检查游戏完整性，或尝试向客服寻求支持。\\n异常信息：{1}",
-      "ru": null,
-      "status": "pending",
+      "ru": "Произошла ошибка при загрузке данных искусственного интеллекта из path {0}. Пожалуйста, проверьте целостность игры или обратитесь в Поддержку клиентов.\\Подробности ошибки: {1}",
+      "status": "machine",
       "srcHash": "4a8b25f4f1066b44",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Info_24": {
       "en": "A mod-added template (ID: {0}) is missing from the current game configuration ({1}). We've attempted to remove its associated data for compatibility. If you want to retain it, enable the related Mod and reload your save.",
@@ -762,47 +762,47 @@
     "Info_35": {
       "en": "Configuration setting file {0} failed to resolve as {1}. Related items may be treated as default value",
       "cn": "配置设置文件 {0} 解析失败为 {1}；相关条目可能被处理为默认值",
-      "ru": null,
-      "status": "pending",
+      "ru": "Файл настроек конфигурации {0} не удалось разрешить как {1}. Связанные элементы могут рассматриваться как значение по умолчанию",
+      "status": "machine",
       "srcHash": "cd85dbc7b001fda2",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Info_36": {
       "en": "The Encounter Element can't be found. Please check whether the Encounter Element name has been filled in the Encounter Editor.",
       "cn": "找不到该奇遇元素，请检查是否在奇遇编辑器中填写了奇遇元素的名字",
-      "ru": null,
-      "status": "pending",
+      "ru": "Элемент Encounter не может быть найден. Пожалуйста, проверьте, было ли заполнено имя элемента Encounter в редакторе Encounter.",
+      "status": "machine",
       "srcHash": "fd18560f8b1391d0",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Info_37": {
       "en": "The Major Event can't be found. Please check whether the Major Event name has been filled in the Major Event Editor.",
       "cn": "找不到该大事件，请检查是否在大事件编辑器中填写了大事件的名字",
-      "ru": null,
-      "status": "pending",
+      "ru": "Главное событие не может быть найдено. Пожалуйста, проверьте, было ли введено название основного события в редакторе основных событий.",
+      "status": "machine",
       "srcHash": "665b0f6b69d92d6e",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Info_38": {
       "en": "The Encounter can't be found. Please check whether the Encounter name has been filled in the Encounter Editor.",
       "cn": "找不到该奇遇，请检查是否在奇遇编辑器中填写了奇遇的名字",
-      "ru": null,
-      "status": "pending",
+      "ru": "Встреча не может быть найдена. Пожалуйста, проверьте, было ли введено название встречи в редакторе встреч.",
+      "status": "machine",
       "srcHash": "cecbd5dfad6a1f58",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Info_39": {
       "en": "The Encounter Event queue is too long. The current event can't be triggered due to queue overflow. Please simplify the event trigger structure. Debug info: {0}",
       "cn": "奇遇事件队列过长，当前事件因队列溢出无法正常触发，需要简化事件触发结构，调试信息：{0}",
-      "ru": null,
-      "status": "pending",
+      "ru": "Очередь событий Encounter слишком длинная. Текущее событие не может быть запущено из-за переполнения очереди. Пожалуйста, упростите структуру триггера события. Информация об отладке: {0}",
+      "status": "machine",
       "srcHash": "c810b29becc2bb93",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Info_40": {
       "en": "Unable to generate Encounter normally. Exception: {0}",
@@ -834,20 +834,20 @@
     "Info_43": {
       "en": "Unable to load save file properly. Please ensure the save file exists and is not corrupted.\\nPath: {0}\\nException Info: {1}",
       "cn": "无法正常加载存档，请确保存档文件存在且未损坏.\\n路径:{0}\\n异常信息:{1}",
-      "ru": null,
-      "status": "pending",
+      "ru": "Не удается правильно загрузить файл сохранения. Пожалуйста, убедитесь, что сохраненный файл существует и не поврежден.\\NPath - путь: {0}\\Информация о следующем исключении: {1}",
+      "status": "machine",
       "srcHash": "6a676cc32203ce3d",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Info_44": {
       "en": "Unable to back up save file properly. Please ensure you have correct read/write permissions, sufficient disk space, and avoid modifying files while the game is running.\\nPath: {0}\\nException Info: {1}",
       "cn": "无法正常备份存档文件，请确保您有正确的读写权限，足够的硬盘空间，并避免在游戏进行中修改文件.\\n路径:{0}\\n异常信息:{1}",
-      "ru": null,
-      "status": "pending",
+      "ru": "Не удается должным образом создать резервную копию сохраненного файла. Пожалуйста, убедитесь, что у вас есть правильные разрешения на чтение / запись, достаточно места на диске и избегайте изменения файлов во время работы игры.\\NPath - путь: {0}\\Информация о следующем исключении: {1}",
+      "status": "machine",
       "srcHash": "99ae8fd5fd4b296d",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Info_45": {
       "en": "Unable to create target [{1}] for character {0}.\\nException Info: {2}",

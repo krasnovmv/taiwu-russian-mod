@@ -7971,20 +7971,20 @@
     "Desc_1": {
       "en": "[Else] If linked condition is not satisfied, execute the command list covered by this command's scope.",
       "cn": "【否则】如果关联的条件判断不满足,则执行该指令覆盖范围内的指令列表.",
-      "ru": null,
-      "status": "pending",
+      "ru": "[Else] Если связанное условие не выполняется, выполните список команд, охватываемый областью действия этой команды.",
+      "status": "machine",
       "srcHash": "4194533bec3d2098",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_2": {
       "en": "[Else If] If linked condition is not satisfied, check this condition; if true, execute the command list covered by this command's scope.",
       "cn": "【否则如果】如果关联的条件判断不满足,则进行本条件的判断,通过后执行该指令覆盖范围内的指令列表.",
-      "ru": null,
-      "status": "pending",
+      "ru": "[Else If] Если связанное условие не выполняется, проверьте это условие; если true, выполните список команд, охватываемый областью действия этой команды.",
+      "status": "machine",
       "srcHash": "682ca10f26146815",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_3": {
       "en": "Loop through all command lists covered by this command's scope.",
@@ -8052,38 +8052,38 @@
     "Desc_10": {
       "en": "Set the value of a parameter into a named variable. This variable is only used within a continuous story and is not saved to storage.",
       "cn": "将参数的值设置到指定名称的变量中.此变量仅会在一段连贯剧情中使用,不会进行存档.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Установите значение параметра в именованную переменную. Эта переменная используется только в непрерывной истории и не сохраняется в хранилище.",
+      "status": "machine",
       "srcHash": "5f3ae11ab6c8287d",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_11": {
       "en": "Generate a random number within a specified range. The number generated includes the minimum value but excludes the maximum.",
       "cn": "在指定范围内取随机数,取得的值将包含设定的最小值,但不包含设定的最大值.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Сгенерируйте случайное число в пределах заданного диапазона. Сгенерированное число включает минимальное значение, но исключает максимальное.",
+      "status": "machine",
       "srcHash": "87e03948ca07a497",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_12": {
       "en": "Perform a probability check and return True or False based on the defined probability. For example, a parameter of 30 means 30% chance to return True.",
       "cn": "百分比概率检测.依照后续设定的概率返回True或false,例如填写参数为30,则有30%的概率返回True.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Выполните проверку вероятности и верните значение True или False в зависимости от определенной вероятности. Например, параметр, равный 30, означает 30%-ную вероятность возврата значения True.",
+      "status": "machine",
       "srcHash": "6917483ee8bc67e7",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_767": {
       "en": "Using a fixed seed, retrieve an element from a random non-repeating array of numbers. The index range is [0, total count).",
       "cn": "通过固定的种子，获取随机不重复的数字数组中的某一元素。索引的取值范围为 [0, 总数)",
-      "ru": null,
-      "status": "pending",
+      "ru": "Используя фиксированное начальное значение, извлеките элемент из случайного неповторяющегося массива чисел. Диапазон индексов равен [0, общее количество).",
+      "status": "machine",
       "srcHash": "a64f217286d4794c",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_13": {
       "en": "Jump to a specified event page and end the execution of the current command list.",
@@ -8169,11 +8169,11 @@
     "Desc_216": {
       "en": "Retrieve the element of a specific index within a list. Note the index has a range of [0, list length)",
       "cn": "获取列表中指定序号的元素. 注意序号的取值范围是 [0,列表长度)",
-      "ru": null,
-      "status": "pending",
+      "ru": "Извлеките элемент определенного индекса из списка. Обратите внимание, что индекс имеет диапазон [0, длина списка)",
+      "status": "machine",
       "srcHash": "57a6a65b92e68e6a",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_568": {
       "en": "",
@@ -8187,11 +8187,11 @@
     "Desc_640": {
       "en": "Triggers a specified event once when the listened behavior is executed. The event inherits the context (temporary variables) at the moment of the current command's execution.",
       "cn": "执行到被监听的行为时一次性触发指定事件. 事件被触发时会继承当前指令执行瞬间的上下文(临时变量).",
-      "ru": null,
-      "status": "pending",
+      "ru": "Запускает указанное событие один раз, когда выполняется прослушиваемое поведение. Событие наследует контекст (временные переменные) в момент выполнения текущей команды.",
+      "status": "machine",
       "srcHash": "405edb8127938a1c",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_14": {
       "en": "Output specified debug text to a Log file",
@@ -8214,11 +8214,11 @@
     "Desc_16": {
       "en": "Enter audio name as string in the parameter; if the parameter contains no audio name (empty string only), revert to the default audio (stop the last audio played with this command)",
       "cn": "参数中以字符串格式填写音频名称；参数中不填写音频名称，只填写空字符串，将回归默认的音频，即停止上一次使用此指令播放的音频",
-      "ru": null,
-      "status": "pending",
+      "ru": "Введите название звука в качестве строки в параметре; если параметр не содержит названия звука (только пустая строка), вернитесь к звуку по умолчанию (остановите последнее воспроизведение звука с помощью этой команды).",
+      "status": "machine",
       "srcHash": "ab21f9f8a83535d9",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_482": {
       "en": "Plays the scene change animation and triggers a specified follow-up event.",
@@ -8313,11 +8313,11 @@
     "Desc_829": {
       "en": "This data is not saved and only takes effect during the current event. Used for silently granting items and similar actions under special circumstances. Enabled by default.",
       "cn": "该数据不存档, 只对当前事件生效, 用于在特定情况下静默获得道具等. 默认打开.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Эти данные не сохраняются и вступают в силу только во время текущего события. Используется для молчаливого предоставления предметов и аналогичных действий при особых обстоятельствах. Включено по умолчанию.",
+      "status": "machine",
       "srcHash": "57d4393cb4b41e00",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_832": {
       "en": "",
@@ -8331,11 +8331,11 @@
     "Desc_187": {
       "en": "Open Emei's Unique Mind Method interface. The input parameter is used to distinguish whether it was accessed via White Ape or Shi Houjiu.",
       "cn": "打开峨眉独创心法界面. 传入的参数用于区分通过白猿和石候酒打开时的表现区别.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Откройте уникальный интерфейс метода Mind от Эмэй. Входной параметр используется для определения того, был ли доступ к нему осуществлен через White Ape или Shi Houjiu.",
+      "status": "machine",
       "srcHash": "fb9de0ffc44a4e49",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_18": {
       "en": "",
@@ -8385,20 +8385,20 @@
     "Desc_23": {
       "en": "Toxin levels 1-3 correspond to Lesser Toxin, Severe Toxin, and Deadly Toxin respectively; None for random.",
       "cn": "毒素级别1-3分别为生毒,剧毒,奇毒;传None代表随机",
-      "ru": null,
-      "status": "pending",
+      "ru": "Уровни Токсина 1-3 соответствуют меньшему Токсину, тяжелому Токсину и смертельному Токсину соответственно; Нет для случайного.",
+      "status": "machine",
       "srcHash": "6c1f5b46747ec8cf",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_24": {
       "en": "Toxin levels 1-3 correspond to Lesser Toxin, Severe Toxin, and Deadly Toxin respectively; None for random.",
       "cn": "毒素级别1-3分别为生毒,剧毒,奇毒;传None代表随机",
-      "ru": null,
-      "status": "pending",
+      "ru": "Уровни Токсина 1-3 соответствуют меньшему Токсину, тяжелому Токсину и смертельному Токсину соответственно; Нет для случайного.",
+      "status": "machine",
       "srcHash": "6c1f5b46747ec8cf",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_25": {
       "en": "",
@@ -8565,11 +8565,11 @@
     "Desc_189": {
       "en": "Inflict a certain number of Injuries to the target character based on the tag, randomly distributed across different body parts.",
       "cn": "对指定角色造成一定标记数量的伤势,随机分配到各个部位.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Нанести определенное количество ранений целевому персонажу на основе метки, случайным образом распределенной по разным частям тела.",
+      "status": "machine",
       "srcHash": "491a1e911326828b",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_41": {
       "en": "Add an existing item to the specified character's Travel Bag.",
@@ -8583,20 +8583,20 @@
     "Desc_65": {
       "en": "Removes mission-specific items. If the item is equipped, it will be unequipped first before being removed.",
       "cn": "移除任务持有的道具. 如果该道具正在装备中, 则会从装备栏位卸下再移除.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Удаляет предметы, относящиеся к конкретной миссии. Если предмет оборудован, то перед извлечением он сначала будет необорудован.",
+      "status": "machine",
       "srcHash": "937019033eba1e44",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_42": {
       "en": "Transfers items from one character to another character's inventory, while calculating Betrayal. If the item is being equipped, it will be unequipped first before the transfer.",
       "cn": "将一个角色持有的道具转移到另一个角色行囊,可以同步计算欠恩失义. 如果该道具正在装备中, 则会从装备栏位卸下再移除.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Переносит предметы из инвентаря одного персонажа в инвентарь другого персонажа, рассчитывая при этом предательство. Если предмет экипируется, то перед передачей он будет сначала необорудован.",
+      "status": "machine",
       "srcHash": "40b83413974e1d75",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_744": {
       "en": "",
@@ -8637,11 +8637,11 @@
     "Desc_130": {
       "en": "Transfer resources from one character's inventory to another, during which Betrayal can also be calculated.",
       "cn": "将一个角色的资源转移到另一个角色,可以同步计算欠恩失义.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Перенесите Ресурсы из инвентаря одного персонажа в инвентарь другого, во время чего также может быть вычислено предательство.",
+      "status": "machine",
       "srcHash": "dfe75790bfeee66c",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_43": {
       "en": "",
@@ -8772,11 +8772,11 @@
     "Desc_54": {
       "en": "Increase or decrease Favor in the current region by the amount entered (positive = increase, negative = decrease).",
       "cn": "在当前对应地区的恩义值上增加或减少填写的值,正值为增加,负值为减少.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Увеличьте или уменьшите пользу в текущем регионе на введенную сумму (положительное = увеличение, отрицательное = уменьшение).",
+      "status": "machine",
       "srcHash": "402b5dbf37dc712b",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_55": {
       "en": "",
@@ -8853,11 +8853,11 @@
     "Desc_226": {
       "en": "Once Favor interaction is triggered, it can be accessed directly via special buildings in Industry. This command therefore determines whether Favor interaction can be accessed via Industry.",
       "cn": "首次触发恩义互动后, 后续可以直接通过产业中的特殊建筑进入恩义互动. 因此该处实际影响的是能否通过产业进行恩义互动.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Как только запущено взаимодействие Favor, к нему можно получить прямой доступ через специальные здания в промышленности. Таким образом, эта команда определяет, можно ли получить доступ к Favor interaction через Industry.",
+      "status": "machine",
       "srcHash": "ec82cfcc9dee4f61",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_61": {
       "en": "",
@@ -8898,11 +8898,11 @@
     "Desc_556": {
       "en": "Create a Martial Arts Book according to settings. Fill -1 for Outline type, complete pages, and Lost pages to indicate random.",
       "cn": "根据设置创建功法书. 总纲类型、完整页数和亡佚页书填-1表示随机.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Создайте книгу по Боевым искусствам в соответствии с настройками. Заполните -1 для типов набросков, полных страниц и потерянных страниц, чтобы указать случайный.",
+      "status": "machine",
       "srcHash": "51d0a62a07e17c1e",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_558": {
       "en": "Complete the study of all pages of the specified book.",
@@ -8916,11 +8916,11 @@
     "Desc_408": {
       "en": "Setting Equipment Effect modifiers overwrites existing modifiers. If the original modifier effect increases durability cap, the provided bonus will not be reverted.",
       "cn": "设置装备效果词条. 会覆盖原有词条, 如果原有词条的效果为增加耐久上限则已提供的加成不会被还原.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Установка модификаторов эффекта Снаряжения перезаписывает существующие модификаторы. Если первоначальный эффект модификатора увеличивает ограничение на Прочность, предоставленный бонус не будет возвращен.",
+      "status": "machine",
       "srcHash": "6c100c1f0684999d",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_111": {
       "en": "Get a character's favorability toward another character.",
@@ -8952,11 +8952,11 @@
     "Desc_67": {
       "en": "Create adventure at specified location. Part of the Encounter will be created based on the Monthly Event table configuration (There might be a preparation phase), Input null at this type of Encounter.",
       "cn": "在指定位置创建奇遇. 部分奇遇会根据过月事件行为表的配置进行创建 (可能存在数月的准备阶段), 该类奇遇位置可填写 null.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Создайте приключение в указанном месте. Часть встречи будет создана на основе конфигурации таблицы ежемесячных событий (может быть этап подготовки), введите null для этого типа встречи.",
+      "status": "machine",
       "srcHash": "3aea135dc1448645",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_145": {
       "en": "Execute the global advance month action configured. Some require preparation. Advance month encounter needs to be created via this command (only one instance per configuration can be created at the same time; removed automatically after completion). When region is forced to be not None (-1), this command attempts to bypass the configuration and force generate in the designated region.",
@@ -8970,11 +8970,11 @@
     "Desc_92": {
       "en": "Create non-persistent enemy character from template. Match Taiwu's Pure Essence only when the template GroupId ≥ 0.",
       "cn": "根据模板创建一个不会进行过月的敌人角色，匹配太吾精纯只有在角色模板的GroupId大于等于0时才会生效",
-      "ru": null,
-      "status": "pending",
+      "ru": "Создайте непостоянного вражеского персонажа из шаблона. Сопоставляйте Чистую эссенцию Тайу только в том случае, если groupId шаблона ≥ 0.",
+      "status": "machine",
       "srcHash": "c92702c5be54a755",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_93": {
       "en": "Create actor used only in event dialogues with no real character data.",
@@ -9033,11 +9033,11 @@
     "Desc_841": {
       "en": "Enter battle according to the specified battle configuration, using the passed-in character as Taiwu's only Companion. After completion, jump to the ending event.",
       "cn": "根据战斗配置进入战斗，以传入的角色作为太吾唯一助战者，完成后跳转到结束事件.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Вступайте в бой в соответствии с указанной боевой конфигурацией, используя переданного персонажа в качестве единственного компаньона Тайу. После завершения перейдите к завершающему событию.",
+      "status": "machine",
       "srcHash": "61504fa6fdc3c1ac",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_68": {
       "en": "Start a mission (cannot trigger non-triggered missions).",
@@ -9078,11 +9078,11 @@
     "Desc_116": {
       "en": "Set regional main storyline ending state, applying settings for Sect Approval, Regional Insights, Scroll, etc.",
       "cn": "设置地区主线结局状态,应用门派好感、地区见闻、绘卷等设置.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Установите конечное состояние основной сюжетной линии региона, применив настройки для утверждения Секты, региональной информации, прокрутки и т.д.",
+      "status": "machine",
       "srcHash": "48ef0a668178abbc",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_113": {
       "en": "Get Template ID for Regional Fixed Character Dynamic Combat",
@@ -9132,20 +9132,20 @@
     "Desc_143": {
       "en": "Retrieve the character pulled into encounter using monthly event behavior configuration linked to the encounter. The configuration information can be found in MonthlyActions list.",
       "cn": "获取通过奇遇关联的过月事件行为配置拉取到奇遇中的人物,其配置信息在 MonthlyActions 表中.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Извлеките персонажа, втянутого в encounter, используя конфигурацию поведения ежемесячного события, связанную с encounter. Информацию о конфигурации можно найти в списке ежемесячных действий.",
+      "status": "machine",
       "srcHash": "37f3586f863a4414",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_144": {
       "en": "Retrieve the number of characters pulled into encounter using monthly event behavior configuration linked to the encounter. The configuration information can be found in MonthlyActions list.",
       "cn": "获取通过奇遇关联的过月事件行为配置拉取到奇遇中的人物的数量,其配置信息在 MonthlyActions 表中.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Извлеките количество символов, включенных в encounter, используя конфигурацию поведения ежемесячного события, связанную с encounter. Информацию о конфигурации можно найти в списке ежемесячных действий.",
+      "status": "machine",
       "srcHash": "7ffbd361dfe19ed4",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_125": {
       "en": "Complete the current encounter event and continue progressing the encounter.",
@@ -9168,20 +9168,20 @@
     "Desc_119": {
       "en": "Start generating an encounter map at the specified starting point. Can only be called during an encounter entrance event.",
       "cn": "开始在指定起点生成奇遇地图,只允许在奇遇入口事件调用.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Начните генерировать карту встреч с указанной начальной точки. Может быть вызван только во время события входа в encounter.",
+      "status": "machine",
       "srcHash": "71161f635d7531ee",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_440": {
       "en": "Randomly selects an item from the Travel Bag based on specified conditions. Non-transferable items will not be selected.",
       "cn": "根据条件筛选行囊中的随机道具. 不会随机到不可转移的道具.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Случайным образом выбирает предмет из дорожной сумки в соответствии с указанными условиями. Товары, не подлежащие передаче, выбраны не будут.",
+      "status": "machine",
       "srcHash": "f40a6b8bd78ab1ac",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_850": {
       "en": "",
@@ -9267,11 +9267,11 @@
     "Desc_167": {
       "en": "Filter random tiles that meet the matching rules within the range of distance from the specified tile. Both the min and max of range include this value itself.",
       "cn": "筛选指定地格距离范围内的符合匹配规则的随机地格. 范围上下限都包含该值本身.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Отфильтруйте случайные плитки, которые соответствуют правилам сопоставления в пределах диапазона расстояний от указанной плитки. Как минимальный, так и максимальный диапазон включают в себя само это значение.",
+      "status": "machine",
       "srcHash": "176d17a62064bc75",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_698": {
       "en": "",
@@ -9375,11 +9375,11 @@
     "Desc_149": {
       "en": "Add a building in a specified Industry. Attempt to overwrite the resource tile if \"force add\" is enabled and there is insufficient empty slot in the specified Industry.",
       "cn": "在指定产业添加建筑. 如果设置了强制添加且指定产业没有足够的可用空格,将尝试覆盖资源格.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Добавьте здание в указанной отрасли. Попытайтесь перезаписать плитку Ресурсов, если включена функция \"принудительное добавление\" и в указанной отрасли недостаточно пустого места.",
+      "status": "machine",
       "srcHash": "94f0188ee8d41414",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_139": {
       "en": "Swordsmiths Landlord Creates Bandit Package",
@@ -9438,11 +9438,11 @@
     "Desc_154": {
       "en": "Retrieve another settlement apart from the current settlement within the region, excluding large settlements (sect, main city).",
       "cn": "排除大型定居点（门派、主城）,获取区域内当前定居点以外的另一个定居点.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Найдите другое поселение, отличное от текущего поселения в пределах региона, исключая крупные поселения (Секта, главный город).",
+      "status": "machine",
       "srcHash": "ce9633e89d38777b",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_481": {
       "en": "Obtain the Settlement ID of a Sect.",
@@ -9492,11 +9492,11 @@
     "Desc_199": {
       "en": "This command returns to the core tile at the bottom left corner when a settlement spans across multiple tiles.",
       "cn": "对于占多格的定居点, 该指令将返回左下角的核心地格.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Эта команда возвращает к основной плитке в левом нижнем углу, когда расчет охватывает несколько плиток.",
+      "status": "machine",
       "srcHash": "6ba791e8a5dd2eb1",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_261": {
       "en": "",
@@ -9591,11 +9591,11 @@
     "Desc_218": {
       "en": "Attempt to retrieve the element of a specific index within a list. Note the index has a range of [0, list length). The condition will fail if the retrieved element is outside the range.",
       "cn": "试获取列表中指定序号的元素. 注意序号的取值范围是 [0,列表长度). 当获取的元素超出范围时条件失败.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Попытайтесь извлечь элемент определенного индекса из списка. Обратите внимание, что индекс имеет диапазон [0, длина списка). Условие не будет выполнено, если извлеченный элемент находится за пределами диапазона.",
+      "status": "machine",
       "srcHash": "6e433cc60085950e",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_155": {
       "en": "",
@@ -9618,11 +9618,11 @@
     "Desc_423": {
       "en": "Tries to retrieve a value saved in the global parameter box. The condition fails if the value has not been saved.",
       "cn": "试获取全局参数盒子中保存的值, 当未保存过时条件失败.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Пытается получить значение, сохраненное в поле глобального параметра. Условие не выполняется, если значение не было сохранено.",
+      "status": "machine",
       "srcHash": "27320e6aa3cc9c61",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_73": {
       "en": "Is Specified Mission Ongoing?",
@@ -9672,11 +9672,11 @@
     "Desc_515": {
       "en": "Try to get a globally unique fixed story character and store them in a designated temporary variable.",
       "cn": "试获取全局唯一的固定剧情角色, 并将其存入指定名称的临时变量中.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Попробуйте получить глобально уникального фиксированного сюжетного персонажа и сохранить его в определенной временной переменной.",
+      "status": "machine",
       "srcHash": "6b84f56707161e91",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_76": {
       "en": "",
@@ -9852,20 +9852,20 @@
     "Desc_141": {
       "en": "Get Specified Aspiration Seniority (0 for locked aspirations). Returns current aspiration seniority if None (-1) is passed.",
       "cn": "获取指定志向的资历值, 对于未解锁的志向资历值为0. 当传入志向为 None (-1) 时, 默认获取角色当前志向的资历.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Получите указанный Стаж Устремления (0 для заблокированных Устремлений). Возвращает текущий Стаж Устремления, если значение None (-1) не передано.",
+      "status": "machine",
       "srcHash": "f87427b5e12dce11",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_85": {
       "en": "This command checks item template and returns True if the character holds an item of the same template",
       "cn": "此指令检测的是道具模板，只要人物持有相同模板的道具，则算作True",
-      "ru": null,
-      "status": "pending",
+      "ru": "Эта команда проверяет шаблон элемента и возвращает значение True, если символ содержит элемент того же шаблона",
+      "status": "machine",
       "srcHash": "4d315968725b754f",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_86": {
       "en": "",
@@ -9915,11 +9915,11 @@
     "Desc_168": {
       "en": "Check whether the distance (manhattan distance) between character and tile is less than or equal to the specified value. Ignore the travel time.",
       "cn": "人物与地格之间的距离是否小于等于指定的值. 此处判断的是曼哈顿距离, 不考虑移动的时间消耗.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Проверьте, является ли расстояние (manhattan distance) между символом и плиткой меньше или равно указанному значению. Не обращайте внимания на время в пути.",
+      "status": "machine",
       "srcHash": "133ead178f40893d",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_638": {
       "en": "",
@@ -10005,11 +10005,11 @@
     "Desc_121": {
       "en": "Check the character for items of a specific module. This also checks items in the inventory and equipped items.",
       "cn": "检查角色是否持有指定模板的道具. 该指令会同时检查行囊和装备中道具.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Проверьте символ на наличие элементов определенного модуля. При этом также проверяются предметы в инвентаре и экипированные предметы.",
+      "status": "machine",
       "srcHash": "426d7c504dbcccfb",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_122": {
       "en": "",
@@ -10140,11 +10140,11 @@
     "Desc_123": {
       "en": "Check if the region main storyline save data exists and store the value to the specified temporary variable.",
       "cn": "检测地区主线存档数据是否存在,并将其值存到指定临时变量.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Проверьте, существуют ли данные сохранения основной сюжетной линии региона, и сохраните значение в указанной временной переменной.",
+      "status": "machine",
       "srcHash": "363be942ce9adb6a",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_769": {
       "en": "",
@@ -10185,11 +10185,11 @@
     "Desc_146": {
       "en": "Check if the character currently has an Aspiration and save the current Aspiration to the specified temporary variable.",
       "cn": "检测人物当前是否拥有志向,并将其当前志向存档指定临时变量.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Проверьте, есть ли у персонажа в данный момент Устремление, и сохраните текущее Устремление в указанную временную переменную.",
+      "status": "machine",
       "srcHash": "991278a577a52125",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_213": {
       "en": "Check if the character meets all the requirements of the specified matching rules.",
@@ -10248,11 +10248,11 @@
     "Desc_516": {
       "en": "Check if the character is on any valid tile. A negative result means the character is off-map, likely abducted or traveling.",
       "cn": "检查人物是否位于任意有效地格上. 否的情况表示角色不在地图上, 可能被劫持或长途旅行中.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Проверьте, находится ли символ на какой-либо допустимой плитке. Отрицательный результат означает, что персонаж находится вне карты, вероятно, похищен или путешествует.",
+      "status": "machine",
       "srcHash": "70ad795fef0c1459",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_716": {
       "en": "",
@@ -10302,11 +10302,11 @@
     "Desc_717": {
       "en": "Reducing Energy in encounters doesn't trigger events. It's measured in Action Points, with 300 Energy equal to 30 days.",
       "cn": "奇遇中减少精力不会触发事件,以精力（行动力）为单位,300精力等于30天",
-      "ru": null,
-      "status": "pending",
+      "ru": "Снижение Энергии при столкновениях не приводит к запуску событий. Это измеряется в точках действия, при этом 300 единиц Энергии равны 30 дням.",
+      "status": "machine",
       "srcHash": "d16b26f45e78ff7d",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_171": {
       "en": "Range: 0-11",
@@ -10491,11 +10491,11 @@
     "Desc_186": {
       "en": "Check if the element is in a particular tile group. When ticked: all elements must be within the group; unticked: if any element is within the group.",
       "cn": "元素是否处于某地格分组，勾选表示所有元素都在，取消勾选表示任意元素在",
-      "ru": null,
-      "status": "pending",
+      "ru": "Проверьте, находится ли элемент в определенной группе плиток. Отмечен галочкой: все элементы должны находиться внутри группы; снят галочкой: если какой-либо элемент находится внутри группы.",
+      "status": "machine",
       "srcHash": "4e54a6459bc8af83",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_191": {
       "en": "Obtain Character Pure Essence",
@@ -10653,11 +10653,11 @@
     "Desc_222": {
       "en": "Check all encounter variables beginning with a given prefix against a set value. Can be set to require all conditions to match or any condition to match.",
       "cn": "检测奇遇变量中以指定命名开头的所有变量和给定值的比较结果，并可以设置是所有都满足还是任一满足",
-      "ru": null,
-      "status": "pending",
+      "ru": "Проверьте все встречающиеся переменные, начинающиеся с заданного префикса, на соответствие заданному значению. Может быть установлено требование соответствия всем условиям или любому условию.",
+      "status": "machine",
       "srcHash": "b6148a0d918b35ef",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_223": {
       "en": "Set the values of all encounter variables that begin with a given prefix",
@@ -10680,11 +10680,11 @@
     "Desc_225": {
       "en": "Perform a probability check and return True or False based on the defined probability. For example, a parameter of 30 means 30% chance to return True.",
       "cn": "百分比概率检测.依照后续设定的概率返回True或false,例如填写参数为30,则有30%的概率返回True.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Выполните проверку вероятности и верните значение True или False в зависимости от определенной вероятности. Например, параметр, равный 30, означает 30%-ную вероятность возврата значения True.",
+      "status": "machine",
       "srcHash": "6917483ee8bc67e7",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_228": {
       "en": "Check the quantity of a particular encounter element",
@@ -10716,29 +10716,29 @@
     "Desc_230": {
       "en": "Checks if the value of variable 1 is the maximum among all values starting with variable 2. Check the box to indicate if it must be the unique maximum.",
       "cn": "检测变量1的值在以变量2开头的值中是否为最大值，勾选表示是否是唯一最大值",
-      "ru": null,
-      "status": "pending",
+      "ru": "Проверяет, является ли значение переменной 1 максимальным среди всех значений, начинающихся с переменной 2. Установите флажок, чтобы указать, должно ли это быть уникальное максимальное значение.",
+      "status": "machine",
       "srcHash": "64787e0a0c1318b5",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_231": {
       "en": "Checks if the value of variable 1 is the minimum among all values starting with variable 2. Check the box to indicate if it must be the unique minimum.",
       "cn": "检测变量1的值在以变量2开头的值中是否为最小值，勾选表示是否是唯一最小值",
-      "ru": null,
-      "status": "pending",
+      "ru": "Проверяет, является ли значение переменной 1 минимальным среди всех значений, начинающихся с переменной 2. Установите флажок, чтобы указать, должен ли он быть уникальным минимумом.",
+      "status": "machine",
       "srcHash": "9108fe7a8205e913",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_232": {
       "en": "Check if the element is in a particular element location. When ticked: all elements must be within the location; unticked: if any element is within the location.",
       "cn": "元素是否处于某元素位置，勾选表示所有元素都在，取消勾选表示任意元素在",
-      "ru": null,
-      "status": "pending",
+      "ru": "Проверьте, находится ли элемент в определенном местоположении элемента. Отмечен галочкой: все элементы должны находиться в пределах местоположения; снят галочкой: если какой-либо элемент находится в пределах местоположения.",
+      "status": "machine",
       "srcHash": "96d20d0069a7e4bb",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_233": {
       "en": "Check if Taiwu is in a particular element location",
@@ -10815,29 +10815,29 @@
     "Desc_240": {
       "en": "Set when the encounter automatically expires (in months). A value less or equal to 0 indicates the encounter will not automatically expire.",
       "cn": "设置奇遇几个月后自动消亡，参数小于等于0时表示不会自动消亡",
-      "ru": null,
-      "status": "pending",
+      "ru": "Установите, когда автоматически истекает время встречи (в месяцах). Значение, меньшее или равное 0, указывает на то, что время встречи автоматически не истечет.",
+      "status": "machine",
       "srcHash": "e6f56d474f2e6a83",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_241": {
       "en": "Exits the Encounter directly. Cannot be called together with Delete Encounter. Indicates an uncompleted Encounter and a temporary exit. All states will be reset.",
       "cn": "直接退出奇遇，禁止和删除奇遇同时调用，表示奇遇未完成，临时退出；会重置各种状态",
-      "ru": null,
-      "status": "pending",
+      "ru": "Непосредственно завершает встречу. Не может быть вызван вместе с удалением Encounter. Указывает на незавершенную встречу и временный выход. Все состояния будут сброшены.",
+      "status": "machine",
       "srcHash": "6a1f03a333800022",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_687": {
       "en": "Exits the Encounter directly. Cannot be called together with Delete Encounter. Indicates an uncompleted Encounter and a temporary exit. All states will not be reset.",
       "cn": "直接退出奇遇，禁止和删除奇遇同时调用，表示奇遇未完成，临时退出；不会重置各种状态",
-      "ru": null,
-      "status": "pending",
+      "ru": "Непосредственно завершает встречу. Не может быть вызван вместе с удалением Encounter. Указывает на незавершенную встречу и временный выход. Все состояния сброшены не будут.",
+      "status": "machine",
       "srcHash": "28e79ecd8ee2e316",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_718": {
       "en": "Create at Current Position",
@@ -10995,20 +10995,20 @@
     "Desc_254": {
       "en": "Called after choosing \"Confirm\" when interacting to use Fuyu's Will interface. Increase NPC's Fuyu's Will.",
       "cn": "在互动使用伏虞心念界面 - 确认之后调用，用于增加NPC的伏虞心念。",
-      "ru": null,
-      "status": "pending",
+      "ru": "Вызывается после выбора \"Подтвердить\" при взаимодействии для использования интерфейса Fuyu's Will. Увеличьте волю Фую у NPC.",
+      "status": "machine",
       "srcHash": "d4703112c2b95133",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_255": {
       "en": "Called on interfaces that require quantity selection (Fuyu's Will interactive interface/Ranshan interactive interface) to retreive previously saved results.",
       "cn": "在互动使用伏虞心念界面/然山互动界面等等需要选择数量的界面调用，可以获取之前的存储结果。",
-      "ru": null,
-      "status": "pending",
+      "ru": "Вызывается в интерфейсах, требующих выбора количества (интерактивный интерфейс Fuyu's Will interactive interface/интерактивный интерфейс Жаньшаня) для повторного получения ранее сохраненных результатов.",
+      "status": "machine",
       "srcHash": "3f6ac8e2ef8e560f",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_256": {
       "en": "Attempt to retrieve the character's maximum tolerable Will value. If this value exists, return True and save the integer in the specified temporary variable. Otherwise, save 0 in the temporary variable.",
@@ -11049,11 +11049,11 @@
     "Desc_260": {
       "en": "Fills a certain number of tiles in the major tile where the specified element is located with elements matching the tag group.",
       "cn": "在指定元素地格所在大格的任一地格填充一定数量的标签组匹配元素",
-      "ru": null,
-      "status": "pending",
+      "ru": "Заполняет определенное количество плиток в основной плитке, где расположен указанный элемент, элементами, соответствующими группе тегов.",
+      "status": "machine",
       "srcHash": "9e5cfc5d321818d9",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_264": {
       "en": "Delete Encounter. If the player is still in the encounter, they will automatically exit. Do not call this simultaneously with exiting the encounter. Calling this command indicates the encounter has been successfully or unsuccessfully completed.",
@@ -11076,11 +11076,11 @@
     "Desc_265": {
       "en": "Check an encounter element variable against the set value (default element save key: ConchShipPresetKey_ElementId)",
       "cn": "检测一个奇遇元素的变量和给定值的比较结果（元素保存的key默认值：ConchShipPresetKey_ElementId）",
-      "ru": null,
-      "status": "pending",
+      "ru": "Проверьте переменную элемента encounter на соответствие установленному значению (ключ сохранения элемента по умолчанию: ConchShipPresetKey_ElementId)",
+      "status": "machine",
       "srcHash": "c58f89b72cffa51d",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_266": {
       "en": "Set an encounter element variable (default element save key: ConchShipPresetKey_ElementId)",
@@ -11112,11 +11112,11 @@
     "Desc_774": {
       "en": "Change the quantity of elements of the large tile where Taiwu is. Positive - create; negative - remove",
       "cn": "改变太吾所在大格元素数量，传入正数表示创建，传入负数表示移除",
-      "ru": null,
-      "status": "pending",
+      "ru": "Измените количество элементов на большой плитке, где находится Тайу. Положительное - создавать; отрицательное - удалять",
+      "status": "machine",
       "srcHash": "1500d441f97904b1",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_269": {
       "en": "Remove Element from Taiwu's Tile",
@@ -11148,11 +11148,11 @@
     "Desc_272": {
       "en": "Delete target element on tile containing specified element. The boolean parameter controls whether to use small tile or big tile.",
       "cn": "删除指定元素所属地格上目标元素，布尔值参数控制是所属小地格还是大地格",
-      "ru": null,
-      "status": "pending",
+      "ru": "Удалите целевой элемент на плитке, содержащей указанный элемент. Параметр boolean определяет, следует ли использовать маленькую плитку или большую плитку.",
+      "status": "machine",
       "srcHash": "20ff0af75f2f9eca",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_273": {
       "en": "Delete target element from specified element's tile group",
@@ -11175,11 +11175,11 @@
     "Desc_275": {
       "en": "Retrieve Energy value. When the boolean is true, returns the Energy already spent; when false, returns the remaining Energy.",
       "cn": "获取精力值，bool 为true 时获取已消耗精力，bool为false时获得剩余精力",
-      "ru": null,
-      "status": "pending",
+      "ru": "Извлеките значение Энергии. Когда логическое значение равно true, возвращается уже потраченная Энергия; когда значение false, возвращается оставшаяся Энергия.",
+      "status": "machine",
       "srcHash": "dee2f0ffd5ff55b1",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_276": {
       "en": "Check if element character is highest martial power on small tile",
@@ -11274,11 +11274,11 @@
     "Desc_285": {
       "en": "Sets variable name and multiplier. When time passes, add \"Energy spent times multiplier\" to the variable",
       "cn": "设定变量名与相乘系数，每当时间流逝时变量添加“消耗的精力数”×相乘系数",
-      "ru": null,
-      "status": "pending",
+      "ru": "Задает имя переменной и множитель. По истечении времени добавьте к переменной \"Множитель затраченной Энергии\"",
+      "status": "machine",
       "srcHash": "ee8f2f03adfb0c4d",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_286": {
       "en": "Check if current element is specified element",
@@ -11535,11 +11535,11 @@
     "Desc_310": {
       "en": "Create a specified element: generate a character-bound element from a template, with the template character inheriting the specified element's character",
       "cn": "创建指定元素，根据模板生成角色绑定元素且模板角色继承指定元素角色",
-      "ru": null,
-      "status": "pending",
+      "ru": "Создать указанный элемент: сгенерировать элемент с привязкой к символу из шаблона, при этом символ шаблона наследует символ указанного элемента",
+      "status": "machine",
       "srcHash": "ab2a76434109dc96",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_311": {
       "en": "Taiwu Starts Action in Encounter",
@@ -11886,20 +11886,20 @@
     "Desc_346": {
       "en": "Tag-matching elements are on Taiwu's major tile (check box for 'all' requires all qualifying elements to be present).",
       "cn": "标签匹配元素在太吾大格(勾选所有需要所有符合条件元素都在)",
-      "ru": null,
-      "status": "pending",
+      "ru": "Элементы, соответствующие тегам, находятся на главной странице Тайу (флажок \"все\" требует присутствия всех соответствующих элементов).",
+      "status": "machine",
       "srcHash": "a3484ac4b6d9bb79",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_347": {
       "en": "Tag-matching elements are on the element's major tile (check box for 'all' requires all qualifying elements to be present).",
       "cn": "标签匹配元素在元素大格(勾选所有需要所有符合条件元素都在)",
-      "ru": null,
-      "status": "pending",
+      "ru": "Элементы, соответствующие тегам, находятся на основной панели элемента (флажок \"все\" требует присутствия всех соответствующих элементов).",
+      "status": "machine",
       "srcHash": "9eca0eedfb960b39",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_348": {
       "en": "Validate item data",
@@ -12066,11 +12066,11 @@
     "Desc_364": {
       "en": "Used in Encounters (formerly Enthralling Trap, Killing Field) to create good Talent characters. Killing Field has Martial Arts modifications, Enthralling Trap has Fine Arts modifications.",
       "cn": "用于奇遇（原迷香阵、修罗场）中生成资质较好的角色，修罗场有功法修正，迷香阵有技艺修正",
-      "ru": null,
-      "status": "pending",
+      "ru": "Используется в Encounters (ранее Enthralling Trap, Killing Field) для создания персонажей с хорошими Талантами. В Killing Field есть модификации для Боевых искусств, в Enthralling Trap - модификации для Ремесел.",
+      "status": "machine",
       "srcHash": "3992ac8c6b8dd3f6",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_365": {
       "en": "Saves the ID of the element matching the tag group on Taiwu's current major tile.",
@@ -12120,11 +12120,11 @@
     "Desc_373": {
       "en": "Sets whether a fixed character's movement is fixed during month transition. Note: each different fixed character needs separate implementation by the programmer.",
       "cn": "设置是否固定固定角色过月移动，注意每个不同的固定角色需要程序单独实现",
-      "ru": null,
-      "status": "pending",
+      "ru": "Устанавливает, будет ли фиксировано перемещение фиксированного персонажа во время месячного перехода. Примечание: каждый отдельный фиксированный символ нуждается в отдельной реализации программистом.",
+      "status": "machine",
       "srcHash": "7c7fbe099abd42d1",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_375": {
       "en": "Does character like item subtype",
@@ -12309,11 +12309,11 @@
     "Desc_393": {
       "en": "Element character battle simulation by instance ID. The instance ID of the target element must be obtained first.",
       "cn": "元素对应角色模拟战斗-实例id，需要先获取对象元素的实例id",
-      "ru": null,
-      "status": "pending",
+      "ru": "Симуляция боя персонажа элемента по идентификатору экземпляра. Сначала должен быть получен идентификатор экземпляра целевого элемента.",
+      "status": "machine",
       "srcHash": "819d86e5eb2a2269",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_394": {
       "en": "Temporarily modify extra True Qi",
@@ -12372,11 +12372,11 @@
     "Desc_398": {
       "en": "The toxin type can be any of the 6 types or unrestricted. If unrestricted, it returns True if any type of toxin is present.",
       "cn": "毒素类型可选择6种任意毒素或者不限制，不限制时有任意类型毒即为True",
-      "ru": null,
-      "status": "pending",
+      "ru": "Тип Токсина может быть любым из 6 типов или неограниченным. Если параметр не ограничен, он возвращает значение True при наличии любого типа Токсина.",
+      "status": "machine",
       "srcHash": "9b7d47c7e51f442c",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_399": {
       "en": "Determines if the specified actor is a specific TemplateId.",
@@ -12417,11 +12417,11 @@
     "Desc_402": {
       "en": "For example, if all elements with the 'enemy' tag in the encounter have an 'Attack' variable, change the attack variable for all of them.",
       "cn": "比如奇遇中所有带enemy 标签的元素，都有一个Attack变量，改变所有元素的attack变量",
-      "ru": null,
-      "status": "pending",
+      "ru": "Например, если все элементы с тегом 'enemy' в encounter имеют переменную 'Атака', измените переменную Атаки для всех них.",
+      "status": "machine",
       "srcHash": "fa6bc32c948e9087",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_403": {
       "en": "Move encounter element to a tile near this element - coreId",
@@ -12507,11 +12507,11 @@
     "Desc_412": {
       "en": "Encounter element appear/disappear effect. Check the box for landmark element effect, otherwise it's for character element effect.",
       "cn": "奇遇元素出现消失特效，勾选表示地标元素特效，否则为人物元素特效",
-      "ru": null,
-      "status": "pending",
+      "ru": "Эффект появления/исчезновения элемента Encounter. Установите флажок для эффекта элемента ориентира, в противном случае это для эффекта элемента персонажа.",
+      "status": "machine",
       "srcHash": "91336a3b3c921860",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_413": {
       "en": "Encounter tile group effect. \"None\" removes it.",
@@ -12813,11 +12813,11 @@
     "Desc_450": {
       "en": "Removes a major event happening at any location in the whole world, and removes Taiwu from the major event if he's in it.",
       "cn": "移除全世界任意位置的指定大事件，如太吾处于该大事件会自动退出",
-      "ru": null,
-      "status": "pending",
+      "ru": "Удаляет крупное событие, происходящее в любом месте по всему миру, и удаляет Тайу с главного события, если он в нем участвует.",
+      "status": "machine",
       "srcHash": "70dd39b05e68f21a",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_451": {
       "en": "Modifies Jixi's form",
@@ -12885,11 +12885,11 @@
     "Desc_457": {
       "en": "Used when the Martial World Tournament ends, sects the winning sect and records the hosting sect based on the results.",
       "cn": "天下武林盟会结束时调用. 将会根据结果设置获胜门派并记录举办门派.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Используется, когда мир боевых искусств боевых заканчивается, сект выигрышные секта и записи таких секта на основе результатов.",
+      "status": "machine",
       "srcHash": "d9e1817f37585e79",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_458": {
       "en": "Used when the Secret Tome Encounter is activated, notifies and displays the tile.",
@@ -12912,20 +12912,20 @@
     "Desc_460": {
       "en": "An internal command exclusive to Ranshan. Moves the character when set, but the command can be hidden to be run afterward.",
       "cn": "然山专用内部指令，设置时本身会移动角色, 如果需要将其隐藏应在该指令后进行.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Внутренняя команда, предназначенная исключительно для Жаньшаня. Перемещает символ, когда он установлен, но команда может быть скрыта для последующего запуска.",
+      "status": "machine",
       "srcHash": "cdf4429d7a896a94",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_461": {
       "en": "Item transfer not necessary, because it's the Encounter Element item that is being envenomed, and the poison is removed by default.",
       "cn": "无需转移道具，被淬毒的是奇遇元素道具，默认会删除毒药",
-      "ru": null,
-      "status": "pending",
+      "ru": "Перенос предмета необязателен, потому что это элемент Encounter, который подвергается отравлению, а Яд по умолчанию удален.",
+      "status": "machine",
       "srcHash": "bfc321f74ce5ac21",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_462": {
       "en": "Transfers an Encounter temporary item to a character",
@@ -13047,11 +13047,11 @@
     "Desc_675": {
       "en": "Creates an item list based on previously registered item filter rules. Clean up unadded items afterwards",
       "cn": "根据之前注册的道具筛选规则生成道具列表，后续要把没有添加给人物的道具删除掉",
-      "ru": null,
-      "status": "pending",
+      "ru": "Создает список элементов на основе ранее зарегистрированных правил фильтрации элементов. После этого очистите не добавленные элементы",
+      "status": "machine",
       "srcHash": "7959b398629d9434",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_477": {
       "en": "Selects an item from the specified item list",
@@ -13137,11 +13137,11 @@
     "Desc_491": {
       "en": "Retrieves Elements specified by an Element ID in the encounter that return True when comparing the Element variable with the given value",
       "cn": "获取奇遇内某元素id对应的元素中,元素变量和给定值比较结果为True的元素",
-      "ru": null,
-      "status": "pending",
+      "ru": "Извлекает элементы, указанные идентификатором элемента в encounter, которые возвращают значение True при сравнении переменной элемента с заданным значением",
+      "status": "machine",
       "srcHash": "0e1a20531d31420e",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_492": {
       "en": "Retrieves the Element list (tagged) of the tile that the current Element is in",
@@ -13263,20 +13263,20 @@
     "Desc_505": {
       "en": "Operations are blocked during movement. Delay-type methods should not be called simultaneously and must be called in sequence.",
       "cn": "移动期间会屏蔽操作；延迟类的方法不要同时调用，需要链式调用",
-      "ru": null,
-      "status": "pending",
+      "ru": "Операции блокируются во время перемещения. Методы типа задержки не должны вызываться одновременно и должны вызываться последовательно.",
+      "status": "machine",
       "srcHash": "4bd87352dcc17655",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_776": {
       "en": "Operations are blocked while waiting. Delay-type methods should not be called simultaneously and must be called in sequence.",
       "cn": "等待期间会屏蔽操作；延迟类的方法不要同时调用，需要链式调用",
-      "ru": null,
-      "status": "pending",
+      "ru": "Операции блокируются во время ожидания. Методы типа задержки не должны вызываться одновременно и должны вызываться последовательно.",
+      "status": "machine",
       "srcHash": "947bf50dbb483654",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_506": {
       "en": "Move Encounter Element to Specific Tile",
@@ -13389,20 +13389,20 @@
     "Desc_522": {
       "en": "Check the comparison result between the number of encounter elements at Taiwu's offset tile and a given value.",
       "cn": "检测奇遇太吾定向格的奇遇元素的数量和给定值的比较结果",
-      "ru": null,
-      "status": "pending",
+      "ru": "Проверьте результат сравнения между количеством встречающихся элементов на плитке смещения Тайу и заданным значением.",
+      "status": "machine",
       "srcHash": "6059a4adb6cf2c02",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_523": {
       "en": "Change the quantity of elements at Taiwu's offset tile; positive values create, negative values remove.",
       "cn": "改变太吾定向格元素数量，传入正数表示创建，传入负数表示移除",
-      "ru": null,
-      "status": "pending",
+      "ru": "Измените количество элементов на плитке смещения Тайу; положительные значения создаются, отрицательные значения удаляются.",
+      "status": "machine",
       "srcHash": "aa7928a673311a19",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_524": {
       "en": "Find and save the last element in the list matching this CoreID on this tile.",
@@ -13443,11 +13443,11 @@
     "Desc_526": {
       "en": "Effect is the same as Wang Chan's Scriptures, consumes 3 Comprehension each time. Failure may be due to insufficient Comprehension.",
       "cn": "效果同王禅典籍,每次消耗3点悟性,失败的情况可能有悟性不够",
-      "ru": null,
-      "status": "pending",
+      "ru": "Эффект тот же, что и в Священных Писаниях Ван Чана, каждый раз требует 3 Понимания. Неудача может быть вызвана недостаточным Пониманием.",
+      "status": "machine",
       "srcHash": "d4e70cd3ef5b5d17",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_527": {
       "en": "If no book is currently being read or an Epiphany effect is already active, return failure.",
@@ -13461,11 +13461,11 @@
     "Desc_528": {
       "en": "Toggle fog within a specific Tile Group based on encounter vision range. Set group to 0 to control fog for all tiles.",
       "cn": "奇遇根据视野范围来显示隐藏对应地格分组内的云雾，分组填0即控制所有格子的云雾",
-      "ru": null,
-      "status": "pending",
+      "ru": "Переключайте туман в пределах определенной группы плиток в зависимости от дальности обзора. Установите для группы значение 0, чтобы управлять туманом для всех плиток.",
+      "status": "machine",
       "srcHash": "601059ed72ef2c53",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_529": {
       "en": "Hide fog within a specific Tile Group in encounter; set group to 0 to control fog for all tiles.",
@@ -13569,11 +13569,11 @@
     "Desc_546": {
       "en": "Get List of Elements Co-performing Action with Target. Return value includes the target element. Returns an empty list (Count 0) if no matches are found.",
       "cn": "获得和某元素一起执行某行为的元素列表,返回值中包含当前元素，如果没有则返回数量0的列表",
-      "ru": null,
-      "status": "pending",
+      "ru": "Получите список элементов, совместно выполняющих действие с целью. Возвращаемое значение включает в себя целевой элемент. Возвращает пустой список (количество 0), если совпадения не найдены.",
+      "status": "machine",
       "srcHash": "7b2ff78b85414471",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_547": {
       "en": "Configure Option Cooldown (Restored next month)",
@@ -13848,11 +13848,11 @@
     "Desc_589": {
       "en": "Difference from Xiangshu progress: this only counts fully conquered Sword Mounds. Conquering only the first stage does not count towards progress.",
       "cn": "与相枢进度的区别在于此处只计算已完全攻克的剑冢, 只击败一阶段的剑冢不会计算进度.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Отличие от прогресса Сяншу: здесь учитываются только полностью завоеванные курганы Мечей. Преодоление только первого этапа не засчитывается в счет прогресса.",
+      "status": "machine",
       "srcHash": "393b4eff3752e738",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_590": {
       "en": "Obtain Encounter element's following Tile",
@@ -13911,11 +13911,11 @@
     "Desc_596": {
       "en": "Register item group and level, then obtain random result. When registering a group, use the group's first item.",
       "cn": "注册道具分组和等级，然后获得随机结果，注册分组时使用分组的首道具",
-      "ru": null,
-      "status": "pending",
+      "ru": "Зарегистрируйте группу элементов и уровень, затем получите случайный результат. При регистрации группы используйте первый элемент группы.",
+      "status": "machine",
       "srcHash": "545683f5fc806bb2",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_597": {
       "en": "Clear registered item filter criteria",
@@ -14028,20 +14028,20 @@
     "Desc_613": {
       "en": "Character data will be backed up. The command \"Show Hollow-Mindeds\" must be called to change the character from hidden to visible.",
       "cn": "人物数据将被备份，需要调用指令“显示无念众”将人物从隐藏状态改为显示",
-      "ru": null,
-      "status": "pending",
+      "ru": "Будут созданы резервные копии символьных данных. Чтобы изменить символ со скрытого на видимый, необходимо вызвать команду \"Show Hollow-Mindeds\".",
+      "status": "machine",
       "srcHash": "9c91f4a38ae64e8a",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_616": {
       "en": "Note that saving does not preserve the current event state; global data must be prepared in advance to continue upon loading.",
       "cn": "注意存档不会保存当前的事件状态, 需要提前准备好全局数据用于在读档时进行接续",
-      "ru": null,
-      "status": "pending",
+      "ru": "Обратите внимание, что сохранение не сохраняет текущее состояние события; глобальные данные должны быть подготовлены заранее, чтобы продолжить загрузку.",
+      "status": "machine",
       "srcHash": "6adedf4085229c78",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_617": {
       "en": "The world is devastated, Underlings are generated.",
@@ -14136,11 +14136,11 @@
     "Desc_628": {
       "en": "Forcibly construct a Chicken Coop in Taiwu Village. If one already exists, it will not be reconstructed.",
       "cn": "在太吾村强行建造一座元鸡舍，已经有了的情况下不会重复建造",
-      "ru": null,
-      "status": "pending",
+      "ru": "Принудительно построили курятник в Деревне Тайу. Если таковой уже существует, он не будет реконструирован.",
+      "status": "machine",
       "srcHash": "49f225c8c2d81880",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_629": {
       "en": "Returns whether removal was successful",
@@ -14154,11 +14154,11 @@
     "Desc_630": {
       "en": "This time varies under different world detail settings; the configuration is read from GlobalConfig.SwordTombAdventureLastMonthCount",
       "cn": "该时间在不同世界细节设置下不同, 读取的配置在GlobalConfig.SwordTombAdventureLastMonthCount",
-      "ru": null,
-      "status": "pending",
+      "ru": "Это время зависит от различных настроек детализации мира; конфигурация считывается из GlobalConfig.Количество приключений на мечах в прошлом месяце",
+      "status": "machine",
       "srcHash": "fbcfdf5e9bcc83e8",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_631": {
       "en": "",
@@ -14271,11 +14271,11 @@
     "Desc_644": {
       "en": "Check the comparison result between the number of encounter elements at Element's offset tile and a set value.",
       "cn": "检测奇遇元素定向格的奇遇元素的数量和给定值的比较结果",
-      "ru": null,
-      "status": "pending",
+      "ru": "Проверьте результат сравнения между количеством встречающихся элементов на плитке смещения элемента и заданным значением.",
+      "status": "machine",
       "srcHash": "1171e9e2c26c4e0c",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_645": {
       "en": "",
@@ -14496,11 +14496,11 @@
     "Desc_673": {
       "en": "Creates a random element in the Encounter tile group. When set to non-overlapping, the tag is used to check for overlap.",
       "cn": "奇遇内在地格分组内随机创建元素，不可重叠时，标签用于判断重叠",
-      "ru": null,
-      "status": "pending",
+      "ru": "Создает случайный элемент в группе плиток Encounter. Если установлено значение \"неперекрывающийся\", тег используется для проверки на перекрытие.",
+      "status": "machine",
       "srcHash": "28726e2ef6fbfe4b",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_669": {
       "en": "",
@@ -14829,11 +14829,11 @@
     "Desc_729": {
       "en": "If checked, the character joins as a companion. Otherwise, the character joins Taiwu Village. Before joining as a companion, check whether the companion limit has been reached.",
       "cn": "勾选是加入同道，否则加入太吾村，加入同道前需要判断同道是否已达到上限",
-      "ru": null,
-      "status": "pending",
+      "ru": "Если флажок установлен, персонаж присоединяется в качестве компаньона. В противном случае персонаж присоединяется к Деревне Тайу. Прежде чем присоединиться в качестве компаньона, проверьте, достигнут ли лимит компаньонов.",
+      "status": "machine",
       "srcHash": "ab4f1cd23519e25e",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_730": {
       "en": "",
@@ -14901,11 +14901,11 @@
     "Desc_736": {
       "en": "Each Secret Tome is globally unique upon creation and cannot be removed. Its instance can be obtained using the modify command.",
       "cn": "每本奇书在创建后全局唯一，且无法被移除。可通过改指令获取起实例。",
-      "ru": null,
-      "status": "pending",
+      "ru": "Каждый Тайный трактат является глобально уникальным при создании и не может быть удален. Его экземпляр можно получить с помощью команды modify.",
+      "status": "machine",
       "srcHash": "db3c44c20a9e7854",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_737": {
       "en": "",
@@ -15333,11 +15333,11 @@
     "Desc_794": {
       "en": "The configured duration of this title must be greater than or equal to 0; setting the expiration time to -1 means using the configuration.",
       "cn": "该称号配置的持续时间必须大于等于 0;过期时间设置-1代表走配置",
-      "ru": null,
-      "status": "pending",
+      "ru": "Настроенная продолжительность этого заголовка должна быть больше или равна 0; установка времени истечения срока действия равным -1 означает использование конфигурации.",
+      "status": "machine",
       "srcHash": "af05ee65aff3a65b",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_795": {
       "en": "",
@@ -15369,11 +15369,11 @@
     "Desc_798": {
       "en": "Returns whether Character 1 won. ClearCricketItemShow must be called at the end of the event to clear the item display.",
       "cn": "返回角色1是否获胜,在事件结束的地方需要调用ClearCricketItemShow，清空道具显示",
-      "ru": null,
-      "status": "pending",
+      "ru": "Возвращает, выиграл ли персонаж 1. ClearCricketItemShow должен быть вызван в конце события, чтобы очистить отображение элемента.",
+      "status": "machine",
       "srcHash": "cc63b17fc43954b1",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_799": {
       "en": "",
@@ -15549,11 +15549,11 @@
     "Desc_823": {
       "en": "Release the Hollow-Mindeds killed by Long Yufu back onto the world map. Their character IDs will differ from before.",
       "cn": "将龙语茯杀掉的无念众释放回世界地图中，人物Id与之前不同",
-      "ru": null,
-      "status": "pending",
+      "ru": "Выпустите пустоголовых, убитых Лун Юфу, обратно на карту мира. Их идентификаторы персонажей будут отличаться от предыдущих.",
+      "status": "machine",
       "srcHash": "39c2ecd56b2b44ac",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_825": {
       "en": "Get Active Wunian Followers List. Excludes those killed by Long Yufu and not yet released. Does not guarantee the released count is greater than 0. Excludes those who have died for any reason. Guarantees that all IDs returned at the moment the command is executed belong to living characters.",
@@ -15657,11 +15657,11 @@
     "Desc_846": {
       "en": "Randomly spawn the specified number of Xie Immortals that have not yet been spawned. Return the actual spawned count",
       "cn": "随机生成指定数量的尚未被生成过的邪仙. 返回实际生成的数量.",
-      "ru": null,
-      "status": "pending",
+      "ru": "Случайным образом порождайте указанное количество Бессмертных Се, которые еще не были порождены. Возвращает фактическое количество порожденных",
+      "status": "machine",
       "srcHash": "1ed68aed915b6ca7",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T01:54:40.039Z"
     },
     "Desc_847": {
       "en": "",
