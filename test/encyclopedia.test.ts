@@ -111,8 +111,22 @@ test("reference: c4 elements reassemble with the same comma count", () => {
   assert.match(out.content, /^表Buzhuodian\t表\tBuzhuodian\t\{0\}\t/);
 });
 
-test("reference: refuses a c4 element containing a comma (field-split hazard)", () => {
-  const out = reference.apply(REFERENCE_ROW, new Map([["r0c4e0", "a,b"]]));
+test("reference: in-field comma in a c4 element is escaped, not refused", () => {
+  // A Russian translation legitimately containing a comma must survive as one
+  // field (escaped to ,), matching the game's own convention — without it
+  // the field would split and break the grid.
+  const out = reference.apply(REFERENCE_ROW, new Map([["r0c4e0", "Место, ловли"]]));
+  assert.equal(out.guardOk, true, out.guardError ?? "guard failed");
+  assert.equal(out.applied, 1);
+  assert.equal(out.unsafe, 0);
+  assert.match(out.content, /\t\{Место\\u002c ловли,Cyan Cricket,Yellow Cricket\}\t/);
+  // Field count (literal commas) is unchanged: still two separators.
+  const c4 = out.content.split("\n")[0]!.split("\t")[4]!;
+  assert.equal((c4.match(/,/g) ?? []).length, 2);
+});
+
+test("reference: refuses a c4 element containing a brace (wrapper hazard)", () => {
+  const out = reference.apply(REFERENCE_ROW, new Map([["r0c4e0", "a}b"]]));
   assert.equal(out.applied, 0);
   assert.equal(out.unsafe, 1);
   assert.deepEqual(out.unsafeKeys, ["r0c4e0"]);

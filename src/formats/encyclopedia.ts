@@ -26,8 +26,10 @@
  * survives by luck" into "navigation survives by construction".
  *
  * The c4 field list separates fields with a LITERAL comma; real commas inside a
- * phrase are escaped as `,`. So elements are split on `,` (never `,`),
- * translated individually, and rejoined — keeping the field count exact.
+ * phrase are escaped as `,` (the game unescapes them on display). So
+ * elements are split on `,` (never `,`), translated individually, and on
+ * apply any literal comma the engine produced inside an element is re-escaped to
+ * `,` before rejoining — preserving Russian punctuation AND the field count.
  */
 import type { ApplyOutcome, ExtractResult, FormatAdapter, SourceUnit } from "./adapter.js";
 import { parseRaw, serializeRaw } from "./paired-txt.js";
@@ -44,8 +46,14 @@ function rowsOf(content: string): string[][] {
 
 /** A whole cell must never carry a tab/newline (would break the grid). */
 const UNSAFE_CELL = /[\t\r\n]/;
-/** A list element additionally must not carry the structural `,` / `{` / `}`. */
-const UNSAFE_ELEMENT = /[\t\r\n,{}]/;
+/**
+ * A list element must not carry a tab/newline (grid) or `{`/`}` (the wrapper).
+ * A literal `,` is allowed but re-escaped to `,` on apply, matching the
+ * game's own in-field comma convention, so it never splits into a new field.
+ */
+const UNSAFE_ELEMENT = /[\t\r\n{}]/;
+/** The game's escape for an in-field comma (literal six-char sequence). */
+const ESCAPED_COMMA = "\\u002c";
 /** Match a `{…}`-wrapped list cell (the c4 form). */
 const BRACE_LIST = /^\{([\s\S]*)\}$/;
 
@@ -147,7 +155,8 @@ function makeAdapter(spec: EncyclopediaSpec): FormatAdapter {
                   return part;
                 }
                 applied++;
-                return ru;
+                // Escape any in-field comma so it stays one field on rejoin.
+                return ru.replace(/,/g, ESCAPED_COMMA);
               });
               return `{${parts.join(",")}}`;
             }
