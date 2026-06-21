@@ -199535,7 +199535,7 @@
     },
     "r4847c6": {
       "en": "The effects of a Protection Technique:",
-      "cn": "攻防影响：攻击方的攻击属性 ÷ 防守方的防御属性 ÷ （1 + 攻击系数 × 攻击方的攻击属性 ÷ 防守方的防御属性）",
+      "cn": "攻防影响：攻击方的攻击属性 ÷ 防守方的防御属性 ÷ （1 + 衰减系数 × 攻击方的攻击属性 ÷ 防守方的防御属性）",
       "ru": "Последствия применения метода защиты:",
       "status": "machine",
       "srcHash": "e9d50954c82c35da",
@@ -199607,7 +199607,7 @@
     },
     "r4849c6": {
       "en": "Deflect Bonus: When defending with some Protection Techniques\\u002c the character's <color=#6fb6ff><u><link=\"化解属性\">Deflect Attributes</link></u></color> are increased.",
-      "cn": "计算防守方的防御属性时，受到攻击方的<color=#6fb6ff><u><link=\"内外功比例\">内外功比例</link></u></color>影响：防御属性 = 原防御值 × （150 - Abs（内功/外功比例值 - 50））÷200",
+      "cn": "计算防守方的防御属性时，受到攻击方的<color=#6fb6ff><u><link=\"内外功比例\">内外功比例</link></u></color>影响：防御属性 = 原防御值 × （150 + Abs（内功/外功比例值 - 50））÷200",
       "ru": "Бонус к отражению: При защите с помощью некоторых приемов защиты \\ u002c защита персонажа <color=#6fb6ff><u><link=\"化解属性\">Отклонять Характеристики</link></u></color> увеличиваются.",
       "status": "machine",
       "srcHash": "1e569337abe639ec",
