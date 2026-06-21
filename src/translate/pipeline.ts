@@ -19,6 +19,7 @@
 import { GLOSSARY_VERSION } from "../config/glossary.js";
 import { alignFile, type AlignedFile } from "../align/bilingual.js";
 import type { SourceUnit } from "../formats/adapter.js";
+import { CACHE_MISS } from "../engine/caching.js";
 import { mask, restore } from "../engine/protect.js";
 import type { ProgressCallback, TranslationEngine, TranslationRequest } from "../engine/types.js";
 import { TM_SCHEMA_VERSION, type TmFile, type TmUnit } from "../model/tm.js";
@@ -48,6 +49,8 @@ export interface TranslateStats {
   translated: number;
   skipped: number;
   failed: number;
+  /** Cache-only run: units that missed the cache and were left pending. */
+  cacheMissed: number;
   /** Restore-validation failures, for surfacing to the user. */
   failures: { key: string; error: string }[];
 }
@@ -174,6 +177,7 @@ export async function translateFile(
 
   let translated = 0;
   let failed = 0;
+  let cacheMissed = 0;
   let progressBase = 0;
   const failures: { key: string; error: string }[] = [];
   const checkpoint = Math.max(1, engine.checkpointSize);
@@ -199,6 +203,12 @@ export async function translateFile(
     chunk.forEach((item, i) => {
       const ri = requestIndex[i] ?? -1;
       const engineOut = ri >= 0 ? (translations[ri] ?? "") : item.masked.masked;
+      // Cache-only run: a miss is not a failure — leave the unit pending so a
+      // later real engine run still picks it up.
+      if (engineOut === CACHE_MISS) {
+        cacheMissed++;
+        return;
+      }
       const restored = restore(engineOut, item.masked);
       if (!restored.ok) {
         failed++;
@@ -230,6 +240,7 @@ export async function translateFile(
     translated,
     skipped,
     failed,
+    cacheMissed,
     failures,
   };
 }

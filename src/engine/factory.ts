@@ -32,11 +32,14 @@ function cacheFile(id: EngineId): string {
  * Yandex via `glossaryConfig`, LM Studio via the prompt) and the cache (which
  * folds matched terms into its key). `mock` ignores the glossary.
  */
-export async function createEngine(id: EngineId): Promise<TranslationEngine> {
+export async function createEngine(
+  id: EngineId,
+  opts: { cacheOnly?: boolean } = {},
+): Promise<TranslationEngine> {
   if (id === "mock") return new MockEngine();
   const glossary = await loadGlossary();
   const inner =
     // Credentials come from the `yc` CLI, resolved lazily on first use.
     id === "yandex" ? YandexEngine.fromEnv(glossary) : LmStudioEngine.fromEnv(glossary);
-  return new CachingEngine(inner, cacheFile(id), glossary, markupPreserved);
+  return new CachingEngine(inner, cacheFile(id), glossary, markupPreserved, opts.cacheOnly ?? false);
 }

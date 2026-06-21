@@ -15,6 +15,10 @@
  * Studio. With `--max-len N`, units longer than N are skipped entirely (English
  * kept) — e.g. `--route --threshold 20 --max-len 40`: ≤20 Yandex, 21–40 LM
  * Studio, >40 skipped. `--min-len`/`--max-len` also window a single-engine run.
+ *
+ * `--cache-only` rebuilds the TM from the engine response cache alone: cache hits
+ * are applied, misses are left pending, and the API is never called (zero cost).
+ * Combine with `--route` to refill every routed tier from its cache at once.
  */
 import { ROUTING_THRESHOLD } from "../config/translate.js";
 import { createEngine, parseEngineId, type EngineId } from "../engine/factory.js";
@@ -33,6 +37,7 @@ interface Args {
   threshold: number | undefined;
   minLen: number | undefined;
   maxLen: number | undefined;
+  cacheOnly: boolean;
 }
 
 function parseArgs(argv: string[]): Args {
@@ -46,6 +51,7 @@ function parseArgs(argv: string[]): Args {
     threshold: undefined,
     minLen: undefined,
     maxLen: undefined,
+    cacheOnly: false,
   };
   const num = (v: string | undefined): number | undefined => {
     const n = Number(v);
@@ -65,6 +71,7 @@ function parseArgs(argv: string[]): Args {
     else if (arg === "--max-len") a.maxLen = num(argv[++i]);
     else if (arg === "--dry-run") a.dryRun = true;
     else if (arg === "--route") a.route = true;
+    else if (arg === "--cache-only") a.cacheOnly = true;
     else if (arg === "--all") a.all = true;
     else if (arg && !arg.startsWith("--")) a.file = arg;
   }
@@ -74,6 +81,7 @@ function parseArgs(argv: string[]): Args {
 interface PassResult {
   translated: number;
   failed: number;
+  cacheMissed: number;
   failures: { key: string; error: string }[];
 }
 
@@ -97,7 +105,7 @@ async function runPass(
   plan.finish();
 
   const bars = new FileProgress(files.length, grandTotal);
-  const out: PassResult = { translated: 0, failed: 0, failures: [] };
+  const out: PassResult = { translated: 0, failed: 0, cacheMissed: 0, failures: [] };
   let base = 0; // units completed in the already-finished files
   for (const f of files) {
     let fileTotal = 0;
@@ -116,6 +124,7 @@ async function runPass(
     base += fileTotal;
     out.translated += stats.translated;
     out.failed += stats.failed;
+    out.cacheMissed += stats.cacheMissed;
     out.failures.push(...stats.failures);
     bars.finishFile();
   }
@@ -128,7 +137,7 @@ async function main(): Promise<void> {
   if (!args.all && !args.file) {
     console.error(
       "Usage: npm run translate -- (<file> | --all) [--engine mock|yandex|lmstudio]\n" +
-        "       [--limit N] [--dry-run] [--min-len N] [--max-len N]\n" +
+        "       [--limit N] [--dry-run] [--min-len N] [--max-len N] [--cache-only]\n" +
         "       npm run translate -- --all --route [--threshold N]",
     );
     process.exitCode = 1;
@@ -147,11 +156,14 @@ async function main(): Promise<void> {
     const t = args.threshold ?? ROUTING_THRESHOLD;
     const cap = args.maxLen; // optional upper bound; units longer than this are skipped
     const [yandex, lmstudio] = await Promise.all([
-      createEngine("yandex"),
-      createEngine("lmstudio"),
+      createEngine("yandex", { cacheOnly: args.cacheOnly }),
+      createEngine("lmstudio", { cacheOnly: args.cacheOnly }),
     ]);
     const capNote = cap !== undefined ? ` | skip > ${cap}` : "";
-    console.log(`Route${suffix} | files: ${files.length} | Yandex ≤${t} < LM Studio${capNote}`);
+    const cacheNote = args.cacheOnly ? " | cache-only" : "";
+    console.log(
+      `Route${suffix}${cacheNote} | files: ${files.length} | Yandex ≤${t} < LM Studio${capNote}`,
+    );
     passes.push(
       await runPass(
         files,
@@ -170,7 +182,7 @@ async function main(): Promise<void> {
       ),
     );
   } else {
-    const engine = await createEngine(args.engine);
+    const engine = await createEngine(args.engine, { cacheOnly: args.cacheOnly });
     const window =
       args.minLen !== undefined || args.maxLen !== undefined
         ? ` | len ${args.minLen ?? 0}..${args.maxLen ?? "∞"}`
@@ -187,9 +199,11 @@ async function main(): Promise<void> {
 
   const translated = passes.reduce((n, p) => n + p.translated, 0);
   const failed = passes.reduce((n, p) => n + p.failed, 0);
+  const cacheMissed = passes.reduce((n, p) => n + p.cacheMissed, 0);
   const failures = passes.flatMap((p) => p.failures);
 
-  console.log(`\nTotal translated: ${translated}, failed: ${failed}`);
+  const missNote = args.cacheOnly ? `, cache-missed (left pending): ${cacheMissed}` : "";
+  console.log(`\nTotal translated: ${translated}, failed: ${failed}${missNote}`);
   if (failures.length > 0) {
     console.log(`\nMarkup-validation failures (${failures.length}):`);
     for (const fail of failures.slice(0, 20)) console.log(`  ${fail.key}: ${fail.error}`);
