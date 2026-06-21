@@ -1203,11 +1203,11 @@
     "Desc_6": {
       "en": "Return true when the current distance +{1} is within the range of {0}'s basic attack or casting Annihilation Attack",
       "cn": "当前距离 +{1} 处于 {0} 的普攻或施展中摧破攻击范围时返回真值",
-      "ru": null,
-      "status": "pending",
+      "ru": "Возвращает значение true, когда текущее расстояние +{1} находится в пределах диапазона {0}базовая Атака или кастовая Атака на Сокрушение",
+      "status": "machine",
       "srcHash": "f613cba14bf389b6",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T00:33:56.249Z"
     },
     "Desc_7": {
       "en": "Return true when the current distance + {1} is within {0}'s Martial Art {2} range",
@@ -1986,29 +1986,29 @@
     "Desc_92": {
       "en": "Return true when {0} attack range {1} edge is greater than the corresponding edge of another's attack range",
       "cn": "当 {0} 攻击范围 {1} 边缘大于另一方攻击范围相同边缘时返回真值",
-      "ru": null,
-      "status": "pending",
+      "ru": "Возвращает значение true, когда {0} дальность Атаки {1} преимущество больше, чем соответствующее преимущество дальности Атаки другого игрока",
+      "status": "machine",
       "srcHash": "7d4a23c6cefe9fa7",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T00:33:56.249Z"
     },
     "Desc_93": {
       "en": "Return true when {0} attack range {1} edge is smaller than the corresponding edge of another's attack range",
       "cn": "当 {0} 攻击范围 {1} 边缘小于另一方攻击范围相同边缘时返回真值",
-      "ru": null,
-      "status": "pending",
+      "ru": "Возвращает значение true, когда {0} дальность Атаки {1} преимущество меньше, чем соответствующее преимущество в радиусе действия чужой Атаки",
+      "status": "machine",
       "srcHash": "df38e0ca0c61ba5d",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T00:33:56.249Z"
     },
     "Desc_94": {
       "en": "Return true when the last basic attack was with the current weapon and was deflected during the first attack or follow-up",
       "cn": "上次普攻为当前武器，且首次攻击或追击被化解时返回真值",
-      "ru": null,
-      "status": "pending",
+      "ru": "Возвращает значение true, если последняя базовая Атака была проведена текущим Оружием и была отклонена во время первой Атаки или последующей",
+      "status": "machine",
       "srcHash": "f252a2362e3a2132",
-      "engine": null,
-      "updatedAt": null
+      "engine": "yandex",
+      "updatedAt": "2026-06-21T00:33:56.249Z"
     },
     "Desc_95": {
       "en": "Return true when {0} weapon index is {1}",
