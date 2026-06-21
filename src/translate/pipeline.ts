@@ -58,6 +58,9 @@ interface WorkItem {
   masked: ReturnType<typeof mask>;
 }
 
+/** Engine marker for language-neutral units (EN == CN) whose RU is just the EN. */
+const NEUTRAL_ENGINE = "neutral";
+
 export function needsTranslation(
   prev: TmUnit | undefined,
   hash: string,
@@ -80,7 +83,7 @@ function selectWork(
   aligned: AlignedFile,
   existing: TmFile | null,
   engineId: string,
-  options: Pick<TranslateOptions, "minLen" | "maxLen" | "limit">,
+  options: Pick<TranslateOptions, "minLen" | "maxLen" | "limit" | "now">,
 ): { units: Record<string, TmUnit>; work: WorkItem[]; pending: number; skipped: number } {
   const minLen = options.minLen ?? 0;
   const maxLen = options.maxLen ?? Infinity;
@@ -94,12 +97,26 @@ function selectWork(
     const prev = existing?.units[unit.key];
     const inWindow = unit.en.length >= minLen && unit.en.length <= maxLen;
     // Language-neutral: identical in EN and CN (IDs, paths, codes, untranslated
-    // terms) → never translate, the source is kept on apply.
+    // terms) → never send to an engine. Copy EN straight into RU so the TM is
+    // complete (no lingering pending unit) and the source rides through apply.
     const sameAsCn = unit.cn !== null && unit.en === unit.cn;
+    if (sameAsCn) {
+      const human = prev?.status === "reviewed" || prev?.status === "locked";
+      const alreadyNeutral =
+        prev?.engine === NEUTRAL_ENGINE && prev.ru === unit.en && prev.srcHash === hash;
+      // Honour human curation; otherwise reuse an existing neutral unit (no
+      // timestamp churn) or mint a fresh one with ru = en.
+      units[unit.key] =
+        prev && (human || alreadyNeutral)
+          ? { ...prev, cn: unit.cn }
+          : neutralUnit(unit, hash, options.now ?? null);
+      skipped++;
+      continue;
+    }
 
-    // Out of window, language-neutral, or already up to date: carry forward
-    // unchanged (a unit out of window keeps any translation another pass made).
-    if (sameAsCn || !inWindow || !needsTranslation(prev, hash, engineId)) {
+    // Out of window or already up to date: carry forward unchanged (a unit out
+    // of window keeps any translation another pass made).
+    if (!inWindow || !needsTranslation(prev, hash, engineId)) {
       units[unit.key] = prev ? { ...prev, cn: unit.cn } : newPendingUnit(unit, hash);
       skipped++;
       continue;
@@ -226,5 +243,18 @@ function newPendingUnit(unit: SourceUnit, hash: string): TmUnit {
     srcHash: hash,
     engine: null,
     updatedAt: null,
+  };
+}
+
+/** A language-neutral unit (EN == CN): RU is the EN source, no engine involved. */
+function neutralUnit(unit: SourceUnit, hash: string, now: string | null): TmUnit {
+  return {
+    en: unit.en,
+    cn: unit.cn,
+    ru: unit.en,
+    status: "machine",
+    srcHash: hash,
+    engine: NEUTRAL_ENGINE,
+    updatedAt: now,
   };
 }
