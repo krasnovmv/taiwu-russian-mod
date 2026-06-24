@@ -8322,11 +8322,11 @@
     "Desc_483": {
       "en": "A black mask that covers the entire screen, including the event interface.\\nCheck the first parameter to show the fading mask during playback, and uncheck to hide the fading mask during playback.\\nThe next event will pop up when the mask animation finishes. It can also be set as an empty event, and skip using an ordinary event skip order. When skipping using the latter mechanism, the popping up of the next event will play at the same time as the mask. It is forbidden to set a non-empty follow-up event and skip to an event at the same time.",
       "cn": "覆盖全屏的黑屏遮罩, 该遮罩会挡住整个事件界面. \\n第一个参数勾选表示播放显示遮罩渐变, 不勾选表示播放隐藏遮罩渐变.\\n后续事件将在遮罩动画播放完成后弹出. 此外也可以将其设为空事件,  然后通过正常的事件跳转指令进行跳转, 通过这种方式跳转时下一级事件的弹出和遮罩动画的播放将同步进行. 注意禁止同时设置非空的后续事件和进行事件跳转.",
-      "ru": "Черная маска, закрывающая весь экран, включая интерфейс событий.\\N Установите флажок в первом параметре, чтобы отображать маску затухания во время воспроизведения, и снимите флажок, чтобы скрыть маску затухания во время воспроизведения.Следующее событие появится, когда анимация маски завершится. Его также можно установить как пустое событие и пропустить, используя обычный порядок пропуска событий. При пропуске с использованием последнего механизма всплывающее окно следующего события будет воспроизводиться одновременно с маской. Запрещается устанавливать непустое последующее событие и одновременно переходить к какому-либо событию.",
+      "ru": "Черная маска, закрывающая весь экран, включая интерфейс события.\\nУстановите флажок в первом параметре, чтобы отобразить маску затухания во время воспроизведения, и снимите флажок, чтобы скрыть маску затухания во время воспроизведения.\\nСледующее событие появится после завершения анимации маски. Его также можно задать как пустое событие и пропустить, используя обычный порядок пропуска событий. При пропуске с использованием последнего механизма всплывающее окно следующего события будет отображаться одновременно с маской. Запрещается устанавливать непустое последующее событие и одновременно переходить к какому-либо событию.",
       "status": "machine",
       "srcHash": "f0af33b444a287a2",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-24T07:41:53.012Z"
     },
     "Desc_829": {
       "en": "This data is not saved and only takes effect during the current event. Used for silently granting items and similar actions under special circumstances. Enabled by default.",
@@ -9141,11 +9141,11 @@
     "Desc_124": {
       "en": "Leave the ongoing encounter.\\nAn post-exit event can be configured to trigger after encounter interface is completely closed.\\nThis event consists of two trigger parameters: adventure template (AdventureId) and a check for if the encounter is completed (IsComplete).",
       "cn": "退出当前正在进行中的奇遇. \\n可以设置退出后事件, 将在奇遇界面完全关闭后触发.\\n该事件包含两个触发参数: 奇遇模板 AdventureId 和 奇遇是否完成 IsComplete.",
-      "ru": "Оставьте продолжающуюся встречу.Событие \\NaN post-exit может быть настроено на запуск после полного закрытия интерфейса encounter.Это событие состоит из двух параметров запуска: шаблона приключения (AdventureId) и проверки того, завершена ли встреча (IsComplete).",
+      "ru": "Завершите текущую встречу.\\nСобытие после выхода можно настроить так, чтобы оно запускалось после полного закрытия интерфейса encounter.\\nЭто событие состоит из двух параметров запуска: шаблона приключения (AdventureId) и проверки завершения встречи (IsComplete).",
       "status": "machine",
       "srcHash": "fd73d62cb0d5a8a9",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-24T07:41:53.012Z"
     },
     "Desc_143": {
       "en": "Retrieve the character pulled into encounter using monthly event behavior configuration linked to the encounter. The configuration information can be found in MonthlyActions list.",
@@ -13497,11 +13497,11 @@
     "Desc_530": {
       "en": "Open the Trade Items interface. The input parameter identifies the current NPC. \\nNote: This command does not end the current event but opens a new UI and registers listeners. It must be used with ToEvent(string.Empty) or used in an option that leads to an empty event.",
       "cn": "打开交换物品界面. 传入的参数用于区分确认当前Npc。\\n这条指令不会结束当前事件，但会打开新界面并注册事件监听，因此需要与ToEvent(string.Empty)合用，或者在选项中使用并令选项指向空事件",
-      "ru": "Откройте интерфейс торговых позиций. Входной параметр идентифицирует текущего NPC. Примечание: Эта команда не завершает текущее событие, а открывает новый пользовательский интерфейс и регистрирует слушателей. Он должен использоваться с ToEvent(строка.Пустой) или используется в опции, которая приводит к пустому событию.",
+      "ru": "Откройте интерфейс торговых позиций. Входной параметр определяет текущего NPC. \\nПримечание: Эта команда не завершает текущее событие, а открывает новый пользовательский интерфейс и регистрирует слушателей. Ее необходимо использовать с ToEvent(строка.Пустой) или используется в опции, которая приводит к пустому событию.",
       "status": "machine",
       "srcHash": "102ad272a840060f",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-24T07:41:53.012Z"
     },
     "Desc_531": {
       "en": "Save Character's specified Type and Tier",

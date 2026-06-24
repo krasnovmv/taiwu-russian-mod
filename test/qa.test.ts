@@ -28,6 +28,49 @@ test("detects markup mismatch", () => {
   ]);
 });
 
+test("detects mangled \\u escape (dropped hex digit)", () => {
+  // EN has <…> (rendered < >); RU dropped a digit: > -> "\u003 ".
+  const en = "\\u003ccolor=#x\\u003eSpoiler\\u003c/color\\u003e";
+  const ru = "\\u003ccolor=#x\\u003 Спойлер\\u003c/color\\u003e";
+  assert.deepEqual(kinds(tm({ A: u(en, ru) })), ["escape-mismatch"]);
+});
+
+test("detects mangled \\n escape (dropped n, bare backslash)", () => {
+  const en = "Health.\\nInner Breath Chaos generates marks.";
+  const ru = "Здоровью.\\Хаос дыхания генерирует метки."; // \n lost its n
+  assert.deepEqual(kinds(tm({ A: u(en, ru) })), ["escape-mismatch"]);
+});
+
+test("intact escapes (\\u and \\n) produce no issue", () => {
+  const en = "\\u003ccolor=#x\\u003eA\\u003c/color\\u003e\\nB";
+  const ru = "\\u003ccolor=#x\\u003eА\\u003c/color\\u003e\\nБ";
+  assert.deepEqual(validateTm(tm({ A: u(en, ru) })), []);
+});
+
+test("a legitimately dropped comma escape is not flagged (noise)", () => {
+  // , is just a comma; translations alter punctuation freely.
+  assert.deepEqual(validateTm(tm({ A: u("a\\u002cb", "а и б") })), []);
+});
+
+test("does not flag escapes already broken in the EN source", () => {
+  // The game's own EN ships a pre-broken escape ("time? \I was"); a translation
+  // that mirrors it is not at fault.
+  const en = "Why now? \\I was alone.\\nYou left.";
+  const ru = "Почему сейчас? \\Я был один.\\nТы ушёл.";
+  assert.deepEqual(validateTm(tm({ A: u(en, ru) })), []);
+});
+
+test("flags a NEW mangle even when EN already has one", () => {
+  const en = "Why? \\I was alone.\\nOk."; // 1 pre-broken
+  const ru = "Почему? \\Я был один.\\Ещё одна.Ok."; // mirrors 1, adds another
+  assert.ok(kinds(tm({ A: u(en, ru) })).includes("escape-mismatch"));
+});
+
+test("detects a cleanly dropped \\n line-break (no stray backslash)", () => {
+  const issues = kinds(tm({ A: u("First line.\\nSecond line.", "Первая строка. Вторая строка.") }));
+  assert.ok(issues.includes("escape-mismatch"));
+});
+
 test("detects empty output and newline hazard", () => {
   const issues = kinds(tm({ A: u("Hello world", ""), B: u("Hi there", "Привет\nмир") }));
   assert.ok(issues.includes("empty-output"));

@@ -5,6 +5,12 @@
  *   - C# placeholders:     {0} {1} {2}
  *   - Unity rich text:     <color=#brightred> </color> <align=right> <line-height=0>
  *   - Game tags:           <NL> <Character key=RoleTaiwu str=GenderSubject/>
+ *   - literal escapes:     \n (line break) and \uXXXX code points (e.g. <
+ *                          > = < > forming `<color=…>` tags). These are NOT
+ *                          real `<…>` tags — they are backslash-escape TEXT the
+ *                          engine loves to mangle (drops the char after the
+ *                          backslash: \n -> "\Хаос", > -> "\u003 "). Masking
+ *                          them makes that corruption structurally impossible.
  *
  * Strategy: replace every protected span with an opaque sentinel before
  * translation, then restore by index afterwards. (Glossary terms are NOT masked
@@ -24,6 +30,8 @@
 const TAG_RE = /<[^>]+>/g;
 /** Matches C# format placeholders like `{0}`. */
 const PLACEHOLDER_RE = /\{\d+\}/g;
+/** Matches literal game escapes: `\uXXXX` code points and `\n`/`\r`/`\t`. */
+const ESCAPE_RE = /\\u[0-9a-fA-F]{4}|\\[nrt]/g;
 
 // Empty paired tags `<mN></mN>` survive Yandex's HTML translation mode verbatim
 // (no spacing, no attribute "normalisation"), unlike ⟦⟧ in plain text — which
@@ -59,9 +67,12 @@ export function mask(text: string): Masked {
     });
 
   // Tags first (so a placeholder inside a tag is not double-masked), then
-  // placeholders. Sentinels never match the later regex.
+  // placeholders, then literal escapes. Order is safe because the sets don't
+  // overlap (escapes are backslash TEXT, tags/placeholders are real `<…>`/`{n}`)
+  // and sentinels — which carry no backslash — never match a later regex.
   let masked = replace(core, TAG_RE);
   masked = replace(masked, PLACEHOLDER_RE);
+  masked = replace(masked, ESCAPE_RE);
 
   // Sentinels contain a literal "m"; strip them before checking for real letters.
   const translatable = /\p{L}/u.test(masked.replace(SENTINEL_RE, ""));

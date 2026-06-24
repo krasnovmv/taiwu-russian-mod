@@ -27,6 +27,24 @@ test("tags and placeholders are masked and restored verbatim", () => {
   }
 });
 
+test("literal escapes (\\n, \\uXXXX) are masked and restored verbatim", () => {
+  // < / > render as < / > forming a <color=…> rich-text tag; \n is a
+  // line break. None are real <…> tags, so only escape masking protects them.
+  const src = "\\u003ccolor=#x\\u003eHello\\u003c/color\\u003e\\nSecond line";
+  const m = mask(src);
+  // No backslash escape survives in the masked text handed to the engine.
+  assert.ok(!/\\(?:u[0-9a-fA-F]{4}|[nrt])/.test(m.masked), "escapes must be masked");
+  const r = restore(goodEngine(m.masked), m);
+  assert.ok(r.ok, r.error ?? "restore failed");
+  assert.equal(r.text, `ru:${src}`); // byte-exact round-trip
+});
+
+test("escape-only values are marked not translatable", () => {
+  assert.equal(mask("\\u003c\\u003e").translatable, false);
+  assert.equal(mask("\\n").translatable, false);
+  assert.equal(mask("Health\\nMore").translatable, true);
+});
+
 test("leading/trailing whitespace is preserved exactly", () => {
   const src = "  Click the middle  ";
   const m = mask(src);

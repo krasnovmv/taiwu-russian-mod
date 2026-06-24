@@ -4,6 +4,12 @@
  *
  * Checks per translated unit (ru != null):
  *   - markup parity: tags/placeholders in RU must match EN exactly
+ *   - escape mangle: the translation must not break a backslash escape that was
+ *                    intact in EN — the engine drops the char after a backslash
+ *                    (\n -> "\Хаос", > -> "\u003 "). Flagged when RU has more
+ *                    mangled escapes than EN, or a changed \n line-break count;
+ *                    escapes already broken in the EN source are not the
+ *                    translation's fault and are not flagged.
  *   - newline hazard: RU must not contain a real newline (would break alternation)
  *   - empty output:   non-empty EN must not translate to empty RU
  *   - untranslated:   RU equal to EN for text that contained letters (informational
@@ -16,6 +22,7 @@ import type { TmFile } from "../model/tm.js";
 
 export type IssueKind =
   | "markup-mismatch"
+  | "escape-mismatch"
   | "newline-hazard"
   | "empty-output"
   | "untranslated"
@@ -37,6 +44,35 @@ function hasLetters(s: string): boolean {
   return /\p{L}/u.test(s);
 }
 
+// The game text embeds literal backslash escapes that must survive verbatim:
+//   - `\n`           line break inside a cell
+//   - `\uXXXX`       a code point (e.g. `<`/`>` = `<`/`>`, forming
+//                    `<color=…>` rich-text tags) — NOT a real `<…>` tag, so the
+//                    markup check above never sees it
+// (plus the occasional `\\` and `\"`). The MT engine corrupts these by dropping
+// the char after the backslash, leaving a bare/garbled backslash that breaks
+// rendering — observed in the wild as `\n` -> "\Хаос" and `>` -> "\u003 ".
+// Any backslash that is not one of these well-formed forms is mangled.
+//
+// We flag a unit only when the TRANSLATION introduced the breakage: more mangled
+// backslashes in RU than EN, or a changed `\n` count. The game's own EN source
+// occasionally ships a pre-broken escape (e.g. "time? \I was" — a dropped `\n`);
+// a translation that faithfully mirrors it is not at fault, so comparing against
+// EN keeps those upstream-data issues out of the report.
+const VALID_ESCAPE_RE = /\\(?:n|t|"|\\|u[0-9a-fA-F]{4})/g;
+// Backslash NOT starting a valid escape, plus a little trailing context for the
+// report (`\Хаос` -> "\Хао", a dangling `\u003 ` -> "\u003 ").
+const MANGLED_ESCAPE_RE = /\\(?!n|t|"|\\|u[0-9a-fA-F]{4}).{0,4}/g;
+
+function countMangled(s: string): number {
+  return (s.match(MANGLED_ESCAPE_RE) ?? []).length;
+}
+
+/** Count literal `\n` line-break markers (well-formed escapes only). */
+function newlineMarkers(s: string): number {
+  return (s.match(VALID_ESCAPE_RE) ?? []).filter((e) => e === "\\n").length;
+}
+
 export function validateTm(tm: TmFile): QaIssue[] {
   const issues: QaIssue[] = [];
   const push = (key: string, kind: IssueKind, detail: string): void => {
@@ -51,6 +87,19 @@ export function validateTm(tm: TmFile): QaIssue[] {
       const enMarkup = extractMarkup(en);
       const ruMarkup = extractMarkup(ru);
       push(key, "markup-mismatch", `EN[${enMarkup.join(" ")}] vs RU[${ruMarkup.join(" ")}]`);
+    }
+
+    const enMangled = countMangled(en);
+    const ruMangled = countMangled(ru);
+    const enNl = newlineMarkers(en);
+    const ruNl = newlineMarkers(ru);
+    if (ruMangled > enMangled) {
+      const mangled = ru.match(MANGLED_ESCAPE_RE) ?? [];
+      push(key, "escape-mismatch", `mangled escape(s): ${mangled.map((m) => JSON.stringify(m)).join(" ")}`);
+    } else if (enNl !== ruNl) {
+      // No new stray backslash, but the engine still lost (or invented) a `\n`
+      // line-break marker — e.g. it deleted the whole token cleanly.
+      push(key, "escape-mismatch", `\\n count: EN=${enNl} RU=${ruNl}`);
     }
 
     if (/[\r\n]/.test(ru)) push(key, "newline-hazard", "RU contains a real newline");
