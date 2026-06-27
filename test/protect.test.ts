@@ -39,6 +39,19 @@ test("literal escapes (\\n, \\uXXXX) are masked and restored verbatim", () => {
   assert.equal(r.text, `ru:${src}`); // byte-exact round-trip
 });
 
+test("escaped-bracket tag content is masked whole (not exposed to engine)", () => {
+  // `<color=#specialyellow>` is a <color=…> tag with escaped brackets.
+  // The inner `color=#specialyellow` must NOT reach the engine — otherwise it is
+  // translated (e.g. Yandex -> `цвет=#особенный желтый`). Masking the whole tag
+  // makes that impossible.
+  const src = "\\u003ccolor=#specialyellow\\u003eHi\\u003c/color\\u003e";
+  const m = mask(src);
+  assert.ok(!m.masked.includes("color="), "tag attribute must not be exposed");
+  const r = restore(goodEngine(m.masked), m);
+  assert.ok(r.ok, r.error ?? "restore failed");
+  assert.equal(r.text, `ru:${src}`); // byte-exact round-trip
+});
+
 test("escape-only values are marked not translatable", () => {
   assert.equal(mask("\\u003c\\u003e").translatable, false);
   assert.equal(mask("\\n").translatable, false);

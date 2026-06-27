@@ -5,6 +5,12 @@
  *   - C# placeholders:     {0} {1} {2}
  *   - Unity rich text:     <color=#brightred> </color> <align=right> <line-height=0>
  *   - Game tags:           <NL> <Character key=RoleTaiwu str=GenderSubject/>
+ *   - escaped tags:        `<color=#x>` — a `<color=…>` rich-text tag
+ *                          whose brackets are backslash-escaped. The inner
+ *                          `color=#x` is plain TEXT to the engine (no real `<…>`
+ *                          for TAG_RE to catch), so it gets translated
+ *                          (`цвет=#особенный желтый`). Masked whole, brackets and
+ *                          all, so the attribute survives verbatim.
  *   - literal escapes:     \n (line break) and \uXXXX code points (e.g. <
  *                          > = < > forming `<color=…>` tags). These are NOT
  *                          real `<…>` tags — they are backslash-escape TEXT the
@@ -30,6 +36,16 @@
 const TAG_RE = /<[^>]+>/g;
 /** Matches C# format placeholders like `{0}`. */
 const PLACEHOLDER_RE = /\{\d+\}/g;
+/**
+ * Matches a rich-text tag whose brackets are backslash-escaped:
+ * `<…>` (e.g. `<color=#specialyellow>`, `</color>`).
+ * TAG_RE never sees these — there is no real `<…>` — so the inner attribute
+ * (`color=#specialyellow`) would reach the engine as plain text and be
+ * translated. Masked whole so brackets AND content survive verbatim. Must run
+ * before ESCAPE_RE, which would otherwise mask the `<`/`>` separately
+ * and re-expose the content. Lazy to the first closing `>`.
+ */
+const ESCAPED_TAG_RE = /\\u003c[\s\S]*?\\u003e/gi;
 /** Matches literal game escapes: `\uXXXX` code points and `\n`/`\r`/`\t`. */
 const ESCAPE_RE = /\\u[0-9a-fA-F]{4}|\\[nrt]/g;
 
@@ -67,10 +83,13 @@ export function mask(text: string): Masked {
     });
 
   // Tags first (so a placeholder inside a tag is not double-masked), then
-  // placeholders, then literal escapes. Order is safe because the sets don't
-  // overlap (escapes are backslash TEXT, tags/placeholders are real `<…>`/`{n}`)
-  // and sentinels — which carry no backslash — never match a later regex.
+  // escaped-bracket tags (whole, before ESCAPE_RE splits their `<`/`>`
+  // apart), then placeholders, then the remaining literal escapes. Order is safe
+  // because the sets don't overlap (escapes are backslash TEXT, tags/placeholders
+  // are real `<…>`/`{n}`) and sentinels — which carry no backslash — never match a
+  // later regex.
   let masked = replace(core, TAG_RE);
+  masked = replace(masked, ESCAPED_TAG_RE);
   masked = replace(masked, PLACEHOLDER_RE);
   masked = replace(masked, ESCAPE_RE);
 
