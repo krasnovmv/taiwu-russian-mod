@@ -24,7 +24,7 @@ import { mask, restore } from "../engine/protect.js";
 import type { ProgressCallback, TranslationEngine, TranslationRequest } from "../engine/types.js";
 import { TM_SCHEMA_VERSION, type TmFile, type TmUnit } from "../model/tm.js";
 import { srcHash } from "../tm/hash.js";
-import { loadTm, saveTm } from "../tm/store.js";
+import { loadTm, saveTm, tmKey } from "../tm/store.js";
 
 export interface TranslateOptions {
   /** Translate at most this many pending units (for sampling/dry runs). */
@@ -164,7 +164,7 @@ export async function translateFile(
 
   const tm: TmFile = {
     schemaVersion: TM_SCHEMA_VERSION,
-    file,
+    file: tmKey(file),
     glossaryVersion: GLOSSARY_VERSION,
     units,
   };

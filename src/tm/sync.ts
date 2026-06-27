@@ -17,7 +17,7 @@ import { alignFile, type AlignedFile } from "../align/bilingual.js";
 import { GLOSSARY_VERSION } from "../config/glossary.js";
 import { TM_SCHEMA_VERSION, type TmFile, type TmUnit } from "../model/tm.js";
 import { srcHash } from "./hash.js";
-import { loadTm, saveTm } from "./store.js";
+import { loadTm, saveTm, tmKey } from "./store.js";
 
 export interface SyncResult {
   file: string;
@@ -79,7 +79,7 @@ export function reconcile(
 
   const tm: TmFile = {
     schemaVersion: TM_SCHEMA_VERSION,
-    file,
+    file: tmKey(file),
     glossaryVersion: GLOSSARY_VERSION,
     units,
   };
