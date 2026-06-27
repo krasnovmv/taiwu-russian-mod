@@ -5,7 +5,7 @@
   "units": {
     "r0c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-八败\"><color=#GradeColor_8>Eight Defeats</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-八败\"><color=#GradeColor_8>八败</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-呆物\"><color=#GradeColor_0>呆物</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-八败\"><color=#GradeColor_8>Восемь поражений</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "a5ec55d403b525a3",
@@ -14,7 +14,7 @@
     },
     "r0c1": {
       "en": "<align=\"center\">Reverse Fate</align>",
-      "cn": "<align=\"center\">逆命</align>",
+      "cn": "<align=\"center\">让手</align>",
       "ru": "<align=\"center\">Обратная судьба</align>",
       "status": "machine",
       "srcHash": "9318a104b96d0abe",
@@ -23,7 +23,7 @@
     },
     "r0c2": {
       "en": "When attacked: Bite Force +1. When countered: Strength +1. When Taunted: Morale +1. Stacks and lasts until the battle ends.",
-      "cn": "被进攻牙钳+1，被反击角力+1，被鸣叫气势+1，可叠加持续到战斗结束",
+      "cn": "<align=\"left\">战败时100%发动</align>",
       "ru": "При Атаке: Мощь укуса +1. При противодействии: Сила +1. Когда насмехаются: Боевой дух +1. Складывается и сохраняется до окончания битвы.",
       "status": "machine",
       "srcHash": "1ae07d4c8112f317",
@@ -32,7 +32,7 @@
     },
     "r1c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-三太子\"><color=#GradeColor_8>Third Prince</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-三太子\"><color=#GradeColor_8>三太子</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-绣花针\"><color=#GradeColor_8>绣花针</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-三太子\"><color=#GradeColor_8>Третий принц</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "56507266bdbd425f",
@@ -41,7 +41,7 @@
     },
     "r1c1": {
       "en": "<align=\"center\">Burning Lotus</align>",
-      "cn": "<align=\"center\">焚莲</align>",
+      "cn": "<align=\"center\">毒锥</align>",
       "ru": "<align=\"center\">Пылающий лотос</align>",
       "status": "machine",
       "srcHash": "1d41e5754b8bb171",
@@ -50,7 +50,7 @@
     },
     "r1c2": {
       "en": "After a natural Critical\\u002c the next incoming attack is guaranteed to be defended. After a natural Defense\\u002c the next attack is guaranteed to be a Critical.",
-      "cn": "非效果暴击后下次被击100%防御、非效果防御后下次攻击100%暴击",
+      "cn": "<align=\"left\">耐力、斗性、耐久属性分别首次降低至50%以下时，100%发动</align>",
       "ru": "После естественного критического момента следующая входящая Атака гарантированно будет защищена. После естественной защиты следующая Атака гарантированно будет критической.",
       "status": "machine",
       "srcHash": "cbd5b2a1e88db38e",
@@ -59,7 +59,7 @@
     },
     "r2c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-三段锦\"><color=#GradeColor_8>Three-Section Brocade</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-三段锦\"><color=#GradeColor_8>三段锦</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-两头枪\"><color=#GradeColor_8>两头枪</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-三段锦\"><color=#GradeColor_8>Трехсекционная парча</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "805322076c104608",
@@ -68,7 +68,7 @@
     },
     "r2c1": {
       "en": "<align=\"center\">Dignity</align>",
-      "cn": "<align=\"center\">威严</align>",
+      "cn": "<align=\"center\">招架</align>",
       "ru": "<align=\"center\">Достоинство</align>",
       "status": "machine",
       "srcHash": "2e3da511b1daa84c",
@@ -77,7 +77,7 @@
     },
     "r2c2": {
       "en": "Randomly sets the opponent's Critical Chance\\u002c Block Chance\\u002c or Counterattack to 0 for 1 round.",
-      "cn": "将对手致命、防御、反击中的随机一项降为0，持续1回合",
+      "cn": "<align=\"left\">受到耐力、斗性伤害时，有33%概率发动</align>",
       "ru": "Случайным образом устанавливает критический шанс противника на блокирование или контратаку равным 0 на 1 раунд.",
       "status": "machine",
       "srcHash": "1265b0c0c4bc24d4",
@@ -86,7 +86,7 @@
     },
     "r3c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-天蓝青\"><color=#GradeColor_8>Sky Blue Cyan</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-天蓝青\"><color=#GradeColor_8>天蓝青</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-吹铃\"><color=#GradeColor_8>吹铃</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-天蓝青\"><color=#GradeColor_8>Небесно-голубой Голубой</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "2681648a6e43f187",
@@ -95,7 +95,7 @@
     },
     "r3c1": {
       "en": "<align=\"center\">Purifying Heaven</align>",
-      "cn": "<align=\"center\">净天</align>",
+      "cn": "<align=\"center\">摄魂</align>",
       "ru": "<align=\"center\">Очищающий рай</align>",
       "status": "machine",
       "srcHash": "11b69d0a15cd861b",
@@ -104,7 +104,7 @@
     },
     "r3c2": {
       "en": "Prevents the opponent's skill from taking effect.",
-      "cn": "阻止对手的技能生效",
+      "cn": "<align=\"left\">攻击时100%发动</align>",
       "ru": "Не позволяет навыку противника вступить в силу.",
       "status": "machine",
       "srcHash": "d68839b821195d53",
@@ -113,7 +113,7 @@
     },
     "r4c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-梅花翅\"><color=#GradeColor_8>Plum Wings</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-梅花翅\"><color=#GradeColor_8>梅花翅</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-跑马黄\"><color=#GradeColor_8>跑马黄</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-梅花翅\"><color=#GradeColor_8>Сливовые крылышки</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "4c5677163c61134e",
@@ -122,7 +122,7 @@
     },
     "r4c1": {
       "en": "<align=\"center\">Extreme Momentum</align>",
-      "cn": "<align=\"center\">极势</align>",
+      "cn": "<align=\"center\">驰骋</align>",
       "ru": "<align=\"center\">Экстремальный импульс</align>",
       "status": "machine",
       "srcHash": "969380f14810e52a",
@@ -131,7 +131,7 @@
     },
     "r4c2": {
       "en": "Gain +6 Morale after dealing Resilience damage. Stacks and lasts until the battle ends.",
-      "cn": "造成斗性伤害后气势+6，可叠加持续到战斗结束",
+      "cn": "<align=\"left\">被对手暴击、被对手防御时，有66%概率发动</align>",
       "ru": "Получите +6 к моральному духу после нанесения урона стойкости. Складывается и сохраняется до окончания битвы.",
       "status": "machine",
       "srcHash": "80c3c1e76a1df5e6",
@@ -140,7 +140,7 @@
     },
     "r5c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-真紫黄\"><color=#GradeColor_8>True Purple-Yellow</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-真紫黄\"><color=#GradeColor_8>真紫黄</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-玉锄头\"><color=#GradeColor_8>玉锄头</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-真紫黄\"><color=#GradeColor_8>Истинный пурпурно-желтый</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "fc4a05103913d1a0",
@@ -149,7 +149,7 @@
     },
     "r5c1": {
       "en": "<align=\"center\">Illusory Form</align>",
-      "cn": "<align=\"center\">幻形</align>",
+      "cn": "<align=\"center\">养剑</align>",
       "ru": "<align=\"center\">Иллюзорная форма</align>",
       "status": "machine",
       "srcHash": "601a90276799e51c",
@@ -158,7 +158,7 @@
     },
     "r5c2": {
       "en": "Restore Endurance and Resilience based on the Endurance and Resilience damage dealt to the opponent by critical hits.",
-      "cn": "根据暴击时对对手造成的耐力、斗性伤害，恢复自己的耐力、斗性",
+      "cn": "<align=\"left\">未暴击时有50%概率发动</align>",
       "ru": "Восстанавливайте выносливость и сопротивляемость, основываясь на уроне выносливости и сопротивляемости, наносимом противнику критическими ударами.",
       "status": "machine",
       "srcHash": "dfd9cf2a56fdc51b",
@@ -167,7 +167,7 @@
     },
     "r6c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-草三段\"><color=#GradeColor_8>Three Grass Sections</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-草三段\"><color=#GradeColor_8>草三段</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-披袍轩甲\"><color=#GradeColor_8>披袍轩甲</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-草三段\"><color=#GradeColor_8>Три травяных участка</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "6176ddd0de44ffea",
@@ -176,7 +176,7 @@
     },
     "r6c1": {
       "en": "<align=\"center\">Aberrant Blood</align>",
-      "cn": "<align=\"center\">异血</align>",
+      "cn": "<align=\"center\">煌甲</align>",
       "ru": "<align=\"center\">Ненормальная кровь</align>",
       "status": "machine",
       "srcHash": "621ce11df6ccd1b5",
@@ -185,7 +185,7 @@
     },
     "r6c2": {
       "en": "Randomly doubles one of Bite Force\\u002c Strength\\u002c or Morale (rounded up) for 1 round.",
-      "cn": "牙钳、角力、气势中的某项随机×2（向上取整），持续1回合",
+      "cn": "<align=\"left\">回合开始时100%发动</align>",
       "ru": "Случайным образом удваивает один из показателей Мощи укуса\\u002c Силы\\u002c или морального духа (округлено в большую сторону) на 1 раунд.",
       "status": "machine",
       "srcHash": "c3bf989d95ff62f7",
@@ -194,7 +194,7 @@
     },
     "r7c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-真三色\"><color=#GradeColor_8>True Tricolor</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-真三色\"><color=#GradeColor_8>真三色</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-反生名\"><color=#GradeColor_8>反生名</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-真三色\"><color=#GradeColor_8>Настоящий триколор</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "3d86d3e57a442e2e",
@@ -203,7 +203,7 @@
     },
     "r7c1": {
       "en": "<align=\"center\">Royal Blood</align>",
-      "cn": "<align=\"center\">王血</align>",
+      "cn": "<align=\"center\">勇烈</align>",
       "ru": "<align=\"center\">Королевская кровь</align>",
       "status": "machine",
       "srcHash": "bacc3f42dbb0dffd",
@@ -212,7 +212,7 @@
     },
     "r7c2": {
       "en": "All duel attributes except Stamina and Resilience are increased by 1.5× (rounded up)\\u002c lasting until end of battle.",
-      "cn": "除耐力、斗性外全部决斗属性×1.5（向上取整），持续到战斗结束",
+      "cn": "<align=\"left\">反击时有50%概率发动</align>",
       "ru": "Все Характеристики Поединка, за исключением Выносливости и сопротивляемости, увеличиваются в 1,5 раза (округлено в большую сторону) и сохраняются до конца боя.",
       "status": "machine",
       "srcHash": "5f8b60069efe1d03",
@@ -221,7 +221,7 @@
     },
     "r8c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-油纸灯\"><color=#GradeColor_8>Oiled Paper Lantern</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-油纸灯\"><color=#GradeColor_8>油纸灯</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-朱砂额\"><color=#GradeColor_8>朱砂额</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-油纸灯\"><color=#GradeColor_8>Фонарь из промасленной бумаги</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "7cd1f609c2c01ea5",
@@ -230,7 +230,7 @@
     },
     "r8c1": {
       "en": "<align=\"center\">Hundred Battles</align>",
-      "cn": "<align=\"center\">百战</align>",
+      "cn": "<align=\"center\">赤煞</align>",
       "ru": "<align=\"center\">Сотни сражений</align>",
       "status": "machine",
       "srcHash": "5adab638a9e380e0",
@@ -239,7 +239,7 @@
     },
     "r8c2": {
       "en": "When reducing damage while blocking\\u002c deal Endurance Injury equal to Bite Force and Resilience Injury equal to Morale to the opponent.",
-      "cn": "格挡减伤时，对对手造成牙钳的耐力伤害和气势的斗性伤害",
+      "cn": "<align=\"left\">开始决斗时100%发动</align>",
       "ru": "При уменьшении урона при блокировании наносится Травма выносливости, равная Мощи укуса, и Травма устойчивости, равная моральному состоянию противника.",
       "status": "machine",
       "srcHash": "2741456cfc81cec4",
@@ -248,7 +248,7 @@
     },
     "r9c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-玉尾\"><color=#GradeColor_8>Jade Tail</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-玉尾\"><color=#GradeColor_8>玉尾</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-头陀\"><color=#GradeColor_8>头陀</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-玉尾\"><color=#GradeColor_8>Хвост из Нефрита</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "d073b40deabce35b",
@@ -257,7 +257,7 @@
     },
     "r9c1": {
       "en": "<align=\"center\">Momentum Break</align>",
-      "cn": "<align=\"center\">破势</align>",
+      "cn": "<align=\"center\">无相</align>",
       "ru": "<align=\"center\">Разрыв импульса</align>",
       "status": "machine",
       "srcHash": "58a54e426e15d6a5",
@@ -266,7 +266,7 @@
     },
     "r9c2": {
       "en": "+6 Bite Force after an attack. Stacks and lasts until the battle ends.",
-      "cn": "攻击后牙钳+6，可叠加持续到战斗结束",
+      "cn": "<align=\"left\">受到耐力、斗性伤害时有66%概率发动</align>",
       "ru": "+6 к Мощи укуса после Атаки. Складывается и сохраняется до окончания битвы.",
       "status": "machine",
       "srcHash": "e495a3e017277ca5",
@@ -275,7 +275,7 @@
     },
     "r10c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-赤须\"><color=#GradeColor_8>Red Whiskers</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-赤须\"><color=#GradeColor_8>赤须</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-铁弹子\"><color=#GradeColor_8>铁弹子</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-赤须\"><color=#GradeColor_8>Рыжие бакенбарды</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "e6649ccd7efb1d31",
@@ -284,7 +284,7 @@
     },
     "r10c1": {
       "en": "<align=\"center\">Body Sacrifice</align>",
-      "cn": "<align=\"center\">舍身</align>",
+      "cn": "<align=\"center\">反戈</align>",
       "ru": "<align=\"center\">Жертвоприношение тела</align>",
       "status": "machine",
       "srcHash": "06e1b6bbc7ab15d1",
@@ -293,7 +293,7 @@
     },
     "r10c2": {
       "en": "When dealing Resilience/Endurance damage: Damage = Base Damage × (120 + self corresponding Injury % × 2.5)%. Self loses 10% of current Resilience or Endurance (rounded down).",
-      "cn": "造成斗性/耐力伤害时，伤害值=基础值×(120+自身对应受伤百分比×2.5)%，自己损失当前10%的斗性或耐力（向下取整）",
+      "cn": "<align=\"left\">依据角力造成耐力伤害时100%发动</align>",
       "ru": "При нанесении урона стойкости/выносливости: Урон = Базовый урон × (120 + соответствующая самому себе Травма % × 2,5)%. \"Я\" теряет 10% текущей устойчивости или выносливости (округлено в меньшую сторону).",
       "status": "machine",
       "srcHash": "fd15b6428d5145c5",
@@ -302,7 +302,7 @@
     },
     "r11c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-铁弹子\"><color=#GradeColor_8>Iron Pellet</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-铁弹子\"><color=#GradeColor_8>铁弹子</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-赤须\"><color=#GradeColor_8>赤须</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-铁弹子\"><color=#GradeColor_8>Железная гранула</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "d0b0dd4043877066",
@@ -311,7 +311,7 @@
     },
     "r11c1": {
       "en": "<align=\"center\">Turnabout</align>",
-      "cn": "<align=\"center\">反戈</align>",
+      "cn": "<align=\"center\">舍身</align>",
       "ru": "<align=\"center\">Поворотный пункт</align>",
       "status": "machine",
       "srcHash": "5ab0a1d59ef483b0",
@@ -320,7 +320,7 @@
     },
     "r11c2": {
       "en": "+6 Strength after a counterattack. Stacks and lasts until the battle ends.",
-      "cn": "反击后角力+6，可叠加持续到战斗结束",
+      "cn": "<align=\"left\">造成耐力/斗性伤害时，发动概率% = 自身剩余耐力/斗性 ÷ 耐力/斗性上限</align>",
       "ru": "+6 к Силе после контратаки. Складывается и сохраняется до окончания битвы.",
       "status": "machine",
       "srcHash": "18dc65f8bba32e6f",
@@ -329,7 +329,7 @@
     },
     "r12c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-头陀\"><color=#GradeColor_8>Ascetic</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-头陀\"><color=#GradeColor_8>头陀</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-玉尾\"><color=#GradeColor_8>玉尾</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-头陀\"><color=#GradeColor_8>Аскетичный</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "22f8c0688f7b5d53",
@@ -338,7 +338,7 @@
     },
     "r12c1": {
       "en": "<align=\"center\">Formlessness</align>",
-      "cn": "<align=\"center\">无相</align>",
+      "cn": "<align=\"center\">破势</align>",
       "ru": "<align=\"center\">Бесформенность</align>",
       "status": "machine",
       "srcHash": "2d2852db4dcca18f",
@@ -347,7 +347,7 @@
     },
     "r12c2": {
       "en": "50% of lost Resilience is restored as Endurance\\u002c and 50% of lost Endurance is restored as Resilience (rounded down).",
-      "cn": "减少的斗性的50%会恢复为耐力、减少的耐力的50%会恢复为斗性（向下取整）",
+      "cn": "<align=\"left\">依据牙钳造成耐力伤害时100%发动</align>",
       "ru": "50% утраченной упругости восстанавливается как выносливость\\u002c, а 50% утраченной выносливости восстанавливается как упругость (округлено в меньшую сторону).",
       "status": "machine",
       "srcHash": "775bc9faaf7b8633",
@@ -356,7 +356,7 @@
     },
     "r13c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-朱砂额\"><color=#GradeColor_8>Cinnabar Forehead</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-朱砂额\"><color=#GradeColor_8>朱砂额</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-油纸灯\"><color=#GradeColor_8>油纸灯</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-朱砂额\"><color=#GradeColor_8>Киноварный лоб</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "4b81339dce81582f",
@@ -365,7 +365,7 @@
     },
     "r13c1": {
       "en": "<align=\"center\">Crimson Balefulness</align>",
-      "cn": "<align=\"center\">赤煞</align>",
+      "cn": "<align=\"center\">百战</align>",
       "ru": "<align=\"center\">Багровая зловещесть</align>",
       "status": "machine",
       "srcHash": "0e33d7f9c66c2e4d",
@@ -374,7 +374,7 @@
     },
     "r13c2": {
       "en": "The opponent immediately loses 1/3 of max Endurance and 1/3 of max Resilience (rounded up).",
-      "cn": "对手立即损失最大耐力1/3的耐力值与最大斗性1/3的斗性值（向上取整）",
+      "cn": "<align=\"left\">防御时有50%概率发动</align>",
       "ru": "Противник немедленно теряет 1/3 максимальной выносливости и 1/3 максимальной стойкости (округлено в большую сторону).",
       "status": "machine",
       "srcHash": "757709c537a01e07",
@@ -383,7 +383,7 @@
     },
     "r14c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-反生名\"><color=#GradeColor_8>Rebirth Name</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-反生名\"><color=#GradeColor_8>反生名</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-真三色\"><color=#GradeColor_8>真三色</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-反生名\"><color=#GradeColor_8>Имя перерождения</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "a4024df92fdfc0a6",
@@ -392,7 +392,7 @@
     },
     "r14c1": {
       "en": "<align=\"center\">Valor</align>",
-      "cn": "<align=\"center\">勇烈</align>",
+      "cn": "<align=\"center\">王血</align>",
       "ru": "<align=\"center\">Доблесть</align>",
       "status": "machine",
       "srcHash": "aee3eedd6fa07a2b",
@@ -401,7 +401,7 @@
     },
     "r14c2": {
       "en": "Counterattack injury is doubled.",
-      "cn": "反击时的伤害加倍",
+      "cn": "<align=\"left\">耐力、斗性、耐久任意一项属性降低至50%以下时，100%发动（每场决斗限一次）</align>",
       "ru": "Травма при контратаке удваивается.",
       "status": "machine",
       "srcHash": "131b891454b15f65",
@@ -410,7 +410,7 @@
     },
     "r15c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-披袍轩甲\"><color=#GradeColor_8>Robe Armor</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-披袍轩甲\"><color=#GradeColor_8>披袍轩甲</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-草三段\"><color=#GradeColor_8>草三段</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-披袍轩甲\"><color=#GradeColor_8>Мантия- Броня</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "f7ec9b407d56813b",
@@ -419,7 +419,7 @@
     },
     "r15c1": {
       "en": "<align=\"center\">Radiant Armor</align>",
-      "cn": "<align=\"center\">煌甲</align>",
+      "cn": "<align=\"center\">异血</align>",
       "ru": "<align=\"center\">Сияющая Броня</align>",
       "status": "machine",
       "srcHash": "de6a60dc0d7c8a47",
@@ -428,7 +428,7 @@
     },
     "r15c2": {
       "en": "Deals Endurance and Resilience damage equal to 150% of the round count (rounded up).",
-      "cn": "对对手造成相当于回合数150%的耐力、斗性伤害（向上取整）",
+      "cn": "<align=\"left\">回合开始时有66%概率发动</align>",
       "ru": "Наносит урон по выносливости и сопротивляемости, равный 150% от количества раундов (округлено в большую сторону).",
       "status": "machine",
       "srcHash": "ab09458882784b0e",
@@ -437,7 +437,7 @@
     },
     "r16c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-玉锄头\"><color=#GradeColor_8>Jade Hoe</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-玉锄头\"><color=#GradeColor_8>玉锄头</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-真紫黄\"><color=#GradeColor_8>真紫黄</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-玉锄头\"><color=#GradeColor_8>Мотыга из Нефрита</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "efddc0a2e12750df",
@@ -446,7 +446,7 @@
     },
     "r16c1": {
       "en": "<align=\"center\">Sword Nurturing</align>",
-      "cn": "<align=\"center\">养剑</align>",
+      "cn": "<align=\"center\">幻形</align>",
       "ru": "<align=\"center\">Воспитание Меча</align>",
       "status": "machine",
       "srcHash": "f9cb4c02086d09f4",
@@ -455,7 +455,7 @@
     },
     "r16c2": {
       "en": "+10 Critical Damage. Stackable and lasts until the battle ends.",
-      "cn": "增加10暴击伤害，可叠加持续到到战斗结束",
+      "cn": "<align=\"left\">暴击时100%发动</align>",
       "ru": "+10 критического урона. Накапливается и длится до окончания битвы.",
       "status": "machine",
       "srcHash": "a98da1a00f578698",
@@ -464,7 +464,7 @@
     },
     "r17c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-跑马黄\"><color=#GradeColor_8>Galloping Yellow</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-跑马黄\"><color=#GradeColor_8>跑马黄</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-梅花翅\"><color=#GradeColor_8>梅花翅</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-跑马黄\"><color=#GradeColor_8>Скачущий желтый</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "58677b8d94292405",
@@ -473,7 +473,7 @@
     },
     "r17c1": {
       "en": "<align=\"center\">Gallop</align>",
-      "cn": "<align=\"center\">驰骋</align>",
+      "cn": "<align=\"center\">极势</align>",
       "ru": "<align=\"center\">Галопом</align>",
       "status": "machine",
       "srcHash": "edfd36814676fa8a",
@@ -482,7 +482,7 @@
     },
     "r17c2": {
       "en": "Prevents enemy Critical hits and Block.",
-      "cn": "避免被对手暴击、格挡",
+      "cn": "<align=\"left\">依据气势造成斗性伤害时100%发动</align>",
       "ru": "Предотвращает критические удары и блокировку противника.",
       "status": "machine",
       "srcHash": "06bbf0615e0c5ed6",
@@ -491,7 +491,7 @@
     },
     "r18c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-吹铃\"><color=#GradeColor_8>Blowing Bell</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-吹铃\"><color=#GradeColor_8>吹铃</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-天蓝青\"><color=#GradeColor_8>天蓝青</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-吹铃\"><color=#GradeColor_8>Дующий колокол</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "7d9bd2ea0c7010c8",
@@ -500,7 +500,7 @@
     },
     "r18c1": {
       "en": "<align=\"center\">Soulcatcher</align>",
-      "cn": "<align=\"center\">摄魂</align>",
+      "cn": "<align=\"center\">净天</align>",
       "ru": "<align=\"center\">Ловец душ</align>",
       "status": "machine",
       "srcHash": "1216a2a7b751fac4",
@@ -509,7 +509,7 @@
     },
     "r18c2": {
       "en": "On active attack\\u002c even non-critical hits deal Resilience damage equal to Morale.",
-      "cn": "主动攻击时即使未暴击也能造成相当于气势的斗性伤害",
+      "cn": "<align=\"left\">对手促织发动技能时50%发动</align>",
       "ru": "При активной Атаке даже некритические попадания наносят урон устойчивости, равный моральному духу.",
       "status": "machine",
       "srcHash": "a76069af4c9d3487",
@@ -518,7 +518,7 @@
     },
     "r19c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-两头枪\"><color=#GradeColor_8>Double-headed Spear</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-两头枪\"><color=#GradeColor_8>两头枪</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-三段锦\"><color=#GradeColor_8>三段锦</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-两头枪\"><color=#GradeColor_8>Двуглавое копье</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "44fb66d4345c2df5",
@@ -527,7 +527,7 @@
     },
     "r19c1": {
       "en": "<align=\"center\">Parry</align>",
-      "cn": "<align=\"center\">招架</align>",
+      "cn": "<align=\"center\">威严</align>",
       "ru": "<align=\"center\">Парирование</align>",
       "status": "machine",
       "srcHash": "fb4cb82cd54c274a",
@@ -536,7 +536,7 @@
     },
     "r19c2": {
       "en": "Endurance and Resilience Critical Damage taken is reduced to 0.",
-      "cn": "受到的耐力、斗性伤害变成0",
+      "cn": "<align=\"left\">回合开始时有概率发动，自身牙钳、角力、气势每有一项高于对手，发动概率+20%</align>",
       "ru": "Выносливость и сопротивляемость, получаемый критический урон снижен до 0.",
       "status": "machine",
       "srcHash": "c2960f5b089e1050",
@@ -545,7 +545,7 @@
     },
     "r20c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-绣花针\"><color=#GradeColor_8>Embroidery Needle</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-绣花针\"><color=#GradeColor_8>绣花针</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-三太子\"><color=#GradeColor_8>三太子</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-绣花针\"><color=#GradeColor_8>Игла для вышивания</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "8a0db1b4f635dd27",
@@ -554,7 +554,7 @@
     },
     "r20c1": {
       "en": "<align=\"center\">Poison Spike</align>",
-      "cn": "<align=\"center\">毒锥</align>",
+      "cn": "<align=\"center\">焚莲</align>",
       "ru": "<align=\"center\">Шип с Ядом</align>",
       "status": "machine",
       "srcHash": "4f75f9da192203fd",
@@ -563,7 +563,7 @@
     },
     "r20c2": {
       "en": "Immediately triggers an additional critical hit.",
-      "cn": "立即进行一次额外的暴击",
+      "cn": "<align=\"left\">非本效果触发暴击、防御时100%发动</align>",
       "ru": "Немедленно вызывает дополнительный критический удар.",
       "status": "machine",
       "srcHash": "52b4c02c9f67f8d6",
@@ -572,7 +572,7 @@
     },
     "r21c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-呆物\"><color=#GradeColor_0>Dullard</color></link></u></color></align>",
-      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-呆物\"><color=#GradeColor_0>呆物</color></link></u></color></align>",
+      "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-八败\"><color=#GradeColor_8>八败</color></link></u></color></align>",
       "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-呆物\"><color=#GradeColor_0>Тупица</color></link></u></color></align>",
       "status": "machine",
       "srcHash": "7a0b84aa8e973836",
@@ -581,7 +581,7 @@
     },
     "r21c1": {
       "en": "<align=\"center\">Skip Turn</align>",
-      "cn": "<align=\"center\">让手</align>",
+      "cn": "<align=\"center\">逆命</align>",
       "ru": "<align=\"center\">Пропустить поворот</align>",
       "status": "machine",
       "srcHash": "73c9270a1a385af4",
@@ -590,7 +590,7 @@
     },
     "r21c2": {
       "en": "If you win the duel\\u002c the opponent grants an additional random reward (if only the base XP reward is available\\u002c it is doubled).",
-      "cn": "若最终决斗胜利，对方额外随机赠上一份押注的奖品（若对方仅有保底的历练奖品，则该奖品翻倍）",
+      "cn": "<align=\"left\">被进攻、被反击、被鸣叫时，有66%概率发动</align>",
       "ru": "Если вы выигрываете Поединок, противник получает дополнительную случайную награду (если доступна только базовая награда за опыт, она удваивается).",
       "status": "machine",
       "srcHash": "a5d8348ab5b20a3d",
