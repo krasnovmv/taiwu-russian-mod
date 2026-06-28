@@ -1,11 +1,11 @@
 /**
  * Discovery of source language files across all formats.
  */
-import { readdir } from "node:fs/promises";
+import { readdir, stat } from "node:fs/promises";
 import path from "node:path";
 
-import { eventDlcDir, eventLanguagesDir, languageDir } from "./config/paths.js";
-import { EVENT_DLC_PREFIX, EVENT_PREFIX } from "./config/sources.js";
+import { eventDlcDir, eventLanguagesDir, languageDir, projectRoot } from "./config/paths.js";
+import { BUNDLE_OPTIONTIPS_PREFIX, EVENT_DLC_PREFIX, EVENT_PREFIX } from "./config/sources.js";
 
 /** Top-level `.txt` files (the paired-txt format), sorted. */
 export async function listTxtFiles(): Promise<string[]> {
@@ -117,6 +117,21 @@ export async function listDlcEventFiles(): Promise<string[]> {
 }
 
 /**
+ * The bundled EventOptionTips source, if it has been extracted into the repo
+ * (`tools/extract-option-tips.py`). A single-file family; returns `[]` if absent.
+ */
+export async function listOptionTipsFiles(): Promise<string[]> {
+  const id = `${BUNDLE_OPTIONTIPS_PREFIX}EventOptionTips_EN.txt`;
+  try {
+    await stat(path.join(projectRoot, id));
+    return [id];
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === "ENOENT") return [];
+    throw err;
+  }
+}
+
+/**
  * Whether the root `Event_Languages` quest text participates in the pipeline. It
  * is OFF by default (that corpus is large and translated separately); set
  * `TAIWU_EVENTS=1` to fold it back into discovery so `translate`/`apply`/
@@ -135,12 +150,13 @@ export function eventsEnabled(): boolean {
  * quest text. The adapter registry maps each to its format.
  */
 export async function listSourceFiles(): Promise<string[]> {
-  const [txt, tsv, json, events, dlc] = await Promise.all([
+  const [txt, tsv, json, events, dlc, optionTips] = await Promise.all([
     listTxtFiles(),
     listUnder("EncyclopediaAssets", [".tsv"]),
     listUnder("CommonTip", [".json"]),
     eventsEnabled() ? listEventFiles() : Promise.resolve([]),
     listDlcEventFiles(),
+    listOptionTipsFiles(),
   ]);
-  return [...txt, ...tsv, ...json, ...events, ...dlc];
+  return [...txt, ...tsv, ...json, ...events, ...dlc, ...optionTips];
 }

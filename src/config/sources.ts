@@ -22,6 +22,7 @@ import path from "node:path";
 import { realpathSync } from "node:fs";
 
 import {
+  eventOptionTipsOutDir,
   languageCnDir,
   languageDir,
   languageRuDir,
@@ -35,11 +36,22 @@ import {
 export const EVENT_PREFIX = "Event_Languages/";
 /** Id prefix for the always-on per-DLC quest packs. */
 export const EVENT_DLC_PREFIX = "Event_DLC/";
+/**
+ * Id prefix for text extracted from a Unity bundle (currently only EventOptionTips).
+ * EN/CN sources live as loose files under this repo dir (`tools/extract-option-tips.py`);
+ * output goes to the game's `EventLanguages_<outLang>` with a `_<LANG>` suffix.
+ */
+export const BUNDLE_OPTIONTIPS_PREFIX = "bundle-src/Language_EventOptionTips/";
 
 /** True when `file` is a quest/event source id (root folder or a DLC pack). */
 export function isEventFile(file: string): boolean {
   const posix = file.replace(/\\/g, "/");
   return posix.startsWith(EVENT_PREFIX) || posix.startsWith(EVENT_DLC_PREFIX);
+}
+
+/** True when `file` is the bundled EventOptionTips source id. */
+export function isOptionTipsFile(file: string): boolean {
+  return file.replace(/\\/g, "/").startsWith(BUNDLE_OPTIONTIPS_PREFIX);
 }
 
 export interface SourcePaths {
@@ -54,6 +66,16 @@ export interface SourcePaths {
 /** Resolve the EN / CN / output paths for a source-file id. */
 export function resolveSource(file: string): SourcePaths {
   const posix = file.replace(/\\/g, "/");
+  if (isOptionTipsFile(posix)) {
+    // Bundled EventOptionTips: EN/CN are loose files in the repo; the output goes
+    // to the game's EventLanguages_<outLang> with the `_EN` suffix swapped.
+    const base = posix.split("/").pop() ?? posix; // EventOptionTips_EN.txt
+    return {
+      en: path.join(projectRoot, posix),
+      cn: path.join(projectRoot, posix.replace(/_EN\.txt$/, "_CN.txt")),
+      out: path.join(eventOptionTipsOutDir(), base.replace(/_EN\.txt$/, `_${outLang}.txt`)),
+    };
+  }
   if (isEventFile(posix)) {
     // Event ids are full repo-relative paths; EN/CN/output are filename siblings.
     // EN source and CN reference always come from the game tree. The output

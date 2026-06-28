@@ -107,3 +107,14 @@ export const languageRuDir = process.env.TAIWU_LANG_RU_DIR
   : outputDir
     ? mirrorToOutput(realpathSync(languageDir))
     : path.join(projectRoot, `Language_${outLang}`);
+
+/**
+ * Game `StreamingAssets/EventLanguages_<outLang>` — where the bundled
+ * EventOptionTips translation is written (the TaiwuRus EventOptionTips patch
+ * reads it from there). Derived from the real `Language_EN` location so it tracks
+ * the actual game install. Lazy: only resolves the junction when called.
+ */
+export function eventOptionTipsOutDir(): string {
+  const streamingAssets = path.dirname(realpathSync(languageDir));
+  return path.join(streamingAssets, `EventLanguages_${outLang}`);
+}
