@@ -1,35 +1,38 @@
-﻿using Config.EventConfig;
-using GameData.Domains.TaiwuEvent;
+﻿using System;
+using System.IO;
+using Config.EventConfig;
 using HarmonyLib;
 
 namespace TaiwuRus.Backend
 {
     /// <summary>
-    /// Events/dialogue/quests load via <see cref="TaiwuEventDomain.ReloadSinglePackageLanguage"/>,
-    /// which formats the per-package pattern "..._Language_{0}.txt" with
+    /// Events/dialogue/quests load via <see cref="EventPackage.InitLanguage"/>, called from
+    /// <c>TaiwuEventDomain.ReloadSinglePackageLanguage</c> with the path formatted from
     /// <c>LocalStringManager.CurLanguageType</c> — an enum {CN,EN,KO,CNH,JP} that falls back to
-    /// EN for "RU". So without this patch every event package loads its English file.
+    /// EN for "RU". So for Russian the engine asks for "..._Language_EN.txt".
     ///
-    /// Typed against the publicized GameData assembly: a rename of the method, the
-    /// <c>_languageFilePattern</c> field, or <c>EventPackage.InitLanguage</c> breaks the BUILD.
+    /// We rewrite that argument to "..._Language_RU.txt" when the RU file exists. The TM produces
+    /// a complete RU folder (untranslated lines stay English), so loading the RU file alone covers
+    /// everything. Typed against public <see cref="EventPackage.InitLanguage"/> — a rename breaks
+    /// the BUILD — and uses no private members, so no runtime access-check issues.
     /// </summary>
-    [HarmonyPatch(typeof(TaiwuEventDomain), nameof(TaiwuEventDomain.ReloadSinglePackageLanguage))]
+    [HarmonyPatch(typeof(EventPackage), nameof(EventPackage.InitLanguage))]
     internal static class EventLanguagePatch
     {
-        private static bool Prefix(EventPackage package)
+        private const string EnSuffix = "_Language_EN.txt";
+        private const string RuSuffix = "_Language_RU.txt";
+
+        private static void Prefix(ref string languageFilePath)
         {
-            // Let the engine handle the built-in languages (CN/EN/KO/CNH/JP) normally.
             if (LocalStringManager.CurLanguageKey != "RU")
-                return true;
+                return;
+            if (string.IsNullOrEmpty(languageFilePath)
+                || !languageFilePath.EndsWith(EnSuffix, StringComparison.Ordinal))
+                return;
 
-            if (!TaiwuEventDomain._languageFilePattern.TryGetValue(package, out string pattern)
-                || string.IsNullOrEmpty(pattern))
-                return false;
-
-            // EN first as the base (covers untranslated packages), then overlay RU where present.
-            package.InitLanguage(string.Format(pattern, "EN"));
-            package.InitLanguage(string.Format(pattern, "RU"));
-            return false;
+            string ru = languageFilePath.Substring(0, languageFilePath.Length - EnSuffix.Length) + RuSuffix;
+            if (File.Exists(ru))
+                languageFilePath = ru;
         }
     }
 }
