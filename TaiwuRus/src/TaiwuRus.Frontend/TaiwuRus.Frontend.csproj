@@ -52,6 +52,10 @@
             <HintPath>$(ManagedDir)\GameData.Shared.dll</HintPath>
             <Private>false</Private>
         </Reference>
+        <Reference Include="Newtonsoft.Json">
+            <HintPath>$(ManagedDir)\Newtonsoft.Json.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
         <Reference Include="UnityEngine.CoreModule">
             <HintPath>$(ManagedDir)\UnityEngine.CoreModule.dll</HintPath>
             <Private>false</Private>
