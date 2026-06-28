@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <AssemblyName>TaiwuRusB</AssemblyName>
+        <RootNamespace>TaiwuRus.Backend</RootNamespace>
+        <LangVersion>latest</LangVersion>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <!-- Both plugins build into the shared mod package folder. -->
+        <OutputPath>..\..\dist\Plugins\</OutputPath>
+
+        <!-- Game install root. Override with -p:GameDir=... or env TAIWU_GAME_DIR. -->
+        <GameDir Condition="'$(GameDir)' == '' and '$(TAIWU_GAME_DIR)' != ''">$(TAIWU_GAME_DIR)</GameDir>
+        <GameDir Condition="'$(GameDir)' == ''">D:\SteamLibrary\steamapps\common\The Scroll Of Taiwu</GameDir>
+        <BackendDir>$(GameDir)\Backend</BackendDir>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="..\TaiwuRus.Shared\ModInfo.cs" Link="ModInfo.cs" />
+    </ItemGroup>
+
+    <!-- Backend (.NET 8) assemblies. Private=false: they ship with the game. -->
+    <ItemGroup>
+        <Reference Include="0Harmony">
+            <HintPath>$(BackendDir)\0Harmony.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="TaiwuModdingLib">
+            <HintPath>$(BackendDir)\TaiwuModdingLib.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="GameData">
+            <HintPath>$(BackendDir)\GameData.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="GameData.Shared">
+            <HintPath>$(BackendDir)\GameData.Shared.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="GameData.Utilities">
+            <HintPath>$(BackendDir)\GameData.Utilities.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+</Project>

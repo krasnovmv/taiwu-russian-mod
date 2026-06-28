@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <AssemblyName>TaiwuRusF</AssemblyName>
+        <RootNamespace>TaiwuRus.Frontend</RootNamespace>
+        <LangVersion>latest</LangVersion>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <!-- Both plugins build into the shared mod package folder. -->
+        <OutputPath>..\..\dist\Plugins\</OutputPath>
+
+        <!-- Game install root. Override with -p:GameDir=... or env TAIWU_GAME_DIR. -->
+        <GameDir Condition="'$(GameDir)' == '' and '$(TAIWU_GAME_DIR)' != ''">$(TAIWU_GAME_DIR)</GameDir>
+        <GameDir Condition="'$(GameDir)' == ''">D:\SteamLibrary\steamapps\common\The Scroll Of Taiwu</GameDir>
+        <ManagedDir>$(GameDir)\The Scroll of Taiwu_Data\Managed</ManagedDir>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="..\TaiwuRus.Shared\ModInfo.cs" Link="ModInfo.cs" />
+    </ItemGroup>
+
+    <!-- Lets net48 build without a machine-wide Developer Pack. -->
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net48" Version="1.0.3" PrivateAssets="all" />
+    </ItemGroup>
+
+    <!-- Frontend (Unity/Mono) assemblies. Private=false: they ship with the game. -->
+    <ItemGroup>
+        <Reference Include="0Harmony">
+            <HintPath>$(ManagedDir)\0Harmony.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="TaiwuModdingLib">
+            <HintPath>$(ManagedDir)\TaiwuModdingLib.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="Assembly-CSharp">
+            <HintPath>$(ManagedDir)\Assembly-CSharp.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+            <HintPath>$(ManagedDir)\UnityEngine.CoreModule.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="UnityEngine.UI">
+            <HintPath>$(ManagedDir)\UnityEngine.UI.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="Unity.TextMeshPro">
+            <HintPath>$(ManagedDir)\Unity.TextMeshPro.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+</Project>

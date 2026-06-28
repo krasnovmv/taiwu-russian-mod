@@ -477,3 +477,9 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
+# Built mod payload (both plugins compile here); the rest of dist/ is the package
+/dist/Plugins/
+
+# Rider per-project settings
+*.DotSettings
+
