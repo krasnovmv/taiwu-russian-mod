@@ -55,4 +55,19 @@
         </Reference>
     </ItemGroup>
 
+    <!-- After build, deploy the whole mod package (dist/) into the game's Mod folder. -->
+    <Target Name="DeployToGame" AfterTargets="Build" Condition="Exists('$(GameDir)')">
+        <PropertyGroup>
+            <ModDeployDir>$(GameDir)\Mod\TaiwuRus</ModDeployDir>
+            <DistDir>$(MSBuildProjectDirectory)\..\..\dist</DistDir>
+        </PropertyGroup>
+        <ItemGroup>
+            <DeployFiles Include="$(DistDir)\**\*" />
+        </ItemGroup>
+        <Copy SourceFiles="@(DeployFiles)"
+              DestinationFiles="@(DeployFiles->'$(ModDeployDir)\%(RecursiveDir)%(Filename)%(Extension)')"
+              SkipUnchangedFiles="true" />
+        <Message Importance="high" Text="[TaiwuRus] deployed dist -&gt; $(ModDeployDir)" />
+    </Target>
+
 </Project>
