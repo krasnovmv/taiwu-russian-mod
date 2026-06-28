@@ -19,6 +19,7 @@ namespace TaiwuRus.Frontend
         {
             _harmony = new Harmony("com.krasnovmv.taiwurus.frontend");
             _harmony.PatchAll(typeof(FrontendPlugin).Assembly);
+            SortingFix.Apply();
             Debug.Log("[TaiwuRus] frontend plugin loaded");
         }
 
