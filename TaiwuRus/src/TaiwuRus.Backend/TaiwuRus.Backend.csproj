@@ -24,6 +24,13 @@
         <Compile Include="..\TaiwuRus.Shared\ModInfo.cs" Link="ModInfo.cs" />
     </ItemGroup>
 
+    <!-- Compile-checked typed access to the game's private/internal backend members.
+         A renamed type/method/field now breaks the BUILD instead of silently no-op'ing. -->
+    <ItemGroup>
+        <PackageReference Include="Krafs.Publicizer" Version="2.2.1" PrivateAssets="all" />
+        <Publicize Include="GameData" />
+    </ItemGroup>
+
     <!-- Backend (.NET 8) assemblies. Private=false: they ship with the game. -->
     <ItemGroup>
         <Reference Include="0Harmony">

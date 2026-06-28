@@ -25,6 +25,13 @@
     <!-- Lets net48 build without a machine-wide Developer Pack. -->
     <ItemGroup>
         <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net48" Version="1.0.3" PrivateAssets="all" />
+        <PackageReference Include="Krafs.Publicizer" Version="2.2.1" PrivateAssets="all" />
+    </ItemGroup>
+
+    <!-- Compile-checked typed access to the game's private/internal frontend members.
+         A renamed type/method/field now breaks the BUILD instead of silently no-op'ing. -->
+    <ItemGroup>
+        <Publicize Include="Assembly-CSharp" />
     </ItemGroup>
 
     <!-- Frontend (Unity/Mono) assemblies. Private=false: they ship with the game. -->
@@ -39,6 +46,10 @@
         </Reference>
         <Reference Include="Assembly-CSharp">
             <HintPath>$(ManagedDir)\Assembly-CSharp.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="GameData.Shared">
+            <HintPath>$(ManagedDir)\GameData.Shared.dll</HintPath>
             <Private>false</Private>
         </Reference>
         <Reference Include="UnityEngine.CoreModule">
