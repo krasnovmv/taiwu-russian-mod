@@ -60,11 +60,11 @@
     "6102204c-78fa-484e-94e1-158f5c68da79/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> defeats <Character key=MonthlyEvent_arg1 str=Name/>!<NL><NL>\"Your persistent obstruction<NL>makes you an enemy of <Settlement key=SettlementId str=Name/>. We'll settle this another day!\"<NL>Beaten, <Character key=MonthlyEvent_arg1 str=Name/> retreats toward <Settlement key=SettlementId str=Name/>...",
       "cn": "<Character key=RoleTaiwu str=Name/>击败了<Character key=MonthlyEvent_arg1 str=Name/>！<NL><NL>“阁下如此百般阻挠，<NL>便是与我<Settlement key=SettlementId str=Name/>为敌，且待来日再做计较！”<NL><Character key=MonthlyEvent_arg1 str=Name/>见追捕不利，连忙夺路而走，往<Settlement key=SettlementId str=Name/>的方向退去……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "dedd38b89632a01d",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> поражения <Character key=MonthlyEvent_arg1 str=Name/>!<NL><NL>\"Ваше упорное препятствие<NL>делает тебя врагом <Settlement key=SettlementId str=Name/> Мы уладим это в другой раз!\"<NL>Избитый, <Character key=MonthlyEvent_arg1 str=Name/> отступает навстречу <Settlement key=SettlementId str=Name/>...",
+      "status": "machine",
+      "srcHash": "8b58ccc5dd4b9e18",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "6102204c-78fa-484e-94e1-158f5c68da79/Option_1": {
       "en": "(This is good...)",
@@ -96,11 +96,11 @@
     "045159b3-1dcb-41b1-90cb-e2dc87584fee/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> receives a letter from the <Settlement key=SettlementId str=Name/> prison,<NL>stating that <Character key=MonthlyEvent_arg0 str=Name/>, who was previously imprisoned, has served their sentence and is about to be released.<NL>As <Character key=RoleTaiwu str=Name/> guaranteed their imprisonment, the authorities are seeking final confirmation...",
       "cn": "<Character key=RoleTaiwu str=Name/>收到一封<Settlement key=SettlementId str=Name/>监牢寄来的书信，<NL>原来是此前关押的<Character key=MonthlyEvent_arg0 str=Name/>已然刑满，即将获释，<NL>因是<Character key=RoleTaiwu str=Name/>作保送监，故而特来询问……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "940e9bd080cb67d6",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> получает письмо от <Settlement key=SettlementId str=Name/> тюрьма,<NL>заявляя, что <Character key=MonthlyEvent_arg0 str=Name/>, который ранее находился в заключении, отбыл свое наказание и вот-вот выйдет на свободу.<NL>Как <Character key=RoleTaiwu str=Name/> гарантированное им тюремное заключение, власти добиваются окончательного подтверждения...",
+      "status": "machine",
+      "srcHash": "25ffc1788dae1760",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "045159b3-1dcb-41b1-90cb-e2dc87584fee/Option_1": {
       "en": "(Continue detention...)",
@@ -267,11 +267,11 @@
     "32111315-af70-46f1-8a6a-5c3536153ec4/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> captures <Character key=CharacterId str=Name/>!<NL><NL><Character key=CharacterId str=Name/> is on <Settlement key=SettlementId str=Name/>'s bounty list.<NL>If you take <Character key=RoleTaiwu str=GenderObject/> to <Settlement key=SettlementId str=Name/> and hand <Character key=RoleTaiwu str=GenderObject/> over to the prison, you can claim the bounty...",
       "cn": "<Character key=RoleTaiwu str=Name/>擒获了<Character key=CharacterId str=Name/>！<NL><NL><Character key=CharacterId str=Name/>名列<Settlement key=SettlementId str=Name/>的悬赏榜，<NL>若将此人带至<Settlement key=SettlementId str=Name/>，送入监牢，便可领取榜上赏金……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "ce4c2121ae3668fa",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> захватывает <Character key=CharacterId str=Name/>!<NL><NL><Character key=CharacterId str=Name/> включен <Settlement key=SettlementId str=Name/>это список наград.<NL>Если вы возьмете <Character key=RoleTaiwu str=GenderObject/> к <Settlement key=SettlementId str=Name/> и рука <Character key=RoleTaiwu str=GenderObject/> отправляясь в тюрьму, вы можете претендовать на награду...",
+      "status": "machine",
+      "srcHash": "5c96a01462a5b4cb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "32111315-af70-46f1-8a6a-5c3536153ec4/Option_1": {
       "en": "(This is good...)",
@@ -546,11 +546,11 @@
     "03781759-555a-4cb1-aa01-17c8a451b710/EventContent": {
       "en": "\"<Settlement key=SettlementId str=PrisonName/> is a restricted area of <Settlement key=SettlementId str=Name/>. No entrance without permission.<NL>But, you have gained our sect's support.<NL>I guess you can be allowed to enter...\"<NL><NL>The prison guard steps aside to let <Character key=RoleTaiwu str=Name/> pass...",
       "cn": "“<Settlement key=SettlementId str=PrisonName/>乃我<Settlement key=SettlementId str=Name/>重地，闲杂人等本不得擅入。<NL>不过，阁下既已备受我派支持，<NL>姑且任阁下通行，料也无妨……”<NL><NL>监牢守卫见到<Character key=RoleTaiwu str=Name/>，便即侧身放行……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "72e5e39ac27d4078",
-      "engine": null,
-      "updatedAt": null
+      "ru": "\"<Settlement key=SettlementId str=PrisonName/> является запретной зоной для <Settlement key=SettlementId str=Name/> Вход воспрещен без разрешения.<NL>Но вы заручились Поддержкой нашей Секты.<NL>Я думаю, вам может быть позволено войти...\"<NL><NL>Тюремный охранник отходит в сторону, чтобы пропустить <Character key=RoleTaiwu str=Name/> проходите...",
+      "status": "machine",
+      "srcHash": "0ea34f715ae6c217",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "03781759-555a-4cb1-aa01-17c8a451b710/Option_1": {
       "en": "(This is good...)",
@@ -807,11 +807,11 @@
     "893d5c61-5ceb-41f5-add3-2b21c4519e22/EventContent": {
       "en": "\"This person is from <Settlement key=SettlementId str=Name/>,<NL>and no crimes to warrant imprisonment.<NL><NL>As the Successor of Taiwu, you may detain <Character key=RoleTaiwu str=GenderObject/><NL>if you pledge significant 'support' from <Settlement key=SettlementId str=Name/> as collateral.<NL>Otherwise, it will be hard to justify...\"",
       "cn": "“此人乃是我<Settlement key=SettlementId str=Name/>中人，<NL>并未有何罪名，本不应收押于此。<NL><NL>阁下身为太吾传人，若执意关押此人，<NL>需有<Settlement key=SettlementId str=Name/>中诸多‘支持’作为担保，<NL>如若不然，恐怕难以服众……”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "af6cddd552372d0c",
-      "engine": null,
-      "updatedAt": null
+      "ru": "\"Этот человек из <Settlement key=SettlementId str=Name/>,<NL>и никаких преступлений, заслуживающих тюремного заключения.<NL><NL>Как Преемник Тайу, вы можете задержать <Character key=RoleTaiwu str=GenderObject/><NL>если вы обещаете значительную \"Поддержку\" со стороны <Settlement key=SettlementId str=Name/> в качестве залога.<NL>В противном случае это будет трудно оправдать...\"",
+      "status": "machine",
+      "srcHash": "0a98c3b0b161b241",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "893d5c61-5ceb-41f5-add3-2b21c4519e22/Option_1": {
       "en": "(Temporary detention...)",
@@ -924,11 +924,11 @@
     "bd12f916-e572-4372-9ef3-b1aba6bb182f/EventContent": {
       "en": "\"With Successor of Taiwu's guarantee,<NL>we'll imprison this individual and keep <Character key=RoleTaiwu str=GenderObject/> under strict supervision...\"<NL><NL><color=#lightgrey>(<Character key=SelectCharacterId str=Name/> has been imprisoned in <Settlement key=SettlementId str=PrisonName/>...)</color>",
       "cn": "“既有太吾传人担保，<NL>我等这便将此人押入监牢，严加看管……”<NL><NL><color=#lightgrey>（<Character key=SelectCharacterId str=Name/>被押入<Settlement key=SettlementId str=PrisonName/>……）</color>",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "0428ec5e85c6acc4",
-      "engine": null,
-      "updatedAt": null
+      "ru": "\"С гарантией Преемника Тайу,<NL>мы посадим этого человека в тюрьму и будем держать <Character key=RoleTaiwu str=GenderObject/> под строгим наблюдением...\"<NL><NL><color=#lightgrey>(<Character key=SelectCharacterId str=Name/> был заключен в тюрьму в <Settlement key=SettlementId str=PrisonName/>...)</color>",
+      "status": "machine",
+      "srcHash": "091054af846eceb6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "bd12f916-e572-4372-9ef3-b1aba6bb182f/Option_1": {
       "en": "(This is good...)",
@@ -1248,11 +1248,11 @@
     "41520721-1843-4415-a1ba-3f01279df53b/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> nods in agreement and hands over <Character key=MonthlyEvent_arg2 str=Name/> to <Settlement key=SettlementId str=Name/> for handling...<NL><NL><Character key=MonthlyEvent_arg1 str=Name/> binds <Character key=MonthlyEvent_arg2 str=Name/> tightly,<NL>thanks <Character key=RoleTaiwu str=Name/>, and then leaves...",
       "cn": "<Character key=RoleTaiwu str=Name/>点头同意，将<Character key=MonthlyEvent_arg2 str=Name/>交由<Settlement key=SettlementId str=Name/>处置……<NL><NL>只见<Character key=MonthlyEvent_arg1 str=Name/>将<Character key=MonthlyEvent_arg2 str=Name/>五花大绑，<NL>向<Character key=RoleTaiwu str=Name/>称谢一番，便离开了此地……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "6bc1a57df8dbbb76",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> кивает в знак согласия и передает <Character key=MonthlyEvent_arg2 str=Name/> к <Settlement key=SettlementId str=Name/> для обработки...<NL><NL><Character key=MonthlyEvent_arg1 str=Name/> связывает <Character key=MonthlyEvent_arg2 str=Name/> плотно,<NL>спасибо <Character key=RoleTaiwu str=Name/>, а затем уходит...",
+      "status": "machine",
+      "srcHash": "d750d94739f7c7b6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "41520721-1843-4415-a1ba-3f01279df53b/Option_1": {
       "en": "(This is good...)",
@@ -1635,11 +1635,11 @@
     "cf45a1a9-b1f7-4457-8447-2af5479d133f/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/>, being one against so many,<NL>has a momentary lapse and is besieged by guards.<NL>As the battle drags on, more and more guards run over and <Character key=RoleTaiwu str=Name/> is seized.<NL>\"As a Taiwu, how dare you commit such a crime?<NL>Today you will be taught to follow the rules of <Settlement key=SettlementId str=Name/>!\"",
       "cn": "<Character key=RoleTaiwu str=Name/>双拳难敌四手，<NL>一时疏忽竟被守卫团团围住，脱身不得，<NL>几经缠斗，越来越多守卫奔至，将<Character key=RoleTaiwu str=Name/>押住，<NL>“阁下既为太吾，安敢这般违法乱纪？<NL>今日便教你知道，我<Settlement key=SettlementId str=Name/>的规矩！”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "2c18ad4c16aede43",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> быть одним против стольких,<NL>происходит кратковременный сбой, и его осаждают охранники.<NL>По мере того как битва затягивается, все больше и больше охранников подбегают и <Character key=RoleTaiwu str=Name/> схвачен.<NL>\"Как Тайу, как ты посмел совершить такое преступление?<NL>Сегодня вас научат следовать правилам <Settlement key=SettlementId str=Name/>!\"",
+      "status": "machine",
+      "srcHash": "7c179a92a7066ddb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "cf45a1a9-b1f7-4457-8447-2af5479d133f/Option_1": {
       "en": "(Decry the absurdity...)",

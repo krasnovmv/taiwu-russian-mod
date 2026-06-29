@@ -24,11 +24,11 @@
     "6365d7c8-34c5-4252-a4c2-a7ddd9a88644/EventContent": {
       "en": "<Character key=Drinker str=Name/> stares at the fine wine on the table, mouth watering, about to take a hearty sip, but notices the wine's strange color.<NL>He frowns, sets the jug down, and calls out to the shopkeeper...<NL><NL><color=#lightgrey>(The wine is unusual but cannot be poured out. Drinking it may neutralize its poison...)</color>",
       "cn": "<Character key=Drinker str=Name/>凝视案头美酒，垂涎三尺，正欲抱壶畅饮，却见坛中酒色阴异，<NL>不由面露狐疑之色，放下酒壶，转头呼喊店家……<NL><NL><color=#lightgrey>(酒中有异，却无处倾倒，可饮下此酒，或为其解毒……）</color>",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "ba09b22925387195",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=Drinker str=Name/> смотрит на прекрасное вино на столе, и у него слюнки текут, собирается сделать большой глоток, но замечает странный цвет вина.<NL>Он хмурится, ставит кувшин на стол и окликает лавочника...<NL><NL><color=#lightgrey>(Вино необычное, но разливать его нельзя. Выпив его, можно нейтрализовать его Яд...)</color>",
+      "status": "machine",
+      "srcHash": "fa56766cf503920f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "6365d7c8-34c5-4252-a4c2-a7ddd9a88644/Option_1": {
       "en": "(Drink the wine...)",
@@ -105,11 +105,11 @@
     "5eb177bc-733b-481c-b8eb-0d9ff6f31041/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> took advantage of <Character key=Drinker str=Name/>'s distraction, stealthily sprinkled the antidote into the wine jug.<NL>The color returned to normal and the poison was neutralized...<NL><NL>After confirming with the shopkeeper, <Character key=Drinker str=Name/> glanced at the wine, hesitated briefly, then drank it all at once, savoring it with delight...",
       "cn": "<Character key=RoleTaiwu str=Name/>趁<Character key=Drinker str=Name/>不察，探手一撒，<NL>便将解药匀洒于酒壶中，察其色泽归常，酒中毒性尽解……<NL><NL>待<Character key=Drinker str=Name/>与店家确认无误，回身望向眼前美酒，虽有片刻迟疑，<NL>却是一饮而尽，不由咂舌，大呼畅快……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "a2f13c33265f6a5a",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> воспользовался преимуществом <Character key=Drinker str=Name/>Отвлекшись, украдкой подсыпал противоядие в кувшин с вином.<NL>Цвет вернулся к нормальному, и Яд был нейтрализован...<NL><NL>После согласования с владельцем магазина, <Character key=Drinker str=Name/> взглянул на вино, немного поколебался, затем выпил все сразу, с наслаждением смакуя его...",
+      "status": "machine",
+      "srcHash": "ebb70eee2c4647e1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "5eb177bc-733b-481c-b8eb-0d9ff6f31041/Option_1": {
       "en": "(That's great...)",
@@ -121,13 +121,13 @@
       "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "1f5549fa-df31-4b66-b2c4-03ed9949ea46/EventContent": {
-      "en": "Seizing the chance while <Character key=Drinker str=Name/> looked away, <主角名称> rolled up a sleeve and<NL>neutralized the poison in the pot with a pinch of antidote.<NL>It appears the poison in this wine is potent; the reaction remains incomplete, and more antidote will be required...",
+      "en": "Seizing the chance while <Character key=Drinker str=Name/> looked away, <Character key=RoleTaiwu str=Name/> rolled up a sleeve and<NL>neutralized the poison in the pot with a pinch of antidote.<NL>It appears the poison in this wine is potent; the reaction remains incomplete, and more antidote will be required...",
       "cn": "<Character key=RoleTaiwu str=Name/>趁<Character key=Drinker str=Name/>不备，袖袍一卷，<NL>便将解药轻洒于酒壶中，细瞧其成色变化……<NL>恐怕此酒中毒性甚强，仍难以全然化解，还需更多解药……",
-      "ru": "Пользуясь случаем, пока <Character key=Drinker str=Name/> отвел взгляд, <主角名称> закатал рукав и<NL>нейтрализовал Яд в горшочке щепоткой противоядия.<NL>Похоже, Яд в этом вине очень сильный; реакция остается незавершенной, и потребуется еще противоядие...",
+      "ru": "Пользуясь случаем, пока <Character key=Drinker str=Name/> отвел взгляд, <Character key=RoleTaiwu str=Name/> закатал рукав и<NL>нейтрализовал Яд в горшочке щепоткой противоядия.<NL>Похоже, Яд в этом вине очень сильный; реакция остается незавершенной, и потребуется еще противоядие...",
       "status": "machine",
-      "srcHash": "276a154547a4f633",
+      "srcHash": "659ea5f705db86cc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "1f5549fa-df31-4b66-b2c4-03ed9949ea46/Option_1": {
       "en": "(Try again...)",
@@ -141,11 +141,11 @@
     "cda7a6cd-7e8a-4fcd-80d3-9777061f3823/EventContent": {
       "en": "<Character key=Patient str=Name/> laid curled on the sickbed, whining softly, eyes clouded,<NL>breath weak, face ashen.<NL>It seemed that instead of recovering in this medical hall, his conditions had worsened, showing signs of imminent death...<NL><NL><color=#lightgrey>(The medical hall seems off; you may treat this person or offer medicine...)</color>",
       "cn": "<Character key=Patient str=Name/>蜷于病榻，喉间呜呜咽咽，双目浑浊，<NL>以至气若游丝，面像死灰。<NL>好似在这医馆中非但未得治愈，反更衰败，生出垂死之相……<NL><NL><color=#lightgrey>(医馆有异，可为此人疗伤或赠送药物……）</color>",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "ec4951cb16cf9267",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=Patient str=Name/> лежал, свернувшись калачиком, на больничной койке, тихо поскуливая, с затуманенными глазами,<NL>дыхание слабое, лицо пепельно-бледное.<NL>Казалось, что вместо того, чтобы выздоравливать в этом медицинском зале, его состояние ухудшилось, появились признаки неминуемой смерти...<NL><NL><color=#lightgrey>(Медицинский зал, кажется, выключен; вы можете вылечить этого человека или предложить лекарство...)</color>",
+      "status": "machine",
+      "srcHash": "f5fb28ebac75bc78",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "cda7a6cd-7e8a-4fcd-80d3-9777061f3823/Option_1": {
       "en": "(Treat the patient...)",
@@ -222,11 +222,11 @@
     "26a09fdd-93f2-4737-8bbc-8c6694c4d0ea/EventContent": {
       "en": "The wicked are punished, the evil spirits are all eliminated...<NL><Character key=RoleTaiwu str=Name/> acts chivalrously to save this village from peril.<NL>The malevolent aura in the valley is swept away, returning to a state of Pure Brightness, allowing the people here to live in peace...<NL><NL><color=#lightgrey>(Taiwu Prestige increases...)</color>",
       "cn": "恶党伏诛，妖祟尽除……<NL><Character key=RoleTaiwu str=Name/>仗义出手，救此村落于危厄之中。<NL>谷中邪氛既扫，复归清明之态，百姓在此生活，亦可安然度日……<NL><NL><color=#lightgrey>（太吾威望增加……）</color>",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "c06b3f19fb5decea",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Нечестивые наказаны, все злые духи уничтожены...<NL><Character key=RoleTaiwu str=Name/> поступает по-рыцарски, чтобы спасти эту деревню от опасности.<NL>Зловещая аура в долине рассеивается, возвращаясь к состоянию Чистой яркости, позволяя здешним людям жить в мире...<NL><NL><color=#lightgrey>(Престиж Тайу повышается...)</color>",
+      "status": "machine",
+      "srcHash": "7e48be1e5dbc5300",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "26a09fdd-93f2-4737-8bbc-8c6694c4d0ea/Option_1": {
       "en": "(This is good...)",
@@ -258,11 +258,11 @@
     "2d7d1863-0aa2-47d0-af57-023c19a8c399/EventContent": {
       "en": "In front of the eatery, a Flesh Fiend suddenly appeared, eyes glowing red,<NL>holding a chef's knife and picking up chopsticks, muttering:<NL><NL>\"I intended to seize that glutton, drag him into the kitchen, carve and cook him...<NL>Who dared let him go? If I want fresh organs again, where should I start?\"",
       "cn": "食肆之前，忽现一吃人鬼，那人双目殷赤，<NL>手携厨刀、指拈食箸，喃喃自语道：<NL><NL>“本欲擒那贪食之辈，拖入庖厨，剐肉烹食……<NL>是何人敢将其放走？若欲再觅鲜活心肝，当从何下手？”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "a2532c27fa8c5152",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Перед закусочной внезапно появился Изверг из плоти, его глаза светились красным,<NL>держа поварской нож и беря палочки для еды, бормоча:<NL><NL>- Я намеревался схватить этого обжору, затащить его на кухню, разделать и приготовить...<NL>Кто посмел отпустить его? Если мне снова понадобятся свежие органы, с чего мне следует начать?\"",
+      "status": "machine",
+      "srcHash": "ebca7e8f79b002fe",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "2d7d1863-0aa2-47d0-af57-023c19a8c399/Option_1": {
       "en": "(Destroy the Outlaw...)",
@@ -456,11 +456,11 @@
     "1caac946-2511-496d-9747-eb552b5ccc94/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> was walking along the road when suddenly someone jumped out, blocking the path and cackling:<NL>\"Today you've met misfortune, landing in my hands... I'll leave you as a whole corpse!\"<NL><NL>No sooner had the words fallen than the Desperado charged straight at <Character key=RoleTaiwu str=Name/>!",
       "cn": "<Character key=RoleTaiwu str=Name/>行于路中，忽有一人窜出，挡在道前桀桀嗤笑：<NL>“合该你今日撞了煞星，落在我手中……我便留你个全尸吧！”<NL><NL>话音刚落，亡命徒便径直向<Character key=RoleTaiwu str=Name/>袭来！",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "e3666e4991418464",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> шел по дороге, как вдруг кто-то выскочил, преградив путь и кудахча:<NL>- Сегодня ты столкнулся с несчастьем, попав в мои руки... Я оставлю тебя целым трупом!\"<NL><NL>Не успели прозвучать эти слова, как Отчаянный бросился прямо на <Character key=RoleTaiwu str=Name/>!",
+      "status": "machine",
+      "srcHash": "90341b862c916b1a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "1caac946-2511-496d-9747-eb552b5ccc94/Option_1": {
       "en": "(Engage in battle...)",
@@ -555,11 +555,11 @@
     "dd49beb2-a3ef-4435-b465-28fad56a1493/EventContent": {
       "en": "After treatment by <Character key=RoleTaiwu str=Name/>, <Character key=Patient str=Name/>'s eyes regain some sparkle, face showing color again,<NL>trembling as he stands up, moving arms and legs...<NL><NL><Character key=Patient str=Name/> hurriedly thanks <Character key=RoleTaiwu str=Name/>, grateful for saving his life...",
       "cn": "经<Character key=RoleTaiwu str=Name/>一番诊治，<Character key=Patient str=Name/>双目神采渐复，面有血色，<NL>竟能颤然起身，展动四肢，举臂抬脚……<NL><NL><Character key=Patient str=Name/>连忙拜谢<Character key=RoleTaiwu str=Name/>，感其救命之恩……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "b5d6a18aee283fcc",
-      "engine": null,
-      "updatedAt": null
+      "ru": "После обработки <Character key=RoleTaiwu str=Name/>, <Character key=Patient str=Name/>в глазах снова появился блеск, на лице снова появился румянец,<NL>дрожа, он встает, двигая руками и ногами...<NL><NL><Character key=Patient str=Name/> поспешно благодарит <Character key=RoleTaiwu str=Name/>, благодарный за спасение его жизни...",
+      "status": "machine",
+      "srcHash": "5e44b053f5535f5a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "dd49beb2-a3ef-4435-b465-28fad56a1493/Option_1": {
       "en": "This is no place to linger. Since the conditions have improved, it's better to leave soon...",
@@ -573,11 +573,11 @@
     "fef24157-ac83-4a72-8d00-798e0739e6e2/EventContent": {
       "en": "After treatment by <Character key=RoleTaiwu str=Name/>, <Character key=Patient str=Name/>'s eyes regain some spark, face showing color again,<NL>trembling as he stands up, moving arms and legs...<NL><NL><Character key=Patient str=Name/> hurriedly thanks <Character key=RoleTaiwu str=Name/>, grateful for saving his life...",
       "cn": "经<Character key=RoleTaiwu str=Name/>一番施治，<Character key=Patient str=Name/>双目神采渐复，面有血色，<NL>竟能颤然起身，展动四肢，举臂抬脚……<NL><NL><Character key=Patient str=Name/>连忙拜谢<Character key=RoleTaiwu str=Name/>，感其救命之恩……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "475c990483681cbf",
-      "engine": null,
-      "updatedAt": null
+      "ru": "После обработки <Character key=RoleTaiwu str=Name/>, <Character key=Patient str=Name/>в глазах появляется искорка, на лице снова появляется румянец,<NL>дрожа, он встает, двигая руками и ногами...<NL><NL><Character key=Patient str=Name/> поспешно благодарит <Character key=RoleTaiwu str=Name/>, благодарный за спасение его жизни...",
+      "status": "machine",
+      "srcHash": "abe35505eed879a2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "fef24157-ac83-4a72-8d00-798e0739e6e2/Option_1": {
       "en": "This is no place to linger. Since the conditions have improved, it's better to leave soon...",
@@ -636,11 +636,11 @@
     "81e02917-a86e-4c83-a432-5f2404a8f4f5/EventContent": {
       "en": "At the entrance of the medical hall, a Malevolent Mystic with an extremely grotesque look suddenly appears,<NL>twirling several pills in his hand, muttering:<NL><NL>\"Where did that dying one go just now? With these pills, I could surely take his life...<NL>He has no strength left—who offered him treatment?\"",
       "cn": "医馆门首，忽现一妖道，其貌甚邪，<NL>掌中捻弄丹丸数枚，喃喃自语道：<NL><NL>“方才那将死之物哪里去了，我配出这丹丸，定能夺其性命……<NL>那人已无余力，是何人将其救治？”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "9089e8bd7c23bc17",
-      "engine": null,
-      "updatedAt": null
+      "ru": "У входа в медицинский зал внезапно появляется Злобный Мистик с чрезвычайно гротескным видом,<NL>вертя в руке несколько таблеток, бормоча:<NL><NL>- Куда только что делся этот умирающий? С помощью этих таблеток я, несомненно, мог бы лишить его жизни...<NL>У него не осталось Сил — кто предложил ему лечение?\"",
+      "status": "machine",
+      "srcHash": "49a5ca86851d79af",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "81e02917-a86e-4c83-a432-5f2404a8f4f5/Option_1": {
       "en": "(Destroy the Outlaw...)",
@@ -870,11 +870,11 @@
     "2875e365-e5dc-4239-9875-4898881b8432/EventContent": {
       "en": "<Character key=Patient str=Name/> has been ill for a long time, the disease deeply rooted.<NL>Although <Character key=RoleTaiwu str=Name/> provided a diagnosis to temporarily stabilize the symptoms, the pathogenic energy had already invaded the meridians.<NL>To eradicate the root cause, further medical care is required...",
       "cn": "<Character key=Patient str=Name/>沉疴已久，病根深种，<NL><Character key=RoleTaiwu str=Name/>虽为其施诊，暂纾其症，然病邪已侵经脉……<NL><NL>欲除病灶，仍需再行诊治……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "9e90e03fa7cd1b0b",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=Patient str=Name/> болел долгое время, болезнь глубоко укоренилась.<NL>Хотя <Character key=RoleTaiwu str=Name/> при постановке диагноза, чтобы временно стабилизировать симптомы, патогенная Энергия уже проникла в меридианы.<NL>Чтобы устранить первопричину, требуется дальнейшее Лечение...",
+      "status": "machine",
+      "srcHash": "ecb2ce5e1b728622",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "2875e365-e5dc-4239-9875-4898881b8432/Option_1": {
       "en": "(Try again...)",
@@ -1320,11 +1320,11 @@
     "7302a15d-1463-489c-a276-4a8a8fa4baa7/EventContent": {
       "en": "Weary from travel, <Character key=Drinker str=Name/>'s brows furrow. He glances at the tavern's sign,<NL>sniffs the aroma of wine, and relaxes, muttering: <NL><NL>\"After being pursued all these days, I couldn't relax for a moment, let alone enjoy fine wine. Luckily, I can rest here; this time I must drink my fill!\"",
       "cn": "<Character key=Drinker str=Name/>风尘仆仆，眉头紧皱，望向店前酒旗，<NL>嗅探其间酒香，面色舒缓，复自言道：<NL><NL> “被追拿了这些时日，一刻不敢松懈，莫说畅饮美酒，<NL> 幸有此处歇脚，这次定要喝个尽兴！”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "21df3aa13468696e",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Уставший от путешествия, <Character key=Drinker str=Name/>его брови хмурятся. Он бросает взгляд на вывеску таверны,<NL>вдыхает аромат вина и расслабляется, бормоча: <NL><NL>\"После того, как меня преследовали все эти дни, я ни на минуту не мог расслабиться, не говоря уже о том, чтобы насладиться прекрасным вином. К счастью, я могу отдохнуть здесь; на этот раз я должен напиться досыта!\"",
+      "status": "machine",
+      "srcHash": "49d223b486c71c63",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "7302a15d-1463-489c-a276-4a8a8fa4baa7/Option_1": {
       "en": "(Watch quietly...)",
@@ -1374,11 +1374,11 @@
     "5b64d014-842c-4d7a-81b0-6430cee99520/EventContent": {
       "en": "Seeing <Character key=RoleTaiwu str=Name/> approaches, <Character key=RoleTaiwu str=Name/> bows and says:<NL>\"I have recovered and intended to follow your advice and leave...<NL>Before departing, there is a matter to report—<NL>the medical hall's Herb herbs are moldy, and the doctor's whereabouts are unknown. Please remain cautious...\"",
       "cn": "<Character key=RoleTaiwu str=Name/>见<Character key=RoleTaiwu str=Name/>前来，施礼道：<NL>“在下病体康复，本欲遵阁下之嘱，远离此地……<NL><NL>临行前，却有一桩异事欲禀明阁下——<NL>那医馆药材发霉，郎中行踪不明，还望阁下小心提防……”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "cc2c17a91c54567e",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Видя <Character key=RoleTaiwu str=Name/> подходы, <Character key=RoleTaiwu str=Name/> кланяется и говорит:<NL>\"Я выздоровел и намеревался последовать вашему совету и уехать...<NL>Перед отъездом мне нужно сообщить вам кое о чем—<NL>Травы Травы медицинского центра заплесневели, и местонахождение доктора неизвестно. Пожалуйста, сохраняйте осторожность...\"",
+      "status": "machine",
+      "srcHash": "3ea98ba19b540600",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "5b64d014-842c-4d7a-81b0-6430cee99520/Option_1": {
       "en": "(...)",
@@ -1500,11 +1500,11 @@
     "4736e365-81fb-4512-bd5f-ff6a1d9c6339/EventContent": {
       "en": "Seeing patients gradually recover and leave, the doctor in the medical hall flies into a rage, shouting: <NL>\"Who allowed you to leave on your own!\" Then he throws poison powder and attacks the patients.<NL>Behind him is a cleverly made wooden chest, which he ignores in the chaos;<NL>perhaps now is the chance to secretly take what's inside...",
       "cn": "医馆郎中见病患们渐次痊愈离去，怒不可遏，狠声道：<NL>“谁准你们擅自离去！”言罢抛掷毒粉，便向众病者大打出手！<NL>而其身后留有一形制奇巧的木箱，此贼已然无暇他顾，<NL>或许此刻正可暗取箱中之物……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "4262f1c536316e2b",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Видя, что пациенты постепенно выздоравливают и уходят, врач в медицинском зале приходит в ярость, крича: <NL>\"Кто позволил тебе уйти одному?\" Затем он разбрасывает порошок с Ядом и нападает на пациентов.<NL>Позади него стоит искусно сделанный деревянный сундук, который он игнорирует в этом хаосе;<NL>возможно, сейчас самый подходящий момент тайно забрать то, что внутри...",
+      "status": "machine",
+      "srcHash": "f8280cfc008acb7b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "4736e365-81fb-4512-bd5f-ff6a1d9c6339/Option_1": {
       "en": "(Go and retrieve the wooden chest...)",
@@ -1536,11 +1536,11 @@
     "e3d949b6-402b-472d-8c2c-aa62c91f809b/EventContent": {
       "en": "All is quiet. The grass is lush on both sides of the broad road. While walking along the road,<NL><Character key=RoleTaiwu str=Name/> suddenly sees a dead body by the roadside. The person is obviously dead of poisoning, black in the face, with blood oozing from the seven openings...<NL><NL>Beside the dead body is a half-full wine jar...",
       "cn": "道阔草深，四野清寂，<Character key=RoleTaiwu str=Name/>正穿行其间，<NL>忽见一具尸首横陈道旁，其面色黑紫，关窍溢血，分明是中毒而亡……<NL><NL>此人旁有酒坛倒地，内有半坛残酒……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "2cee5c56ec584bcf",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Все тихо. По обеим сторонам широкой дороги растет сочная трава. Во время прогулки по дороге,<NL><Character key=RoleTaiwu str=Name/> вдруг видит мертвое тело на обочине дороги. Человек, очевидно, умер от Яда, лицо почернело, из семи отверстий сочится кровь...<NL><NL>Рядом с мертвым телом стоит наполовину полный кувшин вина...",
+      "status": "machine",
+      "srcHash": "a27c753bc077b32b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "e3d949b6-402b-472d-8c2c-aa62c91f809b/Option_1": {
       "en": "(Pick up the wine jar...)",
@@ -1581,11 +1581,11 @@
     "17df8e93-e39c-4c70-a64f-aed0d953f63c/EventContent": {
       "en": "Walking in a dense forest of wide-spreading trees, <Character key=RoleTaiwu str=Name/> sees a dead body by the roadside<NL>who seems to have been caught in an ambush and killed by a fatal blow...<NL><NL>The dead body has a strong bitter odor of medicines. Beside the body is a parcel that's also with the smell of medicines...",
       "cn": "林深枝茂，满地阴翳，<Character key=RoleTaiwu str=Name/>正穿行其间，<NL>忽见一具尸首横陈道旁，似遭暗袭而死……<NL><NL>尸身药味浓重，涩苦难闻，其身旁散落一包裹，亦有药味……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "6e8de72bb0ffae83",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Прогулка по густому лесу с раскидистыми деревьями, <Character key=RoleTaiwu str=Name/> видит мертвое тело на обочине дороги<NL>который, похоже, попал в засаду и был убит смертельным ударом...<NL><NL>От мертвого тела исходит сильный горьковатый запах лекарств. Рядом с телом лежит сверток, от которого тоже пахнет лекарствами...",
+      "status": "machine",
+      "srcHash": "69508a78e2c03f1d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "17df8e93-e39c-4c70-a64f-aed0d953f63c/Option_1": {
       "en": "(Open the package...)",
@@ -1626,11 +1626,11 @@
     "743f93eb-0ddf-4464-becf-b60378234cc9/EventContent": {
       "en": "Amid shattered walls and scattered debris, <Character key=RoleTaiwu str=Name/> moves through the ruins,<NL>when a corpse suddenly comes into view, sprawled by the roadside, its body torn apart...<NL><NL>The remains seem gnawed, yet not by beasts—each piece has been cut away with a blade.<NL>Nearby lay a bundle, from which the smell of cooked food wafts forth. The sight is utterly nauseating...",
       "cn": "断壁残垣，弃物散落，<Character key=RoleTaiwu str=Name/>正穿行其间，<NL>忽见一具尸首横陈道旁，尸身七零八落……<NL><NL>尸身似遭啖食，却非受野兽撕咬，反为利器逐块切下，<NL>其身旁散落一包裹，其中饭香扑鼻，此情此景，端的令人作呕……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "909faba7e4ad37d2",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Среди разрушенных стен и разбросанных обломков, <Character key=RoleTaiwu str=Name/> движется по руинам,<NL>когда внезапно в поле зрения появляется труп, распростертый на обочине дороги, его тело разорвано на части...<NL><NL>Останки кажутся обглоданными, но не зверями — каждый кусочек был срезан Клинком.<NL>Рядом лежал сверток, от которого исходил запах приготовленной Еды. Зрелище совершенно тошнотворное...",
+      "status": "machine",
+      "srcHash": "cfd16a9a9a28f947",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "743f93eb-0ddf-4464-becf-b60378234cc9/Option_1": {
       "en": "(Open the package...)",
@@ -1860,11 +1860,11 @@
     "5af0c922-76a3-464b-b395-08bcf7c9b2bb/EventContent": {
       "en": "Following the scent of medicine, <Character key=RoleTaiwu str=Name/> enters the medical hall and sees several patients under treatment.<NL>All are sallow-faced, cheeks sunken, minds dulled...<NL><NL>What was thought to be a rural clinic for minor ailments is instead filled with those suffering long, unhealed illnesses...",
       "cn": "<Character key=RoleTaiwu str=Name/>循药味，入医馆，见数位病人受治，<NL>诸人皆面如黄纸，颧颊深陷，神思昏散……<NL><NL>原以为乡野医馆，无非风寒小疾，怎料尽是久病不愈之辈……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "deb3cc93f777eafe",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Следуя за запахом лекарства, <Character key=RoleTaiwu str=Name/> входит в медицинский зал и видит нескольких пациентов, находящихся на лечении.<NL>У всех желтоватые лица, впалые щеки, разум притуплен...<NL><NL>То, что считалось сельской клиникой для лечения незначительных заболеваний, вместо этого заполнено теми, кто страдает от длительных, незаживающих болезней...",
+      "status": "machine",
+      "srcHash": "04d598f067bd29b0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "5af0c922-76a3-464b-b395-08bcf7c9b2bb/Option_1": {
       "en": "(Go to the medical hall to investigate...)",
@@ -2202,11 +2202,11 @@
     "8152577a-2be3-4ec9-aedf-f5d9397a313c/EventContent": {
       "en": "<Character key=Human str=Name/> behaves respectfully, and claims that he's wanted and came here to seek refuge,<NL>only to encounter villains. Thanks to <Character key=RoleTaiwu str=Name/>'s righteous intervention, peace has been restored.<NL>He asks whether he might follow <Character key=RoleTaiwu str=Name/> from now on, and offer whatever he's got...",
       "cn": "<Character key=Human str=Name/>举止恭敬，自称因身受缉捕，来此避祸，<NL>不料遇恶人为非作歹，幸得<Character key=RoleTaiwu str=Name/>除邪惩恶，护得此地太平。<NL>不知此后能否追随<Character key=RoleTaiwu str=Name/>行走江湖，略尽绵力……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "a3fbc2368ba5df59",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=Human str=Name/> ведет себя уважительно и утверждает, что он разыскивается и приехал сюда в поисках убежища,<NL>только для того, чтобы столкнуться со злодеями. Благодаря <Character key=RoleTaiwu str=Name/>благодаря праведному вмешательству мир был восстановлен.<NL>Он спрашивает, может ли он последовать за ним <Character key=RoleTaiwu str=Name/> отныне и впредь предлагай все, что у него есть...",
+      "status": "machine",
+      "srcHash": "ea84ac879129b5cd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "8152577a-2be3-4ec9-aedf-f5d9397a313c/Option_1": {
       "en": "(Invite as companion...)",
@@ -2247,11 +2247,11 @@
     "f3db4204-3b58-45d0-af5d-3502489ae011/EventContent": {
       "en": "<Character key=SecondMan str=Name/> behaves respectfully, and claims that he's wanted and came here to seek refuge,<NL>only to encounter villains. Thanks to <Character key=RoleTaiwu str=Name/>'s righteous intervention, peace has been restored.<NL>He asks whether he might follow <Character key=RoleTaiwu str=Name/> from now on, and offer whatever he's got...",
       "cn": "<Character key=SecondMan str=Name/>举止恭敬，自称因身受缉捕，来此避祸，<NL>不料遇恶人为非作歹，幸得<Character key=RoleTaiwu str=Name/>除邪惩恶，护得此地太平。<NL>不知此后能否追随<Character key=RoleTaiwu str=Name/>行走江湖，略尽绵力……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "2c762b5d062dce1f",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=SecondMan str=Name/> ведет себя уважительно и утверждает, что он разыскивается и приехал сюда в поисках убежища,<NL>только для того, чтобы столкнуться со злодеями. Благодаря <Character key=RoleTaiwu str=Name/>благодаря праведному вмешательству мир был восстановлен.<NL>Он спрашивает, может ли он последовать за ним <Character key=RoleTaiwu str=Name/> отныне и впредь предлагай все, что у него есть...",
+      "status": "machine",
+      "srcHash": "799bdcc60bc49074",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "f3db4204-3b58-45d0-af5d-3502489ae011/Option_3": {
       "en": "(Invite as companion...)",
@@ -2292,11 +2292,11 @@
     "41aaf567-76d2-4596-ac1e-d0bcd6731858/EventContent": {
       "en": "<Character key=ThirdMan str=Name/> behaves respectfully, and claims that he's wanted and came here to seek refuge,<NL>only to encounter villains. Thanks to <Character key=RoleTaiwu str=Name/>'s righteous intervention, peace has been restored.<NL>He asks whether he might follow <Character key=RoleTaiwu str=Name/> from now on, and offer whatever he's got...",
       "cn": "<Character key=ThirdMan str=Name/>举止恭敬，自称因身受缉捕，来此避祸，<NL>不料遇恶人为非作歹，幸得<Character key=RoleTaiwu str=Name/>除邪惩恶，护得此地太平。<NL>不知此后能否追随<Character key=RoleTaiwu str=Name/>行走江湖，略尽绵力……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "cd05d2b55ff5e7ee",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=ThirdMan str=Name/> ведет себя уважительно и утверждает, что он разыскивается и приехал сюда в поисках убежища,<NL>только для того, чтобы столкнуться со злодеями. Благодаря <Character key=RoleTaiwu str=Name/>благодаря праведному вмешательству мир был восстановлен.<NL>Он спрашивает, может ли он последовать за ним <Character key=RoleTaiwu str=Name/> отныне и впредь предлагай все, что у него есть...",
+      "status": "machine",
+      "srcHash": "4ce30359760086f9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "41aaf567-76d2-4596-ac1e-d0bcd6731858/Option_1": {
       "en": "(Invite as companion...)",
@@ -2346,11 +2346,11 @@
     "f49129d7-55d0-487f-97ed-57cab93ca554/EventContent": {
       "en": "Inside the tavern, the shopkeeper clutches a wine jar and drinks deeply, pouring wine for those around him as well,<NL>yet the patrons' faces are ashen, cold sweat beading on their brows. This man is likely one of the culprit's accomplices, secretly harming others...<NL>Striking him down now might endanger the patrons; it would be wiser to provoke him first and force him to reveal himself...",
       "cn": "酒肆之中，那店家抱坛豪饮，亦将周遭酒水倒与诸人，<NL>却见周围酒客面上青白，冷汗涔涔，恐怕此人便是那元凶贼党，暗中戕害他人……<NL>若此刻出手诛杀，恐怕会惊扰酒客，不若先设法激怒此贼，让其自露马脚……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "4f8728f39bd37a1b",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Внутри таверны лавочник хватает кувшин с вином и делает большой глоток, подливая вино и окружающим,<NL>и все же лица посетителей мертвенно-бледны, холодный пот бисеринками выступает у них на лбу. Этот человек, скорее всего, один из сообщников преступника, тайно причиняющий вред другим...<NL>Нанесение ему удара сейчас могло бы поставить под угрозу покровителей; было бы разумнее сначала спровоцировать его и Мощью заставить раскрыться...",
+      "status": "machine",
+      "srcHash": "cad3bfc9282ab00f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "f49129d7-55d0-487f-97ed-57cab93ca554/Option_1": {
       "en": "(Destroy the Outlaw...)",
@@ -2382,11 +2382,11 @@
     "bf878065-a174-45b0-8142-24f4947248de/EventContent": {
       "en": "Seeing the patrons all rise to leave, the tavern keeper flies into a rage and shouts:<NL>\"You really want it done the hard way!\" With that, he swings jars and stools, attacking the patrons outright!<NL>Behind him sits a peculiarly crafted wooden chest; with his attention elsewhere,<NL>this may be the perfect moment to secretly take what lies within...",
       "cn": "酒肆店家见酒客们纷纷离席，勃然大怒，呼喝道：<NL>“尔等当真敬酒不吃吃罚酒！”言罢挥坛抡凳，便向众酒客大打出手！<NL>而其身后留有一形制奇巧的木箱，此贼已无暇他顾，<NL>或许此刻正可暗取箱中之物……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "618b1b4972de1d82",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Видя, что все посетители встают, чтобы уйти, хозяин таверны приходит в ярость и кричит:<NL>\"Ты действительно хочешь, чтобы все было сделано по-хорошему!\" С этими словами он размахивает банками и табуретками, открыто нападая на посетителей!<NL>Позади него стоит деревянный сундук необычной работы; его внимание сосредоточено на чем-то другом,<NL>возможно, это идеальный момент для того, чтобы тайно забрать то, что лежит внутри...",
+      "status": "machine",
+      "srcHash": "5a8192a252bafe9e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "bf878065-a174-45b0-8142-24f4947248de/Option_1": {
       "en": "(Try to get the wooden chest...)",
@@ -2499,11 +2499,11 @@
     "7913384e-4eed-4638-a5da-0441c9f9c958/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> looks closely and sees that the patrons are already deeply poisoned.<NL>If they drink any more, the poison may soon take their lives, and the tavern keeper's scheme will succeed...<NL>If the wine before them is drunk away instead, it may neutralize the poison and allow the patrons to leave safely, provoking the culprits...",
       "cn": "<Character key=RoleTaiwu str=Name/>细细观瞧，见酒客们中毒已深，<NL>再饮酒水，恐会毒发身亡，这店家便会奸计得逞……<NL>若将客人面前的酒水饮下，或为酒解毒，使客人们安然离开，应可激怒那贼人……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "08ae497abd5ca402",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> присматривается повнимательнее и видит, что посетители уже глубоко Ядом отравлены.<NL>Если они выпьют еще немного, Яд вскоре может лишить их жизни, и план хозяина таверны увенчается успехом...<NL>Если вместо этого выпить вино, стоящее перед ними, это может нейтрализовать Яд и позволить посетителям благополучно уйти, спровоцировав преступников...",
+      "status": "machine",
+      "srcHash": "89385c993b7d2ad1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "7913384e-4eed-4638-a5da-0441c9f9c958/Option_1": {
       "en": "(Put the plan into action...)",
@@ -2526,11 +2526,11 @@
     "f252cd67-8d6f-4c03-b68f-b1f35f88d266/EventContent": {
       "en": "The shopkeeper greets guests with a smile, serving dishes that make mouths water,<NL>yet never charges a single coin. He is likely one of the culprit's accomplices, secretly murdering his patrons...<NL>Striking him down now might endanger the diners; it would be wiser to provoke him first and force him to reveal himself...",
       "cn": "食肆掌柜正含笑延客，端上的饭肴令人垂涎，<NL>可众人用餐却分文不取，此人多半便是那元凶贼党，暗中戕害食客……<NL>若此刻出手诛杀，恐怕这贼人会伤及食客，不若先设法激怒此贼，让其自露马脚……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "1912017b28d26495",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Владелец магазина встречает гостей с улыбкой, подавая блюда, от которых слюнки текут,<NL>и все же никогда не берет ни единой монеты. Вероятно, он один из сообщников преступника, тайно убивающий своих покровителей...<NL>Удар по нему сейчас мог бы поставить под угрозу посетителей; было бы разумнее сначала спровоцировать его и Мощью заставить раскрыться...",
+      "status": "machine",
+      "srcHash": "7b45e94a8199dd59",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "f252cd67-8d6f-4c03-b68f-b1f35f88d266/Option_1": {
       "en": "(Destroy the Outlaw...)",
@@ -2607,11 +2607,11 @@
     "3e2d0505-1b11-4e9d-92ff-5ee5fa5c3798/EventContent": {
       "en": "Seeing the diners overturn their tables and leave, the shopkeeper flies into a rage and shouts:<NL>\"How dare you smash my tables! You truly don't know your place!\"<NL>With that, he hurls bowls and swings tables, attacking the guests outright!<NL>Behind him, the oddly crafted wooden chest is left unattended—<NL>this may be the perfect moment to take what lies within...",
       "cn": "食肆掌柜见食客们纷纷掀桌离席，勃然大怒，呼喝道：<NL>“敢掀某的饭桌！你们当真不识抬举！”言罢掷碗抡桌，便向众食客大打出手！<NL>而其身后留有一形制奇巧的木箱，此贼已然无暇他顾，<NL>或许此刻正可暗取箱中之物……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "f611eb35c21c765a",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Увидев, что посетители переворачивают свои столы и уходят, владелец магазина приходит в ярость и кричит:<NL>- Как ты смеешь крушить мои столы! Ты действительно не знаешь своего места!\"<NL>С этими словами он швыряет миски и раскачивает столы, открыто нападая на гостей!<NL>Позади него без присмотра стоит деревянный сундук странной работы—<NL>возможно, это идеальный момент для того, чтобы взять то, что лежит внутри...",
+      "status": "machine",
+      "srcHash": "34149899f82f2dfd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "3e2d0505-1b11-4e9d-92ff-5ee5fa5c3798/Option_1": {
       "en": "(Go and retrieve the wooden chest...)",
@@ -2634,11 +2634,11 @@
     "70d931fa-5cf7-4860-a56e-4267f20c3ea2/EventContent": {
       "en": "When the shopkeeper spots <Character key=RoleTaiwu str=Name/> secretly switching dishes and the diners preparing to leave, he is consumed by fury.<NL>As he moves to stop them, <Character key=RoleTaiwu str=Name/> steps forward, and he bellows at once:<NL>\"Which blind fool dares ruin my plans!\"<NL><NL>The moment the words leave his mouth, he lunges straight at <Character key=RoleTaiwu str=Name/>!",
       "cn": "食肆掌柜窥见<Character key=RoleTaiwu str=Name/>暗中调换饭菜，食客掀桌欲走，怒不可遏，<NL>正出手阻拦食客，却见<Character key=RoleTaiwu str=Name/>走上前来，当即呼喝道：<NL>“哪个不长眼的，敢坏某家的好事！”<NL><NL>话音刚落，此贼便纵身向<Character key=RoleTaiwu str=Name/>袭来！",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "0bdd50b3ddc595cc",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Когда владелец магазина замечает <Character key=RoleTaiwu str=Name/> тайком меняя блюда, пока посетители готовятся уходить, он охвачен яростью.<NL>Когда он движется, чтобы остановить их, <Character key=RoleTaiwu str=Name/> делает шаг вперед, и он сразу же рявкает:<NL>\"Какой слепой дурак осмеливается разрушать мои планы!\"<NL><NL>В тот момент, когда слова слетают с его губ, он бросается прямо на <Character key=RoleTaiwu str=Name/>!",
+      "status": "machine",
+      "srcHash": "b86701a2c53515f6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "70d931fa-5cf7-4860-a56e-4267f20c3ea2/Option_1": {
       "en": "(Engage in battle...)",
@@ -2778,11 +2778,11 @@
     "d4f84162-1bc2-4fcb-8d62-60aec76fae76/EventContent": {
       "en": "When the doctor sees <Character key=RoleTaiwu str=Name/> secretly treating the patients and curing them one by one, he is seized by fury.<NL>As he moves to stop them, <Character key=RoleTaiwu str=Name/> steps forward,<NL>and he shouts harshly, \"How dare you ruin my scheme!\"<NL>The moment the words leave his mouth, he lunges straight at <Character key=RoleTaiwu str=Name/>!",
       "cn": "医馆郎中窥见<Character key=RoleTaiwu str=Name/>暗中诊治，病人渐次痊愈便要离去，<NL>怒从心起，正出手阻拦病患，却见<Character key=RoleTaiwu str=Name/>走上前来，<NL>当即厉声喝道：“你竟敢坏我的谋算！”<NL>话音刚落，此贼便纵身向<Character key=RoleTaiwu str=Name/>袭来！",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "5d2075d0d933a087",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Когда врач увидит <Character key=RoleTaiwu str=Name/> тайно леча пациентов и излечивая их одного за другим, он охвачен яростью.<NL>Когда он движется, чтобы остановить их, <Character key=RoleTaiwu str=Name/> шаги вперед,<NL>и он резко кричит: \"Как ты смеешь разрушать мой план!\"<NL>В тот момент, когда слова слетают с его губ, он бросается прямо на <Character key=RoleTaiwu str=Name/>!",
+      "status": "machine",
+      "srcHash": "56ce2707408de8cb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "d4f84162-1bc2-4fcb-8d62-60aec76fae76/Option_1": {
       "en": "(Engage in battle...)",
@@ -2796,11 +2796,11 @@
     "51293dab-0cf7-4bf6-8bae-cd264419fdb6/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> is about to strike when the shopkeeper's eyes lock onto him with sudden, murderous fury.<NL>He bellows, \"Which blind fool dares ruin my meal!\"<NL>The Flesh Fiend instantly hurl the slicing knives at his waist toward the diners—each throw a killing blow—<NL>then springs forward, lunging straight at <Character key=RoleTaiwu str=Name/>!",
       "cn": "<Character key=RoleTaiwu str=Name/>欲出手相击，那食肆掌柜目中凶光骤凝其身，<NL>呼喝道：“哪个不长眼的，敢扰某家的食兴！”<NL>此吃人鬼旋即将腰间脍刀纷掷向食客，刀刀毙命，<NL>之后纵身向<Character key=RoleTaiwu str=Name/>袭来！",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "feb323abe93abf41",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> он уже собирается нанести удар, когда взгляд лавочника устремляется на него с внезапной, убийственной яростью.<NL>Он ревет: \"Какой слепой дурак посмел испортить мне еду!\"<NL>Изверг плоти мгновенно швыряет ножи для нарезки, висящие у него на поясе, в сторону обедающих — каждый удар наносит смертельный—<NL>затем прыгает вперед, делая выпад прямо на <Character key=RoleTaiwu str=Name/>!",
+      "status": "machine",
+      "srcHash": "49b35bb62b351154",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "51293dab-0cf7-4bf6-8bae-cd264419fdb6/Option_1": {
       "en": "(Engage in battle...)",
@@ -3012,11 +3012,11 @@
     "2c5eb310-bdb2-48c2-9d51-269bb3900b13/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> was walking along the path when they noticed a wooden chest by the roadside...<NL><NL>The chest was reinforced with copper corners and tightly bound with iron bands, appearing quite hefty and solid.<NL>But who would leave it in such a desolate place...?<NL>There might be something suspicious about this...",
       "cn": "<Character key=RoleTaiwu str=Name/>行于路中，忽见道旁立着一口木箱……<NL><NL>此箱四角包铜，又用铁圈箍紧，瞧来甚是厚重坚固，<NL>但不知何人将其放于这荒郊野地……<NL>此事或有蹊跷之处……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "b16fa6ffcaf4f5be",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> они шли по тропинке, когда заметили деревянный сундук на обочине дороги...<NL><NL>Сундук был укреплен медными уголками и туго окован железными полосами, отчего казался довольно увесистым и прочным.<NL>Но кто бы мог оставить его в таком пустынном месте...?<NL>В этом может быть что-то подозрительное...",
+      "status": "machine",
+      "srcHash": "075f338d8dc74911",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "2c5eb310-bdb2-48c2-9d51-269bb3900b13/Option_1": {
       "en": "(Open the chest and take a look...)",
@@ -3039,11 +3039,11 @@
     "1559a561-1f0c-45b7-b3b7-a9e89e2906a9/EventContent": {
       "en": "As soon as <Character key=RoleTaiwu str=Name/> opened the wooden chest, a mechanism sounded an alarm!<NL><Character key=RoleTaiwu str=Name/> immediately went on alert, scanning the surroundings,<NL>but saw only rustling grass and trees...<NL><NL>The one who set the trap must have been dealt with long ago; it was just a false alarm...",
       "cn": "<Character key=RoleTaiwu str=Name/>甫一掀开木箱，忽有机关锐响，发出警鸣！<NL><Character key=RoleTaiwu str=Name/>瞬时戒备，环顾四周，防范来者，<NL>却见此处唯余草木簌簌……<NL><NL>那设下陷阱之人，应当早已伏诛，此番不过是虚惊一场……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "3e78018a80380cdc",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Как только <Character key=RoleTaiwu str=Name/> открыл деревянный сундук, какой-то механизм подал сигнал тревоги!<NL><Character key=RoleTaiwu str=Name/> немедленно насторожился, осматривая окрестности,<NL>но увидел только шелест травы и деревьев...<NL><NL>С тем, кто установил ловушку, должно быть, давно разобрались; это была просто ложная тревога...",
+      "status": "machine",
+      "srcHash": "d9ce564140b92964",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "1559a561-1f0c-45b7-b3b7-a9e89e2906a9/Option_1": {
       "en": "This is good",
@@ -3075,11 +3075,11 @@
     "2dc05205-d170-438b-b0a2-69b98f26dff2/EventContent": {
       "en": "As soon as <Character key=RoleTaiwu str=Name/> opened the wooden chest, a mechanism sounded an alarm!<NL><Character key=RoleTaiwu str=Name/> immediately went on alert, scanning the surroundings, and saw the desperado charging at them,<NL>laughing sinisterly:<NL><NL>\"I set this trap and was worried no one would take the bait!<NL>Now that you've walked right into it, prepare to meet your end!\"",
       "cn": "<Character key=RoleTaiwu str=Name/>甫一掀开木箱，忽有机关锐响，发出警鸣！<NL><Character key=RoleTaiwu str=Name/>瞬时戒备，环顾四周，只见不远处，<NL>那亡命徒煞气汹汹，直向自己袭来，桀桀笑道：<NL><NL>“我布下这陷阱，正愁无人上钩！<NL>你既自投罗网，快纳命来！”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "20fef62d8becd171",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Как только <Character key=RoleTaiwu str=Name/> открыли деревянный сундук, какой-то механизм подал сигнал тревоги!<NL><Character key=RoleTaiwu str=Name/> сразу же насторожились, осматривая окрестности, и увидели, как на них бросается отчаянный человек,<NL>зловеще смеясь:<NL><NL>\"Я расставил эту ловушку и боялся, что никто не клюнет на приманку!<NL>Теперь, когда ты попал прямо в точку, приготовься встретить свой конец!\"",
+      "status": "machine",
+      "srcHash": "d0c58d61d27468d9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T12:08:36.245Z"
     },
     "2dc05205-d170-438b-b0a2-69b98f26dff2/Option_1": {
       "en": "(Engage in battle...)",
