@@ -1,7 +1,12 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import { YandexEngine, batchByChars, glossaryPairsForTexts } from "../src/engine/yandex.js";
+import {
+  YandexEngine,
+  batchByChars,
+  decodeHtmlEntities,
+  glossaryPairsForTexts,
+} from "../src/engine/yandex.js";
 
 test("batchByChars respects the character budget", () => {
   const texts = ["aaaa", "bbbb", "cccc"]; // 4 chars each
@@ -39,6 +44,17 @@ test("glossaryPairsForTexts builds exact:false pairs for terms in the batch", ()
 test("glossaryPairsForTexts is empty without a glossary or matches", () => {
   assert.deepEqual(glossaryPairsForTexts(["plain text"], new Map()), []);
   assert.deepEqual(glossaryPairsForTexts(["plain text"], new Map([["qi", "ци"]])), []);
+});
+
+test("decodeHtmlEntities reverses Yandex's HTML-mode escaping", () => {
+  assert.equal(decodeHtmlEntities("Плодовитость &gt; 50"), "Плодовитость > 50");
+  assert.equal(decodeHtmlEntities("&lt;= 60"), "<= 60");
+  assert.equal(decodeHtmlEntities("Refine &amp; Envenom"), "Refine & Envenom");
+  assert.equal(decodeHtmlEntities("&quot;x&quot; &#39;y&#39;"), "\"x\" 'y'");
+  // a genuine literal `&gt;` in the source arrives double-escaped; keep it intact
+  assert.equal(decodeHtmlEntities("&amp;gt;"), "&gt;");
+  // `<mN>` sentinels are real tags in HTML mode, never escaped — left untouched
+  assert.equal(decodeHtmlEntities("<m0>текст</m0>"), "<m0>текст</m0>");
 });
 
 test("YandexEngine.fromEnv builds an engine (yc creds resolved lazily)", () => {

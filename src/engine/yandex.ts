@@ -98,7 +98,9 @@ export class YandexEngine implements TranslationEngine {
     for (let attempt = 0; ; attempt++) {
       try {
         const response = await this.client!.translate(request);
-        return response.translations.map((t) => t.text);
+        // HTML mode escapes literal `<`, `>`, `&` in the text content (the
+        // `<mN>` sentinels come back as real tags, untouched); decode them back.
+        return response.translations.map((t) => decodeHtmlEntities(t.text));
       } catch (err) {
         if (attempt >= MAX_RETRIES) throw err;
         await delay(backoffMs(attempt));
@@ -141,6 +143,23 @@ export function glossaryPairsForTexts(
   return [...union.entries()]
     .slice(0, MAX_GLOSSARY_PAIRS)
     .map(([sourceText, translatedText]) => ({ sourceText, translatedText, exact: false }));
+}
+
+/**
+ * Decode the HTML entities Yandex's HTML translate mode emits for literal
+ * `<`, `>`, `&`, quotes and numeric refs in the text content. `&amp;` is
+ * decoded last so a source `&gt;` (arriving as `&amp;gt;`) survives as `&gt;`.
+ */
+export function decodeHtmlEntities(text: string): string {
+  return text
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&(?:apos|#0*39);/g, "'")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&#0*(\d+);/g, (_, n: string) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, h: string) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&amp;/g, "&");
 }
 
 /** Split texts into batches under both a character budget and a count cap. */
