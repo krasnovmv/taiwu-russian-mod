@@ -3,14 +3,14 @@
   "file": "ui_language.txt",
   "glossaryVersion": 6,
   "units": {
-    "EventEditor_Error_DuplicateGroupKey.1": {
+    "EventEditor_Error_DuplicateGroupKey": {
       "en": "Duplicate event group keys: {0}",
-      "cn": null,
+      "cn": "出现了重复的事件组Key：{0}",
       "ru": "Дублирующие ключи группы событий: {0}",
       "status": "machine",
       "srcHash": "90151b98ed76a977",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "EventEditor_Error_DuplicateGroupValue": {
       "en": "Duplicate event group texts: {0}",
@@ -776,6 +776,33 @@
       "srcHash": "68bb54ccd1e50d98",
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:23:10.438Z"
+    },
+    "Event_Adventure_MainStory_Wulin_Line23": {
+      "en": "Approval Value <= 60: (Must challenge the top three winning Sects in turn, and can only use Martial Arts of the corresponding Sects to achieve victory!)",
+      "cn": "赞赏值<=60：（需轮番挑战前三名胜出门派，且只能施展对应门派的功法，方能取得胜利！）",
+      "ru": "Значение утверждения &lt;= 60: (Должен бросить вызов трем лучшим Сектам-победительницам по очереди и может использовать только Боевые искусства соответствующих Сект для достижения победы!)",
+      "status": "machine",
+      "srcHash": "63bca0092a1bb5a4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "Event_Adventure_MainStory_Wulin_Line24": {
+      "en": "Approval Value <= 80: (Must challenge the top two winning Sects in turn, and can only use Martial Arts of the corresponding Sects to achieve victory!)",
+      "cn": "赞赏值<=80：（需轮番挑战前二名胜出门派，且只能施展对应门派的功法，方能取得胜利！）",
+      "ru": "Значение утверждения &lt;= 80: (Должен бросить вызов двум лучшим Сектам-победительницам по очереди и может использовать только Боевые искусства соответствующих Сект для достижения победы!)",
+      "status": "machine",
+      "srcHash": "97f0977ed0b35d41",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "Event_Adventure_MainStory_Wulin_Line25": {
+      "en": "Approval Value > 80: (Must challenge the final winning Sect, and can only use Martial Arts of the corresponding Sect to achieve victory!)",
+      "cn": "赞赏值>80：（需挑战最终胜利门派，且只能施展对应门派的功法，方能取得胜利！）",
+      "ru": "Значение одобрения &gt; 80: (Должен бросить вызов победившей в финале Секте и может использовать только Боевые искусства соответствующей Секты для достижения победы!)",
+      "status": "machine",
+      "srcHash": "3f9dfe5712f5f65d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "Event_Adventure_MainStory_Wulin_Line3": {
       "en": ": \"As the saying goes, a benevolent heart saves the world. Since you seek the position of Chief,\\nI wonder how much insight you possess into those four words. Very well... allow me to test you myself...\"",
@@ -14178,6 +14205,15 @@
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
+    "LK_Adventure_Editor_Input_Version": {
+      "en": "Enter Encounter version number...",
+      "cn": "输入奇遇版本号…",
+      "ru": "Введите номер версии Encounter...",
+      "status": "machine",
+      "srcHash": "e44fea7d637b1f01",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
     "LK_Adventure_Editor_Style0": {
       "en": "Taiwu",
       "cn": "太吾",
@@ -17624,6 +17660,24 @@
       "srcHash": "7e8d7a0cb569f7aa",
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:23:10.438Z"
+    },
+    "LK_Bottom_Summary_describe": {
+      "en": "Review the events and changes that happened each month...",
+      "cn": null,
+      "ru": "Просмотрите события и изменения, которые происходили каждый месяц...",
+      "status": "machine",
+      "srcHash": "c8363b3722cb20cf",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_Bottom_Summary_title": {
+      "en": "Taiwu Monthly Report",
+      "cn": null,
+      "ru": "Ежемесячный отчет Тайу",
+      "status": "machine",
+      "srcHash": "5a74dec8e4749458",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Bottom_TimeDisk_RemainTip_ActionPoints": {
       "en": "<SpName=mousetip_additional>Extra Energy: <color=#pinkyellow>{0}/{1}</color>",
@@ -23449,13 +23503,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_Building_Space_ProsperousConstructionProvide": {
-      "en": "Prosperity Register provides space: <color=#brightblue>+{0}</color>",
+      "en": "Legacy of Prosperity provides space: <color=#brightblue>+{0}</color>",
       "cn": "盛世集录提供空间：<color=#brightblue>+{0}</color>",
-      "ru": "Реестр процветания предоставляет пространство: <color=#brightblue>+{0}</color>",
+      "ru": "Наследие процветания обеспечивает пространство: <color=#brightblue>+{0}</color>",
       "status": "machine",
-      "srcHash": "13e2618b17c0a9ac",
+      "srcHash": "534140dfb4ddaf7e",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Building_Space_VillageProvide": {
       "en": "Taiwu Village provides space: <color=#brightblue>+{0}</color>",
@@ -24600,6 +24654,15 @@
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
+    "LK_Building_VillageWorkLock_Tip_lock": {
+      "en": "Once locked, this villager will not be automatically assigned to other buildings...",
+      "cn": null,
+      "ru": "После блокировки этот житель деревни не будет автоматически приписан к другим зданиям...",
+      "status": "machine",
+      "srcHash": "7e0f13d85bc6088d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
     "LK_Building_VillageWorkUp_Tip": {
       "en": "Engaging in work will have a chance to improve the villager's corresponding Talent...",
       "cn": "进行工作会有概率提升村民对应的资质…",
@@ -24635,6 +24698,15 @@
       "srcHash": "8f0bc2f03e6d5713",
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:23:10.438Z"
+    },
+    "LK_Building_Villager_WordAt": {
+      "en": "Manage at {0}...",
+      "cn": "在{0}经营",
+      "ru": "Управлять в {0}...",
+      "status": "machine",
+      "srcHash": "40d5a06ccff68f09",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Building_WaitReceiveNum": {
       "en": "To Be Collected: {0}",
@@ -27166,13 +27238,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_CharacterName_Display_Format": {
-      "en": "{0} {1}",
+      "en": "{0}{1}",
       "cn": "{0}{1}",
-      "ru": "{0} {1}",
+      "ru": "{0}{1}",
       "status": "machine",
-      "srcHash": "5d915d00189256ee",
-      "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "srcHash": "56af08757862e8ef",
+      "engine": "neutral",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_CharacterShave_TimeLimit": {
       "en": "Time Left:",
@@ -28615,13 +28687,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_CombatSkillTree_ApproveUpperLimit": {
-      "en": "\\n\\n(Sect Support Cap: {0}% +{1}%)",
+      "en": "\\n\\n(Current Sect Support Cap: {0:f1}% +{1}%)",
       "cn": "\\n\\n（当前门派支持度上限:{0}% +{1}%)",
-      "ru": "\\n\\n(Шапка Поддержки Секты: {0}% +{1}%)",
+      "ru": "\\n\\n(Текущее ограничение Поддержки Секты: {0:f1}% +{1}%)",
       "status": "machine",
-      "srcHash": "00164b187c9f0a7a",
+      "srcHash": "25763466ca73c29a",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_CombatSkillTree_Curr_Approve_Tips": {
       "en": "(<color=#brightblue>Sect Support</color> is currently capped at <color=#pinkyellow>{0}%</color>. Destroy more <SpName=mousetip_qiyu_0><color=#ff5331>Sword Mounds</color> to raise the <color=#brightblue>Cap</color>...)",
@@ -28633,13 +28705,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_CombatSkillTree_CurrentApprove": {
-      "en": "Sect Support: {0}%",
+      "en": "Sect Support: {0:f1}%",
       "cn": "门派支持度：{0}%",
-      "ru": "Поддержка Секты: {0}%",
+      "ru": "Поддержка Секты: {0:f1}%",
       "status": "machine",
-      "srcHash": "8fdf66c8eb4630fd",
+      "srcHash": "c226612723d453a9",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_CombatSkillTree_CurrentApproveLimit": {
       "en": "(Current Support Cap: {0}%)",
@@ -29146,13 +29218,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_CombatSkill_AddMobilityPerFrame": {
-      "en": "Stamina Continuous Recovery: {0}%",
+      "en": "Stamina continuously recovers",
       "cn": "脚力持续恢复",
-      "ru": "Выносливость Непрерывное восстановление: {0}%",
+      "ru": "Выносливость постоянно восстанавливается",
       "status": "machine",
-      "srcHash": "bbf7da8810896c17",
+      "srcHash": "f104c7c371b4a013",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_CombatSkill_AllPoison": {
       "en": "All Poison Resistance",
@@ -29335,22 +29407,22 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_CombatSkill_CostMobilityByMove": {
-      "en": "Stamina Movement Cost: {0}%",
+      "en": "Stamina Movement Cost",
       "cn": "脚力移动消耗",
-      "ru": "Стоимость передвижения на Выносливость: {0}%",
+      "ru": "Стоимость передвижения на Выносливость",
       "status": "machine",
-      "srcHash": "08139764298f9d12",
+      "srcHash": "93ae9e348b818a18",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_CombatSkill_CostMobilityPerFrame": {
-      "en": "Stamina Continuous Cost: {0}%",
+      "en": "Stamina continuously consumed",
       "cn": "脚力持续消耗",
-      "ru": "Постоянная стоимость Выносливости: {0}%",
+      "ru": "Выносливость постоянно расходуется",
       "status": "machine",
-      "srcHash": "90806bd2cfdd90b1",
+      "srcHash": "f6bbc75c2263242c",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_CombatSkill_CostNeed_Title": {
       "en": "Required Part",
@@ -30055,13 +30127,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_CombatSkill_Grade_Format": {
-      "en": "[{0}]",
+      "en": "[{0}]{1}{2}",
       "cn": "[{0}]{1}{2}",
-      "ru": "[{0}]",
+      "ru": "[{0}]{1}{2}",
       "status": "machine",
-      "srcHash": "70d44fb7e9cd8bd8",
-      "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "srcHash": "2bc040c6daac08d7",
+      "engine": "neutral",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_CombatSkill_HitInfo_Title_Format": {
       "en": "{0}0%",
@@ -30299,7 +30371,7 @@
     },
     "LK_CombatSkill_MasteredCombatSkills_Tip_Content": {
       "en": "Martial Art Simplification: <color=#brightblue>Reduce the slot occupied by the Martial Art by 1!</color>\\nThe simplified Martial Art's <color=#brightred>usage requirements will significantly increase...</color>\\nIf Qi Arts are simplified, <color=#brightred>all the practice slots provided by Qi Arts will be converted into fewer Utility Slots!</color>",
-      "cn": "精解功法，去繁就简，<color=#brightblue>减少功法所占用的1格运功栏位！</color>\\n被精解的功法的<color=#brightred>发挥需求将会大幅增加…</color>\\n倘若精解内功，<color=#brightred>内功提供的所有运功栏位将会转化为较少的万用栏位！</color>",
+      "cn": "精解功法，去繁就简，<color=#brightblue>减少功法所占用的1格运功栏位！</color>\\n被精解的功法的<color=#brightred>发挥需求将会大幅增加…</color>\\n倘若精解内功，<color=#brightred>内功提供的所有运功栏位（包括由玄机提供的运功栏位）将会转化为较少的万用栏位！</color>",
       "ru": "Упрощение Боевых искусств: <color=#brightblue>Уменьшите место, занимаемое Боевым искусством, на 1!</color>\\nУпрощенное Боевое искусство <color=#brightred>требования к использованию значительно возрастут...</color>\\nЕсли упростить Внутренние искусства, <color=#brightred>все места для тренировок, предоставляемые Внутренними искусствами, будут преобразованы в меньшее количество служебных мест!</color>",
       "status": "machine",
       "srcHash": "e21feb96bd3160e9",
@@ -33205,121 +33277,121 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Acupoint_0": {
-      "en": "When certain [Annihilation] Martial Arts achieve the required Power Ratio, they inflict Sealed Acupoint Markers on the targeted body part.",
+      "en": "When the success rate of some <color=#attack>Annihilation Martial Arts</color> meets the requirement, inflict <color=#innerinjury>Sealed acupoint markers</color> on the attacked body part.",
       "cn": "部分「摧破」功法发挥成数达到要求时，将对攻击部位造成封穴标记",
-      "ru": "Когда определенные Боевые искусства [Сокрушения] достигают требуемого соотношения сил, они наносят Печать маркеров Акупунктурных точек на целевую часть тела.",
+      "ru": "Когда вероятность успеха некоторых <color=#attack>Боевые искусства Сокрушения</color> удовлетворяет требованию, наносит <color=#innerinjury>Запечатанные маркеры Акупунктурных точек</color> на подвергшейся Атаке части тела.",
       "status": "machine",
-      "srcHash": "b9714722a2355db4",
+      "srcHash": "1ff2ae103108f346",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Acupoint_1": {
-      "en": "When performing a Pinpoint Strike attack, you can inflict Sealed Acupoint Markers on the targeted body part.",
+      "en": "When performing a Pinpoint Strike Attack, inflict <color=#innerinjury>Sealed acupoint markers</color> on the attacked body part.",
       "cn": "进行变招攻击时，可对攻击部位造成封穴标记",
-      "ru": "При выполнении Атаки точечным ударом вы можете нанести маркеры Акупунктурных точек с Печатью на целевую часть тела.",
+      "ru": "При выполнении точечной ударной Атаки наносите <color=#innerinjury>Запечатанные маркеры Акупунктурных точек</color> на подвергшейся Атаке части тела.",
       "status": "machine",
-      "srcHash": "225d52c67ee6437d",
+      "srcHash": "52c0a06b2aa19d6c",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Die_0": {
-      "en": "The effects of certain Martial Arts inflict Doom Markers. There can be up to 6 Doom Markers at the same time.",
+      "en": "The effects of specific Martial Arts inflict Doom Markers; up to <color=#orange>6</color> Doom Markers can appear.",
       "cn": "特定功法的效果将造成必死标记；最多出现6个必死标记",
-      "ru": "Эффекты определенных Боевых искусств наносят смертельный удар. Одновременно может быть до 6 маркеров обреченности.",
+      "ru": "Эффекты определенных Боевых искусств наносят маркеры обреченности; вплоть до <color=#orange>6</color> Могут появиться маркеры обреченности.",
       "status": "machine",
-      "srcHash": "42eb66fefb5c36ad",
+      "srcHash": "5dbc4d3c76878d9b",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Fatal_0": {
-      "en": "When a part's External Injury or Internal Injury Markers reach 6, further damage of that type to this part is converted into Wound damage; each time a character's accumulated Wound damage reaches the Wound Resilience cap, 1 Wound Marker is generated.",
+      "en": "When <color=#outterinjury>External Injury</color> or <color=#innerinjury>Internal Injury</color> markers on a body part reach <color=#orange>6</color>, further damage of the corresponding type to this part will be converted to <color=#fataldamage>Wound Damage</color>; whenever the <color=#fataldamage>Wound Damage</color> received by a character reaches the <color=#fataldamage>Wound Resilience</color> cap, it produces 1 <color=#fataldamage>Wound Marker</color>",
       "cn": "部位的外伤或内伤标记达到6时，此部位继续受到对应类型的伤害将转变为重创伤害；每当人物受到的重创伤害达到重创强健上限时，产生1个重创标记",
-      "ru": "Когда маркеры Внешней травмы или Внутренней травмы детали достигают 6, дальнейший урон этого типа этой детали преобразуется в урон от Раны; каждый раз, когда накопленный урон от Раны персонажа достигает предела устойчивости к Ране, генерируется 1 маркер Раны.",
+      "ru": "Когда <color=#outterinjury>Внешняя травма</color> или <color=#innerinjury>Внутренняя травма</color> маркеры на части тела достигают <color=#orange>6</color>, дальнейшее повреждение соответствующего типа этой детали будет преобразовано в <color=#fataldamage>Повреждение Раны</color>; всякий раз , когда <color=#fataldamage>Повреждение Раны</color> полученный персонажем, достигает <color=#fataldamage>Устойчивость к Ране</color> колпачок, он производит 1 <color=#fataldamage>Маркер Раны</color>",
       "status": "machine",
-      "srcHash": "46bfb5934caba447",
+      "srcHash": "0e149ac962903129",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Fatal_1": {
-      "en": "When Pyrotoxin Burst triggers, it worsens External Injury on a random part, dealing Wound damage.",
+      "en": "<color=#Red>Pyrotoxin</color> is triggered, <color=#darkred>of a random body part </color><color=#outterinjury>External Injury</color><color=#darkred> worsens, causing</color><color=#fataldamage>Wound Damage</color>",
       "cn": "赤毒发作时，将使随机部位的外伤恶化，造成重创伤害",
-      "ru": "Когда срабатывает взрыв Пиротоксина, он усугубляет Внешнюю травму на случайной детали, нанося повреждения Ране.",
+      "ru": "<color=#Red>Пиротоксин</color> срабатывает, <color=#darkred>из случайной части тела </color><color=#outterinjury>Внешняя травма</color><color=#darkred> ухудшается, вызывая</color><color=#fataldamage>Повреждение Раны</color>",
       "status": "machine",
-      "srcHash": "a3ed38263a78b0a3",
+      "srcHash": "7325c21eb824dc48",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Fatal_2": {
-      "en": "When Cryotoxin Burst triggers, it worsens Internal Injury on a random part, dealing Wound damage.",
+      "en": "<color=#Cold>Cryotoxin</color> is triggered, <color=#darkred>of a random body part</color> <color=#innerinjury>Internal Injury</color> <color=#darkred>worsens, causing</color> <color=#fataldamage>Wound Damage</color>",
       "cn": "寒毒发作时，将使随机部位的内伤恶化，造成重创伤害",
-      "ru": "Когда срабатывает взрыв Криотоксина, это усугубляет Внутреннюю травму случайной части, нанося ущерб Ране.",
+      "ru": "<color=#Cold>Криотоксин</color> срабатывает, <color=#darkred>из случайной части тела</color> <color=#innerinjury>Внутренняя травма</color> <color=#darkred>ухудшается, вызывая</color> <color=#fataldamage>Повреждение Раны</color>",
       "status": "machine",
-      "srcHash": "28a0ec2257e31e59",
+      "srcHash": "92a3c27812e268f3",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Flaw_0": {
-      "en": "When certain [Annihilation] Martial Arts achieve the required Power Ratio, they inflict Opening Markers on the targeted body part.",
+      "en": "When the success rate of some <color=#attack>Annihilation Martial Arts</color> meets the requirement, inflict <color=#outterinjury>Openings markers</color> on the attacked body part.",
       "cn": "部分「摧破」功法发挥成数达到要求时，将对攻击部位造成破绽标记",
-      "ru": "Когда определенные Боевые искусства [Сокрушения] достигают требуемого соотношения сил, они наносят открывающие метки на целевую часть тела.",
+      "ru": "Когда вероятность успеха некоторых <color=#attack>Боевые искусства Сокрушения</color> удовлетворяет требованию, наносит <color=#outterinjury>Маркеры отверстий</color> на подвергшейся Атаке части тела.",
       "status": "machine",
-      "srcHash": "92d99fb758fd6632",
+      "srcHash": "ae40212f4b42e176",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Flaw_1": {
-      "en": "When performing a Pinpoint Strike attack, you can inflict Opening Markers on the targeted body part.",
+      "en": "When performing a Pinpoint Strike Attack, inflict <color=#outterinjury>Openings markers</color> on the attacked body part.",
       "cn": "进行变招攻击时，可对攻击部位造成破绽标记",
-      "ru": "При выполнении Атаки точечным ударом вы можете нанести открывающие метки на целевую часть тела.",
+      "ru": "При выполнении точечной ударной Атаки наносите <color=#outterinjury>Маркеры отверстий</color> на подвергшейся Атаке части тела.",
       "status": "machine",
-      "srcHash": "c2629ea71210031e",
+      "srcHash": "7ae70bf9f7adabfb",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Health_0": {
-      "en": "When a character's Health Status is Unwell/Feeble/Dying, 2/4/6 Health Markers are generated.",
+      "en": "When the character's Health state is <color=#Sick>Unwell</color>/<color=#Weak>Feeble</color>/<color=#CriticallyIll>Dying</color>, generate <color=#orange>2</color>/<color=#orange>4</color>/<color=#orange>6</color> Health Markers.",
       "cn": "人物的健康状态处于抱恙/衰弱/垂危时，产生2/4/6个健康标记",
-      "ru": "Когда статус Здоровья персонажа нездоровый/Слабый/умирающий, генерируются 2/4/6 маркеров Здоровья.",
+      "ru": "Когда состояние Здоровья персонажа находится на <color=#Sick>Нездоровый</color>/<color=#Weak>Слабый</color>/<color=#CriticallyIll>Умирающий</color>, генерировать <color=#orange>2</color>/<color=#orange>4</color>/<color=#orange>6</color> Маркеры Здоровья.",
       "status": "machine",
-      "srcHash": "5326fc38860bcb6b",
+      "srcHash": "275f49834b77dd9f",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Inner_0": {
-      "en": "Each time the Internal Injury {0} suffers reaches the Internal Injury Resilience cap of {0}, 1 Internal Injury Marker is generated.",
+      "en": "Whenever the <color=#innerinjury>Internal Injury</color> suffered by {0} reaches the <color=#innerinjury>{0} Internal Injury Resilience</color> cap, generate <color=#orange>1</color> <color=#innerinjury>Internal Injury Marker</color>.",
       "cn": "每当{0}受到的内伤达到{0}内伤强健上限时，产生1个内伤标记",
-      "ru": "Каждый раз, когда возникает Внутренняя травма {0} страдает, достигает предела устойчивости к Внутренним травмам {0}, генерируется 1 маркер Внутренней травмы.",
+      "ru": "Всякий раз, когда <color=#innerinjury>Внутренняя травма</color> пострадавший от {0} достигает <color=#innerinjury>{0} Устойчивость к Внутренним травмам</color> колпачок, генерирующий <color=#orange>1</color> <color=#innerinjury>Маркер Внутренней травмы</color>.",
       "status": "machine",
-      "srcHash": "cd8eae68943af547",
+      "srcHash": "e959abb1aca597b8",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Inner_1": {
-      "en": "When suffering Recoil from certain Martial Arts, inflict an Internal Injury Marker on the recoiled body part.",
+      "en": "When suffering Recoil from a specific Martial Art, inflict <color=#innerinjury>Internal Injury Marker</color> on the Recoiled body part.",
       "cn": "受到特定功法的反噬时，将对被反噬部位造成内伤标记",
-      "ru": "Когда вы испытываете отдачу от определенных Боевых искусств, нанесите маркер Внутренней травмы на пораженную часть тела.",
+      "ru": "Когда испытываешь отдачу от определенного Боевого искусства, наноси <color=#innerinjury>Маркер Внутренней травмы</color> на откинутой части тела.",
       "status": "machine",
-      "srcHash": "047a301e875f057a",
+      "srcHash": "2ea94d41d27acebf",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Inner_2": {
-      "en": "When Umbritoxin Burst triggers, it inflicts an Internal Injury Marker on a random part.",
+      "en": "When <color=#Gloomy>Umbritoxin</color> is triggered, inflict <color=#innerinjury>Internal Injury Marker</color> on a random body part.",
       "cn": "郁毒发作时，将对随机部位造成内伤标记",
-      "ru": "Когда срабатывает взрыв Умбротоксина, он наносит маркер Внутренней травмы на случайную деталь.",
+      "ru": "Когда <color=#Gloomy>Умбротоксин</color> срабатывает, наносит <color=#innerinjury>Маркер Внутренней травмы</color> на случайной части тела.",
       "status": "machine",
-      "srcHash": "c29c2282679c9fd8",
+      "srcHash": "d3317b0893da4736",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Mind_0": {
-      "en": "Each time the Daze damage a character suffers reaches the Daze Resilience cap, 1 Daze Marker is generated.",
+      "en": "Each time the Daze damage a character suffers reaches the Daze Resilience cap, generate <color=#orange>1</color> Daze Marker.",
       "cn": "每当人物受到的失神伤害达到失神强健上限时，产生1个失神标记",
-      "ru": "Каждый раз, когда урон от Оцепенения, получаемый персонажем, достигает предела устойчивости к Оцепенению, генерируется 1 маркер Оцепенения.",
+      "ru": "Каждый раз, когда урон от Оцепенения, получаемый персонажем, достигает предела устойчивости к Оцепенению, генерируйте <color=#orange>1</color> Маркер Оцепенения.",
       "status": "machine",
-      "srcHash": "e397df317d88cbfc",
+      "srcHash": "9068ce69d60835e9",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Mind_1": {
       "en": "Daze Markers gradually fade over time",
@@ -33331,157 +33403,157 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_NeiliAllocation_0": {
-      "en": "Whenever a type of True Qi is in a state of <color=#darkred>Dissipation</color>/<color=#white>Depleting</color>/<color=#lightblue>Surging</color>, generate 2/1/1 True Qi Markers.",
+      "en": "Whenever a type of True Qi is in a state of <color=#darkred>Dissipation</color>/<color=#white>Depleting</color>/<color=#lightblue>Surging</color>, generate <color=#orange>2</color>/<color=#orange>1</color>/<color=#orange>1</color> True Qi Markers.",
       "cn": "每当一类真气处于溃散/耗损/暴涨状态时，产生2/1/1个真气标记",
-      "ru": "Всякий раз, когда какой-либо тип Истинной ци находится в состоянии <color=#darkred>Рассеивание</color>/<color=#white>Истощающий</color>/<color=#lightblue>Вздымающийся</color>, сгенерируйте 2/1/1 маркера Истинной Ци.",
+      "ru": "Всякий раз, когда какой-либо тип Истинной ци находится в состоянии <color=#darkred>Рассеивание</color>/<color=#white>Истощающий</color>/<color=#lightblue>Вздымающийся</color>, генерировать <color=#orange>2</color>/<color=#orange>1</color>/<color=#orange>1</color> Маркеры Истинной ци.",
       "status": "machine",
-      "srcHash": "40142055b63c1f11",
+      "srcHash": "1aff5bc1a75b9142",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Outer_0": {
-      "en": "Each time the External Injury {0} suffers reaches the External Injury Resilience cap of {0}, 1 External Injury Marker is generated.",
+      "en": "Whenever the <color=#outterinjury>External Injury</color> suffered by {0} reaches the <color=#outterinjury>{0} External Injury Resilience</color> cap, generate <color=#orange>1</color> <color=#outterinjury>External Injury Marker</color>.",
       "cn": "每当{0}受到的外伤达到{0}外伤强健上限时，产生1个外伤标记",
-      "ru": "Каждый раз при Внешней травме {0} страдает, достигает предела устойчивости к Внешним травмам {0}, генерируется 1 маркер Внешней травмы.",
+      "ru": "Всякий раз, когда <color=#outterinjury>Внешняя травма</color> пострадавший от {0} достигает <color=#outterinjury>{0} Устойчивость к Внешним травмам</color> колпачок, генерирующий <color=#orange>1</color> <color=#outterinjury>Маркер Внешней травмы</color>.",
       "status": "machine",
-      "srcHash": "a3f6012c57d75a9c",
+      "srcHash": "cca27e5c0669e077",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Outer_1": {
-      "en": "When suffering Recoil from certain Martial Arts, inflict an External Injury Marker on the recoiled body part.",
+      "en": "When suffering Recoil from a specific Martial Art, inflict <color=#outterinjury>External Injury Marker</color> on the Recoiled body part.",
       "cn": "受到特定功法的反噬时，将对被反噬部位造成外伤标记",
-      "ru": "Когда вы испытываете отдачу от определенных Боевых искусств, нанесите маркер Внешней травмы на отскочившую часть тела.",
+      "ru": "Когда испытываешь отдачу от определенной Боевой техники, наноси <color=#outterinjury>Маркер Внешней травмы</color> на откинутой части тела.",
       "status": "machine",
-      "srcHash": "cbd7a09e21ef75f8",
+      "srcHash": "53e1db4e4b75905f",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Outer_2": {
-      "en": "When Acritoxin Burst triggers, it inflicts an External Injury Marker on a random part.",
+      "en": "When <color=#Hot>Acritoxin</color> is triggered, inflict <color=#outterinjury>External Injury Marker</color> on a random body part.",
       "cn": "烈毒发作时，将对随机部位造成外伤标记",
-      "ru": "Когда срабатывает взрыв Акритоксина, он наносит маркер Внешней травмы на случайную деталь.",
+      "ru": "Когда <color=#Hot>Акритоксин</color> срабатывает, наносит <color=#outterinjury>Маркер Внешней травмы</color> на случайной части тела.",
       "status": "machine",
-      "srcHash": "ed44b0404e08965d",
+      "srcHash": "80898d9f443e95ae",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Poison0_0": {
-      "en": "When accumulating 500/3500/12500 Acritoxin, 1/2/3 Acritoxin Markers appear.",
+      "en": "When accumulating <color=#orange>500</color>/<color=#orange>3500</color>/<color=#orange>12500</color> points of <color=#Hot>Acritoxin Toxin</color>, 1/2/3 <color=#Hot>Acritoxin Markers</color> will appear.",
       "cn": "累计受到500/3500/12500点烈毒毒素时，将出现1/2/3个烈毒标记",
-      "ru": "При накоплении 500/3500/12500 Акритоксина появляются маркеры 1/2/3 Акритоксина.",
+      "ru": "При накоплении <color=#orange>500</color>/<color=#orange>3500</color>/<color=#orange>12500</color> точки зрения <color=#Hot>Токсин Акритоксин</color>, 1/2/3 <color=#Hot>Маркеры Акритоксина</color> появится.",
       "status": "machine",
-      "srcHash": "19f27323cb8c8c78",
+      "srcHash": "cb9a360b811a21ea",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Poison0_1": {
-      "en": "When Necrotoxin Burst triggers, part of the Necrotoxin degenerates into Acritoxin.",
+      "en": "When <color=#Rotten>Necrotoxin</color> is triggered, some <color=#Rotten>Necrotoxin Toxin</color> will transform into <color=#Hot>Acritoxin Toxin</color>.",
       "cn": "腐毒发作时，部分腐毒毒素将衍生为烈毒毒素",
-      "ru": "Когда запускается выброс Некротоксина, часть Некротоксина перерождается в Акритоксин.",
+      "ru": "Когда <color=#Rotten>Некротоксин</color> срабатывает, какой-то <color=#Rotten>Токсин Некротоксина</color> превратится в <color=#Hot>Токсин Акритоксин</color>.",
       "status": "machine",
-      "srcHash": "8b299aeb3711d29d",
+      "srcHash": "c27797a8bd517168",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Poison1_0": {
-      "en": "When accumulating 500/3500/12500 Umbritoxin, 1/2/3 Umbritoxin Markers appear.",
+      "en": "When accumulating <color=#orange>500</color>/<color=#orange>3500</color>/<color=#orange>12500</color> points of <color=#Gloomy>Umbritoxin Toxin</color>, 1/2/3 <color=#Gloomy>Umbritoxin Markers</color> will appear.",
       "cn": "累积受到500/3500/12500点郁毒毒素时，将出现1/2/3个郁毒标记",
-      "ru": "При накоплении 500/3500/12500 Умбротоксина появляются маркеры 1/2/3 Умбротоксина.",
+      "ru": "При накоплении <color=#orange>500</color>/<color=#orange>3500</color>/<color=#orange>12500</color> точки зрения <color=#Gloomy>Токсин Умбротоксина</color>, 1/2/3 <color=#Gloomy>Маркеры Умбротоксина</color> появится.",
       "status": "machine",
-      "srcHash": "bc5bb2bd4444f533",
+      "srcHash": "ffa9eeeea5405a75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Poison1_1": {
-      "en": "When Oneirotoxin Burst triggers, part of the Oneirotoxin degenerates into Umbritoxin.",
+      "en": "When <color=#Illusory>Oneirotoxin</color> is triggered, some <color=#Illusory>Oneirotoxin Toxin</color> will transform into <color=#Gloomy>Umbritoxin Toxin</color>.",
       "cn": "幻毒发作时，部分幻毒毒素将衍生为郁毒毒素",
-      "ru": "Когда запускается выброс Онейротоксина, часть Онейротоксина перерождается в Умбротоксин.",
+      "ru": "Когда <color=#Illusory>Онейротоксин</color> срабатывает, какой-то <color=#Illusory>Токсин Онейротоксина</color> превратится в <color=#Gloomy>Токсин Умбротоксина</color>.",
       "status": "machine",
-      "srcHash": "7f6bfacb2e077378",
+      "srcHash": "db25636f461b62fb",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Poison2_0": {
-      "en": "When accumulating 500/3500/12500 Cryotoxin, 1/2/3 Cryotoxin Markers appear.",
+      "en": "When accumulating <color=#orange>500</color>/<color=#orange>3500</color>/<color=#orange>12500</color> points of <color=#Cold>Cryotoxin Toxin</color>, 1/2/3 <color=#Cold>Cryotoxin Markers</color> will appear.",
       "cn": "累积受到500/3500/12500点寒毒毒素时，将出现1/2/3个寒毒标记",
-      "ru": "При накоплении 500/3500/12500 Криотоксинов появляются маркеры 1/2/3 Криотоксина.",
+      "ru": "При накоплении <color=#orange>500</color>/<color=#orange>3500</color>/<color=#orange>12500</color> точки зрения <color=#Cold>Токсин Криотоксина</color>, 1/2/3 <color=#Cold>Маркеры Криотоксина</color> появится.",
       "status": "machine",
-      "srcHash": "09d9963ca4e82101",
+      "srcHash": "1630dd2943173054",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Poison2_1": {
-      "en": "When Umbritoxin Burst triggers, part of the Umbritoxin degenerates into Cryotoxin.",
+      "en": "<color=#Gloomy>Umbritoxin</color> is triggered, some <color=#Gloomy>Umbritoxin Toxin</color> will transform into <color=#Cold>Cryotoxin Toxin</color>",
       "cn": "郁毒发作时，部分郁毒毒素将衍生为寒毒毒素",
-      "ru": "Когда запускается выброс Умбротоксина, часть Умбротоксина перерождается в Криотоксин.",
+      "ru": "<color=#Gloomy>Умбротоксин</color> срабатывает, какой-то <color=#Gloomy>Токсин Умбротоксина</color> превратится в <color=#Cold>Токсин Криотоксина</color>",
       "status": "machine",
-      "srcHash": "794682ed577d2897",
+      "srcHash": "0ae97aadfd5ad69c",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Poison3_0": {
-      "en": "When accumulating 500/3500/12500 Pyrotoxin, 1/2/3 Pyrotoxin Markers appear.",
+      "en": "When accumulating <color=#orange>500</color>/<color=#orange>3500</color>/<color=#orange>12500</color> points of <color=#Red>Pyrotoxin Toxin</color>, 1/2/3 <color=#Red>Pyrotoxin Markers</color> will appear.",
       "cn": "累积受到500/3500/12500点赤毒毒素时，将出现1/2/3个赤毒标记",
-      "ru": "При накоплении 500/3500/12500 Пиротоксинов появляются маркеры 1/2/3 Пиротоксина.",
+      "ru": "При накоплении <color=#orange>500</color>/<color=#orange>3500</color>/<color=#orange>12500</color> точки зрения <color=#Red>Токсин Пиротоксина</color>, 1/2/3 <color=#Red>Маркеры с Пиротоксином</color> появится.",
       "status": "machine",
-      "srcHash": "ed41ac68a4b7682b",
+      "srcHash": "a3f7e4c04078788a",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Poison3_1": {
-      "en": "When Acritoxin Burst triggers, part of the Acritoxin degenerates into Pyrotoxin.",
+      "en": "<color=#Hot>Acritoxin</color> is triggered, some <color=#Hot>Acritoxin Toxin</color> will transform into <color=#Red>Pyrotoxin Toxin</color>",
       "cn": "烈毒发作时，部分烈毒毒素将衍生为赤毒毒素",
-      "ru": "Когда запускается выброс Акритоксина, часть Акритоксина превращается в Пиротоксин.",
+      "ru": "<color=#Hot>Акритоксин</color> срабатывает, какой-то <color=#Hot>Токсин Акритоксин</color> превратится в <color=#Red>Токсин Пиротоксина</color>",
       "status": "machine",
-      "srcHash": "152c37c2d9a45b97",
+      "srcHash": "6e21d0c035da8dff",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Poison4_0": {
-      "en": "When accumulating 500/3500/12500 Necrotoxin, 1/2/3 Necrotoxin Markers appear.",
+      "en": "When accumulating <color=#orange>500</color>/<color=#orange>3500</color>/<color=#orange>12500</color> points of <color=#Rotten>Necrotoxin Toxin</color>, 1/2/3 <color=#Rotten>Necrotoxin Markers</color> will appear.",
       "cn": "累积受到500/3500/12500点腐毒毒素时，将出现1/2/3个腐毒标记",
-      "ru": "При накоплении 500/3500/12500 Некротоксина появляются маркеры 1/2/3 Некротоксина.",
+      "ru": "При накоплении <color=#orange>500</color>/<color=#orange>3500</color>/<color=#orange>12500</color> точки зрения <color=#Rotten>Токсин Некротоксина</color>, 1/2/3 <color=#Rotten>Маркеры Некротоксина</color> появится.",
       "status": "machine",
-      "srcHash": "fba437d504e721fb",
+      "srcHash": "8d8f66f56921d9dd",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Poison4_1": {
-      "en": "When Pyrotoxin Burst triggers, part of the Pyrotoxin degenerates into Necrotoxin.",
+      "en": "<color=#Red>Pyrotoxin</color> is triggered, some <color=#Red>Pyrotoxin Toxin</color> will transform into <color=#Rotten>Necrotoxin Toxin</color>",
       "cn": "赤毒发作时，部分赤毒毒素将衍生为腐毒毒素",
-      "ru": "Когда срабатывает взрыв Пиротоксина, часть Пиротоксина перерождается в Некротоксин.",
+      "ru": "<color=#Red>Пиротоксин</color> срабатывает, какой-то <color=#Red>Токсин Пиротоксина</color> превратится в <color=#Rotten>Токсин Некротоксина</color>",
       "status": "machine",
-      "srcHash": "60f03bfdda02d311",
+      "srcHash": "8617c438cc0d6620",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Poison5_0": {
-      "en": "When accumulating 500/3500/12500 Oneirotoxin, 1/2/3 Oneirotoxin Markers appear.",
+      "en": "When accumulating <color=#orange>500</color>/<color=#orange>3500</color>/<color=#orange>12500</color> points of <color=#Illusory>Oneirotoxin Toxin</color>, 1/2/3 <color=#Illusory>Oneirotoxin Markers</color> will appear.",
       "cn": "累积受到500/3500/12500点幻毒毒素时，将出现1/2/3个幻毒标记",
-      "ru": "При накоплении 500/3500/12500 Онейротоксина появляются маркеры 1/2/3 Онейротоксина.",
+      "ru": "При накоплении <color=#orange>500</color>/<color=#orange>3500</color>/<color=#orange>12500</color> точки зрения <color=#Illusory>Токсин Онейротоксина</color>, 1/2/3 <color=#Illusory>Маркеры Онейротоксина</color> появится.",
       "status": "machine",
-      "srcHash": "26d211e32b090382",
+      "srcHash": "a1d3d974c7c82ffc",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Poison5_1": {
-      "en": "When Cryotoxin Burst triggers, part of the Cryotoxin degenerates into Oneirotoxin.",
+      "en": "<color=#Cold>Cryotoxin</color> is triggered, some <color=#Cold>Cryotoxin Toxin</color> will transform into <color=#Illusory>Oneirotoxin Toxin</color>",
       "cn": "寒毒发作时，部分寒毒毒素将衍生为幻毒毒素",
-      "ru": "Когда запускается выброс Криотоксина, часть Криотоксина перерождается в Онейротоксин.",
+      "ru": "<color=#Cold>Криотоксин</color> срабатывает, какой-то <color=#Cold>Токсин Криотоксина</color> превратится в <color=#Illusory>Токсин Онейротоксина</color>",
       "status": "machine",
-      "srcHash": "a7d4bfb997fd222d",
+      "srcHash": "e1cfd8fdaa141093",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_QiDisorder_0": {
-      "en": "After Inner Breath Chaos exceeds 300, for each additional 100 Inner Breath Chaos, 1 Chaotic Marker is generated.",
+      "en": "When Inner Breath Chaos exceeds <color=#orange>300</color>, for every additional <color=#orange>100</color> Inner Breath Chaos, generate <color=#orange>1</color> Inner Breath Marker.",
       "cn": "内息紊乱超过300后，每增加100内息紊乱，产生1个内息标记",
-      "ru": "После того, как хаос Внутреннего дыхания превысит 300, за каждые дополнительные 100 хаоса Внутреннего дыхания генерируется 1 хаотический маркер.",
+      "ru": "Когда Внутреннее дыхание превосходит хаос <color=#orange>300</color>, за каждый дополнительный <color=#orange>100</color> Хаос Внутреннего дыхания, порождающий <color=#orange>1</color> Маркер Внутреннего дыхания.",
       "status": "machine",
-      "srcHash": "d787385fbcbfd372",
+      "srcHash": "e431c9b4e12f137f",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_QiDisorder_1": {
       "en": "When a character suffers Recoil from a Martial Art, their Inner Breath Chaos increases.",
@@ -33493,22 +33565,22 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Scar_0": {
-      "en": "Whenever an Internal Injury Marker, External Injury Marker, or Wound Marker is removed from a character, there is a 50% chance to generate a Healing Marker.",
+      "en": "Whenever a character's <color=#innerinjury>Internal Injury Markers</color>, <color=#outterinjury>External Injury Markers</color>, or <color=#fataldamage>Wound Markers</color> are removed, there is a <color=#orange>50%</color> chance to generate a Healing Marker.",
       "cn": "每当人物的内伤标记、外伤标记或重创标记被消除时，均会有50%几率生成一个愈合标记",
-      "ru": "Всякий раз, когда с персонажа удаляется маркер Внутренней травмы, маркер Внешней травмы или маркер Раны, существует 50%-ная вероятность создания маркера заживления.",
+      "ru": "Всякий раз, когда персонаж <color=#innerinjury>Маркеры Внутренних травм</color>, <color=#outterinjury>Маркеры Внешних травм</color>, или <color=#fataldamage>Маркеры Ран</color> удаляются, возникает <color=#orange>50%</color> шанс сгенерировать исцеляющий маркер.",
       "status": "machine",
-      "srcHash": "6a3b1157c5fea5f4",
+      "srcHash": "e833a3f7100fd136",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_State_0": {
-      "en": "The more the total intensity of Impairment states exceeds that of buff states, the more Status Markers are generated; up to 8 Status Markers can appear.",
+      "en": "The more the total intensity of <color=#darkred>Harmful Statuses</color> <color=#orange>exceeds</color> the total intensity of <color=#brightblue>Beneficial Statuses</color>, the more State Markers will be generated; up to <color=#orange>8</color> State Markers can appear.",
       "cn": "损害状态的强度总和高于增益状态的强度总和越多，将产生越多的状态标记；最多出现8个状态标记",
-      "ru": "Чем больше общая интенсивность состояний ухудшения превышает интенсивность состояний улучшения, тем больше генерируется маркеров состояния; может появиться до 8 маркеров состояния.",
+      "ru": "Чем больше общая интенсивность <color=#darkred>Вредные статусы</color> <color=#orange>превышает</color> общая интенсивность <color=#brightblue>Выгодные статусы</color>, тем больше маркеров состояния будет сгенерировано; вплоть до <color=#orange>8</color> Могут появиться маркеры состояния.",
       "status": "machine",
-      "srcHash": "8c65d4a844ff62ac",
+      "srcHash": "5b0087585fd46cd6",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Tired_0": {
       "en": "After a battle exceeds a certain duration, Fatigued Markers appear over time.",
@@ -33520,13 +33592,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_Combat_DefeatMarkTip_Condition_Wug_0": {
-      "en": "For each Prime Gu or Un-attuned Gu in the body, 1 Gu Marker is generated.",
+      "en": "For each <color=#orange>1</color> type of Prime Gu or un-attuned Gu in the body, generate <color=#orange>1</color> Gu Marker.",
       "cn": "体内每有1种王蛊或未识主的蛊虫，产生1个蛊虫标记",
-      "ru": "Для каждого простого Гу или ненастроенного Гу в теле генерируется 1 маркер Гу.",
+      "ru": "Для каждого <color=#orange>1</color> тип основного Гу или ненастроенного Гу в организме генерирует <color=#orange>1</color> Маркер Гу.",
       "status": "machine",
-      "srcHash": "72e40349f02afce8",
+      "srcHash": "74d871b7bc4b2984",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Degree_NeiliAllocation_Level_0": {
       "en": "<color=#darkred>Dissipation</color>",
@@ -33655,76 +33727,76 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Acupoint_0": {
-      "en": "Head-and-Neck: Reduces the character's Attack Range based on the remaining duration of Sealed Acupoint on the Head-and-Neck...",
+      "en": "Head-and-Neck: Based on the remaining time of <color=#innerinjury>Head-and-Neck Sealed Acupoint</color>, <color=#darkred>reduce the character's Attack Range…</color>",
       "cn": "头颈：根据头颈封穴的剩余时间，减少人物的攻击范围…",
-      "ru": "Удар в голову и шею: Уменьшает дальность Атаки персонажа в зависимости от оставшегося времени действия Акупунктурной точки Печати на голове и шее...",
+      "ru": "Голова и шея: В зависимости от оставшегося времени <color=#innerinjury>Герметичная Акупунктурная точка на голове и шее</color>, <color=#darkred>уменьшите дальность Атаки персонажа…</color>",
       "status": "machine",
-      "srcHash": "4b7cecb70ded47b8",
+      "srcHash": "12cb4264ee6440ee",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Acupoint_1": {
-      "en": "Torso: Reduces the character's Inhale Recovery speed based on the remaining duration of Sealed Acupoint on the Torso...",
+      "en": "Torso: Based on the remaining time of <color=#innerinjury>Torso Sealed Acupoint</color>, <color=#darkred>reduce the character's Inhale Recovery Speed…</color>",
       "cn": "胸背：根据胸背封穴的剩余时间，降低人物的提气恢复速度…",
-      "ru": "Туловище: Уменьшает скорость Восстановления дыхания персонажа на основе оставшегося времени действия запечатанной Акупунктурной точки на туловище...",
+      "ru": "Туловище: В зависимости от оставшегося времени <color=#innerinjury>Запечатанная Акупунктурная точка туловища</color>, <color=#darkred>уменьшите скорость Восстановления дыхания персонажа…</color>",
       "status": "machine",
-      "srcHash": "e33c53a903811a33",
+      "srcHash": "a5efcec7c409249d",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Acupoint_2": {
-      "en": "Midsection: Reduces the character's Stance Recovery speed based on the remaining duration of Sealed Acupoint on the Midsection...",
+      "en": "Midsection: Based on the remaining time of <color=#innerinjury>Midsection Sealed Acupoint</color>, <color=#darkred>reduce the character's Stance Recovery Speed…</color>",
       "cn": "腰腹：根据腰腹封穴的剩余时间，降低人物的架势恢复速度…",
-      "ru": "Живот: Уменьшает скорость Восстановления стойки персонажа в зависимости от оставшегося времени действия запечатанной Акупунктурной точки на животе...",
+      "ru": "Средняя часть: В зависимости от оставшегося времени <color=#innerinjury>Запечатанная Акупунктурная точка в средней части тела</color>, <color=#darkred>уменьшите скорость Восстановления стойки персонажа…</color>",
       "status": "machine",
-      "srcHash": "6a34af14736d5a91",
+      "srcHash": "fccb11ec19b05260",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Acupoint_3": {
-      "en": "L. Arm: Increases the character's Weapon Attack preparation time based on the remaining duration of Sealed Acupoint on the Left Arm...",
+      "en": "L. Arm: Based on the remaining time of <color=#innerinjury>L. Arm Sealed Acupoint</color>, <color=#darkred>increase the character's Weapon Attack Preparation Time…</color>",
       "cn": "左臂：根据左臂封穴的剩余时间，增加人物的兵器攻击准备时间…",
-      "ru": "L. Рука: Увеличивает время подготовки персонажа к Атаке с помощью Оружия, основанное на оставшемся времени действия запечатанной Акупунктурной точки на левой руке...",
+      "ru": "L. Arm: Исходя из оставшегося времени <color=#innerinjury>L. Герметичная Акупунктурная точка на руке</color>, <color=#darkred>увеличьте время подготовки персонажа к Атаке с помощью Оружия…</color>",
       "status": "machine",
-      "srcHash": "8f62a7c7110465b0",
+      "srcHash": "56e3cea2c8c90a5f",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Acupoint_4": {
-      "en": "R. Arm: Increases the character's Weapon Attack preparation time based on the remaining duration of Sealed Acupoint on the Right Arm...",
+      "en": "R. Arm: Based on the remaining time of <color=#innerinjury>R. Arm Sealed Acupoint</color>, <color=#darkred>increase the character's Weapon Attack Preparation Time…</color>",
       "cn": "右臂：根据右臂封穴的剩余时间，增加人物的兵器攻击准备时间…",
-      "ru": "R. Рука: Увеличивает время подготовки персонажа к Атаке с помощью Оружия в зависимости от оставшегося времени действия запечатанной Акупунктурной точки на правой руке...",
+      "ru": "R. Arm: Исходя из оставшегося времени <color=#innerinjury>R. Запечатанная Акупунктурная точка на руке</color>, <color=#darkred>увеличьте время подготовки персонажа к Атаке с помощью Оружия…</color>",
       "status": "machine",
-      "srcHash": "7d66b6f2bb244c3e",
+      "srcHash": "8cb2c403cac8fe31",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Acupoint_5": {
-      "en": "L. Leg: Increases the character's Movement Interval based on the remaining duration of Sealed Acupoint on the Left Leg...",
+      "en": "L. Leg: Based on the remaining time of <color=#innerinjury>L. Leg Sealed Acupoint</color>, <color=#darkred>increase the character's Movement Interval…</color>",
       "cn": "左腿：根据左腿封穴的剩余时间，增加人物的移动间隔…",
-      "ru": "Левая нога: Увеличивает интервал передвижения персонажа в зависимости от оставшейся продолжительности воздействия на запечатанную Акупунктурную точку на левой ноге...",
+      "ru": "L. Этап: Исходя из оставшегося времени <color=#innerinjury>L. Запечатанная Акупунктурная точка на ноге</color>, <color=#darkred>увеличьте интервал перемещения персонажа…</color>",
       "status": "machine",
-      "srcHash": "7270763c13cc5c09",
+      "srcHash": "4f45e2c2b58bbf56",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Acupoint_6": {
-      "en": "R. Leg: Increases the character's Movement Interval based on the remaining duration of Sealed Acupoint on the Right Leg...",
+      "en": "R. Leg: Based on the remaining time of <color=#innerinjury>R. Leg Sealed Acupoint</color>, <color=#darkred>increase the character's Movement Interval…</color>",
       "cn": "右腿：根据右腿封穴的剩余时间，增加人物的移动间隔…",
-      "ru": "R. Нога: Увеличивает интервал перемещения персонажа в зависимости от оставшегося времени действия запечатанной Акупунктурной точки на правой ноге...",
+      "ru": "R. Этап: Исходя из оставшегося времени <color=#innerinjury>R. Запечатанная Акупунктурная точка на ноге</color>, <color=#darkred>увеличьте интервал перемещения персонажа…</color>",
       "status": "machine",
-      "srcHash": "274209a11887622f",
+      "srcHash": "eab47fd0e71085c3",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Acupoint_7": {
-      "en": "When {0} has 3 Sealed Acupoint Markers, {0} is considered Maimed, and the character cannot use Martial Arts requiring {0}...",
+      "en": "When {0} has <color=#orange>3</color> <color=#innerinjury>Sealed Acupoint Markers</color>, <color=#darkred>it is considered {0} Maimed, and the character cannot perform Martial Arts that require {0}…</color>",
       "cn": "{0}出现3个封穴标记时，视为{0}残毁，人物无法施展需要{0}的功法…",
-      "ru": "Когда {0} имеет 3 запечатанных маркера Акупунктурных точек, {0} считается искалеченным, и персонаж не может использовать Боевые искусства, требующие {0}...",
+      "ru": "Когда {0} имеет <color=#orange>3</color> <color=#innerinjury>Запечатанные маркеры Акупунктурных точек</color>, <color=#darkred>это считается {0} Искалечен, и персонаж не может выполнять Боевые искусства, требующие {0}…</color>",
       "status": "machine",
-      "srcHash": "4ed86e19b8b4bff3",
+      "srcHash": "b933d3dd41db711c",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Die_0": {
       "en": "The more Doom Markers a character has, the more the Power of all their Martial Arts increases.",
@@ -33736,94 +33808,94 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Die_1": {
-      "en": "When the number of Doom Markers reaches 6, the character is immediately defeated, and their maximum Health is reduced to 0.",
+      "en": "When the number of Doom Markers reaches <color=#orange>6</color>, <color=#darkred>the character is immediately defeated, and Max Health is reduced to 0</color>",
       "cn": "必死标记的数量达到6时，人物立即战败，且最大健康降低至0",
-      "ru": "Когда количество маркеров гибели достигает 6, персонаж немедленно терпит поражение, а его максимальное Здоровье снижается до 0.",
+      "ru": "Когда количество маркеров обреченности достигнет <color=#orange>6</color>, <color=#darkred>персонаж немедленно побеждается, а максимальное количество Здоровья снижается до 0</color>",
       "status": "machine",
-      "srcHash": "13edf6346c4bc151",
+      "srcHash": "c56dec4f919f5ae2",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Fatal_0": {
-      "en": "After battle ends, all of the character's Wound Markers are removed...",
+      "en": "After the Battle ends, all <color=#fataldamage>Wound Markers</color> on the character will be removed…",
       "cn": "战斗结束后，将消除人物的所有重创标记…",
-      "ru": "После окончания битвы все метки Ран персонажа удаляются...",
+      "ru": "После окончания битвы все <color=#fataldamage>Маркеры Ран</color> на персонаже будет удален…",
       "status": "machine",
-      "srcHash": "a5249aed1aced5e0",
+      "srcHash": "e7deb737d6500a0d",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Fatal_1": {
-      "en": "Sparring: Because the current battle type is Sparring, no Health loss will be suffered from Wound Markers when the battle ends...",
+      "en": "Sparring: Since the current Battle type is Sparring, no Health loss is incurred from <color=#fataldamage>Wound Markers</color> at the end of the Battle…",
       "cn": "切磋：由于当前战斗类型为切磋，战斗结束时将不会因为重创标记受到健康损耗…",
-      "ru": "Спарринг: Поскольку текущим типом боя является спарринг, по окончании боя маркеры Ран не приведут к потере Здоровья...",
+      "ru": "Спарринг: Поскольку текущим типом боя является спарринг, потери Здоровья от него не происходят. <color=#fataldamage>Маркеры Ран</color> в конце битвы…",
       "status": "machine",
-      "srcHash": "a72ad3b462d5805d",
+      "srcHash": "bdc19cbd8c66bd57",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Fatal_2": {
-      "en": "Trial: Because the current battle type is Trial, Health loss will be suffered based on the number of Wound Markers when the battle ends...",
+      "en": "Respond: Since the current Battle type is Respond, Health loss will be incurred <color=#darkred>based on the number of</color><color=#fataldamage>Wound Markers</color><color=#darkred> at the end of the Battle…</color>",
       "cn": "接招：由于当前战斗类型为接招，战斗结束时将根据重创标记的数量受到健康损耗…",
-      "ru": "Испытание: Поскольку текущий тип боя - Испытание, потери Здоровья будут зависеть от количества маркеров Ран по окончании боя...",
+      "ru": "Ответить: Поскольку текущий тип боя - Ответить, будет нанесен урон Здоровью <color=#darkred>в зависимости от количества</color><color=#fataldamage>Маркеры Ран</color><color=#darkred> в конце битвы…</color>",
       "status": "machine",
-      "srcHash": "85b8117134791d25",
+      "srcHash": "160a9af233b64a69",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Fatal_3": {
-      "en": "Brawl: Because the current battle type is Brawl, Health loss will be suffered based on the number of Wound Markers when the battle ends...",
+      "en": "Brawl: Since the current Battle type is Brawl, Health loss will be incurred <color=#darkred>based on the number of</color><color=#fataldamage>Wound Markers</color><color=#darkred> at the end of the Battle…</color>",
       "cn": "恶斗：由于当前战斗类型为恶斗，战斗结束时将根据重创标记的数量受到健康损耗…",
-      "ru": "Драка: Поскольку текущим типом сражения является Драка, потери Здоровья будут зависеть от количества маркеров Ран по окончании битвы...",
+      "ru": "Драка: Поскольку текущим типом боя является драка, будет нанесен урон Здоровью <color=#darkred>в зависимости от количества</color><color=#fataldamage>Маркеры Ран</color><color=#darkred> в конце битвы…</color>",
       "status": "machine",
-      "srcHash": "903aa95a2a946c27",
+      "srcHash": "76c271a0408fd141",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Fatal_4": {
-      "en": "Duel: Because the current battle type is Duel, heavy Health loss will be suffered based on the number of Wound Markers when the battle ends...",
+      "en": "Duel: Since the current Battle type is Duel, significant Health loss will be incurred <color=#darkred>based on the number of</color><color=#fataldamage>Wound Markers</color><color=#darkred> at the end of the Battle…</color>",
       "cn": "死斗：由于当前战斗类型为死斗，战斗结束时将根据重创标记的数量受到大量健康损耗…",
-      "ru": "Поединок: Поскольку текущим типом боя является Поединок, по окончании боя будет нанесен значительный урон Здоровью в зависимости от количества маркеров Ран...",
+      "ru": "Поединок: Поскольку текущим типом боя является Поединок, будут понесены значительные потери Здоровья <color=#darkred>в зависимости от количества</color><color=#fataldamage>Маркеры Ран</color><color=#darkred> в конце битвы…</color>",
       "status": "machine",
-      "srcHash": "6c937d0c75c33ca4",
+      "srcHash": "1d3daa4f7b0d8052",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Flaw_0": {
-      "en": "When {0} receives an Openings mark, direct damage to {0} is increased by 40%. Effects of multiple Openings on the same body part do not stack...",
+      "en": "When {0} has an <color=#outterinjury>Openings marker</color>, <color=#darkred>Direct DMG received by {0} is increased</color> by <color=#orange>40%</color>, and multiple Openings effects on the same body part do not stack…",
       "cn": "{0}出现破绽标记时，{0}受到的直接伤害提高40%，同部位的多个破绽效果不会叠加…",
-      "ru": "Когда {0} получает отметину отверстия, прямое повреждение {0} увеличивается на 40%. Эффекты нескольких отверстий на одной и той же части тела не суммируются...",
+      "ru": "Когда {0} имеет <color=#outterinjury>Маркер отверстий</color>, <color=#darkred>Прямой урон от DMG, полученный {0} увеличивается</color> по <color=#orange>40%</color>, и эффекты множественных отверстий на одной и той же части тела не суммируются…",
       "status": "machine",
-      "srcHash": "c8726816d586b289",
+      "srcHash": "69a3fd5ad41fc750",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Inner_0": {
-      "en": "When the Internal Injury of {0} reaches 5, {0} is considered severely injured, and the cast time of Martial Arts requiring {0} is doubled...",
+      "en": "When <color=#innerinjury>{0} Internal Injury</color> reaches <color=#orange>5</color>, {0} is considered severely injured, <color=#darkred>doubling the execution time of Martial Arts requiring {0}…</color>",
       "cn": "{0}内伤达到5时，视为{0}重伤，需要{0}的功法施展时间加倍…",
-      "ru": "Когда Внутренняя травма {0} достигает 5, {0} считается тяжело раненным, и время применения Боевых искусств, требующее {0} удваивается...",
+      "ru": "Когда <color=#innerinjury>{0} Внутренняя травма</color> достигает <color=#orange>5</color>, {0} считается тяжело раненным, <color=#darkred>удвоение времени выполнения Боевых искусств, требующих {0}…</color>",
       "status": "machine",
-      "srcHash": "837c3cdff4775f0d",
+      "srcHash": "2810a89e2ffed06c",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Inner_1": {
-      "en": "When the Internal Injury of {0} reaches 6, {0} is considered Maimed, and the character cannot use Martial Arts requiring {0}...",
+      "en": "When <color=#innerinjury>{0} Internal Injury</color> reaches <color=#orange>6</color>, {0} is considered Maimed, and the character <color=#darkred>cannot perform Martial Arts requiring {0}…</color>",
       "cn": "{0}内伤达到6时，视为{0}残毁，人物无法施展需要{0}的功法…",
-      "ru": "Когда Внутренняя травма {0} достигает 6, {0} считается искалеченным, и персонаж не может использовать Боевые искусства, требующие {0}...",
+      "ru": "Когда <color=#innerinjury>{0} Внутренняя травма</color> достигает <color=#orange>6</color>, {0} считается искалеченным, а персонаж <color=#darkred>не может заниматься Боевыми искусствами, требующими {0}…</color>",
       "status": "machine",
-      "srcHash": "f76a6feb9796e042",
+      "srcHash": "464071ac5d0312eb",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Inner_2": {
-      "en": "When the Internal Injury of {0} reaches 6, further Internal Injury to {0} is converted into Wound...",
+      "en": "When <color=#innerinjury>{0} Internal Injury</color> reaches <color=#orange>6</color>, further <color=#innerinjury>{0} Internal Injury</color> received will <color=#darkred>be converted into Wounds…</color>",
       "cn": "{0}内伤达到6时，继续受到的{0}内伤将转变为重创…",
-      "ru": "Когда Внутренняя травма {0} достигает 6, что приводит к дальнейшим Внутренним травмам {0} превращается в Рану...",
+      "ru": "Когда <color=#innerinjury>{0} Внутренняя травма</color> достигает <color=#orange>6</color>, далее <color=#innerinjury>{0} Внутренняя травма</color> полученное завещание <color=#darkred>будут превращены в Раны…</color>",
       "status": "machine",
-      "srcHash": "9baa458514432891",
+      "srcHash": "0507f5a725e57249",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Mind_0": {
       "en": "After a character generates multiple Daze Markers in a short time, they enter a state of Mind Turbulence...",
@@ -33835,256 +33907,256 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Mind_1": {
-      "en": "During Mind Turbulence, the Daze Markers generated turn into Residual Daze Markers that do not fade over time...",
+      "en": "During Heart Rhyme Surge, <color=#darkred>Daze Markers</color> generated <color=#darkred>will transform into</color> Residual Divine Markers <color=#darkred>that do not fade over time…</color>",
       "cn": "心韵激荡期间，产生的失神标记将转变为不会随时间消退的残神标记…",
-      "ru": "Во время турбулентности сознания генерируемые маркеры Оцепенения превращаются в остаточные маркеры Оцепенения, которые не исчезают с течением времени...",
+      "ru": "Во время сердечного приступа рифмы, <color=#darkred>Маркеры Оцепенения</color> сгенерированный <color=#darkred>превратится в</color> Остаточные Божественные маркеры <color=#darkred>которые не выцветают со временем…</color>",
       "status": "machine",
-      "srcHash": "b986e63c470896ff",
+      "srcHash": "7cdb61e7b0bede75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_NeiliAllocation_0": {
-      "en": "<color=#darkred>Dissipation</color>: The loss of {0} is greatly reduced, and its gain is greatly increased; the power of Martial Art {1} is reduced, Recoil Damage is greatly reduced, and the chance of Recoil is greatly increased.",
+      "en": "<color=#darkred>Dissipation</color>: {0}'s <color=#brightblue>Depleting amount is greatly reduced, increase amount is greatly increased;</color> the <color=#darkred>Power of {1} Martial Arts is reduced</color>, <color=#brightblue>Recoil damage is greatly reduced</color>, <color=#darkred>Recoil chance is greatly increased</color>",
       "cn": "溃散：{0}的损耗量大幅降低，增加量大幅提高；{1}功法的威力降低，反噬伤害大幅降低，反噬几率大幅提高",
-      "ru": "<color=#darkred>Рассеивание</color>: Потеря {0} значительно уменьшается, а его выигрыш значительно увеличивается; сила Боевой техники {1} уменьшается, урон от отдачи значительно уменьшается, а вероятность отдачи значительно увеличивается.",
+      "ru": "<color=#darkred>Рассеивание</color>: {0}'s <color=#brightblue>Количество истощения значительно уменьшается, количество увеличения значительно увеличивается;</color> тот <color=#darkred>Сила {1} Количество занятий Боевыми искусствами сокращается</color>, <color=#brightblue>Урон от отдачи значительно уменьшен</color>, <color=#darkred>Вероятность отдачи значительно увеличивается</color>",
       "status": "machine",
-      "srcHash": "f0dfd3b40963795f",
+      "srcHash": "6c768e7a49cf9ca0",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_NeiliAllocation_1": {
-      "en": "<color=#white>Depleting</color>: The loss of {0} is slightly reduced, and its gain is increased; the power of Martial Art {1} is reduced, Recoil Damage is reduced, and the chance of Recoil is increased.",
+      "en": "<color=#white>Depleting</color>: {0}'s <color=#brightblue>Depleting amount is slightly reduced, increase amount is increased;</color> the <color=#darkred>Power of {1} Martial Arts is reduced</color>, <color=#brightblue>Recoil damage is reduced</color>, <color=#darkred>Recoil chance is increased</color>",
       "cn": "耗损：{0}的损耗量小幅降低，增加量提高；{1}功法的威力降低，反噬伤害降低，反噬几率提高",
-      "ru": "<color=#white>Истощающий</color>: Потеря {0} немного уменьшается, а его выигрыш увеличивается; сила Боевой техники {1} уменьшается, урон от отдачи уменьшается, а вероятность отдачи увеличивается.",
+      "ru": "<color=#white>Истощающий</color>: {0}'s <color=#brightblue>Количество истощения немного уменьшается, количество увеличения увеличивается;</color> тот <color=#darkred>Сила {1} Количество занятий Боевыми искусствами сокращается</color>, <color=#brightblue>Урон от отдачи уменьшен</color>, <color=#darkred>Вероятность отдачи увеличена</color>",
       "status": "machine",
-      "srcHash": "61c9e5b41eb62efc",
+      "srcHash": "83723ada5f68dd59",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_NeiliAllocation_4": {
-      "en": "<color=#lightblue>Surging</color>: The loss of {0} is greatly increased, and its gain is greatly reduced; the power of Martial Art {1} is increased, Recoil Damage is greatly increased, and the chance of Recoil is greatly reduced.",
+      "en": "<color=#lightblue>Surging</color>: {0}'s <color=#darkred>Depleting amount is greatly increased, increase amount is greatly reduced;</color> the <color=#brightblue>Power of {1} Martial Arts is increased</color>, <color=#darkred>Recoil damage is greatly increased</color>, <color=#brightblue>Recoil chance is greatly reduced</color>",
       "cn": "暴涨：{0}的损耗量大幅提高，增加量大幅降低；{1}功法的威力提高，反噬伤害大幅提高，反噬几率大幅降低",
-      "ru": "<color=#lightblue>Вздымающийся</color>: Потеря {0} значительно увеличивается, а его выигрыш значительно уменьшается; сила Боевой техники {1} увеличивается, урон от отдачи значительно увеличивается, а вероятность отдачи значительно снижается.",
+      "ru": "<color=#lightblue>Вздымающийся</color>: {0}'s <color=#darkred>Количество истощения значительно увеличивается, количество увеличения значительно уменьшается;</color> тот <color=#brightblue>Сила {1} Увеличивается количество занятий Боевыми искусствами</color>, <color=#darkred>Урон от отдачи значительно увеличен</color>, <color=#brightblue>Вероятность отдачи значительно снижается</color>",
       "status": "machine",
-      "srcHash": "131c12b2f9bc5c0c",
+      "srcHash": "9fba129ffb67e6e2",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Outer_0": {
-      "en": "When the External Injury of {0} reaches 5, {0} is considered severely injured, and the cast time of Martial Arts requiring {0} is doubled...",
+      "en": "When <color=#outterinjury>{0} External Injury</color> reaches <color=#orange>5</color>, {0} is considered severely injured, <color=#darkred>doubling the execution time of Martial Arts requiring {0}…</color>",
       "cn": "{0}外伤达到5时，视为{0}重伤，需要{0}的功法施展时间加倍…",
-      "ru": "Когда Внешняя травма {0} достигает 5, {0} считается тяжело раненным, и время применения Боевых искусств, требующее {0} удваивается...",
+      "ru": "Когда <color=#outterinjury>{0} Внешняя травма</color> достигает <color=#orange>5</color>, {0} считается тяжело раненным, <color=#darkred>удвоение времени выполнения Боевых искусств, требующих {0}…</color>",
       "status": "machine",
-      "srcHash": "b0b2a4abc42fddc0",
+      "srcHash": "49c2ecca5023600c",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Outer_1": {
-      "en": "When the External Injury of {0} reaches 6, {0} is considered Maimed, and the character cannot use Martial Arts requiring {0}...",
+      "en": "When <color=#outterinjury>{0} External Injury</color> reaches <color=#orange>6</color>, {0} is considered Maimed, and the character <color=#darkred>cannot perform Martial Arts requiring {0}…</color>",
       "cn": "{0}外伤达到6时，视为{0}残毁，人物无法施展需要{0}的功法…",
-      "ru": "Когда Внешняя травма {0} достигает 6, {0} считается искалеченным, и персонаж не может использовать Боевые искусства, требующие {0}...",
+      "ru": "Когда <color=#outterinjury>{0} Внешняя травма</color> достигает <color=#orange>6</color>, {0} считается искалеченным, а персонаж <color=#darkred>не может заниматься Боевыми искусствами, требующими {0}…</color>",
       "status": "machine",
-      "srcHash": "053cc68c4ec67927",
+      "srcHash": "a74e8f6f048f7c94",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Outer_2": {
-      "en": "When the External Injury of {0} reaches 6, further External Injury to {0} is converted into Wound...",
+      "en": "When <color=#outterinjury>{0} External Injury</color> reaches <color=#orange>6</color>, further <color=#outterinjury>{0} External Injury</color> received will <color=#darkred>be converted into Wounds…</color>",
       "cn": "{0}外伤达到6时，继续受到的{0}外伤将转变为重创…",
-      "ru": "Когда Внешняя травма {0} достигает 6, дальнейшая Внешняя травма для {0} превращается в Рану...",
+      "ru": "Когда <color=#outterinjury>{0} Внешняя травма</color> достигает <color=#orange>6</color>, далее <color=#outterinjury>{0} Внешняя травма</color> полученное завещание <color=#darkred>будут превращены в Раны…</color>",
       "status": "machine",
-      "srcHash": "28089f2648763805",
+      "srcHash": "67a7d1e5a494a902",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Poison0_0": {
-      "en": "After {0} more Weapon Attacks, inflict External Injury on a random part based on the severity of Acritoxin poisoning...",
+      "en": "After {0} more Weapon Attacks, based on <color=#Hot>Acritoxin</color>'s <color=#>Poisoned level, <color=#darkred>inflict on a random body part</color><color=#outterinjury>External Injury</color><color=#darkred>…</color>",
       "cn": "再进行{0}次兵器攻击后，将根据烈毒的中毒程度，对随机部位造成外伤…",
-      "ru": "После {0} больше Атак с Оружием, наносите Внешние травмы произвольной части тела в зависимости от тяжести Яда, вызванного Акритоксином...",
+      "ru": "После {0} больше атак с применением Оружия, основанных на <color=#Hot>Акритоксин</color>'s <color=#>Отравленный уровень, <color=#darkred>нанести на случайную часть тела</color><color=#outterinjury>Внешняя травма</color><color=#darkred>…</color>",
       "status": "machine",
-      "srcHash": "5e74d6991cc1e18a",
+      "srcHash": "20a28b9dcfd20b7f",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Poison0_1": {
-      "en": "When Acritoxin Burst triggers, part of the Acritoxin degenerates into Pyrotoxin...",
+      "en": "<color=#Hot>Acritoxin</color> is triggered, some <color=#Hot>Acritoxin Toxin</color> will transform into <color=#Red>Pyrotoxin Toxin</color>…",
       "cn": "烈毒发作时，部分烈毒毒素将衍生为赤毒毒素…",
-      "ru": "Когда запускается выброс Акритоксина, часть Акритоксина превращается в Пиротоксин...",
+      "ru": "<color=#Hot>Акритоксин</color> срабатывает, какой-то <color=#Hot>Токсин Акритоксин</color> превратится в <color=#Red>Токсин Пиротоксина</color>…",
       "status": "machine",
-      "srcHash": "169f2c0df301ac06",
+      "srcHash": "261b7bcddb935885",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Poison1_0": {
-      "en": "After moving {0} more distance, inflict Internal Injury on a random part based on the severity of Umbritoxin poisoning...",
+      "en": "After moving {0} distance, based on the Poisoned level of <color=#Gloomy>Umbritoxin</color>, <color=#darkred>inflict </color><color=#innerinjury>Internal Injury</color><color=#darkred> on a random body part…</color>",
       "cn": "再移动{0}距离后，将根据郁毒的中毒程度，对随机部位造成内伤…",
-      "ru": "После переезда {0} на большем расстоянии нанесите Внутреннюю травму произвольной части тела, в зависимости от тяжести Яда, вызванного Умбротоксином...",
+      "ru": "После переезда {0} расстояние, основанное на уровне отравления <color=#Gloomy>Умбротоксин</color>, <color=#darkred>причинять </color><color=#innerinjury>Внутренняя травма</color><color=#darkred> на случайной части тела…</color>",
       "status": "machine",
-      "srcHash": "c127306c3ed6c03b",
+      "srcHash": "85a67ce780861513",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Poison1_1": {
-      "en": "When Umbritoxin Burst triggers, part of the Umbritoxin degenerates into Cryotoxin...",
+      "en": "<color=#Gloomy>Umbritoxin</color> is triggered, some <color=#Gloomy>Umbritoxin Toxin</color> will transform into <color=#Cold>Cryotoxin Toxin</color>…",
       "cn": "郁毒发作时，部分郁毒毒素将衍生为寒毒毒素…",
-      "ru": "Когда запускается выброс Умбротоксина, часть Умбротоксина перерождается в Криотоксин...",
+      "ru": "<color=#Gloomy>Умбротоксин</color> срабатывает, какой-то <color=#Gloomy>Токсин Умбротоксина</color> превратится в <color=#Cold>Токсин Криотоксина</color>…",
       "status": "machine",
-      "srcHash": "6f96f8f5114a2fc9",
+      "srcHash": "9b5f2c02e6e6691e",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Poison2_0": {
-      "en": "After losing {0}% more Inhale, worsen Internal Injury on a random part based on the severity of Cryotoxin poisoning...",
+      "en": "After losing {0}% of Inhale, based on the Poisoned level of <color=#Cold>Cryotoxin</color>, <color=#darkred>worsen </color><color=#innerinjury>Internal Injury</color><color=#darkred> on a random body part…</color>",
       "cn": "再失去{0}%的提气后，根据寒毒的中毒程度恶化随机部位的内伤…",
-      "ru": "После потери {0}% больше вдыхания усугубляет Внутреннюю травму на случайной части в зависимости от тяжести Яда, вызванного Криотоксином...",
+      "ru": "После потери {0}% от вдыхаемого, исходя из уровня отравления <color=#Cold>Криотоксин</color>, <color=#darkred>ухудшать </color><color=#innerinjury>Внутренняя травма</color><color=#darkred> на случайной части тела…</color>",
       "status": "machine",
-      "srcHash": "4c1c117e288f751a",
+      "srcHash": "15f2b94d866a1f0c",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Poison2_1": {
-      "en": "When Cryotoxin Burst triggers, part of the Cryotoxin degenerates into Oneirotoxin...",
+      "en": "<color=#Cold>Cryotoxin</color> is triggered, some <color=#Cold>Cryotoxin Toxin</color> will transform into <color=#Illusory>Oneirotoxin Toxin</color>…",
       "cn": "寒毒发作时，部分寒毒毒素将衍生为幻毒毒素…",
-      "ru": "Когда запускается выброс Криотоксина, часть Криотоксина перерождается в Онейротоксин...",
+      "ru": "<color=#Cold>Криотоксин</color> срабатывает, какой-то <color=#Cold>Токсин Криотоксина</color> превратится в <color=#Illusory>Токсин Онейротоксина</color>…",
       "status": "machine",
-      "srcHash": "c0ac51a217205b10",
+      "srcHash": "35f6735d5fdcf2b2",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Poison3_0": {
-      "en": "After losing {0}% more Stance, worsen External Injury on a random part based on the severity of Pyrotoxin poisoning...",
+      "en": "After losing {0}% of Stance, based on the Poisoned level of <color=#Red>Pyrotoxin</color>, <color=#darkred>worsen </color><color=#outterinjury>External Injury</color><color=#darkred> on a random body part…</color>",
       "cn": "再失去{0}%的架势后，将根据赤毒的中毒程度，使随机部位的外伤恶化…",
-      "ru": "После потери {0}% больше Стойки, усугубляет Внешнюю травму на случайной детали в зависимости от тяжести Яда, вызванного Пиротоксином...",
+      "ru": "После потери {0}% от Стойки, основанной на уровне отравления <color=#Red>Пиротоксин</color>, <color=#darkred>ухудшать </color><color=#outterinjury>Внешняя травма</color><color=#darkred> на случайной части тела…</color>",
       "status": "machine",
-      "srcHash": "14ef2a5f84e85e6e",
+      "srcHash": "52ebf0467db339e2",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Poison3_1": {
-      "en": "When Pyrotoxin Burst triggers, part of the Pyrotoxin degenerates into Necrotoxin...",
+      "en": "<color=#Red>Pyrotoxin</color> is triggered, some <color=#Red>Pyrotoxin Toxin</color> will transform into <color=#Rotten>Necrotoxin Toxin</color>…",
       "cn": "赤毒发作时，部分赤毒毒素将衍生为腐毒毒素…",
-      "ru": "Когда срабатывает взрыв Пиротоксина, часть Пиротоксина перерождается в Некротоксин...",
+      "ru": "<color=#Red>Пиротоксин</color> срабатывает, какой-то <color=#Red>Токсин Пиротоксина</color> превратится в <color=#Rotten>Токсин Некротоксина</color>…",
       "status": "machine",
-      "srcHash": "6e1a920d5ef10e8d",
+      "srcHash": "d75624ad9bd3d17f",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Poison4_0": {
-      "en": "Based on the severity of Necrotoxin poisoning, reduce the character's Phy. Defense...",
+      "en": "Based on the Poisoned level of <color=#Rotten>Necrotoxin</color>, <color=#darkred>reduce the character's Phy. Defense…</color>",
       "cn": "根据腐毒的中毒程度，降低人物的御体…",
-      "ru": "В зависимости от тяжести отравления Некротоксином уменьшите физическую форму персонажа. Защита...",
+      "ru": "Основываясь на уровне отравления <color=#Rotten>Некротоксин</color>, <color=#darkred>уменьшите физическую форму персонажа. Защита…</color>",
       "status": "machine",
-      "srcHash": "fd996872ff00c6ee",
+      "srcHash": "9f5fb414506ffa3b",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Poison4_1": {
-      "en": "When Necrotoxin Burst triggers, part of the Necrotoxin degenerates into Acritoxin...",
+      "en": "<color=#Rotten>Necrotoxin</color> is triggered, some <color=#Rotten>Necrotoxin Toxin</color> will transform into <color=#Hot>Acritoxin Toxin</color>…",
       "cn": "腐毒发作时，部分腐毒毒素将衍生为烈毒毒素…",
-      "ru": "Когда запускается выброс Некротоксина, часть Некротоксина перерождается в Акритоксин...",
+      "ru": "<color=#Rotten>Некротоксин</color> срабатывает, какой-то <color=#Rotten>Токсин Некротоксина</color> превратится в <color=#Hot>Токсин Акритоксин</color>…",
       "status": "machine",
-      "srcHash": "ec3c54bb53190194",
+      "srcHash": "3093cde90336f6d9",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Poison5_0": {
-      "en": "Based on the severity of Oneirotoxin poisoning, reduce the character's Qi Defense...",
+      "en": "Based on the Poisoned level of <color=#Illusory>Oneirotoxin</color>, <color=#darkred>reduce the character's Qi Defense…</color>",
       "cn": "根据幻毒的中毒程度，降低人物的御气…",
-      "ru": "В зависимости от тяжести отравления Онейротоксином уменьшите Защиту от Ци персонажа...",
+      "ru": "Основываясь на уровне отравления <color=#Illusory>Онейротоксин</color>, <color=#darkred>уменьшает Защиту от Ци персонажа…</color>",
       "status": "machine",
-      "srcHash": "5c9cd6d42daf4c41",
+      "srcHash": "88a8b37b88aa5a2e",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Poison5_1": {
-      "en": "When Oneirotoxin Burst triggers, part of the Oneirotoxin degenerates into Umbritoxin...",
+      "en": "<color=#Illusory>Oneirotoxin</color> is triggered, some <color=#Illusory>Oneirotoxin Toxin</color> will transform into <color=#Gloomy>Umbritoxin Toxin</color>…",
       "cn": "幻毒发作时，部分幻毒毒素将衍生为郁毒毒素…",
-      "ru": "Когда запускается выброс Онейротоксина, часть Онейротоксина перерождается в Умбротоксин...",
+      "ru": "<color=#Illusory>Онейротоксин</color> срабатывает, какой-то <color=#Illusory>Токсин Онейротоксина</color> превратится в <color=#Gloomy>Токсин Умбротоксина</color>…",
       "status": "machine",
-      "srcHash": "33ca6ccd43f9f79d",
+      "srcHash": "b25c113445c67713",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_QiDisorder_0": {
-      "en": "When using a Martial Art, there is a {0}% chance of suffering Recoil from it...",
+      "en": "When performing a Martial Art, there is a <color=#orange>{0}%</color> chance to <color=#darkred>suffer Recoil from this Martial Art…</color>",
       "cn": "施展功法时，将有{0}%的几率受到此功法的反噬…",
-      "ru": "При использовании Боевой техники возникает {0}% шанс пострадать от отдачи от этого...",
+      "ru": "При выполнении Боевой техники существует <color=#orange>{0}%</color> шанс получить <color=#darkred>испытайте отдачу от этой Боевой техники…</color>",
       "status": "machine",
-      "srcHash": "6bcb4b93c980a204",
+      "srcHash": "20b313b112a0e376",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_QiDisorder_1": {
-      "en": "When recovering True Qi, additionally consume {0}% of Qi...",
+      "en": "When recovering True Qi, <color=#darkred>additionally consume </color><color=#orange>{0}%</color><color=#darkred> of Qi…</color>",
       "cn": "恢复真气时，将额外消耗{0}%的内力…",
-      "ru": "При восстановлении Истинной ци дополнительно потребляйте {0}% от Ци...",
+      "ru": "При восстановлении Истинной Ци, <color=#darkred>дополнительно потребляйте </color><color=#orange>{0}%</color><color=#darkred> из Ци…</color>",
       "status": "machine",
-      "srcHash": "a3964729c32b7af9",
+      "srcHash": "a47746ec7834df14",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_QiDisorder_2": {
-      "en": "All types of Toxin Resistance -{0}",
+      "en": "<color=#darkred>All types of </color><color=#anypoison>Toxin Resistance</color><color=#orange>-{0}</color>",
       "cn": "所有类型的毒素抵抗-{0}",
-      "ru": "Все виды Сопротивления к Токсинам -{0}",
+      "ru": "<color=#darkred>Все виды </color><color=#anypoison>Сопротивление Токсинам</color><color=#orange>-{0}</color>",
       "status": "machine",
-      "srcHash": "4bd511a0862f2f28",
+      "srcHash": "67ad6c685ac7b256",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_QiDisorder_3": {
-      "en": "Health Recovery - {0}",
+      "en": "<color=#darkred>Health Recovery</color><color=#orange>-{0}</color>",
       "cn": "健康恢复-{0}",
-      "ru": "Восстановление Здоровья - {0}",
+      "ru": "<color=#darkred>Восстановление Здоровья</color><color=#orange>-{0}</color>",
       "status": "machine",
-      "srcHash": "7fc6e5b563a54841",
+      "srcHash": "8560298e66524976",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Scar_0": {
-      "en": "Healing Markers only disappear naturally and cannot be removed by other effects...",
+      "en": "Healing Markers only fade naturally,<color=#darkred> cannot be removed by other effects…</color>",
       "cn": "愈合标记仅会自然消失,无法被其他效果消除…",
-      "ru": "Маркеры заживления исчезают только естественным путем и не могут быть удалены другими эффектами...",
+      "ru": "Признаки заживления исчезают только естественным путем,<color=#darkred> не может быть удален другими эффектами…</color>",
       "status": "machine",
-      "srcHash": "6180a807f5d99a06",
+      "srcHash": "b4adf6852e10993a",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_State_0": {
-      "en": "Impairment states on a character reduce various abilities based on Status Intensity...",
+      "en": "The <color=#darkred>Harmful States</color> a character receives will, based on their intensity, <color=#darkred>reduce the character's various abilities…</color>",
       "cn": "人物受到的损害状态将根据状态强度，降低人物的各项能力…",
-      "ru": "Состояния ухудшения у персонажа снижают различные способности в зависимости от интенсивности статуса...",
+      "ru": "Тот <color=#darkred>Вредные состояния</color> персонаж получает волю, основанную на их интенсивности, <color=#darkred>уменьшают различные способности персонажа…</color>",
       "status": "machine",
-      "srcHash": "9de6c7eaf328a20b",
+      "srcHash": "2a976c9800fb9869",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Tired_0": {
-      "en": "Fatigued Markers cannot be removed by any effect...",
+      "en": "Fatigue Markers<color=#darkred> cannot be removed by any effect…</color>",
       "cn": "疲敝标记无法被任何效果消除…",
-      "ru": "Устаревшие маркеры не могут быть удалены никаким эффектом...",
+      "ru": "Маркеры усталости<color=#darkred> не может быть удален никаким эффектом…</color>",
       "status": "machine",
-      "srcHash": "50f4f3106e3bfd84",
+      "srcHash": "9d5022ce6541dee5",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Wug_0": {
-      "en": "Attuned Gu in a character's body have various positive effects on the character...",
+      "en": "Gu that are attuned inside a character's body<color=#brightblue> will have various positive effects on the character…</color>",
       "cn": "人物体内识主的蛊虫，将对人物造成各种正面影响…",
-      "ru": "Настроенные Гу в теле персонажа оказывают на него различные положительные эффекты...",
+      "ru": "Гу, настроенные внутри тела персонажа<color=#brightblue> будет оказывать различное положительное влияние на персонажа…</color>",
       "status": "machine",
-      "srcHash": "500a473f7208208e",
+      "srcHash": "e47f56459f1cc0da",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Effect_Wug_1": {
-      "en": "Un-attuned Gu in a character's body have various negative effects on the character...",
+      "en": "Gu that are un-attuned inside a character's body<color=#darkred> will have various negative effects on the character…</color>",
       "cn": "人物体内未识主的蛊虫，将对人物造成各种负面影响…",
-      "ru": "Несогласованные Гу в теле персонажа оказывают на него различные негативные эффекты...",
+      "ru": "Гу, которые не настроены внутри тела персонажа<color=#darkred> будет оказывать различные негативные последствия на персонажа…</color>",
       "status": "machine",
-      "srcHash": "ec16c9112af592fe",
+      "srcHash": "e72eeba57b89f569",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Note_Acupoint": {
       "en": "Display the level of Sealed Acupoint Markers only when there are Markers of that level.",
@@ -34132,31 +34204,31 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_Combat_DefeatMarkTip_Toxicity_Poison0": {
-      "en": "Lesser Poison",
+      "en": "<color=#poison0>Lesser Poison</color>",
       "cn": "生毒",
-      "ru": "Меньший Яд",
+      "ru": "<color=#poison0>Меньший Яд</color>",
       "status": "machine",
-      "srcHash": "a6fa5ea110a74473",
+      "srcHash": "e148987febc821ec",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Toxicity_Poison1": {
-      "en": "Severe Poison",
+      "en": "<color=#poison1>Severe Poison</color>",
       "cn": "剧毒",
-      "ru": "Сильный Яд",
+      "ru": "<color=#poison1>Сильный Яд</color>",
       "status": "machine",
-      "srcHash": "7842f6c2cae56140",
+      "srcHash": "4abf7f7fe3bdfe3c",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_DefeatMarkTip_Toxicity_Poison2": {
-      "en": "Deadly Poison",
+      "en": "<color=#poison2>Deadly Poison</color>",
       "cn": "奇毒",
-      "ru": "Смертельный Яд",
+      "ru": "<color=#poison2>Смертельный Яд</color>",
       "status": "machine",
-      "srcHash": "0ffcfbef6d165a14",
+      "srcHash": "01c156c529d37db5",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Combat_Defend_Value": {
       "en": "Defense",
@@ -35904,6 +35976,24 @@
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
+    "LK_Combat_Status_Tip_Wug_Content": {
+      "en": "Gu Larvae just planted in this Battle consume Gu Bait from the host or opponent each time they trigger. If Gu Bait is insufficient, the Gu will die\\n\\nGu Bait held: {0}",
+      "cn": null,
+      "ru": "Личинки Гу, только что посаженные в этой битве, потребляют приманку Гу от хозяина или противника при каждом срабатывании. Если приманки для Гу окажется недостаточно, Гу погибнет\\n\\nПриманка Гу удерживалась: {0}",
+      "status": "machine",
+      "srcHash": "9fecd588a01bc575",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_Combat_Status_Tip_Wug_Title": {
+      "en": "Gu Bait",
+      "cn": null,
+      "ru": "Приманка для Гу",
+      "status": "machine",
+      "srcHash": "537054eb6e0cb5cc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
     "LK_Combat_SurrenderConfirm": {
       "en": "Concede—Do you choose to concede and let the enemy decide your fate?\\n\\n<color=#red>(If this is Duel, it may result in your defeat and demise...)</color>",
       "cn": "认输投降，是否认输投降，任凭敌人处置？\\n\\n<color=#red>（如果是死斗，可能导致战败身亡…）</color>",
@@ -36453,6 +36543,15 @@
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
+    "LK_Combat_UseItemDetail": {
+      "en": "Use items from the Travel Bag.\\n<SpName=ui9_icon_mousetip_point_0>Using items consumes the corresponding Tactic.",
+      "cn": "使用行囊中的物品。\\n<SpName=ui9_icon_mousetip_point_0>使用物品需要消耗相应的机略。",
+      "ru": "Используйте предметы из дорожной сумки.\\n<SpName=ui9_icon_mousetip_point_0>Использование предметов требует соответствующей тактики.",
+      "status": "machine",
+      "srcHash": "ce91b37dd1abdd92",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
     "LK_Combat_Weapon_Durability_Not_Enough_Tips": {
       "en": "Insufficient Weapon Durability",
       "cn": "兵器耐久不足",
@@ -36542,6 +36641,15 @@
       "srcHash": "180b4e5966587d34",
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:23:10.438Z"
+    },
+    "LK_CommonSearchInput_CombatSkill": {
+      "en": "Enter Martial Art keywords…",
+      "cn": "输入功法关键字…",
+      "ru": "Введите ключевые слова для Боевой техники…",
+      "status": "machine",
+      "srcHash": "bf0741a0de5244fa",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_CommonSortAndFilter_DetailFilterMenu_Bounty_0": {
       "en": "Reason for imprisonment",
@@ -37921,94 +38029,94 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_10": {
-      "en": "Taoism",
-      "cn": "锻造",
-      "ru": "Даосизм",
-      "status": "machine",
-      "srcHash": "3a2ed3ec94ebbc41",
-      "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
-    },
-    "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_11": {
-      "en": "Buddhism",
-      "cn": "制木",
-      "ru": "Буддизм",
-      "status": "machine",
-      "srcHash": "40e6db468accf233",
-      "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
-    },
-    "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_12": {
       "en": "Smithing",
-      "cn": "医术",
+      "cn": "锻造",
       "ru": "Кузнечное дело",
       "status": "machine",
       "srcHash": "eecffb5f8fe34dda",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_13": {
+    "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_11": {
       "en": "Carpentry",
-      "cn": "毒术",
+      "cn": "制木",
       "ru": "Столярное дело",
       "status": "machine",
       "srcHash": "a7158899f8d6be00",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_14": {
-      "en": "Medical Arts",
-      "cn": "织锦",
+    "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_12": {
+      "en": "Medical Art",
+      "cn": "医术",
       "ru": "Медицинское искусство",
       "status": "machine",
-      "srcHash": "600e66382de3f6c3",
+      "srcHash": "07bf63df288e631e",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_15": {
+    "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_13": {
       "en": "Toxicology",
-      "cn": "巧匠",
+      "cn": "毒术",
       "ru": "Токсикология",
       "status": "machine",
       "srcHash": "1adc0ec39550bb44",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_16": {
+    "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_14": {
       "en": "Weaving",
-      "cn": "道法",
+      "cn": "织锦",
       "ru": "Ткачество",
       "status": "machine",
       "srcHash": "fe8d6e3bbf0135a7",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_17": {
+    "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_15": {
       "en": "Jewelcrafting",
-      "cn": "佛学",
+      "cn": "巧匠",
       "ru": "Изготовление ювелирных изделий",
       "status": "machine",
       "srcHash": "7869578ce1145a1e",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_18": {
+    "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_16": {
       "en": "Taoism",
-      "cn": "厨艺",
+      "cn": "道法",
       "ru": "Даосизм",
       "status": "machine",
       "srcHash": "3a2ed3ec94ebbc41",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_19": {
+    "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_17": {
       "en": "Buddhism",
-      "cn": "杂学",
+      "cn": "佛学",
       "ru": "Буддизм",
       "status": "machine",
       "srcHash": "40e6db468accf233",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_18": {
+      "en": "Culinary Arts",
+      "cn": "厨艺",
+      "ru": "Кулинарное искусство",
+      "status": "machine",
+      "srcHash": "83fe75beab5f074c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_19": {
+      "en": "Unorthodox Arts",
+      "cn": "杂学",
+      "ru": "Неортодоксальные искусства",
+      "status": "machine",
+      "srcHash": "471539ec39071dd5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_CommonSortAndFilter_Filter_Item_Third_MiscKeyItem_2": {
       "en": "Taiwu Village",
@@ -38300,7 +38408,7 @@
     },
     "LK_CommonSortAndFilter_Filter_Item_Third_Title_Category": {
       "en": "Category",
-      "cn": "类别",
+      "cn": "子类",
       "ru": "Категория",
       "status": "machine",
       "srcHash": "6ea16f29c68ed9f0",
@@ -41602,13 +41710,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_Cricket_CombineName": {
-      "en": "{0} {1}",
+      "en": "{0}{1}",
       "cn": "{0}{1}",
-      "ru": "{0} {1}",
+      "ru": "{0}{1}",
       "status": "machine",
-      "srcHash": "5d915d00189256ee",
-      "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "srcHash": "56af08757862e8ef",
+      "engine": "neutral",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Cricket_Die_Tips": {
       "en": "Natural Death",
@@ -42412,31 +42520,31 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_Debate_Display_SelfPawn_Format": {
-      "en": "{0} {1}",
+      "en": "{0}{1}",
       "cn": "{0}{1}",
-      "ru": "{0} {1}",
+      "ru": "{0}{1}",
       "status": "machine",
-      "srcHash": "5d915d00189256ee",
-      "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "srcHash": "56af08757862e8ef",
+      "engine": "neutral",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Debate_Prepare_Attainments_Format": {
-      "en": "{0} {1}",
+      "en": "{0}{1}",
       "cn": "{0}{1}",
-      "ru": "{0} {1}",
+      "ru": "{0}{1}",
       "status": "machine",
-      "srcHash": "5d915d00189256ee",
-      "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "srcHash": "56af08757862e8ef",
+      "engine": "neutral",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Debate_Result_Rating_Format": {
-      "en": "{0} X {1}",
+      "en": "{0}X{1}",
       "cn": null,
-      "ru": "{0} X {1}",
+      "ru": "{0}X{1}",
       "status": "machine",
-      "srcHash": "b9fd07d3a70ab06a",
+      "srcHash": "14d81b5e35849785",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Debate_Speed_Option": {
       "en": "Debate Speed",
@@ -43823,6 +43931,15 @@
       "srcHash": "1d32929dbef3e69b",
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:23:10.438Z"
+    },
+    "LK_Dynamic_Illustration_Btn_Label_Tips": {
+      "en": "View Incarnation appearance…",
+      "cn": null,
+      "ru": "Просмотр внешнего вида воплощения…",
+      "status": "machine",
+      "srcHash": "2ef767099cd7d516",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Eat_Item": {
       "en": "Consume",
@@ -47002,13 +47119,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_Exchange_Advantage_Tip_Desc_Content_Grade": {
-      "en": "<space=12><SpName=mousetip_huidian><space=-6>Opponent's Tier exceeds Invasion Progress by {1}<line-height=0>\\n</line-height><align=\"right\">+{0}%</align>",
+      "en": "<space=12><SpName=mousetip_huidian><space=-6>Invasion Progress<line-height=0>\\n</line-height><align=\"right\">+{0}%</align>",
       "cn": "<space=12><SpName=mousetip_huidian><space=-6>侵袭进度<line-height=0>\\n</line-height><align=\"right\">+{0}%</align>",
-      "ru": "<space=12><SpName=mousetip_huidian><space=-6>Ранг противника превышает прогресс вторжения на {1}<line-height=0>\\n</line-height><align=\"right\">+{0}%</align>",
+      "ru": "<space=12><SpName=mousetip_huidian><space=-6>Ход вторжения<line-height=0>\\n</line-height><align=\"right\">+{0}%</align>",
       "status": "machine",
-      "srcHash": "45a00663a8927f3e",
+      "srcHash": "08e69586e054581c",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Exchange_Advantage_Tip_Desc_Header": {
       "en": "<space=-12><SpName=mousetip_lingxing><space=-6>Current Trade Advantage: <line-height=0>\\n</line-height><align=\"right\">{0}%</align>",
@@ -53185,13 +53302,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_Get_Item_Into_Warehouse": {
-      "en": "Stored in private vault",
+      "en": "Stored in Storehouse",
       "cn": "已存入私库",
-      "ru": "Хранится в частном хранилище",
+      "ru": "Хранится на складе",
       "status": "machine",
-      "srcHash": "e91e13db0bfdb458",
+      "srcHash": "a8233d2e8f87c99a",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Get_Item_Remove_Poison": {
       "en": "Poison Detoxed",
@@ -53957,6 +54074,15 @@
       "srcHash": "074db69f90c85e92",
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:23:10.438Z"
+    },
+    "LK_Heal_Health_Disable_Tips_NoHealth": {
+      "en": "Cannot restore this person's Health...",
+      "cn": "无法恢复此人的健康…",
+      "ru": "Не удается восстановить Здоровье этого человека...",
+      "status": "machine",
+      "srcHash": "1b0aa5a3a8bf3221",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Heal_In_Combat_No_Effect_Tips_Herb": {
       "en": "Insufficient Herbs held...",
@@ -56893,13 +57019,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_HotKeyGroup_Tips": {
-      "en": "Tooltips",
+      "en": "tips",
       "cn": "tips",
-      "ru": "Всплывающие подсказки",
+      "ru": "tips",
       "status": "machine",
-      "srcHash": "bbccab5d9e36b936",
-      "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "srcHash": "c16048b699e87038",
+      "engine": "neutral",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_HotKeyGroup_Tips_AdjustEquipDamageRatio": {
       "en": "Adjust equipment damage ratio",
@@ -57487,13 +57613,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_Identity_OrgGrade": {
-      "en": "{0} {1}",
+      "en": "{0}{1}",
       "cn": "{0}{1}",
-      "ru": "{0} {1}",
+      "ru": "{0}{1}",
       "status": "machine",
-      "srcHash": "5d915d00189256ee",
-      "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "srcHash": "56af08757862e8ef",
+      "engine": "neutral",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Ignore": {
       "en": "...",
@@ -68504,7 +68630,7 @@
     },
     "LK_Make_Perfect_Tip": {
       "en": "When \"Pursuing Perfection\" is enabled, the <color=#brightred>Attainment required will increase greatly</color>, but the resulting equipment is guaranteed to <color=#brightblue>have a specified Property</color>...",
-      "cn": "勾选精益求精后，此次制造<color=#brightred>需求的造诣会大幅增加</color>，但制造出来的装备必定会<color=#brightblue>携带指定的词条</color>…",
+      "cn": "指定装备词条后，此次制造<color=#brightred>需求的造诣会大幅增加</color>，但制造出来的装备必定会<color=#brightblue>携带指定的词条</color>…",
       "ru": "Когда включена функция \"Стремление к совершенству\", то <color=#brightred>Требуемые достижения значительно возрастут</color>, но полученное в результате Снаряжение гарантированно <color=#brightblue>обладают указанным свойством</color>...",
       "status": "machine",
       "srcHash": "553f4e8c4f90aba0",
@@ -68738,7 +68864,7 @@
     },
     "LK_Make_Select_Target_Tip": {
       "en": "Please select a Target Product.",
-      "cn": "请选择目标产物",
+      "cn": "点击图标更换目标产物",
       "ru": "Пожалуйста, выберите целевой продукт.",
       "status": "machine",
       "srcHash": "532d1419390a3556",
@@ -76477,13 +76603,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_MouseTip_Circket_Age_Content": {
-      "en": " {0}/{1} years old",
+      "en": "{0}/{1}",
       "cn": "{0}/{1}岁",
-      "ru": " {0}/{1} лет от роду",
+      "ru": "{0}/{1}",
       "status": "machine",
-      "srcHash": "de14eca2e189ad15",
+      "srcHash": "408ed24a7dc7461a",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_MouseTip_CloseRelation_0": {
       "en": "Blood kin",
@@ -76567,13 +76693,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_MouseTip_Combat_Injury_Value_Format": {
-      "en": "{0} {1}",
+      "en": "{0}{1}",
       "cn": null,
-      "ru": "{0} {1}",
+      "ru": "{0}{1}",
       "status": "machine",
-      "srcHash": "5d915d00189256ee",
+      "srcHash": "56af08757862e8ef",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_MouseTip_Concentration_Recovery": {
       "en": "Willpower recovery",
@@ -77278,13 +77404,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_MouseTip_Feature_Power_Value_Format": {
-      "en": "{0} {1}",
+      "en": "{0}{1}",
       "cn": "{0}{1}",
-      "ru": "{0} {1}",
+      "ru": "{0}{1}",
       "status": "machine",
-      "srcHash": "5d915d00189256ee",
-      "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "srcHash": "56af08757862e8ef",
+      "engine": "neutral",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_MouseTip_Feature_PureReincarnation": {
       "en": "This person's mindset is fixed as Benevolent, making them very easy to be loved. Except for being the reincarnation of an evil body, people cannot perceive this person as an enemy.",
@@ -77719,13 +77845,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_MouseTip_MapArea_0_0": {
-      "en": "This region has <color=#pinkyellow>{0}</color> Inner Demon(s)",
+      "en": "There's a Mindless Fiend in this region",
       "cn": "此地区有失心魔",
-      "ru": "В этом регионе есть <color=#pinkyellow>{0}</color> Внутренний демон(ы)",
+      "ru": "В этом регионе орудует безмозглый дьявол",
       "status": "machine",
-      "srcHash": "057caf546d5b2040",
+      "srcHash": "ae01cb29dc3877cf",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_MouseTip_MapArea_0_1": {
       "en": "This region has <color=#pinkyellow>{0}</color> Bewitched",
@@ -78160,13 +78286,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_MouseTip_Neili_Title_Value_Format": {
-      "en": "{0} {1}",
+      "en": "{0}{1}",
       "cn": null,
-      "ru": "{0} {1}",
+      "ru": "{0}{1}",
       "status": "machine",
-      "srcHash": "5d915d00189256ee",
+      "srcHash": "56af08757862e8ef",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_MouseTip_Next_Tianjie": {
       "en": "The Next Tribulation",
@@ -78430,13 +78556,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_MouseTip_SpecialBuild_CurrentApproving": {
-      "en": "Sect Support: {0}%",
+      "en": "Sect Support: {0:f1}%",
       "cn": "门派支持度：{0}%",
-      "ru": "Поддержка Секты: {0}%",
+      "ru": "Поддержка Секты: {0:f1}%",
       "status": "machine",
-      "srcHash": "8fdf66c8eb4630fd",
+      "srcHash": "c226612723d453a9",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_MouseTip_SpecialBuild_CurrentCount": {
       "en": "Astral Terraces: {0}/{1}",
@@ -79643,6 +79769,24 @@
       "srcHash": "ab5b98a9b2050d18",
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:23:10.438Z"
+    },
+    "LK_Multiply_Select_All_Tips1": {
+      "en": "Will not select items that are in use, cannot be selected, or locked...",
+      "cn": null,
+      "ru": "Не будут выбраны элементы, которые используются, не могут быть выбраны или заблокированы...",
+      "status": "machine",
+      "srcHash": "ab539d620bcf9ab4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_Multiply_Select_All_Tips2": {
+      "en": "No items currently available for auto-select...",
+      "cn": null,
+      "ru": "В настоящее время нет элементов, доступных для автоматического выбора...",
+      "status": "machine",
+      "srcHash": "5c2a90f5314c5ab3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Multiply_Select_EquipPlan_Tip": {
       "en": "It's in the preset... proceed with caution.",
@@ -81597,6 +81741,15 @@
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
+    "LK_NewGame_Inscription_Button_Tip_Delete_Describe": {
+      "en": "Remove from Imprint list",
+      "cn": null,
+      "ru": "Удалить из списка отпечатков",
+      "status": "machine",
+      "srcHash": "4670c542ad1025cc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
     "LK_NewGame_Inscription_Button_Tip_Pin": {
       "en": "Pin",
       "cn": "置顶",
@@ -81605,6 +81758,15 @@
       "srcHash": "29036dc691935ab6",
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:23:10.438Z"
+    },
+    "LK_NewGame_Inscription_Button_Tip_Pin_Describe": {
+      "en": "Pin this Character to top",
+      "cn": null,
+      "ru": "Закрепите этот символ вверху",
+      "status": "machine",
+      "srcHash": "a74e7ec4f7171685",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_NewGame_Inscription_Select_Toggle": {
       "en": "Participating in Evolution",
@@ -83515,13 +83677,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "LK_Planting_ShortDistance": {
-      "en": "<color=#brightred>Sacred Wood seeds cannot be planted near damaged areas or settlements...</color>",
+      "en": "<color=#brightred>Sacred Wood seeds cannot be planted near other Sacred Wood trees\\nnor in enlightened tiles...</color>",
       "cn": "<color=#brightred>神木种子不可种植在其他神木附近\\n也不可种植于开化地格中…</color>",
-      "ru": "<color=#brightred>Семена священного дерева нельзя высаживать вблизи поврежденных районов или поселений...</color>",
+      "ru": "<color=#brightred>Семена священного дерева нельзя сажать рядом с другими священными деревьями\\nни в просветленных плитках...</color>",
       "status": "machine",
-      "srcHash": "421fbc64b4628f0f",
+      "srcHash": "c35f7b7dfbfbb595",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_Planting_UncivilizedArea": {
       "en": "<color=#brightred>Sacred Wood Seeds can only be planted outdoors or in the Hidden Rift...</color>",
@@ -87888,6 +88050,15 @@
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
+    "LK_Resource_Choosy_Input": {
+      "en": "Enter Quantity...",
+      "cn": null,
+      "ru": "Введите количество...",
+      "status": "machine",
+      "srcHash": "3d8cf55417962d93",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
     "LK_Resource_Choosy_ItemMenu": {
       "en": "Handpick",
       "cn": "筛选",
@@ -91127,6 +91298,15 @@
       "srcHash": "7e573a2a7b60e9dc",
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:23:10.438Z"
+    },
+    "LK_Settings_QuickAccess_Desc": {
+      "en": "Customize the function shortcuts on the main interface...",
+      "cn": null,
+      "ru": "Настройте сочетания клавиш функций в главном интерфейсе...",
+      "status": "machine",
+      "srcHash": "7a4167554a8282e8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_SettlementBounty_Imprison": {
       "en": "Sent to prison",
@@ -96339,6 +96519,24 @@
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
+    "LK_SystemSetting_EventTextSize_Tip": {
+      "en": "Adjust the font size of Event body text...",
+      "cn": "调整事件正文的文本字号大小…",
+      "ru": "Отрегулируйте размер шрифта основного текста события...",
+      "status": "machine",
+      "srcHash": "4ae9e2a5b1491fb2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_SystemSetting_EventTextSize_Title": {
+      "en": "Event Text Size",
+      "cn": "事件文本大小",
+      "ru": "Размер текста события",
+      "status": "machine",
+      "srcHash": "dca550c8533aedd4",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
     "LK_SystemSetting_Heal_AutoInjury": {
       "en": "Auto Heal Injuries",
       "cn": "自动疗伤",
@@ -96980,7 +97178,7 @@
     },
     "LK_SystemSetting_HotKeyGroup_Common_ClearStickTips": {
       "en": "Unpin Tooltip",
-      "cn": "解除固定信息提示框",
+      "cn": "解除所有固定信息提示框",
       "ru": "Открепить всплывающую подсказку",
       "status": "machine",
       "srcHash": "7a15ebc5f94ae85a",
@@ -103134,6 +103332,105 @@
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
+    "LK_ViewDebate_AutoFight_Close": {
+      "en": "Enable Auto-Debate",
+      "cn": null,
+      "ru": "Включение автоматического Диспута",
+      "status": "machine",
+      "srcHash": "063182927a0977fb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_ViewDebate_AutoFight_Open": {
+      "en": "Disable Auto-Debate",
+      "cn": null,
+      "ru": "Отключить автоматические Диспуты",
+      "status": "machine",
+      "srcHash": "24067ff8972fc0fe",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_ViewDebate_XinHuai_Enemy_describ": {
+      "en": "If our Contention moves here, the opponent will lose their Peroration...",
+      "cn": null,
+      "ru": "Если наше противостояние перейдет сюда, соперник потеряет свое преимущество...",
+      "status": "machine",
+      "srcHash": "71e6eecf640309b1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_ViewDebate_XinHuai_Enemy_title": {
+      "en": "Opponent's Heart Square",
+      "cn": null,
+      "ru": "Сердечный квадрат противника",
+      "status": "machine",
+      "srcHash": "41bd64f002cc4308",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_ViewDebate_XinHuai_Self_describ": {
+      "en": "If the opponent's Contention moves here, we will lose our Peroration...",
+      "cn": null,
+      "ru": "Если соперник перейдет сюда, мы потеряем наше преимущество...",
+      "status": "machine",
+      "srcHash": "448195c0bb2ff43b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_ViewDebate_XinHuai_Self_title": {
+      "en": "Our Heart Square",
+      "cn": null,
+      "ru": "Площадь нашего сердца",
+      "status": "machine",
+      "srcHash": "d78d80baf8365451",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_ViewEventWindow_ContentSize_Btn": {
+      "en": "Drag to adjust text size...",
+      "cn": null,
+      "ru": "Перетащите, чтобы изменить размер текста...",
+      "status": "machine",
+      "srcHash": "627c89c0e984dab2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_ViewExchange_EnYi_content": {
+      "en": "Can expend Sect Support to gain an Exchange Advantage...",
+      "cn": null,
+      "ru": "Может использовать Поддержку Секты, чтобы получить преимущество в обмене...",
+      "status": "machine",
+      "srcHash": "9a1d2609303fbdf0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_ViewExchange_EnYi_title": {
+      "en": "Expend Support",
+      "cn": null,
+      "ru": "Оказывать Поддержку",
+      "status": "machine",
+      "srcHash": "4acb3df20e1c4a5a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_ViewExchange_MiWen_content": {
+      "en": "Can use Secrets related to the opponent to gain an Exchange Advantage...",
+      "cn": null,
+      "ru": "Может использовать Тайны, связанные с противником, чтобы получить преимущество в обмене...",
+      "status": "machine",
+      "srcHash": "e8a9032a5cfc10c7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_ViewExchange_MiWen_title": {
+      "en": "Use Secret",
+      "cn": null,
+      "ru": "Используйте секрет",
+      "status": "machine",
+      "srcHash": "57c9c981ad1c3738",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
     "LK_ViewLegacy_Legacy": {
       "en": "Legacy",
       "cn": "生平遗惠",
@@ -103142,6 +103439,60 @@
       "srcHash": "c1a2e59885c93084",
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:23:10.438Z"
+    },
+    "LK_ViewLegendaryBook_Preset_add": {
+      "en": "Add a blank 'Secret Tome Preset'...",
+      "cn": null,
+      "ru": "Добавьте пустой \"Предустановленный Тайный трактат\"...",
+      "status": "machine",
+      "srcHash": "c9486a4af7110e17",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_ViewLegendaryBook_Preset_clear": {
+      "en": "Clear the current 'Secret Tome Preset' content...",
+      "cn": null,
+      "ru": "Очистите текущее содержимое \"предустановленного Тайного трактата\"...",
+      "status": "machine",
+      "srcHash": "bd4894aa1efc972d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_ViewLegendaryBook_Preset_copy": {
+      "en": "Copy the current 'Secret Tome Preset'...",
+      "cn": null,
+      "ru": "Скопируйте текущую предустановку \"Тайного трактата\"...",
+      "status": "machine",
+      "srcHash": "237878974320794f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_ViewLegendaryBook_Preset_delete": {
+      "en": "Delete the current 'Secret Tome Preset'... (cannot be recovered after deletion...)",
+      "cn": null,
+      "ru": "Удалите текущую предустановку \"Тайного трактата\"... (не может быть восстановлен после удаления...)",
+      "status": "machine",
+      "srcHash": "fbbab8d4af249f2b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_ViewMapBlockCharList_TIPS_describe": {
+      "en": "View details of the Character in this tile...",
+      "cn": null,
+      "ru": "Просмотрите подробную информацию о персонаже на этой плитке...",
+      "status": "machine",
+      "srcHash": "633a895e2eaa007d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "LK_ViewMapBlockCharList_TIPS_title": {
+      "en": "Character Details",
+      "cn": null,
+      "ru": "Детали персонажа",
+      "status": "machine",
+      "srcHash": "5ea363c61774b788",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "LK_ViewMerchantCaravanDetail_CaravanRouteTitle": {
       "en": "Waypoints<line-height=0>\\n<align=\"right\"><color=#white>{0}</color></line-height>",
@@ -109075,13 +109426,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "Lk_Adventure_Select_Element": {
-      "en": "Select Element",
+      "en": "Select Target ",
       "cn": "选择目标 ",
-      "ru": "Выберите элемент",
+      "ru": "Выберите цель ",
       "status": "machine",
-      "srcHash": "57ac9c50dfc734f4",
+      "srcHash": "c1e60a4ec46ae497",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "Lk_Adventure_Select_Element_Content": {
       "en": "Confirm Element Selection",
@@ -112666,13 +113017,13 @@
       "updatedAt": "2026-06-23T17:23:10.438Z"
     },
     "UI_LifeSkillBattle_House_Self": {
-      "en": "Friendlies",
+      "en": "You",
       "cn": "我方",
-      "ru": "Товарищеские матчи",
+      "ru": "Ты",
       "status": "machine",
-      "srcHash": "09c4c19eeaec7d7f",
+      "srcHash": "2a369584bb5197b1",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:23:10.438Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "UI_LifeSkillBattle_Operation_Giveup": {
       "en": "Skip Turn",

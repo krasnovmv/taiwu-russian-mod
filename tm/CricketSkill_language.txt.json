@@ -201,203 +201,401 @@
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:15:09.308Z"
     },
-    "Desc_0": {
-      "en": "If you win the duel, the opponent grants an additional random reward (if only the base XP reward is available, it is doubled).",
-      "cn": null,
-      "ru": "Если вы выигрываете Поединок, противник предоставляет дополнительную случайную награду (если доступна только базовая награда за опыт, она удваивается).",
+    "EffectCondition_0": {
+      "en": "Triggers on defeat",
+      "cn": "战败时发动",
+      "ru": "Срабатывает при поражении",
       "status": "machine",
-      "srcHash": "c2aa5f772a97ab6d",
+      "srcHash": "8e2ea055ffd2b71b",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_1": {
+    "EffectCondition_1": {
+      "en": "Triggers when Endurance, Resilience, and Durability each first drop to half",
+      "cn": "耐力、斗性、耐久属性分别首次降低至一半时发动",
+      "ru": "Срабатывает, когда выносливость, упругость и Прочность каждого первого снижаются наполовину",
+      "status": "machine",
+      "srcHash": "23c3e30238a67d1b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_2": {
+      "en": "Has a chance to trigger when suffering damage to Endurance and Resilience",
+      "cn": "受到耐力、斗性伤害时有几率发动",
+      "ru": "Имеет шанс сработать при нанесении ущерба выносливости и сопротивляемости",
+      "status": "machine",
+      "srcHash": "90c19a8defc01797",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_3": {
+      "en": "Triggers on Attack",
+      "cn": "攻击时发动",
+      "ru": "Срабатывает при Атаке",
+      "status": "machine",
+      "srcHash": "3985c75ba2875e6d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_4": {
+      "en": "Has a chance to trigger when hit by opponent's critical hit or when opponent blocks",
+      "cn": "被对手暴击、被对手防御时有几率发动",
+      "ru": "Имеет шанс сработать при попадании критического удара противника или при блокировании противника",
+      "status": "machine",
+      "srcHash": "21309a20ef4ec995",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_5": {
+      "en": "Has a chance to trigger on non-critical hit",
+      "cn": "未暴击时有几率发动",
+      "ru": "Имеет шанс сработать при некритическом попадании",
+      "status": "machine",
+      "srcHash": "1ad97ade704e54c3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_6": {
+      "en": "Triggers at the start of the turn",
+      "cn": "回合开始时发动",
+      "ru": "Срабатывает в начале хода",
+      "status": "machine",
+      "srcHash": "f75a1dbfbb4b9572",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_7": {
+      "en": "Has a chance to trigger on Counterattack",
+      "cn": "反击时有几率发动",
+      "ru": "Имеет шанс перейти в контратаку",
+      "status": "machine",
+      "srcHash": "dde9c0be903eb55b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_8": {
+      "en": "Triggers at the start of the duel",
+      "cn": "开始决斗时发动",
+      "ru": "Срабатывает в начале Поединка",
+      "status": "machine",
+      "srcHash": "0773ec75a707a714",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_9": {
+      "en": "Has a chance to trigger when suffering damage to Endurance and Resilience",
+      "cn": "受到耐力、斗性伤害时有几率发动",
+      "ru": "Имеет шанс сработать при нанесении ущерба выносливости и сопротивляемости",
+      "status": "machine",
+      "srcHash": "90c19a8defc01797",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_10": {
+      "en": "Triggers when dealing Endurance damage based on Strength",
+      "cn": "依据角力造成耐力伤害时发动",
+      "ru": "Срабатывает при нанесении урона на выносливость, основанного на Силе",
+      "status": "machine",
+      "srcHash": "0905de76aed49ab8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_11": {
+      "en": "Has a chance to trigger when dealing Endurance/Resilience damage, based on the corresponding Injury Level of itself",
+      "cn": "造成耐力/斗性伤害时，根据自身对应的受伤程度，有几率发动",
+      "ru": "Имеет шанс сработать при нанесении урона выносливости/сопротивляемости, в зависимости от соответствующего уровня Травмы.",
+      "status": "machine",
+      "srcHash": "1883437234da91b7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_12": {
+      "en": "Triggers when dealing Endurance damage based on Bite Force",
+      "cn": "依据牙钳造成耐力伤害时发动",
+      "ru": "Срабатывает при нанесении урона на выносливость, основанного на Мощи укуса",
+      "status": "machine",
+      "srcHash": "5869287c116b1474",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_13": {
+      "en": "Has a chance to trigger when Blocking",
+      "cn": "防御时有几率发动",
+      "ru": "Имеет шанс сработать при блокировке",
+      "status": "machine",
+      "srcHash": "11287c4792e38a6b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_14": {
+      "en": "Triggers when any one of Endurance, Resilience, or Durability drops to half (once per duel)",
+      "cn": "耐力、斗性、耐久任意一项属性降低至一半时发动（每场决斗限一次）",
+      "ru": "Срабатывает, когда какой-либо из показателей выносливости, упругости или Прочности падает наполовину (один раз за Поединок).",
+      "status": "machine",
+      "srcHash": "dde4deafe7f9fa4c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_15": {
+      "en": "Has a chance to trigger at the start of the turn",
+      "cn": "回合开始时有几率发动",
+      "ru": "Имеет шанс сработать в начале хода",
+      "status": "machine",
+      "srcHash": "3ab1df2a3ebda45e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_16": {
+      "en": "Triggers on critical hit",
+      "cn": "暴击时发动",
+      "ru": "Срабатывает при критическом попадании",
+      "status": "machine",
+      "srcHash": "c3190e97fe305fa9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_17": {
+      "en": "Triggers when dealing Resilience damage based on Morale",
+      "cn": "依据气势造成斗性伤害时发动",
+      "ru": "Срабатывает при нанесении урона стойкости, основанного на моральном духе",
+      "status": "machine",
+      "srcHash": "2efbe320671b937b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_18": {
+      "en": "Has a chance to trigger when the opponent Cricket activates an ability",
+      "cn": "对手促织发动技能时有几率发动",
+      "ru": "Имеет шанс сработать, когда Сверчок противника активирует способность",
+      "status": "machine",
+      "srcHash": "fee4c583814eb574",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_19": {
+      "en": "At the start of the turn, has a chance to trigger based on how many of the user's Bite Force, Strength, and Morale are higher than the opponent's",
+      "cn": "回合开始时，根据自身牙钳、角力、气势高于对手的数量，有几率发动",
+      "ru": "В начале хода имеет шанс сработать в зависимости от того, на сколько Мощь укуса, Сила и моральный дух пользователя выше, чем у противника",
+      "status": "machine",
+      "srcHash": "55eb4383fb916ef7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_20": {
+      "en": "Triggers when a critical hit or block is triggered not by this effect",
+      "cn": "非本效果触发暴击、防御时发动",
+      "ru": "Срабатывает, когда критический удар или блок срабатывает не из-за этого эффекта",
+      "status": "machine",
+      "srcHash": "793a06c9460aeb97",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectCondition_21": {
+      "en": "Has a chance to trigger when being attacked, counterattacked, or called on",
+      "cn": "被进攻、被反击、被鸣叫时，有几率发动",
+      "ru": "Имеет шанс сработать при нападении, контратаке или вызове",
+      "status": "machine",
+      "srcHash": "230e68c13aa8f789",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectDesc_0": {
+      "en": "If the duel is ultimately won, the opponent gifts an extra random bet",
+      "cn": "若最终决斗胜利，对方额外随机赠上一份押注",
+      "ru": "Если Поединок в конечном счете выигран, противник делает дополнительную случайную ставку",
+      "status": "machine",
+      "srcHash": "a5dac25b6cb7b9bf",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
+    "EffectDesc_1": {
       "en": "Immediately triggers an additional critical hit.",
-      "cn": null,
+      "cn": "立即进行一次额外的暴击",
       "ru": "Немедленно вызывает дополнительный критический удар.",
       "status": "machine",
       "srcHash": "52b4c02c9f67f8d6",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_2": {
-      "en": "Endurance and Resilience Injury taken is reduced to 0.",
-      "cn": null,
-      "ru": "Полученная Травма на выносливость и сопротивляемость снижена до 0.",
+    "EffectDesc_2": {
+      "en": "Cancel the Endurance and Resilience damage suffered this time",
+      "cn": "取消本次受到的耐力、斗性伤害",
+      "ru": "Отмените урон от выносливости и сопротивляемости, нанесенный на этот раз",
       "status": "machine",
-      "srcHash": "f6aed437f0baf089",
+      "srcHash": "c432c70b863e704b",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_3": {
-      "en": "On active attack, even non-critical hits deal Resilience damage equal to Morale.",
-      "cn": null,
-      "ru": "При активной Атаке даже некритические попадания наносят урон устойчивости, равный моральному духу.",
+    "EffectDesc_3": {
+      "en": "When actively attacking, even without a critical hit, deal Resilience damage equal to Morale",
+      "cn": "主动攻击时，即使未暴击也能造成相当于气势的斗性伤害",
+      "ru": "При активной атаке, даже без критического удара, наносит урон устойчивости, равный моральному духу",
       "status": "machine",
-      "srcHash": "56b41aae558d76ea",
+      "srcHash": "53fc60490cd21ee2",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_4": {
-      "en": "Prevents enemy critical hits and defense.",
-      "cn": null,
-      "ru": "Предотвращает критические удары противника и защиту.",
+    "EffectDesc_4": {
+      "en": "Avoid the opponent's critical hit and block this time",
+      "cn": "避免本次对手的暴击、防御",
+      "ru": "Избегайте критического удара противника и блокируйте на этот раз",
       "status": "machine",
-      "srcHash": "9754358d7ff0028c",
+      "srcHash": "94ff2c380daaa118",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_5": {
-      "en": "+10 Critical Damage. Stackable and lasts until the battle ends.",
-      "cn": null,
-      "ru": "+10 критического урона. Накапливается и длится до окончания битвы.",
+    "EffectDesc_5": {
+      "en": "Increase its own Damage attribute, cumulative until the duel ends",
+      "cn": "提升自身的伤害属性，可累加持续至决斗结束",
+      "ru": "Увеличивает свой собственный урон, накапливающийся до окончания Поединка",
       "status": "machine",
-      "srcHash": "a98da1a00f578698",
+      "srcHash": "ec595af65c8aa642",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_6": {
-      "en": "Deals Endurance and Resilience Injury equal to 150% of the round count (rounded up).",
-      "cn": null,
-      "ru": "Наносит Травму на выносливость и сопротивляемость, равную 150% от количества раундов (округлено в большую сторону).",
+    "EffectDesc_6": {
+      "en": "Based on the current turn number, deal Endurance and Resilience damage to the opponent",
+      "cn": "根据当前回合数，对对手造成耐力、斗性伤害",
+      "ru": "Основываясь на текущем номере хода, наносите противнику урон выносливостью и сопротивляемостью",
       "status": "machine",
-      "srcHash": "626b5c4d470efc30",
+      "srcHash": "b1e160f3361a84e6",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_7": {
-      "en": "Counterattack injury is doubled.",
-      "cn": null,
-      "ru": "Травма при контратаке удваивается.",
+    "EffectDesc_7": {
+      "en": "The damage caused by this Counterattack is doubled",
+      "cn": "本次反击造成的伤害加倍",
+      "ru": "Урон, наносимый этой контратакой, удваивается",
       "status": "machine",
-      "srcHash": "131b891454b15f65",
+      "srcHash": "985e387200e01a88",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_8": {
-      "en": "The opponent immediately loses 1/3 of max Endurance and 1/3 of max Resilience (rounded up).",
-      "cn": null,
-      "ru": "Противник немедленно теряет 1/3 максимальной выносливости и 1/3 максимальной стойкости (округлено в большую сторону).",
+    "EffectDesc_8": {
+      "en": "The opponent immediately loses one-third of their Endurance and Resilience",
+      "cn": "对手立即损失三分之一的耐力和斗性",
+      "ru": "Противник немедленно теряет треть своей выносливости и сопротивляемости",
       "status": "machine",
-      "srcHash": "757709c537a01e07",
+      "srcHash": "5f2a078d3fa21383",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_9": {
-      "en": "50% of lost Resilience is restored as Endurance, and 50% of lost Endurance is restored as Resilience (rounded down).",
-      "cn": null,
-      "ru": "50% утраченной упругости восстанавливается в виде выносливости, а 50% утраченной выносливости восстанавливается в виде упругости (округлено в меньшую сторону).",
+    "EffectDesc_9": {
+      "en": "Convert half of the Endurance damage suffered this time into Resilience; convert half of the Resilience damage suffered this time into Endurance",
+      "cn": "将本次所受耐力伤害的一半转化为斗性；将本次所受斗性伤害的一半转化为耐力",
+      "ru": "Преобразуйте половину урона от выносливости, полученного на этот раз, в устойчивость; преобразуйте половину урона от выносливости, полученного на этот раз, в выносливость",
       "status": "machine",
-      "srcHash": "7953d2755caa0b3f",
+      "srcHash": "088258ad943b072f",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_10": {
-      "en": "+6 Strength after a counterattack. Stacks and lasts until the battle ends.",
-      "cn": null,
-      "ru": "+6 к Силе после контратаки. Складывается и сохраняется до окончания битвы.",
+    "EffectDesc_10": {
+      "en": "Increase its own Strength attribute, cumulative until the duel ends",
+      "cn": "提升自身的角力属性，可累加持续至决斗结束",
+      "ru": "Увеличивает свой собственный Характеристика Силы, накапливающийся до окончания Поединка",
       "status": "machine",
-      "srcHash": "18dc65f8bba32e6f",
+      "srcHash": "c0abea001f94aabf",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_11": {
-      "en": "When dealing Resilience/Endurance Injury: Injury = Base Injury × (120 + self corresponding Injury % × 5 ÷ 2) / 100. Self loses 10% of current Resilience or Endurance (rounded down)",
-      "cn": null,
-      "ru": "При нанесении Травмы на устойчивость/выносливость: Травма = Базовая Травма × (120 + соответствующая самому себе Травма % × 5 ÷ 2) / 100. Самость теряет 10% текущей жизнестойкости или выносливости (округлено в меньшую сторону)",
+    "EffectDesc_11": {
+      "en": "At the cost of losing its own Endurance/Resilience, increase the damage caused this time based on the corresponding Injury Level of itself",
+      "cn": "以损失自身的耐力/斗性为代价，根据自身对应的受伤程度提高本次造成的伤害",
+      "ru": "Ценой потери собственной выносливости/сопротивляемости увеличьте наносимый на этот раз урон, исходя из соответствующего уровня Травмы самого себя",
       "status": "machine",
-      "srcHash": "bd64f91e67aa77ad",
+      "srcHash": "eae722e1418ad6b8",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_12": {
-      "en": "+6 Bite Force after an attack. Stacks and lasts until the battle ends.",
-      "cn": null,
-      "ru": "+6 к Мощи укуса после Атаки. Складывается и сохраняется до окончания битвы.",
+    "EffectDesc_12": {
+      "en": "Increase its own Bite Force attribute, cumulative until the duel ends",
+      "cn": "提升自身的牙钳属性，可累加持续至决斗结束",
+      "ru": "Увеличивает свой собственный Характеристика Мощи укуса, накапливающийся до окончания Поединка.",
       "status": "machine",
-      "srcHash": "e495a3e017277ca5",
+      "srcHash": "86cc9c17629fefe1",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_13": {
-      "en": "When reducing damage while defending, deal Endurance Injury equal to Bite Force and Resilience Injury equal to Morale to the opponent.",
-      "cn": null,
-      "ru": "Уменьшая урон во время защиты, наносите противнику Травму на выносливость, равную Мощи укуса, и Травму на устойчивость, равную моральному духу.",
+    "EffectDesc_13": {
+      "en": "Based on its own Bite Force and Morale, deal Endurance and Resilience damage to the opponent respectively",
+      "cn": "根据自身的牙钳和气势，对对手分别造成耐力和斗性伤害",
+      "ru": "Основываясь на собственной Мощи укуса и моральном духе, наносит противнику урон выносливостью и сопротивляемостью соответственно",
       "status": "machine",
-      "srcHash": "dfddc8a540e594c0",
+      "srcHash": "444f620b57c1878a",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_14": {
-      "en": "All attributes except Endurance and Resilience (including hidden attributes) ×1.5 (rounded up), lasting until the battle ends.",
-      "cn": null,
-      "ru": "Все Характеристики, кроме выносливости и жизнестойкости (включая скрытые Характеристики) ×1,5 (округлено в большую сторону), действительны до окончания битвы.",
+    "EffectDesc_14": {
+      "en": "Greatly increase all of its own attributes except Endurance and Resilience, lasting until the duel ends",
+      "cn": "大幅提高自身除耐力、斗性外的全部属性，持续到决斗结束",
+      "ru": "Значительно увеличивает все свои собственные Характеристики, за исключением выносливости и сопротивляемости, которые сохраняются до окончания Поединка",
       "status": "machine",
-      "srcHash": "cadcd0dad623770f",
+      "srcHash": "e2ecc4aa3e788a6f",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_15": {
-      "en": "Randomly doubles one of Bite Force, Strength, or Morale (rounded up) for 1 round.",
-      "cn": null,
-      "ru": "Случайным образом удваивает Мощь укуса, Силу или боевой дух (округлено в большую сторону) на 1 раунд.",
+    "EffectDesc_15": {
+      "en": "Double a random attribute among its own Bite Force, Strength, and Morale this turn",
+      "cn": "本回合自身牙钳、角力、气势中的随机一项属性翻倍",
+      "ru": "Удваивает случайный Характеристика среди его собственной Мощи укуса, Силы и боевого духа в этом ходу",
       "status": "machine",
-      "srcHash": "9a223426ad698bf8",
+      "srcHash": "39d4e01e3e6779c8",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_16": {
-      "en": "Restore Endurance and Resilience based on the Endurance and Resilience damage dealt to the opponent by critical hits.",
-      "cn": null,
-      "ru": "Восстанавливайте выносливость и сопротивляемость, основываясь на уроне выносливости и сопротивляемости, наносимом противнику критическими ударами.",
+    "EffectDesc_16": {
+      "en": "Restore your own Endurance and Resilience based on the Critical Damage to Endurance and Resilience inflicted by this critical hit.",
+      "cn": "根据本次暴击造成的耐力、斗性伤害，恢复自身的耐力、斗性",
+      "ru": "Восстановите свою собственную выносливость и сопротивляемость, основываясь на критическом повреждении выносливости и сопротивляемости, нанесенном этим критическим ударом.",
       "status": "machine",
-      "srcHash": "dfd9cf2a56fdc51b",
+      "srcHash": "91f1460aef7c9ca7",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_17": {
-      "en": "Gain +6 Morale after dealing Resilience damage. Stacks and lasts until the battle ends.",
-      "cn": null,
-      "ru": "Получите +6 к моральному духу после нанесения урона стойкости. Складывается и сохраняется до окончания битвы.",
+    "EffectDesc_17": {
+      "en": "Increase your own Morale attribute until the end of the duel.",
+      "cn": "提升自身的气势属性，持续至决斗结束",
+      "ru": "Повышайте свой собственный Характеристики боевого духа до конца Поединка.",
       "status": "machine",
-      "srcHash": "80c3c1e76a1df5e6",
+      "srcHash": "e366fa872b927afb",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_18": {
+    "EffectDesc_18": {
       "en": "Prevents the opponent's skill from taking effect.",
-      "cn": null,
+      "cn": "阻止对手的技能生效",
       "ru": "Не позволяет навыку противника вступить в силу.",
       "status": "machine",
       "srcHash": "d68839b821195d53",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_19": {
-      "en": "Randomly sets the opponent's Critical, Defense, or Counterattack to 0 for 1 round.",
-      "cn": null,
-      "ru": "Случайным образом устанавливает критическое значение, защиту или контратаку противника равным 0 на 1 раунд.",
+    "EffectDesc_19": {
+      "en": "This turn, a random attribute among the opponent's Critical, Block Chance, and Counterattack becomes 0.",
+      "cn": "本回合对手暴击、防御、反击中的随机一项属性变为0",
+      "ru": "В этот ход случайная Характеристика критичности, шанса блокировки и контратаки противника становится равной 0.",
       "status": "machine",
-      "srcHash": "31030327f3e9e445",
+      "srcHash": "5f633fa7f7d38cc6",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_20": {
-      "en": "After a natural Critical, the next incoming attack is guaranteed to be defended. After a natural Defense, the next attack is guaranteed to be a Critical.",
-      "cn": null,
-      "ru": "После естественного критического удара следующая входящая Атака гарантированно будет защищена. После естественной защиты следующая Атака гарантированно будет критической.",
+    "EffectDesc_20": {
+      "en": "After a critical hit, you will definitely block on the next attack received; after blocking, your next attack will definitely be a critical hit.",
+      "cn": "暴击后，下次被攻击时必定防御；防御后，下次攻击必定暴击",
+      "ru": "После критического удара вы обязательно заблокируете следующую полученную Атаку; после блокировки ваша следующая Атака определенно будет критическим ударом.",
       "status": "machine",
-      "srcHash": "40eb44c1e14050b4",
+      "srcHash": "46eec988f6cd6cef",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
-    "Desc_21": {
-      "en": "When attacked: Bite Force +1. When countered: Strength +1. When Taunted: Morale +1. Stacks and lasts until the battle ends.",
-      "cn": null,
-      "ru": "При Атаке: Мощь укуса +1. При противодействии: Сила +1. Когда насмехаются: Боевой дух +1. Складывается и сохраняется до окончания битвы.",
+    "EffectDesc_21": {
+      "en": "When attacked, Bite Force +1; when counterattacked, Strength +1; when called on, Morale +1. Cumulative and lasts until the end of the duel.",
+      "cn": "被进攻时牙钳+1，被反击时角力+1，被鸣叫时气势+1，可累加持续至决斗结束",
+      "ru": "При Атаке Мощь укуса +1; при контратаке - Сила +1; при вызове - Боевой дух +1. Накопительный и действует до конца Поединка.",
       "status": "machine",
-      "srcHash": "1ae07d4c8112f317",
+      "srcHash": "e1be575012b03b9d",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "EffectTips_0": {
       "en": "Even if I give you the advantage, you still can't win!",

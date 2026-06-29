@@ -7671,6 +7671,15 @@
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:15:09.308Z"
     },
+    "Name_886": {
+      "en": "Clear Sword Mound State",
+      "cn": "更新固定角色过月行动",
+      "ru": "Очистить состояние Кургана мечей",
+      "status": "machine",
+      "srcHash": "5c0cd9ab6132874c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
     "Name_833": {
       "en": "Check Whether the Trinity and Three Demons Have Rebelled",
       "cn": "获取三才三魔是否反叛",
@@ -7976,6 +7985,15 @@
       "srcHash": "2a9983f8b585d27d",
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:15:09.308Z"
+    },
+    "Name_887": {
+      "en": "Update Fixed Character Monthly Actions",
+      "cn": "清除剑冢状态",
+      "ru": "Обновлять ежемесячные действия фиксированного персонажа",
+      "status": "machine",
+      "srcHash": "4e2c534dc837e08e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "Desc_0": {
       "en": "[If] If condition is satisfied, execute the command list covered by this command's scope.",
@@ -15645,6 +15663,15 @@
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:15:09.308Z"
     },
+    "Desc_886": {
+      "en": "Call once in the Sword Mound Destruction directive",
+      "cn": "手动触发固定角色过月的行动逻辑.要求先将该角色放到地图上才会生效.",
+      "ru": "Вызовите один раз директиву об уничтожении Кургана мечей",
+      "status": "machine",
+      "srcHash": "08b801eed8f1b23e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
     "Desc_833": {
       "en": "",
       "cn": "",
@@ -15950,6 +15977,15 @@
       "srcHash": "aa4fb8a61cab7db7",
       "engine": "neutral",
       "updatedAt": "2026-06-23T17:15:09.308Z"
+    },
+    "Desc_887": {
+      "en": "Manually trigger the monthly action logic for the fixed character. The character must first be placed on the map for this to take effect.",
+      "cn": "在剑冢消亡指令中调用一次",
+      "ru": "Вручную запустите ежемесячную логику действий для фиксированного персонажа. Чтобы это вступило в силу, персонаж сначала должен быть помещен на карту.",
+      "status": "machine",
+      "srcHash": "95d6b13e441f67db",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "ParameterNames_7_0": {
       "en": "Label Name",
@@ -24106,13 +24142,13 @@
       "updatedAt": "2026-06-23T17:15:09.308Z"
     },
     "ParameterNames_555_3": {
-      "en": "[0-100)",
+      "en": "[0~100)",
       "cn": "[0~100)",
-      "ru": "[0-100)",
+      "ru": "[0~100)",
       "status": "machine",
-      "srcHash": "534ba0ecb5844468",
-      "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "srcHash": "3a7dde54bec6d2c4",
+      "engine": "neutral",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     },
     "ParameterNames_557_0": {
       "en": "Target Character",
@@ -33762,6 +33798,15 @@
       "engine": "neutral",
       "updatedAt": "2026-06-23T17:15:09.308Z"
     },
+    "InGameHint_886": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "aa4fb8a61cab7db7",
+      "engine": "neutral",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
+    },
     "InGameHint_833": {
       "en": "",
       "cn": "",
@@ -34067,6 +34112,15 @@
       "srcHash": "0ef144baa1422e97",
       "engine": "yandex",
       "updatedAt": "2026-06-23T17:15:09.308Z"
+    },
+    "InGameHint_887": {
+      "en": "",
+      "cn": "",
+      "ru": "",
+      "status": "machine",
+      "srcHash": "aa4fb8a61cab7db7",
+      "engine": "neutral",
+      "updatedAt": "2026-06-29T08:25:35.288Z"
     }
   }
 }
