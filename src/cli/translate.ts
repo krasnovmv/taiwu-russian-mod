@@ -16,9 +16,11 @@
  * kept) — e.g. `--route --threshold 20 --max-len 40`: ≤20 Yandex, 21–40 LM
  * Studio, >40 skipped. `--min-len`/`--max-len` also window a single-engine run.
  *
- * `--cache-only` rebuilds the TM from the engine response cache alone: cache hits
- * are applied, misses are left pending, and the API is never called (zero cost).
- * Combine with `--route` to refill every routed tier from its cache at once.
+ * `--cache-only` rebuilds the TM from the engine response cache alone: the API is
+ * never called (zero cost). Cache hits are applied — including to already-translated
+ * `machine` units, so editing a cache entry flows back into the TM — and misses are
+ * left pending. A hit overwrites `ru` only when it actually changed; `reviewed`/
+ * `locked` stay pinned. Combine with `--route` to refill every routed tier at once.
  */
 import { ROUTING_THRESHOLD } from "../config/translate.js";
 import { createEngine, parseEngineId, type EngineId } from "../engine/factory.js";
@@ -89,7 +91,14 @@ interface PassResult {
 async function runPass(
   files: string[],
   engine: TranslationEngine,
-  opts: { limit?: number; dryRun?: boolean; now: string; minLen?: number; maxLen?: number },
+  opts: {
+    limit?: number;
+    dryRun?: boolean;
+    now: string;
+    minLen?: number;
+    maxLen?: number;
+    refreshCached?: boolean;
+  },
   label: string,
 ): Promise<PassResult> {
   console.log(label);
@@ -115,6 +124,7 @@ async function runPass(
       now: opts.now,
       minLen: opts.minLen,
       maxLen: opts.maxLen,
+      refreshCached: opts.refreshCached,
       onStart: (totalUnits) => {
         fileTotal = totalUnits;
         bars.startFile(f);
@@ -145,6 +155,10 @@ async function main(): Promise<void> {
   }
 
   const now = new Date().toISOString();
+  // Cache-only means "rebuild the TM from the cache", so re-serve up-to-date machine
+  // units too (an edited cache entry overwrites the stored translation). Only safe
+  // here because misses cost nothing; a live engine would re-bill every such unit.
+  const refreshCached = args.cacheOnly;
   const files = args.all ? await listSourceFiles() : [args.file as string];
   const suffix = args.dryRun ? " (dry-run)" : "";
   const passes: PassResult[] = [];
@@ -168,7 +182,7 @@ async function main(): Promise<void> {
       await runPass(
         files,
         yandex,
-        { dryRun: args.dryRun, now, maxLen: t },
+        { dryRun: args.dryRun, now, maxLen: t, refreshCached },
         `\nPass 1/2 — Yandex (≤ ${t} chars)`,
       ),
     );
@@ -177,7 +191,7 @@ async function main(): Promise<void> {
       await runPass(
         files,
         lmstudio,
-        { dryRun: args.dryRun, now, minLen: t + 1, maxLen: cap },
+        { dryRun: args.dryRun, now, minLen: t + 1, maxLen: cap, refreshCached },
         `\nPass 2/2 — LM Studio (${lmRange} chars)`,
       ),
     );
@@ -191,7 +205,14 @@ async function main(): Promise<void> {
       await runPass(
         files,
         engine,
-        { limit: args.limit, dryRun: args.dryRun, now, minLen: args.minLen, maxLen: args.maxLen },
+        {
+          limit: args.limit,
+          dryRun: args.dryRun,
+          now,
+          minLen: args.minLen,
+          maxLen: args.maxLen,
+          refreshCached,
+        },
         `Engine: ${engine.id}${suffix} | files: ${files.length}${window}`,
       ),
     );

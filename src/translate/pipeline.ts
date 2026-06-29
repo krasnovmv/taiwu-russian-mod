@@ -36,6 +36,13 @@ export interface TranslateOptions {
   /** Only translate units with `minLen <= en.length <= maxLen` (the engine's window). */
   minLen?: number;
   maxLen?: number;
+  /**
+   * Re-process `machine` units that are otherwise up to date (matching srcHash and
+   * engine), so an edited cache entry flows back into the TM. Meant for cache-only
+   * rebuilds: a hit overwrites `ru` (only when it actually changed), a miss leaves
+   * the unit untouched. `reviewed`/`locked` units are still never touched.
+   */
+  refreshCached?: boolean;
   /** Called once with the number of units that will be sent to the engine. */
   onStart?: (totalUnits: number) => void;
   /** Called with the running count of units sent to the engine for this file. */
@@ -68,12 +75,16 @@ export function needsTranslation(
   prev: TmUnit | undefined,
   hash: string,
   engineId: string,
+  refreshCached = false,
 ): boolean {
   if (!prev || prev.ru === null) return true;
   if (prev.status === "reviewed" || prev.status === "locked") return false;
   // Re-translate machine units whose source drifted OR whose engine no longer
   // matches the routed engine (so routing/cap changes adopt the chosen engine).
-  return prev.srcHash !== hash || prev.engine !== engineId;
+  if (prev.srcHash !== hash || prev.engine !== engineId) return true;
+  // Up-to-date machine unit: normally skipped, but a refresh run re-serves it from
+  // the cache so an edited cache entry can overwrite the stored translation.
+  return refreshCached;
 }
 
 /**
@@ -86,7 +97,7 @@ function selectWork(
   aligned: AlignedFile,
   existing: TmFile | null,
   engineId: string,
-  options: Pick<TranslateOptions, "minLen" | "maxLen" | "limit" | "now">,
+  options: Pick<TranslateOptions, "minLen" | "maxLen" | "limit" | "now" | "refreshCached">,
 ): { units: Record<string, TmUnit>; work: WorkItem[]; pending: number; skipped: number } {
   const minLen = options.minLen ?? 0;
   const maxLen = options.maxLen ?? Infinity;
@@ -119,7 +130,7 @@ function selectWork(
 
     // Out of window or already up to date: carry forward unchanged (a unit out
     // of window keeps any translation another pass made).
-    if (!inWindow || !needsTranslation(prev, hash, engineId)) {
+    if (!inWindow || !needsTranslation(prev, hash, engineId, options.refreshCached)) {
       units[unit.key] = prev ? { ...prev, cn: unit.cn } : newPendingUnit(unit, hash);
       skipped++;
       continue;
@@ -145,7 +156,7 @@ function selectWork(
 export async function planFile(
   file: string,
   engineId: string,
-  options: Pick<TranslateOptions, "minLen" | "maxLen" | "limit"> = {},
+  options: Pick<TranslateOptions, "minLen" | "maxLen" | "limit" | "refreshCached"> = {},
 ): Promise<number> {
   const aligned = await alignFile(file);
   const existing = await loadTm(file);
@@ -214,6 +225,18 @@ export async function translateFile(
         failed++;
         failures.push({ key: item.unit.key, error: restored.error ?? "restore failed" });
         return; // leave the pending placeholder in place
+      }
+      // No-op refresh: the cache served the same value already in the TM. Leave the
+      // unit (and its updatedAt) untouched so cache rebuilds don't churn the diff.
+      const before = units[item.unit.key];
+      if (
+        before &&
+        before.status === "machine" &&
+        before.ru === restored.text &&
+        before.srcHash === item.hash &&
+        before.engine === engine.id
+      ) {
+        return;
       }
       translated++;
       units[item.unit.key] = {

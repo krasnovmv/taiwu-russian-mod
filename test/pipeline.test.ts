@@ -121,3 +121,22 @@ test("needsTranslation re-translates on engine mismatch (routing/overwrite)", ()
   assert.equal(needsTranslation(u({}), "h2", "yandex"), true); // source drifted -> redo
   assert.equal(needsTranslation(u({ status: "reviewed" }), "h2", "lmstudio"), false); // human kept
 });
+
+test("needsTranslation refreshCached re-serves up-to-date machine units from cache", () => {
+  const u = (over: Partial<TmUnit>): TmUnit => ({
+    en: "x",
+    cn: null,
+    ru: "ру",
+    status: "machine",
+    srcHash: "h",
+    engine: "yandex",
+    updatedAt: null,
+    ...over,
+  });
+  // Up-to-date machine unit: skipped normally, but re-served when refreshing.
+  assert.equal(needsTranslation(u({}), "h", "yandex", false), false);
+  assert.equal(needsTranslation(u({}), "h", "yandex", true), true);
+  // Refresh still never reaches human-curated units.
+  assert.equal(needsTranslation(u({ status: "reviewed" }), "h", "yandex", true), false);
+  assert.equal(needsTranslation(u({ status: "locked" }), "h", "yandex", true), false);
+});
