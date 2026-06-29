@@ -13,6 +13,19 @@ test("extract picks only title and content (not type/name/value)", () => {
   assert.deepEqual(units.map((u) => u.key).sort(), ["paragraphs/0/content", "title"]);
 });
 
+test("JSONC source with // comments parses (JSON5), no guard failure", () => {
+  // Some game tip files (e.g. CommonTip/Cricket/CricketSkillReplace.json) carry comments.
+  const jsonc = '{\n  // a comment\n  "title": "Charm",\n  "content": "Some text.",\n}';
+  const { units, warnings } = jsonTipAdapter.extract(jsonc, null);
+  assert.equal(warnings.length, 0);
+  assert.deepEqual(units.map((u) => u.key).sort(), ["content", "title"]);
+
+  const out = jsonTipAdapter.apply(jsonc, new Map([["title", "Очарование"]]));
+  assert.equal(out.guardOk, true);
+  assert.equal(out.applied, 1);
+  assert.match(out.content, /"title": "Очарование"/); // re-serialized as plain JSON
+});
+
 test("CN reference joined by path", () => {
   const cn = SRC.replace('"Charm"', '"魅力"').replace('"Some text."', '"一些文字。"');
   const { units } = jsonTipAdapter.extract(SRC, cn);

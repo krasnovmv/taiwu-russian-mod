@@ -10,7 +10,14 @@
  * Units are keyed by their JSON path (e.g. `paragraphs/0/atoms/1/content`). The
  * file is re-serialized as 2-space JSON; the structural guard re-parses and
  * confirms the exact set of translatable paths is unchanged.
+ *
+ * Sources are parsed with JSON5 because some game tip files are JSONC (they
+ * carry `//` comments — e.g. CommonTip/Cricket/CricketSkillReplace.json). The RU
+ * output is plain JSON (comments dropped on re-serialize), which is fine: the
+ * in-game CommonTip loader strips comments before deserializing anyway.
  */
+import JSON5 from "json5";
+
 import type { ApplyOutcome, ExtractResult, FormatAdapter, SourceUnit } from "./adapter.js";
 
 const TRANSLATABLE = new Set(["title", "content"]);
@@ -59,7 +66,7 @@ export const jsonTipAdapter: FormatAdapter = {
   extract(enContent, cnContent): ExtractResult {
     let enRoot: Json;
     try {
-      enRoot = JSON.parse(enContent) as Json;
+      enRoot = JSON5.parse(enContent) as Json;
     } catch (err) {
       return { units: [], onlyCn: [], warnings: [`invalid JSON: ${(err as Error).message}`] };
     }
@@ -69,7 +76,7 @@ export const jsonTipAdapter: FormatAdapter = {
     const cnMap = new Map<string, string>();
     if (cnContent) {
       try {
-        collect(JSON.parse(cnContent) as Json, "", cnMap);
+        collect(JSON5.parse(cnContent) as Json, "", cnMap);
       } catch {
         /* CN may be malformed; just skip the reference */
       }
@@ -86,7 +93,7 @@ export const jsonTipAdapter: FormatAdapter = {
   apply(enContent, translations): ApplyOutcome {
     let root: Json;
     try {
-      root = JSON.parse(enContent) as Json;
+      root = JSON5.parse(enContent) as Json;
     } catch (err) {
       return {
         content: enContent,
