@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "file": "Event_Languages/Taiwu_EventPackage_SectStoryZhujianRisingAction_Language_EN.txt",
-  "glossaryVersion": 5,
+  "glossaryVersion": 6,
   "units": {
     "3fffbfab-0f7e-4a3c-9277-4b8d115e57e8/EventContent": {
       "en": "As soon as <Character key=RoleTaiwu str=Name/> arrives at <Character key=RoleTaiwu str=CurBlock/>,<NL><Character key=RoleTaiwu str=GenderSubject/> spots Swordsmiths disciples with tired eyes, rushing around in carts. Thick smoke rises in the distance, stretching all the way to the sky.<NL>Tongsheng raises a hand and points toward the smoke.<NL><NL>\"The workshops must be over there! Successor of Taiwu, there's no time to lose!\"",
@@ -17,45 +17,45 @@
       "cn": "（拜访工坊……）事不宜迟……\n",
       "ru": "(Посетите мастерские...) Нельзя терять ни минуты...",
       "status": "machine",
-      "srcHash": "6a7e1fe124cda683",
+      "srcHash": "7c936afdb7f87d81",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "0c876578-19de-4d2b-839f-aa03d9d07c9f/EventContent": {
       "en": "The two of them leave the town and walk a few miles.<NL>At the foot of a mountain, they find several Sword Furnaces, each imprinted with the emblem of the Verdant Smith from the Swordsmith Villa.<NL>Inside, two disciples are locked in a fistfight, shouting with bloodshot eyes.",
       "cn": "二人出了村镇后，走得几里路，<NL>便得见几座剑炉立在山脚下，剑炉上铭刻了铸剑山庄青君匠的标识。<NL>此时工坊内纷纷扰扰，竟有两名弟子目眦尽裂，抱在一起，举拳互殴。",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "9f3f00bae0158063",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Они вдвоем покидают город и проходят несколько миль пешком.<NL>У подножия горы они находят несколько печей для обжига Мечей, на каждой из которых изображена эмблема Зеленого кузнеца из Усадьбы Ковки мечей.<NL>Внутри двое учеников сцепились в кулачной драке, крича с налитыми кровью глазами.",
+      "status": "machine",
+      "srcHash": "c417c6014d66792e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "0c876578-19de-4d2b-839f-aa03d9d07c9f/Option_1": {
       "en": "I'm the Successor of Taiwu. I bring the direct disciple of Master Ou here to learn the craft. Please inform your master...",
       "cn": "太吾传人，率欧祖亲传前来学艺，还望通报……\n",
       "ru": "Я Преемник Тайу. Я привел сюда прямого ученика мастера Оу, чтобы он научился этому ремеслу. Пожалуйста, сообщите своему хозяину...",
       "status": "machine",
-      "srcHash": "bf6a7739009e47ca",
+      "srcHash": "dd3300c87ef52c86",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "606f04da-908c-4e77-9fc7-84c7e2208255/EventContent": {
       "en": "The disciples clearly aren't happy to hear that. They mutter things like<NL>\"That bronze thing has no soul,\" \"Master's lost his mind,\" and \"The Successor of Taiwu must be just as clueless.\"<NL>But they can't disobey orders. Frustrated, they sigh deeply and let the two inside.",
       "cn": "弟子闻言，颇为不忿，<NL>口中“青铜无心”、“师父糊涂”、“太吾传人只怕也糊涂了”云云，<NL>却又迫于师命，不得动手，把满腔无奈化作声声长叹。",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "419f2f678e619200",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Ученики явно не рады это слышать. Они бормочут что-то вроде<NL>\"У этой бронзовой штуки нет души\", \"Мастер сошел с ума\" и \"Преемник Тайу, должно быть, такой же невежественный\".<NL>Но они не могут ослушаться приказа. Разочарованные, они глубоко вздыхают и впускают этих двоих внутрь.",
+      "status": "machine",
+      "srcHash": "6a4dcbc959757095",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "606f04da-908c-4e77-9fc7-84c7e2208255/Option_1": {
       "en": "(So be it...)",
       "cn": "（只得如此……）\n",
       "ru": "(Да будет так...)",
       "status": "machine",
-      "srcHash": "76bb94ba87e9e5c3",
+      "srcHash": "01b0899ba702e1aa",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6a983c5d-45c7-4095-9ae5-5871bca78b53/EventContent": {
       "en": "After many hardships, <Character key=RoleTaiwu str=Name/> finally reaches the <Character key=RoleTaiwu str=CurBlock/> workshops.<NL>But instead of focused artisans, <Character key=RoleTaiwu str=GenderSubject/> sees a bunch of Battleforge Smith disciples drinking, joking, laughing, even shouting. No one's working the forge.<NL>When they see the visitors, their expressions change. One of them gets pushed forward to greet them.<NL>He stumbles over, eyes unfocused, and blurts out,<NL><NL>\"You're... the Successor of Taiwu!? And this one is...?\"",
@@ -71,9 +71,9 @@
       "cn": "（告知铜生拜师之事……）\n",
       "ru": "(Расскажите ему о желании Тонгшенга стать его учеником...)",
       "status": "machine",
-      "srcHash": "e3d0cdbc05ea4653",
+      "srcHash": "3897171585e0589c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "ca7a1237-55fa-4dce-9ba6-174507333d6f/EventContent": {
       "en": "The disciple looks nervous. He tells <Character key=RoleTaiwu str=Name/> to wait, then bolts inside the workshops.<NL><NL>\"Master Ou's successor? Wanting to be a disciple!?<NL>I—I can't handle this. I'm getting the master...\"<NL><NL>But after a while, he comes back alone,<NL>hesitant and awkward, standing in front of <Character key=RoleTaiwu str=Name/>.",
@@ -89,9 +89,9 @@
       "cn": "令师可是不愿授艺？\n",
       "ru": "Неужели твой учитель не желает учить?",
       "status": "machine",
-      "srcHash": "0aeb7283dafd2b96",
+      "srcHash": "c56c523d969b75e7",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "a224f52a-c7d1-4547-a6ad-c224dbdf5a5e/EventContent": {
       "en": "Tongsheng nods slightly. The disciple replies,<NL><NL>\"Then please, feel free to use the forge to reforge your weapon. That'll give me something to tell the master.<NL>Everything you need is here—Sword Furnace, tools and all. Only thing is, you'll have to bring your own materials...<NL>Well then, I'm looking forward to hearing some good news from you!\"<NL><NL>With that, he leads Tongsheng to the front of the workshops,<NL>then grabs his wine jug, stumbles back to the firepit,<NL>and keeps drinking and singing with the others like nothing happened.",
@@ -107,9 +107,9 @@
       "cn": "（只得如此……）\n",
       "ru": "(Да будет так...)",
       "status": "machine",
-      "srcHash": "76bb94ba87e9e5c3",
+      "srcHash": "01b0899ba702e1aa",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "a9eb5f90-146a-41f0-864c-c5a572061fcb/EventContent": {
       "en": "After another long journey, <Character key=RoleTaiwu str=Name/> finally reaches the <Character key=RoleTaiwu str=CurBlock/> workshop.<NL>Here, the disciples of the Arcane Smith are all huddled around copies of the Lost Book of Ou Yezi, reading like their lives depend on it—eyes dry, brows furrowed.<NL>But once they see Tongsheng, they put the boring book aside and crowd around him, snickering.<NL><NL>\"So this is the mechanism heir! Ha! Didn't think it'd actually be real!<NL>Can't believe someone as old as Master Ou actually left behind a bronze mechanism! And I heard it didn't even inherit anything!<NL>No way, we gotta get Master out here to take a look for himself!\"",
@@ -125,9 +125,9 @@
       "cn": "（鉴别鉴别？）\n",
       "ru": "(Взгляните?)",
       "status": "machine",
-      "srcHash": "6fadb45f563e4a17",
+      "srcHash": "90449e7e2ed7dcc6",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "10f03d55-019d-4ac1-9447-ffe6c0ffe143/EventContent": {
       "en": "A couple of them run inside, and before long, bring out an old artisan.<NL>But the moment he lays eyes on Tongsheng, he scoffs and raises an eyebrow.<NL><NL>\"Master Ou's successor, huh? Then tell me—what exactly did he pass on to you?<NL>If you really got his skills, why didn't you go straight back to the sect and call a Grand Sword Trial?<NL>Why come here to learn from me?\"",
@@ -143,9 +143,9 @@
       "cn": "此事说来话长……\n",
       "ru": "Это долгая история...",
       "status": "machine",
-      "srcHash": "7b970f21f4e158e3",
+      "srcHash": "350452f2382cda9d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "21988f6a-a63b-4f01-98f2-5b46f95400a1/EventContent": {
       "en": "Tongsheng says nothing, just picks up a hammer and nods.<NL>The old artisan studies the two, then raises his arm and shouts:<NL><NL>\"Watch closely! If this one really carries the spirit of Master Ou, then we keep him—study him, learn from him!<NL>If not, toss both of them out!\"<NL><NL>At that, all the disciples nod and grin. They're clearly enjoying the show,<NL>fully expecting the master to unleash the Lost Book of Ou Yezi on them like a hammer—to \"bless\" them into oblivion.",
@@ -161,144 +161,144 @@
       "cn": "（只得如此……）\n",
       "ru": "(Да будет так...)",
       "status": "machine",
-      "srcHash": "76bb94ba87e9e5c3",
+      "srcHash": "01b0899ba702e1aa",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "f2697903-eb8d-480d-b4f4-bf455a46bad9/EventContent": {
       "en": "\"Thanks to the help from Successor of Taiwu,<NL>Tongsheng is now fully assembled, and can finally walk the path of an artisan again...\"",
       "cn": "“多亏太吾传人相助，<NL>铜生如今手足俱全，方可执锤兴炉，重走匠途……”",
       "ru": "\"Благодаря помощи Преемника Тайу,<NL>Тонгшенг теперь полностью собран и, наконец, может снова вступить на путь ремесленника...\"",
       "status": "machine",
-      "srcHash": "fc9cb15ccc6b079e",
+      "srcHash": "c27ad2f2d1767ce1",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "f2697903-eb8d-480d-b4f4-bf455a46bad9/Option_1": {
       "en": "(Engage in casual conversation...)",
       "cn": "（闲谈一番……）",
       "ru": "(Вступите в непринужденную беседу...)",
       "status": "machine",
-      "srcHash": "29a75e05a1b8dbdb",
+      "srcHash": "ea6824e1e4a157ae",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "f2697903-eb8d-480d-b4f4-bf455a46bad9/Option_2": {
       "en": "(Submit materials...)",
       "cn": "（提交铸材……）",
       "ru": "(Присылайте материалы...)",
       "status": "machine",
-      "srcHash": "129457e97e3872e4",
+      "srcHash": "63d7a7648dfbb28e",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "f2697903-eb8d-480d-b4f4-bf455a46bad9/Option_3": {
       "en": "(Wait for the weapon to be forged...)",
       "cn": "（等待器成……）",
       "ru": "(Подождите, пока Оружие будет выковано...)",
       "status": "machine",
-      "srcHash": "042a87159285d661",
+      "srcHash": "ab1679f5b9e647d4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "f2697903-eb8d-480d-b4f4-bf455a46bad9/Option_4": {
       "en": "(Take your leave for now...)",
       "cn": "（暂且告辞……）\n",
       "ru": "(А пока уходите...)",
       "status": "machine",
-      "srcHash": "97113ebbb6d99fcd",
+      "srcHash": "9fd64c29c2926ddb",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "fd572ed0-ac93-4387-b334-dd6f87b8a9cf/EventContent": {
       "en": "\"Most of the things from the past happened over a millennium ago...\"<NL>",
       "cn": "“前尘往事，大多已经过去千年……”<NL>",
       "ru": "\"Большинство событий из прошлого произошло более тысячи лет назад...\"<NL>",
       "status": "machine",
-      "srcHash": "bbc9a5e39c778dc9",
+      "srcHash": "0b32224207bb4017",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "fd572ed0-ac93-4387-b334-dd6f87b8a9cf/Option_1": {
       "en": "(About guilds...)",
       "cn": "（关于商会……）",
       "ru": "(О гильдиях...)",
       "status": "machine",
-      "srcHash": "86eab22e21b3f6cd",
+      "srcHash": "c75d198bc0f820fb",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "fd572ed0-ac93-4387-b334-dd6f87b8a9cf/Option_2": {
       "en": "(About Master Ou...)",
       "cn": "（关于欧祖……）",
       "ru": "(О мастере Оу...)",
       "status": "machine",
-      "srcHash": "7e7acd131075b242",
+      "srcHash": "2f41a56869b1a57c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "fd572ed0-ac93-4387-b334-dd6f87b8a9cf/Option_3": {
       "en": "(About the Puppet Master...)",
       "cn": "（关于偃师……）",
       "ru": "(О Кукловоде...)",
       "status": "machine",
-      "srcHash": "c5137dce93fc3a7d",
+      "srcHash": "dd2fc78d40f75a26",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "fd572ed0-ac93-4387-b334-dd6f87b8a9cf/Option_4": {
       "en": "(About the Grand Sword Trial...)",
       "cn": "（关于试剑大典……）",
       "ru": "(О Великом Испытании Меча...)",
       "status": "machine",
-      "srcHash": "8545672812bda794",
+      "srcHash": "576cba0cbb1baa3d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "fd572ed0-ac93-4387-b334-dd6f87b8a9cf/Option_5": {
       "en": "(About the Heavenly Emperor...)",
       "cn": "（关于天帝……）",
       "ru": "(О Небесном императоре...)",
       "status": "machine",
-      "srcHash": "7db83c0045d07a84",
+      "srcHash": "70f6e76b84a96aee",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "fd572ed0-ac93-4387-b334-dd6f87b8a9cf/Option_6": {
       "en": "(Other topics...)",
       "cn": "（其他话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "7a159e3b76aa8968",
+      "srcHash": "3b1a6e104921a403",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "06a52a6f-a0a5-424c-ad65-fea9fcf95f3f/EventContent": {
       "en": "\"Thanks to the help from Successor of Taiwu,<NL>Tongsheng is now fully assembled, and can finally walk the path of an artisan again...\"",
       "cn": "“多亏太吾传人相助，<NL>铜生如今手足俱全，方可执锤兴炉，重走匠途……”",
       "ru": "\"Благодаря помощи Преемника Тайу,<NL>Тонгшенг теперь полностью собран и, наконец, может снова вступить на путь ремесленника...\"",
       "status": "machine",
-      "srcHash": "fc9cb15ccc6b079e",
+      "srcHash": "c27ad2f2d1767ce1",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "06a52a6f-a0a5-424c-ad65-fea9fcf95f3f/Option_1": {
       "en": "Confirm",
       "cn": "确认",
       "ru": "Подтверждать",
       "status": "machine",
-      "srcHash": "8ed0c6b282caf17d",
+      "srcHash": "c88dc2484a7ac2ec",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "06a52a6f-a0a5-424c-ad65-fea9fcf95f3f/Option_2": {
       "en": "Cancel",
       "cn": "取消\n",
       "ru": "Отменить",
       "status": "machine",
-      "srcHash": "748e25d8f930bfa8",
+      "srcHash": "6598182b9dd617e3",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "229e7d6f-a832-441d-8d99-ccb6c1fed07b/EventContent": {
       "en": "\"Clang—clang—clang—\"<NL><NL>That day, <Character key=RoleTaiwu str=Name/> sits quietly in the workshop, watching sparks flicker from each strike of the hammer.<NL>Lately, Tongsheng hasn't said a word—just stays in the forge, hammering away nonstop.<NL>The fire doesn't speak. The hammer doesn't speak. And neither does Tongsheng.",
@@ -314,9 +314,9 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "fd134bc5-e1c4-4088-99af-4e4b9986fad4/EventContent": {
       "en": "\"Clang—clang—clang—\"<NL><NL>That day, <Character key=RoleTaiwu str=Name/> sits by the furnace, watching Tongsheng hammer away day after day.<NL>The master is still sick, only sending occasional instructions through others.<NL>But even without direct guidance, Tongsheng keeps hammering, tapping, adjusting—<NL>studying the marks left by past artisans on the anvil,<NL>trying to find his own way of smithing.",
@@ -332,9 +332,9 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "9482b43e-ef64-48be-892f-35db03c38b24/EventContent": {
       "en": "\"Clang—clang—clang—\"<NL><NL>That day, <Character key=RoleTaiwu str=Name/> sits by the furnace,<NL>watching the old artisan peeking over Tongsheng's shoulder, frowning and sighing.<NL>He keeps muttering, comparing every move Tongsheng makes with the Lost Book of Ou Yezi, pointing, lecturing, nonstop chatter.<NL>But Tongsheng doesn't get upset. He simply takes the pertinent advice and keeps hammering, just as steady as ever.",
@@ -350,27 +350,27 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "f03017f8-9d1a-4aa1-bce9-337dc0f56967/EventContent": {
       "en": "Tongsheng pauses, snapping out of focus for a moment.<NL>He takes the forging materials from <Character key=RoleTaiwu str=Name/>, studies them carefully, and says seriously,<NL><NL>\"Thank you, <Character key=RoleTaiwu str=Name/>...\"",
       "cn": "铜生停下铸打，恍然回神，<NL>他自<Character key=RoleTaiwu str=Name/>手中接过铸材，仔细端详，正色道：<NL><NL>“<Character key=RoleTaiwu str=Name/>，多谢……”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "f076ff94a44df0ff",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Тоншенг замолкает, на мгновение теряясь в фокусе.<NL>Он берет материалы для ковки у <Character key=RoleTaiwu str=Name/>, внимательно изучает их и серьезно говорит,<NL><NL>\"Спасибо вам, <Character key=RoleTaiwu str=Name/>...\"",
+      "status": "machine",
+      "srcHash": "ab915a6e1c221fda",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "f03017f8-9d1a-4aa1-bce9-337dc0f56967/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "cd8e5cb2900ce236",
+      "srcHash": "49b4c100a7a92e67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "eb8e4d20-def3-4ed9-870e-3f005db90db8/EventContent": {
       "en": "The workshop falls quiet. Only when the old artisan gives the occasional tip do you hear any voices.<NL>Even the two disciples who once fought each other over the sect's future now seem strangely calm.<NL>They sit on the sidelines, silently watching Tongsheng work. One breaks a flatbread in half and shares it with the other.<NL>Maybe they're just curious, wondering how a new artisan like Tongsheng will manage to forge a weapon.<NL>Or maybe they just don't want to break the rhythm of that steady hammering that fills the workshops day and night.",
@@ -386,9 +386,9 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "88120b68-2f72-4410-801d-926f0eb85d27/EventContent": {
       "en": "The old artisan lets out a long sigh and tells the disciples to pack up and bid farewell to Tongsheng and <Character key=RoleTaiwu str=Name/>.<NL>He holds up the finished weapon with both hands and returns it to Tongsheng with care.<NL><NL>\"I have a few senior brothers whose skills are far beyond mine.<NL>If you wish to improve, you might visit other workshops first—then return to the sect.\"<NL><NL>Tongsheng doesn't hesitate. He transfers the weapon to <Character key=RoleTaiwu str=Name/> and says,<NL>\"For fully assembling me, for helping me gather the materials, for guiding me on this path—these debts must be repaid.\"",
@@ -404,9 +404,9 @@
       "cn": "(收下兵刃……）走罢，铜生，我们去其他工坊看看……\n",
       "ru": "(Возьми Оружие...) Пойдем, Тоншенг. Давайте посетим другие мастерские...",
       "status": "machine",
-      "srcHash": "423e7da597a776d7",
+      "srcHash": "a1794f4d937aeb84",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "3ed89744-9a10-45f3-87f2-933a08048df6/EventContent": {
       "en": "Some idle disciples occasionally wander over,<NL>curious about the bronze man the Successor of Taiwu brought—wondering what kind of thing it really is.<NL>But after watching for just half an hour, they quietly clench their fists and return outside to relight their own forges.<NL>They tell themselves: If we're all just swinging hammers, how come his weapons look better than ours?",
@@ -422,9 +422,9 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "f5342cc6-645a-44b1-be40-7f3e2208fa9c/EventContent": {
       "en": "The old artisan coughs as he waves a hand, telling the disciples to get things ready for the send-off for Tongsheng and <Character key=RoleTaiwu str=Name/>.<NL>He holds up the finished weapon with both hands shaking and returns it to Tongsheng.<NL><NL>\"Now, of all our sectmates down the mountain, only one is left, and he's more skilled than I am...<NL>Please visit him first, then return to the sect.\"<NL><NL>Tongsheng doesn't hesitate. He transfers the weapon to <Character key=RoleTaiwu str=Name/> and says,<NL>\"For fully assembling me, for helping me gather the materials, for guiding me on this path—these debts must be repaid.\"",
@@ -440,9 +440,9 @@
       "cn": "(收下兵刃……）走罢，去往下一家工坊……\n",
       "ru": "(Возьми Оружие...) Пойдем. Давайте перейдем к следующему семинару...",
       "status": "machine",
-      "srcHash": "a05a96f4dcddca1e",
+      "srcHash": "e0d9524ef167911c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c8abebde-4a04-4701-90bf-4206ead49054/EventContent": {
       "en": "Seeing that this so-called Master Ou's successor can actually sit through the master's constant nagging,<NL>the other disciples return to their furnaces as well. They mutter that they can't afford to fall behind Tongsheng and start working harder.<NL>The smoky, sweltering workshops grow even livelier.<NL><NL>As <Character key=RoleTaiwu str=Name/> glances toward Tongsheng's rising and falling hammer,<NL><Character key=RoleTaiwu str=GenderSubject/> catches a glimpse of a faint blue glow, and for a split second, the furnace's flames reflect what seems like another workshop entirely...",
@@ -458,9 +458,9 @@
       "cn": "（仔细察探……）\n",
       "ru": "(Взгляните поближе...)",
       "status": "machine",
-      "srcHash": "4e4f50c00ccaf310",
+      "srcHash": "f9c647352d4557eb",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "fe8acc1f-ff9d-4253-b20e-9b35e4462565/EventContent": {
       "en": "The old artisan gives a cold snort, waves his hand, and tells the disciples to prep for the send-off for Tongsheng and <Character key=RoleTaiwu str=Name/>.<NL>He holds up the finished weapon with both hands and returns it to Tongsheng with care.<NL><NL>\"Fine! Fine! You don't understand the weight of this legacy—not yet.<NL>Before you return to the sect, you'd best learn more from the Successor of Taiwu!\"<NL><NL>Tongsheng doesn't hesitate. He transfers the weapon to <Character key=RoleTaiwu str=Name/> and says,<NL>\"For fully assembling me, for helping me gather the materials, for guiding me on this path—these debts must be repaid.\"",
@@ -476,9 +476,9 @@
       "cn": "（收下兵刃……）试剑大典将近，走罢，我们回湛卢山……\n",
       "ru": "(Возьми Оружие...) Великое Испытание Мечом близко. Пойдем, давай вернемся на гору Жанлу...",
       "status": "machine",
-      "srcHash": "2275a55dd0082bf4",
+      "srcHash": "edb694d1f4d5e8be",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "042aee85-c795-432a-bab6-01f9c54030a2/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> and Tongsheng travel through dust and wind,<NL>and finally, Mount Zhanlu appears in the distance. The Grand Sword Trial is already in full swing—flames reach for the sky, thick smoke covers the moon.<NL>In the swirling smoke at the peak, it feels like the angry spirits of countless artisans are roaring and howling.<NL>They stomp and struggle upward, piling on top of one another, but still can't reach the clouds.<NL>Tongsheng is stunned and murmurs,<NL><NL>\"Mount Zhanlu doesn't look like it used to.\"",
@@ -494,27 +494,27 @@
       "cn": "以往的湛卢山，是什么模样……\n",
       "ru": "Как выглядела гора Жанлу в прошлом?",
       "status": "machine",
-      "srcHash": "96fbae8c84728caf",
+      "srcHash": "86cf43db47e4252a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "edd82388-4183-4da8-aa1f-698700b2d247/EventContent": {
       "en": "Tongsheng thinks for a moment before answering,<NL><NL>\"Less fame, fewer misunderstandings... and not so much fire.\"<NL><NL>From his words, <Character key=RoleTaiwu str=Name/> senses something deeper—<NL>like Mount Zhanlu, and the people on it, are no longer the same as they were.",
       "cn": "铜生闻言，沉思片刻，方才应道：<NL><NL>“少些名利，少些误解，少些红火……”<NL><NL>隐隐间，<Character key=RoleTaiwu str=Name/>自铜生言辞中，听出了物非人亦非之意。<NL>时隔多年，无论是湛卢山，还是山上的人，都与当年大不一样了。",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "2068b6c570fb87ff",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Туншенг на мгновение задумывается, прежде чем ответить,<NL><NL>- Меньше славы, меньше недоразумений... и не так много огня.\"<NL><NL>Из его слов, <Character key=RoleTaiwu str=Name/> чувствует что-то более глубокое—<NL>как гора Жанлу и люди на ней, они уже не те, что были раньше.",
+      "status": "machine",
+      "srcHash": "4b65227d66591936",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "edd82388-4183-4da8-aa1f-698700b2d247/Option_1": {
       "en": "Sounds like you liked the old Mount Zhanlu better...",
       "cn": "听起来，你更喜欢以前的湛卢山……\n",
       "ru": "Похоже, тебе больше понравилась старая гора Жанлу...",
       "status": "machine",
-      "srcHash": "1be62ffb8a3740ba",
+      "srcHash": "523d9214d50c0a85",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "f152dfc8-6d08-4d60-b23f-7a508463c916/EventContent": {
       "en": "\"Yeah. Let's go!\"<NL><NL>Tongsheng bows slightly to <Character key=RoleTaiwu str=Name/>, lifts his chin, and walks toward the Mount Zhanlu.<NL>For a moment, <Character key=RoleTaiwu str=Name/> sees the hammer in Tongsheng's hand turn into something like the Fuyu Hilt.<NL>And Tongsheng—he looks just like <Character key=RoleTaiwu str=Name/> once did, taking that first step bearing a legacy, walking the path of those who came before—<NL>head held high, fearless and free.",
@@ -530,9 +530,9 @@
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "cd8e5cb2900ce236",
+      "srcHash": "49b4c100a7a92e67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "615ab07a-e4c6-411a-b20e-f6a030ac7a41/EventContent": {
       "en": "When <Character key=RoleTaiwu str=Name/> reports their arrival, the two disciples ignore <Character key=RoleTaiwu str=GenderObject/>.<NL>They flip a table, knock their sectmates aside, and brawl their way from the workshop entrance all the way to <Character key=RoleTaiwu str=Name/>—<NL>rolling in the dirt, covered in mud. Only when the old artisan yells from inside the workshop, fed up with the noise, do they stop:<NL><NL>\"That sorry excuse for a fight? What a disgrace! Get your act together!\"",
@@ -548,9 +548,9 @@
       "cn": "（同门相斗，不知所为何事……）\n",
       "ru": "(Почему они вообще ссорятся...)",
       "status": "machine",
-      "srcHash": "8f1a7b55da74c5e0",
+      "srcHash": "c5b9c03e4329b112",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "1072605a-b3ab-4684-ba1d-cab9d978a1b2/EventContent": {
       "en": "The two disciples on the ground unclench their fists and get up, still fuming.<NL>One of them shouts,<NL><NL>\"That bastard knew we're short on materials!<NL>We barely scraped those together by cutting back on food and supplies!<NL><NL>And he still went for the most expensive ones! I tried to talk him out of it, but he ignored me every time!<NL>If you ask me, he's dead set on dragging us all down!\"",
@@ -566,9 +566,9 @@
       "cn": "（竟是如此……）\n",
       "ru": "(Теперь я понимаю...)",
       "status": "machine",
-      "srcHash": "be58df40d9ffb4ee",
+      "srcHash": "bd77b1a05312923c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "69063126-fabd-4527-be8c-fcf6566628a7/EventContent": {
       "en": "Seeing the two of them spouting noble words about the sect while beating each other black and blue,<NL>the old artisan loses it. His face darkens and he yells,<NL><NL>\"Enough! Have you no shame!?<NL>Honored guests are here to talk business. Clean up this mess, now!<NL>Successor of Taiwu, and... this bronze successor from Master Ou, I failed as a master. Please forgive my disciples' behavior.\"",
@@ -584,27 +584,27 @@
       "cn": "门中弟子，偶有争执，原属寻常……",
       "ru": "Разногласия между учениками случаются. В этом нет ничего нового...",
       "status": "machine",
-      "srcHash": "bafee43b093db4d0",
+      "srcHash": "4066d24b4da00d2d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "69063126-fabd-4527-be8c-fcf6566628a7/Option_2": {
       "en": "So, you already know about Master Ou's successor...",
       "cn": "看来阁下已知晓欧祖传人之事……",
       "ru": "Итак, вы уже знаете о Преемнике мастера Оу...",
       "status": "machine",
-      "srcHash": "d40ab928e16f7e8c",
+      "srcHash": "e5c27c75e7c49f65",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "69063126-fabd-4527-be8c-fcf6566628a7/Option_3": {
       "en": "In that case, I hope you'll be willing to hand down your craft...",
       "cn": "此番前来，还望阁下传授匠人手艺……\n",
       "ru": "В таком случае, я надеюсь, вы согласитесь передать свое ремесло по наследству...",
       "status": "machine",
-      "srcHash": "a2fb39e190ca5760",
+      "srcHash": "7658084d8cbf39c9",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "043799bb-fe89-4291-ac13-cc54ca60e2cb/EventContent": {
       "en": "With that, <Character key=RoleTaiwu str=Name/> bows first.<NL>Tongsheng follows, mimicking <Character key=RoleTaiwu str=Name/>'s gesture stiffly.<NL>The old artisan chuckles,<NL><NL>\"Don't worry. Since you're both part of the sect, no matter what form you come in,<NL>I'll teach you everything I know—how to work metal, and my own techniques too!<NL>That said... the sect is running low on materials. You'll have to find your own metal and jade to practice with...\"",
@@ -620,9 +620,9 @@
       "cn": "无妨，铸材稀缺，我或有办法……\n",
       "ru": "Это прекрасно. Возможно, у меня есть способ собрать то, что нам нужно...",
       "status": "machine",
-      "srcHash": "da46ba2dfa480426",
+      "srcHash": "15be802e1d34f22f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "b51eddec-ed83-4a7c-9cf3-f23039bbda2a/EventContent": {
       "en": "\"Thank you, Successor of Taiwu...\"<NL><NL>After hearing that, Tongsheng bows stiffly to <Character key=RoleTaiwu str=Name/>.<NL>The old artisan seems pleased and calls out to the other disciples,<NL><NL>\"You lot, pay attention!<NL>If I hear one more argument like that, don't blame me for kicking you out!\"",
@@ -638,9 +638,9 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "d9c7b7aa-92a0-4044-9e35-d536e1ef4d89/EventContent": {
       "en": "He then looks out into the distance and sighs.<NL><NL>\"If it were just a normal fight, I wouldn't care.<NL>But... the Swordsmith Villa isn't what it used to be...<NL><NL>Back when the 'Deep Azure' and 'Ivory Shade' twin swords were forged,<NL>people came from all over. The seven guilds, thousands of visitors, and the gift lines stretched from the front gate all the way to the foot of Mount Zhanlu.<NL>Everyone wanted to be on our good side, hoping to get a Celestial Weapon to keep peace in these chaotic times.<NL>But now, I have to count every Silver, every chunk of charcoal.<NL>One wrong calculation, and the weapon's a failure.\"",
@@ -656,9 +656,9 @@
       "cn": "昔日繁华，今时拮据，确实为难……\n",
       "ru": "Сейчас все непросто - от грандиозных торжеств до ограниченных бюджетов.",
       "status": "machine",
-      "srcHash": "765dbcb1b617d1f6",
+      "srcHash": "27356d725a0b1953",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "f1bb3af0-fc2b-4d44-8ab8-039393c48ba9/EventContent": {
       "en": "The old artisan looks Tongsheng up and down, smiling.<NL><NL>\"I heard about you from my senior's letter.<NL>Those shopkeepers don't understand the history of the craft. They chase the 'true successor' title like it's a prize, blind to how impossible that is.<NL>But you, a disciple from a thousand years ago, still alive, and made of bronze?<NL>That's almost too bizarre to believe... haha...\"",
@@ -674,9 +674,9 @@
       "cn": "（如此说来，铜生来历至今仍是谜团……）\n",
       "ru": "(Итак, происхождение Туншэна до сих пор остается загадкой...)",
       "status": "machine",
-      "srcHash": "d07be557054623f0",
+      "srcHash": "59ce148d52fc0805",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "727e8b52-d8c1-4429-a12b-b112aaa26e46/EventContent": {
       "en": "The other disciple, seething with rage, spits and shouts back,<NL><NL>\"Bullshit! If a weapon needs a certain material, you use it! What's the point of hoarding supplies if they just sit there?<NL>If everyone acted like you, scared and stingy, we'd never forge a damn thing!<NL>Honestly, I think you just want outsiders to laugh at us!\"",
@@ -692,9 +692,9 @@
       "cn": "（一时哑然……）\n",
       "ru": "(Ошеломленно замолкает...)",
       "status": "machine",
-      "srcHash": "93029ef31f37243d",
+      "srcHash": "06a0dd55ed8de184",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "8d89ec1e-7820-44a5-a4fb-2f794d452fb2/EventContent": {
       "en": "The disciple softens a bit and says,<NL><NL>\"It's not that Master meant to be rude... It's just...<NL>He's been sick in bed ever since he exhausted himself to get the Celestial Weapon ready for the Sword Trial.<NL>I went to report your visit, and all he said was three words: 'Bring the sword.'<NL>I think... I think he wants you to practice for now, and he'll guide you once he's better...\"",
@@ -710,27 +710,27 @@
       "cn": "为了试剑大典，竟是积劳成疾……",
       "ru": "Переутомился до тошноты... только ради Великого Испытания Мечом?",
       "status": "machine",
-      "srcHash": "952355ebfe363014",
+      "srcHash": "66ec51fba5d299ab",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "8d89ec1e-7820-44a5-a4fb-2f794d452fb2/Option_2": {
       "en": "The Grand Sword Trial's coming up fast. Why are you two still sitting around?",
       "cn": "试剑大典在即，你们怎生干坐在地？",
       "ru": "Великое Испытание Мечом быстро приближается. Почему вы двое все еще сидите без дела?",
       "status": "machine",
-      "srcHash": "0279c7b6fd4f8f2d",
+      "srcHash": "7388233b5aff409c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "8d89ec1e-7820-44a5-a4fb-2f794d452fb2/Option_3": {
       "en": "No one knows when your master will recover. How about letting Tongsheng forge something for him in the meantime?",
       "cn": "也不知令师重病何时痊愈，不如让铜生为令师续铸一番？\n",
       "ru": "Никто не знает, когда твой хозяин поправится. Как насчет того, чтобы позволить Тоншенгу тем временем выковать что-нибудь для него?",
       "status": "machine",
-      "srcHash": "e549f479ddba6a0d",
+      "srcHash": "26918fd314407c93",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "8848824a-9681-4b20-a8fd-003cac1595fb/EventContent": {
       "en": "The disciple quickly waves his hands and says helplessly,<NL><NL>\"Here at the Swordsmith Villa, everything revolves around the craft...<NL>Master holds himself to high standards. For the Grand Sword Trial, he pushed himself hard to perfect his skills,<NL>and he's strict with us too. There are a lot of us, so he ends up worrying more.<NL>Plus, he's no longer a young man. His regimen got the best of him. There's really nothing we could've done...\"",
@@ -746,9 +746,9 @@
       "cn": "（师父病倒了，此人看起来却并不在意……）\n",
       "ru": "(Их учитель заболел, а этому ученику, кажется, даже все равно...)",
       "status": "machine",
-      "srcHash": "1edc8f7f070209c4",
+      "srcHash": "74f6804778e794ab",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "b1ce822d-f9ba-4ea9-ac0f-c271f9402d91/EventContent": {
       "en": "The disciple shrugs with both hands and casually replies,<NL><NL>\"Hey, the Celestial Weapon for the Grand Sword Trial—<NL>only Master has the skills to forge something like that. We, as his disciples, aren't on his level.<NL>Now that he's sick, there's no point swinging hammers blindly and ticking him off.<NL>We're just waiting for him to get better. It's not like we're slacking off or anything...\"",
@@ -764,9 +764,9 @@
       "cn": "（原来是在偷懒耍滑……）\n",
       "ru": "(Значит, они все-таки расслабляются...)",
       "status": "machine",
-      "srcHash": "c5cb61ad76ae2ea8",
+      "srcHash": "0d96491d06d95613",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "623b341c-a120-4cc1-81df-86cfdc91ab9d/EventContent": {
       "en": "The old artisan refuses to let it slide.<NL><NL>\"It's a long story—so let me make it short!<NL>When Master Ou passed down his craft to you, did he give you any rules?<NL>When to light the forge? When to put it out? What materials to use to construct it? How tall should it be? Should the sword furnace face north or south?<NL>What do you do on rainy days? And snowy days?\"",
@@ -782,45 +782,45 @@
       "cn": "（一时哑然……）\n",
       "ru": "(Ошеломленно замолкает...)",
       "status": "machine",
-      "srcHash": "93029ef31f37243d",
+      "srcHash": "06a0dd55ed8de184",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "bf389d13-bed3-4898-83c4-c3dd3c72d02e/EventContent": {
       "en": "After a string of questions, both <Character key=RoleTaiwu str=Name/> and Tongsheng fall silent. The artisan thrusts a hammer toward them.<NL><NL>\"Tch! Can't answer, huh? Then don't bother!<NL>Just make a weapon already. Let me see for myself if you're really Master Ou's successor!\"",
       "cn": "一番连问，<Character key=RoleTaiwu str=Name/>与铜生相继哑然，那匠人又径直把铁锤递来：<NL><NL>“哎呀，话都不会说！不会说便不说！<NL>你且打制一柄兵刃，好让老夫亲眼瞧瞧你这欧祖亲传，是真是假！”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "d428ff8a8ab729a2",
-      "engine": null,
-      "updatedAt": null
+      "ru": "После череды вопросов оба <Character key=RoleTaiwu str=Name/> и Туншенг замолкает. Мастер направляет на них молоток.<NL><NL>- Тц! Не можешь ответить, да? Тогда не беспокойтесь!<NL>Просто уже сделай Оружие. Дай мне самому убедиться, действительно ли ты Преемник мастера Оу!\"",
+      "status": "machine",
+      "srcHash": "b996c4a9ee26a127",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "bf389d13-bed3-4898-83c4-c3dd3c72d02e/Option_1": {
       "en": "Tongsheng, do you really not know any of these details?",
       "cn": "铜生，你当真不知个中细节？",
       "ru": "Тоншенг, ты действительно не знаешь ничего из этих подробностей?",
       "status": "machine",
-      "srcHash": "da2835ad19e37123",
+      "srcHash": "9b4e0e17b3c10723",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "bf389d13-bed3-4898-83c4-c3dd3c72d02e/Option_2": {
       "en": "Old artisan, why are you so hung up on every little thing about Master Ou?",
       "cn": "老匠人，你为何对欧祖诸般细节关怀若此……",
       "ru": "Старый ремесленник, почему ты так зацикливаешься на каждой мелочи, касающейся мастера Оу?",
       "status": "machine",
-      "srcHash": "abedcef577cd197c",
+      "srcHash": "fe97f9ca2cf6119c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "bf389d13-bed3-4898-83c4-c3dd3c72d02e/Option_3": {
       "en": "Tongsheng, since he insists, why not give it a try?",
       "cn": "铜生，老匠人执意如此，你不若姑且一试？\n",
       "ru": "Туншенг, раз уж он настаивает, почему бы не попробовать?",
       "status": "machine",
-      "srcHash": "3161de5df5b5206d",
+      "srcHash": "b2f1b37bf2e0726c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "1dfb2a93-a11d-4d67-bb8c-88a58986b808/EventContent": {
       "en": "Tongsheng quietly shakes his head.<NL><NL>\"If I get up early, I start the furnace early. If I rest late, I stop late. That's all. Nothing special.\"<NL><NL>The old artisan's face instantly darkens. He looks furious—<NL>as if Tongsheng had just called Master Ou some lazy bum who kept strange hours and didn't take his work seriously.<NL>To him, this so-called successor has none of Master Ou's spirit and must be a fraud.",
@@ -836,9 +836,9 @@
       "cn": "（一时哑然……）\n",
       "ru": "(Ошеломленно замолкает...)",
       "status": "machine",
-      "srcHash": "93029ef31f37243d",
+      "srcHash": "06a0dd55ed8de184",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "233a0483-487f-45e6-ad51-5d79c0c1100a/EventContent": {
       "en": "As <Character key=RoleTaiwu str=Name/> speaks, the nearby disciples gasp in surprise.<NL>The old artisan frowns hard and starts shouting at <Character key=RoleTaiwu str=Name/>:<NL><NL>\"Ignorant! Clueless! Arrogant!<NL>When I joined the sect, I could recite my master's meal times, bedtime—even when he went to the latrine!<NL>Every great artisan lights the forge at the same time, puts it out at the same time, every single day, no distractions.<NL>That's how you wear down stone drop by drop! That's how 'Zhanlu' came to be!\"",
@@ -854,81 +854,81 @@
       "cn": "此话倒也不无道理……\n",
       "ru": "Это действительно имеет смысл...",
       "status": "machine",
-      "srcHash": "a31ebad9178f3867",
+      "srcHash": "b2d8e233bbc89acc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c7cb0ce5-44c0-42ea-806a-9980b529f53e/EventContent": {
       "en": "Tongsheng nods slightly, but after a moment of thought, shakes his head again.<NL><NL>\"Back then... the Mount Zhanlu didn't really belong to the people yet...<NL>There was only one workshop on the whole mountain...\"",
       "cn": "铜生闻言，微微颔首，却又于思索后，摇了摇头：<NL><NL>“那时候，湛卢山还不是人的湛卢山……<NL>工坊，亦只有山上一座……”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "a483874ae14b98c0",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Тоншенг слегка кивает, но после минутного раздумья снова качает головой.<NL><NL>- Тогда... Гора Жанлу на самом деле еще не принадлежала людям...<NL>На всей горе была только одна мастерская...\"",
+      "status": "machine",
+      "srcHash": "74b184a9184533a0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "c7cb0ce5-44c0-42ea-806a-9980b529f53e/Option_1": {
       "en": "After years of hard work, the sect now has better tools, more people, and stronger skills than ever before...",
       "cn": "山庄多年经营，如今手艺水平、人力物力皆远胜当年……\n",
       "ru": "После многих лет напряженной работы у Секты теперь есть лучшие инструменты, больше людей и более сильные навыки, чем когда-либо прежде...",
       "status": "machine",
-      "srcHash": "0edee3304b88ee01",
+      "srcHash": "a9723da70d7a7b85",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "1d5b20b4-3411-4ff3-b7bb-df9582e9b45c/EventContent": {
       "en": "\"That's good...\"<NL><NL>Tongsheng nods again,<NL>but then tilts his head and asks,<NL><NL>\"If it's better than before... why does everyone say the Swordsmith Villa is doing so poorly?\"",
       "cn": "“如此，甚好……”<NL><NL>铜生闻言，颔首附和，<NL>却于片刻后，又回过头来，懵懂问道：<NL><NL>“既然远胜当年，为何旁人皆说，铸剑山庄境况不佳？”",
       "ru": "\"Это хорошо...\"<NL><NL>Тоншенг снова кивает,<NL>но потом наклоняет голову и спрашивает,<NL><NL>- Если это будет лучше, чем раньше... почему все говорят, что дела на Усадьбе ковких мечей идут так плохо?\"",
       "status": "machine",
-      "srcHash": "51c6782aa2eed114",
+      "srcHash": "7452c3f5de22bc02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "1d5b20b4-3411-4ff3-b7bb-df9582e9b45c/Option_1": {
       "en": "(Stunned into silence...) Maybe it's because the weight they carry now is heavier than it was back then...",
       "cn": "（一时哑然……）兴许是肩上担子，与当年相比，要更重了……\n",
       "ru": "(Ошеломленно замолкает...) Может быть, это потому, что груз, который они несут сейчас, тяжелее, чем был тогда...",
       "status": "machine",
-      "srcHash": "d40289592eea9777",
+      "srcHash": "bbb48661fd687d7d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "995b16cf-caeb-4349-a405-6709817f3af1/EventContent": {
       "en": "Tongsheng looks confused.<NL><NL>\"If the burden's too heavy, can't they put it down?<NL>If a weapon's damaged and never repaired, won't it break eventually?\"",
       "cn": "铜生闻言，茫然道：<NL><NL>“担子太重，可否卸下担子？<NL>兵刃内有损劣，倘若不得修复，日久岁长，终致断折……”",
       "ru": "Туншэн выглядит смущенным.<NL><NL>\"Если ноша слишком тяжела, разве они не могут ее сбросить?<NL>Если Оружие повреждено и никогда не ремонтируется, не сломается ли оно в конце концов?\"",
       "status": "machine",
-      "srcHash": "f1d15b4d268fb813",
+      "srcHash": "7fc273bb4f7e475f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "995b16cf-caeb-4349-a405-6709817f3af1/Option_1": {
       "en": "The Swordsmiths has stood for a hundred years. They can't just drop their burden so easily...",
       "cn": "山庄百年基业发展至今，岂能轻易撂下担子……\n",
       "ru": "Мастерская фехтовальщиков существует уже сто лет. Они не могут так легко сбросить свою ношу...",
       "status": "machine",
-      "srcHash": "0263dab3c5b2623d",
+      "srcHash": "14a7194ba8b5c0e2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "60145bdd-ca28-4856-bbc9-7a9153514d18/EventContent": {
       "en": "\"Can't drop the burden?\"<NL><NL>Tongsheng repeats, stunned.<NL>He falls silent, lost in thought, then finally asks,<NL><NL>\"You, as the Successor of Taiwu... do you also carry more weight than most?\"",
       "cn": "“不能轻易撂下担子？”<NL><NL>铜生闻言，怔怔出神，沉思不语，<NL>半晌后，方才发问：<NL><NL>“太吾传人，与常人相比，是否亦背负许多担子？”",
       "ru": "\"Не можешь сбросить это бремя?\"<NL><NL>- ошеломленно повторяет Туншенг.<NL>Он замолкает, погруженный в свои мысли, затем, наконец, спрашивает,<NL><NL>\"Ты, как Преемник Тайу... ты тоже обладаешь большим весом, чем большинство?\"",
       "status": "machine",
-      "srcHash": "27a1a500f8e75ca7",
+      "srcHash": "08fb3fe34225c5a9",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "60145bdd-ca28-4856-bbc9-7a9153514d18/Option_1": {
       "en": "(Stunned into silence...)",
       "cn": "（一时哑然……）\n",
       "ru": "(Ошеломленно замолкает...)",
       "status": "machine",
-      "srcHash": "93029ef31f37243d",
+      "srcHash": "06a0dd55ed8de184",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "440d0856-0ad3-4260-be9a-e1b9ea705462/EventContent": {
       "en": "Back then, <Character key=RoleTaiwu str=Name/> rarely spoke of the hardships of cultivation or the danger of fighting demons.<NL>The world knows they can't understand such great matters, so they simply believe the Successor of Taiwu is strong and untouchable.<NL>As for how the successor really feels, no one ever truly cares to ask.",
@@ -944,81 +944,81 @@
       "cn": "游方极武，降伏相枢，方才不辱使命……",
       "ru": "Далекое путешествие, овладение Боевыми искусствами и покорение Сяншу — только тогда миссия будет выполнена...",
       "status": "machine",
-      "srcHash": "ec9766968e145713",
+      "srcHash": "77c02ed5be0f3277",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "440d0856-0ad3-4260-be9a-e1b9ea705462/Option_2": {
       "en": "Demons and Outlaws, from north to south—Taiwu must face them all...",
       "cn": "四方妖魔，南北外道，均为太吾之责……",
       "ru": "Демоны и преступники, от севера до юга — Тайу должен встретиться лицом к лицу со всеми ними...",
       "status": "machine",
-      "srcHash": "8fd52af1fd6895da",
+      "srcHash": "47ead37e6b1ba604",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "440d0856-0ad3-4260-be9a-e1b9ea705462/Option_3": {
       "en": "To inherit the martial arts legacy, to bear the name, you must live up to those before you...",
       "cn": "得传承武学，负传人之名，自应承前人所望……\n",
       "ru": "Чтобы унаследовать наследие Боевых искусств, носить это имя, вы должны соответствовать тем, кто был до вас...",
       "status": "machine",
-      "srcHash": "951b6b8f30df1c3d",
+      "srcHash": "112bce5c36874602",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "379f4f52-c3da-4676-9ff8-b54b85959860/EventContent": {
       "en": "Tongsheng counts on his fingers as he speaks,<NL><NL>\"Don't fail the mission. Don't fail those who came before. Don't fail the name you carry...<NL>So complicated. So much damage in the process. If one wishes to fix it, they must first gather the finest ore, then melt it all down to recast it...\"",
       "cn": "铜生沉思半晌，数着指头，说道：<NL><NL>“不负使命，不负前人，不负盛名……<NL>如此复杂，其中损伤必多，若欲修补，需先取精英熔火浇筑……”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "8942c722076224e4",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Говоря, Туншенг считает по пальцам,<NL><NL>- Не проваливай задание. Не подведи тех, кто был раньше. Не подведи имя, которое ты носишь...<NL>Так сложно. Так много повреждений в процессе. Если кто-то хочет починить его, он должен сначала собрать самую лучшую руду, затем переплавить все это, чтобы переделать...\"",
+      "status": "machine",
+      "srcHash": "6c475cbf93df866c",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "379f4f52-c3da-4676-9ff8-b54b85959860/Option_1": {
       "en": "But the Successor of Taiwu is made of flesh and blood. You can't reforge that in fire...",
       "cn": "太吾传人，乃血肉之躯，岂能熔火修补……\n",
       "ru": "Но Преемник Тайу сделан из плоти и крови. Ты не можешь перековать это в огне...",
       "status": "machine",
-      "srcHash": "bab9cd4063db0634",
+      "srcHash": "1a7294cc6b7f8462",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c906a57b-e0bb-4c36-99d2-90b01ed46dcf/EventContent": {
       "en": "Hearing this, Tongsheng falls silent again. He can't make sense of it.<NL>He looks to <Character key=RoleTaiwu str=Name/> and asks,<NL><NL>\"If you're made of flesh and blood, shouldn't you protect yourself and avoid harm? If you keep forcing it, how will you fix the parts that break?\"",
       "cn": "铜生闻言，再次沉默，百思不得其解，<NL>他望向<Character key=RoleTaiwu str=Name/>，问道：<NL><NL>“既然是血肉之躯，便该保身避祸，若强行用功，伤损之处便无法可补。”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "0a5355b2b8e248d7",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Услышав это, Туншенг снова замолкает. Он не может в этом разобраться.<NL>Он смотрит на <Character key=RoleTaiwu str=Name/> и спрашивает,<NL><NL>- Если ты сделан из плоти и крови, разве ты не должен защищать себя и избегать вреда? Если вы будете продолжать форсировать это, как вы почините детали, которые сломаются?\"",
+      "status": "machine",
+      "srcHash": "69d8b6e33631fc38",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "c906a57b-e0bb-4c36-99d2-90b01ed46dcf/Option_1": {
       "en": "(Stunned into silence...)",
       "cn": "（一时哑然……）\n",
       "ru": "(Ошеломленно замолкает...)",
       "status": "machine",
-      "srcHash": "93029ef31f37243d",
+      "srcHash": "06a0dd55ed8de184",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "e293e8cd-ede2-40e8-b1b9-aa65651d92e3/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> hears this and is struck by the realization...<NL>Everything Taiwu bears is far beyond human limits.<NL>Is it really possible to fight demons with nothing but a mortal body and martial arts?",
       "cn": "听闻铜生此言，<Character key=RoleTaiwu str=Name/>恍然觉察……<NL>太吾肩头所负，无一不是超脱人力之事，<NL>莫非真的只能以血肉之躯、凡人武艺与妖魔抗衡？",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "408dfb810e08d5c1",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> слышит это и поражается осознанию...<NL>Все, что несет Тайу, находится далеко за пределами человеческих возможностей.<NL>Действительно ли возможно сражаться с демонами, не имея ничего, кроме смертного тела и Боевых искусств?",
+      "status": "machine",
+      "srcHash": "453554af9f048a2e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "e293e8cd-ede2-40e8-b1b9-aa65651d92e3/Option_1": {
       "en": "Maybe... it's because it's a mortal body, and human skills... that we can overcome demons.",
       "cn": "或许……正是血肉之躯、凡人武艺，方是妖魔克星……\n",
       "ru": "Может быть... это потому, что это смертное тело и человеческие навыки... что мы можем победить демонов.",
       "status": "machine",
-      "srcHash": "c23e4764981b1577",
+      "srcHash": "4210e821eeade5f1",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "b77e544d-343f-4fb7-ade2-1ae06b2ca50f/EventContent": {
       "en": "As this thought settles, <Character key=RoleTaiwu str=Name/> recalls the moment <Character key=RoleTaiwu str=GenderSubject/> picked up the broken Fuyu Hilt. Visions of the past flashed before <Character key=RoleTaiwu str=GenderObject/>—<NL>a scholar rushing for exams, a butcher slicing meat...<NL>Why is it that those who fight demons<NL>and save the world aren't godlike beings in golden armor, riding clouds?<NL>Just as <Character key=RoleTaiwu str=GenderSubject/> spaces out, Tongsheng suddenly chimes in,<NL><NL>\"That makes sense!<NL>Taiwu may be mortal, but still faces demons. I may be clumsy and dull, but I'm here to smith Celestial Weapons!<NL>It's just as they say, 'Reversion is the action of Tao. Gentleness is the function of Tao!'\"",
@@ -1034,81 +1034,81 @@
       "cn": "虽比喻得不甚妥当，倒也有几分道理！\n",
       "ru": "Не самая лучшая аналогия, но он тоже не ошибается.",
       "status": "machine",
-      "srcHash": "eb3f68f85f71d061",
+      "srcHash": "286234e1f75d76ff",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "ca4f60f9-fd70-40cc-99be-d2adfbd43746/EventContent": {
       "en": "After saying that, Tongsheng drifts into a daze and mumbles,<NL><NL>\"It's not that I understand any deeper meaning.<NL>It's just that Master Ou never asked anything of me, except one thing—'Do your best without regrets.'\"",
       "cn": "一言既毕，铜生恍然出神，缓缓道：<NL><NL>“倒不是铜生懂了什么道理，<NL>只是欧祖除了‘倾尽全力，莫留遗憾’以外，从未对铜生有所要求。”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "c283d127b69f41bf",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Сказав это, Туншенг впадает в Оцепенение и бормочет,<NL><NL>- Дело не в том, что я понимаю какой-то более глубокий смысл.<NL>Просто мастер Оу никогда ни о чем меня не просил, кроме одного — \"Делай все, что в твоих силах, без сожалений\".",
+      "status": "machine",
+      "srcHash": "1ee16840a564d008",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "ca4f60f9-fd70-40cc-99be-d2adfbd43746/Option_1": {
       "en": "(Do your best without regrets...) The Grand Sword Trial... it must've already begun...",
       "cn": "（倾尽全力，莫留遗憾……）试剑大典，看来已经开始了……\n",
       "ru": "(Делай все, что в твоих силах, без сожалений...) Великое Испытание Мечом... должно быть, оно уже началось...",
       "status": "machine",
-      "srcHash": "cedb3190bec0407f",
+      "srcHash": "e35fb510599d8127",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "2498fc07-3eae-4cac-9bbe-2be2535622f0/EventContent": {
       "en": "Hearing this, Tongsheng falls quiet.<NL><NL>\"Sounds like being the Successor of Taiwu is even harder than being Master Ou's successor...\"",
       "cn": "铜生闻言，哑口无言：<NL><NL>“听起来，太吾传人要比欧祖传人难当多了……”",
       "ru": "Услышав это, Туншенг замолкает.<NL><NL>\"Похоже, быть Преемником Тайу еще труднее, чем быть Преемником мастера Оу...\"",
       "status": "machine",
-      "srcHash": "45e153a86ac56e78",
+      "srcHash": "d2c2942539215d8f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "2498fc07-3eae-4cac-9bbe-2be2535622f0/Option_1": {
       "en": "(Silent sigh...)",
       "cn": "（不语默叹……）\n",
       "ru": "(Тихий вздох...)",
       "status": "machine",
-      "srcHash": "c8da51044ca6c04f",
+      "srcHash": "d4d2b695d0f3cffa",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "4e330ccc-42d6-476b-b2a3-fbb9b8c53ae6/EventContent": {
       "en": "Tongsheng looks deeply shaken.<NL><NL>\"Why... why does such a huge responsibility have to fall on the Successor of Taiwu?\"",
       "cn": "铜生闻言，大感震撼：<NL><NL>“这般天大的责任，为何必须由太吾传人承担？”",
       "ru": "Туншенг выглядит глубоко потрясенным.<NL><NL>- Почему?.. почему такая огромная ответственность должна лечь на Преемника Тайу?\"",
       "status": "machine",
-      "srcHash": "01f7fb5931da6157",
+      "srcHash": "870891e8870268c5",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "4e330ccc-42d6-476b-b2a3-fbb9b8c53ae6/Option_1": {
       "en": "In times of crisis, those who can, must step up.",
       "cn": "天下危难，能者居之……\n",
       "ru": "Во времена кризиса те, кто может, должны действовать.",
       "status": "machine",
-      "srcHash": "9aac28a251c7e03d",
+      "srcHash": "ac4f4ff397f83013",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "066cc654-b36b-48f4-82bd-d3c8638829d2/EventContent": {
       "en": "\"This person... I've only seen him twice. I barely know him...<NL>but I can tell—whether it's Master Ou, Tongsheng, or anyone on Mount Zhanlu,<NL>he sees us all the same...\"",
       "cn": "“此人……铜生只见过他两次，对他所知甚少……<NL>可铜生能看出，无论是欧祖、铜生还是湛卢山上所有人，<NL>在他眼中，都是一般模样……”",
       "ru": "- Этот человек... Я видел его всего дважды. Я едва его знаю...<NL>но я могу сказать — будь то мастер Оу, Тонгшенг или кто-либо еще на горе Чжаньлу,<NL>он видит нас всех одинаково...\"",
       "status": "machine",
-      "srcHash": "cc6b64b7db427f79",
+      "srcHash": "81f858098e8ba373",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "066cc654-b36b-48f4-82bd-d3c8638829d2/Option_1": {
       "en": "(Quietly listening...)",
       "cn": "（静听不语……）\n",
       "ru": "(Тихо прислушиваясь...)",
       "status": "machine",
-      "srcHash": "dfa7c4c8e930fce5",
+      "srcHash": "7e6a304aac9a92d4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "129d28ab-555e-49fb-9487-ca573d2ad9b8/EventContent": {
       "en": "\"Lately, while relearning to craft at the workshops,<NL>Tongsheng noticed—most of the old skills, habits, and rules from the Mount Zhanlu are already gone.<NL>Only the hundred-day Grand Sword Trial and the Ancestral Forge remain to this day.<NL>But I wonder... is today's trial still the same as it was back then?\"",
@@ -1124,9 +1124,9 @@
       "cn": "（静听不语……）\n",
       "ru": "(Тихо прислушиваясь...)",
       "status": "machine",
-      "srcHash": "dfa7c4c8e930fce5",
+      "srcHash": "7e6a304aac9a92d4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "d34161fa-1c4c-4f0d-beaf-e68d20f84bf1/EventContent": {
       "en": "\"Tongsheng once thought: if the Puppet Master built with mechanical skill can still feel, still show emotion.<NL>Then surely the artisan must have cared for him deeply, like their own creation.<NL><NL>But once Tongsheng came closer, I realized his body was damaged, worn down, never repaired.<NL>Maybe... no one ever truly sees him as anything more than a low-grade tool...\"",
@@ -1142,9 +1142,9 @@
       "cn": "（静听不语……）\n",
       "ru": "(Тихо прислушиваясь...)",
       "status": "machine",
-      "srcHash": "dfa7c4c8e930fce5",
+      "srcHash": "7e6a304aac9a92d4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "8509ff68-ef7a-4a5b-b54f-4564778206b7/EventContent": {
       "en": "\"Master Ou... he treated Tongsheng kindly, just like you do...<NL>But back when the celestial being taught his craft, Tongsheng's limbs were ripped off by others. I never got the chance to repay his kindness.<NL>Now that Tongsheng is fully assembled again, I will make sure to do something meaningful with this life...\"",
@@ -1160,45 +1160,45 @@
       "cn": "（静听不语……）\n",
       "ru": "(Тихо прислушиваясь...)",
       "status": "machine",
-      "srcHash": "dfa7c4c8e930fce5",
+      "srcHash": "7e6a304aac9a92d4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "55331916-8b30-40b7-b237-d220a011205e/EventContent": {
       "en": "\"Ten taels of Silver—too little, barely enough to do anything.<NL>A hundred taels? You'd need a carriage just to move it. It's too bulky, too scattered, hard to manage...<NL>Turns out business just isn't Tongsheng's thing...\"",
       "cn": "“一贯银钱，不过十两之重，过微过轻，力薄难为。<NL>百贯银钱，需以车马乘之，太多太散，无从入手……<NL>从商，到底不是铜生专长之道……”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "3966125aa126f1bc",
-      "engine": null,
-      "updatedAt": null
+      "ru": "— Десять таэлей серебра - слишком мало, едва хватает, чтобы что-то сделать.<NL>Сотня таэлей? Вам понадобилась бы каретка только для того, чтобы передвинуть его. Он слишком громоздкий, слишком разбросанный, им трудно управлять...<NL>Оказывается, бизнес - это просто не для Туншенга...\"",
+      "status": "machine",
+      "srcHash": "b32dc8bd04e676c1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "55331916-8b30-40b7-b237-d220a011205e/Option_1": {
       "en": "(Quietly listening...)",
       "cn": "（静听不语……）\n",
       "ru": "(Тихо прислушиваясь...)",
       "status": "machine",
-      "srcHash": "dfa7c4c8e930fce5",
+      "srcHash": "7e6a304aac9a92d4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "15e1f7a8-4d98-4b29-b2b9-b37be9fe6311/EventContent": {
       "en": "\"This thing is fine and all, but my weapon's not done yet. I can't afford to get distracted...<NL>Please, <Character key=RoleTaiwu str=Name/>, keep this thing safe for now.<NL>I'll come back for it next time I fire up the furnace...\"",
       "cn": "“此物虽好，可惜铜生手中兵刃尚未完铸，并无二心相顾于它……<NL>还请<Character key=RoleTaiwu str=Name/>将此物好生保存，<NL>留待铜生下次开炉……”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "d340acf0a101b685",
-      "engine": null,
-      "updatedAt": null
+      "ru": "- Эта штука прекрасна и все такое, но мое Оружие еще не готово. Я не могу позволить себе отвлекаться...<NL>Пожалуйста, <Character key=RoleTaiwu str=Name/>, пока сохрани эту штуку в безопасности.<NL>Я вернусь за ним в следующий раз, когда разожгу печь...\"",
+      "status": "machine",
+      "srcHash": "8622f6de9b0c6f35",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "15e1f7a8-4d98-4b29-b2b9-b37be9fe6311/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "cd8e5cb2900ce236",
+      "srcHash": "49b4c100a7a92e67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "eab5f1ed-e8b7-4355-9820-494b23941c3c/EventContent": {
       "en": "\"Wait... even though this piece was made with modern techniques,<NL>a few key details are actually really close to the weapons made back when the celestial being first passed down their craft...<NL>That's it! Tongsheng might be able to use this as a base, mix in some of the old ways, and rebuild it!<NL>Fusing old and new, learning from all sources—that'd be a big help to Tongsheng's training...<NL><Character key=RoleTaiwu str=Name/>, thank you!\"",
@@ -1214,9 +1214,9 @@
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "cd8e5cb2900ce236",
+      "srcHash": "49b4c100a7a92e67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "ced3a8f9-dcfe-41cb-9324-8702ff8d98ab/EventContent": {
       "en": "Inside the quiet workshops, <Character key=RoleTaiwu str=Name/> suddenly notices a faint blue glow in Tongsheng's eyes.<NL>That blue light melts into the furnace fire and reveals a blurred vision.<NL><NL>Squinting, <Character key=RoleTaiwu str=GenderSubject/> sees a different kind of workshop,<NL>where dozens of people stand at the gates, looking up into the sky. Two figures float above them, their faces unclear.",
@@ -1232,27 +1232,27 @@
       "cn": "（仔细察探……）\n",
       "ru": "(Взгляните поближе...)",
       "status": "machine",
-      "srcHash": "4e4f50c00ccaf310",
+      "srcHash": "f9c647352d4557eb",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "ad206adb-66a9-4d5b-92b6-129877e05f2e/EventContent": {
       "en": "As the fire flickers, the vision starts to move. <Character key=RoleTaiwu str=Name/> hears a faint whisper beside <Character key=RoleTaiwu str=GenderPossessive/> ear—<NL>an old man's voice:<NL><NL>\"Tongsheng, do you remember everything I just said?\"",
       "cn": "火光跳动间，<Character key=RoleTaiwu str=Name/>察觉那个光景竟好似动了起来，<NL>耳边还隐隐传来了老者轻语：<NL><NL>“铜生，老夫方才说的，你可都记牢了？”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "23f4434781d50ae2",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Когда огонь мерцает, видение начинает двигаться. <Character key=RoleTaiwu str=Name/> слышит слабый шепот рядом <Character key=RoleTaiwu str=GenderPossessive/> ухо—<NL>голос старика:<NL><NL>\"Тоншенг, ты помнишь все, что я только что сказал?\"",
+      "status": "machine",
+      "srcHash": "22d0e21c42e003fb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "ad206adb-66a9-4d5b-92b6-129877e05f2e/Option_1": {
       "en": "(Who's speaking...?)",
       "cn": "（谁……谁在说话……）\n",
       "ru": "(Кто это говорит?..)",
       "status": "machine",
-      "srcHash": "8fd9ed6dad7a84ae",
+      "srcHash": "3a693e2e4c69a001",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "71e2202b-f1af-4bb4-9753-999aeb78e0df/EventContent": {
       "en": "Just then, the Fuyu Hilt in <Character key=RoleTaiwu str=Name/>'s arms twitches ever so slightly...<NL><NL>Suddenly, <Character key=RoleTaiwu str=Name/> finds <Character key=RoleTaiwu str=GenderObject/>self standing inside an old workshop.<NL>At the door, several threads of golden silk form a bridge reaching into the sky. Someone descends slowly from the end of it, radiating invisible pressure.<NL>Right in front of <Character key=RoleTaiwu str=Name/> stands the same old man from before, the one who spoke softly:<NL><NL>\"Oh, come on! Not now!<NL>Tongsheng, when you meet a god, this is how you bow,\"<NL>the old man says.",
@@ -1268,9 +1268,9 @@
       "cn": "（望向老者……）\n",
       "ru": "(Посмотрите на старика...)",
       "status": "machine",
-      "srcHash": "0f16dfcf759ca280",
+      "srcHash": "b1f8bf5fcdd62a9f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "443095a8-f582-42b8-abab-d41d5659ee25/EventContent": {
       "en": "The old man kneels on both legs, bending down in deep respect.<NL>Around them, the others look at <Character key=RoleTaiwu str=Name/>, mimic the old man's actions, performing a ritual bow toward <Character key=RoleTaiwu str=Name/>.<NL>But <Character key=RoleTaiwu str=Name/> notices—at some point, <Character key=RoleTaiwu str=GenderPossessive/> own hands have turned into bronze. Before <Character key=RoleTaiwu str=GenderSubject/> can even ask what's going on,<NL>a figure steps down from the bridge of golden silk threads. He pinches his nose and scoffs:<NL><NL>\"Tch, what a strong stink of human flesh...<NL>I'm the Puppet Master, and I have an announcement. You mortals—take heed!\"",
@@ -1286,9 +1286,9 @@
       "cn": "（我这是……变作了铜生？）\n",
       "ru": "(Подождите... я теперь Туншенг?)",
       "status": "machine",
-      "srcHash": "b5b80e39af7f0dbd",
+      "srcHash": "479de459dd8f8035",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "b054d8f7-decb-4419-b5b2-f810b4b5b82f/EventContent": {
       "en": "The one speaking is dressed in rags, body damaged,<NL>limbs bound in coils of golden silk threads. As he spreads his arms and slowly floats down,<NL>he looks like some iron-winged vulture gliding through the wind:<NL><NL>\"I have descended with the gods from the heavens in response to Nuwa's call.<NL>We're here to grant divine craft to you mortals.<NL>You'd better be grateful, learn well, and honor our teachings!\"",
@@ -1304,9 +1304,9 @@
       "cn": "（此间何地？此乃何人？什么众神？）\n",
       "ru": "(Где находится это место? Кто это? Что происходит?)",
       "status": "machine",
-      "srcHash": "71d3e02dc952a95d",
+      "srcHash": "f24c5474da7dda1a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c46e3d49-ca55-4f4e-a407-afe0e0eaf898/EventContent": {
       "en": "\"Thank you, lord god!\"<NL>\"Long live the gods, long live the gods!\"<NL>\"May god bless us!\"<NL><NL>Cries of thanks rise all around, and every one of them is filled with awe and worship.<NL>But to the Puppet Master, it seems more annoying than touching:<NL><NL>\"Stupid mortals can't even flatter me properly...\"",
@@ -1322,9 +1322,9 @@
       "cn": "（这名唤偃师之人，可是神仙？何以如此狂妄……）\n",
       "ru": "(Этот кукловод, он действительно бог? Почему он такой высокомерный?..)",
       "status": "machine",
-      "srcHash": "e1db7ee53a0cddb7",
+      "srcHash": "7317995b100c3d52",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c4bf8c93-1fa3-4a61-ac9d-943bb4db396c/EventContent": {
       "en": "\"You there, what are you? How dare you stand before a god without kneeling?\"<NL><NL><Character key=RoleTaiwu str=Name/> is still in shock when <Character key=RoleTaiwu str=GenderSubject/> suddenly feels a tight pull on <Character key=RoleTaiwu str=GenderPossessive/> neck and limbs.<NL><Character key=RoleTaiwu str=UpperGenderPossessive/> feet lift off the ground. Golden silk threads wrap around <Character key=RoleTaiwu str=GenderPossessive/> joints and lift <Character key=RoleTaiwu str=GenderObject/> into the air, dragging <Character key=RoleTaiwu str=GenderObject/> right in front of the Puppet Master.<NL>He sneers, toying with the threads in his fingers, and stares down at <Character key=RoleTaiwu str=Name/>:<NL><NL>\"Kneel! Now!\"",
@@ -1340,18 +1340,18 @@
       "cn": "（下跪行礼……）",
       "ru": "(Встань на колени...)",
       "status": "machine",
-      "srcHash": "f20a35a4f2954fb7",
+      "srcHash": "02726c10b06220d0",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c4bf8c93-1fa3-4a61-ac9d-943bb4db396c/Option_2": {
       "en": "(Unmoved...)",
       "cn": "（不为所动……）\n",
       "ru": "(Невозмутимый...)",
       "status": "machine",
-      "srcHash": "cdee6114ce0d477f",
+      "srcHash": "dffb0aab1c36005b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "a24289c1-289e-4658-96ad-889817749dfe/EventContent": {
       "en": "There's a saying, \"you don't hit a smiling face with an angry fist.\"<NL>This guy's clearly proud. A respectful bow might just smooth things over.<NL>Thinking that, <Character key=RoleTaiwu str=Name/> copies the old man's gesture from before, kneels on both legs, and bows all the way down.<NL>The Puppet Master seems pleased.<NL><NL>\"Oh? You've got some sense, little toy.<NL>Not bad for a mortal-made gadget... So, who made you? Do you have a name?\"",
@@ -1367,9 +1367,9 @@
       "cn": "（不语不应……）\n",
       "ru": "(Тихо...)",
       "status": "machine",
-      "srcHash": "c59a1de0a7eba08a",
+      "srcHash": "2c98ba47e67ecbeb",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "0dba6211-b2f4-46f8-84ca-eb480d09ee48/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> hears the question and glances at the Puppet Master.<NL>Seeing that he's just like Tongsheng—also a mechanism—there's really no reason to treat him as superior.<NL>So <Character key=RoleTaiwu str=GenderSubject/> stays put, not responding at all.<NL>The Puppet Master's face darkens.<NL><NL>\"Tch. Just a stupid mortal gadget. Dense as a block of wood, no spark of life at all...<NL>Who made you!? Tell me now!\"",
@@ -1385,9 +1385,9 @@
       "cn": "（置之不理……）\n",
       "ru": "(Игнорируй...)",
       "status": "machine",
-      "srcHash": "034dee2f83255b22",
+      "srcHash": "12d2c69b400b5b9c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "68e97f32-90e0-401a-87a1-d74f98e662ef/EventContent": {
       "en": "The room goes dead silent. Then the old man lifts his head and calls out,<NL><NL>\"Please forgive him, lord god!<NL>This is an Automaton I crafted using the Heaven's Mechanism, and his name is Tongsheng!<NL>I heard the gods around Quanzhou are wise and kind, always sharing their teachings with the common folk.<NL>So I took it upon myself to bring Tongsheng here as a sign of respect, hoping to meet the two of you who've come to share divine knowledge!\"",
@@ -1403,9 +1403,9 @@
       "cn": "（神仙授艺？）\n",
       "ru": "(Божественное знание?)",
       "status": "machine",
-      "srcHash": "652c4616632bc4c1",
+      "srcHash": "df85fe3d2e6009a1",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "b8cdd57d-cdc1-4fa0-936a-641d673cf0a5/EventContent": {
       "en": "The Puppet Master looks disgusted.<NL><NL>\"Wise and kind, close to the people... Gross.<NL>Still, if you are able to build this little thing, you're probably a bit better than the rest of these humans.<NL>I'm busy, and the stench here is unbearable. From now on, you'll pass on my teachings to the people here.<NL>If you slack off, just hand over your eyes and hands...\"",
@@ -1421,9 +1421,9 @@
       "cn": "（此人目中无人，好叫人生厌……）\n",
       "ru": "(Он действительно думает, что мир вращается вокруг него... невыносимо.)",
       "status": "machine",
-      "srcHash": "12b63e93b83c5c08",
+      "srcHash": "a272f5a0025d117f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "ef1a9de3-e603-47bf-bbae-822ece1197dc/EventContent": {
       "en": "That thought sparks anger in <Character key=RoleTaiwu str=Name/>. <Character key=RoleTaiwu str=UpperGenderSubject/> looks up at the Puppet Master,<NL>but Tongsheng's face is made of bronze and shows no emotion. The Puppet Master just assumes <Character key=RoleTaiwu str=Name/> is curious<NL>and meets their gaze with a smirk.<NL><NL>\"Alright, get up! I'll take you above.\"<NL><NL>As he speaks, a thread of golden silk shoots from his fingers,<NL>wraps around the old man, and with a flick of his wrist, yanks him up onto the golden bridge, like reeling in a fish.<NL>The old man calms himself, smiles, and gently pulls <Character key=RoleTaiwu str=Name/> to follow.",
@@ -1439,9 +1439,9 @@
       "cn": "（跟随老者……）\n",
       "ru": "(Следуйте за стариком...)",
       "status": "machine",
-      "srcHash": "2e94b83f526b0c1b",
+      "srcHash": "4fd5a8c12cfce416",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "e852b9f1-17d0-4652-a30d-1d0631743a94/EventContent": {
       "en": "The Puppet Master moves light and fast. At first, the old man leads <Character key=RoleTaiwu str=Name/> along.<NL>But before long, it's <Character key=RoleTaiwu str=Name/> supporting the old man just to keep up.<NL>As the crowd below fades into the clouds, <Character key=RoleTaiwu str=Name/> starts to see the top of the golden silk bridge.<NL>There, a man in white stands tall, looking down at the Loong veins, mountains, and rivers below. His face shows no emotion, his thoughts unreadable.<NL>When the Puppet Master makes it ten steps from him, he bows strangely, showing deep respect.<NL><NL>\"My Lord, I've brought the mortals here from below...\"",
@@ -1457,9 +1457,9 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "dc2b8423-710b-4646-aa05-ed82281ad6c7/EventContent": {
       "en": "\"Destroy it.\"<NL><NL>The man doesn't even look at him and gives the order coldly.<NL>Everyone is stunned. The Puppet Master's eyes dart around nervously, unsure what exactly the Lord meant.<NL><NL>\"It? You mean... that? If my Lord means this mechanism,<NL>it's called Tongsheng. Just like me, it's a mechanism made by mortals to show respect...<NL>It's said to be made with the Heaven's Mechanism...\"",
@@ -1475,27 +1475,27 @@
       "cn": "（把它……把铜生毁了？）\n",
       "ru": "(Уничтожить... Туншэн?)",
       "status": "machine",
-      "srcHash": "5f0965caf45be607",
+      "srcHash": "b0e0dcce2b2e6887",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "0de7d5cf-6958-489a-bd93-e3bd0b9eec6b/EventContent": {
       "en": "\"You like it?\"<NL><NL>The white-robed man finally turns his head, his voice ice-cold.<NL>The Puppet Master's face goes pale...",
       "cn": "“你很喜欢它？”<NL><NL>见偃师并非奉命行事，那白衣之人转过头来，冷言相问。<NL>偃师闻言，大惊失色……",
       "ru": "\"Тебе это нравится?\"<NL><NL>Человек в белом наконец поворачивает голову, его голос холоден как лед.<NL>Лицо Кукловода бледнеет...",
       "status": "machine",
-      "srcHash": "e7584075a7ccdfdc",
+      "srcHash": "0a6780b5e056fb1c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "0de7d5cf-6958-489a-bd93-e3bd0b9eec6b/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "752613c7-c435-411b-b955-f228ebce8130/EventContent": {
       "en": "Before he can even explain, <Character key=RoleTaiwu str=Name/> suddenly sees the Puppet Master drop to the ground, screaming in agony.<NL>The golden silk threads he once controlled are now wrapped around his limbs,<NL>pulling his joints in directions they were never meant to go.<NL><NL>\"My Lord! My fault! Please!!\"<NL><NL>The Puppet Master howls in pain, begging for mercy. But the threads only pull tighter—<NL>until his lips tremble so much he can't even form words—then finally loosen a little.",
@@ -1511,9 +1511,9 @@
       "cn": "（这金丝……竟是这般凶残之物……）\n",
       "ru": "(Эти золотые шелковые нити... они такие брутальные...)",
       "status": "machine",
-      "srcHash": "57245f71dc6b5068",
+      "srcHash": "77f10e476f0c2d11",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "33bcd143-33d2-47aa-af33-218a4f81b0ee/EventContent": {
       "en": "The man in white speaks:<NL><NL>\"All living things have their place.<NL>When mortals build machines, I can overlook it. But when mortals build people, that's an offense to the heavens.<NL>You walk around with a god's body, but have no self-awareness. I'm already being merciful by not throwing you into the forge to melt you down.<NL><NL>From this day on, the Heaven's Mechanism is branded heresy. Its secrets will no longer be passed on.<NL>The bronze method is now obsolete, forever!<NL>I shall, in slight response to Nuwa's will,<NL>grant you mortals a mix of crafts in metal...\"",
@@ -1529,9 +1529,9 @@
       "cn": "（天枢玄机列为妖法，原来不是谣传！应娲皇之愿？又是何意？）\n",
       "ru": "(Итак... Небесный механизм действительно объявлен вне закона. Это был не просто слух. И..... \"в ответ на завещание Нувы\"? Что это значит?)",
       "status": "machine",
-      "srcHash": "2edb29e2813d920e",
+      "srcHash": "dd376079f9c172c5",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "b9f99521-171d-4646-9eed-9d718af9f936/EventContent": {
       "en": "As soon as the words leave his mouth, the man in white waves a hand.<NL>The golden silk threads instantly release the Puppet Master and shoot up into the sky.<NL>A moment later, thunder roars from the clouds, and those same threads pull down a giant sword, a hundred chis long.<NL>It cuts through the sky and crashes straight into the village where <Character key=RoleTaiwu str=Name/> was just standing, setting off a burst of sparks.<NL>The sword pierces deep into the earth, heat rising up its blade, and in no time, it forms a natural sword furnace.<NL><NL>\"Return to the heart of the furnace in a hundred days...<NL>Those who prove their skill will be rewarded. Slackers will be punished!\"",
@@ -1547,9 +1547,9 @@
       "cn": "（此剑，可是祖师剑炉内的那把巨剑？）\n",
       "ru": "(Этот Меч... тот самый, что был в кузнице предков?)",
       "status": "machine",
-      "srcHash": "cc356e544c7d06b0",
+      "srcHash": "8d03b8fd50e5b0f4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "354e785b-520d-4196-bf77-1cfa29cfda01/EventContent": {
       "en": "The man in white then glances at the Puppet Master, lets out a cold laugh, and vanishes with a flick of his hand...<NL><Character key=RoleTaiwu str=Name/> turns and sees the old man next to <Character key=RoleTaiwu str=GenderObject/> soaked in sweat, fear all over his face, shielding <Character key=RoleTaiwu str=GenderObject/> with his body.<NL>Meanwhile, the Puppet Master pushes himself off the ground, eyes locked onto <Character key=RoleTaiwu str=Name/> and the old man.<NL>His golden silk threads bristle with killing intent, rising into the air and trembling wildly.<NL><NL>\"You lowly mortals... You made me suffer disgrace—unforgivable!\"",
@@ -1565,9 +1565,9 @@
       "cn": "（此人狂傲乖戾，只怕要对我们发难！）\n",
       "ru": "(Этот парень не в себе... Он вот-вот начнет Атаку!)",
       "status": "machine",
-      "srcHash": "6348365d9b4b7efb",
+      "srcHash": "005b84fdb2bfef9d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "26175bfd-e57d-40af-a077-3fb7c3bd0e8b/EventContent": {
       "en": "The golden silk threads shoot forward. <Character key=RoleTaiwu str=Name/> suddenly feels <Character key=RoleTaiwu str=GenderPossessive/> own limbs move on their own.<NL>The body lunges forward, arms outstretched, grabbing the Puppet Master and dragging him right off the glowing bridge.<NL>Wind howls past as clouds race by. Behind <Character key=RoleTaiwu str=Name/>, the old man shouts,<NL><NL>\"Tongsheng!!\"<NL><NL>The Puppet Master, furious, flings out more golden silk threads. In midair, they tear off Tongsheng's limbs one by one.<NL><Character key=RoleTaiwu str=Name/> feels no pain, but knows escape is impossible. Still, seeing the old man safe brings a sense of peace—<NL>until a thread wraps tightly around <Character key=RoleTaiwu str=GenderPossessive/> neck...",
@@ -1583,9 +1583,9 @@
       "cn": "（就此结束了……）\n",
       "ru": "(Итак... это конец...)",
       "status": "machine",
-      "srcHash": "586973d98cc2de22",
+      "srcHash": "ef76e7e1fabc15b9",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6ec9211b-a6b3-4359-9070-d61eaff87be7/EventContent": {
       "en": "\"Got it!\"<NL><NL>Tongsheng's voice snaps <Character key=RoleTaiwu str=Name/> back to reality.<NL><Character key=RoleTaiwu str=GenderSubject/> is still inside the workshop in <Character key=RoleTaiwu str=CurAreaName />. Flames flicker, and cold bronze glints in the light.<NL>Tongsheng holds up a newly quenched blade, carefully examining his first creation for any flaws.<NL><Character key=RoleTaiwu str=Name/> sits quietly by the furnace, the fiery visions from earlier now completely gone.",
@@ -1601,9 +1601,9 @@
       "cn": "（这……莫非适才所见情景，都是我的幻觉？）\n",
       "ru": "(Было ли все это... просто галлюцинацией?)",
       "status": "machine",
-      "srcHash": "204e50e81c23d05d",
+      "srcHash": "c3f9bf78c24a661b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6f86a8b4-26aa-4744-93fb-1fb46495c248/EventContent": {
       "en": "Hearing the noise, the old artisan outside lifts the curtain and walks in.<NL>He leans over to inspect the blade in Tongsheng's hands, eyes scanning every detail.<NL><NL>\"Strong yet flexible, clean and cold—good. Very good.<NL>Some parts still show a beginner's touch, but it's clear you gave it your all.<NL>With the Grand Sword Trial coming up, I no longer have the energy to teach you any more. Go seek the other artisans.\"",
@@ -1619,27 +1619,27 @@
       "cn": "老匠人，你可曾认识一人，名唤偃师？",
       "ru": "Сэр, вы когда-нибудь знали кого-нибудь по имени Кукловод?",
       "status": "machine",
-      "srcHash": "67c696a17b35210f",
+      "srcHash": "8832266a240b3d53",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6f86a8b4-26aa-4744-93fb-1fb46495c248/Option_2": {
       "en": "Sir, I heard the Heaven's Mechanism was once labeled heretical. Is that true?",
       "cn": "老匠人，我听闻天枢玄机曾被列为妖法，此事当真？",
       "ru": "Сэр, я слышал, что Небесный механизм когда-то был назван еретическим. Это правда?",
       "status": "machine",
-      "srcHash": "9dc1b26c4a38e88b",
+      "srcHash": "53af756139edea0c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6f86a8b4-26aa-4744-93fb-1fb46495c248/Option_3": {
       "en": "Do you think Tongsheng's weapon could save the Swordsmith Villa from danger?",
       "cn": "铜生所铸兵刃，可否解铸剑山庄之危？\n",
       "ru": "Как вы думаете, Оружие Туншэна могло бы спасти Усадьбу ковче мечей от опасности?",
       "status": "machine",
-      "srcHash": "70d1cb21eb3bcdb5",
+      "srcHash": "8a8932802dbf9707",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "24fa8302-b01e-478b-8f11-86f17acbc10a/EventContent": {
       "en": "The old artisan looks at the blade, then slowly shakes his head and sighs.<NL><NL>\"No... no, it won't. The Grand Sword Trial isn't just about the sword. It's about the person.<NL>Tongsheng may be talented, but he's new. And with all the rumors about Master Ou's successor not being able to distinguish metals, it's hard to win the people's trust.<NL>I came down the mountain to forge this blade not just for the trial, but to show the world that the Swordsmith Villa still has its pride. That the true legacy still stands.<NL>But now the deadline's nearing, and I've failed to teach you enough. Now the Martial World Wanderers mock us.\"",
@@ -1655,9 +1655,9 @@
       "cn": "（不仅看剑，更要看人……这试剑大典何以这般复杂……）\n",
       "ru": "(Таким образом, Испытание касается не только Меча. Все дело в человеке... Почему Испытание Великим Мечом такое сложное?)",
       "status": "machine",
-      "srcHash": "4a8f5edf4810f70a",
+      "srcHash": "9ab3bb4cd6055114",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "59b75a08-6e56-49e6-8680-63f55a619649/EventContent": {
       "en": "Hearing <Character key=RoleTaiwu str=Name/> mention the name \"Puppet Master,\" the old artisan's expression shifts.<NL>He sends the other disciples away, then asks:<NL><NL>\"The sect records... yes, they do mention someone by that name.<NL>They say it was the Puppet Master who brought metalcraft to Mount Zhanlu.<NL>But those records are always kept secret within the sect. As the Successor of Taiwu, how do you even know of him?\"",
@@ -1673,9 +1673,9 @@
       "cn": "方才我于炉火中见到此人……\n",
       "ru": "Я видел его... в огне.",
       "status": "machine",
-      "srcHash": "101c470b7f29e6d8",
+      "srcHash": "0b32d8a124a724a1",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "a5a68ded-0162-4241-9faf-66a118211afb/EventContent": {
       "en": "Hearing these words from <Character key=RoleTaiwu str=Name/>, the old artisan frowns<NL>and slowly shakes his head.<NL><NL>\"If Taiwu and the Swordsmith Villa have truly formed an alliance, and you've come to help us,<NL>then there's no harm in sharing those old stories. No need to play word games to dig them out.\"",
@@ -1691,9 +1691,9 @@
       "cn": "（莫非那炉中光景，只有我能见得？）\n",
       "ru": "(Значит... только я мог видеть, что произошло в пламени?)",
       "status": "machine",
-      "srcHash": "56807337c6bca11e",
+      "srcHash": "a478227ce0849e76",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "7c2b2a47-c8a9-40aa-af09-680431be88f2/EventContent": {
       "en": "When <Character key=RoleTaiwu str=Name/> indirectly implies that the Swordsmith Villa once branded its own martial arts as heretical,<NL>the old artisan doesn't flinch. He replies slowly:<NL><NL>\"Yes, back when Master Ou was still alive, the Heaven's Mechanism was indeed considered harmful to the natural order. The Swordsmith Villa declared it a heresy.<NL>Its core secrets were stripped down, and only fragments remain. What you learn now is but a shadow of what it once was.\"",
@@ -1709,9 +1709,9 @@
       "cn": "（仅余下残缺法门，故而未能与铜生一般，为机关赋予人智……）\n",
       "ru": "(Так вот почему... поскольку осталась только сломанная версия, они не смогли создать что—то вроде Тонгшенга - нет способа наделить механизм человеческим разумом...)",
       "status": "machine",
-      "srcHash": "30e91d2fa1c99f42",
+      "srcHash": "53b730ab8d728b29",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "b24cff50-a7f2-423d-a14c-4273e6f46eae/EventContent": {
       "en": "\"The original Heaven's Mechanism... after Master Ou, no one's been able to figure it out.<NL>Only a few centuries ago, some 'blacksmith' from outside the sect somehow picked up a bit of it by chance.<NL>But that blacksmith never left any notes behind—just said one thing before disappearing:<NL><NL>'Demonic arts can touch the cycle of reincarnation; to change fate is to change the heart.'<NL><NL>Then they vanished without a trace.\"",
@@ -1727,27 +1727,27 @@
       "cn": "（山庄外的“铁匠”……易命改元是换心……）\n",
       "ru": "(Кузнец из-за пределов Секты... изменить судьбу - значит изменить сердце...)",
       "status": "machine",
-      "srcHash": "ff7dc027c7a73983",
+      "srcHash": "3f9f8f5eb411e889",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "f9aac628-e725-4087-b342-0f76932ba400/EventContent": {
       "en": "Tongsheng, as simple and as honest as ever, stands there quietly for a while and finally says,<NL><NL>\"Tongsheng thinks... no matter what a legacy is,<NL>if you're an artisan, you must forge with your heart and keep honing your craft. That's never wrong...\"",
       "cn": "而铜生心思淳朴，闻言呆立半晌，只道：<NL><NL>“铜生以为，勿论正统风气，<NL>既是匠人，勤加冶铸，磨练手艺，固然无过……”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "a01e72797b7acbcf",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Туншенг, такой же простой и честный, как всегда, некоторое время стоит молча и, наконец, говорит,<NL><NL>\"Тоншенг думает... неважно, что это за наследие,<NL>если вы ремесленник, вы должны ковать всем сердцем и продолжать оттачивать свое мастерство. Это никогда не бывает неправильно...\"",
+      "status": "machine",
+      "srcHash": "081f45bb64ec6db0",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "f9aac628-e725-4087-b342-0f76932ba400/Option_1": {
       "en": "(Keep honing your craft... never wrong...)",
       "cn": "（磨练手艺，固然无过……）\n",
       "ru": "(Продолжай оттачивать свое мастерство... никогда не ошибайся...)",
       "status": "machine",
-      "srcHash": "42a3f274faed0647",
+      "srcHash": "b7070bbe6863a0c3",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "663d72e1-84df-4204-a59c-833911ee87ff/EventContent": {
       "en": "The old artisan hears this, looks at <Character key=RoleTaiwu str=Name/> and Tongsheng with a complicated expression, and shakes his head.<NL><NL>\"Tongsheng, you've barely seen the world... Out there, most things depend on your background—where you come from, who taught you, if you have the 'right' lineage.<NL>If you're not a recognized successor or part of a sect, good things rarely come your way.<NL>We benefit from those before us, so we should give back—to the tradition that raised us.\"",
@@ -1763,9 +1763,9 @@
       "cn": "（如此说来，我亦需得回报太吾正统？可太吾的正统又是什么？）\n",
       "ru": "(Значит, я тоже должен вернуть наследие Тайу? Но... каково истинное наследие Тайу?)",
       "status": "machine",
-      "srcHash": "ef209574cbec224f",
+      "srcHash": "92279f27d9024786",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "46ca6e94-3e71-415d-ba9a-7cbbb12badc2/EventContent": {
       "en": "\"Clang—clang—crack!\"<NL><NL>As the hammer strikes the metal, <Character key=RoleTaiwu str=Name/> sees a faint blue light flash in Tongsheng's eyes.<NL>Somewhere in the workshops, the sound of a whip cracking through the air echoes out of nowhere. <Character key=RoleTaiwu str=Name/> suddenly sees the Puppet Master among a group of artisans—<NL>face twisted with rage, dancing and laughing madly with a golden whip in hand.",
@@ -1781,9 +1781,9 @@
       "cn": "（此地是……）\n",
       "ru": "(Это место...?)",
       "status": "machine",
-      "srcHash": "fa39f5ea83605941",
+      "srcHash": "48ac73aefaac201d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "493f6ece-2462-499d-b4d3-d06fc0df77dc/EventContent": {
       "en": "The Fuyu Hilt twitches slightly.<NL><NL>When <Character key=RoleTaiwu str=Name/> comes back to <Character key=RoleTaiwu str=GenderPossessive/> senses, <Character key=RoleTaiwu str=GenderSubject/> sees only dim forge fires, rough tools, and broken swords scattered across the floor.<NL>It seems like the artisans are busy at work—except the Puppet Master is there, purposefully interfering with them.<NL>He lashes out with his golden whip, striking an old man again and again.<NL><NL>\"Ou Yezi! Aren't you supposed to be a master artisan? Aren't you supposed to be skilled? And this is all you can make—junk?!<NL>You dare shame me? I'll show you what real shame feels like!\"",
@@ -1799,9 +1799,9 @@
       "cn": "（此前……铜生好似将偃师扑下了高空……）\n",
       "ru": "(Ранее... разве Тоншенг не стащил Кукловода с того светящегося моста?)",
       "status": "machine",
-      "srcHash": "0d92fc9260da6cea",
+      "srcHash": "bc4b3fd09f93ceee",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "21d1f7bf-7142-4213-868b-15ca5d6844c1/EventContent": {
       "en": "The golden whip thrashes like a wild gilt serpent.<NL>Sometimes it strikes the old man, leaving deep bloody marks. Sometimes it cracks against the ground, making the others tremble in fear.<NL>But even when the whip hits someone else, no one dares to speak up.<NL>After a while, the Puppet Master cools off, transforms the whip back into golden silk threads, and leaves with a sneer:<NL><NL>\"The Grand Sword Trial's coming. You mortals better watch yourselves! Hahaha!\"",
@@ -1817,9 +1817,9 @@
       "cn": "（这歹人好生可恶……）\n",
       "ru": "(Этот парень действительно самый худший...)",
       "status": "machine",
-      "srcHash": "ab37bb2c71762d92",
+      "srcHash": "1997ffc9d9d0c284",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "f86bb904-d84d-4ad8-bc3e-81caf538f34c/EventContent": {
       "en": "Once he's gone, complaints start bubbling up around the workshops. People curse the Puppet Master for always showing up to cause strife,<NL>just to settle personal grudges. Because of him, they won't be able to deliver a proper sword for the Grand Sword Trial, and if they fail, they'll be punished.<NL>One of the artisans helps the old man up and whispers,<NL><NL>\"Master, my nephew has horses ready down the mountain.<NL>In the middle of the night, we're sneaking out with the others. We'll head for another god's territory.<NL>Come with me to Huainan. No point staying here just to get tortured by that freak!\"",
@@ -1835,9 +1835,9 @@
       "cn": "若是如此，能逃出此地，便是再好不过了……\n",
       "ru": "Если мы сможем сбежать из этого места... это было бы к лучшему.",
       "status": "machine",
-      "srcHash": "47ff153b85b879fb",
+      "srcHash": "309733d0ad5704a8",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "9a6fe237-1d4f-40a5-bd72-c44720e93d22/EventContent": {
       "en": "Hearing <Character key=RoleTaiwu str=Name/> speak up, both men jump in surprise.<NL>Ou Yezi brushes aside the coals on top of a hidden crate and lifts out a bronze head with a smile.<NL><NL>\"Tongsheng, you're finally awake...<NL>Do you still remember what happened? I couldn't find your limbs or body—only your head.<NL>I was so worried my craft wasn't good enough... that the god would shatter you again.\"",
@@ -1853,9 +1853,9 @@
       "cn": "（铜生躯干组件零落，原是为偃师所害……）我没事……\n",
       "ru": "(Итак, Тонгшенг лишился частей своего тела... и все благодаря Кукловоду...) Я в порядке...",
       "status": "machine",
-      "srcHash": "2d94dfad17ed6365",
+      "srcHash": "0e945bf8278c4f00",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "ba722fe4-1c94-4590-99cf-78057a53a639/EventContent": {
       "en": "But the other artisan sees <Character key=RoleTaiwu str=Name/> and looks terrified.<NL><NL>\"Master, this thing angered that evil god. You can't keep it!<NL>Get rid of it on the back of the mountain and come with me tonight!<NL>You've helped me so much over the years. I don't wanna see you die over some 'divine craft'!\"",
@@ -1871,9 +1871,9 @@
       "cn": "（铜生本人应当亦希望老者逃出此地……）\n",
       "ru": "(Тонгшенг, вероятно, тоже надеется, что старик сбежит...)",
       "status": "machine",
-      "srcHash": "121b8f13c7cec2e2",
+      "srcHash": "64373af492ee0266",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "5bac57a6-07ee-4df9-990e-0575a9066d99/EventContent": {
       "en": "The old man waves it off with a gentle smile.<NL><NL>\"No need. Nuwa herself ordered the gods to descend and pass down their crafts.<NL>Gods are everywhere now. Doesn't matter where I run—it's the same.<NL>And besides, I haven't figured out how to forge with metal yet. I can't just give up now.<NL>Metal holds heat within, even more so than bronze. They forge cleaner and stronger blades.<NL>And this Mount Zhanlu. Its ore, its water... they are unmatched.<NL>If I leave this place, I'll regret it for the rest of my life...\"",
@@ -1889,9 +1889,9 @@
       "cn": "可这“神艺”，当真能有性命要紧？\n",
       "ru": "Но... действительно ли этот \"божественный промысел\" стоит того, чтобы за него умереть?",
       "status": "machine",
-      "srcHash": "b8ad217dcb140594",
+      "srcHash": "534b881f4a389ec4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "4288160b-512e-4f0f-afaa-faae9d65ceae/EventContent": {
       "en": "The artisan quickly agrees, saying the gods in other lands also have their own \"divine craft.\"<NL>But the old man doesn't answer. He just picks up the unfinished iron sword, sets it beside the furnace, then holds <Character key=RoleTaiwu str=Name/> in his arms and looks out from the workshops.<NL><NL>\"I don't chase 'divine craft' out of greed...<NL><NL>Tongsheng, remember when we climbed that glowing bridge in the sky? When we saw the gods up there...<NL>What did you think of them?\"",
@@ -1907,135 +1907,135 @@
       "cn": "无情无义，有术无道，天下众生危矣……",
       "ru": "Холодные и бессердечные, могущественные, но лишенные добродетели. Они представляют угрозу для судьбы мира...",
       "status": "machine",
-      "srcHash": "45325b1ddcbcf9d0",
+      "srcHash": "dc1d5359f9c101c1",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "4288160b-512e-4f0f-afaa-faae9d65ceae/Option_2": {
       "en": "Cruel and reckless. They are a real letdown...",
       "cn": "为仙不仁，恣意妄为，好生叫人失望……",
       "ru": "Жестокие и безрассудные. Они по-настоящему разочаровывают...",
       "status": "machine",
-      "srcHash": "4613d03a58a1b4d1",
+      "srcHash": "0151e144f3bd2bae",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "4288160b-512e-4f0f-afaa-faae9d65ceae/Option_3": {
       "en": "So distant and strange. Hard to judge them with just one look...",
       "cn": "飘渺难测，未知底细，不好一言蔽之……",
       "ru": "Такие далекие и странные. Трудно судить о них с первого взгляда...",
       "status": "machine",
-      "srcHash": "af8def13a86417cb",
+      "srcHash": "d250d962446e4184",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "4288160b-512e-4f0f-afaa-faae9d65ceae/Option_4": {
       "en": "Two eyes, one nose—not all that different from me...",
       "cn": "两个眼睛，一个鼻子，与我大差不差……",
       "ru": "Два глаза, один нос — не так уж сильно отличается от меня...",
       "status": "machine",
-      "srcHash": "a031dd08dfbf477b",
+      "srcHash": "03d6e797c9a2a810",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "4288160b-512e-4f0f-afaa-faae9d65ceae/Option_5": {
       "en": "Some minor skills, calling themselves gods. Maybe we could replace them...",
       "cn": "小有巧能，自封仙名，彼可取而代之……\n",
       "ru": "Какие-то второстепенные навыки, называющие себя богами. Возможно, мы могли бы заменить их...",
       "status": "machine",
-      "srcHash": "48851609cc1fe856",
+      "srcHash": "b7f745445924d65f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "53693009-db97-4efa-aa0a-1d6caaadd8fd/EventContent": {
       "en": "The old man bursts out laughing.<NL><NL>\"Even I've never spoken with such boldness! And here you are, talking about the fate of the world! Hah!<NL>When I saw those two gods that day, I had only one thought:<NL>They're high up... The sky is too high...\"",
       "cn": "老者闻言，哈哈大笑：<NL><NL>“老夫自己都没这般胸怀，你今日怎的张口便是天下众生，哈哈哈！<NL>当日见到二位神仙之时，老夫心中只有一个感觉：<NL>高啊……天太高了……”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "692935d0decca4ed",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Старик разражается смехом.<NL><NL>- Даже я никогда не говорил с такой смелостью! И вот вы здесь, говорите о судьбах мира! Ха!<NL>Когда я увидел этих двух богов в тот день, у меня была только одна мысль:<NL>Они высоко забрались... Небо слишком высоко...\"",
+      "status": "machine",
+      "srcHash": "3b71664196ca0b46",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "53693009-db97-4efa-aa0a-1d6caaadd8fd/Option_1": {
       "en": "(Listen in silence...)",
       "cn": "（不语静听……）\n",
       "ru": "(Слушай в тишине...)",
       "status": "machine",
-      "srcHash": "667ff8b3a9a057da",
+      "srcHash": "3c001e561156ca5d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "2a441a7e-36f1-40ad-b860-98812ce9d2d1/EventContent": {
       "en": "The old man bursts out laughing.<NL><NL>\"Even I don't have that kind of heart, and here you are calling gods heartless. Hah!<NL>When I saw those two gods that day, I had only one thought:<NL>They're high up... The sky is too high...\"",
       "cn": "老者闻言，哈哈大笑：<NL><NL>“老夫自己都没这般胸怀，你今日怎的张口便是为仙不仁，哈哈哈！<NL>当日见到二位神仙之时，老夫心中只有一个感觉：<NL>高啊……天太高了……”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "616fdf586231187e",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Старик разражается смехом.<NL><NL>- Даже у меня нет такого сердца, а ты называешь богов бессердечными. Ха!<NL>Когда я увидел этих двух богов в тот день, у меня была только одна мысль:<NL>Они высоко забрались... Небо слишком высоко...\"",
+      "status": "machine",
+      "srcHash": "5d420a5d60be1bd8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "2a441a7e-36f1-40ad-b860-98812ce9d2d1/Option_1": {
       "en": "(Listen in silence...)",
       "cn": "（不语静听……）\n",
       "ru": "(Слушай в тишине...)",
       "status": "machine",
-      "srcHash": "667ff8b3a9a057da",
+      "srcHash": "3c001e561156ca5d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "fa1c9576-aca2-4571-af5e-ba3223b8842e/EventContent": {
       "en": "The old man sighs.<NL><NL>\"Well, I feel just like I did when I first met those two gods.<NL>They're high up... The sky is too high...\"",
       "cn": "老者闻言，长叹一声：<NL><NL>“不错，当日见到二位神仙之时，老夫心中亦有同感，<NL>高啊……天太高了……”",
       "ru": "Старик вздыхает.<NL><NL>- Ну, я чувствую себя точно так же, как тогда, когда впервые встретил этих двух богов.<NL>Они высоко забрались... Небо слишком высоко...\"",
       "status": "machine",
-      "srcHash": "697aa4812b283e7f",
+      "srcHash": "1d88bd3511506dfa",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "fa1c9576-aca2-4571-af5e-ba3223b8842e/Option_1": {
       "en": "(Listen in silence...)",
       "cn": "（不语静听……）\n",
       "ru": "(Слушай в тишине...)",
       "status": "machine",
-      "srcHash": "667ff8b3a9a057da",
+      "srcHash": "3c001e561156ca5d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "5e8ed742-00a9-443c-8aa7-ab38e9adfaa7/EventContent": {
       "en": "The old man bursts out laughing.<NL><NL>\"Even I don't have that kind of courage, and here you are saying they're no different from us. Hah!<NL>When I saw those two gods that day, I had only one thought:<NL>They're high up... The sky is too high...\"",
       "cn": "老者闻言，哈哈大笑：<NL><NL>“老夫自己都没这般胆气，你今日怎的张口便是大差不差，哈哈哈！<NL>当日见到二位神仙之时，老夫心中只有一个感觉：<NL>高啊……天太高了……”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "81dbb2aaf6e46b90",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Старик разражается смехом.<NL><NL>- Даже у меня нет такой смелости, а ты говоришь, что они ничем не отличаются от нас. Ха!<NL>Когда я увидел этих двух богов в тот день, у меня была только одна мысль:<NL>Они высоко забрались... Небо слишком высоко...\"",
+      "status": "machine",
+      "srcHash": "d895c98c27eb1495",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "5e8ed742-00a9-443c-8aa7-ab38e9adfaa7/Option_1": {
       "en": "(Listen in silence...)",
       "cn": "（不语静听……）\n",
       "ru": "(Слушай в тишине...)",
       "status": "machine",
-      "srcHash": "667ff8b3a9a057da",
+      "srcHash": "3c001e561156ca5d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "47b46463-5fcd-468e-85b5-1cdbb6e53a86/EventContent": {
       "en": "The old man bursts out laughing.<NL><NL>\"Even I don't have that kind of wild pride, and here you are saying we could replace them. Hah!<NL>When I saw those two gods that day, I had only one thought:<NL>They're high up... The sky is too high...\"",
       "cn": "老者闻言，哈哈大笑：<NL><NL>“老夫自己都没这般狷狂，你今日怎的张口便是取而代之，哈哈哈！<NL>当日见到二位神仙之时，老夫心中只有一个感觉：<NL>高啊……天太高了……”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "e89e137fc85c34a1",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Старик разражается смехом.<NL><NL>\"Даже у меня нет такой дикой гордости, и вот вы говорите, что мы могли бы заменить их. Ха!<NL>Когда я увидел этих двух богов в тот день, у меня была только одна мысль:<NL>Они высоко забрались... Небо слишком высоко...\"",
+      "status": "machine",
+      "srcHash": "c3a99be502446a13",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "47b46463-5fcd-468e-85b5-1cdbb6e53a86/Option_1": {
       "en": "(Listen in silence...)",
       "cn": "（不语静听……）\n",
       "ru": "(Слушай в тишине...)",
       "status": "machine",
-      "srcHash": "667ff8b3a9a057da",
+      "srcHash": "3c001e561156ca5d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c865619c-5b03-4b85-acde-0ad9e6e1b276/EventContent": {
       "en": "As he speaks, the old man looks up and sighs.<NL><NL>\"I've been an artisan all my life. Forged more swords than I can count.<NL>I thought I had mastered the mysteries of bronze... thought I understood the ways of the world.<NL>But then I saw those gods—raising a hand to show us the path of metal, and dismissing bronze as 'outdated.'<NL>And they're not the only ones. That place they come from, that 'heavenly court'—it's far above this dusty world we live in.<NL>What they understand goes way beyond us...\"",
@@ -2051,9 +2051,9 @@
       "cn": "确实如此……\n",
       "ru": "Действительно...",
       "status": "machine",
-      "srcHash": "40f3b71b7f827693",
+      "srcHash": "32604124bb8ad6fc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "1533c811-34ae-4551-bf87-e5831dc5e293/EventContent": {
       "en": "\"I refuse to live my life in the dark, never knowing how high the sky really is...<NL>And I refuse to just drift through the world, like a bug on the wind, going nowhere.<NL>Now, the Tao of metal is right in front of me. All I have to do is reach for it, and it'll bring you and me one step closer to the heavens.<NL>And if everyone reaches out, we might just use this 'divine craft' to break through some of those old mysteries.<NL><NL>One day, maybe the mortal world won't have to live in the dark anymore.<NL>Now that I know how high the sky really is, I've got to climb. Higher than the sky itself.<NL>That's what I believe the true Heaven's Mechanism is about.\"",
@@ -2069,9 +2069,9 @@
       "cn": "原来如此……\n",
       "ru": "Я понимаю...",
       "status": "machine",
-      "srcHash": "c500fbb9698454bc",
+      "srcHash": "79e1c98d76148668",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "f06d9d24-005b-41b6-8e53-2d90d80e4337/EventContent": {
       "en": "The old man speaks plainly, without anger or ire, but his words make the other artisans around him nod one after another, clenching their fists with resolve.<NL>The younger artisan tries to persuade him again, but fails. She sighs deeply, then turns and walks away.<NL>As night falls, the light in the workshop dims.<NL>Only the furnace near the old man still burns bright.",
@@ -2087,9 +2087,9 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "dfc7b420-a31d-4740-8578-d770afdaca32/EventContent": {
       "en": "Later in the night,<NL><Character key=RoleTaiwu str=Name/> watches as half the artisans quietly pack their things and slip away in small groups.<NL>The ones who stay behind toss and turn, unable to sleep.<NL><NL>In the dark, <Character key=RoleTaiwu str=Name/> can almost hear soft sighs, muffled crying...<NL>and someone whispering how many days are left until the Grand Sword Trial. Fewer and fewer...",
@@ -2105,9 +2105,9 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "b5c18517-ab7a-4660-a431-ae0b948fc701/EventContent": {
       "en": "But moments later, the crying gets louder—sharper, full of screams.<NL><Character key=RoleTaiwu str=Name/> sees someone who had just run off come screaming past the workshop door. Golden silk threads are chasing after them and gaining.<NL>Then—schlick!—a sharp, wet sound, and all goes quiet.<NL>Only the Puppet Master's icy laugh remains:<NL><NL>\"Hehehe... hehehe... I knew you mortals would try something nefarious.<NL>Been waiting night and day... and finally, you act.<NL>Sneaky, ungrateful, defiant, pathetic...<NL>I just don't get it. Why does Nuwa show so much favor to such worthless trash?\"",
@@ -2123,9 +2123,9 @@
       "cn": "（噤声不语……）\n",
       "ru": "(Храни молчание...)",
       "status": "machine",
-      "srcHash": "0fd84304b80061a3",
+      "srcHash": "cc6774c01948d57e",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "b9dc206f-d3ac-48fe-a7b9-bc50a0dab3a5/EventContent": {
       "en": "As he finishes speaking, the Puppet Master tosses something round, heavy, and dripping with blood into the workshops.<NL>The old man quickly hides <Character key=RoleTaiwu str=Name/> back under the charcoal and turns to face him directly.<NL>The Puppet Master's voice comes closer, still laughing:<NL><NL>\"Ou Yezi, you didn't run with them. What a waste...<NL>But keeping quiet, even though you knew. What kind of crime is that, hmm?\"",
@@ -2141,9 +2141,9 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "385a7a16-f89c-4c43-a787-99dd40245f39/EventContent": {
       "en": "\"CRACK!\"<NL><NL>The golden whip hits the ground again as the Puppet Master walks into the workshops, laughing loud and wild.<NL>No one steps forward. The remaining artisans just sigh quietly. A moment ago, they feared the Grand Sword Trial would come too soon.<NL>Now... they just hope it comes as soon as possible.",
@@ -2159,27 +2159,27 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6ebec04b-16f4-4653-b062-f898f1d85906/EventContent": {
       "en": "\"Crack—crack—hiss—\"<NL><NL>The sound of the whip keeps ringing out, until one strike shifts into the sharp hiss of quenching metal.<NL><Character key=RoleTaiwu str=Name/> snaps out of it inside the workshop. Tongsheng is standing there, holding the newly-forged weapon,<NL>nodding in satisfaction.",
       "cn": "“啪——啪——嗞——”<NL><NL>鞭挞之声不断响起，终有一响，变作金铁淬火之音。<NL><Character key=RoleTaiwu str=Name/>自工坊内回过神来，面前铜生手持淬炼而成的兵刃，<NL>满意点了点头。",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "3253b6ff281c1935",
-      "engine": null,
-      "updatedAt": null
+      "ru": "\"Треск—треск—шипение—\"<NL><NL>Звук Кнута продолжает раздаваться, пока один удар не переходит в резкое шипение закаливающегося металла.<NL><Character key=RoleTaiwu str=Name/> вырывается из него внутри мастерской. Там стоит Туншэн, держа в руках недавно выкованное Оружие,<NL>удовлетворенно киваю.",
+      "status": "machine",
+      "srcHash": "a6eabbcad6c3a995",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "6ebec04b-16f4-4653-b062-f898f1d85906/Option_1": {
       "en": "(Not sure why... but I just drifted off into Tongsheng's past again...)",
       "cn": "（不知为何，方才我又陷入铜生往事了……）\n",
       "ru": "(Не уверен, почему... но я просто снова погрузился в прошлое Туншенга...)",
       "status": "machine",
-      "srcHash": "fdbe46ee1e141f4e",
+      "srcHash": "b3b006d19dd74838",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "125a82e1-4e84-4dde-8bb5-c48ae3fc395b/EventContent": {
       "en": "Outside, the old artisan hears the noise. Sick and frail, he's helped in by a disciple.<NL>He leans in close to Tongsheng's blade, studying it carefully.<NL><NL>\"Cough... <NL>I've been stuck in bed these days, barely able to teach. For you to forge something like this is no small feat.<NL>Also, you two gave those unruly disciples of mine quite the lesson.<NL>But you each follow your own path, and I'm still not fully recovered. I can't teach you everything I know...<NL>If you want to keep learning, you'll have to find someone more skilled.\"",
@@ -2195,27 +2195,27 @@
       "cn": "铜生是否可解铸剑山庄之危？",
       "ru": "Сможет ли Тонгшенг действительно спасти Усадьбу ковки мечей?",
       "status": "machine",
-      "srcHash": "c8ea2d331d82a7bf",
+      "srcHash": "8dd609fe20c944fb",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "125a82e1-4e84-4dde-8bb5-c48ae3fc395b/Option_2": {
       "en": "The Swordsmith Villa disciples already train hard. They don't need any lessons...",
       "cn": "铸剑山庄弟子自勤励，何需整顿……",
       "ru": "Ученики Усадьбы Ковки мечей уже усердно тренируются. Им не нужны никакие уроки...",
       "status": "machine",
-      "srcHash": "55104b68d8698530",
+      "srcHash": "00f312bfbd4d8980",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "125a82e1-4e84-4dde-8bb5-c48ae3fc395b/Option_3": {
       "en": "As for the Grand Sword Trial...",
       "cn": "关于试剑大典之事……\n",
       "ru": "Что касается Великого Испытания Мечом...",
       "status": "machine",
-      "srcHash": "87f164200dfa35fb",
+      "srcHash": "832459164fd0e52a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "0552973a-162b-42fe-8b0c-d688d588873a/EventContent": {
       "en": "The old artisan's smile fades, and he sighs.<NL><NL>\"No, no... cough...<NL>Since ancient times, the Celestial Weapons used in the Grand Sword Trial have all been forged using top-tier craft—<NL>sharpened to their peak, refined in spirit, stripped of flaws.<NL>This blade is good, but it's not true legacy craft...\"",
@@ -2231,9 +2231,9 @@
       "cn": "那……如何学得这般上乘奥秘手艺？延续山庄正统？\n",
       "ru": "Тогда как же нам освоить эти ремесла высшего Ранга? Как нам сохранить это наследие?",
       "status": "machine",
-      "srcHash": "754f58652da34975",
+      "srcHash": "a5c03a0143a212a5",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "8f607c4b-d578-4228-a038-4f0a6dbc818b/EventContent": {
       "en": "The old artisan chuckles and shakes his head.<NL><NL>\"I may be sick, but I'm not deaf or blind... cough...<NL>Those boys drink and sing behind my back, complain I'm too strict. Of course I know.<NL>But I've just always been straightforward—not skilled with words. All I ever wanted was to hand down everything I know to them before the Grand Sword Trial,<NL>so they could either help the sect, or at least walk away with real skills before I'm gone.<NL>I never thought it'd push them to rebel instead. Sorry to let you two see that mess.\"",
@@ -2249,9 +2249,9 @@
       "cn": "阁下心意，他们终有一日自会明白……\n",
       "ru": "Однажды они поймут тебя...",
       "status": "machine",
-      "srcHash": "a3f1752fddebe9a3",
+      "srcHash": "7fffd5e7f0eb4ce1",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "2e82f279-d0c2-4b30-b3ec-10aff5c5dcf6/EventContent": {
       "en": "The old artisan smiles again, then sighs.<NL><NL>\"The Grand Sword Trial... I want to help, but I just can't.<NL>I've been forging for decades. I've made a few good pieces, but my skills aren't anything exceptional. And this sickness has already cost me too much time.<NL>I only left the mountain in the first place hoping to learn from talented artisans and famous workshops. But now... looks like I've come back empty-handed.\"",
@@ -2267,9 +2267,9 @@
       "cn": "（此人从匠数十载，竟自觉手艺不算上乘……）\n",
       "ru": "(Десятилетия ковки, а он все еще думает, что его навыки недостаточно хороши...)",
       "status": "machine",
-      "srcHash": "359797710dbb3e4d",
+      "srcHash": "22dbe692434dbccc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "468bff80-8118-4035-a850-6e0380600443/EventContent": {
       "en": "Tongsheng, simple-hearted as always, stands there quietly for a moment, then asks:<NL><NL>\"I thought... if a craft works, it's useful. If the sword is made, it has value. Minor skills, minor results. Great skills, great results...<NL>Why does it have to be 'top-tier craft' to count as a real sword?<NL>If a sword is not considered a top-tier craft, is it still a sword?\"",
@@ -2285,9 +2285,9 @@
       "cn": "（小成则小功，大成则大功……）\n",
       "ru": "(Незначительные навыки, незначительные результаты. Отличные навыки, отличные результаты...)",
       "status": "machine",
-      "srcHash": "baada3b2e1a427fd",
+      "srcHash": "bdd2c59103bfc1d0",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "60fcb118-74ce-471e-bf97-08aee7a5c538/EventContent": {
       "en": "The old artisan shakes his head.<NL><NL>\"A sword with no power is just iron. It's not a Celestial Weapon! Cough... <NL>Every great artisan pours their entire life into refining their fine arts, hoping to bring some peace to this chaotic world troubled by Xiangshu.<NL>But if those skills end with me, and I leave behind nothing but plain iron...<NL>How could I face my ancestors in the afterlife? How could I...<NL>Cough... cough!\"",
@@ -2303,9 +2303,9 @@
       "cn": "（历代太吾传人，好似亦有百般艰辛……）\n",
       "ru": "(Похоже, что у каждого Преемника Тайу тоже была своя доля трудностей...)",
       "status": "machine",
-      "srcHash": "6b0888f114b6d64c",
+      "srcHash": "269dced595a9113f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "f30588db-881f-4a7b-9aa3-53750da62b3f/EventContent": {
       "en": "Tongsheng and <Character key=RoleTaiwu str=Name/> exchange a look. Neither knows exactly what \"top-tier craft\" really means.<NL>But the old artisan stares into the flames and says firmly:<NL><NL>\"Countless trials, relentless refining! Cough... cough...<NL>Only by working day and night, rain or shine, and studying the essence of every Celestial Weapon forged before us...<NL>Only then can you reach that level.\"",
@@ -2321,9 +2321,9 @@
       "cn": "原来如此……\n",
       "ru": "Я понимаю...",
       "status": "machine",
-      "srcHash": "c500fbb9698454bc",
+      "srcHash": "79e1c98d76148668",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c7f7f815-cac8-4578-9566-03f3c114e22a/EventContent": {
       "en": "As he speaks, disciples outside the door are secretly listening.<NL>They never realized the master cared so deeply. They reflect on their own behavior, feel ashamed of their harsh words,<NL>and quietly return to the furnace. Without another word, they pick up their hammers and get back to work—Not a single one dares slack off anymore or blame the master for being \"too strict.\"",
@@ -2339,9 +2339,9 @@
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "cd8e5cb2900ce236",
+      "srcHash": "49b4c100a7a92e67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "8de2279e-e683-4333-b75c-a504b23ce001/EventContent": {
       "en": "\"CLANG—\"<NL><NL>The hammer comes down. The Fuyu Hilt trembles slightly.<NL>When <Character key=RoleTaiwu str=Name/> opens <Character key=RoleTaiwu str=GenderPossessive/> eyes again, the worn-down workshops and the old man reappear.<NL>But this time, there are even more broken swords scattered around him, and only a few artisans left inside.<NL>No one knows if the others escaped to areas governed by other gods,<NL>or if they were taken—or worse—under the Puppet Master's control.",
@@ -2357,9 +2357,9 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "2df541f6-33d2-4230-93bb-a0f0893b2657/EventContent": {
       "en": "\"The Grand Sword Trial is about to begin.<NL>All mortals, bring your finished works and step forward!<NL>Any one who dares disobey will die!\"<NL><NL>Outside the workshops, the Puppet Master's voice booms like thunder. The artisans inside sigh in unison, as if there's no running from fate.<NL>They put down their tools, pick a blade from the pile of weapons on the ground, and walk out in silence.",
@@ -2375,45 +2375,45 @@
       "cn": "试剑大典开始了……\n",
       "ru": "Великое Испытание Мечом началось...",
       "status": "machine",
-      "srcHash": "4372537f7a535e35",
+      "srcHash": "0ee3806a7c1a28e4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "3a13d06a-d781-4e68-9ada-b4a9b66c285b/EventContent": {
       "en": "The old man also stops hammering.<NL>He reaches down and lifts a long sword wrapped in linen cloth. He holds it in his hands, staring at it quietly.<NL><NL>\"Tongsheng, the Puppet Master is out there. I can't take you with me this time...<NL>Stay here and watch over the workshops for me, alright?\"",
       "cn": "老者闻言，亦停下手中锻打，<NL>自地上取出一柄被麻布包裹的长剑，捧在手中静静端详，说道：<NL><NL>“铜生，那偃师在外头，老夫可不能带你前去了……<NL>你留在此地，帮老夫看守工坊，可好？”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "d40b9a40617545b3",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Старик тоже перестает стучать молотком.<NL>Он наклоняется и поднимает длинный Меч, завернутый в льняную ткань. Он держит его в руках, спокойно глядя на него.<NL><NL>- Тоншенг, Кукловод где-то там. На этот раз я не могу взять тебя с собой...<NL>Оставайся здесь и присмотри за мастерскими вместо меня, хорошо?\"",
+      "status": "machine",
+      "srcHash": "5a2bd9d8b4e4a967",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "3a13d06a-d781-4e68-9ada-b4a9b66c285b/Option_1": {
       "en": "Lately... has the Puppet Master killed a lot of people?",
       "cn": "近日……偃师是不是杀了很多人？\n",
       "ru": "Недавно... неужели Кукловод убил много людей?",
       "status": "machine",
-      "srcHash": "2c550e488b51c918",
+      "srcHash": "8bd3cf1521749a77",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "dd927bb9-a42e-4a8b-9137-a944a04f1933/EventContent": {
       "en": "The old man gives a faint nod and sighs.<NL><NL>\"I wanted to save them too... But all I know is forging swords. I have no other skills...<NL>And because I only know this path, I can't afford distractions. Can't protect others. Can't afford to hesitate.<NL>That torment is worse than death...\"",
       "cn": "老者闻言，淡淡点了点头，叹道：<NL><NL>“老夫亦想救他们……但老夫除了铸剑，别无所长……<NL>也因别无所长，老夫不敢一心二用，不敢顾及旁人，不敢有所退却。<NL>此中折磨，更胜一死……”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "74676ab2168a9fa6",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Старик едва заметно кивает и вздыхает.<NL><NL>- Я тоже хотел спасти их... Но все, что я умею, - это ковать Мечи. У меня нет других навыков...<NL>И поскольку я знаю только этот путь, я не могу позволить себе отвлекаться. Не могу защитить других. Я не могу позволить себе колебаться.<NL>Это мучение хуже смерти...\"",
+      "status": "machine",
+      "srcHash": "7f9b5dd8b0ede6ba",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "dd927bb9-a42e-4a8b-9137-a944a04f1933/Option_1": {
       "en": "Still... maybe there's another way. Something more than just leaving it to fate.",
       "cn": "可即便如此……兴许除了听天由命以外，会有其他选择。\n",
       "ru": "Все еще... может быть, есть другой способ. Что-то большее, чем просто положиться на судьбу.",
       "status": "machine",
-      "srcHash": "9fcd0ac9f7375606",
+      "srcHash": "5e9726c7c2ae77b6",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "314a4213-e111-4ac7-b282-338f88e8495c/EventContent": {
       "en": "Before <Character key=RoleTaiwu str=Name/> can finish, the old man gently strokes the sword through the linen cloth,<NL>like he's remembering the ups and downs since the furnace was first lit.<NL><NL>\"I didn't leave it to fate. I chose this path myself.<NL>The hiss of quenching, the ring of hammer strikes... those bring me peace. I've never once regretted being an artisan.<NL>So no—I don't need another path.<NL><NL>Tongsheng, one day, you'll find a road that fits you too.<NL>When you push forward, you'll feel proud that all your effort paid off. When you falter, you'll still carry the mysteries within.<NL>So do your best without regrets.\"",
@@ -2429,27 +2429,27 @@
       "cn": "（倾尽全力，莫留遗憾……）\n",
       "ru": "(Делай все, что в твоих силах, без сожалений...)",
       "status": "machine",
-      "srcHash": "66b212922100a73d",
+      "srcHash": "b7e545df6b5329e8",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "ee5abd2e-8e86-4d43-b59c-8383ddcab4ac/EventContent": {
       "en": "As he finishes, the other artisans outside all stop and turn, surprised.<NL>The old man turns his back and adds,<NL><NL>\"This sword has been ready for days. Today's as good a day as any to test its edge.<NL>Tongsheng, watch closely...\"",
       "cn": "老者一言既出，门外匠人纷纷回首，愕然相望。<NL>只听老者背过身去，续言道：<NL><NL>“剑成多日，今日正好一试锋寒，<NL>铜生，且看好了……”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "1b4ac2d05635ec9d",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Когда он заканчивает, все остальные ремесленники снаружи останавливаются и удивленно оборачиваются.<NL>Старик отворачивается и добавляет,<NL><NL>\"Этот Меч был готов уже несколько дней. Сегодняшний день так же хорош, как и любой другой, чтобы испытать его на прочность.<NL>Туншенг, смотри внимательно...\"",
+      "status": "machine",
+      "srcHash": "71cd1e24abefae57",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "ee5abd2e-8e86-4d43-b59c-8383ddcab4ac/Option_1": {
       "en": "(Something feels off...)",
       "cn": "（心中不安……）\n",
       "ru": "(Что-то не так...)",
       "status": "machine",
-      "srcHash": "bcbef01170eedc52",
+      "srcHash": "fd43ead0f57edc86",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "1726038a-1ade-4515-a89f-5d79102ada95/EventContent": {
       "en": "With that, the old man steps out of the workshop. He walks ahead of the rest of the artisans, heading straight toward the giant sword at the center of the forge grounds.<NL>Beneath that towering sword stands not just the Puppet Master, but a man in white,<NL>sitting high up on a throne of golden silk threads. His eyes sweep over the crowd with disdain.<NL><NL>\"Why are there only old, weak, and sick ones left?\"",
@@ -2465,27 +2465,27 @@
       "cn": "（不语静观……）\n",
       "ru": "(Молча наблюдаю...)",
       "status": "machine",
-      "srcHash": "f7ae560f082abe7d",
+      "srcHash": "5481c7a35f03cda2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "76691b7b-4f5b-4820-8300-0463369dbb7a/EventContent": {
       "en": "The Puppet Master quickly bows, nervous.<NL><NL>\"Th-the mortals refused to learn the craft. They tried to run. They disrespected the heavens.<NL>So... I killed them all...\"",
       "cn": "偃师闻言，当即俯身行礼，慌忙回道：<NL><NL>“凡……凡人拒绝学艺，欲要出逃，目无天地！<NL>偃师……偃师便把他们都杀了……”",
       "ru": "Кукловод быстро кланяется, нервничая.<NL><NL>- Т-смертные отказались учиться ремеслу. Они попытались убежать. Они проявляли неуважение к небесам.<NL>Итак... Я убил их всех...\"",
       "status": "machine",
-      "srcHash": "cbe464ec4be74f3e",
+      "srcHash": "8e8dc380ffe5fb9d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "76691b7b-4f5b-4820-8300-0463369dbb7a/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "8c76c80d-ddbc-401b-bd1d-dbb884fa54c0/EventContent": {
       "en": "Before he can finish, the man in white scoffs and looks away.<NL>The Puppet Master quickly changes the subject and calls out loudly,<NL><NL>\"The Grand Sword Trial now officially begins! One at a time—step forward!<NL>This is a Celestial Weapon forged by Lord Thunder himself! If your sword can't leave a mark on it,<NL>you're lazy, disrespectful to the gods, and deserve death!\"",
@@ -2501,27 +2501,27 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "31c1462e-25ef-4dc5-9107-cb722c995fd0/EventContent": {
       "en": "He points casually,<NL>and the chosen artisan steps up,<NL>raising his sword high and shouting,<NL><NL>\"This sword... I forged it while thinking of my wife and children, far away on Mt. Luofu!<NL>Its name is... is... Luofu!\"",
       "cn": "偃师颐指气使，随手一指，<NL>所指匠人便走上前来，举起手中之剑，<NL>昂扬高喊道：<NL><NL>“此剑，乃是俺思念远在罗浮山的妻儿之时所铸，<NL>名为……名为……罗浮！”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "2b092463950c9236",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Он небрежно указывает,<NL>и выбранный мастер делает шаг вперед,<NL>высоко подняв свой Меч и крича,<NL><NL>- Этот Меч... Я выковал его, думая о своей жене и детях, далеко отсюда, на горе Луофу!<NL>Его зовут... есть... Луофу!\"",
+      "status": "machine",
+      "srcHash": "dc35fa02c5d05ae5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "31c1462e-25ef-4dc5-9107-cb722c995fd0/Option_1": {
       "en": "(Luofu...)",
       "cn": "（罗浮……）\n",
       "ru": "(Луофу...)",
       "status": "machine",
-      "srcHash": "42a939215cf44a5d",
+      "srcHash": "fee772baffc9b359",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c464c481-8678-46e0-b488-5966b570702c/EventContent": {
       "en": "The artisan swings his sword with all his strength. A shallow mark appears on the test stone.<NL>One by one, the other artisans step up to do the same.<NL><NL>\"I... I promised my wife we'd go see the camellias on Mt. Wuyi. This sword is called Wuyi!\"<NL>\"My hometown is Quanzhou. This sword's name is Quanzhou!\"<NL>\"This one's named Taihang!\"",
@@ -2537,9 +2537,9 @@
       "cn": "（武夷、泉州、太行……）\n",
       "ru": "(Уи, Цюаньчжоу, Тайхан...)",
       "status": "machine",
-      "srcHash": "2911dbf428ea5811",
+      "srcHash": "d717702e47562b86",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "504096c0-f744-4beb-8a50-2bf24e1f9951/EventContent": {
       "en": "Each artisan shouts out a name loudly and proudly.<NL>They channel their frustration, sorrow, and anger into a single vigorous force, striking the giant sword. None of their swords break. None of them are eliminated.<NL>The Puppet Master clenches his teeth, furious. \"Mortals are as defiant as ever,\" he growls. \"They've clearly turned against us.\"<NL>But the man in white just glances at the Puppet Master and asks coldly,<NL><NL>\"You told them to name their swords?\"",
@@ -2555,9 +2555,9 @@
       "cn": "（不语静观……）\n",
       "ru": "(Молча наблюдаю...)",
       "status": "machine",
-      "srcHash": "f7ae560f082abe7d",
+      "srcHash": "5481c7a35f03cda2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "be80537f-ff72-46b6-a535-126d9a822ba3/EventContent": {
       "en": "The Puppet Master's face drains of color. His knees buckle and he drops to the ground,<NL>making the man in white look even more displeased.<NL><NL>\"N-no! It wasn't me! They came up with the names themselves!<NL>I only taught them the fine arts, just like you ordered! I wouldn't dare do anything more!<NL>They used to take beatings and insults without a word. They have never acted like this before!<NL>It must be... it has to be Ou Yezi! He's the one behind this!\"<NL><NL>The Puppet Master spins around and points at Ou Yezi in anger.",
@@ -2573,9 +2573,9 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "657c4096-9601-4fc5-ac0f-876c84adaefa/EventContent": {
       "en": "In his mind, he thinks:<NL>This old man never fights back or talks back. His swords must be weak too.<NL>The Lord's already mad. I just need to pin it on him to save myself.<NL><NL>But Ou Yezi stays calm. He steps forward, still holding the long sword wrapped in linen cloth, and says,<NL>\"To forge this sword, I used all the tin from Chijin Mountain, and all the copper from the dried-up Ruoye Creek.<NL>And I smelted in the unfinished works of the fallen artisans buried here...\"",
@@ -2591,27 +2591,27 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "e71c11c0-6f54-4414-9bbc-94d02530cbc5/EventContent": {
       "en": "As soon as Ou Yezi finished, he gripped the sword wrapped in linen cloth and swung.<NL>There was no sound, but a flash of light ran across the surface of the giant sword, leaving a long mark!",
       "cn": "一言既毕，欧冶子手持被麻布包裹的长剑，奋力斩出，<NL>无声无息间，巨剑上竟随着一道清光，出现了一道五尺斩痕！",
       "ru": "Как только Оу Йези закончил, он схватил Меч, завернутый в льняную ткань, и замахнулся.<NL>Не было слышно ни звука, но вспышка света пробежала по поверхности гигантского Меча, оставив длинный след!",
       "status": "machine",
-      "srcHash": "632020fdb6a0b54e",
+      "srcHash": "2c4ba1c6133f201c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "e71c11c0-6f54-4414-9bbc-94d02530cbc5/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "b510eed8-5dea-409d-8ac4-0586cb8fe7cf/EventContent": {
       "en": "\"Hm?\"<NL>The man in white lets out a soft grunt.<NL>It's barely audible, but to the Puppet Master, it crashes like thunder in his ears.<NL><NL>\"What sword is that!?\"<NL>The Puppet Master panics and rushes forward.<NL>But before he can finish his sentence,<NL>the flash of light from before slices clean through the linen cloth on Ou Yezi's sword.",
@@ -2627,9 +2627,9 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6d89d31e-6e82-42f9-988b-e898d28e4fb8/EventContent": {
       "en": "The linen cloth falls away,<NL>and a brilliant light bursts from the blade, shooting straight into the sky.<NL>For a moment, it outshines the sun. The stars themselves seem to scatter in fear.<NL><NL>The Puppet Master freezes. He stares at the sword, then at the man in white, his voice trembling:<NL>\"What sword is this?! What sword is this?!\"",
@@ -2645,27 +2645,27 @@
       "cn": "（精光贯天，星斗避怒……）\n",
       "ru": "(Свет пронзает небо. Звезды разбегаются в страхе...)",
       "status": "machine",
-      "srcHash": "76fe6448cd8af201",
+      "srcHash": "4ae20473bd5c02d3",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "864b9e41-0e3c-48d8-ac96-a673e61a60f5/EventContent": {
       "en": "Ou Yezi replies quietly,<NL>\"This is Zhanlu.\"<NL>Somewhere in the heavens, a faint, mournful cry seems to echo.",
       "cn": "“此乃湛卢……”<NL>欧冶子淡淡回道。<NL>天外似乎也响起了似有似无的悲号。",
       "ru": "Оу Йези тихо отвечает,<NL>\"Это Жанлу\".<NL>Где-то в небесах, кажется, раздается слабый, скорбный крик.",
       "status": "machine",
-      "srcHash": "a861fccdda911f35",
+      "srcHash": "d2e4035eb12081a6",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "864b9e41-0e3c-48d8-ac96-a673e61a60f5/Option_1": {
       "en": "(Zhanlu...)",
       "cn": "（湛卢……）\n",
       "ru": "(Жанлу...)",
       "status": "machine",
-      "srcHash": "c3b8f92fd468d018",
+      "srcHash": "e7620fdafb7f7f7b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "ae28d6ee-47aa-44c9-98ba-d3a87d1b4b43/EventContent": {
       "en": "\"You failure, I told you to hand down mortals the basics of metal,<NL>and you let them run wild. You let a disaster like this be born.<NL>I should've melted you down long ago.\"<NL><NL>The man in white says with a cold laugh. He flicks his hand. Golden silk threads shoot out from the Puppet Master's body,<NL>latch onto the cliffs, and yank him down toward the lava pit below.<NL>The Puppet Master grabs the edge of the path with both hands, screaming,<NL><NL>\"My Lord! Please!<NL>Have mercy! There's no way mortals could make something like this! It must be a trick! A trick!\"",
@@ -2681,9 +2681,9 @@
       "cn": "（……）\n\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "ef8c5284-2206-43ad-9e59-f595290021d9/EventContent": {
       "en": "\"My Lord—!\"<NL><NL>But the golden silk threads tighten.<NL>They wrap around his fingers, snapping each one. Then his wrists. Then his arms. His body twists and bends with sickening cracks.<NL>In a flash, the Puppet Master's mangled body is dragged into the molten core below. His screams vanish without a trace.<NL>The man in white looks at the crowd and says calmly,<NL><NL>\"Mortals—tell me. Why have you turned against us?\"",
@@ -2699,9 +2699,9 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "07ca68e1-32dd-447e-93c4-ab29ec05eb20/EventContent": {
       "en": "\"Turned against you?\"<NL><NL>The artisans go silent for a moment.<NL><NL>Then one of them speaks up:<NL>\"We mortals were taught by the gods of the heavens. We work hard to master the craft. We take on challenges. We seek truth in all things. We move forward without fear.<NL>I don't know what it means to turn against you. I only know—we must push what we learn and what we know to the absolute limit.\"",
@@ -2717,45 +2717,45 @@
       "cn": "（要将所识、所知探究至极……）\n",
       "ru": "(Доведите то, что мы знаем, до абсолютного предела...)",
       "status": "machine",
-      "srcHash": "544d3251339ed53f",
+      "srcHash": "cf86d68bd01eaa4b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "b81b79d5-3fde-4cce-b62d-60d22e44fadc/EventContent": {
       "en": "The man in white hears this, and a cold smirk tugs at the corners of his mouth.<NL><NL>\"Hmph. Filthy mud and demon blood, yet you dare talk so boldly...<NL>What if ahead lies endless torment, a crushing skyveil? What would mortals do then?\"",
       "cn": "白衣之人闻言，嘴角微翘，冷笑道：<NL><NL>“哼，污泥所造，妖魔遗血，口气不小……<NL>倘若前方乃是无边炼狱，灭顶天帷，凡人又当如何？”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "59dfe6adf054c7c4",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Человек в белом слышит это, и холодная ухмылка приподнимает уголки его рта.<NL><NL>- Хмф. Мерзкая грязь и демоническая кровь, и все же ты смеешь говорить так смело...<NL>Что, если впереди ждут бесконечные мучения, сокрушительная небесная пропасть? Что бы тогда сделали смертные?\"",
+      "status": "machine",
+      "srcHash": "4c9034a700377334",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "b81b79d5-3fde-4cce-b62d-60d22e44fadc/Option_1": {
       "en": "(Endless torment... a crushing skyveil...)",
       "cn": "（无边炼狱，灭顶天帷……）\n",
       "ru": "(Бесконечное мучение... сокрушительный небесный свод...)",
       "status": "machine",
-      "srcHash": "64e9103309c7dfa4",
+      "srcHash": "7c342d634d4ac9a4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "8b1f8b4f-e164-41f3-97ce-c0e6d1da5753/EventContent": {
       "en": "Ou Yezi replies,<NL><NL>\"Even if the road ahead is hopeless, even if we're foolish and blind, I still want to try, with what little skill I have.<NL>If what's ahead is an endless furnace or a falling skyveil, then I'll walk into it with nothing but flesh and bone,<NL>to temper and challenge it.\"",
       "cn": "只听欧冶子道：<NL><NL>“即便前途渺茫，即便痴愚昏聩，老夫亦欲以微末之技一试，<NL>如若前方是无边炼狱，灭顶天帷，老夫也愿以血肉之躯，<NL>上前炼上一炼，闯上一闯……”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "5fdd025866990fb5",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Оу Йези отвечает,<NL><NL>\"Даже если дорога впереди безнадежна, даже если мы глупы и слепы, я все равно хочу попробовать, используя те немногие навыки, которые у меня есть.<NL>Если то, что ждет меня впереди, - это бесконечная топка или падающий небесный свод, тогда я войду в это ни с чем, кроме плоти и костей,<NL>чтобы умерить его и бросить вызов.\"",
+      "status": "machine",
+      "srcHash": "f362d616ddac4072",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "8b1f8b4f-e164-41f3-97ce-c0e6d1da5753/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "abe89daf-5ce3-4ee6-bc07-57d5c7daf9cf/EventContent": {
       "en": "The man in white actually laughs instead of getting angry.<NL>His smile widens as he stands and calls out the old man's name.<NL><NL>\"Ou Yezi... you may have spirit, but you're still just a worm in a cage.<NL>Since you mortals want to brave the flames of hell—then fine. I'll give them to you.\"<NL><NL>As he speaks, he points eastward, toward the East Sea, then vanishes.<NL>On Mount Zhanlu, aside from the giant sword, no trace of the divine remains.<NL>The gathered mortals finally breathe a sigh of relief, some even crying as they embrace.",
@@ -2771,27 +2771,27 @@
       "cn": "（凡人要闯的炼狱？在东海？）\n",
       "ru": "(Ад, в который попадают смертные, находится в Восточном море?)",
       "status": "machine",
-      "srcHash": "7e80d1b2e491dc0a",
+      "srcHash": "b6859c1af1493ca8",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "76c056f7-6741-4d77-986e-15487305efd8/EventContent": {
       "en": "Time flies.<NL>Those few artisans who survived the divine craft name this place \"Mount Zhanlu\"<NL>and build the Swordsmith Villa around the giant sword...",
       "cn": "而后时光荏苒，白驹过隙，<NL>于神仙授艺中存活下来的一众匠人，将此地取名为湛卢山，<NL>又依天炉巨剑建立了铸剑山庄……",
       "ru": "Время летит незаметно.<NL>Те немногие ремесленники, которые пережили божественное ремесло, называют это место \"Гора Жанлу\".<NL>и постройте вокруг гигантского Меча Усадьбу ковки мечей...",
       "status": "machine",
-      "srcHash": "57d7977a04463f5c",
+      "srcHash": "25ec13cae95a370d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "76c056f7-6741-4d77-986e-15487305efd8/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "8962034f-7c70-4072-946f-99a3544c0821/EventContent": {
       "en": "Then one day,<NL>strange crimson eyes—twelve in total—open in the direction of the East Sea.<NL>They gaze upon the whole world. In a flash, the heavens crack, the land wails, black mist floods the skies, and stone pillars burst from the earth.<NL><NL>In the chaos, <Character key=RoleTaiwu str=Name/> seems to hear that same cold voice again:<NL>\"So you mortals want to brave hell? Then take it...\"",
@@ -2807,45 +2807,45 @@
       "cn": "（那是……相枢！？）\n",
       "ru": "(Подождите... это Сяншу?)",
       "status": "machine",
-      "srcHash": "d722d37972bd5be9",
+      "srcHash": "bcb6130ba2c3607e",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "a00f5820-f328-4b99-9704-9efe7b238750/EventContent": {
       "en": "\"Successor of Taiwu! Hey!\"<NL><NL>Snapping out of it, <Character key=RoleTaiwu str=Name/> finds <Character key=RoleTaiwu str=GenderObject/>self back inside the workshop.<NL>Tongsheng and the other artisans are staring at him, puzzled.",
       "cn": "“太吾传人……太吾传人！”<NL><NL>待回过神来，<Character key=RoleTaiwu str=Name/>发觉自己身处工坊之内，<NL>一旁铜生与匠人投来好奇目光。",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "1b5b4895012bc063",
-      "engine": null,
-      "updatedAt": null
+      "ru": "\"Преемник Тайу! Эй!\"<NL><NL>Вырываясь из этого, <Character key=RoleTaiwu str=Name/> находит <Character key=RoleTaiwu str=GenderObject/>я возвращаюсь в мастерскую.<NL>Тоншенг и другие ремесленники озадаченно смотрят на него.",
+      "status": "machine",
+      "srcHash": "07b3f412f6129c33",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "a00f5820-f328-4b99-9704-9efe7b238750/Option_1": {
       "en": "I... just now...",
       "cn": "我……方才……\n",
       "ru": "Я... только что...",
       "status": "machine",
-      "srcHash": "21208453bb9fefb1",
+      "srcHash": "516745322e8c2814",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "8704d6fa-7d74-40e9-9b97-b60040b4dec4/EventContent": {
       "en": "\"You've been spacing out a lot lately,\"<NL><NL>Tongsheng says, quenching a blade, wiping off the animal fat from its surface.<NL>He holds it up and checks the balance.<NL><NL>\"The blade's done. I'm getting the hang of it...\"",
       "cn": "“你近日，多有走神……”<NL><NL>铜生将手中兵刃淬火，褪去其上五牲之脂，<NL>端在手中，好生察探：<NL><NL>“兵刃已成，渐觉手熟……”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "55fdf041ab925f57",
-      "engine": null,
-      "updatedAt": null
+      "ru": "\"В последнее время ты часто уходишь в себя\"<NL><NL>- говорит Туншенг, закаляя Клинок и вытирая животный жир с его поверхности.<NL>Он поднимает его и проверяет баланс.<NL><NL>- С Клинком покончено. Я начинаю в этом разбираться...\"",
+      "status": "machine",
+      "srcHash": "8c161ab3ef3663ba",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "8704d6fa-7d74-40e9-9b97-b60040b4dec4/Option_1": {
       "en": "Yeah, I have been zoning out a lot...",
       "cn": "近日，的确经常走神……\n",
       "ru": "Да, я часто отключался...",
       "status": "machine",
-      "srcHash": "9cacc5aa2ae752ad",
+      "srcHash": "72490e0e4b03be6f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c5e3dd5b-4dd3-42a9-b061-fae334f6a650/EventContent": {
       "en": "\"Come, come! Let me see!\"<NL><NL>An old artisan rushes over and pulls out the Lost Book of Ou Yezi,<NL>flipping through it as he compares Tongsheng's weapon to the diagrams inside.<NL><NL>\"Hmph. Not bad... better than my own disciples!<NL>No wonder they keep whining, saying I favor you 'cause you're Successor of Taiwu's friend and connected to Master Ou. They claim I'm biased.<NL>Guess I'd better stop teaching you anything!\"",
@@ -2861,45 +2861,45 @@
       "cn": "铜生此物，是否可解铸剑山庄之危？",
       "ru": "Может ли эта вещь, сделанная Тонгшенгом, действительно помочь спасти Усадьбу ковки мечей?",
       "status": "machine",
-      "srcHash": "9640d902a9c35e00",
+      "srcHash": "15288acee6e3ef8d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c5e3dd5b-4dd3-42a9-b061-fae334f6a650/Option_2": {
       "en": "You seem especially focused on Master Ou...",
       "cn": "阁下似乎于欧祖格外上心……",
       "ru": "Ты, кажется, особенно сосредоточен на мастере Оу...",
       "status": "machine",
-      "srcHash": "1eb0354c91bada1b",
+      "srcHash": "faf9e8dcd5449c7d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c5e3dd5b-4dd3-42a9-b061-fae334f6a650/Option_3": {
       "en": "As for the Grand Sword Trial...",
       "cn": "关于试剑大典之事……\n",
       "ru": "Что касается Великого Испытания Мечом...",
       "status": "machine",
-      "srcHash": "87f164200dfa35fb",
+      "srcHash": "832459164fd0e52a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "615ba8fa-8d2c-4147-bf44-f507ae47add9/EventContent": {
       "en": "The old artisan hears this and scoffs, shaking his head.<NL><NL>\"No, no!<NL>The Celestial Weapons used in the Grand Sword Trial always carry Master Ou's spirit.<NL>From forging and hammering to heating and polishing—every step matters.<NL>Tongsheng's work is fine, but it lacks that spirit.\"",
       "cn": "老者闻言，冷哼一声，连连摇头：<NL><NL>“不可，不可！<NL>自古试剑大典所需神兵，皆富欧祖神韵，<NL>冶铸、锤锻、燔石、杀青，每一步皆有讲究，<NL>铜生此物虽好，到底没有欧祖神韵！”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "65bb2737b25def4a",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Старый ремесленник слышит это и усмехается, качая головой.<NL><NL>- Нет, нет!<NL>Небесное Оружие, используемое в Испытании Великого Меча, всегда несет в себе Дух мастера Оу.<NL>От ковки и штамповки молотком до нагрева и полировки — важен каждый шаг.<NL>Работа Туншенга прекрасна, но ей не хватает этого Духа\".",
+      "status": "machine",
+      "srcHash": "9baa01153ccd93f1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "615ba8fa-8d2c-4147-bf44-f507ae47add9/Option_1": {
       "en": "Then... how do we get that \"Master Ou spirit\"?",
       "cn": "那……如何俱备欧祖神韵？\n",
       "ru": "Тогда... как нам обрести этого \"Повелителя нашего Духа\"?",
       "status": "machine",
-      "srcHash": "aa0ef4d23be1e1c6",
+      "srcHash": "66e84a0f482d5e4d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "20b9f02c-89aa-4e99-96da-c3e8ef5cd1c9/EventContent": {
       "en": "Tongsheng and <Character key=RoleTaiwu str=Name/> exchange looks. Neither of them knows what that means.<NL>But the old artisan clutches the Lost Book of Ou Yezi tightly, his voice rising with passion.<NL><NL>\"You're Master Ou's successor! How can you not know your own master?<NL>If you want to learn the real craft, you have to walk the road they walked, bear the hardships they bore.<NL>If you can think like they did, live like they did... then the spirit will come. And once it's there, the spirit behind the Celestial Weapon will follow.\"",
@@ -2915,9 +2915,9 @@
       "cn": "原来如此……锻出神兵需得具有先人神韵……\n",
       "ru": "Так вот оно что... вам нужно нести в себе Дух предков, чтобы выковать настоящее Небесное Оружие...",
       "status": "machine",
-      "srcHash": "e3d581ad4d388fab",
+      "srcHash": "c13e8f6374eb96d2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "29132557-8944-44a0-915a-00cff94bd848/EventContent": {
       "en": "The old artisan holds up the Lost Book of Ou Yezi and says matter-of-factly,<NL><NL>\"The Swordsmith Villa exists thanks to Master Ou.<NL>And the reason our craft has lasted this long, forged so many Celestial Weapons, is because of the work of our ancestors.<NL><NL>We, the later generations, don't match their skill or virtue—<NL>so we should give it everything we've got to carry on their legacy and keep that spirit alive for generations to come!\"",
@@ -2933,27 +2933,27 @@
       "cn": "此话倒也不无道理……\n",
       "ru": "Это действительно имеет смысл...",
       "status": "machine",
-      "srcHash": "a31ebad9178f3867",
+      "srcHash": "b2d8e233bbc89acc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6a1d06e8-5681-425e-8078-2dfb99ceabf9/EventContent": {
       "en": "\"If not, then you're just messing around.<NL>That's how traditions die. That's how legacies break. And that is disgraceful!\"<NL><NL>The old artisan grunts and glares at the disciples peeking from outside the workshops.<NL>They quickly turn away and pretend to be busy.",
       "cn": "“若非如此，便是自作主张，动了歪心思，<NL>让传承就此断了篇章，歪了脊梁，是为大不敬！”<NL><NL>老匠人闻言，冷哼一声，回头望向工坊外一众窥探弟子，<NL>弟子见状，纷纷转过头去，佯装忙碌。",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "220f5701e7737b8b",
-      "engine": null,
-      "updatedAt": null
+      "ru": "- Если нет, то ты просто валяешь дурака.<NL>Вот так умирают традиции. Вот как разрушается наследие. И это позор!\"<NL><NL>Старый ремесленник ворчит и свирепо смотрит на учеников, выглядывающих из-за дверей мастерских.<NL>Они быстро отворачиваются и делают вид, что заняты.",
+      "status": "machine",
+      "srcHash": "3c52246ac0bfb1a2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "6a1d06e8-5681-425e-8078-2dfb99ceabf9/Option_1": {
       "en": "(Stunned into silence...)",
       "cn": "（一时哑然……）\n",
       "ru": "(Ошеломленно замолкает...)",
       "status": "machine",
-      "srcHash": "93029ef31f37243d",
+      "srcHash": "06a0dd55ed8de184",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "5be172ed-79d7-4c4f-9cc2-ec8b3988ccee/EventContent": {
       "en": "The old artisan falls silent for a moment, then sighs deeply with his hands behind his back.<NL><NL>\"When I left the mountain with my brothers, we all swore to make the Swordsmiths proud...<NL>But so many years have passed, and I've barely grasped a sliver of Master Ou's spirit.<NL>What right do I have to forge a Celestial Weapon or carry on this legacy...?<NL>It's shameful...\"",
@@ -2969,27 +2969,27 @@
       "cn": "（山庄正统……）\n",
       "ru": "(Истинное наследие кузнецов меча...)",
       "status": "machine",
-      "srcHash": "d18a5dd1198bca6d",
+      "srcHash": "d45083fa5f2ea7c4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "001eaedc-bab7-49b8-85ad-ffd197e94b6e/EventContent": {
       "en": "Tongsheng stands there quietly for a moment, then asks,<NL><NL>\"Do the ancestors really want us to follow in their footsteps exactly? Would they really scold the next generation for not doing things the same way?\"",
       "cn": "铜生心思淳朴，闻言呆立半晌，问道：<NL><NL>“前人当真会以不敬之名，苛求后人效仿前人吗？”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "6bcef2a1b3ce498d",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Туншенг некоторое время стоит молча, затем спрашивает,<NL><NL>\"Действительно ли предки хотят, чтобы мы в точности пошли по их стопам? Стали бы они действительно ругать следующее поколение за то, что оно не делает все так же?\"",
+      "status": "machine",
+      "srcHash": "880d8580f4741ce2",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "001eaedc-bab7-49b8-85ad-ffd197e94b6e/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "7abc9c97-bd23-4c48-8bd8-3647769eb12e/EventContent": {
       "en": "The old artisan's beard practically flares up with rage.<NL><NL>\"The vision for the Swordsmiths, the heart for the people, the spirit of a true artisan—those things take a century to build and a moment to lose!<NL>If you treat it lightly, how can you ever grasp Master Ou's spirit? How can you call yourself his successor?\"",
@@ -3005,9 +3005,9 @@
       "cn": "（不知太吾神韵，又是什么模样……）\n",
       "ru": "(Интересно... как именно выглядит Дух Тайу...?)",
       "status": "machine",
-      "srcHash": "817ace85d2761945",
+      "srcHash": "28faa66b88c13a47",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "0bb74d2e-b3ed-47da-aacc-18126f0a68e6/EventContent": {
       "en": "The old artisan nods slowly, then adds,<NL><NL>\"Damascus Steel and Jadeshine Iron each have their uses.<NL>Even unfinished weapons can help you figure out the design and style you're aiming for.<NL>And the more blades you forge, the better they'll get.<NL>Blades, swords, polearms—if you're aiming for a specific weapon style, you'd better plan your materials carefully.\"",
@@ -3023,9 +3023,9 @@
       "cn": "（对兵刃样式有所追求，需得仔细规划铸材投入……）\n",
       "ru": "(Если я забочусь о стиле Оружия, мне нужно тщательно спланировать, какие материалы я использую...)",
       "status": "machine",
-      "srcHash": "6c0927130c0467ad",
+      "srcHash": "7aef25261970649c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     }
   }
 }

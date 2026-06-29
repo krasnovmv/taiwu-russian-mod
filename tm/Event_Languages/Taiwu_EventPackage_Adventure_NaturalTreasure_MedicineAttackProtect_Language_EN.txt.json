@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "file": "Event_Languages/Taiwu_EventPackage_Adventure_NaturalTreasure_MedicineAttackProtect_Language_EN.txt",
-  "glossaryVersion": 5,
+  "glossaryVersion": 6,
   "units": {
     "932000f0-7b31-4d6b-b6c9-704e0b7d0e6e/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "adc83cd9-c2b6-4649-a363-8e4f1649cf25/EventContent": {
       "en": "Suddenly a figure charges in, though it is <Character key=Enemy str=Name/>, its aura feels discordant at first sight.<NL>Upon closer sniff, a rich medicinal scent lingers around it, presumably it was originally a herbal spirit,<NL>only due to external influence has it become an intruding enemy,<NL>Those well-versed in medical arts know all herbs, and can naturally discern its origin with Medical Art.<NL><NL>(Continuous identification in a short time will increase the Attainment requirement, current required Attainment for identification: <ArgBox key=造诣需求 type=int/>)",
@@ -22,139 +22,139 @@
       "updatedAt": null
     },
     "adc83cd9-c2b6-4649-a363-8e4f1649cf25/Option_1": {
-      "en": "(Identify the medicinal herb...)",
+      "en": "(Identify the medicinal herbs...)",
       "cn": "（辨识药材……）",
-      "ru": "(Назовите лекарственную траву...)",
+      "ru": "(Назовите лекарственные Травы...)",
       "status": "machine",
-      "srcHash": "43e9957e96d4832f",
+      "srcHash": "6ff4fbdeac940515",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "adc83cd9-c2b6-4649-a363-8e4f1649cf25/Option_2": {
       "en": "(Engage in battle...)",
       "cn": "（与之一战……）",
       "ru": "(Вступайте в бой...)",
       "status": "machine",
-      "srcHash": "cb3796dacd9aa833",
+      "srcHash": "0b24bafe4fe65be0",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "adc83cd9-c2b6-4649-a363-8e4f1649cf25/Option_3": {
-      "en": "(Force your way through...) <color=#lightgrey>[Strength Cost: 20]</color>",
-      "cn": "（横闯而过……）<color=#lightgrey>[消耗膂力：20]</color>",
-      "ru": "(Прокладывай себе путь...) <color=#lightgrey>[Стоимость Силы: 20]</color>",
+      "en": "(Charge straight through...)",
+      "cn": "（横闯而过……）",
+      "ru": "(Заряжайте прямо сквозь...)",
       "status": "machine",
-      "srcHash": "53baaad620f69100",
+      "srcHash": "e5b605d8d96c874a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "adc83cd9-c2b6-4649-a363-8e4f1649cf25/Option_4": {
-      "en": "(Dodge with agility...) <color=#lightgrey>[Agility Cost: 20]</color>",
-      "cn": "（灵活闪躲……）<color=#lightgrey>[消耗灵敏：20]</color>",
-      "ru": "(Уклонение с Проворством...) <color=#lightgrey>[Стоимость Проворства: 20]</color>",
+      "en": "(Dodge nimbly...)",
+      "cn": "（灵活闪躲……）",
+      "ru": "(Ловко уклоняясь от Уклонения...)",
       "status": "machine",
-      "srcHash": "1336c3bc30723acb",
+      "srcHash": "11cfcaf59e1d89ec",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "adc83cd9-c2b6-4649-a363-8e4f1649cf25/Option_5": {
-      "en": "(Hold your breath and slip past...) <color=#lightgrey>[Consumes Willpower: 20]</color>",
-      "cn": "（屏息潜行……）<color=#lightgrey>[消耗定力：20]</color>",
-      "ru": "(Задержи дыхание и проскользни мимо...) <color=#lightgrey>[Потребляет Силу воли: 20]</color>",
+      "en": "(Hold your breath and sneak...)",
+      "cn": "（屏息潜行……）",
+      "ru": "(Задержи дыхание и крадись...)",
       "status": "machine",
-      "srcHash": "57f71142297df3c1",
+      "srcHash": "97f26a9a654d7e51",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "adc83cd9-c2b6-4649-a363-8e4f1649cf25/Option_6": {
       "en": "(Try to evade...)",
       "cn": "（设法回避……）\n",
       "ru": "(Попробуй уклониться...)",
       "status": "machine",
-      "srcHash": "24a73a167e9e0e20",
+      "srcHash": "0931190ca34422f6",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "6173e4cc-5e2d-43b6-b164-aef4244026fc/EventContent": {
       "en": "If the <color=#orange>Mist Stone</color> here is destroyed, the fog shrouding this place may be dispelled.<NL>Yet the stone carries a sinister power and seems capable of turning nearby herbs into <color=#orange>Xiangshu Underlings</color>.<NL>Attempting to clear the mist will surely provoke their retaliation.",
       "cn": "若将此处的<color=#orange>迷雾石</color>摧毁，便可驱散此地迷雾，<NL>然此石邪异，似会将周遭草药幻化为<color=#orange>相枢爪牙</color>，<NL>清除迷雾之际，必会招致其反击。",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "634a6910d4aec01f",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Если бы <color=#orange>Туманный камень</color> здесь все разрушено, туман, окутывающий это место, может быть рассеян.<NL>Тем не менее, камень обладает зловещей силой и, кажется, способен превращать близлежащие Травы в <color=#orange>Подчиненные Сяншу</color>.<NL>Попытка рассеять туман, несомненно, спровоцирует их ответные действия.",
+      "status": "machine",
+      "srcHash": "7f1d5df070aa7d16",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:44:32.486Z"
     },
     "6173e4cc-5e2d-43b6-b164-aef4244026fc/Option_1": {
       "en": "(Dispel the mist...)",
       "cn": "（驱散迷雾……）",
       "ru": "(Развеять туман...)",
       "status": "machine",
-      "srcHash": "1ed47c922f7fdf0b",
+      "srcHash": "8153c89bb39d8014",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "6173e4cc-5e2d-43b6-b164-aef4244026fc/Option_2": {
       "en": "(Think of another move...)",
       "cn": "（再做打算……）\n",
       "ru": "(Придумай другой ход...)",
       "status": "machine",
-      "srcHash": "f0aee4430441df42",
+      "srcHash": "6815cefe7cfc5faf",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "5f5e88f4-ef0c-465d-ab64-274deaf69fac/EventContent": {
       "en": "The creature has been successfully identified, reverting into <ArgBox key=资源量 type=int/> Medicinal and <Item key=奖励引子 str=ColorName/>.",
       "cn": "成功辨识了这个对方，对方化为了<ArgBox key=资源量 type=int/>药材以及<Item key=奖励引子 str=ColorName/>",
       "ru": "Существо было успешно идентифицировано, возвращаясь в <ArgBox key=资源量 type=int/> Лекарственные и <Item key=奖励引子 str=ColorName/>.",
       "status": "machine",
-      "srcHash": "c9e7a947a7c33158",
+      "srcHash": "f338149068adb07c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "5f5e88f4-ef0c-465d-ab64-274deaf69fac/Option_1": {
       "en": "(Glad to hear that...)",
       "cn": "（如此甚好……）\n",
       "ru": "(Рад это слышать...)",
       "status": "machine",
-      "srcHash": "ea87df651373c392",
+      "srcHash": "3d2966c095d56bb2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "2cd201c0-1d27-40bb-bad5-9a6418635f19/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "cf11c5fe-3c4d-4624-a102-2b6bb0b02581/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "0811171b-a718-4c14-a725-171b93958500/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "2ee646e4-41fc-4775-80c1-3bd0d6d8c4c6/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "bf8b1245-8558-4616-9c9c-8a4c30ccd7c8/EventContent": {
       "en": "The land is covered in thick fog, which carries a sinister energy. Amid the mist, <Item key=奖励 str=ColorName/> hovers faintly, its true form impossible to discern.<NL>A Three-Eyed Xiao prowls nearby. Fierce and frightening in appearance, yet from its manner it seems hopelessly lost...<NL><NL>Several <color=#orange>Mist Stones</color> lie scattered throughout the area, each exuding streams of fog.<NL>The surrounding illusions seem to arise from these stones.<NL>If they can be destroyed, the mirages may fade and the beast may leave of its own accord.",
@@ -170,18 +170,18 @@
       "cn": "（查看迷雾石位置……）",
       "ru": "(Проверьте расположение туманных камней...)",
       "status": "machine",
-      "srcHash": "040278566827bfc1",
+      "srcHash": "683924c0d6c3c038",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "bf8b1245-8558-4616-9c9c-8a4c30ccd7c8/Option_2": {
       "en": "(Glad to hear that...)",
       "cn": "（如此甚好……）\n",
       "ru": "(Рад это слышать...)",
       "status": "machine",
-      "srcHash": "ea87df651373c392",
+      "srcHash": "3d2966c095d56bb2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "17b36496-07cd-4580-8b30-e83bf29781d1/EventContent": {
       "en": "A faint treasure light flickers within the mist, hinting at a rare treasure concealed inside.<NL>Yet a Three-Eyed Xiao roams ceaselessly nearby, seemingly enraged after losing its way...<NL><NL>The beast is massive and wild-eyed, crashing through trees and rocks in a fit of fury. Its ferocity is truly intimidating!<NL>Rather than battling the Three-Eyed Xiao, it may be wiser to disperse the mist. Once it regains its bearings, it should leave on its own...",
@@ -197,225 +197,225 @@
       "cn": "（袭击三眼魈……）",
       "ru": "(Атака Трехглазого Сяо...)",
       "status": "machine",
-      "srcHash": "a9d17fc30c2c2d1d",
+      "srcHash": "9a7f5c947bff726c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "17b36496-07cd-4580-8b30-e83bf29781d1/Option_2": {
       "en": "(Leave for now...)",
       "cn": "（暂且离开……）\n",
       "ru": "(Оставь пока...)",
       "status": "machine",
-      "srcHash": "944cc8402748d6b6",
+      "srcHash": "e904f7009e892c85",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "9a5a368f-ecda-4a13-a998-cd32f34b65d1/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "556d351b-a4fe-451e-bf50-c89d8cbd1627/EventContent": {
       "en": "One stone shatters, and its sinister energy dissipates.<NL>The fog begins to thin, and distant shapes gradually emerge...",
       "cn": "一石既碎，邪气溃散，<NL>迷雾随之淡去。远方轮廓也渐渐清晰……",
       "ru": "Один камень разбивается вдребезги, и его зловещая Энергия рассеивается.<NL>Туман начинает редеть, и постепенно проступают отдаленные очертания...",
       "status": "machine",
-      "srcHash": "ac3b266fc8e14c62",
+      "srcHash": "1f09d29f1bcb3ddb",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "556d351b-a4fe-451e-bf50-c89d8cbd1627/Option_1": {
       "en": "(Glad to hear that...)",
       "cn": "（如此甚好……）\n",
       "ru": "(Рад это слышать...)",
       "status": "machine",
-      "srcHash": "ea87df651373c392",
+      "srcHash": "3d2966c095d56bb2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "73791f3f-6c1c-46c4-ad4c-312799d8177b/EventContent": {
       "en": "A second stone is destroyed, and the scenery becomes clearer.<NL>The surroundings open up as the lingering haze steadily fades...",
       "cn": "二石粉碎，景物昭然，<NL>此地视野愈发开阔，朦胧的景象已然分明……",
       "ru": "Второй камень разрушается, и пейзаж становится более четким.<NL>Окрестности открываются по мере того, как затянувшаяся дымка постепенно рассеивается...",
       "status": "machine",
-      "srcHash": "ba6e8124a1dce5d4",
+      "srcHash": "45982c64891a5894",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "73791f3f-6c1c-46c4-ad4c-312799d8177b/Option_1": {
       "en": "(Glad to hear that...)",
       "cn": "（如此甚好……）\n",
       "ru": "(Рад это слышать...)",
       "status": "machine",
-      "srcHash": "ea87df651373c392",
+      "srcHash": "3d2966c095d56bb2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "30956e63-5b7d-4ca7-b024-4215deba5b80/EventContent": {
       "en": "With the third stone destroyed, the fog finally parts.<NL>The mist and sinister aura vanish entirely, and the gloom hanging over the area is swept away...",
       "cn": "三石俱毁，雾散天开，<NL>迷雾与邪气尽皆退去，四周阴霾一扫而空……",
       "ru": "С уничтожением третьего камня туман наконец рассеивается.<NL>Туман и зловещая аура полностью исчезают, и мрак, нависший над этим районом, рассеивается...",
       "status": "machine",
-      "srcHash": "8c4f8cb2b4714bcc",
+      "srcHash": "8949c30b2ec4e97c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "30956e63-5b7d-4ca7-b024-4215deba5b80/Option_1": {
       "en": "(Glad to hear that...)",
       "cn": "（如此甚好……）\n",
       "ru": "(Рад это слышать...)",
       "status": "machine",
-      "srcHash": "ea87df651373c392",
+      "srcHash": "3d2966c095d56bb2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "5a010c8e-da96-4f7f-8aec-69d23ef98ff1/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "a275826d-09a9-47ca-8c19-312ab2b6d582/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "dae73db7-ef39-4e5a-b1f6-92e161d00db6/EventContent": {
       "en": "The treasure light at the heart of the Secret Realm still lingers, but the Three-Eyed Xiao is nowhere to be seen...<NL>The <Item key=奖励 str=ColorName/> remains where it rests, releasing a strange fragrance as it awaits its destined owner.",
       "cn": "秘境中心宝光未散，唯有那三眼魈已然不在……<NL><Item key=奖励 str=ColorName/>静立原处，散出异香，静待有缘人收取。",
       "ru": "Свет сокровищ в сердце Тайного царства все еще горит, но Трехглазого Сяо нигде не видно...<NL>То <Item key=奖励 str=ColorName/> остается там, где лежит, издавая странный аромат в ожидании своего суженого.",
       "status": "machine",
-      "srcHash": "88f5872109393faf",
+      "srcHash": "a270db8497c81e67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:39:46.636Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "dae73db7-ef39-4e5a-b1f6-92e161d00db6/Option_1": {
       "en": "(Explore this place...)",
       "cn": "（探索此地……）",
       "ru": "(Исследуйте это место...)",
       "status": "machine",
-      "srcHash": "dd38160016308907",
+      "srcHash": "ed0d2bab46ef0ebc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "dae73db7-ef39-4e5a-b1f6-92e161d00db6/Option_2": {
       "en": "(Consider further...)",
       "cn": "（再做考虑……）\n",
       "ru": "(Рассмотрим далее...)",
       "status": "machine",
-      "srcHash": "d5eb95107a8eef3e",
+      "srcHash": "a4d06c7f90c591fb",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "aec4b8f2-6ae7-4e1b-b607-7d340e294f39/EventContent": {
       "en": "The clouds and mist have fully dispersed, and sunlight once again bathes the land.<NL>The roads stretching in every direction can now be seen clearly.",
       "cn": "此地云雾尽散，天光洒下，复归清朗，<NL>四方前路纵横，皆可一目了然……",
       "ru": "Облака и туман полностью рассеялись, и солнечный свет снова заливает землю.<NL>Теперь отчетливо видны дороги, тянущиеся во всех направлениях.",
       "status": "machine",
-      "srcHash": "45360decd52241ef",
+      "srcHash": "8d065003d360c942",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "aec4b8f2-6ae7-4e1b-b607-7d340e294f39/Option_1": {
       "en": "...",
       "cn": "……\n",
       "ru": "...",
       "status": "machine",
-      "srcHash": "f7918e03b24304eb",
+      "srcHash": "0d158b3b07902186",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "47be8ca7-e0bc-4c5c-8cd8-b291e0f8e553/EventContent": {
       "en": "Stepping into the heart of the bewildering Secret Realm, where illusion and reality intertwine,<NL>You searched carefully and eventually discovered <Item key=奖励 str=ColorName/>, a treasure of remarkable quality...",
       "cn": "踏入那混沌秘境之中心，四周景象离奇，虚实难测，<NL>细探之下，方才寻得<Item key=奖励 str=ColorName/>，品相奇佳……",
       "ru": "Шагнув в самое сердце загадочного Тайного царства, где переплетаются иллюзия и реальность,<NL>Вы тщательно искали и в конце концов обнаружили <Item key=奖励 str=ColorName/> сокровище замечательного качества...",
       "status": "machine",
-      "srcHash": "218616abfffa0f8a",
+      "srcHash": "5faf1c383a1314c7",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:39:46.636Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "47be8ca7-e0bc-4c5c-8cd8-b291e0f8e553/Option_1": {
       "en": "(Glad to hear that...)",
       "cn": "（如此甚好……）\n",
       "ru": "(Рад это слышать...)",
       "status": "machine",
-      "srcHash": "ea87df651373c392",
+      "srcHash": "3d2966c095d56bb2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "ff4f3066-8f7a-4a4b-a39b-ceff44570f1a/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "ebfd41b4-436f-44b8-9562-3c319b3e00a4/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "e0657af6-f388-4423-bfdd-343e2c1e2241/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "8fdc81df-2733-4785-a8ed-a870b0f862ae/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "001747c2-88aa-4261-8a67-e7f9ac137544/EventContent": {
       "en": "The Three-Eyed Xiao is furious and highly alert.<NL>Poised to strike at any moment, it watches the surroundings with fierce vigilance. Attack now?",
       "cn": "三眼魈怒不可遏，警惕异常，<NL>身形蓄而待发，紧盯周遭异动，可要出手袭击？",
       "ru": "Трехглазый Сяо в ярости и очень настороже.<NL>Готовый нанести удар в любой момент, он с яростной бдительностью наблюдает за окрестностями. Атака сейчас?",
       "status": "machine",
-      "srcHash": "e2b8638ec58fa313",
+      "srcHash": "ed929b03d1fbeb41",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "001747c2-88aa-4261-8a67-e7f9ac137544/Option_1": {
       "en": "(Attack the Three-Eyed Xiao...)",
       "cn": "（袭击三眼魈……）",
       "ru": "(Атака Трехглазого Сяо...)",
       "status": "machine",
-      "srcHash": "a9d17fc30c2c2d1d",
+      "srcHash": "9a7f5c947bff726c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "001747c2-88aa-4261-8a67-e7f9ac137544/Option_2": {
       "en": "(Consider further...)",
       "cn": "（再做考虑……）\n",
       "ru": "(Рассмотрим далее...)",
       "status": "machine",
-      "srcHash": "d5eb95107a8eef3e",
+      "srcHash": "a4d06c7f90c591fb",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     }
   }
 }

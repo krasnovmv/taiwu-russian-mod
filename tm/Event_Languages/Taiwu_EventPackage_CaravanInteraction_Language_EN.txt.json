@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
   "file": "Event_Languages/Taiwu_EventPackage_CaravanInteraction_Language_EN.txt",
-  "glossaryVersion": 5,
+  "glossaryVersion": 6,
   "units": {
     "1040edb7-15ec-4f6b-bb6b-be122f188add/EventContent": {
       "en": "{0}",
       "cn": "{0}",
       "ru": "{0}",
       "status": "machine",
-      "srcHash": "660cf56f05961bfe",
+      "srcHash": "4e95dad424f762f1",
       "engine": "neutral",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "1040edb7-15ec-4f6b-bb6b-be122f188add/Option_1": {
       "en": "(Look at the stock...)",
       "cn": "浏览货物……",
       "ru": "(Посмотрите на акции...)",
       "status": "machine",
-      "srcHash": "8a5eb06b97a8c9c5",
+      "srcHash": "9042d83fbfa87e6f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "1040edb7-15ec-4f6b-bb6b-be122f188add/Option_2": {
       "en": "(Bid farewell...)",
       "cn": "就此别过……\n",
       "ru": "(Попрощаться...)",
       "status": "machine",
-      "srcHash": "30e2e4c9aced0806",
+      "srcHash": "5547de5e5103ebee",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "1e31b702-bf2f-4b0a-98b3-aee867a030a5/EventContent": {
       "en": "As <Character key=RoleTaiwu str=Name /> is putting away their travel bags,<NL>the sharp jingle of bells and the neighing of mules ring out from behind. Sounds like a caravan is approaching.<NL>Turning to look, <Character key=RoleTaiwu str=Name /> spots a convoy of heavily laden carts and pack animals halting in the distance...",
@@ -44,27 +44,27 @@
       "cn": "（走上前去……）\n",
       "ru": "(Приближается...)",
       "status": "machine",
-      "srcHash": "9100c7465951f8bc",
+      "srcHash": "40aae70dbbab911c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "6ed72f36-01e2-4ee5-8b80-388ca91b580c/EventContent": {
       "en": "{0}<NL><NL>One of the travelers dusts off their clothes<NL>and strides toward <Character key=RoleTaiwu str=Name />, greeting <Character key=RoleTaiwu str=GenderObject/> with a respectful clasp of hands,<NL>\"We are merchants from {1}, sent by our guild to pay respects to the Successor of Taiwu...\"",
       "cn": "只见{0}<NL><NL>领头的一人拍去衣上尘土，<NL>随后阔步向<Character key=RoleTaiwu str=Name />走来，拱手拜道：<NL>“我等乃是{1}的商人，受商会所托，特意前来拜访「太吾」传人……”",
       "ru": "{0}<NL><NL>Один из путешественников отряхивает пыль со своей одежды<NL>и шагает навстречу <Character key=RoleTaiwu str=Name />, приветствие <Character key=RoleTaiwu str=GenderObject/> с почтительным пожатием рук,<NL>\"Мы Торговцы из {1}, посланный нашей Гильдией засвидетельствовать почтение Преемнику Тайу...\"",
       "status": "machine",
-      "srcHash": "5a63e4c756410cad",
+      "srcHash": "c64ce657ca03023b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "6ed72f36-01e2-4ee5-8b80-388ca91b580c/Option_1": {
       "en": "I am Taiwu. What brings you here?",
       "cn": "在下便是「太吾」，不知有何要事？\n",
       "ru": "Я Тайу. Что привело тебя сюда?",
       "status": "machine",
-      "srcHash": "9cbd35725623f81f",
+      "srcHash": "6ad553b0a64c585e",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "c0bf30b6-937d-4a40-adb7-458bfbc22600/EventContent": {
       "en": "The leader beams, gesturing to someone at the rear to fetch something, then turns back with a laugh and a deep bow.<NL><NL>\"Fortune truly favors us. Though our journey was slightly delayed,<NL>we've had the great luck to meet the Successor of Taiwu upon arrival.<NL>We've prepared some gifts as a token of our respect. Please wait a moment...\"",
@@ -80,36 +80,36 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "00745ac4-a96a-473b-9ccb-ce1f71676c20/EventContent": {
       "en": "Soon,<NL>the merchant returns bearing several items.<NL>The leader takes them, presenting them to <Character key=RoleTaiwu str=Name /> one by one,<NL><NL>\"Finally, we meet the Successor of Taiwu. These humble gifts are but a token of our respect...\"",
       "cn": "不多时，<NL>那人便捧出些许物件，<NL>领头人接过，随即依次展示于<Character key=RoleTaiwu str=Name />面前：<NL><NL>“终于可再见「太吾」传人，小小薄礼不成敬意……”",
       "ru": "Скоро,<NL>Торговец возвращается с несколькими товарами.<NL>Ведущий берет их, представляя <Character key=RoleTaiwu str=Name /> один за другим,<NL><NL>\"Наконец-то мы встречаемся с Преемником Тайу. Эти скромные подарки - всего лишь знак нашего уважения...\"",
       "status": "machine",
-      "srcHash": "0f9f5bba79cc4005",
+      "srcHash": "6067e941dd7264a4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "00745ac4-a96a-473b-9ccb-ce1f71676c20/Option_1": {
       "en": "(Give a fist-and-palm salute and inspect the gifts...)",
       "cn": "（拱手致谢，查看赠礼……）\n",
       "ru": "(Отсалютуйте кулаком и ладонью и осмотрите подарки...)",
       "status": "machine",
-      "srcHash": "7d33a40eb72f6d6e",
+      "srcHash": "087b0c03f9980be7",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "1754f76f-b50d-4768-9853-a38cf6a898e5/EventContent": {
       "en": "\"These are items only from our {0}. Feel free to choose any two.<NL>If they suit your taste, we'd be honored to serve you again in the future...\"",
       "cn": "“这些由我{0}专售，阁下可随意挑选两个物件，<NL>若觉得这些物件尚可，今后还请多光顾本店……”",
       "ru": "\"Это товары только из нашего {0} Не стесняйтесь выбирать любые два.<NL>Если они придутся вам по вкусу, для нас будет честью обслуживать вас снова в будущем...\"",
       "status": "machine",
-      "srcHash": "ce8bf8c013e671a4",
+      "srcHash": "be52c0373d7e3aaf",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "57f8b33d-c4c4-4ec5-9e31-5ebc0fa42cf2/EventContent": {
       "en": "\"We've been in business for many years and have sharpened our ability to judge people to a fine point.<NL>Seeing the return of the Successor of Taiwu and the revival of Taiwu Village,<NL>we knew you must be extraordinary. That's why we came to pay our respects...<NL><NL>However... though you are the Successor of Taiwu, we must consider whether it's worth deepening our ties with the guild...\"",
@@ -125,9 +125,9 @@
       "cn": "此话怎讲……\n",
       "ru": "Что вы хотите этим сказать?...",
       "status": "machine",
-      "srcHash": "e194bb9a3d707c47",
+      "srcHash": "976a57d3a0f363a4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "41011cc8-3fb5-4f42-9e4b-43efbf37f6da/EventContent": {
       "en": "\"You may not be aware,<NL>but with demons and monsters rising everywhere, industries are declining, and resources are becoming scarce.<NL>Fortunately, our guild has gone through great hardships to gather and allocate supplies to meet the people's needs.<NL>But with so many mouths to feed, even a single grain of coarse rice becomes a dilemma—everyone wants it.<NL>So, who deserves it most? Naturally, we must weigh the times, the risks,<NL>and choose the buyer who offers the greatest return...<NL><NL>In chaotic times like these, commerce is no simple matter of buying and selling.\"",
@@ -143,45 +143,45 @@
       "cn": "如此作为，无异于恃强凌弱，实乃不义……",
       "ru": "Такое поведение граничит с эксплуатацией — злоупотреблением Силой для наживы на слабых. Это несправедливо...",
       "status": "machine",
-      "srcHash": "7e3e9ecaef57a1ba",
+      "srcHash": "727a984fc0727dc6",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "41011cc8-3fb5-4f42-9e4b-43efbf37f6da/Option_2": {
       "en": "By hoarding resources and setting barriers, you're taking advantage of the people's plight...",
       "cn": "你等把持资源，设下藩篱，未免有些趁火打劫百姓之意……",
       "ru": "Накапливая Ресурсы и устанавливая барьеры, вы извлекаете выгоду из тяжелого положения людей...",
       "status": "machine",
-      "srcHash": "c9205c17dbf98bec",
+      "srcHash": "172b9cc128e1e4b8",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "41011cc8-3fb5-4f42-9e4b-43efbf37f6da/Option_3": {
       "en": "While it may seem unfair, if both sides gain what they need, perhaps such practices have their place...",
       "cn": "虽有些悖理，但若能各取所需，有些规矩倒无不妥……",
       "ru": "Хотя это может показаться несправедливым, если обе стороны получают то, что им нужно, возможно, такая практика имеет свое место...",
       "status": "machine",
-      "srcHash": "8dfdf764e2fc26a2",
+      "srcHash": "439ee66921e6e637",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "41011cc8-3fb5-4f42-9e4b-43efbf37f6da/Option_4": {
       "en": "How many guards are in your warehouse? Have you attracted any bandits or troublemakers...",
       "cn": "不知你们的库房有几人看守，可曾招惹悍匪歹人……",
       "ru": "Сколько охранников находится на вашем Складе? Привлекли ли вы каких-нибудь бандитов или нарушителей спокойствия?..",
       "status": "machine",
-      "srcHash": "37a71d3863c68879",
+      "srcHash": "252228e4632b8356",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "41011cc8-3fb5-4f42-9e4b-43efbf37f6da/Option_5": {
       "en": "Follow me and prosper—stand against me and fall. You'd best choose your alliances carefully...",
       "cn": "顺我者生，逆我者亡，你等可莫要站错了位置……\n",
       "ru": "Следуй за мной и преуспеешь — выступи против меня и пади. Вам лучше тщательно выбирать свои союзы...",
       "status": "machine",
-      "srcHash": "c4504a26031c9dfb",
+      "srcHash": "ccafa70d45268899",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "365a8810-7aab-42fe-b0fa-7073761511e9/EventContent": {
       "en": "\"Perish the thought, of course not!<NL><NL>It's a common practice among major guilds not to sell rare items lightly.<NL>This is the wisdom of years of experience and the key to survival in these chaotic times...<NL><NL>When the day comes that you command true influence, rest assured—we will withhold nothing!\"",
@@ -197,99 +197,99 @@
       "cn": "原来还有许多商会，且颇有关联……",
       "ru": "Итак, существует много гильдий, и они тесно связаны между собой...",
       "status": "machine",
-      "srcHash": "d762bf261aef5ad2",
+      "srcHash": "60839027e12253e4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "365a8810-7aab-42fe-b0fa-7073761511e9/Option_2": {
       "en": "Then show me what you have to offer...",
       "cn": "让我看看你有何物件可售吧……\n",
       "ru": "Тогда покажи мне, что ты можешь предложить...",
       "status": "machine",
-      "srcHash": "d68dc667a700c2a7",
+      "srcHash": "032cf21e48b970f2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "b6a9f12d-8cf8-4078-927b-042e622eb05f/EventContent": {
       "en": "\"You jest,<NL><NL>but it's a common practice among major guilds not to sell rare items lightly.<NL>This is the wisdom of years of experience and the key to survival in these chaotic times...<NL><NL>When the day comes that you command true influence, rest assured—we will withhold nothing!\"",
       "cn": "“阁下说笑了，<NL><NL>不轻易将珍稀物件售人，是各大商会之共识，<NL>此乃多年经营之智，亦是我等在这乱世的立身之道……<NL><NL>待到阁下当真一呼百应之时，我等自无保留！”",
       "ru": "- Ты шутишь,<NL><NL>но это обычная практика среди крупных Гильдий - не продавать редкие предметы легкомысленно.<NL>Это мудрость многолетнего опыта и ключ к выживанию в эти хаотичные времена...<NL><NL>Когда настанет день, когда вы будете обладать истинным Влиянием, будьте уверены — мы ничего не утаим!\"",
       "status": "machine",
-      "srcHash": "f8764c8d3ee1fd84",
+      "srcHash": "87c2cf11947d2e21",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "b6a9f12d-8cf8-4078-927b-042e622eb05f/Option_1": {
       "en": "So there are many guilds, and they're deeply connected...",
       "cn": "原来还有许多商会，且颇有关联……",
       "ru": "Итак, существует много гильдий, и они тесно связаны между собой...",
       "status": "machine",
-      "srcHash": "d762bf261aef5ad2",
+      "srcHash": "60839027e12253e4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "b6a9f12d-8cf8-4078-927b-042e622eb05f/Option_2": {
       "en": "Then show me what you have to offer...",
       "cn": "让我看看你有何物件可售吧……\n",
       "ru": "Тогда покажи мне, что ты можешь предложить...",
       "status": "machine",
-      "srcHash": "d68dc667a700c2a7",
+      "srcHash": "032cf21e48b970f2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "206d5e0b-0860-40d1-ba7c-6ed4f6d05246/EventContent": {
       "en": "\"Exactly, exactly.<NL><NL>It's a common practice among major guilds not to sell rare items lightly.<NL>This is the wisdom of years of experience and the key to survival in these chaotic times...<NL><NL>When the day comes that you command true influence, rest assured—we will withhold nothing!\"",
       "cn": "“正是如此，正是如此呐，<NL><NL>不轻易将珍稀物件售人，是各大商会之共识，<NL>此乃多年经营之智，亦是我等在这乱世的立身之道……<NL><NL>待到阁下当真一呼百应之时，我等自无保留！”",
       "ru": "- Вот именно, вот именно.<NL><NL>Среди крупных Гильдий распространена практика не продавать редкие предметы легкомысленно.<NL>Это мудрость многолетнего опыта и ключ к выживанию в эти хаотичные времена...<NL><NL>Когда настанет день, когда вы будете обладать истинным Влиянием, будьте уверены — мы ничего не утаим!\"",
       "status": "machine",
-      "srcHash": "275ae67bcc48f246",
+      "srcHash": "254f0f24f9b806e5",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "206d5e0b-0860-40d1-ba7c-6ed4f6d05246/Option_1": {
       "en": "So there are many guilds, and they're deeply connected...",
       "cn": "原来还有许多商会，且颇有关联……",
       "ru": "Итак, существует много гильдий, и они тесно связаны между собой...",
       "status": "machine",
-      "srcHash": "d762bf261aef5ad2",
+      "srcHash": "60839027e12253e4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "206d5e0b-0860-40d1-ba7c-6ed4f6d05246/Option_2": {
       "en": "Then show me what you have to offer...",
       "cn": "让我看看你有何物件可售吧……\n",
       "ru": "Тогда покажи мне, что ты можешь предложить...",
       "status": "machine",
-      "srcHash": "d68dc667a700c2a7",
+      "srcHash": "032cf21e48b970f2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "aba764df-1775-4d59-9228-c5b1c8e73b9f/EventContent": {
       "en": "\"You flatter us.<NL><NL>It's a common practice among major guilds not to sell rare items lightly.<NL>This is the wisdom of years of experience and the key to survival in these chaotic times...<NL><NL>When the day comes that you command true influence, rest assured—we will withhold nothing!\"",
       "cn": "“阁下言重了，<NL><NL>不轻易将珍稀物件售人，是各大商会之共识，<NL>此乃多年经营之智，亦是我等在这乱世的立身之道……<NL><NL>待到阁下当真一呼百应之时，我等自无保留！”",
       "ru": "- Вы нам льстите.<NL><NL>Среди крупных Гильдий распространена практика не продавать редкие предметы легкомысленно.<NL>Это мудрость многолетнего опыта и ключ к выживанию в эти хаотичные времена...<NL><NL>Когда настанет день, когда вы будете обладать истинным Влиянием, будьте уверены — мы ничего не утаим!\"",
       "status": "machine",
-      "srcHash": "ca4bca49f18a0b92",
+      "srcHash": "46a3134892704f15",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "aba764df-1775-4d59-9228-c5b1c8e73b9f/Option_1": {
       "en": "So there are many guilds, and they're deeply connected...",
       "cn": "原来还有许多商会，且颇有关联……",
       "ru": "Итак, существует много гильдий, и они тесно связаны между собой...",
       "status": "machine",
-      "srcHash": "d762bf261aef5ad2",
+      "srcHash": "60839027e12253e4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "aba764df-1775-4d59-9228-c5b1c8e73b9f/Option_2": {
       "en": "Then show me what you have to offer...",
       "cn": "让我看看你有何物件可售吧……\n",
       "ru": "Тогда покажи мне, что ты можешь предложить...",
       "status": "machine",
-      "srcHash": "d68dc667a700c2a7",
+      "srcHash": "032cf21e48b970f2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "ab1fc1b1-8a9e-403c-9955-744b5a194f5a/EventContent": {
       "en": "\"To trade without honor is not trade at all.<NL><NL>It's a common practice among major guilds not to sell rare items lightly.<NL>This is the wisdom of years of experience and the key to survival in these chaotic times...<NL><NL>When the day comes that you command true influence, rest assured—we will withhold nothing!\"",
@@ -305,18 +305,18 @@
       "cn": "原来还有许多商会，且颇有关联……",
       "ru": "Итак, существует много гильдий, и они тесно связаны между собой...",
       "status": "machine",
-      "srcHash": "d762bf261aef5ad2",
+      "srcHash": "60839027e12253e4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "ab1fc1b1-8a9e-403c-9955-744b5a194f5a/Option_2": {
       "en": "Then show me what you have to offer...",
       "cn": "让我看看你有何物件可售吧……\n",
       "ru": "Тогда покажи мне, что ты можешь предложить...",
       "status": "machine",
-      "srcHash": "d68dc667a700c2a7",
+      "srcHash": "032cf21e48b970f2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "fa0c9564-4870-49f8-ae53-e2058a77612c/EventContent": {
       "en": "\"There are seven major guilds in this world, each with its own origins and specialties,<NL>dealing in various rare and sought-after goods...<NL><NL>These guilds, following the principles of commerce, have established headquarters and branches in various regions,<NL>with caravans dispatched from their headquarters to travel far and wide...\"",
@@ -332,387 +332,387 @@
       "cn": "这总部和分部有何讲究？",
       "ru": "Каково значение штаб-квартиры и филиалов?",
       "status": "machine",
-      "srcHash": "c9b8e8f1fa1fa02a",
+      "srcHash": "58c7ce9b9ba753d2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "fa0c9564-4870-49f8-ae53-e2058a77612c/Option_2": {
       "en": "What goods do these seven guilds trade?",
       "cn": "这七大商会，卖的都是什么物件？",
       "ru": "Какими товарами торгуют эти семь гильдий?",
       "status": "machine",
-      "srcHash": "6546b5157c4ac189",
+      "srcHash": "994e1f4c68a32f01",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "fa0c9564-4870-49f8-ae53-e2058a77612c/Option_3": {
       "en": "Then show me what you have to offer...",
       "cn": "让我看看你有何物件可售吧……\n",
       "ru": "Тогда покажи мне, что ты можешь предложить...",
       "status": "machine",
-      "srcHash": "d68dc667a700c2a7",
+      "srcHash": "032cf21e48b970f2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "bb506d78-bf20-4ed5-8798-8b39285ba351/EventContent": {
       "en": "\"The seven guilds have their headquarters and branches spread across the land,<NL>offering trade wherever you go—it just depends on what you need...\"",
       "cn": "“七大商会，总部分部遍布四方，<NL>各地均能买卖，只看阁下有何所需……”",
       "ru": "- У семи Гильдий есть свои штаб-квартиры и филиалы, разбросанные по всей стране,<NL>предлагая торговлю, куда бы вы ни пошли — это просто зависит от того, что вам нужно...\"",
       "status": "machine",
-      "srcHash": "1c558778b3afb72d",
+      "srcHash": "d269d068021af65d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "bb506d78-bf20-4ed5-8798-8b39285ba351/Option_1": {
       "en": "Where are these headquarters and branches located?",
       "cn": "这个七大商会总部和分部位于何处？",
       "ru": "Где расположены эти штаб-квартиры и филиалы?",
       "status": "machine",
-      "srcHash": "53bec0376890362b",
+      "srcHash": "b44e6c12eab142ae",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "bb506d78-bf20-4ed5-8798-8b39285ba351/Option_2": {
       "en": "What's makes each different from one another?",
       "cn": "这总部和分部有何区别？",
       "ru": "Что отличает их друг от друга?",
       "status": "machine",
-      "srcHash": "15c62ea47d18401d",
+      "srcHash": "2c6c4478541cc0d1",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "bb506d78-bf20-4ed5-8798-8b39285ba351/Option_3": {
       "en": "I see...",
       "cn": "我知晓了……\n",
       "ru": "Я понимаю...",
       "status": "machine",
-      "srcHash": "c500fbb9698454bc",
+      "srcHash": "79e1c98d76148668",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "955f6420-aff4-4e36-8492-e064c8d75ed3/EventContent": {
       "en": "\"Guilds plant their roots where power and prosperity meet—be it a bustling metropolis or a strategic crossroads.<NL>Which guild interests you?\"<NL><NL><color=#lightgrey>(Note: Once the Way Station is unlocked, guild locations will appear on the world map.)</color>",
       "cn": "“商会的总部分部依地势而设，均于各繁华或枢要之地，<NL>不知阁下想了解哪个商会……”<NL><NL><color=#lightgrey>（开通驿站后，可于大地图中查看各商会所在位置）</color>",
       "ru": "\"Гильдии пускают свои корни там, где встречаются власть и процветание — будь то шумный мегаполис или стратегический перекресток.<NL>Какая Гильдия вас интересует?\"<NL><NL><color=#lightgrey>(Примечание: Как только Путевая станция будет разблокирована, местоположения Гильдий появятся на карте мира.)</color>",
       "status": "machine",
-      "srcHash": "4e7f3293e5fd9312",
+      "srcHash": "a376478bc30dcabe",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "955f6420-aff4-4e36-8492-e064c8d75ed3/Option_1": {
       "en": "Where are Vault of Volumes's headquarters and branches",
       "cn": "文山书海阁的总部和分部位于何处？",
       "ru": "Где находятся штаб-квартира и филиалы Vault of Volumes",
       "status": "machine",
-      "srcHash": "28864cacaa4414d8",
+      "srcHash": "806597a8ee822d3e",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "955f6420-aff4-4e36-8492-e064c8d75ed3/Option_2": {
       "en": "Where are Gongshu's Caravan' headquarters and branches?",
       "cn": "公输坊的总部和分部位于何处？",
       "ru": "Где находятся штаб-квартира и филиалы Каравана Гуншу?",
       "status": "machine",
-      "srcHash": "6be8395bb5388a75",
+      "srcHash": "86812f4b80de601a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "955f6420-aff4-4e36-8492-e064c8d75ed3/Option_3": {
       "en": "Where are the Revival Apothecary's headquarters and branches?",
       "cn": "回春堂的总部和分部位于何处？",
       "ru": "Где находятся штаб-квартира и филиалы аптеки Возрождения?",
       "status": "machine",
-      "srcHash": "15df2e0d0eef8fd6",
+      "srcHash": "c98d778ad3514144",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "955f6420-aff4-4e36-8492-e064c8d75ed3/Option_4": {
       "en": "Where are Oxback Caravan's headquarters and branches?",
       "cn": "服牛帮的总部和分部位于何处？",
       "ru": "Где находятся штаб-квартира и филиалы Oxback Каравана?",
       "status": "machine",
-      "srcHash": "ba4097a6703082ad",
+      "srcHash": "21f3dce101a64a97",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "955f6420-aff4-4e36-8492-e064c8d75ed3/Option_5": {
       "en": "Where are the Yangtze Merchant League's headquarters and branches?",
       "cn": "五湖商会的总部和分部位于何处？",
       "ru": "Где находятся штаб-квартира и филиалы Лиги Торговцев Янцзы?",
       "status": "machine",
-      "srcHash": "043e8ad571c928f4",
+      "srcHash": "7c30acbd957a1d73",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "955f6420-aff4-4e36-8492-e064c8d75ed3/Option_6": {
       "en": "Where are Pavilion of Wonders's headquarters and branches?",
       "cn": "奇货斋的总部和分部位于何处？",
       "ru": "Где находятся штаб-квартира и филиалы \"Павильона чудес\"?",
       "status": "machine",
-      "srcHash": "04b047a0636b7b02",
+      "srcHash": "db3639f61c0862af",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "955f6420-aff4-4e36-8492-e064c8d75ed3/Option_7": {
       "en": "Where are the Grand Armory's headquarters and branches?",
       "cn": "大武魁的总部和分部位于何处？",
       "ru": "Где находятся штаб-квартира и филиалы Grand Armory?",
       "status": "machine",
-      "srcHash": "b946ae4ad15480ac",
+      "srcHash": "2c49cb7aed443f78",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "955f6420-aff4-4e36-8492-e064c8d75ed3/Option_8": {
       "en": "I see...",
       "cn": "我知晓了……\n",
       "ru": "Я понимаю...",
       "status": "machine",
-      "srcHash": "c500fbb9698454bc",
+      "srcHash": "79e1c98d76148668",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "4ebee469-dcb1-4080-a4ee-8022074cedcb/EventContent": {
       "en": "\"Vault of Volumes's headquarters lie in Xiangyang, Jingbei,<NL>a land long contested by strategists and frequented by scholars.<NL>Their branches are in Chengdu, Bashu, a place of exceptional talent and almost otherworldly beauty...\"",
       "cn": "“文山书海阁总部位于荆北·襄阳，<NL>此乃自古兵家必争之地，亦多有文人墨客聚集于此，<NL>分部则位于巴蜀·成都，此处地灵人杰，非凡世之境……”",
       "ru": "\"Штаб-квартира Vault of Volumes находится в Сянъяне, Цзинбэй,<NL>земля, о которой долго спорили стратеги и которую часто посещали ученые.<NL>Их филиалы находятся в Чэнду, Башу, месте исключительного Таланта и почти потусторонней красоты...\"",
       "status": "machine",
-      "srcHash": "3ac591f8df1bf934",
+      "srcHash": "e2be7b588535b02f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "4ebee469-dcb1-4080-a4ee-8022074cedcb/Option_1": {
       "en": "(I see...)",
       "cn": "（原来如此……）\n",
       "ru": "(Я вижу...)",
       "status": "machine",
-      "srcHash": "35e816479365a5c3",
+      "srcHash": "58320766025caf66",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "6e295afc-1957-47aa-b0a0-e3b7c36d80a9/EventContent": {
       "en": "\"Gongshu's Caravan, with roots dating back to the Warring States era,<NL>has their headquarters in Qingzhou, Shandong—one of the ancient Nine Provinces.<NL>Later, it established a branch in Dali, Yunnan, where southern tribal cultures flourish...\"",
       "cn": "“公输坊自战国时期便传承至今，<NL>其总部设于上古九州之一的山东·青州，<NL>后于南方氏族部落繁盛之地，云南·大理，设立分部……”",
       "ru": "\"Караван Гуншу, корни которого уходят в эпоху воюющих государств,<NL>штаб—квартира находится в Цинчжоу, Шаньдун - одной из девяти древних провинций.<NL>Позже она открыла филиал в Дали, Юньнань, где процветают культуры южных племен...\"",
       "status": "machine",
-      "srcHash": "bd826d79767f0d02",
+      "srcHash": "94245d1434ec5bcd",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "6e295afc-1957-47aa-b0a0-e3b7c36d80a9/Option_1": {
       "en": "(I see...)",
       "cn": "（原来如此……）\n",
       "ru": "(Я вижу...)",
       "status": "machine",
-      "srcHash": "35e816479365a5c3",
+      "srcHash": "58320766025caf66",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "f959e6cb-67ea-490b-b6ea-450bdc2d2eb0/EventContent": {
       "en": "\"The Revival Apothecary is headquartered in Guizhou, Guangnan near the Valley of Flowers—a gathering place for master physicians.<NL>Its northern branch was later founded in Liaoyang, Liaodong,<NL>to extend healing to all in need...\"",
       "cn": "“回春堂总部位于广南·桂州，地邻百花谷，医师云集，<NL>后又于北方重镇，辽东·辽阳设立分部，<NL>翼望广济世人，普救含灵之苦……”",
       "ru": "\"Штаб—квартира \"Аптеки возрождения\" находится в Гуйчжоу, провинция Гуаннань, недалеко от Долины цветов - места сбора мастеров медицины.<NL>Его северное отделение позже было основано в Ляояне, Ляодун,<NL>чтобы распространить исцеление на всех нуждающихся...\"",
       "status": "machine",
-      "srcHash": "a5ee515afdeec2e8",
+      "srcHash": "3f3583711e4cb6db",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "f959e6cb-67ea-490b-b6ea-450bdc2d2eb0/Option_1": {
       "en": "(I see...)",
       "cn": "（原来如此……）\n",
       "ru": "(Я вижу...)",
       "status": "machine",
-      "srcHash": "35e816479365a5c3",
+      "srcHash": "58320766025caf66",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "771d53a8-322f-4c83-90b9-565ae40d8a1c/EventContent": {
       "en": "\"With Guangdong's intricate waterways requiring countless porters,<NL>the Oxback Caravan formed in Guangzhou, Guangdong.<NL>As it grew, a northern branch was added in Taiyuan, Shanxi...\"",
       "cn": "“广东一带水网纵横，多需脚夫行商转运，<NL>由众多脚夫聚集而成的服牛帮，其总部便位于广东·广州，<NL>后规模渐大，又于北方设立分部，如今位于山西·太原……”",
       "ru": "- Учитывая запутанные водные пути Гуандуна, требующие бесчисленного количества носильщиков,<NL>Караван Oxback сформировался в Гуанчжоу, Гуандун.<NL>По мере роста к нему добавился северный филиал в Тайюане, Шаньси...\"",
       "status": "machine",
-      "srcHash": "9384c60b52fba57a",
+      "srcHash": "f2cbe907440711f4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "771d53a8-322f-4c83-90b9-565ae40d8a1c/Option_1": {
       "en": "(I see...)",
       "cn": "（原来如此……）\n",
       "ru": "(Я вижу...)",
       "status": "machine",
-      "srcHash": "35e816479365a5c3",
+      "srcHash": "58320766025caf66",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "32b21375-600b-44cd-9e0c-b2bcefbfe48a/EventContent": {
       "en": "\"Yangzhou, a city of three towns and endless revelry, draws people from all walks of life.<NL>The Yangtze Merchant League, trading goods from across the realm, chose Yangzhou, Jiangbei as their headquarters,<NL>later expanding to Shouchun, Huainan...\"",
       "cn": "“扬州一地三城，夜夜笙歌，各色人等皆汇于此地，<NL>五湖商会广纳天下物产，故将总部设于江北·扬州，<NL>后于总部不远之处，淮南·寿春另设分部，以扩其势……”",
       "ru": "\"Янчжоу, город из трех поселков и бесконечного веселья, привлекает людей из всех слоев общества.<NL>Лига Торговцев Янцзы, торгующая товарами со всего королевства, выбрала Янчжоу, Цзянбэй, в качестве своей штаб-квартиры,<NL>позже расширился до Шоучуня, Хуайнаня...\"",
       "status": "machine",
-      "srcHash": "1d8b10020bfb06d7",
+      "srcHash": "51b909b000fa7522",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "32b21375-600b-44cd-9e0c-b2bcefbfe48a/Option_1": {
       "en": "(I see...)",
       "cn": "（原来如此……）\n",
       "ru": "(Я вижу...)",
       "status": "machine",
-      "srcHash": "35e816479365a5c3",
+      "srcHash": "58320766025caf66",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "6f7c73ec-db3d-4f23-90c5-0af052f309d6/EventContent": {
       "en": "\"Jiangling, an ancient imperial capital, attracts nobles with a taste for rarities,<NL>which naturally led to Pavilion of Wonders establishing their headquarters in Jiangling, Jingnan.<NL>Its branch in Hangzhou, Jiangnan, caters to the elite of that glittering metropolis...\"",
       "cn": "“江陵乃帝王古都，多有名士荟聚，尤好珍奇之玩，<NL>是以奇货斋总部定于荆南·江陵，以供上流雅士赏玩珍宝，<NL>又于三吴都会江南·杭州，此等繁华之地设立分部……”",
       "ru": "\"Цзянлин, древняя столица империи, привлекает дворян со вкусом к редкостям,<NL>что, естественно, привело к тому, что \"Павильон чудес\" основал свою штаб-квартиру в Цзянлине, Цзиннань.<NL>Его филиал в Ханчжоу, Цзяннань, обслуживает элиту этого сверкающего мегаполиса...\"",
       "status": "machine",
-      "srcHash": "c89f1bbc8239e297",
+      "srcHash": "9356336dfefcc861",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "6f7c73ec-db3d-4f23-90c5-0af052f309d6/Option_1": {
       "en": "(I see...)",
       "cn": "（原来如此……）\n",
       "ru": "(Я вижу...)",
       "status": "machine",
-      "srcHash": "35e816479365a5c3",
+      "srcHash": "58320766025caf66",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "b46ef130-b9d9-45da-9f6b-760a5c00c297/EventContent": {
       "en": "\"The Grand Armory welcomes talent from anywhere.<NL>Its headquarters stand in Fuzhou, Fujian, a bustling hub,<NL>while its branch thrives in the Capital Jingji's merchant-packed streets...\"",
       "cn": "“大武魁不问出处，广纳贤才，<NL>于人口众多的繁荣之地，福建·福州，设立总部，<NL>后又于商贾络绎、财货云集之地，京畿·京城，设立分部……”",
       "ru": "\"Великая оружейная палата приветствует Таланты из любой точки мира.<NL>Штаб-квартира компании находится в Фучжоу, Фуцзянь, оживленном центре,<NL>в то время как его филиал процветает на переполненных Торговцами улицах столицы Цзинцзи...\"",
       "status": "machine",
-      "srcHash": "4f84b37a8a98fbd3",
+      "srcHash": "4045d6d7c63109cb",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "b46ef130-b9d9-45da-9f6b-760a5c00c297/Option_1": {
       "en": "(I see...)",
       "cn": "（原来如此……）\n",
       "ru": "(Я вижу...)",
       "status": "machine",
-      "srcHash": "35e816479365a5c3",
+      "srcHash": "58320766025caf66",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "056a907b-bcb9-41ef-8bd4-c6c3b54f3410/EventContent": {
       "en": "\"The rarest treasures flow first to the guild headquarters.<NL>Branches offer fine wares too, but none match the main halls' exclusivity...\"",
       "cn": "“最稀罕的物件，最紧俏的货品，可都紧着商会总部供应，<NL>分部的东西亦好，只不过比不上总部的珍奇罢了……”",
       "ru": "- Самые редкие сокровища сначала поступают в штаб-квартиру Гильдии.<NL>Филиалы тоже предлагают изысканные товары, но ни один из них не сравнится с эксклюзивностью основных залов...\"",
       "status": "machine",
-      "srcHash": "c0b5999723014a8b",
+      "srcHash": "b6120420a310db33",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "056a907b-bcb9-41ef-8bd4-c6c3b54f3410/Option_1": {
       "en": "I see...",
       "cn": "我知晓了……\n",
       "ru": "Я понимаю...",
       "status": "machine",
-      "srcHash": "c500fbb9698454bc",
+      "srcHash": "79e1c98d76148668",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7c6c07a8-eb97-4631-8dcd-ce6233400e0c/EventContent": {
       "en": "\"Each guild has its own history and specialties.<NL>Simply seek what you need from the right one...\"",
       "cn": "“各大商会，各有渊源，所贩之物自然各异<NL>只看阁下需要何物，自与对应的商会购买即可……”",
       "ru": "- У каждой Гильдии есть своя история и особенности.<NL>Просто ищите то, что вам нужно, у правильного человека...\"",
       "status": "machine",
-      "srcHash": "cec347146d0a9d08",
+      "srcHash": "80d95389f3a584f7",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7c6c07a8-eb97-4631-8dcd-ce6233400e0c/Option_1": {
       "en": "What does Vault of Volumes trade?",
       "cn": "文山书海阁有何所贩之物？",
       "ru": "Чем торгует Vault of Volumes?",
       "status": "machine",
-      "srcHash": "2401e2439d79ab69",
+      "srcHash": "71409e828a5efaf0",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7c6c07a8-eb97-4631-8dcd-ce6233400e0c/Option_2": {
       "en": "What does Gongshu's Caravan trade?",
       "cn": "公输坊有何所贩之物？",
       "ru": "Чем торгует Караван Гуншу?",
       "status": "machine",
-      "srcHash": "dc4e8d591af92e8b",
+      "srcHash": "aa6946c330168081",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7c6c07a8-eb97-4631-8dcd-ce6233400e0c/Option_3": {
       "en": "What does the Revival Apothecary trade?",
       "cn": "回春堂有何所贩之物？",
       "ru": "Чем торгует аптека \"Возрождение\"?",
       "status": "machine",
-      "srcHash": "d307c846fd133d8e",
+      "srcHash": "9d127686a897856e",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7c6c07a8-eb97-4631-8dcd-ce6233400e0c/Option_4": {
       "en": "What does the Oxback Caravan trade?",
       "cn": "服牛帮有何所贩之物？",
       "ru": "Чем торгует Караван на бычьих спинах?",
       "status": "machine",
-      "srcHash": "0cd93f5f330ee26f",
+      "srcHash": "91451a8de6d3e784",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7c6c07a8-eb97-4631-8dcd-ce6233400e0c/Option_5": {
       "en": "What does the Yangtze Merchant League trade?",
       "cn": "五湖商会有何所贩之物？",
       "ru": "Чем торгует Лига Торговцев Янцзы?",
       "status": "machine",
-      "srcHash": "9dfd4b16a1a4755b",
+      "srcHash": "c99fab8a9f3d579a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7c6c07a8-eb97-4631-8dcd-ce6233400e0c/Option_6": {
       "en": "What does Pavilion of Wonders trade?",
       "cn": "奇货斋有何所贩之物？",
       "ru": "Чем торгует \"Павильон чудес\"?",
       "status": "machine",
-      "srcHash": "e6f9d51d64ffb5c9",
+      "srcHash": "5b0abdf0f937ff44",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7c6c07a8-eb97-4631-8dcd-ce6233400e0c/Option_7": {
       "en": "What does the Grand Armory sell?",
       "cn": "大武魁有何所贩之物？",
       "ru": "Что продает \"Гранд Армори\"?",
       "status": "machine",
-      "srcHash": "4102437130fdad7d",
+      "srcHash": "7873718fb62e3cae",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7c6c07a8-eb97-4631-8dcd-ce6233400e0c/Option_8": {
       "en": "I see...",
       "cn": "我知晓了……\n",
       "ru": "Я понимаю...",
       "status": "machine",
-      "srcHash": "c500fbb9698454bc",
+      "srcHash": "79e1c98d76148668",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "9c350207-d162-4be7-974b-e61978531a04/EventContent": {
       "en": "\"Rising in the glorious Tang era and waning in times of chaos,<NL>Vault of Volumes now thrives once more thanks to rare texts and ancient tomes that scholars and artists gathered...<NL><NL>Should you seek books on Fine Arts, look no further than Vault of Volumes...\"",
       "cn": "“文山书海阁兴于盛唐，衰于乱世，<NL>如今幸得有识之士集篇章、拓丹青，收得天下典籍……<NL><NL>阁下若需技艺类书籍，可于文山书海阁处购得……”",
       "ru": "\"Расцвет в славную эпоху Тан и упадок во времена хаоса,<NL>Хранилище томов теперь снова процветает благодаря редким текстам и древним фолиантам, собранным учеными и художниками...<NL><NL>Если вы ищете книги по Ремеслу, не заглядывайте дальше Хранилища томов...\"",
       "status": "machine",
-      "srcHash": "f6e05f7b1897a3d5",
+      "srcHash": "7668295d01dd8bdc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "9c350207-d162-4be7-974b-e61978531a04/Option_1": {
       "en": "(I see...)",
       "cn": "（原来如此……）\n",
       "ru": "(Я вижу...)",
       "status": "machine",
-      "srcHash": "35e816479365a5c3",
+      "srcHash": "58320766025caf66",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "cd6bbfcb-395d-43e5-8c75-a8cb035de66e/EventContent": {
       "en": "\"Founded by the great craftsman Lu Ban himself, Gongshu's Caravan has endured for centuries.<NL>It was their mastery over mechanisms that enabled the construction of outposts and Way Stations when the world fell into disorder...<NL>Otherwise, the Lost Blackstone Land might still be blocking connections of the world...<NL><NL>If you seek core materials, wooden vehicle or smithing tools,<NL>Gongshu's Caravan is where you'll find them...\"",
@@ -728,9 +728,9 @@
       "cn": "（原来如此……）\n",
       "ru": "(Я вижу...)",
       "status": "machine",
-      "srcHash": "35e816479365a5c3",
+      "srcHash": "58320766025caf66",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "8ac0e2b8-aa9f-4f0e-ac67-e8ba31fbb4d2/EventContent": {
       "en": "\"Formed by traveling physicians from across the land,<NL>the Revival Apothecaryis a place of healing. It once followed the legacy of Sun Simiao, the King of Medicine...<NL><NL>Should you require medicines, poisons, or tools of healing or toxicology for the Medical Arts,<NL>the Revival Apothecary has what you need...\"",
@@ -746,9 +746,9 @@
       "cn": "（原来如此……）\n",
       "ru": "(Я вижу...)",
       "status": "machine",
-      "srcHash": "35e816479365a5c3",
+      "srcHash": "58320766025caf66",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "2b7e0232-6959-486d-93ae-fefe5421a523/EventContent": {
       "en": "\"While the cities fell silent in the wake of Xiangshu, the humble porter gangs of the countryside endured.<NL>Passed down for generations, the Oxback Caravan now stands as the largest merchant guild of all...<NL><NL>If you're looking for food, wild fruits, culinary arts tools, or mounts,<NL>the Oxback Caravan has it all...\"",
@@ -764,9 +764,9 @@
       "cn": "（原来如此……）\n",
       "ru": "(Я вижу...)",
       "status": "machine",
-      "srcHash": "35e816479365a5c3",
+      "srcHash": "58320766025caf66",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "2564d224-9dc7-4337-a6d2-d05e290b0f67/EventContent": {
       "en": "\"Established in the Tang Dynasty, the Yangtze Merchant League suffered during Xiangshu,<NL>yet rose again through its ties to trade and the liquor business.<NL>Their influence spreads far and wide, and today, they are second in power only to Gongshu's Caravan...<NL><NL>For tea, wine, and all kinds of local produce, seek out the Yangtze Merchant League...\"",
@@ -782,72 +782,72 @@
       "cn": "（原来如此……）\n",
       "ru": "(Я вижу...)",
       "status": "machine",
-      "srcHash": "35e816479365a5c3",
+      "srcHash": "58320766025caf66",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "a34951bd-fb8f-404a-9cf7-463f0531c013/EventContent": {
       "en": "\"Pavilion of Wonders emerged quietly after Xiangshu,<NL>backed by nobles from all regions and gathering strange and exotic treasures from across the land...<NL><NL>If it's rare artifacts and precious relics you desire, Pavilion of Wonders is your destination...\"",
       "cn": "“奇货斋，于相枢之祸后悄然现世，<NL>由各地权贵扶持而建，聚得天下奇珍异宝……<NL><NL>阁下若需宝器宝物，可于奇货斋处购得……”",
       "ru": "\"Павильон чудес тихо возник после Сяншу,<NL>поддерживаемый знатью из всех регионов и собирающий странные и экзотические сокровища со всей страны...<NL><NL>Если вам нужны редкие артефакты и драгоценные реликвии, Павильон чудес - ваш пункт назначения...\"",
       "status": "machine",
-      "srcHash": "fda145f1859f335d",
+      "srcHash": "7c0fa3f69b057587",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "a34951bd-fb8f-404a-9cf7-463f0531c013/Option_1": {
       "en": "(I see...)",
       "cn": "（原来如此……）\n",
       "ru": "(Я вижу...)",
       "status": "machine",
-      "srcHash": "35e816479365a5c3",
+      "srcHash": "58320766025caf66",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "e2053a45-e872-4ac9-9cbc-938f1dba630e/EventContent": {
       "en": "\"Born from martial sects, the Champion's Armaments has brought together renowned artisans and forged a legacy of weaponry. Though the youngest of the seven guilds, it quickly rose to prominence. If you're in need of swords, spears, armor, or rare materials, visit Grand Armory...\"",
       "cn": "“大武魁商号，依门派而立，<NL>汇聚四方名匠，兴打铁之业，是七大商会中的后起之秀……<NL><NL>阁下若需刀枪剑戟、金丝玉甲，可于大武魁处购得……”",
       "ru": "\"Рожденный боевыми сектами, the Champion's Armaments объединил известных мастеров и создал оружейное наследие. Несмотря на то, что она была самой молодой из семи Гильдий, она быстро завоевала известность. Если вам нужны мечи, копья, Броня или редкие материалы, посетите Великую оружейную палату...\"",
       "status": "machine",
-      "srcHash": "ebec673c1b8bd268",
+      "srcHash": "d88dbad3931aced5",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "e2053a45-e872-4ac9-9cbc-938f1dba630e/Option_1": {
       "en": "(I see...)",
       "cn": "（原来如此……）\n",
       "ru": "(Я вижу...)",
       "status": "machine",
-      "srcHash": "35e816479365a5c3",
+      "srcHash": "58320766025caf66",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "5fea16df-a28f-4272-9fbf-da457db70816/EventContent": {
       "en": "\"Excellent!<NL>These are the wares we {0} have brought this season. If anything catches your eye, feel free...\"<NL><NL>The merchant bows politely and steps aside, revealing the goods laid out...",
       "cn": "“如此甚好！<NL>这些均是我{0}此行待售的物件，阁下可有所需，尽管看看……”<NL><NL>领头人说罢躬身一让，随即展出商队所载物件……",
       "ru": "- Превосходно!<NL>Это те товары, которые мы {0} привезли в этом сезоне. Если что-то привлечет ваше внимание, не стесняйтесь...\"<NL><NL>Торговец вежливо кланяется и отходит в сторону, показывая разложенный товар...",
       "status": "machine",
-      "srcHash": "4ad6207f92a2bf1a",
+      "srcHash": "61e2a2a519512d5a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "5fea16df-a28f-4272-9fbf-da457db70816/Option_1": {
       "en": "(Browse goods...)",
       "cn": "（浏览商品……）",
       "ru": "(Просмотрите товары...)",
       "status": "machine",
-      "srcHash": "7dcca218d100bc6c",
+      "srcHash": "4b9396f76addea6a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "5fea16df-a28f-4272-9fbf-da457db70816/Option_2": {
       "en": "(Bid farewell...)",
       "cn": "（就此别过……）\n",
       "ru": "(Попрощаться...)",
       "status": "machine",
-      "srcHash": "30e2e4c9aced0806",
+      "srcHash": "5547de5e5103ebee",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "a015dd64-0ee8-49e1-8bd7-461290a7b417/EventContent": {
       "en": "The merchant counted the Silvers and gave a fist-and-palm salute with a grin,<NL><NL>\"Taiwu, you are really generous!<NL>Caravans bring new goods every month. You are welcome to visit our guild more often.<NL>When we get to know each other well enough, I'll offer you rare items for old sake's sake...\"<NL><NL><color=#lightgrey>(The higher a guild's Favorability, the higher-tier items the guild will offer.)",
@@ -863,9 +863,9 @@
       "cn": "我知晓了……\n",
       "ru": "Я понимаю...",
       "status": "machine",
-      "srcHash": "c500fbb9698454bc",
+      "srcHash": "79e1c98d76148668",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "927882b1-4c97-49d9-9385-85e25fb2e36c/EventContent": {
       "en": "The merchant put away the goods and gave a fist-and-palm salute with a grin,<NL><NL>\"Caravans bring new goods every month. If you need anything, come to me.<NL>When we get to know each other well enough after several deals,<NL>I'll offer you rare items for old sake's sake...\"<NL><NL><color=#lightgrey>(The higher a guild's Favorability, the higher-tier items the guild will offer.)",
@@ -881,117 +881,117 @@
       "cn": "如此倒无不可……\n",
       "ru": "Это кажется разумным...",
       "status": "machine",
-      "srcHash": "87164969afd9301a",
+      "srcHash": "fa689803bc2b1641",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "ebe0f693-666d-4b67-b468-e5a7ed2a1a5d/EventContent": {
       "en": "\"Bad luck for you, merchants!<NL>Hand over your goods now—unless you want trouble!\"<NL><NL><Character key=RoleTaiwu str=Name /> hears the commotion ahead and approaches,<NL>turns out a gang of armed brutes blocking the road, ready to rob the passing caravan...",
       "cn": "“今日且算你等倒霉，路过此地，<NL>还不快快交出身上钱财货物，免得招来杀身之祸！”<NL><NL><Character key=RoleTaiwu str=Name />听闻前有叫嚷之声，上前一看，<NL>原来竟是一伙凶神恶煞的匪徒，横刀拦下了正在行路的商队，意欲抢夺财物……",
       "ru": "- Не повезло вам, Торговцы!<NL>Отдавайте свой товар сейчас же — если не хотите неприятностей!\"<NL><NL><Character key=RoleTaiwu str=Name /> слышит шум впереди и приближается,<NL>оказывается, банда вооруженных головорезов перекрыла дорогу, готовая ограбить проходящий Караван...",
       "status": "machine",
-      "srcHash": "58e29118f1536c48",
+      "srcHash": "43e33b9c792f48d4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "ebe0f693-666d-4b67-b468-e5a7ed2a1a5d/Option_1": {
       "en": "You're robbing people in broad daylight? (Fight!)",
       "cn": "光天化日，岂能容你放肆！（出手一战！）",
       "ru": "Ты грабишь людей средь бела дня? (Сражайся!)",
       "status": "machine",
-      "srcHash": "f25f66d4cddca577",
+      "srcHash": "d2159917835b6cd2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "ebe0f693-666d-4b67-b468-e5a7ed2a1a5d/Option_2": {
       "en": "(Don't interfere and walk away...)",
       "cn": "（无意出手，离开此地……）\n",
       "ru": "(Не вмешивайся и уходи...)",
       "status": "machine",
-      "srcHash": "5b488652051e0130",
+      "srcHash": "cc242ed6e026eea7",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "1d6c93ae-f64d-44e5-b4ba-1afd355c30d5/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> defeats the bandits decisively.<NL>With the danger gone, the merchants express their deepest thanks, clearly impressed by <Character key=RoleTaiwu str=Name />.<NL>After a round of gratitude, they regroup and continue their journey...",
       "cn": "<Character key=RoleTaiwu str=Name />出手克敌，终是将拦路的匪徒彻底击退！<NL>受劫的商队见前路无虞，顿时千恩万谢，只对<Character key=RoleTaiwu str=Name />钦佩不已，<NL>一番拜谢后又再次启程，继续前行……",
       "ru": "<Character key=RoleTaiwu str=Name /> решительно побеждает бандитов.<NL>Теперь, когда опасность миновала, торговцы выражают свою глубочайшую благодарность, явно впечатленные <Character key=RoleTaiwu str=Name />.<NL>Поблагодарив друг друга, они перегруппировываются и продолжают свой путь...",
       "status": "machine",
-      "srcHash": "abb2181cdd4602c3",
+      "srcHash": "0aaaeb6ea3fb406b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "1d6c93ae-f64d-44e5-b4ba-1afd355c30d5/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "cd8e5cb2900ce236",
+      "srcHash": "49b4c100a7a92e67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "c6968d52-7fc7-48fb-b0b2-a9d3a3d33f06/EventContent": {
       "en": "\"Hah! You dare stand against us? Foolish!<NL>This haul is ours now...\"<NL><NL><Character key=RoleTaiwu str=Name /> is overwhelmed and can only watch as the bandits loot the caravan and disappear into the wilderness...<NL><NL>(Caravan profits significantly reduced due to robbery...)",
       "cn": "“哼！敢与我等作对，皆不过是枉费工夫！<NL>这些货物咱们便收下了……”<NL><NL><Character key=RoleTaiwu str=Name />一时不敌，只得任由匪徒劫去商队财物，扬长而去……<NL><NL>（因遭到匪徒劫掠，商队的收益大幅降低了……）",
       "ru": "- Ха! Ты смеешь выступать против нас? Глупо!<NL>Теперь этот улов наш...\"<NL><NL><Character key=RoleTaiwu str=Name /> он ошеломлен и может только наблюдать, как бандиты грабят Караван и исчезают в пустыне...<NL><NL>(Прибыль Каравана значительно сократилась из-за грабежа...)",
       "status": "machine",
-      "srcHash": "61b38d4c92713657",
+      "srcHash": "3000fcf0ed87ca8a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "c6968d52-7fc7-48fb-b0b2-a9d3a3d33f06/Option_1": {
       "en": "(Feeling helpless...)",
       "cn": "（无可奈何……）\n",
       "ru": "(Чувствуя себя беспомощным...)",
       "status": "machine",
-      "srcHash": "da35b0984e20c125",
+      "srcHash": "5691b4a745fc1790",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "0710cca8-5f52-43e0-9772-333cad5cdcc9/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> considers the situation and deliberately walks away,<NL>leaving the bandits to rob the defenseless caravan...",
       "cn": "<Character key=RoleTaiwu str=Name />心中另有计较，<NL>只得任由匪徒拦劫商队，转身离开了此地……",
       "ru": "<Character key=RoleTaiwu str=Name /> обдумывает ситуацию и намеренно уходит,<NL>оставив бандитов грабить беззащитный Караван...",
       "status": "machine",
-      "srcHash": "3d23faf9497315b1",
+      "srcHash": "99e79ba69a30d0e3",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "0710cca8-5f52-43e0-9772-333cad5cdcc9/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "83ae9ac1-bb18-4cb3-b831-bd088fcdeea6/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "080664cc-a0cd-446e-9f03-7299e21bfc7f/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> defeated <Character key=Prisoner str=Name/>,<NL>and firmly restrained <Character key=Prisoner str=Name/> to the ground...",
       "cn": "<Character key=RoleTaiwu str=Name/>将<Character key=Prisoner str=Name/>击倒在地，<NL>并将<Character key=Prisoner str=Name/>五花大绑……",
       "ru": "<Character key=RoleTaiwu str=Name/> побежденный <Character key=Prisoner str=Name/>,<NL>и крепко сдержанный <Character key=Prisoner str=Name/> на землю...",
       "status": "machine",
-      "srcHash": "9b05c2c682df3bd0",
+      "srcHash": "7a118d26522b0d40",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "080664cc-a0cd-446e-9f03-7299e21bfc7f/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "cd8e5cb2900ce236",
+      "srcHash": "49b4c100a7a92e67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     }
   }
 }

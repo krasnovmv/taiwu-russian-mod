@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
   "file": "Event_Languages/Taiwu_EventPackage_TaiwuAppointment_Language_EN.txt",
-  "glossaryVersion": 5,
+  "glossaryVersion": 6,
   "units": {
     "53bf1bb3-0e24-4be4-9d5a-031078fa59bf/EventContent": {
       "en": "nan",
       "cn": "",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "4a3ea05f-b232-487a-a6e2-482fa29b7dbc/EventContent": {
       "en": "Send a letter via a cloud-soaring pigeon, as the fluttering wings flying far away.<NL><Character key=RoleTaiwu str=Name/> waited patiently for a long time. As dusk approached,<NL>the homing pigeon finally returned with a letter in its beak, leisurely flapping its wings...",
       "cn": "寄书云间鸽，翼翼向远去。<NL><Character key=RoleTaiwu str=Name/>静心等待许久，待得天色渐晚时，<NL>终于见那信鸽喙衔回信，悠悠振翅，翩飞而返……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "76628b00f4359edb",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Отправьте письмо с помощью парящего в облаках голубя, который, трепеща крыльями, улетает далеко-далеко.<NL><Character key=RoleTaiwu str=Name/> долго и терпеливо ждал. Приближались сумерки,<NL>почтовый голубь наконец вернулся с письмом в клюве, неторопливо хлопая крыльями...",
+      "status": "machine",
+      "srcHash": "6ba5decf2d7d428a",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "4a3ea05f-b232-487a-a6e2-482fa29b7dbc/Option_1": {
       "en": "(Check the reply...)",
       "cn": "（查看回信……）\n",
       "ru": "(Проверьте ответ...)",
       "status": "machine",
-      "srcHash": "3888a9e2a04400e9",
+      "srcHash": "07d06d2ea03cb7ab",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "eae3936b-a0de-4f21-8504-94c7faf4831e/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> took the reply letter, unfolded it, and read carefully.<NL>On the letter stated:<NL>\"Thank you for your invitation, but I am currently occupied with important matters and find it difficult to accept the appointment at this time...\"<NL><Character key=CharacterId str=Name/>, being preoccupied with urgent matters, could only decline <Character key=RoleTaiwu str=Name/>'s invitation...",
@@ -44,9 +44,9 @@
       "cn": "（只得如此……）\n",
       "ru": "(Да будет так...)",
       "status": "machine",
-      "srcHash": "76bb94ba87e9e5c3",
+      "srcHash": "01b0899ba702e1aa",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "cbbe9f67-ba52-4196-9c5b-49942cabaef4/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> took the reply letter, unfolded it, and read carefully.<NL>The letter says: <NL>\"Since I have received your letter of invitation, I will set off now to meet you at the agreed place...\"<NL><Character key=CharacterId str=Name/> gladly accepted <Character key=RoleTaiwu str=Name/>'s invitation and has now set off to keep the appointment...<NL><NL><color=#lightgrey> (<Character key=CharacterId str=Name/> will arrive at the agreed place after a period of time...) </color>",
@@ -62,9 +62,9 @@
       "cn": "（如此便好……）\n",
       "ru": "(Это здорово...)",
       "status": "machine",
-      "srcHash": "9dab10564cf0abd9",
+      "srcHash": "63084af54f1c13c6",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     }
   }
 }

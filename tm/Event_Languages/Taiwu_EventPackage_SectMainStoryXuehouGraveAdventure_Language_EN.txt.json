@@ -1,88 +1,88 @@
 {
   "schemaVersion": 1,
   "file": "Event_Languages/Taiwu_EventPackage_SectMainStoryXuehouGraveAdventure_Language_EN.txt",
-  "glossaryVersion": 5,
+  "glossaryVersion": 6,
   "units": {
     "0ca61731-4022-4f34-b341-0ec7d94a1740/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> refuses to fight<NL>while the skeleton has blocked <Character key=RoleTaiwu str=GenderPossessive/> way out. So <Character key=RoleTaiwu str=GenderSubject/> pushes the skeleton away and flees...",
       "cn": "<Character key=RoleTaiwu str=Name/>不愿应战，<NL>又遭阻挡前路，便伸手猛地推开骷髅，逃之夭夭……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "c881b9638d625f6f",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> отказывается сражаться<NL>в то время как скелет заблокировал <Character key=RoleTaiwu str=GenderPossessive/> выход. Итак <Character key=RoleTaiwu str=GenderSubject/> отталкивает скелет и убегает...",
+      "status": "machine",
+      "srcHash": "d5b24536ce1629bd",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "0ca61731-4022-4f34-b341-0ec7d94a1740/Option_1": {
       "en": "(Escape this place...)",
       "cn": "（逃离此地……）\n",
       "ru": "(Сбежать из этого места...)",
       "status": "machine",
-      "srcHash": "16e62b215382020a",
+      "srcHash": "51daeeb7d134ac67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c5baa339-330c-41c3-8cce-d6ca49c3a780/EventContent": {
       "en": "As <Character key=RoleTaiwu str=Name/> dodges the Red-Robed Senior,<NL><Character key=RoleTaiwu str=GenderSubject/> spins around and is met by the deathly gaze of a risen skeleton!<NL>Its bones clack, its jaw hanging loose. Escape is impossible...",
       "cn": "<Character key=RoleTaiwu str=Name/>避那红衣老人不及，<NL>乍一转头，竟与一复生骷髅颜面相贴！<NL>眼前骨骸喀哒作响，此时已是绝难逃脱……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "895a85ae7d850cc0",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Как <Character key=RoleTaiwu str=Name/> уворачивается от старшего в красном,<NL><Character key=RoleTaiwu str=GenderSubject/> оборачивается и натыкается на смертельный взгляд восставшего скелета!<NL>Его кости клацают, челюсть отвисает. Побег невозможен...",
+      "status": "machine",
+      "srcHash": "7bdcbc9d24a72318",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "c5baa339-330c-41c3-8cce-d6ca49c3a780/Option_1": {
       "en": "(Engage in battle!)",
       "cn": "（出手应战！）",
       "ru": "(Вступайте в бой!)",
       "status": "machine",
-      "srcHash": "9a56839a8b852dcc",
+      "srcHash": "b85e42bb687394b7",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c5baa339-330c-41c3-8cce-d6ca49c3a780/Option_2": {
       "en": "(Dodge swiftly...) <color=#darkgrey>[Agility Cost: 50]</color>",
       "cn": "（灵活闪避……）<color=#darkgrey>[消耗灵敏：50]</color>",
       "ru": "(Быстро уклоняйся от Уклонения...) <color=#darkgrey>[Стоимость Проворства: 50]</color>",
       "status": "machine",
-      "srcHash": "e6d1acdef84a79e8",
+      "srcHash": "cb99da1ce7dee014",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c5baa339-330c-41c3-8cce-d6ca49c3a780/Option_3": {
       "en": "(Brave through...) <color=#darkgrey>[Strength Cost: 50]</color>",
       "cn": "（横闯过去……）<color=#darkgrey>[消耗膂力：50]</color>",
       "ru": "(Храбрый до конца...) <color=#darkgrey>[Стоимость Силы: 50]</color>",
       "status": "machine",
-      "srcHash": "119e8f6513349195",
+      "srcHash": "d6e747bea94ef3f8",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c5baa339-330c-41c3-8cce-d6ca49c3a780/Option_4": {
       "en": "(Hold breath...) <color=#darkgrey>[Willpower Cost: 50]</color>",
       "cn": "（屏住呼吸……）<color=#darkgrey>[消耗定力：50]</color>\n",
       "ru": "(Задержите дыхание...) <color=#darkgrey>[Стоимость использования Силы воли: 50]</color>",
       "status": "machine",
-      "srcHash": "92bd1bc7fc7b8531",
+      "srcHash": "2d63b5b7d82e055a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "edc83805-2e49-4787-9936-c2969d83ac82/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> refuses to fight and pushes with all his might.<NL>Taking advantage of the skeleton's swaying figure, <Character key=RoleTaiwu str=GenderSubject/> flees quickly...",
       "cn": "<Character key=RoleTaiwu str=Name/>不愿应战，只奋力一推，<NL>便趁那骷髅身形摇晃之际，逃之夭夭……",
       "ru": "<Character key=RoleTaiwu str=Name/> отказывается бороться и толкает изо всех сил.<NL>Воспользовавшись покачивающейся фигурой скелета, <Character key=RoleTaiwu str=GenderSubject/> быстро убегает...",
       "status": "machine",
-      "srcHash": "a0739afc2705c475",
+      "srcHash": "0679363a1a6a01ab",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "edc83805-2e49-4787-9936-c2969d83ac82/Option_1": {
       "en": "(Escape this place...)",
       "cn": "（逃离此地……）\n",
       "ru": "(Сбежать из этого места...)",
       "status": "machine",
-      "srcHash": "16e62b215382020a",
+      "srcHash": "51daeeb7d134ac67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "7d3f4415-1bd7-48c4-afde-f83196e2422c/EventContent": {
       "en": "The girl does not finish her words, but remains silent, letting out a soft sigh.<NL>She continues to guide the way for <Character key=RoleTaiwu str=Name/>, and when encountering a blocked tomb door, she uses a spell to open it wide.<NL><Character key=RoleTaiwu str=Name/> evades the pursuit of the Red-Robed Senior, holds the girl in his arms,<NL>and after some maneuvering, they finally see a glimmer of light ahead, accompanied by a gentle breeze...",
@@ -98,9 +98,9 @@
       "cn": "前方必是出路……\n",
       "ru": "Выход, должно быть, впереди...",
       "status": "machine",
-      "srcHash": "b65c5259d643a15e",
+      "srcHash": "900d4cea7d1a4168",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "050db466-badb-4abc-814f-ef92dfdad85c/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> feels anxious, seizes the opportunity and hastens <Character key=RoleTaiwu str=GenderPossessive/> climbing.<NL>Without hesitation, <Character key=RoleTaiwu str=GenderSubject/> pushes the girl out of the tomb first. Once <Character key=RoleTaiwu str=GenderSubject/> exits the tomb <Character key=RoleTaiwu str=GenderObject/>self, following the girl's instructions, <Character key=RoleTaiwu str=GenderSubject/> swiftly closes the tomb door, trapping the old man's roars inside...",
@@ -116,9 +116,9 @@
       "cn": "这老人实在难缠，所幸你我无碍……\n",
       "ru": "С этим стариком действительно трудно иметь дело, к счастью, мы с тобой невредимы...",
       "status": "machine",
-      "srcHash": "a04d60b5c0154d35",
+      "srcHash": "78e7ebe8df9e77f2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "d5b68e16-10dd-4d70-8dc2-add3779331e4/EventContent": {
       "en": "The path underfoot is dark and unclear, as <Character key=RoleTaiwu str=GenderSubject/> delves deeper into it, <Character key=RoleTaiwu str=GenderSubject/> feel that <Character key=RoleTaiwu str=GenderSubject/> has got lost, as if falling into darkness.<NL>Only the sound of objects colliding somewhere can be faintly heard. *thud*<NL>The sound drifts away and gets close, making it hard to tell where it comes from...",
@@ -134,63 +134,63 @@
       "cn": "任你何种妖魔鬼怪，只待我斩妖除魔，为民除害！",
       "ru": "Каким бы призраком ты ни был, я убью тебя и спасу людей от беды!",
       "status": "machine",
-      "srcHash": "9378132b7e696a9b",
+      "srcHash": "ceedba8e6505fe90",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "d5b68e16-10dd-4d70-8dc2-add3779331e4/Option_2": {
       "en": "This ancient tomb is creepy. It seems that some demons are lurking here, I wonder if they would harm people...",
       "cn": "古墓诡谲，似有妖邪藏身，不知是否害人性命……",
       "ru": "Эта древняя гробница наводит ужас. Кажется, что здесь прячутся какие-то демоны, интересно, могут ли они причинить вред людям...",
       "status": "machine",
-      "srcHash": "eb9f1beff0c7bd5e",
+      "srcHash": "1b902f37db9672ef",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "d5b68e16-10dd-4d70-8dc2-add3779331e4/Option_3": {
       "en": "This place looks really strange and appalling. This is so unusual, I must explore it thoroughly...",
       "cn": "此处怎生如此怪异可怖，实不寻常，须得探个究竟……",
       "ru": "Это место выглядит действительно странным и ужасающим. Это настолько необычно, что я должен изучить это досконально...",
       "status": "machine",
-      "srcHash": "3a68294f48e13a5e",
+      "srcHash": "2e9c1f090363e302",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "d5b68e16-10dd-4d70-8dc2-add3779331e4/Option_4": {
       "en": "Be it a ghost or a demon, this would be so funny. Let me explore every single corner of this tomb!",
       "cn": "何处妖鬼，实在有趣，我便将你这墓穴翻个底朝天罢！",
       "ru": "Будь это призрак или демон, это было бы так забавно. Позвольте мне исследовать каждый уголок этой гробницы!",
       "status": "machine",
-      "srcHash": "7c3d1bf34c430b47",
+      "srcHash": "d2b5892e7395648b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "d5b68e16-10dd-4d70-8dc2-add3779331e4/Option_5": {
       "en": "If there are relics in the tomb, facing some ghosts or demons would not be that terrifying...",
       "cn": "墓中若有宝物，区区妖邪作祟，倒也不足为惧……\n",
       "ru": "Если в гробнице есть реликвии, встреча с какими-нибудь призраками или демонами была бы не такой уж страшной...",
       "status": "machine",
-      "srcHash": "d0502e9efabe9da9",
+      "srcHash": "e31f5a561d9638b2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c46bc706-f8ec-4f1a-920f-974d3e82506e/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> refuses to fight<NL>while the skeleton is standing in <Character key=RoleTaiwu str=GenderPossessive/> way out, so <Character key=RoleTaiwu str=GenderSubject/> pushes the skeleton away with all <Character key=RoleTaiwu str=GenderPossessive/> strength and flees...",
       "cn": "<Character key=RoleTaiwu str=Name/>不愿应战，<NL>又与骷髅狭路相逢，便拼尽全力推开骷髅，终是逃之夭夭……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "27cf9781d3fb4810",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> отказывается сражаться<NL>в то время как скелет стоит в <Character key=RoleTaiwu str=GenderPossessive/> выход, так что <Character key=RoleTaiwu str=GenderSubject/> отталкивает скелет со всей силой <Character key=RoleTaiwu str=GenderPossessive/> Сила и убегает...",
+      "status": "machine",
+      "srcHash": "4eb8266f5274a358",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "c46bc706-f8ec-4f1a-920f-974d3e82506e/Option_1": {
       "en": "(Escape this place...)",
       "cn": "（逃离此地……）\n",
       "ru": "(Сбежать из этого места...)",
       "status": "machine",
-      "srcHash": "16e62b215382020a",
+      "srcHash": "51daeeb7d134ac67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "05952508-e820-4cb6-b2a0-962d3429f767/EventContent": {
       "en": "Upon hearing these words, the girl's look of disgust has not yet dissipated,<NL>but her blood-red eyes begin to scan <Character key=RoleTaiwu str=Name/> up and down.<NL><NL>\"Misunderstanding? If it weren't for you unruly lot... how could he...\"<NL>The girl suddenly stops talking, and from the corner of her eye, she finally sees the decaying white bones all over the ground and seemingly comes to understand something in that instant...",
@@ -206,9 +206,9 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "be71a19e-8665-4b77-bbf8-c0f550db410b/EventContent": {
       "en": "The Red-Robed Senior, though a living corpse, is as tough as steel. Blades and spears cannot harm him at all.<NL>Even though the <Character key=RoleTaiwu str=Name/> fight fiercely with agility, knocking back the old man who spills blood on the ground.<NL>However, the old man stands up again unharmed as if nothing has happened and he has the ability to revive!",
@@ -224,90 +224,90 @@
       "cn": "（邪魔歪道，我岂能死于你手……）\n",
       "ru": "(Этот старик знает несколько демонических трюков, но я ни за что не умру здесь...)",
       "status": "machine",
-      "srcHash": "11a79919c0fde537",
+      "srcHash": "451843ccae0528ac",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "61d050a6-9624-4eb5-aaac-3172f106bad8/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> feels uneasy and anxious<NL>and suddenly hears several harsh sounds clattering.<NL><Character key=RoleTaiwu str=GenderSubject/> looks back and sees a skeleton rising from the ground!",
       "cn": "<Character key=RoleTaiwu str=Name/>正惴惴不安，<NL>忽闻数声酸涩之音，喀哒作响，<NL>回首一望，竟是一具死人骨骸，此时已然曳地而起！",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "a9029b0d282bb34e",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> чувствует себя неловко и тревожно<NL>и вдруг слышит несколько резких грохочущих звуков.<NL><Character key=RoleTaiwu str=GenderSubject/> оглядывается и видит скелет, поднимающийся из земли!",
+      "status": "machine",
+      "srcHash": "3dbf6f30e3108bdf",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "61d050a6-9624-4eb5-aaac-3172f106bad8/Option_1": {
       "en": "(Hurry to fight...)",
       "cn": "（急忙应战……）",
       "ru": "(Спеши в бой...)",
       "status": "machine",
-      "srcHash": "ec0d13796c51cd28",
+      "srcHash": "1819cab78449db7a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "61d050a6-9624-4eb5-aaac-3172f106bad8/Option_2": {
       "en": "(Dodge swiftly...) <color=#darkgrey>[Agility Cost: 50]</color>",
       "cn": "（灵活闪避……）<color=#darkgrey>[消耗灵敏：50]</color>",
       "ru": "(Быстро уклоняйся от Уклонения...) <color=#darkgrey>[Стоимость Проворства: 50]</color>",
       "status": "machine",
-      "srcHash": "e6d1acdef84a79e8",
+      "srcHash": "cb99da1ce7dee014",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "61d050a6-9624-4eb5-aaac-3172f106bad8/Option_3": {
       "en": "(Brave through...) <color=#darkgrey>[Strength Cost: 50]</color>",
       "cn": "（横闯过去……）<color=#darkgrey>[消耗膂力：50]</color>",
       "ru": "(Храбрый до конца...) <color=#darkgrey>[Стоимость Силы: 50]</color>",
       "status": "machine",
-      "srcHash": "119e8f6513349195",
+      "srcHash": "d6e747bea94ef3f8",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "61d050a6-9624-4eb5-aaac-3172f106bad8/Option_4": {
       "en": "(Hold breath...) <color=#darkgrey>[Willpower Cost: 50]</color>",
       "cn": "（屏住呼吸……）<color=#darkgrey>[消耗定力：50]</color>\n",
       "ru": "(Задержите дыхание...) <color=#darkgrey>[Стоимость использования Силы воли: 50]</color>",
       "status": "machine",
-      "srcHash": "92bd1bc7fc7b8531",
+      "srcHash": "2d63b5b7d82e055a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "a40a609d-0b26-4034-9fa0-8638c2d5ff89/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> steps into the tomb chamber,<NL>though it is still dim in front of <Character key=RoleTaiwu str=GenderPossessive/> eyes, the vision is getting clear.<NL>However, the spacious tomb chamber seems cramped and the scene inside is truly horrifying...",
       "cn": "<Character key=RoleTaiwu str=Name/>闪身入得墓室之内，<NL>眼前虽仍是昏黑，却已是豁然开朗，<NL>只是偌大墓室，却显逼仄，盖因此处景象，实是骇目惊心——",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "52b4f2921fbdcc3d",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> ступени в усыпальницу,<NL>хотя перед ним все еще темно <Character key=RoleTaiwu str=GenderPossessive/> глаза, зрение проясняется.<NL>Однако просторная гробница кажется тесной, а сцена внутри поистине ужасающая...",
+      "status": "machine",
+      "srcHash": "d629d83bc3d6d915",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "a40a609d-0b26-4034-9fa0-8638c2d5ff89/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "96a6dffe-bbf8-4cbc-b344-0b14d837a318/EventContent": {
       "en": "Outside the ancient tomb, the air is fresh and the crisis has been resolved.<NL>Feeling a sense of relief, <Character key=RoleTaiwu str=Name/> turns to look at the girl beside <Character key=RoleTaiwu str=GenderObject/>,<NL>only to see her pale face and shaky figure, appearing extremely weak...",
       "cn": "古墓之外，风清气爽，因危机得解，<NL><Character key=RoleTaiwu str=Name/>心下一松，方又望向身侧女童，<NL>却见女童面容惨白，身形摇晃，似是极为虚弱之状……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "80e37ff066f6242a",
-      "engine": null,
-      "updatedAt": null
+      "ru": "За пределами древней гробницы воздух свеж, и кризис разрешился.<NL>Испытывая чувство облегчения, <Character key=RoleTaiwu str=Name/> поворачивается, чтобы посмотреть на девушку рядом <Character key=RoleTaiwu str=GenderObject/>,<NL>только для того, чтобы увидеть ее бледное лицо и шаткую фигуру, казавшуюся чрезвычайно слабой...",
+      "status": "machine",
+      "srcHash": "986fb759c5ea9a2f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "96a6dffe-bbf8-4cbc-b344-0b14d837a318/Option_1": {
       "en": "(Inquire about her situation...)",
       "cn": "（询问伤病……）\n",
       "ru": "(Расспросите о ее ситуации...)",
       "status": "machine",
-      "srcHash": "07e8b43485d52fc6",
+      "srcHash": "9fb5bffdb7f5dc2b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "b71f99ba-78de-4674-b8b6-9acb1b72bd06/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> has no idea how evil the Ultimate Yin Remold is and what unusual things have happened to this tomb.<NL>The connection between the Remold and the tomb is uncanny and hard to resolve for the time being.<NL><Character key=RoleTaiwu str=GenderSubject/> has to proceed into the tomb passage to avoid the old man's assult...",
@@ -323,9 +323,9 @@
       "cn": "（前路似有几分不同……）\n",
       "ru": "(Предстоящий путь кажется немного другим...)",
       "status": "machine",
-      "srcHash": "dc49e93a404a6e00",
+      "srcHash": "8dfe6de492294d6b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "620326a6-13d4-46e9-8a2a-e1893bac47f3/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> refuses to fight<NL>while the skeleton is standing in <Character key=RoleTaiwu str=GenderPossessive/> way out. So <Character key=RoleTaiwu str=GenderSubject/> exerts all <Character key=RoleTaiwu str=GenderPossessive/> strength trying to dodge it, finally able to flee...",
@@ -341,9 +341,9 @@
       "cn": "（逃离此地……）\n",
       "ru": "(Сбежать из этого места...)",
       "status": "machine",
-      "srcHash": "16e62b215382020a",
+      "srcHash": "51daeeb7d134ac67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "05c80711-8321-4033-86c8-416b46c117ae/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> refuses to fight<NL>while the skeleton is standing in <Character key=RoleTaiwu str=GenderPossessive/> way out, so <Character key=RoleTaiwu str=GenderSubject/> holds <Character key=RoleTaiwu str=GenderPossessive/> breath, waits until the skeleton walks away, and flees...",
@@ -359,9 +359,9 @@
       "cn": "（逃离此地……）\n",
       "ru": "(Сбежать из этого места...)",
       "status": "machine",
-      "srcHash": "16e62b215382020a",
+      "srcHash": "51daeeb7d134ac67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "9bef6a86-c1b7-4c3d-b74c-6c0b7d047c05/EventContent": {
       "en": "Before responding, <Character key=RoleTaiwu str=Name/> quickly rushes to protect the girl and leads her to a bright place.<NL>At this moment, the Red-Robed Senior has also caught up, just a few steps away from the duo,<NL>raising his hand forward and cutting off the corners of the duo's clothes in an instant!",
@@ -377,9 +377,9 @@
       "cn": "（不好！）\n",
       "ru": "(О-о-о!)",
       "status": "machine",
-      "srcHash": "eaef6f99663d65a6",
+      "srcHash": "69462dc428ede1bb",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "95a3ef5b-e091-486b-ada6-424ff0767984/EventContent": {
       "en": "Beneath <Character key=RoleTaiwu str=Name/>'s feet are decaying papers and mud, with scattered artifacts.<NL>Behind <Character key=RoleTaiwu str=GenderObject/>, the senior's pursuit echoes ever closer.<NL><Character key=RoleTaiwu str=Name/> dares not slacken for a moment. However, as <Character key=RoleTaiwu str=GenderSubject/> ventures deeper, the tomb passage grows narrower.<NL>The intricately carved patterns on the walls, though damaged, are exceptionally exquisite,<NL>adding to the eerie atmosphere in the darkness...",
@@ -395,45 +395,45 @@
       "cn": "（前方尽处，似是一道墓门……）\n",
       "ru": "(Кажется, в конце коридора есть дверь...)",
       "status": "machine",
-      "srcHash": "aa08f599b6071de9",
+      "srcHash": "ddd70054a27948a4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "f8bc0023-7694-4820-9745-c20860666654/EventContent": {
       "en": "With a shout, <Character key=RoleTaiwu str=Name/> grabs the girl's hand and flees into the secret passage.<NL>The Red-Robed Senior chases closely behind, now in a fit of rage,<NL>causing countless rock fragments and dust to fall as he leaps and bounds after them...",
       "cn": "<Character key=RoleTaiwu str=Name/>一声喝断，<NL>随即一把抓住女童手掌，与她一同遁入密道之中，<NL>那红衣老人紧追身后，此时更是狂性大发，蹦跳间震下无数碎石粉灰……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "fe734bddc74666eb",
-      "engine": null,
-      "updatedAt": null
+      "ru": "С криком, <Character key=RoleTaiwu str=Name/> хватает девушку за руку и убегает в потайной ход.<NL>Старший в красном одеянии преследует его по пятам, теперь уже в припадке ярости,<NL>заставляя падать бесчисленные каменные осколки и пыль, когда он прыгает за ними...",
+      "status": "machine",
+      "srcHash": "df3f83809f5dac59",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "f8bc0023-7694-4820-9745-c20860666654/Option_1": {
       "en": "Don't be afraid, I will protect you!",
       "cn": "你且莫怕，我必护你周全！\n",
       "ru": "Не бойся, я защищу тебя!",
       "status": "machine",
-      "srcHash": "3d641f6c9d008931",
+      "srcHash": "cefac2ca2a14c173",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "1ea36028-7e30-4bca-8e64-5acfa4981e3c/EventContent": {
       "en": "\"Even if we escape together, someday, you and I will be separated again.<NL>Since it is destined to be so, I might as well not leave this tomb today. I'll just protect you and let you leave this place...\"<NL>The girl says with a solemn expression...",
       "cn": "“纵然一同逃离，有朝一日，<NL>你我终将再次分离，既然注定如此，<NL>倒不如今日我便不出此墓，只护你离开此地……”<NL>女童再又说道，神色寂然……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "cc17e9bd236b1587",
-      "engine": null,
-      "updatedAt": null
+      "ru": "- Даже если мы сбежим вместе, однажды мы с тобой снова будем разлучены.<NL>Поскольку так суждено, я мог бы с таким же успехом не покидать эту могилу сегодня. Я просто защищу тебя и позволю тебе покинуть это место...\"<NL>- говорит девушка с серьезным выражением лица...",
+      "status": "machine",
+      "srcHash": "14d160cc617f8110",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "1ea36028-7e30-4bca-8e64-5acfa4981e3c/Option_1": {
       "en": "Girl, what are you talking about? Don't say that! We have to go, now!",
       "cn": "你这姑娘，怎么满口胡言乱语，快与我一同逃出此地！\n",
       "ru": "Девочка, о чем ты говоришь? Не говори так! Нам нужно уходить, сейчас же!",
       "status": "machine",
-      "srcHash": "ed20494da6791479",
+      "srcHash": "e74ffb9244e99e08",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "7913e3b6-182f-4260-8728-a7d7d916ffc7/EventContent": {
       "en": "\"What? I...<NL>I cannot leave this place...\"<NL>The girl's expression shifts slightly and then looks back at the coffin. Although there is reluctance in her eyes,<NL>only old clothes and dry bones remain in the coffin, with any traces of the past long gone.<NL>Yet here, in stark contrast, is <Character key=RoleTaiwu str=Name/>—tangible, immediate, substance over shadow...",
@@ -449,9 +449,9 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "eaffd7dc-7f75-4260-8c2d-b71d4cb18bc2/EventContent": {
       "en": "As <Character key=RoleTaiwu str=Name/> continues forward, the scene becomes increasingly appalling, with no signs of diminishing.<NL>The tomb passage is now filled with darkness, old bloodstains, cobwebs, and dust, yet there are no human skeletons in sight.<NL>Ahead, the path diverges, and <Character key=RoleTaiwu str=Name/> fears that deeper within the tomb chamber, there might be even more terrifying things awaiting...",
@@ -467,9 +467,9 @@
       "cn": "须得探个究竟……\n",
       "ru": "Мне нужно выяснить, что за этим стоит...",
       "status": "machine",
-      "srcHash": "472e06b7af2ef629",
+      "srcHash": "c409b50116635775",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c6ff00dc-b757-4ace-a293-d01f7baa163b/EventContent": {
       "en": "The tomb is dank and foreboding.<NL>No sooner has <Character key=RoleTaiwu str=Name/> stepped inside than a ghostly chill gripped <Character key=RoleTaiwu str=GenderObject/>, seeping deep into <Character key=RoleTaiwu str=GenderPossessive/> bones.<NL>And the Red-Robed Senior, who has vanished without a trace in this very place... where could he be now?",
@@ -485,9 +485,9 @@
       "cn": "（亦不知此处埋葬何人……）\n",
       "ru": "(Интересно, кто здесь похоронен...)",
       "status": "machine",
-      "srcHash": "ab2c93d87fdec81c",
+      "srcHash": "cdf5b9d2b4412c52",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "0eeb0a12-aa49-4dd6-821c-a008ac97c374/EventContent": {
       "en": "\"Intentional or unintentional, fate is the reason, it's you... you...\"<NL>The girl sighs, looking straight into <Character key=RoleTaiwu str=Name/>'s eyes, her gaze seems familiar yet unfamiliar.<NL><Character key=RoleTaiwu str=Name/> is confused, sensing a hint of melancholy, along with a blend of joy and sorrow in the girl's words.",
@@ -503,36 +503,36 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "43f87a5f-ff0d-4a78-b741-c22c4268732d/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "38500c6e-edab-4dab-8f07-5738d74a7182/EventContent": {
       "en": "The girl tilts her head slightly, her calm eyes fixed on <Character key=RoleTaiwu str=Name/>, saying,<NL>\"My name is Jixi. I was once homeless, with nowhere to return.<NL>Since you've awakened me, saved me from the tomb, and now invited me to accompany you, I... I'll go with you, naturally...\"",
       "cn": "只见女童略一歪头，<NL>沉静双眸便定定注视<Character key=RoleTaiwu str=Name/>：<NL>“我名姬穸，本是无家可归，无处可返。<NL>你既将我唤醒，救我出墓，如今又出言相邀，我自然……要随你而去……”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "70bb6901441eeb39",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Девушка слегка наклоняет голову, ее спокойные глаза устремлены на <Character key=RoleTaiwu str=Name/>, говоря,<NL>- Меня зовут Джикси. Когда-то я был бездомным, и мне некуда было возвращаться.<NL>С тех пор как ты разбудил меня, спас из могилы и теперь пригласил сопровождать тебя, я... Я, естественно, пойду с тобой...\"",
+      "status": "machine",
+      "srcHash": "f07f533aaf46679d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "38500c6e-edab-4dab-8f07-5738d74a7182/Option_1": {
       "en": "(Ji...xi)",
       "cn": "（姬……穸……）\n",
       "ru": "(Цзи...си)",
       "status": "machine",
-      "srcHash": "c0e173b0ed0e68e3",
+      "srcHash": "7493db0f062cd0da",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "a86563ce-8b1b-4ced-990e-5095c88ac9ea/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> becomes even more cautious.<NL>As the Red-Robed Senior walks away into the distance,<NL>the artifacts on the ground suddenly begin to roll, and seals around <Character key=RoleTaiwu str=GenderObject/> flutter faintly.<NL>There is no wind, no one touching them, yet it seems as if an invisible malevolent spirit inhabits in them...",
@@ -548,27 +548,27 @@
       "cn": "（毛骨悚然……）\n",
       "ru": "(Это пробирает до костей...)",
       "status": "machine",
-      "srcHash": "ac7313277263511d",
+      "srcHash": "daf490555fe668a5",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "625c531c-98df-4d28-8023-e7256ebe3dd2/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> is pressed hard by the skeleton. Struck again and again, <Character key=RoleTaiwu str=GenderSubject/> is finally overwhelmed, unable to retaliate...",
       "cn": "<Character key=RoleTaiwu str=Name/>一时不敌，<NL>被那骷髅再三击中，终难还手……",
       "ru": "<Character key=RoleTaiwu str=Name/> на него сильно давит скелет. Он наносит удары снова и снова, <Character key=RoleTaiwu str=GenderSubject/> в конце концов он ошеломлен и не в состоянии нанести ответный удар...",
       "status": "machine",
-      "srcHash": "65165ac658310317",
+      "srcHash": "4533e2e3fb05a4e9",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "625c531c-98df-4d28-8023-e7256ebe3dd2/Option_1": {
       "en": "(Escape this place...)",
       "cn": "（逃离此地……）\n",
       "ru": "(Сбежать из этого места...)",
       "status": "machine",
-      "srcHash": "16e62b215382020a",
+      "srcHash": "51daeeb7d134ac67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "2582f9c7-7f21-4c37-b004-564c44ae8db2/EventContent": {
       "en": "\"Even if we can talk for a while longer, there's nothing in it for us.<NL>I shall take my leave now. Take care of yourself and be cautious in all matters...\"<NL>When <Character key=RoleTaiwu str=Name/> is still in a daze, Jixi sighs lightly and stands up once again, facing toward the distance.<NL>She seems to have many words to say but in the end bids farewell to <Character key=RoleTaiwu str=Name/>. Heading to the vast expanse of the world, she departs like this...",
@@ -584,27 +584,27 @@
       "cn": "（如此也好……）\n",
       "ru": "(Да будет так...)",
       "status": "machine",
-      "srcHash": "76bb94ba87e9e5c3",
+      "srcHash": "01b0899ba702e1aa",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "0e52d42b-0d6a-4664-a430-82d7d03e54b7/EventContent": {
       "en": "All of a sudden,<NL>the stone door of the tomb chamber rumbles, dust flying, debris splintering,<NL>it turns out that the Red-Robed Senior cannot push the door open and breaks in forcibly!",
       "cn": "却正在此时！<NL>墓室石门轰隆一响，灰尘翻飞，碎石飞溅，<NL>竟是那红衣老人推门不得，强行破门而入！",
       "ru": "Вдруг,<NL>каменная дверь гробницы с грохотом распахивается, летит пыль, разлетаются обломки...,<NL>оказывается, Старший в Красном не может открыть дверь и вламывается силой!",
       "status": "machine",
-      "srcHash": "b40f08f31dd957ff",
+      "srcHash": "2a07109e67f7241f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "0e52d42b-0d6a-4664-a430-82d7d03e54b7/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "2918dd1e-674c-4c61-9bbd-5cedb8e42041/EventContent": {
       "en": "The Red-Robed Senior is about to pounce but the tomb passage is straight, with no way to avoid it.<NL>The girl has been using spells to open doors before, and is a bit exhausted.<NL>She shouts out with a raise of her hands followed by a sudden fall, as if using a powerful spell.<NL>With a loud rumble, a hidden stone door above the tomb passage falls straight down from the dark, blocking the old man a few steps away!",
@@ -620,9 +620,9 @@
       "cn": "（冷汗直流……）\n",
       "ru": "(Холодный пот струится по телу...)",
       "status": "machine",
-      "srcHash": "36a82527ed7ebb11",
+      "srcHash": "37d2482311d6f735",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6d058cd5-7cb2-4a13-a01f-6702dd5dab21/EventContent": {
       "en": "*ding*<NL>In the cold and eerie tomb chamber, a clear sound suddenly echoes...<NL>It is the Red-Robed Senior's artifact that holds his grudge - the old broken bell that was found by <Character key=RoleTaiwu str=Name/> before.<NL>After <Character key=RoleTaiwu str=GenderPossessive/> accidental strike on it, the bell sways and vibrates, ringing out,<NL>the lingering sound like a plea and cry...",
@@ -638,45 +638,45 @@
       "cn": "（心神震荡，似有所感……）\n",
       "ru": "(Ошеломленный на некоторое время, и ему в голову приходит мысль...)",
       "status": "machine",
-      "srcHash": "0bf5334612ffb140",
+      "srcHash": "d1e0b47d31471929",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "105a47ac-2864-4635-8bcc-1e8b15cfddf3/EventContent": {
       "en": "Moved by an impulse <Character key=RoleTaiwu str=GenderSubject/> can't explain, <Character key=RoleTaiwu str=Name/> reaches out to push the heavy coffin lid.<NL>As if in silent communion with some unseen presence, the lid shifts aside with an eerie ease...",
       "cn": "<Character key=RoleTaiwu str=Name/>此刻情不自禁，便伸出手去，意欲推动那沉重棺盖，<NL>似与不知何物心意相通，竟未有太多费力，便已推开棺椁一角……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "de92dc0dc52585c3",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Движимый импульсом <Character key=RoleTaiwu str=GenderSubject/> не могу объяснить, <Character key=RoleTaiwu str=Name/> протягивает руку, чтобы отодвинуть тяжелую крышку гроба.<NL>Словно в молчаливом общении с неким невидимым присутствием, крышка отодвигается в сторону с жуткой легкостью...",
+      "status": "machine",
+      "srcHash": "81670323bdec553e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "105a47ac-2864-4635-8bcc-1e8b15cfddf3/Option_1": {
       "en": "(Hold breath...)",
       "cn": "（屏息静气……）\n",
       "ru": "(Задержите дыхание...)",
       "status": "machine",
-      "srcHash": "d1ede7acf45cfacb",
+      "srcHash": "0898daac01ae6f22",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "e871857d-a7a2-464c-8cf0-6c88999c37ac/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> refuses to fight<NL>and quickly dashes aside when the skeleton is not paying attention, finally able to flee...",
       "cn": "<Character key=RoleTaiwu str=Name/>不愿应战，身形一晃，<NL>便趁那骷髅一时不备，逃之夭夭……",
       "ru": "<Character key=RoleTaiwu str=Name/> отказывается сражаться<NL>и быстро отскакивает в сторону, когда скелет не обращает на него внимания, и, наконец, может бежать...",
       "status": "machine",
-      "srcHash": "b5cef223489662d7",
+      "srcHash": "7ba428f14ad2cb24",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "e871857d-a7a2-464c-8cf0-6c88999c37ac/Option_1": {
       "en": "(Escape this place...)",
       "cn": "（逃离此地……）\n",
       "ru": "(Сбежать из этого места...)",
       "status": "machine",
-      "srcHash": "16e62b215382020a",
+      "srcHash": "51daeeb7d134ac67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "5ff87ca6-5bc0-4000-ac00-0b786a490828/EventContent": {
       "en": "With a determined heart, <Character key=RoleTaiwu str=Name/> ventures into the hidden passage ahead.<NL>Darkness envelopes <Character key=RoleTaiwu str=GenderObject/>, and foul odors assail <Character key=RoleTaiwu str=GenderPossessive/> senses. Despite the ominous atmostphere, <Character key=RoleTaiwu str=GenderSubject/> has no choice but to press forward...",
@@ -692,9 +692,9 @@
       "cn": "（继续前行……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "784bee87aeedf0d9",
+      "srcHash": "2f4b240518e0f414",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "495e852d-e08d-4eba-bd30-ace2d2c2c5df/EventContent": {
       "en": "\"This is a long story...<NL>You may consider our meeting today as fate's arrangement...<NL>Perhaps in my long slumber, I've seen you in my dreams... The next life cannot be awaited, and the past cannot be chased...\"<NL>The girl sighs lightly, shaking her head repeatedly, unwilling to speak further about this matter, so <Character key=RoleTaiwu str=Name/> has to change the subject...",
@@ -710,81 +710,81 @@
       "cn": "天意渺茫，难言可信……也罢，却不知你家在何处，可要归家？\n",
       "ru": "Судьба неуловима, и в нее трудно поверить... Ну, я не знаю, где твой дом, ты планируешь вернуться домой?",
       "status": "machine",
-      "srcHash": "e8f8a88065e53b2b",
+      "srcHash": "a528e16191d27747",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "3aa6dc28-e1d8-46a4-96fd-c243dd82cac9/EventContent": {
       "en": "The path ahead is unusually dark, with a strong stench reminiscent of the underworld.<NL>The walls on both sides are covered with ancient seal papers, now wet and illegible,<NL>their twisted and horrifying characters hinting at something extremely terrifying sealed deep within the tomb...",
       "cn": "前路昏暗异常，几分浓腥，犹入阴曹，<NL>两旁石壁，密密麻麻，满是古旧符纸，如今已不知被何物洇湿，<NL>字迹难辨，扭曲骇人，似有极为可怖之物封于墓穴深处……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "4b42f8607dc29f09",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Путь впереди необычайно темен, с сильным зловонием, напоминающим о подземном мире.<NL>Стены с обеих сторон оклеены древней бумагой для Печати, теперь влажной и неразборчивой,<NL>их извращенные и ужасающие персонажи намекают на нечто чрезвычайно страшное, Печать которого находится глубоко внутри гробницы...",
+      "status": "machine",
+      "srcHash": "8577a2463ab35fb8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "3aa6dc28-e1d8-46a4-96fd-c243dd82cac9/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6fd9cfc5-1897-4be9-a53d-35d21435dc78/EventContent": {
       "en": "\"I don't know where you are heading to.<NL>I've regained some strength and can follow you to continue your journey now...\"<NL>When <Character key=RoleTaiwu str=Name/> is still in a daze, Jixi nods again,<NL>as if she has made up her mind to follow <Character key=RoleTaiwu str=Name/> immediately...",
       "cn": "“不知你要去往何处？<NL>我已恢复些许力气，此刻便可随你上路……”<NL><Character key=RoleTaiwu str=Name/>呆愣之际，姬穸又再点点头，似是打定主意，<NL>便要即刻跟随<Character key=RoleTaiwu str=Name/>而去……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "e1bb8108766f5c22",
-      "engine": null,
-      "updatedAt": null
+      "ru": "- Я не знаю, куда ты направляешься.<NL>Я немного восстановил Силы и теперь могу последовать за вами, чтобы продолжить ваше путешествие...\"<NL>Когда <Character key=RoleTaiwu str=Name/> все еще пребывая в Оцепенении, Джикси снова кивает,<NL>как будто она решила последовать за ним <Character key=RoleTaiwu str=Name/> немедленно...",
+      "status": "machine",
+      "srcHash": "7eb37665111f74df",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "6fd9cfc5-1897-4be9-a53d-35d21435dc78/Option_1": {
       "en": "My journey is perilous... I can only do my best to take care of you...",
       "cn": "我此行凶险……只得尽力照料……",
       "ru": "Мое путешествие опасно... Я могу только сделать все, что в моих силах, чтобы позаботиться о тебе...",
       "status": "machine",
-      "srcHash": "77cc73d6cdcf5b98",
+      "srcHash": "24019a81c375c9ee",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6fd9cfc5-1897-4be9-a53d-35d21435dc78/Option_2": {
       "en": "If we encounter any Outlaw on the road, I will definitely protect you from harm...",
       "cn": "若路逢外道……必要护你无虞……",
       "ru": "Если мы встретим на дороге какого-нибудь преступника, я обязательно защищу тебя от беды...",
       "status": "machine",
-      "srcHash": "f3130b88e0d6c93c",
+      "srcHash": "583428c26036da8c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6fd9cfc5-1897-4be9-a53d-35d21435dc78/Option_3": {
       "en": "Since you have no home to return to, I will accompany you...",
       "cn": "既无家可归……我便与你同行……",
       "ru": "Поскольку у тебя нет дома, куда можно было бы вернуться, я буду сопровождать тебя...",
       "status": "machine",
-      "srcHash": "c60cf12130cc06e9",
+      "srcHash": "4d2ca80847fd254c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6fd9cfc5-1897-4be9-a53d-35d21435dc78/Option_4": {
       "en": "Follow me from now on... You must not cry or make a fuss...",
       "cn": "今后随我去……可不能够哭闹……",
       "ru": "С этого момента следуйте за мной... Вы не должны плакать или поднимать шум...",
       "status": "machine",
-      "srcHash": "ae9f155bd4feb820",
+      "srcHash": "34150d581a13da3b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6fd9cfc5-1897-4be9-a53d-35d21435dc78/Option_5": {
       "en": "You are skilled and resourceful... We may be able to achieve something together...",
       "cn": "你身手不凡……未尝不可谋事……\n",
       "ru": "Вы опытны и находчивы... Возможно, вместе мы сможем чего-то добиться...",
       "status": "machine",
-      "srcHash": "b18dcfd008813896",
+      "srcHash": "fa23320ffa696995",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "b884942b-8fe0-4c70-9970-a6e1a5844fcf/EventContent": {
       "en": "The seal papers on the walls are decreasing, but there are countless rotten and blackened seal papers scattered on the ground<NL>along with many fallen artifacts, emitting a damp, sticky, and foul smell.<NL>The black and red colors here are indistinguishable as the mixture of mud or blood.<NL>Even though the sound of the Red-robed Senior's footsteps lingers behind, the dead silence and eerie atmosphere ahead make it difficult to proceed.<NL>Underworld in the front, hell at the back. Each step, a gamble with death...",
@@ -800,54 +800,54 @@
       "cn": "前方纵是鬼门关，亦是不闯不行了！\n",
       "ru": "Даже если впереди - вход в ад, я должен рискнуть и идти вперед!",
       "status": "machine",
-      "srcHash": "485d9f20e927e3f8",
+      "srcHash": "e5f3a1bc45d3436c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "1e53871f-2679-4384-9bf7-89ca5a46a292/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> ventures to the depth of the tomb chamber<NL>and suddenly hears several harsh sounds clattering.<NL><Character key=RoleTaiwu str=GenderSubject/> stares tentatively and sees a skeleton rising from the ground!",
       "cn": "<Character key=RoleTaiwu str=Name/>往墓穴深处探去，<NL>忽闻数声酸涩之音，喀哒作响，<NL>凝神一望，眼前竟是一具死人骨骸，此时已然曳地而起！",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "685f91927fa7ed36",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> отваживается проникнуть в глубину усыпальницы<NL>и вдруг слышит несколько резких грохочущих звуков.<NL><Character key=RoleTaiwu str=GenderSubject/> осторожно всматривается и видит скелет, поднимающийся из земли!",
+      "status": "machine",
+      "srcHash": "5b6775dfb2c7ace5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "1e53871f-2679-4384-9bf7-89ca5a46a292/Option_1": {
       "en": "(No choice but to fight...)",
       "cn": "（只得应战……）",
       "ru": "(Нет выбора, кроме как сражаться...)",
       "status": "machine",
-      "srcHash": "ff728aa9e37f89fd",
+      "srcHash": "8f7bb7b865b0b1dc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "1e53871f-2679-4384-9bf7-89ca5a46a292/Option_2": {
       "en": "(Dodge swiftly...) <color=#darkgrey>[Agility Cost: 50]</color>",
       "cn": "（灵活闪避……）<color=#darkgrey>[消耗灵敏：50]</color>",
       "ru": "(Быстро уклоняйся от Уклонения...) <color=#darkgrey>[Стоимость Проворства: 50]</color>",
       "status": "machine",
-      "srcHash": "e6d1acdef84a79e8",
+      "srcHash": "cb99da1ce7dee014",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "1e53871f-2679-4384-9bf7-89ca5a46a292/Option_3": {
       "en": "(Brave through...) <color=#darkgrey>[Strength Cost: 50]</color>",
       "cn": "（横闯过去……）<color=#darkgrey>[消耗膂力：50]</color>",
       "ru": "(Храбрый до конца...) <color=#darkgrey>[Стоимость Силы: 50]</color>",
       "status": "machine",
-      "srcHash": "119e8f6513349195",
+      "srcHash": "d6e747bea94ef3f8",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "1e53871f-2679-4384-9bf7-89ca5a46a292/Option_4": {
       "en": "(Hold breath...) <color=#darkgrey>[Willpower Cost: 50]</color>",
       "cn": "（屏住呼吸……）<color=#darkgrey>[消耗定力：50]</color>\n",
       "ru": "(Задержите дыхание...) <color=#darkgrey>[Стоимость использования Силы воли: 50]</color>",
       "status": "machine",
-      "srcHash": "92bd1bc7fc7b8531",
+      "srcHash": "2d63b5b7d82e055a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "046ac20c-c354-44cd-8c25-85f379bff1f0/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> refuses to fight<NL>while the skeleton is standing in <Character key=RoleTaiwu str=GenderPossessive/> way out, so <Character key=RoleTaiwu str=GenderSubject/> holds <Character key=RoleTaiwu str=GenderPossessive/> breath instantly, waits until the skeleton walks away, and flees...",
@@ -863,9 +863,9 @@
       "cn": "（逃离此地……）\n",
       "ru": "(Сбежать из этого места...)",
       "status": "machine",
-      "srcHash": "16e62b215382020a",
+      "srcHash": "51daeeb7d134ac67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "ca198c99-af5b-4d52-ad8b-00ccfae33684/EventContent": {
       "en": "The young girl anxiously says,<NL>\"After leaving the tomb, close the tomb door.<NL>This tomb was originally meant for entry only and is difficult to exit. Now that the tomb door has been opened, and even if it is sealed again,<NL>it can only trap that old bones temporarily. Take this opportunity to escape, and plan for a solution in the future...\"",
@@ -881,9 +881,9 @@
       "cn": "（依言照办……）\n",
       "ru": "(Делай, как говорит девушка...)",
       "status": "machine",
-      "srcHash": "efcc65714692abb3",
+      "srcHash": "970f82e9432c0d15",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "f6364206-c6c4-464e-8646-cc96d70dfa94/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/>'s footsteps pause, only to feel that the tomb passage ahead is extremely narrow and low,<NL>unlike the previous ones. It is unusually damp and cold, with a chilling stench of rotting blood.<NL>Walking through it, <Character key=RoleTaiwu str=Name/>'s eyes twitched with fear, and <Character key=RoleTaiwu str=GenderSubject/> cannot help but feel a shiver down <Character key=RoleTaiwu str=GenderPossessive/> spine.<NL>With a few hurried steps forward, <Character key=RoleTaiwu str=GenderSubject/> becomes alert...",
@@ -899,27 +899,27 @@
       "cn": "如此鬼气，莫非鬼王在此……\n",
       "ru": "Эта призрачная атмосфера, неужели здесь находится Повелитель призраков?..",
       "status": "machine",
-      "srcHash": "6c864f5affb4dc6d",
+      "srcHash": "3f391c76ded4b35a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "9a42e168-4218-4e5b-afc3-d302b0d1a26e/EventContent": {
       "en": "In this dim and dark tomb chamber, the blood-red figure appears even more eerie and sinister.<NL>During <Character key=RoleTaiwu str=Name/>'s pursuit, <Character key=RoleTaiwu str=GenderSubject/> can faintly sense that the gloomy wind inside the chamber is somehow growing stronger...",
       "cn": "于此昏黑墓穴中，血红身影更显阴森妖异，<NL><Character key=RoleTaiwu str=Name/>追击之时，隐约可感墓中阴风更盛，不知何故……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "5912148fa201e120",
-      "engine": null,
-      "updatedAt": null
+      "ru": "В этой тусклой и темной усыпальнице кроваво-красная фигура кажется еще более жуткой и зловещей.<NL>Во время <Character key=RoleTaiwu str=Name/>его преследование, <Character key=RoleTaiwu str=GenderSubject/> я смутно ощущаю, что мрачный ветер внутри камеры каким-то образом становится сильнее...",
+      "status": "machine",
+      "srcHash": "f51d26003c993901",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "9a42e168-4218-4e5b-afc3-d302b0d1a26e/Option_1": {
       "en": "(Feeling a bit uneasy...)",
       "cn": "（隐有不安……）\n",
       "ru": "(Чувствую себя немного неловко...)",
       "status": "machine",
-      "srcHash": "f26cb35bb74caf67",
+      "srcHash": "29ecfde681ab5ea8",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "7b3da208-a8cd-4801-a96f-4e657bcaa155/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> has a sudden impulse in <Character key=RoleTaiwu str=GenderPossessive/> heart, and for some unknown reason, <Character key=RoleTaiwu str=GenderSubject/> feels no fear toward the whatever is within the coffin.<NL>As the Red-Robed Senior gets distracted, <Character key=RoleTaiwu str=GenderSubject/> slightly moves to the side of the coffin with a swift motion.<NL>Driven by an unknown force, even in such a crisis, <Character key=RoleTaiwu str=GenderSubject/> cannot help but look into the opened coffin...",
@@ -935,36 +935,36 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "2956f272-2620-4452-a326-e0c01b935a33/EventContent": {
       "en": "Having understood this, <Character key=RoleTaiwu str=Name/> can discern the location of the Red-robed Senior by listening to the sound.<NL>Even though the tomb passages are winding and twisting, <Character key=RoleTaiwu str=GenderSubject/> could swiftly locate the direction of the senior...",
       "cn": "<Character key=RoleTaiwu str=Name/>了然之后，更是听声辨位，<NL>纵是墓道曲折交错，亦可迅速寻得老人方向……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "3925c0377c1c364c",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Поняв это, <Character key=RoleTaiwu str=Name/> может определить местонахождение Старшего в красном одеянии, прислушавшись к звуку.<NL>Даже несмотря на то, что проходы гробницы извилисты, <Character key=RoleTaiwu str=GenderSubject/> мог быстро определить направление движения старшего...",
+      "status": "machine",
+      "srcHash": "ea511f3361071aa1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "2956f272-2620-4452-a326-e0c01b935a33/Option_1": {
       "en": "(Pursue right away...)",
       "cn": "（直直追去……）\n",
       "ru": "(Продолжайте прямо сейчас...)",
       "status": "machine",
-      "srcHash": "7ba5b3547a43e2ab",
+      "srcHash": "7eb68460cd41a032",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "d11fdadb-ee97-4d53-a5df-5d45ce9b5679/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "a921523e-5f6c-497e-a219-59137c92961a/EventContent": {
       "en": "The ground is covered with seal papers and artifacts, which are soaked in dark blood, long obscured by dust.<NL>Dozens of Taoists, each dressed differently in robes and headpieces, are all standing stiffly in the tomb chamber.<NL>They face a giant, tightly closed and ominously silent coffin.<NL>Despite its solemn and luxurious appearance, a lingering air of ghostliness revolves around it...",
@@ -980,63 +980,63 @@
       "cn": "（心下大骇……）\n",
       "ru": "(Сильно потрясен...)",
       "status": "machine",
-      "srcHash": "fac475444e9d189b",
+      "srcHash": "5f71fb43a2c1099f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "bad9b3f9-7ed6-47e7-bd97-27086174134b/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> is walking<NL>while <Character key=RoleTaiwu str=GenderSubject/> suddenly hears several harsh sounds clattering.<NL><Character key=RoleTaiwu str=GenderSubject/> looks back and sees a skeleton rising from the ground!",
       "cn": "<Character key=RoleTaiwu str=Name/>正继续前行，<NL>忽闻数声酸涩之音，喀哒作响，<NL>回首一望，竟又是一具死人骨骸，此时已然曳地而起！",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "dc644ad0e7d51ebb",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> идет пешком<NL>в то время как <Character key=RoleTaiwu str=GenderSubject/> вдруг слышит несколько резких грохочущих звуков.<NL><Character key=RoleTaiwu str=GenderSubject/> оглядывается и видит скелет, поднимающийся из земли!",
+      "status": "machine",
+      "srcHash": "bf1956f7ea36043d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "bad9b3f9-7ed6-47e7-bd97-27086174134b/Option_1": {
       "en": "(No choice but to fight...)",
       "cn": "（只得应战……）",
       "ru": "(Нет выбора, кроме как сражаться...)",
       "status": "machine",
-      "srcHash": "ff728aa9e37f89fd",
+      "srcHash": "8f7bb7b865b0b1dc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "bad9b3f9-7ed6-47e7-bd97-27086174134b/Option_2": {
       "en": "(Dodge swiftly...) <color=#darkgrey>[Agility Cost: 50]</color>",
       "cn": "（灵活闪避……）<color=#darkgrey>[消耗灵敏：50]</color>",
       "ru": "(Быстро уклоняйся от Уклонения...) <color=#darkgrey>[Стоимость Проворства: 50]</color>",
       "status": "machine",
-      "srcHash": "e6d1acdef84a79e8",
+      "srcHash": "cb99da1ce7dee014",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "bad9b3f9-7ed6-47e7-bd97-27086174134b/Option_3": {
       "en": "(Brave through...) <color=#darkgrey>[Strength Cost: 50]</color>",
       "cn": "（横闯过去……）<color=#darkgrey>[消耗膂力：50]</color>",
       "ru": "(Храбрый до конца...) <color=#darkgrey>[Стоимость Силы: 50]</color>",
       "status": "machine",
-      "srcHash": "119e8f6513349195",
+      "srcHash": "d6e747bea94ef3f8",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "bad9b3f9-7ed6-47e7-bd97-27086174134b/Option_4": {
       "en": "(Hold breath...) <color=#darkgrey>[Willpower Cost: 50]</color>",
       "cn": "（屏住呼吸……）<color=#darkgrey>[消耗定力：50]</color>\n",
       "ru": "(Задержите дыхание...) <color=#darkgrey>[Стоимость использования Силы воли: 50]</color>",
       "status": "machine",
-      "srcHash": "92bd1bc7fc7b8531",
+      "srcHash": "2d63b5b7d82e055a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "14a6767f-7cce-41ee-b1b4-d173e7dbba66/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "8a51a827-5283-47ba-97f3-8024b22a6c9b/EventContent": {
       "en": "Just as <Character key=RoleTaiwu str=Name/> is contemplating, a rustling sound suddenly comes to <Character key=RoleTaiwu str=GenderPossessive/> ears.<NL>A blood-red figure swiftly flies past <Character key=RoleTaiwu str=GenderObject/>, heading straight into one of the tomb passages,<NL>with the stench of decay lingering behind. It must be the long-disappeared Red-Robed Senior!<NL>This ancient tomb must be related to the Red-Robed Senior's secret technique. <Character key=RoleTaiwu str=Name/> realizes this and quickly follows the Red-Robed Senior...",
@@ -1052,9 +1052,9 @@
       "cn": "（紧随其后……）\n",
       "ru": "(Следуйте за ними...)",
       "status": "machine",
-      "srcHash": "d7c52da125660a4b",
+      "srcHash": "707a2f6fe7f92fd7",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "0693ab65-d030-4c80-88ed-df9aca1a71f0/EventContent": {
       "en": "\"I had been in slumber all this time, awakened by the sound of that bell you rang.<NL>Now, it is also you who have been protecting me all along... allowing me to see the light of day once again... I knew...\"<NL>The young girl speaks up to this point, her blood-red eyes gazing deeply into <Character key=RoleTaiwu str=Name/>'s, with emotions to tell...",
@@ -1070,9 +1070,9 @@
       "cn": "姑娘时常说些难懂之言……莫非你我曾在何处相见？\n",
       "ru": "Вы произносили загадочные слова... Могло ли случиться так, что мы с вами где-то раньше встречались?",
       "status": "machine",
-      "srcHash": "bcd96b5c6ab0a1ee",
+      "srcHash": "3fc057f78c45e3f3",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "24e95965-7184-4009-abc8-b4d113862fba/EventContent": {
       "en": "Even though <Character key=RoleTaiwu str=Name/> finds it unimaginable,<NL>the Red-Robed Senior has swiftly attacked once again.<NL><Character key=RoleTaiwu str=Name/> has to grit <Character key=RoleTaiwu str=GenderPossessive/> teeth and focuses on fending the incoming attack,<NL>but deep down, <Character key=RoleTaiwu str=GenderSubject/> ponders whether this fierce battle might be futile...",
@@ -1088,45 +1088,45 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "bc6577d9-62e8-4792-ba9c-1776e843718c/EventContent": {
       "en": "Filled with astonishment, <Character key=RoleTaiwu str=Name/> cannot figure out the reason.<NL><Character key=RoleTaiwu str=GenderSubject/> has no choice but to continue following the Red-Robed Senior, venturing deeper into the tomb chamber...",
       "cn": "纵是惊骇，<Character key=RoleTaiwu str=Name/>亦不得解，<NL>只得继续跟随红衣老人，探入墓穴深处……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "1a82e63403a30eb5",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Преисполненный изумления, <Character key=RoleTaiwu str=Name/> не могу понять причину.<NL><Character key=RoleTaiwu str=GenderSubject/> у него нет другого выбора, кроме как продолжать следовать за Старшим в Красном одеянии, углубляясь в усыпальницу...",
+      "status": "machine",
+      "srcHash": "c39d79b647e1418b",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "bc6577d9-62e8-4792-ba9c-1776e843718c/Option_1": {
       "en": "(Move forward...)",
       "cn": "（继续前行……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "784bee87aeedf0d9",
+      "srcHash": "2f4b240518e0f414",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "7b0cf901-8480-45e8-b85d-d5c8be618983/EventContent": {
       "en": "The girl tilts her head slightly, her calm eyes fixed on <Character key=RoleTaiwu str=Name/>, saying,<NL>\"So be it. My name is Jixi.<NL>Since you have awakened me, naturally you should know my name...\"",
       "cn": "只见女童略一歪头，<NL>沉静双眸便定定注视<Character key=RoleTaiwu str=Name/>：<NL>“如此也好，我名姬穸，<NL>你既将我唤醒，自然也当知晓我之姓名……”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "5af5828e33f288c1",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Девушка слегка наклоняет голову, ее спокойные глаза устремлены на <Character key=RoleTaiwu str=Name/>, говоря,<NL>- Да будет так. Меня зовут Джикси.<NL>Поскольку вы разбудили меня, естественно, вы должны знать мое имя...\"",
+      "status": "machine",
+      "srcHash": "068a7a8545218dd3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "7b0cf901-8480-45e8-b85d-d5c8be618983/Option_1": {
       "en": "(Ji...xi)",
       "cn": "（姬……穸……）\n",
       "ru": "(Цзи...си)",
       "status": "machine",
-      "srcHash": "c0e173b0ed0e68e3",
+      "srcHash": "7493db0f062cd0da",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "725fe02d-5ac7-42f1-a491-022f14033236/EventContent": {
       "en": "The wind rustles beneath <Character key=RoleTaiwu str=Name/>'s feet as <Character key=RoleTaiwu str=GenderSubject/> moves swiftly.<NL>The tomb passages here are intricate and confusing, with ghostly shadows making it hard to distinguish.<NL>In no time at all, <Character key=RoleTaiwu str=Name/> unexpectedly meets the Red-Robed Senior head-on at a narrow passage!",
@@ -1142,27 +1142,27 @@
       "cn": "（嘶……）\n",
       "ru": "(*вздох*...)",
       "status": "machine",
-      "srcHash": "04a175a12ee74689",
+      "srcHash": "0745e2c0ea842e9b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "96ac9a28-a9ee-4749-95bf-b73f40486401/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> refuses to fight<NL>while the skeleton is standing in <Character key=RoleTaiwu str=GenderPossessive/> way out, so <Character key=RoleTaiwu str=GenderSubject/> dodges agily with a few moves, finally able to flee...",
       "cn": "<Character key=RoleTaiwu str=Name/>不愿应战，<NL>又遭阻挡前路，便几番灵巧闪躲避开，逃之夭夭……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "b989c11d13189c97",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> отказывается сражаться<NL>в то время как скелет стоит в <Character key=RoleTaiwu str=GenderPossessive/> выход, так что <Character key=RoleTaiwu str=GenderSubject/> ловко уворачивается несколькими движениями и, наконец, может убежать...",
+      "status": "machine",
+      "srcHash": "e676974eade1361f",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "96ac9a28-a9ee-4749-95bf-b73f40486401/Option_1": {
       "en": "(Escape this place...)",
       "cn": "（逃离此地……）\n",
       "ru": "(Сбежать из этого места...)",
       "status": "machine",
-      "srcHash": "16e62b215382020a",
+      "srcHash": "51daeeb7d134ac67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "016089c3-5e93-42fc-aa71-dd4a79754fa8/EventContent": {
       "en": "The Red-Robed Senior, though a living corpse, seems to have an iron-like body, impervious to swords and spears.<NL>In the fierce fight, <Character key=RoleTaiwu str=Name/> finds <Character key=RoleTaiwu str=GenderObject/>self at a disadvantage, blood dripping onto the Seal Papers on the ground, seemingly to mix with the old bloodstains.<NL><Character key=RoleTaiwu str=Name/> has to grit <Character key=RoleTaiwu str=GenderPossessive/> teeth and exerts all <Character key=RoleTaiwu str=GenderPossessive/> strength, preparing for one final strike...",
@@ -1178,9 +1178,9 @@
       "cn": "（邪魔歪道，我岂能死于你手……）\n",
       "ru": "(Этот старик знает несколько демонических трюков, но я ни за что не умру здесь...)",
       "status": "machine",
-      "srcHash": "11a79919c0fde537",
+      "srcHash": "451843ccae0528ac",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "0e21f197-69ab-46c2-8f18-c34356842e10/EventContent": {
       "en": "\"Fine, this is not the time for reminiscing indeed.<NL>The bell rings again and my wish has been fulfilled...\"<NL>The girl says, her voice barely audible in the latter part of the sentence.<NL>At the same time, the Red-Robed Senior who has fallen in the distance stands up once more, ready to attack again...",
@@ -1196,9 +1196,9 @@
       "cn": "姑娘小心！\n",
       "ru": "Берегись!",
       "status": "machine",
-      "srcHash": "877c572afebc5986",
+      "srcHash": "895093685c0031eb",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "856f48d4-75fc-4e8c-ad23-02a0549eb1c7/EventContent": {
       "en": "\"All those famous or common Taoists from the grand high mountains have met their end here. You, nobody, still refuse to give up and continue to pester!\"<NL>The little girl falls back to the ground, covered in blood, panting heavily as she shouts loudly,<NL>seemingly having exhausted all her strength with that palm attack and two kicks.",
@@ -1214,9 +1214,9 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6b6719c7-4081-45f0-a911-825ce167d4c9/EventContent": {
       "en": "The Red-Robed Senior lets out a hoarse, twisted sound from his throat, filled with bitterness and distortion, as if he is unwilling to give up something.<NL>Now he is rushing toward <Character key=RoleTaiwu str=Name/>, more terrifying than before!<NL>Despite agile evasions, <Character key=RoleTaiwu str=Name/> feels a sense of impending doom. The senior now is completely different from before,<NL>exuding a malice aura and uncontrollable madness, as if influenced by the mystical artifacts and spells within the tomb chamber...",
@@ -1232,9 +1232,9 @@
       "cn": "若是应战，必为不妙……\n",
       "ru": "Это добром не кончится, если я сейчас вступлю в бой...",
       "status": "machine",
-      "srcHash": "207d0fd8f386194a",
+      "srcHash": "c32962389545b161",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "aedc9270-7bdd-48ff-8158-3bfd4c031d16/EventContent": {
       "en": "In the tomb chamber, skeletons scatter all over the place, their sudden movements a constant source of terror.<NL>The Red-Robed Senior, with extremely fast speed, is no longer the same as he was when he was still alive!<NL><Character key=RoleTaiwu str=Name/> scuttles away, fighting a desperate retreat, and scrambles inside a random tomb passage when spotting it.<NL>Though hard-pressed, <Character key=RoleTaiwu str=GenderSubject/> manages a ragged grace, holding <Character key=RoleTaiwu str=GenderPossessive/> own against the senior's relentless assault...",
@@ -1250,27 +1250,27 @@
       "cn": "（好一个僵尸老人！）\n",
       "ru": "(В этом старом Цзянши действительно что-то есть!)",
       "status": "machine",
-      "srcHash": "d3f99a38c7fec7b1",
+      "srcHash": "a8621b6f074484f5",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "8e77f5a3-cd37-478a-a28d-8ae87a32572f/EventContent": {
       "en": "\"Judging from your attire, I can't tell which sect you belong to.<NL>It seems that you're not associated with that old Jiangshi...\"<NL>The girl speaks, her expression different from before, showing a mix of emotions...<NL><NL>\"Was it you who rang the Spirit-summoning Bell just now?\"",
       "cn": "“观你衣着，也不知是何门何派，<NL>似乎与那老尸并非一路之人……”<NL>女童说道，神色已与原先不同，一时间喜怒难辨……<NL><NL>“方才是你，弄响了那招魂铃？”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "e7966ca01210fa4f",
-      "engine": null,
-      "updatedAt": null
+      "ru": "\"Судя по вашей одежде, я не могу сказать, к какой Секте вы принадлежите.<NL>Похоже, ты никак не связан с этим старым Цзянши...\"<NL>Девушка говорит, выражение ее лица отличается от прежнего, демонстрируя смесь эмоций...<NL><NL>\"Это ты только что звонил в колокольчик, призывающий Духов?\"",
+      "status": "machine",
+      "srcHash": "d8dcf10a10ac957e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "8e77f5a3-cd37-478a-a28d-8ae87a32572f/Option_1": {
       "en": "I did ring that bell-like artifact. It was unintentional...",
       "cn": "我确实无意中敲响了那铃铛法器……\n",
       "ru": "Я действительно позвонил в этот похожий на колокольчик артефакт. Это было непреднамеренно...",
       "status": "machine",
-      "srcHash": "126ccd568cd58f0a",
+      "srcHash": "8aabf7f2e8c6265d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "bfd04cb2-00bb-4987-bfc8-768e8c8479a7/EventContent": {
       "en": "Although there are strange and eerie sounds, <Character key=RoleTaiwu str=Name/> chooses to turn a deaf ear and continues to focus on moving forward.<NL>As <Character key=RoleTaiwu str=GenderSubject/> goes deeper, the tomb passage becomes wider, and the talisman on the stone walls on both sides are not only layered upon each other,<NL>but upon closer inspection, they seem somewhat chaotic and hurriedly arranged, with what appears to be blood splattered on them.<NL>A thought stikes <Character key=RoleTaiwu str=Name/> and <Character key=RoleTaiwu str=GenderSubject/> looks down, only to see the ground covered with ancient and dusty Taoist artifacts.<NL>Everywhere, above and below, there are traces of combat, indicating that there has been a terrifying battle to seal the ghosts.",
@@ -1286,36 +1286,36 @@
       "cn": "究竟是何恶鬼封印在此……\n",
       "ru": "Какой именно призрак запечатан здесь?..",
       "status": "machine",
-      "srcHash": "576f9eff47a0263c",
+      "srcHash": "8e4babaec0eabff2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "4359b97b-689e-4fa4-b1f2-294c9a8dde0b/EventContent": {
       "en": "\"Where my home is... To return home...\"<NL>The girl is taken aback by <Character key=RoleTaiwu str=Name/>'s words, eyes widening for a moment before she begins weighing <Character key=RoleTaiwu str=Name/> up with unreadable intents.",
       "cn": "“家在何处……如何归家……”<NL>女童闻言一愣，复又几番打量<Character key=RoleTaiwu str=Name/>，不知心中有何打算……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "09a2dea0e0b85bf2",
-      "engine": null,
-      "updatedAt": null
+      "ru": "- Там, где мой дом... Вернуться домой...\"<NL>Девушка застигнута врасплох <Character key=RoleTaiwu str=Name/>ее слова, глаза на мгновение расширяются, прежде чем она начинает взвешивать <Character key=RoleTaiwu str=Name/> вверх с нечитаемыми намерениями.",
+      "status": "machine",
+      "srcHash": "8a37c059f9d75fb7",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "4359b97b-689e-4fa4-b1f2-294c9a8dde0b/Option_1": {
       "en": "Would you like to leave with me...?",
       "cn": "你可愿意随我而去……",
       "ru": "Не хотела бы ты уйти со мной?..",
       "status": "machine",
-      "srcHash": "13d1f7bca5424d44",
+      "srcHash": "8f97c58f8d066928",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "4359b97b-689e-4fa4-b1f2-294c9a8dde0b/Option_2": {
       "en": "How about we part here...?",
       "cn": "你我不如就此分别……\n",
       "ru": "Как насчет того, чтобы расстаться здесь?..",
       "status": "machine",
-      "srcHash": "5dd52f9a6c0945f4",
+      "srcHash": "50684fcade3af7e5",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "408762c1-f0b5-4aa6-93e3-8cc554edefc2/EventContent": {
       "en": "The stone door shatters into pieces as if it is made of dust.<NL>The madness of the Red-Robed Senior is unstoppable, displaying such immense strength.<NL>Startled and shocked,<Character key=RoleTaiwu str=Name/> has no time to consider the contents of the coffin, and can only turn to face the oncoming battle!",
@@ -1331,9 +1331,9 @@
       "cn": "（只得一战！）\n",
       "ru": "(Битва - это единственный выход!)",
       "status": "machine",
-      "srcHash": "e81a23d769591145",
+      "srcHash": "7ce358d4d59de990",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "0c23d816-55c7-43fd-acdf-58bffc321756/EventContent": {
       "en": "\"It was you who rang the Spirit-summoning Bell. I won't take your life,<NL>but you must tell me why you have come to this place again in detail!\"<NL>The girl says, no longer as aggressive as before, instead reaching out her hand to <Character key=RoleTaiwu str=Name/>.<NL>However, the situation is urgent and the Red-Robed Senior is still nearby, <Character key=RoleTaiwu str=Name/> cannot afford to let <Character key=RoleTaiwu str=GenderPossessive/> guard down for a moment...",
@@ -1349,9 +1349,9 @@
       "cn": "我乃是追击那红衣老人，方才闯入此地，不知何为“再来”？\n",
       "ru": "Я гнался за Старшеклассником в красном и в погоне за ним зашел сюда. Что вы имеете в виду под \"снова\"?",
       "status": "machine",
-      "srcHash": "8ead11c64ca70756",
+      "srcHash": "519cb7fb003641b6",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "17ed43b7-f1c9-4c55-a104-7ffa652b5c93/EventContent": {
       "en": "If <Character key=RoleTaiwu str=Name/> is to fight now, the odds of winning are slim, let alone investigating the truth hidden in this chamber.<NL>Thinking of this, <Character key=RoleTaiwu str=GenderSubject/> can only dodge the Red-Robed Senior and then,<NL>turns around swiftly, choose a tomb passage to escape...",
@@ -1367,9 +1367,9 @@
       "cn": "（逃向深处……）\n",
       "ru": "(Уход в глубину...)",
       "status": "machine",
-      "srcHash": "23f9e5d7566c80d2",
+      "srcHash": "8afc5edc491ead4d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "3dd31fd4-3b99-4643-8d51-6563d876f3d6/EventContent": {
       "en": "With a sense of curiosity stirring within, <Character key=RoleTaiwu str=Name/> takes a few steps forward<NL>and sees the Taoists from various sects, their skeletal remains draped in robes. Not a whisper of life remains; they have clearly been dead for many years.<NL>However, <Character key=RoleTaiwu str=GenderSubject/> feels a flicker of recognition with the coffin, which is nearly surrounded by the corpses.<NL><Character key=RoleTaiwu str=Name/> feels that <Character key=RoleTaiwu str=GenderSubject/> should have come here long ago. Driven by a burgeoning curiosity, <Character key=RoleTaiwu str=GenderSubject/> moves closer...",
@@ -1385,45 +1385,45 @@
       "cn": "（不知棺中所葬何人……）\n",
       "ru": "(Интересно, кто лежит в гробу...)",
       "status": "machine",
-      "srcHash": "eb83fdbab969034f",
+      "srcHash": "af87717a629766f7",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6565f01b-2609-4907-930e-3e71b4f6ff43/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> is outmatched for a moment<NL>and has no choice but to seize the opportunity when the skeleton is not paying attention and makes a hasty escape...",
       "cn": "<Character key=RoleTaiwu str=Name/>一时不敌，<NL>只得趁那骷髅不备之时，逃之夭夭……",
       "ru": "<Character key=RoleTaiwu str=Name/> на мгновение он оказывается в меньшинстве<NL>и у него нет другого выбора, кроме как воспользоваться случаем, когда скелет не обращает на него внимания и поспешно убегает...",
       "status": "machine",
-      "srcHash": "44e7efbc69f9a189",
+      "srcHash": "027abe0b484a9882",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "6565f01b-2609-4907-930e-3e71b4f6ff43/Option_1": {
       "en": "(Escape this place...)",
       "cn": "（逃离此地……）\n",
       "ru": "(Сбежать из этого места...)",
       "status": "machine",
-      "srcHash": "16e62b215382020a",
+      "srcHash": "51daeeb7d134ac67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "a4c980f7-0acb-493d-88a0-fea891523bb9/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> won the battle.<NL>The skeleton instantly scatters all over the ground, and in the blink of an eye, the bones crumble into dust in the chamber...",
       "cn": "<Character key=RoleTaiwu str=Name/>一战得胜，<NL>只见那骷髅顿时散落一地，转眼便碎作了墓中尘灰……",
       "ru": "<Character key=RoleTaiwu str=Name/> выиграл битву.<NL>Скелет мгновенно разлетается по всей земле, и в мгновение ока кости рассыпаются в пыль в камере...",
       "status": "machine",
-      "srcHash": "b4d75d83ca9b9d78",
+      "srcHash": "ab88ee03934c16f5",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "a4c980f7-0acb-493d-88a0-fea891523bb9/Option_1": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "784bee87aeedf0d9",
+      "srcHash": "2f4b240518e0f414",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "7875cd79-9475-4d8b-9b31-11b4df90a438/EventContent": {
       "en": "The two look into each other's eyes for a split second and at the moment, it seems that time has stood still, the sun and the moon no longer existent.<NL><NL>However, the ghostly wails continues, and the stench of decay fills the air.<NL>The Red-Robed Senior behind <Character key=RoleTaiwu str=Name/> is about to attack again!",
@@ -1439,9 +1439,9 @@
       "cn": "（如何是好……）\n",
       "ru": "(Что мне следует делать...?)",
       "status": "machine",
-      "srcHash": "e0ca7d2bdc7e6d6d",
+      "srcHash": "29203d7f7eacc4bb",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "414e9a77-bd9c-4623-b9ea-ef864613472a/EventContent": {
       "en": "In the dim tomb passage, <Character key=RoleTaiwu str=Name/> inhales and closely follows the Red-Robed Senior.<NL>Just then, <Character key=RoleTaiwu str=GenderSubject/> hears a sound of something hitting a hard object right in front of <Character key=RoleTaiwu str=GenderObject/>. It turns out that the sound is made by the Senior's feet as he leaps forward with each step on his toes!",
@@ -1457,9 +1457,9 @@
       "cn": "（原是如此！）\n",
       "ru": "(Теперь я понимаю!)",
       "status": "machine",
-      "srcHash": "0124a9ae497d4436",
+      "srcHash": "12bf0abcaca1d650",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "94e0ebc8-4e12-4603-89fd-a3e0471ca770/EventContent": {
       "en": "After the little girl finishes speaking, she takes a few steps back,<NL>with a look of shock yet not disturbed, sorrowful yet not afraid. She firmly stands in front of the coffin,<NL>suggesting that she will not allow <Character key=RoleTaiwu str=Name/> or the Red-Robed Senior to take another step and offend whatever lays within.<NL><NL>A thought strikes <Character key=RoleTaiwu str=Name/>, and in an instant <Character key=RoleTaiwu str=GenderSubject/> comes to understand that the dozens of people who died in this tomb chamber must be enemies of this girl.<NL>But then, another thought crosses <Character key=RoleTaiwu str=GenderPossessive/> mind—isn't the skeleton in the coffin wearing a Taoist robe?<NL>Could it be that the girl has been protecting the Taoist?",
@@ -1475,99 +1475,99 @@
       "cn": "姑娘莫要误会，我并非你的仇敌，更无半分恶意！\n",
       "ru": "Пожалуйста, не поймите меня неправильно, мисс. Я вам не враг, и я вовсе не настроен враждебно!",
       "status": "machine",
-      "srcHash": "cb14ff2df7558a4d",
+      "srcHash": "352687613a0fa72f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "7bc44b8e-e0e9-4b56-8199-3a676363c410/EventContent": {
       "en": "When the bell rings, the dead comes back to life!<NL><NL>The massive coffin, too, slowly creaks open under the influence of the bell.<NL>Both <Character key=RoleTaiwu str=Name/> and the Red-Robed Senior are frozen in place, unable to move for a moment...",
       "cn": "铃音起时，死者还魂！<NL><NL>那座巨大的棺椁，也在铃音的催动下，徐徐打开！<NL><Character key=RoleTaiwu str=Name/>与红衣老人皆是一滞，片刻间，难以动弹……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "272b62a94a335be4",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Когда звонит колокол, мертвые возвращаются к жизни!<NL><NL>Массивный гроб тоже медленно со скрипом открывается под Влиянием колокола.<NL>Оба <Character key=RoleTaiwu str=Name/> и Старший в Красном застыли на месте, не в силах пошевелиться ни на мгновение...",
+      "status": "machine",
+      "srcHash": "a2657033d30c6c11",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "7bc44b8e-e0e9-4b56-8199-3a676363c410/Option_1": {
       "en": "(An unknown feeling surges in the heart...)",
       "cn": "（心中一动……）\n",
       "ru": "(Неведомое чувство зарождается в сердце...)",
       "status": "machine",
-      "srcHash": "d393786516d423a1",
+      "srcHash": "7bde2c69ed5ebcd2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "11e96c25-bf1a-4a55-9d56-3e8259c026fc/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> refuses to fight<NL>and dares not slacken a bit. <Character key=RoleTaiwu str=GenderSubject/> inhales and flees...",
       "cn": "<Character key=RoleTaiwu str=Name/>不愿应战，<NL>便半点不敢松懈，提气而去，逃之夭夭……",
       "ru": "<Character key=RoleTaiwu str=Name/> отказывается сражаться<NL>и не смеет сбавить обороты. <Character key=RoleTaiwu str=GenderSubject/> вдыхает и убегает...",
       "status": "machine",
-      "srcHash": "156485c183bec992",
+      "srcHash": "38c2ed5fc26ff2c3",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "11e96c25-bf1a-4a55-9d56-3e8259c026fc/Option_1": {
       "en": "(Escape this place...)",
       "cn": "（逃离此地……）\n",
       "ru": "(Сбежать из этого места...)",
       "status": "machine",
-      "srcHash": "16e62b215382020a",
+      "srcHash": "51daeeb7d134ac67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "e5d0d4ba-93dd-4815-a9e3-13e9eba2bc37/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> refuses to fight<NL>so <Character key=RoleTaiwu str=GenderSubject/> raises <Character key=RoleTaiwu str=GenderPossessive/> arms to strike the skeleton on its face to break through and flee...",
       "cn": "<Character key=RoleTaiwu str=Name/>不愿应战，<NL>便抬手直击骷髅面门，破开前路，逃之夭夭……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "861bb24c85ada66f",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> отказывается сражаться<NL>итак <Character key=RoleTaiwu str=GenderSubject/> поднимает <Character key=RoleTaiwu str=GenderPossessive/> руками ударить скелета по лицу, чтобы прорваться и убежать...",
+      "status": "machine",
+      "srcHash": "636edad84fbca1bc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "e5d0d4ba-93dd-4815-a9e3-13e9eba2bc37/Option_1": {
       "en": "(Escape this place...)",
       "cn": "（逃离此地……）\n",
       "ru": "(Сбежать из этого места...)",
       "status": "machine",
-      "srcHash": "16e62b215382020a",
+      "srcHash": "51daeeb7d134ac67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "a0d5e3bd-1116-4e4b-9d75-31d4fd330490/EventContent": {
       "en": "Beneath his red robe, the senior's flesh is a corpse-like green, shrouded in a deathly pallor.<NL>His rigid arms are raised, fingers tipped with blades of hardened, blackened nails.<NL>He leaped with unnerving speed, leaving no room for hesitation or distraction...",
       "cn": "只见红衣老人红衫之下，通身青绿，尸气冲霄，<NL>僵直抬起的双手，十指利甲更是泛黑坚硬，<NL>行动间再不见迟缓，跳跃极快，稍有不察便会躲闪不及……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "c052e81a7a7564de",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Под его красной мантией плоть старшего имеет трупно-зеленый цвет, окутанная смертельной бледностью.<NL>Его окоченевшие руки подняты, пальцы оканчиваются лезвиями затвердевших, почерневших ногтей.<NL>Он прыгнул с пугающей скоростью, не оставляя места для колебаний или отвлечения внимания...",
+      "status": "machine",
+      "srcHash": "0d799fbe2919f063",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "a0d5e3bd-1116-4e4b-9d75-31d4fd330490/Option_1": {
       "en": "(Dodge swiftly...)",
       "cn": "（灵活闪避……）\n",
       "ru": "(Быстро уклоняйся от Уклонения...)",
       "status": "machine",
-      "srcHash": "62d55a01e1d0243b",
+      "srcHash": "bdcbd0bc212ba5c1",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "28d73530-a898-40fd-8b38-d7a9d716f6be/EventContent": {
       "en": "\"I'm fine, though I may be weak, I'm not actually illed or injured...\"<NL>Despite the lingering concerns in <Character key=RoleTaiwu str=Name/>'s heart, the girl shakes her head a few times,<NL>and surprisingly, in her words, there is a hint of calm maturity...",
       "cn": "“无碍，我虽虚弱，却非伤病……”<NL><Character key=RoleTaiwu str=Name/>虽忧心难解，却见女童几番摇头，<NL>话语之中，竟有几分淡然老成……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "9ca893c6e638fcb3",
-      "engine": null,
-      "updatedAt": null
+      "ru": "\"Я в порядке, хотя, возможно, я слаб, на самом деле я не ранен...\"<NL>Несмотря на сохраняющиеся опасения в <Character key=RoleTaiwu str=Name/>сердце, девушка несколько раз качает головой,<NL>и удивительно, но в ее словах есть намек на спокойную зрелость...",
+      "status": "machine",
+      "srcHash": "4b563407a55f44a1",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "28d73530-a898-40fd-8b38-d7a9d716f6be/Option_1": {
       "en": "(Resigned...)",
       "cn": "（无可奈何……）\n",
       "ru": "(Ушел в отставку...)",
       "status": "machine",
-      "srcHash": "b2a707ea625ebddf",
+      "srcHash": "0d4b94a94abcfab2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "acf3129f-f03b-4917-a45d-636d2677e595/EventContent": {
       "en": "The young girl suddenly comes to herself and snaps out of her daze,<NL>her expression turning cold. Like an elusive phantom, she flies up from the coffin,<NL>pushing <Character key=RoleTaiwu str=Name/> away with one palm, then kicking with both feet, causing the Red-Robed Senior to stagger back several steps and fall onto the gravel in the distance...",
@@ -1583,9 +1583,9 @@
       "cn": "（这墓中女鬼看似童稚，却好生凶悍！）\n",
       "ru": "(Этот призрак в гробнице может казаться молодым, но на самом деле он довольно свирепый!)",
       "status": "machine",
-      "srcHash": "1ba560886e3c9b58",
+      "srcHash": "80c506f3409e69fb",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "891af199-cee1-4376-b9d9-c95ae5e91c86/EventContent": {
       "en": "In the midst of <Character key=RoleTaiwu str=Name/>'s unsettled mind,<NL>the Red-Robed Senior quickly closes in, the sound of his toe-tapping almost reaching <Character key=RoleTaiwu str=GenderPossessive/> ears!<NL>Without thinking too much, <Character key=RoleTaiwu str=Name/> has no choice but to push open the tomb door with all <Character key=RoleTaiwu str=GenderPossessive/> might and hide inside...",
@@ -1601,27 +1601,27 @@
       "cn": "（进入墓室……）\n",
       "ru": "(Входим в гробницу...)",
       "status": "machine",
-      "srcHash": "8cdc264a05203d88",
+      "srcHash": "c33b84cdb28a9138",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "834489e8-c7fb-4578-8d3c-0fa80a2702b8/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> refuses to fight<NL>so <Character key=RoleTaiwu str=GenderSubject/> holds <Character key=RoleTaiwu str=GenderPossessive/> breath and wait quietly.<NL>The skeleton fails to smell the scent of human, falls back to the ground and soon disappears...",
       "cn": "<Character key=RoleTaiwu str=Name/>不愿应战，只屏息以待，<NL>那骷髅不闻人气，很快便重落地面，散落不见……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "e4e5d9c90f5fe9e3",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> отказывается сражаться<NL>итак <Character key=RoleTaiwu str=GenderSubject/> удерживает <Character key=RoleTaiwu str=GenderPossessive/> дышите и спокойно ждите.<NL>Скелет не чувствует человеческого запаха, падает обратно на землю и вскоре исчезает...",
+      "status": "machine",
+      "srcHash": "6851b2020f5aeed5",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "834489e8-c7fb-4578-8d3c-0fa80a2702b8/Option_1": {
       "en": "(Escape this place...)",
       "cn": "（逃离此地……）\n",
       "ru": "(Сбежать из этого места...)",
       "status": "machine",
-      "srcHash": "16e62b215382020a",
+      "srcHash": "51daeeb7d134ac67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "f829e940-3c6f-40b6-a961-160995f3c488/EventContent": {
       "en": "Within the coffin,<NL>there lay a little girl and a Taoist,<NL>one full of life and the other withered to bones.<NL>Originally, they seem to be embracing each other in a deep slumber, reluctant to part ways.<NL>However, at this moment, as if summoned by the bell's sound, the young girl slowly opens her blood-red eyes...",
@@ -1637,9 +1637,9 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "7335c74c-29e3-4a1c-ad28-cb2ba352ffa7/EventContent": {
       "en": "*ding*<NL>In the cold and eerie tomb chamber, a clear sound suddenly echoes...<NL>It is the Red-Robed Senior's artifact—the rusted bell that was found by <Character key=RoleTaiwu str=Name/> before.<NL>With <Character key=RoleTaiwu str=Name/>'s final strike, the bell trembles and rings out,<NL>its sound a lingering whisper, a plaintive call...",
@@ -1655,9 +1655,9 @@
       "cn": "（心神震荡，似有所感……）\n",
       "ru": "(Ошеломленный на некоторое время, и ему в голову приходит мысль...)",
       "status": "machine",
-      "srcHash": "0bf5334612ffb140",
+      "srcHash": "d1e0b47d31471929",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "bd959586-df51-4bb0-8bdd-ef3afd2b1d80/EventContent": {
       "en": "\"It's you... you've come...\"<NL>The girl in the coffin speaks with a dazed look, murmuring as if not fully awake.<NL><Character key=RoleTaiwu str=Name/> clearly has never been to this place before, yet <Character key=RoleTaiwu str=GenderSubject/> feels as if <Character key=RoleTaiwu str=GenderSubject/> has met the little girl somewhere else...",
@@ -1673,45 +1673,45 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "7f4276c2-e838-4bb6-99ab-e53b99210eaa/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> refuses to fight<NL>and dares not slacken a bit. <Character key=RoleTaiwu str=GenderSubject/> waits until the skeleton scatters and disappears, and then <Character key=RoleTaiwu str=GenderSubject/> flees right away...",
       "cn": "<Character key=RoleTaiwu str=Name/>不愿应战，<NL>便半点不敢松懈，屏息待那骷髅重又散去，逃之夭夭……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "2f73fdbf479ae076",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> отказывается сражаться<NL>и не смеет ни на йоту ослабнуть. <Character key=RoleTaiwu str=GenderSubject/> ждет, пока скелет рассыплется и исчезнет, а затем <Character key=RoleTaiwu str=GenderSubject/> сразу же убегает...",
+      "status": "machine",
+      "srcHash": "b043a807d739a2c8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "7f4276c2-e838-4bb6-99ab-e53b99210eaa/Option_1": {
       "en": "(Escape this place...)",
       "cn": "（逃离此地……）\n",
       "ru": "(Сбежать из этого места...)",
       "status": "machine",
-      "srcHash": "16e62b215382020a",
+      "srcHash": "51daeeb7d134ac67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "05638f8f-fbf8-4900-b589-40ca2115c7b3/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> becomes braver and more fierce as <Character key=RoleTaiwu str=GenderSubject/> fights...<NL>The skeleton instantly scatters all over the ground, and in the blink of an eye, the bones crumble into dust in the chamber...",
       "cn": "<Character key=RoleTaiwu str=Name/>愈战愈勇，<NL>只见那骷髅却忽地散落一地，转眼便碎作了墓中尘灰……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "49def98b9f01d182",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> становится храбрее и свирепее по мере того, как <Character key=RoleTaiwu str=GenderSubject/> драки...<NL>Скелет мгновенно разлетается по всей земле, и в мгновение ока кости в камере рассыпаются в пыль...",
+      "status": "machine",
+      "srcHash": "e722f4068adabe34",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "05638f8f-fbf8-4900-b589-40ca2115c7b3/Option_1": {
       "en": "(Confused but decide to move forward...)",
       "cn": "（不明所以，继续前进……）\n",
       "ru": "(В замешательстве, но решает двигаться дальше...)",
       "status": "machine",
-      "srcHash": "a018052cad220780",
+      "srcHash": "fd0141da57fb83ac",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "8e98d9f1-f665-4e9d-9f9a-5cc5443b4c58/EventContent": {
       "en": "At the end of the tomb passage, it is a dead end.<NL><Character key=RoleTaiwu str=Name/> seems to have felt something and carefully explores,<NL>only to see a heavy stone door, closed but with a trace of cold air seeping through the gap.<NL>Somehow, in an instant, <Character key=RoleTaiwu str=GenderPossessive/> spirit felt trance-like, and all fear disappears...",
@@ -1727,9 +1727,9 @@
       "cn": "（我竟好似来过此处一般……）\n",
       "ru": "(Почему у меня такое чувство, что я был здесь...)",
       "status": "machine",
-      "srcHash": "455288dcd101510a",
+      "srcHash": "8b816d8a3cbc34fb",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "7f2e9a8a-7a77-477c-bf83-dc7ba7cb6bb4/EventContent": {
       "en": "The girl, upon seeing this, stretches out her hand and points to a tomb passage, explaining, \"Although I'm not afraid of that Ultimate Yin Jiangshi, he is probably my deceased friend's descendant. I cannot bring myself to strike him down.<NL>And you... are not proficient in spells. You'd better quickly escape from this chamber. Once you enter this secret passage, you can escape to a safe place.\"",
@@ -1745,27 +1745,27 @@
       "cn": "其中……竟有这些渊源……那你快随我一道！\n",
       "ru": "Я не ожидал, что... за этим стоит такая история... Тогда вам следует последовать за мной и уйти прямо сейчас!",
       "status": "machine",
-      "srcHash": "d141cc924d143751",
+      "srcHash": "2e89229a91f867ea",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "db1e2d0c-30f2-41f5-9fda-6b650dd13e57/EventContent": {
       "en": "*thud*<NL>*thud*<NL>The sound of footsteps approaching, the stench of death overwhelming, the figure of the Red-Robed Senior is just inches away!",
       "cn": "咚、咚、咚，<NL>咚、咚、咚，<NL>足音逼近，尸气呛鼻，红衣老人身影近在咫尺！",
       "ru": "*глухой удар*<NL>* Глухой удар*<NL>Звук приближающихся шагов, удушающий запах смерти, фигура Старейшины в Красном всего в нескольких дюймах от нас!",
       "status": "machine",
-      "srcHash": "8413b52fb61d3799",
+      "srcHash": "a6c1744e2e8a292c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "db1e2d0c-30f2-41f5-9fda-6b650dd13e57/Option_1": {
       "en": "(Escape in panic!)",
       "cn": "（慌忙逃跑！）\n",
       "ru": "(Бегите в панике!)",
       "status": "machine",
-      "srcHash": "b4accb8c7c748ffb",
+      "srcHash": "27d5d6fd636ef6e2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c9b30870-f8b3-41d8-a3f0-6a1854e1b1b1/EventContent": {
       "en": "\"This chamber was once filled with haunting curses from the Taoists.<NL>Now only empty and broken bones of theirs remain...<NL>It has been so long...\"<NL><NL>The girl murmurs to herself, deep in thought. She glances at the dried bones in the coffin,<NL>then turns back and looks at <Character key=RoleTaiwu str=Name/>...",
@@ -1781,54 +1781,54 @@
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "02397d44-5e21-4f47-a608-67dcfeabb54f/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> chases all the way forward,<NL>the path ahead grows darker, filled with a thick aura of death and extreme chill.<NL>In the distance, the figure of the Red-Robed Senior is leaping forward on his toes, seeming to become even more agile...",
       "cn": "<Character key=RoleTaiwu str=Name/>一路追击，<NL>只觉前路愈发幽深，死气浓浓，阴寒至极，<NL>远处红衣老人身影，蹦跳前行，似乎亦越发灵活了几分……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "60e5520ca497248b",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> преследует до самого конца,<NL>путь впереди становится все темнее, наполняясь густой аурой смерти и крайнего холода.<NL>Вдалеке фигура Старшего в красном одеянии прыгает вперед на цыпочках, кажется, становясь еще более проворным...",
+      "status": "machine",
+      "srcHash": "ba76ae101d914a90",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "02397d44-5e21-4f47-a608-67dcfeabb54f/Option_1": {
       "en": "(Things are not looking good now...)",
       "cn": "（似有不妙……）\n",
       "ru": "(Сейчас все выглядит не очень хорошо...)",
       "status": "machine",
-      "srcHash": "f1d4c79b47af3b76",
+      "srcHash": "b950f203623b04b2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c94e8a4b-854c-4367-9876-ef1f5a7cd8ea/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "7aa3cd9d-2e63-4d2d-b296-06dccc4b6588/EventContent": {
       "en": "\"Your soul... it seems it was fashioned by another...<NL>Anyway, since you are the one who awakened me, then you are that person...\"<NL>As the young girl speaks these words, her crimson gaze held <Character key=RoleTaiwu str=Name/>, unreadable as ever...",
       "cn": "“你的魂魄，似乎因由他人所生……<NL>也罢，既然是你将我唤醒，你便是那个人了……”<NL>女童言及此处，血红双眸深深望向<Character key=RoleTaiwu str=Name/>，难辨其中思绪……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "163eef0d95ded5a8",
-      "engine": null,
-      "updatedAt": null
+      "ru": "- Твоя душа... кажется, она была создана кем-то другим...<NL>В любом случае, поскольку ты тот, кто разбудил меня, значит, ты и есть тот человек...\"<NL>Когда молодая девушка произносила эти слова, ее багровый взгляд был прикован <Character key=RoleTaiwu str=Name/>, как всегда, нечитаемый...",
+      "status": "machine",
+      "srcHash": "5dbd4976737b7c65",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "7aa3cd9d-2e63-4d2d-b296-06dccc4b6588/Option_1": {
       "en": "That person?",
       "cn": "那个人？\n",
       "ru": "Этот человек?",
       "status": "machine",
-      "srcHash": "4a011ddab3422cec",
+      "srcHash": "9324a29290c19818",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "76b4de18-9954-4958-a3bf-8e6b3f3cc383/EventContent": {
       "en": "The girl suddenly falls silent. She raises a hand and presses her palm firmly against <Character key=RoleTaiwu str=Name/>'s chest.<NL>Though the strike carries weight, <Character key=RoleTaiwu str=Name/> feels only a warm current flowing gently into <Character key=RoleTaiwu str=GenderPossessive/> heart meridian.<NL>In the blink of an eye, that warmth spreads through every limb, washing away all pain. A soothing ease fills the body—injuries vanish as if they'd never existed...<NL><NL>Startled, <Character key=RoleTaiwu str=Name/> looks to the girl again, only to find her brow beaded with sweat, her face pale as paper, and her stance unsteady, as though she might collapse at any moment...<NL><NL>(<Character key=RoleTaiwu str=Name/>'s injuries have fully healed. All toxins are purged, and health is fully restored...)",
@@ -1844,72 +1844,72 @@
       "cn": "多谢姑娘，只是姑娘为何救我？\n",
       "ru": "Спасибо вам, мисс. Но... почему ты спас меня?",
       "status": "machine",
-      "srcHash": "581f893c9eb1aabb",
+      "srcHash": "193a70225f9e5ec4",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c7e92aba-d180-445f-af97-e21c9d2c01eb/EventContent": {
       "en": "The chilling wind moans low as <Character key=RoleTaiwu str=Name/> hurries into the tomb corridor.<NL>Just a few steps in, a crisp \"clang\" sounds beneath the feet,<NL>as if something hard has struck against the tomb bricks...",
       "cn": "阴风森森，低吟而过，<NL><Character key=RoleTaiwu str=Name/>匆匆奔入墓道，正踏出数步，突然听到脚下“叮当”一声脆响，<NL>似有什么坚硬之物在墓砖上相击出声……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "d2b61ee9fac1be71",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Леденящий ветер тихо стонет, когда <Character key=RoleTaiwu str=Name/> спешит в коридор гробницы.<NL>Всего через несколько шагов под ногами раздается резкий \"лязг\",<NL>как будто что-то твердое ударилось о кирпичи гробницы...",
+      "status": "machine",
+      "srcHash": "7ebd9317c38c38b3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "c7e92aba-d180-445f-af97-e21c9d2c01eb/Option_1": {
       "en": "(Stop to investigate...)",
       "cn": "（留步查看……）",
       "ru": "(Остановитесь, чтобы разобраться...)",
       "status": "machine",
-      "srcHash": "5309e1569d16c6d3",
+      "srcHash": "4dfba8d6f051a461",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c7e92aba-d180-445f-af97-e21c9d2c01eb/Option_2": {
       "en": "(Leave it alone...)",
       "cn": "（置之不理……）\n",
       "ru": "(Оставь это в покое...)",
       "status": "machine",
-      "srcHash": "307c2e55e401c4db",
+      "srcHash": "7390af77c7aeb053",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "8a180561-622d-47f3-89e0-62e1e4f5d92e/EventContent": {
       "en": "The cold, sinister air wails faintly, seeping chaotically from the winding tomb corridor.<NL><Character key=RoleTaiwu str=Name/> doesn't wish to linger, hastening to pursue the Red-Robed Senior...",
       "cn": "森冷阴气幽幽呜咽，自曲折墓道中纷乱渗来，<NL><Character key=RoleTaiwu str=Name/>不欲久留，疾追红衣老人而去……",
       "ru": "Холодный, зловещий воздух слабо завывает, хаотично просачиваясь из извилистого коридора гробницы.<NL><Character key=RoleTaiwu str=Name/> не желая задерживаться, он спешит догнать Старшего в Красном...",
       "status": "machine",
-      "srcHash": "25f85a226eb66609",
+      "srcHash": "ae7ddbbb5c32f252",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "8a180561-622d-47f3-89e0-62e1e4f5d92e/Option_1": {
       "en": "(Press further in...)",
       "cn": "（继续深入……）\n",
       "ru": "(Нажмите далее в...)",
       "status": "machine",
-      "srcHash": "8442e864a657506c",
+      "srcHash": "4855d5a6bd60494a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "88665114-6dc2-4947-999e-600c54614033/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> looks down to see several discarded skeletons in the tomb corridor.<NL>The pale broken bones seem smashed by some monstrous force,<NL>leaving only a few fragments scattered on the tomb bricks, still usable if taken...",
       "cn": "<Character key=RoleTaiwu str=Name/>低头看去，只见墓道内弃置着数具骸骨，<NL>这些已然苍白的断骨似是被何种怪力击碎，<NL>仅留些许零碎之物散于墓砖之上，取之尚能一用……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "85d3e3176c875419",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> смотрит вниз и видит несколько выброшенных скелетов в коридоре гробницы.<NL>Бледные сломанные кости кажутся раздавленными какой-то чудовищной Мощью,<NL>осталось лишь несколько фрагментов, разбросанных по кирпичам гробницы, которые все еще можно использовать, если их забрать...",
+      "status": "machine",
+      "srcHash": "1e09838f3e4288a3",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "88665114-6dc2-4947-999e-600c54614033/Option_1": {
       "en": "(Take them and continue deeper...)",
       "cn": "（将之取走，继续深入……）\n",
       "ru": "(Возьмите их и продолжайте погружаться глубже...)",
       "status": "machine",
-      "srcHash": "0b4a7bb32630eae6",
+      "srcHash": "2b462084f55b5c08",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "3a71d797-c0a2-4d5f-a625-b902d1b74381/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> passes the fallen skeletons and chases a few dozen steps further,<NL>only to see the Red-Robed Senior suddenly leap several feet away,<NL>and just as <Character key=RoleTaiwu str=Name/> is astonished, the floor ahead of the tomb corridor rumbles.<NL>Looking closely, the mechanism has triggered, the floor abruptly splits open,<NL>and below, spikes jut up with several skeletons sprawled across them...",
@@ -1925,184 +1925,184 @@
       "cn": "（飞身跃过……）",
       "ru": "(Перепрыгнуть через...)",
       "status": "machine",
-      "srcHash": "3e29f570cdfa00fa",
+      "srcHash": "6b0ebfccd5364063",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "3a71d797-c0a2-4d5f-a625-b902d1b74381/Option_2": {
       "en": "(Make a detour...)",
       "cn": "（绕道而行……）\n",
       "ru": "(Сделай крюк...)",
       "status": "machine",
-      "srcHash": "208c7e5c4b600f4e",
+      "srcHash": "4611401f93eeeb05",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "d284b323-9369-4182-b4d1-54a726413aec/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> inhales and leaps over the tomb's mechanism,<NL>landing as the Red-Robed Senior bounds farther away...",
       "cn": "<Character key=RoleTaiwu str=Name/>提气纵身，直直跃过墓中机关，<NL>落地之时，红衣老人已蹦跳着渐远……",
       "ru": "<Character key=RoleTaiwu str=Name/> вдыхает и перепрыгивает через механизм гробницы,<NL>приземляясь, Старший в Красном отпрыгивает подальше...",
       "status": "machine",
-      "srcHash": "e0d3b2900b787293",
+      "srcHash": "0a0d8ee2a5807f35",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "d284b323-9369-4182-b4d1-54a726413aec/Option_1": {
       "en": "(Quickly follow...)",
       "cn": "（快步跟上……）\n",
       "ru": "(Быстро следуйте за мной...)",
       "status": "machine",
-      "srcHash": "f9aa44c638295f71",
+      "srcHash": "735b8e3de2645a23",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "829f8b8c-6c1d-4cef-97ce-14039202f0d8/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> looks around,<NL>noticing a narrow passage above the tomb wall, faint eerie wind drifting from it.<NL><Character key=RoleTaiwu str=Name/> immediately rolls and slips inside, passing the mechanism in moments...",
       "cn": "<Character key=RoleTaiwu str=Name/>四下察看，<NL>发现墓墙上方有着一条细窄甬道，微微幽风正自其中渗出，<NL><Character key=RoleTaiwu str=Name/>随即翻身钻入，不过片刻即越过机关……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "8e295ab26a5b0223",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> оглядывается по сторонам,<NL>замечаю узкий проход над стеной гробницы, из которого доносится слабый жутковатый ветерок.<NL><Character key=RoleTaiwu str=Name/> немедленно закатывается и проскальзывает внутрь, за считанные мгновения минуя механизм...",
+      "status": "machine",
+      "srcHash": "46cb1c1e3468fbbf",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "829f8b8c-6c1d-4cef-97ce-14039202f0d8/Option_1": {
       "en": "(Press further in...)",
       "cn": "（继续深入……）\n",
       "ru": "(Нажмите далее в...)",
       "status": "machine",
-      "srcHash": "8442e864a657506c",
+      "srcHash": "4855d5a6bd60494a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6806367b-f885-470c-bdcb-e4772788110d/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> runs downward, still seeing no end to the tomb.<NL>Turning a corner, several pale skeletons come into view,<NL>all dressed in tattered martial garments, each clutching bulging pouches of coin in their finger bones...",
       "cn": "<Character key=RoleTaiwu str=Name/>一路下奔，仍不见墓穴尽头，<NL>方转过一处拐角，赫然现出数具苍白骸骨，<NL>其皆着破烂劲衣，指骨中紧握着鼓鼓囊囊的钱袋……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "f7f06d964e5e8935",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> бежит вниз, все еще не видя конца гробнице.<NL>Поворачивая за угол, мы видим несколько бледных скелетов,<NL>все были одеты в изодранные боевые одежды, каждый сжимал в костяшках пальцев набитые монетами мешочки...",
+      "status": "machine",
+      "srcHash": "590646f2f3a04acc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "6806367b-f885-470c-bdcb-e4772788110d/Option_1": {
       "en": "(Take the coin pouch...)",
       "cn": "（取过钱袋……）",
       "ru": "(Возьмите мешочек с монетами...)",
       "status": "machine",
-      "srcHash": "48e99613b4b41d18",
+      "srcHash": "562f68c91eae2882",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6806367b-f885-470c-bdcb-e4772788110d/Option_2": {
       "en": "(Leave it alone...)",
       "cn": "（置之不理……）\n",
       "ru": "(Оставь это в покое...)",
       "status": "machine",
-      "srcHash": "307c2e55e401c4db",
+      "srcHash": "7390af77c7aeb053",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "91817320-22a9-428a-8678-72c7864ca9a3/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> bents down and lifts the pouch into hand,<NL>giving it a shake, the coins jingling inside,<NL>yet wondering why these people have brought money deep into the tomb...",
       "cn": "<Character key=RoleTaiwu str=Name/>俯身一提，即将钱袋握于掌中，<NL>随手轻晃，即听得袋中银钱叮叮作响，<NL>却不知这些人为何携钱深入墓中……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "014909934ab8f46d",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> наклоняется и берет мешочек в руку,<NL>встряхиваю его, внутри позвякивают монеты,<NL>и все же интересно, зачем эти люди принесли деньги глубоко в могилу...",
+      "status": "machine",
+      "srcHash": "bc1a7facd97d774e",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "91817320-22a9-428a-8678-72c7864ca9a3/Option_1": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "784bee87aeedf0d9",
+      "srcHash": "2f4b240518e0f414",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "74e352c6-cf51-4c6d-a178-b8d5c402cbc2/EventContent": {
       "en": "The tomb is cold and eerie; <Character key=RoleTaiwu str=Name/> doesn't want to linger.<NL>Stepping over the skeletons and moving forward, only a few steps ahead, faint clicks sound from behind...",
       "cn": "墓中森冷古怪，<Character key=RoleTaiwu str=Name/>不欲久留，<NL>迈步越过骸骨即向前而去，才走出数步，即听得身后传出几声微弱的咔哒声……",
       "ru": "В гробнице холодно и жутковато; <Character key=RoleTaiwu str=Name/> не хочется задерживаться.<NL>Переступая через скелеты, я продвигаюсь вперед, всего на несколько шагов, и тут сзади раздаются слабые щелчки...",
       "status": "machine",
-      "srcHash": "236f4b564f253fb3",
+      "srcHash": "fda90b8ca30e8e5c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "74e352c6-cf51-4c6d-a178-b8d5c402cbc2/Option_1": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "784bee87aeedf0d9",
+      "srcHash": "2f4b240518e0f414",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c2956b9f-d910-4fb2-a75c-ed19d82d24e8/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> has gone deep into the tomb, with no end in sight.<NL>After passing several forked paths, a patch of dim green light flashs ahead.<NL><Character key=RoleTaiwu str=Name/> glances aside and sees a few cold blue ghostly flames flickering...",
       "cn": "<Character key=RoleTaiwu str=Name/>已深入墓中不知多深，仍迟迟不见尽头所在，<NL>又过数条岔路，陡见前方闪过一片阴绿光泽，<NL><Character key=RoleTaiwu str=Name/>侧身看去，即见得几团冷青鬼火幽幽跃动……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "cc28082b3a553027",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> ушел глубоко в могилу, и конца ему не видно.<NL>Пройдя несколько разветвленных тропинок, впереди вспыхивает пятно тусклого зеленого света.<NL><Character key=RoleTaiwu str=Name/> бросает взгляд в сторону и видит несколько мерцающих холодных голубых огоньков...",
+      "status": "machine",
+      "srcHash": "110c077575742c97",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "c2956b9f-d910-4fb2-a75c-ed19d82d24e8/Option_1": {
       "en": "(Proceed cautiously...)",
       "cn": "（谨慎前进……）",
       "ru": "(Действуйте осторожно...)",
       "status": "machine",
-      "srcHash": "486398d84f1db208",
+      "srcHash": "fd19700a03320429",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c2956b9f-d910-4fb2-a75c-ed19d82d24e8/Option_2": {
       "en": "(Leave it alone...)",
       "cn": "（置之不理……）\n",
       "ru": "(Оставь это в покое...)",
       "status": "machine",
-      "srcHash": "307c2e55e401c4db",
+      "srcHash": "7390af77c7aeb053",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "1f425513-d333-43c6-95f2-fadd3f038b0c/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> calms the heart and holds his breath, hugging the tomb corridor to avoid the ghost flames.<NL>A gust of chill wind passes, and the flames flicker a few times before vanishing into darkness...",
       "cn": "<Character key=RoleTaiwu str=Name/>宁心屏息，紧贴墓道避过鬼火，<NL>随着一阵阴风刮过，火苗挣扎数次便泯于浓暗之中……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "790ee5fab482c2aa",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> успокаивает сердце и задерживает дыхание, прижимаясь к коридору гробницы, чтобы избежать призрачного пламени.<NL>Налетает порыв холодного ветра, и пламя несколько раз мигает, прежде чем исчезнуть в темноте...",
+      "status": "machine",
+      "srcHash": "339fe1c42600d821",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "1f425513-d333-43c6-95f2-fadd3f038b0c/Option_1": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "784bee87aeedf0d9",
+      "srcHash": "2f4b240518e0f414",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "3168a748-3ad0-4cfc-a066-cbd064dc32aa/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> waves a hand, instantly extinguishing the ghost flames.<NL>The tomb corridor returns to pitch black, only a few cold traces lingering in <Character key=RoleTaiwu str=Name/>'s palm...",
       "cn": "<Character key=RoleTaiwu str=Name/>抬手一挥，瞬时便将鬼火灭去，<NL>墓道内重归漆黑，仅残几抹冰凉留于<Character key=RoleTaiwu str=Name/>掌中……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "e00bc3d0c4cb68ef",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> взмахивает рукой, мгновенно гася призрачное пламя.<NL>Коридор гробницы снова погружается в кромешную тьму, лишь несколько холодных следов остаются в <Character key=RoleTaiwu str=Name/>чья-то ладонь...",
+      "status": "machine",
+      "srcHash": "7b086afe73110c7d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "3168a748-3ad0-4cfc-a066-cbd064dc32aa/Option_1": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "784bee87aeedf0d9",
+      "srcHash": "2f4b240518e0f414",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "a0adf11b-f83d-47ef-984c-0cb0027a8726/EventContent": {
       "en": "The tomb's winding paths seem endless, stretching ever downward.<NL><Character key=RoleTaiwu str=Name/> and the Red-Robed Senior have no sense of how long they have maneuvered here.<NL>Suddenly, <Character key=RoleTaiwu str=Name/> notices the walls tightening, the stacked stones and soil turning darker brown-green.<NL>Long reddish-brown threads cling to the walls like a dense web, extending deeper into the tomb...",
-      "cn": "墓中曲折回路似是无穷尽般不断延申向下，<NL><Character key=RoleTaiwu str=Name/>与红衣老人不知在此中周旋多久，<NL><Character key=RoleTaiwu str=Name/>忽惊觉周遭四壁愈发逼仄，所垒石土青棕渐浓，<NL>更有漫漫赤褐丝线紧贴墓道壁上，以蛛网密布之状向着墓中深处而去……",
+      "cn": "墓中曲折回路似是无穷尽般不断延伸向下，<NL><Character key=RoleTaiwu str=Name/>与红衣老人不知在此中周旋多久，<NL><Character key=RoleTaiwu str=Name/>忽惊觉周遭四壁愈发逼仄，所垒石土青棕渐浓，<NL>更有漫漫赤褐丝线紧贴墓道壁上，以蛛网密布之状向着墓中深处而去……",
       "ru": null,
       "status": "pending",
       "srcHash": "5dc2d7fa923fa350",
@@ -2114,9 +2114,9 @@
       "cn": "（兴许此路正可直达主墓……）\n",
       "ru": "(Возможно, эта тропинка ведет прямо к главной гробнице...)",
       "status": "machine",
-      "srcHash": "25d970cb28ec2867",
+      "srcHash": "bbabc9370b610aed",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "a68b8168-8704-466a-ba65-c25e150473db/EventContent": {
       "en": "As <Character key=RoleTaiwu str=Name/> steps deeper,<NL>the narrow corridor barely wide enough for one to pass sideways reveals pale skeletons.<NL>Each skeleton bore strange, eerie carved characters, embedded deeply into the tomb walls.<NL>Many broken bones lay scattered chaotically along the path...",
@@ -2132,9 +2132,9 @@
       "cn": "（此地究竟所葬何人……）\n",
       "ru": "(Кто именно здесь похоронен...)",
       "status": "machine",
-      "srcHash": "f4b4f6b3d5bda2ad",
+      "srcHash": "dac1a9bae5e93373",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     }
   }
 }

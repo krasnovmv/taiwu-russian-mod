@@ -1,61 +1,61 @@
 {
   "schemaVersion": 1,
   "file": "Event_Languages/Taiwu_EventPackage_SmallVilliageChange_Language_EN.txt",
-  "glossaryVersion": 5,
+  "glossaryVersion": 6,
   "units": {
     "86917dda-1578-4346-afb5-fc481a70e8ed/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> arrives at the ruins of a collapsed house.<NL>Lying on the ground is A'niu, lifeless. His hands are covered in blood. He must have tried to dig through the earth with his bare hands...",
       "cn": null,
-      "ru": null,
-      "status": "pending",
-      "srcHash": "c9354b5b166ba770",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name /> прибывает к развалинам рухнувшего дома.<NL>На земле лежит безжизненный А'ниу. Его руки покрыты кровью. Должно быть, он пытался копаться в земле голыми руками...",
+      "status": "machine",
+      "srcHash": "08b1f00b4b89fadb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "86917dda-1578-4346-afb5-fc481a70e8ed/Option_1": {
       "en": "(Continue pursuing...)",
       "cn": null,
       "ru": "(Продолжайте преследовать...)",
       "status": "machine",
-      "srcHash": "f33b5de8201bea1d",
+      "srcHash": "461452a88c057f8f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "0f6c0051-673a-4a72-8154-fad8d15ee885/EventContent": {
       "en": "<Character key=Rm str=Name/> looks like a demon incarnate.<NL>His face is twisted with rage, streaked with blood and tears. Every strike is wild and desperate,<NL>as if all reason has abandoned him!",
       "cn": null,
       "ru": "<Character key=Rm str=Name/> выглядит как воплощение демона.<NL>Его лицо искажено яростью, залито кровью и слезами. Каждый удар дикий и отчаянный,<NL>как будто весь рассудок покинул его!",
       "status": "machine",
-      "srcHash": "6633783546858fe7",
+      "srcHash": "79b02d61213b53de",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "0f6c0051-673a-4a72-8154-fad8d15ee885/Option_1": {
       "en": "(Turn to the old Taoist...)",
       "cn": null,
       "ru": "(Обратимся к старому даосу...)",
       "status": "machine",
-      "srcHash": "324173556203946a",
+      "srcHash": "5f2206352ee132d5",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "0f6c0051-673a-4a72-8154-fad8d15ee885/Option_2": {
       "en": "(Look toward <Character key=Rm str=Name/>...)",
       "cn": null,
       "ru": "(Посмотрите в сторону <Character key=Rm str=Name/>...)",
       "status": "machine",
-      "srcHash": "f4a45ab6e7a6eadc",
+      "srcHash": "3f8be716a5681e37",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "0f6c0051-673a-4a72-8154-fad8d15ee885/Option_3": {
       "en": "(Save him...)",
       "cn": null,
       "ru": "(Спаси его...)",
       "status": "machine",
-      "srcHash": "aac305937fca2e81",
+      "srcHash": "70f7c902bc090acf",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "4b67ba36-5b5f-48b0-8cf9-1e2b0bb64142/EventContent": {
       "en": "\"Kill her! I'll be the one to end Chuixing! No one else!\"<NL>Situ Huanyue lashes out like someone possessed—fast, erratic, unstoppable.<NL><Character key=RoleTaiwu str=Name /> dodges just in time, but no matter how <Character key=RoleTaiwu str=GenderSubject/> counters, <Character key=RoleTaiwu str=GenderSubject/> can't bring her under control.<NL>Just as <Character key=RoleTaiwu str=GenderSubject/>'s backed into a corner, <color=#yellow>the Fuyu Hilt</color> bursts from <Character key=RoleTaiwu str=Name />'s robes and lands firmly in <Character key=RoleTaiwu str=Name />'s hand.",
@@ -69,56 +69,56 @@
     "4b67ba36-5b5f-48b0-8cf9-1e2b0bb64142/Option_1": {
       "en": "Use the Fuyu Hilt to rescue",
       "cn": null,
-      "ru": "Используйте Рукоять Фуюй, чтобы спасти",
+      "ru": "Используйте Рукоять Фую, чтобы спасти",
       "status": "machine",
-      "srcHash": "03c1c6a76e1fca55",
+      "srcHash": "e70e8bef4ee71126",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "22c6814b-a0aa-4480-9ad5-96191ee4c442/EventContent": {
       "en": "\"For heaven's sake! When I tell you to run, you run!<NL>Didn't the Hermit of the Valley tell you anything before naming you Taiwu? Ugh!\"<NL>The old Taoist barely finishes his sentence before nearly getting struck again by <Character key=Rm str=Name/>...",
       "cn": null,
-      "ru": null,
-      "status": "pending",
-      "srcHash": "d0f6153f82cf03e8",
-      "engine": null,
-      "updatedAt": null
+      "ru": "- Ради всего святого! Когда я говорю тебе бежать, ты бежишь!<NL>Разве Отшельник Долины ничего не сказал тебе, прежде чем назвать тебя Тайу? Тьфу!\"<NL>Старый даос едва заканчивает свое предложение, как снова едва не получает удар от <Character key=Rm str=Name/>...",
+      "status": "machine",
+      "srcHash": "8841dad29d126e75",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "22c6814b-a0aa-4480-9ad5-96191ee4c442/Option_1": {
       "en": "\"What 'Hermit of the Valley'...?! Watch out, Taoist!\"",
       "cn": null,
       "ru": "- Какой еще \"Отшельник из Долины\"?.. Осторожно, даос!",
       "status": "machine",
-      "srcHash": "22568876d8b6b94d",
+      "srcHash": "98244a155d5c7d1a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "8d940302-0178-4444-89d1-6f8ad0b8d1ee/EventContent": {
       "en": "The old Taoist mutters under his breath, then suddenly spreads his arms wide, True Qi surges through his entire body.<NL>Before <Character key=RoleTaiwu str=Name /> can react, he launches into the air, seizes <Character key=Rm str=Name/> and leaps into the Hidden Mountain River...",
       "cn": null,
-      "ru": null,
-      "status": "pending",
-      "srcHash": "a4f6a431d783f0ee",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Старый даос что-то бормочет себе под нос, затем внезапно широко разводит руки, и Истинная Ци разливается по всему его телу.<NL>До того, как <Character key=RoleTaiwu str=Name /> может среагировать, он взлетает в воздух, хватает <Character key=Rm str=Name/> и прыгает в Скрытую горную реку...",
+      "status": "machine",
+      "srcHash": "a09f69aea1a05f87",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "8d940302-0178-4444-89d1-6f8ad0b8d1ee/Option_1": {
       "en": "Taoist",
       "cn": null,
       "ru": "Даосский",
       "status": "machine",
-      "srcHash": "8899d50d3a360786",
+      "srcHash": "c9d144e22eef03ed",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "0f0c2a94-2753-40a5-96a3-2388834d8fcc/EventContent": {
       "en": "nan",
       "cn": null,
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "11d43d76-471c-4969-b991-f64c7a1fa2ad/EventContent": {
       "en": "\"That gold... it's all mine! No one's taking it from me!\"<NL>For reasons unknown, Guo Yan seems possessed—his strength surges unnaturally.<NL><Character key=RoleTaiwu str=Name /> manages to smother the flames burning across his body, but no matter how <Character key=RoleTaiwu str=GenderSubject/> tries, <Character key=RoleTaiwu str=GenderSubject/> can't bring Guo Yan under control.<NL>Just as things spiral out of control, <color=#yellow>the Fuyu Hilt</color> bursts from <Character key=RoleTaiwu str=Name />'s robes and lands firmly in <Character key=RoleTaiwu str=Name />'s hand...",
@@ -132,101 +132,101 @@
     "11d43d76-471c-4969-b991-f64c7a1fa2ad/Option_1": {
       "en": "Use the Fuyu Hilt to rescue",
       "cn": null,
-      "ru": "Используйте Рукоять Фуюй, чтобы спасти",
+      "ru": "Используйте Рукоять Фую, чтобы спасти",
       "status": "machine",
-      "srcHash": "03c1c6a76e1fca55",
+      "srcHash": "e70e8bef4ee71126",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "185d024d-512f-4d41-81af-ed9ac4d38393/EventContent": {
       "en": "nan",
       "cn": null,
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "336ae3a8-edd7-479b-aa9b-d2f1f47b2f24/EventContent": {
       "en": "The old Taoist was covered in wounds<NL>but kept dodging without launching a single attack.<NL>No wonder, with such a vast difference in skill, the two were locked in a desperate struggle.",
       "cn": null,
       "ru": "Старый даос был покрыт ранами<NL>но продолжал уклоняться, не предприняв ни единой Атаки.<NL>Неудивительно, что при такой огромной разнице в мастерстве эти двое сцепились в отчаянной борьбе.",
       "status": "machine",
-      "srcHash": "9ea347137bab2746",
+      "srcHash": "10368b6e4e31f406",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "336ae3a8-edd7-479b-aa9b-d2f1f47b2f24/Option_1": {
       "en": "(Turn to the old Taoist...)",
       "cn": null,
       "ru": "(Обратимся к старому даосу...)",
       "status": "machine",
-      "srcHash": "324173556203946a",
+      "srcHash": "5f2206352ee132d5",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "336ae3a8-edd7-479b-aa9b-d2f1f47b2f24/Option_2": {
       "en": "(Look toward <Character key=Rm str=Name/>...)",
       "cn": null,
       "ru": "(Посмотрите в сторону <Character key=Rm str=Name/>...)",
       "status": "machine",
-      "srcHash": "f4a45ab6e7a6eadc",
+      "srcHash": "3f8be716a5681e37",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "336ae3a8-edd7-479b-aa9b-d2f1f47b2f24/Option_3": {
       "en": "(Save him...)",
       "cn": null,
       "ru": "(Спаси его...)",
       "status": "machine",
-      "srcHash": "aac305937fca2e81",
+      "srcHash": "70f7c902bc090acf",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "39e08df7-ed7b-4088-a002-8f66c2c317fe/EventContent": {
       "en": "nan",
       "cn": null,
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "7f9f2a90-59cd-4d69-9a70-b03dbae64a96/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> arrives at the ruins of a collapsed house.<NL>Lying on the ground is A'niu, lifeless. His hands are covered in blood. He must have tried to dig through the earth with his bare hands...",
       "cn": null,
-      "ru": null,
-      "status": "pending",
-      "srcHash": "c9354b5b166ba770",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name /> прибывает к развалинам рухнувшего дома.<NL>На земле лежит безжизненный А'ниу. Его руки покрыты кровью. Должно быть, он пытался копаться в земле голыми руками...",
+      "status": "machine",
+      "srcHash": "08b1f00b4b89fadb",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "7f9f2a90-59cd-4d69-9a70-b03dbae64a96/Option_1": {
       "en": "(Continue pursuing...)",
       "cn": null,
       "ru": "(Продолжайте преследовать...)",
       "status": "machine",
-      "srcHash": "f33b5de8201bea1d",
+      "srcHash": "461452a88c057f8f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c227ee57-61b6-4b9e-8256-b60583fd9add/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> races up to a muddy puddle and finds Situ Huanyue,<NL>for some unknown reason, plunging her own sword into herself, collapsing into the water...",
       "cn": null,
       "ru": "<Character key=RoleTaiwu str=Name /> подбегает к грязной луже и находит Ситу Хуаньюэ,<NL>по какой-то неизвестной причине вонзает в себя свой собственный Меч и падает в воду...",
       "status": "machine",
-      "srcHash": "e48ea37641068fcc",
+      "srcHash": "5fd06e56e3aca024",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "c227ee57-61b6-4b9e-8256-b60583fd9add/Option_1": {
       "en": "(Continue pursuing...)",
       "cn": null,
       "ru": "(Продолжайте преследовать...)",
       "status": "machine",
-      "srcHash": "f33b5de8201bea1d",
+      "srcHash": "461452a88c057f8f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "fcf5103f-a1fe-4484-af69-1eb1fd21e58f/EventContent": {
       "en": "\"It's a hopeless fight! Hopeless fight! <NL>The Possessed would never die so easily... <NL>I only... I only wanted to keep you here, to prevent you from leaving the valley and being harmed by these demons... Alas...\" <NL>True to his words, before the Old Taoist could finish, the <Character key=Rm str=Name/>, whose throat already pierced by a sharp stone, indeed leaped to its feet!",
@@ -242,18 +242,18 @@
       "cn": null,
       "ru": "(Ошеломленный!)",
       "status": "machine",
-      "srcHash": "7bb264b7b5c57a85",
+      "srcHash": "a11d5c41da079b0c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6b49169d-8c7c-447f-81be-49250f883f32/EventContent": {
       "en": "nan",
       "cn": null,
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "23c55864-1e3b-4f2c-90c3-7e99611745b4/EventContent": {
       "en": "\"Kill her! I'll be the one to end Chuixing! No one else!\"<NL>Situ Huanyue lashes out like someone possessed—fast, erratic, unstoppable.<NL><Character key=RoleTaiwu str=Name /> dodges just in time, but no matter how <Character key=RoleTaiwu str=GenderSubject/> counters, <Character key=RoleTaiwu str=GenderSubject/> can't bring her under control.<NL>Just as <Character key=RoleTaiwu str=GenderSubject/>'s backed into a corner, <color=#yellow>the Fuyu Hilt</color> bursts from <Character key=RoleTaiwu str=Name />'s robes and lands firmly in <Character key=RoleTaiwu str=Name />'s hand.",
@@ -267,38 +267,38 @@
     "23c55864-1e3b-4f2c-90c3-7e99611745b4/Option_1": {
       "en": "Use the Fuyu Hilt to rescue",
       "cn": null,
-      "ru": "Используйте Рукоять Фуюй, чтобы спасти",
+      "ru": "Используйте Рукоять Фую, чтобы спасти",
       "status": "machine",
-      "srcHash": "03c1c6a76e1fca55",
+      "srcHash": "e70e8bef4ee71126",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "46133f5a-354e-44d7-9244-ef0b0140c200/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> then rushes to the ruins of a collapsed house,<NL>where A'niu is digging into the ground with his hands, tears streaming down his face, sobbing as he tried to save someone...",
       "cn": null,
-      "ru": null,
-      "status": "pending",
-      "srcHash": "ef4f76a8b1607f59",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name /> затем бросается к развалинам рухнувшего дома,<NL>где А'Ниу зарывается руками в землю, по его лицу текут слезы, он рыдает, пытаясь кого-то спасти...",
+      "status": "machine",
+      "srcHash": "5ed4a8233f036d47",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "46133f5a-354e-44d7-9244-ef0b0140c200/Option_1": {
       "en": "<color=#darkgrey>[Willpower Cost: 20]</color> (Calm them down...)",
       "cn": null,
       "ru": "<color=#darkgrey>[Стоимость использования Силы воли: 20]</color> (Успокой их...)",
       "status": "machine",
-      "srcHash": "6fb90cb5bc30d064",
+      "srcHash": "d70bc41c634ab9f6",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "46133f5a-354e-44d7-9244-ef0b0140c200/Option_2": {
       "en": "(Continue pursuing...)",
       "cn": null,
       "ru": "(Продолжайте преследовать...)",
       "status": "machine",
-      "srcHash": "f33b5de8201bea1d",
+      "srcHash": "461452a88c057f8f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "9d2e10d1-bd17-4239-bad6-d1841e055399/EventContent": {
       "en": "Seeing the old Taoist only defending and not attacking,<NL><Character key=RoleTaiwu str=Name />'s heart burned with anxiety. <Character key=RoleTaiwu str=GenderSubject/> charged forward, ready to help.<NL>Suddenly, the old Taoist shouted urgently:<NL><NL>\"Don't come any closer! <Character key=Rm str=Name/> has fallen into Deviation!<NL>Your <color=#yellow>Fuyu Hilt</color> hasn't fully regained its power. You won't win this. Run while you still can!\"",
@@ -312,11 +312,11 @@
     "9d2e10d1-bd17-4239-bad6-d1841e055399/Option_1": {
       "en": "Deviation? Power? How do you even know I have the Fuyu Hilt!?",
       "cn": null,
-      "ru": "Искажение? Власть? Откуда ты вообще знаешь, что у меня есть Рукоять Фуюй?!",
+      "ru": "Отклонение? Власть? Откуда ты вообще знаешь, что у меня есть Рукоять Фую?!",
       "status": "machine",
-      "srcHash": "287550f8ac76b8ba",
+      "srcHash": "82e73a1ed6a7860b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "a6123f3c-7638-44c1-9e85-fb933d114713/EventContent": {
       "en": "The sun rose in the east while the river below remained cold and dark.<NL><NL><Character key=RoleTaiwu str=Name /> laid the old Taoist to rest by the riverside,<NL>then held the <color=#yellow>Fuyu Hilt</color> in <Character key=RoleTaiwu str=GenderPossessive/> hand, studying it for a long time.<NL>Though <Character key=RoleTaiwu str=GenderSubject/> still didn't understand its powers, <Character key=RoleTaiwu str=Name /> was certain of one thing:<NL><Character key=RoleTaiwu str=GenderPossessive/> foster father's disappearance and the Taoist's sacrifice were deeply connected to this mysterious object.<NL>Thinking of this, <Character key=RoleTaiwu str=Name /> wiped away <Character key=RoleTaiwu str=GenderPossessive/> tears...",
@@ -332,9 +332,9 @@
       "cn": null,
       "ru": "Ответы на эти неразрешимые загадки должны лежать внутри этого предмета. Я должен как можно скорее найти своего приемного отца, чтобы облегчить это бремя в моем сердце...",
       "status": "machine",
-      "srcHash": "902e281d5e7fd588",
+      "srcHash": "37045a132ea938f8",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "fac1eacb-bf80-4264-9734-42b7cc853dc6/EventContent": {
       "en": "The old Taoist and <Character key=Rm str=Name/> fight fiercely at the cliff's edge above the dark river.<NL>Though trapped with no way out, their battle grows only more intense,<NL><NL><Character key=Rm str=Name/> attacks with reckless desperation,<NL>while the old Taoist defends fiercely but was clearly struggling...",
@@ -350,36 +350,36 @@
       "cn": null,
       "ru": "(Обратимся к старому даосу...)",
       "status": "machine",
-      "srcHash": "324173556203946a",
+      "srcHash": "5f2206352ee132d5",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "fac1eacb-bf80-4264-9734-42b7cc853dc6/Option_2": {
       "en": "(Look toward <Character key=Rm str=Name/>...)",
       "cn": null,
       "ru": "(Посмотрите в сторону <Character key=Rm str=Name/>...)",
       "status": "machine",
-      "srcHash": "f4a45ab6e7a6eadc",
+      "srcHash": "3f8be716a5681e37",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "fac1eacb-bf80-4264-9734-42b7cc853dc6/Option_3": {
       "en": "(Save him...)",
       "cn": null,
       "ru": "(Спаси его...)",
       "status": "machine",
-      "srcHash": "aac305937fca2e81",
+      "srcHash": "70f7c902bc090acf",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "f8845027-267f-4631-8452-4a7ea71815e9/EventContent": {
       "en": "nan",
       "cn": null,
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "1589f2f5-8b2f-4911-81cb-2bf897cb9d10/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> couldn't quite understand how the <color=#yellow>Fuyu Hilt</color> suddenly leaps into <Character key=RoleTaiwu str=GenderPossessive/> hand.<NL>But the situation is dire—the old Taoist and the \"Beast\" are already fighting from a distance, leaving no time to wonder about anything else...",
@@ -395,18 +395,18 @@
       "cn": null,
       "ru": "(Немедленно продолжайте...)",
       "status": "machine",
-      "srcHash": "8cf90af6dfed14fd",
+      "srcHash": "794d0c8d8179813f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "ecddc59c-77d1-472e-b28d-b966c7f65bcd/EventContent": {
       "en": "nan",
       "cn": null,
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "36fea5db-afb1-4064-8de5-52cbda056aff/EventContent": {
       "en": "\"All this gold... it's mine! No one's taking it!\"<NL>For some unknown reason, Guo Yan seems possessed, his strength suddenly surging!<NL><Character key=RoleTaiwu str=Name /> barely manages to extinguish the flames on him, but still can't subdue him.<NL>In this critical moment, <color=#yellow>the Fuyu Hilt</color> bursts from <Character key=RoleTaiwu str=Name />'s robes and lands firmly in <Character key=RoleTaiwu str=Name />'s hand...",
@@ -420,110 +420,110 @@
     "36fea5db-afb1-4064-8de5-52cbda056aff/Option_1": {
       "en": "Use the Fuyu Hilt to rescue",
       "cn": null,
-      "ru": "Используйте Рукоять Фуюй, чтобы спасти",
+      "ru": "Используйте Рукоять Фую, чтобы спасти",
       "status": "machine",
-      "srcHash": "03c1c6a76e1fca55",
+      "srcHash": "e70e8bef4ee71126",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "4786c37d-a801-4dc3-b3e5-d3418bffd318/EventContent": {
       "en": "Shocked and sorrowful,<NL><Character key=RoleTaiwu str=Name /> stumbles toward the Hidden River.<NL>Soon, at a shallow spot by the Hidden Mountain River, <Character key=RoleTaiwu str=GenderSubject/> finds the old Taoist lying there...",
       "cn": null,
-      "ru": null,
-      "status": "pending",
-      "srcHash": "83a028cdfb703410",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Потрясенный и опечаленный,<NL><Character key=RoleTaiwu str=Name /> спотыкаясь, направляется к Скрытой реке.<NL>Вскоре, на мелководье у Скрытой горной реки, <Character key=RoleTaiwu str=GenderSubject/> находит там лежащего старого даоса...",
+      "status": "machine",
+      "srcHash": "9a0cba5400be8fbc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "4786c37d-a801-4dc3-b3e5-d3418bffd318/Option_1": {
       "en": "(Hurry to support the old Taoist...)",
       "cn": null,
       "ru": "(Спешите оказать Поддержку старому даосу...)",
       "status": "machine",
-      "srcHash": "69399b0a8a7d173f",
+      "srcHash": "efe3069aacc96b09",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "32059a24-ae30-4452-a8a0-dc6b17a0449d/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> dashes forward, following closely behind.<NL>As dawn broke, the figure of the \"Beast\" becomes clearer—<NL>it is neither a ghost nor a stranger, but <Character key=Rm str=Name/>!",
       "cn": null,
-      "ru": null,
-      "status": "pending",
-      "srcHash": "74a97bfc5a8c93a8",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name /> бросается вперед, следуя вплотную за ним.<NL>С наступлением рассвета фигура \"Зверя\" становится все отчетливее—<NL>это не призрак и не незнакомец, но <Character key=Rm str=Name/>!",
+      "status": "machine",
+      "srcHash": "d3ffd1c4af0b2a11",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "32059a24-ae30-4452-a8a0-dc6b17a0449d/Option_1": {
       "en": "(Alarmed and concerned!)",
       "cn": null,
       "ru": "(Встревоженный и озабоченный!)",
       "status": "machine",
-      "srcHash": "5616579585e21686",
+      "srcHash": "e5b74c0aba210f4e",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "e86cdf92-5166-4cc9-97c7-a2786e389e44/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> swings the <color=#yellow>Fuyu Hilt</color> hard<NL>against A'niu's head, and A'niu immediately faints...",
       "cn": null,
-      "ru": "<Character key=RoleTaiwu str=Name /> раскачивает <color=#yellow>Рукоять Фуюй</color> жесткий<NL>прижимается к голове А'ниу, и А'ниу немедленно теряет сознание...",
+      "ru": "<Character key=RoleTaiwu str=Name /> раскачивает <color=#yellow>Рукоять Фую</color> жесткий<NL>прижимается к голове А'ниу, и А'ниу немедленно теряет сознание...",
       "status": "machine",
-      "srcHash": "ed19551058296472",
+      "srcHash": "7dd414630544aadf",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "e86cdf92-5166-4cc9-97c7-a2786e389e44/Option_1": {
       "en": "(No choice but to help him to safety...)",
       "cn": null,
       "ru": "(Нет другого выбора, кроме как помочь ему добраться до безопасного места...)",
       "status": "machine",
-      "srcHash": "a1c1f28badc5adb5",
+      "srcHash": "9efabfd65b655c7e",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "e6b83eae-d591-40ef-8b23-42254464a071/EventContent": {
       "en": "nan",
       "cn": null,
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c9af7b29-22bb-4a53-830a-f52dc454a427/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> swings the <color=#yellow>Fuyu Hilt</color> hard<NL>against A'niu's head, and A'niu immediately faints...",
       "cn": null,
-      "ru": "<Character key=RoleTaiwu str=Name /> раскачивает <color=#yellow>Рукоять Фуюй</color> жесткий<NL>прижимается к голове А'ниу, и А'ниу немедленно теряет сознание...",
+      "ru": "<Character key=RoleTaiwu str=Name /> раскачивает <color=#yellow>Рукоять Фую</color> жесткий<NL>прижимается к голове А'ниу, и А'ниу немедленно теряет сознание...",
       "status": "machine",
-      "srcHash": "ed19551058296472",
+      "srcHash": "7dd414630544aadf",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "c9af7b29-22bb-4a53-830a-f52dc454a427/Option_1": {
       "en": "(No choice but to help him to safety...)",
       "cn": null,
       "ru": "(Нет другого выбора, кроме как помочь ему добраться до безопасного места...)",
       "status": "machine",
-      "srcHash": "a1c1f28badc5adb5",
+      "srcHash": "9efabfd65b655c7e",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "7b6bd519-5c20-4283-b925-1c26c40a964d/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> races up to a muddy puddle and finds Situ Huanyue,<NL>for some unknown reason, plunging her own sword into herself, collapsing into the water...",
       "cn": null,
       "ru": "<Character key=RoleTaiwu str=Name /> подбегает к грязной луже и находит Ситу Хуаньюэ,<NL>по какой-то неизвестной причине вонзает в себя свой собственный Меч и падает в воду...",
       "status": "machine",
-      "srcHash": "e48ea37641068fcc",
+      "srcHash": "5fd06e56e3aca024",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "7b6bd519-5c20-4283-b925-1c26c40a964d/Option_1": {
       "en": "(Continue pursuing...)",
       "cn": null,
       "ru": "(Продолжайте преследовать...)",
       "status": "machine",
-      "srcHash": "f33b5de8201bea1d",
+      "srcHash": "461452a88c057f8f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "53ee9735-985d-44a0-a6a2-de9e7e848643/EventContent": {
       "en": "\"You can't die... I have to save you... save you...\"<NL>For some reason, A'niu seems possessed—frantic, raving like a madman!<NL><Character key=RoleTaiwu str=Name /> barely manages to stop him from clawing at the earth, but calming him down is another matter entirely.<NL>In the midst of the chaos, <color=#yellow>the Fuyu Hilt</color> bursts from <Character key=RoleTaiwu str=Name />'s robes and lands firmly in <Character key=RoleTaiwu str=Name />'s hand...",
@@ -537,11 +537,11 @@
     "53ee9735-985d-44a0-a6a2-de9e7e848643/Option_1": {
       "en": "Use the Fuyu Hilt to rescue",
       "cn": null,
-      "ru": "Используйте Рукоять Фуюй, чтобы спасти",
+      "ru": "Используйте Рукоять Фую, чтобы спасти",
       "status": "machine",
-      "srcHash": "03c1c6a76e1fca55",
+      "srcHash": "e70e8bef4ee71126",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c25f00a3-936f-4dd0-b873-c26ed8c4cfe1/EventContent": {
       "en": "\"You can't die... I have to save you... save you...\"<NL>For some reason, A'niu seems possessed—frantic, raving like a madman!<NL><Character key=RoleTaiwu str=Name /> barely manages to stop him from clawing at the earth, but calming him down is another matter entirely.<NL>In the midst of the chaos, <color=#yellow>the Fuyu Hilt</color> bursts from <Character key=RoleTaiwu str=Name />'s robes and lands firmly in <Character key=RoleTaiwu str=Name />'s hand...",
@@ -555,74 +555,74 @@
     "c25f00a3-936f-4dd0-b873-c26ed8c4cfe1/Option_1": {
       "en": "Use the Fuyu Hilt to rescue",
       "cn": null,
-      "ru": "Используйте Рукоять Фуюй, чтобы спасти",
+      "ru": "Используйте Рукоять Фую, чтобы спасти",
       "status": "machine",
-      "srcHash": "03c1c6a76e1fca55",
+      "srcHash": "e70e8bef4ee71126",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "b89145ee-ac02-41c0-a083-79d2eb170cc9/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> swings the <color=#yellow>Fuyu Hilt</color> hard<NL>against Situ Huanyue's head, and Situ Huanyue immediately faints...",
       "cn": null,
-      "ru": "<Character key=RoleTaiwu str=Name /> раскачивает <color=#yellow>Рукоять Фуюй</color> жесткий<NL>прижимается к голове Ситу Хуаньюэ, и Ситу Хуаньюэ немедленно теряет сознание...",
+      "ru": "<Character key=RoleTaiwu str=Name /> раскачивает <color=#yellow>Рукоять Фую</color> жесткий<NL>прижимается к голове Ситу Хуаньюэ, и Ситу Хуаньюэ немедленно теряет сознание...",
       "status": "machine",
-      "srcHash": "38cde34f74339acc",
+      "srcHash": "f9d6391e5e039859",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "b89145ee-ac02-41c0-a083-79d2eb170cc9/Option_1": {
       "en": "(No choice but to help her to safety...)",
       "cn": null,
       "ru": "(У меня нет другого выбора, кроме как помочь ей спастись...)",
       "status": "machine",
-      "srcHash": "b6aa8fabc604c40c",
+      "srcHash": "503eaef66ee77f34",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "313a72d8-75ff-42e7-8d90-76a5fc27a775/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> races up to a muddy puddle and finds Situ Huanyue,<NL>just in time to see Situ Huanyue wildly swinging a short sword, nearly stabbing herself multiple times...",
       "cn": null,
       "ru": "<Character key=RoleTaiwu str=Name /> подбегает к грязной луже и находит Ситу Хуаньюэ,<NL>как раз вовремя, чтобы увидеть, как Ситу Хуаньюэ дико размахивает коротким Мечом, чуть не нанеся себе несколько ударов ножом...",
       "status": "machine",
-      "srcHash": "1ab21a41d09af2a4",
+      "srcHash": "eb1f8712f334ea05",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "313a72d8-75ff-42e7-8d90-76a5fc27a775/Option_1": {
       "en": "<color=#darkgrey>[Agility Cost: 20]</color> (Seize her dagger!)",
       "cn": null,
       "ru": "<color=#darkgrey>[Стоимость Проворства: 20]</color> (Схвати ее кинжал!)",
       "status": "machine",
-      "srcHash": "866197d34dd23757",
+      "srcHash": "74b3eb04820bb88b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "313a72d8-75ff-42e7-8d90-76a5fc27a775/Option_2": {
       "en": "(Continue pursuing...)",
       "cn": null,
       "ru": "(Продолжайте преследовать...)",
       "status": "machine",
-      "srcHash": "f33b5de8201bea1d",
+      "srcHash": "461452a88c057f8f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "74f83048-98b0-45d2-9305-73baf7e5455a/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> swings the <color=#yellow>Fuyu Hilt</color> hard<NL>against Situ Huanyue's head, and Situ Huanyue immediately faints...",
       "cn": null,
-      "ru": "<Character key=RoleTaiwu str=Name /> раскачивает <color=#yellow>Рукоять Фуюй</color> жесткий<NL>прижимается к голове Ситу Хуаньюэ, и Ситу Хуаньюэ немедленно теряет сознание...",
+      "ru": "<Character key=RoleTaiwu str=Name /> раскачивает <color=#yellow>Рукоять Фую</color> жесткий<NL>прижимается к голове Ситу Хуаньюэ, и Ситу Хуаньюэ немедленно теряет сознание...",
       "status": "machine",
-      "srcHash": "38cde34f74339acc",
+      "srcHash": "f9d6391e5e039859",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "74f83048-98b0-45d2-9305-73baf7e5455a/Option_1": {
       "en": "(No choice but to help her to safety...)",
       "cn": null,
       "ru": "(У меня нет другого выбора, кроме как помочь ей спастись...)",
       "status": "machine",
-      "srcHash": "b6aa8fabc604c40c",
+      "srcHash": "503eaef66ee77f34",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "b58fa2bd-f1e4-4718-93fc-69b849be01e6/EventContent": {
       "en": "The village was already glowing red in the firelight.<NL>Braving the flames, <Character key=RoleTaiwu str=Name /> charges into the inferno...<NL>From afar, <Character key=RoleTaiwu str=GenderSubject/> spots a man and a beast locked in fierce combat outside the old Taoist's thatched hut!<NL>By the time <Character key=RoleTaiwu str=Name /> reached the scene, the fight has grown even more brutal—in a flash, the two are already clashing further down the path...",
@@ -638,9 +638,9 @@
       "cn": null,
       "ru": "(Немедленно продолжайте...)",
       "status": "machine",
-      "srcHash": "8cf90af6dfed14fd",
+      "srcHash": "794d0c8d8179813f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "afe49558-3f8b-44cf-964b-177fce49e867/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name />'s mind is a storm of confusion—<NL>fear, doubt, and sorrow all surged at once. Watching the old Taoist sacrifice himself to vanquish evil, <Character key=RoleTaiwu str=GenderSubject/> feels a deep, piercing grief...<NL><NL>Why has <Character key=Rm str=Name/> fallen into Deviation?<NL>What is Deviation?<NL>The old Taoist's words are cryptic and hard to grasp,<NL>and everything unfolding before <Character key=RoleTaiwu str=GenderSubject/> is filled with dread and uncertainty.",
@@ -656,9 +656,9 @@
       "cn": null,
       "ru": "(Отправляйтесь к Скрытой реке, чтобы найти старого даоса...)",
       "status": "machine",
-      "srcHash": "029c3dffbcf8d0cb",
+      "srcHash": "6b74457d9ea80c44",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "992f9b4e-d093-4ece-a682-2408e91fdb3b/EventContent": {
       "en": "\"I have been avoided the world for seventy years...<NL>Looks like today... I'll be leaving my life behind right here!\"<NL><NL><Character key=Rm str=Name/> strikes again after missing the first strike.<NL>The Taoist has no strength left, already gasping his final breaths. Too weak to dodge,<NL>he swings his sleeve with the last of his strength, sending <Character key=Rm str=Name/> flying—<NL>Just then, <Character key=Rm str=Name/> landed throat-first on a jagged rock, sharp as a spearhead...",
@@ -674,9 +674,9 @@
       "cn": null,
       "ru": "Даос...",
       "status": "machine",
-      "srcHash": "5539fc27bbbd954d",
+      "srcHash": "739b5336d0ba88a0",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "0e3bebd0-c808-47a5-bd2f-590ab374fe9b/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> couldn't quite understand how the <color=#yellow>Fuyu Hilt</color> suddenly leaps into <Character key=RoleTaiwu str=GenderPossessive/> hand.<NL>But the situation is dire—the old Taoist and the \"Beast\" are already fighting from a distance, leaving no time to wonder about anything else...",
@@ -692,270 +692,270 @@
       "cn": null,
       "ru": "(Немедленно продолжайте...)",
       "status": "machine",
-      "srcHash": "8cf90af6dfed14fd",
+      "srcHash": "794d0c8d8179813f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "b19f41dc-c2f4-473c-81cb-7f4ce89b114f/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> swings the <color=#yellow>Fuyu Hilt</color> hard<NL>against Guo Yan's head, and Guo Yan immediately faints...",
       "cn": null,
-      "ru": "<Character key=RoleTaiwu str=Name /> раскачивает <color=#yellow>Рукоять Фуюй</color> жесткий<NL>прижимается к голове Го Яня, и Го Янь немедленно теряет сознание...",
+      "ru": "<Character key=RoleTaiwu str=Name /> раскачивает <color=#yellow>Рукоять Фую</color> жесткий<NL>прижимается к голове Го Яня, и Го Янь немедленно теряет сознание...",
       "status": "machine",
-      "srcHash": "fe3736335a5c8516",
+      "srcHash": "5b5d89e26a04b633",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "b19f41dc-c2f4-473c-81cb-7f4ce89b114f/Option_1": {
       "en": "(No choice but to help him to safety...)",
       "cn": null,
       "ru": "(Нет другого выбора, кроме как помочь ему добраться до безопасного места...)",
       "status": "machine",
-      "srcHash": "a1c1f28badc5adb5",
+      "srcHash": "9efabfd65b655c7e",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "b5a5d0a4-2fb1-4f1d-8b00-3091cd97a285/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> catches up near a wrecked ox cart,<NL>only to find Guo Yan clutching a stone to his chest, already consumed by flames, his life extinguished...",
       "cn": null,
       "ru": "<Character key=RoleTaiwu str=Name /> догоняет возле разбитой повозки, запряженной волами,<NL>только для того, чтобы обнаружить Го Яня, прижимающего камень к груди, уже охваченного пламенем, его жизнь угасла...",
       "status": "machine",
-      "srcHash": "5a35077089f693ba",
+      "srcHash": "6ec4cb01c94248c2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "b5a5d0a4-2fb1-4f1d-8b00-3091cd97a285/Option_1": {
       "en": "(Continue pursuing...)",
       "cn": null,
       "ru": "(Продолжайте преследовать...)",
       "status": "machine",
-      "srcHash": "f33b5de8201bea1d",
+      "srcHash": "461452a88c057f8f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "9e6f2065-0be8-4e54-a7cc-f19cef3a4ba6/EventContent": {
       "en": "nan",
       "cn": null,
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "a5b0e281-e383-45c1-9b03-2ef6d336d307/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> races up to a muddy puddle and finds Situ Huanyue,<NL>just in time to see Situ Huanyue wildly swinging a short sword, nearly stabbing herself multiple times...",
       "cn": null,
       "ru": "<Character key=RoleTaiwu str=Name /> подбегает к грязной луже и находит Ситу Хуаньюэ,<NL>как раз вовремя, чтобы увидеть, как Ситу Хуаньюэ дико размахивает коротким Мечом, чуть не нанеся себе несколько ударов ножом...",
       "status": "machine",
-      "srcHash": "1ab21a41d09af2a4",
+      "srcHash": "eb1f8712f334ea05",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "a5b0e281-e383-45c1-9b03-2ef6d336d307/Option_1": {
       "en": "<color=#darkgrey>[Agility Cost: 20]</color> (Seize her dagger!)",
       "cn": null,
       "ru": "<color=#darkgrey>[Стоимость Проворства: 20]</color> (Схвати ее кинжал!)",
       "status": "machine",
-      "srcHash": "866197d34dd23757",
+      "srcHash": "74b3eb04820bb88b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "a5b0e281-e383-45c1-9b03-2ef6d336d307/Option_2": {
       "en": "(Continue pursuing...)",
       "cn": null,
       "ru": "(Продолжайте преследовать...)",
       "status": "machine",
-      "srcHash": "f33b5de8201bea1d",
+      "srcHash": "461452a88c057f8f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "0bf87356-bc78-4a37-9120-708bed7ca017/EventContent": {
       "en": "nan",
       "cn": null,
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "7d428f94-32f9-48bc-a92f-1dd94d9cbaf2/EventContent": {
       "en": "The old Taoist and the \"Beast\" fight as they move,<NL>drawing farther from the village, heading toward the Hidden Mountain River...",
       "cn": null,
       "ru": "Старый даос и \"Зверь\" сражаются на ходу,<NL>удаляясь все дальше от деревни, направляясь к Скрытой горной реке...",
       "status": "machine",
-      "srcHash": "6b27e0e57385eea3",
+      "srcHash": "ebeca72d9cc86db1",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "7d428f94-32f9-48bc-a92f-1dd94d9cbaf2/Option_1": {
       "en": "(Follow them!)",
       "cn": null,
       "ru": "(Следуйте за ними!)",
       "status": "machine",
-      "srcHash": "8de4105be3d37827",
+      "srcHash": "bfee724d69a0868e",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6141f6ba-2530-4025-bcad-ed7f6890f700/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> catches up near a wrecked ox cart,<NL>just in time to see Guo Yan, his body engulfed in flames, still frantically loading stones onto the cart...",
       "cn": null,
       "ru": "<Character key=RoleTaiwu str=Name /> догоняет возле разбитой повозки, запряженной волами,<NL>как раз вовремя, чтобы увидеть Го Яна, его тело было охвачено пламенем, он все еще лихорадочно загружал камни в тележку...",
       "status": "machine",
-      "srcHash": "0017347eea16169c",
+      "srcHash": "f1a163380d1d1497",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "6141f6ba-2530-4025-bcad-ed7f6890f700/Option_1": {
       "en": "<color=#darkgrey>[Strength Cost: 20]</color> (Hold him down!)",
       "cn": null,
       "ru": "<color=#darkgrey>[Стоимость Силы: 20]</color> (Держите его!)",
       "status": "machine",
-      "srcHash": "82fdeeebeb51365f",
+      "srcHash": "d2375bee9512e717",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "6141f6ba-2530-4025-bcad-ed7f6890f700/Option_2": {
       "en": "(Continue pursuing...)",
       "cn": null,
       "ru": "(Продолжайте преследовать...)",
       "status": "machine",
-      "srcHash": "f33b5de8201bea1d",
+      "srcHash": "461452a88c057f8f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "a0345797-e17f-4f0d-bf67-62cf32a4859e/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> catches up near a wrecked ox cart,<NL>only to find Guo Yan clutching a stone to his chest, already consumed by flames, his life extinguished...",
       "cn": null,
       "ru": "<Character key=RoleTaiwu str=Name /> догоняет возле разбитой повозки, запряженной волами,<NL>только для того, чтобы обнаружить Го Яня, прижимающего камень к груди, уже охваченного пламенем, его жизнь угасла...",
       "status": "machine",
-      "srcHash": "5a35077089f693ba",
+      "srcHash": "6ec4cb01c94248c2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "a0345797-e17f-4f0d-bf67-62cf32a4859e/Option_1": {
       "en": "(Continue pursuing...)",
       "cn": null,
       "ru": "(Продолжайте преследовать...)",
       "status": "machine",
-      "srcHash": "f33b5de8201bea1d",
+      "srcHash": "461452a88c057f8f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "31071116-8bd5-4707-bb68-623b16b17781/EventContent": {
       "en": "nan",
       "cn": null,
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "44aa0521-948c-472d-905e-4ecd528e79b0/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> catches up near a wrecked ox cart,<NL>just in time to see Guo Yan, his body engulfed in flames, still frantically loading stones onto the cart...",
       "cn": null,
       "ru": "<Character key=RoleTaiwu str=Name /> догоняет возле разбитой повозки, запряженной волами,<NL>как раз вовремя, чтобы увидеть Го Яна, его тело было охвачено пламенем, он все еще лихорадочно загружал камни в тележку...",
       "status": "machine",
-      "srcHash": "0017347eea16169c",
+      "srcHash": "f1a163380d1d1497",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "44aa0521-948c-472d-905e-4ecd528e79b0/Option_1": {
       "en": "<color=#darkgrey>[Strength Cost: 20]</color> (Hold him down!)",
       "cn": null,
       "ru": "<color=#darkgrey>[Стоимость Силы: 20]</color> (Держите его!)",
       "status": "machine",
-      "srcHash": "82fdeeebeb51365f",
+      "srcHash": "d2375bee9512e717",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "44aa0521-948c-472d-905e-4ecd528e79b0/Option_2": {
       "en": "(Continue pursuing...)",
       "cn": null,
       "ru": "(Продолжайте преследовать...)",
       "status": "machine",
-      "srcHash": "f33b5de8201bea1d",
+      "srcHash": "461452a88c057f8f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "ab3ce2c1-c677-4bf9-afeb-fe3974ca8939/EventContent": {
       "en": "nan",
       "cn": null,
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "80b8cee8-8fef-44dd-9e6b-c55b2384a73f/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> then rushes to the ruins of a collapsed house,<NL>where A'niu is digging into the ground with his hands, tears streaming down his face, sobbing as he tried to save someone...",
       "cn": null,
-      "ru": null,
-      "status": "pending",
-      "srcHash": "ef4f76a8b1607f59",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name /> затем бросается к развалинам рухнувшего дома,<NL>где А'Ниу зарывается руками в землю, по его лицу текут слезы, он рыдает, пытаясь кого-то спасти...",
+      "status": "machine",
+      "srcHash": "5ed4a8233f036d47",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "80b8cee8-8fef-44dd-9e6b-c55b2384a73f/Option_1": {
       "en": "<color=#darkgrey>[Willpower Cost: 20]</color> (Calm them down...)",
       "cn": null,
       "ru": "<color=#darkgrey>[Стоимость использования Силы воли: 20]</color> (Успокой их...)",
       "status": "machine",
-      "srcHash": "6fb90cb5bc30d064",
+      "srcHash": "d70bc41c634ab9f6",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "80b8cee8-8fef-44dd-9e6b-c55b2384a73f/Option_2": {
       "en": "(Continue pursuing...)",
       "cn": null,
       "ru": "(Продолжайте преследовать...)",
       "status": "machine",
-      "srcHash": "f33b5de8201bea1d",
+      "srcHash": "461452a88c057f8f",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "67280534-a863-4c9e-8cbd-674f550ea77b/EventContent": {
       "en": "nan",
       "cn": null,
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "5f73cbf1-049e-4e9e-8b46-df5e067da39d/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> swings the <color=#yellow>Fuyu Hilt</color> hard<NL>against Guo Yan's head, and Guo Yan immediately faints...",
       "cn": null,
-      "ru": "<Character key=RoleTaiwu str=Name /> раскачивает <color=#yellow>Рукоять Фуюй</color> жесткий<NL>прижимается к голове Го Яня, и Го Янь немедленно теряет сознание...",
+      "ru": "<Character key=RoleTaiwu str=Name /> раскачивает <color=#yellow>Рукоять Фую</color> жесткий<NL>прижимается к голове Го Яня, и Го Янь немедленно теряет сознание...",
       "status": "machine",
-      "srcHash": "fe3736335a5c8516",
+      "srcHash": "5b5d89e26a04b633",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "5f73cbf1-049e-4e9e-8b46-df5e067da39d/Option_1": {
       "en": "(No choice but to help him to safety...)",
       "cn": null,
       "ru": "(Нет другого выбора, кроме как помочь ему добраться до безопасного места...)",
       "status": "machine",
-      "srcHash": "a1c1f28badc5adb5",
+      "srcHash": "9efabfd65b655c7e",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "c9204dcb-ec92-455d-8cf5-a8d627261fb1/EventContent": {
       "en": "nan",
       "cn": null,
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "3acd3094-cbb6-4dfa-8c87-a405f878f0a6/EventContent": {
       "en": "nan",
       "cn": null,
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "f6b71e62-d105-4071-84fd-ffca4adffc33/EventContent": {
       "en": "\"Kind one... I owe you my life...<NL>I've lived these extra seventy years...<NL>Never thought I'd see you again before the end... Don't go back out there... please... The world out there doesn't deserve someone as good as you...\"<NL><NL>As <Character key=RoleTaiwu str=Name /> pulls the old Taoist onto the riverbank,<NL>the elder coughes up blood, clutching <Character key=RoleTaiwu str=Name />'s hand tightly as he speaks in a faint, dazed voice.<NL>Just as <Character key=RoleTaiwu str=Name /> is about to channel the True Qi to save him,<NL>the old Taoist closed his eyes... and drew his final breath...",
@@ -971,45 +971,45 @@
       "cn": null,
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "033edba7-32e7-4aa7-ab07-5495d773e7b7/EventContent": {
       "en": "nan",
       "cn": null,
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "89a0e90f-45f2-493a-b6f1-31f1f8c024f2/EventContent": {
       "en": "nan",
       "cn": null,
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "badbb743-3b72-45c7-a84f-e63e8acccc01/EventContent": {
       "en": "\"Injustice... injustice...<NL>This is my... fate!\"",
       "cn": null,
       "ru": "- Несправедливость... несправедливость...<NL>Это моя... судьба!\"",
       "status": "machine",
-      "srcHash": "e5a56f53314f8a76",
+      "srcHash": "d946bfa822b01654",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     },
     "badbb743-3b72-45c7-a84f-e63e8acccc01/Option_1": {
       "en": "Taoist",
       "cn": null,
       "ru": "Даосский",
       "status": "machine",
-      "srcHash": "8899d50d3a360786",
+      "srcHash": "c9d144e22eef03ed",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:28:30.762Z"
+      "updatedAt": "2026-06-29T10:20:21.054Z"
     }
   }
 }

@@ -1,268 +1,268 @@
 {
   "schemaVersion": 1,
   "file": "Event_Languages/Taiwu_EventPackage_CharacterInteraction_Special_Language_EN.txt",
-  "glossaryVersion": 5,
+  "glossaryVersion": 6,
   "units": {
     "5b221cb9-d336-4600-adc1-f45dd64aa060/EventContent": {
       "en": "\"The grudges can linger,<NL>and our feud is too deep to settle with just words.\"<NL><NL><color=#lightgrey>(Need to have at least two mutual friends with <Character key=CharacterId str=Name /> to convince <Character key=CharacterId str=Name />...)</color>",
       "cn": "“虽说冤冤相报何时了……<NL>但你我的仇怨，又岂是三言两语可以了结？”<NL><NL><color=#lightgrey>（需要至少与<Character key=CharacterId str=Name />拥有两位共同的“朋友”，才能说服<Character key=CharacterId str=Name />……）</color>",
       "ru": "\"Обиды могут остаться надолго,<NL>и наша вражда слишком глубока, чтобы уладить ее просто словами\".<NL><NL><color=#lightgrey>(У нас должно быть как минимум двое общих друзей, с которыми <Character key=CharacterId str=Name /> чтобы убедить <Character key=CharacterId str=Name />...)</color>",
       "status": "machine",
-      "srcHash": "e4b51d683862169f",
+      "srcHash": "79e8e04b8e41fbc0",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "5b221cb9-d336-4600-adc1-f45dd64aa060/Option_1": {
       "en": "(Forget it...)",
       "cn": "（只得作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "a39d1393e5bc4cc0",
+      "srcHash": "b84481cc5d4ec97c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "043b0f8b-bbeb-4017-afe8-b669d648364d/EventContent": {
       "en": "\"With your reputation, trying to resolve grudges with me seems fake.<NL>I bet you have some hidden agenda!\"<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name /> declines to let go of the grudge with <Character key=RoleTaiwu str=Name />, who has a higher reputation...)</color>",
       "cn": "“你如此声名，却要虚情假意，与我化解仇怨？<NL>想必是不安好心！”<NL><NL><color=#lightgrey>（<Character key=CharacterId str=Name />拒绝与名誉较高的<Character key=RoleTaiwu str=Name />化解仇怨……）</color>",
       "ru": "\"С твоей репутацией попытки уладить разногласия со мной кажутся фальшивыми.<NL>Держу пари, у тебя есть какие-то скрытые планы!\"<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name /> отказывается отпустить обиду с <Character key=RoleTaiwu str=Name />, у которого репутация выше...)</color>",
       "status": "machine",
-      "srcHash": "9fb76848723ab5e0",
+      "srcHash": "56b751bfc6bda01c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "043b0f8b-bbeb-4017-afe8-b669d648364d/Option_1": {
       "en": "(Forget it...)",
       "cn": "（只得作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "a39d1393e5bc4cc0",
+      "srcHash": "b84481cc5d4ec97c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "8a608595-4dde-410f-84e5-17a03c5df16d/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "e32a7238-4ee2-47f9-b8de-9655653b20ed/EventContent": {
       "en": "\"Well...<NL>Let's hear what you have to say then!\"",
       "cn": "“也罢……<NL>我便听听看，你还有什么话好说？！”",
       "ru": "\"хорошо...<NL>Тогда давай послушаем, что ты скажешь!\"",
       "status": "machine",
-      "srcHash": "d2c7359523967a5b",
+      "srcHash": "44b6ccbb59736b38",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "e32a7238-4ee2-47f9-b8de-9655653b20ed/Option_1": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "e32a7238-4ee2-47f9-b8de-9655653b20ed/Option_2": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "e32a7238-4ee2-47f9-b8de-9655653b20ed/Option_3": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "e32a7238-4ee2-47f9-b8de-9655653b20ed/Option_4": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "e32a7238-4ee2-47f9-b8de-9655653b20ed/Option_5": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "e32a7238-4ee2-47f9-b8de-9655653b20ed/Option_6": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "e32a7238-4ee2-47f9-b8de-9655653b20ed/Option_7": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "e32a7238-4ee2-47f9-b8de-9655653b20ed/Option_8": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "e32a7238-4ee2-47f9-b8de-9655653b20ed/Option_9": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "e32a7238-4ee2-47f9-b8de-9655653b20ed/Option_10": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "7a159e3b76aa8968",
+      "srcHash": "3b1a6e104921a403",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "72a09a56-9a0e-44fe-a1bc-6d99f9bc469f/EventContent": {
       "en": "\"Let's head over there before we start talking!\"<NL><NL><color=#lightgrey>(Meet up with <Character key=CharacterId str=Name /> as arranged...)</color>",
       "cn": "“先别忙着说话，我们去那边看看！”<NL><NL><color=#lightgrey>（如约与<Character key=CharacterId str=Name />见面……）</color>",
       "ru": "\"Давай зайдем туда, прежде чем начнем разговаривать!\"<NL><NL><color=#lightgrey>(Встретимся с <Character key=CharacterId str=Name /> как договорились...)</color>",
       "status": "machine",
-      "srcHash": "4f64700348a9915d",
+      "srcHash": "c881adeedf64d578",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "72a09a56-9a0e-44fe-a1bc-6d99f9bc469f/Option_1": {
       "en": "(Meet as arranged...)",
       "cn": "（如约而至……）\n",
       "ru": "(Встретимся, как договорились...)",
       "status": "machine",
-      "srcHash": "b81af1c4c5011c5d",
+      "srcHash": "47c45c0ab7f0d004",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "15a8e45e-bc5a-42ed-8c05-7c2789e73662/EventContent": {
       "en": "\"Well...<NL>Let's hear what you have to say then!\"",
       "cn": "“也罢……<NL>我便听听看，你还有什么话好说？！”",
       "ru": "\"хорошо...<NL>Тогда давай послушаем, что ты скажешь!\"",
       "status": "machine",
-      "srcHash": "d2c7359523967a5b",
+      "srcHash": "44b6ccbb59736b38",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "15a8e45e-bc5a-42ed-8c05-7c2789e73662/Option_1": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "15a8e45e-bc5a-42ed-8c05-7c2789e73662/Option_2": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "15a8e45e-bc5a-42ed-8c05-7c2789e73662/Option_3": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "15a8e45e-bc5a-42ed-8c05-7c2789e73662/Option_4": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "15a8e45e-bc5a-42ed-8c05-7c2789e73662/Option_5": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "15a8e45e-bc5a-42ed-8c05-7c2789e73662/Option_6": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "15a8e45e-bc5a-42ed-8c05-7c2789e73662/Option_7": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "15a8e45e-bc5a-42ed-8c05-7c2789e73662/Option_8": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "15a8e45e-bc5a-42ed-8c05-7c2789e73662/Option_9": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "15a8e45e-bc5a-42ed-8c05-7c2789e73662/Option_10": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "7a159e3b76aa8968",
+      "srcHash": "3b1a6e104921a403",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "fe4aab08-af18-48e9-b68d-69a0c3ded43a/EventContent": {
       "en": "\"Walk with my foes, and you walk alone; stand against them, and you're a friend of my own.<NL>If you can't agree to that, then it's better if you leave.\"<NL><NL><color=#lightgrey>(Need to have at least two mutual Vindictive targets with <Character key=CharacterId str=Name /> to convince <Character key=CharacterId str=Name />...)</color><NL>",
@@ -278,567 +278,567 @@
       "cn": "（只得作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "a39d1393e5bc4cc0",
+      "srcHash": "b84481cc5d4ec97c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "e06a6933-ee95-4958-a743-556247d210eb/EventContent": {
       "en": "\"Since I agreed to meet you, I'll keep our appointment...\"<NL><NL><color=#lightgrey>(Meet up with <Character key=CharacterId str=Name /> as arranged...)</color>",
       "cn": "“既已答应了你，我自然要来赴约的……”<NL><NL><color=#lightgrey>（如约与<Character key=CharacterId str=Name />见面……）</color>",
       "ru": "\"Поскольку я согласился встретиться с вами, я приду на нашу встречу...\"<NL><NL><color=#lightgrey>(Встретимся с <Character key=CharacterId str=Name /> как договорились...)</color>",
       "status": "machine",
-      "srcHash": "d7df04a8c7cd5610",
+      "srcHash": "eb76c623d9d60959",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "e06a6933-ee95-4958-a743-556247d210eb/Option_1": {
       "en": "(Meet as arranged...)",
       "cn": "（如约而至……）\n",
       "ru": "(Встретимся, как договорились...)",
       "status": "machine",
-      "srcHash": "b81af1c4c5011c5d",
+      "srcHash": "47c45c0ab7f0d004",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "06910f7e-3124-4c84-8658-87845682321d/EventContent": {
       "en": "\"Well...<NL>Let's hear what you have to say then!\"",
       "cn": "“也罢……<NL>我便听听看，你还有什么话好说？！”",
       "ru": "\"хорошо...<NL>Тогда давай послушаем, что ты скажешь!\"",
       "status": "machine",
-      "srcHash": "d2c7359523967a5b",
+      "srcHash": "44b6ccbb59736b38",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "06910f7e-3124-4c84-8658-87845682321d/Option_1": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "06910f7e-3124-4c84-8658-87845682321d/Option_2": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "06910f7e-3124-4c84-8658-87845682321d/Option_3": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "06910f7e-3124-4c84-8658-87845682321d/Option_4": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "06910f7e-3124-4c84-8658-87845682321d/Option_5": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "06910f7e-3124-4c84-8658-87845682321d/Option_6": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "06910f7e-3124-4c84-8658-87845682321d/Option_7": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "06910f7e-3124-4c84-8658-87845682321d/Option_8": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "06910f7e-3124-4c84-8658-87845682321d/Option_9": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "06910f7e-3124-4c84-8658-87845682321d/Option_10": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "7a159e3b76aa8968",
+      "srcHash": "3b1a6e104921a403",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "40064bd9-7de5-4eaf-8e11-65bd7f584fc6/EventContent": {
       "en": "\"I don't have any evidence or witnesses against you.<NL>It would be imprudent to speak without proof...\"<NL><NL>",
       "cn": "“我与阁下一无凭据，二无见证……<NL>如此空口白牙，岂敢妄言恩怨……”<NL><NL>",
       "ru": "\"У меня нет никаких улик или свидетелей против вас.<NL>Было бы неосмотрительно говорить, не имея доказательств...\"<NL><NL>",
       "status": "machine",
-      "srcHash": "8585a51e6e51e00b",
+      "srcHash": "f1208ee2b54cc740",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "40064bd9-7de5-4eaf-8e11-65bd7f584fc6/Option_1": {
       "en": "(Forget it...)",
       "cn": "（只得作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "a39d1393e5bc4cc0",
+      "srcHash": "b84481cc5d4ec97c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "0f6a8d46-c065-4d8d-b4cc-2a85be694bd8/EventContent": {
       "en": "\"Ah... goo... gaa...\"",
       "cn": "“呀……吧……吧……呀……”",
       "ru": "\"Ах... гу... гаа...\"",
       "status": "machine",
-      "srcHash": "fe615c0eb60a393a",
+      "srcHash": "2d15d5c82352958a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "0f6a8d46-c065-4d8d-b4cc-2a85be694bd8/Option_1": {
       "en": "(Take the lost baby with you...)",
       "cn": "（救助落单的婴孩至同道行列……）",
       "ru": "(Возьми с собой потерянного ребенка...)",
       "status": "machine",
-      "srcHash": "c09579ba28e4836b",
+      "srcHash": "30fb009e383dd7d5",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "0f6a8d46-c065-4d8d-b4cc-2a85be694bd8/Option_2": {
       "en": "(Unable to comprehend the baby's babble...)",
       "cn": "（不明白婴孩说的话语……）\n",
       "ru": "(Не в силах понять детский лепет...)",
       "status": "machine",
-      "srcHash": "e017732c630f96c4",
+      "srcHash": "2cd74732e1c21238",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "0f51da32-738a-4aa1-a3ce-c10c681be331/EventContent": {
       "en": "\"Well...<NL>Let's hear what you have to say then!\"",
       "cn": "“也罢……<NL>我便听听看，你还有什么话好说？！”",
       "ru": "\"хорошо...<NL>Тогда давай послушаем, что ты скажешь!\"",
       "status": "machine",
-      "srcHash": "d2c7359523967a5b",
+      "srcHash": "44b6ccbb59736b38",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "0f51da32-738a-4aa1-a3ce-c10c681be331/Option_1": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "0f51da32-738a-4aa1-a3ce-c10c681be331/Option_2": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "0f51da32-738a-4aa1-a3ce-c10c681be331/Option_3": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "0f51da32-738a-4aa1-a3ce-c10c681be331/Option_4": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "0f51da32-738a-4aa1-a3ce-c10c681be331/Option_5": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "0f51da32-738a-4aa1-a3ce-c10c681be331/Option_6": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "0f51da32-738a-4aa1-a3ce-c10c681be331/Option_7": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "0f51da32-738a-4aa1-a3ce-c10c681be331/Option_8": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "0f51da32-738a-4aa1-a3ce-c10c681be331/Option_9": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "0f51da32-738a-4aa1-a3ce-c10c681be331/Option_10": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "7a159e3b76aa8968",
+      "srcHash": "3b1a6e104921a403",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7d7ad25c-3ccc-4347-b432-eed35508067b/EventContent": {
       "en": "\"Well...<NL>Let's hear what you have to say then!\"",
       "cn": "“也罢……<NL>我便听听看，你还有什么话好说？！”",
       "ru": "\"хорошо...<NL>Тогда давай послушаем, что ты скажешь!\"",
       "status": "machine",
-      "srcHash": "d2c7359523967a5b",
+      "srcHash": "44b6ccbb59736b38",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7d7ad25c-3ccc-4347-b432-eed35508067b/Option_1": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7d7ad25c-3ccc-4347-b432-eed35508067b/Option_2": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7d7ad25c-3ccc-4347-b432-eed35508067b/Option_3": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7d7ad25c-3ccc-4347-b432-eed35508067b/Option_4": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7d7ad25c-3ccc-4347-b432-eed35508067b/Option_5": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7d7ad25c-3ccc-4347-b432-eed35508067b/Option_6": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7d7ad25c-3ccc-4347-b432-eed35508067b/Option_7": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7d7ad25c-3ccc-4347-b432-eed35508067b/Option_8": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7d7ad25c-3ccc-4347-b432-eed35508067b/Option_9": {
       "en": "(Resolve grudges...)",
       "cn": "（化解仇恨……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7d7ad25c-3ccc-4347-b432-eed35508067b/Option_10": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "7a159e3b76aa8968",
+      "srcHash": "3b1a6e104921a403",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "872161d7-e55d-45ec-ae17-c1a337a3f8f1/EventContent": {
       "en": "\"Well, if that's the case...<NL>I have no choice but to temporarily set aside our grievances.\"<NL><NL><color=#lightgrey>(Resolved grudges with <Character key=CharacterId str=Name />...)</color>",
       "cn": "“如此……这般……罢了……罢了……既然如此……<NL>我也只得将你我之间的仇怨暂且放下……”<NL><NL><color=#lightgrey>（化解了与<Character key=CharacterId str=Name />的仇怨……）</color>",
       "ru": "\"Что ж, если это так...<NL>У меня нет другого выбора, кроме как временно отложить наши претензии\".<NL><NL><color=#lightgrey>(Улаженные обиды с <Character key=CharacterId str=Name />...)</color>",
       "status": "machine",
-      "srcHash": "e0880a2f769a22b7",
+      "srcHash": "03dc525a3496d759",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "872161d7-e55d-45ec-ae17-c1a337a3f8f1/Option_1": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "7a159e3b76aa8968",
+      "srcHash": "3b1a6e104921a403",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7abebd05-c294-4412-b25e-86ad11fe07ba/EventContent": {
       "en": "\"Your reputation is tarnished. You're not one of us...<NL>Trying to make up all of a sudden seems fishy.\"<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name /> refused to resolve grudges with <Character key=RoleTaiwu str=Name />, who has a lower reputation...)</color>",
       "cn": "“阁下声名狼藉，非我道中人……<NL>此番忽然要与我和解，恐怕别有用心吧？！”<NL><NL><color=#lightgrey>（<Character key=CharacterId str=Name />拒绝与名誉较低的<Character key=RoleTaiwu str=Name />化解仇怨……）</color>",
       "ru": "\"Твоя репутация запятнана. Ты не один из нас...<NL>Попытка помириться внезапно показалась мне подозрительной\".<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name /> отказался улаживать разногласия с <Character key=RoleTaiwu str=Name />, у которого репутация ниже...)</color>",
       "status": "machine",
-      "srcHash": "9d15e07aed9f6dbc",
+      "srcHash": "a5e1282fa770ff0b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "7abebd05-c294-4412-b25e-86ad11fe07ba/Option_1": {
       "en": "(Forget it...)",
       "cn": "（只得作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "a39d1393e5bc4cc0",
+      "srcHash": "b84481cc5d4ec97c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "3fd8291d-6f22-4b24-88ff-e11e9c5dbc6b/EventContent": {
       "en": "\"I have nothing to say to you...\"<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name /> regarded <Character key=RoleTaiwu str=Name/> as an enemy and refuses to speak with <Character key=RoleTaiwu str=Name/>...)</color>",
       "cn": "“我与你无话可说……”<NL><NL><color=#lightgrey>（<Character key=CharacterId str=Name />视<Character key=RoleTaiwu str=Name/>为仇敌，不愿与<Character key=RoleTaiwu str=Name/>说话……）</color>",
       "ru": "- Мне нечего тебе сказать...<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name /> рассматриваемый <Character key=RoleTaiwu str=Name/> как враг и отказывается разговаривать с <Character key=RoleTaiwu str=Name/>...)</color>",
       "status": "machine",
-      "srcHash": "c7bd343f88cd536b",
+      "srcHash": "091da498b96fe80d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "3fd8291d-6f22-4b24-88ff-e11e9c5dbc6b/Option_1": {
       "en": "(Resolve grudges...)",
       "cn": "（化解……）",
       "ru": "(Разрешать обиды...)",
       "status": "machine",
-      "srcHash": "aff58cd9bae6ba22",
+      "srcHash": "a126f1cf06dadb02",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "3fd8291d-6f22-4b24-88ff-e11e9c5dbc6b/Option_2": {
       "en": "(Antagonize...)",
       "cn": "（敌对……）",
       "ru": "(Противодействовать...)",
       "status": "machine",
-      "srcHash": "1cc26b282ed13c58",
+      "srcHash": "924eba1317923010",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "3fd8291d-6f22-4b24-88ff-e11e9c5dbc6b/Option_3": {
       "en": "(Secret Tome...)",
       "cn": "（奇书……）",
       "ru": "(Тайный трактат...)",
       "status": "machine",
-      "srcHash": "0e2531608881b911",
+      "srcHash": "86f991a3bda532c7",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "3fd8291d-6f22-4b24-88ff-e11e9c5dbc6b/Option_4": {
       "en": "(Take leave...)",
       "cn": "（道别……）\n",
       "ru": "(Прощаюсь...)",
       "status": "machine",
-      "srcHash": "ccc2b01649a692ac",
+      "srcHash": "d3eb8d2df6737132",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "f45f7d08-b5a6-437a-b44f-f59e493975eb/EventContent": {
       "en": "\"I've been looking forward to meeting you for a long time!\"<NL><NL><color=#lightgrey>(Meet up with <Character key=CharacterId str=Name /> as arranged...)</color>",
       "cn": "“我已盼望与你见面多时了！”<NL><NL><color=#lightgrey>（如约与<Character key=CharacterId str=Name />见面……）</color>",
       "ru": "\"Я с нетерпением ждал встречи с вами в течение долгого времени!\"<NL><NL><color=#lightgrey>(Встретимся с <Character key=CharacterId str=Name /> как договорились...)</color>",
       "status": "machine",
-      "srcHash": "04c3a29c7e960c5a",
+      "srcHash": "e7d06676a1f5478a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "f45f7d08-b5a6-437a-b44f-f59e493975eb/Option_1": {
       "en": "(Meet as arranged...)",
       "cn": "（如约而至……）\n",
       "ru": "(Встретимся, как договорились...)",
       "status": "machine",
-      "srcHash": "b81af1c4c5011c5d",
+      "srcHash": "47c45c0ab7f0d004",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "a66c22f6-1d88-4711-aed5-054255d46e72/EventContent": {
       "en": "\"You... why do you look like this!?\"<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name/> saw <Character key=RoleTaiwu str=Name/> being disheveled, unwilling to talk to <Character key=RoleTaiwu str=Name/>...)</color>",
       "cn": "“你……你……何以这般模样！？”<NL><NL><color=#lightgrey>（<Character key=CharacterId str=Name/>见<Character key=RoleTaiwu str=Name/>衣不蔽体，不愿与<Character key=RoleTaiwu str=Name/>说话……）</color>",
       "ru": "- Ты... почему у тебя такой вид?!<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name/> увидел <Character key=RoleTaiwu str=Name/> был взъерошен, не желал разговаривать с <Character key=RoleTaiwu str=Name/>...)</color>",
       "status": "machine",
-      "srcHash": "539e7ee7479beac7",
+      "srcHash": "032df353b005785e",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T23:09:46.516Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "a66c22f6-1d88-4711-aed5-054255d46e72/Option_1": {
       "en": "(Take leave...)",
       "cn": "（道别……）\n",
       "ru": "(Прощаюсь...)",
       "status": "machine",
-      "srcHash": "ccc2b01649a692ac",
+      "srcHash": "d3eb8d2df6737132",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "629311a9-de4e-4189-81b3-cc837948c2ce/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "dc4047f7-f266-4d2f-a2e1-37694c3c3247/EventContent": {
       "en": "\"Just wait for my good news.\"",
       "cn": "“你便等我的……好消息吧……”",
       "ru": "- Просто жди от меня хороших новостей.",
       "status": "machine",
-      "srcHash": "f89387a4a1d5f03a",
+      "srcHash": "8aa046effaa363a2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "dc4047f7-f266-4d2f-a2e1-37694c3c3247/Option_1": {
       "en": "(Feeling both joy and worry...)",
       "cn": "（亦喜亦忧……）\n",
       "ru": "(Испытывая одновременно радость и беспокойство...)",
       "status": "machine",
-      "srcHash": "a685817e5d85e448",
+      "srcHash": "e44bc8a667954887",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7c63411f-5928-4dc0-b1f5-afe0ba16fcfa/EventContent": {
       "en": "\"Have you been waiting long? Sorry for the delay!\"<NL><NL><color=#lightgrey>(Meet up with <Character key=CharacterId str=Name /> as arranged...)</color>",
       "cn": "“已等候了许久吗？真是抱歉！”<NL><NL><color=#lightgrey>（如约与<Character key=CharacterId str=Name />见面……）</color>",
       "ru": "\"Долго ждали? Извините за задержку!\"<NL><NL><color=#lightgrey>(Встретимся с <Character key=CharacterId str=Name /> как договорились...)</color>",
       "status": "machine",
-      "srcHash": "2b65f6c470b2ce5a",
+      "srcHash": "a8ea3de5ec083d4c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "7c63411f-5928-4dc0-b1f5-afe0ba16fcfa/Option_1": {
       "en": "(Meet as arranged...)",
       "cn": "（如约而至……）\n",
       "ru": "(Встретимся, как договорились...)",
       "status": "machine",
-      "srcHash": "b81af1c4c5011c5d",
+      "srcHash": "47c45c0ab7f0d004",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "929db66a-ffda-4d34-ac04-2ec4e40403c3/EventContent": {
       "en": "\"If you hadn't shown up, I might have left!\"<NL><NL><color=#lightgrey>(Meet up with <Character key=CharacterId str=Name /> as arranged...)</color>",
       "cn": "“你若再不出现，我可就要走啦！”<NL><NL><color=#lightgrey>（如约与<Character key=CharacterId str=Name />见面……）</color>",
       "ru": "\"Если бы ты не появился, я бы, возможно, ушел!\"<NL><NL><color=#lightgrey>(Встретимся с <Character key=CharacterId str=Name /> как договорились...)</color>",
       "status": "machine",
-      "srcHash": "e423f3d16da646f0",
+      "srcHash": "64e045c8f1cfce7c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "929db66a-ffda-4d34-ac04-2ec4e40403c3/Option_1": {
       "en": "(Meet as arranged...)",
       "cn": "（如约而至……）\n",
       "ru": "(Встретимся, как договорились...)",
       "status": "machine",
-      "srcHash": "b81af1c4c5011c5d",
+      "srcHash": "47c45c0ab7f0d004",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "f65f0df8-60e2-476e-b9cc-3298cd3d4d9e/EventContent": {
       "en": "nan",
       "cn": "",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "f65f0df8-60e2-476e-b9cc-3298cd3d4d9e/Option_1": {
       "en": "(Reaching out to stroke it, feeling quite satisfied...)",
       "cn": "（伸手抚摸，十分满意……）\n",
       "ru": "(Протягивает руку, чтобы погладить его, чувствуя себя вполне удовлетворенным...)",
       "status": "machine",
-      "srcHash": "b59e6a6db3dc1397",
+      "srcHash": "3bf630f0a2823047",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     }
   }
 }

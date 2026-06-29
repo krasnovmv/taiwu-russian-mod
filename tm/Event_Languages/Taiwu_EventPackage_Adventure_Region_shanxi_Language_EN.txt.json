@@ -1,1096 +1,1096 @@
 {
   "schemaVersion": 1,
   "file": "Event_Languages/Taiwu_EventPackage_Adventure_Region_shanxi_Language_EN.txt",
-  "glossaryVersion": 5,
+  "glossaryVersion": 6,
   "units": {
     "04b2b52b-4d9a-4e93-a261-a1b48be1620d/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> arrives at a village in Shanxi where vinegar workshops abound, the air filled with the faint aroma of sourness and grain.<NL>Several old masters are busy in the workshops. Seeing <Character key=RoleTaiwu str=Name/>, a stranger, an older workshop keeper comes forward.",
       "cn": "<Character key=RoleTaiwu str=Name/>来到山西一处醋坊云集的村落，空气中弥漫着淡淡的酸香与粮香。<NL>几位老师傅正在坊间忙碌，看到<Character key=RoleTaiwu str=Name/>这位生面孔，一位年长的坊主迎了上来。",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "31b280b5c0340175",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> прибывает в деревню в Шаньси, где в изобилии работают уксусные мастерские, воздух наполнен слабым ароматом кислинки и зерна.<NL>Несколько старых мастеров заняты в мастерских. Видя <Character key=RoleTaiwu str=Name/> незнакомец, пожилой смотритель мастерской, выходит вперед.",
+      "status": "machine",
+      "srcHash": "a665bd3064befca8",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:44:32.486Z"
     },
     "04b2b52b-4d9a-4e93-a261-a1b48be1620d/Option_1": {
       "en": "Strike up a conversation.",
       "cn": "上前搭话。\n",
       "ru": "Завязать разговор.",
       "status": "machine",
-      "srcHash": "edabb3dd12c96903",
+      "srcHash": "b739cfb480a8ce9d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "d401fd08-ca87-4026-b7e3-492d298efb90/EventContent": {
       "en": "The scent of vinegar still lingers on your sleeves...<NL>This journey of craftsmanship comes to an end for now...",
       "cn": "醋香犹在衣袖间…… <NL>此番匠心之行，便暂告一段……",
       "ru": "Запах уксуса все еще ощущается на ваших рукавах...<NL>На данный момент это путешествие мастерства подходит к концу...",
       "status": "machine",
-      "srcHash": "3a5ddcf7beaa7050",
+      "srcHash": "e68e6b18bf6675bf",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "d401fd08-ca87-4026-b7e3-492d298efb90/Option_1": {
       "en": "(This matter is settled, time to leave...)",
       "cn": "（此间事了，该当离去……）",
       "ru": "(Этот вопрос решен, пора уходить...)",
       "status": "machine",
-      "srcHash": "cf8ae3791ee5801c",
+      "srcHash": "a76bd2da171263fd",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "d401fd08-ca87-4026-b7e3-492d298efb90/Option_2": {
       "en": "(Still lingering, for now, stay...)",
       "cn": "（尚有留恋，暂且留下……） \n",
       "ru": "(Все еще задерживаюсь, а пока останься...)",
       "status": "machine",
-      "srcHash": "535e45baba10fcae",
+      "srcHash": "7aaa80371e1e89b1",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "a759ca99-70c9-4a4f-8fc1-018e6b3ef661/EventContent": {
       "en": "The Shopkeeper stroked his beard and smiled: <NL>\"Making vinegar has three essentials: <NL>Water is the blood, Fermentation Starter is the bones, and grain is the flesh.\"",
       "cn": "掌柜捋须笑道：<NL>“酿醋有三要：<NL>水为血，曲为骨，粮为肉。”",
       "ru": "Лавочник погладил бороду и улыбнулся: <NL>\"Приготовление уксуса состоит из трех основных элементов: <NL>Вода - это кровь, закваска для брожения - это кости, а зерно - это плоть.\"",
       "status": "machine",
-      "srcHash": "13ad8bfba1cb082c",
+      "srcHash": "b903ff59c55614af",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "a759ca99-70c9-4a4f-8fc1-018e6b3ef661/Option_1": {
       "en": "(About Water...)",
       "cn": "（关于水……）",
       "ru": "(О воде...)",
       "status": "machine",
-      "srcHash": "490825e13c8f0b7a",
+      "srcHash": "869bf53c87db80f2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "a759ca99-70c9-4a4f-8fc1-018e6b3ef661/Option_2": {
       "en": "(About the Sorghum...)",
       "cn": "（关于高粱……）",
       "ru": "(О сорго...)",
       "status": "machine",
-      "srcHash": "6673ba532bb06388",
+      "srcHash": "c75c6843d558b503",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "a759ca99-70c9-4a4f-8fc1-018e6b3ef661/Option_3": {
       "en": "(About the Fermentation Starter...)",
       "cn": "（关于酒曲……）",
       "ru": "(О закваске для брожения...)",
       "status": "machine",
-      "srcHash": "11f0ef5bbedf953a",
+      "srcHash": "0ac76632616c7531",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "a759ca99-70c9-4a4f-8fc1-018e6b3ef661/Option_4": {
       "en": "(Head to ...)",
       "cn": "（前往……）\n",
       "ru": "(Направляйтесь к...)",
       "status": "machine",
-      "srcHash": "90a04f73cd30737e",
+      "srcHash": "60b9271d83e3146d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "9344fc62-9488-467c-a338-6ff3bee12bd9/EventContent": {
       "en": "\"By the lake east of the village, the spring water runs clear and sweet. Perfect for vinegar brewing.\"",
       "cn": "“村东湖畔，其水清冽甘甜，最是养醋。”",
       "ru": "\"У озера к востоку от деревни течет родниковая вода, прозрачная и сладкая. Идеально подходит для приготовления уксуса.\"",
       "status": "machine",
-      "srcHash": "ed14636be6177752",
+      "srcHash": "cecce140bea8333e",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "9344fc62-9488-467c-a338-6ff3bee12bd9/Option_1": {
       "en": "Where can I find the water?",
       "cn": "水在何处？",
       "ru": "Где я могу найти воду?",
       "status": "machine",
-      "srcHash": "42cc126b57095e7c",
+      "srcHash": "6d7b8f5971bdfde7",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "9344fc62-9488-467c-a338-6ff3bee12bd9/Option_2": {
       "en": "I see...",
       "cn": "原来如此……\n",
       "ru": "Я понимаю...",
       "status": "machine",
-      "srcHash": "c500fbb9698454bc",
+      "srcHash": "79e1c98d76148668",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "4a57effc-1851-43b4-add9-7834876b564a/EventContent": {
       "en": "The sorghum grown by the old man west of the village is large and plump, making it the best choice for brewing vinegar.",
       "cn": "“村西老汉所种高粱，粒大饱满，是酿醋的最上选。”",
       "ru": "Сорго, выращиваемое стариком к западу от деревни, крупное и сочное, что делает его лучшим выбором для приготовления уксуса.",
       "status": "machine",
-      "srcHash": "75bf7d674684ca92",
+      "srcHash": "fee8b0e3bece5184",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "4a57effc-1851-43b4-add9-7834876b564a/Option_1": {
       "en": "Where can I find the sorghum?",
       "cn": "高粱在何处？",
       "ru": "Где я могу найти сорго?",
       "status": "machine",
-      "srcHash": "c48a0cfccdbc027e",
+      "srcHash": "281834b216d07e92",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "4a57effc-1851-43b4-add9-7834876b564a/Option_2": {
       "en": "I see...",
       "cn": "原来如此……\n",
       "ru": "Я понимаю...",
       "status": "machine",
-      "srcHash": "c500fbb9698454bc",
+      "srcHash": "79e1c98d76148668",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "b693a412-1644-40bc-9325-9ac59e30d331/EventContent": {
       "en": "\"The innkeeper at the tavern north of the village keeps a stock of premium aged fermentation starter. You may ask him for some.\"",
       "cn": "“村北酒楼掌柜藏有上好陈年酒曲，可去求取。”",
       "ru": "\"У хозяина таверны к северу от деревни есть запас ферментационной закваски премиум-класса выдержки. Ты можешь попросить у него немного.\"",
       "status": "machine",
-      "srcHash": "c86bb60307c77860",
+      "srcHash": "27cadb2bbd77178d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "b693a412-1644-40bc-9325-9ac59e30d331/Option_1": {
       "en": "Where can I find the fermentation starter?",
       "cn": "酒曲在何处？",
       "ru": "Где я могу найти закваску для брожения?",
       "status": "machine",
-      "srcHash": "1837b6a67c721a64",
+      "srcHash": "51737b616d6250c0",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "b693a412-1644-40bc-9325-9ac59e30d331/Option_2": {
       "en": "I see...",
       "cn": "原来如此……\n",
       "ru": "Я понимаю...",
       "status": "machine",
-      "srcHash": "c500fbb9698454bc",
+      "srcHash": "79e1c98d76148668",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "b8e08c3e-691c-434f-ac7e-febc610a17bd/EventContent": {
       "en": "As the Shopkeeper said, <Character key=RoleTaiwu str=Name/> searched to the north of East Lake, <NL>and indeed found a spring gushing forth, the water clear to the bottom, warm to the touch, <NL>which is precisely the superior water source needed for brewing vinegar...",
       "cn": "依掌柜所言，<Character key=RoleTaiwu str=Name/>寻至东湖北侧，<NL>果见一孔泉眼泊泊而出，水清见底，触手生温，<NL>正是酿醋所需上佳水源……",
       "ru": "Как сказал владелец магазина, <Character key=RoleTaiwu str=Name/> искали к северу от Восточного озера, <NL>и действительно, обнаружил бьющий ключом источник, вода в котором была прозрачной до дна и теплой на ощупь, <NL>это именно тот превосходный источник воды, который необходим для приготовления уксуса...",
       "status": "machine",
-      "srcHash": "52127f9c4fcdbd39",
+      "srcHash": "47d141e473e4a72b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:39:46.636Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "b8e08c3e-691c-434f-ac7e-febc610a17bd/Option_1": {
       "en": "(Collect the Spring Water...)",
       "cn": "（获取湖水……）",
       "ru": "(Наберите родниковой воды...)",
       "status": "machine",
-      "srcHash": "e00d4cbdf97fcb94",
+      "srcHash": "9c0b33e5e3e5a703",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "b8e08c3e-691c-434f-ac7e-febc610a17bd/Option_2": {
       "en": "(Leave...)",
       "cn": "（暂时离开……）\n",
       "ru": "(Уходи...)",
       "status": "machine",
-      "srcHash": "b4c5ef93ed3f5e81",
+      "srcHash": "0c7ca84563ea2d14",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "3bddc1a0-0c72-4b1b-a50c-ae1a051e4233/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> walks to the East Lake shore,<NL>gazing out, seeing the vast expanse of lake water, the lake surface wide open,<NL>if water is taken blindly, the water quality may be improper in hardness and softness, with impurities mixed in,<NL>fearing it would ruin the flavor of the whole batch...",
       "cn": "<Character key=RoleTaiwu str=Name/>行至东湖畔，<NL>举目望去，但见湖水茫茫，湖面开阔，<NL>若盲目取水，水质软硬失度、杂质混入，<NL>恐坏了整缸风味……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "431f90c1cc7b907d",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> прогулки к восточному берегу озера,<NL>вглядываясь наружу, я вижу бескрайнее пространство озерной воды, широко открытую озерную гладь,<NL>если вода берется вслепую, качество воды может быть неподходящим по жесткости и мягкости, с примесями, смешанными в,<NL>опасаясь, что это испортит вкус всей порции...",
+      "status": "machine",
+      "srcHash": "b9b7bb9b73fcfe01",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:44:32.486Z"
     },
     "3bddc1a0-0c72-4b1b-a50c-ae1a051e4233/Option_1": {
       "en": "(Collect Water Quickly...)",
       "cn": "（取水要紧……）",
       "ru": "(Быстро соберите воду...)",
       "status": "machine",
-      "srcHash": "261e6391c8a9060e",
+      "srcHash": "ef60d3c0eb62df5a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "3bddc1a0-0c72-4b1b-a50c-ae1a051e4233/Option_2": {
       "en": "(Follow the Shopkeeper's Advice...)",
       "cn": "（按照掌柜建议取水……）",
       "ru": "(Следуйте совету владельца магазина...)",
       "status": "machine",
-      "srcHash": "39a5f15b6d49071b",
+      "srcHash": "2ca5002b42c4b941",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "3bddc1a0-0c72-4b1b-a50c-ae1a051e4233/Option_3": {
       "en": "(Leave...)",
       "cn": "（暂时离开……）\n",
       "ru": "(Уходи...)",
       "status": "machine",
-      "srcHash": "b4c5ef93ed3f5e81",
+      "srcHash": "0c7ca84563ea2d14",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "87bc3802-4db5-4a80-8dd1-2dc92a4e9114/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "de58d2d1-86d3-4222-928b-8895ca07aea6/EventContent": {
       "en": "The old farmer points toward a nearby field of sorghum.<NL>\"The proprietor has already informed me.<NL>This plot yields the best harvests. You may take what is needed.\"",
       "cn": "老农指向眼前一片高粱地：<NL>“坊主早已打过招呼，<NL>这块地收成最好，自取便是……”",
       "ru": "Старый Крестьянин указывает на соседнее поле сорго.<NL>- Владелец уже сообщил мне об этом.<NL>Этот участок дает самые лучшие урожаи. Вы можете взять то, что вам нужно.\"",
       "status": "machine",
-      "srcHash": "feaa0cd16b572e46",
+      "srcHash": "ed9dd30d67579de7",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "de58d2d1-86d3-4222-928b-8895ca07aea6/Option_1": {
       "en": "Where can I find the water?",
       "cn": "水在何处？",
       "ru": "Где я могу найти воду?",
       "status": "machine",
-      "srcHash": "42cc126b57095e7c",
+      "srcHash": "6d7b8f5971bdfde7",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "de58d2d1-86d3-4222-928b-8895ca07aea6/Option_2": {
       "en": "Where can I find the fermentation starter?",
       "cn": "酒曲在何处？",
       "ru": "Где я могу найти закваску для брожения?",
       "status": "machine",
-      "srcHash": "1837b6a67c721a64",
+      "srcHash": "51737b616d6250c0",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "de58d2d1-86d3-4222-928b-8895ca07aea6/Option_3": {
       "en": "Thanks...",
       "cn": "多谢……",
       "ru": "Спасибо...",
       "status": "machine",
-      "srcHash": "00ffb29753b487af",
+      "srcHash": "e86dfa2daeea37b9",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "de58d2d1-86d3-4222-928b-8895ca07aea6/Option_4": {
       "en": "Ask him to help collect it. [Consumes Favor: 50]",
       "cn": "请求帮忙代劳。[消耗恩义：50]\n",
       "ru": "Попросите его помочь собрать это. [Потребляет пользу: 50]",
       "status": "machine",
-      "srcHash": "b7da9c2bfff999fc",
+      "srcHash": "51e3576cb78e8141",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "ebe6640b-2adc-4eaa-a352-7ce215d7f34d/EventContent": {
       "en": "In the field, the sorghum stands ripe, grains plump and tight, crimson heads bowing low. A passing breeze sends red waves rolling across the field.<NL>The crop is now ideal for vinegar making, awaiting only the harvester.",
       "cn": "田里高粱成熟，籽粒饱满紧实，赤红的穗头垂落，风过处红浪翻涌。<NL>用来酿醋再适合不过，只待人来收割。",
       "ru": "В поле созрело сорго, зерна пухлые и плотные, низко склоненные малиновые головки. От мимолетного ветерка по полю прокатываются красные волны.<NL>Урожай теперь идеально подходит для приготовления уксуса, остается только собрать его в комбайн.",
       "status": "machine",
-      "srcHash": "30f90a32344fd237",
+      "srcHash": "a4aaee658da3e1af",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:39:46.636Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "ebe6640b-2adc-4eaa-a352-7ce215d7f34d/Option_1": {
       "en": "(Begin Harvesting...)",
       "cn": "（开始采摘……）",
       "ru": "(Начинаем сбор урожая...)",
       "status": "machine",
-      "srcHash": "3097868125d57c39",
+      "srcHash": "760844b1ea1bbf86",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "ebe6640b-2adc-4eaa-a352-7ce215d7f34d/Option_2": {
       "en": "(Harvest skillfully...)",
       "cn": "（巧手采摘……）",
       "ru": "(Собирайте урожай умело...)",
       "status": "machine",
-      "srcHash": "9e610441ca8c7984",
+      "srcHash": "158e77c5587fcb86",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "ebe6640b-2adc-4eaa-a352-7ce215d7f34d/Option_3": {
       "en": "(Harvest with a focused mind...)",
       "cn": "（定神采摘……）",
       "ru": "(Собирайте урожай сосредоточенным умом...)",
       "status": "machine",
-      "srcHash": "9c05d2c91b3aa809",
+      "srcHash": "08b198f8e5d13e25",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "ebe6640b-2adc-4eaa-a352-7ce215d7f34d/Option_4": {
       "en": "(Leave...)",
       "cn": "（暂时离开……）\n",
       "ru": "(Уходи...)",
       "status": "machine",
-      "srcHash": "b4c5ef93ed3f5e81",
+      "srcHash": "0c7ca84563ea2d14",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "e19100a1-1de4-4f73-8606-2633fde92a15/EventContent": {
       "en": "Please trouble the old gentleman to handle it.",
       "cn": "请老先生代劳。",
       "ru": "Пожалуйста, потрудитесь уладить это со старым джентльменом.",
       "status": "machine",
-      "srcHash": "41cac129b8f9aa2c",
+      "srcHash": "900fb6007f918e8e",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "e19100a1-1de4-4f73-8606-2633fde92a15/Option_1": {
       "en": "Many thanks.",
       "cn": "有劳。\n",
       "ru": "Большое спасибо.",
       "status": "machine",
-      "srcHash": "95e976b4962fd508",
+      "srcHash": "92976768ce795e50",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "4c8b1c4c-4edb-462a-b9ce-330b2f36d583/EventContent": {
       "en": "Your Favor is insufficient. I'm afraid I cannot help...",
       "cn": "阁下恩义未足，恕难从命……",
       "ru": "Твоей благосклонности недостаточно. Боюсь, я ничем не могу помочь...",
       "status": "machine",
-      "srcHash": "d1992e03c21ead60",
+      "srcHash": "28e0a122dfd91121",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "4c8b1c4c-4edb-462a-b9ce-330b2f36d583/Option_1": {
       "en": "...",
       "cn": "……\n",
       "ru": "...",
       "status": "machine",
-      "srcHash": "f7918e03b24304eb",
+      "srcHash": "0d158b3b07902186",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "ed4af262-c1c5-4006-9dd8-788146497811/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> relays everything the proprietor said to the shopkeeper.<NL>The keeper smiles and points to a small jar:<NL>\"This starter has aged for three years and remains exceptionally active. Normally, I wouldn't share it.<NL>Since it is requested by the master brewer, I'll give it to you.\"",
       "cn": "<Character key=RoleTaiwu str=Name/>将坊主所言一一告与掌柜，<NL>掌柜听罢，指向一旁小坛，笑道：<NL>“此曲乃三年陈化，活性极佳，寻常可不外传，<NL>既是老师傅所求，便赠予你了。”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "7815728e3d97f0f7",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> передает все, что сказал владелец, владельцу магазина.<NL>Хранитель улыбается и указывает на маленькую баночку:<NL>\"Эта закуска выдерживается уже три года и остается исключительно активной. Обычно я бы не стал этим делиться.<NL>Поскольку об этом просит мастер-пивовар, я дам его вам.\"",
+      "status": "machine",
+      "srcHash": "545ff6e3936f4eb6",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:44:32.486Z"
     },
     "ed4af262-c1c5-4006-9dd8-788146497811/Option_1": {
       "en": "Where can I find the water?",
       "cn": "水在何处？",
       "ru": "Где я могу найти воду?",
       "status": "machine",
-      "srcHash": "42cc126b57095e7c",
+      "srcHash": "6d7b8f5971bdfde7",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "ed4af262-c1c5-4006-9dd8-788146497811/Option_2": {
       "en": "Where can I find the sorghum?",
       "cn": "高粱在何处？",
       "ru": "Где я могу найти сорго?",
       "status": "machine",
-      "srcHash": "c48a0cfccdbc027e",
+      "srcHash": "281834b216d07e92",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "ed4af262-c1c5-4006-9dd8-788146497811/Option_3": {
       "en": "(Bow in thanks...)",
       "cn": "（躬身致谢……）\n",
       "ru": "(Поклон в знак благодарности...)",
       "status": "machine",
-      "srcHash": "a55b084bbcff5d74",
+      "srcHash": "26edeae797790337",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "24713ff1-1263-4514-b670-29ad897a6c8b/EventContent": {
       "en": "Just as <Character key=RoleTaiwu str=Name/> prepares to leave, the shopkeeper adds:<NL>\"Making vinegar is much like brewing wine—water selection is no small matter.<NL>North of the lake's center, there's a rock wall draped with vines.<NL>A clear spring emerges from its cracks.<NL>Its waters are clear as jade, warm in winter and cool in summer. Truly excellent water.\"",
       "cn": "<Character key=RoleTaiwu str=Name/>正欲告辞，掌柜却道：<NL>“酿醋同酿酒一般，取水一事马虎不得，<NL>湖心偏北，有一处岩壁挂满藤萝，<NL>其隙间有清泉涌出，<NL>水色澄碧，冬暖夏凉，实是好水。”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "c27e0d77778116ea",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Точно так же, как <Character key=RoleTaiwu str=Name/> собираясь уходить, владелец магазина добавляет:<NL>\"Приготовление уксуса во многом похоже на приготовление вина — выбор воды - немаловажный вопрос.<NL>К северу от центра озера есть каменная стена, увитая виноградными лозами.<NL>Из его трещин пробивается чистый родник.<NL>Его воды прозрачны, как Нефрит, теплые зимой и прохладные летом. Действительно превосходная вода.\"",
+      "status": "machine",
+      "srcHash": "7d67130a56f48437",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:44:32.486Z"
     },
     "24713ff1-1263-4514-b670-29ad897a6c8b/Option_1": {
       "en": "I see...",
       "cn": "原来如此……\n",
       "ru": "Я понимаю...",
       "status": "machine",
-      "srcHash": "c500fbb9698454bc",
+      "srcHash": "79e1c98d76148668",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "b4df165a-de60-464f-a1ad-47f4b2c78143/EventContent": {
       "en": "Having gathered all three ingredients, <Character key=RoleTaiwu str=Name/> returns to the vinegar workshop.<NL>The proprietor inspects each one and nods approvingly.<NL>\"The ingredients are complete, and the quality is acceptable.<NL>Now comes the true test.<NL>First step: steam the sorghum and mix it with the starter.\"",
       "cn": "<Character key=RoleTaiwu str=Name/>备齐三样材料，返回醋坊，<NL>坊主逐一检视，面露赞许：<NL>“材料齐备，成色尚可，<NL>接下来，便该见真章了<NL>第一步，蒸粮拌曲。”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "c1d8d68ba9d09c04",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Собрав все три ингредиента, <Character key=RoleTaiwu str=Name/> возвращается в мастерскую по производству уксуса.<NL>Владелец осматривает каждый из них и одобрительно кивает.<NL>\"Ингредиенты в полном составе, а качество приемлемое.<NL>Теперь наступает настоящее испытание.<NL>Первый шаг: приготовьте сорго на пару и смешайте его с закваской.\"",
+      "status": "machine",
+      "srcHash": "84151fa50a0dc1dc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:44:32.486Z"
     },
     "b4df165a-de60-464f-a1ad-47f4b2c78143/Option_1": {
       "en": "(Enter the Brewing Room...)",
       "cn": "（进入酿造间……）\n",
       "ru": "(Входим в пивоварню...)",
       "status": "machine",
-      "srcHash": "51bd2559a7aa842f",
+      "srcHash": "cf61505b6a62b0c5",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "49a680b5-15f5-4231-9f59-37dde33e87ad/EventContent": {
       "en": "Steam fills the workshop.<NL>The proprietor pours the sorghum into a large cauldron and instructs from the side:<NL>\"Steaming grain is all about heat control.<NL>High heat for speed, low heat for stability...\"",
       "cn": "坊内热气腾腾<NL>坊主将高粱倾入锅中，在一旁指点：<NL>“蒸粮关键全在火候，<NL>武火求快，文火求稳……”",
       "ru": "Мастерскую наполняет пар.<NL>Владелец насыпает сорго в большой котел и дает указания сбоку:<NL>\"Приготовление зерна на пару - это прежде всего контроль температуры.<NL>Высокий нагрев для скорости, низкий - для стабильности...\"",
       "status": "machine",
-      "srcHash": "a2e530aa083e6e91",
+      "srcHash": "169e6dfcf8e7b81e",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:39:46.636Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "49a680b5-15f5-4231-9f59-37dde33e87ad/Option_1": {
       "en": "(Steam over high heat...)",
       "cn": "（武火快蒸……）",
       "ru": "(Готовьте на пару на сильном огне...)",
       "status": "machine",
-      "srcHash": "ba91f73bd8985c9c",
+      "srcHash": "4941150746a2daf7",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "49a680b5-15f5-4231-9f59-37dde33e87ad/Option_2": {
       "en": "(Steam slowly over low heat...)",
       "cn": "（文火慢蒸……）",
       "ru": "(Готовьте медленно на медленном огне...)",
       "status": "machine",
-      "srcHash": "be5874f33c267ec4",
+      "srcHash": "eecc4d76ad1660bd",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "49a680b5-15f5-4231-9f59-37dde33e87ad/Option_3": {
       "en": "(Steam and mix with a focused mind...)",
       "cn": "（定心蒸拌……）",
       "ru": "(Готовьте на пару и перемешивайте сосредоточенно...)",
       "status": "machine",
-      "srcHash": "975482285d74b983",
+      "srcHash": "e741f47a9495c828",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "49a680b5-15f5-4231-9f59-37dde33e87ad/Option_4": {
       "en": "(Stir with all your might...)",
       "cn": "（奋力搅拌……）",
       "ru": "(Перемешайте изо всех сил...)",
       "status": "machine",
-      "srcHash": "6eb0650701f38018",
+      "srcHash": "deda15df627dff81",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "49a680b5-15f5-4231-9f59-37dde33e87ad/Option_5": {
       "en": "(Leave...)",
       "cn": "（暂时离开……）\n",
       "ru": "(Уходи...)",
       "status": "machine",
-      "srcHash": "b4c5ef93ed3f5e81",
+      "srcHash": "0c7ca84563ea2d14",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "f9e63857-4d01-4ea1-94d7-40ea712fd40c/EventContent": {
       "en": "\"The steamed sorghum must be mixed with the starter and sealed in large vats for fermentation.<NL>One uses a deep cellar for quiet aging, the other relies on intense sunlight. Which method do you prefer?\"",
       "cn": "“高粱蒸透，须拌入酒曲，装入大缸发酵，<NL>深窖幽静，日晒猛烈，你欲用何法？”",
       "ru": "\"Пропаренное сорго необходимо смешать с закваской и запечатать в больших чанах для брожения.<NL>Один использует глубокий погреб для тихой выдержки, другой полагается на интенсивный солнечный свет. Какой метод вы предпочитаете?\"",
       "status": "machine",
-      "srcHash": "c381d807a27efcb8",
+      "srcHash": "717ea7f30e355d75",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:39:46.636Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "f9e63857-4d01-4ea1-94d7-40ea712fd40c/Option_1": {
       "en": "(Seal in a deep cellar...)",
       "cn": "（密封深窖……）",
       "ru": "(Печать в глубоком подвале...)",
       "status": "machine",
-      "srcHash": "578e07a5e8618afc",
+      "srcHash": "c9802e1c8185e6b6",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "f9e63857-4d01-4ea1-94d7-40ea712fd40c/Option_2": {
       "en": "(Sun-dry in the open...)",
       "cn": "（敞口日晒……）",
       "ru": "(Сушить на солнце под открытым небом...)",
       "status": "machine",
-      "srcHash": "c9247c9fc0e0f06d",
+      "srcHash": "ee6b34a0508b40a8",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "f9e63857-4d01-4ea1-94d7-40ea712fd40c/Option_3": {
       "en": "(Leave...)",
       "cn": "（暂时离开……）\n",
       "ru": "(Уходи...)",
       "status": "machine",
-      "srcHash": "b4c5ef93ed3f5e81",
+      "srcHash": "0c7ca84563ea2d14",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "107b7a9c-c7b4-4d06-abf7-e49a248faf84/EventContent": {
       "en": "Master frowned, viewed the vinegar base in the jar, shook his head and sighed: <NL>\"The heat was off, the essence has gone awry,<NL>I still have a secret method of 'rectification' that might salvage it,<NL>but each has its pros and cons, you must decide quickly.\"",
       "cn": "坊主蹙眉，查看缸中醋坯，摇头叹道：<NL>“火候失当，气韵已偏，<NL>老夫尚有‘扶正’秘法，或可挽回，<NL>然各有利弊，你需速决。”",
       "ru": "Мастер нахмурился, посмотрел на уксусную основу в банке, покачал головой и вздохнул: <NL>\"Нагрев был выключен, эссенция испортилась,<NL>У меня все еще есть секретный метод \"исправления\", который мог бы спасти его,<NL>но у каждого есть свои плюсы и минусы, вы должны быстро принять решение.\"",
       "status": "machine",
-      "srcHash": "eae245ac7e1c91f1",
+      "srcHash": "4decb4abcc327122",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:39:46.636Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "107b7a9c-c7b4-4d06-abf7-e49a248faf84/Option_1": {
       "en": "(Add More Starter to Boost Fermentation...)",
       "cn": "（添曲补酵……）",
       "ru": "(Добавьте еще закваски, чтобы усилить брожение...)",
       "status": "machine",
-      "srcHash": "32b2f144d5d29b5a",
+      "srcHash": "0a746269d4536c6b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "107b7a9c-c7b4-4d06-abf7-e49a248faf84/Option_2": {
       "en": "(Stabilize the Batch with Starter...)",
       "cn": "（以曲固本……）",
       "ru": "(Стабилизируйте тесто закваской...)",
       "status": "machine",
-      "srcHash": "08f3e5078a54a396",
+      "srcHash": "6ef523638f6d01e6",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "107b7a9c-c7b4-4d06-abf7-e49a248faf84/Option_3": {
       "en": "(Leave...)",
       "cn": "（暂时离开……）\n",
       "ru": "(Уходи...)",
       "status": "machine",
-      "srcHash": "b4c5ef93ed3f5e81",
+      "srcHash": "0c7ca84563ea2d14",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "c3c69a56-646e-490a-b7f6-dc38391d701a/EventContent": {
       "en": "The fermentation is complete, and the vinegar mash is ready to be filtered.<NL>The proprietor hands over a wooden ladle.<NL>\"Drawing vinegar is an art in itself.<NL>The first draw contains the purest essence. The second draw offers balanced flavor. The third draw is lighter in taste, but yields a greater volume.\"",
       "cn": "发酵已成，醋醅需淋出醋汁，<NL>坊主递来木勺：<NL>“淋醋亦有讲究，<NL>头道精华，二道调和，三道寡淡却量多。”",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "feef4b2e9ebcf894",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Ферментация завершена, и уксусное пюре готово к фильтрованию.<NL>Хозяин протягивает деревянный половник.<NL>\"Рисование уксусом - это само по себе искусство.<NL>Первый розыгрыш содержит самую чистую эссенцию. Второй сорт обладает сбалансированным вкусом. Третий вариант более легкий на вкус, но дает больший объем.\"",
+      "status": "machine",
+      "srcHash": "17791ef2d2461cfe",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:44:32.486Z"
     },
     "c3c69a56-646e-490a-b7f6-dc38391d701a/Option_1": {
       "en": "(Take the First Draw Vinegar...)",
       "cn": "（取头道原醋……）",
       "ru": "(Возьмите уксус для первого отжима...)",
       "status": "machine",
-      "srcHash": "fedf28c76b1c23bd",
+      "srcHash": "ae58cb0422ea5ae2",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "c3c69a56-646e-490a-b7f6-dc38391d701a/Option_2": {
       "en": "(Take the Balanced Second Draw...)",
       "cn": "（取二道调和……）",
       "ru": "(Возьмите сбалансированный второй розыгрыш...)",
       "status": "machine",
-      "srcHash": "78381cb0f9fd29f6",
+      "srcHash": "e9fa83ef82bf6f60",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "c3c69a56-646e-490a-b7f6-dc38391d701a/Option_3": {
       "en": "(Take the Third Draw for Further Brewing...)",
       "cn": "（取三道再酿……）\n",
       "ru": "(Сделайте третью затяжку для дальнейшего заваривания...)",
       "status": "machine",
-      "srcHash": "0ff073aad3f42708",
+      "srcHash": "7e24b185c863faf8",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "07f497d4-eae2-4718-8778-f97ded4846d4/EventContent": {
       "en": "After many steps, the vinegar is finally complete.<NL>The proprietor invites <Character key=RoleTaiwu str=Name/> to open the vat together. A sharp, fragrant sourness fills the air.<NL>The proprietor ladles out a spoonful, studying its color, inhaling its aroma, and tasting it carefully<NL>Then he turns to <Character key=RoleTaiwu str=Name/>with a meaningful look.",
       "cn": "经历多道工序，醋已酿成。<NL>坊主邀<Character key=RoleTaiwu str=Name/>一同开缸，浓烈的酸香扑鼻而来，<NL>坊主舀起一勺，仔细观色、闻香、品味，<NL>随后向<Character key=RoleTaiwu str=Name/>投来意味深长的目光。",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "441f767d5b01b9cf",
-      "engine": null,
-      "updatedAt": null
+      "ru": "После многих этапов приготовление уксуса, наконец, завершено.<NL>Владелец приглашает <Character key=RoleTaiwu str=Name/> чтобы вместе открыть чан. Воздух наполняется острой, ароматной кислинкой.<NL>Хозяин зачерпывает полную ложку, изучая ее цвет, вдыхая аромат и тщательно пробуя на вкус<NL>Затем он поворачивается к <Character key=RoleTaiwu str=Name/>с многозначительным взглядом.",
+      "status": "machine",
+      "srcHash": "371c44c553fd63d9",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T10:44:32.486Z"
     },
     "07f497d4-eae2-4718-8778-f97ded4846d4/Option_1": {
       "en": "(Wait for the Evaluation...)",
       "cn": "（静候品评……）\n",
       "ru": "(Дождитесь оценки...)",
       "status": "machine",
-      "srcHash": "babf9c8c76da4832",
+      "srcHash": "d877840a4f86457e",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "93983f77-1ece-43ee-ae4f-c0eb4b043a56/EventContent": {
       "en": "The proprietor claps his hands and laughs heartily.<NL>\"Excellent! This vinegar glows like amber, layered with rich aromas and a deep, lingering tang.<NL>In all my decades of brewing, even I have rarely produced such a masterpiece!<NL>You have a remarkable talent for this craft!\"",
       "cn": "坊主抚掌大笑：<NL>“妙极！此醋色如琥珀，香蕴层次，酸味醇厚绵长<NL>老夫酿醋数十载，此等极品亦不多见！<NL>你于此道，大有天赋！”",
       "ru": "Владелец хлопает в ладоши и от души смеется.<NL>- Превосходно! Этот уксус светится, как янтарь, насыщенный ароматами и глубоким, стойким привкусом.<NL>За все десятилетия моего пивоварения даже мне редко удавалось создать такой шедевр!<NL>У тебя замечательный Талант к этому ремеслу!\"",
       "status": "machine",
-      "srcHash": "6de6ca059cc2d025",
+      "srcHash": "6a66f1c88a6e8773",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:39:46.636Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "93983f77-1ece-43ee-ae4f-c0eb4b043a56/Option_1": {
       "en": "You flatter me...",
       "cn": "过奖……\n",
       "ru": "Вы мне льстите...",
       "status": "machine",
-      "srcHash": "91b5031735fc704b",
+      "srcHash": "3e5d16c02fdde2de",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "4aa1fe8b-7460-47c2-b973-c9b8d19345ea/EventContent": {
       "en": "The proprietor nods approvingly.<NL>\"Excellent quality. The aroma is pleasing, and the flavor refined. A rare find on the market.<NL>You've already mastered half of the art.\"",
       "cn": "坊主点头称赞：<NL>“成色上佳，酸香宜人，已是市面难得佳品，<NL>你手法已得其中半数。”",
       "ru": "Владелец одобрительно кивает.<NL>- Превосходное качество. Аромат приятный, а вкус изысканный. Редкая находка на рынке.<NL>Ты уже овладел половиной этого искусства.\"",
       "status": "machine",
-      "srcHash": "cf4801a6715e9db7",
+      "srcHash": "7594083fee44c197",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "4aa1fe8b-7460-47c2-b973-c9b8d19345ea/Option_1": {
       "en": "You flatter me...",
       "cn": "过奖……\n",
       "ru": "Вы мне льстите...",
       "status": "machine",
-      "srcHash": "91b5031735fc704b",
+      "srcHash": "3e5d16c02fdde2de",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "e7c7b4e7-df18-4be0-bfec-9063b3f70558/EventContent": {
       "en": "The master pondered for a moment: <NL>\"The vinegar is done, its flavor is average, acceptable for everyday use,<NL>still need more refinement.\"",
       "cn": "坊主略一沉吟：<NL>“醋是成了，风味中规中矩，可作日常之用，<NL>还需多加琢磨。”",
       "ru": "Мастер на мгновение задумался: <NL>\"Уксус готов, его вкус средний, приемлемый для повседневного употребления,<NL>все еще нуждается в доработке.\"",
       "status": "machine",
-      "srcHash": "e5bea7aef2590bcc",
+      "srcHash": "5b3a9b739ee33a21",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "e7c7b4e7-df18-4be0-bfec-9063b3f70558/Option_1": {
       "en": "I have learned much...",
       "cn": "受教……\n",
       "ru": "Я многому научился...",
       "status": "machine",
-      "srcHash": "bc52d87e4649a683",
+      "srcHash": "33d2a221411eadac",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "de55a9cc-4b24-44c8-bf9a-72e7ad2cd741/EventContent": {
       "en": "The proprietor gazes at the cloudy liquid in the vat and sighs.<NL>\"This vinegar... is harshly sour, cloudy in appearance, and difficult to drink.<NL>Somewhere along the way, a mistake must have been made.\"",
       "cn": "坊主看向缸中浊液，摇头叹息：<NL>“此醋……酸烈刺鼻，色泽浑浊，怕是难以下咽，<NL>想来某处出了差池。”",
       "ru": "Владелец смотрит на мутную жидкость в чане и вздыхает.<NL>\"Этот уксус... резко кислый, мутный на вид, и его трудно пить.<NL>Должно быть, где-то на этом пути была допущена ошибка.\"",
       "status": "machine",
-      "srcHash": "b6bb7cbd6bb35143",
+      "srcHash": "0af5d5824beb98d7",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:39:46.636Z"
+      "updatedAt": "2026-06-29T10:33:28.842Z"
     },
     "de55a9cc-4b24-44c8-bf9a-72e7ad2cd741/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "3fc22406-d157-478b-85a2-d67b6679f732/EventContent": {
       "en": "Obtained Water...<NL>This supply of water can now be brought back for vinegar brewing...<NL><NL><color=#lightgrey>(Score Increased...)</color>",
       "cn": "获得了水源……<NL>这汪清水已可带回酿醋……<NL><NL> <color=#lightgrey>（得分增加了……）</color>",
       "ru": "Полученная вода...<NL>Теперь этот запас воды можно использовать для приготовления уксуса...<NL><NL><color=#lightgrey>(Оценка увеличена...)</color>",
       "status": "machine",
-      "srcHash": "f8063f0cbdcf6fe0",
+      "srcHash": "4bc5f5fe992c779a",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "3fc22406-d157-478b-85a2-d67b6679f732/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "cd8e5cb2900ce236",
+      "srcHash": "49b4c100a7a92e67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "408f655d-07e1-407b-a1db-6308301ab1fd/EventContent": {
       "en": "Obtained Sorghum...<NL>This batch of sorghum can now be taken back to the workshop for brewing...<NL><NL><color=#lightgrey>(Score Increased...)</color>",
       "cn": "获得了高粱……<NL>这一批高粱已可带回坊中备用……<NL><NL> <color=#lightgrey>（得分增加了……）</color>",
       "ru": "Получено сорго...<NL>Теперь эту партию сорго можно отнести обратно в цех для заваривания...<NL><NL><color=#lightgrey>(Оценка увеличена...)</color>",
       "status": "machine",
-      "srcHash": "5cdef655df7d932b",
+      "srcHash": "6de7781e4b715d99",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "408f655d-07e1-407b-a1db-6308301ab1fd/Option_1": {
       "en": "This is good...",
       "cn": "如此便好……\n",
       "ru": "Это хорошо...",
       "status": "machine",
-      "srcHash": "6238c8fb441ab01e",
+      "srcHash": "d45723d8c13a395b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "72c4dc3d-456e-4868-93c7-430124a766de/EventContent": {
       "en": "Obtained Fermentation Starter...<NL>This batch of starter can now be taken back to the workshop for brewing...<NL><NL><color=#lightgrey>(Score Increased...)</color>",
       "cn": "获得了酒曲……<NL>这一批酒曲已可带回坊中备用……<NL><NL> <color=#lightgrey>（得分增加了……）</color>",
       "ru": "Полученная закваска для брожения...<NL>Теперь эту порцию закваски можно отнести обратно в мастерскую для приготовления...<NL><NL><color=#lightgrey>(Оценка увеличена...)</color>",
       "status": "machine",
-      "srcHash": "21d3f26ccb72de5e",
+      "srcHash": "1bfe523cf60fbdfa",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "72c4dc3d-456e-4868-93c7-430124a766de/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "cd8e5cb2900ce236",
+      "srcHash": "49b4c100a7a92e67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "9dfe1df0-b034-42ca-b3d5-3424ffa61e00/EventContent": {
       "en": "Obtained Premium Water...<NL>The spring water is pure, sweet, and refreshing—an exceptional choice for brewing vinegar...<NL><NL><color=#lightgrey>(Score Increased...)</color>",
       "cn": "获得了优质水源……<NL>泉水清冽甘甜，正是上好的酿醋之选……<NL><NL> <color=#lightgrey>（得分增加了……）</color>",
       "ru": "Получена вода высшего качества...<NL>Родниковая вода чистая, сладкая и освежающая — исключительный выбор для приготовления уксуса...<NL><NL><color=#lightgrey>(Оценка увеличена...)</color>",
       "status": "machine",
-      "srcHash": "c347f1fd5a4d85bd",
+      "srcHash": "5ac38bdef77d3a69",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "9dfe1df0-b034-42ca-b3d5-3424ffa61e00/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "cd8e5cb2900ce236",
+      "srcHash": "49b4c100a7a92e67",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "fe55fc4b-d707-48b5-a74c-a858ff228186/EventContent": {
       "en": "This vat of vinegar not only adds flavor, but also increases the vinegar yield...<NL> <color=#lightgrey>(Score increased...)</color>",
       "cn": "这一缸醋既添风味，也增了出醋之量……<NL> <color=#lightgrey>（得分增加了……）</color>",
       "ru": "Этот чан с уксусом не только добавляет аромата, но и увеличивает выход уксуса...<NL> <color=#lightgrey>(Оценка увеличена...)</color>",
       "status": "machine",
-      "srcHash": "f0115fc657b3fcef",
+      "srcHash": "5cc921d17a4b8261",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "fe55fc4b-d707-48b5-a74c-a858ff228186/Option_1": {
       "en": "This is good...",
       "cn": "如此便好……\n",
       "ru": "Это хорошо...",
       "status": "machine",
-      "srcHash": "6238c8fb441ab01e",
+      "srcHash": "d45723d8c13a395b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "f859ed17-2b79-46b5-b5a6-e3e0908fbbfc/EventContent": {
       "en": "The vinegar's aroma has deepened, and its flavor has become even richer...<NL><NL><color=#lightgrey>(Score Increased...)</color>",
       "cn": "醋香更凝，风味也更醇厚了……<NL><NL> <color=#lightgrey>（得分增加了……）</color>",
       "ru": "Аромат уксуса усилился, а его вкус стал еще насыщеннее...<NL><NL><color=#lightgrey>(Оценка увеличена...)</color>",
       "status": "machine",
-      "srcHash": "384d8027646fa456",
+      "srcHash": "6cca91c2c2181189",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "f859ed17-2b79-46b5-b5a6-e3e0908fbbfc/Option_1": {
       "en": "This is good...",
       "cn": "如此便好……\n",
       "ru": "Это хорошо...",
       "status": "machine",
-      "srcHash": "6238c8fb441ab01e",
+      "srcHash": "d45723d8c13a395b",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7d30546f-7067-4928-bd78-16ce4364be9f/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/>'s Favor is insufficient, I regretfully cannot comply...",
       "cn": "<Character key=RoleTaiwu str=Name/>恩义未足，恕难从命……",
       "ru": "<Character key=RoleTaiwu str=Name/>вашей благосклонности недостаточно, я, к сожалению, не могу подчиниться...",
       "status": "machine",
-      "srcHash": "8cbb7d80e1dbb936",
+      "srcHash": "ab697f7a188b01da",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "7d30546f-7067-4928-bd78-16ce4364be9f/Option_1": {
       "en": "(...)",
       "cn": "(……)\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "f0f15902-dabd-4a40-ba06-c1af99e24481/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> follows the scent of liquor... <NL>Start collecting Fermentation Starter...",
       "cn": "<Character key=RoleTaiwu str=Name/>循着酒香寻去…… <NL>开始收集酒曲……",
       "ru": "<Character key=RoleTaiwu str=Name/> следует за ароматом Вина... <NL>Начните собирать закваску для брожения...",
       "status": "machine",
-      "srcHash": "30274e29ddf6e6d5",
+      "srcHash": "57f92685d4b6da60",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "f0f15902-dabd-4a40-ba06-c1af99e24481/Option_1": {
       "en": "(Begin Collecting...)",
       "cn": "（开始收集……）",
       "ru": "(Начинайте собирать...)",
       "status": "machine",
-      "srcHash": "d2ff73be3e9a9063",
+      "srcHash": "cb5b2d70a382cd32",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "f0f15902-dabd-4a40-ba06-c1af99e24481/Option_2": {
       "en": "(Focus and distinguish...)",
       "cn": "（凝神分辨……）",
       "ru": "(Сосредоточьтесь и различайте...)",
       "status": "machine",
-      "srcHash": "17bbf09fa270ec34",
+      "srcHash": "cc9d23736bc31f0d",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "f0f15902-dabd-4a40-ba06-c1af99e24481/Option_3": {
       "en": "(Taste it attentively...)",
       "cn": "（细细品味……）",
       "ru": "(Попробуйте его внимательно...)",
       "status": "machine",
-      "srcHash": "dab3e9ac71689f93",
+      "srcHash": "a64ec46c5902b286",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "f0f15902-dabd-4a40-ba06-c1af99e24481/Option_4": {
       "en": "(Leave...)",
       "cn": "（暂时离开……）\n",
       "ru": "(Уходи...)",
       "status": "machine",
-      "srcHash": "b4c5ef93ed3f5e81",
+      "srcHash": "0c7ca84563ea2d14",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "9ad2f8df-5150-4000-b842-1336e872641c/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "309bd1c8-7ce5-44ba-8052-35f8fbc241da/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "0c12b7fb-4404-4666-8aa7-fcb38bfa2708/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "e41bf26b-ab88-4d2f-98d7-1db1d4b449a6/EventContent": {
       "en": "Please accept this premium sorghum, Taiwu.",
       "cn": "上好的高粱，太吾请收下吧。",
       "ru": "Пожалуйста, примите это сорго высшего сорта, Тайу.",
       "status": "machine",
-      "srcHash": "3c46812bbefec06f",
+      "srcHash": "cbeb2045ab74ebfb",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "e41bf26b-ab88-4d2f-98d7-1db1d4b449a6/Option_1": {
       "en": "Many thanks.",
       "cn": "有劳。\n",
       "ru": "Большое спасибо.",
       "status": "machine",
-      "srcHash": "95e976b4962fd508",
+      "srcHash": "92976768ce795e50",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "4e507b11-9c44-4537-a140-0174aac29776/EventContent": {
       "en": "\"<Character key=RoleTaiwu str=Name/>! Your visit truly honors my humble workshop. Might I ask you to help brew vinegar and spread our name?<NL>Should you succeed, a rich reward awaits!\"",
       "cn": "“<Character key=RoleTaiwu str=Name/>光临，小店蓬荜生辉，可否请你帮忙酿醋以扬我醋坊名声？<NL>事成之后，必有重谢！”",
       "ru": "\"<Character key=RoleTaiwu str=Name/> Ваш визит - настоящая честь для моей скромной мастерской. Могу я попросить вас помочь приготовить уксус и распространить наше имя?<NL>Если вы добьетесь успеха, вас ждет богатая награда!\"",
       "status": "machine",
-      "srcHash": "3dd1a034c3de5b8d",
+      "srcHash": "11951db7e3c6b89c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "4e507b11-9c44-4537-a140-0174aac29776/Option_1": {
       "en": "Please do tell more...",
       "cn": "愿闻其详……\n",
       "ru": "Пожалуйста, расскажите подробнее...",
       "status": "machine",
-      "srcHash": "269d96024a66ffb4",
+      "srcHash": "6c31393ea4a99397",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "024eb36d-b71d-4b28-8951-27874d165174/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "2f9f011c-e8f4-4752-919a-64f9bd459c75/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "0ad1d62a-db99-4fa4-af63-5f9efb194379/EventContent": {
       "en": "There is no need to gather more sorghum...",
       "cn": "已经不需要采摘高粱了……",
       "ru": "Больше собирать сорго не нужно...",
       "status": "machine",
-      "srcHash": "ffd090713c3a188b",
+      "srcHash": "b2c7152aae649ad6",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "0ad1d62a-db99-4fa4-af63-5f9efb194379/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "86ce34a8-a539-4307-a0ce-a8292db0a98e/EventContent": {
       "en": "You have already collected the water...",
       "cn": "已经取过水了……",
       "ru": "Вы уже собрали воду...",
       "status": "machine",
-      "srcHash": "820924cb8deaa579",
+      "srcHash": "cbde9de1502d4688",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "86ce34a8-a539-4307-a0ce-a8292db0a98e/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "9fc9920f-621b-4833-9707-27ed32f04026/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> has gathered all three materials. It is now time to return to the vinegar workshop...",
       "cn": "<Character key=RoleTaiwu str=Name/>备齐三样材料，现在可以返回醋坊了……",
       "ru": "<Character key=RoleTaiwu str=Name/> собрал все три материала. Теперь пришло время вернуться в мастерскую по производству уксуса...",
       "status": "machine",
-      "srcHash": "8fe143befc88eb21",
+      "srcHash": "b961e2cf1bab6071",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "9fc9920f-621b-4833-9707-27ed32f04026/Option_1": {
       "en": "(Proceed to...)",
       "cn": "(前往……)\n",
       "ru": "(Переходите к...)",
       "status": "machine",
-      "srcHash": "db8ab823dd6ad9d3",
+      "srcHash": "97c3800141f6f9d3",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "633cc65d-a1f1-437d-9724-3795471c508d/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "910ba46f7648772c",
+      "srcHash": "1b3febdd55dddecc",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "b48f48d2-a7de-4752-902c-c9cc2f1ea063/EventContent": {
       "en": "The opportunities here have been exhausted. There is little to gain by remaining...<NL>Leave this Encounter?",
       "cn": "此地机缘已尽，再留也难有更多收获…… <NL>是否离开奇遇……",
       "ru": "Возможности здесь были исчерпаны. Оставаясь, мы мало что выиграем...<NL>Оставить эту встречу?",
       "status": "machine",
-      "srcHash": "f2c9df28233cd12a",
+      "srcHash": "87bc8a85c5cc7594",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "b48f48d2-a7de-4752-902c-c9cc2f1ea063/Option_1": {
       "en": "(This matter is settled, time to leave...)",
       "cn": "(此间事了，该当离去……)",
       "ru": "(Этот вопрос решен, пора уходить...)",
       "status": "machine",
-      "srcHash": "cf8ae3791ee5801c",
+      "srcHash": "a76bd2da171263fd",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "b48f48d2-a7de-4752-902c-c9cc2f1ea063/Option_2": {
       "en": "(Still lingering, for now, stay...)",
       "cn": "(尚有留恋，暂且留下……)\n",
       "ru": "(Все еще задерживаюсь, а пока останься...)",
       "status": "machine",
-      "srcHash": "535e45baba10fcae",
+      "srcHash": "7aaa80371e1e89b1",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "5314cf84-f482-4ef4-b012-13e0ac50a9b1/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> approaches a passerby...<NL><Character key=RoleTaiwu str=UpperGenderSubject/> chats with this passerby...",
       "cn": "<Character key=RoleTaiwu str=Name/>寻上一名游人……<NL><Character key=RoleTaiwu str=Name/>与街边路人攀谈……",
       "ru": "<Character key=RoleTaiwu str=Name/> подходит к прохожему...<NL><Character key=RoleTaiwu str=UpperGenderSubject/> болтает с этим прохожим...",
       "status": "machine",
-      "srcHash": "bb2928bf56f25c7a",
+      "srcHash": "1af185e37d8b3ab6",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:33:58.892Z"
+      "updatedAt": "2026-06-29T10:21:51.980Z"
     },
     "5314cf84-f482-4ef4-b012-13e0ac50a9b1/Option_1": {
       "en": "(Nothing else for now...)",
       "cn": "（暂无他事……）\n",
       "ru": "(Пока больше ничего...)",
       "status": "machine",
-      "srcHash": "2e28e25ccadac7b4",
+      "srcHash": "fc97e239b40b7465",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "63bac2d3-e94a-4b6e-9132-f9efaf2b6561/EventContent": {
       "en": "The sorghum has already been collected. Go retrieve the fermentation starter and water...",
       "cn": "高粱已经采集过了，去取酒曲和水吧……",
       "ru": "Сорго уже собрано. Идите за закваской для брожения и водой...",
       "status": "machine",
-      "srcHash": "50f66024ada9b694",
+      "srcHash": "9cd583dd28d18b2c",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "63bac2d3-e94a-4b6e-9132-f9efaf2b6561/Option_1": {
       "en": "Where can I find the water?",
       "cn": "水在何处？",
       "ru": "Где я могу найти воду?",
       "status": "machine",
-      "srcHash": "42cc126b57095e7c",
+      "srcHash": "6d7b8f5971bdfde7",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "63bac2d3-e94a-4b6e-9132-f9efaf2b6561/Option_2": {
       "en": "Where can I find the fermentation starter?",
       "cn": "酒曲在何处？",
       "ru": "Где я могу найти закваску для брожения?",
       "status": "machine",
-      "srcHash": "1837b6a67c721a64",
+      "srcHash": "51737b616d6250c0",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     },
     "63bac2d3-e94a-4b6e-9132-f9efaf2b6561/Option_3": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "3c5b97dd623d6a45",
+      "srcHash": "c164dbd93b3e7858",
       "engine": "yandex",
-      "updatedAt": "2026-06-21T21:21:05.664Z"
+      "updatedAt": "2026-06-29T10:18:49.896Z"
     }
   }
 }
