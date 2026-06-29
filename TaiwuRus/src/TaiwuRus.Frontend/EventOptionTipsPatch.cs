@@ -1,7 +1,6 @@
 ﻿using System.IO;
 using System.Reflection;
 using HarmonyLib;
-using UnityEngine;
 
 namespace TaiwuRus.Frontend
 {
@@ -30,7 +29,7 @@ namespace TaiwuRus.Frontend
             if (LocalStringManager.CurLanguageKey != "RU")
                 return true;
 
-            string file = Path.Combine(Application.streamingAssetsPath, "EventLanguages_RU", "EventOptionTips_RU.txt");
+            string file = ModAssets.Resolve("EventLanguages_RU", "EventOptionTips_RU.txt");
             if (!File.Exists(file))
                 return true; // no RU file yet — let the engine handle it
 

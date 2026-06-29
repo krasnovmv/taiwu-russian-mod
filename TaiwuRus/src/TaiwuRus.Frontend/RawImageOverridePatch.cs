@@ -12,9 +12,10 @@ namespace TaiwuRus.Frontend
     /// <c>&lt;…&gt;_&lt;lang&gt;_&lt;…&gt;</c>. RefreshImage formats the pattern with <c>CurLanguageType</c>
     /// (EN for RU), so Russian shows the English texture; there is no `_ru` texture.
     ///
-    /// When RU is selected and we ship <c>StreamingAssets/Language_RU/Images/&lt;name&gt;.png</c>
-    /// (where name = pattern formatted with "ru"), load it and assign the RawImage texture
-    /// directly. Missing file → keep the engine's EN fallback.
+    /// When RU is selected and we ship <c>Language_RU/Images/&lt;name&gt;.png</c> (where name =
+    /// pattern formatted with "ru"; resolved via <see cref="ModAssets"/> — the mod's own overlay
+    /// first, then the game's StreamingAssets), load it and assign the RawImage texture directly.
+    /// Missing file → keep the engine's EN fallback.
     /// </summary>
     [HarmonyPatch(typeof(LanguageRuleRawImagePattern), nameof(LanguageRuleRawImagePattern.RefreshImage))]
     internal static class RawImageOverridePatch
@@ -45,7 +46,7 @@ namespace TaiwuRus.Frontend
             if (Cache.TryGetValue(ruName, out Texture2D cached))
                 return cached;
 
-            string file = Path.Combine(Application.streamingAssetsPath, "Language_RU", "Images", ruName + ".png");
+            string file = ModAssets.Resolve("Language_RU", "Images", ruName + ".png");
             Texture2D tex = null;
             if (File.Exists(file))
             {

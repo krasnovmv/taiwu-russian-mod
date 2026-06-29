@@ -6,7 +6,6 @@ using System.Text.RegularExpressions;
 using Game.Views.MouseTips;
 using HarmonyLib;
 using Newtonsoft.Json;
-using UnityEngine;
 
 namespace TaiwuRus.Frontend
 {
@@ -43,7 +42,7 @@ namespace TaiwuRus.Frontend
                 return false;
             }
 
-            string file = Path.Combine(Application.streamingAssetsPath, "Language_RU", "CommonTip", path + ".json");
+            string file = ModAssets.Resolve("Language_RU", "CommonTip", path + ".json");
             if (!File.Exists(file))
                 return true; // no RU file — let the engine load the EN one
 

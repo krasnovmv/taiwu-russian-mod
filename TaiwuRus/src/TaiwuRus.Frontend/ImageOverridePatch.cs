@@ -13,7 +13,8 @@ namespace TaiwuRus.Frontend
     /// sprite in the atlases.
     ///
     /// When RU is selected and we ship a replacement PNG at
-    /// <c>StreamingAssets/Language_RU/Images/&lt;base&gt;_ru.png</c>, load it as a standalone sprite and
+    /// <c>Language_RU/Images/&lt;base&gt;_ru.png</c> (resolved via <see cref="ModAssets"/> — the mod's
+    /// own overlay first, then the game's StreamingAssets), load it as a standalone sprite and
     /// assign it directly (bypassing the atlas). Missing file → keep the engine's EN fallback.
     ///
     /// Target typed via publicizer nameof (RefreshImage is private); private fields are read via
@@ -50,7 +51,7 @@ namespace TaiwuRus.Frontend
             if (Cache.TryGetValue(ruName, out Sprite cached))
                 return cached;
 
-            string file = Path.Combine(Application.streamingAssetsPath, "Language_RU", "Images", ruName + ".png");
+            string file = ModAssets.Resolve("Language_RU", "Images", ruName + ".png");
             Sprite sprite = null;
             if (File.Exists(file))
             {
