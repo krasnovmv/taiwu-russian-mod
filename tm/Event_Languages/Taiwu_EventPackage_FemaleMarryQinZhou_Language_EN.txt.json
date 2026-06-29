@@ -1284,11 +1284,11 @@
     "9d182e84-9b76-495f-9069-a7abf0426274/EventContent": {
       "en": "The sun was beating down on the ground. <Character key=RoleTaiwu str=Name /> had been thirsty from the journey for a long time.<NL>If she had some clear water to quench her thirst, her fatigue should be alleviated...<NL><NL><color=#lightgrey>(If Thirst reaches <Adventure key=Param paramKey=debuffNeed str=Value/>, <Character key=RoleTaiwu str=Name /> will be unable to travel in the desert...)</color>",
       "cn": "烈日炎炎，<Character key=RoleTaiwu str=Name />一路走来，早已是口渴不已，<NL>此时若有清水解渴，当能除困解乏……<NL><NL><color=#lightgrey>（若干渴值达到<Adventure key=Param paramKey=debuffNeed str=Value/>，<Character key=RoleTaiwu str=Name />将无法继续在沙漠中行走……）</color>",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "4feaa69da76524df",
-      "engine": null,
-      "updatedAt": null
+      "ru": "Солнце припекало нещадно. <Character key=RoleTaiwu str=Name /> после долгого путешествия ее мучила жажда.<NL>Если бы у нее было немного чистой воды, чтобы утолить жажду, ее усталость прошла бы...<NL><NL><color=#lightgrey>(Если жажда усилится, <Adventure key=Param paramKey=debuffNeed str=Value/>, <Character key=RoleTaiwu str=Name /> она не сможет путешествовать по пустыне...)</color>",
+      "status": "machine",
+      "srcHash": "1c1bb19f627a7e9d",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T17:44:43.324Z"
     },
     "9d182e84-9b76-495f-9069-a7abf0426274/Option_1": {
       "en": "<color=#darkgrey>[Clear Water Cost: 10; remaining: <Adventure key=Param paramKey=water str=Value/>]</color>(Drink some clear water to quench the thirst...)",

@@ -771,11 +771,11 @@
     "c69d667e-8b9c-4ac0-8924-962185e369fd/EventContent": {
       "en": "\"This person is indeed the wanted criminal on the bounty list!<NL>You've aided our capture. The full bounty is yours...\"<NL><NL><color=#lightgrey>(<Character key=SelectCharacterId str=Name/> has been imprisoned in <Settlement key=SettlementId str=PrisonName/>...)<NL>(<Character key=RoleTaiwu str=Name/> has received <ArgBox key=BountyCount type=int/><ArgBox key=BountyTypeName type=string/>...)</color>",
       "cn": "“此人正是榜上悬赏缉拿之人！<NL>阁下既助我派擒获要犯，赏金自当如数奉上……”<NL><NL><color=#lightgrey>（<Character key=SelectCharacterId str=Name/>被押入<Settlement key=SettlementId str=PrisonName/>……）<NL>（<Character key=RoleTaiwu str=Name/>获得了<ArgBox key=BountyCount type=int/><ArgBox key=BountyTypeName type=string/>……）</color>",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "2299ad58f7360f62",
-      "engine": null,
-      "updatedAt": null
+      "ru": "\"Этот человек действительно является разыскиваемым преступником из списка награжденных!<NL>Вы помогли нам в поимке. Вся награда твоя...\"<NL><NL><color=#lightgrey>(<Character key=SelectCharacterId str=Name/> был заключен в тюрьму в <Settlement key=SettlementId str=PrisonName/>...)<NL>(<Character key=RoleTaiwu str=Name/> получил <ArgBox key=BountyCount type=int/><ArgBox key=BountyTypeName type=string/>...)</color>",
+      "status": "machine",
+      "srcHash": "4f1e269ed3fd2659",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T17:44:43.324Z"
     },
     "c69d667e-8b9c-4ac0-8924-962185e369fd/Option_1": {
       "en": "(This is good...)",
@@ -789,11 +789,11 @@
     "52676334-7528-4e35-8677-746236fef9f7/EventContent": {
       "en": "\"This person is indeed an enemy of <Settlement key=SettlementId str=Name/>.<NL>Now that you've captured <Character key=RoleTaiwu str=GenderObject/>, we'll naturally offer our gratitude...\"<NL><NL><color=#lightgrey>(<Character key=SelectCharacterId str=Name/> has been imprisoned in <Settlement key=SettlementId str=PrisonName/>...)<NL>(<Character key=RoleTaiwu str=Name/> has received <ArgBox key=BountyCount type=int/><ArgBox key=BountyTypeName type=string/>...)</color>",
       "cn": "“此人确与我<Settlement key=SettlementId str=Name/>为敌，<NL>如今既被阁下擒获，我等自当奉上谢礼……”<NL><NL><color=#lightgrey>（<Character key=SelectCharacterId str=Name/>被押入<Settlement key=SettlementId str=PrisonName/>……）<NL>（<Character key=RoleTaiwu str=Name/>获得了<ArgBox key=BountyCount type=int/><ArgBox key=BountyTypeName type=string/>……）</color>",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "879192922aede0e9",
-      "engine": null,
-      "updatedAt": null
+      "ru": "\"Этот человек действительно является врагом <Settlement key=SettlementId str=Name/>.<NL>Теперь, когда вы захватили <Character key=RoleTaiwu str=GenderObject/>, мы, естественно, выразим нашу благодарность...\"<NL><NL><color=#lightgrey>(<Character key=SelectCharacterId str=Name/> был заключен в тюрьму в <Settlement key=SettlementId str=PrisonName/>...)<NL>(<Character key=RoleTaiwu str=Name/> получил <ArgBox key=BountyCount type=int/><ArgBox key=BountyTypeName type=string/>...)</color>",
+      "status": "machine",
+      "srcHash": "bed4ae667a3fae92",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T17:44:43.324Z"
     },
     "52676334-7528-4e35-8677-746236fef9f7/Option_1": {
       "en": "(This is good...)",
@@ -1356,11 +1356,11 @@
     "e533a324-57ca-46c3-b32c-8dfa9cb9163f/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> takes <Character key=SelectCharacterId str=Name/> as a captive...<NL><NL><Character key=SelectCharacterId str=Name/> is on <Settlement key=SettlementId str=Name/>'s bounty list.<NL>If you take <Character key=RoleTaiwu str=GenderObject/> to <Settlement key=SettlementId str=Name/> and hand <Character key=RoleTaiwu str=GenderObject/> over to the prison, you can claim the bounty...",
       "cn": "<Character key=RoleTaiwu str=Name/>将<Character key=SelectCharacterId str=Name/>收为俘虏……<NL><NL><Character key=SelectCharacterId str=Name/>名列<Settlement key=SettlementId str=Name/>的悬赏榜，<NL>若将此人带至<Settlement key=SettlementId str=Name/>，送入监牢，便可领取榜上赏金……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "5db1a3e6a53cd8ca",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> принимает <Character key=SelectCharacterId str=Name/> как Пленник...<NL><NL><Character key=SelectCharacterId str=Name/> включен <Settlement key=SettlementId str=Name/>это список наград.<NL>Если вы возьмете <Character key=RoleTaiwu str=GenderObject/> к <Settlement key=SettlementId str=Name/> и рука <Character key=RoleTaiwu str=GenderObject/> отправляясь в тюрьму, вы можете претендовать на награду...",
+      "status": "machine",
+      "srcHash": "a941a6a8f0a6bd57",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T17:44:43.324Z"
     },
     "e533a324-57ca-46c3-b32c-8dfa9cb9163f/Option_1": {
       "en": "(This is good...)",
@@ -1473,11 +1473,11 @@
     "84f7e8b2-426b-480c-b359-15f1fa22bdf1/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> takes <Character key=SelectCharacterId str=Name/> as a captive...<NL><NL><Character key=CharacterId str=Name/> is on <Settlement key=SettlementId str=Name/>'s bounty list.<NL>If you take <Character key=RoleTaiwu str=GenderObject/> to <Settlement key=SettlementId str=Name/> and hand <Character key=RoleTaiwu str=GenderObject/> over to the prison, you can claim the bounty...",
       "cn": "<Character key=RoleTaiwu str=Name/>将<Character key=SelectCharacterId str=Name/>收为俘虏……<NL><NL><Character key=CharacterId str=Name/>名列<Settlement key=SettlementId str=Name/>的悬赏榜，<NL>若将此人带至<Settlement key=SettlementId str=Name/>，送入监牢，便可领取榜上赏金……",
-      "ru": null,
-      "status": "pending",
-      "srcHash": "59ac24ed29c1e070",
-      "engine": null,
-      "updatedAt": null
+      "ru": "<Character key=RoleTaiwu str=Name/> принимает <Character key=SelectCharacterId str=Name/> как Пленник...<NL><NL><Character key=CharacterId str=Name/> включен <Settlement key=SettlementId str=Name/>это список наград.<NL>Если вы возьмете <Character key=RoleTaiwu str=GenderObject/> к <Settlement key=SettlementId str=Name/> и рука <Character key=RoleTaiwu str=GenderObject/> отправляясь в тюрьму, вы можете претендовать на награду...",
+      "status": "machine",
+      "srcHash": "5f51f313400f12fc",
+      "engine": "yandex",
+      "updatedAt": "2026-06-29T17:44:43.324Z"
     },
     "84f7e8b2-426b-480c-b359-15f1fa22bdf1/Option_1": {
       "en": "(This is good...)",
