@@ -131,12 +131,18 @@ export class LmStudioEngine implements TranslationEngine {
   }
 
   private async translateOne(req: TranslationRequest): Promise<string> {
-    const reference = referenceContext(req.reference);
     const glossary = glossaryBlock(req.text, this.glossary);
+    // CN-only keys have no English: the text IS Chinese. Tell the model so, and
+    // skip the reference (it would just repeat the source).
+    const isZh = (req.sourceLang ?? "en") === "zh";
+    const reference = isZh ? null : referenceContext(req.reference);
     const userContent = [
       glossary,
+      isZh
+        ? "NOTE: the text below is Chinese (no English exists). Translate it into Russian."
+        : null,
       reference ? `Chinese original (meaning reference): ${reference}` : null,
-      `English to translate:\n${req.text}`,
+      `${isZh ? "Chinese" : "English"} to translate:\n${req.text}`,
     ]
       .filter((part): part is string => part !== null)
       .join("\n\n");

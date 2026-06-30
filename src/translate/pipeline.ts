@@ -200,7 +200,11 @@ export async function translateFile(
     const requests: TranslationRequest[] = [];
     const requestIndex = chunk.map((item) => {
       if (!item.masked.translatable) return -1;
-      requests.push({ text: item.masked.masked, reference: item.unit.cn });
+      requests.push({
+        text: item.masked.masked,
+        reference: item.unit.cn,
+        sourceLang: item.unit.srcLang,
+      });
       return requests.length - 1;
     });
 

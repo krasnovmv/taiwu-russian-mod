@@ -13,6 +13,11 @@ export interface TranslationRequest {
    * since the EN source is itself machine-translated from CN.
    */
   reference?: string | null;
+  /**
+   * Language of {@link text}: `"en"` (default) or `"zh"` for CN-only keys that
+   * have no English source. Engines translate from this language into Russian.
+   */
+  sourceLang?: "en" | "zh";
 }
 
 /** Reports cumulative completed requests, for progress display. */

@@ -39,6 +39,8 @@ export async function alignFile(file: string): Promise<AlignedFile> {
   const cnContent = await readIfExists(cn);
 
   const { units, onlyCn, warnings } = adapter.extract(enContent, cnContent);
-  const onlyEn = units.filter((u) => u.cn === null).map((u) => u.key);
+  // EN-only = translatable from EN with no CN reference. CN-only units (srcLang
+  // "zh") also have `cn === null` but are the opposite case, so exclude them.
+  const onlyEn = units.filter((u) => u.cn === null && u.srcLang !== "zh").map((u) => u.key);
   return { file, units, onlyEn, onlyCn, warnings };
 }

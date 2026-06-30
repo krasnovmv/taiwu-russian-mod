@@ -85,6 +85,26 @@ test("ensureModel picks the first non-embedding model; reference markup is strip
   });
 });
 
+test("a zh-source request tells the model the text is Chinese", async () => {
+  let user = "";
+  const fetchImpl = ((url: string | URL, init?: RequestInit) => {
+    if (String(url).endsWith("/models"))
+      return Promise.resolve(jsonResponse({ data: [{ id: "m" }] }));
+    const body = JSON.parse(init?.body as string) as { messages: { content: string }[] };
+    user = body.messages[1]?.content ?? "";
+    return Promise.resolve(jsonResponse({ choices: [{ message: { content: "перевод" } }] }));
+  }) as FetchFn;
+
+  await withFetch(fetchImpl, async () => {
+    const engine = new LmStudioEngine({});
+    const out = await engine.translate([{ text: "未至此地", sourceLang: "zh" }]);
+    assert.deepEqual(out, ["перевод"]);
+    assert.ok(user.includes("Chinese to translate"), "labels the source as Chinese");
+    assert.ok(user.includes("the text below is Chinese"), "explicit note present");
+    assert.ok(user.includes("未至此地"), "source text present");
+  });
+});
+
 test("glossary terms in the text are injected into the prompt", async () => {
   let user = "";
   const fetchImpl = ((url: string | URL, init?: RequestInit) => {

@@ -74,21 +74,38 @@ export class YandexEngine implements TranslationEngine {
     onProgress?: ProgressCallback,
   ): Promise<string[]> {
     await this.ready();
-    // Yandex is pure machine translation; the CN reference is not used.
-    const texts = requests.map((r) => r.text);
-    const result: string[] = [];
-    for (const batch of batchByChars(texts, CHAR_BUDGET, MAX_TEXTS)) {
-      result.push(...(await this.translateBatch(batch)));
-      onProgress?.(result.length);
+    // Yandex is pure machine translation; the CN reference is not used. A request
+    // carries ONE sourceLanguageCode, so EN and CN-only ("zh") units can't share
+    // a call — group by source language and scatter results back by index.
+    const results = new Array<string>(requests.length);
+    const byLang = new Map<string, number[]>();
+    requests.forEach((r, i) => {
+      const lang = r.sourceLang ?? this.cfg.sourceLang;
+      const idx = byLang.get(lang);
+      if (idx) idx.push(i);
+      else byLang.set(lang, [i]);
+    });
+
+    let completed = 0;
+    for (const [lang, indices] of byLang) {
+      const texts = indices.map((i) => requests[i]!.text);
+      let done = 0;
+      for (const batch of batchByChars(texts, CHAR_BUDGET, MAX_TEXTS)) {
+        const out = await this.translateBatch(batch, lang);
+        for (let k = 0; k < out.length; k++) results[indices[done + k]!] = out[k]!;
+        done += out.length;
+        completed += out.length;
+        onProgress?.(completed);
+      }
     }
-    return result;
+    return results;
   }
 
-  private async translateBatch(texts: string[]): Promise<string[]> {
+  private async translateBatch(texts: string[], sourceLang: string): Promise<string[]> {
     const request = translationService.TranslateRequest.fromPartial({
       folderId: this.folderId ?? undefined,
       texts,
-      sourceLanguageCode: this.cfg.sourceLang,
+      sourceLanguageCode: sourceLang,
       targetLanguageCode: this.cfg.targetLang,
       // HTML mode preserves the `<mN></mN>` markup sentinels verbatim.
       format: translationService.TranslateRequest_Format.HTML,

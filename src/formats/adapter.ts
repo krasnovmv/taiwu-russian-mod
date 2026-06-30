@@ -14,13 +14,29 @@
 export interface SourceUnit {
   /** Stable identity within the file (key, path or row/col coordinate). */
   key: string;
+  /**
+   * The source text to translate. Normally the English value; for a key that
+   * exists only in CN (absent from EN — a newer game string the EN pack hasn't
+   * caught up to) this holds the Chinese original instead, flagged by
+   * {@link srcLang}.
+   */
   en: string;
   cn: string | null;
+  /**
+   * Language of {@link en}: `"en"` (default, omitted) for the normal EN→RU path,
+   * `"zh"` for CN-only keys whose source is Chinese. The engine uses this to pick
+   * the source language; the pipeline uses it to skip the EN==CN "neutral" copy.
+   */
+  srcLang?: "en" | "zh";
 }
 
 export interface ExtractResult {
   units: SourceUnit[];
-  /** Keys present in CN but absent in EN (nothing to output). */
+  /**
+   * Keys present in CN but absent in EN. Adapters that translate such keys
+   * (emitting them as `srcLang:"zh"` units) leave this empty; the rest list them
+   * here purely for reporting (they are not output).
+   */
   onlyCn: string[];
   /** Non-fatal anomalies surfaced for review. */
   warnings: string[];
