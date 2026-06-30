@@ -20,6 +20,7 @@
 
     <ItemGroup>
         <Compile Include="..\TaiwuRus.Shared\ModInfo.cs" Link="ModInfo.cs" />
+        <Compile Include="..\TaiwuRus.Shared\OverlayDeployer.cs" Link="OverlayDeployer.cs" />
     </ItemGroup>
 
     <!-- Lets net48 build without a machine-wide Developer Pack. -->

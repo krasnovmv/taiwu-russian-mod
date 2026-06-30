@@ -1,0 +1,81 @@
+using System;
+using System.IO;
+
+namespace TaiwuRus.Shared
+{
+    /// <summary>
+    /// Unpacks the mod's <c>Localization/</c> overlay into the real game tree at startup.
+    ///
+    /// Translated files ship ONLY inside the mod (<c>Mod/&lt;id&gt;/Localization/&lt;game-root
+    /// layout&gt;</c>) — never written into the install by the build pipeline, so a Steam update or
+    /// cache-verify can't clobber them. On launch the plugin copies them into place (copy only when
+    /// missing or newer), so the engine loads them from their normal locations with no engine
+    /// patches. Removed by a Steam verify → re-created on the next launch (self-healing).
+    ///
+    /// Pure BCL so the one source file links into both the net48 frontend and the net8 backend.
+    /// </summary>
+    public static class OverlayDeployer
+    {
+        /// <summary>
+        /// Walk up from <paramref name="assemblyLocation"/> (the loaded plugin DLL) to find the mod
+        /// root — the first ancestor directory that contains a <c>Localization</c> subfolder.
+        /// Returns null if none is found (e.g. a not-yet-populated overlay or a temp-copied DLL).
+        /// </summary>
+        public static string FindModRoot(string assemblyLocation)
+        {
+            if (string.IsNullOrEmpty(assemblyLocation))
+                return null;
+            DirectoryInfo dir = Directory.GetParent(assemblyLocation);
+            for (int i = 0; i < 5 && dir != null; i++, dir = dir.Parent)
+            {
+                if (Directory.Exists(Path.Combine(dir.FullName, "Localization")))
+                    return dir.FullName;
+            }
+            return null;
+        }
+
+        /// <summary>
+        /// Copy every file under <paramref name="overlayRoot"/> into <paramref name="gameRoot"/> at
+        /// the same relative path, creating directories as needed. A file is copied only when the
+        /// destination is missing or older than the source. Returns the number of files copied.
+        /// </summary>
+        public static int Copy(string overlayRoot, string gameRoot, Action<string> log = null)
+        {
+            if (string.IsNullOrEmpty(overlayRoot) || !Directory.Exists(overlayRoot) || string.IsNullOrEmpty(gameRoot))
+                return 0;
+
+            int copied = 0, scanned = 0;
+            foreach (string src in Directory.EnumerateFiles(overlayRoot, "*", SearchOption.AllDirectories))
+            {
+                scanned++;
+                string rel = src.Substring(overlayRoot.Length).TrimStart('/', '\\');
+                string dst = Path.Combine(gameRoot, rel);
+                try
+                {
+                    if (!IsStale(src, dst))
+                        continue;
+                    string dstDir = Path.GetDirectoryName(dst);
+                    if (!string.IsNullOrEmpty(dstDir))
+                        Directory.CreateDirectory(dstDir);
+                    File.Copy(src, dst, true);
+                    copied++;
+                }
+                catch (Exception e)
+                {
+                    log?.Invoke($"[TaiwuRus] overlay copy failed: {rel} ({e.Message})");
+                }
+            }
+            log?.Invoke($"[TaiwuRus] overlay: {copied} file(s) copied / {scanned} scanned -> {gameRoot}");
+            return copied;
+        }
+
+        // Copy when the destination is absent or older than the source (so re-translation propagates
+        // and a Steam-verify wipe is repaired, but unchanged files are left alone).
+        private static bool IsStale(string src, string dst)
+        {
+            if (!File.Exists(dst))
+                return true;
+            return File.GetLastWriteTimeUtc(src) > File.GetLastWriteTimeUtc(dst);
+        }
+    }
+}
