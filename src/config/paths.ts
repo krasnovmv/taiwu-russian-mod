@@ -54,16 +54,33 @@ export const cacheDir = path.join(projectRoot, "cache");
 export const outLang = (process.env.TAIWU_OUT_LANG ?? "KO").toUpperCase();
 
 /**
- * When set, ALL output (the main pack AND the event/quest text) is collected
- * under this one local directory instead of being written into the game,
- * preserving the game's relative layout: `Language_<outLang>/…` for the pack and
- * `Event_Languages/…`, `Event_DLC/…` (filenames suffixed `_Language_<outLang>`)
- * for quests. Lets you build a self-contained pack to inspect or distribute
- * without touching the install. `null` = the legacy in-place game layout.
+ * Explicit override of the output base (`TAIWU_OUTPUT_DIR`), or `null` to use the
+ * default {@link modOverlayDir}. When set, ALL output is collected under this one
+ * directory, preserving the game's relative layout.
  */
-export const outputDir = process.env.TAIWU_OUTPUT_DIR
+const outputDirOverride = process.env.TAIWU_OUTPUT_DIR
   ? path.resolve(process.env.TAIWU_OUTPUT_DIR)
   : null;
+
+/**
+ * The mod's overlay root inside the install: `<game>/Mod/TaiwuRus/Localization`.
+ * All translated output is staged here (mirroring the full game-root layout),
+ * NEVER in the real `StreamingAssets` — so a Steam update/verify can't clobber it
+ * and the build never touches the install. The frontend plugin copies it into
+ * place on launch (see `OverlayDeployer`). Lazy: resolves the game root only when
+ * output is actually written.
+ */
+export function modOverlayDir(): string {
+  return path.join(gameRoot(), "Mod", "TaiwuRus", "Localization");
+}
+
+/**
+ * Effective output base — the `TAIWU_OUTPUT_DIR` override when set, else the mod
+ * overlay. Every translated file lands under here at its game-root-relative path.
+ */
+export function outputRoot(): string {
+  return outputDirOverride ?? modOverlayDir();
+}
 
 /**
  * Game install root, resolved from the `Language_EN` junction target
@@ -80,41 +97,41 @@ export function gameRoot(): string {
 }
 
 /**
- * Map a real in-game file path to its slot under the local {@link outputDir}
- * mirror, preserving the FULL game-root-relative layout (so the folder can be
- * dropped straight onto a game install) and swapping the `Language_EN` token to
+ * Map a real in-game file path to its slot under the {@link outputRoot} mirror,
+ * preserving the FULL game-root-relative layout (so the folder can be dropped
+ * straight onto a game install) and swapping the `Language_EN` token to
  * `Language_<outLang>` (covers both the pack dir segment and the `_Language_EN`
- * filename suffix of quest files). Only meaningful when `outputDir` is set.
+ * filename suffix of quest files).
  */
 export function mirrorToOutput(realGamePath: string): string {
   const rel = path.relative(gameRoot(), realGamePath).split("Language_EN").join(`Language_${outLang}`);
-  return path.join(outputDir as string, rel);
+  return path.join(outputRoot(), rel);
 }
 
 /**
- * Output directory for the translated language pack. `apply` mirrors the EN
- * source here (translations applied, English kept where untranslated), leaving
- * the original `Language_EN` untouched (unless `outLang` is `EN` and output goes
- * into the game in-place).
+ * Output directory for the translated language pack — the `Language_<outLang>`
+ * slot under the {@link outputRoot} mirror. `apply` mirrors the EN source here
+ * (translations applied, English kept where untranslated), leaving the original
+ * `Language_EN` untouched. Lazy (resolves the game root only when written).
  *
  * - `TAIWU_LANG_RU_DIR` set → that exact path (highest priority).
- * - `TAIWU_OUTPUT_DIR` set → the pack slot inside the game-root mirror
- *   (`<outputDir>/<…_Data>/StreamingAssets/Language_<outLang>`).
- * - otherwise → the in-game `Language_<outLang>` junction.
+ * - otherwise → `<outputRoot>/<…_Data>/StreamingAssets/Language_<outLang>`.
  */
-export const languageRuDir = process.env.TAIWU_LANG_RU_DIR
-  ? path.resolve(process.env.TAIWU_LANG_RU_DIR)
-  : outputDir
-    ? mirrorToOutput(realpathSync(languageDir))
-    : path.join(projectRoot, `Language_${outLang}`);
+export function languageRuDir(): string {
+  if (process.env.TAIWU_LANG_RU_DIR)
+    return path.resolve(process.env.TAIWU_LANG_RU_DIR);
+  return mirrorToOutput(realpathSync(languageDir));
+}
+
+/** Hand-translated RU UI images, deployed into the pack's `Images/` folder by `apply --all`. */
+export const imageSrcDir = path.join(projectRoot, "image-ru");
 
 /**
- * Game `StreamingAssets/EventLanguages_<outLang>` — where the bundled
- * EventOptionTips translation is written (the TaiwuRus EventOptionTips patch
- * reads it from there). Derived from the real `Language_EN` location so it tracks
- * the actual game install. Lazy: only resolves the junction when called.
+ * `StreamingAssets/EventLanguages_<outLang>` under the {@link outputRoot} mirror —
+ * where the bundled EventOptionTips translation is written (the TaiwuRus
+ * EventOptionTips patch reads it after the overlay is unpacked). Lazy.
  */
 export function eventOptionTipsOutDir(): string {
   const streamingAssets = path.dirname(realpathSync(languageDir));
-  return path.join(streamingAssets, `EventLanguages_${outLang}`);
+  return mirrorToOutput(path.join(streamingAssets, `EventLanguages_${outLang}`));
 }

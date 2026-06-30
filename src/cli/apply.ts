@@ -10,10 +10,27 @@
  * output is a complete, loadable language folder. Re-run any time — it is
  * idempotent and overwrites the output.
  */
+import { cpSync, existsSync, mkdirSync, readdirSync } from "node:fs";
+import path from "node:path";
+
 import { applyFile } from "../apply/apply.js";
-import { languageRuDir } from "../config/paths.js";
+import { imageSrcDir, languageRuDir } from "../config/paths.js";
 import { listSourceFiles } from "../scan.js";
 import { Progress } from "./progress.js";
+
+/** Copy hand-translated RU UI images from {@link imageSrcDir} into the pack's Images/ folder. */
+function deployImages(): number {
+  if (!existsSync(imageSrcDir)) return 0;
+  const dst = path.join(languageRuDir(), "Images");
+  mkdirSync(dst, { recursive: true });
+  let n = 0;
+  for (const f of readdirSync(imageSrcDir)) {
+    if (!f.toLowerCase().endsWith(".png")) continue;
+    cpSync(path.join(imageSrcDir, f), path.join(dst, f));
+    n++;
+  }
+  return n;
+}
 
 async function main(): Promise<void> {
   const args = process.argv.slice(2);
@@ -28,7 +45,7 @@ async function main(): Promise<void> {
   }
 
   const files = all ? await listSourceFiles() : [fileArg as string];
-  console.log(`Output: ${languageRuDir}${dryRun ? " (dry-run)" : ""}`);
+  console.log(`Output: ${languageRuDir()}${dryRun ? " (dry-run)" : ""}`);
 
   const bar = new Progress(files.length, "apply");
   let written = 0;
@@ -45,6 +62,11 @@ async function main(): Promise<void> {
     bar.increment(file);
   }
   bar.finish();
+
+  if (all && !dryRun) {
+    const images = deployImages();
+    if (images > 0) console.log(`Images deployed: ${images}`);
+  }
 
   for (const b of blocked) console.error(`  ✗ ${b}`);
   console.log(`Files written:  ${written}`);

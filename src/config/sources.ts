@@ -28,7 +28,6 @@ import {
   languageRuDir,
   mirrorToOutput,
   outLang,
-  outputDir,
   projectRoot,
 } from "./paths.js";
 
@@ -78,15 +77,11 @@ export function resolveSource(file: string): SourcePaths {
   }
   if (isEventFile(posix)) {
     // Event ids are full repo-relative paths; EN/CN/output are filename siblings.
-    // EN source and CN reference always come from the game tree. The output
-    // sibling stays in-place in the game by default, or — when TAIWU_OUTPUT_DIR
-    // is set — is re-rooted under the local mirror at its real game-root-relative
-    // path (so the folder overlays a game install), with the language suffix
-    // swapped to outLang.
+    // EN source and CN reference come from the game tree; the output is re-rooted
+    // under the mod-overlay mirror at its real game-root-relative path (so the
+    // folder overlays a game install), with the language suffix swapped to outLang.
     const enPath = path.join(projectRoot, posix);
-    const out = outputDir
-      ? mirrorToOutput(realpathSync(enPath))
-      : path.join(projectRoot, posix.replace(/_Language_EN\.txt$/, `_Language_${outLang}.txt`));
+    const out = mirrorToOutput(realpathSync(enPath));
     return {
       en: enPath,
       cn: path.join(projectRoot, posix.replace(/_Language_EN\.txt$/, "_Language_CN.txt")),
@@ -96,6 +91,6 @@ export function resolveSource(file: string): SourcePaths {
   return {
     en: path.join(languageDir, file),
     cn: path.join(languageCnDir, file),
-    out: path.join(languageRuDir, file),
+    out: path.join(languageRuDir(), file),
   };
 }
