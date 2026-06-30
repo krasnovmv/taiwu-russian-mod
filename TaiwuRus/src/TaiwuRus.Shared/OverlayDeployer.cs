@@ -17,19 +17,35 @@ namespace TaiwuRus.Shared
     public static class OverlayDeployer
     {
         /// <summary>
-        /// Walk up from <paramref name="assemblyLocation"/> (the loaded plugin DLL) to find the mod
-        /// root — the first ancestor directory that contains a <c>Localization</c> subfolder.
-        /// Returns null if none is found (e.g. a not-yet-populated overlay or a temp-copied DLL).
+        /// Find the mod root — the directory that contains a <c>Localization</c> subfolder.
+        /// First walks up from <paramref name="assemblyLocation"/> (the loaded plugin DLL); the
+        /// Taiwu loader often loads plugins from a byte[] so <c>Assembly.Location</c> is empty, so
+        /// it then scans every <c>&lt;gameRoot&gt;/Mod/*</c> folder for the marker. Returns null if
+        /// none is found (e.g. a not-yet-populated overlay).
         /// </summary>
-        public static string FindModRoot(string assemblyLocation)
+        public static string FindModRoot(string assemblyLocation, string gameRoot)
         {
-            if (string.IsNullOrEmpty(assemblyLocation))
-                return null;
-            DirectoryInfo dir = Directory.GetParent(assemblyLocation);
-            for (int i = 0; i < 5 && dir != null; i++, dir = dir.Parent)
+            if (!string.IsNullOrEmpty(assemblyLocation))
             {
-                if (Directory.Exists(Path.Combine(dir.FullName, "Localization")))
-                    return dir.FullName;
+                DirectoryInfo dir = Directory.GetParent(assemblyLocation);
+                for (int i = 0; i < 5 && dir != null; i++, dir = dir.Parent)
+                {
+                    if (Directory.Exists(Path.Combine(dir.FullName, "Localization")))
+                        return dir.FullName;
+                }
+            }
+
+            if (!string.IsNullOrEmpty(gameRoot))
+            {
+                string mods = Path.Combine(gameRoot, "Mod");
+                if (Directory.Exists(mods))
+                {
+                    foreach (string sub in Directory.GetDirectories(mods))
+                    {
+                        if (Directory.Exists(Path.Combine(sub, "Localization")))
+                            return sub;
+                    }
+                }
             }
             return null;
         }

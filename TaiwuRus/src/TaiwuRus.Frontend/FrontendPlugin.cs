@@ -31,8 +31,8 @@ namespace TaiwuRus.Frontend
         // backend reads the event files from the same on-disk locations.
         private static void UnpackOverlay()
         {
-            string modRoot = OverlayDeployer.FindModRoot(typeof(FrontendPlugin).Assembly.Location);
             string gameRoot = Directory.GetParent(Application.dataPath)?.FullName;
+            string modRoot = OverlayDeployer.FindModRoot(typeof(FrontendPlugin).Assembly.Location, gameRoot);
             if (modRoot == null || gameRoot == null)
             {
                 Debug.Log("[TaiwuRus] overlay: mod root or game root not found; skipping unpack");
