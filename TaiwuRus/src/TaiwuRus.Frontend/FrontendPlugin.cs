@@ -27,8 +27,8 @@ namespace TaiwuRus.Frontend
 
         // Copy the mod's Localization/ overlay into the real game tree (Language_RU, event packs,
         // …) before anything reads it. Files ship only inside the mod, so a Steam update/verify
-        // can't clobber them; this self-heals on the next launch. Covers both processes — the
-        // backend reads the event files from the same on-disk locations.
+        // can't clobber them; this self-heals on the next launch. The backend unpacks the same
+        // overlay in its own process (see BackendPlugin) — this copy covers the frontend readers.
         private static void UnpackOverlay()
         {
             string gameRoot = Directory.GetParent(Application.dataPath)?.FullName;
@@ -39,6 +39,30 @@ namespace TaiwuRus.Frontend
                 return;
             }
             OverlayDeployer.Copy(Path.Combine(modRoot, "Localization"), gameRoot, Debug.Log);
+
+            // First launch: the engine read the UI language pack at boot — before the copy above
+            // landed — so it fell back to English. Now that Language_RU is on disk, rebuild the
+            // string cache so the current session shows Russian without a restart.
+            //
+            // Gate on the active language + the pack existing on disk, NOT on this process's own
+            // copy count: the backend unpacks the same overlay concurrently (see BackendPlugin), so
+            // it may win the race and place Language_RU first, leaving our Copy() returning 0. The
+            // Copy() above is synchronous, so once it returns the pack is guaranteed present (placed
+            // here or already there) — reload unconditionally. Init() re-reads the folder from disk;
+            // it's idempotent, so the redundant reload on later launches is a cheap no-op.
+            if (LocalStringManager.CurLanguageKey == "RU"
+                && Directory.Exists(Path.Combine(Application.dataPath, "StreamingAssets", "Language_RU")))
+            {
+                try
+                {
+                    LocalStringManager.Init(LocalStringManager.CurLanguageKey);
+                    Debug.Log("[TaiwuRus] reloaded UI language pack after overlay unpack");
+                }
+                catch (System.Exception e)
+                {
+                    Debug.Log("[TaiwuRus] UI language reload failed: " + e.Message);
+                }
+            }
         }
 
         public override void OnModSettingUpdate()

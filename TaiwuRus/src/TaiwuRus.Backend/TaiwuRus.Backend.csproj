@@ -22,6 +22,7 @@
 
     <ItemGroup>
         <Compile Include="..\TaiwuRus.Shared\ModInfo.cs" Link="ModInfo.cs" />
+        <Compile Include="..\TaiwuRus.Shared\OverlayDeployer.cs" Link="OverlayDeployer.cs" />
     </ItemGroup>
 
     <!-- Compile-checked typed access to the game's private/internal backend members.
