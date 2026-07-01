@@ -4,16 +4,33 @@
 import { readdir, stat } from "node:fs/promises";
 import path from "node:path";
 
-import { eventDlcDir, eventLanguagesDir, languageDir, projectRoot } from "./config/paths.js";
+import {
+  eventDlcDir,
+  eventLanguagesDir,
+  languageCnDir,
+  languageDir,
+  projectRoot,
+} from "./config/paths.js";
 import { BUNDLE_OPTIONTIPS_PREFIX, EVENT_DLC_PREFIX, EVENT_PREFIX } from "./config/sources.js";
 
-/** Top-level `.txt` files (the paired-txt format), sorted. */
-export async function listTxtFiles(): Promise<string[]> {
-  const entries = await readdir(languageDir, { withFileTypes: true });
+/** Top-level `.txt` files (the paired-txt format) under `base`, sorted; `[]` if `base` is absent. */
+async function txtFilesIn(base: string): Promise<string[]> {
+  let entries;
+  try {
+    entries = await readdir(base, { withFileTypes: true });
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === "ENOENT") return [];
+    throw err;
+  }
   return entries
     .filter((e) => e.isFile() && e.name.endsWith(".txt"))
     .map((e) => e.name)
     .sort();
+}
+
+/** Top-level `.txt` files (the paired-txt format) in the EN pack, sorted. */
+export function listTxtFiles(): Promise<string[]> {
+  return txtFilesIn(languageDir);
 }
 
 async function walk(absDir: string, relDir: string, exts: string[]): Promise<string[]> {
@@ -30,13 +47,23 @@ async function walk(absDir: string, relDir: string, exts: string[]): Promise<str
   return out;
 }
 
-async function listUnder(subdir: string, exts: string[]): Promise<string[]> {
+async function listUnder(subdir: string, exts: string[], base: string = languageDir): Promise<string[]> {
   try {
-    return (await walk(path.join(languageDir, subdir), subdir, exts)).sort();
+    return (await walk(path.join(base, subdir), subdir, exts)).sort();
   } catch (err) {
     if ((err as NodeJS.ErrnoException).code === "ENOENT") return [];
     throw err;
   }
+}
+
+/**
+ * The EN-style id of an event package file discovered under an arbitrary language
+ * suffix: strip the suffix and re-append `_Language_EN.txt`. TM ids are always
+ * keyed off the EN filename, so a CN sibling (`X_Language_CN.txt`) must normalize
+ * back to `X_Language_EN.txt` to line up with the stored TM.
+ */
+function enEventName(name: string, suffix: string): string {
+  return `${name.slice(0, -suffix.length)}_Language_EN.txt`;
 }
 
 /**
@@ -45,12 +72,17 @@ async function listUnder(subdir: string, exts: string[]): Promise<string[]> {
  * The CN reference and KO output siblings are not listed — they are resolved
  * from the EN id. Returns `[]` if the junction is absent.
  */
-export async function listEventFiles(): Promise<string[]> {
+export function listEventFiles(): Promise<string[]> {
+  return eventFilesWithSuffix("_Language_EN.txt");
+}
+
+/** Root quest packs carrying a `<suffix>` file, returned as EN-normalized ids. */
+async function eventFilesWithSuffix(suffix: string): Promise<string[]> {
   try {
     const entries = await readdir(eventLanguagesDir, { withFileTypes: true });
     return entries
-      .filter((e) => e.isFile() && e.name.endsWith("_Language_EN.txt"))
-      .map((e) => `${EVENT_PREFIX}${e.name}`)
+      .filter((e) => e.isFile() && e.name.endsWith(suffix))
+      .map((e) => `${EVENT_PREFIX}${enEventName(e.name, suffix)}`)
       .sort();
   } catch (err) {
     if ((err as NodeJS.ErrnoException).code === "ENOENT") return [];
@@ -89,28 +121,39 @@ async function readDirNames(dir: string): Promise<string[] | null> {
  * repo-relative paths so {@link resolveSource} can find the CN/KO siblings.
  * Unlike the root quest folder, this is always on (the DLC corpus is small).
  */
-export async function listDlcEventFiles(): Promise<string[]> {
+export function listDlcEventFiles(): Promise<string[]> {
+  return dlcEventFilesWithSuffix("_Language_EN.txt");
+}
+
+/**
+ * DLC quest packs carrying a `<suffix>` file, returned as EN-normalized ids (the
+ * newest version WITH such content wins per DLC). EN uses `_Language_EN.txt`; a
+ * CN pass uses `_Language_CN.txt` and the ids still come out EN-keyed so they
+ * line up with the version-independent TM key.
+ */
+async function dlcEventFilesWithSuffix(suffix: string): Promise<string[]> {
   const dlcs = await readDirNames(eventDlcDir);
   if (!dlcs) return [];
   const out: string[] = [];
   for (const dlc of dlcs.sort()) {
     const versions = await readDirNames(path.join(eventDlcDir, dlc));
     if (!versions) continue;
-    // Newest version first; take the first one that has EN package files.
+    // Newest version first; take the first one that has package files for this suffix.
     for (const ver of versions.sort(compareVersions).reverse()) {
       const langRel = `${dlc}/${ver}/Events/EventLanguages`;
       let names: string[];
       try {
         names = (await readdir(path.join(eventDlcDir, langRel), { withFileTypes: true }))
-          .filter((e) => e.isFile() && e.name.endsWith("_Language_EN.txt"))
+          .filter((e) => e.isFile() && e.name.endsWith(suffix))
           .map((e) => e.name);
       } catch (err) {
         if ((err as NodeJS.ErrnoException).code === "ENOENT") continue;
         throw err;
       }
       if (names.length === 0) continue;
-      for (const name of names.sort()) out.push(`${EVENT_DLC_PREFIX}${langRel}/${name}`);
-      break; // newest version with EN content wins; ignore older ones
+      for (const name of names.sort())
+        out.push(`${EVENT_DLC_PREFIX}${langRel}/${enEventName(name, suffix)}`);
+      break; // newest version with content wins; ignore older ones
     }
   }
   return out;
@@ -120,11 +163,17 @@ export async function listDlcEventFiles(): Promise<string[]> {
  * The bundled EventOptionTips source, if it has been extracted into the repo
  * (`tools/extract-option-tips.py`). A single-file family; returns `[]` if absent.
  */
-export async function listOptionTipsFiles(): Promise<string[]> {
-  const id = `${BUNDLE_OPTIONTIPS_PREFIX}EventOptionTips_EN.txt`;
+export function listOptionTipsFiles(): Promise<string[]> {
+  return optionTipsFilesWithSuffix("_EN.txt");
+}
+
+/** The bundled EventOptionTips id if its `<suffix>` file exists; always the EN-keyed id. */
+async function optionTipsFilesWithSuffix(suffix: string): Promise<string[]> {
+  const enId = `${BUNDLE_OPTIONTIPS_PREFIX}EventOptionTips_EN.txt`;
+  const probe = `${BUNDLE_OPTIONTIPS_PREFIX}EventOptionTips${suffix}`;
   try {
-    await stat(path.join(projectRoot, id));
-    return [id];
+    await stat(path.join(projectRoot, probe));
+    return [enId];
   } catch (err) {
     if ((err as NodeJS.ErrnoException).code === "ENOENT") return [];
     throw err;
@@ -143,20 +192,55 @@ export function eventsEnabled(): boolean {
   return v === "1" || v === "true" || v === "yes" || v === "on";
 }
 
+async function discover(includeRootEvents: boolean): Promise<string[]> {
+  const [txt, tsv, json, events, dlc, optionTips] = await Promise.all([
+    listTxtFiles(),
+    listUnder("EncyclopediaAssets", [".tsv"]),
+    listUnder("CommonTip", [".json"]),
+    includeRootEvents ? listEventFiles() : Promise.resolve([]),
+    listDlcEventFiles(),
+    listOptionTipsFiles(),
+  ]);
+  return [...txt, ...tsv, ...json, ...events, ...dlc, ...optionTips];
+}
+
 /**
  * Every translatable source file (relative POSIX paths): all paired/anchored
  * `.txt`, the `.tsv` encyclopedia tables, the nested `.json` tips, the always-on
  * DLC quest packs, and — when {@link eventsEnabled} — the root `Event_Languages`
  * quest text. The adapter registry maps each to its format.
  */
-export async function listSourceFiles(): Promise<string[]> {
+export function listSourceFiles(): Promise<string[]> {
+  return discover(eventsEnabled());
+}
+
+/**
+ * Like {@link listSourceFiles} but IGNORES the `TAIWU_EVENTS` gate, always
+ * including the root `Event_Languages` quest text. Use this ONLY for orphan-TM
+ * pruning: a TM must count as "still backed by a source" whenever its game file
+ * exists on disk, regardless of whether this run happens to translate it — else
+ * a run with events disabled would look like every root-quest file was deleted
+ * and wrongly prune all their TMs.
+ */
+export function listAllSourceFiles(): Promise<string[]> {
+  return discover(true);
+}
+
+/**
+ * The same source ids as {@link listAllSourceFiles} but discovered from the CN
+ * tree (`Language_CN` and the `_Language_CN` / `_CN` siblings), normalized back
+ * to their EN-style ids. Orphan-TM pruning keeps a TM if its file survives in
+ * EITHER language, so a file removed from EN but still present in CN — or a
+ * momentarily broken `Language_EN` junction — is never mistaken for a deletion.
+ */
+export async function listCnSourceFiles(): Promise<string[]> {
   const [txt, tsv, json, events, dlc, optionTips] = await Promise.all([
-    listTxtFiles(),
-    listUnder("EncyclopediaAssets", [".tsv"]),
-    listUnder("CommonTip", [".json"]),
-    eventsEnabled() ? listEventFiles() : Promise.resolve([]),
-    listDlcEventFiles(),
-    listOptionTipsFiles(),
+    txtFilesIn(languageCnDir),
+    listUnder("EncyclopediaAssets", [".tsv"], languageCnDir),
+    listUnder("CommonTip", [".json"], languageCnDir),
+    eventFilesWithSuffix("_Language_CN.txt"),
+    dlcEventFilesWithSuffix("_Language_CN.txt"),
+    optionTipsFilesWithSuffix("_CN.txt"),
   ]);
   return [...txt, ...tsv, ...json, ...events, ...dlc, ...optionTips];
 }

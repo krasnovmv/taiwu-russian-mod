@@ -3,7 +3,7 @@
  * serialized deterministically (stable key order, 2-space indent, LF, trailing
  * newline) so git diffs stay clean and reviewable.
  */
-import { readFile } from "node:fs/promises";
+import { readdir, readFile, rmdir, unlink } from "node:fs/promises";
 import path from "node:path";
 
 import { tmDir } from "../config/paths.js";
@@ -56,4 +56,75 @@ export function serializeTm(tm: TmFile): string {
 /** Persist the TM for a source file (creates nested dirs for tsv/json paths). */
 export async function saveTm(tm: TmFile): Promise<void> {
   await writeFileAtomic(tmPathFor(tm.file), serializeTm(tm));
+}
+
+/**
+ * Recursively collect every stored TM key (each `<tmDir>/<key>.json` as its
+ * `<key>`, in POSIX form). Returns `[]` when `tmDir` doesn't exist yet.
+ */
+async function listStoredTmKeys(dir: string = tmDir, rel = ""): Promise<string[]> {
+  let entries;
+  try {
+    entries = await readdir(dir, { withFileTypes: true });
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === "ENOENT") return [];
+    throw err;
+  }
+  const out: string[] = [];
+  for (const e of entries) {
+    const childRel = rel ? `${rel}/${e.name}` : e.name;
+    if (e.isDirectory()) {
+      out.push(...(await listStoredTmKeys(path.join(dir, e.name), childRel)));
+    } else if (e.name.endsWith(".json")) {
+      out.push(childRel.slice(0, -".json".length));
+    }
+  }
+  return out;
+}
+
+/**
+ * Pure: the stored TM keys with no backing source file. `sourceFiles` are the
+ * current source ids; a stored key is an orphan when it isn't the {@link tmKey}
+ * of any of them (the game file it translated was removed). Sorted for stable
+ * reporting. Uses {@link tmKey} on both sides so DLC version bumps — which map
+ * many source ids onto one version-independent TM key — never look orphaned.
+ */
+export function orphanTmKeys(stored: string[], sourceFiles: string[]): string[] {
+  const valid = new Set(sourceFiles.map(tmKey));
+  return stored.filter((key) => !valid.has(key)).sort();
+}
+
+/** Remove `dir` and any now-empty ancestors, stopping at (and never removing) `tmDir`. */
+async function removeEmptyDirsUpTo(dir: string): Promise<void> {
+  let current = dir;
+  while (current !== tmDir && current.startsWith(tmDir)) {
+    try {
+      await rmdir(current); // throws ENOTEMPTY once a sibling TM remains
+    } catch {
+      return;
+    }
+    current = path.dirname(current);
+  }
+}
+
+/**
+ * Delete every TM file whose source no longer exists and return the removed
+ * keys. Pass the source list UNGATED and from BOTH languages (union of
+ * `listAllSourceFiles` + `listCnSourceFiles`) so neither a disabled subsystem
+ * nor a file that survives only in CN is mistaken for a deletion. With `dryRun`,
+ * reports the orphans without touching disk. Empty dirs left behind are removed.
+ */
+export async function pruneOrphanTms(
+  sourceFiles: string[],
+  options: { dryRun?: boolean } = {},
+): Promise<string[]> {
+  const orphans = orphanTmKeys(await listStoredTmKeys(), sourceFiles);
+  if (!options.dryRun) {
+    for (const key of orphans) {
+      const file = path.join(tmDir, `${key}.json`);
+      await unlink(file);
+      await removeEmptyDirsUpTo(path.dirname(file));
+    }
+  }
+  return orphans;
 }
