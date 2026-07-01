@@ -19,10 +19,23 @@ namespace TaiwuRus.Frontend
         public override void Initialize()
         {
             UnpackOverlay();
+            RefreshImageSetting();
             _harmony = new Harmony("com.krasnovmv.taiwurus.frontend");
             _harmony.PatchAll(typeof(FrontendPlugin).Assembly);
             SortingFix.Apply();
             Debug.Log("[TaiwuRus] frontend plugin loaded");
+        }
+
+        // Read the "useImages" toggle (Config.Lua -> DefaultSettings) into the image-patch gate. The
+        // patches read LocalizedImage.Active on every call, so this only needs to keep the flag current.
+        // GetSetting leaves the value untouched when the mod/key isn't found, so the local default
+        // (false — images off unless opted in) survives a missing setting.
+        private void RefreshImageSetting()
+        {
+            bool useImages = false;
+            ModManager.GetSetting(ModIdStr, "useImages", ref useImages);
+            LocalizedImage.UseImages = useImages;
+            Debug.Log($"[TaiwuRus] useImages = {useImages}");
         }
 
         // Copy the mod's Localization/ overlay into the real game tree (Language_RU, event packs,
@@ -67,7 +80,9 @@ namespace TaiwuRus.Frontend
 
         public override void OnModSettingUpdate()
         {
-            // ModManager.GetSetting(ModIdStr, "key", ref field) once settings exist.
+            // NeedRestartWhenSettingChanged = true (Config.Lua) means the game restarts on change, so
+            // this mostly runs at boot — but refresh anyway so the gate is never stale.
+            RefreshImageSetting();
         }
 
         public override void Dispose()

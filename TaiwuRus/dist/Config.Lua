@@ -15,13 +15,24 @@ return {
 		[2] = "Modifications",
 	},
 	NeedRestartWhenSettingChanged = true,
-	DefaultSettings = { },
+	DefaultSettings = {
+		[1] = {
+			SettingType = "Toggle",
+			Key = "useImages",
+			DisplayName = "Использовать картинки?",
+			Description = "Чтобы использовались русифицированные картинки, включите эту настройку",
+			GroupName = "Основные",
+			DefaultValue = false,
+		},
+	},
 	Source = 0,
 	FileId = 1,
 	Visibility = 0,
 	UpdateLogList = { },
 	ChangeConfig = false,
 	HasArchive = false,
-	Cover = nil,
 	WorkshopCover = nil,
+	SettingGroups = {
+		[1] = "Основные",
+	},
 }

@@ -13,7 +13,8 @@ namespace TaiwuRus.Frontend
     /// (<c>CImage.SetSprite</c> / <c>CRawImage.SetTexture</c>), or by an async <c>ResLoader</c> button
     /// loader — resolves through here, in ONE order:
     ///
-    ///   1. shipped RU PNG override — <c>Language_RU/Images/&lt;ruName&gt;.png</c> (mod overlay, then StreamingAssets)
+    ///   1. shipped RU PNG override — <c>Language_RU/Images/&lt;ruName&gt;.png</c> (mod overlay, then StreamingAssets);
+    ///      skipped when the <c>useImages</c> setting is off, so the waterfall starts at step 2
     ///   2. English variant         — the same name/path with its <c>_ru</c> language token rewritten to <c>_en</c>
     ///   3. Chinese variant         — … rewritten to <c>_cn</c> (the game's own default)
     ///
@@ -32,6 +33,14 @@ namespace TaiwuRus.Frontend
         private static readonly HashSet<string> Diag = new HashSet<string>();
 
         public static bool IsRu => LocalStringManager.CurLanguageKey == "RU";
+
+        /// <summary>Whether the shipped RU PNG overrides (step 1 below) are used. Driven by the mod
+        /// setting <c>useImages</c> (see Config.Lua), refreshed by <see cref="FrontendPlugin"/>. This
+        /// gates ONLY the RU-PNG step, NOT the whole patch: when off, the patches still run and the
+        /// waterfall simply starts at English (step 2) — otherwise the game's own <c>_ru</c> names,
+        /// which have no atlas sprite, would render blank. Off by default, matching the setting's
+        /// <c>DefaultValue = false</c>: users opt in to the RU graphics, everyone else gets EN → CN.</summary>
+        public static bool UseImages { get; set; }
 
         /// <summary>True if <paramref name="name"/> carries a trailing <c>_ru</c> language token.</summary>
         public static bool HasRuToken(string name) =>
@@ -70,6 +79,8 @@ namespace TaiwuRus.Frontend
 
         private static Texture2D LoadPng(string ruName)
         {
+            if (!UseImages)
+                return null; // setting off → skip the RU PNG; the waterfall falls through to EN → CN
             string file = ModAssets.Resolve("Language_RU", "Images", ruName + ".png");
             if (!File.Exists(file))
                 return null;
