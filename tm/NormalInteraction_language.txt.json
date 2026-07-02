@@ -1,763 +1,763 @@
 {
   "schemaVersion": 1,
   "file": "NormalInteraction_language.txt",
-  "glossaryVersion": 6,
+  "glossaryVersion": 7,
   "units": {
     "Name_0": {
       "en": "Sparring Request",
       "cn": "切磋请求",
       "ru": "Запрос на спарринг",
       "status": "machine",
-      "srcHash": "4c89b725c8e39a24",
+      "srcHash": "1399e6646285710d",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Name_1": {
       "en": "Duel Request",
       "cn": "挑战请求",
       "ru": "Запрос на Поединок",
       "status": "machine",
-      "srcHash": "b9751cbf73ff7233",
+      "srcHash": "86b2182a36f1ab9c",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Name_2": {
       "en": "Debate Request",
       "cn": "较艺请求",
       "ru": "Запрос на Диспут",
       "status": "machine",
-      "srcHash": "50bd9e1a4eb38fbf",
+      "srcHash": "42f17999e2d22a93",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Name_3": {
       "en": "Cricket Duel Request",
       "cn": "促织决斗请求",
       "ru": "Запрос на Поединок по Сверчку",
       "status": "machine",
-      "srcHash": "408b8ec06ae7c2fc",
+      "srcHash": "ddb3c474305390b5",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_0_0": {
       "en": "\"I've recently gained new insights from cultivating my Martial Arts.\\nI'd like to spar with you to test our skills...\"\\n\\nOn this day, <Character key=CharacterId str=Name /> clasps fists in greeting, hoping to have a spar with <Character key=RoleTaiwu str=Name />.",
       "cn": "“我近日修习功法颇有心得，\\n愿与你比试一番，以明长短……”\\n\\n这一日，<Character key=CharacterId str=Name />抱拳相迎，希望能与<Character key=RoleTaiwu str=Name />切磋一番！",
       "ru": "\"Недавно я получил новые Познания, занимаясь своими Боевыми искусствами.\\nЯ бы хотел сразиться с тобой, чтобы проверить наши навыки...\"\\n\\nВ этот день, <Character key=CharacterId str=Name /> сжимает кулаки в знак приветствия, надеясь устроить спарринг с <Character key=RoleTaiwu str=Name />.",
       "status": "machine",
-      "srcHash": "e224328cb8633203",
+      "srcHash": "cefec831aa57d44a",
       "engine": "yandex",
-      "updatedAt": "2026-06-24T08:49:19.612Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_0_1": {
       "en": "\"We've shared words beneath the crimson gauze, so why not train together on the Martial Arts Arena...\"\\n\\nOn this day, <Character key=CharacterId str=Name /> steps forward with a smile, hoping to have a friendly spar with <Character key=RoleTaiwu str=Name />.",
       "cn": "“你我茜纱窗下共语，也应演武场上同修……”\\n\\n这一日，<Character key=CharacterId str=Name />笑迎而上，希望能与<Character key=RoleTaiwu str=Name />切磋一番！",
       "ru": "\"Мы обменялись словами под алой тканью, так почему бы не потренироваться вместе на арене Боевых искусств...\"\\n\\nВ этот день, <Character key=CharacterId str=Name /> делает шаг вперед с улыбкой, надеясь по-дружески поболтать с <Character key=RoleTaiwu str=Name />.",
       "status": "machine",
-      "srcHash": "ad89f2288e666b13",
+      "srcHash": "de5327bdef2e7be7",
       "engine": "yandex",
-      "updatedAt": "2026-06-24T08:49:19.612Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_0_2": {
       "en": "\"I've gained some insight into martial arts recently and would like to ask for your guidance...\"\\n\\nOn this day, <Character key=CharacterId str=Name /> gives a fist-and-palm salute, hoping to have a spar with <Character key=RoleTaiwu str=Name />.",
       "cn": "“孩儿近日学武颇有所悟，想请您赐教一二……”\\n\\n这一日，<Character key=CharacterId str=Name />拱手相迎，希望能与<Character key=RoleTaiwu str=Name />切磋一番！",
       "ru": "\"Недавно я получил некоторое Познание в Боевых искусствах и хотел бы попросить вашего совета...\"\\n\\nВ этот день, <Character key=CharacterId str=Name /> отдает честь кулаком и ладонью, надеясь сразиться с <Character key=RoleTaiwu str=Name />.",
       "status": "machine",
-      "srcHash": "5ab81164df814143",
+      "srcHash": "2f162a88b56bc21e",
       "engine": "yandex",
-      "updatedAt": "2026-06-24T08:49:19.612Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_0_3": {
       "en": "\"Child, the world looks to you Taiwu for salvation, but I only worry about your well-being.\\nYou must keep your body strong with regular training...\"\\n\\nOn this day, <Character key=CharacterId str=Name /> raises a hand, hoping to have a spar with <Character key=RoleTaiwu str=Name />.",
       "cn": "“孩儿，世人皆盼太吾救世，我却忧你康健与否，\\n平日要多活动筋骨才好……”\\n\\n这一日，<Character key=CharacterId str=Name />抬手致意，希望能与<Character key=RoleTaiwu str=Name />切磋一番！",
-      "ru": "\"Дитя, мир надеется на твое спасение, Тайу, но я беспокоюсь только о твоем благополучии.\\nТы должен поддерживать свое тело сильным регулярными тренировками...\"\\n\\nВ этот день, <Character key=CharacterId str=Name /> поднимает руку, надеясь сразиться с <Character key=RoleTaiwu str=Name />.",
+      "ru": "\"Дитя, мир надеется на твое спасение, Тайву, но я беспокоюсь только о твоем благополучии.\\nТы должен поддерживать свое тело сильным с помощью регулярных тренировок...\"\\n\\nВ этот день, <Character key=CharacterId str=Name /> поднимает руку, надеясь провести спарринг с <Character key=RoleTaiwu str=Name />.",
       "status": "machine",
-      "srcHash": "e59000ad23c0aa9c",
+      "srcHash": "6bc327c786f35a39",
       "engine": "yandex",
-      "updatedAt": "2026-06-24T08:49:19.612Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_0_4": {
       "en": "\"I have seen your recent progress in Cultivation. True understanding comes from battle. Let's put your skills to the test...\"\\n\\nOn this day, <Character key=CharacterId str=Name /> raises a hand, hoping to have a spar with <Character key=RoleTaiwu str=Name />.",
       "cn": "“为师见你近日修习颇有进展，且实战一番才算领悟……”\\n\\n这一日，<Character key=CharacterId str=Name />抬手致意，希望能与<Character key=RoleTaiwu str=Name />切磋一番！",
       "ru": "\"Я видел твой недавний прогресс в совершенствовании. Истинное понимание приходит в бою. Давай проверим твои навыки...\"\\n\\nВ этот день, <Character key=CharacterId str=Name /> поднимает руку, надеясь сразиться с <Character key=RoleTaiwu str=Name />.",
       "status": "machine",
-      "srcHash": "3911c4ebaab431d5",
+      "srcHash": "ff5d4e257afe500d",
       "engine": "yandex",
-      "updatedAt": "2026-06-24T08:49:19.612Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_1_0": {
       "en": "\"Do not use our bond as an excuse to avoid battle. Today, we settle this with fists and skill...\"\\n\\nOn this day, <Character key=CharacterId str=Name /> blocks <Character key=RoleTaiwu str=Name />'s path, cupping fists in challenge...",
       "cn": "“莫要借你我的情谊避战，今日须以拳脚相会不可……”\\n\\n这一日，<Character key=CharacterId str=Name />蓦地拦住了<Character key=RoleTaiwu str=Name />的去路，抱拳挑战道……",
       "ru": "\"Не используй нашу связь как предлог, чтобы избежать битвы. Сегодня мы уладим это кулаками и мастерством...\"\\n\\nВ этот день, <Character key=CharacterId str=Name /> блоки <Character key=RoleTaiwu str=Name />идет по дорожке, сжимая кулаки в знак вызова...",
       "status": "machine",
-      "srcHash": "a1d0800ab4908f6d",
+      "srcHash": "cb51394118388f19",
       "engine": "yandex",
-      "updatedAt": "2026-06-24T08:49:19.612Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_1_1": {
       "en": "\"A duel is a way to understand each other. Let's put our skills to the test!\"\\n\\nOn this day, <Character key=CharacterId str=Name /> blocks <Character key=RoleTaiwu str=Name />'s path, cupping fists in challenge...",
       "cn": "“一场对决亦可令你我知情识趣，来一较高下罢！”\\n\\n这一日，<Character key=CharacterId str=Name />蓦地拦住了<Character key=RoleTaiwu str=Name />的去路，抱拳挑战道……",
       "ru": "- Поединок - это способ понять друг друга. Давайте испытаем наши навыки!\"\\n\\nВ этот день, <Character key=CharacterId str=Name /> блоки <Character key=RoleTaiwu str=Name />на своем пути, сложив кулаки в знак вызова...",
       "status": "machine",
-      "srcHash": "b23f6129245df86e",
+      "srcHash": "c3e49410db2508b4",
       "engine": "yandex",
-      "updatedAt": "2026-06-24T08:49:19.612Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_1_2": {
       "en": "\"Without climbing great heights, one cannot know the vastness of the sky. Forgive my boldness...\"\\n\\nOn this day, <Character key=CharacterId str=Name /> blocks <Character key=RoleTaiwu str=Name />'s path, cupping fists in challenge...",
       "cn": "“不登高山，不知天之高也，孩儿失礼了……”\\n\\n这一日，<Character key=CharacterId str=Name />蓦地拦住<Character key=RoleTaiwu str=Name />的去路，抱拳挑战道……",
       "ru": "\"Не поднявшись на большие высоты, человек не сможет познать необъятность неба. Простите мою дерзость...\"\\n\\nВ этот день, <Character key=CharacterId str=Name /> блоки <Character key=RoleTaiwu str=Name />идет по дорожке, сжимая кулаки в знак вызова...",
       "status": "machine",
-      "srcHash": "74f04781e5504dbb",
+      "srcHash": "d95b983ae0693b7c",
       "engine": "yandex",
-      "updatedAt": "2026-06-24T08:49:19.612Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_1_3": {
       "en": "\"Child, I have come to fight you.\\nHold nothing back. Show me your full strength...\"\\n\\nOn this day, <Character key=CharacterId str=Name /> blocks <Character key=RoleTaiwu str=Name />'s path, cupping fists in challenge...",
       "cn": "“孩儿，今日我特来与你一战，\\n无须拘束，使出全力罢……”\\n\\n这一日，<Character key=CharacterId str=Name />拦住了<Character key=RoleTaiwu str=Name />的去路，抱拳挑战道……",
       "ru": "- Дитя, я пришел сразиться с тобой.\\nНичего не утаивай. Покажи мне всю свою Силу...\"\\n\\nВ этот день, <Character key=CharacterId str=Name /> блоки <Character key=RoleTaiwu str=Name />идет по дорожке, сжимая кулаки в знак вызова...",
       "status": "machine",
-      "srcHash": "cf0fe140fee4be0c",
+      "srcHash": "7d22e05e2c151f98",
       "engine": "yandex",
-      "updatedAt": "2026-06-24T08:49:19.612Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_1_4": {
       "en": "\"Child, face this battle with full focus!\\nProve that your training is not in vain and bring honor to your sect...\" On this day, <Character key=CharacterId str=Name /> blocks <Character key=RoleTaiwu str=Name />'s path, cupping fists in challenge...",
       "cn": "“徒儿，此战你须聚神应对，\\n以证所学非虚，方才不辱师门……”这一日，<Character key=CharacterId str=Name />拦住了<Character key=RoleTaiwu str=Name />的去路，抱拳挑战道……",
       "ru": "\"Дитя, прими эту битву с полной сосредоточенностью!\\nДокажи, что твое обучение не прошло даром, и принеси честь твоей Секте...\" В этот день, <Character key=CharacterId str=Name /> блоки <Character key=RoleTaiwu str=Name />идет по дорожке, сжимая кулаки в знак вызова...",
       "status": "machine",
-      "srcHash": "c4a0453e5d579166",
+      "srcHash": "725251f00dd31062",
       "engine": "yandex",
-      "updatedAt": "2026-06-24T08:49:19.612Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_2_0": {
       "en": "\"Fine Arts comes through practice.\\nLet's test our skills and perhaps find new insights...\"\\n\\nOn this day, <Character key=CharacterId str=Name /> gives a fist-and-palm salute, hoping to [Debate] with <Character key=RoleTaiwu str=Name />!",
       "cn": "“技艺总须较量方能通达，\\n愿与你一争高下，或能顿悟关窍……”\\n\\n这一日，<Character key=CharacterId str=Name />拱手前来，希望能与<Character key=RoleTaiwu str=Name />进行「较艺」！",
       "ru": "\"Ремесло приходит с практикой.\\nДавайте проверим наши навыки и, возможно, найдем новые Познания...\"\\n\\nВ этот день, <Character key=CharacterId str=Name /> отдает честь кулаком и ладонью, надеясь [Диспут с <Character key=RoleTaiwu str=Name />!",
       "status": "machine",
-      "srcHash": "55626e5855ffe384",
+      "srcHash": "79b43c0478bffe43",
       "engine": "yandex",
-      "updatedAt": "2026-06-24T08:49:19.612Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_2_1": {
       "en": "\"Fine Arts comes through practice.\\nLet's test our skills and perhaps find new insights...\"\\n\\nOn this day, <Character key=CharacterId str=Name /> gives a fist-and-palm salute, hoping to [Debate] with <Character key=RoleTaiwu str=Name />!",
       "cn": "“技艺总须较量方能通达，\\n愿与你一争高下，或能顿悟关窍……”\\n\\n这一日，<Character key=CharacterId str=Name />拱手前来，希望能与<Character key=RoleTaiwu str=Name />进行「较艺」！",
       "ru": "\"Ремесло приходит с практикой.\\nДавайте проверим наши навыки и, возможно, найдем новые Познания...\"\\n\\nВ этот день, <Character key=CharacterId str=Name /> отдает честь кулаком и ладонью, надеясь [Диспут с <Character key=RoleTaiwu str=Name />!",
       "status": "machine",
-      "srcHash": "55626e5855ffe384",
+      "srcHash": "79b43c0478bffe43",
       "engine": "yandex",
-      "updatedAt": "2026-06-24T08:49:19.612Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_2_2": {
       "en": "\"Sir, I wish to test my skills against yours.\\nSeek your guidance to further my arts...\"\\n\\nOn this day, <Character key=CharacterId str=Name /> gives a fist-and-palm salute, hoping to [Debate] with <Character key=RoleTaiwu str=Name />!",
       "cn": "“孩儿愿以所学技艺与您一较高下，\\n以求指点，得以精进……”\\n\\n这一日，<Character key=CharacterId str=Name />拱手前来，希望能与<Character key=RoleTaiwu str=Name />进行「较艺」！",
       "ru": "- Сэр, я хочу проверить свои навыки против ваших.\\nИщу твоего руководства для дальнейшего развития моего искусства...\"\\n\\nВ этот день, <Character key=CharacterId str=Name /> отдает честь кулаком и ладонью, надеясь [Диспут с <Character key=RoleTaiwu str=Name />!",
       "status": "machine",
-      "srcHash": "bfac7dea50d261a7",
+      "srcHash": "d6154b3005e0f3f7",
       "engine": "yandex",
-      "updatedAt": "2026-06-24T08:49:19.612Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_2_3": {
       "en": "\"Child, true skills cannot happen in isolation.\\nOnly through duels can one gauge their progress...\"\\n\\nOn this day, <Character key=CharacterId str=Name /> raises a hand, hoping to [Debate] with <Character key=RoleTaiwu str=Name />!",
       "cn": "“孩儿，须知技艺之精进，非较量无以尽展，\\n愿比试一番以观所长……”\\n\\n这一日，<Character key=CharacterId str=Name />抬手致意，希望能与<Character key=RoleTaiwu str=Name />进行「较艺」！",
       "ru": "- Дитя, истинные навыки не могут проявляться изолированно.\\nТолько через Поединки можно оценить их прогресс...\"\\n\\nВ этот день, <Character key=CharacterId str=Name /> поднимает руку, надеясь начать [Диспут] с <Character key=RoleTaiwu str=Name />!",
       "status": "machine",
-      "srcHash": "e89b1add5cc60c47",
+      "srcHash": "03023c5d2247af87",
       "engine": "yandex",
-      "updatedAt": "2026-06-24T08:49:19.612Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_2_4": {
       "en": "\"Child, true skills are not achieved behind closed doors. One must face real challenges...\"\\n\\nOn this day, <Character key=CharacterId str=Name /> raises a hand, hoping to [Debate] with <Character key=RoleTaiwu str=Name />!",
       "cn": "“徒儿，技艺非闭门造车所能成，多经较量才好……”\\n\\n这一日，<Character key=CharacterId str=Name />抬手致意，希望能与<Character key=RoleTaiwu str=Name />进行「较艺」！",
       "ru": "- Дитя, истинные навыки не достигаются за закрытыми дверями. Нужно сталкиваться с реальными вызовами...\"\\n\\nВ этот день, <Character key=CharacterId str=Name /> поднимает руку, надеясь начать [Диспут] с <Character key=RoleTaiwu str=Name />!",
       "status": "machine",
-      "srcHash": "9a0866980e504764",
+      "srcHash": "328aa71c46b11b31",
       "engine": "yandex",
-      "updatedAt": "2026-06-24T08:49:19.612Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_3_0": {
       "en": "\"Why not let our crickets duel for fun? The thrill of battle is a joy to be shared...\"\\n<Character key=CharacterId str=Name /> steps forward with a smile, hoping to have a Cricket Duel with <Character key=RoleTaiwu str=Name />!\\n\\n<color=#lightgrey>(Cricket Duel, a wager is a matter of honor!)\\n(Note: If you cannot match your opponent's stake, you must forfeit...)\\n(Forfeiting a Cricket Duel will reduce your Prestige...)</color>",
       "cn": "“何不遣你我的虫儿们斗上一斗，以博今日之欢，共享此间之乐……”\\n<Character key=CharacterId str=Name />笑迎而来，希望能与<Character key=RoleTaiwu str=Name />以促织决斗！\\n\\n<color=#lightgrey>（促织决斗，一诺千金！）\\n（注意！如果拿不出与对方押注等值的押注，便只能弃权投降……）\\n（在促织决斗中弃权将会失去威望值……）</color>",
-      "ru": "- Почему бы не позволить нашим Сверчкам устроить Поединок ради забавы? Трепет битвы - это радость, которую нужно разделить...\"\\n<Character key=CharacterId str=Name /> делает шаг вперед с улыбкой, надеясь устроить Поединок по Сверчку с <Character key=RoleTaiwu str=Name />!\\n\\n<color=#lightgrey>(Поединок по Сверчку, ставка - дело чести!)\\n (Примечание: если вы не можете сравнять ставку вашего противника, вы должны проиграть...)\\n (Проигрыш в Поединке по Сверчку снизит ваш Престиж ...)</color>",
+      "ru": "- Почему бы не позволить нашим Сверчкам устроить Поединок ради забавы? Трепет битвы - это радость, которую нужно разделить...\"\\n<Character key=CharacterId str=Name /> делает шаг вперед с улыбкой, надеясь устроить Поединок по Сверчку с <Character key=RoleTaiwu str=Name />!\\n\\n<color=#lightgrey>(Поединок по Сверчку, пари - это дело чести!)\\n(Примечание: Если вы не можете сравнять ставку вашего оппонента, вы должны проиграть...)\\n(Проигрыш в Поединке по Сверчку снизит ваш Престиж...)</color>",
       "status": "machine",
-      "srcHash": "4995fe98bc416fa6",
+      "srcHash": "e46bd586535ca1cc",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_3_1": {
       "en": "\"Why not let our crickets duel for fun? The thrill of battle is a joy to be shared...\"\\n<Character key=CharacterId str=Name /> steps forward with a smile, hoping to have a Cricket Duel with <Character key=RoleTaiwu str=Name />!\\n\\n<color=#lightgrey>(Cricket Duel, a wager is a matter of honor!)\\n(Note: If you cannot match your opponent's stake, you must forfeit...)\\n(Forfeiting a Cricket Duel will reduce your Prestige...)</color>",
       "cn": "“何不遣你我的虫儿们斗上一斗，以博今日之欢，共享此间之乐……”\\n<Character key=CharacterId str=Name />笑迎而来，希望能与<Character key=RoleTaiwu str=Name />以促织决斗！\\n\\n<color=#lightgrey>（促织决斗，一诺千金！）\\n（注意！如果拿不出与对方押注等值的押注，便只能弃权投降……）\\n（在促织决斗中弃权将会失去威望值……）</color>",
-      "ru": "- Почему бы не позволить нашим Сверчкам устроить Поединок ради забавы? Трепет битвы - это радость, которую нужно разделить...\"\\n<Character key=CharacterId str=Name /> делает шаг вперед с улыбкой, надеясь устроить Поединок по Сверчку с <Character key=RoleTaiwu str=Name />!\\n\\n<color=#lightgrey>(Поединок по Сверчку, ставка - дело чести!)\\n (Примечание: если вы не можете сравнять ставку вашего противника, вы должны проиграть...)\\n (Проигрыш в Поединке по Сверчку снизит ваш Престиж ...)</color>",
+      "ru": "- Почему бы не позволить нашим Сверчкам устроить Поединок ради забавы? Трепет битвы - это радость, которую нужно разделить...\"\\n<Character key=CharacterId str=Name /> делает шаг вперед с улыбкой, надеясь устроить Поединок по Сверчку с <Character key=RoleTaiwu str=Name />!\\n\\n<color=#lightgrey>(Поединок по Сверчку, пари - это дело чести!)\\n(Примечание: Если вы не можете сравнять ставку вашего оппонента, вы должны проиграть...)\\n(Проигрыш в Поединке по Сверчку снизит ваш Престиж...)</color>",
       "status": "machine",
-      "srcHash": "4995fe98bc416fa6",
+      "srcHash": "e46bd586535ca1cc",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_3_2": {
       "en": "\"Why not let our crickets duel for fun? The thrill of battle is a joy to be shared...\"\\n<Character key=CharacterId str=Name /> steps forward with a smile, hoping to have a Cricket Duel with <Character key=RoleTaiwu str=Name />!\\n\\n<color=#lightgrey>(Cricket Duel, a wager is a matter of honor!)\\n(Note: If you cannot match your opponent's stake, you must forfeit...)\\n(Forfeiting a Cricket Duel will reduce your Prestige...)</color>",
       "cn": "“何不遣你我的虫儿们斗上一斗，以博今日之欢，共享此间之乐……”\\n<Character key=CharacterId str=Name />笑迎而来，希望能与<Character key=RoleTaiwu str=Name />以促织决斗！\\n\\n<color=#lightgrey>（促织决斗，一诺千金！）\\n（注意！如果拿不出与对方押注等值的押注，便只能弃权投降……）\\n（在促织决斗中弃权将会失去威望值……）</color>",
-      "ru": "- Почему бы не позволить нашим Сверчкам устроить Поединок ради забавы? Трепет битвы - это радость, которую нужно разделить...\"\\n<Character key=CharacterId str=Name /> делает шаг вперед с улыбкой, надеясь устроить Поединок по Сверчку с <Character key=RoleTaiwu str=Name />!\\n\\n<color=#lightgrey>(Поединок по Сверчку, ставка - дело чести!)\\n (Примечание: если вы не можете сравнять ставку вашего противника, вы должны проиграть...)\\n (Проигрыш в Поединке по Сверчку снизит ваш Престиж ...)</color>",
+      "ru": "- Почему бы не позволить нашим Сверчкам устроить Поединок ради забавы? Трепет битвы - это радость, которую нужно разделить...\"\\n<Character key=CharacterId str=Name /> делает шаг вперед с улыбкой, надеясь устроить Поединок по Сверчку с <Character key=RoleTaiwu str=Name />!\\n\\n<color=#lightgrey>(Поединок по Сверчку, пари - это дело чести!)\\n(Примечание: Если вы не можете сравнять ставку вашего оппонента, вы должны проиграть...)\\n(Проигрыш в Поединке по Сверчку снизит ваш Престиж...)</color>",
       "status": "machine",
-      "srcHash": "4995fe98bc416fa6",
+      "srcHash": "e46bd586535ca1cc",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_3_3": {
       "en": "\"Crickets are fierce warriors by nature. What better way to honor them than to let them fight?\"\\n<Character key=CharacterId str=Name /> steps forward with a smile, hoping to have a Cricket Duel with <Character key=RoleTaiwu str=Name />!\\n\\n<color=#lightgrey>(Cricket Duel, a wager is a matter of honor!)\\n(Note: If you cannot match your opponent's stake, you must forfeit...)\\n(Forfeiting a Cricket Duel will reduce your Prestige...)</color>",
       "cn": "“促织本性刚烈勇猛，若不使之相争，何以显其勇，不如今日一斗勿使其湮没……”\\n<Character key=CharacterId str=Name />笑迎而来，希望能与<Character key=RoleTaiwu str=Name />以促织决斗！\\n\\n<color=#lightgrey>（促织决斗，一诺千金！）\\n（注意！如果拿不出与对方押注等值的押注，便只能弃权投降……）\\n（在促织决斗中弃权将会失去威望值……）</color>",
-      "ru": "- Сверчки по натуре свирепые воины. Что может быть лучше для того, чтобы почтить их память, чем позволить им сражаться?\"\\n<Character key=CharacterId str=Name /> делает шаг вперед с улыбкой, надеясь устроить Поединок по Сверчку с <Character key=RoleTaiwu str=Name />!\\n\\n<color=#lightgrey>(Поединок в Сверчке, пари - дело чести!)\\n (Примечание: если вы не можете сравнять ставку вашего противника, вы должны проиграть ...)\\n (Проигрыш в Поединке в Сверчке снизит ваш Престиж ...)</color>",
+      "ru": "- Сверчки по натуре свирепые воины. Есть ли лучший способ почтить их память, чем позволить им сражаться?\"\\n<Character key=CharacterId str=Name /> делает шаг вперед с улыбкой, надеясь устроить Поединок по Сверчку с <Character key=RoleTaiwu str=Name />!\\n\\n<color=#lightgrey>(Поединок по Сверчку, пари - это дело чести!)\\n(Примечание: Если вы не можете сравнять ставку вашего оппонента, вы должны проиграть...)\\n(Проигрыш в Поединке по Сверчку снизит ваш Престиж...)</color>",
       "status": "machine",
-      "srcHash": "cf7a36f66347eb86",
+      "srcHash": "4b99882987c7842d",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "HeadEvent_3_4": {
       "en": "\"Crickets are fierce warriors by nature. What better way to honor them than to let them fight?\"\\n<Character key=CharacterId str=Name /> steps forward with a smile, hoping to have a Cricket Duel with <Character key=RoleTaiwu str=Name />!\\n\\n<color=#lightgrey>(Cricket Duel, a wager is a matter of honor!)\\n(Note: If you cannot match your opponent's stake, you must forfeit...)\\n(Forfeiting a Cricket Duel will reduce your Prestige...)</color>",
       "cn": "“促织本性刚烈勇猛，若不使之相争，何以显其勇，不如今日一斗勿使其湮没……”\\n<Character key=CharacterId str=Name />笑迎而来，希望能与<Character key=RoleTaiwu str=Name />以促织决斗！\\n\\n<color=#lightgrey>（促织决斗，一诺千金！）\\n（注意！如果拿不出与对方押注等值的押注，便只能弃权投降……）\\n（在促织决斗中弃权将会失去威望值……）</color>",
-      "ru": "- Сверчки по натуре свирепые воины. Что может быть лучше для того, чтобы почтить их память, чем позволить им сражаться?\"\\n<Character key=CharacterId str=Name /> делает шаг вперед с улыбкой, надеясь устроить Поединок по Сверчку с <Character key=RoleTaiwu str=Name />!\\n\\n<color=#lightgrey>(Поединок в Сверчке, пари - дело чести!)\\n (Примечание: если вы не можете сравнять ставку вашего противника, вы должны проиграть ...)\\n (Проигрыш в Поединке в Сверчке снизит ваш Престиж ...)</color>",
+      "ru": "- Сверчки по натуре свирепые воины. Есть ли лучший способ почтить их память, чем позволить им сражаться?\"\\n<Character key=CharacterId str=Name /> делает шаг вперед с улыбкой, надеясь устроить Поединок по Сверчку с <Character key=RoleTaiwu str=Name />!\\n\\n<color=#lightgrey>(Поединок по Сверчку, пари - это дело чести!)\\n(Примечание: Если вы не можете сравнять ставку вашего оппонента, вы должны проиграть...)\\n(Проигрыш в Поединке по Сверчку снизит ваш Престиж...)</color>",
       "status": "machine",
-      "srcHash": "cf7a36f66347eb86",
+      "srcHash": "4b99882987c7842d",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_0_0": {
       "en": "\"Only through crossing fists with you do I realize the vastness of martial arts. I accept my defeat with admiration...\"",
       "cn": "“与你交手，方知武道天深，落败于你，我心悦诚服……”",
       "ru": "- Только скрестив с тобой кулаки, я осознаю всю необъятность Боевых искусств. Я принимаю свое поражение с восхищением...\"",
       "status": "machine",
-      "srcHash": "b15b9dfd7632c0a7",
+      "srcHash": "7bc5269a19b964e8",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_0_1": {
       "en": "\"This match has shown how well we understand each other. I concede, with both respect and conviction...\"",
       "cn": "“经此较量，更显你我心意相通，落败于你，我心服口服……”",
       "ru": "\"Этот матч показал, насколько хорошо мы понимаем друг друга. Я признаю, с уважением и убежденностью...\"",
       "status": "machine",
-      "srcHash": "e04133e34c020a18",
+      "srcHash": "209c80af96051383",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_0_2": {
       "en": "\"My skills are lacking, but I have learned much from this match...\"",
       "cn": "“孩儿功力不济，此番实乃受益匪浅……”",
       "ru": "\"Мне не хватает навыков, но я многому научился в этом матче...\"",
       "status": "machine",
-      "srcHash": "d659def88f4f7f0a",
+      "srcHash": "e8692220f7ea3d6f",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_0_3": {
       "en": "\"Though I have lost, I find comfort in it. May this sparring session aid your growth...\"",
       "cn": "“我虽败了，但甚感欣慰，还望此番切磋能助你精进才好……”",
       "ru": "\"Хотя я и проиграл, я нахожу в этом утешение. Пусть этот спарринг-сеанс поможет твоему росту...\"",
       "status": "machine",
-      "srcHash": "65a1fdded848e78d",
+      "srcHash": "69d55ba0314e2db3",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_0_4": {
       "en": "\"Though I have lost, I find comfort in it. May this sparring session aid your growth...\"",
       "cn": "“我虽败了，但甚感欣慰，还望此番切磋能助你精进才好……”",
       "ru": "\"Хотя я и проиграл, я нахожу в этом утешение. Пусть этот спарринг-сеанс поможет твоему росту...\"",
       "status": "machine",
-      "srcHash": "65a1fdded848e78d",
+      "srcHash": "69d55ba0314e2db3",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_1_0": {
       "en": "\"I have no objections to my defeat. You are indeed a cut above me...\"",
       "cn": "“落败于你，我无异议，你确胜我一筹……”",
       "ru": "\"У меня нет никаких возражений против моего поражения. Ты действительно на голову выше меня...\"",
       "status": "machine",
-      "srcHash": "2984cf96c8b144a8",
+      "srcHash": "914cb33bdcd0a5e0",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_1_1": {
       "en": "\"Defeated by you, I concede wholeheartedly...\"",
       "cn": "“落败于你，我心服口服……”",
       "ru": "\"Побежденный тобой, я от всего сердца признаю...\"",
       "status": "machine",
-      "srcHash": "dd5b52f1ad081489",
+      "srcHash": "ee6610363c0f13f7",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_1_2": {
       "en": "\"My skills are lacking, but today's bout has taught me much...\"",
       "cn": "“孩儿功力不济，今日确有所领教……”",
       "ru": "\"Мне не хватает навыков, но сегодняшний бой многому меня научил...\"",
       "status": "machine",
-      "srcHash": "af2c37954082046f",
+      "srcHash": "250b67f9fe57bcea",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_1_3": {
       "en": "\"You have won this time, but never let your Cultivation come to a halt...\"",
       "cn": "“此番你已胜我，但修习万不可止步于此……”",
       "ru": "\"На этот раз ты победил, но никогда не позволяй своему совершенствованию остановиться...\"",
       "status": "machine",
-      "srcHash": "2424856db6b1b901",
+      "srcHash": "8d26cfc6b5e2b615",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_1_4": {
       "en": "\"You have won this time, but never let your Cultivation come to a halt...\"",
       "cn": "“此番你已胜我，但修习万不可止步于此……”",
       "ru": "\"На этот раз ты победил, но никогда не позволяй своему совершенствованию остановиться...\"",
       "status": "machine",
-      "srcHash": "2424856db6b1b901",
+      "srcHash": "8d26cfc6b5e2b615",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_2_0": {
       "en": "\"Your skill is truly awe-inspiring, like a master whose words can even enlighten the most unyielding of minds. I concede without hesitation...\"",
       "cn": "“可谓生公说法，令顽石点头，我心服口服……”",
       "ru": "\"Ваше мастерство поистине внушает благоговейный трепет, как у мастера, чьи слова могут просветить даже самые непреклонные умы. Я уступаю без колебаний...\"",
       "status": "machine",
-      "srcHash": "aa9373450138c21e",
+      "srcHash": "617589196612a8dc",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_2_1": {
       "en": "\"Your skill is truly awe-inspiring, like a master whose words can even enlighten the most unyielding of minds. I concede without hesitation...\"",
       "cn": "“可谓生公说法，令顽石点头，我心服口服……”",
       "ru": "\"Ваше мастерство поистине внушает благоговейный трепет, как у мастера, чьи слова могут просветить даже самые непреклонные умы. Я уступаю без колебаний...\"",
       "status": "machine",
-      "srcHash": "aa9373450138c21e",
+      "srcHash": "617589196612a8dc",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_2_2": {
       "en": "\"My Fine Arts are far from complete. Today's duel was an invaluable lesson...\"",
       "cn": "“孩儿技艺未臻，此番实乃受益匪浅……”",
       "ru": "\"Мое Ремесло в области изобразительного искусства еще далеко не завершено. Сегодняшний Поединок стал бесценным уроком...\"",
       "status": "machine",
-      "srcHash": "fbd7acc92149076f",
+      "srcHash": "d0e3af0fedd3aa59",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_2_3": {
       "en": "\"That's my defeat. I hope this debate has helped you sharpen your Fine Arts...\"",
       "cn": "“是我败了，还望此番较量能助你精进技艺才好……”",
       "ru": "\"Это мое поражение. Я надеюсь, что этот Диспут помог вам отточить свои Ремесла...\"",
       "status": "machine",
-      "srcHash": "da3e82b2d5fbc999",
+      "srcHash": "0da828c0e8010a85",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_2_4": {
       "en": "\"That's my defeat. I hope this debate has helped you sharpen your Fine Arts...\"",
       "cn": "“是我败了，还望此番较量能助你精进技艺才好……”",
       "ru": "\"Это мое поражение. Я надеюсь, что этот Диспут помог вам отточить свои Ремесла...\"",
       "status": "machine",
-      "srcHash": "da3e82b2d5fbc999",
+      "srcHash": "0da828c0e8010a85",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_3_0": {
       "en": "\"My cricket may have lost, but the thrill of the Duel made it all worthwhile...\"",
       "cn": "“我的虫儿虽败，然‘决斗’之乐仍在其中……”",
       "ru": "\"Возможно, мой Сверчок и проиграл, но острые ощущения от Поединка того стоили...\"",
       "status": "machine",
-      "srcHash": "114a51aac6120b85",
+      "srcHash": "aeffdc5a0e3519f8",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_3_1": {
       "en": "\"My cricket may have lost, but the thrill of the Duel made it all worthwhile...\"",
       "cn": "“我的虫儿虽败，然‘决斗’之乐仍在其中……”",
       "ru": "\"Возможно, мой Сверчок и проиграл, но острые ощущения от Поединка того стоили...\"",
       "status": "machine",
-      "srcHash": "114a51aac6120b85",
+      "srcHash": "aeffdc5a0e3519f8",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_3_2": {
       "en": "\"My cricket may have lost, but the thrill of the Duel made it all worthwhile...\"",
       "cn": "“我的虫儿虽败，然‘决斗’之乐仍在其中……”",
       "ru": "\"Возможно, мой Сверчок и проиграл, но острые ощущения от Поединка того стоили...\"",
       "status": "machine",
-      "srcHash": "114a51aac6120b85",
+      "srcHash": "aeffdc5a0e3519f8",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_3_3": {
       "en": "\"Defeat is of little concern. What matters is the excitement of the Duel!\"",
       "cn": "“我的败绩无妨，‘决斗’精彩便足矣……”",
       "ru": "\"Поражение не вызывает особого беспокойства. Что важно, так это волнение от Поединка!\"",
       "status": "machine",
-      "srcHash": "d56dce86154bf039",
+      "srcHash": "75b562fc9f6c128b",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndSuccess_3_4": {
       "en": "\"Defeat is of little concern. What matters is the excitement of the Duel!\"",
       "cn": "“我的败绩无妨，‘决斗’精彩便足矣……”",
       "ru": "\"Поражение не вызывает особого беспокойства. Что важно, так это волнение от Поединка!\"",
       "status": "machine",
-      "srcHash": "d56dce86154bf039",
+      "srcHash": "75b562fc9f6c128b",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_0_0": {
       "en": "\"Sparring is meant to encourage one another. Don't let this defeat trouble you...\"",
       "cn": "“切磋本以相互勉励为主，切莫失意……”",
       "ru": "- Спарринг предназначен для того, чтобы подбадривать друг друга. Не позволяй этому поражению беспокоить тебя...\"",
       "status": "machine",
-      "srcHash": "74e88883c4ba1efc",
+      "srcHash": "364958998e0f8550",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_0_1": {
       "en": "\"Sparring is meant to encourage one another. Don't let this defeat trouble you...\"",
       "cn": "“切磋本以相互勉励为主，切莫失意……”",
       "ru": "- Спарринг предназначен для того, чтобы подбадривать друг друга. Не позволяй этому поражению беспокоить тебя...\"",
       "status": "machine",
-      "srcHash": "74e88883c4ba1efc",
+      "srcHash": "364958998e0f8550",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_0_2": {
       "en": "\"It is only thanks to your guidance that I've made even this small progress...\"",
       "cn": "“多亏您的教导，孩儿方能有此小成……”",
       "ru": "\"Только благодаря вашему руководству я добился даже такого небольшого прогресса...\"",
       "status": "machine",
-      "srcHash": "89da1f27dba02a04",
+      "srcHash": "64e1c16eb88cb10b",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_0_3": {
       "en": "\"Sparring is about practical insights. Don't let a loss weigh you down...\"",
       "cn": "“切磋本以实战领悟为主，切莫失意……”",
       "ru": "\"Спарринг - это практическое понимание. Не позволяй потере тяготить тебя...\"",
       "status": "machine",
-      "srcHash": "bda22dc0614923de",
+      "srcHash": "985ec50442ce8615",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_0_4": {
       "en": "\"Sparring is about practical insights. Don't let a loss weigh you down...\"",
       "cn": "“切磋本以实战领悟为主，切莫失意……”",
       "ru": "\"Спарринг - это практическое понимание. Не позволяй потере тяготить тебя...\"",
       "status": "machine",
-      "srcHash": "bda22dc0614923de",
+      "srcHash": "985ec50442ce8615",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_1_0": {
       "en": "\"Victory and defeat are both part of the journey. Don't let it shake your resolve...\"",
       "cn": "“胜负乃是常事，勿颓然失志……”",
       "ru": "\"И победа, и поражение - это часть путешествия. Не позволяй этому поколебать твою решимость...\"",
       "status": "machine",
-      "srcHash": "db7573b46b3c85f2",
+      "srcHash": "2195b8a709832d30",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_1_1": {
       "en": "\"Victory and defeat are both part of the journey. Don't let it shake your resolve...\"",
       "cn": "“胜负乃是常事，勿颓然失志……”",
       "ru": "\"И победа, и поражение - это часть путешествия. Не позволяй этому поколебать твою решимость...\"",
       "status": "machine",
-      "srcHash": "db7573b46b3c85f2",
+      "srcHash": "2195b8a709832d30",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_1_2": {
       "en": "\"Thank you, sir...\"",
       "cn": "“孩儿承让了……”",
       "ru": "\"Благодарю вас, сэр...\"",
       "status": "machine",
-      "srcHash": "c802d572dd47cd65",
+      "srcHash": "89b6b8a2c189c1bf",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_1_3": {
       "en": "\"Victory and defeat are both part of the journey. Don't let it shake your resolve...\"",
       "cn": "“胜负乃是常事，勿颓然失志……”",
       "ru": "\"И победа, и поражение - это часть путешествия. Не позволяй этому поколебать твою решимость...\"",
       "status": "machine",
-      "srcHash": "db7573b46b3c85f2",
+      "srcHash": "2195b8a709832d30",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_1_4": {
       "en": "\"Victory and defeat are both part of the journey. Don't let it shake your resolve...\"",
       "cn": "“胜负乃是常事，勿颓然失志……”",
       "ru": "\"И победа, и поражение - это часть путешествия. Не позволяй этому поколебать твою решимость...\"",
       "status": "machine",
-      "srcHash": "db7573b46b3c85f2",
+      "srcHash": "2195b8a709832d30",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_2_0": {
       "en": "\"Matches may have winners and losers, but in the pursuit of mastery, there is no superiority, only learning from one another...\"",
       "cn": "“术有胜负，道无高低，你我求同存异便好……”",
       "ru": "\"В матчах могут быть победители и проигравшие, но в погоне за мастерством нет превосходства, только обучение друг у друга...\"",
       "status": "machine",
-      "srcHash": "22231010870d47fd",
+      "srcHash": "9286c56b9e607eac",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_2_1": {
       "en": "\"Matches may have winners and losers, but in the pursuit of mastery, there is no superiority, only learning from one another...\"",
       "cn": "“术有胜负，道无高低，你我求同存异便好……”",
       "ru": "\"В матчах могут быть победители и проигравшие, но в погоне за мастерством нет превосходства, только обучение друг у друга...\"",
       "status": "machine",
-      "srcHash": "22231010870d47fd",
+      "srcHash": "9286c56b9e607eac",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_2_2": {
       "en": "\"It is only thanks to your guidance that I've made even this small progress...\"",
       "cn": "“多亏您的教导，孩儿方能有此小成……”",
       "ru": "\"Только благодаря вашему руководству я добился даже такого небольшого прогресса...\"",
       "status": "machine",
-      "srcHash": "89da1f27dba02a04",
+      "srcHash": "64e1c16eb88cb10b",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_2_3": {
       "en": "\"Matches may have winners and losers, but in the pursuit of mastery, there is no superiority, only learning from one another...\"",
       "cn": "“术有胜负，道无高低，你我求同存异便好……”",
       "ru": "\"В матчах могут быть победители и проигравшие, но в погоне за мастерством нет превосходства, только обучение друг у друга...\"",
       "status": "machine",
-      "srcHash": "22231010870d47fd",
+      "srcHash": "9286c56b9e607eac",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_2_4": {
       "en": "\"Matches may have winners and losers, but in the pursuit of mastery, there is no superiority, only learning from one another...\"",
       "cn": "“术有胜负，道无高低，你我求同存异便好……”",
       "ru": "\"В матчах могут быть победители и проигравшие, но в погоне за мастерством нет превосходства, только обучение друг у друга...\"",
       "status": "machine",
-      "srcHash": "22231010870d47fd",
+      "srcHash": "9286c56b9e607eac",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_3_0": {
       "en": "\"Winning or losing aside, that Duel was truly entertaining!\"",
       "cn": "“败绩无妨，‘决斗’精彩便足矣，此间确实乐趣无穷……”",
       "ru": "\"Независимо от победы или поражения, этот Поединок был по-настоящему зрелищным!\"",
       "status": "machine",
-      "srcHash": "dbd9f449f8d44919",
+      "srcHash": "aa575f68c7154ddf",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_3_1": {
       "en": "\"Winning or losing aside, that Duel was truly entertaining!\"",
       "cn": "“败绩无妨，‘决斗’精彩便足矣，此间确实乐趣无穷……”",
       "ru": "\"Независимо от победы или поражения, этот Поединок был по-настоящему зрелищным!\"",
       "status": "machine",
-      "srcHash": "dbd9f449f8d44919",
+      "srcHash": "aa575f68c7154ddf",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_3_2": {
       "en": "\"Winning or losing aside, that Duel was truly entertaining!\"",
       "cn": "“败绩无妨，‘决斗’精彩便足矣，此间确实乐趣无穷……”",
       "ru": "\"Независимо от победы или поражения, этот Поединок был по-настоящему зрелищным!\"",
       "status": "machine",
-      "srcHash": "dbd9f449f8d44919",
+      "srcHash": "aa575f68c7154ddf",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_3_3": {
       "en": "\"Winning or losing aside, that Duel was truly entertaining!\"",
       "cn": "“败绩无妨，‘决斗’精彩便足矣，此间确实乐趣无穷……”",
       "ru": "\"Независимо от победы или поражения, этот Поединок был по-настоящему зрелищным!\"",
       "status": "machine",
-      "srcHash": "dbd9f449f8d44919",
+      "srcHash": "aa575f68c7154ddf",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "AgreeAndFail_3_4": {
       "en": "\"Winning or losing aside, that Duel was truly entertaining!\"",
       "cn": "“败绩无妨，‘决斗’精彩便足矣，此间确实乐趣无穷……”",
       "ru": "\"Независимо от победы или поражения, этот Поединок был по-настоящему зрелищным!\"",
       "status": "machine",
-      "srcHash": "dbd9f449f8d44919",
+      "srcHash": "aa575f68c7154ddf",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_0_0": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_0_1": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_0_2": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_0_3": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_0_4": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_1_0": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_1_1": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_1_2": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_1_3": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_1_4": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_2_0": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_2_1": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_2_2": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_2_3": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_2_4": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_3_0": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_3_1": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_3_2": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_3_3": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "Disagree_3_4": {
       "en": "<Character key=RoleTaiwu str=Name /> politely declined <Character key=CharacterId str=Name />'s request.\\n<Character key=CharacterId str=Name /> feels disappointed and lets out a soft sigh before turning away...",
       "cn": "<Character key=RoleTaiwu str=Name />婉言拒绝了<Character key=CharacterId str=Name />的请求，\\n<Character key=CharacterId str=Name />颇感失望，轻叹一声便转身离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отказался <Character key=CharacterId str=Name />просьба пользователя.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
+      "ru": "<Character key=RoleTaiwu str=Name /> вежливо отклонил просьбу <Character key=CharacterId str=Name />.\\n<Character key=CharacterId str=Name /> чувствует разочарование и тихо вздыхает, прежде чем отвернуться...",
       "status": "machine",
-      "srcHash": "ac07a9b7c224f325",
+      "srcHash": "fc06e4523fde9f75",
       "engine": "yandex",
-      "updatedAt": "2026-06-23T17:15:09.308Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     }
   }
 }

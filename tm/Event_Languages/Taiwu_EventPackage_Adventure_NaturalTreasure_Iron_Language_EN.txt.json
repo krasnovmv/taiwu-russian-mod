@@ -1,286 +1,286 @@
 {
   "schemaVersion": 1,
   "file": "Event_Languages/Taiwu_EventPackage_Adventure_NaturalTreasure_Iron_Language_EN.txt",
-  "glossaryVersion": 6,
+  "glossaryVersion": 7,
   "units": {
     "ec41be0c-dcda-4301-8782-2ef6470f7ab9/EventContent": {
       "en": "Not far ahead lies the <Item key=奖励 str=ColorName/>, guarded by a Mountain Fire Turtle.<NL>The surrounding flames blaze with intense heat. Confronting the beast head-on would be no easy task...<NL><NL>Upon closer inspection, the colossal turtle is busily devouring nearby ores.<NL>Perhaps Metal could be gathered and fashioned into a <color=#orange>Metal Bait</color> to lure it away.",
       "cn": "不远处正是<Item key=奖励 str=ColorName/>所在之地，有一搬山火龟盘踞于此，<NL>四下赤焰炙热，若欲正面与其相抗，绝非易事……<NL><NL>定睛细看，此龟身躯庞大、气焰滔天，正不断啃食周遭矿物，<NL>或许可以搜集金铁打造成<color=#orange>金铁诱饵</color>，借机将其引开……",
       "ru": "Недалеко впереди находится пещера <Item key=奖励 str=ColorName/>, охраняемая Горной Огненной черепахой.<NL>Окружающее пламя источает сильный жар. Встретиться лицом к лицу с чудовищем было бы нелегкой задачей...<NL><NL>При ближайшем рассмотрении оказывается, что колоссальная черепаха деловито пожирает близлежащие руды.<NL>Возможно, металл можно было бы собрать и сделать из него <color=#orange>Металлическую приманку</color> чтобы заманить его подальше.",
       "status": "machine",
-      "srcHash": "ea3db306551a3ecf",
+      "srcHash": "5e9c5afd48ba57d8",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:44:32.486Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "ec41be0c-dcda-4301-8782-2ef6470f7ab9/Option_1": {
       "en": "(Gather Metal and craft it into tools...)",
       "cn": "（搜集金铁，制成工具……）\n",
       "ru": "(Собирайте металл и изготавливайте из него инструменты...)",
       "status": "machine",
-      "srcHash": "7d20adc57310ce20",
+      "srcHash": "9144ededca2774da",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "1af761f0-4674-4282-b201-8e4e03b94473/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "1b3febdd55dddecc",
+      "srcHash": "9f3c43bb86543291",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "055c640e-abc1-4dc5-a06a-d4796ed16817/EventContent": {
       "en": "A Metal Bait can be placed here to lure the Mountain Fire Turtle closer.<NL>However, the intense heat will gradually melt the bait, so time is of the essence.<NL><NL>(The higher the character's <LifeSkillType key=技艺类型 str=Name/> Proficiency, the longer the bait will last and the longer the turtle will spend consuming it.)",
       "cn": "可在此布置金铁诱饵，引诱搬山火龟靠近，<NL>奈何此地烈焰蒸腾，诱饵亦会消融，还须趁早行动……<NL><NL>（人物的<LifeSkillType key=技艺类型 str=Name/>造诣越高，诱饵消失的越慢，火龟吞食金铁的时间越长……）",
       "ru": "Сюда можно поместить металлическую приманку, чтобы подманить горную огненную черепаху поближе.<NL>Однако при сильном нагреве приманка постепенно расплавится, поэтому время имеет решающее значение.<NL><NL>(Чем выше рейтинг персонажа <LifeSkillType key=技艺类型 str=Name/> Чем опытнее приманка, тем дольше она прослужит и тем дольше черепаха будет ее потреблять.)",
       "status": "machine",
-      "srcHash": "15fa67c20a27b1f0",
+      "srcHash": "00398d228bb6a85f",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:44:32.486Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "055c640e-abc1-4dc5-a06a-d4796ed16817/Option_1": {
       "en": "(Set bait...)",
       "cn": "（布置诱饵……）",
       "ru": "(Установить приманку...)",
       "status": "machine",
-      "srcHash": "bb74241da5892217",
+      "srcHash": "f83d1eda1f9aea67",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "055c640e-abc1-4dc5-a06a-d4796ed16817/Option_2": {
       "en": "(Think of another move...)",
       "cn": "（再做打算……）\n",
       "ru": "(Придумай другой ход...)",
       "status": "machine",
-      "srcHash": "6815cefe7cfc5faf",
+      "srcHash": "02feec316094ba3c",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "cb5849ba-1f78-49bc-9a87-8a31d0e248a2/EventContent": {
       "en": "A Metal Bait has already been placed here...",
       "cn": "此地已有金铁诱饵，无需再度布置新饵……",
       "ru": "Здесь уже была установлена металлическая приманка...",
       "status": "machine",
-      "srcHash": "f7d9ff45130272ca",
+      "srcHash": "1384fceb9576845d",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "cb5849ba-1f78-49bc-9a87-8a31d0e248a2/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "c164dbd93b3e7858",
+      "srcHash": "3ed8e8d8dc7ad7bb",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "2f56c61b-0d7c-4441-8e70-c1743fe29b98/EventContent": {
       "en": "The Metal Bait has been set in place. Under the relentless heat, it will not last long before melting away entirely...",
       "cn": "金铁诱饵布置完成，受烈焰持续灼烧，用不了多久便会化为乌有……",
       "ru": "Металлическая приманка установлена на место. При сильном нагреве она долго не продержится и полностью расплавится...",
       "status": "machine",
-      "srcHash": "664d1a10942d9fec",
+      "srcHash": "8504a130dd108516",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:21:51.980Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "2f56c61b-0d7c-4441-8e70-c1743fe29b98/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "c164dbd93b3e7858",
+      "srcHash": "3ed8e8d8dc7ad7bb",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "fd54e7a0-5696-4cd5-b627-96d169447827/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "1b3febdd55dddecc",
+      "srcHash": "9f3c43bb86543291",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "39f8df4e-70a1-4a64-b313-8bace2abc255/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "1b3febdd55dddecc",
+      "srcHash": "9f3c43bb86543291",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "8f4045c2-e5c0-429f-a068-63120956e426/EventContent": {
       "en": "This place is unbearably hot. Hidden within the lava lies the Divine Iron awaiting extraction, a treasure rarely seen in the world.<NL>Nearby, a Mountain Fire Turtle stands guard, never straying far from its post...<NL><NL>The creature's shell is as massive as a hill, etched with glowing lava-like patterns. Fierce and formidable, it is not an opponent to be taken lightly.<NL>To claim the Divine Iron, you must either defeat the Mountain Fire Turtle or lure it away.",
       "cn": "此地炽热难耐，神铁隐于熔岩之间，尚待采掘，乃是世间难得的奇珍，<NL>近旁可见搬山火龟盘桓驻守，寸步不离……<NL><NL>那搬山火龟背覆硬甲，状如丘山，甲面遍布熔岩纹路，凶悍难挡。<NL>欲要取走神铁，需将那搬山火龟击败，或设法将其诱离。",
       "ru": "В этом месте невыносимо жарко. В лаве спрятано Божественное железо, ожидающее извлечения, - сокровище, которое редко можно увидеть в мире.<NL>Неподалеку на страже стоит Горная Огненная черепаха, которая никогда не отходит далеко от своего поста...<NL><NL>Панцирь этого существа массивен, как холм, и покрыт узорами, напоминающими раскаленную лаву. Свирепый и грозный, он не из тех противников, к которым стоит относиться легкомысленно.<NL>Чтобы завладеть Божественным железом, вы должны либо победить Горную Огненную черепаху, либо выманить ее.",
       "status": "machine",
-      "srcHash": "e404fbdccec796d6",
+      "srcHash": "31d69e9af4191912",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T14:04:16.992Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "8f4045c2-e5c0-429f-a068-63120956e426/Option_1": {
       "en": "(Attack the Mountain Fire Turtle...)",
       "cn": "（袭击火龟……）",
       "ru": "(Атака Горной огненной черепахи...)",
       "status": "machine",
-      "srcHash": "71f79eba08d1422f",
+      "srcHash": "03745a4300a0cec5",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "8f4045c2-e5c0-429f-a068-63120956e426/Option_2": {
       "en": "(Avoid the Mountain Fire Turtle...)",
       "cn": "（避开火龟……）\n",
       "ru": "(Избегайте горной огненной черепахи...)",
       "status": "machine",
-      "srcHash": "2ced6ee1588eb8dc",
+      "srcHash": "cac636539b3086bd",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "66c5e642-a6ef-458f-ab38-63153b213819/EventContent": {
       "en": "The Mountain Fire Turtle scans its surroundings, searching for metal ores to devour.<NL>Oblivious to everything else nearby... perhaps now is the time to strike?",
       "cn": "搬山火龟四处张望，四下搜寻可以啃食的金铁矿物，<NL>对周遭动静一无所觉，可要趁机出手？",
       "ru": "Горная Огненная черепаха осматривает окрестности в поисках металлических руд для пожирания.<NL>Не обращая внимания ни на что вокруг... возможно, сейчас самое время нанести удар?",
       "status": "machine",
-      "srcHash": "fe613603ae5bd574",
+      "srcHash": "8eefc8dc8cb8f103",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:21:51.980Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "66c5e642-a6ef-458f-ab38-63153b213819/Option_1": {
       "en": "(Attack the Mountain Fire Turtle...)",
       "cn": "（袭击火龟……）",
       "ru": "(Атака Горной огненной черепахи...)",
       "status": "machine",
-      "srcHash": "71f79eba08d1422f",
+      "srcHash": "03745a4300a0cec5",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "66c5e642-a6ef-458f-ab38-63153b213819/Option_2": {
       "en": "(Consider further...)",
       "cn": "（再做考虑……）\n",
       "ru": "(Рассмотрим далее...)",
       "status": "machine",
-      "srcHash": "a4d06c7f90c591fb",
+      "srcHash": "96bf8629776a7a25",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "4050ad09-be9f-42fc-8fdb-182da974567a/EventContent": {
       "en": "The Divine Iron is within reach, but the Mountain Fire Turtle has already noticed and is rushing back with an enraged roar.<NL>If you give up now, you'll have to start the excavation all over again. If you press on, you'll have to face the Mountain Fire Turtle in battle!",
       "cn": "神铁触手可及，搬山火龟却已怒号而归。<NL>此时若放弃，便只能从头捞取神铁；若不放弃，则需直面搬山火龟一战！",
       "ru": "Божественное железо находится в пределах досягаемости, но Горная Огненная черепаха уже заметила его и с яростным ревом мчится обратно.<NL>Если вы сейчас сдадитесь, вам придется начинать раскопки заново. Если вы продолжите, вам придется сразиться с Горной Огненной Черепахой в бою!",
       "status": "machine",
-      "srcHash": "7899b0e0ff137659",
+      "srcHash": "7e095b29f1934e4d",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:33:28.842Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "4050ad09-be9f-42fc-8fdb-182da974567a/Option_1": {
       "en": "(Engage in battle...)",
       "cn": "（与之一战……）",
       "ru": "(Вступайте в бой...)",
       "status": "machine",
-      "srcHash": "0b24bafe4fe65be0",
+      "srcHash": "9b72615663d87e7e",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "4050ad09-be9f-42fc-8fdb-182da974567a/Option_2": {
       "en": "(Give up the excavation...)",
       "cn": "（放弃发掘……）\n",
       "ru": "(Откажитесь от раскопок...)",
       "status": "machine",
-      "srcHash": "9572c9aee99352d6",
+      "srcHash": "a0273a26767268a4",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "6d4d8181-b37d-4be0-b65c-ef10b6a28d03/EventContent": {
       "en": "The <Item key=奖励 str=ColorName/> glimmers faintly within the lava. The Mountain Fire Turtle is nowhere to be seen for the moment.<NL>With sufficient care, it can be mined and taken away.",
       "cn": "那<Item key=奖励 str=ColorName/>在熔岩中隐现，搬山火龟却暂不在此处守护，<NL>此刻只需小心将其采掘，便可取走……",
       "ru": "То <Item key=奖励 str=ColorName/> в лаве что-то слабо мерцает. Горной огненной черепахи пока нигде не видно.<NL>При должной осторожности ее можно добыть и забрать с собой.",
       "status": "machine",
-      "srcHash": "85119047d6ff4672",
+      "srcHash": "e9a7ff7e510d7e1f",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:21:51.980Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "6d4d8181-b37d-4be0-b65c-ef10b6a28d03/Option_1": {
       "en": "(Excavate the Divine Iron...)",
       "cn": "（采掘神铁……）",
       "ru": "(Выкопайте Божественное железо...)",
       "status": "machine",
-      "srcHash": "a6877d874e8a89cf",
+      "srcHash": "507b3646dec29c85",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "6d4d8181-b37d-4be0-b65c-ef10b6a28d03/Option_2": {
       "en": "(Think of another move...)",
       "cn": "（再做打算……）\n",
       "ru": "(Придумай другой ход...)",
       "status": "machine",
-      "srcHash": "6815cefe7cfc5faf",
+      "srcHash": "02feec316094ba3c",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "4a5eac08-14d0-469d-8a8a-f9e85a983cce/EventContent": {
       "en": "Amid a sea of blazing magma, dodging bursts of molten lava,<NL>You successfully obtained <Item key=奖励 str=ColorName/>, its quality exceptionally pure...",
       "cn": "身处烈焰火池，周遭岩浆滚滚，避过翻涌火浆，<NL>顺利取得<Item key=奖励 str=ColorName/>，质地极为精纯……",
       "ru": "Посреди моря пылающей магмы, уворачиваясь от потоков расплавленной лавы,<NL>Вы успешно получили <Item key=奖励 str=ColorName/>, ее качество исключительно чистое...",
       "status": "machine",
-      "srcHash": "928d6a3079b6f5fe",
+      "srcHash": "a266dd19a9c124c8",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:21:51.980Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "4a5eac08-14d0-469d-8a8a-f9e85a983cce/Option_1": {
       "en": "(Glad to hear that...)",
       "cn": "（如此甚好……）\n",
       "ru": "(Рад это слышать...)",
       "status": "machine",
-      "srcHash": "3d2966c095d56bb2",
+      "srcHash": "38dfeaeca41927a9",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "fcc21c5e-0094-4338-9304-5fe011119a8b/EventContent": {
       "en": "The <Item key=奖励 str=ColorName/> lies hidden within the lava. The Mountain Fire Turtle is dead and will no longer stand in the way.<NL>All that remains is to carefully extract it...",
       "cn": "那<Item key=奖励 str=ColorName/>在熔岩中隐现，搬山火龟已死，不会再来阻拦，<NL>此刻只需小心将其采掘，便可取走……",
       "ru": "То <Item key=奖励 str=ColorName/> она скрыта в лаве. Горная Огненная черепаха мертва и больше не будет стоять у нас на пути.<NL>Все, что остается, - это осторожно извлечь ее...",
       "status": "machine",
-      "srcHash": "86193d576ea75672",
+      "srcHash": "d44a952923ffadbd",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:21:51.980Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "fcc21c5e-0094-4338-9304-5fe011119a8b/Option_1": {
       "en": "(Excavate the Divine Iron...)",
       "cn": "（采掘神铁……）",
       "ru": "(Выкопайте Божественное железо...)",
       "status": "machine",
-      "srcHash": "a6877d874e8a89cf",
+      "srcHash": "507b3646dec29c85",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "fcc21c5e-0094-4338-9304-5fe011119a8b/Option_2": {
       "en": "(Leave...)",
       "cn": "（暂时离开……）\n",
       "ru": "(Уходи...)",
       "status": "machine",
-      "srcHash": "0c7ca84563ea2d14",
+      "srcHash": "265842a366135f94",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "c7348547-b8e1-47b1-b6db-ff9f6775962d/EventContent": {
       "en": "Amid a sea of blazing magma, dodging bursts of molten lava,<NL>You successfully obtained <Item key=奖励 str=ColorName/>, its quality exceptionally pure...",
       "cn": "身处烈焰火池，周遭岩浆滚滚，避过翻涌火浆，<NL>顺利取得<Item key=奖励 str=ColorName/>，质地极为精纯……",
       "ru": "Посреди моря пылающей магмы, уворачиваясь от потоков расплавленной лавы,<NL>Вы успешно получили <Item key=奖励 str=ColorName/>, ее качество исключительно чистое...",
       "status": "machine",
-      "srcHash": "928d6a3079b6f5fe",
+      "srcHash": "a266dd19a9c124c8",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:21:51.980Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     },
     "c7348547-b8e1-47b1-b6db-ff9f6775962d/Option_1": {
       "en": "...",
       "cn": "……\n",
       "ru": "...",
       "status": "machine",
-      "srcHash": "0d158b3b07902186",
+      "srcHash": "5712357161b7da96",
       "engine": "yandex",
-      "updatedAt": "2026-06-29T10:18:49.896Z"
+      "updatedAt": "2026-07-01T23:51:17.774Z"
     }
   }
 }
