@@ -1,5 +1,5 @@
 {
-  "_comment": "Canonical Taiwu terms (EN->RU) handed to the engine to enforce, grouped by meaning. Matched case-insensitively as whole words; only terms in a unit are sent. Yandex applies them via its native glossary with exact:false (it DECLINES each term to fit Russian grammar); LM Studio gets them in the prompt with the same instruction. Give the dictionary (nominative) RU form (e.g. Sect->секта); the engine inflects it. Bump GLOSSARY_VERSION in src/config/glossary.ts after changing any value. Keys starting with '_' are ignored. (Chinese source terms were dropped from this file; see git history for the {ru,cn} form.)",
+  "_comment": "Canonical Taiwu terms (EN->RU) handed to the engine to enforce, grouped by meaning. Matched case-insensitively as whole words; only terms in a unit are sent. Yandex applies them via its native glossary with exact:false (it DECLINES each term to fit Russian grammar); LM Studio gets them in the prompt with the same instruction. Give the dictionary (nominative) RU form (e.g. Sect->секта); the engine inflects it. Bump GLOSSARY_VERSION in src/config/glossary.ts after changing any value. Keys starting with '_' are ignored. A value may be a bare RU string, or an object {ru, feed}: 'feed' is an engine-facing surrogate used when the raw term breaks the MT engine (e.g. the period in 'Phy.' is read by Yandex as a sentence boundary, splitting the term); the dot-free surrogate ('Physical Penetration') is fed to Yandex in both the text and the glossary pair so matching and declension work, then the RU value comes back declined. (Chinese source terms were dropped from this file; see git history for the {ru,cn} form.)",
 
   "Qi": "Ци",
   "True Qi": "Истинная ци",
@@ -47,8 +47,8 @@
   "Force": "Мощь",
   "Precision": "Точность",
   "Dexterity": "Стремительность",
-  "Phy. Penetration": "Физ. урон",
-  "Phy. Defense": "Физ. защита",
+  "Phy. Penetration": { "ru": "Физ. урон", "feed": "Physical Penetration" },
+  "Phy. Defense": { "ru": "Физ. защита", "feed": "Physical Defense" },
   "Qi Penetration": "Урон ци",
   "Qi Defense": "Защита от ци",
   "Parry": "Парирование",

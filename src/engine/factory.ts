@@ -1,7 +1,7 @@
 import path from "node:path";
 
 import { cacheDir } from "../config/paths.js";
-import { loadGlossary } from "../glossary/load.js";
+import { loadGlossary, loadGlossaryFeeds } from "../glossary/load.js";
 import { markupPreserved } from "./protect.js";
 import { CachingEngine } from "./caching.js";
 import { LmStudioEngine } from "./lmstudio.js";
@@ -38,8 +38,19 @@ export async function createEngine(
 ): Promise<TranslationEngine> {
   if (id === "mock") return new MockEngine();
   const glossary = await loadGlossary();
+  // Dot-breaking surrogates are a Yandex-only workaround (its neuroglossary
+  // segments on the abbreviation period); LM Studio handles the raw term via the
+  // prompt, so it neither needs nor keys on them.
+  const feeds = id === "yandex" ? await loadGlossaryFeeds() : undefined;
   const inner =
     // Credentials come from the `yc` CLI, resolved lazily on first use.
-    id === "yandex" ? YandexEngine.fromEnv(glossary) : LmStudioEngine.fromEnv(glossary);
-  return new CachingEngine(inner, cacheFile(id), glossary, markupPreserved, opts.cacheOnly ?? false);
+    id === "yandex" ? YandexEngine.fromEnv(glossary, feeds) : LmStudioEngine.fromEnv(glossary);
+  return new CachingEngine(
+    inner,
+    cacheFile(id),
+    glossary,
+    markupPreserved,
+    opts.cacheOnly ?? false,
+    feeds,
+  );
 }

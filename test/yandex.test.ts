@@ -41,6 +41,18 @@ test("glossaryPairsForTexts builds exact:false pairs for terms in the batch", ()
   assert.ok(!pairs.some((p) => p.sourceText === "loong"));
 });
 
+test("glossaryPairsForTexts uses the feed surrogate as the pair source", () => {
+  const glossary = new Map([["phy. penetration", "Физ. урон"]]);
+  const feeds = new Map([["phy. penetration", "Physical Penetration"]]);
+  const pairs = glossaryPairsForTexts(["boosts Phy. Penetration"], glossary, feeds);
+  assert.deepEqual(pairs, [
+    { sourceText: "Physical Penetration", translatedText: "Физ. урон", exact: false },
+  ]);
+  // without feeds, the raw (dotted) term is the source — unchanged behaviour
+  const raw = glossaryPairsForTexts(["boosts Phy. Penetration"], glossary);
+  assert.equal(raw[0]?.sourceText, "phy. penetration");
+});
+
 test("glossaryPairsForTexts is empty without a glossary or matches", () => {
   assert.deepEqual(glossaryPairsForTexts(["plain text"], new Map()), []);
   assert.deepEqual(glossaryPairsForTexts(["plain text"], new Map([["qi", "ци"]])), []);

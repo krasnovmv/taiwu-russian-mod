@@ -12183,11 +12183,11 @@
     "r218c4e5": {
       "en": "Phy. Penetration/Phy. Defense",
       "cn": "",
-      "ru": "Физика. Проникновение/Физика. Защита",
+      "ru": "Физ. урон/Физ. защита",
       "status": "machine",
-      "srcHash": "9708a4319257da70",
+      "srcHash": "84cd96d87680b3d0",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r218c4e6": {
       "en": "Qi Penetration/Qi Defense",
@@ -17187,29 +17187,29 @@
     "r469c4e1": {
       "en": "Represents a character's ability to deal damage to enemies\\u002c including Phy. Penetration and Qi Penetration.",
       "cn": " 主要属性之一，代表人物的先天素质、骨血品质等。",
-      "ru": "Представляет способность персонажа наносить урон врагам\\u002c включая физику. Проникновение и Урон Ци.",
+      "ru": "Представляет способность персонажа наносить урон врагам\\u002c в том числе Физ. урон и Урон Ци.",
       "status": "machine",
-      "srcHash": "94f7672361212992",
+      "srcHash": "9d20c0a1ffb70dc4",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r470c4e0": {
       "en": "Phy. Penetration",
       "cn": "悟性",
-      "ru": "Физика. Проникновение",
+      "ru": "Физ. урон",
       "status": "machine",
-      "srcHash": "3901c3edb6681a7b",
+      "srcHash": "da829d4e7ee3ca78",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r470c4e1": {
       "en": "One of the Attack Attributes. The ability to penetrate the enemy's Phy. Defense and increase the External Injury they take.",
       "cn": " 主要属性之一，代表人物的理解能力、感知力等。",
-      "ru": "Один из Характеристик Атаки. Способность проникать в организм противника. Защита и увеличение Внешних травм, которые они получают.",
+      "ru": "Один из Характеристик Атаки. Способность проникать сквозь Физ. защиту противника и увеличивать получаемые им Внешние травмы.",
       "status": "machine",
-      "srcHash": "af3f7f9c28ec0e20",
+      "srcHash": "02912452c904aebf",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r471c4e0": {
       "en": "Qi Penetration",
@@ -17241,20 +17241,20 @@
     "r472c4e1": {
       "en": "Represents a character's ability to withstand damage from enemies\\u002c including Phy. Defense and Qi Defense.",
       "cn": " 代表人物对敌人造成伤害的能力，包括破体、破气。",
-      "ru": "Представляет способность персонажа выдерживать урон от врагов\\u002c включая физику. Защита и Защита от Ци.",
+      "ru": "Представляет способность персонажа выдерживать урон от врагов\\u002c в том числе Физ. защита и Защита от Ци.",
       "status": "machine",
-      "srcHash": "2455c73db5e0d0c3",
+      "srcHash": "1d830589a622202e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r473c4e0": {
       "en": "Phy. Defense",
       "cn": "破体",
       "ru": "Физ. защита",
       "status": "machine",
-      "srcHash": "d2db212eb02445f1",
+      "srcHash": "baa6524b4da0fe4a",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r473c4e1": {
       "en": "One of the Defense Attributes. The ability to maintain physical fitness and reduce External Injury.",
@@ -22461,11 +22461,11 @@
     "r762c4e1": {
       "en": "The ratio of Inhale and Stance required to execute a Martial Art.\\nIf it is an Annihilation Martial Art\\u002c it also determines the ratio of Phy. Penetration and Qi Penetration.",
       "cn": " 已突破的功法具有的特殊效果，分为正练和逆练。",
-      "ru": "Соотношение вдоха и Стойки, необходимое для выполнения Боевой техники.\\nЕсли это Боевая техника Сокрушения\\u002c это также определяет соотношение Phy. Проникновение и Урон Ци.",
+      "ru": "Соотношение вдоха и Стойки, необходимое для выполнения Боевой техники.\\nЕсли это Боевая техника Сокрушения\\u002c это также определяет соотношение Физ. урона и Урона Ци.",
       "status": "machine",
-      "srcHash": "f692226ec2bf4934",
+      "srcHash": "26d467b7be5523ac",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r763c4e0": {
       "en": "Qi Art Ratio",
@@ -22497,11 +22497,11 @@
     "r764c4e1": {
       "en": "The ratio of Stance required to execute a Martial Art.\\nIf it is an Annihilation Martial Art\\u002c it also determines the ratio of Phy. Penetration.",
       "cn": " 心法效果为逆练。需要功法已突破，且参悟的逆练心法多于正练心法。",
-      "ru": "Соотношение Стоек, необходимых для выполнения Боевой техники.\\nЕсли это Боевая техника Сокрушения\\u002c это также определяет соотношение Phy. Проникновение.",
+      "ru": "Соотношение Стоек, необходимых для выполнения Боевой техники.\\nЕсли это Боевая техника Сокрушения\\u002c это также определяет соотношение Физ. урона.",
       "status": "machine",
-      "srcHash": "69da2ef33e70381d",
+      "srcHash": "e88fe93dc2b15906",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r765c4e0": {
       "en": "Breakthrough",
@@ -28365,11 +28365,11 @@
     "r1094c4e1": {
       "en": "The Qi Penetration and Phy. Penetration ratio of a weapon.",
       "cn": " 兵器攻击命中后，触发追击的概率。",
-      "ru": "Урон Ци и физическая сила. Коэффициент пробиваемости Оружия.",
+      "ru": "Соотношение Урона Ци и Физ. урона Оружия.",
       "status": "machine",
-      "srcHash": "9dc5dc6b8cbc5c63",
+      "srcHash": "dd2d76b38c890ebb",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r1095c4e0": {
       "en": "Usage Requirements",

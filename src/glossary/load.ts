@@ -1,7 +1,13 @@
 /**
- * Glossary loader. Reads `data/glossary.json` (EN→RU terms) into a lowercased
- * map for case-insensitive matching. Keys starting with `_` are metadata and
+ * Glossary loader. Reads `data/glossary.json` (EN→RU terms) into lowercased maps
+ * for case-insensitive matching. Keys starting with `_` are metadata and
  * ignored. Loaded once and cached.
+ *
+ * A value is either a bare RU string (`"Sect": "секта"`) or an object
+ * `{ ru, feed }`. `feed` is an optional engine-facing surrogate for the EN key,
+ * used when the raw term confuses the MT engine (e.g. a period in `Phy.` that
+ * Yandex reads as a sentence boundary). It is collected into a separate
+ * EN→feed map handed only to the engine; matching still keys on the real term.
  */
 import { readFile } from "node:fs/promises";
 import path from "node:path";
@@ -10,10 +16,20 @@ import { projectRoot } from "../config/paths.js";
 
 const glossaryPath = path.join(projectRoot, "data", "glossary.json");
 
-let cached: ReadonlyMap<string, string> | null = null;
+/** A glossary value: a bare RU string, or `{ ru, feed? }`. */
+type GlossaryValue = string | { ru: string; feed?: string };
 
-/** Load the glossary as a lowercased EN→RU map (cached across calls). */
-export async function loadGlossary(): Promise<ReadonlyMap<string, string>> {
+interface ParsedGlossary {
+  /** EN (lowercased) → canonical RU. */
+  terms: ReadonlyMap<string, string>;
+  /** EN (lowercased) → engine-facing surrogate, only for terms that need one. */
+  feeds: ReadonlyMap<string, string>;
+}
+
+let cached: ParsedGlossary | null = null;
+
+/** Parse `data/glossary.json` into the terms + feeds maps (cached across calls). */
+async function loadParsed(): Promise<ParsedGlossary> {
   if (cached) return cached;
 
   let raw: string;
@@ -21,18 +37,38 @@ export async function loadGlossary(): Promise<ReadonlyMap<string, string>> {
     raw = await readFile(glossaryPath, "utf8");
   } catch (err) {
     if ((err as NodeJS.ErrnoException).code === "ENOENT") {
-      cached = new Map();
+      cached = { terms: new Map(), feeds: new Map() };
       return cached;
     }
     throw err;
   }
 
-  const parsed = JSON.parse(raw) as Record<string, string>;
-  const map = new Map<string, string>();
-  for (const [en, ru] of Object.entries(parsed)) {
+  const parsed = JSON.parse(raw) as Record<string, GlossaryValue>;
+  const terms = new Map<string, string>();
+  const feeds = new Map<string, string>();
+  for (const [en, value] of Object.entries(parsed)) {
     if (en.startsWith("_")) continue;
-    map.set(en.toLowerCase(), ru);
+    const key = en.toLowerCase();
+    if (typeof value === "string") {
+      terms.set(key, value);
+    } else {
+      terms.set(key, value.ru);
+      if (value.feed) feeds.set(key, value.feed);
+    }
   }
-  cached = map;
+  cached = { terms, feeds };
   return cached;
+}
+
+/** Load the glossary as a lowercased EN→RU map (cached across calls). */
+export async function loadGlossary(): Promise<ReadonlyMap<string, string>> {
+  return (await loadParsed()).terms;
+}
+
+/**
+ * Load the lowercased EN→feed surrogate map (cached across calls). Empty unless
+ * some term carries a `feed` — most don't, so this is usually a tiny map.
+ */
+export async function loadGlossaryFeeds(): Promise<ReadonlyMap<string, string>> {
+  return (await loadParsed()).feeds;
 }

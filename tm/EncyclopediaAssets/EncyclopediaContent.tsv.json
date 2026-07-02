@@ -81717,11 +81717,11 @@
     "r2033c6": {
       "en": "Attack Attributes represent a character's damage-dealing capability and consist of Phy. Penetration and Qi Penetration.",
       "cn": "",
-      "ru": "Характеристики Атаки представляют способность персонажа наносить урон и состоят из Phy. Проникновение и Урон Ци.",
+      "ru": "Характеристики Атаки представляют способность персонажа наносить урон и состоят из Физ. урона и Урона Ци.",
       "status": "machine",
-      "srcHash": "0ec3166fdf09cbe3",
+      "srcHash": "753b364af6903889",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r2034c0": {
       "en": "Character",
@@ -81807,11 +81807,11 @@
     "r2035c6": {
       "en": "Phy. Penetration: Break through the enemy's Physical Defense\\u002c increasing the enemy's susceptibility to <color=#6fb6ff><u><link=\"外伤\">External Injury</link></u></color>.",
       "cn": "",
-      "ru": "Физика. Проникновение: Прорвать физическую защиту противника\\u002c повышение восприимчивости противника к <color=#6fb6ff><u><link=\"外伤\">Внешняя травма</link></u></color>.",
+      "ru": "Физ. урон: Прорвать Физ. защиту противника.\\u002c повышение восприимчивости противника к <color=#6fb6ff><u><link=\"外伤\">Внешняя травма</link></u></color>.",
       "status": "machine",
-      "srcHash": "c0aed07ed5312af8",
+      "srcHash": "8d4f9805f2c69527",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r2036c0": {
       "en": "Character",
@@ -82070,9 +82070,9 @@
       "cn": "",
       "ru": "Физ. защита: Укрепляет организм и обеспечивает надежную защиту\\u002c уменьшение полученного <color=#6fb6ff><u><link=\"外伤\">Внешняя травма</link></u></color>",
       "status": "machine",
-      "srcHash": "8ff82f40931a26dc",
+      "srcHash": "05c055778a7a885d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r2042c0": {
       "en": "Character",
@@ -167109,11 +167109,11 @@
     "r4059c6": {
       "en": "Qi/Physical Martial Arts Ratio determines the consumption of <color=#6fb6ff><u><link=\"提气\">Inhale</link></u></color> and <color=#6fb6ff><u><link=\"架势\">Stance</link></u></color> for casting a Technique. For Annihilation Techniques\\u002c it also determines the ratio of <color=#6fb6ff><u><link=\"破气\">Qi Penetration</link></u></color> and <color=#6fb6ff><u><link=\"破体\">Phy. Penetration</link></u></color> (i.e.\\u002c whether injuries tend to be internal or external).",
       "cn": "",
-      "ru": "Соотношение Ци и физических Боевых искусств определяет потребление <color=#6fb6ff><u><link=\"提气\">Вдохните</link></u></color> и <color=#6fb6ff><u><link=\"架势\">Стойка</link></u></color> для подбора техники. Для методов Сокрушения\\u002c это также определяет соотношение <color=#6fb6ff><u><link=\"破气\">Урон Ци</link></u></color> и <color=#6fb6ff><u><link=\"破体\">Физика. Проникновение</link></u></color> (т.е.\\u002c независимо от того, являются ли травмы внутренними или внешними).",
+      "ru": "Соотношение Ци и физических Боевых искусств определяет потребление <color=#6fb6ff><u><link=\"提气\">Вдохните</link></u></color> и <color=#6fb6ff><u><link=\"架势\">Стойка</link></u></color> для подбора техники. Для методов Сокрушения\\u002c это также определяет соотношение <color=#6fb6ff><u><link=\"破气\">Урон Ци</link></u></color> и <color=#6fb6ff><u><link=\"破体\">Физ. урон</link></u></color> (т.е.\\u002c независимо от того, являются ли травмы внутренними или внешними).",
       "status": "machine",
-      "srcHash": "5e9852519aaa978b",
+      "srcHash": "304e8b4fb20589b9",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r4060c0": {
       "en": "Cultivate",
@@ -177018,11 +177018,11 @@
     "r4304c6": {
       "en": "Nimble True Qi: <color=#6fb6ff><u><link=\"攻击属性\">Attack Attributes</link></u></color> (mainly Phy. Penetration)\\u002c <color=#6fb6ff><u><link=\"防御属性\">Defense Attributes</link></u></color> (mainly Phy. Defense)\\u002c <color=#6fb6ff><u><link=\"命中属性\">Hit Attributes</link></u></color> (mainly Dexterity)\\u002c <color=#6fb6ff><u><link=\"化解属性\">Deflect Attributes</link></u></color> (mainly Dodge)\\u002c <color=#6fb6ff><u><link=\"架势恢复\">Stance Recovery</link></u></color>\\u002c <color=#6fb6ff><u><link=\"移动速度\">Movement Speed</link></u></color>\\u002c <color=#6fb6ff><u><link=\"攻击速度\">Attack Speed</link></u></color>\\u002c <color=#6fb6ff><u><link=\"郁毒抵抗\">Umbritoxin Res</link></u></color>.",
       "cn": "一种真气的数量越多，后续每次凝聚此类真气需要的内力越多。",
-      "ru": "Проворная Истинная Ци: <color=#6fb6ff><u><link=\"攻击属性\">Характеристики Атаки</link></u></color> (в основном физическая. Проникновение)\\u002c <color=#6fb6ff><u><link=\"防御属性\">Характеристики защиты</link></u></color> (в основном физическая. Защита)\\u002c <color=#6fb6ff><u><link=\"命中属性\">Характеристики попадания</link></u></color> (в основном Стремительность)\\u002c <color=#6fb6ff><u><link=\"化解属性\">Отклонять Характеристики</link></u></color> (в основном Уклонение)\\u002c <color=#6fb6ff><u><link=\"架势恢复\">Восстановление стойки</link></u></color>\\u002c <color=#6fb6ff><u><link=\"移动速度\">Скорость передвижения</link></u></color>\\u002c <color=#6fb6ff><u><link=\"攻击速度\">Скорость атаки</link></u></color>\\u002c <color=#6fb6ff><u><link=\"郁毒抵抗\">Умбротоксин Res</link></u></color>.",
+      "ru": "Проворная Истинная Ци: <color=#6fb6ff><u><link=\"攻击属性\">Характеристики Атаки</link></u></color> (главным образом, Физ. урон от \"физического проникновения\")\\u002c <color=#6fb6ff><u><link=\"防御属性\">Характеристики защиты</link></u></color> (главным образом, Физ. защита)\\u002c <color=#6fb6ff><u><link=\"命中属性\">Характеристики попадания</link></u></color> (в основном Стремительность)\\u002c <color=#6fb6ff><u><link=\"化解属性\">Отклонять Характеристики</link></u></color> (в основном Уклонение)\\u002c <color=#6fb6ff><u><link=\"架势恢复\">Восстановление стойки</link></u></color>\\u002c <color=#6fb6ff><u><link=\"移动速度\">Скорость передвижения</link></u></color>\\u002c <color=#6fb6ff><u><link=\"攻击速度\">Скорость атаки</link></u></color>\\u002c <color=#6fb6ff><u><link=\"郁毒抵抗\">Умбротоксин Res</link></u></color>.",
       "status": "machine",
-      "srcHash": "e3bd724c8829efd5",
+      "srcHash": "7c46ddd0f16ede4e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r4305c0": {
       "en": "Cultivate",
@@ -198411,11 +198411,11 @@
     "r4825c6": {
       "en": "External Injury damage: The amount of damage depends on the attacker's <color=#6fb6ff><u><link=\"破体\">Phy. Penetration</link></u></color> and the defender's <color=#6fb6ff><u><link=\"御体\">Phy. Defense</link></u></color>.",
       "cn": "造成<color=#6fb6ff><u><link=\"失神伤害\">失神伤害</link></u></color>的攻击无法命中要害。",
-      "ru": "Повреждение от Внешней травмы: Размер повреждения зависит от действий нападающего. <color=#6fb6ff><u><link=\"破体\">Физика. Проникновение</link></u></color> и у защитника <color=#6fb6ff><u><link=\"御体\">Физ. защита</link></u></color>.",
+      "ru": "Повреждение от Внешней травмы: Размер повреждения зависит от действий нападающего. <color=#6fb6ff><u><link=\"破体\">Физ. урон</link></u></color> и у защитника <color=#6fb6ff><u><link=\"御体\">Физ. защита</link></u></color>.",
       "status": "machine",
-      "srcHash": "a6665c020c2b79cb",
+      "srcHash": "7df5901ff8d8a251",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r4826c0": {
       "en": "Battle",
@@ -199401,11 +199401,11 @@
     "r4848c6": {
       "en": "Attack and Defense Attributes: For Internal Injury DMG\\u002c use Qi Penetration and Qi Defense; for External Injury DMG\\u002c use Phy. Penetration and Phy. Defense.",
       "cn": "失神强健 = 160；重创强健 = 200",
-      "ru": "Характеристики Атаки и защиты: Для Внутренних травм DMG\\u002c используйте Урон Ци и Защиту от Ци; при Внешней травме DMG\\u002c используйте Phy. Проникновение и физиология. Защита.",
+      "ru": "Характеристики Атаки и защиты: Для Внутренних травм DMG\\u002c используйте Урон Ци и Защиту от Ци; при Внешней травме DMG\\u002c используйте Физ. урон и Физ. защиту.",
       "status": "machine",
-      "srcHash": "fdf1f528862c34ec",
+      "srcHash": "09150b1c98991180",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r4849c0": {
       "en": "Battle",
@@ -201743,9 +201743,9 @@
       "cn": "当攻击速度＜100时：攻击耗时 = 基础攻击耗时 + 基础攻击耗时 × （100% - 攻击速度%） × 50%",
       "ru": "Если прочность Оружия < Клинок Брони ломается\\u002c в зависимости от использованных ходов есть шанс снизить Прочность Оружия на 1.",
       "status": "machine",
-      "srcHash": "73830bd1a6e8b520",
+      "srcHash": "29ed99100d8c7298",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r4904c0": {
       "en": "Battle",
@@ -204108,11 +204108,11 @@
     "r4961c6": {
       "en": "The ratio of Qi Penetration and Phy. Penetration provided by an Annihilation Technique depends on its <color=#6fb6ff><u><link=\"内外功比例\">Qi/Physical Martial Arts Ratio</link></u></color>.",
       "cn": "摧破功法同样需要凭借人物当前使用的兵器来施展（腿法除外）。当前兵器必须具备施展摧破功法所需的招式，才能施展此功法。",
-      "ru": "Соотношение Урона Ци и физической активности. Проникновение, обеспечиваемое методом Сокрушения, зависит от его <color=#6fb6ff><u><link=\"内外功比例\">Соотношение Ци и физической силы в Боевых искусствах</link></u></color>.",
+      "ru": "Соотношение Урона Ци и Физ. урона, обеспечиваемого техникой Сокрушения, зависит от ее <color=#6fb6ff><u><link=\"内外功比例\">Соотношение Ци и физической силы в Боевых искусствах</link></u></color>.",
       "status": "machine",
-      "srcHash": "b491eb688e6fb814",
+      "srcHash": "0f2259d8edbb3079",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r4962c0": {
       "en": "Battle",
@@ -263985,11 +263985,11 @@
     "r6416c6": {
       "en": "Attack Bonus: Using this weapon increases the character's <color=#6fb6ff><u><link=\"攻击属性\">Attack attributes</link></u></color>. Increased Qi Penetration and Phy. Penetration ratio is based on the weapon's Qi/Physical Martial Arts ratio.",
       "cn": "<color=#6fb6ff><u><link=\"招式\">招式</link></u></color>：此兵器攻击的招式顺序。招式决定攻击的<color=#6fb6ff><u><link=\"命中方式\">命中方式</link></u></color>，并在命中后获得相应的<color=#6fb6ff><u><link=\"蓄式\">蓄式</link></u></color>。",
-      "ru": "Бонус к Атаке: Использование этого Оружия увеличивает силу персонажа. <color=#6fb6ff><u><link=\"攻击属性\">Характеристики Атаки</link></u></color>. Повышенное Урон Ци и физическая активность. Коэффициент пробития основан на соотношении Ци Оружия и физической силы в Боевых искусствах.",
+      "ru": "Бонус к Атаке: Использование этого Оружия увеличивает силу персонажа. <color=#6fb6ff><u><link=\"攻击属性\">Характеристики Атаки</link></u></color>. Увеличенное соотношение Урона Ци и Физ. урона основано на соотношении Ци Оружия к физическому Боевому искусству.",
       "status": "machine",
-      "srcHash": "91e0b2f6912029e1",
+      "srcHash": "a6957d5b5ba58a42",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r6417c0": {
       "en": "Items",
@@ -264030,11 +264030,11 @@
     "r6417c6": {
       "en": "Qi/Physical Martial Arts Ratio: Adjusting the Qi/Physical Martial Arts Ratio alters the weapon's Qi Penetration/Phy. Penetration Ratio\\u002c as well as the Ratio of Internal Injury and External Injury dealt through attack.",
       "cn": "兵器的招式需包含<color=#6fb6ff><u><link=\"摧破功法\">摧破功法</link></u></color>需要的蓄式，否则无法施展相应的摧破功法。",
-      "ru": "Соотношение Ци/физической силы в Боевых искусствах: Регулировка соотношения Ци/физической силы в Боевых искусствах изменяет Урон ци от Оружия. Коэффициент проникновения\\u002c а также соотношение Внутренних травм и Внешних травм, нанесенных в результате Атаки.",
+      "ru": "Соотношение Ци/физической силы в Боевых искусствах: Регулировка соотношения Ци/физической силы в Боевых искусствах изменяет соотношение Урона Ци в Оружии к Физ. урон, получаемый при нанесении.\\u002c а также соотношение Внутренних травм и Внешних травм, нанесенных в результате Атаки.",
       "status": "machine",
-      "srcHash": "5fc573fddd55d5f8",
+      "srcHash": "286a84fab4be4279",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r6418c0": {
       "en": "Items",
@@ -276270,11 +276270,11 @@
     "r6715c6": {
       "en": "When crafting <color=#6fb6ff><u><link=\"兵器\">weapons</link></u></color>\\u002c more Wood invested increases the weapon's <color=#6fb6ff><u><link=\"兵器-坚韧\">Toughness</link></u></color>. More Metal invested increases the weapon's Phy. Penetration and Qi Penetration. More Jade invested increases the weapon's <color=#6fb6ff><u><link=\"破甲\">Armor Pierce</link></u></color>\\u002c and more Fabric invested reduces the weapon's weight.",
       "cn": "",
-      "ru": "При создании <color=#6fb6ff><u><link=\"兵器\">Оружие</link></u></color>\\u002c больше вложенного дерева увеличивает эффективность Оружия <color=#6fb6ff><u><link=\"兵器-坚韧\">Прочность</link></u></color>. Вложенное больше металла увеличивает физическую силу Оружия. Проникновение и Урон Ци. Больше вложенного Нефрита увеличивает эффективность Оружия <color=#6fb6ff><u><link=\"破甲\">Пробивать Броню</link></u></color>\\u002c а вложенное больше ткани уменьшает вес Оружия.",
+      "ru": "При создании <color=#6fb6ff><u><link=\"兵器\">Оружие</link></u></color>\\u002c большее количество вложенной древесины увеличивает эффективность Оружия <color=#6fb6ff><u><link=\"兵器-坚韧\">Прочность</link></u></color>. Большее количество вложенного металла увеличивает Физ. урон Оружия и Урон Ци. Больше вложенного Нефрита увеличивает эффективность Оружия <color=#6fb6ff><u><link=\"破甲\">Пробивать Броню</link></u></color>\\u002c а вложенное больше ткани уменьшает вес Оружия.",
       "status": "machine",
-      "srcHash": "814f449d8d34cda8",
+      "srcHash": "fe42ed8b0450141d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r6716c0": {
       "en": "Items",
@@ -276315,11 +276315,11 @@
     "r6716c6": {
       "en": "When crafting <color=#6fb6ff><u><link=\"护具\">armor</link></u></color>\\u002c more Wood invested increases the armor's <color=#6fb6ff><u><link=\"护具-坚韧\">Toughness</link></u></color>. More Metal invested increases the armor's Phy. Defense and Qi Defense. More Jade invested increases the armor's <color=#6fb6ff><u><link=\"破刃\">Blade Break</link></u></color>\\u002c and more Fabric invested reduces the armor's weight.",
       "cn": "用于推进主要故事、地区故事的各种特殊物品。",
-      "ru": "При создании <color=#6fb6ff><u><link=\"护具\">Броня</link></u></color>\\u002c больше вложенного дерева увеличивает прочность Брони <color=#6fb6ff><u><link=\"护具-坚韧\">Прочность</link></u></color>. Вложенное больше металла увеличивает физическую силу Брони. Защита и Защита от Ци. Больше вложенного Нефрита увеличивает прочность Брони <color=#6fb6ff><u><link=\"破刃\">Сломанный Клинок</link></u></color>\\u002c а вложенное больше ткани уменьшает вес Брони.",
+      "ru": "При создании <color=#6fb6ff><u><link=\"护具\">Броня</link></u></color>\\u002c больше вложенного дерева увеличивает прочность Брони <color=#6fb6ff><u><link=\"护具-坚韧\">Прочность</link></u></color>. Большее количество вложенного металла увеличивает Физ. защиту Брони и Защиту от Ци. Больше вложенного Нефрита увеличивает прочность Брони <color=#6fb6ff><u><link=\"破刃\">Сломанный Клинок</link></u></color>\\u002c а вложенное больше ткани уменьшает вес Брони.",
       "status": "machine",
-      "srcHash": "fa86fd2951e1c3a6",
+      "srcHash": "a0be88a8504dbd25",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r6717c0": {
       "en": "Items",
@@ -294974,9 +294974,9 @@
       "cn": "使用方式：被动生效，可在战斗中使用「驱使野兽」行为",
       "ru": "Стаж охотника < 80%: Обнаружен 1 зверь\\u002c диапазон Рангов зверей = от Ранга 9 до Ранга 6",
       "status": "machine",
-      "srcHash": "7206a2f92aa3e971",
+      "srcHash": "581e7154d5c7d393",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r7189c0": {
       "en": "Adventure",
@@ -295019,9 +295019,9 @@
       "cn": "使用限制：每月限使用3次",
       "ru": "80% ≤ Стаж охотника < 90%: Обнаруживает 2 зверей\\u002c диапазон Рангов зверей = от Ранга 7 до Ранга 4",
       "status": "machine",
-      "srcHash": "4231fcd4e0e8571d",
+      "srcHash": "8d08f70a0605e86f",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:51:29.896Z"
     },
     "r7190c0": {
       "en": "Adventure",

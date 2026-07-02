@@ -13,7 +13,7 @@
 import { Session } from "@yandex-cloud/nodejs-sdk";
 import { translationService } from "@yandex-cloud/nodejs-sdk/ai-translate-v2";
 
-import { matchGlossary } from "../glossary/match.js";
+import { applyGlossaryFeeds, matchGlossary } from "../glossary/match.js";
 import { backoffMs, delay } from "../util/async.js";
 import type { ProgressCallback, TranslationEngine, TranslationRequest } from "./types.js";
 import { ycFolderId, ycIamToken } from "./yc.js";
@@ -37,6 +37,13 @@ export interface YandexConfig {
   targetLang?: string;
   /** EN→RU glossary; applied via `glossaryConfig` so Yandex inflects each term. */
   glossary?: ReadonlyMap<string, string>;
+  /**
+   * EN→surrogate map: terms whose raw form breaks Yandex's neuroglossary (a
+   * period read as a sentence boundary) are swapped for a dot-free surrogate in
+   * BOTH the request text and the glossary pair's source, so matching +
+   * declension work. See `applyGlossaryFeeds`.
+   */
+  feeds?: ReadonlyMap<string, string>;
 }
 
 export class YandexEngine implements TranslationEngine {
@@ -44,12 +51,14 @@ export class YandexEngine implements TranslationEngine {
   readonly checkpointSize = 15; // fast batched MT; whole files complete quickly
   private readonly cfg: Required<Pick<YandexConfig, "sourceLang" | "targetLang">> & YandexConfig;
   private readonly glossary: ReadonlyMap<string, string>;
+  private readonly feeds: ReadonlyMap<string, string>;
   private client: ReturnType<typeof createTranslationClient> | null = null;
   private folderId: string | null = null;
 
   constructor(cfg: YandexConfig) {
     this.cfg = { sourceLang: "en", targetLang: "ru", ...cfg };
     this.glossary = cfg.glossary ?? new Map();
+    this.feeds = cfg.feeds ?? new Map();
   }
 
   /**
@@ -59,8 +68,11 @@ export class YandexEngine implements TranslationEngine {
    * when translation actually runs. Inject providers via the constructor to test
    * or to source credentials differently.
    */
-  static fromEnv(glossary?: ReadonlyMap<string, string>): YandexEngine {
-    return new YandexEngine({ getIamToken: ycIamToken, getFolderId: ycFolderId, glossary });
+  static fromEnv(
+    glossary?: ReadonlyMap<string, string>,
+    feeds?: ReadonlyMap<string, string>,
+  ): YandexEngine {
+    return new YandexEngine({ getIamToken: ycIamToken, getFolderId: ycFolderId, glossary, feeds });
   }
 
   /** Resolve credentials and build the gRPC client once, lazily. */
@@ -102,9 +114,11 @@ export class YandexEngine implements TranslationEngine {
   }
 
   private async translateBatch(texts: string[], sourceLang: string): Promise<string[]> {
+    // Swap dot-breaking terms for their surrogates in the text; the glossary
+    // pairs below use the SAME surrogate as their source, so Yandex matches them.
     const request = translationService.TranslateRequest.fromPartial({
       folderId: this.folderId ?? undefined,
-      texts,
+      texts: texts.map((t) => applyGlossaryFeeds(t, this.glossary, this.feeds)),
       sourceLanguageCode: sourceLang,
       targetLanguageCode: this.cfg.targetLang,
       // HTML mode preserves the `<mN></mN>` markup sentinels verbatim.
@@ -130,7 +144,7 @@ export class YandexEngine implements TranslationEngine {
    * (undefined) when none apply, so a request without glossary terms is plain.
    */
   private glossaryConfigFor(texts: string[]) {
-    const pairs = glossaryPairsForTexts(texts, this.glossary);
+    const pairs = glossaryPairsForTexts(texts, this.glossary, this.feeds);
     return pairs.length > 0 ? { glossaryData: { glossaryPairs: pairs } } : undefined;
   }
 }
@@ -151,15 +165,20 @@ export interface YandexGlossaryPair {
 export function glossaryPairsForTexts(
   texts: string[],
   glossary: ReadonlyMap<string, string>,
+  feeds?: ReadonlyMap<string, string>,
 ): YandexGlossaryPair[] {
   if (glossary.size === 0) return [];
-  const union = new Map<string, string>();
+  // Keyed by EN term (dedup); the pair's SOURCE is the surrogate when one exists,
+  // matching what `applyGlossaryFeeds` writes into the request text.
+  const union = new Map<string, { sourceText: string; translatedText: string }>();
   for (const text of texts) {
-    for (const { en, ru } of matchGlossary(text, glossary)) union.set(en, ru);
+    for (const { en, ru, feed } of matchGlossary(text, glossary, feeds)) {
+      union.set(en, { sourceText: feed ?? en, translatedText: ru });
+    }
   }
-  return [...union.entries()]
+  return [...union.values()]
     .slice(0, MAX_GLOSSARY_PAIRS)
-    .map(([sourceText, translatedText]) => ({ sourceText, translatedText, exact: false }));
+    .map(({ sourceText, translatedText }) => ({ sourceText, translatedText, exact: false }));
 }
 
 /**
