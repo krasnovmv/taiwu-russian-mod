@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { mkdtemp } from "node:fs/promises";
+import { mkdtemp, readFile, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { test } from "node:test";
@@ -117,6 +117,48 @@ test("valid outputs are still cached", async () => {
   await eng.translate([{ text: "a" }]);
   await eng.translate([{ text: "a" }]);
   assert.deepEqual(c.seen, ["a"]); // cached after the first call
+});
+
+test("duplicate cache lines are compacted on load (one line per key, last wins)", async () => {
+  const file = await cacheFile();
+  // An append-only log with a repeated key: the later value must win.
+  await writeFile(
+    file,
+    [
+      JSON.stringify({ k: "a", v: "old-a" }),
+      JSON.stringify({ k: "b", v: "ru:b" }),
+      JSON.stringify({ k: "a", v: "new-a" }),
+      "",
+    ].join("\n"),
+    "utf8",
+  );
+
+  const c = counter();
+  const eng = new CachingEngine(c.engine, file);
+  // Both keys served from cache; "a" resolves to the last-written value.
+  assert.deepEqual(await eng.translate([{ text: "a" }, { text: "b" }]), ["new-a", "ru:b"]);
+  assert.deepEqual(c.seen, []); // nothing re-translated
+
+  // File is rewritten: two unique lines, no duplicate "a".
+  const lines = (await readFile(file, "utf8")).split("\n").filter((l) => l !== "");
+  assert.equal(lines.length, 2);
+  assert.deepEqual(
+    lines.map((l) => JSON.parse(l)),
+    [
+      { k: "a", v: "new-a" },
+      { k: "b", v: "ru:b" },
+    ],
+  );
+});
+
+test("a duplicate-free cache is left untouched on load", async () => {
+  const file = await cacheFile();
+  const original = [JSON.stringify({ k: "a", v: "ru:a" }), ""].join("\n");
+  await writeFile(file, original, "utf8");
+
+  const c = counter();
+  await new CachingEngine(c.engine, file).translate([{ text: "a" }]);
+  assert.equal(await readFile(file, "utf8"), original); // byte-for-byte unchanged
 });
 
 test("progress reaches the full request count (hits + misses)", async () => {
