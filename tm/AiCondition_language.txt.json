@@ -1,2293 +1,2293 @@
 {
   "schemaVersion": 1,
   "file": "AiCondition_language.txt",
-  "glossaryVersion": 7,
+  "glossaryVersion": 8,
   "units": {
     "Name_0": {
       "en": "Range Stretch",
       "cn": "延迟",
       "ru": "Диапазон растягивания",
       "status": "machine",
-      "srcHash": "064b1b504c16945c",
+      "srcHash": "36debec5c190f1bd",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_1": {
       "en": "Judgment Probability",
       "cn": "判定概率",
       "ru": "Вероятность суждения",
       "status": "machine",
-      "srcHash": "17995c2132925102",
+      "srcHash": "b410eb1e3da950c0",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_2": {
       "en": "First Time",
       "cn": "首次",
       "ru": "первый раз",
       "status": "machine",
-      "srcHash": "d26a3f6b95ce9e97",
+      "srcHash": "c1871dea9cc43439",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_3": {
       "en": "Martial Art Equipped",
       "cn": "功法已装配",
       "ru": "Оснащенный Боевой техникой",
       "status": "machine",
-      "srcHash": "e6e47872eb8fcc31",
+      "srcHash": "385a765790fdb12b",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_4": {
       "en": "Martial Art Breakthrough",
       "cn": "功法已突破",
       "ru": "Прорыв в Боевой технике",
       "status": "machine",
-      "srcHash": "4776d2045ed8b39d",
+      "srcHash": "36b85605ac3bb1b6",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_5": {
       "en": "Martial Art Learned",
       "cn": "功法已习得",
       "ru": "Изучил Боевую технику",
       "status": "machine",
-      "srcHash": "99e486f4eab05bc3",
+      "srcHash": "da98f9cc81a251e3",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_6": {
       "en": "In Attack Range",
       "cn": "处于攻击范围",
       "ru": "В зоне досягаемости Атаки",
       "status": "machine",
-      "srcHash": "61e7ab15ad148024",
+      "srcHash": "ba0337bd66e9b681",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_7": {
       "en": "In Martial Art Range",
       "cn": "处于功法范围",
       "ru": "В области Боевой техники",
       "status": "machine",
-      "srcHash": "8e9b9966317b4b0a",
+      "srcHash": "874b04485c30e5a8",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_8": {
       "en": "Out of Attack Range",
       "cn": "存在攻击范围边缘",
       "ru": "Вне зоны досягаемости Атаки",
       "status": "machine",
-      "srcHash": "1120bb6e4be8f932",
+      "srcHash": "f09edcea7dd6051b",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_9": {
       "en": "Memory as Text",
       "cn": "记忆为文本",
       "ru": "Память в виде текста",
       "status": "machine",
-      "srcHash": "e6d9358b34302eb8",
+      "srcHash": "a2617f5c2dfbd31e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_10": {
       "en": "Memory as Boolean ",
       "cn": "记忆为布尔",
       "ru": "Память как логическое значение ",
       "status": "machine",
-      "srcHash": "3a6add3ecc3d2948",
+      "srcHash": "a7416268ab2bd355",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_11": {
       "en": "Memory as Integer",
       "cn": "记忆为整数",
       "ru": "Память в виде целого числа",
       "status": "machine",
-      "srcHash": "8985fe0f91ec3987",
+      "srcHash": "2295e4b4c996a22b",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_12": {
       "en": "Memory is not Text",
       "cn": "记忆不为文本",
       "ru": "Память - это не текст",
       "status": "machine",
-      "srcHash": "e798d1ab33f82d4d",
+      "srcHash": "05ee192e76af7f57",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_13": {
       "en": "Memory is not Boolean",
       "cn": "记忆不为布尔",
       "ru": "Память не является логической",
       "status": "machine",
-      "srcHash": "8743652106b18f3f",
+      "srcHash": "3d2ca13e0d01de18",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_14": {
       "en": "Memory is not Integer",
       "cn": "记忆不为整数",
       "ru": "Память не является целым числом",
       "status": "machine",
-      "srcHash": "c1b4502cfafce399",
+      "srcHash": "5813effa9515670a",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_15": {
       "en": "Memory Greater Than",
       "cn": "记忆大于",
       "ru": "Объем памяти Больше, чем",
       "status": "machine",
-      "srcHash": "c250db93a246cbff",
+      "srcHash": "80bf78e5d21d894b",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_16": {
       "en": "Memory Less Than",
       "cn": "记忆小于",
       "ru": "Объем памяти Меньше, чем",
       "status": "machine",
-      "srcHash": "3fef87c8c86193e8",
+      "srcHash": "efb7b9531fb130e2",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_17": {
       "en": "Battle Difficulty",
       "cn": "战斗难度",
       "ru": "Сложность сражения",
       "status": "machine",
-      "srcHash": "00590c82beae2d65",
+      "srcHash": "af930e16f5cd5fe1",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_18": {
       "en": "Target Distance Diverse",
       "cn": "目标距离偏向",
       "ru": "Расстояние до цели различно",
       "status": "machine",
-      "srcHash": "6b55390de88f8a0d",
+      "srcHash": "01cc27990938bce1",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_19": {
       "en": "Target Distance is not",
       "cn": "目标距离不为",
       "ru": "Целевое расстояние не",
       "status": "machine",
-      "srcHash": "a524e91da0d414a4",
+      "srcHash": "ecb055e4fb10276c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_20": {
       "en": "Target Distance is not the furthest",
       "cn": "目标距离不为最远",
       "ru": "Целевое расстояние - не самое дальнее",
       "status": "machine",
-      "srcHash": "a80a3a9de7da4e03",
+      "srcHash": "7062cf9ab1b7f0be",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_120": {
       "en": "Target Distance Greater Than",
       "cn": "目标距离大于",
       "ru": "Расстояние до цели Больше, чем",
       "status": "machine",
-      "srcHash": "a3d0559eafdf9ef5",
+      "srcHash": "57c7347d6adc9e37",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_21": {
       "en": "Casting",
       "cn": "正在施展",
       "ru": "Кастинг",
       "status": "machine",
-      "srcHash": "28f7a8ea950e1627",
+      "srcHash": "e4d8d19ce407081e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_22": {
       "en": "Casting Martial Art",
       "cn": "正在施展功法",
       "ru": "Кастинг - Боевая техника",
       "status": "machine",
-      "srcHash": "b0661f425e341a02",
+      "srcHash": "438d0d9683308c70",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_23": {
       "en": "Martial Arts Cast Progress:",
       "cn": "功法施展进度达",
       "ru": "Прогресс в кастинге Боевых искусств:",
       "status": "machine",
-      "srcHash": "716ed7309ebb7561",
+      "srcHash": "45c4b3184438ac40",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_24": {
       "en": "Martial Art Cast Progress has not reached",
       "cn": "功法施展进度未达",
       "ru": "Прогресс в кастинге актеров Боевой техники не достигнут",
       "status": "machine",
-      "srcHash": "e5060c9e9a552e76",
+      "srcHash": "337534f4970c41bb",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_25": {
       "en": "Remainin Parry Block Below",
       "cn": "剩余招架低于",
       "ru": "Остающийся блок Парирования ниже",
       "status": "machine",
-      "srcHash": "289e6c12d5b4da07",
+      "srcHash": "ccfa62ed8d7270c2",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_26": {
       "en": "Defeat Marker has passed half",
       "cn": "战败标记过半",
       "ru": "Отметка поражения прошла половину",
       "status": "machine",
-      "srcHash": "3ae0f920f08bbe9d",
+      "srcHash": "8cc9fd0bcf81b758",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_27": {
       "en": "Disable Escape",
       "cn": "判定禁用逃跑",
       "ru": "Отключить побег",
       "status": "machine",
-      "srcHash": "26dcafa0262e501e",
+      "srcHash": "51e85e7e09c942ac",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_28": {
       "en": "Reached escape conditions",
       "cn": "满足逃跑条件",
       "ru": "Достигнутые условия эвакуации",
       "status": "machine",
-      "srcHash": "470538e1f46b8f44",
+      "srcHash": "27e993a0ff942df6",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_29": {
       "en": "In Danger",
       "cn": "处于危险中",
       "ru": "В опасности",
       "status": "machine",
-      "srcHash": "d2c491ac0457c18c",
+      "srcHash": "499c85e19757ca3c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_30": {
       "en": "Can Perform Basic Attack",
       "cn": "可以进行普攻",
       "ru": "Может выполнять базовую Атаку",
       "status": "machine",
-      "srcHash": "3f9eddc2dc9cd4b6",
+      "srcHash": "87f59f04c5f28e02",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_31": {
       "en": "Can perform Pinpoint Strike",
       "cn": "可以进行变招",
       "ru": "Может нанести точечный удар",
       "status": "machine",
-      "srcHash": "e0d3084323192466",
+      "srcHash": "b3c4a714a1382bd1",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_32": {
       "en": "Enable Pinpoint Strike Openings",
       "cn": "可以变招破绽",
       "ru": "Включение точечных отверстий для нанесения ударов",
       "status": "machine",
-      "srcHash": "e3c367ba9e8a0ea0",
+      "srcHash": "04e067337ae8befe",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_33": {
       "en": "Enable Pinpoint Strike Sealed acupoint",
       "cn": "可以变招封穴",
       "ru": "Включить точечный удар по запечатанной Акупунктурной точке",
       "status": "machine",
-      "srcHash": "b88d5f2c0b1a106b",
+      "srcHash": "357c7be2679cee7e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_34": {
       "en": "Enable Pinpoint Strike to change Qi Attribute",
       "cn": "可以变招改内力属性",
       "ru": "Включите точечный удар, чтобы изменить атрибут Ци",
       "status": "machine",
-      "srcHash": "40225e4d4a48b307",
+      "srcHash": "c1fe029f685936f0",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_35": {
       "en": "Enable Switch Weapon",
       "cn": "可以切换兵器",
       "ru": "Включить переключение Оружия",
       "status": "machine",
-      "srcHash": "32fb800cdd8512da",
+      "srcHash": "8e7c3062feb59317",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_36": {
       "en": "Can Perform Escape",
       "cn": "可以进行逃脱移动",
       "ru": "Может выполнить побег",
       "status": "machine",
-      "srcHash": "c3814be726107734",
+      "srcHash": "122530753a1e505a",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_37": {
       "en": "Can perform an escape",
       "cn": "可以进行行为",
       "ru": "Может совершить побег",
       "status": "machine",
-      "srcHash": "b0b317776d25e1b6",
+      "srcHash": "7105fe9b79c0016d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_38": {
       "en": "There're available companion Commands",
       "cn": "存在可用的同道指令",
       "ru": "Есть доступные сопутствующие команды",
       "status": "machine",
-      "srcHash": "31760a282c0ee86a",
+      "srcHash": "feeb1d94b4decc93",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_39": {
       "en": "Available Martial Arts",
       "cn": "存在可用的功法",
       "ru": "Доступные Боевые техники",
       "status": "machine",
-      "srcHash": "76904b3c70c4536f",
+      "srcHash": "adafccf277b9bd33",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_40": {
       "en": "Cast Amplification Available",
       "cn": "存在可用的施展增幅",
       "ru": "Доступно усиление литья",
       "status": "machine",
-      "srcHash": "133ab7755de34d63",
+      "srcHash": "1c312ad6fc49bd75",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_41": {
       "en": "There's Recovery Parry Protection",
       "cn": "存在恢复招架护体",
       "ru": "Есть защита от восстановления и Парирования",
       "status": "machine",
-      "srcHash": "17440b396d5af5f4",
+      "srcHash": "cfd721f5cf9e01f3",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_42": {
       "en": "Available Boosting Footwork Arts",
       "cn": "存在增益身法",
       "ru": "Доступно повышение уровня Техники передвижения",
       "status": "machine",
-      "srcHash": "e65ced45810ae110",
+      "srcHash": "4d438826d3eef154",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_43": {
       "en": "There's available Healing Medicine",
       "cn": "存在可用的疗伤药",
       "ru": "Есть доступное целебное лекарство",
       "status": "machine",
-      "srcHash": "d88f055ff9fdcdcd",
+      "srcHash": "ba52308608fb0d42",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_44": {
       "en": "There's available Detox Medicine",
       "cn": "存在可用的驱毒药",
       "ru": "Есть доступное детоксикационное лекарство",
       "status": "machine",
-      "srcHash": "4520eae137af1fcf",
+      "srcHash": "f6831cdf65f71e96",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_45": {
       "en": "There's available Inner Breath Medicine",
       "cn": "存在可用的内息药",
       "ru": "Существует доступное лекарство от Внутреннего дыхания",
       "status": "machine",
-      "srcHash": "2e61fce93c1fd119",
+      "srcHash": "76467703623a028b",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_46": {
       "en": "Available Boosting Medicine",
       "cn": "存在可用的增益药",
       "ru": "Доступное стимулирующее лекарство",
       "status": "machine",
-      "srcHash": "7b85f5f397a75773",
+      "srcHash": "73f89abc46f1c034",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_47": {
       "en": "Available Poison",
       "cn": "存在可用的毒药",
       "ru": "Доступный Яд",
       "status": "machine",
-      "srcHash": "f376e8beaa92f8a3",
+      "srcHash": "20295fbb7f9f7ca3",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_48": {
       "en": "Available Souldew",
       "cn": "存在可用的血露",
       "ru": "Доступная плесень",
       "status": "machine",
-      "srcHash": "1cf1e5dc4d301c1e",
+      "srcHash": "1fd4e36c23eb85b9",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_49": {
       "en": "Available Liquor",
       "cn": "存在可用的酒",
       "ru": "Доступные Вина",
       "status": "machine",
-      "srcHash": "87e3c0a3350186a1",
+      "srcHash": "b29553e350eb543e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_50": {
       "en": "There's weapon can be repaired",
       "cn": "存在可修理的兵器",
       "ru": "Там есть Оружие, которое можно починить",
       "status": "machine",
-      "srcHash": "41083bb985f8a1e5",
+      "srcHash": "4b24764c20c4916f",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_51": {
       "en": "Available Armor to Repair",
       "cn": "存在可修理的防具",
       "ru": "Доступная для ремонта Броня",
       "status": "machine",
-      "srcHash": "72c57df4d0629c2b",
+      "srcHash": "9d64d9d29393cc41",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_52": {
       "en": "Battle Type",
       "cn": "战斗类型",
       "ru": "Тип боя",
       "status": "machine",
-      "srcHash": "40ccbf0209562ed8",
+      "srcHash": "48282330e2d12ce8",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_53": {
       "en": "Qi Footwork Arts in progress",
       "cn": "已运起身法",
       "ru": "Искусство работы ногами Ци в процессе развития",
       "status": "machine",
-      "srcHash": "fce6b9be63ddab86",
+      "srcHash": "64430f4aebc70375",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_54": {
       "en": "Specific Qi Footwork Art in progress",
       "cn": "已运起特定身法",
       "ru": "Особое Техника передвижения по Ци в стадии разработки",
       "status": "machine",
-      "srcHash": "e8ac9953929a0d12",
+      "srcHash": "7deb9feb3b4a7993",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_55": {
       "en": "Qi Protection in progress",
       "cn": "已运起护体",
       "ru": "Выполняется защита от Ци",
       "status": "machine",
-      "srcHash": "cd3cc80526c45c21",
+      "srcHash": "b5a9c4dfd55083db",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_56": {
       "en": "Used Specific Parry Protection",
       "cn": "已运起特定护体",
       "ru": "Использовалась специальная защита от Парирования",
       "status": "machine",
-      "srcHash": "1938d0763757d84c",
+      "srcHash": "85f81f84d20fbbf8",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_57": {
       "en": "Taiwu",
       "cn": "太吾",
       "ru": "Тайву",
       "status": "machine",
-      "srcHash": "a47fb802e261f402",
+      "srcHash": "c5c1b4ad8fca8871",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_58": {
       "en": "Injury Markers",
       "cn": "伤势标记",
       "ru": "Маркеры Травм",
       "status": "machine",
-      "srcHash": "0e9864264a37b183",
+      "srcHash": "aade448cc18566e0",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_59": {
       "en": "Opening Marker",
       "cn": "破绽标记",
       "ru": "Маркер открытия",
       "status": "machine",
-      "srcHash": "6a785505193211d1",
+      "srcHash": "c0ad26b1d5db0ed1",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_60": {
       "en": "Sealed acupoint Marker",
       "cn": "封穴标记",
       "ru": "Маркер запечатанной Акупунктурной точки",
       "status": "machine",
-      "srcHash": "c47b06de9d24ccf7",
+      "srcHash": "c51269c0444cc4bd",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_61": {
       "en": "Toxin Marker",
       "cn": "毒素标记",
       "ru": "Маркер Токсина",
       "status": "machine",
-      "srcHash": "f74d13ae79c31978",
+      "srcHash": "a19bb0de29b04d1b",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_62": {
       "en": "Daze Marker",
       "cn": "失神标记",
       "ru": "Маркер Оцепенения",
       "status": "machine",
-      "srcHash": "9cfdf50963436a36",
+      "srcHash": "1f9ff31c9df5d04d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_63": {
       "en": "Wound Marker",
       "cn": "重创标记",
       "ru": "Маркер Раны",
       "status": "machine",
-      "srcHash": "5053a70756fd2a06",
+      "srcHash": "995c43dc82713e1d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_64": {
       "en": "Doom Marker",
       "cn": "必死标记",
       "ru": "Знак обреченности",
       "status": "machine",
-      "srcHash": "38227e6b3496da40",
+      "srcHash": "f851162466658dd6",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_65": {
       "en": "Inner Breath Marker",
       "cn": "内息标记",
       "ru": "Маркер Внутреннего дыхания",
       "status": "machine",
-      "srcHash": "1ce92af639a835e7",
+      "srcHash": "a787d5800aa84132",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_66": {
       "en": "Status Marker",
       "cn": "状态标记",
       "ru": "Маркер состояния",
       "status": "machine",
-      "srcHash": "0cc4c00ae9267cf4",
+      "srcHash": "f11bf31dc9368dda",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_67": {
       "en": "Health Marker",
       "cn": "健康标记",
       "ru": "Маркер Здоровья",
       "status": "machine",
-      "srcHash": "31fcba594a8b077f",
+      "srcHash": "ec9e161131239ed2",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_68": {
       "en": "Gu Larva Marker",
       "cn": "若蛊标记",
       "ru": "Маркер Личинки Гу",
       "status": "machine",
-      "srcHash": "96a99fa4df3bc413",
+      "srcHash": "4d51456f8bd023f5",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_69": {
       "en": "Developed Gu Marker",
       "cn": "成蛊标记",
       "ru": "Разработанный маркер Гу",
       "status": "machine",
-      "srcHash": "8e78ee50cd27045c",
+      "srcHash": "49df9af9950d884c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_70": {
       "en": "Prime Gu Marker",
       "cn": "王蛊标记",
       "ru": "Основной маркер Гу",
       "status": "machine",
-      "srcHash": "562048f6f86e7491",
+      "srcHash": "5658cab16c22102a",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_71": {
       "en": "True Qi Marker",
       "cn": "真气标记",
       "ru": "Маркер Истинной ци",
       "status": "machine",
-      "srcHash": "ec251855b9d0a942",
+      "srcHash": "04ece3086023c982",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_72": {
       "en": "Martial Art Effects",
       "cn": "功法效果",
       "ru": "Эффекты Боевой техники",
       "status": "machine",
-      "srcHash": "79b5fed020e219f3",
+      "srcHash": "50435b394ce568d4",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_73": {
       "en": "Stamina",
       "cn": "脚力值",
       "ru": "Выносливость",
       "status": "machine",
-      "srcHash": "fd9ce2b738e2a886",
+      "srcHash": "1771c34464e99698",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_74": {
       "en": "Exhausted Condition",
       "cn": "疲怠中",
       "ru": "Истощенное состояние",
       "status": "machine",
-      "srcHash": "a04d1b1cb3cea90e",
+      "srcHash": "b1adfd2e00e43892",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_75": {
       "en": "Pure Essence",
       "cn": "精纯",
       "ru": "Чистая эссенция",
       "status": "machine",
-      "srcHash": "37df4b6d87a5344b",
+      "srcHash": "546db8437a49ed69",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_76": {
       "en": "Stage",
       "cn": "阶段",
       "ru": "Этап",
       "status": "machine",
-      "srcHash": "50980893207cdd9a",
+      "srcHash": "7c928143596d2345",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_77": {
       "en": "Style Slot",
       "cn": "式槽",
       "ru": "Слот в стиле",
       "status": "machine",
-      "srcHash": "e01486b50f061a35",
+      "srcHash": "52faa530c2a28b24",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_78": {
       "en": "Switchable to Indexed Weapon",
       "cn": "可切换至索引兵器",
       "ru": "Переключается на индексированное Оружие",
       "status": "machine",
-      "srcHash": "5a1e8bf41d3afee7",
+      "srcHash": "a2dbb93ac59a826c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_79": {
       "en": "Switchable to Specific Weapon",
       "cn": "可切换至特定兵器",
       "ru": "Переключается на конкретное Оружие",
       "status": "machine",
-      "srcHash": "2c0faa1187db671a",
+      "srcHash": "1cde250311739540",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_80": {
       "en": "Switchable to Weapon Type",
       "cn": "可切换至兵器类型",
       "ru": "Переключается на тип Оружия",
       "status": "machine",
-      "srcHash": "4419961809a71ecd",
+      "srcHash": "1ac46dc8be5d50a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_81": {
       "en": "Current Weapon",
       "cn": "当前兵器",
       "ru": "Текущее Оружие",
       "status": "machine",
-      "srcHash": "aa5b20c2451760f1",
+      "srcHash": "a778f3ffa9ba1aa2",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_82": {
       "en": "Current Weapon Type",
       "cn": "当前兵器类型",
       "ru": "Текущий тип Оружия",
       "status": "machine",
-      "srcHash": "251819167e7487b7",
+      "srcHash": "364568771a6dd686",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_83": {
       "en": "Qi Attribute",
       "cn": "内力属性",
       "ru": "Атрибут Ци",
       "status": "machine",
-      "srcHash": "352b28e0be01aeff",
+      "srcHash": "ae1449b5a7ce52c7",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_84": {
       "en": "All Marker",
       "cn": "所有标记",
       "ru": "Весь маркер",
       "status": "machine",
-      "srcHash": "9812fe758af47683",
+      "srcHash": "282131ed14e534ad",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_85": {
       "en": "All Injury Markers",
       "cn": "所有内外标记",
       "ru": "Все признаки Травмы",
       "status": "machine",
-      "srcHash": "9f98bbce09e54bfd",
+      "srcHash": "e2802fc19ac56a2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_86": {
       "en": "All Injury Markers",
       "cn": "所有伤势标记",
       "ru": "Все признаки Травмы",
       "status": "machine",
-      "srcHash": "9f98bbce09e54bfd",
+      "srcHash": "e2802fc19ac56a2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_87": {
       "en": "All Opening Marker",
       "cn": "所有破绽标记",
       "ru": "Все открывающие маркеры",
       "status": "machine",
-      "srcHash": "971f03f846953cb1",
+      "srcHash": "be994223d2fd508a",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_88": {
       "en": "All Sealed acupoint Marker",
       "cn": "所有封穴标记",
       "ru": "Полностью запечатанный маркер Акупунктурной точки",
       "status": "machine",
-      "srcHash": "503f7358b6fd87e2",
+      "srcHash": "e456a58a6261f65c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_89": {
       "en": "Memory Greater Than",
       "cn": "记忆内大于",
       "ru": "Объем памяти Больше, чем",
       "status": "machine",
-      "srcHash": "c250db93a246cbff",
+      "srcHash": "80bf78e5d21d894b",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_90": {
       "en": "Memory Less Than",
       "cn": "记忆内小于",
       "ru": "Объем памяти Меньше, чем",
       "status": "machine",
-      "srcHash": "3fef87c8c86193e8",
+      "srcHash": "efb7b9531fb130e2",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_91": {
       "en": "Memory Equals Active Technique",
       "cn": "记忆等于施展",
       "ru": "Память равна активной технике",
       "status": "machine",
-      "srcHash": "31b361f306503a97",
+      "srcHash": "e86ff626b4ed35e3",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_92": {
       "en": "Attack Range Edge Greater Than",
       "cn": "攻击范围边缘大于",
       "ru": "Преимущество дальности Атаки Больше, чем",
       "status": "machine",
-      "srcHash": "df94913ea4435d56",
+      "srcHash": "5327b6bd4131d8f2",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_93": {
       "en": "Attack Range Edge Less Than",
       "cn": "攻击范围边缘小于",
       "ru": "Предел дальности Атаки Меньше, чем",
       "status": "machine",
-      "srcHash": "0f7b87bba30429fe",
+      "srcHash": "c31d2d2809661579",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_94": {
       "en": "Last Basic Attack Deflection",
       "cn": "上次普攻被化解",
       "ru": "Отклонение последней базовой Атаки",
       "status": "machine",
-      "srcHash": "ef4ce330644ba32f",
+      "srcHash": "944fc8cf1e7308c0",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_95": {
       "en": "Current Weapon Index",
       "cn": "当前兵器索引",
       "ru": "Текущий индекс Оружия",
       "status": "machine",
-      "srcHash": "006e10f496903e5c",
+      "srcHash": "50b8136b5337e4f1",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_96": {
       "en": "Casting Orthodox or Heterodox Martial Art",
       "cn": "正在施展正逆功法",
       "ru": "Кастинг ортодоксальной или неортодоксальной Боевой техники",
       "status": "machine",
-      "srcHash": "0e563ab46e4372eb",
+      "srcHash": "0c9c21cd7c096ec8",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_97": {
       "en": "Can Cast Specific Martial Arts",
       "cn": "可施展特定功法",
       "ru": "Может использовать специфическую Боевую технику",
       "status": "machine",
-      "srcHash": "4c352ff8eb465a46",
+      "srcHash": "c6bc7147533ae99c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_98": {
       "en": "Can Cast Orthodox or Heterodox Martial Arts",
       "cn": "可施展正逆功法",
       "ru": "Может использовать ортодоксальную или неортодоксальную Боевую технику",
       "status": "machine",
-      "srcHash": "2d288b1456f7d41a",
+      "srcHash": "320d0999be9a1a4f",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_99": {
       "en": "Buff Intensity",
       "cn": "增益状态强度",
       "ru": "Интенсивность полировки",
       "status": "machine",
-      "srcHash": "301fbf4dad638430",
+      "srcHash": "edd5465209b40ba0",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_100": {
       "en": "Impairment Intensity",
       "cn": "损害状态强度",
       "ru": "Интенсивность нарушения",
       "status": "machine",
-      "srcHash": "7b1547b1f51be6bb",
+      "srcHash": "158706b189b3b556",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_101": {
       "en": "Special Status Intensity",
       "cn": "特殊状态强度",
       "ru": "Интенсивность особого статуса",
       "status": "machine",
-      "srcHash": "cdbf4dd8495433ef",
+      "srcHash": "118a72d26232e861",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_102": {
       "en": "In Memory Martial Art Range",
       "cn": "处于记忆功法范围",
       "ru": "В диапазоне Боевых искусств памяти",
       "status": "machine",
-      "srcHash": "f9111ac25061a5fc",
+      "srcHash": "3a9abd4037e11285",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_103": {
       "en": "Can Cast Memory Martial Arts",
       "cn": "可施展记忆功法",
       "ru": "Может использовать Боевую технику памяти",
       "status": "machine",
-      "srcHash": "d692827da70a9766",
+      "srcHash": "794be7058d1c96e2",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_104": {
       "en": "Current Distance Equals",
       "cn": "当前距离等于",
       "ru": "Текущее расстояние равно",
       "status": "machine",
-      "srcHash": "63f5d83a4222359e",
+      "srcHash": "f8bdc303831d1c36",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_105": {
       "en": "Current Distance Greater Than",
       "cn": "当前距离大于",
       "ru": "Текущее расстояние Больше, чем",
       "status": "machine",
-      "srcHash": "bf6ab1a0e5378c43",
+      "srcHash": "21ae0faf5f10fae0",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_106": {
       "en": "Current Distance Less Than",
       "cn": "当前距离小于",
       "ru": "Текущее расстояние Меньше, чем",
       "status": "machine",
-      "srcHash": "7fb58165fcc21f88",
+      "srcHash": "20561bdc4ca94795",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_107": {
       "en": "Last Basic Attack Missed",
       "cn": "上次普攻落空",
       "ru": "Последняя основная Атака пропущена",
       "status": "machine",
-      "srcHash": "d1cf969f317ec261",
+      "srcHash": "52f47bdb16df3a4e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_108": {
       "en": "Weapon is able to be unleashed",
       "cn": "兵器可解封",
       "ru": "Оружие может быть выпущено на волю",
       "status": "machine",
-      "srcHash": "10a3d161410552ea",
+      "srcHash": "9253d746baab602b",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_109": {
       "en": "Weapon Type is able to be unleashed",
       "cn": "兵器类型可解封",
       "ru": "Тип Оружия может быть высвобожден",
       "status": "machine",
-      "srcHash": "c483582cdfccdc08",
+      "srcHash": "c5c808848a862220",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_110": {
       "en": "Weapon Unleash Progress",
       "cn": "兵器解封进度",
       "ru": "Оружие, высвобождающее прогресс",
       "status": "machine",
-      "srcHash": "8a3760e7ed36b1f8",
+      "srcHash": "a50dc33d9a4731bb",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_111": {
       "en": "Stop casting",
       "cn": "可以中断施展",
       "ru": "Прекратить кастинг",
       "status": "machine",
-      "srcHash": "5bd10b6da587afb6",
+      "srcHash": "98f2b274d9527904",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_112": {
       "en": "Stop Protection",
       "cn": "可以中断护体",
       "ru": "Защита от остановки",
       "status": "machine",
-      "srcHash": "f989c6451f0a7073",
+      "srcHash": "4375d9adce3c646b",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_113": {
       "en": "Stop Footwork Arts",
       "cn": "可以中断身法",
       "ru": "Искусство остановки работы ног",
       "status": "machine",
-      "srcHash": "a0403eb92d3fcde5",
+      "srcHash": "a8dfaacda7c8ef1d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_114": {
       "en": "If style can be automatically consumed",
       "cn": "能否自动消耗蓄式",
       "ru": "Если стиль может быть использован автоматически",
       "status": "machine",
-      "srcHash": "13a096830f837cdd",
+      "srcHash": "8682abe60a3ccc24",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_115": {
       "en": "Usable sundries available",
       "cn": "存在可用的杂物",
       "ru": "Доступны полезные мелочи",
       "status": "machine",
-      "srcHash": "941b620a847a8e98",
+      "srcHash": "74e954433a9f38d9",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_116": {
       "en": "Martial Art Sealed",
       "cn": "功法被封禁",
       "ru": "Запечатанная Боевая техника",
       "status": "machine",
-      "srcHash": "995a28771adfc162",
+      "srcHash": "c670d92cbced9c5a",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_117": {
       "en": "Any companion available",
       "cn": "存在任意同道",
       "ru": "Любой доступный компаньон",
       "status": "machine",
-      "srcHash": "fc1aa31e539c6f0e",
+      "srcHash": "9e9bc637693061d3",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_118": {
       "en": "Inhale",
       "cn": "提气值",
       "ru": "Вдохните",
       "status": "machine",
-      "srcHash": "3d9dfaf4229dfdb2",
+      "srcHash": "ca8c57d0a559663d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_119": {
       "en": "Stance",
       "cn": "架势值",
       "ru": "Стойка",
       "status": "machine",
-      "srcHash": "9196f2b5e667c61c",
+      "srcHash": "7c2ec1f8735d3eff",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_121": {
       "en": "Physical/Qi Defense",
       "cn": "御体御气",
       "ru": "Физическая/Защита от Ци",
       "status": "machine",
-      "srcHash": "5cb21120aacab89e",
+      "srcHash": "42da1a1aec9ac6ea",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_122": {
       "en": "Annihilation Qi/Physical Ratio 1",
       "cn": "摧破内外比1",
       "ru": "Сокрушение Ци/Физическое соотношение 1",
       "status": "machine",
-      "srcHash": "61f100ddf490cca9",
+      "srcHash": "d70868516f4dc3ef",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_123": {
       "en": "Footwork Arts Jump",
       "cn": "身法跳跃",
       "ru": "Искусство работы ногами Прыжок",
       "status": "machine",
-      "srcHash": "fe5c300408d9b485",
+      "srcHash": "7f178374e1332fe5",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_124": {
       "en": "Annihilation Qi/Physical Ratio 2",
       "cn": "摧破内外比2",
       "ru": "Сокрушение Ци/Физическое соотношение 2",
       "status": "machine",
-      "srcHash": "34931bb64ef275e4",
+      "srcHash": "f071ab7ec95dff80",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_125": {
       "en": "Protection Martial Art 1",
       "cn": "护体功法1",
       "ru": "Защитная Боевая техника 1",
       "status": "machine",
-      "srcHash": "fd19f98bf03ce64b",
+      "srcHash": "ad42ebe5c5e73279",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Name_126": {
       "en": "Attack Missed",
       "cn": "攻击落空",
       "ru": "Атака пропущена",
       "status": "machine",
-      "srcHash": "c7a19abbad9c2562",
+      "srcHash": "39752a0b6a5220db",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_0": {
       "en": "Return true for each {0}",
       "cn": "每 {0} 返回一次真值",
       "ru": "Возвращает значение true для каждого {0}",
       "status": "machine",
-      "srcHash": "da0f32b2868c1eb6",
+      "srcHash": "32d84e342e8dd6d9",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_1": {
       "en": "When the judgment has a {0}% probability of passing, return true",
       "cn": "当判定 {0}% 概率通过时返回真值",
       "ru": "Когда судебное решение имеет {0}% вероятности прохождения, возвращает true",
       "status": "machine",
-      "srcHash": "45b25bfdebdb5fe0",
+      "srcHash": "0a9543df059274b6",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_2": {
       "en": "Return true when this condition is executed for the first time in the current battle",
       "cn": "每场战斗首次执行到该条件时返回真值",
       "ru": "Возвращает значение true, когда это условие выполняется впервые в текущем сражении",
       "status": "machine",
-      "srcHash": "b4cf7d4e21d9895b",
+      "srcHash": "f82ab4d560b208d8",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_3": {
       "en": "When the {0} technique bar contains {1}, return true",
       "cn": "当 {0} 运功栏含有 {1} 时返回真值",
       "ru": "Когда {0} панель методов содержит {1}, возвращает значение true",
       "status": "machine",
-      "srcHash": "c2c49d52ed2cde4b",
+      "srcHash": "8e2f191acee7a1e6",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_4": {
       "en": "When {0} has broken through {1} {2}, return true",
       "cn": "当 {0} 已突破 {1} {2} 时返回真值",
       "ru": "Когда {0} прорвался сквозь {1} {2}, возвращает значение true",
       "status": "machine",
-      "srcHash": "1dc0c15a5c486674",
+      "srcHash": "ba94fd2f9cd7eaf9",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_5": {
       "en": "When {0} has learned {1}, return true",
       "cn": "当 {0} 已习得 {1} 时返回真值",
       "ru": "Когда {0} научился {1}, возвращает значение true",
       "status": "machine",
-      "srcHash": "69330b52bf8b0972",
+      "srcHash": "9728d3e356b4f2d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_6": {
       "en": "Return true when the current distance +{1} is within the range of {0}'s basic attack or casting Annihilation Attack",
       "cn": "当前距离 +{1} 处于 {0} 的普攻或施展中摧破攻击范围时返回真值",
       "ru": "Возвращает значение true, когда текущее расстояние +{1} находится в пределах диапазона {0}базовая Атака или кастовая Атака на Сокрушение",
       "status": "machine",
-      "srcHash": "f0da0a10b34735ae",
+      "srcHash": "14ca945fc861eb78",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_7": {
       "en": "Return true when the current distance + {1} is within {0}'s Martial Art {2} range",
       "cn": "当前距离 +{1} 处于 {0} 的功法 {2} 施展范围时返回真值",
       "ru": "Возвращает значение true, когда текущее расстояние + {1} находится внутри {0}это Боевая техника {2} диапазон",
       "status": "machine",
-      "srcHash": "36338d80d63c9421",
+      "srcHash": "92dbca93c2234a83",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_8": {
       "en": "Return true when {0} has an active attack range edge",
       "cn": "当 {0} 存在有效的攻击范围边缘时返回真值",
       "ru": "Возвращает значение true, когда {0} имеет преимущество в дальности активной Атаки",
       "status": "machine",
-      "srcHash": "da2a0752fd9b79c9",
+      "srcHash": "be6516b2ea2965ba",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_9": {
       "en": "Return true when the memory {0} value corresponds to {1}",
       "cn": "当记忆中 {0} 对应值与 {1} 相同时返回真值",
       "ru": "Возвращает значение true, когда память {0} значение соответствует {1}",
       "status": "machine",
-      "srcHash": "c4dd24db22023194",
+      "srcHash": "fa8baf0790ff5d4f",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_10": {
       "en": "Return true when the memory {0} value corresponds to {1}",
       "cn": "当记忆中 {0} 对应值与 {1} 相同时返回真值",
       "ru": "Возвращает значение true, когда память {0} значение соответствует {1}",
       "status": "machine",
-      "srcHash": "c4dd24db22023194",
+      "srcHash": "fa8baf0790ff5d4f",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_11": {
       "en": "Return true when the memory {0} value corresponds to {1}",
       "cn": "当记忆中 {0} 对应值与 {1} 相同时返回真值",
       "ru": "Возвращает значение true, когда память {0} значение соответствует {1}",
       "status": "machine",
-      "srcHash": "c4dd24db22023194",
+      "srcHash": "fa8baf0790ff5d4f",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_12": {
       "en": "Return true when the memory {0} has no corresponding value or differs from {1}",
       "cn": "当记忆中 {0} 无对应值或与 {1} 不相同时返回真值",
       "ru": "Возвращает значение true, когда память {0} не имеет соответствующего значения или отличается от {1}",
       "status": "machine",
-      "srcHash": "f4e17034ae231fe2",
+      "srcHash": "15e5be7554787471",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_13": {
       "en": "Return true when the memory {0} has no corresponding value or differs from {1}",
       "cn": "当记忆中 {0} 无对应值或与 {1} 不相同时返回真值",
       "ru": "Возвращает значение true, когда память {0} не имеет соответствующего значения или отличается от {1}",
       "status": "machine",
-      "srcHash": "f4e17034ae231fe2",
+      "srcHash": "15e5be7554787471",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_14": {
       "en": "Return true when the memory {0} has no corresponding value or differs from {1}",
       "cn": "当记忆中 {0} 无对应值或与 {1} 不相同时返回真值",
       "ru": "Возвращает значение true, когда память {0} не имеет соответствующего значения или отличается от {1}",
       "status": "machine",
-      "srcHash": "f4e17034ae231fe2",
+      "srcHash": "15e5be7554787471",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_15": {
       "en": "Return true when the memory {0} value is greater than {1}",
       "cn": "当记忆中 {0} 对应值大于 {1} 时返回真值",
       "ru": "Возвращает значение true, когда память {0} значение больше, чем {1}",
       "status": "machine",
-      "srcHash": "c3fe0e980504bb3d",
+      "srcHash": "90807d8bd411ad5c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_16": {
       "en": "Return true when the memory {0} value is less than {1}",
       "cn": "当记忆中 {0} 对应值小于 {1} 时返回真值",
       "ru": "Возвращает значение true, когда память {0} значение меньше, чем {1}",
       "status": "machine",
-      "srcHash": "3d279da0d016c20e",
+      "srcHash": "e8c50aa7abd6202d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_17": {
       "en": "Return true when the character is Taiwu or the battle difficulty is equal to or greater than {0}",
       "cn": "当角色为太吾或战斗难度不低于 {0} 时返回真值",
       "ru": "Возвращает значение true, если персонаж является Тайву или сложность боя равна или превышает {0}",
       "status": "machine",
-      "srcHash": "a1be7315aac5fe53",
+      "srcHash": "3af0923b36c2ee46",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_18": {
       "en": "Target Distance Diverse {0}",
       "cn": "目标距离偏向 {0}",
       "ru": "Расстояние до цели различно {0}",
       "status": "machine",
-      "srcHash": "b76523ac88eb2a41",
+      "srcHash": "9aad1ebbcccf4e35",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_19": {
       "en": "Target Distance is not {0}",
       "cn": "目标距离不为 {0}",
       "ru": "Целевое расстояние не {0}",
       "status": "machine",
-      "srcHash": "10ab027b1bf1b71f",
+      "srcHash": "d029ebc95d06d2da",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_20": {
       "en": "Target Distance is not the furthest Distance",
       "cn": "目标距离不为最远距离",
       "ru": "Целевое расстояние - это не самое дальнее расстояние",
       "status": "machine",
-      "srcHash": "c426617193720ec6",
+      "srcHash": "3e55e02b26c21bd6",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_120": {
       "en": "Target distance is greater than {0}.",
       "cn": "目标距离大于{0}",
       "ru": "Расстояние до цели больше, чем {0}.",
       "status": "machine",
-      "srcHash": "a64ce21022159da2",
+      "srcHash": "9a008922e83f797f",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_21": {
       "en": "{0} is casting {1}",
       "cn": "{0} 正在施展 {1}",
       "ru": "{0} это кастинг {1}",
       "status": "machine",
-      "srcHash": "3770d88d38e4e235",
+      "srcHash": "def612c61c010da1",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_22": {
       "en": "{0} is casting Martial Art {1}",
       "cn": "{0} 正在施展功法 {1}",
       "ru": "{0} это кастинг по Боевой технике {1}",
       "status": "machine",
-      "srcHash": "9711283fd465f415",
+      "srcHash": "57c441977dc375f7",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_23": {
       "en": "When {1} Martial Art cast progress is more than {0}% return true",
       "cn": "{1} 功法施展进度不低于 {0}% 时返回真值",
       "ru": "Когда {1} Прогресс в Боевой технике - это больше, чем {0}% возвращает значение true",
       "status": "machine",
-      "srcHash": "f3ed8a1cf4a88ae1",
+      "srcHash": "1e9f68fb50ffe86a",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_24": {
       "en": "When {1} Martial Art cast progress is less than {0}%, return true",
       "cn": "{1} 功法施展进度低于 {0}% 时返回真值",
       "ru": "Когда {1} Прогресс в кастинге Боевой техники меньше, чем {0}%, возвращает значение true",
       "status": "machine",
-      "srcHash": "4b340e72877a333c",
+      "srcHash": "ce2ea6532ac44701",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_25": {
       "en": "Return true when {1} remaining parry value is below {0}%",
       "cn": "当 {1} 剩余招架值低于 {0}% 时返回真值",
       "ru": "Возвращает значение true, когда {1} оставшееся значение Парирования ниже {0}%",
       "status": "machine",
-      "srcHash": "41a079726cd5fb3c",
+      "srcHash": "46085e9b8857e490",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_26": {
       "en": "When {0}'s Defeat Marker has passed half, return true",
       "cn": "当 {0} 战败标记过半时返回真值",
       "ru": "Когда {0}Маркер поражения прошел половину, верните значение true",
       "status": "machine",
-      "srcHash": "af37eb647bc7bfa6",
+      "srcHash": "6f46f865d8286e56",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_27": {
       "en": "When you can't escape or escape has been disabled, return true when you pass",
       "cn": "当己方不可逃跑或判定禁用逃跑通过时返回真值",
       "ru": "Если вы не можете сбежать или побег был отключен, верните значение true при прохождении",
       "status": "machine",
-      "srcHash": "faffdb7c5d3b7c4f",
+      "srcHash": "8e72ae604137f0b5",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_28": {
       "en": "When you have reached escape conditions, return true",
       "cn": "当己方满足逃跑条件时返回真值",
       "ru": "Когда вы достигнете условий экранирования, верните значение true",
       "status": "machine",
-      "srcHash": "4748ad831883d731",
+      "srcHash": "e2ac2bf4feeed4fd",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_29": {
       "en": "Return true when the character is in danger",
       "cn": "当己方处于危险中时返回真值",
       "ru": "Возвращает значение true, когда персонаж находится в опасности",
       "status": "machine",
-      "srcHash": "2e43294cf56e19e5",
+      "srcHash": "37429f76d7b5e738",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_30": {
       "en": "Can Perform Basic Attack",
       "cn": "可以进行普攻",
       "ru": "Может выполнять базовую Атаку",
       "status": "machine",
-      "srcHash": "3f9eddc2dc9cd4b6",
+      "srcHash": "87f59f04c5f28e02",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_31": {
       "en": "Can perform Pinpoint Strike",
       "cn": "可以进行变招",
       "ru": "Может нанести точечный удар",
       "status": "machine",
-      "srcHash": "e0d3084323192466",
+      "srcHash": "b3c4a714a1382bd1",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_32": {
       "en": "Enable Pinpoint Strike Openings",
       "cn": "可以变招破绽",
       "ru": "Включение точечных отверстий для нанесения ударов",
       "status": "machine",
-      "srcHash": "e3c367ba9e8a0ea0",
+      "srcHash": "04e067337ae8befe",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_33": {
       "en": "Enable Pinpoint Strike Sealed acupoint {0}",
       "cn": "可以变招封穴 {0}",
       "ru": "Включить точечный удар по запечатанной Акупунктурной точке {0}",
       "status": "machine",
-      "srcHash": "f25174033a8f5132",
+      "srcHash": "8ff5b965e483167f",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_34": {
       "en": "Enable Pinpoint Strike to change Qi Attribute",
       "cn": "可以变招改内力属性",
       "ru": "Включите точечный удар, чтобы изменить атрибут Ци",
       "status": "machine",
-      "srcHash": "40225e4d4a48b307",
+      "srcHash": "c1fe029f685936f0",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_35": {
       "en": "Return true when a switchable weapon is within attack range between index {0} - {1}",
       "cn": "当索引 {0} - {1} 之间存在可切换且处于攻击范围的武器时返回真值",
       "ru": "Возвращает значение true, когда переключаемое Оружие находится в пределах диапазона Атаки между индексом {0} - {1}",
       "status": "machine",
-      "srcHash": "88037ae198f09a46",
+      "srcHash": "e85c7cccfab14711",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_36": {
       "en": "Can Perform Escape",
       "cn": "可以进行逃脱移动",
       "ru": "Может выполнить побег",
       "status": "machine",
-      "srcHash": "c3814be726107734",
+      "srcHash": "122530753a1e505a",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_37": {
       "en": "Can Perform Action {0}",
       "cn": "可以进行行为 {0}",
       "ru": "Может выполнять действие {0}",
       "status": "machine",
-      "srcHash": "9d8525184808b86a",
+      "srcHash": "8ddaf4b8dc6903b0",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_38": {
       "en": "There're available {0} commands",
       "cn": "存在可用的 {0} 指令",
       "ru": "Там есть свободные {0} команды",
       "status": "machine",
-      "srcHash": "ca8e5060575877be",
+      "srcHash": "931d67f0b53bbfe0",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_39": {
       "en": "There's an available {0} Martial Art",
       "cn": "存在可用的 {0} 功法",
       "ru": "Там есть свободный {0} Боевая техника",
       "status": "machine",
-      "srcHash": "673dd169b67f22ab",
+      "srcHash": "e67a3d25007566c0",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_40": {
       "en": "Cast Amplification Available",
       "cn": "存在可用的施展增幅",
       "ru": "Доступно усиление литья",
       "status": "machine",
-      "srcHash": "133ab7755de34d63",
+      "srcHash": "1c312ad6fc49bd75",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_41": {
       "en": "There's Recovery Parry Protection",
       "cn": "存在恢复招架护体",
       "ru": "Есть защита от восстановления и Парирования",
       "status": "machine",
-      "srcHash": "17440b396d5af5f4",
+      "srcHash": "cfd721f5cf9e01f3",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_42": {
       "en": "Available Boosting Footwork Arts",
       "cn": "存在增益身法",
       "ru": "Доступно повышение уровня Техники передвижения",
       "status": "machine",
-      "srcHash": "e65ced45810ae110",
+      "srcHash": "4d438826d3eef154",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_43": {
       "en": "There's available Healing Medicine",
       "cn": "存在可用的疗伤药",
       "ru": "Есть доступное целебное лекарство",
       "status": "machine",
-      "srcHash": "d88f055ff9fdcdcd",
+      "srcHash": "ba52308608fb0d42",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_44": {
       "en": "There's available Detox Medicine",
       "cn": "存在可用的驱毒药",
       "ru": "Есть доступное детоксикационное лекарство",
       "status": "machine",
-      "srcHash": "4520eae137af1fcf",
+      "srcHash": "f6831cdf65f71e96",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_45": {
       "en": "There's available Inner Breath Medicine",
       "cn": "存在可用的内息药",
       "ru": "Существует доступное лекарство от Внутреннего дыхания",
       "status": "machine",
-      "srcHash": "2e61fce93c1fd119",
+      "srcHash": "76467703623a028b",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_46": {
       "en": "Available Boosting Medicine",
       "cn": "存在可用的增益药",
       "ru": "Доступное стимулирующее лекарство",
       "status": "machine",
-      "srcHash": "7b85f5f397a75773",
+      "srcHash": "73f89abc46f1c034",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_47": {
       "en": "Available Poison",
       "cn": "存在可用的毒药",
       "ru": "Доступный Яд",
       "status": "machine",
-      "srcHash": "f376e8beaa92f8a3",
+      "srcHash": "20295fbb7f9f7ca3",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_48": {
       "en": "Available Souldew",
       "cn": "存在可用的血露",
       "ru": "Доступная плесень",
       "status": "machine",
-      "srcHash": "1cf1e5dc4d301c1e",
+      "srcHash": "1fd4e36c23eb85b9",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_49": {
       "en": "Available Liquor",
       "cn": "存在可用的酒",
       "ru": "Доступные Вина",
       "status": "machine",
-      "srcHash": "87e3c0a3350186a1",
+      "srcHash": "b29553e350eb543e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_50": {
       "en": "There's weapon can be repaired",
       "cn": "存在可修理的兵器",
       "ru": "Там есть Оружие, которое можно починить",
       "status": "machine",
-      "srcHash": "41083bb985f8a1e5",
+      "srcHash": "4b24764c20c4916f",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_51": {
       "en": "Available Armor to Repair",
       "cn": "存在可修理的防具",
       "ru": "Доступная для ремонта Броня",
       "status": "machine",
-      "srcHash": "72c57df4d0629c2b",
+      "srcHash": "9d64d9d29393cc41",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_52": {
       "en": "Return true when the battle type is {0}",
       "cn": "当战斗类型为 {0} 时返回真值",
       "ru": "Возвращает значение true, если тип боя равен {0}",
       "status": "machine",
-      "srcHash": "74f15219c540840b",
+      "srcHash": "0a07123d9eba1af7",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_53": {
       "en": "When {0}'s Qi Footwork Arts is in progress, return true",
       "cn": "当 {0} 已运起身法时返回真值",
       "ru": "Когда {0}Искусство работы ногами с Ци в процессе, верните true",
       "status": "machine",
-      "srcHash": "3fd95f18e2352aa8",
+      "srcHash": "75d6097aa1539663",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_54": {
       "en": "When {0}'s Qi Footwork Arts {1} {2} is in progress, return true",
       "cn": "当 {0} 已运起身法 {1} {2} 时返回真值",
       "ru": "Когда {0}Искусство работы ногами \"Ци\" {1} {2} выполняется, верните значение true",
       "status": "machine",
-      "srcHash": "4148a601b8402989",
+      "srcHash": "3b6b9f1afca1a1bc",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_55": {
       "en": "Return true when {0} has activated Qi Protection.",
       "cn": "当 {0} 已运起护体时返回真值",
       "ru": "Возвращает значение true, когда {0} активировал защиту от Ци.",
       "status": "machine",
-      "srcHash": "5412c7a1ec374f43",
+      "srcHash": "b12bd49c9b992857",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_56": {
       "en": "Return true when {0} has activated {1} {2} Qi Protection.",
       "cn": "当 {0} 已运起护体 {1} {2} 时返回真值",
       "ru": "Возвращает значение true, когда {0} активировал {1} {2} Защита от Ци.",
       "status": "machine",
-      "srcHash": "4b882461c2d35ca5",
+      "srcHash": "cb6a6dc910142d00",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_57": {
       "en": "Return true when only Taiwu",
       "cn": "仅自身为太吾时返回真值",
       "ru": "Возвращает значение true, когда только Тайву",
       "status": "machine",
-      "srcHash": "c45649e27866c309",
+      "srcHash": "caf5f831351170e3",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_58": {
       "en": "Return true when {0}'s {2} {3} has at least {1} Injury Marker(s).",
       "cn": "当 {0} {2} {3} 伤标记不低于 {1} 个时返回真值",
       "ru": "Возвращает значение true, когда {0}'s {2} {3} имеет по крайней мере {1} Маркер(ы) Травмы.",
       "status": "machine",
-      "srcHash": "91ea5f79c41c511d",
+      "srcHash": "7f1cedaec2b0fba7",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_59": {
       "en": "Return true when {0}'s {2} has at least {1} Opening Marker(s).",
       "cn": "当 {0} {2} 破绽标记不低于 {1} 个时返回真值",
       "ru": "Возвращает значение true, когда {0}'s {2} имеет по крайней мере {1} Открывающий маркер (маркеры).",
       "status": "machine",
-      "srcHash": "adf876def3b1a86e",
+      "srcHash": "125b577bf8fc0cb3",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_60": {
       "en": "Return true when {0}'s {2} has at least {1} Sealed acupoint Marker(s).",
       "cn": "当 {0} {2} 封穴标记不低于 {1} 个时返回真值",
       "ru": "Возвращает значение true, когда {0}'s {2} имеет по крайней мере {1} Маркер(маркеры) запечатанных Акупунктурных точек.",
       "status": "machine",
-      "srcHash": "60ecbdf2c4e2016d",
+      "srcHash": "cf694f888fee286f",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_61": {
       "en": "Return true when {0} has at least {1} {2} Marker(s).",
       "cn": "当 {0} {2} 标记不低于 {1} 个时返回真值",
       "ru": "Возвращает значение true, когда {0} имеет по крайней мере {1} {2} Маркер(ы).",
       "status": "machine",
-      "srcHash": "7f696061a8df630a",
+      "srcHash": "23b6ba9ea33e311d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_62": {
       "en": "When {0}'s Daze Marker is more than {1}, return true",
       "cn": "当 {0} 失神标记不低于 {1} 个时返回真值",
       "ru": "Когда {0}Маркер Оцепенения - это нечто большее, чем {1}, возвращает значение true",
       "status": "machine",
-      "srcHash": "c415cfdf4dec5d65",
+      "srcHash": "3773cb98e57394bd",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_63": {
       "en": "Return true when {0} has at least {1} Wound Marker(s).",
       "cn": "当 {0} 重创标记不低于 {1} 个时返回真值",
       "ru": "Возвращает значение true, когда {0} имеет по крайней мере {1} Маркер(маркеры) Раны.",
       "status": "machine",
-      "srcHash": "3edfdcff0da4bad7",
+      "srcHash": "2501fb2ab2a44de5",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_64": {
       "en": "Return true when {0} has at least {1} Doom Marker(s).",
       "cn": "当 {0} 必死标记不低于 {1} 个时返回真值",
       "ru": "Возвращает значение true, когда {0} имеет по крайней мере {1} Маркер(ы) обреченности.",
       "status": "machine",
-      "srcHash": "e4add824909a2add",
+      "srcHash": "f5f42aaf2bd8aa2e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_65": {
       "en": "Return true when {0} has at least {1} Inner Breath Marker(s).",
       "cn": "当 {0} 内息标记不低于 {1} 个时返回真值",
       "ru": "Возвращает значение true, когда {0} имеет по крайней мере {1} Маркер(маркеры) Внутреннего дыхания.",
       "status": "machine",
-      "srcHash": "e35e4d074f6b4d10",
+      "srcHash": "efb412a91c9deb2e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_66": {
       "en": "Return true when {0} has at least {1} Status Marker(s).",
       "cn": "当 {0} 状态标记不低于 {1} 个时返回真值",
       "ru": "Возвращает значение true, когда {0} имеет по крайней мере {1} Маркер(ы) состояния.",
       "status": "machine",
-      "srcHash": "601d08dd7b33920f",
+      "srcHash": "af2548315d4c7089",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_67": {
       "en": "Return true when {0} has at least {1} Health Marker(s).",
       "cn": "当 {0} 健康标记不低于 {1} 个时返回真值",
       "ru": "Возвращает значение true, когда {0} имеет по крайней мере {1} Маркер(ы) Здоровья.",
       "status": "machine",
-      "srcHash": "82261cc864aaa634",
+      "srcHash": "03da37ee48e6f35b",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_68": {
       "en": "Return true when {0} has {1} and {3} Gu from {2}.",
       "cn": "当 {0} 有 {1} 且 {2} 的 {3} 蛊时返回真值",
       "ru": "Возвращает значение true, когда {0} имеет {1} и {3} Гу из {2}.",
       "status": "machine",
-      "srcHash": "dc68b8d672d19b3f",
+      "srcHash": "6b29da64c90b6fe7",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_69": {
       "en": "Return true when {0} has developed {1} Gu.",
       "cn": "当 {0} 有 {1} 成蛊时返回真值",
       "ru": "Возвращает значение true, когда {0} разработал {1} Гу.",
       "status": "machine",
-      "srcHash": "89153e824629df8c",
+      "srcHash": "4390ae99be4353ae",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_70": {
       "en": "Return true when {0} has Prime {1} Gu.",
       "cn": "当 {0} 有 {1} 王蛊时返回真值",
       "ru": "Возвращает значение true, когда {0} имеет простое {1} Гу.",
       "status": "machine",
-      "srcHash": "60d6f05f4cd72800",
+      "srcHash": "a1514bd8824efafc",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_71": {
       "en": "Return true when {0}'s {1} True Qi is at least {2}%.",
       "cn": "当 {0} {1} 真气不低于 {2}% 时返回真值",
       "ru": "Возвращает значение true, когда {0}'s {1} Истинная Ци - это, по крайней мере {2}%.",
       "status": "machine",
-      "srcHash": "bd87905f88820998",
+      "srcHash": "12af5a3b6611c903",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_72": {
       "en": "Return true when {0}'s Martial Art {1} {2} has {3} stack(s).",
       "cn": "当 {0} 功法 {1} {2} 有 {3} 层效果时返回真值",
       "ru": "Возвращает значение true, когда {0}это Боевая техника {1} {2} имеет {3} стопка(ы).",
       "status": "machine",
-      "srcHash": "1983b2f00447a317",
+      "srcHash": "1201743bce00b224",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_73": {
       "en": "Return true when {1} Stamina value is not less than {0}%",
       "cn": "当 {1} 脚力值不低于 {0}% 时返回真值",
       "ru": "Возвращает значение true, когда {1} Показатель Выносливости не менее {0}%",
       "status": "machine",
-      "srcHash": "0e31918520bf61a5",
+      "srcHash": "d6b3cb48b75187a6",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_74": {
       "en": "Deprecated condition, always returns false",
       "cn": "弃用条件，当前会始终返回假值",
       "ru": "Устаревшее условие, всегда возвращает значение false",
       "status": "machine",
-      "srcHash": "7a00ccb361e4d502",
+      "srcHash": "aa54dbaeb0ec4ae1",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_75": {
       "en": "Return true when the character is Taiwu, or when {0}'s Pure Essence is at least {1}.",
       "cn": "当角色为太吾或 {0} 精纯值不低于 {1} 时返回真值",
       "ru": "Возвращает значение true, когда символом является Тайву, или когда {0}его Чистая эссенция, по крайней мере, {1}.",
       "status": "machine",
-      "srcHash": "045886d7a5a98cc8",
+      "srcHash": "36effc1f6ca387b3",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_76": {
       "en": "Return true when the battle stage is not less than {0} (the first stage is zero)",
       "cn": "当战斗阶段不低于 {0} 时返回真值（首个阶段为零）",
       "ru": "Возвращает значение true, когда стадия боя составляет не менее {0} (первая стадия равна нулю)",
       "status": "machine",
-      "srcHash": "b8f4efc725f6fd78",
+      "srcHash": "cf2704534b76ddb1",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_77": {
       "en": "Return true when {0}'s Style Slots have at least {2} {1} Styles(s).",
       "cn": "当 {0} 式槽中 {1} 式数量不低于 {2} 个时返回真值",
       "ru": "Возвращает значение true, когда {0}Слоты в стиле s имеют по крайней мере {2} {1} Стили(ы).",
       "status": "machine",
-      "srcHash": "6f7c6900dfc7d707",
+      "srcHash": "56fe6ba9dfe061af",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_78": {
       "en": "Return true when a weapon at index {0} is switchable",
       "cn": "当索引为 {0} 的兵器可被切换时返回真值",
       "ru": "Возвращает значение true, когда Оружие находится в индексе {0} является переключаемым",
       "status": "machine",
-      "srcHash": "40ea98028f66b9f5",
+      "srcHash": "d04f59fa19220950",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_79": {
       "en": "Return true when a switchable weapon {0} is available",
       "cn": "当存在可切换的兵器 {0} 时返回真值",
       "ru": "Возвращает значение true, когда переключаемое Оружие {0} доступен",
       "status": "machine",
-      "srcHash": "7c7445d6d0dd58da",
+      "srcHash": "e70209c0abb8cc48",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_80": {
       "en": "Return true when a switchable {0} type of weapon is available",
       "cn": "当存在可切换的 {0} 类兵器时返回真值",
       "ru": "Возвращает значение true, когда переключаемый {0} доступен тип Оружия",
       "status": "machine",
-      "srcHash": "a1313087813d0fcc",
+      "srcHash": "061cc3571264a387",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_81": {
       "en": "Return true when {0}'s Weapon is {1}.",
       "cn": "当 {0} 兵器为 {1} 时返回真值",
       "ru": "Возвращает значение true, когда {0}его Оружие - это {1}.",
       "status": "machine",
-      "srcHash": "4756944d60a347a7",
+      "srcHash": "e24f577b27a48dcd",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_82": {
       "en": "Return true when {0}'s Current Weapon Type is {1}.",
       "cn": "当 {0} 兵器类型为 {1} 时返回真值",
       "ru": "Возвращает значение true, когда {0}Текущий тип Оружия - это {1}.",
       "status": "machine",
-      "srcHash": "6948ad52240caec2",
+      "srcHash": "fac813518f0b00f1",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_83": {
       "en": "Return true when {0}'s Qi Attribute is {1}.",
       "cn": "当 {0} 内力属性五行为 {1} 时返回真值",
       "ru": "Возвращает значение true, когда {0}Атрибутом Ци является {1}.",
       "status": "machine",
-      "srcHash": "a771bf0e8d43ffda",
+      "srcHash": "5e107f3a604ac6d9",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_84": {
       "en": "Return true when {0} has at least {1} Markers",
       "cn": "当 {0} 所有标记不低于 {1} 个时返回真值",
       "ru": "Возвращает значение true, когда {0} имеет по крайней мере {1} Маркеры",
       "status": "machine",
-      "srcHash": "f66357fcdf0a504c",
+      "srcHash": "ac6ca533ab2a30c8",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_85": {
       "en": "Return true when {0} has at least {1} Injury Markers by {2} on all body parts",
       "cn": "当 {0} 所有部位 {2} 伤标记不低于 {1} 个时返回真值",
       "ru": "Возвращает значение true, когда {0} имеет по крайней мере {1} Маркеры Травм с помощью {2} на всех частях тела",
       "status": "machine",
-      "srcHash": "d244329f8e7b69b5",
+      "srcHash": "6f5c8d594d2e8f60",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_86": {
       "en": "Return true when {0} has at least {1} Injury Markers on all body parts",
       "cn": "当 {0} 所有部位伤势标记不低于 {1} 个时返回真值",
       "ru": "Возвращает значение true, когда {0} имеет по крайней мере {1} Маркеры Травм на всех частях тела",
       "status": "machine",
-      "srcHash": "069dced71800ee13",
+      "srcHash": "61cb6728baac0a9d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_87": {
       "en": "Return true when {0} has at least {1} Opening Markers on all body parts",
       "cn": "当 {0} 所有部位破绽标记不低于 {1} 个时返回真值",
       "ru": "Возвращает значение true, когда {0} имеет по крайней мере {1} Маркеры открывания на всех частях тела",
       "status": "machine",
-      "srcHash": "5fe67f14e68020d5",
+      "srcHash": "d81b5755ac1eced6",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_88": {
       "en": "Return true when {0} has at least {1} Sealed Acupoint Markers on all body parts",
       "cn": "当 {0} 所有部位封穴标记不低于 {1} 个时返回真值",
       "ru": "Возвращает значение true, когда {0} имеет по крайней мере {1} Запечатанные маркеры Акупунктурных точек на всех частях тела",
       "status": "machine",
-      "srcHash": "5d7a730edc734a72",
+      "srcHash": "4f21ae39aa25c4e5",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_89": {
       "en": "Return true when memory {0} value is greater than {1} value",
       "cn": "当记忆中 {0} 对应值大于 {1} 对应值时返回真值",
       "ru": "Возвращает значение true, когда память {0} значение больше, чем {1} значение",
       "status": "machine",
-      "srcHash": "cb2c07e8fb8beb52",
+      "srcHash": "6994465e7dc6cd53",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_90": {
       "en": "Return true when memory {0} value is less than {1} value",
       "cn": "当记忆中 {0} 对应值小于 {1} 对应值时返回真值",
       "ru": "Возвращает значение true, когда память {0} значение меньше, чем {1} значение",
       "status": "machine",
-      "srcHash": "f504c183c7a6084e",
+      "srcHash": "aab59cde8869c325",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_91": {
       "en": "Return true when memory {0} value equals the Martial Art {1} being casted",
       "cn": "当记忆中 {0} 对应值与 {1} 正在施展的功法相同时返回真值",
       "ru": "Возвращает значение true, когда память {0} ценность равна Боевой технике {1} разыгрывается",
       "status": "machine",
-      "srcHash": "68dee80362daf9be",
+      "srcHash": "f6356788486ccf65",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_92": {
       "en": "Return true when {0} attack range {1} edge is greater than the corresponding edge of another's attack range",
       "cn": "当 {0} 攻击范围 {1} 边缘大于另一方攻击范围相同边缘时返回真值",
       "ru": "Возвращает значение true, когда {0} дальность Атаки {1} преимущество больше, чем соответствующее преимущество дальности Атаки другого игрока",
       "status": "machine",
-      "srcHash": "e3829f57dac02473",
+      "srcHash": "00d683d45d0b0c0c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_93": {
       "en": "Return true when {0} attack range {1} edge is smaller than the corresponding edge of another's attack range",
       "cn": "当 {0} 攻击范围 {1} 边缘小于另一方攻击范围相同边缘时返回真值",
       "ru": "Возвращает значение true, когда {0} дальность Атаки {1} преимущество меньше, чем соответствующее преимущество в радиусе действия чужой Атаки",
       "status": "machine",
-      "srcHash": "c75338a7682b2c26",
+      "srcHash": "08720bd2afa499e0",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_94": {
       "en": "Return true when the last basic attack was with the current weapon and was deflected during the first attack or follow-up",
       "cn": "上次普攻为当前武器，且首次攻击或追击被化解时返回真值",
       "ru": "Возвращает значение true, если последняя базовая Атака была проведена текущим Оружием и была отклонена во время первой Атаки или последующей",
       "status": "machine",
-      "srcHash": "d267a9c457bc0dce",
+      "srcHash": "59b523780d81e3b2",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_95": {
       "en": "Return true when {0} weapon index is {1}",
       "cn": "当 {0} 兵器索引为 {1} 时返回真值",
       "ru": "Возвращает значение true, когда {0} индекс Оружия равен {1}",
       "status": "machine",
-      "srcHash": "25af4d63128f0a5b",
+      "srcHash": "e1e6ef1d4796d25e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_96": {
       "en": "{0} is currently casting Martial Art {1} {2}",
       "cn": "{0} 正在施展功法 {1} {2}",
       "ru": "{0} в настоящее время разрабатывает Боевую технику {1} {2}",
       "status": "machine",
-      "srcHash": "3d342057761a9802",
+      "srcHash": "cb460b7179c32d5f",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_97": {
       "en": "Return true when the character can cast Martial Art {0}",
       "cn": "自身可施展功法 {0} 时返回真值",
       "ru": "Возвращает значение true, когда персонаж может использовать Боевую технику {0}",
       "status": "machine",
-      "srcHash": "a52901b5b4d1ee99",
+      "srcHash": "3ad9b5366e2b38e6",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_98": {
       "en": "Return true when the character can cast Martial Art {0} and it is {1}",
       "cn": "自身可施展功法 {0} 且该功法为 {1} 时返回真值",
       "ru": "Возвращает значение true, когда персонаж может использовать Боевую технику {0} и это так и есть {1}",
       "status": "machine",
-      "srcHash": "f6a0e06a7d211fd5",
+      "srcHash": "7c18164099492b27",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_99": {
       "en": "Return true when {1} has a buff with the name {0} and total strength not less than {2}",
       "cn": "当 {1} 存在名称为 {0} 的增益状态且总强度不低于 {2} 时返回真值",
       "ru": "Возвращает значение true, когда {1} имеет бафф с названием {0} и общая Сила не менее {2}",
       "status": "machine",
-      "srcHash": "3b7db305674e6a6a",
+      "srcHash": "9ec96a152235de62",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_100": {
       "en": "Return true when {1} has an Impairment with the name {0} and total strength not less than {2}",
       "cn": "当 {1} 存在名称为 {0} 的损害状态且总强度不低于 {2} 时返回真值",
       "ru": "Возвращает значение true, когда {1} имеет проблемы с названием {0} и общая Сила не менее {2}",
       "status": "machine",
-      "srcHash": "c974191fd9a78bce",
+      "srcHash": "52d234e17f5e6753",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_101": {
       "en": "Return true when {1} has a special status with the name {0} and total strength not less than {2}",
       "cn": "当 {1} 存在名称为 {0} 的特殊状态且总强度不低于 {2} 时返回真值",
       "ru": "Возвращает значение true, когда {1} имеет особый статус с названием {0} и общая Сила не менее {2}",
       "status": "machine",
-      "srcHash": "66cce8d6d9858428",
+      "srcHash": "33a9069a022fa470",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_102": {
       "en": "Return true when the current distance + {2} is within {0}'s corresponding range in {1} memory",
       "cn": "当前距离 +{2} 处于 {1} 记忆中 {0} 对应值施展范围时返回真值",
       "ru": "Возвращает значение true, когда текущее расстояние + {2} находится внутри {0}соответствующий диапазон в {1} память",
       "status": "machine",
-      "srcHash": "28fd84ea1585e379",
+      "srcHash": "3e09af833a052521",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_103": {
       "en": "Return true when the character can cast memory technique {0}",
       "cn": "自身可施展记忆中 {0} 时返回真值",
       "ru": "Возвращает значение true, когда персонаж может использовать технику запоминания {0}",
       "status": "machine",
-      "srcHash": "1fac9a85b4cc9531",
+      "srcHash": "c22efb5a15d567bd",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_104": {
       "en": "Return true when the current distance equals {0}",
       "cn": "当前距离等于 {0} 时返回真值",
       "ru": "Возвращает значение true, когда текущее расстояние равно {0}",
       "status": "machine",
-      "srcHash": "74fce51817f73145",
+      "srcHash": "6a99af40ce806235",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_105": {
       "en": "Return true when the current distance is greater than {0}",
       "cn": "当前距离大于 {0} 时返回真值",
       "ru": "Возвращает значение true, если текущее расстояние больше, чем {0}",
       "status": "machine",
-      "srcHash": "a8022c2675082160",
+      "srcHash": "fbc98d19db215042",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_106": {
       "en": "Return true when the current distance is less than {0}",
       "cn": "当前距离小于 {0} 时返回真值",
       "ru": "Возвращает значение true, если текущее расстояние меньше {0}",
       "status": "machine",
-      "srcHash": "c94be1a05400eabc",
+      "srcHash": "3b5337b50aff07f2",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_107": {
       "en": "Return true when the last missed basic attack was with the current weapon and no attack was made",
       "cn": "上次落空的普攻为当前武器，且未进行攻击时返回真值",
       "ru": "Возвращает значение true, если последняя пропущенная базовая Атака была выполнена текущим Оружием и Атака не была произведена",
       "status": "machine",
-      "srcHash": "edfec909f8ea277d",
+      "srcHash": "4c75e0c6e83fefd5",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_108": {
       "en": "Return true when there is a weapon {0} that can be unleashed",
       "cn": "当存在可解封的兵器 {0} 时返回真值",
       "ru": "Возвращает значение true при наличии Оружия {0} которые можно высвободить",
       "status": "machine",
-      "srcHash": "58f46d43d40cc74c",
+      "srcHash": "116547e6b61c9b5e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_109": {
       "en": "Return true when there is a weapon type {0} that can be unleashed",
       "cn": "当存在可解封的兵器类型 {0} 时返回真值",
       "ru": "Возвращает значение true при наличии типа Оружия {0} которые можно высвободить",
       "status": "machine",
-      "srcHash": "6bb0ea19df77b50c",
+      "srcHash": "2a8abe252ecad14d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_110": {
       "en": "Return true when {1} weapon {2} unleash progress is not less than {0}%",
       "cn": "当 {1} 有兵器 {2} 解封进度不低于 {0}% 时返回真值",
       "ru": "Возвращает значение true, когда {1} Оружие {2} высвободить прогресс - это не менее {0}%",
       "status": "machine",
-      "srcHash": "21199b2aaf68a509",
+      "srcHash": "0301785969572ebc",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_111": {
       "en": "Return true when the character is casting a Martial Art and interruption is allowed",
       "cn": "当角色正在施展功法且允许中断施展时返回真值",
       "ru": "Возвращает значение true, когда персонаж применяет Боевую технику и прерывание разрешено",
       "status": "machine",
-      "srcHash": "e9ed65acbf9601a3",
+      "srcHash": "144c2ea17b0a73da",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_112": {
       "en": "Return true when the character has activated protection and interruption is allowed",
       "cn": "当角色已运起护体且允许中断护体时返回真值",
       "ru": "Возвращает значение true, когда у персонажа активирована защита и прерывание разрешено",
       "status": "machine",
-      "srcHash": "0429007608f5d700",
+      "srcHash": "176497be5502fdd0",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_113": {
       "en": "Return true when the character has activated footwork arts and interruption is allowed",
       "cn": "当角色已运起身法且允许中断身法时返回真值",
       "ru": "Возвращает значение true, когда персонаж активировал искусство работы ногами и прерывание разрешено",
       "status": "machine",
-      "srcHash": "91c861a6225de914",
+      "srcHash": "f0d0c6e8f1321092",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_114": {
       "en": "If style can be automatically consumed",
       "cn": "能否自动消耗蓄式",
       "ru": "Если стиль может быть использован автоматически",
       "status": "machine",
-      "srcHash": "13a096830f837cdd",
+      "srcHash": "8682abe60a3ccc24",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_115": {
       "en": "Usable sundries {0} available",
       "cn": "存在可用的杂物{0}",
       "ru": "Полезные мелочи {0} доступный",
       "status": "machine",
-      "srcHash": "3b197ccda8fbc3d5",
+      "srcHash": "22c9bd436fbe691e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_116": {
       "en": "{0} Any temporarily sealed Martial Art available",
       "cn": "{0} 存在任意被临时封禁的功法",
       "ru": "{0} Любая доступная временно закрытая Боевая техника",
       "status": "machine",
-      "srcHash": "241100212ef3896a",
+      "srcHash": "e6ff3bcc8085ec81",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_117": {
       "en": "{0} Return True when any support companion available",
       "cn": "{0} 存在任意助战同道时返回真值",
       "ru": "{0} Возвращает значение True, когда доступен любой спутник Поддержки",
       "status": "machine",
-      "srcHash": "d78f633c8e6b2202",
+      "srcHash": "c176a8c36c076b92",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_118": {
       "en": "Return True when {1} Inhale is at least {0}%",
       "cn": "当 {1} 提气值不低于 {0}% 时返回真值",
       "ru": "Возвращает значение True, когда {1} Вдох - это, по крайней мере, {0}%",
       "status": "machine",
-      "srcHash": "2e01895cbc13cc70",
+      "srcHash": "e015f34f7f4ae6eb",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_119": {
       "en": "Return True when {1} Stance is at least {0}%",
       "cn": "当 {1} 架势值不低于 {0}% 时返回真值",
       "ru": "Возвращает значение True, когда {1} Стойка - это, по крайней мере {0}%",
       "status": "machine",
-      "srcHash": "3628b5146065589b",
+      "srcHash": "068c82f096950958",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_121": {
       "en": "{0} Physical Defense × 100/Qi Defense > {1}",
       "cn": "{0}御体*100/御气大于{1}",
       "ru": "{0} Физическая защита × 100/Защита от Ци > {1}",
       "status": "machine",
-      "srcHash": "37e9c7cc0441a101",
+      "srcHash": "883db6126921cf90",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_122": {
       "en": "{0} Casting Annihilation Martial Arts with a Qi/Physical Ratio of {1} to {2}.",
       "cn": "{0}正在施展内外比为{1}至{2}的摧破功法",
       "ru": "{0} Применяя Боевую технику Сокрушения с соотношением Ци/физической силы, равным {1} к {2}.",
       "status": "machine",
-      "srcHash": "7bd7b26a3850ff76",
+      "srcHash": "7245cdc5753affa3",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_123": {
       "en": "Can perform jump Footwork Arts.",
       "cn": "可以施展跳跃身法",
       "ru": "Может выполнять Технику передвижения в прыжках.",
       "status": "machine",
-      "srcHash": "aa5b1d3db46a9c5a",
+      "srcHash": "c77858923b0c4895",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_124": {
       "en": "Can cast Annihilation Martial Arts with an Qi/Physical Ratio of {0} to {1}.",
       "cn": "可以施展内外比为{0}至{1}的摧破功法",
       "ru": "Может использовать Боевую технику Сокрушения с соотношением Ци/физической силы, равным {0} к {1}.",
       "status": "machine",
-      "srcHash": "a3e8973a29769a44",
+      "srcHash": "c4b062b5f1527a92",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_125": {
       "en": "Cast the Protection Martial Art with a reflection multiplier of {0}.",
       "cn": "可以施展具有{0}反震倍率的护体功法",
       "ru": "Примените защитную Боевую технику с коэффициентом отражения, равным {0}.",
       "status": "machine",
-      "srcHash": "90a7fd2fa4bf442e",
+      "srcHash": "d0e9027f1952d520",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "Desc_126": {
       "en": "During your attack wind-up, whether the target can move out of your attack range.",
       "cn": "在己方攻击前摇过程中，对方能否移动出己方的攻击范围",
       "ru": "Во время вашей Атаки проверьте, может ли цель выйти за пределы досягаемости вашей Атаки. Рана.",
       "status": "machine",
-      "srcHash": "91e37dfe396402b7",
+      "srcHash": "83d218e9f12906b4",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     }
   }
 }

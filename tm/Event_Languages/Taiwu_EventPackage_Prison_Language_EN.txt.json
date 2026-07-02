@@ -1,1654 +1,1654 @@
 {
   "schemaVersion": 1,
   "file": "Event_Languages/Taiwu_EventPackage_Prison_Language_EN.txt",
-  "glossaryVersion": 7,
+  "glossaryVersion": 8,
   "units": {
     "4181db5d-146e-4041-a2b8-a67b51e3c784/EventContent": {
       "en": "<Character key=MonthlyEvent_arg1 str=Name/> intercepts <Character key=RoleTaiwu str=Name/> with a cupped-hand salute,<NL>\"Esteemed one, the <Character key=MonthlyEvent_arg2 str=Name/> by your side stands accused<NL>as a wanted criminal on <Settlement key=SettlementId str=Name/>'s bounty list. We have come under orders to apprehend them.<NL>I hope you understand the situation and hand <Character key=RoleTaiwu str=GenderObject/> over to <Settlement key=SettlementId str=Name/>'s jurisdiction...\"<NL><NL>True to bureaucratic duty, <Character key=MonthlyEvent_arg1 str=Name/>'s words carry steel-clad finality.<NL>Refusing to surrender <Character key=MonthlyEvent_arg2 str=Name/> would surely lead to bloodshed...",
       "cn": "<Character key=MonthlyEvent_arg1 str=Name/>拦住<Character key=RoleTaiwu str=Name/>，抱拳说道：<NL>“阁下身旁的<Character key=MonthlyEvent_arg2 str=Name/>有罪在身，<NL>乃是我<Settlement key=SettlementId str=Name/>榜上要犯，故而奉命前来捉拿。<NL>还望阁下识得大体，将此人交由我<Settlement key=SettlementId str=Name/>处置……”<NL><NL><Character key=MonthlyEvent_arg1 str=Name/>既是奉公行事，所言自如斩钉截铁，<NL>若是拒不交出<Character key=MonthlyEvent_arg2 str=Name/>，恐怕难免一场恶战……",
       "ru": "<Character key=MonthlyEvent_arg1 str=Name/> перехватывает <Character key=RoleTaiwu str=Name/> сложив ладони рупором, он отдал честь,<NL>\"Уважаемый, этот <Character key=MonthlyEvent_arg2 str=Name/> рядом с вами стоит обвиняемый<NL>как разыскиваемый преступник по <Settlement key=SettlementId str=Name/>это список наградных. У нас есть приказ задержать их.<NL>Я надеюсь, вы понимаете ситуацию и передадите <Character key=RoleTaiwu str=GenderObject/> перейдя к <Settlement key=SettlementId str=Name/>юрисдикция...\"<NL><NL>Верный бюрократическому долгу, <Character key=MonthlyEvent_arg1 str=Name/>в его словах звучит непреклонность.<NL>Отказ сдаться <Character key=MonthlyEvent_arg2 str=Name/> несомненно, привел бы к кровопролитию...",
       "status": "machine",
-      "srcHash": "4d72623a2b382311",
+      "srcHash": "3a6957f7489e8a3b",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "4181db5d-146e-4041-a2b8-a67b51e3c784/Option_1": {
       "en": "(Refuse to surrender...)",
       "cn": "（拒不交出……）",
       "ru": "(Отказываюсь сдаваться...)",
       "status": "machine",
-      "srcHash": "3a1ba0eadb4db3a5",
+      "srcHash": "dd56fad19de0bbc1",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "4181db5d-146e-4041-a2b8-a67b51e3c784/Option_2": {
       "en": "(Hand over the companion...)",
       "cn": "（交出同道……）\n",
       "ru": "(Передайте мне компаньона...)",
       "status": "machine",
-      "srcHash": "ffa77d0826150cdf",
+      "srcHash": "2a33415fb7e62121",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "2f175884-6a28-41df-ba15-1bc3fe37e766/EventContent": {
       "en": "\"Since you're shielding a criminal, don't blame me for showing no mercy!\"<NL>Hearing <Character key=RoleTaiwu str=Name/>'s refusal, without further discussion, <Character key=MonthlyEvent_arg1 str=Name/> launches an assault on <Character key=RoleTaiwu str=Name/>!",
       "cn": "“阁下既然包藏罪犯，便休怪我不留情面！”<NL><Character key=MonthlyEvent_arg1 str=Name/>见<Character key=RoleTaiwu str=Name/>回绝，不由分说，挺身便向<Character key=RoleTaiwu str=Name/>袭来！",
       "ru": "\"Поскольку вы защищаете преступника, не вините меня в том, что я не проявляю милосердия!\"<NL>Слушание <Character key=RoleTaiwu str=Name/>отказ, без дальнейшего обсуждения, <Character key=MonthlyEvent_arg1 str=Name/> начинает атаку на <Character key=RoleTaiwu str=Name/>!",
       "status": "machine",
-      "srcHash": "20d4f883e76520fe",
+      "srcHash": "c726558046da003d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "2f175884-6a28-41df-ba15-1bc3fe37e766/Option_1": {
       "en": "(Engage in battle!)",
       "cn": "（与之一战！）\n",
       "ru": "(Вступайте в бой!)",
       "status": "machine",
-      "srcHash": "b528a25afa2bad56",
+      "srcHash": "38d2adb1899bd8ad",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "e05aecc8-867c-434a-9e25-a0956f037b6e/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "9f3c43bb86543291",
+      "srcHash": "05eba2f0e137b066",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "6102204c-78fa-484e-94e1-158f5c68da79/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> defeats <Character key=MonthlyEvent_arg1 str=Name/>!<NL><NL>\"Your persistent obstruction<NL>makes you an enemy of <Settlement key=SettlementId str=Name/>. We'll settle this another day!\"<NL>Beaten, <Character key=MonthlyEvent_arg1 str=Name/> retreats toward <Settlement key=SettlementId str=Name/>...",
       "cn": "<Character key=RoleTaiwu str=Name/>击败了<Character key=MonthlyEvent_arg1 str=Name/>！<NL><NL>“阁下如此百般阻挠，<NL>便是与我<Settlement key=SettlementId str=Name/>为敌，且待来日再做计较！”<NL><Character key=MonthlyEvent_arg1 str=Name/>见追捕不利，连忙夺路而走，往<Settlement key=SettlementId str=Name/>的方向退去……",
       "ru": "<Character key=RoleTaiwu str=Name/> поражения <Character key=MonthlyEvent_arg1 str=Name/>!<NL><NL>\"Ваше упорное препятствие<NL>делает тебя врагом <Settlement key=SettlementId str=Name/> Мы уладим это в другой раз!\"<NL>Избитый, <Character key=MonthlyEvent_arg1 str=Name/> отступает навстречу <Settlement key=SettlementId str=Name/>...",
       "status": "machine",
-      "srcHash": "6fbd239ee6ee59e8",
+      "srcHash": "f33ab209f10f8c13",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "6102204c-78fa-484e-94e1-158f5c68da79/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "7a86b0bcb2a366b2",
+      "srcHash": "105a954383dc1c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "503ac1e9-81a2-4e01-b0cc-eede2fe36c97/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> is overpowered by <Character key=MonthlyEvent_arg1 str=Name/>...<NL>Without ceremony,[mq:rxt displaytext=\"<NL>\" val=\"<NL>\"]<Character key=MonthlyEvent_arg1 str=Name/> binds <Character key=MonthlyEvent_arg2 str=Name/> tightly,<NL>and then leaves the area...",
       "cn": "<Character key=RoleTaiwu str=Name/>不敌<Character key=MonthlyEvent_arg1 str=Name/>，败下阵来……<NL><Character key=MonthlyEvent_arg1 str=Name/>并不多言，<NL>即刻将<Character key=MonthlyEvent_arg2 str=Name/>五花大绑，<NL>随后离开了此地……",
       "ru": "<Character key=RoleTaiwu str=Name/> подавлен <Character key=MonthlyEvent_arg1 str=Name/>...<NL>Без церемоний,[mq:rxt displaytext=\"<NL>\" val=\"<NL>\"]<Character key=MonthlyEvent_arg1 str=Name/> связывает <Character key=MonthlyEvent_arg2 str=Name/> плотно,<NL>а затем покидает этот район...",
       "status": "machine",
-      "srcHash": "f93e4f907f0b7fef",
+      "srcHash": "8031e69f5f964219",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "503ac1e9-81a2-4e01-b0cc-eede2fe36c97/Option_1": {
       "en": "(Feeling helpless...)",
       "cn": "（无可奈何……）\n",
       "ru": "(Чувствуя себя беспомощным...)",
       "status": "machine",
-      "srcHash": "3705c4fb029ab40e",
+      "srcHash": "d4fcaf57d9ff3c39",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "045159b3-1dcb-41b1-90cb-e2dc87584fee/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> receives a letter from the <Settlement key=SettlementId str=Name/> prison,<NL>stating that <Character key=MonthlyEvent_arg0 str=Name/>, who was previously imprisoned, has served their sentence and is about to be released.<NL>As <Character key=RoleTaiwu str=Name/> guaranteed their imprisonment, the authorities are seeking final confirmation...",
       "cn": "<Character key=RoleTaiwu str=Name/>收到一封<Settlement key=SettlementId str=Name/>监牢寄来的书信，<NL>原来是此前关押的<Character key=MonthlyEvent_arg0 str=Name/>已然刑满，即将获释，<NL>因是<Character key=RoleTaiwu str=Name/>作保送监，故而特来询问……",
       "ru": "<Character key=RoleTaiwu str=Name/> получает письмо от <Settlement key=SettlementId str=Name/> тюрьма,<NL>заявляя, что <Character key=MonthlyEvent_arg0 str=Name/>, который ранее находился в заключении, отбыл свое наказание и вот-вот выйдет на свободу.<NL>Как <Character key=RoleTaiwu str=Name/> гарантированное им тюремное заключение, власти добиваются окончательного подтверждения...",
       "status": "machine",
-      "srcHash": "37ae4971c7e1ab6e",
+      "srcHash": "d4b13750ee41f81d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "045159b3-1dcb-41b1-90cb-e2dc87584fee/Option_1": {
       "en": "(Continue detention...)",
       "cn": "（继续关押……）",
       "ru": "(Продолжение содержания под стражей...)",
       "status": "machine",
-      "srcHash": "87e8565ceb49a5f2",
+      "srcHash": "70e3b4ebeff0d7dd",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "045159b3-1dcb-41b1-90cb-e2dc87584fee/Option_2": {
       "en": "(Grant release...)",
       "cn": "（释放此人……）\n",
       "ru": "(Освобождение от гранта...)",
       "status": "machine",
-      "srcHash": "a7d693b6577b6036",
+      "srcHash": "c9b647907c730b7e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "61121bf4-8568-4827-bcc7-6eeecbcf8413/EventContent": {
       "en": "The agreed-upon detention period has ended.<NL>If <Character key=RoleTaiwu str=Name/> were to prolong <Character key=MonthlyEvent_arg0 str=Name/>'s confinement,<NL>they'd have to pledge <Settlement key=SettlementId str=Name/>'s \"support\" as collateral...",
       "cn": "此前约定的关押期限已至，<NL><Character key=RoleTaiwu str=Name/>若要继续关押<Character key=MonthlyEvent_arg0 str=Name/>，<NL>势必再以<Settlement key=SettlementId str=Name/>的“支持”作为担保……",
       "ru": "Согласованный срок содержания под стражей истек.<NL>Если <Character key=RoleTaiwu str=Name/> должны были продлить <Character key=MonthlyEvent_arg0 str=Name/>это заключение,<NL>им пришлось бы дать обещание <Settlement key=SettlementId str=Name/>это \"Поддержка\" в качестве залога...",
       "status": "machine",
-      "srcHash": "96c16d175212296c",
+      "srcHash": "444bef8e1dc6d6c7",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "61121bf4-8568-4827-bcc7-6eeecbcf8413/Option_1": {
       "en": "(Temporary detention...)",
       "cn": "（暂时拘留……）",
       "ru": "(Временное задержание...)",
       "status": "machine",
-      "srcHash": "30fe858566847115",
+      "srcHash": "1f0e2badd2ee0402",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "61121bf4-8568-4827-bcc7-6eeecbcf8413/Option_2": {
       "en": "(Short-term imprisonment...)",
       "cn": "（短期关押……）",
       "ru": "(Краткосрочное тюремное заключение...)",
       "status": "machine",
-      "srcHash": "d55b3069929789f5",
+      "srcHash": "f35963e55718e947",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "61121bf4-8568-4827-bcc7-6eeecbcf8413/Option_3": {
       "en": "(Long-term imprisonment...)",
       "cn": "（长期监禁……）",
       "ru": "(Длительное тюремное заключение...)",
       "status": "machine",
-      "srcHash": "590c80de72f73262",
+      "srcHash": "176df4df973ad39c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "61121bf4-8568-4827-bcc7-6eeecbcf8413/Option_4": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "183024cf39cf2f2f",
+      "srcHash": "cb2e4cc8f2fb0e46",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "0d905dbf-0398-431b-9767-32e8b71eee66/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> confirms the details and sends the letter back to <Settlement key=SettlementId str=Name/>,<NL><Character key=MonthlyEvent_arg0 str=Name/> will soon be released and leave <Settlement key=SettlementId str=PrisonName/>...",
       "cn": "<Character key=RoleTaiwu str=Name/>确认无误，便将书信寄回<Settlement key=SettlementId str=Name/>，<NL><Character key=MonthlyEvent_arg0 str=Name/>不日便可获释，离开<Settlement key=SettlementId str=PrisonName/>……",
       "ru": "<Character key=RoleTaiwu str=Name/> подтверждает детали и отправляет письмо обратно по адресу <Settlement key=SettlementId str=Name/>,<NL><Character key=MonthlyEvent_arg0 str=Name/> скоро освободится и уедет <Settlement key=SettlementId str=PrisonName/>...",
       "status": "machine",
-      "srcHash": "f7f8ec2903f975c4",
+      "srcHash": "3f3408d5477fcb5b",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "0d905dbf-0398-431b-9767-32e8b71eee66/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "7a86b0bcb2a366b2",
+      "srcHash": "105a954383dc1c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "38d188f6-d648-4cd9-acfb-3acca36076a7/EventContent": {
       "en": "<color=#lightgrey>(Select the sect support of the following characters to sacrifice as collateral...)</color>",
       "cn": "<color=#lightgrey>（选择失去以下人物的门派支持，作为担保……）</color>",
       "ru": "<color=#lightgrey>(Выберите Поддержку Секты из следующих персонажей для принесения в жертву в качестве залога...)</color>",
       "status": "machine",
-      "srcHash": "a26a1b94cfac9376",
+      "srcHash": "47f7c2b8b733a91d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "38d188f6-d648-4cd9-acfb-3acca36076a7/Option_1": {
       "en": "Confirm",
       "cn": "确定",
       "ru": "Подтверждать",
       "status": "machine",
-      "srcHash": "bb7c9bbfe7c9f19b",
+      "srcHash": "53e9412d939599b4",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "38d188f6-d648-4cd9-acfb-3acca36076a7/Option_2": {
       "en": "Cancel",
       "cn": "取消\n",
       "ru": "Отменить",
       "status": "machine",
-      "srcHash": "9f40df379eced4e9",
+      "srcHash": "f8d7e285747152a8",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "77763f4f-46bb-4918-bdd1-953f49457f86/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> confirms the details and sends the letter back to <Settlement key=SettlementId str=Name/>,<NL><Character key=MonthlyEvent_arg0 str=Name/> will continue to be imprisoned in <Settlement key=SettlementId str=PrisonName/>...",
       "cn": "<Character key=RoleTaiwu str=Name/>确认无误，便将书信寄回<Settlement key=SettlementId str=Name/>，<NL><Character key=MonthlyEvent_arg0 str=Name/>将会继续关押在<Settlement key=SettlementId str=PrisonName/>之中……",
       "ru": "<Character key=RoleTaiwu str=Name/> подтверждает детали и отправляет письмо обратно по адресу <Settlement key=SettlementId str=Name/>,<NL><Character key=MonthlyEvent_arg0 str=Name/> будет по-прежнему находиться в заключении в <Settlement key=SettlementId str=PrisonName/>...",
       "status": "machine",
-      "srcHash": "2890f65b90f5618b",
+      "srcHash": "7f9d9edf3b12150f",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "77763f4f-46bb-4918-bdd1-953f49457f86/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "7a86b0bcb2a366b2",
+      "srcHash": "105a954383dc1c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "89aa4553-df36-4a98-8326-4449d9a39428/EventContent": {
       "en": "<Character key=CharacterId str=Name/> is a wanted criminal on <Settlement key=SettlementId str=Name/>'s bounty list.<NL>Now is the time to confront and capture them...",
       "cn": "<Character key=CharacterId str=Name/>乃是<Settlement key=SettlementId str=Name/>悬赏捉拿的要犯，<NL>如今正可与之一战，将其擒获……",
       "ru": "<Character key=CharacterId str=Name/> находится в розыске преступник на <Settlement key=SettlementId str=Name/>это список наград.<NL>Сейчас самое время противостоять им и захватить в плен...",
       "status": "machine",
-      "srcHash": "f95fe0fcbdd6482f",
+      "srcHash": "62fb16a35658d2dd",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "89aa4553-df36-4a98-8326-4449d9a39428/Option_1": {
       "en": "(Directly attack them...)",
       "cn": "（出手袭击……）",
       "ru": "(Прямая Атака на них...)",
       "status": "machine",
-      "srcHash": "e64e140bccdf9319",
+      "srcHash": "73518786e96b5173",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "89aa4553-df36-4a98-8326-4449d9a39428/Option_2": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "183024cf39cf2f2f",
+      "srcHash": "cb2e4cc8f2fb0e46",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "a83818b4-d223-4beb-934b-5c4003f7bc30/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "9f3c43bb86543291",
+      "srcHash": "05eba2f0e137b066",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "32111315-af70-46f1-8a6a-5c3536153ec4/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> captures <Character key=CharacterId str=Name/>!<NL><NL><Character key=CharacterId str=Name/> is on <Settlement key=SettlementId str=Name/>'s bounty list.<NL>If you take <Character key=RoleTaiwu str=GenderObject/> to <Settlement key=SettlementId str=Name/> and hand <Character key=RoleTaiwu str=GenderObject/> over to the prison, you can claim the bounty...",
       "cn": "<Character key=RoleTaiwu str=Name/>擒获了<Character key=CharacterId str=Name/>！<NL><NL><Character key=CharacterId str=Name/>名列<Settlement key=SettlementId str=Name/>的悬赏榜，<NL>若将此人带至<Settlement key=SettlementId str=Name/>，送入监牢，便可领取榜上赏金……",
       "ru": "<Character key=RoleTaiwu str=Name/> захватывает <Character key=CharacterId str=Name/>!<NL><NL><Character key=CharacterId str=Name/> включен <Settlement key=SettlementId str=Name/>это список наград.<NL>Если вы возьмете <Character key=RoleTaiwu str=GenderObject/> к <Settlement key=SettlementId str=Name/> и рука <Character key=RoleTaiwu str=GenderObject/> отправляясь в тюрьму, вы можете претендовать на награду...",
       "status": "machine",
-      "srcHash": "70d4259100bdcc2c",
+      "srcHash": "3326a93a4822c7e8",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "32111315-af70-46f1-8a6a-5c3536153ec4/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "7a86b0bcb2a366b2",
+      "srcHash": "105a954383dc1c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "494bccdd-5671-40cf-ac39-4cd9814cb890/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "9f3c43bb86543291",
+      "srcHash": "05eba2f0e137b066",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "c4021fb7-9083-485d-8565-fde55ff19008/EventContent": {
       "en": "\"Prisoners are not normally released.<NL><NL>As a Successor of Taiwu, you may free <Character key=SelectCharacterId str=Name/><NL>if you forfeit <Settlement key=SettlementId str=Name/>'s support as bond...\"",
       "cn": "“监牢中关押的罪犯，本不可轻易释放。<NL><NL>阁下身为太吾传人，若要释放<Character key=SelectCharacterId str=Name/>，<NL>还需以我<Settlement key=SettlementId str=Name/>的‘支持’作为担保……”",
       "ru": "\"Обычно заключенных не освобождают.<NL><NL>Как Преемник Тайву, вы можете освободить <Character key=SelectCharacterId str=Name/><NL>если вы проиграете <Settlement key=SettlementId str=Name/>его Поддержка в качестве бонда...\"",
       "status": "machine",
-      "srcHash": "3361bb33e5f70934",
+      "srcHash": "96707c0636cd5f6b",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "c4021fb7-9083-485d-8565-fde55ff19008/Option_1": {
       "en": "(Request release...)",
       "cn": "（请求释放……）",
       "ru": "(Запросите освобождение...)",
       "status": "machine",
-      "srcHash": "36e4533bf200edb5",
+      "srcHash": "730528e90642a107",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "c4021fb7-9083-485d-8565-fde55ff19008/Option_2": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "183024cf39cf2f2f",
+      "srcHash": "cb2e4cc8f2fb0e46",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "e74bf563-2736-4687-897c-20b75976bdbb/EventContent": {
       "en": "<color=#lightgrey>(Select the sect support of the following characters to sacrifice as collateral...)</color>",
       "cn": "<color=#lightgrey>（选择失去以下人物的门派支持，作为担保……）</color>",
       "ru": "<color=#lightgrey>(Выберите Поддержку Секты из следующих персонажей для принесения в жертву в качестве залога...)</color>",
       "status": "machine",
-      "srcHash": "a26a1b94cfac9376",
+      "srcHash": "47f7c2b8b733a91d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "e74bf563-2736-4687-897c-20b75976bdbb/Option_1": {
       "en": "Confirm",
       "cn": "确定",
       "ru": "Подтверждать",
       "status": "machine",
-      "srcHash": "bb7c9bbfe7c9f19b",
+      "srcHash": "53e9412d939599b4",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "e74bf563-2736-4687-897c-20b75976bdbb/Option_2": {
       "en": "Cancel",
       "cn": "取消\n",
       "ru": "Отменить",
       "status": "machine",
-      "srcHash": "9f40df379eced4e9",
+      "srcHash": "f8d7e285747152a8",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "5cb34132-eba8-45dc-b6c0-52766e4db19c/EventContent": {
       "en": "\"With the guarantee of the Successor of Taiwu,<NL><Character key=SelectCharacterId str=Name/> may leave the prison...\"<NL><NL><color=#lightgrey>(<Character key=SelectCharacterId str=Name/> has been released...)</color>",
       "cn": "“既有太吾传人担保，<NL><Character key=SelectCharacterId str=Name/>便可即刻离开监牢……”<NL><NL><color=#lightgrey>（<Character key=SelectCharacterId str=Name/>已被释放出狱……）</color>",
       "ru": "\"С гарантией Преемника Тайву,<NL><Character key=SelectCharacterId str=Name/> может покинуть тюрьму...\"<NL><NL><color=#lightgrey>(<Character key=SelectCharacterId str=Name/> был освобожден...)</color>",
       "status": "machine",
-      "srcHash": "f50cb3fd62b76e77",
+      "srcHash": "587f3ccdf85d397f",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "5cb34132-eba8-45dc-b6c0-52766e4db19c/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "7a86b0bcb2a366b2",
+      "srcHash": "105a954383dc1c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "3476afe4-82dd-4f6d-aa98-43dca3b0700c/EventContent": {
       "en": "\"Prisoners cannot normally be released.<NL><NL>As a Successor of Taiwu, you may take custody of <Character key=SelectCharacterId str=Name/><NL>if you forfeit <Settlement key=SettlementId str=Name/>'s support as bond...\"",
       "cn": "“监牢中关押的罪犯，本不可轻易释放。<NL><NL>阁下身为太吾传人，若要收管<Character key=SelectCharacterId str=Name/>，<NL>还需以我<Settlement key=SettlementId str=Name/>‘支持’作为担保……”",
       "ru": "\"Обычно заключенные не могут быть освобождены.<NL><NL>Как Преемник Тайву, вы можете взять под опеку <Character key=SelectCharacterId str=Name/><NL>если вы проиграете <Settlement key=SettlementId str=Name/>его Поддержка в качестве бонда...\"",
       "status": "machine",
-      "srcHash": "1599692f17085997",
+      "srcHash": "939057394229ca7d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "3476afe4-82dd-4f6d-aa98-43dca3b0700c/Option_1": {
       "en": "(Assume custody...)",
       "cn": "（收管罪犯……）",
       "ru": "(Взять на себя опеку...)",
       "status": "machine",
-      "srcHash": "688b6fefb6a73c58",
+      "srcHash": "a91b5c09f76feb0f",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "3476afe4-82dd-4f6d-aa98-43dca3b0700c/Option_2": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "183024cf39cf2f2f",
+      "srcHash": "cb2e4cc8f2fb0e46",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "540ff7a0-af62-4bef-a3ec-527e284afa18/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> scrutinizes the surroundings.<NL>This place is under tight security with guards posted in formation.<NL>If one tries to break into it regardless, they probably will be besieged and can never break free until after {0}...",
       "cn": "<Character key=RoleTaiwu str=Name/>细细观察四周，<NL>此处戒备森严，守卫结成阵势，<NL>若要执意劫狱，恐会陷入重围，若不历经{0}，绝难脱身……",
       "ru": "<Character key=RoleTaiwu str=Name/> внимательно осматривает окрестности.<NL>Это место находится под усиленной охраной, охранники расставлены в строю.<NL>Если кто-то попытается проникнуть в него, несмотря ни на что, они, вероятно, будут осаждены и никогда не смогут вырваться на свободу до тех пор, пока {0}...",
       "status": "machine",
-      "srcHash": "ddb43e8ce4837b5f",
+      "srcHash": "e33ebf1388756747",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "540ff7a0-af62-4bef-a3ec-527e284afa18/Option_1": {
       "en": "(Storm the prison...)",
       "cn": "（执意劫狱……）",
       "ru": "(Штурмовать тюрьму...)",
       "status": "machine",
-      "srcHash": "a387326602876d88",
+      "srcHash": "16fe15f6c4c1ea3e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "540ff7a0-af62-4bef-a3ec-527e284afa18/Option_2": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "183024cf39cf2f2f",
+      "srcHash": "cb2e4cc8f2fb0e46",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "d72574a6-2060-4c74-98cb-b008b1704aae/EventContent": {
       "en": "<color=#lightgrey>(Select the sect support of the following characters to sacrifice as collateral...)</color>",
       "cn": "<color=#lightgrey>（选择失去以下人物的门派支持，作为担保……）</color>",
       "ru": "<color=#lightgrey>(Выберите Поддержку Секты из следующих персонажей для принесения в жертву в качестве залога...)</color>",
       "status": "machine",
-      "srcHash": "a26a1b94cfac9376",
+      "srcHash": "47f7c2b8b733a91d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "d72574a6-2060-4c74-98cb-b008b1704aae/Option_1": {
       "en": "Confirm",
       "cn": "确定",
       "ru": "Подтверждать",
       "status": "machine",
-      "srcHash": "bb7c9bbfe7c9f19b",
+      "srcHash": "53e9412d939599b4",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "d72574a6-2060-4c74-98cb-b008b1704aae/Option_2": {
       "en": "Cancel",
       "cn": "取消\n",
       "ru": "Отменить",
       "status": "machine",
-      "srcHash": "9f40df379eced4e9",
+      "srcHash": "f8d7e285747152a8",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "d68920af-3605-4fa6-a362-c7ef630df9b2/EventContent": {
       "en": "\"In that case, <Character key=SelectCharacterId str=Name/> is now under the administration of the Successor of Taiwu...\"<NL><NL><color=#lightgrey>(<Character key=SelectCharacterId str=Name/> has become <Character key=RoleTaiwu str=Name/>'s captive...)</color>",
       "cn": "“既然如此，<Character key=SelectCharacterId str=Name/>便交由太吾传人监管了……”<NL><NL><color=#lightgrey>（<Character key=SelectCharacterId str=Name/>成为了<Character key=RoleTaiwu str=Name/>的俘虏……）</color>",
       "ru": "\"В таком случае, <Character key=SelectCharacterId str=Name/> сейчас находится под управлением Преемника Тайву...\"<NL><NL><color=#lightgrey>(<Character key=SelectCharacterId str=Name/> стал <Character key=RoleTaiwu str=Name/>Пленник...)</color>",
       "status": "machine",
-      "srcHash": "bb28dc61f0e1e223",
+      "srcHash": "4c225b53f554e1d0",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "d68920af-3605-4fa6-a362-c7ef630df9b2/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "7a86b0bcb2a366b2",
+      "srcHash": "105a954383dc1c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "056b183c-181c-4588-bdfe-de852a3a5a59/EventContent": {
       "en": "\"In that case, <Character key=SelectCharacterId str=Name/> is now under the administration of the Successor of Taiwu...\"<NL><NL><color=#lightgrey>(<Character key=SelectCharacterId str=Name/> has been taken to the stone house in Taiwu Village...)</color>",
       "cn": "“既然如此，<Character key=SelectCharacterId str=Name/>便交由太吾传人监管了……”<NL><NL><color=#lightgrey>（<Character key=SelectCharacterId str=Name/>已被押送至太吾村石屋……）</color>",
       "ru": "\"В таком случае, <Character key=SelectCharacterId str=Name/> сейчас находится под управлением Преемника Тайву...\"<NL><NL><color=#lightgrey>(<Character key=SelectCharacterId str=Name/> его отвезли в каменный дом в Деревне Тайву...)</color>",
       "status": "machine",
-      "srcHash": "994596d1dbf14b3b",
+      "srcHash": "20e164076aaf690e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "056b183c-181c-4588-bdfe-de852a3a5a59/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "7a86b0bcb2a366b2",
+      "srcHash": "105a954383dc1c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "b63d0137-ad7c-49d8-8a38-4a6673f0d6e7/EventContent": {
       "en": "\"How dare you?\"<NL><NL>Without a word, <Character key=RoleTaiwu str=Name/> turns to leave with <Character key=SelectCharacterId str=Name/>!<NL>But the place is heavily guarded, and instantly<NL><Character key=RoleTaiwu str=Name/> is besieged by guards and engaged in {0}!",
       "cn": "“阁下何以如此！”<NL><NL><Character key=RoleTaiwu str=Name/>并不多言，带着<Character key=SelectCharacterId str=Name/>转身便走！<NL>然而此地戒备森严，不过须臾，<NL><Character key=RoleTaiwu str=Name/>便被守卫重重围困，陷入{0}！",
       "ru": "- Как ты смеешь?<NL><NL>Не сказав ни слова, <Character key=RoleTaiwu str=Name/> поворачивается, чтобы уйти с <Character key=SelectCharacterId str=Name/>!<NL>Но это место усиленно охраняется, и мгновенно<NL><Character key=RoleTaiwu str=Name/> осажден охранниками и занят {0}!",
       "status": "machine",
-      "srcHash": "02bb8200a3882336",
+      "srcHash": "906855bab7f7c403",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "b63d0137-ad7c-49d8-8a38-4a6673f0d6e7/Option_1": {
       "en": "({0}!)",
       "cn": "（{0}！）\n",
       "ru": "({0}!)",
       "status": "machine",
-      "srcHash": "8c6e2bea2adbc9ff",
+      "srcHash": "2dc692f4cee30d99",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "7ef230f0-4ccc-4827-b4b1-e4fd6664c496/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> defeats all the guards<NL>and successfully rescues <Character key=SelectCharacterId str=Name/> from the prison...",
       "cn": "<Character key=RoleTaiwu str=Name/>将守卫尽数打倒，<NL>自监牢中顺利救出了<Character key=SelectCharacterId str=Name/>……",
       "ru": "<Character key=RoleTaiwu str=Name/> побеждает всех охранников<NL>и успешно спасает <Character key=SelectCharacterId str=Name/> из тюрьмы...",
       "status": "machine",
-      "srcHash": "19e4e96b1215204c",
+      "srcHash": "ddd5b880a69a7a01",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "7ef230f0-4ccc-4827-b4b1-e4fd6664c496/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "7a86b0bcb2a366b2",
+      "srcHash": "105a954383dc1c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "7f0265c0-4885-41ba-bc7f-4ac3af9fbcf9/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> defeats all the guards<NL>and successfully rescues <Character key=SelectCharacterId str=Name/> from the prison,<NL>sending <Character key=SelectCharacterId str=Name/> back to Taiwu Village first...",
       "cn": "<Character key=RoleTaiwu str=Name/>将守卫尽数打倒，<NL>自监牢中顺利救出<Character key=SelectCharacterId str=Name/>，<NL>令<Character key=SelectCharacterId str=Name/>先行返回了太吾村……",
       "ru": "<Character key=RoleTaiwu str=Name/> побеждает всех охранников<NL>и успешно спасает <Character key=SelectCharacterId str=Name/> из тюрьмы,<NL>отправка <Character key=SelectCharacterId str=Name/> сначала вернемся в Деревню Тайву...",
       "status": "machine",
-      "srcHash": "1a348045e684ae6d",
+      "srcHash": "e20257128060e463",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "7f0265c0-4885-41ba-bc7f-4ac3af9fbcf9/Option_1": {
       "en": "(Left without looking back...)",
       "cn": "（扬长而去……）\n",
       "ru": "(Ушел, не оглядываясь...)",
       "status": "machine",
-      "srcHash": "b319acc54cf25bfb",
+      "srcHash": "c59a2cd52a5e610c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "24dfb467-d2e9-4a82-b269-827fb722939c/EventContent": {
       "en": "Triggered by clicking the Prison button. Open the Prison screen after parameters are submitted.",
       "cn": "在点击监牢按钮之后触发，用于提交参数之后开启监牢界面\n",
       "ru": "Запускается нажатием кнопки \"Тюрьма\". Откройте экран \"Тюрьма\" после отправки параметров.",
       "status": "machine",
-      "srcHash": "8656abaf31138e2c",
+      "srcHash": "e0ddc7d4139cac23",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "03781759-555a-4cb1-aa01-17c8a451b710/EventContent": {
       "en": "\"<Settlement key=SettlementId str=PrisonName/> is a restricted area of <Settlement key=SettlementId str=Name/>. No entrance without permission.<NL>But, you have gained our sect's support.<NL>I guess you can be allowed to enter...\"<NL><NL>The prison guard steps aside to let <Character key=RoleTaiwu str=Name/> pass...",
       "cn": "“<Settlement key=SettlementId str=PrisonName/>乃我<Settlement key=SettlementId str=Name/>重地，闲杂人等本不得擅入。<NL>不过，阁下既已备受我派支持，<NL>姑且任阁下通行，料也无妨……”<NL><NL>监牢守卫见到<Character key=RoleTaiwu str=Name/>，便即侧身放行……",
       "ru": "\"<Settlement key=SettlementId str=PrisonName/> является запретной зоной для <Settlement key=SettlementId str=Name/> Вход воспрещен без разрешения.<NL>Но вы заручились Поддержкой нашей Секты.<NL>Я думаю, вам может быть позволено войти...\"<NL><NL>Тюремный охранник отходит в сторону, чтобы пропустить <Character key=RoleTaiwu str=Name/> проходите...",
       "status": "machine",
-      "srcHash": "ad5d8da7d3c794eb",
+      "srcHash": "598e715e8d9b103e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "03781759-555a-4cb1-aa01-17c8a451b710/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "7a86b0bcb2a366b2",
+      "srcHash": "105a954383dc1c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "03781759-555a-4cb1-aa01-17c8a451b710/Option_2": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "183024cf39cf2f2f",
+      "srcHash": "cb2e4cc8f2fb0e46",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "96088c33-0ce5-4312-aa91-3e9dbfd1efb1/EventContent": {
       "en": "\"<Settlement key=SettlementId str=PrisonName/> is a restricted zone in <Settlement key=SettlementId str=Name/>.\"<NL><NL>The prison guards see <Character key=RoleTaiwu str=Name/> and do not step aside...",
       "cn": "“<Settlement key=SettlementId str=PrisonName/>乃我<Settlement key=SettlementId str=Name/>重地，闲杂人等不得擅入。”<NL><NL>守卫之人见到<Character key=RoleTaiwu str=Name/>，并未侧身放行……",
       "ru": "\"<Settlement key=SettlementId str=PrisonName/> является запретной зоной в <Settlement key=SettlementId str=Name/>.\"<NL><NL>Тюремные охранники видят <Character key=RoleTaiwu str=Name/> и не отходите в сторону...",
       "status": "machine",
-      "srcHash": "5ef00dc986a311b9",
+      "srcHash": "2e419f30552f8f37",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "96088c33-0ce5-4312-aa91-3e9dbfd1efb1/Option_1": {
       "en": "How do I gain access?",
       "cn": "如何方可进出此地？",
       "ru": "Как мне получить доступ?",
       "status": "machine",
-      "srcHash": "05d836455ee51045",
+      "srcHash": "c88883971b6eaf5b",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "96088c33-0ce5-4312-aa91-3e9dbfd1efb1/Option_2": {
       "en": "(Leave for now...)",
       "cn": "（暂且离开……）\n",
       "ru": "(Оставь пока...)",
       "status": "machine",
-      "srcHash": "263191c687425d00",
+      "srcHash": "d3bb13049a07a030",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "5f1974e4-46c6-4ac9-a12e-5bbb5c2cdd95/EventContent": {
       "en": "\"As a Successor of Taiwu,<NL>if you can gain much 'Support' from our <Settlement key=SettlementId str=Name/><NL>you'll be admitted to this place...\"<NL><NL><color=#lightgrey>(Requires a minimum Sect Support of <ArgBox key=SupportValue type=int/>%)",
       "cn": "“阁下身为太吾传人，<NL>若能取得我<Settlement key=SettlementId str=Name/>中诸多‘支持’，<NL>便可通行此地……”<NL><NL><color=#lightgrey>（门派支持度需不低于<ArgBox key=SupportValue type=int/>%）",
       "ru": "\"Как Преемник Тайву,<NL>если вы сможете получить большую \"Поддержку\" от нашего <Settlement key=SettlementId str=Name/><NL>вы будете допущены в это заведение...\"<NL><NL><color=#lightgrey>(Требуется минимальная Поддержка со стороны Секты <ArgBox key=SupportValue type=int/>%)",
       "status": "machine",
-      "srcHash": "28dd30bb67b6bda0",
+      "srcHash": "c3cff34cf6f32396",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "5f1974e4-46c6-4ac9-a12e-5bbb5c2cdd95/Option_1": {
       "en": "(Attempt to breach...)",
       "cn": "（尝试闯入……）",
       "ru": "(Попытка взлома...)",
       "status": "machine",
-      "srcHash": "0f65d19aeb35b7da",
+      "srcHash": "711c8c43a88fa999",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "5f1974e4-46c6-4ac9-a12e-5bbb5c2cdd95/Option_2": {
       "en": "(Leave for now...)",
       "cn": "（暂且离开……）\n",
       "ru": "(Оставь пока...)",
       "status": "machine",
-      "srcHash": "263191c687425d00",
+      "srcHash": "d3bb13049a07a030",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "8091d564-564b-4460-bb04-78252c65a860/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> scrutinizes the surroundings.<NL>This place is under tight security with guards posted in formation.<NL>If one tries to break in regardless, they probably will be besieged and can never break free until after {0}...",
       "cn": "<Character key=RoleTaiwu str=Name/>细细观察四周，<NL>此处戒备森严，守卫结成阵势，<NL>若要执意闯入，恐会陷入重围，不历经数场{0}，绝难脱身……",
       "ru": "<Character key=RoleTaiwu str=Name/> внимательно осматривает окрестности.<NL>Это место находится под усиленной охраной, охранники расставлены в строю.<NL>Если кто-то попытается проникнуть внутрь, несмотря ни на что, они, вероятно, будут осаждены и никогда не смогут вырваться на свободу до тех пор, пока {0}...",
       "status": "machine",
-      "srcHash": "b3a8beb84e3a6a34",
+      "srcHash": "cf24c775614285a5",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "8091d564-564b-4460-bb04-78252c65a860/Option_1": {
       "en": "(Force entry into it...)",
       "cn": "（执意闯入……）",
       "ru": "(Проникновение в него с Мощью...)",
       "status": "machine",
-      "srcHash": "020da039b12cf2f1",
+      "srcHash": "b5c527629eb19cca",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "8091d564-564b-4460-bb04-78252c65a860/Option_2": {
       "en": "(Leave for now...)",
       "cn": "（暂且离开……）\n",
       "ru": "(Оставь пока...)",
       "status": "machine",
-      "srcHash": "263191c687425d00",
+      "srcHash": "d3bb13049a07a030",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "f3e42f21-e73f-4cfc-92e8-b3d22a48dd50/EventContent": {
       "en": "\"How dare you break in here?\"<NL><NL>Without a word, <Character key=RoleTaiwu str=Name/> insists on breaking into the prison!<NL>But the place is heavily guarded, and instantly<NL><Character key=RoleTaiwu str=Name/> is besieged by guards and engaged in {0}!",
       "cn": "“大胆狂徒，竟敢擅闯监牢！”<NL><NL><Character key=RoleTaiwu str=Name/>并不多言，执意闯入监牢！<NL>然而此地戒备森严，不过须臾，<NL><Character key=RoleTaiwu str=Name/>便被守卫重重围困，陷入{0}！",
       "ru": "- Как ты посмел вломиться сюда?<NL><NL>Не сказав ни слова, <Character key=RoleTaiwu str=Name/> настаивает на том, чтобы проникнуть в тюрьму!<NL>Но это место усиленно охраняется, и мгновенно<NL><Character key=RoleTaiwu str=Name/> осажден охранниками и занят {0}!",
       "status": "machine",
-      "srcHash": "6799a74becc84146",
+      "srcHash": "d7e543a097ffde11",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "f3e42f21-e73f-4cfc-92e8-b3d22a48dd50/Option_1": {
       "en": "({0}!)",
       "cn": "（{0}！）\n",
       "ru": "({0}!)",
       "status": "machine",
-      "srcHash": "8c6e2bea2adbc9ff",
+      "srcHash": "2dc692f4cee30d99",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "95111d55-da49-4b67-b279-8f5ba6fb2f39/EventContent": {
       "en": "nan",
       "cn": "",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "9f3c43bb86543291",
+      "srcHash": "05eba2f0e137b066",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "95111d55-da49-4b67-b279-8f5ba6fb2f39/Option_1": {
       "en": "Brawl Defeat",
       "cn": "恶斗失败\n",
       "ru": "Поражение в драке",
       "status": "machine",
-      "srcHash": "eb3159c4850f8a62",
+      "srcHash": "4b4b7a6023e1479b",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "fb2c1690-5294-45ba-a308-dc11791a2c67/EventContent": {
       "en": "nan",
       "cn": "",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "9f3c43bb86543291",
+      "srcHash": "05eba2f0e137b066",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "4e5fd0f4-c5df-43db-8854-302fad0cb0a8/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> defeats all the guards<NL>and strides boldly into the prison...",
       "cn": "<Character key=RoleTaiwu str=Name/>将守卫尽数打倒，<NL>堂而皇之地步入监牢之中……",
       "ru": "<Character key=RoleTaiwu str=Name/> побеждает всех охранников<NL>и смело входит в тюрьму...",
       "status": "machine",
-      "srcHash": "a68a85980a8aac10",
+      "srcHash": "f9461643ec98ec3b",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "4e5fd0f4-c5df-43db-8854-302fad0cb0a8/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "7a86b0bcb2a366b2",
+      "srcHash": "105a954383dc1c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "1c41d429-8851-4a8d-b5cc-79ab811dc195/EventContent": {
       "en": "\"Any wanted criminals on the bounty list<NL>or enemies of <Settlement key=SettlementId str=Name/><NL>can be sent here, and we'll surely reward you...\"",
       "cn": "“但凡拿获榜上悬赏的要犯，<NL>或是与我<Settlement key=SettlementId str=Name/>敌对之人，<NL>皆可送来此处关押，我等定有酬谢……”",
       "ru": "\"Есть ли разыскиваемые преступники в списке награжденных<NL>или враги <Settlement key=SettlementId str=Name/><NL>можете отправить сюда, и мы обязательно вознаградим вас...\"",
       "status": "machine",
-      "srcHash": "2a154c78f97852ff",
+      "srcHash": "c3f4ec2e216b7ded",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "1c41d429-8851-4a8d-b5cc-79ab811dc195/Option_1": {
       "en": "(Deliver prisoner...)",
       "cn": "（送入监牢……）",
       "ru": "(Доставить заключенного...)",
       "status": "machine",
-      "srcHash": "6059bf32fbe41ce4",
+      "srcHash": "2b1ba0b567de0cf8",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "1c41d429-8851-4a8d-b5cc-79ab811dc195/Option_2": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "183024cf39cf2f2f",
+      "srcHash": "cb2e4cc8f2fb0e46",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "30463032-be9a-467e-b385-d53a58894f2a/EventContent": {
       "en": "<color=#lightgrey>(Select prisoner to incarcerate...)</color>",
       "cn": "<color=#lightgrey>（选择需要送入监牢的人物……）</color>",
       "ru": "<color=#lightgrey>(Выберите заключенного для заключения в тюрьму...)</color>",
       "status": "machine",
-      "srcHash": "9525912d70ed3078",
+      "srcHash": "4bc15269378fc004",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "30463032-be9a-467e-b385-d53a58894f2a/Option_1": {
       "en": "Confirm",
       "cn": "确定",
       "ru": "Подтверждать",
       "status": "machine",
-      "srcHash": "bb7c9bbfe7c9f19b",
+      "srcHash": "53e9412d939599b4",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "30463032-be9a-467e-b385-d53a58894f2a/Option_2": {
       "en": "Cancel",
       "cn": "取消\n",
       "ru": "Отменить",
       "status": "machine",
-      "srcHash": "9f40df379eced4e9",
+      "srcHash": "f8d7e285747152a8",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "c69d667e-8b9c-4ac0-8924-962185e369fd/EventContent": {
       "en": "\"This person is indeed the wanted criminal on the bounty list!<NL>You've aided our capture. The full bounty is yours...\"<NL><NL><color=#lightgrey>(<Character key=SelectCharacterId str=Name/> has been imprisoned in <Settlement key=SettlementId str=PrisonName/>...)<NL>(<Character key=RoleTaiwu str=Name/> has received <ArgBox key=BountyCount type=int/><ArgBox key=BountyTypeName type=string/>...)</color>",
       "cn": "“此人正是榜上悬赏缉拿之人！<NL>阁下既助我派擒获要犯，赏金自当如数奉上……”<NL><NL><color=#lightgrey>（<Character key=SelectCharacterId str=Name/>被押入<Settlement key=SettlementId str=PrisonName/>……）<NL>（<Character key=RoleTaiwu str=Name/>获得了<ArgBox key=BountyCount type=int/><ArgBox key=BountyTypeName type=string/>……）</color>",
       "ru": "\"Этот человек действительно является разыскиваемым преступником из списка награжденных!<NL>Вы помогли нам в поимке. Вся награда твоя...\"<NL><NL><color=#lightgrey>(<Character key=SelectCharacterId str=Name/> был заключен в тюрьму в <Settlement key=SettlementId str=PrisonName/>...)<NL>(<Character key=RoleTaiwu str=Name/> получил <ArgBox key=BountyCount type=int/><ArgBox key=BountyTypeName type=string/>...)</color>",
       "status": "machine",
-      "srcHash": "c4ea788e49245d90",
+      "srcHash": "d5ed159895884b34",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "c69d667e-8b9c-4ac0-8924-962185e369fd/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "7a86b0bcb2a366b2",
+      "srcHash": "105a954383dc1c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "52676334-7528-4e35-8677-746236fef9f7/EventContent": {
       "en": "\"This person is indeed an enemy of <Settlement key=SettlementId str=Name/>.<NL>Now that you've captured <Character key=RoleTaiwu str=GenderObject/>, we'll naturally offer our gratitude...\"<NL><NL><color=#lightgrey>(<Character key=SelectCharacterId str=Name/> has been imprisoned in <Settlement key=SettlementId str=PrisonName/>...)<NL>(<Character key=RoleTaiwu str=Name/> has received <ArgBox key=BountyCount type=int/><ArgBox key=BountyTypeName type=string/>...)</color>",
       "cn": "“此人确与我<Settlement key=SettlementId str=Name/>为敌，<NL>如今既被阁下擒获，我等自当奉上谢礼……”<NL><NL><color=#lightgrey>（<Character key=SelectCharacterId str=Name/>被押入<Settlement key=SettlementId str=PrisonName/>……）<NL>（<Character key=RoleTaiwu str=Name/>获得了<ArgBox key=BountyCount type=int/><ArgBox key=BountyTypeName type=string/>……）</color>",
       "ru": "\"Этот человек действительно является врагом <Settlement key=SettlementId str=Name/>.<NL>Теперь, когда вы захватили <Character key=RoleTaiwu str=GenderObject/>, мы, естественно, выразим нашу благодарность...\"<NL><NL><color=#lightgrey>(<Character key=SelectCharacterId str=Name/> был заключен в тюрьму в <Settlement key=SettlementId str=PrisonName/>...)<NL>(<Character key=RoleTaiwu str=Name/> получил <ArgBox key=BountyCount type=int/><ArgBox key=BountyTypeName type=string/>...)</color>",
       "status": "machine",
-      "srcHash": "dc907c5c0d274dd2",
+      "srcHash": "03c11f796e172ecf",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "52676334-7528-4e35-8677-746236fef9f7/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "7a86b0bcb2a366b2",
+      "srcHash": "105a954383dc1c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "893d5c61-5ceb-41f5-add3-2b21c4519e22/EventContent": {
       "en": "\"This person is from <Settlement key=SettlementId str=Name/>,<NL>and no crimes to warrant imprisonment.<NL><NL>As the Successor of Taiwu, you may detain <Character key=RoleTaiwu str=GenderObject/><NL>if you pledge significant 'support' from <Settlement key=SettlementId str=Name/> as collateral.<NL>Otherwise, it will be hard to justify...\"",
       "cn": "“此人乃是我<Settlement key=SettlementId str=Name/>中人，<NL>并未有何罪名，本不应收押于此。<NL><NL>阁下身为太吾传人，若执意关押此人，<NL>需有<Settlement key=SettlementId str=Name/>中诸多‘支持’作为担保，<NL>如若不然，恐怕难以服众……”",
       "ru": "\"Этот человек из <Settlement key=SettlementId str=Name/>,<NL>и никаких преступлений, заслуживающих тюремного заключения.<NL><NL>Как Преемник Тайву, вы можете задержать <Character key=RoleTaiwu str=GenderObject/><NL>если вы обещаете значительную \"Поддержку\" со стороны <Settlement key=SettlementId str=Name/> в качестве залога.<NL>В противном случае это будет трудно оправдать...\"",
       "status": "machine",
-      "srcHash": "ac0b4124afa30d96",
+      "srcHash": "40c714b6f5c3f796",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "893d5c61-5ceb-41f5-add3-2b21c4519e22/Option_1": {
       "en": "(Temporary detention...)",
       "cn": "（暂时拘留……）",
       "ru": "(Временное задержание...)",
       "status": "machine",
-      "srcHash": "30fe858566847115",
+      "srcHash": "1f0e2badd2ee0402",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "893d5c61-5ceb-41f5-add3-2b21c4519e22/Option_2": {
       "en": "(Short-term imprisonment...)",
       "cn": "（短期关押……）",
       "ru": "(Краткосрочное тюремное заключение...)",
       "status": "machine",
-      "srcHash": "d55b3069929789f5",
+      "srcHash": "f35963e55718e947",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "893d5c61-5ceb-41f5-add3-2b21c4519e22/Option_3": {
       "en": "(Long-term imprisonment...)",
       "cn": "（长期监禁……）",
       "ru": "(Длительное тюремное заключение...)",
       "status": "machine",
-      "srcHash": "590c80de72f73262",
+      "srcHash": "176df4df973ad39c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "893d5c61-5ceb-41f5-add3-2b21c4519e22/Option_4": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "183024cf39cf2f2f",
+      "srcHash": "cb2e4cc8f2fb0e46",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "41b99e4e-1443-4da0-9347-0f58e98dafa6/EventContent": {
       "en": "\"This person has no connection to <Settlement key=SettlementId str=Name/> and should not be imprisoned here.<NL><NL>As the Successor of Taiwu, you may detain <Character key=RoleTaiwu str=GenderObject/><NL>if you pledge significant 'support' from <Settlement key=SettlementId str=Name/>...\"",
       "cn": "“此人与我<Settlement key=SettlementId str=Name/>并无瓜葛，本不应收押于此。<NL><NL>阁下身为太吾传人，若执意关押此人，<NL>还需以<Settlement key=SettlementId str=Name/>的‘支持’作为担保……”",
       "ru": "\"Этот человек не имеет никакого отношения к <Settlement key=SettlementId str=Name/> и не должен быть заключен здесь в тюрьму.<NL><NL>Как Преемник Тайву, вы можете задержать <Character key=RoleTaiwu str=GenderObject/><NL>если вы обещаете значительную \"Поддержку\" со стороны <Settlement key=SettlementId str=Name/>...\"",
       "status": "machine",
-      "srcHash": "e122a8920b6739fc",
+      "srcHash": "a4d06cbb887eb292",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "41b99e4e-1443-4da0-9347-0f58e98dafa6/Option_1": {
       "en": "(Temporary detention...)",
       "cn": "（暂时拘留……）",
       "ru": "(Временное задержание...)",
       "status": "machine",
-      "srcHash": "30fe858566847115",
+      "srcHash": "1f0e2badd2ee0402",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "41b99e4e-1443-4da0-9347-0f58e98dafa6/Option_2": {
       "en": "(Short-term imprisonment...)",
       "cn": "（短期关押……）",
       "ru": "(Краткосрочное тюремное заключение...)",
       "status": "machine",
-      "srcHash": "d55b3069929789f5",
+      "srcHash": "f35963e55718e947",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "41b99e4e-1443-4da0-9347-0f58e98dafa6/Option_3": {
       "en": "(Long-term imprisonment...)",
       "cn": "（长期监禁……）",
       "ru": "(Длительное тюремное заключение...)",
       "status": "machine",
-      "srcHash": "590c80de72f73262",
+      "srcHash": "176df4df973ad39c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "41b99e4e-1443-4da0-9347-0f58e98dafa6/Option_4": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "183024cf39cf2f2f",
+      "srcHash": "cb2e4cc8f2fb0e46",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "3fd5ac4f-8cee-4e26-8b06-09021a94cdee/EventContent": {
       "en": "<color=#lightgrey>(Select the sect support of the following characters to sacrifice as collateral...)</color>",
       "cn": "<color=#lightgrey>（选择失去以下人物的门派支持，作为担保……）</color>",
       "ru": "<color=#lightgrey>(Выберите Поддержку Секты из следующих персонажей для принесения в жертву в качестве залога...)</color>",
       "status": "machine",
-      "srcHash": "a26a1b94cfac9376",
+      "srcHash": "47f7c2b8b733a91d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "3fd5ac4f-8cee-4e26-8b06-09021a94cdee/Option_1": {
       "en": "Confirm",
       "cn": "确定",
       "ru": "Подтверждать",
       "status": "machine",
-      "srcHash": "bb7c9bbfe7c9f19b",
+      "srcHash": "53e9412d939599b4",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "3fd5ac4f-8cee-4e26-8b06-09021a94cdee/Option_2": {
       "en": "Cancel",
       "cn": "取消\n",
       "ru": "Отменить",
       "status": "machine",
-      "srcHash": "9f40df379eced4e9",
+      "srcHash": "f8d7e285747152a8",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "bd12f916-e572-4372-9ef3-b1aba6bb182f/EventContent": {
       "en": "\"With Successor of Taiwu's guarantee,<NL>we'll imprison this individual and keep <Character key=RoleTaiwu str=GenderObject/> under strict supervision...\"<NL><NL><color=#lightgrey>(<Character key=SelectCharacterId str=Name/> has been imprisoned in <Settlement key=SettlementId str=PrisonName/>...)</color>",
       "cn": "“既有太吾传人担保，<NL>我等这便将此人押入监牢，严加看管……”<NL><NL><color=#lightgrey>（<Character key=SelectCharacterId str=Name/>被押入<Settlement key=SettlementId str=PrisonName/>……）</color>",
       "ru": "\"С гарантией Преемника Тайву,<NL>мы посадим этого человека в тюрьму и будем держать <Character key=RoleTaiwu str=GenderObject/> под строгим наблюдением...\"<NL><NL><color=#lightgrey>(<Character key=SelectCharacterId str=Name/> был заключен в тюрьму в <Settlement key=SettlementId str=PrisonName/>...)</color>",
       "status": "machine",
-      "srcHash": "723605bdc2231189",
+      "srcHash": "a43a705bba28c7a2",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "bd12f916-e572-4372-9ef3-b1aba6bb182f/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "7a86b0bcb2a366b2",
+      "srcHash": "105a954383dc1c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "1ef6b709-796c-4971-a104-f0bf8e2de81b/EventContent": {
       "en": "\"Villain! So you were here after all!\"<NL>Just as <Character key=RoleTaiwu str=Name/> is about to leave, a group of guards arrived and immediately prepared to attack...",
       "cn": "“恶贼！果然还在此处！”<NL><Character key=RoleTaiwu str=Name/>刚要离开，又见一众守卫赶到，随即便要动手……",
       "ru": "- Негодяй! Значит, ты все-таки был здесь!\"<NL>Точно так же, как <Character key=RoleTaiwu str=Name/> уже собираясь уходить, прибыла группа охранников и немедленно приготовилась к Атаке...",
       "status": "machine",
-      "srcHash": "0f27dae8fe1c0ca3",
+      "srcHash": "692f40b0b59d761b",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "1ef6b709-796c-4971-a104-f0bf8e2de81b/Option_1": {
       "en": "(Fight through the guards...)",
       "cn": "（闯过守卫……）\n",
       "ru": "(Прорваться сквозь охрану...)",
       "status": "machine",
-      "srcHash": "bc650bced7923c67",
+      "srcHash": "cfe8dc6191f0c324",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "9faaf118-4b71-4d3e-a7fb-8be0703bc8f9/EventContent": {
       "en": "nan",
       "cn": "",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "9f3c43bb86543291",
+      "srcHash": "05eba2f0e137b066",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "fbaccb97-ba99-4ef9-ae30-c199710dbdd4/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> defeats all the guards<NL>and walks out of the prison gate with the captive taken in tow...",
       "cn": "<Character key=RoleTaiwu str=Name/>将守卫尽数打倒，<NL>带着夺来的俘虏顺利地走出监牢大门……",
       "ru": "<Character key=RoleTaiwu str=Name/> побеждает всех охранников<NL>и выходит из ворот тюрьмы, ведя за собой Пленника...",
       "status": "machine",
-      "srcHash": "1741167c9f3e6a2b",
+      "srcHash": "636f10bae5a02fdf",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "fbaccb97-ba99-4ef9-ae30-c199710dbdd4/Option_1": {
       "en": "(Left without looking back...)",
       "cn": "（扬长而去……）\n",
       "ru": "(Ушел, не оглядываясь...)",
       "status": "machine",
-      "srcHash": "b319acc54cf25bfb",
+      "srcHash": "c59a2cd52a5e610c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "2859eb4f-3bb3-4428-bcf8-0bf1d5aac162/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> defeats all the guards<NL>and successfully rescues <Character key=SelectCharacterId str=Name/> from the prison...",
       "cn": "<Character key=RoleTaiwu str=Name/>将守卫尽数打倒，<NL>自监牢中顺利救出了<Character key=SelectCharacterId str=Name/>……",
       "ru": "<Character key=RoleTaiwu str=Name/> побеждает всех охранников<NL>и успешно спасает <Character key=SelectCharacterId str=Name/> из тюрьмы...",
       "status": "machine",
-      "srcHash": "19e4e96b1215204c",
+      "srcHash": "ddd5b880a69a7a01",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "2859eb4f-3bb3-4428-bcf8-0bf1d5aac162/Option_1": {
       "en": "(Left without looking back...)",
       "cn": "（扬长而去……）\n",
       "ru": "(Ушел, не оглядываясь...)",
       "status": "machine",
-      "srcHash": "b319acc54cf25bfb",
+      "srcHash": "c59a2cd52a5e610c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "0cda7278-01d3-4a27-ba29-23c508440711/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> defeats all the guards<NL>and successfully rescues <Character key=SelectCharacterId str=Name/> from the prison,<NL>sending <Character key=SelectCharacterId str=Name/> back to Taiwu Village first...",
       "cn": "<Character key=RoleTaiwu str=Name/>将守卫尽数打倒，<NL>自监牢中顺利救出<Character key=SelectCharacterId str=Name/>，<NL>令<Character key=SelectCharacterId str=Name/>先行返回了太吾村……",
       "ru": "<Character key=RoleTaiwu str=Name/> побеждает всех охранников<NL>и успешно спасает <Character key=SelectCharacterId str=Name/> из тюрьмы,<NL>отправка <Character key=SelectCharacterId str=Name/> сначала вернемся в Деревню Тайву...",
       "status": "machine",
-      "srcHash": "1a348045e684ae6d",
+      "srcHash": "e20257128060e463",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "0cda7278-01d3-4a27-ba29-23c508440711/Option_1": {
       "en": "(Left without looking back...)",
       "cn": "（扬长而去……）\n",
       "ru": "(Ушел, не оглядываясь...)",
       "status": "machine",
-      "srcHash": "b319acc54cf25bfb",
+      "srcHash": "c59a2cd52a5e610c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "fe2fbe18-69e2-4850-a518-544502e5b7f2/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> defeats all the guards<NL>and walks out of the prison gate...",
       "cn": "<Character key=RoleTaiwu str=Name/>将守卫尽数打倒，<NL>顺利地走出监牢大门……",
       "ru": "<Character key=RoleTaiwu str=Name/> побеждает всех охранников<NL>и выходит за ворота тюрьмы...",
       "status": "machine",
-      "srcHash": "ab93e0a36645bc1e",
+      "srcHash": "c1b343ecbd69262f",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "fe2fbe18-69e2-4850-a518-544502e5b7f2/Option_1": {
       "en": "(Left without looking back...)",
       "cn": "（扬长而去……）\n",
       "ru": "(Ушел, не оглядываясь...)",
       "status": "machine",
-      "srcHash": "b319acc54cf25bfb",
+      "srcHash": "c59a2cd52a5e610c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "325680fc-cfbc-4f06-983b-abdec4f85a00/EventContent": {
       "en": "<color=#lightgrey>(Select the rope to bind the captive...)</color>",
       "cn": "<color=#lightgrey>（选择用于关押俘虏的绳索……）</color>",
       "ru": "<color=#lightgrey>(Выберите веревку, чтобы связать Пленника...)</color>",
       "status": "machine",
-      "srcHash": "cb089d382227b2ae",
+      "srcHash": "976dc1ab9fc8b1a4",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "325680fc-cfbc-4f06-983b-abdec4f85a00/Option_1": {
       "en": "Confirm",
       "cn": "确定",
       "ru": "Подтверждать",
       "status": "machine",
-      "srcHash": "bb7c9bbfe7c9f19b",
+      "srcHash": "53e9412d939599b4",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "325680fc-cfbc-4f06-983b-abdec4f85a00/Option_2": {
       "en": "Cancel",
       "cn": "取消\n",
       "ru": "Отменить",
       "status": "machine",
-      "srcHash": "9f40df379eced4e9",
+      "srcHash": "f8d7e285747152a8",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "525cf182-026a-4aaf-8d6e-b16f427921f5/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "9f3c43bb86543291",
+      "srcHash": "05eba2f0e137b066",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "5f1ecf4e-54ff-4d69-8df6-77e5d723ef45/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> defeats all the guards<NL>and walks out of the prison gate.<NL>Take the Bewitched to the stone house in Taiwu Village to be locked up...",
       "cn": "<Character key=RoleTaiwu str=Name/>将守卫尽数打倒，<NL>顺利地走出监牢大门，<NL>将夺来的失心人送往太吾村石屋关押……",
       "ru": "<Character key=RoleTaiwu str=Name/> побеждает всех охранников<NL>и выходит за ворота тюрьмы.<NL>Отведите заколдованного в каменный дом в Деревне Тайву, где его запрут...",
       "status": "machine",
-      "srcHash": "c1e831a9858835ed",
+      "srcHash": "79d1d68193aedc3c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "5f1ecf4e-54ff-4d69-8df6-77e5d723ef45/Option_1": {
       "en": "(Left without looking back...)",
       "cn": "（扬长而去……）\n",
       "ru": "(Ушел, не оглядываясь...)",
       "status": "machine",
-      "srcHash": "b319acc54cf25bfb",
+      "srcHash": "c59a2cd52a5e610c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "99bc2821-821e-420b-8ebe-2c84ebfd316c/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> is defeated by <Character key=CharacterId str=Name/><NL>and forced to flee...",
       "cn": "<Character key=RoleTaiwu str=Name/>不敌<Character key=CharacterId str=Name/>，败下阵来，<NL>只得转身逃离了此地……",
       "ru": "<Character key=RoleTaiwu str=Name/> побежден <Character key=CharacterId str=Name/><NL>и был вынужден бежать...",
       "status": "machine",
-      "srcHash": "46e9687434194d60",
+      "srcHash": "a9d94cbb07837aad",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "99bc2821-821e-420b-8ebe-2c84ebfd316c/Option_1": {
       "en": "(Feeling helpless...)",
       "cn": "（无可奈何……）\n",
       "ru": "(Чувствуя себя беспомощным...)",
       "status": "machine",
-      "srcHash": "3705c4fb029ab40e",
+      "srcHash": "d4fcaf57d9ff3c39",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "f1ec2cca-d5f4-4a85-9c6e-7833ad9d8e53/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> fails to capture<Character key=CharacterId str=Name/>.<NL>Sensing danger, <Character key=CharacterId str=Name/> hastily flees...",
       "cn": "<Character key=RoleTaiwu str=Name/>未能擒获<Character key=CharacterId str=Name/>，<NL><Character key=CharacterId str=Name/>见来者不善，慌忙逃离了此地……",
       "ru": "<Character key=RoleTaiwu str=Name/> не удается захватить<Character key=CharacterId str=Name/>.<NL>Чувствуя опасность, <Character key=CharacterId str=Name/> поспешно убегает...",
       "status": "machine",
-      "srcHash": "d8d89fac98526b33",
+      "srcHash": "4cbeec8d9a70cca7",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "f1ec2cca-d5f4-4a85-9c6e-7833ad9d8e53/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "7a86b0bcb2a366b2",
+      "srcHash": "105a954383dc1c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "cfce0d18-d248-453a-bb0c-c99e35fa7eee/EventContent": {
       "en": "nan",
       "cn": "",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "9f3c43bb86543291",
+      "srcHash": "05eba2f0e137b066",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "cfce0d18-d248-453a-bb0c-c99e35fa7eee/Option_1": {
       "en": "(Request the prisoner...)",
       "cn": "（索要囚犯……）\n",
       "ru": "(Запросите заключенного...)",
       "status": "machine",
-      "srcHash": "8aed4e40af51e596",
+      "srcHash": "57066915d3f3f459",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "4efa77a8-2f74-4382-8934-31b125d6b972/EventContent": {
       "en": "\"This <Character key=SelectCharacterId str=Name/> is a wanted criminal on <Settlement key=SettlementId str=Name/>'s bounty list.<NL>It's a matter of great importance and cannot be handed over lightly...\"",
       "cn": "“这<Character key=SelectCharacterId str=Name/>乃是我<Settlement key=SettlementId str=Name/>悬赏捉拿的要犯，<NL>关系重大，岂可轻易予人……”",
       "ru": "\"Это <Character key=SelectCharacterId str=Name/> находится в розыске преступник на <Settlement key=SettlementId str=Name/>это список наград.<NL>Это дело огромной важности, и к нему нельзя относиться легкомысленно...\"",
       "status": "machine",
-      "srcHash": "f087ed60fcb3819c",
+      "srcHash": "fea8764d378d9e03",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "4efa77a8-2f74-4382-8934-31b125d6b972/Option_1": {
       "en": "(Attempt to bribe...)",
       "cn": "（尝试收买……）",
       "ru": "(Попытка подкупа...)",
       "status": "machine",
-      "srcHash": "3d982da496b8c04e",
+      "srcHash": "6dd4d5f3b13eb6b8",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "4efa77a8-2f74-4382-8934-31b125d6b972/Option_2": {
       "en": "(Attempt to persuade...)",
       "cn": "（尝试说服……）",
       "ru": "(Попытка убедить...)",
       "status": "machine",
-      "srcHash": "050d16a1e0049f45",
+      "srcHash": "48287773fb466db5",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "4efa77a8-2f74-4382-8934-31b125d6b972/Option_3": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "183024cf39cf2f2f",
+      "srcHash": "cb2e4cc8f2fb0e46",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "ad0c5bee-7037-4178-b8b0-9a1b0d5d71e3/EventContent": {
       "en": "<Character key=CharacterId str=Name/> is on a mission to capture a wanted criminal<NL>and is currently escorting the prisoner back...",
       "cn": "<Character key=CharacterId str=Name/>奉命缉拿要犯，<NL>如今押送着俘获的囚犯，正待返回复命……",
       "ru": "<Character key=CharacterId str=Name/> находится на задании по поимке разыскиваемого преступника<NL>и в настоящее время конвоирует заключенного обратно...",
       "status": "machine",
-      "srcHash": "700a6ae7d19883b0",
+      "srcHash": "2e6e4a53ca1a2edd",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "ad0c5bee-7037-4178-b8b0-9a1b0d5d71e3/Option_1": {
       "en": "(Request the prisoner...)",
       "cn": "（索要囚犯……）",
       "ru": "(Запросите заключенного...)",
       "status": "machine",
-      "srcHash": "8aed4e40af51e596",
+      "srcHash": "57066915d3f3f459",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "ad0c5bee-7037-4178-b8b0-9a1b0d5d71e3/Option_2": {
       "en": "(Snatch the prisoner...)",
       "cn": "（夺取囚犯……）",
       "ru": "(Схватить пленника...)",
       "status": "machine",
-      "srcHash": "d6cfe970115f672f",
+      "srcHash": "515bbef46e4a32e9",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "ad0c5bee-7037-4178-b8b0-9a1b0d5d71e3/Option_3": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "183024cf39cf2f2f",
+      "srcHash": "cb2e4cc8f2fb0e46",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "6994599c-5301-4c5e-bfdc-7cb44e64c983/EventContent": {
       "en": "<color=#lightgrey>(Select the prisoner to snatch...)</color>",
       "cn": "<color=#lightgrey>（选择要夺取的囚犯……）</color>",
       "ru": "<color=#lightgrey>(Выберите заключенного, которого нужно схватить...)</color>",
       "status": "machine",
-      "srcHash": "32cfe3d806f4355c",
+      "srcHash": "55c9536832b103e3",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "6994599c-5301-4c5e-bfdc-7cb44e64c983/Option_1": {
       "en": "Confirm",
       "cn": "确定",
       "ru": "Подтверждать",
       "status": "machine",
-      "srcHash": "bb7c9bbfe7c9f19b",
+      "srcHash": "53e9412d939599b4",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "6994599c-5301-4c5e-bfdc-7cb44e64c983/Option_2": {
       "en": "Cancel",
       "cn": "取消\n",
       "ru": "Отменить",
       "status": "machine",
-      "srcHash": "9f40df379eced4e9",
+      "srcHash": "f8d7e285747152a8",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "41520721-1843-4415-a1ba-3f01279df53b/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> nods in agreement and hands over <Character key=MonthlyEvent_arg2 str=Name/> to <Settlement key=SettlementId str=Name/> for handling...<NL><NL><Character key=MonthlyEvent_arg1 str=Name/> binds <Character key=MonthlyEvent_arg2 str=Name/> tightly,<NL>thanks <Character key=RoleTaiwu str=Name/>, and then leaves...",
       "cn": "<Character key=RoleTaiwu str=Name/>点头同意，将<Character key=MonthlyEvent_arg2 str=Name/>交由<Settlement key=SettlementId str=Name/>处置……<NL><NL>只见<Character key=MonthlyEvent_arg1 str=Name/>将<Character key=MonthlyEvent_arg2 str=Name/>五花大绑，<NL>向<Character key=RoleTaiwu str=Name/>称谢一番，便离开了此地……",
       "ru": "<Character key=RoleTaiwu str=Name/> кивает в знак согласия и передает <Character key=MonthlyEvent_arg2 str=Name/> к <Settlement key=SettlementId str=Name/> для обработки...<NL><NL><Character key=MonthlyEvent_arg1 str=Name/> связывает <Character key=MonthlyEvent_arg2 str=Name/> плотно,<NL>спасибо <Character key=RoleTaiwu str=Name/>, а затем уходит...",
       "status": "machine",
-      "srcHash": "5f4b83c61d78c4e3",
+      "srcHash": "7b943ce6d6f87cb9",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "41520721-1843-4415-a1ba-3f01279df53b/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "7a86b0bcb2a366b2",
+      "srcHash": "105a954383dc1c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "b5909009-ecbc-4238-b020-eb8e0ec0a955/EventContent": {
       "en": "\"Insolent fool! How dare you try to forcibly snatch a wanted criminal!\"<NL><Character key=CharacterId str=Name/> sees <Character key=RoleTaiwu str=Name/> attempting to snatch the prisoner<NL>and immediately attacks <Character key=RoleTaiwu str=Name/> without hesitation!",
       "cn": "“大胆狂徒！怎敢劫夺要犯！”<NL><Character key=CharacterId str=Name/>见<Character key=RoleTaiwu str=Name/>意欲夺取囚犯，<NL>不由分说，径直便向<Character key=RoleTaiwu str=Name/>袭来！",
       "ru": "- Наглый дурак! Как вы смеете пытаться насильно похитить разыскиваемого преступника!\"<NL><Character key=CharacterId str=Name/> видит <Character key=RoleTaiwu str=Name/> пытающийся схватить пленника<NL>и немедленно атакует <Character key=RoleTaiwu str=Name/> без колебаний!",
       "status": "machine",
-      "srcHash": "d5fc390ee9b584e4",
+      "srcHash": "1a712f2de1fa722d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "b5909009-ecbc-4238-b020-eb8e0ec0a955/Option_1": {
       "en": "(Engage in battle!)",
       "cn": "（与之一战！）\n",
       "ru": "(Вступайте в бой!)",
       "status": "machine",
-      "srcHash": "b528a25afa2bad56",
+      "srcHash": "38d2adb1899bd8ad",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "672e3579-96f3-46c3-8ee8-199660138710/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "9f3c43bb86543291",
+      "srcHash": "05eba2f0e137b066",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "509487da-db43-465b-b4dc-52587819787d/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> defeats <Character key=CharacterId str=Name/>!<NL><NL><Character key=CharacterId str=Name/>, unable to resist, lets <Character key=RoleTaiwu str=Name/> take <Character key=SelectCharacterId str=Name/>...",
       "cn": "<Character key=RoleTaiwu str=Name/>击败了<Character key=CharacterId str=Name/>！<NL><NL><Character key=CharacterId str=Name/>力不从心，只好任由<Character key=RoleTaiwu str=Name/>夺走<Character key=SelectCharacterId str=Name/>……",
       "ru": "<Character key=RoleTaiwu str=Name/> поражения <Character key=CharacterId str=Name/>!<NL><NL><Character key=CharacterId str=Name/>, не в силах сопротивляться, позволяет <Character key=RoleTaiwu str=Name/> возьмите <Character key=SelectCharacterId str=Name/>...",
       "status": "machine",
-      "srcHash": "4c7ca6e9d4a14f14",
+      "srcHash": "a17a73db4cd296fe",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "509487da-db43-465b-b4dc-52587819787d/Option_1": {
       "en": "(Release the prisoner...)",
       "cn": "（释放囚犯……）",
       "ru": "(Освободите заключенного...)",
       "status": "machine",
-      "srcHash": "87594de5e9c9e259",
+      "srcHash": "396dd9fc8e43fb6e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "509487da-db43-465b-b4dc-52587819787d/Option_2": {
       "en": "(Take custody of the prisoner...)",
       "cn": "（收管囚犯……）\n",
       "ru": "(Возьмите под стражу заключенного...)",
       "status": "machine",
-      "srcHash": "b78e1c814a237768",
+      "srcHash": "be9084a1056be0b2",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "f713c9e1-cfe1-4f1d-895f-20bbe97ced72/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> is defeated by <Character key=CharacterId str=Name/><NL>and forced to flee...",
       "cn": "<Character key=RoleTaiwu str=Name/>不敌<Character key=CharacterId str=Name/>，败下阵来，<NL>只得转身逃离了此地……",
       "ru": "<Character key=RoleTaiwu str=Name/> побежден <Character key=CharacterId str=Name/><NL>и был вынужден бежать...",
       "status": "machine",
-      "srcHash": "46e9687434194d60",
+      "srcHash": "a9d94cbb07837aad",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "f713c9e1-cfe1-4f1d-895f-20bbe97ced72/Option_1": {
       "en": "(Feeling helpless...)",
       "cn": "（无可奈何……）\n",
       "ru": "(Чувствуя себя беспомощным...)",
       "status": "machine",
-      "srcHash": "3705c4fb029ab40e",
+      "srcHash": "d4fcaf57d9ff3c39",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "a1d4cc1d-92a9-46ad-9576-b2b94bf25846/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> releases <Character key=SelectCharacterId str=Name/>, letting <Character key=RoleTaiwu str=GenderObject/> leave...",
       "cn": "<Character key=RoleTaiwu str=Name/>释放了<Character key=SelectCharacterId str=Name/>，任由其离开此地……",
       "ru": "<Character key=RoleTaiwu str=Name/> релизы <Character key=SelectCharacterId str=Name/>, позволяя <Character key=RoleTaiwu str=GenderObject/> уходи...",
       "status": "machine",
-      "srcHash": "b3eee349d9941287",
+      "srcHash": "53293c2f3c605432",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "a1d4cc1d-92a9-46ad-9576-b2b94bf25846/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "7a86b0bcb2a366b2",
+      "srcHash": "105a954383dc1c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "e533a324-57ca-46c3-b32c-8dfa9cb9163f/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> takes <Character key=SelectCharacterId str=Name/> as a captive...<NL><NL><Character key=SelectCharacterId str=Name/> is on <Settlement key=SettlementId str=Name/>'s bounty list.<NL>If you take <Character key=RoleTaiwu str=GenderObject/> to <Settlement key=SettlementId str=Name/> and hand <Character key=RoleTaiwu str=GenderObject/> over to the prison, you can claim the bounty...",
       "cn": "<Character key=RoleTaiwu str=Name/>将<Character key=SelectCharacterId str=Name/>收为俘虏……<NL><NL><Character key=SelectCharacterId str=Name/>名列<Settlement key=SettlementId str=Name/>的悬赏榜，<NL>若将此人带至<Settlement key=SettlementId str=Name/>，送入监牢，便可领取榜上赏金……",
       "ru": "<Character key=RoleTaiwu str=Name/> принимает <Character key=SelectCharacterId str=Name/> как Пленник...<NL><NL><Character key=SelectCharacterId str=Name/> включен <Settlement key=SettlementId str=Name/>это список наград.<NL>Если вы возьмете <Character key=RoleTaiwu str=GenderObject/> к <Settlement key=SettlementId str=Name/> и рука <Character key=RoleTaiwu str=GenderObject/> отправляясь в тюрьму, вы можете претендовать на награду...",
       "status": "machine",
-      "srcHash": "73e6fc1c5085e898",
+      "srcHash": "42eeccdf00f51a0b",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "e533a324-57ca-46c3-b32c-8dfa9cb9163f/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "7a86b0bcb2a366b2",
+      "srcHash": "105a954383dc1c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "f7e37e2b-c215-4f3b-b24a-e2421a1d3a2f/EventContent": {
       "en": "<color=#lightgrey>(Select the prisoner to request...)</color>",
       "cn": "<color=#lightgrey>（选择准备索要的囚犯……）</color>",
       "ru": "<color=#lightgrey>(Выберите заключенного для запроса...)</color>",
       "status": "machine",
-      "srcHash": "03cdbd5102c2b4af",
+      "srcHash": "117b0e0a9bd9236c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "f7e37e2b-c215-4f3b-b24a-e2421a1d3a2f/Option_1": {
       "en": "Confirm",
       "cn": "确定",
       "ru": "Подтверждать",
       "status": "machine",
-      "srcHash": "bb7c9bbfe7c9f19b",
+      "srcHash": "53e9412d939599b4",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "f7e37e2b-c215-4f3b-b24a-e2421a1d3a2f/Option_2": {
       "en": "Cancel",
       "cn": "取消\n",
       "ru": "Отменить",
       "status": "machine",
-      "srcHash": "9f40df379eced4e9",
+      "srcHash": "f8d7e285747152a8",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "0f73fcf9-06a1-4012-8cb0-0e576d880c4e/EventContent": {
       "en": "<Character key=CharacterId str=Name/>,<NL>moved by <Character key=RoleTaiwu str=Name/>'s sincerity,<NL>says, \"Alright, if you have a high enough bounty, it's not entirely impossible...\"",
       "cn": "<Character key=CharacterId str=Name/>见<Character key=RoleTaiwu str=Name/>情真意切，<NL>不由心有所动，于是说道：<NL>“也罢……若是你有足额赏金，此事亦非决然不可……”",
       "ru": "<Character key=CharacterId str=Name/>,<NL>тронутый <Character key=RoleTaiwu str=Name/>искренность,<NL>говорит: \"Хорошо, если у вас достаточно высокая награда, это не совсем невозможно...\"",
       "status": "machine",
-      "srcHash": "401dfbdb825b6130",
+      "srcHash": "adf7f20235a72f74",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "0f73fcf9-06a1-4012-8cb0-0e576d880c4e/Option_1": {
       "en": "(Try to bribe...) <color=#darkgrey>[Cost: <ArgBox key=BountyCount type=int/> Prestige]</color>",
       "cn": "（尝试收买……）<color=#darkgrey>[消耗：<ArgBox key=BountyCount type=int/>威望]</color>",
       "ru": "(Попробуйте подкупить...) <color=#darkgrey>[Стоимость: <ArgBox key=BountyCount type=int/> Престиж]</color>",
       "status": "machine",
-      "srcHash": "1c642c6b5b43b247",
+      "srcHash": "42c91107d176726f",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "0f73fcf9-06a1-4012-8cb0-0e576d880c4e/Option_2": {
       "en": "(Try to bribe...) <color=#darkgrey>[Cost: <ArgBox key=BountyCount type=int/> XP]</color>",
       "cn": "（尝试收买……）<color=#darkgrey>[消耗：<ArgBox key=BountyCount type=int/>历练]</color>",
       "ru": "(Попробуйте подкупить...) <color=#darkgrey>[Стоимость: <ArgBox key=BountyCount type=int/> ОПЫТ]</color>",
       "status": "machine",
-      "srcHash": "9c29b205a79a9297",
+      "srcHash": "8bef562825d9cdd4",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "0f73fcf9-06a1-4012-8cb0-0e576d880c4e/Option_3": {
       "en": "(Try to bribe...) <color=#darkgrey>[Cost: <ArgBox key=BountyCount type=int/> Silver]</color>",
       "cn": "（尝试收买……）<color=#darkgrey>[消耗：<ArgBox key=BountyCount type=int/>银钱]</color>",
       "ru": "(Попробуйте подкупить...) <color=#darkgrey>[Стоимость: <ArgBox key=BountyCount type=int/> Серебро]</color>",
       "status": "machine",
-      "srcHash": "9699fbe6de63ee75",
+      "srcHash": "fc6605b8412c60dc",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "0f73fcf9-06a1-4012-8cb0-0e576d880c4e/Option_4": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "183024cf39cf2f2f",
+      "srcHash": "cb2e4cc8f2fb0e46",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "f966b880-3dd5-4c1d-b6d0-2497f3b9c84b/EventContent": {
       "en": "<Character key=CharacterId str=Name/>, moved by <Character key=RoleTaiwu str=Name/>'s sincerity, nods and says,<NL>\"In that case, <Character key=SelectCharacterId str=Name/> is yours...\"",
       "cn": "<Character key=CharacterId str=Name/>被<Character key=RoleTaiwu str=Name/>的诚意打动，点头说道：<NL>“既是如此，<Character key=SelectCharacterId str=Name/>便交由你处置了……”",
       "ru": "<Character key=CharacterId str=Name/>, движимый <Character key=RoleTaiwu str=Name/>искренность, кивает и говорит,<NL>\"В таком случае, <Character key=SelectCharacterId str=Name/> это твое...\"",
       "status": "machine",
-      "srcHash": "be643bfd45891dd1",
+      "srcHash": "1fce7ed2b9a4a8ec",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "f966b880-3dd5-4c1d-b6d0-2497f3b9c84b/Option_1": {
       "en": "(Release the prisoner...)",
       "cn": "（释放囚犯……）",
       "ru": "(Освободите заключенного...)",
       "status": "machine",
-      "srcHash": "87594de5e9c9e259",
+      "srcHash": "396dd9fc8e43fb6e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "f966b880-3dd5-4c1d-b6d0-2497f3b9c84b/Option_2": {
       "en": "(Take custody of the prisoner...)",
       "cn": "（收管囚犯……）\n",
       "ru": "(Возьмите под стражу заключенного...)",
       "status": "machine",
-      "srcHash": "b78e1c814a237768",
+      "srcHash": "be9084a1056be0b2",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "84f7e8b2-426b-480c-b359-15f1fa22bdf1/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> takes <Character key=SelectCharacterId str=Name/> as a captive...<NL><NL><Character key=CharacterId str=Name/> is on <Settlement key=SettlementId str=Name/>'s bounty list.<NL>If you take <Character key=RoleTaiwu str=GenderObject/> to <Settlement key=SettlementId str=Name/> and hand <Character key=RoleTaiwu str=GenderObject/> over to the prison, you can claim the bounty...",
       "cn": "<Character key=RoleTaiwu str=Name/>将<Character key=SelectCharacterId str=Name/>收为俘虏……<NL><NL><Character key=CharacterId str=Name/>名列<Settlement key=SettlementId str=Name/>的悬赏榜，<NL>若将此人带至<Settlement key=SettlementId str=Name/>，送入监牢，便可领取榜上赏金……",
       "ru": "<Character key=RoleTaiwu str=Name/> принимает <Character key=SelectCharacterId str=Name/> как Пленник...<NL><NL><Character key=CharacterId str=Name/> включен <Settlement key=SettlementId str=Name/>это список наград.<NL>Если вы возьмете <Character key=RoleTaiwu str=GenderObject/> к <Settlement key=SettlementId str=Name/> и рука <Character key=RoleTaiwu str=GenderObject/> отправляясь в тюрьму, вы можете претендовать на награду...",
       "status": "machine",
-      "srcHash": "c7e0f183062f0987",
+      "srcHash": "261fee442aedc2b0",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "84f7e8b2-426b-480c-b359-15f1fa22bdf1/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "7a86b0bcb2a366b2",
+      "srcHash": "105a954383dc1c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "ecbcab6e-5b64-473c-b01a-7c66c1b3e4a1/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> releases <Character key=SelectCharacterId str=Name/>, letting <Character key=RoleTaiwu str=GenderObject/> leave...",
       "cn": "<Character key=RoleTaiwu str=Name/>释放了<Character key=SelectCharacterId str=Name/>，任由其离开此地……",
       "ru": "<Character key=RoleTaiwu str=Name/> релизы <Character key=SelectCharacterId str=Name/>, позволяя <Character key=RoleTaiwu str=GenderObject/> уходи...",
       "status": "machine",
-      "srcHash": "b3eee349d9941287",
+      "srcHash": "53293c2f3c605432",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "ecbcab6e-5b64-473c-b01a-7c66c1b3e4a1/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "7a86b0bcb2a366b2",
+      "srcHash": "105a954383dc1c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "25f72162-74ce-4db4-874c-253536ee02aa/EventContent": {
       "en": "<Character key=CharacterId str=Name/>,<NL>moved by <Character key=RoleTaiwu str=Name/>'s earnest words, says,<NL>\"If you can surpass me in the <LifeSkillType key=LifeSkillType str=Name/>, it's not entirely impossible...\"",
       "cn": "<Character key=CharacterId str=Name/>见<Character key=RoleTaiwu str=Name/>言辞恳切，<NL>不由心有所动，于是说道：<NL>“若你能在<LifeSkillType key=LifeSkillType str=Name/>之道胜过我，此事亦非决然不可……”",
       "ru": "<Character key=CharacterId str=Name/>,<NL>тронутый <Character key=RoleTaiwu str=Name/>это искренние слова, говорит,<NL>\"Если ты сможешь превзойти меня в <LifeSkillType key=LifeSkillType str=Name/>, это не совсем невозможно...\"",
       "status": "machine",
-      "srcHash": "f9192d45ff3bbce5",
+      "srcHash": "5a084649768d93a6",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "25f72162-74ce-4db4-874c-253536ee02aa/Option_1": {
       "en": "(Debate...)",
       "cn": "（与之一辩……）",
       "ru": "(Диспут...)",
       "status": "machine",
-      "srcHash": "4a134d93116b9b0e",
+      "srcHash": "fc193a7c44eaf6d2",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "25f72162-74ce-4db4-874c-253536ee02aa/Option_2": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "183024cf39cf2f2f",
+      "srcHash": "cb2e4cc8f2fb0e46",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "a2802606-bbd6-4503-a2d1-324b0eb8730f/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "9f3c43bb86543291",
+      "srcHash": "05eba2f0e137b066",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "69060c1b-01a8-4858-ba4a-989d85dd7808/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> wins the debate!<NL><NL><Character key=CharacterId str=Name/>, persuaded, nods and says,<NL>\"In that case, <Character key=SelectCharacterId str=Name/> is yours...\"",
       "cn": "<Character key=RoleTaiwu str=Name/>取得了胜利！<NL><NL><Character key=CharacterId str=Name/>被<Character key=RoleTaiwu str=Name/>说服，点头说道：<NL>“既是如此，<Character key=SelectCharacterId str=Name/>便交由你处置了……”",
       "ru": "<Character key=RoleTaiwu str=Name/> выигрывает Диспут!<NL><NL><Character key=CharacterId str=Name/> Убежденный, кивает и говорит,<NL>\"В таком случае, <Character key=SelectCharacterId str=Name/> это твое...\"",
       "status": "machine",
-      "srcHash": "26aeab95e6418263",
+      "srcHash": "63b1e3f335f6509d",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "69060c1b-01a8-4858-ba4a-989d85dd7808/Option_1": {
       "en": "(Release the prisoner...)",
       "cn": "（释放囚犯……）",
       "ru": "(Освободите заключенного...)",
       "status": "machine",
-      "srcHash": "87594de5e9c9e259",
+      "srcHash": "396dd9fc8e43fb6e",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "69060c1b-01a8-4858-ba4a-989d85dd7808/Option_2": {
       "en": "(Take custody of the prisoner...)",
       "cn": "（收管囚犯……）\n",
       "ru": "(Возьмите под стражу заключенного...)",
       "status": "machine",
-      "srcHash": "b78e1c814a237768",
+      "srcHash": "be9084a1056be0b2",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "360e2cfe-6e0f-480f-b72b-afb57059c616/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> fails to persuade <Character key=CharacterId str=Name/><NL>and has no choice but to give up...",
       "cn": "<Character key=RoleTaiwu str=Name/>未能以言辞说服<Character key=CharacterId str=Name/>，<NL>只好就此作罢……",
       "ru": "<Character key=RoleTaiwu str=Name/> не удается убедить <Character key=CharacterId str=Name/><NL>и у него нет другого выбора, кроме как сдаться...",
       "status": "machine",
-      "srcHash": "0c5d4762e88acd6f",
+      "srcHash": "26b4794ef8f3206f",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "360e2cfe-6e0f-480f-b72b-afb57059c616/Option_1": {
       "en": "(Feeling helpless...)",
       "cn": "（无可奈何……）\n",
       "ru": "(Чувствуя себя беспомощным...)",
       "status": "machine",
-      "srcHash": "3705c4fb029ab40e",
+      "srcHash": "d4fcaf57d9ff3c39",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "7c7b015a-87ab-487f-b49c-62095e031da2/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> is struck in a vital spot and collapses in a pool of blood...",
       "cn": "<Character key=RoleTaiwu str=Name/>被击中要害，倒在一地了血泊之中……",
       "ru": "<Character key=RoleTaiwu str=Name/> получает удар в жизненно важное место и падает в лужу крови...",
       "status": "machine",
-      "srcHash": "5605a76bc53179c5",
+      "srcHash": "7ef657d0c80eb6ff",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "7c7b015a-87ab-487f-b49c-62095e031da2/Option_1": {
       "en": "Ugh... Argh...",
       "cn": "呃……啊……\n",
       "ru": "Тьфу... Ах...",
       "status": "machine",
-      "srcHash": "002cd543a997cceb",
+      "srcHash": "db3d5b25393db470",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "9273a740-a41a-43bb-b22f-64572d360916/EventContent": {
       "en": "\"This prisoner holds eminent status—a high-profile convict.<NL>Even though you're the Successor of Taiwu, we dare not release them to your custody...\"",
       "cn": "“此人身份显赫，乃是牢中要犯，<NL>阁下虽为太吾传人，亦恕我等不能轻易交付阁下……”",
       "ru": "\"Этот заключенный обладает выдающимся статусом — высокопоставленный заключенный.<NL>Несмотря на то, что вы Преемник Тайву, мы не смеем передать их под вашу опеку...\"",
       "status": "machine",
-      "srcHash": "15f8eec12fb59b57",
+      "srcHash": "3a23bdcdd6c30fe3",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "9273a740-a41a-43bb-b22f-64572d360916/Option_1": {
       "en": "(Feeling helpless...)",
       "cn": "（无可奈何……）\n",
       "ru": "(Чувствуя себя беспомощным...)",
       "status": "machine",
-      "srcHash": "3705c4fb029ab40e",
+      "srcHash": "d4fcaf57d9ff3c39",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "657d49df-5e3f-4b09-8501-f1358d9f946c/EventContent": {
       "en": "Redirect<NL>Name of Prison: <Settlement key=SettlementId str=PrisonName/><NL>Name of Sect: <Settlement key=SettlementId str=Name/><NL>Name of Character: <Character key=RoleTaiwu str=Name/><NL>Name of Guard:<Character key=Guard1 str=Name/>",
       "cn": "监牢跳转页面<NL>监牢名称：<Settlement key=SettlementId str=PrisonName/><NL>门派名称：<Settlement key=SettlementId str=Name/><NL>主角名称：<Character key=RoleTaiwu str=Name/><NL>守卫名称：<Character key=Guard1 str=Name/>\n",
       "ru": "Перенаправление<NL>Название тюрьмы: <Settlement key=SettlementId str=PrisonName/><NL>Название Секты: <Settlement key=SettlementId str=Name/><NL>Имя персонажа: <Character key=RoleTaiwu str=Name/><NL>Имя охранника:<Character key=Guard1 str=Name/>",
       "status": "machine",
-      "srcHash": "dcab0801a144f84e",
+      "srcHash": "d1e822658a5788ba",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "cf45a1a9-b1f7-4457-8447-2af5479d133f/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/>, being one against so many,<NL>has a momentary lapse and is besieged by guards.<NL>As the battle drags on, more and more guards run over and <Character key=RoleTaiwu str=Name/> is seized.<NL>\"As a Taiwu, how dare you commit such a crime?<NL>Today you will be taught to follow the rules of <Settlement key=SettlementId str=Name/>!\"",
       "cn": "<Character key=RoleTaiwu str=Name/>双拳难敌四手，<NL>一时疏忽竟被守卫团团围住，脱身不得，<NL>几经缠斗，越来越多守卫奔至，将<Character key=RoleTaiwu str=Name/>押住，<NL>“阁下既为太吾，安敢这般违法乱纪？<NL>今日便教你知道，我<Settlement key=SettlementId str=Name/>的规矩！”",
       "ru": "<Character key=RoleTaiwu str=Name/> быть одним против стольких,<NL>происходит кратковременный сбой, и его осаждают охранники.<NL>По мере того как битва затягивается, все больше и больше охранников подбегают и <Character key=RoleTaiwu str=Name/> схвачен.<NL>- Как Тайву, как ты посмел совершить такое преступление?<NL>Сегодня вас научат следовать правилам <Settlement key=SettlementId str=Name/>!\"",
       "status": "machine",
-      "srcHash": "96bd638884233349",
+      "srcHash": "51bb071bbc31d4d8",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "cf45a1a9-b1f7-4457-8447-2af5479d133f/Option_1": {
       "en": "(Decry the absurdity...)",
       "cn": "（岂有此理……）\n",
       "ru": "(Осудите абсурд...)",
       "status": "machine",
-      "srcHash": "aec19e723a33ff2c",
+      "srcHash": "45f91a267dccbbce",
       "engine": "yandex",
-      "updatedAt": "2026-07-01T23:51:17.774Z"
+      "updatedAt": "2026-07-02T16:21:30.980Z"
     }
   }
 }
