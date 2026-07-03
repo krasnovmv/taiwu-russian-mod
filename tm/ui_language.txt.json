@@ -14828,7 +14828,7 @@
     },
     "LK_Adventure_Taiwu_Action": {
       "en": "Energy is being consumed. Press [SPACE]/[ESC] to stop",
-      "cn": "精力消耗中，按【SPACE】/【ESC】停止",
+      "cn": "精力消耗中，按【SPACE】/【ESC】/鼠标右键停止",
       "ru": "Расходуется Энергия. Нажмите [ПРОБЕЛ]/[ESC], чтобы остановить",
       "status": "machine",
       "srcHash": "ef90accba0df8915",
@@ -53303,7 +53303,7 @@
     },
     "LK_Get_Item_Into_Warehouse": {
       "en": "Stored in Storehouse",
-      "cn": "已存入私库",
+      "cn": "已存入仓库",
       "ru": "Хранится на складе",
       "status": "machine",
       "srcHash": "1ec7fcbf4b334b0b",
@@ -57613,13 +57613,13 @@
       "updatedAt": "2026-07-02T16:21:30.980Z"
     },
     "LK_Identity_OrgGrade": {
-      "en": "{0}{1}",
+      "en": "{0} {1}",
       "cn": "{0}{1}",
-      "ru": "{0}{1}",
+      "ru": "{0} {1}",
       "status": "machine",
-      "srcHash": "108acd62af679105",
-      "engine": "neutral",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "srcHash": "b377293e70768c3f",
+      "engine": "yandex",
+      "updatedAt": "2026-07-03T19:17:11.089Z"
     },
     "LK_Ignore": {
       "en": "...",
@@ -73022,7 +73022,7 @@
     },
     "LK_Mod_Loading_Failed": {
       "en": "An error occurred while loading data... Try reopening the interface...",
-      "cn": "加载数据时出现错误，请尝试重新打开界面…",
+      "cn": "网络服务超时，该模组正在审核或发生网络错误。\\n请重新操作，重启游戏或前往Steam官方创意工坊网站检查模组的审核状态。",
       "ru": "При загрузке данных произошла ошибка... Попробуйте снова открыть интерфейс...",
       "status": "machine",
       "srcHash": "5138e47c50abda95",
@@ -117399,6 +117399,33 @@
       "engine": "yandex",
       "updatedAt": "2026-07-02T16:21:30.980Z"
     },
+    "LK_Birth_Record_Cricket": {
+      "en": "于<color=#B97D4B>{0}</color>化生为人。其名为<color=#9B8773FF>「{1}」</color>。",
+      "cn": null,
+      "ru": "в<color=#B97D4B>{0}</color>Перевоплотился в человека.Его название<color=#9B8773FF>「{1}」</color>。",
+      "status": "machine",
+      "srcHash": "1f97bad724617281",
+      "engine": "yandex",
+      "updatedAt": "2026-07-03T19:17:11.089Z"
+    },
+    "LK_Building_LevelTip_Quantity_Limit": {
+      "en": "同类资源点只有规模最大的前五座提供加成",
+      "cn": null,
+      "ru": "Только пять самых крупных ресурсных точек одного и того же типа дают бонусы",
+      "status": "machine",
+      "srcHash": "fda430b319ecda5f",
+      "engine": "yandex",
+      "updatedAt": "2026-07-03T19:17:11.089Z"
+    },
+    "LK_Building_ResidentCount_Character_Information": {
+      "en": "人物信息",
+      "cn": null,
+      "ru": "人物信息",
+      "status": "machine",
+      "srcHash": "2dbed00b3359f014",
+      "engine": "yandex",
+      "updatedAt": "2026-07-03T19:17:11.089Z"
+    },
     "LK_CombatResult_Legacy_Effect_Title": {
       "en": "获得遗惠",
       "cn": null,
@@ -117416,6 +117443,15 @@
       "srcHash": "17a3d6eb9b184e14",
       "engine": "yandex",
       "updatedAt": "2026-07-02T16:21:30.980Z"
+    },
+    "LK_CombatSkill_Cost_Durability_Consumption": {
+      "en": "耐久消耗",
+      "cn": null,
+      "ru": "Расход на долговечность",
+      "status": "machine",
+      "srcHash": "aa5fdec8da3bebb4",
+      "engine": "yandex",
+      "updatedAt": "2026-07-03T19:17:11.089Z"
     },
     "LK_Combat_CirclePanel_Entry": {
       "en": "战斗功能",
@@ -117498,6 +117534,15 @@
       "engine": "yandex",
       "updatedAt": "2026-07-02T16:21:30.980Z"
     },
+    "LK_CricketCombat_SelectCricket_PointExceeded": {
+      "en": "促织决斗点数过高…",
+      "cn": null,
+      "ru": "Очки дуэли за продвижение плетения слишком высоки…",
+      "status": "machine",
+      "srcHash": "b7c3957a3ebdd62a",
+      "engine": "yandex",
+      "updatedAt": "2026-07-03T19:17:11.089Z"
+    },
     "LK_EventWindow_TogGroup_Mode_Click": {
       "en": "切换页签方式：点击",
       "cn": null,
@@ -117515,6 +117560,24 @@
       "srcHash": "8a82b26f74c8c8e9",
       "engine": "yandex",
       "updatedAt": "2026-07-02T16:21:30.980Z"
+    },
+    "LK_HotKeySettings_Key_1": {
+      "en": "设置1",
+      "cn": null,
+      "ru": "Установка 1",
+      "status": "machine",
+      "srcHash": "8f6768f4122f7b36",
+      "engine": "yandex",
+      "updatedAt": "2026-07-03T19:17:11.089Z"
+    },
+    "LK_HotKeySettings_Key_2": {
+      "en": "设置2",
+      "cn": null,
+      "ru": "Установка 2",
+      "status": "machine",
+      "srcHash": "f66a73b2af5a3573",
+      "engine": "yandex",
+      "updatedAt": "2026-07-03T19:17:11.089Z"
     },
     "LK_Make_Perfect_None": {
       "en": "无词条",
@@ -117614,6 +117677,15 @@
       "srcHash": "ef852d1411aac19c",
       "engine": "yandex",
       "updatedAt": "2026-07-02T16:21:30.980Z"
+    },
+    "LK_MouseTip_MapArea_0_2x": {
+      "en": "此地区有<color=#pinkyellow>{0}</color>名奇书堕魔者",
+      "cn": null,
+      "ru": "В этом районе есть<color=#pinkyellow>{0}</color>Знаменитая книга \"Падший демон\"",
+      "status": "machine",
+      "srcHash": "5a19692cc8d82ca7",
+      "engine": "yandex",
+      "updatedAt": "2026-07-03T19:17:11.089Z"
     },
     "LK_NewGame_Born_StateName": {
       "en": "{0}·{1}",

@@ -2,7 +2,7 @@ return {
 	Title = "TaiwuRus",
 	Author = "KrasnoVMV",
 	Version = "0.1.0.0",
-	GameVersion = "1.0.46.0",
+	GameVersion = "1.0.49.0",
 	Description = "Русская локализация The Scroll of Taiwu (в разработке).",
 	BackendPlugins = {
 		[1] = "TaiwuRusB.dll",
