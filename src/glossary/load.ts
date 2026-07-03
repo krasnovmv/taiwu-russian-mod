@@ -1,5 +1,5 @@
 /**
- * Glossary loader. Reads `data/glossary.json` (EN→RU terms) into lowercased maps
+ * Glossary loader. Reads `data/glossary.json5` (EN→RU terms) into lowercased maps
  * for case-insensitive matching. Keys starting with `_` are metadata and
  * ignored. Loaded once and cached.
  *
@@ -12,9 +12,11 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 
+import JSON5 from "json5";
+
 import { projectRoot } from "../config/paths.js";
 
-const glossaryPath = path.join(projectRoot, "data", "glossary.json");
+const glossaryPath = path.join(projectRoot, "data", "glossary.json5");
 
 /** A glossary value: a bare RU string, or `{ ru, feed? }`. */
 type GlossaryValue = string | { ru: string; feed?: string };
@@ -28,7 +30,7 @@ interface ParsedGlossary {
 
 let cached: ParsedGlossary | null = null;
 
-/** Parse `data/glossary.json` into the terms + feeds maps (cached across calls). */
+/** Parse `data/glossary.json5` into the terms + feeds maps (cached across calls). */
 async function loadParsed(): Promise<ParsedGlossary> {
   if (cached) return cached;
 
@@ -43,7 +45,7 @@ async function loadParsed(): Promise<ParsedGlossary> {
     throw err;
   }
 
-  const parsed = JSON.parse(raw) as Record<string, GlossaryValue>;
+  const parsed = JSON5.parse(raw) as Record<string, GlossaryValue>;
   const terms = new Map<string, string>();
   const feeds = new Map<string, string>();
   for (const [en, value] of Object.entries(parsed)) {

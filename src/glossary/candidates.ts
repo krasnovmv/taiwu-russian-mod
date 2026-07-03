@@ -1,7 +1,7 @@
 /**
  * Glossary candidate mining.
  *
- * Scans the English source corpus for terms worth adding to `data/glossary.json`
+ * Scans the English source corpus for terms worth adding to `data/glossary.json5`
  * — the words and phrases whose translation should stay consistent everywhere:
  * proper nouns, item / sect / skill names, and recurring domain terminology
  * (e.g. "Sect Tournament", "True Qi", "Martial Arts", "Return of Taiwu").
