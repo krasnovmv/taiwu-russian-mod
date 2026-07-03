@@ -1,3031 +1,3031 @@
 {
   "schemaVersion": 1,
   "file": "Event_Languages/Taiwu_EventPackage_SpringMarket_Language_EN.txt",
-  "glossaryVersion": 9,
+  "glossaryVersion": 10,
   "units": {
     "cf0ce734-5858-4da7-8149-7276ae1c4cfe/EventContent": {
       "en": "\"Very well, I shall trouble you no further...\"<NL>The merchant from Pavilion of Wonders gives a fist-and-palm salute once more, then turns around and departs...",
       "cn": "“既如此，我便不再叨扰阁下……”<NL>那名奇货斋的商人又拱手施了一礼，随后便转身离去……",
       "ru": "\"Очень хорошо, я больше не буду вас беспокоить...\"<NL>Торговец из Павильона чудес еще раз отдает честь кулаком и ладонью вверх, затем разворачивается и уходит...",
       "status": "machine",
-      "srcHash": "3e7b2ed837f76ee4",
+      "srcHash": "3811f58596362ddf",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "cf0ce734-5858-4da7-8149-7276ae1c4cfe/Option_1": {
       "en": "(Go to other Guilds...)",
       "cn": "（前往其它商会……）",
       "ru": "(Переходите в другие Гильдии...)",
       "status": "machine",
-      "srcHash": "346aff174e046c32",
+      "srcHash": "df6420266d4e869d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "cf0ce734-5858-4da7-8149-7276ae1c4cfe/Option_2": {
       "en": "(Head back to the previous places...)",
       "cn": "（回头重新逛逛……）",
       "ru": "(Возвращайтесь к предыдущим местам...)",
       "status": "machine",
-      "srcHash": "e0edbaabbbb22094",
+      "srcHash": "d180bd45a1377c39",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "cf0ce734-5858-4da7-8149-7276ae1c4cfe/Option_3": {
       "en": "(Leave the Spring Bazaar...)",
       "cn": "（离开<ArgBox key=AdventureName type=string/>……）\n",
       "ru": "(Покиньте Весенний базар...)",
       "status": "machine",
-      "srcHash": "660bf2909af2f5af",
+      "srcHash": "b7fe4570256fb0d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "94161bcf-e6a2-4911-ba01-0d01c4a5a138/EventContent": {
       "en": "Inside the Storehouse of Oxback Caravan,<NL>the goods are even more abundant than in the shops, overwhelming one's senses...<NL><NL>As <Character key=RoleTaiwu str=Name /> navigates through, <Character key=RoleTaiwu str=GenderSubject/> finally comes across some noteworthy items...",
       "cn": "服牛帮的仓库之中，<NL>货物比店铺中更为丰富，令人目不暇接……<NL><NL><Character key=RoleTaiwu str=Name />在其中穿行，终于发现了一些值得注意的货物……",
       "ru": "Внутри склада Каравана Oxback,<NL>товаров здесь даже больше, чем в магазинах, и они поражают воображение...<NL><NL>Как <Character key=RoleTaiwu str=Name /> перемещается по, <Character key=RoleTaiwu str=GenderSubject/> наконец-то попадаются некоторые заслуживающие внимания предметы...",
       "status": "machine",
-      "srcHash": "f890018af3e3490c",
+      "srcHash": "5c71050e41a6ff8d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "94161bcf-e6a2-4911-ba01-0d01c4a5a138/Option_1": {
       "en": "(Choose an item...)",
       "cn": "（挑选货物……）",
       "ru": "(Выберите элемент...)",
       "status": "machine",
-      "srcHash": "d092b92fa5d4fa78",
+      "srcHash": "a5bd63656bd444cf",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "94161bcf-e6a2-4911-ba01-0d01c4a5a138/Option_2": {
       "en": "(Keep searching...)",
       "cn": "（继续寻找……）\n",
       "ru": "(Продолжайте искать...)",
       "status": "machine",
-      "srcHash": "96b669aef3f3b9d5",
+      "srcHash": "22bae67af94e565c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "aaba0935-9e11-478f-bd74-1d403a68831e/EventContent": {
       "en": "\"I'm not hiding from you, but there are still treasures in our storehouse that have not been taken out before, only kept for their fated owners...<NL>It's rare for someone like you to have such a discerning eye for treasures. Why not come with me to the treasure trove and take a look?\"",
       "cn": "“不瞒阁下，斋中尚有藏宝，先前并未取出，只是留待有缘人……<NL>难得阁下慧眼识珍，不如随我去藏宝阁一览究竟？”",
       "ru": "- Я не скрываю от вас, но в нашем хранилище все еще есть сокровища, которые раньше не вывозились, а хранились только для их будущих владельцев...<NL>Редко у кого-то вроде тебя такой проницательный взгляд на сокровища. Почему бы тебе не пойти со мной в сокровищницу и не взглянуть?\"",
       "status": "machine",
-      "srcHash": "5266b4e6eadd4b43",
+      "srcHash": "1340b1254883c291",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "aaba0935-9e11-478f-bd74-1d403a68831e/Option_1": {
       "en": "(Go to take a look...)",
       "cn": "（愿随前往……）",
       "ru": "(Идите, чтобы взглянуть...)",
       "status": "machine",
-      "srcHash": "5f416168fcf975fd",
+      "srcHash": "acb92ebb0f228c03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "aaba0935-9e11-478f-bd74-1d403a68831e/Option_2": {
       "en": "(Refuse to go...)",
       "cn": "（拒绝前往……）\n",
       "ru": "(Отказываюсь идти...)",
       "status": "machine",
-      "srcHash": "80697908019ba1b3",
+      "srcHash": "bee25fd8ec379b27",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "3f80a451-f3d9-4cae-96f7-3f4b06d8de77/EventContent": {
       "en": "Through the crowded streets, <Character key=RoleTaiwu str=Name /> walks past numerous shops and stalls and the scene suddenly clears up before <Character key=RoleTaiwu str=GenderObject/> -<NL><NL>flags flutter, and the crowd bustle.<NL>Many temporary stalls and shops are set up by category,<NL>with various goods neatly arranged in front of the stalls and outside the stores, presenting a dazzling array...",
       "cn": "<Character key=RoleTaiwu str=Name />穿过人潮拥挤的街道，路过众多商铺贩摊，眼前终于豁然开朗——<NL><NL>只见幡旗点点，人头攒动，<NL>诸多临时的商摊、商铺以类别铺陈开来，<NL>各式商品井井有条地摆放在摊前、店外，可谓琳琅满目……",
       "ru": "По переполненным улицам, <Character key=RoleTaiwu str=Name /> проходит мимо многочисленных магазинов и киосков, и сцена внезапно проясняется перед <Character key=RoleTaiwu str=GenderObject/> -<NL><NL>развеваются флаги, и толпа суетится.<NL>Многие временные киоски и магазины разбиты по категориям,<NL>с различными товарами, аккуратно разложенными перед прилавками и снаружи магазинов, представляя собой ослепительный ассортимент...",
       "status": "machine",
-      "srcHash": "ca6b4ace9015eef1",
+      "srcHash": "ea065d974adcc400",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "3f80a451-f3d9-4cae-96f7-3f4b06d8de77/Option_1": {
       "en": "(Give them a glance...)",
       "cn": "（放眼看去……）\n",
       "ru": "(Взгляните на них...)",
       "status": "machine",
-      "srcHash": "6fb867fdd79cfcdb",
+      "srcHash": "5b29946dc7b11bba",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "a4029586-a154-45ab-aa1b-7bf19cd0416b/EventContent": {
       "en": "\"Since we share the same likings, we still have some rare core materials and tools in Gongshu's Caravan,<NL>some of which are quite ingenious. I wonder if you would like to follow us to take a look...\"",
       "cn": "“阁下既是同道中人，我公输坊中尚还有些珍藏的心材、工具等，<NL>其中颇有巧思，不知阁下可愿随我等一同前往查看……”",
       "ru": "\"Поскольку у нас одинаковые пристрастия, у нас все еще есть несколько редких основных материалов и инструментов в Караване Гоншу,<NL>некоторые из них весьма изобретательны. Интересно, не хотели бы вы последовать за нами, чтобы взглянуть...\"",
       "status": "machine",
-      "srcHash": "a67e8a3914816c9f",
+      "srcHash": "e47857aa55197f34",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "a4029586-a154-45ab-aa1b-7bf19cd0416b/Option_1": {
       "en": "(Go to take a look...)",
       "cn": "（愿随前往……）",
       "ru": "(Идите, чтобы взглянуть...)",
       "status": "machine",
-      "srcHash": "5f416168fcf975fd",
+      "srcHash": "acb92ebb0f228c03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "a4029586-a154-45ab-aa1b-7bf19cd0416b/Option_2": {
       "en": "(Refuse to go...)",
       "cn": "（拒绝前往……）\n",
       "ru": "(Отказываюсь идти...)",
       "status": "machine",
-      "srcHash": "80697908019ba1b3",
+      "srcHash": "bee25fd8ec379b27",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "8822fa0a-d865-4b0f-8f75-42c145dca9fc/EventContent": {
       "en": "\"In this world, how can one not have weapons to defend themselves?<NL>If you intend to roam in the world... you must choose some fitting weapons and prepare some suitable armor!\"",
       "cn": "“世道如此，怎可没有兵器傍身？<NL>阁下若要行走江湖……可得挑些称手的兵刃、备些合身的护甲！”",
       "ru": "\"Как в этом мире можно не иметь оружия, чтобы защитить себя?<NL>Если вы намерены странствовать по миру... вы должны выбрать какое-нибудь подходящее оружие и подготовить подходящую Броню!\"",
       "status": "machine",
-      "srcHash": "ab0ca5a29763c8c8",
+      "srcHash": "69f81c93c831fbcf",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "8822fa0a-d865-4b0f-8f75-42c145dca9fc/Option_1": {
       "en": "(Look at the stock of the caravan...)",
       "cn": "（浏览商队的货物……）",
       "ru": "(Посмотрите на запасы Каравана...)",
       "status": "machine",
-      "srcHash": "733e7a253914bbc7",
+      "srcHash": "7acf6ece51252181",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "8822fa0a-d865-4b0f-8f75-42c145dca9fc/Option_2": {
       "en": "(Leave...)",
       "cn": "（离开……）\n",
       "ru": "(Уходи...)",
       "status": "machine",
-      "srcHash": "64903caddccd271f",
+      "srcHash": "2c1c70fb2e7a92fe",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "e98afa76-e179-4136-b1bf-51e0e76f0c05/EventContent": {
       "en": "Stepping out of the Storehouses of Yangtze Merchant League,<NL><Character key=RoleTaiwu str=Name /> sees that the sky has darkened, the gathering has dispersed, and the people have returned home, with lights twinkling in the distance...<NL><Character key=RoleTaiwu str=Name /> has gained quite a lot from the League so the journey is worthwhile...",
       "cn": "<Character key=RoleTaiwu str=Name />从五湖商会的仓库中走出，<NL>只见天色已晚，集会已散，万姓归家，灯火阑珊……<NL><Character key=RoleTaiwu str=Name />此次颇有所获，可谓不虚此行……",
       "ru": "Выходя из складов Лиги Торговцев Янцзы,<NL><Character key=RoleTaiwu str=Name /> видит, что небо потемнело, собрание разошлось, и люди вернулись домой, а вдалеке мерцают огни...<NL><Character key=RoleTaiwu str=Name /> он довольно много получил от Лиги, так что путешествие того стоит...",
       "status": "machine",
-      "srcHash": "3b403c8ad7ee19f6",
+      "srcHash": "641b36c4aaa3a3b8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "e98afa76-e179-4136-b1bf-51e0e76f0c05/Option_1": {
       "en": "(Leave the Bazaar...)",
       "cn": "（离开集会……）\n",
       "ru": "(Уходи с базара...)",
       "status": "machine",
-      "srcHash": "f3913941d4667512",
+      "srcHash": "ddd81471ecc0826d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "2bdef1bd-77a0-4c02-ae6e-362a52872815/EventContent": {
       "en": "\"Today, the books in our store are on sale.<NL>As the saying goes, 'diligence is the only path in the mountain of books.' You may choose more good books to read...\"",
       "cn": "“今日本店书籍打折，<NL>有道是‘书山有路勤为径’，阁下可再择善而读……”",
       "ru": "\"Сегодня книги в нашем магазине поступили в продажу.<NL>Как говорится, \"усердие - единственный путь в горах книг\". Вы можете выбрать побольше хороших книг для чтения...\"",
       "status": "machine",
-      "srcHash": "132d597db6558805",
+      "srcHash": "9f433e4f877acdd0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "2bdef1bd-77a0-4c02-ae6e-362a52872815/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "d3562d75037a15a0",
+      "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "dff7e26e-9b04-461f-b346-0a19fa34edab/EventContent": {
       "en": "\"I'll make a note of this one. Please continue...\"",
       "cn": "“我这便记录在册，阁下还请继续……”",
       "ru": "\"Я возьму это на заметку. Пожалуйста, продолжайте...\"",
       "status": "machine",
-      "srcHash": "1a8aef810c72e20e",
+      "srcHash": "b07b0e5cbd390c3f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "dff7e26e-9b04-461f-b346-0a19fa34edab/Option_1": {
       "en": "(Keep searching for books...)",
       "cn": "（继续寻书……）\n",
       "ru": "(Продолжайте искать книги...)",
       "status": "machine",
-      "srcHash": "4dd9aa0ce7c9dd95",
+      "srcHash": "dad2fc11e2adfe70",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "468f6d54-03e1-4671-b396-7da94fc5479c/EventContent": {
       "en": "As <Character key=RoleTaiwu str=Name /> is walking,<NL><Character key=RoleTaiwu str=GenderSubject/> sees a group of merchants dressed in luxurious attire ahead, who are escorting several ornately decorated jade-inlaid carriages.<NL>The carriages are laden with relic chests, obviously containing many precious items...<NL><NL>It seems that a caravan from Pavilion of Wonders is passing by...",
       "cn": "<Character key=RoleTaiwu str=Name />走到此处，<NL>只见前方有一队身着华服的商人，正护送着几架雕金饰玉的香车前行，<NL>车上满载宝箱，其中显然装着许多宝物……<NL><NL>看来是奇货斋的商队正在驶过……",
       "ru": "Как <Character key=RoleTaiwu str=Name /> идет пешком,<NL><Character key=RoleTaiwu str=GenderSubject/> видит впереди группу Торговцев, одетых в роскошные наряды, которые сопровождают несколько богато украшенных экипажей, инкрустированных Нефритом.<NL>Экипажи нагружены сундуками с Реликвиями, очевидно, содержащими много драгоценных предметов...<NL><NL>Кажется, что мимо проходит Караван из Павильона чудес...",
       "status": "machine",
-      "srcHash": "cd28868d07198023",
+      "srcHash": "57bc8392bc222bf2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "468f6d54-03e1-4671-b396-7da94fc5479c/Option_1": {
       "en": "(Approach...)",
       "cn": "（走上前去……）",
       "ru": "(Приближается...)",
       "status": "machine",
-      "srcHash": "feac88fc550e95f5",
+      "srcHash": "87eb00eb2f9d0e7b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "468f6d54-03e1-4671-b396-7da94fc5479c/Option_2": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "f0dad5730ef8624d",
+      "srcHash": "95ea2f7d0ab191c8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "7ffee385-a290-4aa9-b1f2-7a465a3e8482/EventContent": {
       "en": "At this moment, footsteps suddenly approach from <Character key=RoleTaiwu str=Name />'s behind.<NL><Character key=RoleTaiwu str=Name /> turns around and sees elegant merchants walking toward <Character key=RoleTaiwu str=GenderObject/>, giving a fist-and-palm salute and saying,<NL>\"Apologies for the interruption. We're from Vault of Volumes. We understand the path of learning and art lies in perusing myriad volumes, understanding propriety and virtue.<NL>You've just purchased many books from Vault of Volumes, so you must've also grasped this principle...\"",
       "cn": "便在此时，<Character key=RoleTaiwu str=Name />的身后忽然传来一阵脚步声，<NL><Character key=RoleTaiwu str=Name />转头看去，只见几名气质儒雅的商人走上前来，拱手说道：<NL>“叨扰阁下，我乃文山书海阁之人，素知读书学艺之道，在于遍览万卷，知礼明德，<NL>阁下方才于我文山书海阁中购买了许多书卷，想必亦明其理……”",
       "ru": "В этот момент со стороны улицы внезапно раздаются шаги. <Character key=RoleTaiwu str=Name />это позади.<NL><Character key=RoleTaiwu str=Name /> оборачивается и видит элегантных торговцев, идущих навстречу. <Character key=RoleTaiwu str=GenderObject/>, отсалютовав кулаком и ладонью и сказав,<NL>- Прошу прощения за то, что помешал. Мы из Хранилища томов. Мы понимаем, что путь познания и искусства лежит через изучение множества томов, понимание правил приличия и добродетели.<NL>Вы только что приобрели много книг в \"Хранилище томов\", так что, должно быть, тоже усвоили этот принцип...\"",
       "status": "machine",
-      "srcHash": "42dd9b217bf774ab",
+      "srcHash": "e09467cfee33888d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "7ffee385-a290-4aa9-b1f2-7a465a3e8482/Option_1": {
       "en": "(I'm all ears...)",
       "cn": "（愿闻其详……）\n",
       "ru": "(Я весь внимание...)",
       "status": "machine",
-      "srcHash": "f515f4bc47908257",
+      "srcHash": "dc14db4c4951c19d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "1fd3973f-3c9c-404d-9da8-862cb4ae5cb5/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> instead heads to the location of Gongshu's Caravan...",
       "cn": "<Character key=RoleTaiwu str=Name />转而向公输坊的所在之地走去……",
       "ru": "<Character key=RoleTaiwu str=Name /> вместо этого направляется к месту нахождения Каравана Гонгшу...",
       "status": "machine",
-      "srcHash": "ca4f09ad1757b909",
+      "srcHash": "77fcb8d15effb47c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "1fd3973f-3c9c-404d-9da8-862cb4ae5cb5/Option_1": {
       "en": "(Move forward...)",
       "cn": "（继续前行……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "5f3dac02-6994-4a81-a3f3-77ab5b6fae8c/EventContent": {
       "en": "\"Today we offer discounts,<NL>so I'm returning the <ArgBox key=MoneyBack type=int/> extra Silver to you...\"",
       "cn": "“今日本店打折，<NL>因此这多出的<ArgBox key=MoneyBack type=int/>银钱就还予阁下……”",
       "ru": "\"Сегодня мы предлагаем скидки,<NL>так что я возвращаю <ArgBox key=MoneyBack type=int/> дополнительное серебро тебе...\"",
       "status": "machine",
-      "srcHash": "ed1bf4f1f83961a1",
+      "srcHash": "4a9596318f2b1ee1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "5f3dac02-6994-4a81-a3f3-77ab5b6fae8c/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "2e551b3b42e6c023",
+      "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "afc64d3a-0cd6-4f9f-9b17-12e796f0f02a/EventContent": {
       "en": "After walking to the end of the main street, it seems like<Character key=RoleTaiwu str=Name /> has finished browsing through Oxback Caravan's shops...",
       "cn": "长街走至尽头，服牛帮的商铺似乎已经逛完……",
       "ru": "Пройдя до конца главной улицы, кажется, что<Character key=RoleTaiwu str=Name /> закончил просмотр магазинов Oxback Каравана...",
       "status": "machine",
-      "srcHash": "096a9530ab075ab4",
+      "srcHash": "555e236d28db758e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "afc64d3a-0cd6-4f9f-9b17-12e796f0f02a/Option_1": {
       "en": "(Go to other Guilds...)",
       "cn": "（前往其它商会……）",
       "ru": "(Переходите в другие Гильдии...)",
       "status": "machine",
-      "srcHash": "346aff174e046c32",
+      "srcHash": "df6420266d4e869d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "afc64d3a-0cd6-4f9f-9b17-12e796f0f02a/Option_2": {
       "en": "(Head back to the previous places...)",
       "cn": "（回头重新逛逛……）",
       "ru": "(Возвращайтесь к предыдущим местам...)",
       "status": "machine",
-      "srcHash": "e0edbaabbbb22094",
+      "srcHash": "d180bd45a1377c39",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "afc64d3a-0cd6-4f9f-9b17-12e796f0f02a/Option_3": {
       "en": "(Leave the Spring Bazaar...)",
       "cn": "（离开<ArgBox key=AdventureName type=string/>……）\n",
       "ru": "(Покиньте Весенний базар...)",
       "status": "machine",
-      "srcHash": "660bf2909af2f5af",
+      "srcHash": "b7fe4570256fb0d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "647b325f-9687-47e3-a42a-3da77f90a378/EventContent": {
       "en": "\"I'll make a note of this one. You may try again...\"",
       "cn": "“我这便记录在册，阁下还可再试……”",
       "ru": "- Я возьму это на заметку. Вы можете попробовать еще раз...\"",
       "status": "machine",
-      "srcHash": "a8950a7445f4d3c9",
+      "srcHash": "4e3046efd0728426",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "647b325f-9687-47e3-a42a-3da77f90a378/Option_1": {
       "en": "(Continue choosing...)",
       "cn": "（继续挑选……）\n",
       "ru": "(Продолжайте выбирать...)",
       "status": "machine",
-      "srcHash": "54dba2dddb9f1297",
+      "srcHash": "e7328f82fd4931b5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "a965d171-2d9c-4a85-8f66-882dd82433ec/EventContent": {
       "en": "In the Armory,<NL>many weapons are either stored in gold and Silver boxes or displayed on wooden racks.<NL>People are constantly dusting and cleaning the weapons...<NL><NL>After searching and choosing in the place, occasionally practicing with the weapons, <Character key=RoleTaiwu str=Name /> finally finds some noteworthy armaments...",
       "cn": "藏兵阁中，<NL>诸多兵器或收藏于金银宝匣之中，或陈列于木架之上，<NL>阁中有人时时拂拭清理兵器上灰尘……<NL><NL><Character key=RoleTaiwu str=Name />于此间寻找挑选，时或取兵器演练，终于找到了一些值得注意的藏兵……",
       "ru": "В Оружейной,<NL>многие виды оружия либо хранятся в золотых и серебряных шкатулках, либо выставлены на деревянных стеллажах.<NL>Люди постоянно вытирают пыль и чистят оружие...<NL><NL>После поисков и выбора места, время от времени практикуясь с оружием, <Character key=RoleTaiwu str=Name /> наконец-то находит какое-то заслуживающее внимания вооружение...",
       "status": "machine",
-      "srcHash": "e13ffe4107a75a61",
+      "srcHash": "2e6ad73ec09f3f60",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "a965d171-2d9c-4a85-8f66-882dd82433ec/Option_1": {
       "en": "(Choose from the weapons...)",
       "cn": "（挑选藏兵……）",
       "ru": "(Выбирайте из оружия...)",
       "status": "machine",
-      "srcHash": "a350bfda4cd577d7",
+      "srcHash": "8caec2a8f7890f14",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "a965d171-2d9c-4a85-8f66-882dd82433ec/Option_2": {
       "en": "(Keep searching...)",
       "cn": "（继续寻找……）\n",
       "ru": "(Продолжайте искать...)",
       "status": "machine",
-      "srcHash": "96b669aef3f3b9d5",
+      "srcHash": "22bae67af94e565c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "8d20af97-2248-4952-8644-3d78023ddeee/EventContent": {
       "en": "\"This book is missing a few volumes... What a pity...\"<NL><Character key=RoleTaiwu str=Name /> passes by the bookstore of Vault of Volumes and sees the shopkeeper flip through the volumes with occasional sighs,<NL>indicating a deep appreciation for the books...",
       "cn": "“此书缺了几卷……倒是可惜……”<NL><Character key=RoleTaiwu str=Name />路过此家文山书海阁的书店，<NL>只见店主正翻阅店中典籍，时不时发出声声叹息，看来对书籍很是珍视……",
       "ru": "\"В этой книге не хватает нескольких томов... Какая жалость...\"<NL><Character key=RoleTaiwu str=Name /> проходит мимо книжного магазина \"Хранилище томов\" и видит, как владелец магазина перелистывает тома, время от времени вздыхая,<NL>что свидетельствует о глубокой признательности за книги...",
       "status": "machine",
-      "srcHash": "d298be362f933884",
+      "srcHash": "8e2578a8c82e4526",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "8d20af97-2248-4952-8644-3d78023ddeee/Option_1": {
       "en": "(Look at the stock...)",
       "cn": "（浏览货物……）",
       "ru": "(Посмотрите на акции...)",
       "status": "machine",
-      "srcHash": "e4794db216e4c137",
+      "srcHash": "54a8081ee036d1a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "8d20af97-2248-4952-8644-3d78023ddeee/Option_2": {
       "en": "(Choose another Guild...)",
       "cn": "（另择商会……）",
       "ru": "(Выбери другую Гильдию...)",
       "status": "machine",
-      "srcHash": "5f52ad953c282cef",
+      "srcHash": "408f951b4e98d6d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "8d20af97-2248-4952-8644-3d78023ddeee/Option_3": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "2a099710-22d6-4cfb-81a0-dc3dfc5008ff/EventContent": {
       "en": "\"Today, in appreciation of our customers over the world, our store offers discounts on all goods.<NL>How about taking another look?\"",
       "cn": "“今日本店回馈天下百姓，故而货品皆有打折，<NL>阁下不妨再看看？”",
       "ru": "\"Сегодня, в знак признательности нашим покупателям по всему миру, наш магазин предлагает скидки на все товары.<NL>Как насчет того, чтобы взглянуть еще раз?\"",
       "status": "machine",
-      "srcHash": "f04666a087ee14b3",
+      "srcHash": "f604458397ac10d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "2a099710-22d6-4cfb-81a0-dc3dfc5008ff/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "d3562d75037a15a0",
+      "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "71908618-19cb-4b4d-a8e7-ffe123e792b8/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> looks around and can see that this marketplace covers a vast area.<NL>It seems unlikely that <Character key=RoleTaiwu str=Name /> can browse through all the shops in a short time.<NL><Character key=RoleTaiwu str=GenderSubject/> has to make some plans for the upcoming bazaar excursion...",
       "cn": "<Character key=RoleTaiwu str=Name />放眼望去，<NL>只见此处集市占地甚广，恐怕一时之间难以逛遍各家商行，<NL>只得对此番赶集之行稍作规划……",
       "ru": "<Character key=RoleTaiwu str=Name /> оглядывается вокруг и видит, что этот рынок занимает огромную площадь.<NL>Кажется маловероятным, что <Character key=RoleTaiwu str=Name /> можно просмотреть все магазины за короткое время.<NL><Character key=RoleTaiwu str=GenderSubject/> нужно составить кое-какие планы на предстоящую экскурсию по базару...",
       "status": "machine",
-      "srcHash": "608125d7ce4ab77e",
+      "srcHash": "c0b598c3303a6bef",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "71908618-19cb-4b4d-a8e7-ffe123e792b8/Option_1": {
       "en": "(Head to Vault of Volumes...)",
       "cn": "（前往文山书海阁……）",
       "ru": "(Направляйтесь к хранилищу томов...)",
       "status": "machine",
-      "srcHash": "2ffd248235bdb0c6",
+      "srcHash": "9c85a618bc311e98",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "71908618-19cb-4b4d-a8e7-ffe123e792b8/Option_2": {
       "en": "(Head to Champion's Armaments...)",
       "cn": "（前往大武魁商号……）",
       "ru": "(Направляйтесь к оружию чемпиона...)",
       "status": "machine",
-      "srcHash": "6647db3dfe9e1414",
+      "srcHash": "4e70bfcaffea9a71",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "71908618-19cb-4b4d-a8e7-ffe123e792b8/Option_3": {
       "en": "(Head to Pavilion of Wondersn...)",
       "cn": "（前往奇货斋……）",
       "ru": "(Направляйтесь к Павильону чудес...)",
       "status": "machine",
-      "srcHash": "a5cb3e412ddb1810",
+      "srcHash": "1668140eba0cc542",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "71908618-19cb-4b4d-a8e7-ffe123e792b8/Option_4": {
       "en": "(Head to Gongshu's Caravan...)",
       "cn": "（前往公输坊……）",
       "ru": "(Направляйтесь к Каравану Гуншу...)",
       "status": "machine",
-      "srcHash": "4e5b695b48aa9ed0",
+      "srcHash": "32c4249698ec808a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "71908618-19cb-4b4d-a8e7-ffe123e792b8/Option_5": {
       "en": "(Head to Yangtze Merchant League...)",
       "cn": "（前往五湖商会……）  ",
       "ru": "(Отправляйтесь в Лигу Торговцев Янцзы...)",
       "status": "machine",
-      "srcHash": "b16ec2fcd34c019c",
+      "srcHash": "1add65b3305935d4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "71908618-19cb-4b4d-a8e7-ffe123e792b8/Option_6": {
       "en": "(Head to Oxback Caravan...)",
       "cn": "（前往服牛帮……）  ",
       "ru": "(Направляйтесь к Каравану Oxback...)",
       "status": "machine",
-      "srcHash": "bc567792b6aab099",
+      "srcHash": "5371335289334e50",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "71908618-19cb-4b4d-a8e7-ffe123e792b8/Option_7": {
       "en": "(Leave the Spring Bazaar...)",
       "cn": "（离开<ArgBox key=AdventureName type=string/>……）\n",
       "ru": "(Покиньте Весенний базар...)",
       "status": "machine",
-      "srcHash": "660bf2909af2f5af",
+      "srcHash": "b7fe4570256fb0d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "8da3f5a8-c41c-4b4f-87c6-c4527ee7901d/EventContent": {
       "en": "Suddenly hearing shouts, <Character key=RoleTaiwu str=Name /> suddenly hears shouts and follows the sound, seeing people wielding swords and spears in practice ahead.<NL>On both sides, there are many wooden racks displaying various weapons -<NL>it turns out that it is a shop that belongs to Champion's Armaments selling weapons...",
       "cn": "<Character key=RoleTaiwu str=Name />忽闻阵阵喝喊，循声看去，<NL>只见前方有人挥舞着刀枪正在演练，其两侧竖立着许多木架，架上有各式兵器——<NL>原来是一家大武魁商号的商铺在此售卖兵器……",
       "ru": "Внезапно услышав крики, <Character key=RoleTaiwu str=Name /> внезапно он слышит крики и следует на звук, видя впереди людей, упражняющихся с мечами и копьями.<NL>С обеих сторон расположено множество деревянных стеллажей, на которых выставлено различное оружие -<NL>оказывается, это магазин, принадлежащий компании Champion's Armaments, торгующей оружием...",
       "status": "machine",
-      "srcHash": "28f51b67b1fa4bf3",
+      "srcHash": "9e68da3897e8c523",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "8da3f5a8-c41c-4b4f-87c6-c4527ee7901d/Option_1": {
       "en": "(Look at the stock...)",
       "cn": "（浏览货物……）",
       "ru": "(Посмотрите на акции...)",
       "status": "machine",
-      "srcHash": "e4794db216e4c137",
+      "srcHash": "54a8081ee036d1a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "8da3f5a8-c41c-4b4f-87c6-c4527ee7901d/Option_2": {
       "en": "(Choose another Guild...)",
       "cn": "（另择商会……）",
       "ru": "(Выбери другую Гильдию...)",
       "status": "machine",
-      "srcHash": "5f52ad953c282cef",
+      "srcHash": "408f951b4e98d6d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "8da3f5a8-c41c-4b4f-87c6-c4527ee7901d/Option_3": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "84bbbd7f-8660-4477-a01d-7e1a284b82f8/EventContent": {
       "en": "After walking to the end of the main street, it seems like has finished browsing through Vault of Volumes's shops...",
       "cn": "长街走至尽头，文山书海阁的商铺似乎已经逛完……",
       "ru": "Пройдя до конца главной улицы, кажется, что он закончил просматривать магазины Vault of Volumes...",
       "status": "machine",
-      "srcHash": "62b1e5bfab71ebf6",
+      "srcHash": "9501c502085b432f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "84bbbd7f-8660-4477-a01d-7e1a284b82f8/Option_1": {
       "en": "(Go to other Guilds...)",
       "cn": "（前往其它商会……）",
       "ru": "(Переходите в другие Гильдии...)",
       "status": "machine",
-      "srcHash": "346aff174e046c32",
+      "srcHash": "df6420266d4e869d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "84bbbd7f-8660-4477-a01d-7e1a284b82f8/Option_2": {
       "en": "(Head back to the previous places...)",
       "cn": "（回头重新逛逛……）",
       "ru": "(Возвращайтесь к предыдущим местам...)",
       "status": "machine",
-      "srcHash": "e0edbaabbbb22094",
+      "srcHash": "d180bd45a1377c39",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "84bbbd7f-8660-4477-a01d-7e1a284b82f8/Option_3": {
       "en": "(Leave the Spring Bazaar...)",
       "cn": "（离开<ArgBox key=AdventureName type=string/>……）\n",
       "ru": "(Покиньте Весенний базар...)",
       "status": "machine",
-      "srcHash": "660bf2909af2f5af",
+      "srcHash": "b7fe4570256fb0d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "85aa5f65-7b0f-441e-a6b7-653e8d635a75/EventContent": {
       "en": "\"If you still have needs, there are also some other goods in the storehouse.<NL>I wonder if you would like to go and take a look?\"",
       "cn": "“阁下若还有需要，仓库之中亦有些其它物产，<NL>不知阁下是否要去选一选看一看？”",
       "ru": "\"Если у вас все еще есть потребности, на складе есть и другие товары.<NL>Интересно, не хотели бы вы пойти и взглянуть?\"",
       "status": "machine",
-      "srcHash": "6dc372c25c3e42e2",
+      "srcHash": "dd6e09e67d5c2217",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "85aa5f65-7b0f-441e-a6b7-653e8d635a75/Option_1": {
       "en": "(Go to take a look...)",
       "cn": "（愿随前往……）",
       "ru": "(Идите, чтобы взглянуть...)",
       "status": "machine",
-      "srcHash": "5f416168fcf975fd",
+      "srcHash": "acb92ebb0f228c03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "85aa5f65-7b0f-441e-a6b7-653e8d635a75/Option_2": {
       "en": "(Refuse to go...)",
       "cn": "（拒绝前往……）\n",
       "ru": "(Отказываюсь идти...)",
       "status": "machine",
-      "srcHash": "80697908019ba1b3",
+      "srcHash": "bee25fd8ec379b27",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "e1367a87-d762-44a6-abb3-e2f497edf10e/EventContent": {
       "en": "While browsing through the shops of Yangtze Merchant League,<NL><Character key=RoleTaiwu str=Name /> suddenly hears a merchant outside introducing to customers, saying, \"These are goods that we brought in from out of town...\"<NL>Following the sound, <Character key=RoleTaiwu str=Name /> sees various goods displayed on the stall there...",
       "cn": "<Character key=RoleTaiwu str=Name />正在五湖商会的商铺中游逛，<NL>忽而听得外间有商人向顾客介绍道：“这是刚从外地运来的货物……”<NL>循声看去，只见那处摊位上摆放着各式各样的物产……",
       "ru": "Во время осмотра магазинов Лиги Торговцев Янцзы,<NL><Character key=RoleTaiwu str=Name /> вдруг слышит, как Торговец на улице, представляя покупателей, говорит: \"Это товары, которые мы привезли из другого города...\"<NL>Следуя за звуком, <Character key=RoleTaiwu str=Name /> видит различные товары, выставленные там на прилавке...",
       "status": "machine",
-      "srcHash": "01f904becb8bcac2",
+      "srcHash": "320812247b8328e9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "e1367a87-d762-44a6-abb3-e2f497edf10e/Option_1": {
       "en": "(Look at the stock...)",
       "cn": "（浏览货物……）",
       "ru": "(Посмотрите на акции...)",
       "status": "machine",
-      "srcHash": "e4794db216e4c137",
+      "srcHash": "54a8081ee036d1a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "e1367a87-d762-44a6-abb3-e2f497edf10e/Option_2": {
       "en": "(Choose another Guild...)",
       "cn": "（另择商会……）",
       "ru": "(Выбери другую Гильдию...)",
       "status": "machine",
-      "srcHash": "5f52ad953c282cef",
+      "srcHash": "408f951b4e98d6d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "e1367a87-d762-44a6-abb3-e2f497edf10e/Option_3": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "1e8b7bff-f9ee-45ab-a602-6e0de94a642f/EventContent": {
       "en": "As <Character key=RoleTaiwu str=Name /> is walking,<NL><Character key=RoleTaiwu str=GenderSubject/> sees several wooden carts ahead, loaded with uniquely shaped core material.<NL>The merchants beside the carts are counting the quantity while instructing their assistants to take care...<NL><NL>It seems that a caravan from the Gongshu's Caravan is passing by...",
       "cn": "<Character key=RoleTaiwu str=Name />走到此处，<NL>只见前方几辆木车上，载着许多造型独特的心材，<NL>车旁的商人一边清点数量，一边叮嘱手下的伙计们小心看护……<NL><NL>看来是公输坊的商队正在驶过……",
       "ru": "Как <Character key=RoleTaiwu str=Name /> идет пешком,<NL><Character key=RoleTaiwu str=GenderSubject/> видит впереди несколько деревянных тележек, нагруженных Сердцевинным материалом уникальной формы.<NL>Торговцы, стоящие рядом с тележками, подсчитывают количество, одновременно давая указания своим помощникам быть осторожными...<NL><NL>Кажется, мимо проходит Караван из Каравана Гуншу...",
       "status": "machine",
-      "srcHash": "e5b5c4935a1fd9f7",
+      "srcHash": "e340a7930b99e891",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "1e8b7bff-f9ee-45ab-a602-6e0de94a642f/Option_1": {
       "en": "(Approach...)",
       "cn": "（走上前去……）",
       "ru": "(Приближается...)",
       "status": "machine",
-      "srcHash": "feac88fc550e95f5",
+      "srcHash": "87eb00eb2f9d0e7b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "1e8b7bff-f9ee-45ab-a602-6e0de94a642f/Option_2": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "f0dad5730ef8624d",
+      "srcHash": "95ea2f7d0ab191c8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "05217e74-2d83-40ae-aa49-9b30c321ab09/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "654b3641c39dd731",
+      "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "148fc07e-c756-4ad2-b327-f310b0a6e17d/EventContent": {
       "en": "\"Come and take a look!\"<NL>As <Character key=RoleTaiwu str=Name /> is walking, <Character key=RoleTaiwu str=GenderSubject/> hears some shouts from the side of the road.<NL>It turns out to be several modestly dressed merchants from Oxback Caravan calling out their wares...",
       "cn": "“来看看嘞！”<NL><Character key=RoleTaiwu str=Name />行至此处，忽闻道旁传来一阵吆喝声，<NL>原来是几名穿着质朴的服牛帮商人正在叫卖……",
       "ru": "\"Подойди и посмотри!\"<NL>Как <Character key=RoleTaiwu str=Name /> идет пешком, <Character key=RoleTaiwu str=GenderSubject/> слышит какие-то крики со стороны дороги.<NL>Оказывается, это несколько скромно одетых Торговцев из Каравана \"Оксбэк\", выставляющих свои товары...",
       "status": "machine",
-      "srcHash": "15ac84cadc6e7774",
+      "srcHash": "27707aaf61125405",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "148fc07e-c756-4ad2-b327-f310b0a6e17d/Option_1": {
       "en": "(Look at the stock...)",
       "cn": "（浏览货物……）",
       "ru": "(Посмотрите на акции...)",
       "status": "machine",
-      "srcHash": "e4794db216e4c137",
+      "srcHash": "54a8081ee036d1a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "148fc07e-c756-4ad2-b327-f310b0a6e17d/Option_2": {
       "en": "(Choose another Guild...)",
       "cn": "（另择商会……）",
       "ru": "(Выбери другую Гильдию...)",
       "status": "machine",
-      "srcHash": "5f52ad953c282cef",
+      "srcHash": "408f951b4e98d6d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "148fc07e-c756-4ad2-b327-f310b0a6e17d/Option_3": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "52c3a0b5-06b1-413c-9403-3d43c1939fb2/EventContent": {
       "en": "\"Rare relics all contain spirits.<NL>If you choose any of them, it will be your fate with it...\"",
       "cn": "“奇珍异宝，皆有灵性，<NL>阁下若是选中了哪件宝物，便是你与它的缘分……”",
       "ru": "\"Все редкие реликвии содержат духов.<NL>Если вы выберете любую из них, это будет ваша судьба...\"",
       "status": "machine",
-      "srcHash": "0d78ac9db5e0244a",
+      "srcHash": "ba63c5582a1aaa1b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "52c3a0b5-06b1-413c-9403-3d43c1939fb2/Option_1": {
       "en": "(Look at the stock of the caravan...)",
       "cn": "（浏览商队的货物……）",
       "ru": "(Посмотрите на запасы Каравана...)",
       "status": "machine",
-      "srcHash": "733e7a253914bbc7",
+      "srcHash": "7acf6ece51252181",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "52c3a0b5-06b1-413c-9403-3d43c1939fb2/Option_2": {
       "en": "(Leave...)",
       "cn": "（离开……）\n",
       "ru": "(Уходи...)",
       "status": "machine",
-      "srcHash": "64903caddccd271f",
+      "srcHash": "2c1c70fb2e7a92fe",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "cf3175ba-b33e-4302-b675-04ea6a31b8fd/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "654b3641c39dd731",
+      "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "8900a523-1101-4802-a702-14330faf6cdb/EventContent": {
       "en": "After walking to the end of the main street, it seems like has finished browsing through Yangtze Merchant League's shops...",
       "cn": "长街走至尽头，五湖商会的商铺似乎已经逛完……",
       "ru": "Пройдя до конца главной улицы, кажется, что он закончил осмотр магазинов Лиги Торговцев Янцзы...",
       "status": "machine",
-      "srcHash": "ab7b4fc948494758",
+      "srcHash": "2249dc1648cd105c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "8900a523-1101-4802-a702-14330faf6cdb/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "d3562d75037a15a0",
+      "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "0d5e0cc6-a642-466e-b873-6285feacfdd9/EventContent": {
       "en": "\"Heaven has its timing, earth has its energy, materials have their beauty, craftsmanship has its skill.'<NL>If you have any need for manufacturing or construction, we Gongshu's Caravan has ingenious methods to assist you...\"",
       "cn": "“‘天有时，地有气，材有美，工有巧’，<NL>阁下若有制造、建构之需，我公输坊自有妙法可以襄助……”",
       "ru": "\"У небес есть свое время, у земли есть своя Энергия, у материалов есть своя красота, у мастерства есть свое мастерство.'<NL>Если у вас есть какие-либо потребности в производстве или строительстве, у Каравана we Gongshu есть оригинальные методы, которые помогут вам...\"",
       "status": "machine",
-      "srcHash": "489fb1445eb8ff75",
+      "srcHash": "477fedfa33504919",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "0d5e0cc6-a642-466e-b873-6285feacfdd9/Option_1": {
       "en": "(Look at the stock of the caravan...)",
       "cn": "（浏览商队的货物……）",
       "ru": "(Посмотрите на запасы Каравана...)",
       "status": "machine",
-      "srcHash": "733e7a253914bbc7",
+      "srcHash": "7acf6ece51252181",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "0d5e0cc6-a642-466e-b873-6285feacfdd9/Option_2": {
       "en": "(Leave...)",
       "cn": "（离开……）\n",
       "ru": "(Уходи...)",
       "status": "machine",
-      "srcHash": "64903caddccd271f",
+      "srcHash": "2c1c70fb2e7a92fe",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "ed0186bd-997a-4b20-869c-42f68ac0e4ca/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> heads to the location of Champion's Armaments...",
       "cn": "<Character key=RoleTaiwu str=Name />往大武魁商号的所在之地走去……",
       "ru": "<Character key=RoleTaiwu str=Name /> направляйтесь к месту хранения оружия Чемпиона...",
       "status": "machine",
-      "srcHash": "6e2155f1603ca624",
+      "srcHash": "37903736685b7643",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "ed0186bd-997a-4b20-869c-42f68ac0e4ca/Option_1": {
       "en": "(Continue to stroll around in the bazaar...)",
       "cn": "（继续游逛集市……）\n",
       "ru": "(Продолжайте прогуливаться по базару...)",
       "status": "machine",
-      "srcHash": "92a97b6d72c45175",
+      "srcHash": "80b932a5c859e999",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "7dd47a05-ac7f-4314-a617-1ed2d196e0fa/EventContent": {
       "en": "After walking to the end of the main street, it seems like has finished browsing through Vault of Volumes's shops...",
       "cn": "长街走至尽头，文山书海阁的商铺似乎已经逛完……",
       "ru": "Пройдя до конца главной улицы, кажется, что он закончил просматривать магазины Vault of Volumes...",
       "status": "machine",
-      "srcHash": "62b1e5bfab71ebf6",
+      "srcHash": "9501c502085b432f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "7dd47a05-ac7f-4314-a617-1ed2d196e0fa/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "d3562d75037a15a0",
+      "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "25d86f94-09b0-47f7-b560-09614d6fbcd9/EventContent": {
       "en": "After walking to the end of the main street, it seems like<Character key=RoleTaiwu str=Name /> has finished browsing through Oxback Caravan's shops...",
       "cn": "长街走至尽头，服牛帮的商铺似乎已经逛完……",
       "ru": "Пройдя до конца главной улицы, кажется, что<Character key=RoleTaiwu str=Name /> закончил просмотр магазинов Oxback Каравана...",
       "status": "machine",
-      "srcHash": "096a9530ab075ab4",
+      "srcHash": "555e236d28db758e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "25d86f94-09b0-47f7-b560-09614d6fbcd9/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "d3562d75037a15a0",
+      "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "38b5a45c-c4c1-452a-a5b6-e101fc0a355d/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "654b3641c39dd731",
+      "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "de84d0ca-a30e-443b-b95d-bec26523b639/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "654b3641c39dd731",
+      "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "39106690-7075-4659-82f8-775db6ffb186/EventContent": {
       "en": "Stepping out of the Scripture Vault, <Character key=RoleTaiwu str=Name /> sees that the sky has darkened,<NL>the gathering has dispersed, and the people have returned home, with lights twinkling in the distance...<NL><Character key=RoleTaiwu str=Name /> has gained quite a lot from the League so the journey is worthwhile...",
       "cn": "<Character key=RoleTaiwu str=Name />从藏书阁中走出，<NL>只见天色已晚，集会已散，万姓归家，灯火阑珊……<NL><Character key=RoleTaiwu str=Name />此次颇有所获，可谓不虚此行……",
       "ru": "Выходя из хранилища Священных писаний, <Character key=RoleTaiwu str=Name /> видит, что небо потемнело,<NL>собрание разошлось, и люди вернулись домой, а вдалеке мерцают огни...<NL><Character key=RoleTaiwu str=Name /> он довольно много получил от Лиги, так что путешествие того стоит...",
       "status": "machine",
-      "srcHash": "f56b6ee5315a567e",
+      "srcHash": "f8577d9572052466",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "39106690-7075-4659-82f8-775db6ffb186/Option_1": {
       "en": "(Leave the Bazaar...)",
       "cn": "（离开集会……）\n",
       "ru": "(Уходи с базара...)",
       "status": "machine",
-      "srcHash": "f3913941d4667512",
+      "srcHash": "ddd81471ecc0826d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "ce8a5201-4a8e-4023-b20d-7566f4acb38c/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> instead heads to the location of Champion's Armaments...",
       "cn": "<Character key=RoleTaiwu str=Name />转而向大武魁商号的所在之地走去……",
       "ru": "<Character key=RoleTaiwu str=Name /> вместо этого направляйтесь к складу оружия Чемпиона...",
       "status": "machine",
-      "srcHash": "4e55716ba242dc21",
+      "srcHash": "3327b4c852373377",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "ce8a5201-4a8e-4023-b20d-7566f4acb38c/Option_1": {
       "en": "(Move forward...)",
       "cn": "（继续前行……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "7c7bde2f-1f16-49f9-9f7e-51d54c49314d/EventContent": {
       "en": "\"Today, in appreciation of our customers over the world, our store offers discounts on all goods.<NL>How can I help you?\"",
       "cn": "“今日本店回馈天下百姓，故而货品皆有打折，<NL>阁下可再看看是否有需要的？”",
       "ru": "\"Сегодня, в знак признательности нашим покупателям по всему миру, наш магазин предлагает скидки на все товары.<NL>Чем я могу вам помочь?\"",
       "status": "machine",
-      "srcHash": "1e2196bfb19289ec",
+      "srcHash": "d4b02d68629df959",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "7c7bde2f-1f16-49f9-9f7e-51d54c49314d/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "d3562d75037a15a0",
+      "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "9a092342-0208-46bf-900c-db61fb1d6b3a/EventContent": {
       "en": "Stepping out of the treasure trove, <Character key=RoleTaiwu str=Name /> sees that the sky has darkened,<NL>the gathering has dispersed, and the people have returned home, with lights twinkling in the distance...<NL><Character key=RoleTaiwu str=Name /> has gained quite a lot from the League so the journey is worthwhile...",
       "cn": "<Character key=RoleTaiwu str=Name />从藏宝阁中走出，<NL>只见天色已晚，集会已散，万姓归家，灯火阑珊……<NL><Character key=RoleTaiwu str=Name />此次颇有所获，可谓不虚此行……",
       "ru": "Выходя из сокровищницы, <Character key=RoleTaiwu str=Name /> видит, что небо потемнело,<NL>собрание разошлось, и люди вернулись домой, а вдалеке мерцают огни...<NL><Character key=RoleTaiwu str=Name /> он довольно много получил от Лиги, так что путешествие того стоит...",
       "status": "machine",
-      "srcHash": "79fa16934e5beb50",
+      "srcHash": "8a66a53eaee24727",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "9a092342-0208-46bf-900c-db61fb1d6b3a/Option_1": {
       "en": "(Leave the Bazaar...)",
       "cn": "（离开集会……）\n",
       "ru": "(Уходи с базара...)",
       "status": "machine",
-      "srcHash": "f3913941d4667512",
+      "srcHash": "ddd81471ecc0826d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "a776c878-f9f2-4aed-b9a7-9c84ee1d0588/EventContent": {
       "en": "As <Character key=RoleTaiwu str=Name /> is walking, <Character key=RoleTaiwu str=GenderSubject/> sees a shop that belongs to Oxback Caravan.<NL>Several mules are unloading goods beside the shop and munching on hay by the manger.<NL>Various miscellaneous items in front of the shop are mostly packed in sacks, arranged by category, with some sundries stored deep inside the shop...",
       "cn": "<Character key=RoleTaiwu str=Name />走到此处，眼前出现了一家服牛帮的店铺，<NL>店旁的几匹骡马卸下了货物，正在马槽边嚼着草料，<NL>店前各类杂物大多以麻袋装裹，分类陈置，还有一些杂货收在店内深处……",
       "ru": "Как <Character key=RoleTaiwu str=Name /> идет пешком, <Character key=RoleTaiwu str=GenderSubject/> видит магазин, принадлежащий \"Оксбэк Караван\".<NL>Несколько мулов разгружают товары рядом с магазином и жуют сено у яслей.<NL>Различные товары перед магазином в основном упакованы в мешки, разложенные по категориям, а некоторые мелочи хранятся в глубине магазина...",
       "status": "machine",
-      "srcHash": "b60d9d38332ff037",
+      "srcHash": "85781c8147f2cdcb",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "a776c878-f9f2-4aed-b9a7-9c84ee1d0588/Option_1": {
       "en": "(Look at the stock...)",
       "cn": "（浏览货物……）",
       "ru": "(Посмотрите на акции...)",
       "status": "machine",
-      "srcHash": "e4794db216e4c137",
+      "srcHash": "54a8081ee036d1a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "a776c878-f9f2-4aed-b9a7-9c84ee1d0588/Option_2": {
       "en": "(Choose another Guild...)",
       "cn": "（另择商会……）",
       "ru": "(Выбери другую Гильдию...)",
       "status": "machine",
-      "srcHash": "5f52ad953c282cef",
+      "srcHash": "408f951b4e98d6d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "a776c878-f9f2-4aed-b9a7-9c84ee1d0588/Option_3": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "311e0cc9-183e-432c-b31b-e0103b95eddd/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "654b3641c39dd731",
+      "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "0fcee86b-f8fb-4dab-8161-17faa133f9a8/EventContent": {
       "en": "\"Our shop specializes in selling goods from all over, genuine and authentic, for anyone to choose from.<NL>If you, dear customer, have any need for tea, spirits, or other sundries, come take a look at Yangtze Merchant League...\"",
       "cn": "“本店专卖各地物产，真材实料，任人挑选，<NL>客官若有茶、酒、杂物之需，便来咱五湖商会看看……”",
       "ru": "\"Наш магазин специализируется на продаже товаров со всего мира, настоящих и аутентичных, из которых любой может выбрать.<NL>Если у вас, уважаемый покупатель, возникнет какая-либо потребность в чае, крепких напитках или другой всячине, приходите взглянуть на Лигу Торговцев Янцзы...\"",
       "status": "machine",
-      "srcHash": "3f946bdfd0419442",
+      "srcHash": "2e25105db18c07af",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "0fcee86b-f8fb-4dab-8161-17faa133f9a8/Option_1": {
       "en": "(Look at the stock of the caravan...)",
       "cn": "（浏览商队的货物……）",
       "ru": "(Посмотрите на запасы Каравана...)",
       "status": "machine",
-      "srcHash": "733e7a253914bbc7",
+      "srcHash": "7acf6ece51252181",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "0fcee86b-f8fb-4dab-8161-17faa133f9a8/Option_2": {
       "en": "(Leave...)",
       "cn": "（离开……）\n",
       "ru": "(Уходи...)",
       "status": "machine",
-      "srcHash": "64903caddccd271f",
+      "srcHash": "2c1c70fb2e7a92fe",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "864ae4cf-adcf-4368-9b81-f5a607370645/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> peers into a shop that belongs to Pavilion of Wonders<NL>and sees various rare antiques displayed on the shelves, among which there are surely many relics...",
       "cn": "<Character key=RoleTaiwu str=Name />向一家奇货斋的商铺中望去，<NL>只见店中的博古架上陈置着各种珍稀古玩，其中定有许多宝物……",
       "ru": "<Character key=RoleTaiwu str=Name /> заглядывает в магазин, принадлежащий Павильону чудес<NL>и видит выставленные на полках различные редкие предметы антиквариата, среди которых наверняка найдется немало реликвий...",
       "status": "machine",
-      "srcHash": "bd2c3cb4161e5b46",
+      "srcHash": "34b422afee59e864",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "864ae4cf-adcf-4368-9b81-f5a607370645/Option_1": {
       "en": "(Look at the stock...)",
       "cn": "（浏览货物……）",
       "ru": "(Посмотрите на акции...)",
       "status": "machine",
-      "srcHash": "e4794db216e4c137",
+      "srcHash": "54a8081ee036d1a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "864ae4cf-adcf-4368-9b81-f5a607370645/Option_2": {
       "en": "(Choose another Guild...)",
       "cn": "（另择商会……）",
       "ru": "(Выбери другую Гильдию...)",
       "status": "machine",
-      "srcHash": "5f52ad953c282cef",
+      "srcHash": "408f951b4e98d6d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "864ae4cf-adcf-4368-9b81-f5a607370645/Option_3": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "44884c83-7e6c-4aba-aa8a-69e0f635bfc7/EventContent": {
       "en": "At this moment, footsteps suddenly approach from 's behind.<NL><Character key=RoleTaiwu str=Name /> turns around and sees dusty and weary-looking merchants walking toward <Character key=RoleTaiwu str=GenderObject/>, giving a fist-and-palm salute and saying,<NL>\"We heard that you purchased many goods from Yangtze Merchant League just now. Perhaps you're looking for goods from various places?\"",
       "cn": "便在此时，忽然听得身后一阵脚步声，<NL><Character key=RoleTaiwu str=Name />转头看去，只见几名风尘仆仆的商人走上前来，拱手说道：<NL>“听闻方才阁下在我五湖商会中购买了许多货品，许是在找寻各地的物产？”",
       "ru": "В этот момент сзади внезапно раздаются приближающиеся шаги.<NL><Character key=RoleTaiwu str=Name /> оборачивается и видит запыленных и усталых на вид Торговцев, идущих навстречу <Character key=RoleTaiwu str=GenderObject/>, отдавая честь кулаком и ладонью и говоря,<NL>\"Мы слышали, что вы только что приобрели много товаров в Лиге Торговцев Янцзы. Возможно, вы ищете товары из разных мест?\"",
       "status": "machine",
-      "srcHash": "216ee6806591dbcc",
+      "srcHash": "e0253d44a479cbc5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "44884c83-7e6c-4aba-aa8a-69e0f635bfc7/Option_1": {
       "en": "(I'm all ears...)",
       "cn": "（愿闻其详……）\n",
       "ru": "(Я весь внимание...)",
       "status": "machine",
-      "srcHash": "f515f4bc47908257",
+      "srcHash": "dc14db4c4951c19d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "4230c8e7-61ef-423c-a970-e792c0490c70/EventContent": {
       "en": "\"Today, our shop is offering discounts.<NL>Building materials are precious and rare. Perhaps you would like to take another look?\"",
       "cn": "“今日本店打折，建构之材贵重难得，<NL>阁下或许可以再看看？”",
       "ru": "\"Сегодня наш магазин предлагает скидки.<NL>Строительные материалы драгоценны и редки. Может быть, вы хотели бы взглянуть еще раз?\"",
       "status": "machine",
-      "srcHash": "c012c281b6f7274c",
+      "srcHash": "edfe41566204e90d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "4230c8e7-61ef-423c-a970-e792c0490c70/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "d3562d75037a15a0",
+      "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "9e4fa67f-5842-4fcd-a8db-1ec748169334/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> steps into a store of Vault of Volumes<NL>and sees books and scrolls neatly arranged on shelves by category. The shopkeeper is sitting behind the counter, reading a scroll...",
       "cn": "<Character key=RoleTaiwu str=Name />步入一家文山书海阁的店面，<NL>只见书卷分门别类地摆放于书架之上，店主正端坐在柜台前，捧卷阅读……",
       "ru": "<Character key=RoleTaiwu str=Name /> входит в хранилище Vault of Volumes<NL>и видит книги и свитки, аккуратно расставленные на полках по категориям. Владелец магазина сидит за прилавком и читает свиток...",
       "status": "machine",
-      "srcHash": "304a8fd3d7b89caf",
+      "srcHash": "a8737d573ea7e2db",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "9e4fa67f-5842-4fcd-a8db-1ec748169334/Option_1": {
       "en": "(Look at the stock...)",
       "cn": "（浏览货物……）",
       "ru": "(Посмотрите на акции...)",
       "status": "machine",
-      "srcHash": "e4794db216e4c137",
+      "srcHash": "54a8081ee036d1a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "9e4fa67f-5842-4fcd-a8db-1ec748169334/Option_2": {
       "en": "(Choose another Guild...)",
       "cn": "（另择商会……）",
       "ru": "(Выбери другую Гильдию...)",
       "status": "machine",
-      "srcHash": "5f52ad953c282cef",
+      "srcHash": "408f951b4e98d6d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "9e4fa67f-5842-4fcd-a8db-1ec748169334/Option_3": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "3d60d317-b76d-4d44-a6b9-01b15201237e/EventContent": {
       "en": "\"I'll pack these up for you, and you can take another look if you'd like...\"",
       "cn": "“我这便帮阁下打包，阁下还可再看看……”",
       "ru": "- Я упакую это для тебя, и ты сможешь взглянуть еще раз, если хочешь...",
       "status": "machine",
-      "srcHash": "7269f6ff1421747e",
+      "srcHash": "2fae1a3d771ebd9c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "3d60d317-b76d-4d44-a6b9-01b15201237e/Option_1": {
       "en": "(Continue choosing...)",
       "cn": "（继续挑选……）\n",
       "ru": "(Продолжайте выбирать...)",
       "status": "machine",
-      "srcHash": "54dba2dddb9f1297",
+      "srcHash": "e7328f82fd4931b5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "2c617840-5ba4-4f85-922b-e1c69edae436/EventContent": {
       "en": "Stepping out of the Storehouses of Oxback Caravan,<NL><Character key=RoleTaiwu str=Name /> sees that the sky has darkened, the gathering has dispersed, and the people have returned home, with lights twinkling in the distance...<NL><Character key=RoleTaiwu str=Name /> has gained quite a lot from the League so the journey is worthwhile...",
       "cn": "<Character key=RoleTaiwu str=Name />从服牛帮的仓库中走出，<NL>只见天色已晚，集会已散，万姓归家，灯火阑珊……<NL><Character key=RoleTaiwu str=Name />此次颇有所获，可谓不虚此行……",
       "ru": "Выходя из складов Каравана Oxback,<NL><Character key=RoleTaiwu str=Name /> видит, что небо потемнело, собрание разошлось, и люди вернулись домой, а вдалеке мерцают огни...<NL><Character key=RoleTaiwu str=Name /> он довольно много получил от Лиги, так что путешествие того стоит...",
       "status": "machine",
-      "srcHash": "5c54e354385221ff",
+      "srcHash": "0b108e3e209a01cf",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "2c617840-5ba4-4f85-922b-e1c69edae436/Option_1": {
       "en": "(Leave the Bazaar...)",
       "cn": "（离开集会……）\n",
       "ru": "(Уходи с базара...)",
       "status": "machine",
-      "srcHash": "f3913941d4667512",
+      "srcHash": "ddd81471ecc0826d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "5d3d9dc4-a145-4b04-b2fc-54cf1a2cba06/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> heads to the location of Oxback Caravan...",
       "cn": "<Character key=RoleTaiwu str=Name />往服牛帮的所在之地走去……",
       "ru": "<Character key=RoleTaiwu str=Name /> направляется к месту расположения Каравана Oxback...",
       "status": "machine",
-      "srcHash": "a0ef0e9d82314b71",
+      "srcHash": "c16bf84a4c07ecf9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "5d3d9dc4-a145-4b04-b2fc-54cf1a2cba06/Option_1": {
       "en": "(Continue to stroll around in the bazaar...)",
       "cn": "（继续游逛集市……）\n",
       "ru": "(Продолжайте прогуливаться по базару...)",
       "status": "machine",
-      "srcHash": "92a97b6d72c45175",
+      "srcHash": "80b932a5c859e999",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "9162b5ad-87e7-4219-9eff-add77d075cc9/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> puts down the book and heads elsewhere...",
       "cn": "<Character key=RoleTaiwu str=Name />放下书籍，向别处走去……",
       "ru": "<Character key=RoleTaiwu str=Name /> откладывает книгу и направляется в другое место...",
       "status": "machine",
-      "srcHash": "08911f439092eb78",
+      "srcHash": "32399c7529802df1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "9162b5ad-87e7-4219-9eff-add77d075cc9/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "d3562d75037a15a0",
+      "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "f38e668f-a583-4f82-b109-cd0b36ca1755/EventContent": {
       "en": "\"There's a saying, 'Read ten thousand books, travel ten thousand miles.'<NL>The knowledge within books is vast and endless. Perhaps you would like to see if there are any books you need?\"",
       "cn": "“有道是‘读万卷书，行万里路’，<NL>书中学识浩瀚无穷，阁下不妨看看可有需要的书籍？”",
       "ru": "- Есть поговорка: \"Прочитай десять тысяч книг, проедь десять тысяч миль\".<NL>Знания, содержащиеся в книгах, обширны и бесконечны. Возможно, вы хотели бы посмотреть, нет ли здесь каких-нибудь нужных вам книг?\"",
       "status": "machine",
-      "srcHash": "72ad07576e4a4e6b",
+      "srcHash": "2a8279a7cdc986e8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "f38e668f-a583-4f82-b109-cd0b36ca1755/Option_1": {
       "en": "(Look at the stock of the caravan...)",
       "cn": "（浏览商队的货物……）",
       "ru": "(Посмотрите на запасы Каравана...)",
       "status": "machine",
-      "srcHash": "733e7a253914bbc7",
+      "srcHash": "7acf6ece51252181",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "f38e668f-a583-4f82-b109-cd0b36ca1755/Option_2": {
       "en": "(Leave...)",
       "cn": "（离开……）\n",
       "ru": "(Уходи...)",
       "status": "machine",
-      "srcHash": "64903caddccd271f",
+      "srcHash": "2c1c70fb2e7a92fe",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "5a1babe9-7ae8-43d1-8626-e2ccf180374a/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "654b3641c39dd731",
+      "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "3c3743fc-57db-43c6-b3ad-482940802af9/EventContent": {
       "en": "As <Character key=RoleTaiwu str=Name /> walks on, suddenly a wave of heat rushes over.<NL>Looking ahead, <Character key=RoleTaiwu str=GenderSubject/> sees a blacksmith shirtless, hammering weapons by the forge.<NL>On the other side of the table are various sharp blades and weapons displayed, while a merchant from Champion's Armaments is calling out his sales...",
       "cn": "<Character key=RoleTaiwu str=Name />走着走着，忽感一阵热浪涌来，<NL>往前看去，只见一名铁匠袒胸赤膊，正在火炉旁敲打兵器，<NL>另一侧的桌案上摆放着各式尖兵利刃，一名大武魁商号的商人正在叫卖……",
       "ru": "Как <Character key=RoleTaiwu str=Name /> идет дальше, и вдруг его окатывает волна жара.<NL>Заглядывая в будущее, <Character key=RoleTaiwu str=GenderSubject/> видит кузнеца без рубашки, кующего оружие у горна.<NL>На другой стороне стола выставлены различные острые клинки и оружие, в то время как Торговец из Champion's Armaments объявляет о своих продажах...",
       "status": "machine",
-      "srcHash": "af7910564b544c22",
+      "srcHash": "6b2a5ed07f28f3ab",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "3c3743fc-57db-43c6-b3ad-482940802af9/Option_1": {
       "en": "(Look at the stock...)",
       "cn": "（浏览货物……）",
       "ru": "(Посмотрите на акции...)",
       "status": "machine",
-      "srcHash": "e4794db216e4c137",
+      "srcHash": "54a8081ee036d1a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "3c3743fc-57db-43c6-b3ad-482940802af9/Option_2": {
       "en": "(Choose another Guild...)",
       "cn": "（另择商会……）",
       "ru": "(Выбери другую Гильдию...)",
       "status": "machine",
-      "srcHash": "5f52ad953c282cef",
+      "srcHash": "408f951b4e98d6d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "3c3743fc-57db-43c6-b3ad-482940802af9/Option_3": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "a0fc51f5-96fb-4be3-80c9-45eff5429f4b/EventContent": {
       "en": "\"Today, our shop is offering discounts.<NL>Perhaps you'd like to pick out a few more items. You might not come across such treasures again...\"",
       "cn": "“今日本店打折，<NL>阁下可再挑选挑选，或许沧海遗珠难再得……”",
       "ru": "\"Сегодня наш магазин предлагает скидки.<NL>Возможно, вы хотели бы выбрать еще несколько предметов. Возможно, вы больше не встретите таких сокровищ...\"",
       "status": "machine",
-      "srcHash": "3659cba5dcf30641",
+      "srcHash": "81e63b135e87f029",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "a0fc51f5-96fb-4be3-80c9-45eff5429f4b/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "d3562d75037a15a0",
+      "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "416a2a37-1fc4-4280-86ec-810127075825/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "654b3641c39dd731",
+      "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "9763b8eb-656f-4c5a-8385-22d1743bec93/EventContent": {
       "en": "\"Ding... ding...\" A few bells ring by the roadside.<NL>As <Character key=RoleTaiwu str=Name /> is walking, <Character key=RoleTaiwu str=GenderSubject/> sees several dusty and weary-looking merchants hurrying along with a team of mules.<NL>The leading mule has bells hanging around its neck, jingling as it shakes its head proudly...<NL><NL>It seems that a merchant group from Oxback Caravan is passing by...",
       "cn": "“叮……叮当……”路旁传来几声铃铛声响，<NL><Character key=RoleTaiwu str=Name />走到此处，只见有几名商人风尘仆仆，正赶着一队骡子前行，<NL>其中为首的骡子脖上挂着铃铛，正摇头晃脑，好不神气……<NL><NL>看来是服牛帮的商队正在驶过……",
       "ru": "- Динь... динь...\" На обочине звенят несколько колокольчиков.<NL>Как <Character key=RoleTaiwu str=Name /> идет пешком, <Character key=RoleTaiwu str=GenderSubject/> видит нескольких запыленных и усталых на вид Торговцев, спешащих с упряжкой мулов.<NL>У ведущего мула на шее висят колокольчики, которые позвякивают, когда он гордо качает головой...<NL><NL>Кажется, мимо проходит группа Торговцев из Оксбекского Каравана...",
       "status": "machine",
-      "srcHash": "c935f289da3644d2",
+      "srcHash": "9819a54408b825c3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "9763b8eb-656f-4c5a-8385-22d1743bec93/Option_1": {
       "en": "(Approach...)",
       "cn": "（走上前去……）",
       "ru": "(Приближается...)",
       "status": "machine",
-      "srcHash": "feac88fc550e95f5",
+      "srcHash": "87eb00eb2f9d0e7b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "9763b8eb-656f-4c5a-8385-22d1743bec93/Option_2": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "f0dad5730ef8624d",
+      "srcHash": "95ea2f7d0ab191c8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "712a36e7-d3ca-4fd1-93fc-78cc7d3b6382/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> heads to the location of Gongshu's Caravan...",
       "cn": "<Character key=RoleTaiwu str=Name />往公输坊的所在之地走去……",
       "ru": "<Character key=RoleTaiwu str=Name /> направляется к месту нахождения Каравана Гуншу...",
       "status": "machine",
-      "srcHash": "16dbae3e70698510",
+      "srcHash": "39ff6ba2482ea048",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "712a36e7-d3ca-4fd1-93fc-78cc7d3b6382/Option_1": {
       "en": "(Continue to stroll around in the bazaar...)",
       "cn": "（继续游逛集市……）\n",
       "ru": "(Продолжайте прогуливаться по базару...)",
       "status": "machine",
-      "srcHash": "92a97b6d72c45175",
+      "srcHash": "80b932a5c859e999",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "fbf05415-1b57-4779-980e-46315084e0b5/EventContent": {
       "en": "{0}<NL><NL>For a while, merchants gather and goods abound, it seems one could never finish strolling down the place or buying.<NL>It is indeed a lively scene...",
       "cn": "{0}<NL><NL>一时间，商贾云集，百货汇聚，似是逛也逛不尽，买也买不完，<NL>好一派热闹景象……",
       "ru": "{0}<NL><NL>Какое-то время собираются Торговцы, товаров предостаточно, кажется, что никогда не закончишь прогуливаться по этому месту или делать покупки.<NL>Это действительно оживленная сцена...",
       "status": "machine",
-      "srcHash": "54b58db46a41c1af",
+      "srcHash": "81a834859eebc641",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "fbf05415-1b57-4779-980e-46315084e0b5/Option_1": {
       "en": "(Enter the <ArgBox key=AdventureName type=string/>...）",
       "cn": "（进入<ArgBox key=AdventureName type=string/>……）\n",
       "ru": "(Войдите в <ArgBox key=AdventureName type=string/>...）",
       "status": "machine",
-      "srcHash": "2eaf3442f3c0390f",
+      "srcHash": "707d058e31f2bb69",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "fb4ec798-ff3e-42e7-a40a-6c4767dd6c8d/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> puts down the goods and heads elsewhere...",
       "cn": "<Character key=RoleTaiwu str=Name />放下货物，向别处走去……",
       "ru": "<Character key=RoleTaiwu str=Name /> складывает товар и направляется в другое место...",
       "status": "machine",
-      "srcHash": "55eeed63a73b0a1e",
+      "srcHash": "30977eee6f7f62d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "fb4ec798-ff3e-42e7-a40a-6c4767dd6c8d/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "d3562d75037a15a0",
+      "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "29e14a50-8953-4193-bd51-7065fe86d113/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> instead heads to the location of Vault of Volumes...",
       "cn": "<Character key=RoleTaiwu str=Name />转而向文山书海阁的所在之地走去……",
       "ru": "<Character key=RoleTaiwu str=Name /> вместо этого направляйтесь к хранилищу томов...",
       "status": "machine",
-      "srcHash": "132c1cf42b3e9be3",
+      "srcHash": "abe9cd2dbcf8d1dd",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "29e14a50-8953-4193-bd51-7065fe86d113/Option_1": {
       "en": "(Move forward...)",
       "cn": "（继续前行……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "95163e6f-1d21-47a2-b5ee-73b5a8e5aa1e/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> heads to the location of Yangtze Merchant League...",
       "cn": "<Character key=RoleTaiwu str=Name />往五湖商会的所在之地走去……",
       "ru": "<Character key=RoleTaiwu str=Name /> направляется к месту расположения Лиги Торговцев Янцзы...",
       "status": "machine",
-      "srcHash": "ac6b1dc4a8c8e41e",
+      "srcHash": "b08829f8b24772e9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "95163e6f-1d21-47a2-b5ee-73b5a8e5aa1e/Option_1": {
       "en": "(Continue to stroll around in the bazaar...)",
       "cn": "（继续游逛集市……）\n",
       "ru": "(Продолжайте прогуливаться по базару...)",
       "status": "machine",
-      "srcHash": "92a97b6d72c45175",
+      "srcHash": "80b932a5c859e999",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "945797f8-bedc-4a2b-a450-c79abb8999bc/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> puts down the goods and heads elsewhere...",
       "cn": "<Character key=RoleTaiwu str=Name />放下货物，向别处走去……",
       "ru": "<Character key=RoleTaiwu str=Name /> складывает товар и направляется в другое место...",
       "status": "machine",
-      "srcHash": "55eeed63a73b0a1e",
+      "srcHash": "30977eee6f7f62d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "945797f8-bedc-4a2b-a450-c79abb8999bc/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "d3562d75037a15a0",
+      "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "e1e3bbfe-d086-4d14-a1c2-e653b7111293/EventContent": {
       "en": "\"Since you are a Successor of Taiwu if you have any needs, we're here to assist you...<NL>Our guild still has many more weapons. If you're willing to take a look at them, perhaps you can find a suitable weapon...\"",
       "cn": "“阁下既身为‘太吾传人’，若有所需，我等自当助力……<NL>本商会尚有许多藏兵，阁下若愿移步一观，或许能找到称手的兵刃……”",
       "ru": "\"Поскольку вы являетесь Преемником Тайву, если у вас возникнут какие-либо потребности, мы здесь, чтобы помочь вам...<NL>У нашей Гильдии все еще есть гораздо больше Оружия. Если вы захотите взглянуть на них, возможно, вам удастся найти подходящее Оружие...\"",
       "status": "machine",
-      "srcHash": "1c26d3b5016b216c",
+      "srcHash": "8900dad9db70e37f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "e1e3bbfe-d086-4d14-a1c2-e653b7111293/Option_1": {
       "en": "(Go to take a look...)",
       "cn": "（愿随前往……）",
       "ru": "(Идите, чтобы взглянуть...)",
       "status": "machine",
-      "srcHash": "5f416168fcf975fd",
+      "srcHash": "acb92ebb0f228c03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "e1e3bbfe-d086-4d14-a1c2-e653b7111293/Option_2": {
       "en": "(Refuse to go...)",
       "cn": "（拒绝前往……）\n",
       "ru": "(Отказываюсь идти...)",
       "status": "machine",
-      "srcHash": "80697908019ba1b3",
+      "srcHash": "bee25fd8ec379b27",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "cc97169d-fadf-4064-a838-b63b0f3c07d5/EventContent": {
       "en": "\"Very well, I shall trouble you no further...\"<NL>The merchant from Champion's Armaments gives a fist-and-palm salute once more, then turns around and departs...",
       "cn": "“既如此，我便不再叨扰阁下……”<NL>那名大武魁商号的商人又拱手施了一礼，随后便转身离去……",
       "ru": "\"Очень хорошо, я больше не буду вас беспокоить...\"<NL>Торговец из Champion's Armaments еще раз отдает честь кулаком и ладонью вверх, затем разворачивается и уходит...",
       "status": "machine",
-      "srcHash": "ddb5e94d5e0849a0",
+      "srcHash": "5ffb1f00e5ba2197",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "cc97169d-fadf-4064-a838-b63b0f3c07d5/Option_1": {
       "en": "(Go to other Guilds...)",
       "cn": "（前往其它商会……）",
       "ru": "(Переходите в другие Гильдии...)",
       "status": "machine",
-      "srcHash": "346aff174e046c32",
+      "srcHash": "df6420266d4e869d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "cc97169d-fadf-4064-a838-b63b0f3c07d5/Option_2": {
       "en": "(Head back to the previous places...)",
       "cn": "（回头重新逛逛……）",
       "ru": "(Возвращайтесь к предыдущим местам...)",
       "status": "machine",
-      "srcHash": "e0edbaabbbb22094",
+      "srcHash": "d180bd45a1377c39",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "cc97169d-fadf-4064-a838-b63b0f3c07d5/Option_3": {
       "en": "(Leave the Spring Bazaar...)",
       "cn": "（离开<ArgBox key=AdventureName type=string/>……）\n",
       "ru": "(Покиньте Весенний базар...)",
       "status": "machine",
-      "srcHash": "660bf2909af2f5af",
+      "srcHash": "b7fe4570256fb0d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "a8df3bb5-a85c-4691-a7ee-162e29249551/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "654b3641c39dd731",
+      "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "cc0b5ade-fb5e-4cea-80c5-e0aa73a240b0/EventContent": {
       "en": "\"Very well, I shall trouble you no further...\"<NL>The merchant from Vault of Volumes gives a fist-and-palm salute once more, then turns around and departs...",
       "cn": "“既如此，我便不再叨扰阁下……”<NL>那名文山书海阁的商人又拱手施了一礼，随后便转身离去……",
       "ru": "\"Очень хорошо, я больше не буду вас беспокоить...\"<NL>Торговец из \"Хранилища томов\" еще раз отдает честь кулаком и ладонью вверх, затем разворачивается и уходит...",
       "status": "machine",
-      "srcHash": "fd762412a4269478",
+      "srcHash": "1252bb6328bae607",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "cc0b5ade-fb5e-4cea-80c5-e0aa73a240b0/Option_1": {
       "en": "(Go to other Guilds...)",
       "cn": "（前往其它商会……）",
       "ru": "(Переходите в другие Гильдии...)",
       "status": "machine",
-      "srcHash": "346aff174e046c32",
+      "srcHash": "df6420266d4e869d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "cc0b5ade-fb5e-4cea-80c5-e0aa73a240b0/Option_2": {
       "en": "(Head back to the previous places...)",
       "cn": "（回头重新逛逛……）",
       "ru": "(Возвращайтесь к предыдущим местам...)",
       "status": "machine",
-      "srcHash": "e0edbaabbbb22094",
+      "srcHash": "d180bd45a1377c39",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "cc0b5ade-fb5e-4cea-80c5-e0aa73a240b0/Option_3": {
       "en": "(Leave the Spring Bazaar...)",
       "cn": "（离开<ArgBox key=AdventureName type=string/>……）\n",
       "ru": "(Покиньте Весенний базар...)",
       "status": "machine",
-      "srcHash": "660bf2909af2f5af",
+      "srcHash": "b7fe4570256fb0d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "12084050-a6cb-4fc7-b0b9-dcbb5d58357f/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> instead heads to the location of Oxback Caravan...",
       "cn": "<Character key=RoleTaiwu str=Name />转而向服牛帮的所在之地走去……",
       "ru": "<Character key=RoleTaiwu str=Name /> вместо этого направляется к месту расположения Каравана Oxback...",
       "status": "machine",
-      "srcHash": "cf661d6290080080",
+      "srcHash": "8652377fe59f78bb",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "12084050-a6cb-4fc7-b0b9-dcbb5d58357f/Option_1": {
       "en": "(Move forward...)",
       "cn": "（继续前行……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "76cc9662-5725-4345-a2f2-e24207b3a14a/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> heads to the location of Pavilion of Wonders...",
       "cn": "<Character key=RoleTaiwu str=Name />往奇货斋的所在之地走去……",
       "ru": "<Character key=RoleTaiwu str=Name /> направляется к месту расположения Павильона чудес...",
       "status": "machine",
-      "srcHash": "53943effd99ac38f",
+      "srcHash": "3f0ed92ec33a2147",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "76cc9662-5725-4345-a2f2-e24207b3a14a/Option_1": {
       "en": "(Continue to stroll around in the bazaar...)",
       "cn": "（继续游逛集市……）\n",
       "ru": "(Продолжайте прогуливаться по базару...)",
       "status": "machine",
-      "srcHash": "92a97b6d72c45175",
+      "srcHash": "80b932a5c859e999",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "8d47b7de-fc35-4b2a-a6a8-65c5d8520a8b/EventContent": {
       "en": "\"Today we offer discounts on books,<NL>so I'm returning the <ArgBox key=MoneyBack type=int/> extra Silver to you...\"",
       "cn": "“今日本店书籍打折，<NL>因此这多出的<ArgBox key=MoneyBack type=int/>银钱就还予阁下……”",
       "ru": "\"Сегодня мы предлагаем скидки на книги,<NL>так что я возвращаю <ArgBox key=MoneyBack type=int/> дополнительное серебро тебе...\"",
       "status": "machine",
-      "srcHash": "13eea644faf2a5f2",
+      "srcHash": "a45b14c816aed5b9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "8d47b7de-fc35-4b2a-a6a8-65c5d8520a8b/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "2e551b3b42e6c023",
+      "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "ba5587f2-bb7c-4ebf-831b-85c3b53a1f44/EventContent": {
       "en": "\"Today we offer discounts to encourage all people to learn martial arts,<NL>so I'm returning the <ArgBox key=MoneyBack type=int/> extra Silver to you...\"",
       "cn": "“今日本店打折，以鼓励天下人习武，<NL>因此这多出的<ArgBox key=MoneyBack type=int/>银钱就还予阁下……”",
       "ru": "\"Сегодня мы предлагаем скидки, чтобы побудить всех людей изучать Боевые искусства,<NL>так что я возвращаю <ArgBox key=MoneyBack type=int/> дополнительное серебро тебе...\"",
       "status": "machine",
-      "srcHash": "d6aba76b19156a06",
+      "srcHash": "1077c4b30aca6806",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "ba5587f2-bb7c-4ebf-831b-85c3b53a1f44/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "2e551b3b42e6c023",
+      "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "3b1db5e7-90e4-45d5-bdd4-58e15c1dd1d9/EventContent": {
       "en": "Within the bizarre workshop,<NL>various mechanical structures, building materials, and tools are displayed.<NL>Many of these items are ingeniously designed, unlike anything <Character key=RoleTaiwu str=Name /> has seen before...<NL><NL><Character key=RoleTaiwu str=Name /> explores among them and finally discovers some items worth noting...",
       "cn": "奇异工坊之中，<NL>诸多机关构筑、建材和工具藏于其中，<NL>其中不少物品独具巧思，<Character key=RoleTaiwu str=Name />之前从未见过……<NL><NL><Character key=RoleTaiwu str=Name />在其中探索寻找，终于发现了一些值得注意的物品……",
       "ru": "В рамках причудливой мастерской,<NL>здесь представлены различные механические конструкции, строительные материалы и инструменты.<NL>Многие из этих предметов имеют оригинальный дизайн, не похожий ни на что другое <Character key=RoleTaiwu str=Name /> видел раньше...<NL><NL><Character key=RoleTaiwu str=Name /> исследует их и, наконец, обнаруживает несколько предметов, заслуживающих внимания...",
       "status": "machine",
-      "srcHash": "7a7013c6b135c36b",
+      "srcHash": "5b8ef79e6e37e9bb",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "3b1db5e7-90e4-45d5-bdd4-58e15c1dd1d9/Option_1": {
       "en": "(Choose from the items...)",
       "cn": "（挑选藏物……）",
       "ru": "(Выберите один из пунктов...)",
       "status": "machine",
-      "srcHash": "bf132cafe7866538",
+      "srcHash": "4d5551e3665e2838",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "3b1db5e7-90e4-45d5-bdd4-58e15c1dd1d9/Option_2": {
       "en": "(Keep searching...)",
       "cn": "（继续寻找……）\n",
       "ru": "(Продолжайте искать...)",
       "status": "machine",
-      "srcHash": "96b669aef3f3b9d5",
+      "srcHash": "22bae67af94e565c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "749b1748-78dc-4213-a7ae-0e926e48c7eb/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> instead heads to the location of Yangtze Merchant League...",
       "cn": "<Character key=RoleTaiwu str=Name />转而向五湖商会的所在之地走去……",
       "ru": "<Character key=RoleTaiwu str=Name /> вместо этого направляется в расположение Лиги Торговцев Янцзы...",
       "status": "machine",
-      "srcHash": "332a2c2de425febe",
+      "srcHash": "33862eb1eac20f1e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "749b1748-78dc-4213-a7ae-0e926e48c7eb/Option_1": {
       "en": "(Move forward...)",
       "cn": "（继续前行……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "c396f968-a6e1-408d-84c9-3b2b03182e76/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> puts down the goods and heads elsewhere...",
       "cn": "<Character key=RoleTaiwu str=Name />放下货物，向别处走去……",
       "ru": "<Character key=RoleTaiwu str=Name /> складывает товар и направляется в другое место...",
       "status": "machine",
-      "srcHash": "55eeed63a73b0a1e",
+      "srcHash": "30977eee6f7f62d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "c396f968-a6e1-408d-84c9-3b2b03182e76/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "d3562d75037a15a0",
+      "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "d5fa9e44-3c90-4747-b34f-1ad7392492dd/EventContent": {
       "en": "\"Today, in appreciation of our customers over the world, our store offers discounts on all goods.<NL>So I'm returning the <ArgBox key=MoneyBack type=int/> extra Silver to you...\"",
       "cn": "“今日本店回馈天下百姓，故而货品皆有打折，<NL>因此这多出的<ArgBox key=MoneyBack type=int/>银钱就还予阁下……”",
       "ru": "\"Сегодня, в знак признательности нашим покупателям по всему миру, наш магазин предлагает скидки на все товары.<NL>Так что я возвращаю <ArgBox key=MoneyBack type=int/> дополнительное серебро тебе...\"",
       "status": "machine",
-      "srcHash": "21e40af15446a883",
+      "srcHash": "4508ae9aaeed6787",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "d5fa9e44-3c90-4747-b34f-1ad7392492dd/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "2e551b3b42e6c023",
+      "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "f73b83ef-6166-4132-86ab-5985649a6cf9/EventContent": {
       "en": "At this moment, footsteps suddenly approach from 's behind.<NL><Character key=RoleTaiwu str=Name /> turns around and sees a few merchants dressed in finery walking toward <Character key=RoleTaiwu str=GenderObject/>, giving a fist-and-palm salute and saying,<NL>\"Your demeanor is truly extraordinary. We noticed earlier that you purchased many treasures from Pavilion of Wonders. You must be seeking something special.\"",
       "cn": "便在此时，忽然听得身后一阵脚步声，<NL><Character key=RoleTaiwu str=Name />转头看去，只见几名衣着华贵的商人走上前来，拱手说道：<NL>“阁下气度着实不凡，方才见阁下在我奇货斋中购买许多珍宝，想必在找寻什么奇物？”",
       "ru": "В этот момент сзади внезапно раздаются приближающиеся шаги.<NL><Character key=RoleTaiwu str=Name /> оборачивается и видит нескольких разодетых Торговцев, идущих навстречу <Character key=RoleTaiwu str=GenderObject/>, отдавая честь кулаком и ладонью и говоря,<NL>\"Ваше поведение действительно экстраординарно. Ранее мы заметили, что вы приобрели много сокровищ в Павильоне чудес. Вы, должно быть, ищете что-то особенное.\"",
       "status": "machine",
-      "srcHash": "c7734bd216e05bb8",
+      "srcHash": "e58f485ea04f7455",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "f73b83ef-6166-4132-86ab-5985649a6cf9/Option_1": {
       "en": "(I'm all ears...)",
       "cn": "（愿闻其详……）\n",
       "ru": "(Я весь внимание...)",
       "status": "machine",
-      "srcHash": "f515f4bc47908257",
+      "srcHash": "dc14db4c4951c19d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "feeb2e2c-a1d5-4c58-bf23-8e92a5f452e9/EventContent": {
       "en": "After walking to the end of the main street, it seems like has finished browsing through Champion's Armaments's shops...",
       "cn": "长街走至尽头，大武魁商号的商铺似乎已经逛完……",
       "ru": "Пройдя до конца главной улицы, он, похоже, закончил осмотр оружейных магазинов Champion's...",
       "status": "machine",
-      "srcHash": "fb7f1d4352bd0248",
+      "srcHash": "80b55a2102d61e1d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "feeb2e2c-a1d5-4c58-bf23-8e92a5f452e9/Option_1": {
       "en": "(Go to other Guilds...)",
       "cn": "（前往其它商会……）",
       "ru": "(Переходите в другие Гильдии...)",
       "status": "machine",
-      "srcHash": "346aff174e046c32",
+      "srcHash": "df6420266d4e869d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "feeb2e2c-a1d5-4c58-bf23-8e92a5f452e9/Option_2": {
       "en": "(Head back to the previous places...)",
       "cn": "（回头重新逛逛……）",
       "ru": "(Возвращайтесь к предыдущим местам...)",
       "status": "machine",
-      "srcHash": "e0edbaabbbb22094",
+      "srcHash": "d180bd45a1377c39",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "feeb2e2c-a1d5-4c58-bf23-8e92a5f452e9/Option_3": {
       "en": "(Leave the Spring Bazaar...)",
       "cn": "（离开<ArgBox key=AdventureName type=string/>……）\n",
       "ru": "(Покиньте Весенний базар...)",
       "status": "machine",
-      "srcHash": "660bf2909af2f5af",
+      "srcHash": "b7fe4570256fb0d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "4573f008-bd0d-4eb7-8532-d94b0caa05d0/EventContent": {
       "en": "\"If you still have needs, there are some other goods in the Oxback Caravan storehouse.<NL>Perhaps you'd like to take another look?\"",
       "cn": "“阁下若还有需要，服牛帮仓库中还有些其它货物，<NL>阁下不妨再去看看？”",
       "ru": "- Если у вас все еще есть потребности, на складе Каравана Oxback есть кое-какие другие товары.<NL>Может быть, вы хотели бы взглянуть еще раз?\"",
       "status": "machine",
-      "srcHash": "7f1e2cf8907fed86",
+      "srcHash": "eacc89d18b37d123",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "4573f008-bd0d-4eb7-8532-d94b0caa05d0/Option_1": {
       "en": "(Go to take a look...)",
       "cn": "（愿随前往……）",
       "ru": "(Идите, чтобы взглянуть...)",
       "status": "machine",
-      "srcHash": "5f416168fcf975fd",
+      "srcHash": "acb92ebb0f228c03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "4573f008-bd0d-4eb7-8532-d94b0caa05d0/Option_2": {
       "en": "(Refuse to go...)",
       "cn": "（拒绝前往……）\n",
       "ru": "(Отказываюсь идти...)",
       "status": "machine",
-      "srcHash": "80697908019ba1b3",
+      "srcHash": "bee25fd8ec379b27",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "68b22245-1012-4e5c-b2d4-a8a303095651/EventContent": {
       "en": "\"I'll make a note of this one. You may take a look at the others...\"",
       "cn": "“我这便记录在册，阁下再多看看？”",
       "ru": "\"Я возьму это на заметку. Вы можете взглянуть на остальные...\"",
       "status": "machine",
-      "srcHash": "01879b8b25cf6d98",
+      "srcHash": "cd091c1790b0d9f1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "68b22245-1012-4e5c-b2d4-a8a303095651/Option_1": {
       "en": "(Continue choosing...)",
       "cn": "（继续挑选……）\n",
       "ru": "(Продолжайте выбирать...)",
       "status": "machine",
-      "srcHash": "54dba2dddb9f1297",
+      "srcHash": "e7328f82fd4931b5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "9941c251-76ea-4606-8bc9-d1a8f92cbb23/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> passes by a shop that belongs to Pavilion of Wonders and notices that the store is adorned with brightly lit Chinese lanterns,<NL>illuminating various treasures. There are not many customers bustling about; instead, each individual is quietly admiring and selecting items...",
       "cn": "<Character key=RoleTaiwu str=Name />路过一家独具风格的奇货斋店铺，<NL>只见店中华灯熠熠，照耀着各式珍宝，往来顾客不多，各自静静地赏玩挑选……",
       "ru": "<Character key=RoleTaiwu str=Name /> проходит мимо магазина, принадлежащего Павильону чудес, и замечает, что магазин украшен ярко освещенными китайскими фонариками,<NL>освещая различные сокровища. Здесь не так много суетящихся покупателей; вместо этого каждый человек спокойно любуется товарами и выбирает их...",
       "status": "machine",
-      "srcHash": "c926fd3c72916646",
+      "srcHash": "6756c5f48536af98",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "9941c251-76ea-4606-8bc9-d1a8f92cbb23/Option_1": {
       "en": "(Look at the stock...)",
       "cn": "（浏览货物……）",
       "ru": "(Посмотрите на акции...)",
       "status": "machine",
-      "srcHash": "e4794db216e4c137",
+      "srcHash": "54a8081ee036d1a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "9941c251-76ea-4606-8bc9-d1a8f92cbb23/Option_2": {
       "en": "(Choose another Guild...)",
       "cn": "（另择商会……）",
       "ru": "(Выбери другую Гильдию...)",
       "status": "machine",
-      "srcHash": "5f52ad953c282cef",
+      "srcHash": "408f951b4e98d6d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "9941c251-76ea-4606-8bc9-d1a8f92cbb23/Option_3": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "e906523f-c908-4529-bc1b-837fb7b4f287/EventContent": {
       "en": "Which guild's shop do you want to visit?<NL><NL><color=#lightgrey>(There are quite a few pedestrians on the road, so it might take a while to get to other guilds. You can change your destination at most three times...)</color>",
       "cn": "要前往哪家商会的商铺？<NL><NL><color=#lightgrey>（路上行人较多，前往其它商会恐怕要花费不少时间，最多改变三次浏览的商会……）</color>",
       "ru": "Магазин какой Гильдии вы хотите посетить?<NL><NL><color=#lightgrey>(На дороге довольно много пешеходов, так что может потребоваться некоторое время, чтобы добраться до других Гильдий. Вы можете изменить пункт назначения самое большее три раза...)</color>",
       "status": "machine",
-      "srcHash": "554fa5cf64798de5",
+      "srcHash": "99233ff73353237e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "e906523f-c908-4529-bc1b-837fb7b4f287/Option_1": {
       "en": "(Head to Vault of Volumes...)",
       "cn": "（前往文山书海阁……）",
       "ru": "(Направляйтесь к хранилищу томов...)",
       "status": "machine",
-      "srcHash": "2ffd248235bdb0c6",
+      "srcHash": "9c85a618bc311e98",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "e906523f-c908-4529-bc1b-837fb7b4f287/Option_2": {
       "en": "(Head to Champion's Armaments...)",
       "cn": "（前往大武魁商号……）",
       "ru": "(Направляйтесь к оружию чемпиона...)",
       "status": "machine",
-      "srcHash": "6647db3dfe9e1414",
+      "srcHash": "4e70bfcaffea9a71",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "e906523f-c908-4529-bc1b-837fb7b4f287/Option_3": {
       "en": "(Head to Pavilion of Wondersn...)",
       "cn": "（前往奇货斋……）",
       "ru": "(Направляйтесь к Павильону чудес...)",
       "status": "machine",
-      "srcHash": "a5cb3e412ddb1810",
+      "srcHash": "1668140eba0cc542",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "e906523f-c908-4529-bc1b-837fb7b4f287/Option_4": {
       "en": "(Head to Gongshu's Caravan...)",
       "cn": "（前往公输坊……）",
       "ru": "(Направляйтесь к Каравану Гуншу...)",
       "status": "machine",
-      "srcHash": "4e5b695b48aa9ed0",
+      "srcHash": "32c4249698ec808a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "e906523f-c908-4529-bc1b-837fb7b4f287/Option_5": {
       "en": "(Head to Yangtze Merchant League...)",
       "cn": "（前往五湖商会……）  ",
       "ru": "(Отправляйтесь в Лигу Торговцев Янцзы...)",
       "status": "machine",
-      "srcHash": "b16ec2fcd34c019c",
+      "srcHash": "1add65b3305935d4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "e906523f-c908-4529-bc1b-837fb7b4f287/Option_6": {
       "en": "(Head to Oxback Caravan...)",
       "cn": "（前往服牛帮……）  ",
       "ru": "(Направляйтесь к Каравану Oxback...)",
       "status": "machine",
-      "srcHash": "bc567792b6aab099",
+      "srcHash": "5371335289334e50",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "e906523f-c908-4529-bc1b-837fb7b4f287/Option_7": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "f0dad5730ef8624d",
+      "srcHash": "95ea2f7d0ab191c8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "145b3879-3464-4680-a31b-41ecd59861a9/EventContent": {
       "en": "As <Character key=RoleTaiwu str=Name /> is walking,<NL><Character key=RoleTaiwu str=GenderSubject/> sees two columns of people escorting a convoy forward. The carts are laden with weapons and armaments.<NL>Due to the jostling of the carts and horses, the weapons occasionally collide, emitting a clangorous sound...<NL><NL>It seems that a caravan from Champion's Armaments is passing by...",
       "cn": "<Character key=RoleTaiwu str=Name />走到此处，<NL>只见前方有两列人马正护送着车队前进，车上满载着刀兵利器，<NL>因车马摇晃，兵器不时相互碰撞，发出铮铮之声……<NL><NL>看来是大武魁商号的商队正在驶过……",
       "ru": "Как <Character key=RoleTaiwu str=Name /> идет пешком,<NL><Character key=RoleTaiwu str=GenderSubject/> видит две колонны людей, сопровождающих колонну вперед. Повозки гружены оружием и снаряженной техникой.<NL>Из-за толкотни повозок и лошадей оружие иногда сталкивается, издавая лязгающий звук...<NL><NL>Кажется, что мимо проходит Караван с оружием Чемпиона...",
       "status": "machine",
-      "srcHash": "b1e68220c17c1aaf",
+      "srcHash": "57da94eb3afe9170",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "145b3879-3464-4680-a31b-41ecd59861a9/Option_1": {
       "en": "(Approach...)",
       "cn": "（走上前去……）",
       "ru": "(Приближается...)",
       "status": "machine",
-      "srcHash": "feac88fc550e95f5",
+      "srcHash": "87eb00eb2f9d0e7b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "145b3879-3464-4680-a31b-41ecd59861a9/Option_2": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "f0dad5730ef8624d",
+      "srcHash": "95ea2f7d0ab191c8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "fc23c8e3-41e3-4d03-8209-61a9a085ff7c/EventContent": {
       "en": "After walking to the end of the main street, it seems like has finished browsing through Pavilion of Wonders' shops...",
       "cn": "长街走至尽头，奇货斋的商铺似乎已经逛完……",
       "ru": "Пройдя до конца главной улицы, кажется, что он закончил осмотр магазинов \"Павильон чудес\"...",
       "status": "machine",
-      "srcHash": "6b3ec7bd48cf512a",
+      "srcHash": "f955346f2ba28ed0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "fc23c8e3-41e3-4d03-8209-61a9a085ff7c/Option_1": {
       "en": "(Go to other Guilds...)",
       "cn": "（前往其它商会……）",
       "ru": "(Переходите в другие Гильдии...)",
       "status": "machine",
-      "srcHash": "346aff174e046c32",
+      "srcHash": "df6420266d4e869d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "fc23c8e3-41e3-4d03-8209-61a9a085ff7c/Option_2": {
       "en": "(Head back to the previous places...)",
       "cn": "（回头重新逛逛……）",
       "ru": "(Возвращайтесь к предыдущим местам...)",
       "status": "machine",
-      "srcHash": "e0edbaabbbb22094",
+      "srcHash": "d180bd45a1377c39",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "fc23c8e3-41e3-4d03-8209-61a9a085ff7c/Option_3": {
       "en": "(Leave the Spring Bazaar...)",
       "cn": "（离开<ArgBox key=AdventureName type=string/>……）\n",
       "ru": "(Покиньте Весенний базар...)",
       "status": "machine",
-      "srcHash": "660bf2909af2f5af",
+      "srcHash": "b7fe4570256fb0d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "5109d612-e512-45e7-8a7d-adf52e97ca20/EventContent": {
       "en": "As the saying goes, \"In books, there are golden houses, in books, there are fair ladies like jade.\"<NL>As <Character key=RoleTaiwu str=Name /> is walking, <Character key=RoleTaiwu str=GenderSubject/> sees many literati and scholars are hurrying forward—<NL>ahead, several carts are laden with scrolls and bamboo slips...<NL><NL>It seems that a caravan from Vault of Volumes is passing by...",
       "cn": "所谓“书中自有黄金屋，书中自有颜如玉”，<NL><Character key=RoleTaiwu str=Name />走到此处，忽见许多文人墨客往前方追赶而去——<NL>只见前方的几辆车上，满载着书卷竹简……<NL><NL>看来是文山书海阁的商队正在驶过……",
       "ru": "Как говорится, \"В книгах есть золотые дома, в книгах есть прекрасные дамы, подобные Нефриту\".<NL>Как <Character key=RoleTaiwu str=Name /> идет пешком, <Character key=RoleTaiwu str=GenderSubject/> видит, что многие литераторы и ученые спешат вперед—<NL>впереди несколько тележек нагружены свитками и бамбуковыми листочками...<NL><NL>Кажется, что мимо проходит Караван из Хранилища томов...",
       "status": "machine",
-      "srcHash": "ae454faebf8b7fc9",
+      "srcHash": "bf2c7da8e42b7e51",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "5109d612-e512-45e7-8a7d-adf52e97ca20/Option_1": {
       "en": "(Approach...)",
       "cn": "（走上前去……）",
       "ru": "(Приближается...)",
       "status": "machine",
-      "srcHash": "feac88fc550e95f5",
+      "srcHash": "87eb00eb2f9d0e7b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "5109d612-e512-45e7-8a7d-adf52e97ca20/Option_2": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "f0dad5730ef8624d",
+      "srcHash": "95ea2f7d0ab191c8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "2a1c4f3d-faec-4e12-ba6a-fa92ca0e3bca/EventContent": {
       "en": "\"Our shop has some fresh vegetables, freshly cooked meals...<NL>Dear customer, you look weary from your travels. Why not take a rest, or perhaps purchase a mule to ride?\"",
       "cn": "“本店有些新鲜的蔬果、刚出锅的饭菜……<NL>客官风尘仆仆，不妨歇歇脚，或者买匹骡子代步呀……”",
       "ru": "\"В нашем магазине есть немного свежих овощей, свежеприготовленные блюда...<NL>Уважаемый клиент, вы выглядите усталым после своих путешествий. Почему бы вам не отдохнуть или, возможно, не купить мула для верховой езды?\"",
       "status": "machine",
-      "srcHash": "c0a8a78a584390a0",
+      "srcHash": "2f39b32fcfa339f1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "2a1c4f3d-faec-4e12-ba6a-fa92ca0e3bca/Option_1": {
       "en": "(Look at the stock of the caravan...)",
       "cn": "（浏览商队的货物……）",
       "ru": "(Посмотрите на запасы Каравана...)",
       "status": "machine",
-      "srcHash": "733e7a253914bbc7",
+      "srcHash": "7acf6ece51252181",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "2a1c4f3d-faec-4e12-ba6a-fa92ca0e3bca/Option_2": {
       "en": "(Leave...)",
       "cn": "（离开……）\n",
       "ru": "(Уходи...)",
       "status": "machine",
-      "srcHash": "64903caddccd271f",
+      "srcHash": "2c1c70fb2e7a92fe",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "b7017aa0-7306-428c-bed7-5aaa24251a36/EventContent": {
       "en": "Inside the Storehouse of Yangtze Merchant League,<NL>the goods are even more abundant than in the shops, making it difficult for one to see everything at once...<NL><NL>As <Character key=RoleTaiwu str=Name /> navigates among the goods, <Character key=RoleTaiwu str=GenderSubject/> finally comes across some noteworthy items...",
       "cn": "五湖商会的仓库之中，<NL>物产比店铺中更为丰富，一时倒是难以看遍……<NL><NL><Character key=RoleTaiwu str=Name />在货物之间穿行，终于发现了一些值得注意的货物……",
       "ru": "Внутри склада Лиги Торговцев Янцзы,<NL>товаров здесь даже больше, чем в магазинах, из-за чего трудно увидеть все сразу...<NL><NL>Как <Character key=RoleTaiwu str=Name /> ориентируется среди товаров, <Character key=RoleTaiwu str=GenderSubject/> наконец-то попадаются некоторые заслуживающие внимания предметы...",
       "status": "machine",
-      "srcHash": "eb4a60b59fe8e878",
+      "srcHash": "dc32b24f31a71e63",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "b7017aa0-7306-428c-bed7-5aaa24251a36/Option_1": {
       "en": "(Choose an item...)",
       "cn": "（挑选货物……）",
       "ru": "(Выберите элемент...)",
       "status": "machine",
-      "srcHash": "d092b92fa5d4fa78",
+      "srcHash": "a5bd63656bd444cf",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "b7017aa0-7306-428c-bed7-5aaa24251a36/Option_2": {
       "en": "(Keep searching...)",
       "cn": "（继续寻找……）\n",
       "ru": "(Продолжайте искать...)",
       "status": "machine",
-      "srcHash": "96b669aef3f3b9d5",
+      "srcHash": "22bae67af94e565c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "179733eb-46c0-4623-bf14-7277d56dea6a/EventContent": {
       "en": "\"Very well, I shall trouble you no further...\"<NL>The merchant from Yangtze Merchant League gives a fist-and-palm salute once more, then turns around and departs...",
       "cn": "“既如此，我便不再叨扰阁下……”<NL>那名五湖商会的商人又拱手施了一礼，随后便转身离去……",
       "ru": "\"Очень хорошо, я больше не буду вас беспокоить...\"<NL>Торговец из Лиги Торговцев Янцзы еще раз отдает честь кулаком и ладонью вверх, затем разворачивается и уходит...",
       "status": "machine",
-      "srcHash": "ff7189169ec81a31",
+      "srcHash": "0241e358337a5a13",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "179733eb-46c0-4623-bf14-7277d56dea6a/Option_1": {
       "en": "(Go to other Guilds...)",
       "cn": "（前往其它商会……）",
       "ru": "(Переходите в другие Гильдии...)",
       "status": "machine",
-      "srcHash": "346aff174e046c32",
+      "srcHash": "df6420266d4e869d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "179733eb-46c0-4623-bf14-7277d56dea6a/Option_2": {
       "en": "(Head back to the previous places...)",
       "cn": "（回头重新逛逛……）",
       "ru": "(Возвращайтесь к предыдущим местам...)",
       "status": "machine",
-      "srcHash": "e0edbaabbbb22094",
+      "srcHash": "d180bd45a1377c39",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "179733eb-46c0-4623-bf14-7277d56dea6a/Option_3": {
       "en": "(Leave the Spring Bazaar...)",
       "cn": "（离开<ArgBox key=AdventureName type=string/>……）\n",
       "ru": "(Покиньте Весенний базар...)",
       "status": "machine",
-      "srcHash": "660bf2909af2f5af",
+      "srcHash": "b7fe4570256fb0d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "51cae38f-41e7-4788-8982-7e766184c908/EventContent": {
       "en": "After walking to the end of the main street, it seems like has finished browsing through Champion's Armaments's shops...",
       "cn": "长街走至尽头，大武魁商号的商铺似乎已经逛完……",
       "ru": "Пройдя до конца главной улицы, он, похоже, закончил осмотр оружейных магазинов Champion's...",
       "status": "machine",
-      "srcHash": "fb7f1d4352bd0248",
+      "srcHash": "80b55a2102d61e1d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "51cae38f-41e7-4788-8982-7e766184c908/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "d3562d75037a15a0",
+      "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "c5469ce4-c01a-42e1-b49a-facd52d417b8/EventContent": {
       "en": "\"One should wander through the world to exchange for goods from all over the world...\"<NL>As <Character key=RoleTaiwu str=Name /> is walking, <Character key=RoleTaiwu str=GenderSubject/> sees ahead a shop that belongs to Yangtze Merchant League.<NL>It is stocked with all kinds of goods like fish, rice, oil, salt, rattan, wood, cloth, and stone. People are bustling around, picking and choosing goods, creating a lively scene...",
       "cn": "“走遍五湖游四海，换得天下物产来……”<NL><Character key=RoleTaiwu str=Name />走到此处，只见前方是一家五湖商会的商铺，<NL>其中鱼米油盐、藤木布石等各类物产应有尽有，百姓于其间挑挑拣拣，好不热闹……",
       "ru": "\"Человек должен странствовать по миру, чтобы обмениваться товарами со всего мира...\"<NL>Как <Character key=RoleTaiwu str=Name /> идет пешком, <Character key=RoleTaiwu str=GenderSubject/> видит впереди магазин, принадлежащий Лиге Торговцев Янцзы.<NL>Здесь есть все виды товаров, таких как рыба, рис, масло, соль, ротанг, дерево, ткань и камень. Люди суетятся вокруг, выбирая товары, создавая оживленную обстановку...",
       "status": "machine",
-      "srcHash": "2467a75135deea86",
+      "srcHash": "169b165eed0ee6b3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "c5469ce4-c01a-42e1-b49a-facd52d417b8/Option_1": {
       "en": "(Look at the stock...)",
       "cn": "（浏览货物……）",
       "ru": "(Посмотрите на акции...)",
       "status": "machine",
-      "srcHash": "e4794db216e4c137",
+      "srcHash": "54a8081ee036d1a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "c5469ce4-c01a-42e1-b49a-facd52d417b8/Option_2": {
       "en": "(Choose another Guild...)",
       "cn": "（另择商会……）",
       "ru": "(Выбери другую Гильдию...)",
       "status": "machine",
-      "srcHash": "5f52ad953c282cef",
+      "srcHash": "408f951b4e98d6d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "c5469ce4-c01a-42e1-b49a-facd52d417b8/Option_3": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "825862c5-75c5-4f97-8fe3-594d2b545219/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "654b3641c39dd731",
+      "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "5e3479ca-43c5-4eba-a9cb-f3780807f4bc/EventContent": {
       "en": "Among the shops of Oxback Caravan, there is a constant flow of people, mostly common folk, bustling about.<NL>Inside the shops, a few people are dressed modestly, serving customers while also busy with their tasks at hand...",
       "cn": "服牛帮的商铺之间，来往百姓极多，<NL>商铺中人也大多布衣箪食，一边招待顾客，一面忙着手中的活计……",
       "ru": "Среди магазинов Оксбекского Каравана постоянно суетится поток людей, в основном простых людей.<NL>Внутри магазинов несколько скромно одетых людей обслуживают покупателей, одновременно занимаясь своими текущими делами...",
       "status": "machine",
-      "srcHash": "b2acce3f0aa7e9fc",
+      "srcHash": "49ff9dfb4710712e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "5e3479ca-43c5-4eba-a9cb-f3780807f4bc/Option_1": {
       "en": "(Look at the stock...)",
       "cn": "（浏览货物……）",
       "ru": "(Посмотрите на акции...)",
       "status": "machine",
-      "srcHash": "e4794db216e4c137",
+      "srcHash": "54a8081ee036d1a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "5e3479ca-43c5-4eba-a9cb-f3780807f4bc/Option_2": {
       "en": "(Choose another Guild...)",
       "cn": "（另择商会……）",
       "ru": "(Выбери другую Гильдию...)",
       "status": "machine",
-      "srcHash": "5f52ad953c282cef",
+      "srcHash": "408f951b4e98d6d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "5e3479ca-43c5-4eba-a9cb-f3780807f4bc/Option_3": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "c95fd3b4-2333-4428-a26d-aa108d8e219d/EventContent": {
       "en": "\"I'll make a note of this one. You may take another look...\"",
       "cn": "“我这便记录在册，阁下还可再看看……”",
       "ru": "\"Я возьму это на заметку. Можете взглянуть еще раз...\"",
       "status": "machine",
-      "srcHash": "d0b27cb8bd8d38c6",
+      "srcHash": "2aa2952967766e42",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "c95fd3b4-2333-4428-a26d-aa108d8e219d/Option_1": {
       "en": "(Continue choosing...)",
       "cn": "（继续挑选……）\n",
       "ru": "(Продолжайте выбирать...)",
       "status": "machine",
-      "srcHash": "54dba2dddb9f1297",
+      "srcHash": "e7328f82fd4931b5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "c86dfdb2-c896-477c-9cb8-c48f635b5394/EventContent": {
       "en": "\"Okay, this way, please...\"",
       "cn": "“好，阁下这边请……”",
       "ru": "\"Хорошо, сюда, пожалуйста...\"",
       "status": "machine",
-      "srcHash": "eb5c58750a882dc8",
+      "srcHash": "425eff455d0fd718",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "c86dfdb2-c896-477c-9cb8-c48f635b5394/Option_1": {
       "en": "(Visit the place...)",
       "cn": "（前往一观……）\n",
       "ru": "(Посетите это место...)",
       "status": "machine",
-      "srcHash": "cc8d3114f42362f1",
+      "srcHash": "027945c5557cff03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "fa508ad9-0743-43c5-8642-a26e9aafcf55/EventContent": {
       "en": "As a gust of wind blows, and suddenly a rustling sound can be heard ahead.<NL>Following the sound, <Character key=RoleTaiwu str=Name /> sees a series of paintings displayed before <Character key=RoleTaiwu str=GenderPossessive/> eyes. The buildings depicted are ingeniously crafted and exquisitely detailed.<NL>It turns out to be a display of architectural drawings by Gongshu's Caravan...",
       "cn": "一阵风吹来，前方忽然传来“哗啦哗啦”的声响，<NL><Character key=RoleTaiwu str=Name />循声看去，只见幅幅图画展现于眼前，图上建筑巧夺天工，精妙无比，<NL>原是公输坊的商铺正在展览建筑图纸……",
       "ru": "Как дует порыв ветра, и внезапно впереди слышится шуршащий звук.<NL>Следуя за звуком, <Character key=RoleTaiwu str=Name /> видит серию картин, выставленных ранее <Character key=RoleTaiwu str=GenderPossessive/> глаза. Изображенные здания искусно выполнены и изысканно детализированы.<NL>Оказывается, это выставка архитектурных рисунков Каравана Гоншу...",
       "status": "machine",
-      "srcHash": "31fd4bb7fe6bf31f",
+      "srcHash": "17326967627630b7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "fa508ad9-0743-43c5-8642-a26e9aafcf55/Option_1": {
       "en": "(Look at the stock...)",
       "cn": "（浏览货物……）",
       "ru": "(Посмотрите на акции...)",
       "status": "machine",
-      "srcHash": "e4794db216e4c137",
+      "srcHash": "54a8081ee036d1a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "fa508ad9-0743-43c5-8642-a26e9aafcf55/Option_2": {
       "en": "(Choose another Guild...)",
       "cn": "（另择商会……）",
       "ru": "(Выбери другую Гильдию...)",
       "status": "machine",
-      "srcHash": "5f52ad953c282cef",
+      "srcHash": "408f951b4e98d6d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "fa508ad9-0743-43c5-8642-a26e9aafcf55/Option_3": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "d562738a-050c-44fd-a96a-7d7d4ad85db9/EventContent": {
       "en": "\"Since you understand this principle, you're a guest of Vault of Volumes...<NL>Therefore, if you don't mind, please follow me to the Forbidden Repository. Perhaps you might find the book you've been seeking for a long time...\"",
       "cn": "“阁下既明此理，便是我文山书海阁的嘉宾……<NL>因此，阁下若不弃，请随我去藏书区一览，或许有阁下所求已久的书也说不定……”",
       "ru": "\"Поскольку вы понимаете этот принцип, вы являетесь гостем Vault of Volumes...<NL>Поэтому, если вы не возражаете, пожалуйста, следуйте за мной в Запретное хранилище. Возможно, вам удастся найти книгу, которую вы так долго искали...\"",
       "status": "machine",
-      "srcHash": "d200371f43565433",
+      "srcHash": "2a2efe1650a0c263",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "d562738a-050c-44fd-a96a-7d7d4ad85db9/Option_1": {
       "en": "(Go to take a look...)",
       "cn": "（愿随前往……）",
       "ru": "(Идите, чтобы взглянуть...)",
       "status": "machine",
-      "srcHash": "5f416168fcf975fd",
+      "srcHash": "acb92ebb0f228c03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "d562738a-050c-44fd-a96a-7d7d4ad85db9/Option_2": {
       "en": "(Refuse to go...)",
       "cn": "（拒绝前往……）\n",
       "ru": "(Отказываюсь идти...)",
       "status": "machine",
-      "srcHash": "80697908019ba1b3",
+      "srcHash": "bee25fd8ec379b27",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "5ca1366e-7499-4b22-8bf9-de55288acf84/EventContent": {
       "en": "At this moment, footsteps suddenly approach from behind.<NL><Character key=RoleTaiwu str=Name /> turns around and sees a few unusually attired merchants walking toward <Character key=RoleTaiwu str=GenderObject/>, giving a fist-and-palm salute and saying,<NL>\"The way of construction should prioritize the people, with broad knowledge and steadfast practice...<NL>We noticed earlier that you purchased many construction materials from Gongshu's Caravan. You must also be interested in this 'way'...\"",
       "cn": "便在此时，忽然听得身后一阵脚步声，<NL><Character key=RoleTaiwu str=Name />转头看去，只见几名衣着奇异的商人走上前来，拱手说道：<NL>“建构之道，当以民为本，广闻而笃行……<NL>阁下先前在我公输坊中购买了许多建材，想必对此道亦有兴趣……”",
       "ru": "В этот момент сзади внезапно раздаются приближающиеся шаги.<NL><Character key=RoleTaiwu str=Name /> оборачивается и видит нескольких необычно одетых Торговцев, идущих навстречу <Character key=RoleTaiwu str=GenderObject/>, отдавая честь кулаком и ладонью и говоря,<NL>\"Способ строительства должен отдавать приоритет людям, обладающим широкими знаниями и устойчивой практикой...<NL>Ранее мы заметили, что вы приобрели много строительных материалов в Караване Гуншу. Вас, должно быть, тоже интересует этот \"способ\"...\"",
       "status": "machine",
-      "srcHash": "0ebfab20319d4251",
+      "srcHash": "474153d9ff3097de",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "5ca1366e-7499-4b22-8bf9-de55288acf84/Option_1": {
       "en": "(I'm all ears...)",
       "cn": "（愿闻其详……）\n",
       "ru": "(Я весь внимание...)",
       "status": "machine",
-      "srcHash": "f515f4bc47908257",
+      "srcHash": "dc14db4c4951c19d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "614b6fe1-a4fd-4752-86ba-44f76ca26c50/EventContent": {
       "en": "At this moment, footsteps suddenly approach from <Character key=RoleTaiwu str=Name />'s behind.<NL><Character key=RoleTaiwu str=Name /> turns around and sees merchants dressed like warriors approaching, who fold their hands and say,<NL>\"We Champion's Armaments specializes in selling weapons to people all over the world. Since you purchased many weapons this time, you must be looking for some high-quality ones, I presume?\"",
       "cn": "便在此时，<Character key=RoleTaiwu str=Name />的身后忽然传来一阵脚步声，<NL><Character key=RoleTaiwu str=Name />转头看去，只见几名武人打扮的商人走上前来，拱手说道：<NL>“我大武魁商号乃为天下人售卖兵刃，阁下此番购买了许多兵器，想必在寻找上好的兵器？”",
       "ru": "В этот момент со стороны внезапно раздаются шаги <Character key=RoleTaiwu str=Name />это позади.<NL><Character key=RoleTaiwu str=Name /> оборачивается и видит приближающихся Торговцев, одетых как воины, которые складывают руки и говорят,<NL>\"Мы, Champion's Armaments, специализируемся на продаже оружия людям по всему миру. Поскольку на этот раз вы купили много оружия, вы, должно быть, ищете какое-нибудь высококачественное, я полагаю?\"",
       "status": "machine",
-      "srcHash": "5316ab2a65f297f3",
+      "srcHash": "4af6ba250f2bbf61",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "614b6fe1-a4fd-4752-86ba-44f76ca26c50/Option_1": {
       "en": "(I'm all ears...)",
       "cn": "（愿闻其详……）\n",
       "ru": "(Я весь внимание...)",
       "status": "machine",
-      "srcHash": "f515f4bc47908257",
+      "srcHash": "dc14db4c4951c19d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "52d8e3c8-0db3-4818-897c-d9a42548dc08/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> instead heads to the location of Pavilion of Wonders...",
       "cn": "<Character key=RoleTaiwu str=Name />转而向奇货斋的所在之地走去……",
       "ru": "<Character key=RoleTaiwu str=Name /> вместо этого направляйтесь к Павильону чудес...",
       "status": "machine",
-      "srcHash": "898b89bfc6dd0044",
+      "srcHash": "0fed9f0f2143ffd6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "52d8e3c8-0db3-4818-897c-d9a42548dc08/Option_1": {
       "en": "(Move forward...)",
       "cn": "（继续前行……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "b2118074-ba87-49d1-bf6a-40437b16bf1d/EventContent": {
       "en": "\"Very well, I shall trouble you no further...\"<NL>The merchant from Oxback Caravan gives a fist-and-palm salute once more, then turns around and departs...",
       "cn": "“既如此，我便不再叨扰阁下……”<NL>那名服牛帮的商人又拱手施了一礼，随后便转身离去……",
       "ru": "\"Очень хорошо, я больше не буду вас беспокоить...\"<NL>Торговец из Каравана \"Оксбэк\" еще раз отдает честь кулаком и ладонью вверх, затем разворачивается и уходит...",
       "status": "machine",
-      "srcHash": "c6c565e7551b6bce",
+      "srcHash": "00716235455910d3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "b2118074-ba87-49d1-bf6a-40437b16bf1d/Option_1": {
       "en": "(Go to other Guilds...)",
       "cn": "（前往其它商会……）",
       "ru": "(Переходите в другие Гильдии...)",
       "status": "machine",
-      "srcHash": "346aff174e046c32",
+      "srcHash": "df6420266d4e869d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "b2118074-ba87-49d1-bf6a-40437b16bf1d/Option_2": {
       "en": "(Head back to the previous places...)",
       "cn": "（回头重新逛逛……）",
       "ru": "(Возвращайтесь к предыдущим местам...)",
       "status": "machine",
-      "srcHash": "e0edbaabbbb22094",
+      "srcHash": "d180bd45a1377c39",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "b2118074-ba87-49d1-bf6a-40437b16bf1d/Option_3": {
       "en": "(Leave the Spring Bazaar...)",
       "cn": "（离开<ArgBox key=AdventureName type=string/>……）\n",
       "ru": "(Покиньте Весенний базар...)",
       "status": "machine",
-      "srcHash": "660bf2909af2f5af",
+      "srcHash": "b7fe4570256fb0d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "3230d41e-a0fe-49d4-a3aa-4e1147e08bdb/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "654b3641c39dd731",
+      "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "0f34e5ba-44ba-4de4-971e-bb1d1de508e0/EventContent": {
       "en": "After walking to the end of the main street, it seems like has finished browsing through Gongshu's Caravan's shops...",
       "cn": "长街走至尽头，公输坊的商铺似乎已经逛完……",
       "ru": "Пройдя до конца главной улицы, кажется, что он закончил осматривать магазины Каравана Гуншу...",
       "status": "machine",
-      "srcHash": "a238b23d3605fbd2",
+      "srcHash": "7f1a87dbba892228",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "0f34e5ba-44ba-4de4-971e-bb1d1de508e0/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "d3562d75037a15a0",
+      "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "9b609bae-9c4d-4afc-840b-02d4c18dcd6d/EventContent": {
       "en": "After walking to the end of the main street, it seems like has finished browsing through Yangtze Merchant League's shops...",
       "cn": "长街走至尽头，五湖商会的商铺似乎已经逛完……",
       "ru": "Пройдя до конца главной улицы, кажется, что он закончил осмотр магазинов Лиги Торговцев Янцзы...",
       "status": "machine",
-      "srcHash": "ab7b4fc948494758",
+      "srcHash": "2249dc1648cd105c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "9b609bae-9c4d-4afc-840b-02d4c18dcd6d/Option_1": {
       "en": "(Go to other Guilds...)",
       "cn": "（前往其它商会……）",
       "ru": "(Переходите в другие Гильдии...)",
       "status": "machine",
-      "srcHash": "346aff174e046c32",
+      "srcHash": "df6420266d4e869d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "9b609bae-9c4d-4afc-840b-02d4c18dcd6d/Option_2": {
       "en": "(Head back to the previous places...)",
       "cn": "（回头重新逛逛……）",
       "ru": "(Возвращайтесь к предыдущим местам...)",
       "status": "machine",
-      "srcHash": "e0edbaabbbb22094",
+      "srcHash": "d180bd45a1377c39",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "9b609bae-9c4d-4afc-840b-02d4c18dcd6d/Option_3": {
       "en": "(Leave the Spring Bazaar...)",
       "cn": "（离开<ArgBox key=AdventureName type=string/>……）\n",
       "ru": "(Покиньте Весенний базар...)",
       "status": "machine",
-      "srcHash": "660bf2909af2f5af",
+      "srcHash": "b7fe4570256fb0d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "f4124e3b-4c27-4308-a177-998107b76da7/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "654b3641c39dd731",
+      "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "cca87a1a-e29c-4bdc-8e0f-22aa32174ca3/EventContent": {
       "en": "\"Today we offer discounts to encourage all people to learn martial arts,<NL>you can talk a look and see if there is any weapon that suits you.\"",
       "cn": "“今日本店打折，以鼓励天下人习武，<NL>阁下可再看看是否有趁手的兵器？”",
       "ru": "\"Сегодня мы предлагаем скидки, чтобы побудить всех людей изучать Боевые искусства,<NL>вы можете поговорить и посмотреть, есть ли какое-нибудь Оружие, которое вам подходит.\"",
       "status": "machine",
-      "srcHash": "b575c977bb678d02",
+      "srcHash": "aa59fa610faec073",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "cca87a1a-e29c-4bdc-8e0f-22aa32174ca3/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "d3562d75037a15a0",
+      "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "d00a9df3-d48b-462b-855c-d2592c9d23da/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> puts down the weapons and heads elsewhere...",
       "cn": "<Character key=RoleTaiwu str=Name />放下藏兵，向别处走去……",
       "ru": "<Character key=RoleTaiwu str=Name /> складывает оружие и направляется в другое место...",
       "status": "machine",
-      "srcHash": "e273f60192c5df36",
+      "srcHash": "388dd9f2efe1319f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "d00a9df3-d48b-462b-855c-d2592c9d23da/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "d3562d75037a15a0",
+      "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "710a5cda-374c-4fe8-b769-ec783d1e22ed/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> passes by a shop that belongs to Gongshu's Caravan and notices<NL>that although the storefront is temporarily constructed, it is decorated meticulously, exuding a certain grandeur.<NL>Inside, various types of core materials are stored, intended to meet the construction needs of customers...",
       "cn": "<Character key=RoleTaiwu str=Name />路过一家属于公输坊的商铺，<NL>只见此处铺面虽乃临时搭成，但装饰考究，颇有气势，<NL>其中存放有种种心材，乃是为满足顾客营建所需……",
       "ru": "<Character key=RoleTaiwu str=Name /> проходит мимо магазина, принадлежащего Каравану Гоншу, и замечает<NL>что, хотя витрина магазина построена временно, она тщательно оформлена, излучая определенное величие.<NL>Внутри хранятся различные виды основных материалов, предназначенные для удовлетворения строительных потребностей заказчиков...",
       "status": "machine",
-      "srcHash": "1f8b455912912070",
+      "srcHash": "5d90ae76fb4803a5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "710a5cda-374c-4fe8-b769-ec783d1e22ed/Option_1": {
       "en": "(Look at the stock...)",
       "cn": "（浏览货物……）",
       "ru": "(Посмотрите на акции...)",
       "status": "machine",
-      "srcHash": "e4794db216e4c137",
+      "srcHash": "54a8081ee036d1a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "710a5cda-374c-4fe8-b769-ec783d1e22ed/Option_2": {
       "en": "(Choose another Guild...)",
       "cn": "（另择商会……）",
       "ru": "(Выбери другую Гильдию...)",
       "status": "machine",
-      "srcHash": "5f52ad953c282cef",
+      "srcHash": "408f951b4e98d6d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "710a5cda-374c-4fe8-b769-ec783d1e22ed/Option_3": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "c6295eb6-ddcf-4c72-a072-a9aaa257752e/EventContent": {
       "en": "Walking through the bustling marketplace,<NL><Character key=RoleTaiwu str=Name /> hears the constant clamor of people ahead.<NL>Looking in the direction of the noise, <Character key=RoleTaiwu str=Name /> sees a cart filled with various goods essential for the lives of the common folk.<NL><NL>It seemed to be a caravan fromYangtze Merchant League passing through...",
       "cn": "<Character key=RoleTaiwu str=Name />穿过熙熙攘攘的集市，<NL>远远听到前方百姓喧哗声不断，循声望去，<NL>只见前方牛车之上，载满了百姓生活所需的各类物品……<NL><NL>看来是五湖商会的商队正在驶过……",
       "ru": "Прогуливаясь по оживленному рынку,<NL><Character key=RoleTaiwu str=Name /> слышит постоянный шум людей впереди.<NL>Смотрю в ту сторону, откуда доносился шум, <Character key=RoleTaiwu str=Name /> видит тележку, наполненную различными товарами, необходимыми для жизни простого народа.<NL><NL>Похоже, это был проходящий мимо Караван из Лиги Торговцев Янцзы...",
       "status": "machine",
-      "srcHash": "fac724ddb9e9f790",
+      "srcHash": "e81cae84289f0148",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "c6295eb6-ddcf-4c72-a072-a9aaa257752e/Option_1": {
       "en": "(Approach...)",
       "cn": "（走上前去……）",
       "ru": "(Приближается...)",
       "status": "machine",
-      "srcHash": "feac88fc550e95f5",
+      "srcHash": "87eb00eb2f9d0e7b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "c6295eb6-ddcf-4c72-a072-a9aaa257752e/Option_2": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "f0dad5730ef8624d",
+      "srcHash": "95ea2f7d0ab191c8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "23560d81-2f12-40a2-97e2-5e73c7fe6f49/EventContent": {
       "en": "After walking to the end of the main street, it seems like has finished browsing through Pavilion of Wonders' shops...",
       "cn": "长街走至尽头，奇货斋的商铺似乎已经逛完……",
       "ru": "Пройдя до конца главной улицы, кажется, что он закончил осмотр магазинов \"Павильон чудес\"...",
       "status": "machine",
-      "srcHash": "6b3ec7bd48cf512a",
+      "srcHash": "f955346f2ba28ed0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "23560d81-2f12-40a2-97e2-5e73c7fe6f49/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "d3562d75037a15a0",
+      "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "fb2d1fd0-69b0-431c-ba97-d40592ca1085/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> passes by a shop that belongs to Gongshu's Caravan and notices a couplet affixed to the side of the door.<NL>The upper couplet reads \"Though made by human hands,\" while the lower couplet reads \"As if gifted by the heavens,\"<NL>metaphorically illustrating the art of construction as pursuing appropriateness and harmony.",
       "cn": "<Character key=RoleTaiwu str=Name />路过一家构筑精巧的公输坊的门店，<NL>见门侧贴有对联，上联书“虽由人作”，下联书“宛自天开”，<NL>比喻建构之道，在于得体合宜……",
       "ru": "<Character key=RoleTaiwu str=Name /> проходит мимо магазина, принадлежащего Каравану Гуншу, и замечает двустишие, прикрепленное сбоку от двери.<NL>Верхнее двустишие гласит: \"Как будто сделано человеческими руками\", в то время как нижнее двустишие гласит: \"Как будто подарено небесами\".<NL>метафорически иллюстрируя искусство строительства как стремление к уместности и гармонии.",
       "status": "machine",
-      "srcHash": "5a1307ddeba3806f",
+      "srcHash": "cc7bec389aa02ca2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "fb2d1fd0-69b0-431c-ba97-d40592ca1085/Option_1": {
       "en": "(Look at the stock...)",
       "cn": "（浏览货物……）",
       "ru": "(Посмотрите на акции...)",
       "status": "machine",
-      "srcHash": "e4794db216e4c137",
+      "srcHash": "54a8081ee036d1a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "fb2d1fd0-69b0-431c-ba97-d40592ca1085/Option_2": {
       "en": "(Choose another Guild...)",
       "cn": "（另择商会……）",
       "ru": "(Выбери другую Гильдию...)",
       "status": "machine",
-      "srcHash": "5f52ad953c282cef",
+      "srcHash": "408f951b4e98d6d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "fb2d1fd0-69b0-431c-ba97-d40592ca1085/Option_3": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "c48925fb-b2d5-4a63-bb06-5f1c468c33d0/EventContent": {
       "en": "This is a book stall from Vault of Volumes.<NL>Books are displayed on the stall for book lovers to page through and select as they please.",
       "cn": "此乃一处文山书海阁的书摊，<NL>书籍陈列于摊上，便于来往书客翻阅挑选……",
       "ru": "Это книжный киоск от Vault of Volumes.<NL>Книги выставлены на прилавке, чтобы любители книг могли пролистывать их и выбирать по своему усмотрению.",
       "status": "machine",
-      "srcHash": "9820169643b3ec1c",
+      "srcHash": "ae93e55c2c36ed50",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "c48925fb-b2d5-4a63-bb06-5f1c468c33d0/Option_1": {
       "en": "(Look at the stock...)",
       "cn": "（浏览货物……）",
       "ru": "(Посмотрите на акции...)",
       "status": "machine",
-      "srcHash": "e4794db216e4c137",
+      "srcHash": "54a8081ee036d1a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "c48925fb-b2d5-4a63-bb06-5f1c468c33d0/Option_2": {
       "en": "(Choose another Guild...)",
       "cn": "（另择商会……）",
       "ru": "(Выбери другую Гильдию...)",
       "status": "machine",
-      "srcHash": "5f52ad953c282cef",
+      "srcHash": "408f951b4e98d6d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "c48925fb-b2d5-4a63-bb06-5f1c468c33d0/Option_3": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "a134f5b4-d015-422f-9b85-737d211fff0e/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> arrives at the shop of Yangtze Merchant League<NL>and sees cloth hanging high, jade displayed before <Character key=RoleTaiwu str=GenderObject/>.<NL>Fresh Foodstuffs are placed on tables. Behind the shop, piles of wood and other materials are piled up like mountains, which are abundant and neatly organized...",
       "cn": "<Character key=RoleTaiwu str=Name />来到此处五湖商会的店铺，<NL>只见布匹悬挂于高处，玉石陈列于眼前，<NL>新鲜食材另置桌案，店后木材等物堆垒如山，物产丰富且井井有条……",
       "ru": "<Character key=RoleTaiwu str=Name /> прибывает в магазин Лиги Торговцев Янцзы<NL>и видит высоко висящую ткань, Нефрит, выставленный перед <Character key=RoleTaiwu str=GenderObject/>.<NL>На столах расставлены свежие продукты. За магазином, как горы, громоздятся груды дерева и других материалов, которые в изобилии и аккуратно разложены...",
       "status": "machine",
-      "srcHash": "dc6e73ff160b8127",
+      "srcHash": "ca5a69f548a2d90e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "a134f5b4-d015-422f-9b85-737d211fff0e/Option_1": {
       "en": "(Look at the stock...)",
       "cn": "（浏览货物……）",
       "ru": "(Посмотрите на акции...)",
       "status": "machine",
-      "srcHash": "e4794db216e4c137",
+      "srcHash": "54a8081ee036d1a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "a134f5b4-d015-422f-9b85-737d211fff0e/Option_2": {
       "en": "(Choose another Guild...)",
       "cn": "（另择商会……）",
       "ru": "(Выбери другую Гильдию...)",
       "status": "machine",
-      "srcHash": "5f52ad953c282cef",
+      "srcHash": "408f951b4e98d6d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "a134f5b4-d015-422f-9b85-737d211fff0e/Option_3": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "63c9a854-16d7-4846-bb3b-310ff7a84755/EventContent": {
       "en": "\"Don't miss out!<NL>Come take a look at our newly arrived goods!\"<NL><NL>{0}",
       "cn": "“走过路过，莫要错过，<NL>新进的货物瞧一瞧看一看嘞！”<NL><NL>{0}",
       "ru": "\"Не пропустите!<NL>Приходите взглянуть на наши новые товары!\"<NL><NL>{0}",
       "status": "machine",
-      "srcHash": "e8bcefb056de9234",
+      "srcHash": "a1f98e4c023ae066",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "63c9a854-16d7-4846-bb3b-310ff7a84755/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "d3562d75037a15a0",
+      "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "78509a24-7af8-403a-85a5-4a7dda116644/EventContent": {
       "en": "Stepping out of the bizarre workshop, <Character key=RoleTaiwu str=Name /> sees that the sky has darkened,<NL>the gathering has dispersed, and the people have returned home, with lights twinkling in the distance...<NL><Character key=RoleTaiwu str=Name /> has gained quite a lot from the League so the journey is worthwhile...",
       "cn": "<Character key=RoleTaiwu str=Name />从奇异工坊中走出，<NL>只见天色已晚，集会已散，万姓归家，灯火阑珊……<NL><Character key=RoleTaiwu str=Name />此次颇有所获，可谓不虚此行……",
       "ru": "Выходя из причудливой мастерской, <Character key=RoleTaiwu str=Name /> видит, что небо потемнело,<NL>собрание разошлось, и люди вернулись домой, а вдалеке мерцают огни...<NL><Character key=RoleTaiwu str=Name /> он довольно много получил от Лиги, так что путешествие того стоит...",
       "status": "machine",
-      "srcHash": "5da88ab381e313e8",
+      "srcHash": "5cdf0fe9cc610e06",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "78509a24-7af8-403a-85a5-4a7dda116644/Option_1": {
       "en": "(Leave the Bazaar...)",
       "cn": "（离开集会……）\n",
       "ru": "(Уходи с базара...)",
       "status": "machine",
-      "srcHash": "f3913941d4667512",
+      "srcHash": "ddd81471ecc0826d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "ceaea9dd-7df4-48e7-864b-523b678d9fe6/EventContent": {
       "en": "\"I'll pack these up for you, and you can take another look if you'd like...\"",
       "cn": "“我这便帮阁下打包，阁下还可再看看……”",
       "ru": "- Я упакую это для тебя, и ты сможешь взглянуть еще раз, если хочешь...",
       "status": "machine",
-      "srcHash": "7269f6ff1421747e",
+      "srcHash": "2fae1a3d771ebd9c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "ceaea9dd-7df4-48e7-864b-523b678d9fe6/Option_1": {
       "en": "(Continue choosing...)",
       "cn": "（继续挑选……）\n",
       "ru": "(Продолжайте выбирать...)",
       "status": "machine",
-      "srcHash": "54dba2dddb9f1297",
+      "srcHash": "e7328f82fd4931b5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "64e163bd-9130-4507-b97b-e589461b9263/EventContent": {
       "en": "\"This weapon seems more suitable for you!\" Walking along the road,<NL><Character key=RoleTaiwu str=Name /> hears from afar the shopkeeper of Champion's Armaments<NL>discussing the merits and flaws of weapons with a customer in the shop...",
       "cn": "“这件兵器对你来说较为称手！”<NL><Character key=RoleTaiwu str=Name />走在路上，远远听见前方大武魁商号的商铺中，<NL>店主正对顾客论说兵器的优劣……",
       "ru": "\"Это Оружие, кажется, больше подходит тебе!\" Иду по дороге,<NL><Character key=RoleTaiwu str=Name /> издалека доносится голос владельца магазина \"Оружие чемпиона\".<NL>обсуждение достоинств и недостатков Оружия с покупателем в магазине...",
       "status": "machine",
-      "srcHash": "15faf8e06144ef27",
+      "srcHash": "fe45183bb8d238ec",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "64e163bd-9130-4507-b97b-e589461b9263/Option_1": {
       "en": "(Look at the stock...)",
       "cn": "（浏览货物……）",
       "ru": "(Посмотрите на акции...)",
       "status": "machine",
-      "srcHash": "e4794db216e4c137",
+      "srcHash": "54a8081ee036d1a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "64e163bd-9130-4507-b97b-e589461b9263/Option_2": {
       "en": "(Choose another Guild...)",
       "cn": "（另择商会……）",
       "ru": "(Выбери другую Гильдию...)",
       "status": "machine",
-      "srcHash": "5f52ad953c282cef",
+      "srcHash": "408f951b4e98d6d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "64e163bd-9130-4507-b97b-e589461b9263/Option_3": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "cfa831c5-aaea-4df0-a477-f6fac80a2436/EventContent": {
       "en": "Stepping out of the Armory, <Character key=RoleTaiwu str=Name /> sees that the sky has darkened, the gathering has dispersed,<NL>and the people have returned home, with lights twinkling in the distance...<NL><Character key=RoleTaiwu str=Name /> has gained quite a lot from the League so the journey is worthwhile...",
       "cn": "<Character key=RoleTaiwu str=Name />从藏兵场中走出，<NL>只见天色已晚，集会已散，万姓归家，灯火阑珊……<NL><Character key=RoleTaiwu str=Name />此次颇有所获，可谓不虚此行……",
       "ru": "Выхожу из оружейной, <Character key=RoleTaiwu str=Name /> видит, что небо потемнело, собравшиеся разошлись,<NL>и люди вернулись домой, а вдалеке мерцают огни...<NL><Character key=RoleTaiwu str=Name /> он довольно много получил от Лиги, так что путешествие того стоит...",
       "status": "machine",
-      "srcHash": "aacec6c97ba85909",
+      "srcHash": "83577f8045f37459",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "cfa831c5-aaea-4df0-a477-f6fac80a2436/Option_1": {
       "en": "(Leave the Bazaar...)",
       "cn": "（离开集会……）\n",
       "ru": "(Уходи с базара...)",
       "status": "machine",
-      "srcHash": "f3913941d4667512",
+      "srcHash": "ddd81471ecc0826d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "66daadb5-223f-4232-b7eb-de57541f97d9/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> passes by a shop that belongs to Pavilion of Wonders and notices that there are no vendors calling out,<NL>but various dazzling relics and artifacts displayed inside, seemingly drawing people closer...",
       "cn": "<Character key=RoleTaiwu str=Name />路过一家奇货斋的商铺，<NL>只见店中并无人吆喝，唯有各种宝物宝器璀璨夺目，似乎正吸引着人走近……",
       "ru": "<Character key=RoleTaiwu str=Name /> проходит мимо магазина, принадлежащего Павильону чудес, и замечает, что здесь нет продавцов, окликающих его,<NL>но различные ослепительные реликвии и артефакты, выставленные внутри, казалось бы, притягивают людей ближе...",
       "status": "machine",
-      "srcHash": "2fd97986b76cb3ca",
+      "srcHash": "aa8e027153cf0f79",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "66daadb5-223f-4232-b7eb-de57541f97d9/Option_1": {
       "en": "(Look at the stock...)",
       "cn": "（浏览货物……）",
       "ru": "(Посмотрите на акции...)",
       "status": "machine",
-      "srcHash": "e4794db216e4c137",
+      "srcHash": "54a8081ee036d1a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "66daadb5-223f-4232-b7eb-de57541f97d9/Option_2": {
       "en": "(Choose another Guild...)",
       "cn": "（另择商会……）",
       "ru": "(Выбери другую Гильдию...)",
       "status": "machine",
-      "srcHash": "5f52ad953c282cef",
+      "srcHash": "408f951b4e98d6d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "66daadb5-223f-4232-b7eb-de57541f97d9/Option_3": {
       "en": "(Move forward...)",
       "cn": "（继续前进……）\n",
       "ru": "(Двигайся вперед...)",
       "status": "machine",
-      "srcHash": "c859b694ff3bfda5",
+      "srcHash": "e83552afe12ec1f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "626c6c5b-916e-4287-948d-2247b68492e4/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> puts down the treasures and heads elsewhere...",
       "cn": "<Character key=RoleTaiwu str=Name />放下珍宝，向别处走去……",
       "ru": "<Character key=RoleTaiwu str=Name /> складывает сокровища и направляется в другое место...",
       "status": "machine",
-      "srcHash": "36b093ef299891a9",
+      "srcHash": "e0f0b273fd0601bd",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "626c6c5b-916e-4287-948d-2247b68492e4/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "d3562d75037a15a0",
+      "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "ae1577e7-2826-49d1-9f8b-e34d4c8d3d29/EventContent": {
       "en": "In the Treasure Trove,<NL>chests full of pearls and jade, piles of precious treasures, and countless exotic items are displayed on antique shelves...<NL>It is almost overwhelming to <Character key=RoleTaiwu str=Name />'s eyes...<NL><NL>Sorting through them, <Character key=RoleTaiwu str=Name /> finally discovers some noteworthy treasures...",
       "cn": "藏宝阁中，<NL>珠玉满箱，珍玩堆积，数不尽的异宝陈列在博古架上……<NL><Character key=RoleTaiwu str=Name />几乎被迷住了双眼……<NL><NL><Character key=RoleTaiwu str=Name />在其中鉴别寻找，终于发现了一些值得注意的珍宝……",
       "ru": "В сокровищнице,<NL>сундуки, полные жемчуга и Нефрита, груды драгоценных сокровищ и бесчисленное множество экзотических предметов выставлены на антикварных полках...<NL>Это почти ошеломляюще - <Character key=RoleTaiwu str=Name />его глаза...<NL><NL>Перебирая их, <Character key=RoleTaiwu str=Name /> наконец-то он обнаруживает несколько заслуживающих внимания сокровищ...",
       "status": "machine",
-      "srcHash": "eb29091432b6a38a",
+      "srcHash": "aca6ae50b273afff",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "ae1577e7-2826-49d1-9f8b-e34d4c8d3d29/Option_1": {
       "en": "(Choose from the treasures...)",
       "cn": "（挑选藏宝……）",
       "ru": "(Выбирайте из сокровищ...)",
       "status": "machine",
-      "srcHash": "bbac85b9d528f77e",
+      "srcHash": "ba8b04a8119c80c2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "ae1577e7-2826-49d1-9f8b-e34d4c8d3d29/Option_2": {
       "en": "(Keep searching...)",
       "cn": "（继续寻找……）\n",
       "ru": "(Продолжайте искать...)",
       "status": "machine",
-      "srcHash": "96b669aef3f3b9d5",
+      "srcHash": "22bae67af94e565c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "3f683a1b-c62f-4df8-be3a-7a9298cc0f28/EventContent": {
       "en": "At this moment, footsteps suddenly approach from 's behind.<NL><Character key=RoleTaiwu str=Name /> turns around and sees plainly-dressed merchants walking toward <Character key=RoleTaiwu str=GenderObject/>, smiling and saying,<NL>\"We heard that you just purchased many goods from Oxback Caravan. Is there anything else you need?\"",
       "cn": "便在此时，忽然听得身后一阵脚步声，<NL><Character key=RoleTaiwu str=Name />转头看去，只见几名形容朴实的商人走上前来，微笑道：<NL>“听说阁下方才在咱们服牛帮中购买了许多货物，不知是否还有其他需要？”",
       "ru": "В этот момент сзади внезапно раздаются приближающиеся шаги.<NL><Character key=RoleTaiwu str=Name /> оборачивается и видит просто одетых Торговцев, идущих навстречу <Character key=RoleTaiwu str=GenderObject/>, улыбаясь и говоря,<NL>\"Мы слышали, что вы только что купили много товаров в \"Оксбэк Караван\". Тебе еще что-нибудь нужно?\"",
       "status": "machine",
-      "srcHash": "48163b98823ab951",
+      "srcHash": "29a570cb5a884cea",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "3f683a1b-c62f-4df8-be3a-7a9298cc0f28/Option_1": {
       "en": "(I'm all ears...)",
       "cn": "（愿闻其详……）\n",
       "ru": "(Я весь внимание...)",
       "status": "machine",
-      "srcHash": "f515f4bc47908257",
+      "srcHash": "dc14db4c4951c19d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "dd53105a-08bc-473a-a040-2b8c342cc981/EventContent": {
       "en": "\"Today, in appreciation of our customers over the world, our store offers discounts on all goods.<NL>So I'm returning the <ArgBox key=MoneyBack type=int/> extra Silver to you...\"",
       "cn": "“今日本店回馈天下百姓，故而货品皆有打折，<NL>因此这多出的<ArgBox key=MoneyBack type=int/>银钱就还予阁下……”",
       "ru": "\"Сегодня, в знак признательности нашим покупателям по всему миру, наш магазин предлагает скидки на все товары.<NL>Так что я возвращаю <ArgBox key=MoneyBack type=int/> дополнительное серебро тебе...\"",
       "status": "machine",
-      "srcHash": "21e40af15446a883",
+      "srcHash": "4508ae9aaeed6787",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "dd53105a-08bc-473a-a040-2b8c342cc981/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "2e551b3b42e6c023",
+      "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "d52a8a6e-f163-4255-b957-162f16eaff06/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> heads to the location of Vault of Volumes...",
       "cn": "<Character key=RoleTaiwu str=Name />往文山书海阁的所在之地走去……",
       "ru": "<Character key=RoleTaiwu str=Name /> направляется к хранилищу томов...",
       "status": "machine",
-      "srcHash": "c829dc8e75e3d1ef",
+      "srcHash": "104144523f9dc957",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "d52a8a6e-f163-4255-b957-162f16eaff06/Option_1": {
       "en": "(Continue to stroll around in the bazaar...)",
       "cn": "（继续游逛集市……）\n",
       "ru": "(Продолжайте прогуливаться по базару...)",
       "status": "machine",
-      "srcHash": "92a97b6d72c45175",
+      "srcHash": "80b932a5c859e999",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "dc4de404-179b-4966-a924-c27486026e71/EventContent": {
       "en": "After walking to the end of the main street, it seems like has finished browsing through Gongshu's Caravan's shops...",
       "cn": "长街走至尽头，公输坊的商铺似乎已经逛完……",
       "ru": "Пройдя до конца главной улицы, кажется, что он закончил осматривать магазины Каравана Гуншу...",
       "status": "machine",
-      "srcHash": "a238b23d3605fbd2",
+      "srcHash": "7f1a87dbba892228",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "dc4de404-179b-4966-a924-c27486026e71/Option_1": {
       "en": "(Go to other Guilds...)",
       "cn": "（前往其它商会……）",
       "ru": "(Переходите в другие Гильдии...)",
       "status": "machine",
-      "srcHash": "346aff174e046c32",
+      "srcHash": "df6420266d4e869d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "dc4de404-179b-4966-a924-c27486026e71/Option_2": {
       "en": "(Head back to the previous places...)",
       "cn": "（回头重新逛逛……）",
       "ru": "(Возвращайтесь к предыдущим местам...)",
       "status": "machine",
-      "srcHash": "e0edbaabbbb22094",
+      "srcHash": "d180bd45a1377c39",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "dc4de404-179b-4966-a924-c27486026e71/Option_3": {
       "en": "(Leave the Spring Bazaar...)",
       "cn": "（离开<ArgBox key=AdventureName type=string/>……）\n",
       "ru": "(Покиньте Весенний базар...)",
       "status": "machine",
-      "srcHash": "660bf2909af2f5af",
+      "srcHash": "b7fe4570256fb0d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "fd40990f-aae9-4093-9036-3eb9a98fd4e1/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "654b3641c39dd731",
+      "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "4d408a13-63d3-40d6-bc24-3c3fcf7f5283/EventContent": {
       "en": "\"Very well, I shall trouble you no further...\"<NL>The merchant from Gongshu's Caravan gives a fist-and-palm salute once more, then turns around and departs...",
       "cn": "“既如此，我便不再叨扰阁下……”<NL>那名公输坊的商人又拱手施了一礼，随后便转身离去……",
       "ru": "\"Очень хорошо, я больше не буду вас беспокоить...\"<NL>Торговец из Каравана Гуншу еще раз отдает честь кулаком и ладонью вверх, затем поворачивается и уходит...",
       "status": "machine",
-      "srcHash": "f13ccd1f0d8c89e2",
+      "srcHash": "518d6e3f09d7f1e1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "4d408a13-63d3-40d6-bc24-3c3fcf7f5283/Option_1": {
       "en": "(Go to other Guilds...)",
       "cn": "（前往其它商会……）",
       "ru": "(Переходите в другие Гильдии...)",
       "status": "machine",
-      "srcHash": "346aff174e046c32",
+      "srcHash": "df6420266d4e869d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "4d408a13-63d3-40d6-bc24-3c3fcf7f5283/Option_2": {
       "en": "(Head back to the previous places...)",
       "cn": "（回头重新逛逛……）",
       "ru": "(Возвращайтесь к предыдущим местам...)",
       "status": "machine",
-      "srcHash": "e0edbaabbbb22094",
+      "srcHash": "d180bd45a1377c39",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "4d408a13-63d3-40d6-bc24-3c3fcf7f5283/Option_3": {
       "en": "(Leave the Spring Bazaar...)",
       "cn": "（离开<ArgBox key=AdventureName type=string/>……）\n",
       "ru": "(Покиньте Весенний базар...)",
       "status": "machine",
-      "srcHash": "660bf2909af2f5af",
+      "srcHash": "b7fe4570256fb0d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "3431a4c4-e505-4581-ac22-e90596abf7cd/EventContent": {
       "en": "In the Scripture Vault,<NL>many books are either stored in cedarwood bookcases or displayed on bookshelves.<NL>People here constantly dusting and cleaning the books.<NL><NL>Wandering among this sea of books, <Character key=RoleTaiwu str=Name /> finally discovers some noteworthy books...",
       "cn": "藏书阁中，<NL>诸多书籍或装盛于楠木书箱之中，或陈列于书架之上，<NL>阁中有人时时拂拭清理书籍上灰尘……<NL><NL><Character key=RoleTaiwu str=Name />于此书海之间徜徉找寻，终于发现了一些值得注意的藏书……",
       "ru": "В хранилище Священных писаний,<NL>многие книги либо хранятся в книжных шкафах из кедрового дерева, либо выставлены на книжных полках.<NL>Люди здесь постоянно вытирают пыль и чистят книги.<NL><NL>Блуждая среди этого моря книг, <Character key=RoleTaiwu str=Name /> наконец-то обнаруживает несколько заслуживающих внимания книг...",
       "status": "machine",
-      "srcHash": "899b4a20fc186635",
+      "srcHash": "0c77aab8ca08852f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "3431a4c4-e505-4581-ac22-e90596abf7cd/Option_1": {
       "en": "(Choose from the books...)",
       "cn": "（挑选藏书……）",
       "ru": "(Выбирайте из книг...)",
       "status": "machine",
-      "srcHash": "f17f66d10a8fba5f",
+      "srcHash": "8a8457066ad17ff8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "3431a4c4-e505-4581-ac22-e90596abf7cd/Option_2": {
       "en": "(Keep searching...)",
       "cn": "（继续寻找……）\n",
       "ru": "(Продолжайте искать...)",
       "status": "machine",
-      "srcHash": "96b669aef3f3b9d5",
+      "srcHash": "22bae67af94e565c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "329c7d4b-2533-4210-a4a9-b23bd446545f/EventContent": {
       "en": "\"Today we offer discounts,<NL>so I'm returning the <ArgBox key=MoneyBack type=int/> extra Silver to you...\"",
       "cn": "“今日本店打折，<NL>因此这多出的<ArgBox key=MoneyBack type=int/>银钱就还予阁下……”",
       "ru": "\"Сегодня мы предлагаем скидки,<NL>так что я возвращаю <ArgBox key=MoneyBack type=int/> дополнительное серебро тебе...\"",
       "status": "machine",
-      "srcHash": "ed1bf4f1f83961a1",
+      "srcHash": "4a9596318f2b1ee1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "329c7d4b-2533-4210-a4a9-b23bd446545f/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "2e551b3b42e6c023",
+      "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T19:38:47.709Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z"
     }
   }
 }
