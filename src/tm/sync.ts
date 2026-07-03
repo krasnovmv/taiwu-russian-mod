@@ -15,8 +15,9 @@
  */
 import { alignFile, type AlignedFile } from "../align/bilingual.js";
 import { GLOSSARY_VERSION } from "../config/glossary.js";
+import { loadGlossary } from "../glossary/load.js";
 import { TM_SCHEMA_VERSION, type TmFile, type TmUnit } from "../model/tm.js";
-import { srcHash } from "./hash.js";
+import { makeSrcHasher, type SrcHasher } from "./hash.js";
 import { loadTm, saveTm, tmKey } from "./store.js";
 
 export interface SyncResult {
@@ -36,6 +37,7 @@ export function reconcile(
   file: string,
   aligned: AlignedFile,
   existing: TmFile,
+  hashEn: SrcHasher,
 ): {
   tm: TmFile;
   result: SyncResult;
@@ -48,7 +50,7 @@ export function reconcile(
 
   for (const unit of aligned.units) {
     sourceKeys.add(unit.key);
-    const hash = srcHash(unit.en, GLOSSARY_VERSION);
+    const hash = hashEn(unit.en);
     const prev = existing.units[unit.key];
 
     if (!prev) {
@@ -113,7 +115,8 @@ export async function syncFile(
     };
   }
   const aligned = await alignFile(file);
-  const { tm, result } = reconcile(file, aligned, existing);
+  const hashEn = makeSrcHasher(await loadGlossary());
+  const { tm, result } = reconcile(file, aligned, existing, hashEn);
   if (!options.dryRun) await saveTm(tm);
   return result;
 }

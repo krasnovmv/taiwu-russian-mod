@@ -22,8 +22,9 @@ import type { SourceUnit } from "../formats/adapter.js";
 import { CACHE_MISS } from "../engine/caching.js";
 import { mask, restore } from "../engine/protect.js";
 import type { ProgressCallback, TranslationEngine, TranslationRequest } from "../engine/types.js";
+import { loadGlossary } from "../glossary/load.js";
 import { TM_SCHEMA_VERSION, type TmFile, type TmUnit } from "../model/tm.js";
-import { srcHash } from "../tm/hash.js";
+import { makeSrcHasher, type SrcHasher } from "../tm/hash.js";
 import { loadTm, saveTm, tmKey } from "../tm/store.js";
 
 export interface TranslateOptions {
@@ -97,6 +98,7 @@ function selectWork(
   aligned: AlignedFile,
   existing: TmFile | null,
   engineId: string,
+  hashEn: SrcHasher,
   options: Pick<TranslateOptions, "minLen" | "maxLen" | "limit" | "now" | "refreshCached">,
 ): { units: Record<string, TmUnit>; work: WorkItem[]; pending: number; skipped: number } {
   const minLen = options.minLen ?? 0;
@@ -107,7 +109,7 @@ function selectWork(
   let skipped = 0;
 
   for (const unit of aligned.units) {
-    const hash = srcHash(unit.en, GLOSSARY_VERSION);
+    const hash = hashEn(unit.en);
     const prev = existing?.units[unit.key];
     const inWindow = unit.en.length >= minLen && unit.en.length <= maxLen;
     // Language-neutral: identical in EN and CN (IDs, paths, codes, untranslated
@@ -160,7 +162,8 @@ export async function planFile(
 ): Promise<number> {
   const aligned = await alignFile(file);
   const existing = await loadTm(file);
-  const { work } = selectWork(aligned, existing, engineId, options);
+  const hashEn = makeSrcHasher(await loadGlossary());
+  const { work } = selectWork(aligned, existing, engineId, hashEn, options);
   return work.reduce((n, w) => (w.masked.translatable ? n + 1 : n), 0);
 }
 
@@ -171,7 +174,8 @@ export async function translateFile(
 ): Promise<TranslateStats> {
   const aligned = await alignFile(file);
   const existing = await loadTm(file);
-  const { units, work, pending, skipped } = selectWork(aligned, existing, engine.id, options);
+  const hashEn = makeSrcHasher(await loadGlossary());
+  const { units, work, pending, skipped } = selectWork(aligned, existing, engine.id, hashEn, options);
 
   const tm: TmFile = {
     schemaVersion: TM_SCHEMA_VERSION,
@@ -182,6 +186,11 @@ export async function translateFile(
   const flush = async (): Promise<void> => {
     if (!options.dryRun) await saveTm(tm);
   };
+  // Checkpoints exist to bound work lost if a *live* (billed) run is interrupted.
+  // A cache-only rebuild does zero network I/O and is cheap to redo, so its only
+  // effect would be quadratic full-file rewrites (a file of N units → N/checkpoint
+  // rewrites) — defer to a single flush at the end instead.
+  const deferFlush = engine.cacheOnly === true;
 
   // The unit bar tracks units that actually hit the engine (translatable).
   options.onStart?.(work.reduce((n, w) => n + (w.masked.translatable ? 1 : 0), 0));
@@ -190,6 +199,7 @@ export async function translateFile(
   let failed = 0;
   let cacheMissed = 0;
   let progressBase = 0;
+  let dirty = false;
   const failures: { key: string; error: string }[] = [];
   const checkpoint = Math.max(1, engine.checkpointSize);
 
@@ -254,11 +264,16 @@ export async function translateFile(
       };
     });
 
-    await flush(); // checkpoint after each chunk
+    dirty = true;
+    if (!deferFlush) {
+      await flush(); // checkpoint after each chunk on live runs
+      dirty = false;
+    }
   }
 
-  // No work (e.g. fully cached or limit 0): still persist carried-forward CN refresh.
-  if (work.length === 0) await flush();
+  // Flush once at the end: for a deferred (cache-only) run this is the only write;
+  // otherwise it persists any carried-forward CN refresh when there was no work.
+  if (dirty || work.length === 0) await flush();
 
   return {
     file,

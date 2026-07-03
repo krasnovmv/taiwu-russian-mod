@@ -169,10 +169,11 @@ Language_CN ─┴─ align (by key) ─ mask ─┤
 - **Glossary** (`data/glossary.json`): EN→RU terms handed to the engine to
   enforce — Yandex via its native `glossaryConfig` (`exact: false`, so it
   **declines** each term to fit Russian grammar), LM Studio via the prompt. Only
-  terms that occur in a unit are sent, and the response cache folds those terms
-  into its key, so editing a term re-translates only the units containing it.
-  Bump `GLOSSARY_VERSION` in `src/config/glossary.ts` after edits to re-translate
-  affected machine units. Run `npm run glossary:candidates` to mine the source
+  terms that occur in a unit are sent, and both the response cache **and** the TM
+  `srcHash` fold those terms into their key, so editing a term re-translates only
+  the units containing it — no version bump or global churn. `GLOSSARY_VERSION` in
+  `src/config/glossary.ts` is now only the manual "re-translate everything" lever
+  (engine/style overhauls). Run `npm run glossary:candidates` to mine the source
   for recurring proper nouns and domain terms worth adding (ranked by frequency,
   with a CN example per term); `--skeleton f` writes a fill-in stub to curate.
 

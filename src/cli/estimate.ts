@@ -7,8 +7,10 @@
  * approximate and changes over time — edit the constant if it drifts.
  */
 import { alignFile } from "../align/bilingual.js";
+import { loadGlossary } from "../glossary/load.js";
 import { listSourceFiles } from "../scan.js";
 import { computeCoverage, sumCoverage, type FileCoverage } from "../tm/coverage.js";
+import { makeSrcHasher } from "../tm/hash.js";
 import { loadTm } from "../tm/store.js";
 import { Progress } from "./progress.js";
 
@@ -18,12 +20,13 @@ const RATE_RUB_PER_M = 419;
 async function main(): Promise<void> {
   const files = await listSourceFiles();
 
+  const hashEn = makeSrcHasher(await loadGlossary());
   const bar = new Progress(files.length, "estimate");
   const coverages: FileCoverage[] = [];
   for (const file of files) {
     const aligned = await alignFile(file);
     const tm = await loadTm(file);
-    coverages.push(computeCoverage(aligned, tm));
+    coverages.push(computeCoverage(aligned, tm, hashEn));
     bar.increment(file);
   }
   bar.finish();

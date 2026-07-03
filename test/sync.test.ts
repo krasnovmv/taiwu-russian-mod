@@ -2,10 +2,12 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 
 import type { AlignedFile } from "../src/align/bilingual.js";
-import { GLOSSARY_VERSION } from "../src/config/glossary.js";
 import { TM_SCHEMA_VERSION, type TmFile, type TmUnit } from "../src/model/tm.js";
-import { srcHash } from "../src/tm/hash.js";
+import { makeSrcHasher } from "../src/tm/hash.js";
 import { reconcile } from "../src/tm/sync.js";
+
+// A glossary-free hasher shared by the reconcile calls and the fixtures they check.
+const hashEn = makeSrcHasher(new Map());
 
 function aligned(units: { key: string; en: string; cn: string | null }[]): AlignedFile {
   return {
@@ -23,7 +25,7 @@ function unit(en: string, ru: string | null, status: TmUnit["status"]): TmUnit {
     cn: null,
     ru,
     status,
-    srcHash: srcHash(en, GLOSSARY_VERSION),
+    srcHash: hashEn(en),
     engine: ru ? "yandex" : null,
     updatedAt: null,
   };
@@ -33,7 +35,7 @@ function tm(units: Record<string, TmUnit>): TmFile {
   return {
     schemaVersion: TM_SCHEMA_VERSION,
     file: "Demo.txt",
-    glossaryVersion: GLOSSARY_VERSION,
+    glossaryVersion: 0,
     units,
   };
 }
@@ -46,6 +48,7 @@ test("adds new keys as pending", () => {
       { key: "B", en: "bravo", cn: "乙" },
     ]),
     tm({ A: unit("alpha", "альфа", "machine") }),
+    hashEn,
   );
   assert.equal(result.added, 1);
   assert.equal(out.units["B"]!.status, "pending");
@@ -57,6 +60,7 @@ test("drops removed keys", () => {
     "Demo.txt",
     aligned([{ key: "A", en: "alpha", cn: null }]),
     tm({ A: unit("alpha", "альфа", "machine"), GONE: unit("x", "икс", "machine") }),
+    hashEn,
   );
   assert.equal(result.removed, 1);
   assert.ok(!("GONE" in out.units));
@@ -73,6 +77,7 @@ test("flags drifted machine vs reviewed/locked, preserves ru", () => {
       M: unit("old english", "машинный", "machine"),
       R: unit("old english", "ревью", "reviewed"),
     }),
+    hashEn,
   );
   assert.equal(result.driftedMachine, 1);
   assert.equal(result.driftedReviewed, 1);
@@ -87,10 +92,11 @@ test("refreshes CN reference and source for pending units", () => {
     "Demo.txt",
     aligned([{ key: "P", en: "fresh en", cn: "新" }]),
     tm({ P: unit("old en", null, "pending") }),
+    hashEn,
   );
   assert.equal(out.units["P"]!.en, "fresh en");
   assert.equal(out.units["P"]!.cn, "新");
-  assert.equal(out.units["P"]!.srcHash, srcHash("fresh en", GLOSSARY_VERSION));
+  assert.equal(out.units["P"]!.srcHash, hashEn("fresh en"));
 });
 
 test("syncFile is a no-op when a file has no TM yet", async () => {

@@ -33,6 +33,13 @@ export interface TranslationEngine {
    */
   readonly checkpointSize: number;
   /**
+   * True when the engine never calls a billed backend (serves cache hits, returns
+   * a miss marker otherwise). The pipeline uses this to defer TM checkpointing:
+   * cache-only work is free to redo, so it flushes once per file instead of every
+   * checkpoint (avoiding quadratic full-file rewrites). Absent = false.
+   */
+  readonly cacheOnly?: boolean;
+  /**
    * Translate a batch of requests, returning a same-length array of
    * translations (index-aligned). Implementations should preserve any opaque
    * sentinel tokens in `text` verbatim; the caller validates this afterwards.

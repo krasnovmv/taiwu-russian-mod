@@ -1,19 +1,30 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import { GLOSSARY_VERSION } from "../src/config/glossary.js";
 import type { AlignedFile } from "../src/align/bilingual.js";
 import type { TmFile } from "../src/model/tm.js";
 import { TM_SCHEMA_VERSION } from "../src/model/tm.js";
 import { computeCoverage } from "../src/tm/coverage.js";
-import { srcHash } from "../src/tm/hash.js";
+import { makeSrcHasher, srcHash } from "../src/tm/hash.js";
 import { serializeTm } from "../src/tm/store.js";
 
-test("srcHash is deterministic and sensitive to source and glossary version", () => {
-  assert.equal(srcHash("Iron Ring", 0), srcHash("Iron Ring", 0));
-  assert.notEqual(srcHash("Iron Ring", 0), srcHash("Steel Ring", 0));
-  assert.notEqual(srcHash("Iron Ring", 0), srcHash("Iron Ring", 1));
-  assert.match(srcHash("x", 0), /^[0-9a-f]{16}$/);
+// A glossary-free hasher: no term matches, so the hash is (version + bare EN).
+const hashEn = makeSrcHasher(new Map());
+
+test("srcHash is deterministic and sensitive to source and salt", () => {
+  assert.equal(srcHash("Iron Ring", "0"), srcHash("Iron Ring", "0"));
+  assert.notEqual(srcHash("Iron Ring", "0"), srcHash("Steel Ring", "0"));
+  assert.notEqual(srcHash("Iron Ring", "0"), srcHash("Iron Ring", "1"));
+  assert.match(srcHash("x", "0"), /^[0-9a-f]{16}$/);
+});
+
+test("makeSrcHasher invalidates only texts containing an edited term", () => {
+  const before = makeSrcHasher(new Map([["sect", "секта"]]));
+  const after = makeSrcHasher(new Map([["sect", "клан"]])); // same term, new RU
+  // A text with no glossary term keeps its hash across the edit (no churn).
+  assert.equal(before("Iron Ring"), after("Iron Ring"));
+  // A text containing the edited term is re-hashed (→ re-translation).
+  assert.notEqual(before("The Sect gate"), after("The Sect gate"));
 });
 
 test("serializeTm is canonical: 2-space indent, LF, trailing newline", () => {
@@ -55,14 +66,14 @@ test("computeCoverage classifies translated / stale / pending", () => {
   const tm: TmFile = {
     schemaVersion: TM_SCHEMA_VERSION,
     file: "Demo.txt",
-    glossaryVersion: GLOSSARY_VERSION,
+    glossaryVersion: 0,
     units: {
       A: {
         en: "alpha",
         cn: "甲",
         ru: "альфа",
         status: "machine",
-        srcHash: srcHash("alpha", GLOSSARY_VERSION),
+        srcHash: hashEn("alpha"),
         engine: "yandex",
         updatedAt: null,
       },
@@ -71,14 +82,14 @@ test("computeCoverage classifies translated / stale / pending", () => {
         cn: "乙",
         ru: "браво",
         status: "reviewed",
-        srcHash: srcHash("OLD", GLOSSARY_VERSION),
+        srcHash: hashEn("OLD"),
         engine: "yandex",
         updatedAt: null,
       },
       // C absent -> pending
     },
   };
-  const cov = computeCoverage(aligned, tm);
+  const cov = computeCoverage(aligned, tm, hashEn);
   assert.equal(cov.total, 3);
   assert.equal(cov.translated, 1); // A matches current hash
   assert.equal(cov.stale, 1); // B's source drifted
@@ -96,7 +107,7 @@ test("computeCoverage with no TM marks everything pending", () => {
     onlyCn: [],
     warnings: [],
   };
-  const cov = computeCoverage(aligned, null);
+  const cov = computeCoverage(aligned, null, hashEn);
   assert.equal(cov.pending, 1);
   assert.equal(cov.translated, 0);
 });

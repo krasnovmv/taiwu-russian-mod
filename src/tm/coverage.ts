@@ -3,10 +3,9 @@
  * classify each unit as translated / stale / pending. Read-only — it never
  * mutates the TM (sync/translation happens in later phases).
  */
-import { GLOSSARY_VERSION } from "../config/glossary.js";
 import type { AlignedFile } from "../align/bilingual.js";
 import type { TmFile } from "../model/tm.js";
-import { srcHash } from "./hash.js";
+import type { SrcHasher } from "./hash.js";
 
 export interface FileCoverage {
   file: string;
@@ -23,14 +22,18 @@ export interface FileCoverage {
   onlyCn: number;
 }
 
-export function computeCoverage(aligned: AlignedFile, tm: TmFile | null): FileCoverage {
+export function computeCoverage(
+  aligned: AlignedFile,
+  tm: TmFile | null,
+  hashEn: SrcHasher,
+): FileCoverage {
   let translated = 0;
   let stale = 0;
   let pending = 0;
   let pendingChars = 0;
 
   for (const unit of aligned.units) {
-    const hash = srcHash(unit.en, GLOSSARY_VERSION);
+    const hash = hashEn(unit.en);
     const tmUnit = tm?.units[unit.key];
     if (tmUnit?.ru != null) {
       if (tmUnit.srcHash === hash) translated++;

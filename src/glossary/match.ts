@@ -30,10 +30,22 @@ function escapeRegExp(s: string): string {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-/** Case-insensitive, longest-match-first whole-word alternation of EN terms. */
+/**
+ * Case-insensitive, longest-match-first whole-word alternation of EN terms.
+ *
+ * Compiling a 200+-term alternation is expensive and {@link matchGlossary} runs
+ * once per translation unit (hundreds of thousands per rebuild), so the compiled
+ * regex is memoized per glossary map. `matchAll` clones the regex's state, so a
+ * shared instance is safe to reuse across calls.
+ */
+const termsRegexCache = new WeakMap<ReadonlyMap<string, string>, RegExp>();
 function termsRegex(glossary: ReadonlyMap<string, string>): RegExp {
+  const cached = termsRegexCache.get(glossary);
+  if (cached) return cached;
   const terms = [...glossary.keys()].sort((a, b) => b.length - a.length).map(escapeRegExp);
-  return new RegExp(`\\b(?:${terms.join("|")})\\b`, "gi");
+  const re = new RegExp(`\\b(?:${terms.join("|")})\\b`, "gi");
+  termsRegexCache.set(glossary, re);
+  return re;
 }
 
 /**

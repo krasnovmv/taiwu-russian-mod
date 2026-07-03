@@ -27,7 +27,7 @@ export interface TmUnit {
   /** RU output, or null while pending. */
   ru: string | null;
   status: UnitStatus;
-  /** Hash of (EN source + glossary version) at the time `ru` was produced. */
+  /** Hash of (EN source + applicable-glossary-terms salt) when `ru` was produced. */
   srcHash: string;
   /** Engine identifier that produced `ru` (e.g. "yandex"), or null. */
   engine: string | null;

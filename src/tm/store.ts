@@ -53,9 +53,23 @@ export function serializeTm(tm: TmFile): string {
   return `${JSON.stringify(tm, null, 2)}\n`;
 }
 
-/** Persist the TM for a source file (creates nested dirs for tsv/json paths). */
+/**
+ * Persist the TM for a source file (creates nested dirs for tsv/json paths).
+ *
+ * Skips the write when the serialized content is byte-identical to what's on
+ * disk. Serialization is deterministic, so a rebuild that changes nothing (e.g.
+ * every unit already up to date) touches no files — keeping git diffs limited to
+ * what actually changed and avoiding pointless atomic rewrites of a 155 MB TM.
+ */
 export async function saveTm(tm: TmFile): Promise<void> {
-  await writeFileAtomic(tmPathFor(tm.file), serializeTm(tm));
+  const dest = tmPathFor(tm.file);
+  const next = serializeTm(tm);
+  try {
+    if ((await readFile(dest, "utf8")) === next) return;
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code !== "ENOENT") throw err;
+  }
+  await writeFileAtomic(dest, next);
 }
 
 /**

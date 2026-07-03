@@ -5,8 +5,10 @@
  *   npm run status -- --files # per-file breakdown of unfinished files
  */
 import { alignFile } from "../align/bilingual.js";
+import { loadGlossary } from "../glossary/load.js";
 import { listSourceFiles } from "../scan.js";
 import { computeCoverage, sumCoverage, type FileCoverage } from "../tm/coverage.js";
+import { makeSrcHasher } from "../tm/hash.js";
 import { loadTm } from "../tm/store.js";
 import { Progress } from "./progress.js";
 
@@ -19,12 +21,13 @@ async function main(): Promise<void> {
   const showFiles = process.argv.includes("--files");
   const files = await listSourceFiles();
 
+  const hashEn = makeSrcHasher(await loadGlossary());
   const bar = new Progress(files.length, "status");
   const coverages: FileCoverage[] = [];
   for (const file of files) {
     const aligned = await alignFile(file);
     const tm = await loadTm(file);
-    coverages.push(computeCoverage(aligned, tm));
+    coverages.push(computeCoverage(aligned, tm, hashEn));
     bar.increment(file);
   }
   bar.finish();

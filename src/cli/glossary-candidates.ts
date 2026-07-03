@@ -111,7 +111,8 @@ async function main(): Promise<void> {
 
   if (args.skeletonPath) {
     // A ready-to-edit EN→RU stub for the top N terms — paste curated entries
-    // into data/glossary.json5 (and bump GLOSSARY_VERSION).
+    // into data/glossary.json5, then `npm run rebuild-tm` (a term edit re-hashes
+    // and re-translates only the units containing it; no GLOSSARY_VERSION bump).
     const stub: Record<string, string> = {};
     for (const c of shown) stub[c.term] = "";
     await writeFile(path.resolve(args.skeletonPath), JSON.stringify(stub, null, 2) + "\n", "utf8");
