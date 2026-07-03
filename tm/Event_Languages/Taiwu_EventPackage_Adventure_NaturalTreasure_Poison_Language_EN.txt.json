@@ -1,448 +1,448 @@
 {
   "schemaVersion": 1,
   "file": "Event_Languages/Taiwu_EventPackage_Adventure_NaturalTreasure_Poison_Language_EN.txt",
-  "glossaryVersion": 8,
+  "glossaryVersion": 9,
   "units": {
     "54e00e98-dba6-44d3-8e6c-165961903ab4/EventContent": {
       "en": "Before you lies a deep, dark emerald pool. Within its waters, the <Item key=奖励 str=ColorName/> flickers.<NL>A Nine-Headed Worm lies by the water, exhaling Poison Mist which entwines with the surrounding miasma...<NL><NL>The longer you remain here, the more toxic miasma will accumulate. Once it reaches a critical level, you will suffer excruciating, bone-deep agony.<NL>Yet upon closer inspection, you find a few dark-purple poison fruits growing from the branches, emitting a faint, strange fragrance that unexpectedly eases the burning in your throat.<NL>As you reach out for the fruit, two of the Worm's heads lift abruptly, seemingly quite protective of the fruit...",
       "cn": "前方深潭幽碧如墨，潭中隐现<Item key=奖励 str=ColorName/>的光华，<NL>侧旁有一九头虫卧于潭边，口鼻吞吐毒雾，竟与周遭瘴气交织……<NL><NL>行走其间，瘴毒会持续堆积，一旦满溢，便会遭受蚀骨之痛，<NL>细看之下，枝头却生有几枚紫黑毒果，异香隐隐，竟能压下喉间灼痛，<NL>欲伸手摘取，却见九头虫有两颗蛇头抬起，似是非常在意此物……",
       "ru": "Перед вами раскинулся глубокий, темно-изумрудный бассейн. В его водах находится <Item key=奖励 str=ColorName/> мерцает.<NL>Девятиглавый червь лежит у воды, выдыхая Яд, который вплетен в окружающие миазмы...<NL><NL>Чем дольше вы остаетесь здесь, тем больше токсичных миазмов будет накапливаться. Как только он достигнет критического уровня, вы будете страдать от мучительной, пробирающей до костей агонии.<NL>Однако при ближайшем рассмотрении вы обнаруживаете несколько темно-фиолетовых плодов с Ядом, растущих на ветвях и издающих слабый, странный аромат, который неожиданно облегчает жжение в горле.<NL>Когда вы протягиваете руку к фрукту, две головки червя резко поднимаются, по-видимому, защищая плод...",
       "status": "machine",
-      "srcHash": "951f3d0342d85682",
+      "srcHash": "aba7edfcf2e93eb2",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "54e00e98-dba6-44d3-8e6c-165961903ab4/Option_1": {
       "en": "(Inspect the poison fruits...)",
       "cn": "（查看毒果位置……）",
       "ru": "(Осмотрите Яд фруктов...)",
       "status": "machine",
-      "srcHash": "c4724f54fe2f11d6",
+      "srcHash": "51f8ccf95a51aeed",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "54e00e98-dba6-44d3-8e6c-165961903ab4/Option_2": {
       "en": "(I'm already aware...)",
       "cn": "（我已知晓……）\n",
       "ru": "(Я уже в курсе...)",
       "status": "machine",
-      "srcHash": "7879805233ad189d",
+      "srcHash": "570ad86d5986e3f2",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "2577b951-c17a-42f2-9892-1ab177da8d27/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "1914c2b1-5e48-4b3f-b5a2-ecc78a0fc08e/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "e4d42712-f89e-4d81-91a5-976b4f23cba4/EventContent": {
       "en": "Extracting the <color=#orange>Poison Fruit</color>'s effects will temporarily protect you from some of the area's toxins.<NL>However, the effects rely on the local Spiritual Qi. Once you leave the area, they will fade completely.<NL><NL>(The higher Taiwu's <LifeSkillType key=技艺类型 str=Name/>, the less time is required to activate the effects)",
       "cn": "若是提取<color=#orange>毒果</color>中的药性，便可暂免部分毒素的侵害，<NL>但药力依托此地灵气而生，一旦踏出这片区域，便会尽数消退。<NL><NL>（太吾的<LifeSkillType key=技艺类型 str=Name/>造诣越高，激发药效所需的时间越短）",
       "ru": "Извлечение <color=#orange>Плод с Ядом</color>его действие временно защитит вас от некоторых местных токсинов.<NL>Однако эффект зависит от местной духовной Ци. Как только вы покинете это место, они полностью исчезнут.<NL><NL>(Более высокий уровень Тайву <LifeSkillType key=技艺类型 str=Name/>, тем меньше времени требуется для активации эффектов)",
       "status": "machine",
-      "srcHash": "013768ad2d48bb65",
+      "srcHash": "526e65eeeab0b77b",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "e4d42712-f89e-4d81-91a5-976b4f23cba4/Option_1": {
       "en": "(Extracting the effects...)",
       "cn": "（提取药性……）",
       "ru": "(Извлечение эффектов...)",
       "status": "machine",
-      "srcHash": "437ca3114aea604b",
+      "srcHash": "085b5e6b63f8c9b9",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "e4d42712-f89e-4d81-91a5-976b4f23cba4/Option_2": {
       "en": "(Extracting the effects...)",
       "cn": "（提取药性……）",
       "ru": "(Извлечение эффектов...)",
       "status": "machine",
-      "srcHash": "437ca3114aea604b",
+      "srcHash": "085b5e6b63f8c9b9",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "e4d42712-f89e-4d81-91a5-976b4f23cba4/Option_3": {
       "en": "(Extracting the effects...)",
       "cn": "（提取药性……）",
       "ru": "(Извлечение эффектов...)",
       "status": "machine",
-      "srcHash": "437ca3114aea604b",
+      "srcHash": "085b5e6b63f8c9b9",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "e4d42712-f89e-4d81-91a5-976b4f23cba4/Option_4": {
       "en": "(Extracting the effects...)",
       "cn": "（提取药性……）",
       "ru": "(Извлечение эффектов...)",
       "status": "machine",
-      "srcHash": "437ca3114aea604b",
+      "srcHash": "085b5e6b63f8c9b9",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "e4d42712-f89e-4d81-91a5-976b4f23cba4/Option_5": {
       "en": "(Extracting the effects...)",
       "cn": "（提取药性……）",
       "ru": "(Извлечение эффектов...)",
       "status": "machine",
-      "srcHash": "437ca3114aea604b",
+      "srcHash": "085b5e6b63f8c9b9",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "e4d42712-f89e-4d81-91a5-976b4f23cba4/Option_6": {
       "en": "(Extracting the effects...)",
       "cn": "（提取药性……）",
       "ru": "(Извлечение эффектов...)",
       "status": "machine",
-      "srcHash": "437ca3114aea604b",
+      "srcHash": "085b5e6b63f8c9b9",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "e4d42712-f89e-4d81-91a5-976b4f23cba4/Option_7": {
       "en": "(Extracting the effects...)",
       "cn": "（提取药性……）",
       "ru": "(Извлечение эффектов...)",
       "status": "machine",
-      "srcHash": "437ca3114aea604b",
+      "srcHash": "085b5e6b63f8c9b9",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "e4d42712-f89e-4d81-91a5-976b4f23cba4/Option_8": {
       "en": "(Extracting the effects...)",
       "cn": "（提取药性……）",
       "ru": "(Извлечение эффектов...)",
       "status": "machine",
-      "srcHash": "437ca3114aea604b",
+      "srcHash": "085b5e6b63f8c9b9",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "e4d42712-f89e-4d81-91a5-976b4f23cba4/Option_9": {
       "en": "(Extracting the effects...)",
       "cn": "（提取药性……）",
       "ru": "(Извлечение эффектов...)",
       "status": "machine",
-      "srcHash": "437ca3114aea604b",
+      "srcHash": "085b5e6b63f8c9b9",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "e4d42712-f89e-4d81-91a5-976b4f23cba4/Option_10": {
       "en": "(Leave for now...)",
       "cn": "（暂且离开……）\n",
       "ru": "(Оставь пока...)",
       "status": "machine",
-      "srcHash": "d3bb13049a07a030",
+      "srcHash": "abe9854aca8fb72e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "d5f0b7f0-a58f-4190-b09f-3ca123d91744/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "c40411c2-3ab9-4e95-a2ef-b86056fad897/EventContent": {
       "en": "You successfully extract the Poison Fruit's medicinal properties, gaining immunity to [<ArgBox key=毒免1 type=string/>] and [<ArgBox key=毒免2 type=string/>]",
       "cn": "顺利萃取毒果中的药性，得以豁免【<ArgBox key=毒免1 type=string/>】、【<ArgBox key=毒免2 type=string/>】",
       "ru": "Вы успешно извлекаете целебные свойства Яда из плодов, приобретая иммунитет к [<ArgBox key=毒免1 type=string/>] и [<ArgBox key=毒免2 type=string/>]",
       "status": "machine",
-      "srcHash": "598e257f65b96bba",
+      "srcHash": "21b153c3120f9f15",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "c40411c2-3ab9-4e95-a2ef-b86056fad897/Option_1": {
       "en": "(Glad to hear that...)",
       "cn": "（如此甚好……）\n",
       "ru": "(Рад это слышать...)",
       "status": "machine",
-      "srcHash": "624c4c9984fa87c6",
+      "srcHash": "24afb28c10884643",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "ea2a85fc-c2dd-4acd-b2f1-cacea233de51/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "5a6601cc-13e8-4631-ba20-6065dbd180a4/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "48186191-45b0-461f-8490-d88f974671ae/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "61f7bf2c-951c-4af3-8a7d-d28193402661/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "2042cdce-02d7-470b-af1b-505867b31b96/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "1cbaaae6-2b69-4283-b4e6-fe1bf58554f6/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "6fb56232-03ed-40e8-9c9c-88a22af7e7a0/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "bba980a8-eb75-40ec-a071-efcbd3e7615b/EventContent": {
       "en": "The lingering toxins have yet to dissipate, and the <Item key=奖励 str=ColorName/> flickers beneath the emerald waters. With the Nine-Headed Worm absent from its post, <NL>all it takes is a careful search to claim this peerless Deadly Poison...",
       "cn": "此地余毒未散，那<Item key=奖励 str=ColorName/>藏于碧水之下，九头虫却暂不在此处守护，<NL>此刻只需小心搜索，便可将那绝世奇毒取走……",
       "ru": "Задержавшиеся токсины еще не рассеялись, и <Item key=奖励 str=ColorName/> мерцает под изумрудными водами. С Девятиглавым червем, отсутствующим на своем посту, <NL>все, что требуется, - это тщательный поиск, чтобы найти этот несравненный смертельный Яд...",
       "status": "machine",
-      "srcHash": "5e97ded6a932a5b7",
+      "srcHash": "6d1eb3a881b3664a",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "bba980a8-eb75-40ec-a071-efcbd3e7615b/Option_1": {
       "en": "(Reach for the Poison...)",
       "cn": "（探取毒物……）",
       "ru": "(Тянусь за Ядом...)",
       "status": "machine",
-      "srcHash": "b19a459d1cbc3fe6",
+      "srcHash": "f2e6c02f61060d18",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "bba980a8-eb75-40ec-a071-efcbd3e7615b/Option_2": {
       "en": "(Think of another move...)",
       "cn": "（再做打算……）\n",
       "ru": "(Придумай другой ход...)",
       "status": "machine",
-      "srcHash": "e71dcb9353bd7cb1",
+      "srcHash": "ad1a63711c8af1be",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "ffbe19b6-2926-43c1-aaef-563e33850b3c/EventContent": {
       "en": "The lingering toxins have yet to dissipate, and the <Item key=奖励 str=ColorName/> flickers beneath the emerald waters. With the Nine-Headed Worm dead and no longer in your way,<NL>all it takes is a careful search to claim this peerless Deadly Poison...",
       "cn": "此地余毒未散，那<Item key=奖励 str=ColorName/>藏于碧水之下，九头虫已然消亡，不会再来阻拦，<NL>此刻只需小心搜索，便可将那绝世奇毒取走……",
       "ru": "Задержавшиеся токсины еще не рассеялись, и <Item key=奖励 str=ColorName/> мерцает под изумрудными водами. Когда Девятиглавый Червь мертв и больше не стоит у тебя на пути,<NL>все, что требуется, - это тщательный поиск, чтобы найти этот несравненный смертельный Яд...",
       "status": "machine",
-      "srcHash": "368da9ceadfd6997",
+      "srcHash": "24e2b159c5e24f1a",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "ffbe19b6-2926-43c1-aaef-563e33850b3c/Option_1": {
       "en": "(Search for the Treasure...)",
       "cn": "（探索宝物……）",
       "ru": "(В поисках сокровищ...)",
       "status": "machine",
-      "srcHash": "cbb9135f5e90da85",
+      "srcHash": "2e96330464fd644c",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "ffbe19b6-2926-43c1-aaef-563e33850b3c/Option_2": {
       "en": "(Leave for now...)",
       "cn": "（暂且离开……）\n",
       "ru": "(Оставь пока...)",
       "status": "machine",
-      "srcHash": "d3bb13049a07a030",
+      "srcHash": "abe9854aca8fb72e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "80d74161-698f-413c-a681-0c0da719d86a/EventContent": {
       "en": "The Deadly Poison is now within your reach, yet the Nine-Headed Worm is already swimming back, tail swaying behind it.<NL>Turn back now, and you must begin your search anew; Press on, and you will have no choice but to clash with the Nine-Headed Worm!",
       "cn": "奇毒已触手可及，九头虫却已摆尾游回。<NL>此时若放弃，便只能从头搜寻那奇毒；若不放弃，则需直面九头虫一战！",
       "ru": "Смертельный Яд теперь в пределах вашей досягаемости, но Девятиглавый Червь уже плывет обратно, покачивая хвостом.<NL>Поверните сейчас назад, и вы должны начать свои поиски заново; продолжайте, и у вас не будет другого выбора, кроме как столкнуться с Девятиглавым червем!",
       "status": "machine",
-      "srcHash": "d0eb32cde6e84f35",
+      "srcHash": "6e533c1477b35b8a",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "80d74161-698f-413c-a681-0c0da719d86a/Option_1": {
       "en": "(Attack the Nine-Headed Worm...)",
       "cn": "（袭击九头虫……）",
       "ru": "(Атака Девятиглавого червя...)",
       "status": "machine",
-      "srcHash": "a3458088092339c6",
+      "srcHash": "443681fcc00fabea",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "80d74161-698f-413c-a681-0c0da719d86a/Option_2": {
       "en": "(Abandon the search...)",
       "cn": "（放弃寻找……）\n",
       "ru": "(Прекратите поиски...)",
       "status": "machine",
-      "srcHash": "78f27dca2db5b64f",
+      "srcHash": "0ca9bf9df874f2d9",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "2aecb8b2-065a-4586-a095-9d09d58e4465/EventContent": {
       "en": "The <Item key=奖励 str=ColorName/> is guarded by a Nine-Headed Worm. You could face it head-on, or lure it away by extracting the Poison Fruits' effects.<NL>Miasma shrouds the area, toxic mist hangs over the deep emerald pool, and the treasure flickers beneath.<NL>A Nine-Headed Worm lies by the water, billowing poisonous clouds with every breath...<NL><NL>It is an imposing beast, with nine fearsome heads and a body wreathed in poison.<NL>To claim the <Item key=奖励 str=ColorName/>, you must either defeat the Nine-Headed Worm or lure it elsewhere.",
       "cn": "九头虫正在守护<Item key=奖励 str=ColorName/>，是否要袭击，但可以提取旁边毒果的药效以吸引九头虫<NL>此地瘴雾弥漫，毒息漫潭，那珍奇之宝便隐于潭水之中，<NL>近旁更有一头九头虫安然静卧，不断喷吐毒云……<NL><NL>那异兽九首森然，目露寒芒，周身毒雾四逸，威慑逼人！<NL>欲要取走<Item key=奖励 str=ColorName/>，需将九头虫击败，或设法将其诱离。",
       "ru": "Тот <Item key=奖励 str=ColorName/> охраняется Девятиглавым червем. Вы могли бы встретиться с ним лицом к лицу или заманить его подальше, извлекая из плодов действие Яда.<NL>Все вокруг окутано миазмами, ядовитый туман висит над глубоким изумрудным бассейном, а под ним мерцают сокровища.<NL>Девятиглавый червь лежит у воды, вздымая ядовитые облака при каждом вдохе...<NL><NL>Это внушительный зверь с девятью устрашающими головами и телом, покрытым Ядом.<NL>Претендовать на <Item key=奖励 str=ColorName/>, вы должны либо победить Девятиглавого червя, либо заманить его в другое место.",
       "status": "machine",
-      "srcHash": "048037a11c70fab9",
+      "srcHash": "10483efba1fbd888",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "2aecb8b2-065a-4586-a095-9d09d58e4465/Option_1": {
       "en": "(Attack the Nine-Headed Worm...)",
       "cn": "（袭击九头虫……）",
       "ru": "(Атака Девятиглавого червя...)",
       "status": "machine",
-      "srcHash": "a3458088092339c6",
+      "srcHash": "443681fcc00fabea",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "2aecb8b2-065a-4586-a095-9d09d58e4465/Option_2": {
       "en": "(Leave for now...)",
       "cn": "（暂且离开……）\n",
       "ru": "(Оставь пока...)",
       "status": "machine",
-      "srcHash": "d3bb13049a07a030",
+      "srcHash": "abe9854aca8fb72e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "89bd2dc3-dee7-4bca-894b-b6bedb56475b/EventContent": {
       "en": "The Nine-Headed Worm patrols the area, its nine ominous heads scanning every direction.<NL>Nothing escapes its notice, and its fearsome presence keeps all creatures at bay. Will you strike?",
       "cn": "九头虫往来巡行，九首环顾四方，凶态冰冷可怖，<NL>洞悉周遭一切异动，凶威震慑四野，可要出手袭击？",
       "ru": "Девятиглавый Червь патрулирует местность, его девять зловещих голов сканируют все направления.<NL>Ничто не ускользает от его внимания, и его устрашающее присутствие держит всех существ на расстоянии. Ты нанесешь удар?",
       "status": "machine",
-      "srcHash": "84dbe73acc00abfd",
+      "srcHash": "48ecc308e705a6a5",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "89bd2dc3-dee7-4bca-894b-b6bedb56475b/Option_1": {
       "en": "(Attack the Nine-Headed Worm...)",
       "cn": "（袭击九头虫……）",
       "ru": "(Атака Девятиглавого червя...)",
       "status": "machine",
-      "srcHash": "a3458088092339c6",
+      "srcHash": "443681fcc00fabea",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "89bd2dc3-dee7-4bca-894b-b6bedb56475b/Option_2": {
       "en": "(Consider further...)",
       "cn": "（再做考虑……）\n",
       "ru": "(Рассмотрим далее...)",
       "status": "machine",
-      "srcHash": "29be3e1c3c5e0666",
+      "srcHash": "c57ed2385bb26af2",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "3475d3a5-40ae-44da-b6e4-19dc47909a99/EventContent": {
       "en": "As you approach the pool, you are greeted by a bone-chilling cold. Parting the thick foliage,<NL>you successfully acquire the <Item key=奖励 str=ColorName/> with remarkable potency...",
       "cn": "步入潭边，周遭阴寒刺骨，拨开繁密丛叶，<NL>顺利取得<Item key=奖励 str=ColorName/>，毒性猛烈……",
       "ru": "Когда вы приближаетесь к бассейну, вас встречает пронизывающий до костей холод. Раздвигая густую листву,<NL>вы успешно приобретаете <Item key=奖励 str=ColorName/> с замечательной эффективностью...",
       "status": "machine",
-      "srcHash": "21d451a6fe308bea",
+      "srcHash": "960cdd55db13d74c",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "3475d3a5-40ae-44da-b6e4-19dc47909a99/Option_1": {
       "en": "(Glad to hear that...)",
       "cn": "（如此甚好……）\n",
       "ru": "(Рад это слышать...)",
       "status": "machine",
-      "srcHash": "624c4c9984fa87c6",
+      "srcHash": "24afb28c10884643",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "033fcbb3-8923-4e0f-8d4f-42a989f4a710/EventContent": {
       "en": "As you approach the pool, you are greeted by a bone-chilling cold. Parting the thick foliage,<NL>you successfully acquire the <Item key=奖励 str=ColorName/> with remarkable potency...",
       "cn": "步入潭边，周遭阴寒刺骨，拨开繁密丛叶，<NL>顺利取得<Item key=奖励 str=ColorName/>，毒性猛烈……",
       "ru": "Когда вы приближаетесь к бассейну, вас встречает пронизывающий до костей холод. Раздвигая густую листву,<NL>вы успешно приобретаете <Item key=奖励 str=ColorName/> с замечательной эффективностью...",
       "status": "machine",
-      "srcHash": "21d451a6fe308bea",
+      "srcHash": "960cdd55db13d74c",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "033fcbb3-8923-4e0f-8d4f-42a989f4a710/Option_1": {
       "en": "(Glad to hear that...)",
       "cn": "（如此甚好……）\n",
       "ru": "(Рад это слышать...)",
       "status": "machine",
-      "srcHash": "624c4c9984fa87c6",
+      "srcHash": "24afb28c10884643",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "7c582c29-1774-4dce-a48e-43c25a439add/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "3897a8ff-016f-4e9d-ac5e-73ca0f4d7fa7/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "7743b0a0-8b7c-4d3d-98ce-6a0f7ae8128c/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "3d6e40a5-e07c-48b2-b288-65328e478adc/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     }
   }
 }

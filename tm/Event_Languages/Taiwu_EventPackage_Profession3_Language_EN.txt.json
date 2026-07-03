@@ -1,2545 +1,2545 @@
 {
   "schemaVersion": 1,
   "file": "Event_Languages/Taiwu_EventPackage_Profession3_Language_EN.txt",
-  "glossaryVersion": 8,
+  "glossaryVersion": 9,
   "units": {
     "eb5a6bb1-1a16-43db-809d-d3cc7842ff64/EventContent": {
       "en": "\"'Having a peaceful mind and relieving worries and troubles,' I will not let down the esteemed reputation of the General of Peace.<NL>Since you trust me so much, as a member of <Character key=CharacterId str=OrgName/>, I'll also support you...\"<NL><NL><color=#lightgrey>(Due to being granted an official position, <Character key=RoleTaiwu str=Name /> has gained some support from <Character key=CharacterId str=Name/>...)</color>",
       "cn": "“心怀安宁，解忧除患，我必不会辱没怀宁将军之威名，<NL>既然你如此信赖于我，我作为<Character key=CharacterId str=OrgName/>中人亦将支持于你……”<NL><NL><color=#lightgrey>（因授予官职，<Character key=RoleTaiwu str=Name />获得了<Character key=CharacterId str=Name/>的些许支持……）</color>",
       "ru": "\"Обладая умиротворенным умом и избавляясь от забот и неурядиц\", я не подведу уважаемую репутацию генерала мира.<NL>Поскольку вы так сильно доверяете мне, как члену <Character key=CharacterId str=OrgName/>, я тоже буду тебя Поддержку оказывать...\"<NL><NL><color=#lightgrey>(В связи с получением официальной должности, <Character key=RoleTaiwu str=Name /> получил некоторую Поддержку со стороны <Character key=CharacterId str=Name/>...)</color>",
       "status": "machine",
-      "srcHash": "10fad311d09ae822",
+      "srcHash": "e2c96752d8e50325",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "eb5a6bb1-1a16-43db-809d-d3cc7842ff64/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "334ad82b-6421-4032-9ebb-07bec0610ba6/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "60d5fd24-78a0-4c69-8464-6045b69e4c3c/EventContent": {
       "en": "\"These days, my brothers and sisters on the streets have been running around searching.<NL>However, in such a vast world, it's truly difficult to find <Character key=CharacterId str=Name />, the person you're looking for...\"<NL>Failed to fulfill the task from <Character key=RoleTaiwu str=Name />. The beggars scratch their heads in embarrassment, hesitant to speak any further...",
       "cn": "“这些时日，街头兄弟姐妹奔走寻觅，<NL>奈何天下之大，实在是寻不得您所欲寻找的<Character key=CharacterId str=Name />……”<NL>似因未能完成<Character key=RoleTaiwu str=Name />所托，众丐百般挠头，面有愧意，讷讷不敢多言……",
       "ru": "\"В эти дни мои братья и сестры на улицах бегали повсюду в поисках.<NL>Однако в таком огромном мире это действительно трудно найти <Character key=CharacterId str=Name />, человек, которого вы ищете...\"<NL>Не удалось выполнить задание из <Character key=RoleTaiwu str=Name /> Нищие смущенно чешут в затылках, не решаясь говорить дальше...",
       "status": "machine",
-      "srcHash": "0ff821a4f978331d",
+      "srcHash": "db5e86b2d7711e96",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "60d5fd24-78a0-4c69-8464-6045b69e4c3c/Option_1": {
       "en": "(Give up...)",
       "cn": "（只好作罢……）\n",
       "ru": "(Сдавайся...)",
       "status": "machine",
-      "srcHash": "d6e595ad368ab658",
+      "srcHash": "da473a4589cbf66e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "15e3d1fa-1b2b-45e4-b9e5-822a292e9267/EventContent": {
       "en": "\"You have actually taken a liking to <Item key=SelectItemKey str=ColorName/>. Originally, I had no intention of parting with this item, but...<NL>if you truly desire it so much, I may consider it in exchange for <ArgBox key=ConchShip_PresetKey_TradeItemPrice type=int/> <color=#yellow>Silver</color>.\"<NL>There is a hint of reluctance on <Character key=CharacterId str=Name/>'s face, as if unwilling to let go of <Item key=SelectItemKey str=ColorName/> that <Character key=RoleTaiwu str=Name /> has set <Character key=RoleTaiwu str=GenderPossessive/> sights on...",
       "cn": "“你竟是看中了<Item key=SelectItemKey str=ColorName/>，此物我本是无意相让，<NL>但……若你当真如此心仪此物，以<ArgBox key=ConchShip_PresetKey_TradeItemPrice type=int/><color=#yellow>「银钱」</color>交换，尚可考虑一二……”<NL><Character key=CharacterId str=Name/>面有难色，似是并不情愿出让<Character key=RoleTaiwu str=Name />看中的<Item key=SelectItemKey str=ColorName/>……",
       "ru": "\"Тебе действительно понравилось <Item key=SelectItemKey str=ColorName/> Изначально у меня не было намерения расставаться с этим предметом, но...<NL>если вы действительно так сильно этого желаете, я могу рассмотреть это в обмен на <ArgBox key=ConchShip_PresetKey_TradeItemPrice type=int/> <color=#yellow>Серебро</color>.\"<NL>На лице есть намек на нежелание <Character key=CharacterId str=Name/>его лицо, как будто не желающее отпускать <Item key=SelectItemKey str=ColorName/> это <Character key=RoleTaiwu str=Name /> установил <Character key=RoleTaiwu str=GenderPossessive/> прицелился...",
       "status": "machine",
-      "srcHash": "dfe23e3766bc3ccd",
+      "srcHash": "045846a40692d8db",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "15e3d1fa-1b2b-45e4-b9e5-822a292e9267/Option_1": {
       "en": "(Gladly accept...)",
       "cn": "（欣然接受……）",
       "ru": "(С радостью принимаю...)",
       "status": "machine",
-      "srcHash": "e45a64d573d1bb07",
+      "srcHash": "01b11c8fa287ca3f",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "15e3d1fa-1b2b-45e4-b9e5-822a292e9267/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "7e030fda-b3c4-4d03-b53e-b2d8b56ea5fa/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> ponders for a moment and still decides to maintain <Item key=SelectItemKey str=ColorName/>'s current appearance...",
       "cn": "<Character key=RoleTaiwu str=Name />另有所思，仍使<Item key=SelectItemKey str=ColorName/>维持现今的品貌……",
       "ru": "<Character key=RoleTaiwu str=Name /> задумывается на мгновение и все же решает сохранить <Item key=SelectItemKey str=ColorName/>его нынешний внешний вид...",
       "status": "machine",
-      "srcHash": "32d0a3c1b9a93496",
+      "srcHash": "90f1c58fa3fd9ffa",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "7e030fda-b3c4-4d03-b53e-b2d8b56ea5fa/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "b2c38eb6-111e-4af1-9e0a-161f48eaaa0f/EventContent": {
       "en": "\"These days, my brothers and sisters on the streets have been running around searching.<NL>I've only just heard that the person you are seeking, <Character key=MonthlyEvent_arg0 str=Name />, has passed away, resting in peace...\"<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> has learned that <Character key=MonthlyEvent_arg0 str=Name />'s grave is located in <MapArea key=AreaId str=Name/>...)</color>",
       "cn": "“这些时日，街头兄弟姐妹四处奔走寻觅，<NL>只听闻您所欲寻找的<Character key=MonthlyEvent_arg0 str=Name />已是身亡命殒，早已入土为安……”<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />得知了<Character key=MonthlyEvent_arg0 str=Name />坟墓在<MapArea key=AreaId str=Name/>……）</color>",
       "ru": "\"В эти дни мои братья и сестры на улицах бегали повсюду в поисках.<NL>Я только что услышал, что человек, которого вы ищете, <Character key=MonthlyEvent_arg0 str=Name />, скончался, покоясь с миром...\"<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> узнал, что <Character key=MonthlyEvent_arg0 str=Name />его могила находится в <MapArea key=AreaId str=Name/>...)</color>",
       "status": "machine",
-      "srcHash": "1708b9cf73f98ff1",
+      "srcHash": "d426a07bd934a2c4",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "b2c38eb6-111e-4af1-9e0a-161f48eaaa0f/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "1b47fb64-95c2-420a-a58a-c54b7137fef2/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f407f6b8-2462-460e-81c7-4cab5a147866/EventContent": {
       "en": "<Character key=CharacterId str=Name/> sees <Character key=RoleTaiwu str=Name/>'s dignified appearance,<NL>looking extraordinary and seeming to have important matters to discuss with <Character key=CharacterId str=Name/>...",
       "cn": "<Character key=CharacterId str=Name/>只见<Character key=RoleTaiwu str=Name/>面色雍容，自是器宇不凡，<NL>似有要事意欲与<Character key=CharacterId str=Name/>说……",
       "ru": "<Character key=CharacterId str=Name/> видит <Character key=RoleTaiwu str=Name/>его достойный внешний вид,<NL>выглядишь необычно и, похоже, тебе нужно обсудить с кем-то важные вопросы <Character key=CharacterId str=Name/>...",
       "status": "machine",
-      "srcHash": "3f19f603eefd194d",
+      "srcHash": "511803f5d0a42b7a",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f407f6b8-2462-460e-81c7-4cab5a147866/Option_1": {
       "en": "(Become a respected official of the empire...)",
       "cn": "（拜相封侯……）",
       "ru": "(Станьте уважаемым чиновником империи...)",
       "status": "machine",
-      "srcHash": "84fb3d4550b23d54",
+      "srcHash": "4636bdc069ac3b05",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f407f6b8-2462-460e-81c7-4cab5a147866/Option_2": {
       "en": "(Take off the armor and retire...)",
       "cn": "（卸甲归田……）",
       "ru": "(Снимай Броню и уходи...)",
       "status": "machine",
-      "srcHash": "8ec0d60b91e0132d",
+      "srcHash": "855ab967a36d35a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f407f6b8-2462-460e-81c7-4cab5a147866/Option_3": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "49335b86-94a0-4cab-933f-77a6682ff83b/EventContent": {
       "en": "\"Since we have come to this point, I have nothing more to say.<NL>It seems that there is no filth in the world that requires my purification...\"<NL>Nodding and indicating compliance, <Character key=CharacterId str=Name/> follows <Character key=RoleTaiwu str=Name />'s suggestion, lays down <Character key=CharacterId str=GenderPossessive/> armor and retires...<NL><NL><color=#lightgrey>(The General of Conquest, <Character key=CharacterId str=Name/>, has retired but may once again be appointed to this position by <Character key=RoleTaiwu str=Name />...)</color>",
       "cn": "“既然话已至此，我亦无话可说，<NL>想来此间已无滓秽需我荡涤……”<NL><Character key=CharacterId str=Name/>颔首道，听从<Character key=RoleTaiwu str=Name />之意，卸甲归田……<NL><NL><color=#lightgrey>（平虏将军<Character key=CharacterId str=Name/>已卸甲归田，<Character key=RoleTaiwu str=Name />可再次授予该官职……）</color>",
       "ru": "\"Поскольку мы подошли к этому моменту, мне больше нечего сказать.<NL>Кажется, что в мире нет такой грязи, которая требовала бы моего очищения...\"<NL>Кивок в знак согласия, <Character key=CharacterId str=Name/> следует <Character key=RoleTaiwu str=Name />предложение, излагающее <Character key=CharacterId str=GenderPossessive/> Броня и удаляется...<NL><NL><color=#lightgrey>(Полководец завоеваний, <Character key=CharacterId str=Name/>, вышел в отставку , но может быть вновь назначен на эту должность <Character key=RoleTaiwu str=Name />...)</color>",
       "status": "machine",
-      "srcHash": "ab6f4b5858f81251",
+      "srcHash": "95c40d33ebeab598",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "49335b86-94a0-4cab-933f-77a6682ff83b/Option_1": {
       "en": "(Other topics...)",
       "cn": "（如此便好……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "724d03bb-acab-447a-a8b9-5ec1180d1e8b/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "fc9530fa-c827-4c9e-8456-9bbd4643d6d8/EventContent": {
       "en": "\"Such words and actions, do you still understand propriety, righteousness, integrity, and shame?\"<NL>Seeing <Character key=RoleTaiwu str=Name />'s improper behavior and vulgar manners, <Character key=CharacterId str=Name/> is displeased and immediately puts on a stern expression,<NL>intending to debate <Character key=RoleTaiwu str=Name /> in detail...",
       "cn": "“如此言行，你可还知礼义廉耻……”<NL><Character key=CharacterId str=Name/>见<Character key=RoleTaiwu str=Name />言行无状，粗鄙俚俗，心中不忿，<NL>当即便正颜厉色，欲与<Character key=RoleTaiwu str=Name />细细分辩……",
       "ru": "\"Такие слова и действия, ты все еще понимаешь приличия, праведность, честность и стыд?\"<NL>Видя <Character key=RoleTaiwu str=Name />неподобающее поведение и вульгарные манеры, <Character key=CharacterId str=Name/> недоволен и тут же напускает на себя суровое выражение,<NL>намереваясь Диспут <Character key=RoleTaiwu str=Name /> в деталях...",
       "status": "machine",
-      "srcHash": "5da432fcfbdf3200",
+      "srcHash": "6b96fadb90bde7c4",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "fc9530fa-c827-4c9e-8456-9bbd4643d6d8/Option_1": {
       "en": "(Debate with them!)",
       "cn": "（与之一辩！）\n",
       "ru": "(Диспут с ними!)",
       "status": "machine",
-      "srcHash": "94e1b660e72c0392",
+      "srcHash": "81a0514401abe15a",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f48822ea-1c5b-4fbd-b718-cc6ed673dbdb/EventContent": {
       "en": "\"We're at your service and are still inquiring into the whereabouts of the person you are seeking - <ArgBox key=LookforCharacter type=string/>.<NL>If you change your mind and wish to seek someone else, just give the word, and it shall be done...\"<NL>Hearing about <Character key=RoleTaiwu str=Name />'s intention to search for someone, beggars from the market have volunteered to assist,<NL>waiting only for <Character key=RoleTaiwu str=Name />'s command to enter the market and gather information...",
       "cn": "“小的们听您使令，还在探听前头您要找寻的<ArgBox key=LookforCharacter type=string/>之下落，<NL>要是改了主意想另找别人，只待您发话便是……”<NL>听闻<Character key=RoleTaiwu str=Name />意欲寻人，自有市井乞儿自告奋勇、听命而来，<NL>只待<Character key=RoleTaiwu str=Name />一言，便可窜入坊市打探消息……",
       "ru": "\"Мы к вашим услугам и все еще выясняем местонахождение человека, которого вы ищете - <ArgBox key=LookforCharacter type=string/>.<NL>Если ты передумаешь и захочешь найти кого-нибудь другого, просто скажи, и это будет сделано...\"<NL>Услышав о <Character key=RoleTaiwu str=Name />намереваясь кого-то разыскать, нищие с рынка вызвались помочь,<NL>ожидая только <Character key=RoleTaiwu str=Name />это команда выйти на рынок и собрать информацию...",
       "status": "machine",
-      "srcHash": "4e961d121c3334c4",
+      "srcHash": "182834aa5ac7724c",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f48822ea-1c5b-4fbd-b718-cc6ed673dbdb/Option_1": {
       "en": "(Look for someone...)",
       "cn": "（寻人引见……）",
       "ru": "(Ищи кого-нибудь...)",
       "status": "machine",
-      "srcHash": "e802d3c85a7a51e0",
+      "srcHash": "a29890ef49d6ca4e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f48822ea-1c5b-4fbd-b718-cc6ed673dbdb/Option_2": {
       "en": "(Have no such intention...)",
       "cn": "（并无此意……）\n",
       "ru": "(Не имею такого намерения...)",
       "status": "machine",
-      "srcHash": "f66b1998b6df3d86",
+      "srcHash": "9082d1067876cba0",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "029a96d5-6df4-48ba-b6dc-bb3bf499f0aa/EventContent": {
       "en": "The city lord of <MapArea key=AreaId str=Name/> is aware of <Character key=RoleTaiwu str=Name/>'s visit, and has shown considerable hospitality.<NL>Seeing that <Character key=RoleTaiwu str=Name/> carries the demeanor of a noble reincarnation, the lord has received <Character key=RoleTaiwu str=GenderObject/> with the utmost care and respect...",
       "cn": "<MapArea key=AreaId str=Name/>城主既知<Character key=RoleTaiwu str=Name/>来访，自有几分殷勤，<NL>只因<Character key=RoleTaiwu str=Name/>俨然再世王侯，更是悉心接待，诚敬不已……",
       "ru": "Городской владыка <MapArea key=AreaId str=Name/> осознает <Character key=RoleTaiwu str=Name/>с визитом и проявил значительное гостеприимство.<NL>Видя, что <Character key=RoleTaiwu str=Name/> обладающий поведением благородного перевоплощения, господь получил <Character key=RoleTaiwu str=GenderObject/> с предельной заботой и уважением...",
       "status": "machine",
-      "srcHash": "23a6284e6d0570b7",
+      "srcHash": "d26e0022fcadd450",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "029a96d5-6df4-48ba-b6dc-bb3bf499f0aa/Option_1": {
       "en": "(I have heard that the meat dishes in this place are exceptionally delicious...)",
       "cn": "（听闻此地荤食甚是美味……）",
       "ru": "(Я слышал, что мясные блюда в этом заведении исключительно вкусные...)",
       "status": "machine",
-      "srcHash": "679996d3a280a8a4",
+      "srcHash": "dd78ebab717e6265",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "029a96d5-6df4-48ba-b6dc-bb3bf499f0aa/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "27b43a01-08a1-43a5-9db6-9d763e98df92/EventContent": {
       "en": "\"These days, my brothers and sisters on the streets have been running around searching.<NL>Although we have found the person you're looking for, <Character key=CharacterId str=Name/>,<NL>we cannot find a way to bring this person before you. It is truly a failure on our part.\"<NL>Failed to fulfill the task from <Character key=RoleTaiwu str=Name />, the beggars scratch their heads in embarrassment, hesitant to speak any further...",
       "cn": "“这些时日，街头兄弟姐妹四处奔走寻觅，<NL>虽是寻得了您所欲寻找的<Character key=CharacterId str=Name/>，<NL>却找不到法子将此人带来您眼前，实在是小的们办事不力……”<NL>似因未能完成<Character key=RoleTaiwu str=Name />所托，众丐百般挠头，面有愧意，讷讷不敢多言……",
       "ru": "\"В эти дни мои братья и сестры на улицах бегали повсюду в поисках.<NL>Хотя мы нашли того человека, которого вы ищете, <Character key=CharacterId str=Name/>,<NL>мы не можем найти способ представить этого человека перед вами. Это действительно провал с нашей стороны\".<NL>Не удалось выполнить задание из <Character key=RoleTaiwu str=Name /> Нищие смущенно чешут в затылках, не решаясь говорить дальше...",
       "status": "machine",
-      "srcHash": "6e51c52cd3a78c4e",
+      "srcHash": "db5469cce9e767f4",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "27b43a01-08a1-43a5-9db6-9d763e98df92/Option_1": {
       "en": "(Give up...)",
       "cn": "（只好作罢……）\n",
       "ru": "(Сдавайся...)",
       "status": "machine",
-      "srcHash": "d6e595ad368ab658",
+      "srcHash": "da473a4589cbf66e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "476d26cb-df39-4f49-a890-12d075087b0f/EventContent": {
       "en": "The city lord of <MapArea key=AreaId str=Name/> is aware of <Character key=RoleTaiwu str=Name/>'s visit, and has shown considerable hospitality.<NL>Seeing that <Character key=RoleTaiwu str=Name/> carries the demeanor of a noble reincarnation, the lord has received <Character key=RoleTaiwu str=GenderObject/> with the utmost care and respect...",
       "cn": "<MapArea key=AreaId str=Name/>城主既知<Character key=RoleTaiwu str=Name/>来访，自有几分殷勤，<NL>只因<Character key=RoleTaiwu str=Name/>俨然再世王侯，更是悉心接待，诚敬不已……",
       "ru": "Городской владыка <MapArea key=AreaId str=Name/> осознает <Character key=RoleTaiwu str=Name/>с визитом и проявил значительное гостеприимство.<NL>Видя, что <Character key=RoleTaiwu str=Name/> обладающий поведением благородного перевоплощения, господь получил <Character key=RoleTaiwu str=GenderObject/> с предельной заботой и уважением...",
       "status": "machine",
-      "srcHash": "23a6284e6d0570b7",
+      "srcHash": "d26e0022fcadd450",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "476d26cb-df39-4f49-a890-12d075087b0f/Option_1": {
       "en": "(I have heard that this place has abundant resources...)",
       "cn": "（听闻此地材料甚是丰裕……）",
       "ru": "(Я слышал, что это место обладает богатыми Ресурсами...)",
       "status": "machine",
-      "srcHash": "824503fdab2a9c6a",
+      "srcHash": "914536d7a4849474",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "476d26cb-df39-4f49-a890-12d075087b0f/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "1287f8c0-f109-421d-9060-eea2fd41bcd5/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> examines closely and discerns carefully,<NL>and in the blink of an eye, it becomes apparent to <Character key=RoleTaiwu str=GenderObject/> that this <Item key=SelectItemKey str=ColorName/> has exceptional vivacity and is extraordinary.<NL>However, it is difficult to determine its appearance, and it is unknown whether it has the potential to evolve...",
       "cn": "<Character key=RoleTaiwu str=Name />细细审视，端详辨看，<NL>眨眼便知，此<Item key=SelectItemKey str=ColorName/>乃是神采非凡，不同凡品，<NL>却端的看不出品相如何，不知可有进化之能……",
       "ru": "<Character key=RoleTaiwu str=Name /> внимательно изучает и тщательно различает,<NL>и в мгновение ока это становится очевидным для <Character key=RoleTaiwu str=GenderObject/> что это <Item key=SelectItemKey str=ColorName/> обладает исключительной живостью и экстраординарен.<NL>Однако трудно определить его внешний вид, и неизвестно, есть ли у него Потенциал для эволюции...",
       "status": "machine",
-      "srcHash": "22aa632558b27f24",
+      "srcHash": "7a397be2969be08d",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "1287f8c0-f109-421d-9060-eea2fd41bcd5/Option_1": {
       "en": "(Feeling helpless...)",
       "cn": "（无可奈何……）\n",
       "ru": "(Чувствуя себя беспомощным...)",
       "status": "machine",
-      "srcHash": "d4fcaf57d9ff3c39",
+      "srcHash": "32c793ac0ec8ba10",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "8423153f-7492-454c-834c-004ee930a863/EventContent": {
       "en": "\"Such... is the case... It's a pity, but I am currently unable to use this medicine.<NL>I might just leave it alone for now...\"<NL><Character key=CharacterId str=Name/> is unable to use <Item key=SelectItemKey str=ColorName/> at the moment. <Character key=CharacterId str=GenderSubject/> can only politely decline <Character key=RoleTaiwu str=Name/>'s kind gesture...",
       "cn": "“如此……这般……可惜，现下我无力施用此药，<NL>还是……暂且作罢……”<NL><Character key=CharacterId str=Name/>暂时无法使用<Item key=SelectItemKey str=ColorName/>，只得婉拒了<Character key=RoleTaiwu str=Name/>的好意……",
       "ru": "- Такой... это тот самый случай... Жаль, но в настоящее время я не могу принимать это лекарство.<NL>Я мог бы просто пока оставить это в покое...\"<NL><Character key=CharacterId str=Name/> не удается использовать <Item key=SelectItemKey str=ColorName/> на данный момент. <Character key=CharacterId str=GenderSubject/> могу только вежливо отказаться <Character key=RoleTaiwu str=Name/>это добрый жест...",
       "status": "machine",
-      "srcHash": "6f4c523d80255fc8",
+      "srcHash": "08ec17d434f369de",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "8423153f-7492-454c-834c-004ee930a863/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "66bb0b2f-4abf-4cdd-beb0-343f28c5137c/EventContent": {
       "en": "The city lord of <MapArea key=AreaId str=Name/> is aware of <Character key=RoleTaiwu str=Name/>'s visit, and has shown considerable hospitality.<NL>Seeing that <Character key=RoleTaiwu str=Name/> carries the demeanor of a noble reincarnation, the lord has received <Character key=RoleTaiwu str=GenderObject/> with the utmost care and respect...",
       "cn": "<MapArea key=AreaId str=Name/>城主既知<Character key=RoleTaiwu str=Name/>来访，自有几分殷勤，<NL>只因<Character key=RoleTaiwu str=Name/>俨然再世王侯，更是悉心接待，诚敬不已……",
       "ru": "Городской владыка <MapArea key=AreaId str=Name/> осознает <Character key=RoleTaiwu str=Name/>с визитом и проявил значительное гостеприимство.<NL>Видя, что <Character key=RoleTaiwu str=Name/> обладающий поведением благородного перевоплощения, господь получил <Character key=RoleTaiwu str=GenderObject/> с предельной заботой и уважением...",
       "status": "machine",
-      "srcHash": "23a6284e6d0570b7",
+      "srcHash": "d26e0022fcadd450",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "66bb0b2f-4abf-4cdd-beb0-343f28c5137c/Option_1": {
       "en": "(I have heard that the concoctions here are literal miracles...)",
       "cn": "（听闻此地丹药甚是灵妙……）",
       "ru": "(Я слышал, что здешние отвары буквально творят чудеса...)",
       "status": "machine",
-      "srcHash": "83628c8da8608ffa",
+      "srcHash": "8f1b564b92c6855e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "66bb0b2f-4abf-4cdd-beb0-343f28c5137c/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "6f1d53f6-caa3-4523-94b3-82a4987a0d96/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "025caea9-558d-4a27-88bd-e228894a5de3/EventContent": {
       "en": "\"Since we have come to this point, I have nothing more to say.<NL>I shall bid farewell to the azure skies and lofty heights...\"<NL>Nodding and indicating compliance, <Character key=CharacterId str=Name/> follows <Character key=RoleTaiwu str=Name />'s suggestion and lays down <Character key=CharacterId str=GenderPossessive/> armor and retires...<NL><NL><color=#lightgrey>(The General of Suppression, <Character key=CharacterId str=Name/>, has retired but may once again be appointed to this position by <Character key=RoleTaiwu str=Name />...)</color>",
       "cn": "“既然话已至此，我亦无话可说，<NL>我这便与这青云碧霄作别……”<NL><Character key=CharacterId str=Name/>颔首道，听从<Character key=RoleTaiwu str=Name />之意，卸甲归田……<NL><NL><color=#lightgrey>（镇云将军<Character key=CharacterId str=Name/>已卸甲归田，<Character key=RoleTaiwu str=Name />可再次授予该官职……）</color>",
       "ru": "\"Поскольку мы подошли к этому моменту, мне больше нечего сказать.<NL>Я попрощаюсь с лазурным небом и высокими высотами...\"<NL>Кивок в знак согласия, <Character key=CharacterId str=Name/> следует <Character key=RoleTaiwu str=Name />это предложение и излагает <Character key=CharacterId str=GenderPossessive/> Броня и удаляется...<NL><NL><color=#lightgrey>(Генерал подавления, <Character key=CharacterId str=Name/>, вышел в отставку , но может быть вновь назначен на эту должность <Character key=RoleTaiwu str=Name />...)</color>",
       "status": "machine",
-      "srcHash": "b3cfdfc3cc6914ca",
+      "srcHash": "c80a6c27a729fdeb",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "025caea9-558d-4a27-88bd-e228894a5de3/Option_1": {
       "en": "(Other topics...)",
       "cn": "（如此便好……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f3f1d395-69af-4f36-bf62-1b6a1754ce87/EventContent": {
       "en": "The city lord of <MapArea key=AreaId str=Name/> is aware of <Character key=RoleTaiwu str=Name/>'s visit, and has shown considerable hospitality.<NL>Seeing that <Character key=RoleTaiwu str=Name/> carries the demeanor of a noble reincarnation, the lord has received <Character key=RoleTaiwu str=GenderObject/> with the utmost care and respect...",
       "cn": "<MapArea key=AreaId str=Name/>城主既知<Character key=RoleTaiwu str=Name/>来访，自有几分殷勤，<NL>只因<Character key=RoleTaiwu str=Name/>俨然再世王侯，更是悉心接待，诚敬不已……",
       "ru": "Городской владыка <MapArea key=AreaId str=Name/> осознает <Character key=RoleTaiwu str=Name/>с визитом и проявил значительное гостеприимство.<NL>Видя, что <Character key=RoleTaiwu str=Name/> обладающий поведением благородного перевоплощения, господь получил <Character key=RoleTaiwu str=GenderObject/> с предельной заботой и уважением...",
       "status": "machine",
-      "srcHash": "23a6284e6d0570b7",
+      "srcHash": "d26e0022fcadd450",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f3f1d395-69af-4f36-bf62-1b6a1754ce87/Option_1": {
       "en": "(I have heard that this place has numerous books...)",
       "cn": "（听闻此地书籍甚是浩繁……）",
       "ru": "(Я слышал, что в этом месте есть множество книг...)",
       "status": "machine",
-      "srcHash": "ca4af27ad608c5cd",
+      "srcHash": "1c2b1e01e8567415",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f3f1d395-69af-4f36-bf62-1b6a1754ce87/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "d0dd6e9d-f7f1-4dc8-87cb-93ce7313bbd4/EventContent": {
       "en": "After <Character key=RoleTaiwu str=Name /> finishes making <Character key=RoleTaiwu str=GenderPossessive/> selections,<NL><ArgBox key=MerchantName type=string/> bids farewell to <Character key=RoleTaiwu str=GenderObject/> with a bow and fist-and-palm salute, and leaves amidst the hustle and bustle of carriages and horses, with the distant mountains and rivers stretching far and wide...",
       "cn": "待得<Character key=RoleTaiwu str=Name />挑选完毕，<NL><ArgBox key=MerchantName type=string/>便拱手作别，车马汤汤，山水迢迢，如此离开了此处……",
       "ru": "После <Character key=RoleTaiwu str=Name /> заканчивает изготовление <Character key=RoleTaiwu str=GenderPossessive/> выборы,<NL><ArgBox key=MerchantName type=string/> прощается с <Character key=RoleTaiwu str=GenderObject/> с поклоном и салютом кулаком и ладонью, и уезжает среди шума и суеты экипажей и лошадей, с далекими горами и реками, простирающимися далеко и широко...",
       "status": "machine",
-      "srcHash": "4dea0d39a158cd9f",
+      "srcHash": "543935facb5db3e3",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "d0dd6e9d-f7f1-4dc8-87cb-93ce7313bbd4/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "47b76d4d-3700-40b3-b53d-8889acf9b105/EventContent": {
       "en": "\"Since we have come to this point, I have nothing more to say.<NL>But who knows who will have a reputation later on that echoes far and wide?\"<NL>Nodding and indicating compliance, <Character key=CharacterId str=Name/> follows <Character key=RoleTaiwu str=Name />'s suggestion, lays down <Character key=CharacterId str=GenderPossessive/> armor and retires...<NL><NL><color=#lightgrey>(The General of Might, <Character key=CharacterId str=Name/>, has retired but may once again be appointed to this position by <Character key=RoleTaiwu str=Name />...)</color>",
       "cn": "“既然话已至此，我亦无话可说，<NL>却不知今后何人，能有威名远传……”<NL><Character key=CharacterId str=Name/>颔首道，听从<Character key=RoleTaiwu str=Name />之意，卸甲归田……<NL><NL><color=#lightgrey>（震威将军<Character key=CharacterId str=Name/>已卸甲归田，<Character key=RoleTaiwu str=Name />可再次授予该官职……）</color>",
       "ru": "\"Поскольку мы подошли к этому моменту, мне больше нечего сказать.<NL>Но кто знает, у кого позже будет репутация, которая разнесется по всему миру?\"<NL>Кивок в знак согласия, <Character key=CharacterId str=Name/> следует <Character key=RoleTaiwu str=Name />предложение, излагающее <Character key=CharacterId str=GenderPossessive/> Броня и удаляется...<NL><NL><color=#lightgrey>(Могущественный генерал, <Character key=CharacterId str=Name/>, вышел в отставку , но может быть вновь назначен на эту должность <Character key=RoleTaiwu str=Name />...)</color>",
       "status": "machine",
-      "srcHash": "e90cfe1d6fc37d87",
+      "srcHash": "c79c22b170178f0d",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "47b76d4d-3700-40b3-b53d-8889acf9b105/Option_1": {
       "en": "(Other topics...)",
       "cn": "（如此便好……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f110b174-fa3a-422d-a7b4-187bc9a4a55c/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> knocks down <Character key=CharacterId str=Name/><NL>and ties up <Character key=CharacterId str=Name/>...",
       "cn": "<Character key=RoleTaiwu str=Name />将<Character key=CharacterId str=Name/>击倒在地，<NL>并将<Character key=CharacterId str=Name/>五花大绑……",
       "ru": "<Character key=RoleTaiwu str=Name /> сбивает с ног <Character key=CharacterId str=Name/><NL>и связывает <Character key=CharacterId str=Name/>...",
       "status": "machine",
-      "srcHash": "89208fb363719940",
+      "srcHash": "375a1158038cbbdf",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f110b174-fa3a-422d-a7b4-187bc9a4a55c/Option_1": {
       "en": "(Detain publicly!)",
       "cn": "（公开关押！）",
       "ru": "(Задерживать публично!)",
       "status": "machine",
-      "srcHash": "3fa2ebadf192bf85",
+      "srcHash": "c66378a316512ba7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f110b174-fa3a-422d-a7b4-187bc9a4a55c/Option_2": {
       "en": "(Detain secretly...)",
       "cn": "（秘密关押……）\n",
       "ru": "(Тайно задержать...)",
       "status": "machine",
-      "srcHash": "fdb1eeb063765d70",
+      "srcHash": "c44187a938354807",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "58a868ea-23e6-4a25-9262-9c87009584eb/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> sees that <Character key=CharacterId str=Name /> is also present and becomes lost in thought.<NL><Character key=RoleTaiwu str=GenderSubject/> believes that <Character key=RoleTaiwu str=GenderSubject/> just needs to make a fuss to drive this person away...",
       "cn": "<Character key=RoleTaiwu str=Name />见得<Character key=CharacterId str=Name />同在此地，若有所思，<NL>想必只需胡言乱闹一番，便可驱赶此人……",
       "ru": "<Character key=RoleTaiwu str=Name /> видит, что <Character key=CharacterId str=Name /> также присутствует и погружается в размышления.<NL><Character key=RoleTaiwu str=GenderSubject/> верит, что <Character key=RoleTaiwu str=GenderSubject/> просто нужно поднять шум, чтобы прогнать этого человека прочь...",
       "status": "machine",
-      "srcHash": "468316d76be02760",
+      "srcHash": "c84d1e41b10f9b49",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "58a868ea-23e6-4a25-9262-9c87009584eb/Option_1": {
       "en": "(Let's make some noise...)",
       "cn": "（这便行事……）",
       "ru": "(Давайте немного пошумим...)",
       "status": "machine",
-      "srcHash": "3e4f375aef1fb253",
+      "srcHash": "af7f9f896138bffa",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "58a868ea-23e6-4a25-9262-9c87009584eb/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其他话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "0ad1112e-f4d7-4d73-9c1f-2960c2569a4b/EventContent": {
       "en": "Failing to defeat <Character key=RoleTaiwu str=Name />, <Character key=CharacterId str=Name/> successfully evades <Character key=RoleTaiwu str=Name />'s relentless pursuit after considerable effort...",
       "cn": "<Character key=CharacterId str=Name/>不敌<Character key=RoleTaiwu str=Name />，费了许多功夫才终于甩脱了<Character key=RoleTaiwu str=Name />……",
       "ru": "Неспособность победить <Character key=RoleTaiwu str=Name />, <Character key=CharacterId str=Name/> успешно уклоняется <Character key=RoleTaiwu str=Name />неустанное стремление после значительных усилий...",
       "status": "machine",
-      "srcHash": "8b4d59316c03f82b",
+      "srcHash": "723b443fed09f97c",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "0ad1112e-f4d7-4d73-9c1f-2960c2569a4b/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "7631476d20651b6a",
+      "srcHash": "d3562d75037a15a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "35525437-dd66-4c76-aad8-12e44810fcdc/EventContent": {
       "en": "\"You said that I possess a valuable relic and have asked how much I would sell it for. What exactly do you mean by that?\"<NL>After listening to what <Character key=RoleTaiwu str=Name /> says, <Character key=CharacterId str=Name/> feels very confused and asks...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> can purchase one item from <Character key=CharacterId str=Name/> if <Character key=RoleTaiwu str=GenderSubject/> is willing to pay a premium...)</color>",
       "cn": "“你说我身怀宝物，还问我意欲出价几何，此话究竟是何意？”<NL><Character key=CharacterId str=Name/>闻听<Character key=RoleTaiwu str=Name />之言，煞是不解，不由如此出言询问……<NL><NL><color=#lightgrey>（若出以高价，<Character key=RoleTaiwu str=Name />可购得<Character key=CharacterId str=Name/>身上的一件物品……）</color>",
       "ru": "- Вы сказали, что у меня есть ценная Реликвия, и спросили, за сколько я бы ее продал. Что именно ты хочешь этим сказать?\"<NL>После прослушивания того, что <Character key=RoleTaiwu str=Name /> говорит, <Character key=CharacterId str=Name/> чувствует себя очень смущенным и спрашивает...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> можете приобрести один товар у <Character key=CharacterId str=Name/> если <Character key=RoleTaiwu str=GenderSubject/> готов заплатить премию...)</color>",
       "status": "machine",
-      "srcHash": "75d905da029f4452",
+      "srcHash": "b093369142078ab3",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "35525437-dd66-4c76-aad8-12e44810fcdc/Option_1": {
       "en": "(Choose the desired item...)",
       "cn": "（指出物品……）",
       "ru": "(Выберите нужный элемент...)",
       "status": "machine",
-      "srcHash": "1fc1c3c003e11f0b",
+      "srcHash": "e31d3ac20707d0c7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "35525437-dd66-4c76-aad8-12e44810fcdc/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "1d11ed25-e813-4c04-a02e-9c9e80b61d35/EventContent": {
       "en": "\"As you wish! Just tell me the name of the person you're looking for and give the order.<NL>There's nothing that my brothers and sisters on the street and I can't accomplish...\"",
       "cn": "“得您的令！要寻那人姓甚名谁，您尽管吩咐，<NL>再没有我街头兄弟姐妹办不成的事……”",
       "ru": "- Как пожелаете! Просто скажите мне имя человека, которого вы ищете, и отдайте приказ.<NL>Нет ничего такого, чего бы я и мои братья и сестры на улице не смогли бы достичь...\"",
       "status": "machine",
-      "srcHash": "d475ef37c6a29c3f",
+      "srcHash": "c33108f381272ddc",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "1d11ed25-e813-4c04-a02e-9c9e80b61d35/Option_1": {
       "en": "Confirm",
       "cn": "确定",
       "ru": "Подтверждать",
       "status": "machine",
-      "srcHash": "53e9412d939599b4",
+      "srcHash": "cdfebf3af1ee1402",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "1d11ed25-e813-4c04-a02e-9c9e80b61d35/Option_2": {
       "en": "Cancel",
       "cn": "取消\n",
       "ru": "Отменить",
       "status": "machine",
-      "srcHash": "f8d7e285747152a8",
+      "srcHash": "adaa2cd2da491fb1",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "893c3071-70c4-40a8-9729-d5697abd0144/EventContent": {
       "en": "Failing to defeat <Character key=CharacterId str=Name/>, <Character key=RoleTaiwu str=Name /> successfully evades <Character key=CharacterId str=Name/>'s relentless pursuit after considerable effort...",
       "cn": "<Character key=RoleTaiwu str=Name />不敌<Character key=CharacterId str=Name/>，费了许多功夫才终于甩脱了<Character key=CharacterId str=Name/>……",
       "ru": "Неспособность победить <Character key=CharacterId str=Name/>, <Character key=RoleTaiwu str=Name /> успешно уклоняется <Character key=CharacterId str=Name/>неустанное стремление после значительных усилий...",
       "status": "machine",
-      "srcHash": "11337970616cc43c",
+      "srcHash": "c8f6850ee19cc86a",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "893c3071-70c4-40a8-9729-d5697abd0144/Option_1": {
       "en": "(Flee in a panic...)",
       "cn": "（落荒而逃……）\n",
       "ru": "(Бегут в панике...)",
       "status": "machine",
-      "srcHash": "f0757f38568a6899",
+      "srcHash": "3ba21f961d44b2e1",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "ae6f038f-7205-4922-a901-a8bcf430c44f/EventContent": {
       "en": "\"Interesting, interesting, let me watch this for a while longer...\"<NL><Character key=CharacterId str=Name/> sees the uncouth behavior and crude manners of <Character key=RoleTaiwu str=Name />,<NL>surprisingly, instead of getting angry, <Character key=RoleTaiwu str=GenderSubject/> actually finds it amusing and starts watching with great interest...",
       "cn": "“有趣，有趣，且叫我再多看几回……”<NL><Character key=CharacterId str=Name/>见<Character key=RoleTaiwu str=Name />言行无状，粗鄙俚俗，不怒反笑，<NL>竟是饶有兴致一般，细细打量起来……",
       "ru": "\"Интересно, интересно, дай мне понаблюдать за этим еще немного...\"<NL><Character key=CharacterId str=Name/> видит неотесанное поведение и грубые манеры <Character key=RoleTaiwu str=Name />,<NL>удивительно, но вместо того, чтобы разозлиться, <Character key=RoleTaiwu str=GenderSubject/> на самом деле находит это забавным и начинает наблюдать с большим интересом...",
       "status": "machine",
-      "srcHash": "03a28e81f99c4835",
+      "srcHash": "b2f731dda4fa8af7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "ae6f038f-7205-4922-a901-a8bcf430c44f/Option_1": {
       "en": "(Give up...)",
       "cn": "（只好作罢……）\n",
       "ru": "(Сдавайся...)",
       "status": "machine",
-      "srcHash": "d6e595ad368ab658",
+      "srcHash": "da473a4589cbf66e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "d5c2ab13-9951-4502-b2f0-009bbbe21647/EventContent": {
       "en": "nan",
       "cn": "",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "d5c2ab13-9951-4502-b2f0-009bbbe21647/Option_1": {
       "en": "Confirm",
       "cn": "确定",
       "ru": "Подтверждать",
       "status": "machine",
-      "srcHash": "53e9412d939599b4",
+      "srcHash": "cdfebf3af1ee1402",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "d5c2ab13-9951-4502-b2f0-009bbbe21647/Option_2": {
       "en": "Return",
       "cn": "返回\n",
       "ru": "Возвращать",
       "status": "machine",
-      "srcHash": "4dc488153f3124ae",
+      "srcHash": "28657279b50e2e5b",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "51909004-b87d-43a8-8314-c4c2b16069e4/EventContent": {
       "en": "\"The past few days, my street brothers and sisters have been searching everywhere,<NL>and indeed, they've found the person you've been looking for - <Character key=CharacterId str=Name/>!<NL>Look, we've brought this person here now...\"<NL><NL>One day, a few beggars escort someone to <Character key=RoleTaiwu str=Name />, surrounding the person on all sides.<NL>Hearing the proud words of the beggars, it turns out that they have already found <Character key=CharacterId str=Name/> and have come for a meeting...",
       "cn": "“这些时日，街头兄弟姐妹四处奔走寻觅，<NL>果真寻得了您所欲寻找的<Character key=CharacterId str=Name/>！<NL>您瞧瞧，小的们眼下已将此人带来了此地……”<NL><NL>这一日，忽有几名乞丐引得一人，簇拥相携，蜂拥而至，<NL>听得众丐得意之言，原是已为<Character key=RoleTaiwu str=Name />寻得了<Character key=CharacterId str=Name/>，前来相见……",
       "ru": "\"Последние несколько дней мои уличные братья и сестры искали повсюду,<NL>и действительно, они нашли того человека, которого вы искали - <Character key=CharacterId str=Name/>!<NL>Послушайте, мы сейчас привели сюда этого человека...\"<NL><NL>Однажды несколько нищих сопровождают кого-то в <Character key=RoleTaiwu str=Name />, окружающий человека со всех сторон.<NL>Услышав гордые слова нищих, оказывается, что они уже нашли <Character key=CharacterId str=Name/> и пришли на встречу...",
       "status": "machine",
-      "srcHash": "ef968e5635958e42",
+      "srcHash": "40108c729a1cd99f",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "51909004-b87d-43a8-8314-c4c2b16069e4/Option_1": {
       "en": "(Observe the person...)",
       "cn": "（观察此人……）",
       "ru": "(Понаблюдайте за человеком...)",
       "status": "machine",
-      "srcHash": "49b52107f1c6b1ac",
+      "srcHash": "48516f7db0ef97e5",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "51909004-b87d-43a8-8314-c4c2b16069e4/Option_2": {
       "en": "(Appreciate the help...)",
       "cn": "（感激不已……）",
       "ru": "(Ценю помощь...)",
       "status": "machine",
-      "srcHash": "6a9921ccc4b27bb4",
+      "srcHash": "bd72d56a8d952e5f",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "51909004-b87d-43a8-8314-c4c2b16069e4/Option_3": {
       "en": "(Not the person I want...)",
       "cn": "（并非此人……）\n",
       "ru": "(Не тот человек, которого я хочу...)",
       "status": "machine",
-      "srcHash": "a95ed85909c613e8",
+      "srcHash": "5af630d73c1f658e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "325a81d5-de12-4965-9440-4a44fa38644c/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> examines closely and discerns carefully,<NL>and in the blink of an eye, it becomes apparent to <Character key=RoleTaiwu str=GenderObject/> that this <Item key=SelectItemKey str=ColorName/> is extraordinary and exceptional. However, it cannot evolve any further...",
       "cn": "<Character key=RoleTaiwu str=Name />细细审视，端详辨看，<NL>眨眼便知，此<Item key=SelectItemKey str=ColorName/>已是促织之英姿，不凡之极品，已无法再成长进化……",
       "ru": "<Character key=RoleTaiwu str=Name /> внимательно изучает и тщательно различает,<NL>и в мгновение ока это становится очевидным для <Character key=RoleTaiwu str=GenderObject/> что это <Item key=SelectItemKey str=ColorName/> является экстраординарным и исключительным. Однако она не может развиваться дальше...",
       "status": "machine",
-      "srcHash": "5988536e34d32cf6",
+      "srcHash": "476421eb7f6c6096",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "325a81d5-de12-4965-9440-4a44fa38644c/Option_1": {
       "en": "(Feeling helpless...)",
       "cn": "（无可奈何……）\n",
       "ru": "(Чувствуя себя беспомощным...)",
       "status": "machine",
-      "srcHash": "d4fcaf57d9ff3c39",
+      "srcHash": "32c793ac0ec8ba10",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "5d20bea5-7ca0-4379-aae4-114f03eee32e/EventContent": {
       "en": "The city lord of <MapArea key=AreaId str=Name/> is aware of <Character key=RoleTaiwu str=Name/>'s visit, and has shown considerable hospitality.<NL>Seeing that <Character key=RoleTaiwu str=Name/> carries the demeanor of a noble reincarnation, the lord has received <Character key=RoleTaiwu str=GenderObject/> with the utmost care and respect...",
       "cn": "<MapArea key=AreaId str=Name/>城主既知<Character key=RoleTaiwu str=Name/>来访，自有几分殷勤，<NL>只因<Character key=RoleTaiwu str=Name/>俨然再世王侯，更是悉心接待，诚敬不已……",
       "ru": "Городской владыка <MapArea key=AreaId str=Name/> осознает <Character key=RoleTaiwu str=Name/>с визитом и проявил значительное гостеприимство.<NL>Видя, что <Character key=RoleTaiwu str=Name/> обладающий поведением благородного перевоплощения, господь получил <Character key=RoleTaiwu str=GenderObject/> с предельной заботой и уважением...",
       "status": "machine",
-      "srcHash": "23a6284e6d0570b7",
+      "srcHash": "d26e0022fcadd450",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "5d20bea5-7ca0-4379-aae4-114f03eee32e/Option_1": {
       "en": "(I have heard that the vegetarian food in this place is quite scrumptious...)",
       "cn": "（听闻此地素食甚是美味……）",
       "ru": "(Я слышал, что вегетарианская Еда в этом заведении довольно вкусная...)",
       "status": "machine",
-      "srcHash": "276ab0ca5847a8a3",
+      "srcHash": "6c704cc8524f223e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "5d20bea5-7ca0-4379-aae4-114f03eee32e/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "53e3f84e-423c-46f1-a067-10b2ab2c7c0f/EventContent": {
       "en": "\"You have come a long way to visit <MapArea key=AreaId str=Name/>. Supported by <ArgBox key=SectName type=string/>,<NL>we have long prepared this <Item key=SelectItemKey str=ColorName/>. Although it's not a rare item, we hope it meets your expectations...\"<NL><Character key=CharacterId str=Name/> sees that <Character key=RoleTaiwu str=Name/> has the temperament of someone who has achieved greatness, and immediately understands.<NL>With the utmost respect and humility, there is not a trace of slight and <Item key=SelectItemKey str=ColorName/> is respectfully presented...",
       "cn": "“阁下千里迢迢到我<MapArea key=AreaId str=Name/>，又有<ArgBox key=SectName type=string/>护持，<NL>我等早已备下此<Item key=SelectItemKey str=ColorName/>，虽非稀罕之物，亦盼合您心意……”<NL><Character key=CharacterId str=Name/>见<Character key=RoleTaiwu str=Name/>自有五陵豪气，又听得此言，立时心领神会，<NL>言辞之间自是毕恭毕敬，不敢怠慢，垂首献上一件<Item key=SelectItemKey str=ColorName/>……",
       "ru": "\"Вы проделали долгий путь, чтобы навестить меня <MapArea key=AreaId str=Name/>. Поддерживается <ArgBox key=SectName type=string/>,<NL>мы долго готовили это <Item key=SelectItemKey str=ColorName/> Хотя это не редкий предмет, мы надеемся, что он оправдает ваши ожидания...\"<NL><Character key=CharacterId str=Name/> видит, что <Character key=RoleTaiwu str=Name/> обладает темпераментом человека, достигшего величия, и сразу все понимает.<NL>С величайшим уважением и смирением, в нем нет и следа пренебрежения и <Item key=SelectItemKey str=ColorName/> почтительно представлен...",
       "status": "machine",
-      "srcHash": "471c1bb8d6aa24b4",
+      "srcHash": "39cef584e234e532",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "53e3f84e-423c-46f1-a067-10b2ab2c7c0f/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "6e0c783b-7e8e-4661-a9bf-f2d93bd35283/EventContent": {
       "en": "\"It seems that this elixir works at times... and yet at other times, it seems to have no effect...<NL>Why is this?\"<NL>With a dim expression and furrowed brow, <Character key=CharacterId str=Name/> is deeply perplexed and nonplussed...",
       "cn": "“此药一下，似乎有效......又似乎没什么效果......<NL>这是何故……”<NL><Character key=CharacterId str=Name/>神采黯然，眉头紧皱，极是困惑不解……",
       "ru": "\"Похоже, что этот эликсир временами действует... и все же в других случаях это, кажется, не оказывает никакого эффекта...<NL>Почему это происходит?\"<NL>С тусклым выражением лица и нахмуренным лбом, <Character key=CharacterId str=Name/> глубоко озадачен и поставленный в тупик...",
       "status": "machine",
-      "srcHash": "165ce8b918355ec2",
+      "srcHash": "c69d59392c38f550",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "6e0c783b-7e8e-4661-a9bf-f2d93bd35283/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "ebc54f35-be4a-4b88-b7ce-b79d3ed8145e/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "3876fafa-5188-406f-b521-09572b590aca/EventContent": {
       "en": "Upon closer observation, <Character key=RoleTaiwu str=Name /> can see that <Character key=CharacterId str=Name/>'s complexion is pale, showing signs of weakness.<NL>It appears that <Character key=CharacterId str=Name/> is injured or ill and in need of urgent medical treatment.<NL><NL><color=#lightgrey>(The proper concoction may be able to treat <Character key=CharacterId str=Name/>'s injury or illness...)</color>",
       "cn": "<Character key=RoleTaiwu str=Name />细观<Character key=CharacterId str=Name/>，只觉其脸色苍白，略有虚弱之象，<NL>似是伤病在身，急需医治……<NL><NL><color=#lightgrey>（若施以丹药，或可治疗<Character key=CharacterId str=Name/>的伤病……）</color>",
       "ru": "При ближайшем рассмотрении, <Character key=RoleTaiwu str=Name /> могу видеть, что <Character key=CharacterId str=Name/>цвет лица бледный, с признаками слабости.<NL>Похоже, что <Character key=CharacterId str=Name/> ранен или болен и нуждается в срочной медицинской помощи.<NL><NL><color=#lightgrey>(Правильная смесь может быть способна лечить <Character key=CharacterId str=Name/>это Травма или болезнь...)</color>",
       "status": "machine",
-      "srcHash": "9964b5ed2e9b5e67",
+      "srcHash": "694f22aed563f8e1",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "3876fafa-5188-406f-b521-09572b590aca/Option_1": {
       "en": "(Determine theit pulse and select an elixir...)",
       "cn": "（把脉选药……）",
       "ru": "(Определите его пульс и выберите эликсир...)",
       "status": "machine",
-      "srcHash": "044c80500fdc08fa",
+      "srcHash": "c86677d4038d96db",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "3876fafa-5188-406f-b521-09572b590aca/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其他话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "4094457a-fb24-4ce7-bc06-24d66195c28e/EventContent": {
       "en": "\"Quack! You dare poison me!?\" <color=#lightgrey><NL><NL>(<Character key=RoleTaiwu str=Name/> attempts to use envenomed medication, but <Character key=CharacterId str=Name/> learns of the subterfuge...)</color>",
       "cn": "“庸医！你竟向我下毒！？”<color=#lightgrey><NL><NL>（<Character key=RoleTaiwu str=Name/>试图使用淬毒药物，却被<Character key=CharacterId str=Name/>发现了……）</color>",
       "ru": "- Шарлатан! Ты смеешь Яд мне давать?!\" <color=#lightgrey><NL><NL>(<Character key=RoleTaiwu str=Name/> пытается использовать отравленные лекарства, но <Character key=CharacterId str=Name/> узнает об этой уловке...)</color>",
       "status": "machine",
-      "srcHash": "2ee0da7b3d16a47c",
+      "srcHash": "2073e9d66f0b716f",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "4094457a-fb24-4ce7-bc06-24d66195c28e/Option_1": {
       "en": "(Take on the fight...)",
       "cn": "（与之一斗……）\n",
       "ru": "(Вступай в бой...)",
       "status": "machine",
-      "srcHash": "8b0b6eeddb5ca1d0",
+      "srcHash": "b941c40f0e775caf",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "4887e4b7-7890-4c52-b6fc-32d1b16b2340/EventContent": {
       "en": "\"I happened to possess this <Item key=GetWestItemKey str=ColorName/>, and now I present it to you as tribute.<NL>I offer this along with the gift, hoping it pleases you and brings joy to your heart...\"",
       "cn": "“我此前偶然获得一<Item key=GetWestItemKey str=ColorName/>，如今既是献上贡礼，<NL>此物便也一并相赠，只盼此物可心如意，得您欢心……”",
       "ru": "\"Так случилось, что у меня оказалось это <Item key=GetWestItemKey str=ColorName/>, и теперь я представляю это вам в качестве дани уважения.<NL>Я предлагаю это вместе с подарком, надеясь, что это понравится вам и принесет радость в ваше сердце...\"",
       "status": "machine",
-      "srcHash": "c75c5cdc1bdefb6f",
+      "srcHash": "bcd0567e393b41a9",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "4887e4b7-7890-4c52-b6fc-32d1b16b2340/Option_1": {
       "en": "(Overwhelmed with joy!)",
       "cn": "（喜不自胜！）\n",
       "ru": "(Переполненный радостью!)",
       "status": "machine",
-      "srcHash": "ba543a40e2e10506",
+      "srcHash": "b2e691dc628c1a6a",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "00f717da-c9ed-4d52-af7f-a01c65437a4c/EventContent": {
       "en": "The beggars nod repeatedly upon hearing the words and have no choice but to escort the mistaken person back to their original location.<NL>Then, they continue to roam the streets and alleys, searching for <Character key=CharacterId str=Name/> on behalf of <Character key=RoleTaiwu str=Name />...",
       "cn": "众丐闻言连连点头，只得将寻错之人送回来处，<NL>复又继续走街串巷，为<Character key=RoleTaiwu str=Name />寻觅正确的<Character key=CharacterId str=Name/>……",
       "ru": "Нищие несколько раз кивают, услышав эти слова, и у них нет другого выбора, кроме как сопроводить ошибающегося человека обратно на его прежнее место.<NL>Затем они продолжают бродить по улицам и переулкам в поисках <Character key=CharacterId str=Name/> от имени <Character key=RoleTaiwu str=Name />...",
       "status": "machine",
-      "srcHash": "b5cad8a45d00475c",
+      "srcHash": "e05ed6e9be6cd254",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "00f717da-c9ed-4d52-af7f-a01c65437a4c/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "b77ae115-d0ce-48ba-979c-b4a4426ced24/EventContent": {
       "en": "\"You spout so much nonsense. I won't argue with you...\"<NL><Character key=CharacterId str=Name/> is rendered speechless by <Character key=RoleTaiwu str=Name />'s remark.<NL>[mq:rxt displaytext=\"<Character key=CharacterId str=Name/>\" val=\"<Character key=CharacterId str=Name/>\"] feels extremely frustrated and leaves in a huff...",
       "cn": "“你这人歪理甚多，我且不与你争辩……”<NL><Character key=CharacterId str=Name/>被<Character key=RoleTaiwu str=Name />说得张口结舌，一句话也难以反驳，<NL>顿时恼恨不已，就此拂袖而去……",
       "ru": "- Ты несешь столько чепухи. Я не буду с тобой спорить...\"<NL><Character key=CharacterId str=Name/> лишается дара речи из-за <Character key=RoleTaiwu str=Name />это замечание.<NL>[mq:rxt displaytext=\"<Character key=CharacterId str=Name/>\" val=\"<Character key=CharacterId str=Name/>\"] чувствует себя крайне расстроенным и уходит в раздражении...",
       "status": "machine",
-      "srcHash": "1d8f02bf059cbd24",
+      "srcHash": "cbde67f91cd9a28a",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "b77ae115-d0ce-48ba-979c-b4a4426ced24/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "397ab106-d596-48c6-9da9-df3e6a55bdf5/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "d2846b64-42b6-4b6d-9d93-91bc98cc849c/EventContent": {
       "en": "\"After taking this medicine, I feel much better all over, and I'm regaining my vitality.<NL>However, my purse is light, and I'm truly unable to repay such great kindness and favor...\"<NL><Character key=CharacterId str=Name/>'s spirit gradually recovers, <Character key=RoleTaiwu str=GenderPossessive/> brow relaxes, and there is also a hint of guilt on <Character key=RoleTaiwu str=GenderPossessive/> face...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> cures <Character key=CharacterId str=Name/> with medicine...)</color>",
       "cn": "“此药一下，我通体舒泰，竟是觉得好上许多了，<NL>只是我囊中羞涩，大恩大德实在无以为报……”<NL><Character key=CharacterId str=Name/>神采渐复，重展眉头，面上亦有几分愧意……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />为<Character key=CharacterId str=Name/>施医用药……）</color>",
       "ru": "\"После приема этого лекарства я чувствую себя намного лучше во всем теле, и ко мне возвращаются жизненные силы.<NL>Однако мой кошелек невелик, и я действительно не в состоянии отплатить за такую великую доброту и одолжение...\"<NL><Character key=CharacterId str=Name/>Дух постепенно восстанавливается, <Character key=RoleTaiwu str=GenderPossessive/> лоб расслабляется, и на нем также появляется намек на чувство вины. <Character key=RoleTaiwu str=GenderPossessive/> лицо...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> излечивает <Character key=CharacterId str=Name/> с помощью лекарств...)</color>",
       "status": "machine",
-      "srcHash": "8d7d96a5536a22bf",
+      "srcHash": "6e37a47bd1bfffa6",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "d2846b64-42b6-4b6d-9d93-91bc98cc849c/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "3b719394-9211-4c24-a5dd-1932b5153f38/EventContent": {
       "en": "\"This is a small token of appreciation. It's not much, but I hope you will continue to patronize <ArgBox key=MerchantName type=string/>'s business in the future...\"",
       "cn": "“小小薄礼，不成敬意，只盼贵客日后亦多多光顾<ArgBox key=MerchantName type=string/>之生意……”",
       "ru": "\"Это небольшой знак признательности. Это немного, но я надеюсь, что вы продолжите оказывать мне покровительство. <ArgBox key=MerchantName type=string/>это бизнес на будущее...\"",
       "status": "machine",
-      "srcHash": "ecb9e697a9dabaf2",
+      "srcHash": "a267bdba66e23fc3",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "3b719394-9211-4c24-a5dd-1932b5153f38/Option_1": {
       "en": "(Overwhelmed with joy!)",
       "cn": "（喜不自胜！）\n",
       "ru": "(Переполненный радостью!)",
       "status": "machine",
-      "srcHash": "ba543a40e2e10506",
+      "srcHash": "b2e691dc628c1a6a",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "2f829a6b-cd43-453d-abed-39c41b9c1ea1/EventContent": {
       "en": "This <Item key=SelectItemKey str=ColorName/><NL><ArgBox key=CricketDesc type=string/><NL><Character key=RoleTaiwu str=Name /> scrutinizes it carefully,<NL>but it turns out that <Item key=SelectItemKey str=ColorName/> is an ordinary one. There is nothing special about it...",
       "cn": "此<Item key=SelectItemKey str=ColorName/><NL><ArgBox key=CricketDesc type=string/><NL><Character key=RoleTaiwu str=Name />虽细细审视，端详辨看，<NL>奈何<Item key=SelectItemKey str=ColorName/>不过是凡庸之姿，实在平平无奇……",
       "ru": "Этот <Item key=SelectItemKey str=ColorName/><NL><ArgBox key=CricketDesc type=string/><NL><Character key=RoleTaiwu str=Name /> внимательно изучает его,<NL>но оказывается, что <Item key=SelectItemKey str=ColorName/> это обычный человек. В этом нет ничего особенного...",
       "status": "machine",
-      "srcHash": "cb76b257c17614fd",
+      "srcHash": "0f5a8ed330b8924a",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "2f829a6b-cd43-453d-abed-39c41b9c1ea1/Option_1": {
       "en": "(Feeling helpless...)",
       "cn": "（无可奈何……）\n",
       "ru": "(Чувствуя себя беспомощным...)",
       "status": "machine",
-      "srcHash": "d4fcaf57d9ff3c39",
+      "srcHash": "32c793ac0ec8ba10",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "69435a59-9366-472f-83b5-95ca38a9130c/EventContent": {
       "en": "The city lord of <MapArea key=AreaId str=Name/> is aware of <Character key=RoleTaiwu str=Name/>'s visit, and has shown considerable hospitality.<NL>Seeing that <Character key=RoleTaiwu str=Name/> carries the demeanor of a noble reincarnation, the lord has received <Character key=RoleTaiwu str=GenderObject/> with the utmost care and respect...",
       "cn": "<MapArea key=AreaId str=Name/>城主既知<Character key=RoleTaiwu str=Name/>来访，自有几分殷勤，<NL>只因<Character key=RoleTaiwu str=Name/>俨然再世王侯，更是悉心接待，诚敬不已……",
       "ru": "Городской владыка <MapArea key=AreaId str=Name/> осознает <Character key=RoleTaiwu str=Name/>с визитом и проявил значительное гостеприимство.<NL>Видя, что <Character key=RoleTaiwu str=Name/> обладающий поведением благородного перевоплощения, господь получил <Character key=RoleTaiwu str=GenderObject/> с предельной заботой и уважением...",
       "status": "machine",
-      "srcHash": "23a6284e6d0570b7",
+      "srcHash": "d26e0022fcadd450",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "69435a59-9366-472f-83b5-95ca38a9130c/Option_1": {
       "en": "(I have heard that the vehicles in this place are quite exquisite...)",
       "cn": "（听闻此地代步甚是考究……）",
       "ru": "(Я слышал, что транспортные средства в этом месте довольно изысканные...)",
       "status": "machine",
-      "srcHash": "214bc213a82aea9e",
+      "srcHash": "e92e471312bc828e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "69435a59-9366-472f-83b5-95ca38a9130c/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "eb77db98-8acd-4f8b-8bc1-29ceac905005/EventContent": {
       "en": "The city lord of <MapArea key=AreaId str=Name/> is aware of <Character key=RoleTaiwu str=Name/>'s visit, and has shown considerable hospitality.<NL>Seeing that <Character key=RoleTaiwu str=Name/> carries the demeanor of a noble reincarnation, the lord has received <Character key=RoleTaiwu str=GenderObject/> with the utmost care and respect...",
       "cn": "<MapArea key=AreaId str=Name/>城主既知<Character key=RoleTaiwu str=Name/>来访，自有几分殷勤，<NL>只因<Character key=RoleTaiwu str=Name/>俨然再世王侯，更是悉心接待，诚敬不已……",
       "ru": "Городской владыка <MapArea key=AreaId str=Name/> осознает <Character key=RoleTaiwu str=Name/>с визитом и проявил значительное гостеприимство.<NL>Видя, что <Character key=RoleTaiwu str=Name/> обладающий поведением благородного перевоплощения, господь получил <Character key=RoleTaiwu str=GenderObject/> с предельной заботой и уважением...",
       "status": "machine",
-      "srcHash": "23a6284e6d0570b7",
+      "srcHash": "d26e0022fcadd450",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "eb77db98-8acd-4f8b-8bc1-29ceac905005/Option_1": {
       "en": "(I have heard that the medicines & poisons in this place are extremely sophisticated...)",
       "cn": "（听闻此地药毒甚是高妙……）",
       "ru": "(Я слышал, что лекарства и яды в этом месте чрезвычайно изощренные...)",
       "status": "machine",
-      "srcHash": "6c5e862c8924a082",
+      "srcHash": "eb4a62ce76da2bf5",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "eb77db98-8acd-4f8b-8bc1-29ceac905005/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "b5b5197e-5406-49b2-8171-0179c719d3ea/EventContent": {
       "en": "\"This chaotic world is precisely where people like us beggars can show our skills!<NL>No matter who you're looking for, we have our ways to bring that person to you...\"<NL>Hearing about <Character key=RoleTaiwu str=Name />'s intention to search for someone, there are beggars from the market who have volunteered to assist,<NL>waiting only for <Character key=RoleTaiwu str=Name />'s command to enter the market and gather information...",
       "cn": "“江湖乱糟，却正是我等叫花用武之地！<NL>不拘您要找寻什么人物，我们自有法子把此人带到您眼前来……”<NL>听闻<Character key=RoleTaiwu str=Name />意欲寻人，自有市井乞儿自告奋勇、听命而来，<NL>只待<Character key=RoleTaiwu str=Name />一言，便可窜入坊市打探消息……",
       "ru": "\"Этот хаотичный мир - именно то место, где такие люди, как мы, нищие, могут показать свои навыки!<NL>Независимо от того, кого вы ищете, у нас есть свои способы привести этого человека к вам...\"<NL>Услышав о <Character key=RoleTaiwu str=Name />намереваясь кого-то найти, есть нищие с рынка, которые вызвались помочь,<NL>ожидая только <Character key=RoleTaiwu str=Name />это команда выйти на рынок и собрать информацию...",
       "status": "machine",
-      "srcHash": "3e82f6b390656a51",
+      "srcHash": "6ad3ced1c172d126",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "b5b5197e-5406-49b2-8171-0179c719d3ea/Option_1": {
       "en": "(Look for someone...)",
       "cn": "（寻人引见……）",
       "ru": "(Ищи кого-нибудь...)",
       "status": "machine",
-      "srcHash": "e802d3c85a7a51e0",
+      "srcHash": "a29890ef49d6ca4e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "b5b5197e-5406-49b2-8171-0179c719d3ea/Option_2": {
       "en": "(Have no such intention...)",
       "cn": "（并无此意……）\n",
       "ru": "(Не имею такого намерения...)",
       "status": "machine",
-      "srcHash": "f66b1998b6df3d86",
+      "srcHash": "9082d1067876cba0",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "46b8a23b-1f5b-4a0b-8de2-8e3000dcb928/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "e19382b4-89cc-4793-be19-41b43e67d772/EventContent": {
       "en": "\"Today you've learned your lesson. There won't be a second chance for you!\"<NL><Character key=RoleTaiwu str=Name /> is defeated by <Character key=CharacterId str=Name/>, although subjected to the cold mockery from <Character key=CharacterId str=Name/>, there is nothing else <Character key=RoleTaiwu str=Name /> can do but accept it...",
       "cn": "“今日吃了教训，可知此事再无二次！”<NL><Character key=RoleTaiwu str=Name />败于<Character key=CharacterId str=Name/>之手，虽遭<Character key=CharacterId str=Name/>冷言讥讽，却也无可奈何……",
       "ru": "- Сегодня ты усвоил свой урок. Второго шанса у тебя не будет!\"<NL><Character key=RoleTaiwu str=Name /> побежден <Character key=CharacterId str=Name/>, хотя и подвергался холодным насмешкам со стороны <Character key=CharacterId str=Name/>, больше ничего нет <Character key=RoleTaiwu str=Name /> ничего не остается, как принять это...",
       "status": "machine",
-      "srcHash": "7cbce2255aa7384a",
+      "srcHash": "8c7e11be16494279",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "e19382b4-89cc-4793-be19-41b43e67d772/Option_1": {
       "en": "(Give up...)",
       "cn": "（只好作罢……）\n",
       "ru": "(Сдавайся...)",
       "status": "machine",
-      "srcHash": "d6e595ad368ab658",
+      "srcHash": "da473a4589cbf66e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "ef4b8c95-568a-46d3-8b06-440cde5eae63/EventContent": {
       "en": "\"Vulgar words and actions... just the norm for commoners.\"<NL><Character key=CharacterId str=Name/> sees the uncouth behavior and crude manners of <Character key=RoleTaiwu str=Name />,<NL>yet shows no changes in expression, as if <Character key=RoleTaiwu str=GenderSubject/> is accustomed to these situations, with nothing specific coming to mind...",
       "cn": "“庸言庸行……不过市井常态……”<NL><Character key=CharacterId str=Name/>见<Character key=RoleTaiwu str=Name />言行无状，粗鄙俚俗，却是面色平平，<NL>似是已经见惯此种情状，心中并无感想……",
       "ru": "- Вульгарные слова и поступки... просто норма для простолюдинов.<NL><Character key=CharacterId str=Name/> видит неотесанное поведение и грубые манеры <Character key=RoleTaiwu str=Name />,<NL>но не показывает никаких изменений в выражении лица, как будто <Character key=RoleTaiwu str=GenderSubject/> он привык к подобным ситуациям, и ему ничего конкретного не приходит в голову...",
       "status": "machine",
-      "srcHash": "d1665f954e80e1f7",
+      "srcHash": "bb2620cfb6ced93b",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "ef4b8c95-568a-46d3-8b06-440cde5eae63/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f071858c-9d6d-4383-8204-18e4a032d176/EventContent": {
       "en": "The city lord of <MapArea key=AreaId str=Name/> is aware of <Character key=RoleTaiwu str=Name/>'s visit, and has shown considerable hospitality.<NL>Seeing that <Character key=RoleTaiwu str=Name/> carries the demeanor of a noble reincarnation, the lord has received <Character key=RoleTaiwu str=GenderObject/> with the utmost care and respect...",
       "cn": "<MapArea key=AreaId str=Name/>城主既知<Character key=RoleTaiwu str=Name/>来访，自有几分殷勤，<NL>只因<Character key=RoleTaiwu str=Name/>俨然再世王侯，更是悉心接待，诚敬不已……",
       "ru": "Городской владыка <MapArea key=AreaId str=Name/> осознает <Character key=RoleTaiwu str=Name/>с визитом и проявил значительное гостеприимство.<NL>Видя, что <Character key=RoleTaiwu str=Name/> обладающий поведением благородного перевоплощения, господь получил <Character key=RoleTaiwu str=GenderObject/> с предельной заботой и уважением...",
       "status": "machine",
-      "srcHash": "23a6284e6d0570b7",
+      "srcHash": "d26e0022fcadd450",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f071858c-9d6d-4383-8204-18e4a032d176/Option_1": {
       "en": "(I have heard that the tea leaves in this place are very fragrant...)",
       "cn": "（听闻此地茶叶甚是幽香……）",
       "ru": "(Я слышала, что чайные листья в этом заведении очень ароматные...)",
       "status": "machine",
-      "srcHash": "03ae087fc56aea96",
+      "srcHash": "273b59f9410a1737",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f071858c-9d6d-4383-8204-18e4a032d176/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "85a1a6b8-5fa3-4255-8532-989c323e54b4/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "c32ec2f3-ea7e-4bea-a1c3-18c65a69472c/EventContent": {
       "en": "The city lord of <MapArea key=AreaId str=Name/> is aware of <Character key=RoleTaiwu str=Name/>'s visit, and has shown considerable hospitality.<NL>Seeing that <Character key=RoleTaiwu str=Name/> carries the demeanor of a noble reincarnation, the lord has received <Character key=RoleTaiwu str=GenderObject/> with the utmost care and respect...",
       "cn": "<MapArea key=AreaId str=Name/>城主既知<Character key=RoleTaiwu str=Name/>来访，自有几分殷勤，<NL>只因<Character key=RoleTaiwu str=Name/>俨然再世王侯，更是悉心接待，诚敬不已……",
       "ru": "Городской владыка <MapArea key=AreaId str=Name/> осознает <Character key=RoleTaiwu str=Name/>с визитом и проявил значительное гостеприимство.<NL>Видя, что <Character key=RoleTaiwu str=Name/> обладающий поведением благородного перевоплощения, господь получил <Character key=RoleTaiwu str=GenderObject/> с предельной заботой и уважением...",
       "status": "machine",
-      "srcHash": "23a6284e6d0570b7",
+      "srcHash": "d26e0022fcadd450",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "c32ec2f3-ea7e-4bea-a1c3-18c65a69472c/Option_1": {
       "en": "(I have heard that the armor in this place is very reliable...)",
       "cn": "（听闻此地护具甚是牢靠……）",
       "ru": "(Я слышал, что Броня в этом месте очень надежная...)",
       "status": "machine",
-      "srcHash": "78f982ec73a423ef",
+      "srcHash": "edfb6d3e8106a626",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "c32ec2f3-ea7e-4bea-a1c3-18c65a69472c/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "027dda33-a98d-47cc-aefc-fbd909520339/EventContent": {
       "en": "The city lord of <MapArea key=AreaId str=Name/> is aware of <Character key=RoleTaiwu str=Name/>'s visit, and has shown considerable hospitality.<NL>Seeing that <Character key=RoleTaiwu str=Name/> carries the demeanor of a noble reincarnation, the lord has received <Character key=RoleTaiwu str=GenderObject/> with the utmost care and respect...",
       "cn": "<MapArea key=AreaId str=Name/>城主既知<Character key=RoleTaiwu str=Name/>来访，自有几分殷勤，<NL>只因<Character key=RoleTaiwu str=Name/>俨然再世王侯，更是悉心接待，诚敬不已……",
       "ru": "Городской владыка <MapArea key=AreaId str=Name/> осознает <Character key=RoleTaiwu str=Name/>с визитом и проявил значительное гостеприимство.<NL>Видя, что <Character key=RoleTaiwu str=Name/> обладающий поведением благородного перевоплощения, господь получил <Character key=RoleTaiwu str=GenderObject/> с предельной заботой и уважением...",
       "status": "machine",
-      "srcHash": "23a6284e6d0570b7",
+      "srcHash": "d26e0022fcadd450",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "027dda33-a98d-47cc-aefc-fbd909520339/Option_1": {
       "en": "(I have heard that the poisons in this place are exceptionally outstanding...)",
       "cn": "（听闻此地毒物甚是出众……）",
       "ru": "(Я слышал, что яды в этом месте исключительно выдающиеся...)",
       "status": "machine",
-      "srcHash": "332aca49dde70184",
+      "srcHash": "e35299968fe43121",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "027dda33-a98d-47cc-aefc-fbd909520339/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "b8714613-f230-4c9c-b661-aa43fa6babfe/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "c6f4dee8-26bd-4e7d-991f-463871a0e704/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> chooses an open ground, sits on the ground with a begging bowl in hand,<NL>and murmurs 'Lotus falls' under <Character key=RoleTaiwu str=GenderPossessive/> breath. However, passersby do not stop,<NL>and after several hours, the bowl in <Character key=RoleTaiwu str=Name />'s hand remains empty.",
       "cn": "<Character key=RoleTaiwu str=Name />选中一处空地，手中托钵，席地而坐，<NL>口中虽呢喃几句“莲花落”，来往行人却无一人驻足，<NL>几个时辰之后，<Character key=RoleTaiwu str=Name />手中碗钵仍是空空如也……",
       "ru": "<Character key=RoleTaiwu str=Name /> выбирает открытое место, садится на землю с чашей для подаяний в руке,<NL>и бормочет \"Лотос падает\" под <Character key=RoleTaiwu str=GenderPossessive/> дыхание. Однако прохожие не останавливаются,<NL>и через несколько часов миска в руке у <Character key=RoleTaiwu str=Name />остается пустой.",
       "status": "machine",
-      "srcHash": "46673a75a3ee7a70",
+      "srcHash": "60e9e040f2ca1f50",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "c6f4dee8-26bd-4e7d-991f-463871a0e704/Option_1": {
       "en": "(Give up...)",
       "cn": "（只好作罢……）\n",
       "ru": "(Сдавайся...)",
       "status": "machine",
-      "srcHash": "d6e595ad368ab658",
+      "srcHash": "da473a4589cbf66e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "91783c11-7ef4-4889-9e97-5dd08b6d3a3d/EventContent": {
       "en": "\"What... this person is not <Character key=CharacterId str=Name/>, the one you were seeking?<NL>Please don't be upset. Give us a little more time, and we will surely find <Character key=CharacterId str=Name/>...\"<NL>Having made a mistake in finding the person <Character key=RoleTaiwu str=Name /> has been looking for, the beggars all blush with embarrassment, remain silent, and are hesitant to speak any further...",
       "cn": "“什么……此人竟并非您所欲寻找的<Character key=CharacterId str=Name/>吗……<NL>您可莫要气恼，再赏我等些许时日，必为您寻得正确的<Character key=CharacterId str=Name/>……”<NL>因寻错了<Character key=RoleTaiwu str=Name />欲寻之人，众丐皆是面红耳赤，讷讷不敢多言……",
       "ru": "\"Что... этот человек не <Character key=CharacterId str=Name/>, тот, кого вы искали?<NL>Пожалуйста, не расстраивайся. Дайте нам еще немного времени, и мы обязательно найдем <Character key=CharacterId str=Name/>...\"<NL>Допустив ошибку в поиске нужного человека <Character key=RoleTaiwu str=Name /> все нищие краснеют от смущения, хранят молчание и не решаются говорить дальше...",
       "status": "machine",
-      "srcHash": "1cf75a733c756814",
+      "srcHash": "256bdc5346c18de6",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "91783c11-7ef4-4889-9e97-5dd08b6d3a3d/Option_1": {
       "en": "(Keep searching...)",
       "cn": "（继续寻找……）",
       "ru": "(Продолжайте искать...)",
       "status": "machine",
-      "srcHash": "d2fa89756c1968ce",
+      "srcHash": "96b669aef3f3b9d5",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "91783c11-7ef4-4889-9e97-5dd08b6d3a3d/Option_2": {
       "en": "(Do nothing...)",
       "cn": "（暂且作罢……）\n",
       "ru": "(Ничего не делай...)",
       "status": "machine",
-      "srcHash": "e2d2c888b5e012af",
+      "srcHash": "35901c0ddbc2f7e6",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "37b24ac4-0019-4ba5-9c07-8bc4add82c25/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "5de25dbb-f03b-4af5-8dde-d9a9a8cbc5bf/EventContent": {
       "en": "\"After taking this medicine, why do I feel even more uncomfortable?...<NL>Why is it?\"<NL><Character key=CharacterId str=Name/>'s spirit is downcast, brow furrowed, and extremely puzzled and nonplussed...",
       "cn": "“此药一下，我竟更是难受了几分……<NL>这是何故……”<NL><Character key=CharacterId str=Name/>神采黯然，眉头紧皱，极是困惑不解……",
       "ru": "\"Почему после приема этого лекарства я чувствую себя еще более некомфортно?...<NL>Почему это так?\"<NL><Character key=CharacterId str=Name/>Его Дух подавлен, брови нахмурены, он крайне озадачен и сбит с толку...",
       "status": "machine",
-      "srcHash": "0734d33d92f79523",
+      "srcHash": "de8af27ef3e9f752",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "5de25dbb-f03b-4af5-8dde-d9a9a8cbc5bf/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "ba8f1f24-5cf6-43cc-84dd-98774e64412b/EventContent": {
       "en": "Seeing that this person is indeed <Character key=CharacterId str=Name/>, <Character key=RoleTaiwu str=Name /> is extremely grateful.<NL><Character key=RoleTaiwu str=UpperGenderSubject/> addresses the beggars as kin and expresses <Character key=RoleTaiwu str=GenderPossessive/> heartfelt thanks.<NL>The beggars are overwhelmed with joy and a sense of honor.<NL>Although initially hesitant, they eventually accept with satisfaction after multiple refusals. After exchanging several fist-and-palm salutes, they finally disperse...<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name/> has arrived at <Character key=RoleTaiwu str=Name />'s location now...)</color>",
       "cn": "见得此人果真是<Character key=CharacterId str=Name/>，<Character key=RoleTaiwu str=Name />自是大为感激，<NL>更与众丐称兄道弟，称谢一番，<NL>众丐更是受宠若惊，喜气洋洋似感荣光，<NL>几番推脱后终是心满意足，再三相拜方才散去……<NL><NL><color=#lightgrey>（<Character key=CharacterId str=Name/>已来到<Character key=RoleTaiwu str=Name />所在之处……）</color>",
       "ru": "Видя, что этот человек действительно <Character key=CharacterId str=Name/>, <Character key=RoleTaiwu str=Name /> чрезвычайно благодарен.<NL><Character key=RoleTaiwu str=UpperGenderSubject/> обращается к нищим как к родственникам и выражает <Character key=RoleTaiwu str=GenderPossessive/> сердечная благодарность.<NL>Нищих переполняют радость и чувство чести.<NL>Хотя поначалу они колеблются, в конце концов они с удовлетворением соглашаются после многочисленных отказов. Обменявшись несколькими приветствиями кулаком и ладонью, они, наконец, расходятся...<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name/> прибыл в <Character key=RoleTaiwu str=Name />его местоположение сейчас...)</color>",
       "status": "machine",
-      "srcHash": "ba7636ea42cfee76",
+      "srcHash": "fe3b014f601ca5aa",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "ba8f1f24-5cf6-43cc-84dd-98774e64412b/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "4f73acc6-4778-4f89-ad32-5ed166634644/EventContent": {
       "en": "(Select the cricket you want to identify...)",
       "cn": "（选择想要鉴定的促织……）",
       "ru": "(Выберите Сверчка, которого вы хотите идентифицировать...)",
       "status": "machine",
-      "srcHash": "23fac61865c6f37a",
+      "srcHash": "2f46156b1f7c8b02",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "4f73acc6-4778-4f89-ad32-5ed166634644/Option_1": {
       "en": "Confirm",
       "cn": "确定",
       "ru": "Подтверждать",
       "status": "machine",
-      "srcHash": "53e9412d939599b4",
+      "srcHash": "cdfebf3af1ee1402",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "4f73acc6-4778-4f89-ad32-5ed166634644/Option_2": {
       "en": "Cancel",
       "cn": "取消\n",
       "ru": "Отменить",
       "status": "machine",
-      "srcHash": "f8d7e285747152a8",
+      "srcHash": "adaa2cd2da491fb1",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "a638fd6f-238a-4c60-adcf-960aad579f24/EventContent": {
       "en": "\"Well... You are looking for <ArgBox key=InputResult type=string/>?<NL>We will immediately gather our brothers and sisters from all over to find this person for you.<NL>Rest assured and wait patiently...\"<NL>Upon hearing <Character key=RoleTaiwu str=Name />'s words, the beggars around <Character key=RoleTaiwu str=GenderObject/> rub their hands in anticipation. After making a few vows, they disperse and go their separate ways...<NL><NL><color=#lightgrey>(The beggars will continue searching for the target until they successfully find and introduce them, or until there is a change in the target being sought...)</color>",
       "cn": "“如此……这般……您要找之人便是<ArgBox key=InputResult type=string/>么……<NL>小的们即刻便去召集各地兄弟姐妹，<NL>准定为您寻来此人，您且安心等待便是……”<NL>闻听<Character key=RoleTaiwu str=Name />此言，围簇乞丐个个摩拳擦掌，几番发愿之后，才四散而去……<NL><NL><color=#lightgrey>（众丐将持续寻找目标，直到将其引见成功或改变寻找目标……）</color>",
       "ru": "- Ну что ж... Вы ищете <ArgBox key=InputResult type=string/>?<NL>Мы немедленно соберем наших братьев и сестер со всего мира, чтобы найти этого человека для вас.<NL>Будьте уверены и терпеливо ждите...\"<NL>Услышав <Character key=RoleTaiwu str=Name />по его словам, нищие вокруг <Character key=RoleTaiwu str=GenderObject/> потирают руки в предвкушении. Дав несколько клятв, они расходятся и идут каждый своей дорогой...<NL><NL><color=#lightgrey>(Попрошайки будут продолжать поиск цели до тех пор, пока они успешно не найдут и не представят их, или пока не произойдет изменение в искомой цели ...)</color>",
       "status": "machine",
-      "srcHash": "cf8a97ed548e4039",
+      "srcHash": "9317e40d2ba0483a",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "a638fd6f-238a-4c60-adcf-960aad579f24/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "52b90d9c-8416-4002-810b-1a0836dc5b2c/EventContent": {
       "en": "The city lord of <MapArea key=AreaId str=Name/> is aware of <Character key=RoleTaiwu str=Name/>'s visit, and has shown considerable hospitality.<NL>Seeing that <Character key=RoleTaiwu str=Name/> carries the demeanor of a noble reincarnation, the lord has received <Character key=RoleTaiwu str=GenderObject/> with the utmost care and respect...",
       "cn": "<MapArea key=AreaId str=Name/>城主既知<Character key=RoleTaiwu str=Name/>来访，自有几分殷勤，<NL>只因<Character key=RoleTaiwu str=Name/>俨然再世王侯，更是悉心接待，诚敬不已……",
       "ru": "Городской владыка <MapArea key=AreaId str=Name/> осознает <Character key=RoleTaiwu str=Name/>с визитом и проявил значительное гостеприимство.<NL>Видя, что <Character key=RoleTaiwu str=Name/> обладающий поведением благородного перевоплощения, господь получил <Character key=RoleTaiwu str=GenderObject/> с предельной заботой и уважением...",
       "status": "machine",
-      "srcHash": "23a6284e6d0570b7",
+      "srcHash": "d26e0022fcadd450",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "52b90d9c-8416-4002-810b-1a0836dc5b2c/Option_1": {
       "en": "(I have heard that the spirits and spirits in this place are very mellow...)",
       "cn": "（听闻此地酒水甚是香醇……）",
       "ru": "(Я слышал, что спиртные напитки в этом месте очень мягкие...)",
       "status": "machine",
-      "srcHash": "aaefebb121819884",
+      "srcHash": "e6377647fddf2074",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "52b90d9c-8416-4002-810b-1a0836dc5b2c/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "b4a472d3-d472-4827-ac57-f973d188e4f9/EventContent": {
       "en": "\"Unfortunately...<NL>I, <ArgBox key=MerchantName type=string/>, desire to offer a humble gift but have run out of goods to present. I have nothing to offer...\"",
       "cn": "“如此……实在不巧……<NL>我<ArgBox key=MerchantName type=string/>虽欲献上薄礼，身上货物却已告罄，无物可献了……”",
       "ru": "- К сожалению...<NL>Я, <ArgBox key=MerchantName type=string/>, хотите сделать скромный подарок, но у вас закончились товары для подарка. Мне нечего предложить...\"",
       "status": "machine",
-      "srcHash": "81b472a3a211d2e0",
+      "srcHash": "854eae9b731afa9e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "b4a472d3-d472-4827-ac57-f973d188e4f9/Option_1": {
       "en": "(Feeling helpless...)",
       "cn": "（无可奈何……）\n",
       "ru": "(Чувствуя себя беспомощным...)",
       "status": "machine",
-      "srcHash": "d4fcaf57d9ff3c39",
+      "srcHash": "32c793ac0ec8ba10",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "ebe4326a-d8e7-4805-aa0d-3eca520c840a/EventContent": {
       "en": "Having seen <Character key=CharacterId str=Name/>, <Character key=RoleTaiwu str=Name /> observes even more carefully, studying the person several times...",
       "cn": "<Character key=RoleTaiwu str=Name />见得<Character key=CharacterId str=Name/>，更是细细打量，几番寻味……",
       "ru": "Увидев <Character key=CharacterId str=Name/>, <Character key=RoleTaiwu str=Name /> наблюдает еще более внимательно, изучая человека несколько раз...",
       "status": "machine",
-      "srcHash": "7e06a22abeeebee3",
+      "srcHash": "0b282c2041c1b6ad",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "ebe4326a-d8e7-4805-aa0d-3eca520c840a/Option_1": {
       "en": "(Stop observing...)",
       "cn": "（结束观察……）\n",
       "ru": "(Перестань наблюдать...)",
       "status": "machine",
-      "srcHash": "c6e396dd01d828e8",
+      "srcHash": "f410f115e4fa2f8b",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "5e1b285e-7c88-4820-a162-845df60b3993/EventContent": {
       "en": "\"Ah... You must be joking.<NL>Such a distinguished personage is indeed right here...\"<NL>Upon hearing <Character key=RoleTaiwu str=Name />'s words, the surrounding beggars exchange puzzled glances, not knowing what to do...",
       "cn": "“这……您可莫要再与我说笑了，<NL>如此名姓之人，可不就在此处……”<NL>闻听<Character key=RoleTaiwu str=Name />此言，围簇乞丐皆是面面相觑，不解其意……",
       "ru": "\"Ах... Ты, должно быть, шутишь.<NL>Такая выдающаяся личность действительно находится прямо здесь...\"<NL>Услышав <Character key=RoleTaiwu str=Name />После его слов окружающие нищие недоуменно переглядываются, не зная, что делать...",
       "status": "machine",
-      "srcHash": "5773d5a642acf10a",
+      "srcHash": "e6b49925d8be2e9a",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "5e1b285e-7c88-4820-a162-845df60b3993/Option_1": {
       "en": "(Insist on searching...)",
       "cn": "（执意寻找……）",
       "ru": "(Настаивайте на поиске...)",
       "status": "machine",
-      "srcHash": "ff4d286d94e5d6f7",
+      "srcHash": "25508a9ad1f46ba8",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "5e1b285e-7c88-4820-a162-845df60b3993/Option_2": {
       "en": "(Give up...)",
       "cn": "（只好作罢……）\n",
       "ru": "(Сдавайся...)",
       "status": "machine",
-      "srcHash": "d6e595ad368ab658",
+      "srcHash": "da473a4589cbf66e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "31c62a27-d183-46b8-bcf1-b66c7d76beb9/EventContent": {
       "en": "\"'Manifest martial arts prowess; display the Xiake spirit.' I will not disappoint the esteemed reputation of the General of Belligerence.<NL>Since you trust me so much, as a member of <Character key=CharacterId str=OrgName/>, I'll also support you...\"<NL><NL><color=#lightgrey>(Due to being granted an official position, <Character key=RoleTaiwu str=Name /> has gained some support from <Character key=CharacterId str=Name/>...)</color>",
       "cn": "“显武昭昭，侠骨犹香，我必不会辱没昭武将军之威名，<NL>既然你如此信赖于我，我作为<Character key=CharacterId str=OrgName/>中人亦将支持于你……”<NL><NL><color=#lightgrey>（因授予官职，<Character key=RoleTaiwu str=Name />获得了<Character key=CharacterId str=Name/>的些许支持……）</color>",
       "ru": "\"Проявите мастерство в Боевых искусствах, проявите Дух Сяке\". Я не разочарую уважаемую репутацию Воинственного генерала.<NL>Поскольку вы так сильно доверяете мне, как члену <Character key=CharacterId str=OrgName/>, я тоже буду тебя Поддержку оказывать...\"<NL><NL><color=#lightgrey>(В связи с получением официальной должности, <Character key=RoleTaiwu str=Name /> получил некоторую Поддержку со стороны <Character key=CharacterId str=Name/>...)</color>",
       "status": "machine",
-      "srcHash": "79c042b00b32cea5",
+      "srcHash": "de2aa4ad9140f3a8",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "31c62a27-d183-46b8-bcf1-b66c7d76beb9/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "1017c059-9386-47bc-b694-6d3cd20c50a9/EventContent": {
       "en": "The city lord of <MapArea key=AreaId str=Name/> is aware of <Character key=RoleTaiwu str=Name/>'s visit, and has shown considerable hospitality.<NL>Seeing that <Character key=RoleTaiwu str=Name/> carries the demeanor of a noble reincarnation, the lord has received <Character key=RoleTaiwu str=GenderObject/> with the utmost care and respect...",
       "cn": "<MapArea key=AreaId str=Name/>城主既知<Character key=RoleTaiwu str=Name/>来访，自有几分殷勤，<NL>只因<Character key=RoleTaiwu str=Name/>俨然再世王侯，更是悉心接待，诚敬不已……",
       "ru": "Городской владыка <MapArea key=AreaId str=Name/> осознает <Character key=RoleTaiwu str=Name/>с визитом и проявил значительное гостеприимство.<NL>Видя, что <Character key=RoleTaiwu str=Name/> обладающий поведением благородного перевоплощения, господь получил <Character key=RoleTaiwu str=GenderObject/> с предельной заботой и уважением...",
       "status": "machine",
-      "srcHash": "23a6284e6d0570b7",
+      "srcHash": "d26e0022fcadd450",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "1017c059-9386-47bc-b694-6d3cd20c50a9/Option_1": {
       "en": "(I have heard that the tools in this place are quite handy...)",
       "cn": "（听闻此地工具甚是灵便……）",
       "ru": "(Я слышал, что инструменты в этом месте довольно удобные...)",
       "status": "machine",
-      "srcHash": "96b21fb863b43462",
+      "srcHash": "034d83ef97df1001",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "1017c059-9386-47bc-b694-6d3cd20c50a9/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "b6084cf3-7fd3-4ed9-8ddc-144f17c00dc5/EventContent": {
       "en": "After feeling <Character key=CharacterId str=Name/>'s pulse for a moment, followed by observation, listening, questioning, and diagnosis,<NL>in just a short while, <Character key=RoleTaiwu str=Name /> is contemplating something in <Character key=RoleTaiwu str=GenderPossessive/> heart...",
       "cn": "<Character key=RoleTaiwu str=Name />为<Character key=CharacterId str=Name/>号脉片刻，继而又是一番望闻问切，<NL>只需须臾，心中便有了忖量……",
       "ru": "После ощущения <Character key=CharacterId str=Name/>на мгновение прощупывается пульс, затем следует наблюдение, прослушивание, расспросы и постановка диагноза,<NL>всего за короткое время, <Character key=RoleTaiwu str=Name /> размышляет о чем-то в <Character key=RoleTaiwu str=GenderPossessive/> сердце...",
       "status": "machine",
-      "srcHash": "0faaf7c5f852bf8a",
+      "srcHash": "437a8952c388e95a",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "b6084cf3-7fd3-4ed9-8ddc-144f17c00dc5/Option_1": {
       "en": "Confirm",
       "cn": "确定",
       "ru": "Подтверждать",
       "status": "machine",
-      "srcHash": "53e9412d939599b4",
+      "srcHash": "cdfebf3af1ee1402",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "b6084cf3-7fd3-4ed9-8ddc-144f17c00dc5/Option_2": {
       "en": "Cancel",
       "cn": "取消\n",
       "ru": "Отменить",
       "status": "machine",
-      "srcHash": "f8d7e285747152a8",
+      "srcHash": "adaa2cd2da491fb1",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "750832f5-8ce1-4103-b554-4cd7956c2ab9/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "1635a318-2b1f-4966-ae34-4b7793cb2404/EventContent": {
       "en": "\"Although you speak so, this matter is not to be taken lightly...\"<NL>Upon hearing <Character key=RoleTaiwu str=Name />'s words, <Character key=CharacterId str=Name/> seems to show a hint of surprise, but it is unclear what <Character key=CharacterId str=GenderPossessive/> true intentions are...",
       "cn": "“你虽如此所说，此事却不可儿戏……”<NL><Character key=CharacterId str=Name/>听闻<Character key=RoleTaiwu str=Name />之意，似是颇为惊讶，却不知其心意如何……",
       "ru": "\"Хотя вы так говорите, к этому вопросу не следует относиться легкомысленно...\"<NL>Услышав <Character key=RoleTaiwu str=Name />его слова, <Character key=CharacterId str=Name/> кажется, в нем сквозит намек на удивление, но неясно, что именно <Character key=CharacterId str=GenderPossessive/> истинные намерения таковы...",
       "status": "machine",
-      "srcHash": "f53619565ffd6e94",
+      "srcHash": "2f564005b25459d0",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "1635a318-2b1f-4966-ae34-4b7793cb2404/Option_1": {
       "en": "(Insist...)",
       "cn": "（执意如此……）",
       "ru": "(Настаиваю...)",
       "status": "machine",
-      "srcHash": "eb00d25c2d4670a5",
+      "srcHash": "9882ca42e348bb00",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "1635a318-2b1f-4966-ae34-4b7793cb2404/Option_2": {
       "en": "(Give up for now...)",
       "cn": "（暂且作罢......）\n",
       "ru": "(Сдавайся пока...)",
       "status": "machine",
-      "srcHash": "e0e09e9a6cac1493",
+      "srcHash": "a7cee4cc2a569d7d",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "bea33def-d1bf-41ac-bc73-2e43a0f7a388/EventContent": {
       "en": "When no one else is around, <Character key=RoleTaiwu str=Name /> ties up <Character key=CharacterId str=Name/>,<NL>and takes <Character key=CharacterId str=Name/> away...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> secretly detains <Character key=CharacterId str=Name/>...)</color>",
       "cn": "<Character key=RoleTaiwu str=Name />趁四下无人，<NL>将<Character key=CharacterId str=Name/>五花大绑，挟持而去……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />秘密关押了<Character key=CharacterId str=Name/>……）</color>",
       "ru": "Когда рядом больше никого нет, <Character key=RoleTaiwu str=Name /> связывает <Character key=CharacterId str=Name/>,<NL>и берет <Character key=CharacterId str=Name/> прочь...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> тайно задерживает <Character key=CharacterId str=Name/>...)</color>",
       "status": "machine",
-      "srcHash": "a7f72424dc29bc44",
+      "srcHash": "22f61bf3476601c6",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "bea33def-d1bf-41ac-bc73-2e43a0f7a388/Option_1": {
       "en": "(Now you have to leave with me!)",
       "cn": "（这便随我走罢！）\n",
       "ru": "(Теперь ты должен уйти со мной!)",
       "status": "machine",
-      "srcHash": "2eaf3a397389a515",
+      "srcHash": "662ec9f06d02af64",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f61ee220-ca88-4c60-a7bb-2117f08071cf/EventContent": {
       "en": "\"'Their power moves heaven and earth, their voice commands the four seas,' I will not disappoint the esteemed reputation of the General of Might.<NL>Since you trust me so much, as a member of <Character key=CharacterId str=OrgName/>, I'll also support you...\"<NL><NL><color=#lightgrey>(Due to being granted an official position, <Character key=RoleTaiwu str=Name /> has gained some support from <Character key=CharacterId str=Name/>...)</color>",
       "cn": "“威动天地，声摄四海，我必不会辱没震威将军之威名，<NL>既然你如此信赖于我，我作为<Character key=CharacterId str=OrgName/>中人亦将支持于你……”<NL><NL><color=#lightgrey>（因授予官职，<Character key=RoleTaiwu str=Name />获得了<Character key=CharacterId str=Name/>的些许支持……）</color>",
       "ru": "\"Их сила движет небом и землей, их голос повелевает четырьмя морями\", - я не разочарую уважаемую репутацию Могущественного генерала.<NL>Поскольку вы так сильно доверяете мне, как члену <Character key=CharacterId str=OrgName/>, я тоже буду тебя Поддержку оказывать...\"<NL><NL><color=#lightgrey>(В связи с получением официальной должности, <Character key=RoleTaiwu str=Name /> получил некоторую Поддержку со стороны <Character key=CharacterId str=Name/>...)</color>",
       "status": "machine",
-      "srcHash": "47e6657578fa7d22",
+      "srcHash": "0583e9ffb2fead4b",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f61ee220-ca88-4c60-a7bb-2117f08071cf/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "19652e9a-743b-4cf5-a922-0e6e9f0cccb0/EventContent": {
       "en": "Nowadays, <Character key=RoleTaiwu str=Name /> is a magnate with a considerable reputation among other merchants.<NL>At present, with just a call to action, caravans will surely respond immediately, hastening to <Character key=RoleTaiwu str=Name />'s location from afar...",
       "cn": "<Character key=RoleTaiwu str=Name />如今已是一方富商，商贾之中，颇有几分名望，<NL>现下只需发起号召，想必即刻便会有商队呼应，遥遥赶来<Character key=RoleTaiwu str=Name />所在之处……",
       "ru": "В наши дни, <Character key=RoleTaiwu str=Name /> это магнат со значительной репутацией среди других торговцев.<NL>В настоящее время, получив всего лишь призыв к действию, караваны, несомненно, немедленно отреагируют, поспешив в <Character key=RoleTaiwu str=Name />его местоположение видно издалека...",
       "status": "machine",
-      "srcHash": "536f42ecc427b561",
+      "srcHash": "731b938400bfda99",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "19652e9a-743b-4cf5-a922-0e6e9f0cccb0/Option_1": {
       "en": "(Summon the Oxback Caravan...)",
       "cn": "（召集服牛帮……）",
       "ru": "(Призовите Караван на бычьих спинах...)",
       "status": "machine",
-      "srcHash": "60aa52fe7db92b4e",
+      "srcHash": "8598c65192990e67",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "19652e9a-743b-4cf5-a922-0e6e9f0cccb0/Option_2": {
       "en": "(Summon the Vault of Volumes...)",
       "cn": "（召集文山书海阁……）",
       "ru": "(Призовите хранилище томов...)",
       "status": "machine",
-      "srcHash": "8a716aface375dbf",
+      "srcHash": "ed8f8297ede45738",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "19652e9a-743b-4cf5-a922-0e6e9f0cccb0/Option_3": {
       "en": "(Summon the Yangtze Merchant League...)",
       "cn": "（召集五湖商会……）",
       "ru": "(Призовите Лигу Торговцев Янцзы...)",
       "status": "machine",
-      "srcHash": "29a2dad647583bc7",
+      "srcHash": "6b2b6c97aeb018ff",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "19652e9a-743b-4cf5-a922-0e6e9f0cccb0/Option_4": {
       "en": "(Summon the Champion's Armaments...)",
       "cn": "（召集大武魁商号……）",
       "ru": "(Призовите оружие чемпиона...)",
       "status": "machine",
-      "srcHash": "c83edeacdfe67314",
+      "srcHash": "81a5c0a3a7e059e9",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "19652e9a-743b-4cf5-a922-0e6e9f0cccb0/Option_5": {
       "en": "(Summon the Revival Apothecary...)",
       "cn": "（召集回春堂……）",
       "ru": "(Призовите аптекаря Возрождения...)",
       "status": "machine",
-      "srcHash": "767fba0b7ad9fc17",
+      "srcHash": "80384c3ddd84a357",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "19652e9a-743b-4cf5-a922-0e6e9f0cccb0/Option_6": {
       "en": "(Summon Gongshu's Caravan...)",
       "cn": "（召集公输坊……）",
       "ru": "(Призови Караван Гуншу...)",
       "status": "machine",
-      "srcHash": "a23c9fad724c2a8b",
+      "srcHash": "2e4f62a800a0e660",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "19652e9a-743b-4cf5-a922-0e6e9f0cccb0/Option_7": {
       "en": "(Summon Pavilion of Wonders...)",
       "cn": "（召集奇货斋……）",
       "ru": "(Призовите Павильон чудес...)",
       "status": "machine",
-      "srcHash": "1319d069fccb8a1f",
+      "srcHash": "9400ce8e4b07aad7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "19652e9a-743b-4cf5-a922-0e6e9f0cccb0/Option_8": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "cb2e4cc8f2fb0e46",
+      "srcHash": "f0dad5730ef8624d",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "e3e2d1bd-bcce-4e7a-b427-5b578aac0c66/EventContent": {
       "en": "\"'They elevate the pure and stir away the impure, purifying the dregs,' I will not disappoint the esteemed reputation of the General of Conquest...<NL>Since you trust me so much, as a member of <Character key=CharacterId str=OrgName/>, I'll also support you...\"<NL><NL><color=#lightgrey>(Due to being granted an official position, <Character key=RoleTaiwu str=Name /> has gained some support from <Character key=CharacterId str=Name/>...)</color>",
       "cn": "“扬清激浊，荡去滓秽，我必不会辱没平虏将军之威名……<NL>既然你如此信赖于我，我作为<Character key=CharacterId str=OrgName/>中人亦将支持于你……”<NL><NL><color=#lightgrey>（因授予官职，<Character key=RoleTaiwu str=Name />获得了<Character key=CharacterId str=Name/>的些许支持……）</color>",
       "ru": "\"Они возвышают чистых и изгоняют нечистых, очищая отбросы\", - я не разочарую уважаемую репутацию полководца завоеваний...<NL>Поскольку вы так сильно доверяете мне, как члену <Character key=CharacterId str=OrgName/>, я тоже буду тебя Поддержку оказывать...\"<NL><NL><color=#lightgrey>(В связи с получением официальной должности, <Character key=RoleTaiwu str=Name /> получил некоторую Поддержку со стороны <Character key=CharacterId str=Name/>...)</color>",
       "status": "machine",
-      "srcHash": "071ec840fd4e0959",
+      "srcHash": "e6ea678de76874a3",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "e3e2d1bd-bcce-4e7a-b427-5b578aac0c66/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "a2f9a559-e636-4956-b1d5-ccdc1d188895/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "bea6ad78-280d-4357-9b11-c3e23dbcda1a/EventContent": {
       "en": "\"These days, my brothers and sisters on the streets have been running around searching.<NL>However, in such a vast world, it's truly difficult to find <Character key=CharacterId str=Name />, the person you're looking for...\"<NL>Failed to fulfill the task from <Character key=RoleTaiwu str=Name />. The beggars scratch their heads in embarrassment, hesitant to speak any further...",
       "cn": "“这些时日，街头兄弟姐妹奔走寻觅，<NL>奈何天下之大，实在是寻不得您所欲寻找的<Character key=CharacterId str=Name />……”<NL>似因未能完成<Character key=RoleTaiwu str=Name />所托，众丐百般挠头，面有愧意，讷讷不敢多言……",
       "ru": "\"В эти дни мои братья и сестры на улицах бегали повсюду в поисках.<NL>Однако в таком огромном мире это действительно трудно найти <Character key=CharacterId str=Name />, человек, которого вы ищете...\"<NL>Не удалось выполнить задание из <Character key=RoleTaiwu str=Name /> Нищие смущенно чешут в затылках, не решаясь говорить дальше...",
       "status": "machine",
-      "srcHash": "0ff821a4f978331d",
+      "srcHash": "db5e86b2d7711e96",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "bea6ad78-280d-4357-9b11-c3e23dbcda1a/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f5793536-0ddc-4330-9c46-ce7d50c98fcb/EventContent": {
       "en": "\"Since we have come to this point, I have nothing more to say.<NL>With a tranquil heart, and both a place to sleep and meals secure, I feel content...\"<NL>Nodding and indicating compliance, <Character key=CharacterId str=Name/> follows <Character key=RoleTaiwu str=Name />'s suggestion, lays down armor and retires...<NL><NL><color=#lightgrey>(The General of Peace, <Character key=CharacterId str=Name/>, has retired but may once again be appointed to this position by <Character key=RoleTaiwu str=Name />...)</color>",
       "cn": "“既然话已至此，我亦无话可说，<NL>心宁而寝食俱安，我便是足矣……”<NL><Character key=CharacterId str=Name/>颔首道，听从<Character key=RoleTaiwu str=Name />之意，卸甲归田……<NL><NL><color=#lightgrey>（怀宁将军<Character key=CharacterId str=Name/>已卸甲归田，<Character key=RoleTaiwu str=Name />可再次授予该官职……）</color>",
       "ru": "\"Поскольку мы подошли к этому моменту, мне больше нечего сказать.<NL>Со спокойным сердцем, с надежным местом для сна и приема пищи я чувствую себя удовлетворенным...\"<NL>Кивок в знак согласия, <Character key=CharacterId str=Name/> следует <Character key=RoleTaiwu str=Name />согласно предложению, складывает Броню и удаляется...<NL><NL><color=#lightgrey>(Генерал мира, <Character key=CharacterId str=Name/>, вышел в отставку , но может быть вновь назначен на эту должность <Character key=RoleTaiwu str=Name />...)</color>",
       "status": "machine",
-      "srcHash": "a3be789baa53ff56",
+      "srcHash": "e800d4e1d47c9993",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f5793536-0ddc-4330-9c46-ce7d50c98fcb/Option_1": {
       "en": "(Other topics...)",
       "cn": "（如此便好……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "e39adbcf-03ca-4011-9b69-b2f748c545fc/EventContent": {
       "en": "\"Their awe-inspiring presence can stabilize the world and even suppress the highest heavens.' I will not let down the esteemed reputation of the General of Suppression...<NL>Since you trust me so much, as a member of <Character key=CharacterId str=OrgName/>, I'll also support you...\"<NL><NL><color=#lightgrey>(Due to being granted an official position, <Character key=RoleTaiwu str=Name /> has gained some support from <Character key=CharacterId str=Name/>...)</color>",
       "cn": "“气匡天下，可镇云霄，我必不会辱没镇云将军之威名，<NL>既然你如此信赖于我，我作为<Character key=CharacterId str=OrgName/>中人亦将支持于你……”<NL><NL><color=#lightgrey>（因授予官职，<Character key=RoleTaiwu str=Name />获得了<Character key=CharacterId str=Name/>的些许支持……）</color>",
       "ru": "\"Их внушающее благоговейный трепет присутствие может стабилизировать мир и даже подавить высшие небеса\". Я не подведу уважаемую репутацию Генерала Подавления...<NL>Поскольку вы так сильно доверяете мне, как члену <Character key=CharacterId str=OrgName/>, я тоже буду тебя Поддержку оказывать...\"<NL><NL><color=#lightgrey>(В связи с получением официальной должности, <Character key=RoleTaiwu str=Name /> получил некоторую Поддержку со стороны <Character key=CharacterId str=Name/>...)</color>",
       "status": "machine",
-      "srcHash": "3fe2bdac67129283",
+      "srcHash": "98b0ffc7ccf898e8",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "e39adbcf-03ca-4011-9b69-b2f748c545fc/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "efe9d558-37f0-4f37-834e-86ecf15c3d8c/EventContent": {
       "en": "\"What I've said today, I only hope you remember it in your heart and do not repeat the same mistake...\"<NL><Character key=CharacterId str=Name/> renders <Character key=RoleTaiwu str=Name /> speechless, showing a pleased expression,<NL><Character key=RoleTaiwu str=GenderPossessive/> words filled with self-assured pride...",
       "cn": "“我今日所言，只盼你铭记于心，勿要再犯……”<NL><Character key=CharacterId str=Name/>将<Character key=RoleTaiwu str=Name />说得哑口无言，面露喜色，<NL>言辞间更是昂然自得不已……",
       "ru": "\"То, что я сказал сегодня, я только надеюсь, что ты запомнишь это в своем сердце и не повторишь ту же ошибку...\"<NL><Character key=CharacterId str=Name/> рендеры <Character key=RoleTaiwu str=Name /> потеряв дар речи, с довольным выражением лица,<NL><Character key=RoleTaiwu str=GenderPossessive/> слова, наполненные самоуверенной гордостью...",
       "status": "machine",
-      "srcHash": "4724168140bd3a86",
+      "srcHash": "e64e5af5cbf5eb93",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "efe9d558-37f0-4f37-834e-86ecf15c3d8c/Option_1": {
       "en": "(Give up...)",
       "cn": "（只好作罢……）\n",
       "ru": "(Сдавайся...)",
       "status": "machine",
-      "srcHash": "d6e595ad368ab658",
+      "srcHash": "da473a4589cbf66e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "20c84cae-13e9-4c89-bc5f-555cfdca5994/EventContent": {
       "en": "\"This is a small token of appreciation. It's not much,<NL>but I hope you will continue to patronize <ArgBox key=MerchantName type=string/>'s business in the future...\"",
       "cn": "“小小薄礼，不成敬意，<NL>只盼贵客日后亦多多光顾<ArgBox key=MerchantName type=string/>之生意……”",
       "ru": "\"Это небольшой знак признательности. Это не так уж много,<NL>но я надеюсь, что вы продолжите оказывать мне покровительство <ArgBox key=MerchantName type=string/>это бизнес на будущее...\"",
       "status": "machine",
-      "srcHash": "6946177b07981749",
+      "srcHash": "417d1b516941d813",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "20c84cae-13e9-4c89-bc5f-555cfdca5994/Option_1": {
       "en": "(Overwhelmed with joy!)",
       "cn": "（喜不自胜！）\n",
       "ru": "(Переполненный радостью!)",
       "status": "machine",
-      "srcHash": "ba543a40e2e10506",
+      "srcHash": "b2e691dc628c1a6a",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "bb703454-9044-47a5-849b-6391d2287c7b/EventContent": {
       "en": "\"How could you do this?...\"<NL><Character key=CharacterId str=Name/> sees the uncouth behavior and crude manners of <Character key=RoleTaiwu str=Name />. Although reluctant to stir up further trouble,<NL><Character key=CharacterId str=GenderSubject/> is still embarrassed. <Character key=CharacterId str=Name/> turns around, brushes <Character key=CharacterId str=GenderPossessive/> sleeves, and leaves...",
       "cn": "“你岂能如此这般……”<NL><Character key=CharacterId str=Name/>见<Character key=RoleTaiwu str=Name />言行无状，粗鄙俚俗，<NL>虽不欲再多生事，仍是面色难堪，转身拂袖而去……",
       "ru": "\"Как ты мог это сделать?..\"<NL><Character key=CharacterId str=Name/> видит неотесанное поведение и грубые манеры <Character key=RoleTaiwu str=Name />. Хотя и неохотно , чтобы не создавать новых проблем,<NL><Character key=CharacterId str=GenderSubject/> все еще смущен. <Character key=CharacterId str=Name/> оборачивается, расчесывает <Character key=CharacterId str=GenderPossessive/> рукава и листья...",
       "status": "machine",
-      "srcHash": "93ede58e2d4df190",
+      "srcHash": "ea4bc6d2b30bdc4f",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "bb703454-9044-47a5-849b-6391d2287c7b/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "24428f38-ff69-4a22-b573-d167f0883d0e/EventContent": {
       "en": "\"This is wonderful, just what I've been seeking! But I wonder what official position will be bestowed upon me?\"",
       "cn": "“此事甚好，我求之不得！只是不知要授予我何等官职？”",
       "ru": "\"Это замечательно, как раз то, что я искал! Но мне интересно, какая официальная должность будет мне предоставлена?\"",
       "status": "machine",
-      "srcHash": "f6085a5b08742a4b",
+      "srcHash": "4352991323547a56",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "24428f38-ff69-4a22-b573-d167f0883d0e/Option_1": {
       "en": "(Bestow <Character key=CharacterId str=Name/> with the title General of Conquest...)",
       "cn": "（授予<Character key=CharacterId str=Name/>平虏将军之官职……）",
       "ru": "(Даровать <Character key=CharacterId str=Name/> с титулом генерала завоеваний...)",
       "status": "machine",
-      "srcHash": "e31fefd699e422b8",
+      "srcHash": "e4f7de3f3702f298",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "24428f38-ff69-4a22-b573-d167f0883d0e/Option_2": {
       "en": "(Bestow <Character key=CharacterId str=Name/> with the title General of Peace...)",
       "cn": "（授予<Character key=CharacterId str=Name/>怀宁将军之官职……）",
       "ru": "(Даровать <Character key=CharacterId str=Name/> со званием генерала мира...)",
       "status": "machine",
-      "srcHash": "732bfc28e9320d65",
+      "srcHash": "ca7fed9c68ff102d",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "24428f38-ff69-4a22-b573-d167f0883d0e/Option_3": {
       "en": "(Bestow <Character key=CharacterId str=Name/> with the title General of Might...)",
       "cn": "（授予<Character key=CharacterId str=Name/>震威将军之官职……）",
       "ru": "(Даровать <Character key=CharacterId str=Name/> с титулом \"Генерал могущества\"...)",
       "status": "machine",
-      "srcHash": "92a6fe1c1db264c1",
+      "srcHash": "a512f1e8ee56a5f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "24428f38-ff69-4a22-b573-d167f0883d0e/Option_4": {
       "en": "(Bestow <Character key=CharacterId str=Name/> with the title General of Belligerence...)",
       "cn": "（授予<Character key=CharacterId str=Name/>昭武将军之官职……）",
       "ru": "(Даровать <Character key=CharacterId str=Name/> с титулом генерала воинственности...)",
       "status": "machine",
-      "srcHash": "fe401c6c4932554c",
+      "srcHash": "867c8a2c25367032",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "24428f38-ff69-4a22-b573-d167f0883d0e/Option_5": {
       "en": "(Bestow <Character key=CharacterId str=Name/> with the title General of Suppression...)",
       "cn": "（授予<Character key=CharacterId str=Name/>镇云将军之官职……）",
       "ru": "(Даровать <Character key=CharacterId str=Name/> с титулом генерала подавления...)",
       "status": "machine",
-      "srcHash": "0d09fec7691b8e44",
+      "srcHash": "0b936f5535418fd0",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "24428f38-ff69-4a22-b573-d167f0883d0e/Option_6": {
       "en": "(Bestow <Character key=CharacterId str=Name/> with the title General of Forbearance...)",
       "cn": "（授予<Character key=CharacterId str=Name/>宣德将军之官职……）",
       "ru": "(Даровать <Character key=CharacterId str=Name/> с титулом генерала терпения...)",
       "status": "machine",
-      "srcHash": "07459c1a4acf0ba7",
+      "srcHash": "e507c37430a1425f",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "24428f38-ff69-4a22-b573-d167f0883d0e/Option_7": {
       "en": "(Do nothing...)",
       "cn": "（暂且作罢……）\n",
       "ru": "(Ничего не делай...)",
       "status": "machine",
-      "srcHash": "e2d2c888b5e012af",
+      "srcHash": "35901c0ddbc2f7e6",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "d409fe71-dc60-4947-9987-a1e96da0d316/EventContent": {
       "en": "\"Such rudeness, if it were someone else, they might not be forgiven so easily...\"<NL><Character key=CharacterId str=Name/> sees the uncouth behavior and crude manners of <Character key=RoleTaiwu str=Name />. Despite feeling displeased,<NL><Character key=CharacterId str=GenderSubject/> still suppresses annoyance and gently advises, unwilling to quarrel with <Character key=RoleTaiwu str=Name />...",
       "cn": "“你如此无礼，换了旁人，许是不易善了……”<NL><Character key=CharacterId str=Name/>见<Character key=RoleTaiwu str=Name />言行无状，粗鄙俚俗，虽觉不快，<NL>却仍是按捺恼意，温言相劝，不愿与<Character key=RoleTaiwu str=Name />计较……",
       "ru": "\"Такую грубость, будь это кто-то другой, ему, возможно, не простили бы так легко...\"<NL><Character key=CharacterId str=Name/> замечает грубое поведение и неотесанные манеры <Character key=RoleTaiwu str=Name />. Несмотря на то, что чувствует недовольство,<NL><Character key=CharacterId str=GenderSubject/> , все же подавляет раздражение и мягко советует, не желая ссориться с <Character key=RoleTaiwu str=Name />...",
       "status": "machine",
-      "srcHash": "4234b346ec446270",
+      "srcHash": "22b67107303f2e9d",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "d409fe71-dc60-4947-9987-a1e96da0d316/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "10e89787-21e9-4c75-b44e-31bddb0bda64/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> chooses an open ground, sits on the ground with a begging bowl in hand,<NL>murmuring 'Lotus falls' under <Character key=RoleTaiwu str=GenderPossessive/> breath, which is eloquent and witty, with a pleasant ring to it.<NL>After a moment, several people pass by and, upon witnessing the situation, generously give some Silver...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> gains <ArgBox key=BeggarMoneyCount type=int/> Silver when seeking alms...)</color>",
       "cn": "<Character key=RoleTaiwu str=Name />选中一处空地，手中托钵，席地而坐，<NL>口中呢喃几句“莲花落”，乃是朗朗上口，别有风趣，<NL>片刻之后便有数人路过，见此情状，施舍了些许银钱……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />托钵行乞，得到了<ArgBox key=BeggarMoneyCount type=int/>银钱……）</color>",
       "ru": "<Character key=RoleTaiwu str=Name /> выбирает открытое место, садится на землю с чашей для подаяний в руке,<NL>бормочущий \"Лотос падает\" под <Character key=RoleTaiwu str=GenderPossessive/> дыхание, красноречивое и остроумное, с приятным привкусом.<NL>Через мгновение мимо проходят несколько человек и, став свидетелями ситуации, щедро раздают немного серебра...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> выгоды <ArgBox key=BeggarMoneyCount type=int/> Серебро, когда просишь милостыню...)</color>",
       "status": "machine",
-      "srcHash": "cb4aef4849d681de",
+      "srcHash": "7dc223c0d71a2695",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "10e89787-21e9-4c75-b44e-31bddb0bda64/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "3d25d7ef-ac94-405b-9ce4-e6ee6fff5c6a/EventContent": {
       "en": "The city lord of <MapArea key=AreaId str=Name/> is aware of <Character key=RoleTaiwu str=Name/>'s visit, and has shown considerable hospitality.<NL>Seeing that <Character key=RoleTaiwu str=Name/> carries the demeanor of a noble reincarnation, the lord has received <Character key=RoleTaiwu str=GenderObject/> with the utmost care and respect...",
       "cn": "<MapArea key=AreaId str=Name/>城主既知<Character key=RoleTaiwu str=Name/>来访，自有几分殷勤，<NL>只因<Character key=RoleTaiwu str=Name/>俨然再世王侯，更是悉心接待，诚敬不已……",
       "ru": "Городской владыка <MapArea key=AreaId str=Name/> осознает <Character key=RoleTaiwu str=Name/>с визитом и проявил значительное гостеприимство.<NL>Видя, что <Character key=RoleTaiwu str=Name/> обладающий поведением благородного перевоплощения, господь получил <Character key=RoleTaiwu str=GenderObject/> с предельной заботой и уважением...",
       "status": "machine",
-      "srcHash": "23a6284e6d0570b7",
+      "srcHash": "d26e0022fcadd450",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "3d25d7ef-ac94-405b-9ce4-e6ee6fff5c6a/Option_1": {
       "en": "(I have heard that the weapons in this place are very formidable...)",
       "cn": "（听闻此地武器甚是勇武……）",
       "ru": "(Я слышал, что оружие в этом месте очень грозное...)",
       "status": "machine",
-      "srcHash": "f2b2f4f4815329f2",
+      "srcHash": "61391e7c022c92bf",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "3d25d7ef-ac94-405b-9ce4-e6ee6fff5c6a/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "3a8912ff-f8aa-4e4c-9eed-859c5e5a5097/EventContent": {
       "en": "\"After taking this medicine, I feel much better all over, and I'm regaining my vitality. However, my purse is light, and I'm truly unable to repay such great kindness and favor...\"<NL><Character key=CharacterId str=Name/>'s spirit gradually lifts, their brow relaxes, and a hint of joy appears on <Character key=CharacterId str=GenderPossessive/> face...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> cures <Character key=CharacterId str=Name/> with medicine and receives payment...)</color>",
       "cn": "“此药一下，我通体舒泰，竟是觉得好上许多了……”<NL><Character key=CharacterId str=Name/>神采渐复，重展眉头，面上亦有喜意展露……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />为<Character key=CharacterId str=Name/>施医用药，收取了诊金……）</color>",
       "ru": "\"После приема этого лекарства я чувствую себя намного лучше во всем теле, и ко мне возвращаются жизненные силы. Однако мой кошелек невелик, и я действительно не в состоянии отплатить за такую великую доброту и одолжение...\"<NL><Character key=CharacterId str=Name/>Дух людей постепенно поднимается, их брови разглаживаются, и на лице появляется намек на радость. <Character key=CharacterId str=GenderPossessive/> лицо...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> излечивает <Character key=CharacterId str=Name/> с лекарством и получает оплату...)</color>",
       "status": "machine",
-      "srcHash": "55acfd6c8a3ca874",
+      "srcHash": "5ebedfff1a1353ff",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "3a8912ff-f8aa-4e4c-9eed-859c5e5a5097/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "bb8ba32c-51e3-42bc-aaea-f75456ace5b1/EventContent": {
       "en": "This <Item key=SelectItemKey str=ColorName/>...<NL><ArgBox key=CricketDesc type=string/><NL><Character key=RoleTaiwu str=Name /> examines closely and discerns carefully,<NL>and in the blink of an eye, it becomes apparent to <Character key=RoleTaiwu str=GenderObject/> that this <Item key=SelectItemKey str=ColorName/> is extraordinary and exceptional and is able to evolve...",
       "cn": "此<Item key=SelectItemKey str=ColorName/><NL><ArgBox key=CricketDesc type=string/><NL><Character key=RoleTaiwu str=Name />细细审视，端详辨看，<NL>眨眼便知，<Item key=SelectItemKey str=ColorName/>乃是神采非凡，已足有进化之能……",
       "ru": "Этот <Item key=SelectItemKey str=ColorName/>...<NL><ArgBox key=CricketDesc type=string/><NL><Character key=RoleTaiwu str=Name /> внимательно изучает и тщательно различает,<NL>и в мгновение ока это становится очевидным для всех. <Character key=RoleTaiwu str=GenderObject/> что это <Item key=SelectItemKey str=ColorName/> он экстраординарен и исключителен и способен развиваться...",
       "status": "machine",
-      "srcHash": "b3978f34e093c3a8",
+      "srcHash": "90972a97f48212b3",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "bb8ba32c-51e3-42bc-aaea-f75456ace5b1/Option_1": {
       "en": "(Cricket evolution...)",
       "cn": "（促织进化……）",
       "ru": "(Эволюция Сверчка...)",
       "status": "machine",
-      "srcHash": "f7e0294a0386e470",
+      "srcHash": "59e764cf9ff30324",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "bb8ba32c-51e3-42bc-aaea-f75456ace5b1/Option_2": {
       "en": "(Do nothing...)",
       "cn": "（暂且作罢……）\n",
       "ru": "(Ничего не делай...)",
       "status": "machine",
-      "srcHash": "e2d2c888b5e012af",
+      "srcHash": "35901c0ddbc2f7e6",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "1dc3ba34-2982-44af-8df8-6cff2ca323d2/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> chooses an open ground and sits on the ground, holding a begging bowl in <Character key=RoleTaiwu str=GenderPossessive/> hand<NL>As is about to beg, suddenly discovers that there is not a soul around, leaving no one to beg from...",
       "cn": "<Character key=RoleTaiwu str=Name />选中一处空地，手中托钵，席地而坐，<NL>正欲行乞之时，却发现此地空无一人，自然是乞讨无门……",
       "ru": "<Character key=RoleTaiwu str=Name /> выбирает открытое место и садится на землю, держа в руках чашу для подаяний. <Character key=RoleTaiwu str=GenderPossessive/> рука<NL>Когда собирается просить милостыню, вдруг обнаруживает, что вокруг нет ни души, и не у кого просить милостыню...",
       "status": "machine",
-      "srcHash": "8b53082cdad79085",
+      "srcHash": "7190fcef4674d214",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "1dc3ba34-2982-44af-8df8-6cff2ca323d2/Option_1": {
       "en": "(Give up...)",
       "cn": "（只好作罢……）\n",
       "ru": "(Сдавайся...)",
       "status": "machine",
-      "srcHash": "d6e595ad368ab658",
+      "srcHash": "da473a4589cbf66e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f519f090-9b64-478d-976b-d076a4642b08/EventContent": {
       "en": "\"These days, my brothers and sisters on the streets have been running around searching.<NL>However, in such a vast world, it's truly difficult to find <ArgBox key=MonthlyEvent_arg0 type=string/>, the person you're looking for...\"<NL>Failed to fulfill the task from <Character key=RoleTaiwu str=Name />. The beggars scratch their heads in embarrassment, hesitant to speak any further...",
       "cn": "“这些时日，街头兄弟姐妹奔走寻觅，<NL>奈何天下之大，实在是寻不得您所欲寻找的<ArgBox key=MonthlyEvent_arg0 type=string/>……”<NL>似因未能完成<Character key=RoleTaiwu str=Name />所托，众丐百般挠头，面有愧意，讷讷不敢多言……",
       "ru": "\"В эти дни мои братья и сестры на улицах бегали повсюду в поисках.<NL>Однако в таком огромном мире это действительно трудно найти <ArgBox key=MonthlyEvent_arg0 type=string/>, человек, которого вы ищете...\"<NL>Не удалось выполнить задание из <Character key=RoleTaiwu str=Name /> Нищие смущенно чешут в затылках, не решаясь говорить дальше...",
       "status": "machine",
-      "srcHash": "4b0df4a0399fc578",
+      "srcHash": "4bec7d819f30e336",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f519f090-9b64-478d-976b-d076a4642b08/Option_1": {
       "en": "(Do nothing...)",
       "cn": "（暂且作罢……）\n",
       "ru": "(Ничего не делай...)",
       "status": "machine",
-      "srcHash": "e2d2c888b5e012af",
+      "srcHash": "35901c0ddbc2f7e6",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "2ff89b9e-ab18-455b-aba9-bb44d6a1570e/EventContent": {
       "en": "\"I lost...\"<NL><Character key=CharacterId str=Name/> is defeated by <Character key=RoleTaiwu str=Name /> and has to leave, feeling frustrated and resentful...",
       "cn": "“是我输了……”<NL><Character key=CharacterId str=Name/>败于<Character key=RoleTaiwu str=Name />之手，恼恨不已，却只得就此离去……",
       "ru": "\"Я потерял...\"<NL><Character key=CharacterId str=Name/> побежден <Character key=RoleTaiwu str=Name /> и вынужден уйти, чувствуя разочарование и обиду...",
       "status": "machine",
-      "srcHash": "d379a1e63c81ed0b",
+      "srcHash": "750e4f01fb442f49",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "2ff89b9e-ab18-455b-aba9-bb44d6a1570e/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "65836950-e725-43bf-b0ec-3da923ea88cd/EventContent": {
       "en": "The city lord of <MapArea key=AreaId str=Name/> is aware of <Character key=RoleTaiwu str=Name/>'s visit, and has shown considerable hospitality.<NL>Seeing that <Character key=RoleTaiwu str=Name/> carries the demeanor of a noble reincarnation, the lord has received <Character key=RoleTaiwu str=GenderObject/> with the utmost care and respect...",
       "cn": "<MapArea key=AreaId str=Name/>城主既知<Character key=RoleTaiwu str=Name/>来访，自有几分殷勤，<NL>只因<Character key=RoleTaiwu str=Name/>俨然再世王侯，更是悉心接待，诚敬不已……",
       "ru": "Городской владыка <MapArea key=AreaId str=Name/> осознает <Character key=RoleTaiwu str=Name/>с визитом и проявил значительное гостеприимство.<NL>Видя, что <Character key=RoleTaiwu str=Name/> обладающий поведением благородного перевоплощения, господь получил <Character key=RoleTaiwu str=GenderObject/> с предельной заботой и уважением...",
       "status": "machine",
-      "srcHash": "23a6284e6d0570b7",
+      "srcHash": "d26e0022fcadd450",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "65836950-e725-43bf-b0ec-3da923ea88cd/Option_1": {
       "en": "(I have heard that the ornaments in this place are very exquisite...)",
       "cn": "（听闻此地饰品甚是精巧……）",
       "ru": "(Я слышал, что украшения в этом месте очень изысканные...)",
       "status": "machine",
-      "srcHash": "f984df9f360bb5b5",
+      "srcHash": "09392f7e704ea14e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "65836950-e725-43bf-b0ec-3da923ea88cd/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "6205cbe1-9786-410e-bf24-a57546ce1a2e/EventContent": {
       "en": "\"Since we have come to this point, I have nothing more to say.<NL>I hope only there will be a virtuous individual who can hold this position.\"<NL>Nodding and indicating compliance, <Character key=CharacterId str=Name/> follows <Character key=RoleTaiwu str=Name />'s suggestion, lays down <Character key=CharacterId str=GenderPossessive/> armor and retires...<NL><NL><color=#lightgrey>(The General of Forbearance, <Character key=CharacterId str=Name/>, has retired but may once again be appointed to this position by <Character key=RoleTaiwu str=Name />...)</color>",
       "cn": "“既然话已至此，我亦无话可说，<NL>只盼仍有明德之人可任此官……”<NL><Character key=CharacterId str=Name/>颔首道，听从<Character key=RoleTaiwu str=Name />之意，卸甲归田……<NL><NL><color=#lightgrey>（宣德将军<Character key=CharacterId str=Name/>已卸甲归田，<Character key=RoleTaiwu str=Name />可再次授予该官职……）</color>",
       "ru": "\"Поскольку мы подошли к этому моменту, мне больше нечего сказать.<NL>Я надеюсь, что найдется только добродетельный человек, который сможет занять эту должность\".<NL>Кивок в знак согласия, <Character key=CharacterId str=Name/> следует <Character key=RoleTaiwu str=Name />предложение, излагающее <Character key=CharacterId str=GenderPossessive/> Броня и удаляется...<NL><NL><color=#lightgrey>(Генерал терпения, <Character key=CharacterId str=Name/>, вышел в отставку , но может быть вновь назначен на эту должность <Character key=RoleTaiwu str=Name />...)</color>",
       "status": "machine",
-      "srcHash": "41f99ea1ea77fd4e",
+      "srcHash": "82e2a3403a39addc",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "6205cbe1-9786-410e-bf24-a57546ce1a2e/Option_1": {
       "en": "(Other topics...)",
       "cn": "（如此便好……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "d4f9afb4-429f-462d-87ef-126aa44e2a48/EventContent": {
       "en": "With everyone wathcing, <Character key=RoleTaiwu str=Name /> ties up <Character key=CharacterId str=Name/>,<NL>and takes <Character key=CharacterId str=Name/> away...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> publicly detains <Character key=CharacterId str=Name/>...)</color>",
       "cn": "<Character key=RoleTaiwu str=Name />在众目睽睽之下，<NL>将<Character key=CharacterId str=Name/>五花大绑，挟持而去……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />公开关押了<Character key=CharacterId str=Name/>……）</color>",
       "ru": "Когда все плачут, <Character key=RoleTaiwu str=Name /> связывает <Character key=CharacterId str=Name/>,<NL>и берет <Character key=CharacterId str=Name/> прочь...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> публично задерживает <Character key=CharacterId str=Name/>...)</color>",
       "status": "machine",
-      "srcHash": "81c28a5761306bc0",
+      "srcHash": "ec88c0a39a4bd431",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "d4f9afb4-429f-462d-87ef-126aa44e2a48/Option_1": {
       "en": "(Now you have to leave with me!)",
       "cn": "（这便随我走罢！）\n",
       "ru": "(Теперь ты должен уйти со мной!)",
       "status": "machine",
-      "srcHash": "2eaf3a397389a515",
+      "srcHash": "662ec9f06d02af64",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "87fe31b2-b245-493e-8786-5fe537d39dc0/EventContent": {
       "en": "\"Grace permeates the four seas, virtue enriches the whole land.' I will not let down the esteemed reputation of the General of Forbearance.<NL>Since you trust me so much, as a member of <Character key=CharacterId str=OrgName/>, I'll also support you...\"<NL><NL><color=#lightgrey>(Due to being granted an official position, <Character key=RoleTaiwu str=Name /> has gained some support from <Character key=CharacterId str=Name/>...)</color>",
       "cn": "“恩化四海，德沛八方，我必不会辱没宣德将军之威名，<NL>既然你如此信赖于我，我作为<Character key=CharacterId str=OrgName/>中人亦将支持于你……”<NL><NL><color=#lightgrey>（因授予官职，<Character key=RoleTaiwu str=Name />获得了<Character key=CharacterId str=Name/>的些许支持……）</color>",
       "ru": "\"Благодать пронизывает четыре моря, добродетель обогащает всю землю\". Я не подведу уважаемую репутацию генерала Терпения.<NL>Поскольку вы так сильно доверяете мне, как члену <Character key=CharacterId str=OrgName/>, я тоже буду тебя Поддержку оказывать...\"<NL><NL><color=#lightgrey>(В связи с получением официальной должности, <Character key=RoleTaiwu str=Name /> получил некоторую Поддержку со стороны <Character key=CharacterId str=Name/>...)</color>",
       "status": "machine",
-      "srcHash": "a18fab8db9bcf5df",
+      "srcHash": "52b0ff4437cba48e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "87fe31b2-b245-493e-8786-5fe537d39dc0/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "94b1387f-7aad-43a2-a507-95f40a7cad33/EventContent": {
       "en": "\"Since we have come to this point, I have nothing more to say.<NL>It seems that I still need to improve my martial arts skills...\"<NL>Nodding and indicating compliance, <Character key=CharacterId str=Name/> follows <Character key=RoleTaiwu str=Name />'s suggestion, lays down <Character key=CharacterId str=GenderPossessive/> armor and retires...<NL><NL><color=#lightgrey>(The General of Belligerence, <Character key=CharacterId str=Name/>, has retired but may once again be appointed to this position by <Character key=RoleTaiwu str=Name />...)</color>",
       "cn": "“既然话已至此，我亦无话可说，<NL>想来我之武功，确实尚需精进……”<NL><Character key=CharacterId str=Name/>颔首道，听从<Character key=RoleTaiwu str=Name />之意，卸甲归田……<NL><NL><color=#lightgrey>（昭武将军<Character key=CharacterId str=Name/>已卸甲归田，<Character key=RoleTaiwu str=Name />可再次授予该官职……）</color>",
       "ru": "\"Поскольку мы подошли к этому моменту, мне больше нечего сказать.<NL>Похоже, мне все еще нужно совершенствовать свои навыки в Боевых искусствах...\"<NL>Кивок в знак согласия, <Character key=CharacterId str=Name/> следует <Character key=RoleTaiwu str=Name />предложение, излагающее <Character key=CharacterId str=GenderPossessive/> Броня и удаляется...<NL><NL><color=#lightgrey>(Воинственный генерал, <Character key=CharacterId str=Name/>, вышел в отставку , но может быть вновь назначен на эту должность <Character key=RoleTaiwu str=Name />...)</color>",
       "status": "machine",
-      "srcHash": "7f53adcd680163ca",
+      "srcHash": "8b86ea6a5770a2c9",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "94b1387f-7aad-43a2-a507-95f40a7cad33/Option_1": {
       "en": "(Other topics...)",
       "cn": "（如此便好……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "aebc9216-a35e-4f16-833a-40a2c4e9a09d/EventContent": {
       "en": "The city lord of <MapArea key=AreaId str=Name/> is aware of <Character key=RoleTaiwu str=Name/>'s visit, and has shown considerable hospitality.<NL>Seeing that <Character key=RoleTaiwu str=Name/> carries the demeanor of a noble reincarnation, the lord has received <Character key=RoleTaiwu str=GenderObject/> with the utmost care and respect...",
       "cn": "<MapArea key=AreaId str=Name/>城主既知<Character key=RoleTaiwu str=Name/>来访，自有几分殷勤，<NL>只因<Character key=RoleTaiwu str=Name/>俨然再世王侯，更是悉心接待，诚敬不已……",
       "ru": "Городской владыка <MapArea key=AreaId str=Name/> осознает <Character key=RoleTaiwu str=Name/>с визитом и проявил значительное гостеприимство.<NL>Видя, что <Character key=RoleTaiwu str=Name/> обладающий поведением благородного перевоплощения, господь получил <Character key=RoleTaiwu str=GenderObject/> с предельной заботой и уважением...",
       "status": "machine",
-      "srcHash": "23a6284e6d0570b7",
+      "srcHash": "d26e0022fcadd450",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "aebc9216-a35e-4f16-833a-40a2c4e9a09d/Option_1": {
       "en": "(I have heard that the core materials in this place are abundant and diverse...)",
       "cn": "（听闻此地心材甚是丰繁……）",
       "ru": "(Я слышал, что основные материалы в этом месте в изобилии и разнообразны...)",
       "status": "machine",
-      "srcHash": "d7f273125d202411",
+      "srcHash": "159628d721632157",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "aebc9216-a35e-4f16-833a-40a2c4e9a09d/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其它话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "12c6c333-98b9-4731-b106-73f797c9b4f5/EventContent": {
       "en": "\"Now I see...<NL>it turns out that you don't have <ArgBox key=ConchShip_PresetKey_TradeItemPrice type=int/> <color=#yellow>Silver</color> at the moment? In that case, we shall not discuss this matter any further...\"<NL><Character key=CharacterId str=Name/> waits for a moment and sees that <Character key=RoleTaiwu str=Name /> doesn't have enough Silver on hand.<NL><Character key=CharacterId str=Name/> waves <Character key=CharacterId str=GenderPossessive/> hand repeatedly and turns away...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> is unable to purchase <Item key=SelectItemKey str=ColorName/> due to insufficient Silver...)</color>",
       "cn": "“如此……这般……原来……<NL>你此刻竟是拿不出<ArgBox key=ConchShip_PresetKey_TradeItemPrice type=int/><color=#yellow>「银钱」</color>？此事不若就此作罢……”<NL><Character key=CharacterId str=Name/>等待片刻，见<Character key=RoleTaiwu str=Name />身上并无足够银钱，<NL>随即连连摆手，转身离去……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />没有足够的「银钱」从<Character key=CharacterId str=Name/>手中购买<Item key=SelectItemKey str=ColorName/>……）</color>",
       "ru": "- Теперь я понимаю...<NL>оказывается, у вас нет <ArgBox key=ConchShip_PresetKey_TradeItemPrice type=int/> <color=#yellow>Серебро</color> в данный момент? В таком случае, мы больше не будем обсуждать этот вопрос...\"<NL><Character key=CharacterId str=Name/> ждет мгновение и видит, что <Character key=RoleTaiwu str=Name /> у него под рукой недостаточно серебра.<NL><Character key=CharacterId str=Name/> волны <Character key=CharacterId str=GenderPossessive/> несколько раз протягивает руку и отворачивается...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> не удается приобрести <Item key=SelectItemKey str=ColorName/> из-за недостатка серебра...)</color>",
       "status": "machine",
-      "srcHash": "7bc06fe36939a45d",
+      "srcHash": "9caf2f28649ff815",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "12c6c333-98b9-4731-b106-73f797c9b4f5/Option_1": {
       "en": "(Feeling helpless...)",
       "cn": "（无可奈何……）\n",
       "ru": "(Чувствуя себя беспомощным...)",
       "status": "machine",
-      "srcHash": "d4fcaf57d9ff3c39",
+      "srcHash": "32c793ac0ec8ba10",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "323a5f2d-1fd7-4cec-8043-7cff03f5f93e/EventContent": {
       "en": "This<Item key=SelectItemKey str=ColorName/><NL><ArgBox key=CricketDesc type=string/><NL><Character key=RoleTaiwu str=Name /> scrutinizes it carefully,<NL>but it is indeed difficult to distinguish any notable difference between <Item key=SelectItemKey str=ColorName/> and the others, as there is nothing extraordinary in it...",
       "cn": "此<Item key=SelectItemKey str=ColorName/><NL><ArgBox key=CricketDesc type=string/><NL><Character key=RoleTaiwu str=Name />虽细细审视，端详辨看，<NL>奈何<Item key=SelectItemKey str=ColorName/>并无殊异，实在难辨神采何如……",
       "ru": "Этот<Item key=SelectItemKey str=ColorName/><NL><ArgBox key=CricketDesc type=string/><NL><Character key=RoleTaiwu str=Name /> внимательно изучите его,<NL>но действительно, трудно найти какое-либо заметное отличие между <Item key=SelectItemKey str=ColorName/> и другими, поскольку в нем нет ничего необычного...",
       "status": "machine",
-      "srcHash": "ab9ca219661801d6",
+      "srcHash": "91244dc56fbed03e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "323a5f2d-1fd7-4cec-8043-7cff03f5f93e/Option_1": {
       "en": "(Feeling helpless...)",
       "cn": "（无可奈何……）\n",
       "ru": "(Чувствуя себя беспомощным...)",
       "status": "machine",
-      "srcHash": "d4fcaf57d9ff3c39",
+      "srcHash": "32c793ac0ec8ba10",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "1dbc2267-3c43-4824-a66b-890326f8864f/EventContent": {
       "en": "\"Although we've traversed the streets and markets, I never expected to have mistaken the person<NL>But the world is vast. I'm afraid we won't be able to find <Character key=CharacterId str=Name/>...\"<NL>Failed to fulfill the task from <Character key=RoleTaiwu str=Name />. The beggars scratch their heads in embarrassment, hesitant to speak any further...",
       "cn": "“虽是踏破坊市，未曾想竟是寻错了人，<NL>只是天下虽大，小的们却再找不到别的<Character key=CharacterId str=Name/>了……”<NL>似因未能完成<Character key=RoleTaiwu str=Name />所托，众丐百般挠头，面有愧意，讷讷不敢多言……",
       "ru": "\"Несмотря на то, что мы ходили по улицам и рынкам, я никогда не думал, что ошибусь в человеке.<NL>Но мир огромен. Боюсь, мы не сможем найти его. <Character key=CharacterId str=Name/>...\"<NL>Не удалось выполнить задание из <Character key=RoleTaiwu str=Name /> Нищие смущенно чешут в затылках, не решаясь говорить дальше...",
       "status": "machine",
-      "srcHash": "22f33c7de5dc2d2f",
+      "srcHash": "50093b60b3a7668d",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "1dbc2267-3c43-4824-a66b-890326f8864f/Option_1": {
       "en": "(Do nothing...)",
       "cn": "（暂且作罢……）\n",
       "ru": "(Ничего не делай...)",
       "status": "machine",
-      "srcHash": "e2d2c888b5e012af",
+      "srcHash": "35901c0ddbc2f7e6",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "98970e8f-ae6c-46ed-903a-f928f15dc4b4/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "94bea521-1809-4a6f-a69a-ed5bf6855bff/EventContent": {
       "en": "\"You indeed have enough Silver on you...<NL>in that case, I hope you'll treasure <Item key=SelectItemKey str=ColorName/> dearly...\"<NL>Despite being reluctant, <Character key=CharacterId str=Name/> still accepts <Character key=RoleTaiwu str=Name />'s Silver<NL>and hands over <Item key=SelectItemKey str=ColorName/>...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> spends <ArgBox key=ConchShip_PresetKey_TradeItemPrice type=int/> Silver to purchase <Item key=SelectItemKey str=ColorName/> from <Character key=CharacterId str=Name/>...)</color>",
       "cn": "“你身上当真有足够银钱……<NL>既是如此，只望你对这<Item key=SelectItemKey str=ColorName/>多加珍惜……”<NL><Character key=CharacterId str=Name/>虽百般不甘，却仍是收下了<Character key=RoleTaiwu str=Name />之银钱，<NL>交出了自己的<Item key=SelectItemKey str=ColorName/>……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />花费了<ArgBox key=ConchShip_PresetKey_TradeItemPrice type=int/>「银钱」从<Character key=CharacterId str=Name/>手中购得了<Item key=SelectItemKey str=ColorName/>……）</color>",
       "ru": "- У тебя действительно достаточно серебра с собой...<NL>в таком случае, я надеюсь, вы будете дорожить <Item key=SelectItemKey str=ColorName/> нежно...\"<NL>Несмотря на то, что он неохотно, <Character key=CharacterId str=Name/> все еще принимает <Character key=RoleTaiwu str=Name />это серебро<NL>и передает <Item key=SelectItemKey str=ColorName/>...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> тратит <ArgBox key=ConchShip_PresetKey_TradeItemPrice type=int/> Серебро для покупки <Item key=SelectItemKey str=ColorName/> от <Character key=CharacterId str=Name/>...)</color>",
       "status": "machine",
-      "srcHash": "8bc0eb0ca99ccca5",
+      "srcHash": "52fbc5c255bce122",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "94bea521-1809-4a6f-a69a-ed5bf6855bff/Option_1": {
       "en": "(Other topics...)",
       "cn": "（如此便好……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "a8fa790b-3d92-48d7-a70f-7fe6f5da5ce2/EventContent": {
       "en": "\"How dare you mess with me?!\"<NL><Character key=CharacterId str=Name/> sees the uncouth behavior and crude manners of <Character key=RoleTaiwu str=Name />, feeling utterly disregarded,<NL>suddenly flies into a rage and attacks!",
       "cn": "“你胆敢戏弄于我？！”<NL><Character key=CharacterId str=Name/>见<Character key=RoleTaiwu str=Name />言行无状，粗鄙俚俗，丝毫不将自己放在眼里，<NL>顿时勃然大怒，出手袭来！",
       "ru": "\"Как ты смеешь связываться со мной?!\"<NL><Character key=CharacterId str=Name/> видит неотесанное поведение и грубые манеры <Character key=RoleTaiwu str=Name />, чувствуя себя совершенно игнорируемым,<NL>внезапно впадает в ярость и нападает!",
       "status": "machine",
-      "srcHash": "0e6f56d6d24de9f7",
+      "srcHash": "9b0ade9123a6ca79",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "a8fa790b-3d92-48d7-a70f-7fe6f5da5ce2/Option_1": {
       "en": "(Take on fight!)",
       "cn": "（与之一斗！）\n",
       "ru": "(Вступай в бой!)",
       "status": "machine",
-      "srcHash": "13f4457866aea134",
+      "srcHash": "a0a428649a114d6e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "52835fea-3513-4e1c-a416-1f03bc3d1aec/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "65dbe7b0-ac3a-4771-83f8-d8952e8e0f83/EventContent": {
       "en": "In ancient times, royalty were obsessed with cricket fights,<NL>cultivating expertise through daily observation.<NL>Even the most ordinary specimens revealed exceptional vivacity to their discerning eyes,<NL><NL>Through combat trials,<NL>remarkable crickets could evolve into peerless champions...",
       "cn": "旧时王公痴迷斗虫，整日赏玩促织，<NL>日积月累，自然对促织之事熟识通晓，俨然自成一门学问。<NL>无论看起来多么平平无奇的促织，王公亦能见微知著，察觉其非凡神采，<NL><NL>凡是神采非凡的促织，若能经历战场厮杀磨砺，<NL>便能蜕变为万里挑一的异品虫王……",
       "ru": "В древние времена члены королевской семьи были одержимы боями в Сверчок,<NL>накапливая опыт посредством ежедневного наблюдения.<NL>Даже самые заурядные экземпляры поражали их проницательный взгляд исключительной живостью,<NL><NL>Через боевые испытания,<NL>замечательные Сверчки могли бы превратиться в несравненных чемпионов...",
       "status": "machine",
-      "srcHash": "1b9e07a6f8e558bb",
+      "srcHash": "c0fc29ca7e6a9ca2",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "65dbe7b0-ac3a-4771-83f8-d8952e8e0f83/Option_1": {
       "en": "(Select a cricket for appraisal...)",
       "cn": "（选择促织，进行鉴别……）",
       "ru": "(Выберите Сверчка для оценки...)",
       "status": "machine",
-      "srcHash": "f9f45a789fa164fa",
+      "srcHash": "0ff2f3d9936c7f36",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "65dbe7b0-ac3a-4771-83f8-d8952e8e0f83/Option_2": {
       "en": "(This one shows exceptional vivacity, enough to transform...)",
       "cn": "（神采非凡，足以蜕变……）",
       "ru": "(Этот демонстрирует исключительную живость, достаточную, чтобы преобразиться...)",
       "status": "machine",
-      "srcHash": "354b53eb8657ec9c",
+      "srcHash": "481ebf01f972e68e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "65dbe7b0-ac3a-4771-83f8-d8952e8e0f83/Option_3": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "cb2e4cc8f2fb0e46",
+      "srcHash": "f0dad5730ef8624d",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f2256cf6-36c2-4f46-b623-805c718d0d33/EventContent": {
       "en": "(Select the cricket to appraise...)",
       "cn": "（选择需要鉴别的促织……）",
       "ru": "(Выберите Сверчок для оценки...)",
       "status": "machine",
-      "srcHash": "410683b93847bfaf",
+      "srcHash": "ac5aa6b411815e87",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f2256cf6-36c2-4f46-b623-805c718d0d33/Option_1": {
       "en": "Confirm",
       "cn": "确定",
       "ru": "Подтверждать",
       "status": "machine",
-      "srcHash": "53e9412d939599b4",
+      "srcHash": "cdfebf3af1ee1402",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f2256cf6-36c2-4f46-b623-805c718d0d33/Option_2": {
       "en": "Cancel",
       "cn": "取消\n",
       "ru": "Отменить",
       "status": "machine",
-      "srcHash": "f8d7e285747152a8",
+      "srcHash": "adaa2cd2da491fb1",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "6bb7d601-1c24-406a-a482-2f73a56c4950/EventContent": {
       "en": "In your palm rests <Item key=SelectItemKey str=ColorName/>, which is<NL><ArgBox key=CricketDesc type=string/>!<NL><NL>If <Character key=RoleTaiwu str=Name /> carefully examines and identifies it, perhaps the extraordinary nature of <Item key=SelectItemKey str=ColorName/> could be revealed...",
       "cn": "掌中<Item key=SelectItemKey str=ColorName/>，正是：<NL><ArgBox key=CricketDesc type=string/>！<NL><NL>若是<Character key=RoleTaiwu str=Name />仔细鉴定识别，或许便能察觉<Item key=SelectItemKey str=ColorName/>不同凡响之处……",
       "ru": "В твоей ладони покоится <Item key=SelectItemKey str=ColorName/>, который является<NL><ArgBox key=CricketDesc type=string/>!<NL><NL>Если <Character key=RoleTaiwu str=Name /> тщательно исследует и идентифицирует его, возможно, из-за экстраординарной природы <Item key=SelectItemKey str=ColorName/> может быть раскрыто...",
       "status": "machine",
-      "srcHash": "fa25502e7bfd7b01",
+      "srcHash": "e3c13edc69d42bf6",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "6bb7d601-1c24-406a-a482-2f73a56c4950/Option_1": {
       "en": "(Appraise the cricket...) ",
       "cn": "（鉴定促织……） ",
       "ru": "(Оцените Сверчка...) ",
       "status": "machine",
-      "srcHash": "a406c898a7a935f4",
+      "srcHash": "999d0f04a587c542",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "6bb7d601-1c24-406a-a482-2f73a56c4950/Option_2": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "cb2e4cc8f2fb0e46",
+      "srcHash": "f0dad5730ef8624d",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "35512b48-627a-4d09-b454-b0dc455a6227/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> examines closely and discerns carefully,<NL>and in the blink of an eye, it becomes apparent that this <Item key=SelectItemKey str=ColorName/> is extraordinary and exceptional!",
       "cn": "<Character key=RoleTaiwu str=Name />细细审视，端详辨看，<NL>眨眼便已察觉：<Item key=SelectItemKey str=ColorName/>果真是品相出众，神采非凡！",
       "ru": "<Character key=RoleTaiwu str=Name /> внимательно изучает и тщательно различает,<NL>и в мгновение ока становится очевидно, что это <Item key=SelectItemKey str=ColorName/> это экстраординарно и исключительно!",
       "status": "machine",
-      "srcHash": "b88d436a3b55d16f",
+      "srcHash": "f79a68b2fe33162e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "35512b48-627a-4d09-b454-b0dc455a6227/Option_1": {
       "en": "(Overwhelmed with joy!)",
       "cn": "（喜不自胜！）\n",
       "ru": "(Переполненный радостью!)",
       "status": "machine",
-      "srcHash": "ba543a40e2e10506",
+      "srcHash": "b2e691dc628c1a6a",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "cfd66a36-16f5-43ca-a24f-849ebb70999c/EventContent": {
       "en": "(Select the cricket to transform...)",
       "cn": "（选择需要蜕变的促织……）",
       "ru": "(Выберите Сверчок для преобразования...)",
       "status": "machine",
-      "srcHash": "285a9da55c7e1987",
+      "srcHash": "e11156b457e6a8dc",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "cfd66a36-16f5-43ca-a24f-849ebb70999c/Option_1": {
       "en": "Confirm",
       "cn": "确定",
       "ru": "Подтверждать",
       "status": "machine",
-      "srcHash": "53e9412d939599b4",
+      "srcHash": "cdfebf3af1ee1402",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "cfd66a36-16f5-43ca-a24f-849ebb70999c/Option_2": {
       "en": "Cancel",
       "cn": "取消\n",
       "ru": "Отменить",
       "status": "machine",
-      "srcHash": "f8d7e285747152a8",
+      "srcHash": "adaa2cd2da491fb1",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "bcb63587-14fe-4f8b-afd5-0ffd35d71c22/EventContent": {
       "en": "In your palm rests <Item key=SelectItemKey str=ColorName/>, which is<NL><ArgBox key=CricketDesc type=string/>!<NL><NL><Character key=RoleTaiwu str=Name /> examines closely and discerns carefully,<NL>and in the blink of an eye, it becomes apparent that this <Item key=SelectItemKey str=ColorName/> has endured enough trials to transform...",
       "cn": "掌中<Item key=SelectItemKey str=ColorName/>，正是：<NL><ArgBox key=CricketDesc type=string/>！<NL><NL><Character key=RoleTaiwu str=Name />细细审视，端详辨看，<NL>眨眼便知，<Item key=SelectItemKey str=ColorName/>已经历足够的磨砺，足以蜕变……",
       "ru": "В ваших ладонях лежит <Item key=SelectItemKey str=ColorName/>, который<NL><ArgBox key=CricketDesc type=string/>!<NL><NL><Character key=RoleTaiwu str=Name /> внимательно рассматривает и тщательно различает,<NL>и в мгновение ока становится очевидным, что этот <Item key=SelectItemKey str=ColorName/> выдержал достаточно испытаний, чтобы преобразиться...",
       "status": "machine",
-      "srcHash": "4f1f3d73e3d6788b",
+      "srcHash": "de182dbecad1632c",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "bcb63587-14fe-4f8b-afd5-0ffd35d71c22/Option_1": {
       "en": "(Transform the cricket...)",
       "cn": "（促织蜕变……）",
       "ru": "(Преобразите Сверчка...)",
       "status": "machine",
-      "srcHash": "167c07b248739dc2",
+      "srcHash": "b2814ed480898d39",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "bcb63587-14fe-4f8b-afd5-0ffd35d71c22/Option_2": {
       "en": "(Forget it...)",
       "cn": "（还是作罢……）\n",
       "ru": "(Забудь об этом...)",
       "status": "machine",
-      "srcHash": "cb2e4cc8f2fb0e46",
+      "srcHash": "f0dad5730ef8624d",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "1e27d06b-c9fa-430a-b768-6ad24bd4efb2/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "5fbc7f47-b5a3-424e-ace1-68e4df767b14/EventContent": {
       "en": "\"So you too appreciate cricket fights?\"<NL><NL>The autumn air is crisp, the perfect season for the urgent chirping of crickets.<NL><Character key=CharacterId str=Name/>, mingling with nobility, had collected many specimens...",
       "cn": "“原来你也喜爱赏玩促织？”<NL><NL>秋气肃金，正是促织急鸣的时节。<NL><Character key=CharacterId str=Name/>身负官职，比肩权贵，闲暇时便捉来许多促织，用以欢娱取乐……",
       "ru": "- Значит, вы тоже цените бои в Сверчок?<NL><NL>Осенний воздух свеж, идеальное время года для настойчивого стрекотания Сверчков.<NL><Character key=CharacterId str=Name/>, смешавшись со знатью, собрал множество образцов...",
       "status": "machine",
-      "srcHash": "4b53db9e1206d83f",
+      "srcHash": "542549947b59af6e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "5fbc7f47-b5a3-424e-ace1-68e4df767b14/Option_1": {
       "en": "(Request a cricket...)",
       "cn": "（索要促织……）",
       "ru": "(Попросите Сверчка...)",
       "status": "machine",
-      "srcHash": "14d646114b78673c",
+      "srcHash": "3c4c46b200b8990e",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "5fbc7f47-b5a3-424e-ace1-68e4df767b14/Option_2": {
       "en": "(Do nothing...)",
       "cn": "（暂且作罢……）\n",
       "ru": "(Ничего не делай...)",
       "status": "machine",
-      "srcHash": "e2d2c888b5e012af",
+      "srcHash": "35901c0ddbc2f7e6",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "88db22ba-676b-4ac9-b248-4f5c6bbcfd49/EventContent": {
       "en": "\"Your trust earned me my <ArgBox key=TitleName type=string/> position.<NL>Now that you love crickets, how could I refuse?\"<NL><Character key=CharacterId str=Name/>, feeling deeply indebted to <Character key=RoleTaiwu str=Name /> for their favor,<NL>naturally agrees without hesitation and gifts <Character key=RoleTaiwu str=Name /> the <CricketName key=GivenCricketItemKey/> they caught...",
       "cn": "“因你信任，我方能得<ArgBox key=TitleName type=string/>之名，<NL>如今你既然喜爱促织，我又怎会推拒……”<NL><Character key=CharacterId str=Name/>自感深受<Character key=RoleTaiwu str=Name />赏识，无以为报，<NL>如今闻听此事，自然连连称好，将自己捉来的<CricketName key=GivenCricketItemKey/>赠与了<Character key=RoleTaiwu str=Name />……",
       "ru": "\"Ваше доверие заслужило мое <ArgBox key=TitleName type=string/> позиция.<NL>Теперь, когда ты любишь сверчков, как я мог отказать?\"<NL><Character key=CharacterId str=Name/>, чувствуя себя в глубоком долгу перед <Character key=RoleTaiwu str=Name /> за их благосклонность,<NL>естественно, соглашается без колебаний и подарков <Character key=RoleTaiwu str=Name /> то <CricketName key=GivenCricketItemKey/> они попались...",
       "status": "machine",
-      "srcHash": "f5748fccbe406511",
+      "srcHash": "b8bafcc0eb40c5ce",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "88db22ba-676b-4ac9-b248-4f5c6bbcfd49/Option_1": {
       "en": "(...)",
       "cn": "（……）\n",
       "ru": "(...)",
       "status": "machine",
-      "srcHash": "7631476d20651b6a",
+      "srcHash": "d3562d75037a15a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "f809e079-e1b3-42fe-8fcf-19b5f478197a/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "5e08225d-c96b-4307-a22f-b912a683da65/EventContent": {
       "en": "\"Men say 'life and death are fated, wealth and honor are decreed by heaven.'<NL>Yet you, with this tiny golden needle, can extend life and heal ailments through acupoints... Truly, you are a miraculous healer.<NL>If I could live a hundred years in joy and health, I would certainly desire it\"<NL><NL><Character key=CharacterId str=Name/> is initially surprised by <Character key=RoleTaiwu str=Name />,<NL>but soon <Character key=RoleTaiwu str=GenderPossessive/> eyes light up with joy as <Character key=RoleTaiwu str=GenderSubject/> looks at <Character key=RoleTaiwu str=Name /> with anticipation...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> can transfer <Character key=RoleTaiwu str=GenderPossessive/> own lifespan to <Character key=CharacterId str=Name/>, extending their life...)</color>",
       "cn": "“人常说‘生死有命，富贵在天’，<NL>而今你以这小小金针，灸刺诸穴便能渡命延寿……实可谓神医妙手，<NL>若能长命百岁，欢欣永年，我自是求之不得……”<NL><NL><Character key=CharacterId str=Name/>听闻<Character key=RoleTaiwu str=Name />之意，不禁颇为讶异，<NL>但很快便目露欢喜之色，满怀期待地看向<Character key=RoleTaiwu str=Name />……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />可将自身寿元传渡<Character key=CharacterId str=Name/>，为其渡命转元……）</color>",
       "ru": "- Люди говорят: \"Жизнь и смерть предопределены судьбой, богатство и честь определены небесами\".<NL>И все же вы, с помощью этой крошечной золотой иглы, можете продлить жизнь и исцелять недуги с помощью акупунктурных точек... Воистину, ты чудесный целитель.<NL>Если бы я мог прожить сто лет в радости и Здоровье, я бы непременно пожелал этого\".<NL><NL><Character key=CharacterId str=Name/> поначалу удивляется <Character key=RoleTaiwu str=Name />,<NL>но скоро <Character key=RoleTaiwu str=GenderPossessive/> глаза загораются радостью, когда <Character key=RoleTaiwu str=GenderSubject/> смотрит на <Character key=RoleTaiwu str=Name /> с предвкушением...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> может передавать <Character key=RoleTaiwu str=GenderPossessive/> собственный срок службы для <Character key=CharacterId str=Name/>, продлевая им жизнь...)</color>",
       "status": "machine",
-      "srcHash": "1de3cb69ec1129c4",
+      "srcHash": "6a98204a6e2e1552",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "5e08225d-c96b-4307-a22f-b912a683da65/Option_1": {
       "en": "Life Savior",
       "cn": "（金针渡命……）",
       "ru": "Спаситель жизни",
       "status": "machine",
-      "srcHash": "3b0a7c10c3262c49",
+      "srcHash": "ad4309e33f0c8769",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "5e08225d-c96b-4307-a22f-b912a683da65/Option_2": {
       "en": "(Other topics...)",
       "cn": "（其他话题……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "4b350d24-f654-40b1-80ed-41c6cf49814b/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> takes the golden needle, applying it to <Character key=CharacterId str=Name/>'s meridians and acupoints,<NL>then <Character key=RoleTaiwu str=Name /> guides the flow of Primordial Qi through <Character key=CharacterId str=Name/>'s body.<NL>After some time, <Character key=CharacterId str=Name/> feels lighter, their vision clears, their blood hums with new vitality, as if reborn...",
       "cn": "<Character key=RoleTaiwu str=Name />拈取金针，分别灸刺于<Character key=CharacterId str=Name/>经穴、奇穴之上，<NL>随后<Character key=RoleTaiwu str=Name />催动金针，导引元气流转于<Character key=CharacterId str=Name/>周身经络，<NL>如此不知过了多久，<Character key=CharacterId str=Name/>渐觉身轻目明，血脉调畅，竟恍然如脱胎换骨了一般……",
       "ru": "<Character key=RoleTaiwu str=Name /> берет золотую иглу, прикладывает ее к <Character key=CharacterId str=Name/>меридианы и акупунктурные точки,<NL>затем <Character key=RoleTaiwu str=Name /> направляет поток изначальной Ци через <Character key=CharacterId str=Name/>это тело.<NL>Через некоторое время, <Character key=CharacterId str=Name/> они чувствуют себя легче, их зрение проясняется, их кровь наполняется новой жизненной силой, как будто они заново рождаются...",
       "status": "machine",
-      "srcHash": "23df660e7be36808",
+      "srcHash": "7d2e7aef30a22175",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "4b350d24-f654-40b1-80ed-41c6cf49814b/Option_1": {
       "en": "(Other topics...)",
       "cn": "（如此便好……）\n",
       "ru": "(Другие темы...)",
       "status": "machine",
-      "srcHash": "f7d5772ebbcdb00d",
+      "srcHash": "bfa73cab6019eda7",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "bee8d7e8-96a4-425f-a7ae-8849fbd27d73/EventContent": {
       "en": "The autumn air is crisp, the perfect season for the urgent chirping of crickets.<NL>As <Character key=RoleTaiwu str=Name/> listens to the insects, a wandering martial artist approaches, bowing respectfully,<NL>\"The cold autumn has arrived, and the crickets are growing louder. The general has caught many crickets recently,<NL>and knowing of your fondness for these unique insects, he has sent me specially to present you with a gift...\"",
       "cn": "秋气肃金，正是促织急鸣的时节。<NL><Character key=RoleTaiwu str=Name/>静听虫鸣之时，便见一名江湖人士款步而来，拱手拜道：<NL>“寒秋已至，鸣虫渐多，将军近日捉得许多促织，<NL>思及阁下也喜爱赏玩促织异虫，便托我专程前来，为阁下送来献礼……”",
       "ru": "Осенний воздух свеж, идеальное время года для настойчивого стрекотания Сверчков.<NL>Как <Character key=RoleTaiwu str=Name/> прислушиваясь к стрекотанию насекомых, странствующий Мастер боевых искусств приближается, почтительно кланяясь,<NL>\"Наступила холодная осень, и Сверчки стрекочут все громче. В последнее время генерал поймал много Сверчков,<NL>и, зная о вашей любви к этим уникальным насекомым, он специально послал меня преподнести вам подарок...\"",
       "status": "machine",
-      "srcHash": "6a9a45913be0313f",
+      "srcHash": "4c5e454855c0c383",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "bee8d7e8-96a4-425f-a7ae-8849fbd27d73/Option_1": {
       "en": "(Examine closely...)",
       "cn": "（细细查看……）\n",
       "ru": "(Присмотритесь повнимательнее...)",
       "status": "machine",
-      "srcHash": "c5b4d034d9e872a8",
+      "srcHash": "6a98d0a84bad8f43",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "a9b705c9-5f60-4c94-bdae-7db593e20412/EventContent": {
       "en": "<CharacterTitle key=CharacterTitleTemplateId str=Name/><Character key=CharacterId str=Name/> commissions the wandering martial artist<NL>to present <Character key=RoleTaiwu str=Name/> with a <Item key=Cricket str=ColorName/>...",
       "cn": "<CharacterTitle key=CharacterTitleTemplateId str=Name/><Character key=CharacterId str=Name/>托付江湖人士，<NL>为<Character key=RoleTaiwu str=Name/>献上<Item key=Cricket str=ColorName/>一只……",
       "ru": "<CharacterTitle key=CharacterTitleTemplateId str=Name/><Character key=CharacterId str=Name/> нанимает странствующего Мастера боевых искусств<NL>представить <Character key=RoleTaiwu str=Name/> с помощью <Item key=Cricket str=ColorName/>...",
       "status": "machine",
-      "srcHash": "ec6e3ae7ceb2364e",
+      "srcHash": "564ebd85b6603b08",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "a9b705c9-5f60-4c94-bdae-7db593e20412/Option_1": {
       "en": "(Accept the cricket...)",
       "cn": "（收下促织……）\n",
       "ru": "(Примите Сверчка...)",
       "status": "machine",
-      "srcHash": "d7196d1c53466279",
+      "srcHash": "2208ddb9c005ed67",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "c77203fb-6c56-40f1-a2e1-1c0a75323da8/EventContent": {
       "en": "\"This... is the general's heartfelt gift...\"<NL>Seeing <Character key=RoleTaiwu str=Name/> accept the cricket, the wandering martial artist feels <Character key=RoleTaiwu str=GenderPossessive/> task is complete.<NL>With a hurried bow, <Character key=RoleTaiwu str=GenderSubject/> bids farewell to <Character key=RoleTaiwu str=Name/> and departs.<NL><NL>Only the chirping of crickets remains, like the melodious sound of a reed pipe, bringing <Character key=RoleTaiwu str=Name/> great joy...",
       "cn": "“如此……便是将军的一片心意……”<NL>见<Character key=RoleTaiwu str=Name/>收下促织，江湖人士自觉受托之事已了，<NL>匆匆一拜，遂告别<Character key=RoleTaiwu str=Name/>转身而去。<NL><NL>此地唯余虫鸣之声，如吹笙鼓簧，令<Character key=RoleTaiwu str=Name/>深感怡然……",
       "ru": "\"Это... сердечный подарок генерала...\"<NL>Видя <Character key=RoleTaiwu str=Name/> примите Сверчок, странствующий Мастер боевых искусств, который чувствует себя <Character key=RoleTaiwu str=GenderPossessive/> задача выполнена.<NL>С поспешным поклоном, <Character key=RoleTaiwu str=GenderSubject/> прощается с <Character key=RoleTaiwu str=Name/> и уходит.<NL><NL>Остается только стрекотание Сверчков, похожее на мелодичный звук тростниковой дудочки, приносящий <Character key=RoleTaiwu str=Name/> великая радость...",
       "status": "machine",
-      "srcHash": "2ce31fb847c1cddd",
+      "srcHash": "03e4051828a0be4b",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "c77203fb-6c56-40f1-a2e1-1c0a75323da8/Option_1": {
       "en": "(This is good...)",
       "cn": "（如此便好……）\n",
       "ru": "(Это хорошо...)",
       "status": "machine",
-      "srcHash": "105a954383dc1c2c",
+      "srcHash": "2e551b3b42e6c023",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "0c991d73-55ca-4924-8b08-494445bee2f3/EventContent": {
       "en": "nan",
       "cn": "\n",
       "ru": "бабушка",
       "status": "machine",
-      "srcHash": "05eba2f0e137b066",
+      "srcHash": "654b3641c39dd731",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     }
   }
 }

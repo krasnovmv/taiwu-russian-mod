@@ -1,79 +1,79 @@
 {
   "schemaVersion": 1,
   "file": "AiNode_language.txt",
-  "glossaryVersion": 8,
+  "glossaryVersion": 9,
   "units": {
     "Name_0": {
       "en": "Surging",
       "cn": "顺序",
       "ru": "Вздымающийся",
       "status": "machine",
-      "srcHash": "90855a237a467ffb",
+      "srcHash": "ebffadbdc85f1592",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "Name_1": {
       "en": "Sunsplitter",
       "cn": "分支",
       "ru": "Расщепитель солнца",
       "status": "machine",
-      "srcHash": "d811104f66e66c9e",
+      "srcHash": "cda8ef03e19e1930",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "Name_2": {
       "en": "(Running script...)",
       "cn": "行为",
       "ru": "(Запущенный скрипт...)",
       "status": "machine",
-      "srcHash": "560054be867f76b8",
+      "srcHash": "888ea7582210198c",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "Name_3": {
       "en": "Continue",
       "cn": "中继",
       "ru": "Продолжать",
       "status": "machine",
-      "srcHash": "2bd930db2e24b8e3",
+      "srcHash": "03950a7ad07ec0f1",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "Desc_0": {
       "en": "Execute all child nodes in sequence until an action node",
       "cn": "顺序执行所有子节点直到行为节点",
       "ru": "Выполняйте все дочерние узлы последовательно, пока не появится узел действия",
       "status": "machine",
-      "srcHash": "657ce6257193ec3c",
+      "srcHash": "5ab383943f3cedd1",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "Desc_1": {
       "en": "Determine the next node based on conditions",
       "cn": "根据条件判定接下来执行的节点",
       "ru": "Определите следующий узел на основе условий",
       "status": "machine",
-      "srcHash": "bd14b99af27ded46",
+      "srcHash": "2f35d73a3fe579f0",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "Desc_2": {
       "en": "Execute specific action",
       "cn": "执行特定行为",
       "ru": "Выполнить определенное действие",
       "status": "machine",
-      "srcHash": "e0afbcd2430c2254",
+      "srcHash": "58c4ee1489a15a37",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     },
     "Desc_3": {
       "en": "Execute the first child node, then another node",
       "cn": "执行首个子节点，下帧执行另个子节点",
       "ru": "Выполните первый дочерний узел, затем другой узел",
       "status": "machine",
-      "srcHash": "3df42d28aca66d28",
+      "srcHash": "9ca21bc9613407f8",
       "engine": "yandex",
-      "updatedAt": "2026-07-02T16:21:30.980Z"
+      "updatedAt": "2026-07-03T19:38:47.709Z"
     }
   }
 }
