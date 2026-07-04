@@ -44,11 +44,12 @@ namespace TaiwuRus.Frontend
 
             // No shipped RU file → load the English bundle asset, not the engine's Chinese fallback.
             // If EN itself is unavailable, fall back to Chinese as a last resort (the engine's own path).
+            // Bundle asset paths always use '/', never Path.Combine ('\' on Windows breaks the lookup).
             ResLoader.Load<TextAsset>(
-                Path.Combine(BundleDir, "EventOptionTips_EN"),
+                BundleDir + "/EventOptionTips_EN",
                 asset => SetContents(__instance, asset.text),
                 _ => ResLoader.Load<TextAsset>(
-                    Path.Combine(BundleDir, "EventOptionTips_CN"),
+                    BundleDir + "/EventOptionTips_CN",
                     asset => SetContents(__instance, asset.text)));
             return false;
         }
