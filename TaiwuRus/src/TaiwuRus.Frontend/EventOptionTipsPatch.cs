@@ -25,7 +25,7 @@ namespace TaiwuRus.Frontend
     internal static class EventOptionTipsPatch
     {
         private const string BundleDir = "RemakeResources/Data/Language_EventOptionTips";
-        private static FieldInfo _contentsField;
+        private static FieldInfo? _contentsField;
 
         private static bool Prefix(EventModel __instance)
         {
@@ -33,13 +33,13 @@ namespace TaiwuRus.Frontend
                 return true;
 
             _contentsField ??= AccessTools.Field(typeof(EventModel), "_optionAvailableContents");
-            if (_contentsField == null)
+            if (_contentsField is not FieldInfo contents)
                 return true; // can't set the field — let the engine run (CN), better than crashing
 
             string file = ModAssets.Resolve("EventLanguages_RU", "EventOptionTips_RU.txt");
             if (File.Exists(file))
             {
-                SetContents(__instance, File.ReadAllText(file));
+                SetContents(contents, __instance, File.ReadAllText(file));
                 return false;
             }
 
@@ -48,20 +48,20 @@ namespace TaiwuRus.Frontend
             // Bundle asset paths always use '/', never Path.Combine ('\' on Windows breaks the lookup).
             ResLoader.Load<TextAsset>(
                 BundleDir + "/EventOptionTips_EN",
-                asset => SetContents(__instance, asset.text),
+                asset => SetContents(contents, __instance, asset.text),
                 _ =>
                 {
                     UnityEngine.Debug.LogWarning("[TaiwuRus] EventOptionTips_EN not found; falling back to CN");
                     ResLoader.Load<TextAsset>(
                         BundleDir + "/EventOptionTips_CN",
-                        asset => SetContents(__instance, asset.text));
+                        asset => SetContents(contents, __instance, asset.text));
                 });
             return false;
         }
 
-        private static void SetContents(EventModel instance, string text)
+        private static void SetContents(FieldInfo contents, EventModel instance, string text)
         {
-            _contentsField.SetValue(instance, text.Replace("\r", "").Split('\n'));
+            contents.SetValue(instance, text.Replace("\r", "").Split('\n'));
         }
     }
 }

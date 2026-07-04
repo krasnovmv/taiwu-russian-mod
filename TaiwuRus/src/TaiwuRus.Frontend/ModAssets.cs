@@ -22,7 +22,7 @@ namespace TaiwuRus.Frontend
     internal static class ModAssets
     {
         private static bool _resolved;
-        private static string _overlay; // <modRoot>/Localization/<…_Data>/StreamingAssets, or null
+        private static string? _overlay; // <modRoot>/Localization/<…_Data>/StreamingAssets, or null
 
         /// <summary>
         /// Map StreamingAssets-relative <paramref name="segments"/> to an absolute file path:
@@ -32,7 +32,7 @@ namespace TaiwuRus.Frontend
         public static string Resolve(params string[] segments)
         {
             string rel = segments.Length == 1 ? segments[0] : Path.Combine(segments);
-            string overlay = Overlay();
+            string? overlay = Overlay();
             if (overlay != null)
             {
                 string candidate = Path.Combine(overlay, rel);
@@ -42,7 +42,7 @@ namespace TaiwuRus.Frontend
             return Path.Combine(Application.streamingAssetsPath, rel);
         }
 
-        private static string Overlay()
+        private static string? Overlay()
         {
             if (_resolved)
                 return _overlay;
@@ -61,11 +61,11 @@ namespace TaiwuRus.Frontend
             return _overlay;
         }
 
-        private static string Discover()
+        private static string? Discover()
         {
             // The data folder name ("The Scroll of Taiwu_Data") and game root, derived at runtime.
             string dataFolder = new DirectoryInfo(Application.dataPath).Name;
-            string gameRoot = Directory.GetParent(Application.dataPath)?.FullName;
+            string? gameRoot = Directory.GetParent(Application.dataPath)?.FullName;
 
             foreach (string root in CandidateModRoots(gameRoot))
             {
@@ -76,16 +76,16 @@ namespace TaiwuRus.Frontend
             return null;
         }
 
-        private static IEnumerable<string> CandidateModRoots(string gameRoot)
+        private static IEnumerable<string> CandidateModRoots(string? gameRoot)
         {
             // 1) The folder this assembly actually loaded from, and a few parents — covers the
             //    in-place install (Mod/<id>/Plugins/TaiwuRusF.dll -> Mod/<id>).
-            string location = null;
+            string? location = null;
             try { location = Assembly.GetExecutingAssembly().Location; }
             catch { /* dynamic/temp assembly with no location */ }
             if (!string.IsNullOrEmpty(location))
             {
-                DirectoryInfo dir = Directory.GetParent(location);
+                DirectoryInfo? dir = Directory.GetParent(location);
                 for (int i = 0; i < 4 && dir != null; i++, dir = dir.Parent)
                     yield return dir.FullName;
             }

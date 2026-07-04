@@ -23,22 +23,22 @@ namespace TaiwuRus.Frontend
     [HarmonyPatch(typeof(ToolTipCommon), nameof(ToolTipCommon.LoadConfig))]
     internal static class CommonTipPatch
     {
-        private static readonly Dictionary<string, object> Cache = new Dictionary<string, object>();
+        private static readonly Dictionary<string, object?> Cache = new Dictionary<string, object?>();
         private static readonly HashSet<string> Failed = new HashSet<string>();
-        private static FieldInfo _pathField;
-        private static Type _configType;
+        private static FieldInfo? _pathField;
+        private static Type? _configType;
 
-        private static bool Prefix(object configLine, ref object __result)
+        private static bool Prefix(object? configLine, ref object? __result)
         {
             if (!RuLocale.IsRu || configLine == null)
                 return true;
 
             _pathField ??= AccessTools.Field(configLine.GetType(), "Path");
-            string path = _pathField?.GetValue(configLine) as string;
-            if (string.IsNullOrEmpty(path))
+            string? path = _pathField?.GetValue(configLine) as string;
+            if (path == null || path.Length == 0) // explicit: net48 BCL lacks the narrowing annotations
                 return true;
 
-            if (Cache.TryGetValue(path, out object cached))
+            if (Cache.TryGetValue(path, out object? cached))
             {
                 __result = cached;
                 return false;
@@ -57,7 +57,7 @@ namespace TaiwuRus.Frontend
             try
             {
                 string json = Regex.Replace(File.ReadAllText(file), "^\\s*//.*$", "", RegexOptions.Multiline);
-                object cfg = JsonConvert.DeserializeObject(json, _configType);
+                object? cfg = JsonConvert.DeserializeObject(json, _configType);
                 Cache[path] = cfg;
                 __result = cfg;
                 return false;

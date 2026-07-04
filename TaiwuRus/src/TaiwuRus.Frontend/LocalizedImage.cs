@@ -30,8 +30,8 @@ namespace TaiwuRus.Frontend
         /// Anchored to the end so a stray "ru" inside a name (e.g. "ruin") is never matched.</summary>
         private static readonly Regex RuToken = new Regex(@"_ru(?=(_\d+)?$)");
 
-        private static readonly Dictionary<string, Sprite> SpriteCache = new Dictionary<string, Sprite>();
-        private static readonly Dictionary<string, Texture2D> TextureCache = new Dictionary<string, Texture2D>();
+        private static readonly Dictionary<string, Sprite?> SpriteCache = new Dictionary<string, Sprite?>();
+        private static readonly Dictionary<string, Texture2D?> TextureCache = new Dictionary<string, Texture2D?>();
         private static readonly HashSet<string> Diag = new HashSet<string>();
 
         /// <summary>True if <paramref name="name"/> carries a trailing <c>_ru</c> language token.</summary>
@@ -45,12 +45,12 @@ namespace TaiwuRus.Frontend
 
         // ── Step 1: the shipped RU PNG override, loaded once and cached (null cached too, so we probe
         //    disk only once per name). ────────────────────────────────────────────────────────────
-        public static Sprite RuSprite(string ruName)
+        public static Sprite? RuSprite(string ruName)
         {
-            if (SpriteCache.TryGetValue(ruName, out Sprite cached))
+            if (SpriteCache.TryGetValue(ruName, out Sprite? cached))
                 return cached;
-            Texture2D tex = LoadPng(ruName);
-            Sprite sprite = null;
+            Texture2D? tex = LoadPng(ruName);
+            Sprite? sprite = null;
             if (tex != null)
             {
                 sprite = Sprite.Create(tex, new Rect(0f, 0f, tex.width, tex.height), new Vector2(0.5f, 0.5f), 100f);
@@ -60,16 +60,16 @@ namespace TaiwuRus.Frontend
             return sprite;
         }
 
-        public static Texture2D RuTexture(string ruName)
+        public static Texture2D? RuTexture(string ruName)
         {
-            if (TextureCache.TryGetValue(ruName, out Texture2D cached))
+            if (TextureCache.TryGetValue(ruName, out Texture2D? cached))
                 return cached;
-            Texture2D tex = LoadPng(ruName);
+            Texture2D? tex = LoadPng(ruName);
             TextureCache[ruName] = tex;
             return tex;
         }
 
-        private static Texture2D LoadPng(string ruName)
+        private static Texture2D? LoadPng(string ruName)
         {
             if (!RuLocale.UseRuImages)
                 return null; // setting off → skip the RU PNG; the waterfall falls through to EN → CN
@@ -111,7 +111,7 @@ namespace TaiwuRus.Frontend
             if (img == null || string.IsNullOrEmpty(ruName))
                 return;
 
-            Sprite ru = RuSprite(ruName);
+            Sprite? ru = RuSprite(ruName);
             if (ru != null)
             {
                 img.sprite = ru;
@@ -145,7 +145,7 @@ namespace TaiwuRus.Frontend
             if (img == null || string.IsNullOrEmpty(ruName))
                 return false;
 
-            Texture2D ru = RuTexture(ruName);
+            Texture2D? ru = RuTexture(ruName);
             if (ru != null)
             {
                 img.texture = ru;
@@ -168,7 +168,7 @@ namespace TaiwuRus.Frontend
         /// fallback order stays identical.</summary>
         public static void LoadSprite(string ruPath, Action<string, Action<Sprite>> load, Action<Sprite> onLoaded)
         {
-            Sprite ru = RuSprite(Path.GetFileName(ruPath));
+            Sprite? ru = RuSprite(Path.GetFileName(ruPath));
             if (ru != null)
             {
                 onLoaded(ru);

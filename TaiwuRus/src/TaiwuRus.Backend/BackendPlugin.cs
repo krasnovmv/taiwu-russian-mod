@@ -19,7 +19,7 @@ namespace TaiwuRus.Backend
         Justification = "Plugin lifetime is owned by the game's mod loader, which calls Dispose(); _harmony is unpatched there.")]
     public sealed class BackendPlugin : TaiwuRemakePlugin
     {
-        private Harmony _harmony;
+        private Harmony? _harmony;
 
         public override void Initialize()
         {
@@ -38,9 +38,9 @@ namespace TaiwuRus.Backend
         private static void UnpackOverlay()
         {
             // AppContext.BaseDirectory is <game>/Backend/; the game root is its parent.
-            string backendDir = AppContext.BaseDirectory?.TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar);
-            string gameRoot = string.IsNullOrEmpty(backendDir) ? null : Directory.GetParent(backendDir)?.FullName;
-            string modRoot = OverlayDeployer.FindModRoot(typeof(BackendPlugin).Assembly.Location, gameRoot);
+            string? backendDir = AppContext.BaseDirectory?.TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar);
+            string? gameRoot = string.IsNullOrEmpty(backendDir) ? null : Directory.GetParent(backendDir)?.FullName;
+            string? modRoot = OverlayDeployer.FindModRoot(typeof(BackendPlugin).Assembly.Location, gameRoot);
             if (modRoot == null || gameRoot == null)
             {
                 AdaptableLog.Info("[TaiwuRus] overlay: mod root or game root not found; skipping unpack");

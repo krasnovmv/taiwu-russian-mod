@@ -23,11 +23,11 @@ namespace TaiwuRus.Shared
         /// it then scans every <c>&lt;gameRoot&gt;/Mod/*</c> folder for the marker. Returns null if
         /// none is found (e.g. a not-yet-populated overlay).
         /// </summary>
-        public static string FindModRoot(string assemblyLocation, string gameRoot)
+        public static string? FindModRoot(string? assemblyLocation, string? gameRoot)
         {
             if (!string.IsNullOrEmpty(assemblyLocation))
             {
-                DirectoryInfo dir = Directory.GetParent(assemblyLocation);
+                DirectoryInfo? dir = Directory.GetParent(assemblyLocation);
                 for (int i = 0; i < 5 && dir != null; i++, dir = dir.Parent)
                 {
                     if (Directory.Exists(Path.Combine(dir.FullName, "Localization")))
@@ -55,9 +55,12 @@ namespace TaiwuRus.Shared
         /// the same relative path, creating directories as needed. A file is copied only when the
         /// destination is missing or older than the source. Returns the number of files copied.
         /// </summary>
-        public static int Copy(string overlayRoot, string gameRoot, Action<string> log = null)
+        public static int Copy(string? overlayRoot, string? gameRoot, Action<string>? log = null)
         {
-            if (string.IsNullOrEmpty(overlayRoot) || !Directory.Exists(overlayRoot) || string.IsNullOrEmpty(gameRoot))
+            // Explicit null/empty checks (not string.IsNullOrEmpty): this file also compiles for
+            // netstandard2.0/net48, whose BCL lacks the annotations the compiler needs to narrow.
+            if (overlayRoot == null || overlayRoot.Length == 0 || !Directory.Exists(overlayRoot)
+                || gameRoot == null || gameRoot.Length == 0)
                 return 0;
 
             int copied = 0, scanned = 0;
@@ -70,7 +73,7 @@ namespace TaiwuRus.Shared
                 {
                     if (!IsStale(src, dst))
                         continue;
-                    string dstDir = Path.GetDirectoryName(dst);
+                    string? dstDir = Path.GetDirectoryName(dst);
                     if (!string.IsNullOrEmpty(dstDir))
                         Directory.CreateDirectory(dstDir);
                     File.Copy(src, dst, true);
