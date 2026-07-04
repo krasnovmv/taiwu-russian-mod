@@ -86,7 +86,11 @@ namespace TaiwuRus.Frontend
                 return null;
             var tex = new Texture2D(2, 2, TextureFormat.RGBA32, false);
             if (!ImageConversion.LoadImage(tex, File.ReadAllBytes(file)))
+            {
+                // Unity native memory isn't garbage-collected; destroy the failed texture explicitly.
+                UnityEngine.Object.Destroy(tex);
                 return null;
+            }
             tex.name = ruName;
             return tex;
         }
