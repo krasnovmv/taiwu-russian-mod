@@ -15,6 +15,8 @@ namespace TaiwuRus.Backend
     /// as TaiwuRusB.dll.
     /// </summary>
     [PluginConfig("TaiwuRusBackend", ModInfo.Author, ModInfo.Version)]
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "CA1001:Types that own disposable fields should be disposable",
+        Justification = "Plugin lifetime is owned by the game's mod loader, which calls Dispose(); _harmony is unpatched there.")]
     public sealed class BackendPlugin : TaiwuRemakePlugin
     {
         private Harmony _harmony;

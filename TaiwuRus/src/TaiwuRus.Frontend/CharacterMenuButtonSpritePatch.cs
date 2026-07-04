@@ -48,7 +48,9 @@ namespace TaiwuRus.Frontend
             SpriteState spriteState = new SpriteState();
 
             void LoadState(int state, Action<Sprite> onLoaded) =>
-                LocalizedImage.LoadSprite(string.Format(path, "ru", state), ResLoad, onLoaded);
+                LocalizedImage.LoadSprite(
+                    string.Format(System.Globalization.CultureInfo.InvariantCulture, path, "ru", state),
+                    ResLoad, onLoaded);
 
             LoadState(isCurrent ? 2 : 0, s =>
             {

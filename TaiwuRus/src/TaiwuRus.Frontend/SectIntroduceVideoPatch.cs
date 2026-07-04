@@ -24,6 +24,8 @@ namespace TaiwuRus.Frontend
         // string.op_Equality(string,string) it replaces once the "EN" literal push is dropped.
         public static bool EnOrRu(string key) => key == "EN" || key == "RU";
 
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1859:Use concrete types when possible for improved performance",
+            Justification = "Harmony requires transpilers to return IEnumerable<CodeInstruction>.")]
         private static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
         {
             var codes = new List<CodeInstruction>(instructions);

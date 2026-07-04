@@ -31,7 +31,7 @@ namespace TaiwuRus.Backend
                 || !languageFilePath.EndsWith(EnSuffix, StringComparison.Ordinal))
                 return;
 
-            string ru = languageFilePath.Substring(0, languageFilePath.Length - EnSuffix.Length) + RuSuffix;
+            string ru = string.Concat(languageFilePath.AsSpan(0, languageFilePath.Length - EnSuffix.Length), RuSuffix);
             if (File.Exists(ru))
                 languageFilePath = ru;
         }

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Text.RegularExpressions;
 using FrameWork.UISystem.UIElements;
@@ -96,7 +97,10 @@ namespace TaiwuRus.Frontend
 
         /// <summary>Apply the RU-localized sprite from a format pattern (LanguageRule entry point).</summary>
         public static void ApplySpriteFromPattern(CImage img, string pattern, bool nativeSize) =>
-            ApplySprite(img, string.Format(pattern, "ru"), string.Format(pattern, "en"), string.Format(pattern, "cn"), nativeSize);
+            ApplySprite(img,
+                string.Format(CultureInfo.InvariantCulture, pattern, "ru"),
+                string.Format(CultureInfo.InvariantCulture, pattern, "en"),
+                string.Format(CultureInfo.InvariantCulture, pattern, "cn"), nativeSize);
 
         /// <summary>Apply the RU-localized sprite from a final <c>_ru</c> name (code-set entry point).</summary>
         public static void ApplySprite(CImage img, string ruName, bool nativeSize) =>
@@ -126,7 +130,10 @@ namespace TaiwuRus.Frontend
 
         /// <summary>Apply the RU-localized texture from a format pattern (LanguageRule entry point).</summary>
         public static bool ApplyTextureFromPattern(CRawImage img, string pattern) =>
-            ApplyTexture(img, string.Format(pattern, "ru"), string.Format(pattern, "en"), string.Format(pattern, "cn"));
+            ApplyTexture(img,
+                string.Format(CultureInfo.InvariantCulture, pattern, "ru"),
+                string.Format(CultureInfo.InvariantCulture, pattern, "en"),
+                string.Format(CultureInfo.InvariantCulture, pattern, "cn"));
 
         /// <summary>Apply the RU-localized texture from a final <c>_ru</c> name (code-set entry point).
         /// Returns whether a texture was set (mirrors <c>CRawImage.SetTexture</c>'s bool result).</summary>

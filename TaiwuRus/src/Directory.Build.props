@@ -9,6 +9,15 @@
         <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 
+        <!-- Static analysis: .NET analyzers at the recommended level, and every compiler
+             warning fails the build so problems can't accumulate silently. -->
+        <EnableNETAnalyzers>true</EnableNETAnalyzers>
+        <AnalysisLevel>latest-recommended</AnalysisLevel>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <!-- CA1716: the TaiwuRus.Shared namespace collides with a VB keyword — irrelevant for
+             a private game mod; renaming the namespace would be pure churn. -->
+        <NoWarn>$(NoWarn);CA1716</NoWarn>
+
         <!-- Game install root. Override with -p:GameDir=... or env TAIWU_GAME_DIR. -->
         <GameDir Condition="'$(GameDir)' == '' and '$(TAIWU_GAME_DIR)' != ''">$(TAIWU_GAME_DIR)</GameDir>
         <GameDir Condition="'$(GameDir)' == ''">D:\SteamLibrary\steamapps\common\The Scroll Of Taiwu</GameDir>
