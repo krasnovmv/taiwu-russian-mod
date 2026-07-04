@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace TaiwuRus.Shared
@@ -25,29 +26,39 @@ namespace TaiwuRus.Shared
         /// </summary>
         public static string? FindModRoot(string? assemblyLocation, string? gameRoot)
         {
-            if (!string.IsNullOrEmpty(assemblyLocation))
+            foreach (string root in CandidateModRoots(assemblyLocation, gameRoot))
+            {
+                if (Directory.Exists(Path.Combine(root, "Localization")))
+                    return root;
+            }
+            return null;
+        }
+
+        /// <summary>
+        /// Every place this mod's files might live, in probe order: the loaded DLL's folder and a
+        /// few parents (in-place install, Mod/&lt;id&gt;/Plugins/*.dll → Mod/&lt;id&gt;), then every
+        /// <c>&lt;gameRoot&gt;/Mod/*</c> directory (the loader may run the DLL from a temp copy).
+        /// The SINGLE enumeration behind every marker probe (<see cref="FindModRoot"/>, the
+        /// frontend's asset-overlay discovery) so the search order can't drift apart.
+        /// </summary>
+        public static IEnumerable<string> CandidateModRoots(string? assemblyLocation, string? gameRoot)
+        {
+            if (assemblyLocation != null && assemblyLocation.Length != 0)
             {
                 DirectoryInfo? dir = Directory.GetParent(assemblyLocation);
                 for (int i = 0; i < 5 && dir != null; i++, dir = dir.Parent)
-                {
-                    if (Directory.Exists(Path.Combine(dir.FullName, "Localization")))
-                        return dir.FullName;
-                }
+                    yield return dir.FullName;
             }
 
-            if (!string.IsNullOrEmpty(gameRoot))
+            if (gameRoot != null && gameRoot.Length != 0)
             {
                 string mods = Path.Combine(gameRoot, "Mod");
                 if (Directory.Exists(mods))
                 {
                     foreach (string sub in Directory.GetDirectories(mods))
-                    {
-                        if (Directory.Exists(Path.Combine(sub, "Localization")))
-                            return sub;
-                    }
+                        yield return sub;
                 }
             }
-            return null;
         }
 
         /// <summary>

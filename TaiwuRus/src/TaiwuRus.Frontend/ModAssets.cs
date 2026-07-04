@@ -1,6 +1,6 @@
-using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using TaiwuRus.Shared;
 using UnityEngine;
 
 namespace TaiwuRus.Frontend
@@ -67,38 +67,19 @@ namespace TaiwuRus.Frontend
             string dataFolder = new DirectoryInfo(Application.dataPath).Name;
             string? gameRoot = Directory.GetParent(Application.dataPath)?.FullName;
 
-            foreach (string root in CandidateModRoots(gameRoot))
+            string? location = null;
+            try { location = Assembly.GetExecutingAssembly().Location; }
+            catch { /* dynamic/temp assembly with no location */ }
+
+            // Same candidate enumeration as OverlayDeployer.FindModRoot (assembly folder + parents,
+            // then every <game>/Mod/*), just with a deeper marker: the overlay subtree itself.
+            foreach (string root in OverlayDeployer.CandidateModRoots(location, gameRoot))
             {
                 string overlay = Path.Combine(root, "Localization", dataFolder, "StreamingAssets");
                 if (Directory.Exists(overlay))
                     return overlay;
             }
             return null;
-        }
-
-        private static IEnumerable<string> CandidateModRoots(string? gameRoot)
-        {
-            // 1) The folder this assembly actually loaded from, and a few parents — covers the
-            //    in-place install (Mod/<id>/Plugins/TaiwuRusF.dll -> Mod/<id>).
-            string? location = null;
-            try { location = Assembly.GetExecutingAssembly().Location; }
-            catch { /* dynamic/temp assembly with no location */ }
-            if (!string.IsNullOrEmpty(location))
-            {
-                DirectoryInfo? dir = Directory.GetParent(location);
-                for (int i = 0; i < 4 && dir != null; i++, dir = dir.Parent)
-                    yield return dir.FullName;
-            }
-
-            // 2) Every installed mod folder — covers a DLL loaded from a temp copy, where the
-            //    mod's files still live under <game>/Mod/<id>.
-            if (!string.IsNullOrEmpty(gameRoot))
-            {
-                string mods = Path.Combine(gameRoot, "Mod");
-                if (Directory.Exists(mods))
-                    foreach (string sub in Directory.GetDirectories(mods))
-                        yield return sub;
-            }
         }
     }
 }
