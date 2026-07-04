@@ -1,6 +1,7 @@
 using System.IO;
 using System.Reflection;
 using HarmonyLib;
+using TaiwuRus.Shared;
 using UnityEngine;
 
 namespace TaiwuRus.Frontend
@@ -28,7 +29,7 @@ namespace TaiwuRus.Frontend
 
         private static bool Prefix(EventModel __instance)
         {
-            if (LocalStringManager.CurLanguageKey != "RU")
+            if (!RuLocale.IsRu)
                 return true;
 
             _contentsField ??= AccessTools.Field(typeof(EventModel), "_optionAvailableContents");

@@ -1,6 +1,7 @@
 using FrameWork.UI.LanguageRule;
 using FrameWork.UISystem.UIElements;
 using HarmonyLib;
+using TaiwuRus.Shared;
 
 namespace TaiwuRus.Frontend
 {
@@ -21,7 +22,7 @@ namespace TaiwuRus.Frontend
     {
         private static bool Prefix(CImage __instance, string spriteName, bool autoNativeSize)
         {
-            if (!LocalizedImage.IsRu || !LocalizedImage.HasRuToken(spriteName))
+            if (!RuLocale.IsRu || !LocalizedImage.HasRuToken(spriteName))
                 return true; // not a localized name → run the stock method
             LocalizedImage.ApplySprite(__instance, spriteName, autoNativeSize);
             return false; // fully handled

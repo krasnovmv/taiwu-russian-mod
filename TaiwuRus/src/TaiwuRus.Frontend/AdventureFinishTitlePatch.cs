@@ -1,6 +1,7 @@
 using System;
 using Game.Components.Adventure;
 using HarmonyLib;
+using TaiwuRus.Shared;
 using UnityEngine;
 
 namespace TaiwuRus.Frontend
@@ -15,7 +16,7 @@ namespace TaiwuRus.Frontend
     /// per-subsystem RU→EN fallback: when the active language has no entry, re-point to the "en" one
     /// (English "Adventure Complete") instead of Chinese, and re-run the private refresh.
     ///
-    /// Gated on RU only, like every other subsystem here (<see cref="LocalizedImage.IsRu"/>): a
+    /// Gated on RU only, like every other subsystem here (<see cref="RuLocale.IsRu"/>): a
     /// player on any other language keeps the engine's own resolution untouched, even if their
     /// language also lacks an entry (e.g. jp/cnh → Chinese, as vanilla). If there's no "en" entry to
     /// fall back to, we leave the engine's index-0 fallback alone.
@@ -25,7 +26,7 @@ namespace TaiwuRus.Frontend
     {
         private static void Postfix(AdventureRemakeFinish __instance)
         {
-            if (!LocalizedImage.IsRu)
+            if (!RuLocale.IsRu)
                 return;
 
             AdventureRemakeFinish.LocalizationTitles[] titles = __instance.localizationTitles;

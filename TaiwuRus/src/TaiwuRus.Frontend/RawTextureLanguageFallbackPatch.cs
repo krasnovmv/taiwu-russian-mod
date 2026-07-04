@@ -1,5 +1,6 @@
 using FrameWork.UI.LanguageRule;
 using HarmonyLib;
+using TaiwuRus.Shared;
 
 namespace TaiwuRus.Frontend
 {
@@ -21,7 +22,7 @@ namespace TaiwuRus.Frontend
     {
         private static bool Prefix(CRawImage __instance, string textureName, ref bool __result)
         {
-            if (!LocalizedImage.IsRu || !LocalizedImage.HasRuToken(textureName))
+            if (!RuLocale.IsRu || !LocalizedImage.HasRuToken(textureName))
                 return true; // not a localized name → run the stock method
             __result = LocalizedImage.ApplyTexture(__instance, textureName);
             return false; // fully handled

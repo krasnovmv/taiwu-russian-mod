@@ -5,6 +5,7 @@ using System.Reflection;
 using System.Text.RegularExpressions;
 using Game.Views.MouseTips;
 using HarmonyLib;
+using TaiwuRus.Shared;
 using Newtonsoft.Json;
 
 namespace TaiwuRus.Frontend
@@ -29,7 +30,7 @@ namespace TaiwuRus.Frontend
 
         private static bool Prefix(object configLine, ref object __result)
         {
-            if (LocalStringManager.CurLanguageKey != "RU" || configLine == null)
+            if (!RuLocale.IsRu || configLine == null)
                 return true;
 
             _pathField ??= AccessTools.Field(configLine.GetType(), "Path");

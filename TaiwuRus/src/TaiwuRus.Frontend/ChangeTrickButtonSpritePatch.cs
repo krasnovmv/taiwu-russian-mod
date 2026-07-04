@@ -2,6 +2,7 @@ using System;
 using FrameWork.UISystem.UIElements;
 using Game.Views.Combat;
 using HarmonyLib;
+using TaiwuRus.Shared;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -33,7 +34,7 @@ namespace TaiwuRus.Frontend
 
         private static bool Prefix(CButton button, string type)
         {
-            if (!LocalizedImage.IsRu || button == null)
+            if (!RuLocale.IsRu || button == null)
                 return true; // not RU → run the stock method
 
             if (!(button.image is CImage image))

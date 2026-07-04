@@ -34,7 +34,7 @@ namespace TaiwuRus.Frontend
         {
             bool useImages = false;
             ModManager.GetSetting(ModIdStr, "useImages", ref useImages);
-            LocalizedImage.UseImages = useImages;
+            RuLocale.UseImages = useImages;
             Debug.Log($"[TaiwuRus] useImages = {useImages}");
         }
 
@@ -63,7 +63,7 @@ namespace TaiwuRus.Frontend
             // Copy() above is synchronous, so once it returns the pack is guaranteed present (placed
             // here or already there) — reload unconditionally. Init() re-reads the folder from disk;
             // it's idempotent, so the redundant reload on later launches is a cheap no-op.
-            if (LocalStringManager.CurLanguageKey == "RU"
+            if (RuLocale.IsRu
                 && Directory.Exists(Path.Combine(Application.dataPath, "StreamingAssets", "Language_RU")))
             {
                 try

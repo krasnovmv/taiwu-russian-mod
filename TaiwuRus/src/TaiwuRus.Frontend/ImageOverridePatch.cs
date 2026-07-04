@@ -1,5 +1,6 @@
 using FrameWork.UI.LanguageRule;
 using HarmonyLib;
+using TaiwuRus.Shared;
 
 namespace TaiwuRus.Frontend
 {
@@ -23,7 +24,7 @@ namespace TaiwuRus.Frontend
     {
         private static void Postfix(CImage ___targetImage, string ___imagePattern, bool ___nativeSize)
         {
-            if (!LocalizedImage.IsRu || ___targetImage == null || string.IsNullOrEmpty(___imagePattern))
+            if (!RuLocale.IsRu || ___targetImage == null || string.IsNullOrEmpty(___imagePattern))
                 return;
             LocalizedImage.ApplySpriteFromPattern(___targetImage, ___imagePattern, ___nativeSize);
         }

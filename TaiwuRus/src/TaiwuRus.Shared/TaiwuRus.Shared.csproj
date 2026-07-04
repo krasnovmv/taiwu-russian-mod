@@ -13,4 +13,10 @@
         <ImplicitUsings>disable</ImplicitUsings>
     </PropertyGroup>
 
+    <!-- RuLocale references LocalStringManager (GameData.Shared), which this standalone project
+         does not reference; the file is source-linked into Frontend and Backend only. -->
+    <ItemGroup>
+        <Compile Remove="RuLocale.cs" />
+    </ItemGroup>
+
 </Project>

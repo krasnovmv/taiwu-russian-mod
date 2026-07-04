@@ -1,5 +1,6 @@
 using Game.Components.Character;
 using HarmonyLib;
+using TaiwuRus.Shared;
 
 namespace TaiwuRus.Frontend
 {
@@ -8,7 +9,7 @@ namespace TaiwuRus.Frontend
     /// by language: EN → <c>Given + Family</c> (western order), everything else → <c>Family + Given</c>
     /// (Chinese order). RU isn't "EN", so a Russian-entered name comes out surname-first
     /// (e.g. "ИвановИван"). Mirror the EN ordering for RU — same per-subsystem RU gate
-    /// (<see cref="LocalizedImage.IsRu"/>) the rest of the plugin uses.
+    /// (<see cref="RuLocale.IsRu"/>) the rest of the plugin uses.
     ///
     /// We rebuild from the public part getters rather than trying to re-split <c>__result</c> (the
     /// engine already concatenated it). We match EN exactly, separator and all (EN adds none), so RU
@@ -19,7 +20,7 @@ namespace TaiwuRus.Frontend
     {
         private static void Postfix(NameCharacter __instance, ref string __result)
         {
-            if (!LocalizedImage.IsRu)
+            if (!RuLocale.IsRu)
                 return;
             __result = __instance.GivenName + __instance.FamilyName;
         }
@@ -32,7 +33,7 @@ namespace TaiwuRus.Frontend
     {
         private static void Postfix(NameCharacter __instance, ref string __result)
         {
-            if (!LocalizedImage.IsRu)
+            if (!RuLocale.IsRu)
                 return;
             __result = __instance.FixedGivenName + __instance.FixedFamilyName;
         }

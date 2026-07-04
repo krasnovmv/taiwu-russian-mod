@@ -2,6 +2,7 @@ using System;
 using System.IO;
 using Game.Views.Encyclopedia;
 using HarmonyLib;
+using TaiwuRus.Shared;
 using UnityEngine;
 
 namespace TaiwuRus.Frontend
@@ -30,7 +31,7 @@ namespace TaiwuRus.Frontend
 
         private static void Postfix(ref string __result)
         {
-            if (SuppressRu || LocalStringManager.CurLanguageKey != "RU")
+            if (SuppressRu || !RuLocale.IsRu)
                 return;
             if (__result != null && __result != "Language_RU"
                 && __result.StartsWith("Language_", StringComparison.Ordinal))
@@ -52,7 +53,7 @@ namespace TaiwuRus.Frontend
         private static void Prefix(string __0)
         {
             EncyclopediaLanguagePatch.SuppressRu = false;
-            if (LocalStringManager.CurLanguageKey != "RU" || string.IsNullOrEmpty(__0))
+            if (!RuLocale.IsRu || string.IsNullOrEmpty(__0))
                 return;
 
             string ru = Path.Combine(Application.streamingAssetsPath, "Language_RU", "EncyclopediaAssets", __0 + ".tsv");

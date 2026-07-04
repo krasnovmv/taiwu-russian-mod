@@ -2,6 +2,7 @@
 using System.IO;
 using Config.EventConfig;
 using HarmonyLib;
+using TaiwuRus.Shared;
 
 namespace TaiwuRus.Backend
 {
@@ -24,7 +25,7 @@ namespace TaiwuRus.Backend
 
         private static void Prefix(ref string languageFilePath)
         {
-            if (LocalStringManager.CurLanguageKey != "RU")
+            if (!RuLocale.IsRu)
                 return;
             if (string.IsNullOrEmpty(languageFilePath)
                 || !languageFilePath.EndsWith(EnSuffix, StringComparison.Ordinal))

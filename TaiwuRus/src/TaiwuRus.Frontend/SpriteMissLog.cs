@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using FrameWork.UI.LanguageRule;
 using FrameWork.UISystem.UIElements;
 using HarmonyLib;
+using TaiwuRus.Shared;
 using UnityEngine;
 
 namespace TaiwuRus.Frontend
@@ -24,7 +25,7 @@ namespace TaiwuRus.Frontend
 
         private static void Report(string kind, string name)
         {
-            if (LocalStringManager.CurLanguageKey != "RU" || string.IsNullOrEmpty(name))
+            if (!RuLocale.IsRu || string.IsNullOrEmpty(name))
                 return;
             if (Seen.Add(kind + ":" + name))
                 Debug.Log($"[TaiwuRus][miss] {kind} not found: '{name}'");

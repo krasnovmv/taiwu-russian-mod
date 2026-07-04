@@ -2,6 +2,7 @@ using System;
 using FrameWork.UISystem.UIElements;
 using Game.Views.CharacterMenu;
 using HarmonyLib;
+using TaiwuRus.Shared;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -40,7 +41,7 @@ namespace TaiwuRus.Frontend
 
         private static bool Prefix(CButton btn, string path, bool isCurrent)
         {
-            if (!LocalizedImage.IsRu || btn == null || string.IsNullOrEmpty(path))
+            if (!RuLocale.IsRu || btn == null || string.IsNullOrEmpty(path))
                 return true; // not RU (or nothing to load) → run the stock method
 
             CImage btnImg = btn.GetComponent<CImage>();
