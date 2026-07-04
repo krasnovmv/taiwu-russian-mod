@@ -5,12 +5,10 @@
       files are linked into the Frontend (net48) and Backend (net8.0) projects
       so each assembly stays self-contained for its runtime.
     -->
+    <!-- Common properties (LangVersion, Nullable, …) come from src/Directory.Build.props. -->
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <RootNamespace>TaiwuRus.Shared</RootNamespace>
-        <LangVersion>latest</LangVersion>
-        <Nullable>disable</Nullable>
-        <ImplicitUsings>disable</ImplicitUsings>
     </PropertyGroup>
 
     <!-- RuLocale references LocalStringManager (GameData.Shared), which this standalone project

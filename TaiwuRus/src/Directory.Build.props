@@ -1,0 +1,17 @@
+<Project>
+
+    <!-- Properties shared by every project under src/. Per-project .csproj files keep only
+         what is unique to them (TFM, assembly name, references, publicizer target). -->
+    <PropertyGroup>
+        <LangVersion>latest</LangVersion>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+
+        <!-- Game install root. Override with -p:GameDir=... or env TAIWU_GAME_DIR. -->
+        <GameDir Condition="'$(GameDir)' == '' and '$(TAIWU_GAME_DIR)' != ''">$(TAIWU_GAME_DIR)</GameDir>
+        <GameDir Condition="'$(GameDir)' == ''">D:\SteamLibrary\steamapps\common\The Scroll Of Taiwu</GameDir>
+    </PropertyGroup>
+
+</Project>

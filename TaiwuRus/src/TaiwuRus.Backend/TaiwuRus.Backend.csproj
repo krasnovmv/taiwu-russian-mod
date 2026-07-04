@@ -1,22 +1,16 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
+    <!-- Common properties (LangVersion, GameDir, …) come from src/Directory.Build.props;
+         the deploy-to-game step from src/Directory.Build.targets (enabled via DeployMod). -->
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
         <AssemblyName>TaiwuRusB</AssemblyName>
         <RootNamespace>TaiwuRus.Backend</RootNamespace>
-        <LangVersion>latest</LangVersion>
-        <ImplicitUsings>disable</ImplicitUsings>
-        <Nullable>disable</Nullable>
-        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
         <!-- Plugin is loaded into the running game host; a deps.json is unneeded and can confuse resolution. -->
         <GenerateDependencyFile>false</GenerateDependencyFile>
-        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <!-- Both plugins build into the shared mod package folder. -->
         <OutputPath>..\..\dist\Plugins\</OutputPath>
-
-        <!-- Game install root. Override with -p:GameDir=... or env TAIWU_GAME_DIR. -->
-        <GameDir Condition="'$(GameDir)' == '' and '$(TAIWU_GAME_DIR)' != ''">$(TAIWU_GAME_DIR)</GameDir>
-        <GameDir Condition="'$(GameDir)' == ''">D:\SteamLibrary\steamapps\common\The Scroll Of Taiwu</GameDir>
+        <DeployMod>true</DeployMod>
         <BackendDir>$(GameDir)\Backend</BackendDir>
     </PropertyGroup>
 
@@ -56,20 +50,5 @@
             <Private>false</Private>
         </Reference>
     </ItemGroup>
-
-    <!-- After build, deploy the whole mod package (dist/) into the game's Mod folder. -->
-    <Target Name="DeployToGame" AfterTargets="Build" Condition="Exists('$(GameDir)')">
-        <PropertyGroup>
-            <ModDeployDir>$(GameDir)\Mod\TaiwuRus</ModDeployDir>
-            <DistDir>$(MSBuildProjectDirectory)\..\..\dist</DistDir>
-        </PropertyGroup>
-        <ItemGroup>
-            <DeployFiles Include="$(DistDir)\**\*" />
-        </ItemGroup>
-        <Copy SourceFiles="@(DeployFiles)"
-              DestinationFiles="@(DeployFiles->'$(ModDeployDir)\%(RecursiveDir)%(Filename)%(Extension)')"
-              SkipUnchangedFiles="true" />
-        <Message Importance="high" Text="[TaiwuRus] deployed dist -&gt; $(ModDeployDir)" />
-    </Target>
 
 </Project>

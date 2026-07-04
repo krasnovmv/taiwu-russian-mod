@@ -1,20 +1,14 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
+    <!-- Common properties (LangVersion, GameDir, …) come from src/Directory.Build.props;
+         the deploy-to-game step from src/Directory.Build.targets (enabled via DeployMod). -->
     <PropertyGroup>
         <TargetFramework>net48</TargetFramework>
         <AssemblyName>TaiwuRusF</AssemblyName>
         <RootNamespace>TaiwuRus.Frontend</RootNamespace>
-        <LangVersion>latest</LangVersion>
-        <ImplicitUsings>disable</ImplicitUsings>
-        <Nullable>disable</Nullable>
-        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <!-- Both plugins build into the shared mod package folder. -->
         <OutputPath>..\..\dist\Plugins\</OutputPath>
-
-        <!-- Game install root. Override with -p:GameDir=... or env TAIWU_GAME_DIR. -->
-        <GameDir Condition="'$(GameDir)' == '' and '$(TAIWU_GAME_DIR)' != ''">$(TAIWU_GAME_DIR)</GameDir>
-        <GameDir Condition="'$(GameDir)' == ''">D:\SteamLibrary\steamapps\common\The Scroll Of Taiwu</GameDir>
+        <DeployMod>true</DeployMod>
         <ManagedDir>$(GameDir)\The Scroll of Taiwu_Data\Managed</ManagedDir>
     </PropertyGroup>
 
@@ -22,6 +16,15 @@
         <Compile Include="..\TaiwuRus.Shared\ModInfo.cs" Link="ModInfo.cs" />
         <Compile Include="..\TaiwuRus.Shared\OverlayDeployer.cs" Link="OverlayDeployer.cs" />
         <Compile Include="..\TaiwuRus.Shared\RuLocale.cs" Link="RuLocale.cs" />
+    </ItemGroup>
+
+    <!-- Build-order only (no assembly reference): both projects deploy dist/ into the game
+         after build, and running the two DeployToGame copies in parallel races on the other
+         plugin's freshly written dll/pdb. Serializing the builds removes the overlap. -->
+    <ItemGroup>
+        <ProjectReference Include="..\TaiwuRus.Backend\TaiwuRus.Backend.csproj"
+                          ReferenceOutputAssembly="false"
+                          SkipGetTargetFrameworkProperties="true" />
     </ItemGroup>
 
     <!-- Lets net48 build without a machine-wide Developer Pack. -->
@@ -75,20 +78,5 @@
             <Private>false</Private>
         </Reference>
     </ItemGroup>
-
-    <!-- After build, deploy the whole mod package (dist/) into the game's Mod folder. -->
-    <Target Name="DeployToGame" AfterTargets="Build" Condition="Exists('$(GameDir)')">
-        <PropertyGroup>
-            <ModDeployDir>$(GameDir)\Mod\TaiwuRus</ModDeployDir>
-            <DistDir>$(MSBuildProjectDirectory)\..\..\dist</DistDir>
-        </PropertyGroup>
-        <ItemGroup>
-            <DeployFiles Include="$(DistDir)\**\*" />
-        </ItemGroup>
-        <Copy SourceFiles="@(DeployFiles)"
-              DestinationFiles="@(DeployFiles->'$(ModDeployDir)\%(RecursiveDir)%(Filename)%(Extension)')"
-              SkipUnchangedFiles="true" />
-        <Message Importance="high" Text="[TaiwuRus] deployed dist -&gt; $(ModDeployDir)" />
-    </Target>
 
 </Project>
