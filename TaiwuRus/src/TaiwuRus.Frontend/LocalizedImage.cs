@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
-using System.Text.RegularExpressions;
 using FrameWork.UISystem.UIElements;
 using TaiwuRus.Shared;
 using UnityEngine;
@@ -27,22 +26,9 @@ namespace TaiwuRus.Frontend
     /// </summary>
     internal static class LocalizedImage
     {
-        /// <summary>A trailing language token: <c>&lt;base&gt;_ru</c> or <c>&lt;base&gt;_ru_&lt;state&gt;</c>.
-        /// Anchored to the end so a stray "ru" inside a name (e.g. "ruin") is never matched.</summary>
-        private static readonly Regex RuToken = new Regex(@"_ru(?=(_\d+)?$)");
-
         private static readonly Dictionary<string, Sprite?> SpriteCache = new Dictionary<string, Sprite?>();
         private static readonly Dictionary<string, Texture2D?> TextureCache = new Dictionary<string, Texture2D?>();
         private static readonly HashSet<string> Diag = new HashSet<string>();
-
-        /// <summary>True if <paramref name="name"/> carries a trailing <c>_ru</c> language token.</summary>
-        public static bool HasRuToken(string name) =>
-            !string.IsNullOrEmpty(name)
-            && name.IndexOf("_ru", StringComparison.Ordinal) >= 0
-            && RuToken.IsMatch(name);
-
-        public static string ToEn(string ruName) => RuToken.Replace(ruName, "_en");
-        public static string ToCn(string ruName) => RuToken.Replace(ruName, "_cn");
 
         // ── Step 1: the shipped RU PNG override, loaded once and cached (null cached too, so we probe
         //    disk only once per name). ────────────────────────────────────────────────────────────
@@ -105,7 +91,7 @@ namespace TaiwuRus.Frontend
 
         /// <summary>Apply the RU-localized sprite from a final <c>_ru</c> name (code-set entry point).</summary>
         public static void ApplySprite(CImage img, string ruName, bool nativeSize) =>
-            ApplySprite(img, ruName, ToEn(ruName), ToCn(ruName), nativeSize);
+            ApplySprite(img, ruName, RuImageName.ToEn(ruName), RuImageName.ToCn(ruName), nativeSize);
 
         private static void ApplySprite(CImage img, string ruName, string enName, string cnName, bool nativeSize)
         {
@@ -139,7 +125,7 @@ namespace TaiwuRus.Frontend
         /// <summary>Apply the RU-localized texture from a final <c>_ru</c> name (code-set entry point).
         /// Returns whether a texture was set (mirrors <c>CRawImage.SetTexture</c>'s bool result).</summary>
         public static bool ApplyTexture(CRawImage img, string ruName) =>
-            ApplyTexture(img, ruName, ToEn(ruName), ToCn(ruName));
+            ApplyTexture(img, ruName, RuImageName.ToEn(ruName), RuImageName.ToCn(ruName));
 
         private static bool ApplyTexture(CRawImage img, string ruName, string enName, string cnName)
         {
@@ -175,14 +161,14 @@ namespace TaiwuRus.Frontend
                 onLoaded(ru);
                 return;
             }
-            load(ToEn(ruPath), en =>
+            load(RuImageName.ToEn(ruPath), en =>
             {
                 if (en != null)
                 {
                     onLoaded(en);
                     return;
                 }
-                load(ToCn(ruPath), onLoaded);
+                load(RuImageName.ToCn(ruPath), onLoaded);
             });
         }
 

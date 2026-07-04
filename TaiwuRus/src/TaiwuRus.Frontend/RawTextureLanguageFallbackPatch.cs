@@ -22,7 +22,7 @@ namespace TaiwuRus.Frontend
     {
         private static bool Prefix(CRawImage __instance, string textureName, ref bool __result)
         {
-            if (!RuLocale.IsRu || !LocalizedImage.HasRuToken(textureName))
+            if (!RuLocale.IsRu || !RuImageName.HasRuToken(textureName))
                 return true; // not a localized name → run the stock method
             __result = LocalizedImage.ApplyTexture(__instance, textureName);
             return false; // fully handled

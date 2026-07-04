@@ -22,7 +22,7 @@ namespace TaiwuRus.Frontend
     {
         private static bool Prefix(CImage __instance, string spriteName, bool autoNativeSize)
         {
-            if (!RuLocale.IsRu || !LocalizedImage.HasRuToken(spriteName))
+            if (!RuLocale.IsRu || !RuImageName.HasRuToken(spriteName))
                 return true; // not a localized name → run the stock method
             LocalizedImage.ApplySprite(__instance, spriteName, autoNativeSize);
             return false; // fully handled

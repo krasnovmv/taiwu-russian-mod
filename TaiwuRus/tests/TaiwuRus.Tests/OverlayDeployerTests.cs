@@ -1,0 +1,137 @@
+using System;
+using System.IO;
+using TaiwuRus.Shared;
+using Xunit;
+
+namespace TaiwuRus.Tests
+{
+    public sealed class OverlayDeployerTests : IDisposable
+    {
+        private readonly string _root;
+
+        public OverlayDeployerTests()
+        {
+            _root = Path.Combine(Path.GetTempPath(), "TaiwuRusTests_" + Guid.NewGuid().ToString("N"));
+            Directory.CreateDirectory(_root);
+        }
+
+        public void Dispose()
+        {
+            try { Directory.Delete(_root, recursive: true); } catch { /* best effort */ }
+        }
+
+        private string Dir(params string[] segments)
+        {
+            string path = Path.Combine(_root, Path.Combine(segments));
+            Directory.CreateDirectory(path);
+            return path;
+        }
+
+        private string WriteFile(string relative, string content)
+        {
+            string path = Path.Combine(_root, relative);
+            Directory.CreateDirectory(Path.GetDirectoryName(path)!);
+            File.WriteAllText(path, content);
+            return path;
+        }
+
+        // ── Copy ────────────────────────────────────────────────────────────────────────────
+
+        [Fact]
+        public void Copy_places_files_at_the_same_relative_path()
+        {
+            string overlay = Dir("overlay");
+            string game = Dir("game");
+            WriteFile(@"overlay\Data\StreamingAssets\Language_RU\ui.txt", "привет");
+
+            int copied = OverlayDeployer.Copy(overlay, game);
+
+            Assert.Equal(1, copied);
+            Assert.Equal("привет", File.ReadAllText(Path.Combine(game, "Data", "StreamingAssets", "Language_RU", "ui.txt")));
+        }
+
+        [Fact]
+        public void Copy_skips_up_to_date_destinations()
+        {
+            string overlay = Dir("overlay");
+            string game = Dir("game");
+            WriteFile(@"overlay\a.txt", "v1");
+
+            Assert.Equal(1, OverlayDeployer.Copy(overlay, game));
+            Assert.Equal(0, OverlayDeployer.Copy(overlay, game)); // second run: nothing stale
+        }
+
+        [Fact]
+        public void Copy_overwrites_when_source_is_newer()
+        {
+            string overlay = Dir("overlay");
+            string game = Dir("game");
+            string src = WriteFile(@"overlay\a.txt", "v1");
+            OverlayDeployer.Copy(overlay, game);
+
+            File.WriteAllText(src, "v2");
+            File.SetLastWriteTimeUtc(src, DateTime.UtcNow.AddMinutes(1)); // clearly newer than the copy
+
+            Assert.Equal(1, OverlayDeployer.Copy(overlay, game));
+            Assert.Equal("v2", File.ReadAllText(Path.Combine(game, "a.txt")));
+        }
+
+        [Fact]
+        public void Copy_leaves_newer_destinations_alone()
+        {
+            string overlay = Dir("overlay");
+            string game = Dir("game");
+            string src = WriteFile(@"overlay\a.txt", "old");
+            string dst = WriteFile(@"game\a.txt", "newer");
+            File.SetLastWriteTimeUtc(dst, File.GetLastWriteTimeUtc(src).AddMinutes(1));
+
+            Assert.Equal(0, OverlayDeployer.Copy(overlay, game));
+            Assert.Equal("newer", File.ReadAllText(dst));
+        }
+
+        [Theory]
+        [InlineData(null, "game")]
+        [InlineData("overlay", null)]
+        [InlineData("", "game")]
+        [InlineData("missing-dir", "game")]
+        public void Copy_returns_zero_for_absent_inputs(string? overlay, string? game)
+        {
+            string? overlayPath = overlay == null ? null : Path.Combine(_root, overlay);
+            string? gamePath = game == null ? null : Dir(game);
+
+            Assert.Equal(0, OverlayDeployer.Copy(overlayPath, gamePath));
+        }
+
+        // ── FindModRoot ─────────────────────────────────────────────────────────────────────
+
+        [Fact]
+        public void FindModRoot_walks_up_from_the_plugin_dll()
+        {
+            Dir("game", "Mod", "TaiwuRus", "Localization");
+            string dll = Path.Combine(_root, "game", "Mod", "TaiwuRus", "Plugins", "TaiwuRusF.dll");
+
+            Assert.Equal(
+                Path.Combine(_root, "game", "Mod", "TaiwuRus"),
+                OverlayDeployer.FindModRoot(dll, gameRoot: null));
+        }
+
+        [Fact]
+        public void FindModRoot_scans_the_mod_folder_when_the_dll_location_is_useless()
+        {
+            Dir("game", "Mod", "SomeOtherMod");
+            Dir("game", "Mod", "TaiwuRus", "Localization");
+
+            Assert.Equal(
+                Path.Combine(_root, "game", "Mod", "TaiwuRus"),
+                OverlayDeployer.FindModRoot(assemblyLocation: null, Path.Combine(_root, "game")));
+        }
+
+        [Fact]
+        public void FindModRoot_returns_null_when_no_marker_exists()
+        {
+            Dir("game", "Mod", "TaiwuRus"); // no Localization/ inside
+
+            Assert.Null(OverlayDeployer.FindModRoot(null, Path.Combine(_root, "game")));
+        }
+    }
+}
