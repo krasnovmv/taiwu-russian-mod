@@ -17,29 +17,54 @@ namespace TaiwuRus.Shared
     /// </summary>
     public static class OverlayDeployer
     {
+        /// <summary>Steam AppID of The Scroll of Taiwu — locates the Workshop content folder.</summary>
+        private const string SteamAppId = "838350";
+
         /// <summary>
-        /// Find the mod root — the directory that contains a <c>Localization</c> subfolder.
-        /// First walks up from <paramref name="assemblyLocation"/> (the loaded plugin DLL); the
-        /// Taiwu loader often loads plugins from a byte[] so <c>Assembly.Location</c> is empty, so
-        /// it then scans every <c>&lt;gameRoot&gt;/Mod/*</c> folder for the marker. Returns null if
-        /// none is found (e.g. a not-yet-populated overlay).
+        /// Find the mod root — the directory that carries our localization overlay. First walks up
+        /// from <paramref name="assemblyLocation"/> (the loaded plugin DLL); the Taiwu loader loads
+        /// plugins from a byte[] so <c>Assembly.Location</c> is empty, so it then scans every
+        /// <c>&lt;gameRoot&gt;/Mod/*</c> folder and every subscribed Steam Workshop item. Returns
+        /// null if none is found (e.g. a not-yet-populated overlay).
         /// </summary>
         public static string? FindModRoot(string? assemblyLocation, string? gameRoot)
         {
             foreach (string root in CandidateModRoots(assemblyLocation, gameRoot))
             {
-                if (Directory.Exists(Path.Combine(root, "Localization")))
+                if (HasOverlay(root))
                     return root;
             }
             return null;
         }
 
         /// <summary>
+        /// A candidate is our mod root only when it carries the overlay subtree —
+        /// <c>Localization/&lt;…_Data&gt;/StreamingAssets</c> (mirroring the game layout). Requiring
+        /// the whole subtree, not just a <c>Localization</c> folder, disambiguates our mod from any
+        /// other subscribed Workshop item that happens to ship a folder by that name.
+        /// </summary>
+        private static bool HasOverlay(string root)
+        {
+            string localization = Path.Combine(root, "Localization");
+            if (!Directory.Exists(localization))
+                return false;
+            foreach (string data in Directory.EnumerateDirectories(localization, "*_Data"))
+            {
+                if (Directory.Exists(Path.Combine(data, "StreamingAssets")))
+                    return true;
+            }
+            return false;
+        }
+
+        /// <summary>
         /// Every place this mod's files might live, in probe order: the loaded DLL's folder and a
         /// few parents (in-place install, Mod/&lt;id&gt;/Plugins/*.dll → Mod/&lt;id&gt;), then every
-        /// <c>&lt;gameRoot&gt;/Mod/*</c> directory (the loader may run the DLL from a temp copy).
-        /// The SINGLE enumeration behind every marker probe (<see cref="FindModRoot"/>, the
-        /// frontend's asset-overlay discovery) so the search order can't drift apart.
+        /// <c>&lt;gameRoot&gt;/Mod/*</c> directory (local/uploaded mods), then every subscribed Steam
+        /// Workshop item (a subscribed mod loads in place from
+        /// <c>…/steamapps/workshop/content/&lt;appid&gt;/&lt;id&gt;</c>, which is NOT under
+        /// <c>&lt;game&gt;/Mod</c>). The SINGLE enumeration behind every marker probe
+        /// (<see cref="FindModRoot"/>, the frontend's asset-overlay discovery) so the search order
+        /// can't drift apart.
         /// </summary>
         public static IEnumerable<string> CandidateModRoots(string? assemblyLocation, string? gameRoot)
         {
@@ -58,7 +83,29 @@ namespace TaiwuRus.Shared
                     foreach (string sub in Directory.GetDirectories(mods))
                         yield return sub;
                 }
+
+                foreach (string sub in WorkshopItemDirs(gameRoot))
+                    yield return sub;
             }
+        }
+
+        /// <summary>
+        /// Subscribed Workshop items for this game. Steam keeps them beside the install:
+        /// <c>&lt;lib&gt;/steamapps/common/&lt;game&gt;</c> (the game root) and
+        /// <c>&lt;lib&gt;/steamapps/workshop/content/&lt;appid&gt;/&lt;id&gt;</c> share the
+        /// <c>steamapps</c> parent. Yields nothing off-Steam (the folder simply won't exist).
+        /// </summary>
+        private static IEnumerable<string> WorkshopItemDirs(string gameRoot)
+        {
+            string? common = Path.GetDirectoryName(gameRoot);          // …/steamapps/common
+            string? steamapps = common == null ? null : Path.GetDirectoryName(common);
+            if (steamapps == null || steamapps.Length == 0)
+                yield break;
+            string content = Path.Combine(steamapps, "workshop", "content", SteamAppId);
+            if (!Directory.Exists(content))
+                yield break;
+            foreach (string sub in Directory.GetDirectories(content))
+                yield return sub;
         }
 
         /// <summary>

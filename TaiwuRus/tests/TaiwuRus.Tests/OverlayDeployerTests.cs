@@ -107,7 +107,7 @@ namespace TaiwuRus.Tests
         [Fact]
         public void FindModRoot_walks_up_from_the_plugin_dll()
         {
-            Dir("game", "Mod", "TaiwuRus", "Localization");
+            Dir("game", "Mod", "TaiwuRus", "Localization", "Taiwu_Data", "StreamingAssets");
             string dll = Path.Combine(_root, "game", "Mod", "TaiwuRus", "Plugins", "TaiwuRusF.dll");
 
             Assert.Equal(
@@ -119,7 +119,7 @@ namespace TaiwuRus.Tests
         public void FindModRoot_scans_the_mod_folder_when_the_dll_location_is_useless()
         {
             Dir("game", "Mod", "SomeOtherMod");
-            Dir("game", "Mod", "TaiwuRus", "Localization");
+            Dir("game", "Mod", "TaiwuRus", "Localization", "Taiwu_Data", "StreamingAssets");
 
             Assert.Equal(
                 Path.Combine(_root, "game", "Mod", "TaiwuRus"),
@@ -132,6 +132,40 @@ namespace TaiwuRus.Tests
             Dir("game", "Mod", "TaiwuRus"); // no Localization/ inside
 
             Assert.Null(OverlayDeployer.FindModRoot(null, Path.Combine(_root, "game")));
+        }
+
+        [Fact]
+        public void FindModRoot_ignores_a_bare_Localization_folder_without_the_overlay_subtree()
+        {
+            // A Localization/ folder alone (no <…_Data>/StreamingAssets) is not our overlay —
+            // e.g. some unrelated mod that ships a folder by that name.
+            Dir("game", "Mod", "TaiwuRus", "Localization");
+
+            Assert.Null(OverlayDeployer.FindModRoot(null, Path.Combine(_root, "game")));
+        }
+
+        [Fact]
+        public void FindModRoot_finds_a_subscribed_workshop_mod_beside_the_install()
+        {
+            // Steam layout: the game under steamapps/common and the subscribed mod under
+            // steamapps/workshop/content/<appid>/<id> — NOT under <game>/Mod (which is empty).
+            string game = Dir("SteamLibrary", "steamapps", "common", "Taiwu");
+            Dir("SteamLibrary", "steamapps", "common", "Taiwu", "Mod"); // present but empty
+            string mod = Dir("SteamLibrary", "steamapps", "workshop", "content", "838350", "3757119125");
+            Dir("SteamLibrary", "steamapps", "workshop", "content", "838350", "3757119125",
+                "Localization", "Taiwu_Data", "StreamingAssets");
+
+            Assert.Equal(mod, OverlayDeployer.FindModRoot(assemblyLocation: null, game));
+        }
+
+        [Fact]
+        public void FindModRoot_ignores_a_foreign_workshop_mod_without_our_overlay()
+        {
+            string game = Dir("SteamLibrary", "steamapps", "common", "Taiwu");
+            // A different subscribed item that ships no localization overlay.
+            Dir("SteamLibrary", "steamapps", "workshop", "content", "838350", "9999999999", "Plugins");
+
+            Assert.Null(OverlayDeployer.FindModRoot(assemblyLocation: null, game));
         }
     }
 }
