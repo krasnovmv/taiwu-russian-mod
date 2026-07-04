@@ -1,5 +1,5 @@
 return {
-	Title = "TaiwuRus",
+	Title = "Свитки Тайву",
 	Author = "KrasnoVMV",
 	Version = "0.1.0.0",
 	GameVersion = "1.0.49.0",
@@ -26,13 +26,18 @@ return {
 		},
 	},
 	Source = 0,
-	FileId = 1,
+	FileId = 3757119125,
 	Visibility = 0,
-	UpdateLogList = { },
+	UpdateLogList = {
+		[1] = {
+			Timestamp = 1783121942,
+		},
+	},
 	ChangeConfig = false,
 	HasArchive = false,
-	WorkshopCover = nil,
 	SettingGroups = {
 		[1] = "Основные",
 	},
+	Cover = nil,
+	WorkshopCover = nil,
 }
