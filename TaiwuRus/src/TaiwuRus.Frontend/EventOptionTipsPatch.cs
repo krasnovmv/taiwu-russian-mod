@@ -48,9 +48,13 @@ namespace TaiwuRus.Frontend
             ResLoader.Load<TextAsset>(
                 BundleDir + "/EventOptionTips_EN",
                 asset => SetContents(__instance, asset.text),
-                _ => ResLoader.Load<TextAsset>(
-                    BundleDir + "/EventOptionTips_CN",
-                    asset => SetContents(__instance, asset.text)));
+                _ =>
+                {
+                    UnityEngine.Debug.LogWarning("[TaiwuRus] EventOptionTips_EN not found; falling back to CN");
+                    ResLoader.Load<TextAsset>(
+                        BundleDir + "/EventOptionTips_CN",
+                        asset => SetContents(__instance, asset.text));
+                });
             return false;
         }
 

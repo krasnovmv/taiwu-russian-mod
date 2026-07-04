@@ -23,6 +23,7 @@ namespace TaiwuRus.Frontend
     internal static class CommonTipPatch
     {
         private static readonly Dictionary<string, object> Cache = new Dictionary<string, object>();
+        private static readonly HashSet<string> Failed = new HashSet<string>();
         private static FieldInfo _pathField;
         private static Type _configType;
 
@@ -41,6 +42,8 @@ namespace TaiwuRus.Frontend
                 __result = cached;
                 return false;
             }
+            if (Failed.Contains(path))
+                return true; // known-broken RU file — engine loads EN; already logged once
 
             string file = ModAssets.Resolve("Language_RU", "CommonTip", path + ".json");
             if (!File.Exists(file))
@@ -58,8 +61,12 @@ namespace TaiwuRus.Frontend
                 __result = cfg;
                 return false;
             }
-            catch
+            catch (Exception e)
             {
+                // A broken RU json would otherwise silently fall back to EN and be undiagnosable.
+                // Log once per file, remember the failure so we don't re-read/re-parse every tooltip.
+                Failed.Add(path);
+                UnityEngine.Debug.LogWarning($"[TaiwuRus] CommonTip '{path}' RU json failed, using EN: {e.Message}");
                 return true;
             }
         }
