@@ -4,7 +4,6 @@ using Game.Views.CharacterMenu;
 using HarmonyLib;
 using TaiwuRus.Shared;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace TaiwuRus.Frontend
 {
@@ -18,9 +17,8 @@ namespace TaiwuRus.Frontend
     ///
     /// We replace the loader for RU only (other languages keep the stock method) and reproduce the
     /// original's four states exactly — normal (0), highlighted+selected (1), pressed (2),
-    /// disabled (3) — but route each through <see cref="LocalizedImage.LoadSprite"/>, the single
-    /// RU PNG → EN → CN policy. The interaction states are chained so the value-type
-    /// <see cref="SpriteState"/> is fully populated before it is copied into the button.
+    /// disabled (3) — via <see cref="LocalizedImage.ApplyButtonStates"/>, the shared
+    /// RU PNG → EN → CN policy.
     ///
     /// Patched at this concrete (non-generic) method on purpose: the shared loader
     /// <c>ResLoader.Load&lt;Sprite&gt;</c> is generic, and patching it leaks to every reference-type
@@ -29,7 +27,7 @@ namespace TaiwuRus.Frontend
     [HarmonyPatch(typeof(ViewCharacterMenuInfo), "LoadInteractiveButtonSprite")]
     internal static class InscribeButtonSpritePatch
     {
-        private static readonly Action<string, Action<Sprite>> ResLoad =
+        private static readonly Action<string, Action<Sprite?>> ResLoad =
             (p, cb) => ResLoader.Load<Sprite>(p, cb);
 
         private static bool Prefix(CButton btn, string path)
@@ -37,35 +35,8 @@ namespace TaiwuRus.Frontend
             if (!RuLocale.IsRu || btn == null || string.IsNullOrEmpty(path))
                 return true; // not RU (or nothing to load) → run the stock method
 
-            CImage btnImg = btn.GetComponent<CImage>();
-            SpriteState spriteState = new SpriteState();
-
-            void LoadState(int state, Action<Sprite> onLoaded) =>
-                LocalizedImage.LoadSprite(
-                    string.Format(System.Globalization.CultureInfo.InvariantCulture, path, "ru", state),
-                    ResLoad, onLoaded);
-
-            LoadState(0, s =>
-            {
-                if (btnImg != null)
-                    btnImg.sprite = s;
-            });
-
-            LoadState(1, s1 =>
-            {
-                spriteState.highlightedSprite = s1;
-                spriteState.selectedSprite = s1;
-                LoadState(2, s2 =>
-                {
-                    spriteState.pressedSprite = s2;
-                    LoadState(3, s3 =>
-                    {
-                        spriteState.disabledSprite = s3;
-                        btn.spriteState = spriteState;
-                    });
-                });
-            });
-
+            LocalizedImage.ApplyButtonStates(btn, path, ResLoad,
+                normal: 0, highlighted: 1, pressed: 2, disabled: 3);
             return false; // skip the stock method
         }
     }

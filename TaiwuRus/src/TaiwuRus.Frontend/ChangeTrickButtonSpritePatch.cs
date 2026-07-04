@@ -29,7 +29,7 @@ namespace TaiwuRus.Frontend
     [HarmonyPatch(typeof(ViewCombat), "UpdateChangeTrickButtonSprite")]
     internal static class ChangeTrickButtonSpritePatch
     {
-        private static readonly Action<string, Action<Sprite>> ModLoad =
+        private static readonly Action<string, Action<Sprite?>> ModLoad =
             (p, cb) => ResLoader.LoadModOrGameResource<Sprite>(p, cb);
 
         private static bool Prefix(CButton button, string type)

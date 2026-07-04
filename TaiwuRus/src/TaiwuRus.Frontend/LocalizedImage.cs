@@ -6,6 +6,7 @@ using System.Text.RegularExpressions;
 using FrameWork.UISystem.UIElements;
 using TaiwuRus.Shared;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace TaiwuRus.Frontend
 {
@@ -166,7 +167,7 @@ namespace TaiwuRus.Frontend
         /// <paramref name="load"/> is the concrete loader to use (<c>ResLoader.Load</c> or
         /// <c>LoadModOrGameResource</c>), so callers keep their own path/loader conventions while the
         /// fallback order stays identical.</summary>
-        public static void LoadSprite(string ruPath, Action<string, Action<Sprite>> load, Action<Sprite> onLoaded)
+        public static void LoadSprite(string ruPath, Action<string, Action<Sprite?>> load, Action<Sprite?> onLoaded)
         {
             Sprite? ru = RuSprite(Path.GetFileName(ruPath));
             if (ru != null)
@@ -182,6 +183,44 @@ namespace TaiwuRus.Frontend
                     return;
                 }
                 load(ToCn(ruPath), onLoaded);
+            });
+        }
+
+        /// <summary>
+        /// Button entry point: load a button's four interaction-state sprites from a
+        /// <c>{0}</c>=language, <c>{1}</c>=state pattern, each through the RU PNG → EN → CN policy.
+        /// State indices differ per call site (see the two button patches), so they are parameters.
+        /// The interaction states are chained so the value-type <see cref="SpriteState"/> is fully
+        /// populated before it is copied into the button.
+        /// </summary>
+        public static void ApplyButtonStates(CButton btn, string pattern, Action<string, Action<Sprite?>> load,
+            int normal, int highlighted, int pressed, int disabled)
+        {
+            CImage btnImg = btn.GetComponent<CImage>();
+            SpriteState spriteState = new SpriteState();
+
+            void LoadState(int state, Action<Sprite?> onLoaded) =>
+                LoadSprite(string.Format(CultureInfo.InvariantCulture, pattern, "ru", state), load, onLoaded);
+
+            LoadState(normal, s =>
+            {
+                if (btnImg != null)
+                    btnImg.sprite = s;
+            });
+
+            LoadState(highlighted, s1 =>
+            {
+                spriteState.highlightedSprite = s1;
+                spriteState.selectedSprite = s1;
+                LoadState(pressed, s2 =>
+                {
+                    spriteState.pressedSprite = s2;
+                    LoadState(disabled, s3 =>
+                    {
+                        spriteState.disabledSprite = s3;
+                        btn.spriteState = spriteState;
+                    });
+                });
             });
         }
 
