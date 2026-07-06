@@ -57613,13 +57613,13 @@
       "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "LK_Identity_OrgGrade": {
-      "en": "{0} {1}",
+      "en": "{0}{1}",
       "cn": "{0}{1}",
-      "ru": "{0} {1}",
+      "ru": "{0}{1}",
       "status": "machine",
-      "srcHash": "344e2972a87b82e2",
-      "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "srcHash": "2b3cfff391bff0fa",
+      "engine": "neutral",
+      "updatedAt": "2026-07-06T21:08:11.550Z"
     },
     "LK_Ignore": {
       "en": "...",
@@ -92363,7 +92363,7 @@
     },
     "LK_Shop_SellAll": {
       "en": "Sell All",
-      "cn": "全部卖出",
+      "cn": "全部待售",
       "ru": "Продай все",
       "status": "machine",
       "srcHash": "9c10626d884606a6",
@@ -117678,6 +117678,15 @@
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z"
     },
+    "LK_MouseTip_DurablilityCost": {
+      "en": "{0}/{1}",
+      "cn": null,
+      "ru": "{0}/{1}",
+      "status": "machine",
+      "srcHash": "6977891c5dfa0537",
+      "engine": "yandex",
+      "updatedAt": "2026-07-06T21:08:11.550Z"
+    },
     "LK_MouseTip_MapArea_0_2x": {
       "en": "此地区有<color=#pinkyellow>{0}</color>名奇书堕魔者",
       "cn": null,
@@ -117687,6 +117696,42 @@
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z"
     },
+    "LK_MouseTip_Status_0": {
+      "en": "满",
+      "cn": null,
+      "ru": "весь",
+      "status": "machine",
+      "srcHash": "8d6ad5363796c383",
+      "engine": "yandex",
+      "updatedAt": "2026-07-06T21:08:11.550Z"
+    },
+    "LK_MouseTip_Status_1": {
+      "en": "溢",
+      "cn": null,
+      "ru": "разливаться",
+      "status": "machine",
+      "srcHash": "3f69a800832fcef1",
+      "engine": "yandex",
+      "updatedAt": "2026-07-06T21:08:11.550Z"
+    },
+    "LK_MouseTip_Status_2": {
+      "en": "疲",
+      "cn": null,
+      "ru": "уставать",
+      "status": "machine",
+      "srcHash": "8626954b821fe678",
+      "engine": "yandex",
+      "updatedAt": "2026-07-06T21:08:11.550Z"
+    },
+    "LK_MouseTip_Status_3": {
+      "en": "疲",
+      "cn": null,
+      "ru": "уставать",
+      "status": "machine",
+      "srcHash": "8626954b821fe678",
+      "engine": "yandex",
+      "updatedAt": "2026-07-06T21:08:11.550Z"
+    },
     "LK_NewGame_Born_StateName": {
       "en": "{0}·{1}",
       "cn": null,
@@ -117695,6 +117740,15 @@
       "srcHash": "cb5c58437bdb5a1b",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z"
+    },
+    "LK_SystemSetting_AutoDebate": {
+      "en": "自动较艺",
+      "cn": null,
+      "ru": "Искусство автоматического сравнения",
+      "status": "machine",
+      "srcHash": "38d8840bb1d47330",
+      "engine": "yandex",
+      "updatedAt": "2026-07-06T21:08:11.550Z"
     }
   }
 }
