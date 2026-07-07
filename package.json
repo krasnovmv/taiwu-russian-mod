@@ -21,6 +21,7 @@
     "restore": "node --env-file-if-exists=.env --import tsx src/cli/backup.ts --restore",
     "sync": "node --env-file-if-exists=.env --import tsx src/cli/sync.ts",
     "glossary:candidates": "node --env-file-if-exists=.env --import tsx src/cli/glossary-candidates.ts",
+    "glossary:pull": "node --env-file-if-exists=.env --import tsx src/cli/glossary-pull.ts",
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
