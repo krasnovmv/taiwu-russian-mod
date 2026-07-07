@@ -1,6 +1,7 @@
 {
-  "_comment": "Canonical Taiwu terms (EN->RU) handed to the engine to enforce, grouped by meaning. Matched case-insensitively as whole words; only terms in a unit are sent. Yandex applies them via its native glossary with exact:false (it DECLINES each term to fit Russian grammar); LM Studio gets them in the prompt with the same instruction. Give the dictionary (nominative) RU form (e.g. Sect->секта); the engine inflects it. Bump GLOSSARY_VERSION in src/config/glossary.ts after changing any value. Keys starting with '_' are ignored. A value may be a bare RU string, or an object {ru, feed}: 'feed' is an engine-facing surrogate used when the raw term breaks the MT engine (e.g. the period in 'Phy.' is read by Yandex as a sentence boundary, splitting the term); the dot-free surrogate ('Physical Penetration') is fed to Yandex in both the text and the glossary pair so matching and declension work, then the RU value comes back declined. (Chinese source terms were dropped from this file; see git history for the {ru,cn} form.)",
+  "_comment": "Canonical Taiwu terms (EN->RU) handed to the engine to enforce, grouped by meaning. Matched case-insensitively as whole words; only terms in a unit are sent. Yandex applies them via its native glossary with exact:false (it DECLINES each term to fit Russian grammar); LM Studio gets them in the prompt with the same instruction. Give the dictionary (nominative) RU form (e.g. Sect->секта); the engine inflects it. Bump GLOSSARY_VERSION in src/config/glossary.ts after changing any value. Keys starting with '_' are ignored; '_section_*' keys are human-readable group headers (surfaced as divider rows in the CSV export). A value may be a bare RU string, or an object {ru, feed}: 'feed' is an engine-facing surrogate used when the raw term breaks the MT engine (e.g. the period in 'Phy.' is read by Yandex as a sentence boundary, splitting the term); the dot-free surrogate ('Physical Penetration') is fed to Yandex in both the text and the glossary pair so matching and declension work, then the RU value comes back declined. (Chinese source terms were dropped from this file; see git history for the {ru,cn} form.)",
 
+  "_section_01_cultivation": "Ци и совершенствование",
   "Qi": "Ци",
   "True Qi": "Истинная ци",
   "Demonic Qi": "Демоническая ци",
@@ -24,6 +25,7 @@
   "Buddha": "Будда",
   "Martial World": "Мир боевых искусств",
 
+  "_section_02_martial_arts": "Боевые искусства",
   "Martial Arts": "Боевые искусства",
   "Martial Art": "Боевая техника",
   "Qi Arts": "Внутренние искусства",
@@ -48,6 +50,7 @@
   "Stab": "Колющий",
   "Upswing": "Восходящий",
 
+  "_section_03_combat_stats": "Боевые характеристики",
   "Attack": "Атака",
   "Force": "Мощь",
   "Precision": "Точность",
@@ -73,6 +76,7 @@
   "Qi Burst": "Прорыв ци",
   "Qi Art Efficacy": "Эффективность внутренних искусств",
 
+  "_section_04_attributes": "Атрибуты персонажа",
   "Strength": "Сила",
   "Constitution": "Телосложение",
   "Agility": "Проворство",
@@ -92,6 +96,7 @@
   "Aspiration": "Устремление",
   "Fertility": "Плодовитость",
 
+  "_section_05_progression": "Развитие и общество",
   "Breakthrough": "Прорыв",
   "Legacy Points": "Очки наследия",
   "Tier": "Ранг",
@@ -107,11 +112,13 @@
   "Medical Care": "Лечение",
   "Attributes": "Характеристики",
 
+  "_section_06_factions": "Организации",
   "Faction": "Фракция",
   "Sect": "Секта",
   "Sectless": "Без секты",
   "Guild": "Гильдия",
 
+  "_section_07_injuries": "Травмы и яды",
   "Injury": "Травма",
   "Internal Injury": "Внутренняя травма",
   "External Injury": "Внешняя травма",
@@ -128,6 +135,7 @@
   "Corruptive Gu": "Гу чёрной крови",
   "Pill": "Пилюля",
 
+  "_section_08_items": "Предметы и снаряжение",
   "Weapon": "Оружие",
   "Sword": "Меч",
   "Blade": "Клинок",
@@ -149,6 +157,7 @@
   "Resources": "Ресурсы",
   "Durability": "Прочность",
 
+  "_section_09_roles": "Профессии и роли",
   "Carpentry": "Столярное дело",
   "Weaving": "Ткачество",
   "Merchant": "Торговец",
@@ -164,6 +173,7 @@
   "Beggar": "Нищий",
   "Captive": "Пленник",
 
+  "_section_10_taiwu_lore": "Мир Тайву",
   "Taiwu": "Тайву",
   "Taiwupedia": "Тайвупедия",
   "Taiwu Village": "Деревня Тайву",
@@ -174,6 +184,7 @@
   "Sword Mound": "Курган мечей",
   "Fuyu Hilt": "Рукоять Фую",
 
+  "_section_11_sects": "Секты и школы",
   "Shaolin": "Шаолинь",
   "Emei": "Эмэй",
   "Wudang": "Удан",
@@ -191,6 +202,7 @@
   "Veil Scar Sect": "Секта завесы",
   "Lion Face Clan": "Секта львиного лика",
 
+  "_section_12_cities": "Города",
   "Guangzhou": "Гуанчжоу",
   "Yangzhou": "Янчжоу",
   "Hangzhou": "Ханчжоу",
@@ -205,6 +217,7 @@
   "Bianjing": "Бяньцзин",
   "Dali": "Дали",
 
+  "_section_13_regions": "Регионы",
   "Bashu": "Башу",
   "Jiangnan": "Цзяннань",
   "Shandong": "Шаньдун",
@@ -216,6 +229,7 @@
   "Fujian": "Фуцзянь",
   "Western Regions": "Западный край",
 
+  "_section_14_creatures": "Мифические существа",
   "Loong": "Лун",
   "Divine Loong": "Божественный лун",
   "Jiao": "Цзяо",
@@ -224,6 +238,7 @@
   "Spirit": "Дух",
   "Vajra": "Ваджра",
 
+  "_section_15_calendar": "Месяцы",
   "Month of Tiger": "Месяц тигра",
   "Month of Rabbit": "Месяц кролика",
   "Month of Loong": "Месяц дракона",
