@@ -7,6 +7,7 @@
  */
 import { readFile } from "node:fs/promises";
 
+import { applySourceFixes } from "../config/source-fixes.js";
 import { resolveSource } from "../config/sources.js";
 import type { SourceUnit } from "../formats/adapter.js";
 import { adapterFor } from "../formats/registry.js";
@@ -62,7 +63,10 @@ async function alignFileUncached(file: string): Promise<AlignedFile> {
   const enContent = await readFile(en, "utf8");
   const cnContent = await readIfExists(cn);
 
-  const { units, onlyCn, warnings } = adapter.extract(enContent, cnContent);
+  const { units: extracted, onlyCn, warnings } = adapter.extract(enContent, cnContent);
+  // Repair known source-text markup defects before anything hashes, masks or
+  // validates the units (see config/source-fixes.ts).
+  const units = applySourceFixes(file, extracted, warnings);
   // EN-only = translatable from EN with no CN reference. CN-only units (srcLang
   // "zh") also have `cn === null` but are the opposite case, so exclude them.
   const onlyEn = units.filter((u) => u.cn === null && u.srcLang !== "zh").map((u) => u.key);
