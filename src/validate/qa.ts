@@ -14,7 +14,9 @@
  *   - empty output:   non-empty EN must not translate to empty RU
  *   - untranslated:   RU equal to EN for text that contained letters (informational
  *                     while translation is incomplete — the CLI never fails on it)
- *   - length anomaly: RU wildly shorter/longer than EN (heuristic)
+ *   - length anomaly: RU wildly shorter/longer than EN (heuristic; skipped when
+ *                     the EN field is actually Chinese — CJK density makes the
+ *                     ratio meaningless)
  */
 import type { SourceUnit } from "../formats/adapter.js";
 import { extractMarkup, markupPreserved } from "../engine/protect.js";
@@ -42,6 +44,13 @@ const LENGTH_MIN_CHARS = 12; // ignore ratio checks on very short strings
 
 function hasLetters(s: string): boolean {
   return /\p{L}/u.test(s);
+}
+
+// Some units ship untranslated Chinese in the `en` field (upstream never made an
+// EN version). That's legitimate source text, but CJK is far denser than Russian
+// (one hanzi ≈ a whole RU word), so the EN↔RU length ratio is meaningless there.
+function hasCjk(s: string): boolean {
+  return /\p{Script=Han}/u.test(s);
 }
 
 // The game text embeds literal backslash escapes that must survive verbatim:
@@ -108,7 +117,7 @@ export function validateTm(tm: TmFile): QaIssue[] {
 
     if (hasLetters(en) && en === ru) push(key, "untranslated", "RU identical to EN");
 
-    if (en.length >= LENGTH_MIN_CHARS && ru.length > 0) {
+    if (en.length >= LENGTH_MIN_CHARS && ru.length > 0 && !hasCjk(en)) {
       const ratio = ru.length / en.length;
       if (ratio < LENGTH_MIN_RATIO || ratio > LENGTH_MAX_RATIO) {
         push(key, "length-anomaly", `ratio ${ratio.toFixed(2)} (en=${en.length}, ru=${ru.length})`);

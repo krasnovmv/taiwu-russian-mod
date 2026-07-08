@@ -85,6 +85,13 @@ test("detects length anomaly", () => {
   assert.deepEqual(kinds(tm({ A: u("A reasonably long sentence here", "X") })), ["length-anomaly"]);
 });
 
+test("skips length anomaly when EN field is Chinese", () => {
+  // Untranslated Chinese in the en field: dense hanzi vs a full RU sentence
+  // would trip the ratio if we compared lengths.
+  const ru = "Достигнув вершины горы, увидишь, как малы все горы вокруг.";
+  assert.deepEqual(kinds(tm({ A: u("会当凌绝顶，一览众山小。", ru) })), []);
+});
+
 test("pending units (ru=null) are ignored", () => {
   assert.deepEqual(validateTm(tm({ A: u("Hello world", null) })), []);
 });
