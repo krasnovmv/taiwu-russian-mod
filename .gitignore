@@ -30,6 +30,9 @@ yarn-error.log*
 /data/glossary-candidates-indeclinable.tsv
 /data/glossary-skeleton.json
 
+# Throwaway CSV export/seed for the shared sheet (regenerate: npm run glossary:pull -- --export)
+/data/glossary.csv
+
 /.idea
 /output
 
