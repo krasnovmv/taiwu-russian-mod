@@ -23,7 +23,35 @@ test("JSONC source with // comments parses (JSON5), no guard failure", () => {
   const out = jsonTipAdapter.apply(jsonc, new Map([["title", "Очарование"]]));
   assert.equal(out.guardOk, true);
   assert.equal(out.applied, 1);
-  assert.match(out.content, /"title": "Очарование"/); // re-serialized as plain JSON
+  // Surgical apply: only the translated string token changes, the comment stays.
+  assert.equal(out.content, jsonc.replace('"Charm"', '"Очарование"'));
+});
+
+// Mirrors CommonTip/Cricket/CricketSkillReplace.json: `///` comment lines
+// between one-line atom objects. Neither survives a JSON.stringify round-trip,
+// so apply must be text-surgical.
+const CRICKET =
+  '{\n  "title": "Cricket Skills",\n  "paragraphs": [\n    {\n      "type": "Default",\n' +
+  '      "atoms": [\n        /// 令 SkillName 为 王血\n' +
+  '        { "type": "SubTitle", "marginLeft": 0, "content": "{SkillName}" },\n' +
+  '        { "type": "SubTitle2", "marginLeft": 0, "content": "发动时机" }\n' +
+  "      ]\n    }\n  ]\n}";
+
+test("JSONC with /// comments and one-line atoms: identity apply is byte-exact", () => {
+  const { units } = jsonTipAdapter.extract(CRICKET, null);
+  const out = jsonTipAdapter.apply(CRICKET, new Map(units.map((u) => [u.key, u.en])));
+  assert.equal(out.guardOk, true, out.guardError ?? "guard failed");
+  assert.equal(out.content, CRICKET);
+});
+
+test("JSONC with /// comments: translation keeps comments and formatting", () => {
+  const out = jsonTipAdapter.apply(
+    CRICKET,
+    new Map([["paragraphs/0/atoms/1/content", "Момент активации"]]),
+  );
+  assert.equal(out.guardOk, true, out.guardError ?? "guard failed");
+  assert.equal(out.applied, 1);
+  assert.equal(out.content, CRICKET.replace('"发动时机"', '"Момент активации"'));
 });
 
 test("CN reference joined by path", () => {
