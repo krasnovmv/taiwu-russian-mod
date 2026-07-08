@@ -11,11 +11,10 @@
  * upstream), the fix is reported via the aligned file's `warnings` so the stale
  * entry can be deleted.
  *
- * Deliberately NOT fixed here: the three Shixiang `Option_1` units whose EN is
- * truncated mid-tag (`(Cure <Character key=CharacterId str=GenderObject/...)`)
- * — repairing the tag would force it into the RU (markup parity), where the
- * game would render an English pronoun. Their RU is the tagless "(Вылечить...)"
- * served from a hand-edited cache entry instead.
+ * Gender tags (`str=GenderObject/` etc.) resolve to the localized
+ * `LK_Common_Him`/`LK_Common_Her` strings from `ui_language`, so a repaired tag
+ * renders a Russian pronoun in game — provided those units are translated in
+ * the right grammatical case (see the reviewed `LK_Common_*Him` units).
  */
 import type { SourceUnit } from "../formats/adapter.js";
 
@@ -67,6 +66,23 @@ export const SOURCE_FIXES: ReadonlyMap<string, readonly SourceFix[]> = new Map([
         to: "<CharacterOrActor key=CharId str=Name/>",
       },
     ],
+  ],
+  [
+    "Event_Languages/Taiwu_EventPackage_SectMainStoryShixiang_Language_EN.txt",
+    // Three options truncated mid-tag: `<Character key=CharacterId
+    // str=GenderObject/...)` — the closing `>` is missing, so the whole "tag"
+    // was plain text to the parser (and the machine RU collapsed to a stub).
+    // CN has no tag here (其 is plain text), so only EN needs the repair.
+    [
+      "129ede5d-1a19-4a8c-b2e6-7f749cdf82d5",
+      "29e9fb23-5f1a-406e-918e-89ba0f5382f1",
+      "023d6836-1e9e-4175-9999-775329806013",
+    ].map((id) => ({
+      key: `${id}/Option_1`,
+      lang: "en" as const,
+      from: "str=GenderObject/...",
+      to: "str=GenderObject/>...",
+    })),
   ],
   [
     "Event_Languages/Taiwu_EventPackage_LoongDLC_Language_EN.txt",

@@ -44,3 +44,19 @@ test("alignFile repairs the fused <NL> tag in the LoongDLC unit", async () => {
   assert.ok(unit.en.includes("<NL>Those who pass through"), "fused tag split");
   assert.ok(!unit.en.includes("<NLThose"), "defect gone");
 });
+
+test("alignFile repairs the truncated GenderObject tags in the Shixiang options", async () => {
+  const file = "Event_Languages/Taiwu_EventPackage_SectMainStoryShixiang_Language_EN.txt";
+  const aligned = await alignFile(file);
+  for (const id of [
+    "129ede5d-1a19-4a8c-b2e6-7f749cdf82d5",
+    "29e9fb23-5f1a-406e-918e-89ba0f5382f1",
+    "023d6836-1e9e-4175-9999-775329806013",
+  ]) {
+    const unit = aligned.units.find((u) => u.key === `${id}/Option_1`);
+    assert.ok(unit, `${id}/Option_1 present`);
+    assert.equal(unit.en, "(Cure <Character key=CharacterId str=GenderObject/>...)");
+  }
+  const stale = aligned.warnings.filter((w) => w.includes("source fix"));
+  assert.deepEqual(stale, []);
+});
