@@ -16016,7 +16016,7 @@
     },
     "LK_AttainmentItems_Lock_Skill": {
       "en": "Requires breaking through Tier {0} Martial Arts to unlock this slot.",
-      "cn": "需要突破{0}品功法开启栏位",
+      "cn": "需要研读{0}品功法开启栏位",
       "ru": "Требуется прорваться через Ранг {0} Боевая техника для разблокировки этого слота.",
       "status": "machine",
       "srcHash": "16358e1f66d052f6",
@@ -89888,7 +89888,7 @@
     },
     "LK_SectMainStory_JieQing_MurderMap": {
       "en": "Star Fortune Malevolence",
-      "cn": "星运煞缘",
+      "cn": "星运煞源",
       "ru": "Недоброжелательность Звездной Фортуны",
       "status": "machine",
       "srcHash": "2df2d82bc0c7ff60",
@@ -117426,6 +117426,96 @@
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z"
     },
+    "LK_CharacterMenuEquip_QuickFix": {
+      "en": "进入装备修复模式",
+      "cn": null,
+      "ru": "Войдите в режим ремонта оборудования",
+      "status": "machine",
+      "srcHash": "fc85fe27e65e9d84",
+      "engine": "yandex",
+      "updatedAt": "2026-07-08T21:55:51.973Z"
+    },
+    "LK_CharacterMenuEquip_QuickFixAllPage": {
+      "en": "修复全部装备",
+      "cn": null,
+      "ru": "Отремонтируйте все оборудование",
+      "status": "machine",
+      "srcHash": "c2e554c0fbf0c21a",
+      "engine": "yandex",
+      "updatedAt": "2026-07-08T21:55:51.973Z"
+    },
+    "LK_CharacterMenuEquip_QuickFixAllPage_Btn": {
+      "en": "全部修复",
+      "cn": null,
+      "ru": "Все отремонтировано",
+      "status": "machine",
+      "srcHash": "3ce63c706ca0a06e",
+      "engine": "yandex",
+      "updatedAt": "2026-07-08T21:55:51.973Z"
+    },
+    "LK_CharacterMenuEquip_QuickFixAllPage_Disable": {
+      "en": "<color=#brightred>全部装备均无法修复</color>",
+      "cn": null,
+      "ru": "<color=#brightred>Все оборудование не подлежит ремонту</color>",
+      "status": "machine",
+      "srcHash": "4ffd0ccbc6dc1ea9",
+      "engine": "yandex",
+      "updatedAt": "2026-07-08T21:55:51.973Z"
+    },
+    "LK_CharacterMenuEquip_QuickFixCurrPage": {
+      "en": "修复当前页面装备",
+      "cn": null,
+      "ru": "Исправьте текущее оборудование страницы",
+      "status": "machine",
+      "srcHash": "e5628ff99eb3a615",
+      "engine": "yandex",
+      "updatedAt": "2026-07-08T21:55:51.973Z"
+    },
+    "LK_CharacterMenuEquip_QuickFixCurrPage_Btn": {
+      "en": "快速修复",
+      "cn": null,
+      "ru": "Быстрое решение",
+      "status": "machine",
+      "srcHash": "4cea0252c1713144",
+      "engine": "yandex",
+      "updatedAt": "2026-07-08T21:55:51.973Z"
+    },
+    "LK_CharacterMenuEquip_QuickFixCurrPage_Disable": {
+      "en": "<color=#brightred>当前页面物品均无法修复</color>",
+      "cn": null,
+      "ru": "<color=#brightred>Элементы на текущей странице восстановлению не подлежат</color>",
+      "status": "machine",
+      "srcHash": "472013a4f864959a",
+      "engine": "yandex",
+      "updatedAt": "2026-07-08T21:55:51.973Z"
+    },
+    "LK_CharacterMenuEquip_QuickFix_Btn": {
+      "en": "修理装备",
+      "cn": null,
+      "ru": "Ремонтное оборудование",
+      "status": "machine",
+      "srcHash": "0903d0e3e7df6ea8",
+      "engine": "yandex",
+      "updatedAt": "2026-07-08T21:55:51.973Z"
+    },
+    "LK_CharacterMenuEquip_QuickFix_Btn_Quit": {
+      "en": "退出修理",
+      "cn": null,
+      "ru": "Выход из ремонта",
+      "status": "machine",
+      "srcHash": "7d90650112c296f2",
+      "engine": "yandex",
+      "updatedAt": "2026-07-08T21:55:51.973Z"
+    },
+    "LK_CharacterMenuEquip_QuickFix_Disable": {
+      "en": "<color=#brightred>无可修复物品</color>",
+      "cn": null,
+      "ru": "<color=#brightred>Неисправимые предметы</color>",
+      "status": "machine",
+      "srcHash": "018c8331b2b02636",
+      "engine": "yandex",
+      "updatedAt": "2026-07-08T21:55:51.973Z"
+    },
     "LK_CombatResult_Legacy_Effect_Title": {
       "en": "获得遗惠",
       "cn": null,
@@ -117749,6 +117839,15 @@
       "srcHash": "38d8840bb1d47330",
       "engine": "yandex",
       "updatedAt": "2026-07-06T21:08:11.550Z"
+    },
+    "LK_VillagerRole_Rename_Desc": {
+      "en": "当前名称：{0}",
+      "cn": null,
+      "ru": "Текущее имя：{0}",
+      "status": "machine",
+      "srcHash": "fa90c44dab043e5b",
+      "engine": "yandex",
+      "updatedAt": "2026-07-08T21:55:51.973Z"
     }
   }
 }
