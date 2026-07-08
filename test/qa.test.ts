@@ -77,6 +77,25 @@ test("detects empty output and newline hazard", () => {
   assert.ok(issues.includes("newline-hazard"));
 });
 
+test("real newlines matching the EN count are not a hazard", () => {
+  assert.deepEqual(validateTm(tm({ A: u("Hello\nworld", "Привет\nмир") })), []);
+});
+
+test("flags a real newline dropped by the translation", () => {
+  assert.deepEqual(kinds(tm({ A: u("Hello\nworld", "Привет мир") })), ["newline-hazard"]);
+});
+
+test("detects a changed \\t / \\\" escape count", () => {
+  assert.deepEqual(kinds(tm({ A: u("Col A\\tCol B", "Столбец А Столбец Б") })), [
+    "escape-mismatch",
+  ]);
+  assert.deepEqual(kinds(tm({ A: u('Say \\"hi\\" now', "Скажи привет") })), ["escape-mismatch"]);
+});
+
+test("matching \\t and \\\" escape counts produce no issue", () => {
+  assert.deepEqual(validateTm(tm({ A: u('A\\tB \\"quote\\"', 'А\\tБ \\"цитата\\"') })), []);
+});
+
 test("detects untranslated (RU equals EN)", () => {
   assert.deepEqual(kinds(tm({ A: u("Iron Ring", "Iron Ring") })), ["untranslated"]);
 });

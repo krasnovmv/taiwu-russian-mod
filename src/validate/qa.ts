@@ -7,10 +7,11 @@
  *   - escape mangle: the translation must not break a backslash escape that was
  *                    intact in EN — the engine drops the char after a backslash
  *                    (\n -> "\Хаос", > -> "\u003 "). Flagged when RU has more
- *                    mangled escapes than EN, or a changed \n line-break count;
- *                    escapes already broken in the EN source are not the
- *                    translation's fault and are not flagged.
- *   - newline hazard: RU must not contain a real newline (would break alternation)
+ *                    mangled escapes than EN, or a changed count of any escape
+ *                    token (\n, \t, \", \\); escapes already broken in the EN
+ *                    source are not the translation's fault and are not flagged.
+ *   - newline hazard: RU must contain exactly as many real newlines as EN
+ *                     (extra/missing ones would break alternation)
  *   - empty output:   non-empty EN must not translate to empty RU
  *   - untranslated:   RU equal to EN for text that contained letters (informational
  *                     while translation is incomplete — the CLI never fails on it)
@@ -64,7 +65,7 @@ function hasCjk(s: string): boolean {
 // Any backslash that is not one of these well-formed forms is mangled.
 //
 // We flag a unit only when the TRANSLATION introduced the breakage: more mangled
-// backslashes in RU than EN, or a changed `\n` count. The game's own EN source
+// backslashes in RU than EN, or a changed escape-token count. The game's own EN source
 // occasionally ships a pre-broken escape (e.g. "time? \I was" — a dropped `\n`);
 // a translation that faithfully mirrors it is not at fault, so comparing against
 // EN keeps those upstream-data issues out of the report.
@@ -77,9 +78,25 @@ function countMangled(s: string): number {
   return (s.match(MANGLED_ESCAPE_RE) ?? []).length;
 }
 
-/** Count literal `\n` line-break markers (well-formed escapes only). */
-function newlineMarkers(s: string): number {
-  return (s.match(VALID_ESCAPE_RE) ?? []).filter((e) => e === "\\n").length;
+// Escape tokens whose count must survive translation verbatim. `\uXXXX` is
+// deliberately absent: those encode ordinary characters (often punctuation,
+// e.g. `,` = comma) that a translation may legitimately drop or add;
+// corruption of a `\u` sequence is still caught by the mangled check.
+const COUNTED_ESCAPES = ["\\n", "\\t", '\\"', "\\\\"] as const;
+
+/** Count each well-formed escape token that must be preserved verbatim. */
+function escapeCounts(s: string): Map<string, number> {
+  const counts = new Map<string, number>(COUNTED_ESCAPES.map((t) => [t, 0]));
+  for (const m of s.match(VALID_ESCAPE_RE) ?? []) {
+    const n = counts.get(m);
+    if (n !== undefined) counts.set(m, n + 1);
+  }
+  return counts;
+}
+
+/** Count real (unescaped) newline characters. */
+function realNewlines(s: string): number {
+  return (s.match(/[\r\n]/g) ?? []).length;
 }
 
 export function validateTm(tm: TmFile): QaIssue[] {
@@ -100,18 +117,28 @@ export function validateTm(tm: TmFile): QaIssue[] {
 
     const enMangled = countMangled(en);
     const ruMangled = countMangled(ru);
-    const enNl = newlineMarkers(en);
-    const ruNl = newlineMarkers(ru);
     if (ruMangled > enMangled) {
       const mangled = ru.match(MANGLED_ESCAPE_RE) ?? [];
       push(key, "escape-mismatch", `mangled escape(s): ${mangled.map((m) => JSON.stringify(m)).join(" ")}`);
-    } else if (enNl !== ruNl) {
-      // No new stray backslash, but the engine still lost (or invented) a `\n`
-      // line-break marker — e.g. it deleted the whole token cleanly.
-      push(key, "escape-mismatch", `\\n count: EN=${enNl} RU=${ruNl}`);
+    } else {
+      // No new stray backslash, but the engine may still have lost (or
+      // invented) a whole escape token cleanly — e.g. deleted a `\n` marker.
+      const enEsc = escapeCounts(en);
+      const ruEsc = escapeCounts(ru);
+      const diffs = COUNTED_ESCAPES.filter((t) => enEsc.get(t) !== ruEsc.get(t));
+      if (diffs.length > 0) {
+        const detail = diffs.map((t) => `${t} count: EN=${enEsc.get(t)} RU=${ruEsc.get(t)}`).join(", ");
+        push(key, "escape-mismatch", detail);
+      }
     }
 
-    if (/[\r\n]/.test(ru)) push(key, "newline-hazard", "RU contains a real newline");
+    // Real newlines are fine only where the EN source already has them — a
+    // translation that adds or drops one breaks the file's line structure.
+    const enRealNl = realNewlines(en);
+    const ruRealNl = realNewlines(ru);
+    if (ruRealNl !== enRealNl) {
+      push(key, "newline-hazard", `real newlines: EN=${enRealNl} RU=${ruRealNl}`);
+    }
 
     if (en.trim() !== "" && ru.trim() === "") push(key, "empty-output", "EN non-empty, RU empty");
 
