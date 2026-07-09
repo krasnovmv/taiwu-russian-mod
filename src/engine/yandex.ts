@@ -168,12 +168,16 @@ export function glossaryPairsForTexts(
   feeds?: ReadonlyMap<string, string>,
 ): YandexGlossaryPair[] {
   if (glossary.size === 0) return [];
-  // Keyed by EN term (dedup); the pair's SOURCE is the surrogate when one exists,
-  // matching what `applyGlossaryFeeds` writes into the request text.
+  // Keyed by the pair's SOURCE — the surrogate when one exists, matching what
+  // `applyGlossaryFeeds` writes into the request text. Keying by source (not the
+  // EN term) also collapses a feed colliding with another term's literal EN
+  // (e.g. `Res.` feeding `Resistance` alongside the `Resistance` term itself):
+  // Yandex must not receive two pairs with the same sourceText.
   const union = new Map<string, { sourceText: string; translatedText: string }>();
   for (const text of texts) {
     for (const { en, ru, feed } of matchGlossary(text, glossary, feeds)) {
-      union.set(en, { sourceText: feed ?? en, translatedText: ru });
+      const sourceText = feed ?? en;
+      union.set(sourceText.toLowerCase(), { sourceText, translatedText: ru });
     }
   }
   return [...union.values()]

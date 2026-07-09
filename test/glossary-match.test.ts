@@ -70,6 +70,36 @@ test("feed folds into the signature so it invalidates the cache", () => {
   assert.ok(withFeed.includes("Physical Penetration"));
 });
 
+const TERMINAL_DOT = new Map([
+  ["res.", "Сопр."],
+  ["lv.", "Ур."],
+]);
+const TERMINAL_DOT_FEEDS = new Map([
+  ["res.", "Resistance"],
+  ["lv.", "Level"],
+]);
+
+test("a term ending in a period matches whatever follows the dot", () => {
+  // after a period `\b` exists only before a word char, so these all need the
+  // trailing anchor dropped: punctuation, markup, digits, or end of string
+  for (const text of ["Acritoxin Res.-100", "Toxin Res.</align>", "Lv.1/Lv.2", "Lv.{0} Skills", "Res."]) {
+    assert.ok(matchGlossary(text, TERMINAL_DOT, TERMINAL_DOT_FEEDS).length > 0, text);
+  }
+  // the leading word boundary still holds
+  assert.deepEqual(matchGlossary("Tres. weird", TERMINAL_DOT), []);
+});
+
+test("applyGlossaryFeeds swaps a dot-terminal term for its surrogate", () => {
+  assert.equal(
+    applyGlossaryFeeds("Acritoxin Res.-100", TERMINAL_DOT, TERMINAL_DOT_FEEDS),
+    "Acritoxin Resistance-100",
+  );
+  assert.equal(
+    applyGlossaryFeeds("View all Lv.{0} Skills", TERMINAL_DOT, TERMINAL_DOT_FEEDS),
+    "View all Level{0} Skills",
+  );
+});
+
 test("applyGlossaryFeeds swaps the dotted term for its surrogate in text", () => {
   assert.equal(
     applyGlossaryFeeds("attacking boosts the user's Phy. Penetration.", DOT, FEEDS),

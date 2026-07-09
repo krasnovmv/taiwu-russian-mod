@@ -31,6 +31,18 @@ function escapeRegExp(s: string): string {
 }
 
 /**
+ * A term's whole-word pattern. `\b` anchors are applied only against the term's
+ * word-character edges: a term that ends in punctuation (`Res.`, `Lv.`) gets no
+ * trailing `\b`, since after a period the boundary exists only before a word
+ * character — `\bRes\.\b` would match `Res.1` but never `Res.-100` or `Res. `.
+ */
+function termPattern(term: string): string {
+  const lead = /^\w/.test(term) ? "\\b" : "";
+  const trail = /\w$/.test(term) ? "\\b" : "";
+  return `${lead}${escapeRegExp(term)}${trail}`;
+}
+
+/**
  * Case-insensitive, longest-match-first whole-word alternation of EN terms.
  *
  * Compiling a 200+-term alternation is expensive and {@link matchGlossary} runs
@@ -42,8 +54,8 @@ const termsRegexCache = new WeakMap<ReadonlyMap<string, string>, RegExp>();
 function termsRegex(glossary: ReadonlyMap<string, string>): RegExp {
   const cached = termsRegexCache.get(glossary);
   if (cached) return cached;
-  const terms = [...glossary.keys()].sort((a, b) => b.length - a.length).map(escapeRegExp);
-  const re = new RegExp(`\\b(?:${terms.join("|")})\\b`, "gi");
+  const terms = [...glossary.keys()].sort((a, b) => b.length - a.length).map(termPattern);
+  const re = new RegExp(`(?:${terms.join("|")})`, "gi");
   termsRegexCache.set(glossary, re);
   return re;
 }
@@ -91,7 +103,7 @@ export function applyGlossaryFeeds(
   let out = text;
   for (const { en, feed } of matchGlossary(text, glossary, feeds)) {
     if (!feed || feed === en) continue;
-    out = out.replace(new RegExp(`\\b${escapeRegExp(en)}\\b`, "gi"), feed);
+    out = out.replace(new RegExp(termPattern(en), "gi"), feed);
   }
   return out;
 }

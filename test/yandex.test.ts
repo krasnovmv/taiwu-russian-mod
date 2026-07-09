@@ -53,6 +53,20 @@ test("glossaryPairsForTexts uses the feed surrogate as the pair source", () => {
   assert.equal(raw[0]?.sourceText, "phy. penetration");
 });
 
+test("glossaryPairsForTexts collapses a feed colliding with a literal term", () => {
+  // `Res.` feeds `Resistance`, which is itself a glossary term: Yandex must not
+  // receive two pairs with the same sourceText
+  const glossary = new Map([
+    ["res.", "Сопр."],
+    ["resistance", "Сопротивление"],
+  ]);
+  const feeds = new Map([["res.", "Resistance"]]);
+  const pairs = glossaryPairsForTexts(["Toxin Res. lowers Resistance"], glossary, feeds);
+  const sources = pairs.map((p) => p.sourceText.toLowerCase());
+  assert.equal(new Set(sources).size, sources.length);
+  assert.equal(pairs.length, 1);
+});
+
 test("glossaryPairsForTexts is empty without a glossary or matches", () => {
   assert.deepEqual(glossaryPairsForTexts(["plain text"], new Map()), []);
   assert.deepEqual(glossaryPairsForTexts(["plain text"], new Map([["qi", "ци"]])), []);
