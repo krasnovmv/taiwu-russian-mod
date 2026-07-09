@@ -16,8 +16,8 @@ const G = new Map([
 test("matches glossary terms as whole words, case-insensitively", () => {
   const got = matchGlossary("Restore your QI in the Sect.", G);
   assert.deepEqual(got, [
-    { en: "qi", ru: "ци" },
-    { en: "sect", ru: "секта" },
+    { en: "qi", ru: "ци", src: "QI" },
+    { en: "sect", ru: "секта", src: "Sect" },
   ]);
 });
 
@@ -27,7 +27,7 @@ test("does not match inside a larger word", () => {
 
 test("matches multi-word terms", () => {
   assert.deepEqual(matchGlossary("a powerful Martial Art technique", G), [
-    { en: "martial art", ru: "боевое искусство" },
+    { en: "martial art", ru: "боевое искусство", src: "Martial Art" },
   ]);
 });
 
@@ -43,8 +43,10 @@ test("empty glossary matches nothing", () => {
 
 test("signature is empty when no terms apply, stable when they do", () => {
   assert.equal(glossarySignature(matchGlossary("nothing here", G)), "");
+  // `src` (the text's casing) is NOT folded in: `Qi` and `qi` share one key
   const sig = glossarySignature(matchGlossary("Qi", G));
   assert.equal(sig, "qi=ци");
+  assert.equal(glossarySignature(matchGlossary("qi", G)), sig);
   // changing the RU value changes the signature (so the cache invalidates)
   const sig2 = glossarySignature(matchGlossary("Qi", new Map([["qi", "чи"]])));
   assert.notEqual(sig, sig2);
@@ -55,11 +57,11 @@ const FEEDS = new Map([["phy. penetration", "Physical Penetration"]]);
 
 test("a term's feed surrogate rides along on the match", () => {
   assert.deepEqual(matchGlossary("boosts Phy. Penetration now", DOT, FEEDS), [
-    { en: "phy. penetration", ru: "Физ. урон", feed: "Physical Penetration" },
+    { en: "phy. penetration", ru: "Физ. урон", src: "Phy. Penetration", feed: "Physical Penetration" },
   ]);
   // without a feeds map, no surrogate is attached (unchanged behaviour)
   assert.deepEqual(matchGlossary("boosts Phy. Penetration now", DOT), [
-    { en: "phy. penetration", ru: "Физ. урон" },
+    { en: "phy. penetration", ru: "Физ. урон", src: "Phy. Penetration" },
   ]);
 });
 

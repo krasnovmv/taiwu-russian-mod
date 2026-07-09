@@ -33,9 +33,10 @@ test("glossaryPairsForTexts builds exact:false pairs for terms in the batch", ()
     ["loong", "лун"],
   ]);
   const pairs = glossaryPairsForTexts(["Restore your Qi in the Sect", "again the Sect"], glossary);
+  // the pair source keeps the casing the term has in the request text
   assert.deepEqual(pairs, [
-    { sourceText: "qi", translatedText: "ци", exact: false },
-    { sourceText: "sect", translatedText: "секта", exact: false },
+    { sourceText: "Qi", translatedText: "ци", exact: false },
+    { sourceText: "Sect", translatedText: "секта", exact: false },
   ]);
   // a term that never appears is omitted
   assert.ok(!pairs.some((p) => p.sourceText === "loong"));
@@ -48,9 +49,9 @@ test("glossaryPairsForTexts uses the feed surrogate as the pair source", () => {
   assert.deepEqual(pairs, [
     { sourceText: "Physical Penetration", translatedText: "Физ. урон", exact: false },
   ]);
-  // without feeds, the raw (dotted) term is the source — unchanged behaviour
+  // without feeds, the raw (dotted) term is the source, in the text's casing
   const raw = glossaryPairsForTexts(["boosts Phy. Penetration"], glossary);
-  assert.equal(raw[0]?.sourceText, "phy. penetration");
+  assert.equal(raw[0]?.sourceText, "Phy. Penetration");
 });
 
 test("glossaryPairsForTexts collapses a feed colliding with a literal term", () => {

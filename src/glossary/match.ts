@@ -17,6 +17,15 @@ export interface GlossaryMatch {
   en: string;
   ru: string;
   /**
+   * The term as it actually appears in the text (first occurrence's casing),
+   * e.g. `True Qi` for the lowercased key `true qi`. Engines that echo the term
+   * back to the MT service (Yandex's `sourceText`) use this form so the pair
+   * matches the request text even if the service compares case-sensitively.
+   * NOT part of {@link glossarySignature} — cache keys must not vary with the
+   * casing a term happens to have in a given text.
+   */
+  src: string;
+  /**
    * An engine-facing surrogate for {@link en}, when the raw term confuses the
    * MT engine. Yandex treats the period in an abbreviation like `Phy.` as a
    * sentence boundary, which splits a multi-word term (`Phy. Penetration`) and
@@ -72,17 +81,18 @@ export function matchGlossary(
   feeds?: ReadonlyMap<string, string>,
 ): GlossaryMatch[] {
   if (glossary.size === 0) return [];
-  const found = new Map<string, string>();
+  const found = new Map<string, GlossaryMatch>();
   for (const m of text.matchAll(termsRegex(glossary))) {
     const en = m[0].toLowerCase();
+    if (found.has(en)) continue; // keep the first occurrence's casing
     const ru = glossary.get(en);
-    if (ru !== undefined) found.set(en, ru);
+    if (ru !== undefined) found.set(en, { en, ru, src: m[0] });
   }
-  return [...found.entries()]
-    .sort(([a], [b]) => a.localeCompare(b))
-    .map(([en, ru]) => {
-      const feed = feeds?.get(en);
-      return feed ? { en, ru, feed } : { en, ru };
+  return [...found.values()]
+    .sort((a, b) => a.en.localeCompare(b.en))
+    .map((match) => {
+      const feed = feeds?.get(match.en);
+      return feed ? { ...match, feed } : match;
     });
 }
 

@@ -175,8 +175,11 @@ export function glossaryPairsForTexts(
   // Yandex must not receive two pairs with the same sourceText.
   const union = new Map<string, { sourceText: string; translatedText: string }>();
   for (const text of texts) {
-    for (const { en, ru, feed } of matchGlossary(text, glossary, feeds)) {
-      const sourceText = feed ?? en;
+    // The pair's source carries the casing the term has in the request text (or
+    // the feed surrogate verbatim) — a lowercased form could miss a `True Qi`
+    // occurrence if Yandex compares case-sensitively.
+    for (const { ru, src, feed } of matchGlossary(text, glossary, feeds)) {
+      const sourceText = feed ?? src;
       union.set(sourceText.toLowerCase(), { sourceText, translatedText: ru });
     }
   }
