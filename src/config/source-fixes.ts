@@ -14,7 +14,8 @@
  * Gender tags (`str=GenderObject/` etc.) resolve to the localized
  * `LK_Common_Him`/`LK_Common_Her` strings from `ui_language`, so a repaired tag
  * renders a Russian pronoun in game — provided those units are translated in
- * the right grammatical case (see the reviewed `LK_Common_*Him` units).
+ * the right grammatical case (hand-fixed "him"→"его" entries in the Yandex
+ * cache; the TM rebuilds from them).
  */
 import type { SourceUnit } from "../formats/adapter.js";
 
