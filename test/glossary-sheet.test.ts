@@ -123,6 +123,24 @@ test("a feed column round-trips as a { ru, feed } object", () => {
   assert.match(out, /"Phy\.": \{ "ru": "Физ", "feed": "Physical" \}/);
 });
 
+test("a cs column round-trips as a { ru, cs } object", () => {
+  const parsed: Record<string, GlossaryValue> = {
+    _section_01_x: "X",
+    Attack: { ru: "атака", cs: true },
+    Sect: "секта",
+  };
+  const csv = glossaryToCsv(parsed);
+  assert.match(csv, /Attack,атака,,true,/);
+  assert.match(csv, /Sect,секта,,,/);
+  const rebuilt = buildFile(parsed, parseSheet(csv));
+  const reparsed: Record<string, GlossaryValue> = JSON5.parse(rebuilt);
+  assert.deepEqual(reparsed["Attack"], { ru: "атака", cs: true });
+  assert.equal(reparsed["Sect"], "секта");
+  // toggling cs shows up as a change in the diff
+  const noCs = parseSheet(csv.replace("Attack,атака,,true,", "Attack,атака,,,"));
+  assert.equal(diffGlossary(parsed, noCs).changed.length, 1);
+});
+
 test("a new section with no known slug gets a bare _section_NN key", () => {
   const parsed: Record<string, GlossaryValue> = {}; // no existing sections to borrow a slug from
   const out = buildFile(parsed, parseSheet("EN,RU,feed,comment\r\n,,,Новое\r\nA,а,,\r\n"));

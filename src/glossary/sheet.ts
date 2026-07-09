@@ -6,19 +6,21 @@
  * result reproduces the original file byte-for-byte. See src/cli/glossary-pull.ts
  * for the thin IO wrapper.
  *
- * CSV shape: header `EN,RU,feed,comment` (case-insensitive; `feed`/`comment`
- * optional). A row with empty EN/RU but a `comment` is a section divider that
- * opens a group; the terms beneath it (until the next divider) belong to it.
+ * CSV shape: header `EN,RU,feed,cs,comment` (case-insensitive; `feed`/`cs`/
+ * `comment` optional). A row with empty EN/RU but a `comment` is a section
+ * divider that opens a group; the terms beneath it (until the next divider)
+ * belong to it. A non-empty `cs` cell marks the term case-sensitive.
  */
 
-/** A glossary value in `data/glossary.json5`: a bare RU string, or `{ ru, feed? }`. */
-export type GlossaryValue = string | { ru: string; feed?: string };
+/** A glossary value in `data/glossary.json5`: a bare RU string, or `{ ru, feed?, cs? }`. */
+export type GlossaryValue = string | { ru: string; feed?: string; cs?: boolean };
 
 /** One term row from the sheet, already trimmed. */
 export interface Term {
   en: string;
   ru: string;
   feed: string;
+  cs: boolean;
   line: number; // 1-based row number in the sheet, for messages
 }
 
@@ -83,6 +85,7 @@ export function resolveColumns(header: string[]): {
   en: number;
   ru: number;
   feed: number;
+  cs: number;
   comment: number;
 } {
   const idx = (name: string): number => header.findIndex((h) => h.trim().toLowerCase() === name);
@@ -91,7 +94,7 @@ export function resolveColumns(header: string[]): {
   if (en < 0 || ru < 0) {
     throw new Error(`CSV header must contain "EN" and "RU" columns (got: ${header.join(", ")}).`);
   }
-  return { en, ru, feed: idx("feed"), comment: idx("comment") };
+  return { en, ru, feed: idx("feed"), cs: idx("cs"), comment: idx("comment") };
 }
 
 /**
@@ -114,6 +117,7 @@ export function parseSheet(csv: string): Sheet {
     const en = (cells[cols.en] ?? "").trim();
     const ru = (cells[cols.ru] ?? "").trim();
     const feed = cols.feed >= 0 ? (cells[cols.feed] ?? "").trim() : "";
+    const cs = cols.cs >= 0 && (cells[cols.cs] ?? "").trim() !== "";
     const comment = cols.comment >= 0 ? (cells[cols.comment] ?? "").trim() : "";
     const line = r + 1;
 
@@ -125,7 +129,7 @@ export function parseSheet(csv: string): Sheet {
       continue; // spacing or divider, not a term
     }
     if (!en || !ru) {
-      sheet.invalid.push({ en, ru, feed, line });
+      sheet.invalid.push({ en, ru, feed, cs, line });
       continue;
     }
     const key = en.toLowerCase();
@@ -134,7 +138,7 @@ export function parseSheet(csv: string): Sheet {
       continue;
     }
     seen.add(key);
-    const term: Term = { en, ru, feed, line };
+    const term: Term = { en, ru, feed, cs, line };
     if (current) current.terms.push(term);
     else sheet.preamble.push(term);
   }
@@ -146,21 +150,24 @@ export function flattenSheet(sheet: Sheet): Term[] {
   return [...sheet.preamble, ...sheet.sections.flatMap((s) => s.terms)];
 }
 
-/** Render a `{ ru, feed? }` value the way the hand-written entries are formatted. */
-function renderObject(ru: string, feed: string): string {
-  return feed
-    ? `{ "ru": ${JSON.stringify(ru)}, "feed": ${JSON.stringify(feed)} }`
-    : `{ "ru": ${JSON.stringify(ru)} }`;
+/** Render a `{ ru, feed?, cs? }` value the way the hand-written entries are formatted. */
+function renderObject(ru: string, feed: string, cs: boolean): string {
+  const parts = [`"ru": ${JSON.stringify(ru)}`];
+  if (feed) parts.push(`"feed": ${JSON.stringify(feed)}`);
+  if (cs) parts.push(`"cs": true`);
+  return `{ ${parts.join(", ")} }`;
 }
 
 /** `"En": value` text for one term (no indent, no trailing comma). */
-function renderTerm(en: string, ru: string, feed: string): string {
-  return `${JSON.stringify(en)}: ${feed ? renderObject(ru, feed) : JSON.stringify(ru)}`;
+function renderTerm(en: string, ru: string, feed: string, cs: boolean): string {
+  return `${JSON.stringify(en)}: ${feed || cs ? renderObject(ru, feed, cs) : JSON.stringify(ru)}`;
 }
 
 /** Render a preserved metadata value (e.g. the `_comment` string). */
 function renderValue(v: GlossaryValue): string {
-  return typeof v === "string" ? JSON.stringify(v) : renderObject(v.ru, v.feed ?? "");
+  return typeof v === "string"
+    ? JSON.stringify(v)
+    : renderObject(v.ru, v.feed ?? "", v.cs === true);
 }
 
 /**
@@ -183,7 +190,7 @@ export function buildFile(existing: Record<string, GlossaryValue>, sheet: Sheet)
   type Unit = { blank: true } | { text: string };
   const body: Unit[] = [];
   for (const [k, v] of meta) body.push({ text: `${JSON.stringify(k)}: ${renderValue(v)}` });
-  const emit = (t: Term): void => void body.push({ text: renderTerm(t.en, t.ru, t.feed) });
+  const emit = (t: Term): void => void body.push({ text: renderTerm(t.en, t.ru, t.feed, t.cs) });
 
   if (sheet.preamble.length > 0) {
     body.push({ blank: true });
@@ -218,17 +225,18 @@ export function buildFile(existing: Record<string, GlossaryValue>, sheet: Sheet)
  */
 export function glossaryToCsv(parsed: Record<string, GlossaryValue>): string {
   const esc = (s: string): string => (/[",\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s);
-  const lines = ["EN,RU,feed,comment"];
+  const lines = ["EN,RU,feed,cs,comment"];
   for (const [en, value] of Object.entries(parsed)) {
     if (en.startsWith("_section")) {
       const label = typeof value === "string" ? value : value.ru;
-      lines.push("", `,,,${esc(label)}`);
+      lines.push("", `,,,,${esc(label)}`);
       continue;
     }
     if (en.startsWith("_")) continue;
     const ru = typeof value === "string" ? value : value.ru;
     const feed = typeof value === "string" ? "" : (value.feed ?? "");
-    lines.push([esc(en), esc(ru), esc(feed), ""].join(","));
+    const cs = typeof value !== "string" && value.cs === true;
+    lines.push([esc(en), esc(ru), esc(feed), cs ? "true" : "", ""].join(","));
   }
   return lines.join("\r\n") + "\r\n";
 }
@@ -241,18 +249,19 @@ export function countTerms(parsed: Record<string, GlossaryValue>): number {
 export interface GlossaryDiff {
   added: Term[];
   removed: { en: string; ru: string }[];
-  changed: { from: { en: string; ru: string; feed: string }; to: Term }[];
+  changed: { from: { en: string; ru: string; feed: string; cs: boolean }; to: Term }[];
 }
 
 /** Diff a sheet against the current glossary (case-insensitive on EN). */
 export function diffGlossary(existing: Record<string, GlossaryValue>, sheet: Sheet): GlossaryDiff {
-  const oldTerms = new Map<string, { en: string; ru: string; feed: string }>();
+  const oldTerms = new Map<string, { en: string; ru: string; feed: string; cs: boolean }>();
   for (const [k, v] of Object.entries(existing)) {
     if (k.startsWith("_")) continue;
     oldTerms.set(k.toLowerCase(), {
       en: k,
       ru: typeof v === "string" ? v : v.ru,
       feed: typeof v === "string" ? "" : (v.feed ?? ""),
+      cs: typeof v !== "string" && v.cs === true,
     });
   }
   const newTerms = flattenSheet(sheet);
@@ -264,7 +273,7 @@ export function diffGlossary(existing: Record<string, GlossaryValue>, sheet: She
       .map((o) => ({ en: o.en, ru: o.ru })),
     changed: newTerms.flatMap((t) => {
       const o = oldTerms.get(t.en.toLowerCase());
-      return o && (o.ru !== t.ru || o.feed !== t.feed) ? [{ from: o, to: t }] : [];
+      return o && (o.ru !== t.ru || o.feed !== t.feed || o.cs !== t.cs) ? [{ from: o, to: t }] : [];
     }),
   };
 }

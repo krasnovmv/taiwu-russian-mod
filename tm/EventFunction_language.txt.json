@@ -8997,11 +8997,11 @@
     "Desc_145": {
       "en": "Execute the global advance month action configured. Some require preparation. Advance month encounter needs to be created via this command (only one instance per configuration can be created at the same time; removed automatically after completion). When region is forced to be not None (-1), this command attempts to bypass the configuration and force generate in the designated region.",
       "cn": "运行配置的全局过月行为.部分需要进行提前准备、过月拉人的奇遇需要通过该指令创建（单一配置同一时间只能创建一个,完成后该行为自动移除）.强制区域不为 None (-1) 时,将尝试避开配置强行在指定区域生成.",
-      "ru": "Выполните настроенное глобальное действие за месяц вперед. Некоторые из них требуют подготовки. С помощью этой команды необходимо создать предварительную встречу за месяц (одновременно может быть создан только один экземпляр для каждой конфигурации; автоматически удаляется после завершения). Если для региона Мощь задана как not None (-1), эта команда пытается обойти конфигурацию и сгенерировать Мощь принудительно в указанном регионе.",
+      "ru": "Выполните настроенное глобальное действие за месяц вперед. Некоторые из них требуют подготовки. С помощью этой команды необходимо создать предварительную встречу за месяц (одновременно может быть создан только один экземпляр для каждой конфигурации; автоматически удаляется после завершения). Когда для региона принудительно задано значение not None (-1), эта команда пытается обойти конфигурацию и принудительно сгенерировать в указанном регионе.",
       "status": "machine",
-      "srcHash": "1ce165b2e527d12e",
+      "srcHash": "4747185af8494432",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-09T15:57:55.987Z"
     },
     "Desc_92": {
       "en": "Create non-persistent enemy character from template. Match Taiwu's Pure Essence only when the template GroupId ≥ 0.",
@@ -9411,11 +9411,11 @@
     "Desc_149": {
       "en": "Add a building in a specified Industry. Attempt to overwrite the resource tile if \"force add\" is enabled and there is insufficient empty slot in the specified Industry.",
       "cn": "在指定产业添加建筑. 如果设置了强制添加且指定产业没有足够的可用空格,将尝试覆盖资源格.",
-      "ru": "Добавьте здание в указанной отрасли. Попытайтесь перезаписать плитку ресурсов, если включена функция \"Добавить Мощью\" и в указанной отрасли недостаточно пустого места.",
+      "ru": "Добавьте здание в указанной отрасли. Попытайтесь перезаписать плитку Ресурсов, если включена функция \"принудительное добавление\" и в указанной отрасли недостаточно пустого места.",
       "status": "machine",
-      "srcHash": "00740fe721c97560",
+      "srcHash": "63b0683927c313c2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-09T15:57:55.987Z"
     },
     "Desc_139": {
       "en": "Swordsmiths Landlord Creates Bandit Package",

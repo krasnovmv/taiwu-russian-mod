@@ -52,6 +52,40 @@ test("signature is empty when no terms apply, stable when they do", () => {
   assert.notEqual(sig, sig2);
 });
 
+// A `cs` term is stored under its exact-case key (the loader keeps it verbatim);
+// an all-lowercase key stays case-insensitive.
+const CS = new Map([
+  ["Attack", "атака"],
+  ["attack speed", "скорость атаки"],
+  ["sect", "секта"],
+]);
+
+test("a cs term matches its exact casing only", () => {
+  assert.deepEqual(matchGlossary("boosts Attack greatly", CS), [
+    { en: "Attack", ru: "атака", src: "Attack" },
+  ]);
+  // lowercase prose ("rise and attack") is left to the engine
+  assert.deepEqual(matchGlossary("they rise and attack the sect", CS), [
+    { en: "sect", ru: "секта", src: "sect" },
+  ]);
+  assert.deepEqual(matchGlossary("ATTACK them", CS), []);
+});
+
+test("a longer case-insensitive term still consumes an embedded cs term", () => {
+  // 'Attack Speed' must match as the two-word term, not as cs 'Attack' + noise —
+  // splitting the alternation into two regexes must not change signatures.
+  assert.deepEqual(matchGlossary("raises Attack Speed", CS), [
+    { en: "attack speed", ru: "скорость атаки", src: "Attack Speed" },
+  ]);
+  const sig = glossarySignature(matchGlossary("raises Attack Speed", CS));
+  assert.equal(sig, "attack speed=скорость атаки");
+});
+
+test("a cs match folds its exact-case key into the signature", () => {
+  assert.equal(glossarySignature(matchGlossary("boosts Attack", CS)), "Attack=атака");
+  assert.equal(glossarySignature(matchGlossary("rise and attack", CS)), "");
+});
+
 const DOT = new Map([["phy. penetration", "Физ. урон"]]);
 const FEEDS = new Map([["phy. penetration", "Physical Penetration"]]);
 
