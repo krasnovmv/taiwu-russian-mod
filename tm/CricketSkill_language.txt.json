@@ -303,11 +303,11 @@
     "EffectCondition_11": {
       "en": "Has a chance to trigger when dealing Endurance/Resilience damage, based on the corresponding Injury Level of itself",
       "cn": "造成耐力/斗性伤害时，根据自身对应的受伤程度，有几率发动",
-      "ru": "Имеет шанс сработать при нанесении урона выносливости/сопротивляемости, в зависимости от соответствующего уровня Травмы.",
+      "ru": "Имеет шанс сработать при нанесении урона выносливости/сопротивляемости, в зависимости от соответствующего уровня травмы.",
       "status": "machine",
-      "srcHash": "aab627d58b0a3cf1",
+      "srcHash": "8013b3efa43f8cb1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T13:40:34.924Z"
     },
     "EffectCondition_12": {
       "en": "Triggers when dealing Endurance damage based on Bite Force",
@@ -375,11 +375,11 @@
     "EffectCondition_19": {
       "en": "At the start of the turn, has a chance to trigger based on how many of the user's Bite Force, Strength, and Morale are higher than the opponent's",
       "cn": "回合开始时，根据自身牙钳、角力、气势高于对手的数量，有几率发动",
-      "ru": "В начале хода имеет шанс сработать в зависимости от того, на сколько Мощь укуса, Сила и моральный дух пользователя выше, чем у противника",
+      "ru": "В начале хода имеет шанс сработать в зависимости от того, на сколько мощь укуса, сила и моральный дух пользователя выше, чем у противника",
       "status": "machine",
-      "srcHash": "2dbe8d4a6f02c3fc",
+      "srcHash": "44d7435788f4b34a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T13:40:34.924Z"
     },
     "EffectCondition_20": {
       "en": "Triggers when a critical hit or block is triggered not by this effect",
@@ -501,11 +501,11 @@
     "EffectDesc_11": {
       "en": "At the cost of losing its own Endurance/Resilience, increase the damage caused this time based on the corresponding Injury Level of itself",
       "cn": "以损失自身的耐力/斗性为代价，根据自身对应的受伤程度提高本次造成的伤害",
-      "ru": "Ценой потери собственной выносливости/сопротивляемости увеличьте наносимый на этот раз урон, исходя из соответствующего уровня Травмы самого себя",
+      "ru": "Ценой потери собственной выносливости/сопротивляемости увеличьте наносимый на этот раз урон, исходя из соответствующего уровня травмы самого себя",
       "status": "machine",
-      "srcHash": "7c0d1a2a0c48f246",
+      "srcHash": "5b8a3dd5d42b6a3e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T13:40:34.924Z"
     },
     "EffectDesc_12": {
       "en": "Increase its own Bite Force attribute, cumulative until the duel ends",
@@ -519,20 +519,20 @@
     "EffectDesc_13": {
       "en": "Based on its own Bite Force and Morale, deal Endurance and Resilience damage to the opponent respectively",
       "cn": "根据自身的牙钳和气势，对对手分别造成耐力和斗性伤害",
-      "ru": "Основываясь на собственной Мощи укуса и моральном духе, наносит противнику урон выносливостью и сопротивляемостью соответственно",
+      "ru": "Основываясь на собственной мощи укуса и моральном духе, наносит противнику урон выносливостью и сопротивляемостью соответственно",
       "status": "machine",
-      "srcHash": "1dbba89e8c7e5a84",
+      "srcHash": "3f5540f9e18b3cc2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T13:40:34.924Z"
     },
     "EffectDesc_14": {
       "en": "Greatly increase all of its own attributes except Endurance and Resilience, lasting until the duel ends",
       "cn": "大幅提高自身除耐力、斗性外的全部属性，持续到决斗结束",
-      "ru": "Значительно увеличивает все свои собственные Характеристики, за исключением выносливости и сопротивляемости, которые сохраняются до окончания Поединка",
+      "ru": "Значительно увеличивает все свои собственные характеристики, за исключением выносливости и сопротивляемости, которые сохраняются до окончания поединка",
       "status": "machine",
-      "srcHash": "33a8e931ed672ac1",
+      "srcHash": "cd07b58a16752244",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T13:40:34.924Z"
     },
     "EffectDesc_15": {
       "en": "Double a random attribute among its own Bite Force, Strength, and Morale this turn",
@@ -582,20 +582,20 @@
     "EffectDesc_20": {
       "en": "After a critical hit, you will definitely block on the next attack received; after blocking, your next attack will definitely be a critical hit.",
       "cn": "暴击后，下次被攻击时必定防御；防御后，下次攻击必定暴击",
-      "ru": "После критического удара вы обязательно заблокируете следующую полученную Атаку; после блокировки ваша следующая Атака определенно будет критическим ударом.",
+      "ru": "После критического удара вы обязательно заблокируете следующую полученную атаку; после блокировки ваша следующая атака определенно будет критическим ударом.",
       "status": "machine",
-      "srcHash": "7f6f4b0fa14e857d",
+      "srcHash": "a08504f55d7ac2f8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T13:40:34.924Z"
     },
     "EffectDesc_21": {
       "en": "When attacked, Bite Force +1; when counterattacked, Strength +1; when called on, Morale +1. Cumulative and lasts until the end of the duel.",
       "cn": "被进攻时牙钳+1，被反击时角力+1，被鸣叫时气势+1，可累加持续至决斗结束",
-      "ru": "При Атаке Мощь укуса +1; при контратаке - Сила +1; при вызове - Боевой дух +1. Накопительный и действует до конца Поединка.",
+      "ru": "При атаке Мощь укуса +1; при контратаке - Сила +1; при вызове - Боевой дух +1. Накопительный и действует до конца поединка.",
       "status": "machine",
-      "srcHash": "49e341c198823309",
+      "srcHash": "d6be4d2a69040ca3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T13:40:34.924Z"
     },
     "EffectTips_0": {
       "en": "Even if I give you the advantage, you still can't win!",
