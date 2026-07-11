@@ -57,7 +57,7 @@ export interface CandidateOptions {
   minCount?: number;
   /** Include single-word candidates (gated by the mid-sentence rule). Default true. */
   includeSingles?: boolean;
-  /** EN terms already in the glossary (any key casing) — excluded from results. */
+  /** Lowercased EN terms already in the glossary — excluded from results. */
   glossary?: ReadonlyMap<string, string>;
 }
 
@@ -303,9 +303,6 @@ export function collectCandidates(
   const minCount = options.minCount ?? 3;
   const includeSingles = options.includeSingles ?? true;
   const glossary = options.glossary ?? new Map<string, string>();
-  // `cs` terms are stored under exact-case keys; exclusion here is by meaning,
-  // so compare lowercased regardless of a term's matching mode.
-  const known = new Set([...glossary.keys()].map((k) => k.toLowerCase()));
   const agg = new Map<string, Aggregate>();
 
   for (const { file, en, cn } of texts) {
@@ -334,7 +331,7 @@ export function collectCandidates(
 
   const out: Candidate[] = [];
   for (const [key, a] of agg) {
-    if (known.has(key)) continue;
+    if (glossary.has(key)) continue;
     if (a.count < minCount) continue;
     if (a.words < 2) {
       // Single-word term: needs the strong mid-sentence signal and must not be

@@ -14,7 +14,6 @@
 
 /** A glossary term present in a text: EN source → canonical RU. */
 export interface GlossaryMatch {
-  /** The glossary map key: lowercased for case-insensitive terms, verbatim for `cs` terms. */
   en: string;
   ru: string;
   /**
@@ -53,52 +52,28 @@ function termPattern(term: string): string {
 }
 
 /**
- * A glossary map key's own case marks its matching mode: the loader lowercases
- * case-insensitive terms and keeps `cs: true` terms verbatim (they must carry
- * an uppercase letter), so no separate flag travels with the map.
- */
-export function isCaseSensitiveKey(key: string): boolean {
-  return key !== key.toLowerCase();
-}
-
-/**
- * Longest-match-first whole-word alternations of the EN terms: one
- * case-insensitive regex for lowercased keys, one case-sensitive for `cs` keys
- * (either may be null when its set is empty).
+ * Case-insensitive, longest-match-first whole-word alternation of EN terms.
  *
  * Compiling a 200+-term alternation is expensive and {@link matchGlossary} runs
  * once per translation unit (hundreds of thousands per rebuild), so the compiled
- * pair is memoized per glossary map. `matchAll` clones the regex's state, so a
+ * regex is memoized per glossary map. `matchAll` clones the regex's state, so a
  * shared instance is safe to reuse across calls.
  */
-interface TermsRegexes {
-  ci: RegExp | null;
-  cs: RegExp | null;
-}
-const termsRegexCache = new WeakMap<ReadonlyMap<string, string>, TermsRegexes>();
-function termsRegexes(glossary: ReadonlyMap<string, string>): TermsRegexes {
+const termsRegexCache = new WeakMap<ReadonlyMap<string, string>, RegExp>();
+function termsRegex(glossary: ReadonlyMap<string, string>): RegExp {
   const cached = termsRegexCache.get(glossary);
   if (cached) return cached;
-  const keys = [...glossary.keys()].sort((a, b) => b.length - a.length);
-  const compile = (terms: string[], flags: string): RegExp | null =>
-    terms.length > 0 ? new RegExp(`(?:${terms.map(termPattern).join("|")})`, flags) : null;
-  const res: TermsRegexes = {
-    ci: compile(keys.filter((k) => !isCaseSensitiveKey(k)), "gi"),
-    cs: compile(keys.filter(isCaseSensitiveKey), "g"),
-  };
-  termsRegexCache.set(glossary, res);
-  return res;
+  const terms = [...glossary.keys()].sort((a, b) => b.length - a.length).map(termPattern);
+  const re = new RegExp(`(?:${terms.join("|")})`, "gi");
+  termsRegexCache.set(glossary, re);
+  return re;
 }
 
 /**
- * The glossary entries whose EN term occurs (as a whole word — case-insensitively
- * for lowercased keys, exactly for `cs` keys) in `text`, deduplicated and sorted
- * by term for a deterministic order. When `feeds` is given, a matched term's
- * engine-facing surrogate (see {@link GlossaryMatch.feed}) is attached.
- *
- * Candidates from both regexes are merged leftmost-longest, mirroring what a
- * single alternation does: `Attack Speed` (ci) still consumes the embedded
- * `Attack` (cs), so splitting the regexes changes no ci-only signature.
+ * The glossary entries whose EN term occurs (as a whole word, case-insensitively)
+ * in `text`, deduplicated and sorted by term for a deterministic order. When
+ * `feeds` is given, a matched term's engine-facing surrogate (see
+ * {@link GlossaryMatch.feed}) is attached.
  */
 export function matchGlossary(
   text: string,
@@ -106,28 +81,12 @@ export function matchGlossary(
   feeds?: ReadonlyMap<string, string>,
 ): GlossaryMatch[] {
   if (glossary.size === 0) return [];
-  const { ci, cs } = termsRegexes(glossary);
-  const candidates: { index: number; key: string; src: string }[] = [];
-  if (ci) {
-    for (const m of text.matchAll(ci)) {
-      candidates.push({ index: m.index, key: m[0].toLowerCase(), src: m[0] });
-    }
-  }
-  if (cs) {
-    for (const m of text.matchAll(cs)) {
-      candidates.push({ index: m.index, key: m[0], src: m[0] });
-    }
-  }
-  candidates.sort((a, b) => a.index - b.index || b.src.length - a.src.length);
-
   const found = new Map<string, GlossaryMatch>();
-  let cursor = 0;
-  for (const c of candidates) {
-    if (c.index < cursor) continue; // overlapped by an earlier, longer match
-    cursor = c.index + c.src.length;
-    if (found.has(c.key)) continue; // keep the first occurrence's casing
-    const ru = glossary.get(c.key);
-    if (ru !== undefined) found.set(c.key, { en: c.key, ru, src: c.src });
+  for (const m of text.matchAll(termsRegex(glossary))) {
+    const en = m[0].toLowerCase();
+    if (found.has(en)) continue; // keep the first occurrence's casing
+    const ru = glossary.get(en);
+    if (ru !== undefined) found.set(en, { en, ru, src: m[0] });
   }
   return [...found.values()]
     .sort((a, b) => a.en.localeCompare(b.en))
@@ -154,7 +113,7 @@ export function applyGlossaryFeeds(
   let out = text;
   for (const { en, feed } of matchGlossary(text, glossary, feeds)) {
     if (!feed || feed === en) continue;
-    out = out.replace(new RegExp(termPattern(en), isCaseSensitiveKey(en) ? "g" : "gi"), feed);
+    out = out.replace(new RegExp(termPattern(en), "gi"), feed);
   }
   return out;
 }
