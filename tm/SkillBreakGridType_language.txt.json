@@ -206,9 +206,9 @@
       "cn": "完备",
       "ru": "Постижение",
       "status": "machine",
-      "srcHash": "4a2ca16a7b99b22a",
+      "srcHash": "f83c04c70514a0d5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-10T20:59:06.747Z"
     },
     "Name_23": {
       "en": "Mishap",
@@ -222,11 +222,11 @@
     "Desc_0": {
       "en": "The starting point of a Breakthrough.",
       "cn": "突破的起点。",
-      "ru": "Отправная точка Прорыва.",
+      "ru": "Отправная точка прорыва.",
       "status": "machine",
-      "srcHash": "7965f5181046448e",
+      "srcHash": "93f7a97ecd4af2f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z"
     },
     "Desc_1": {
       "en": "The goal of a Breakthrough.\\nThe node must be connected for a successful Breakthrough, or else no rewards will be gained.",
@@ -249,11 +249,11 @@
     "Desc_3": {
       "en": "A basic and routine Breakthrough.",
       "cn": "按部就班的突破。",
-      "ru": "Простой и рутинный Прорыв.",
+      "ru": "Простой и рутинный прорыв.",
       "status": "machine",
-      "srcHash": "714d69f05276f724",
+      "srcHash": "e57ceae03cad0863",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z"
     },
     "Desc_4": {
       "en": "Connecting this node grants <color=#brightblue>30% higher connection rate</color> for all nearby nodes.",
@@ -303,11 +303,11 @@
     "Desc_9": {
       "en": "Connecting to this node <color=#brightblue>does not consume Max Capacity or Deviation cap.</color>",
       "cn": "连接此格<color=#brightblue>不会消耗天资上限或入魔上限。</color>",
-      "ru": "Подключение к этому узлу <color=#brightblue>не потребляет максимальную мощность или ограничение по Отклонению.</color>",
+      "ru": "Подключение к этому узлу <color=#brightblue>не потребляет максимальную мощность или ограничение по отклонению.</color>",
       "status": "machine",
-      "srcHash": "6af3b4b5bba571f1",
+      "srcHash": "2034071d03ee80eb",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z"
     },
     "Desc_10": {
       "en": "This node's <color=#brightred>connection rate decreases by 30%</color>, but <color=#brightblue>connecting does not consume Max Capacity or Deviation cap.</color>Upon connecting, transforms 1 random adjacent \"Normal\" node into a \"Fixation\" node.",
@@ -356,7 +356,7 @@
     },
     "Desc_15": {
       "en": "Connecting this node <color=#brightred>turns 3 random adjacent nodes into a failed state</color> and <color=#brightblue>transfers their Power Caps to this node.</color>",
-      "cn": "打通此格时，将周围<color=#brightred>随机3个格子变为打通失败状态</color>，并<color=#brightblue>将它们的威力上限转移至此格上。</color>",
+      "cn": "打通此格时，将周围<color=#brightred>随机3个突破格变为连接失败状态</color>，并<color=#brightblue>将它们的威力上限基础值转移至此格。</color>",
       "ru": "Соединяющий этот узел <color=#brightred>переводит 3 случайных соседних узла в состояние сбоя</color> и <color=#brightblue>переносит их Пределы мощи на этот узел.</color>",
       "status": "machine",
       "srcHash": "ae0171fcc2984cfb",

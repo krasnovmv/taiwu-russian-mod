@@ -12,7 +12,7 @@
     "status": "node --env-file-if-exists=.env --import tsx src/cli/status.ts",
     "estimate": "node --env-file-if-exists=.env --import tsx src/cli/estimate.ts",
     "translate": "node --env-file-if-exists=.env --import tsx src/cli/translate.ts",
-    "translate-all": "npm run translate -- --all --route --threshold 10000 --max-len 10000",
+    "translate-all": "npm run translate -- --all --route --threshold 1000 --max-len 1000",
     "rebuild-tm": "npm run translate-all -- --cache-only",
     "validate": "node --env-file-if-exists=.env --import tsx src/cli/validate.ts",
     "apply": "node --env-file-if-exists=.env --import tsx src/cli/apply.ts",
