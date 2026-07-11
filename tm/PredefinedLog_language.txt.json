@@ -503,9 +503,9 @@
       "cn": "执行 {0} 志向的 {1} 技能时，动画运行时出现异常，已跳过当前技能执行。\\n报错信息：{2}",
       "ru": "Исключение анимации во время выполнения возникло во время выполнения {1} умение в {0} Устремление. Текущее выполнение навыка было пропущено.\\nСообщение об ошибке: {2}",
       "status": "machine",
-      "srcHash": "6b577bd6199cee60",
+      "srcHash": "e71089dc4d17f1d4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Info_7": {
       "en": "An runtime exception occurred during the execution of effect ID {0}. We've noticed the problem and have applied compatibility fixes to keep the game running.\\nIf you see this log, please visit the official website to submit it for troubleshooting.\\nException details: {1}",
@@ -564,11 +564,11 @@
     "Info_13": {
       "en": "A runtime exception occurred during the execution of a Martial Art. We've noticed the problem and have applied compatibility fixes to keep the game running.\\nIf you see this log, please visit the official website to submit it for troubleshooting.\\nException details: {0}",
       "cn": "功法运行时出现异常状况，我们已注意到该问题，并尝试通过兼容处理使游戏得以继续。\\n如出现本日志，请前往官网提交日志以协助排查问题。\\n异常信息：{0}",
-      "ru": "Во время выполнения Боевой техники возникло исключение во время выполнения. Мы заметили проблему и применили исправления совместимости, чтобы игра продолжала работать.\\nЕсли вы видите этот журнал, пожалуйста, посетите официальный веб-сайт, чтобы отправить его для устранения неполадок.\\nСведения об исключении: {0}",
+      "ru": "Во время выполнения боевой техники возникло исключение во время выполнения. Мы заметили проблему и применили исправления совместимости, чтобы игра продолжала работать.\\nЕсли вы видите этот журнал, пожалуйста, посетите официальный веб-сайт, чтобы отправить его для устранения неполадок.\\nСведения об исключении: {0}",
       "status": "machine",
-      "srcHash": "b0311a346b5b73f4",
+      "srcHash": "d4c54fc4e9d8b853",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Info_14": {
       "en": "A runtime exception occurred during communication. We've noticed the problem and have applied compatibility fixes to keep the game running.\\nIf you see this log, please visit the official website to submit it for troubleshooting.\\nException details: {0}",
@@ -582,11 +582,11 @@
     "Info_15": {
       "en": "The Debate system abnormally received an expired action: {0} (Timestamp: {1}) at turn {2}.\\nIt has been invalidated.",
       "cn": "较艺系统不正常地接收到过期操作 {0}(时间戳: {1}) 在轮手数 {2}\\n已使其无效化",
-      "ru": "Система Диспутов аварийно получила действие с истекшим сроком действия: {0} (Временная метка: {1}) при повороте {2}.\\nОно было признано недействительным.",
+      "ru": "Система диспутов аварийно получила действие с истекшим сроком действия: {0} (Временная метка: {1}) на повороте {2}.\\nОно было признано недействительным.",
       "status": "machine",
-      "srcHash": "b9d58c270032da06",
+      "srcHash": "921235ccbbf30184",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Info_16": {
       "en": "The memory you're returning to doesn't match your original save. Proceeding may cause unexpected errors!",
@@ -602,9 +602,9 @@
       "cn": "化龙界面运行时发现异常状况，我们已注意到该问题，并尝试通过兼容处理使游戏得以继续。\\n如出现本日志，请前往官网提交日志以协助排查问题。",
       "ru": "Мы обнаружили исключение в интерфейсе пробуждения Луны. Мы заметили проблему и применили исправления совместимости, чтобы игра продолжала работать.\\nЕсли вы видите этот журнал, пожалуйста, посетите официальный веб-сайт, чтобы отправить его для устранения неполадок.",
       "status": "machine",
-      "srcHash": "6730fc425047e657",
+      "srcHash": "b3e8c6f822335d59",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Info_18": {
       "en": "A runtime exception has occurred. We've noticed the issue and have applied compatibility fixes to keep the game running.\\nThe exception recorded in this log may not be the same each time, please submit this log on the official website for troubleshooting whenever it appears.\\nException details: {0}",
@@ -654,11 +654,11 @@
     "Info_23": {
       "en": "An error occurred while loading AI data from path {0}. Please verify the integrityof the game or contact customer support.\\nError details: {1}",
       "cn": "尝试从路径 {0} 加载 Ai 数据时出现异常，请检查游戏完整性，或尝试向客服寻求支持。\\n异常信息：{1}",
-      "ru": "Произошла ошибка при загрузке данных искусственного интеллекта из path {0}. Пожалуйста, проверьте целостность игры или обратитесь в Поддержку клиентов.\\nСведения об ошибке: {1}",
+      "ru": "Произошла ошибка при загрузке данных искусственного интеллекта из path {0}. Пожалуйста, проверьте целостность игры или обратитесь в поддержку клиентов.\\nСведения об ошибке: {1}",
       "status": "machine",
-      "srcHash": "d9faf6405103b947",
+      "srcHash": "040f6b27ee92c403",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Info_24": {
       "en": "A mod-added template (ID: {0}) is missing from the current game configuration ({1}). We've attempted to remove its associated data for compatibility. If you want to retain it, enable the related Mod and reload your save.",
@@ -825,20 +825,20 @@
     "Info_42": {
       "en": "Soul Transformation state transition failed. Unable to transition from {0} to {1}, which may result in functional anomalies and save data corruption.\\nIf this log appears, please visit the official website to submit it to assist with troubleshooting.",
       "cn": "升灵状态转变失败，无法从 {0} 转变为 {1}，可能会造成部分功能异常与存档数据错乱。\\n如出现本日志，请前往官网提交日志以协助排查问题。",
-      "ru": "Переход в состояние трансформации души не удался. Невозможно перейти с {0} к {1}, что может привести к функциональным аномалиям и сохранить Одержимость данными.\\nЕсли появится этот журнал, пожалуйста, посетите официальный веб-сайт, чтобы отправить его для помощи в устранении неполадок.",
+      "ru": "Переход в состояние трансформации души не удался. Невозможно перейти с {0} к {1}, что может привести к функциональным аномалиям и сохранить одержимость данными.\\nЕсли появится этот журнал, пожалуйста, посетите официальный веб-сайт, чтобы отправить его для помощи в устранении неполадок.",
       "status": "machine",
-      "srcHash": "9622b7a20447823d",
+      "srcHash": "86e5f9f64e901d18",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:36:12.203Z"
+      "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Info_43": {
       "en": "Unable to load save file properly. Please ensure the save file exists and is not corrupted.\\nPath: {0}\\nException Info: {1}",
       "cn": "无法正常加载存档，请确保存档文件存在且未损坏.\\n路径:{0}\\n异常信息:{1}",
-      "ru": "Не удается правильно загрузить файл сохранения. Пожалуйста, убедитесь, что сохраненный файл существует и не является Одержимым.\\nПуть: {0}\\nИнформация об исключении: {1}",
+      "ru": "Не удается правильно загрузить файл сохранения. Пожалуйста, убедитесь, что сохраненный файл существует и не является одержимым.\\nПуть: {0}\\nИнформация об исключении: {1}",
       "status": "machine",
-      "srcHash": "defa11e8e27973ea",
+      "srcHash": "cf2b768492044400",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:36:12.203Z"
+      "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Info_44": {
       "en": "Unable to back up save file properly. Please ensure you have correct read/write permissions, sufficient disk space, and avoid modifying files while the game is running.\\nPath: {0}\\nException Info: {1}",
