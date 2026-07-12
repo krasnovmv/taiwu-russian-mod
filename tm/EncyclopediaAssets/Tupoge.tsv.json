@@ -33,11 +33,11 @@
     "r1c1": {
       "en": "When this node is connected\\u002c the next connection target must be a Breakthrough node with a distance of 2.",
       "cn": "打通此格时，下次连接必须选择距离2的突破格为连接目标。",
-      "ru": "Когда этот узел подключен\\u002c следующей целью подключения должен быть узел Прорыва на расстоянии 2.",
+      "ru": "Когда этот узел подключен\\u002c следующей целью подключения должен быть узел прорыва на расстоянии 2.",
       "status": "machine",
-      "srcHash": "4b3a6d5566513655",
+      "srcHash": "a960fafa9ec569f5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z"
     },
     "r2c0": {
       "en": "<align=\"center\">Oligomerization</align>",
@@ -51,11 +51,11 @@
     "r2c1": {
       "en": "When this node is connected\\u002c all adjacent Normal nodes change into random Special Breakthrough nodes.",
       "cn": "打通此格时，此格周围的所有“如常”格变化为随机的“特殊突破格”。",
-      "ru": "Когда этот узел подключен\\u002c все соседние нормальные узлы превращаются в случайные специальные узлы Прорыва.",
+      "ru": "Когда этот узел подключен\\u002c все соседние нормальные узлы превращаются в случайные специальные узлы прорыва.",
       "status": "machine",
-      "srcHash": "b614f221411bdf66",
+      "srcHash": "62f7398d364416a2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z"
     },
     "r3c0": {
       "en": "<align=\"center\">Sacrifice</align>",
@@ -123,11 +123,11 @@
     "r6c1": {
       "en": "This node's connection success rate decreases by 30%\\u002c but connecting does not consume Max Capacity or Deviation Cap. When this node is connected\\u002c 1 random adjacent Normal node changes into an Adversity node.",
       "cn": "此格的打通成功率降低30%，但不会消耗天资上限或入魔上限。打通此格时，将周围随机1个“如常”格变化为“忘我”。",
-      "ru": "Вероятность успешного подключения к этому узлу снижается на 30%\\u002c но при подключении не потребляется максимальная емкость или ограничение на Отклонение. Когда этот узел подключен\\u002c 1 случайный соседний нормальный узел превращается в неблагоприятный узел.",
+      "ru": "Вероятность успешного подключения к этому узлу снижается на 30%\\u002c но при подключении не потребляется максимальная мощность или ограничение на отклонение. Когда этот узел подключен\\u002c 1 случайный соседний нормальный узел превращается в неблагоприятный узел.",
       "status": "machine",
-      "srcHash": "f471d65de3785396",
+      "srcHash": "b2795eb726008881",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z"
     },
     "r7c0": {
       "en": "<align=\"center\">Contrarian</align>",
@@ -159,11 +159,11 @@
     "r8c1": {
       "en": "This node's connection rate decreases by 60%. For each connected adjacent Breakthrough node\\u002c this node's connection rate increases by 20%\\u002c and Power cap +1.",
       "cn": "此格的打通成功率降低60%。此格周围每有1个打通的突破格，此格的打通成功率提高20%，且威力上限+1。",
-      "ru": "Скорость подключения этого узла снижается на 60%. Для каждого подключенного смежного узла Прорыва\\u002c скорость подключения этого узла увеличивается на 20%\\u002c и Предел мощи +1.",
+      "ru": "Скорость подключения этого узла снижается на 60%. Для каждого подключенного смежного узла прорыва\\u002c скорость подключения этого узла увеличивается на 20%\\u002c и Предел мощи +1.",
       "status": "machine",
-      "srcHash": "d225dda183ba1259",
+      "srcHash": "8138b8a7b99aa247",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z"
     },
     "r9c0": {
       "en": "<align=\"center\">Diligence</align>",
@@ -177,11 +177,11 @@
     "r9c1": {
       "en": "When this node is connected\\u002c the connection rates of its adjacent Breakthrough nodes decrease by 50%\\u002c with Power cap +2. They become connectable again after failing to be connected.",
       "cn": "打通此格时，周围突破格的打通成功率降低50%，威力上限+2，并且在打通失败时会重新变成可连接状态。",
-      "ru": "Когда этот узел подключен\\u002c скорость подключения соседних узлов Прорыва снижается на 50%\\u002c с Пределом мощи +2. Они снова становятся подключаемыми после неудачной попытки подключения.",
+      "ru": "Когда этот узел подключен\\u002c скорость подключения соседних узлов прорыва снижается на 50%\\u002c с пределом мощи +2. Они снова становятся подключаемыми после неудачной попытки подключения.",
       "status": "machine",
-      "srcHash": "498c0c88d91bd2a2",
+      "srcHash": "d568d7fa2feec034",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z"
     },
     "r10c0": {
       "en": "<align=\"center\">Clarity</align>",
@@ -231,11 +231,11 @@
     "r12c1": {
       "en": "This node's connection rate increases by 30%. When this node is connected\\u002c all adjacent Special Breakthrough nodes turn into Normal nodes.",
       "cn": "此格的打通成功率提高30%。打通此格时，此格周围的所有“特殊突破格”变化为“如常”。",
-      "ru": "Скорость подключения этого узла увеличивается на 30%. Когда этот узел подключен\\u002c все соседние специальные узлы Прорыва превращаются в обычные узлы.",
+      "ru": "Скорость подключения этого узла увеличивается на 30%. Когда этот узел подключен\\u002c все соседние специальные узлы прорыва превращаются в обычные узлы.",
       "status": "machine",
-      "srcHash": "3e504ce48c7ce871",
+      "srcHash": "82228e5304640fb7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z"
     },
     "r13c0": {
       "en": "<align=\"center\">Altruism</align>",
@@ -267,11 +267,11 @@
     "r14c1": {
       "en": "When this node is connected\\u002c Max Capacity +3\\u002c and the Power Cap of all adjacent Breakthrough nodes change to 0.",
       "cn": "打通此格时，天资上限+3，并将周围突破格的威力上限变为0。",
-      "ru": "Когда этот узел подключен\\u002c Максимальная вместимость +3\\u002c при этом Предел мощи всех соседних узлов Прорыва изменяется на 0.",
+      "ru": "Когда этот узел подключен\\u002c Максимальная вместимость +3\\u002c при этом предел мощи всех соседних узлов прорыва изменяется на 0.",
       "status": "machine",
-      "srcHash": "2bc565e24145b863",
+      "srcHash": "af6456f3401cdf40",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z"
     },
     "r15c0": {
       "en": "<align=\"center\">Abundance</align>",
@@ -321,11 +321,11 @@
     "r17c1": {
       "en": "When this node is connected\\u002c for your next connection\\u002c you can select any \"Ingenuity\" Breakthrough node as the target.",
       "cn": "打通此格时，下次连接可以选择任意“诀窍”突破格为连接目标。",
-      "ru": "Когда этот узел подключен\\u002c для вашего следующего подключения\\u002c вы можете выбрать любой узел Прорыва \"Изобретательность\" в качестве цели.",
+      "ru": "Когда этот узел подключен\\u002c для вашего следующего подключения\\u002c вы можете выбрать любой узел прорыва \"Изобретательность\" в качестве цели.",
       "status": "machine",
-      "srcHash": "6f4edac3ce77b8c5",
+      "srcHash": "e9feaba1c0a40fa4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z"
     },
     "r18c0": {
       "en": "<align=\"center\">Comprehension</align>",
@@ -357,11 +357,11 @@
     "r19c1": {
       "en": "Suffered setbacks at this node. This node's connection rate increases by 100%\\u002c but Health decreases whether the connection succeeds or fails.",
       "cn": "曾在此格遭受挫折。此格的打通成功率提高100%，但连接此格无论成功或失败均会损失一定的健康。",
-      "ru": "Потерпел неудачу на этом узле. Скорость подключения этого узла увеличивается на 100%\\u002c но Здоровье снижается независимо от того, успешно ли установлено соединение или нет.",
+      "ru": "Потерпел неудачу на этом узле. Скорость подключения этого узла увеличивается на 100%\\u002c но здоровье снижается независимо от того, успешно ли установлено соединение или нет.",
       "status": "machine",
-      "srcHash": "a25f5f70a7fb2e64",
+      "srcHash": "618c783b367a0c9e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z"
     }
   }
 }

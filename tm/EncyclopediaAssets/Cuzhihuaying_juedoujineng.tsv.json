@@ -24,11 +24,11 @@
     "r0c2": {
       "en": "When attacked: Bite Force +1. When countered: Strength +1. When Taunted: Morale +1. Stacks and lasts until the battle ends.",
       "cn": "<align=\"left\">战败时100%发动</align>",
-      "ru": "При Атаке: Мощь укуса +1. При противодействии: Сила +1. Когда насмехаются: Боевой дух +1. Складывается и сохраняется до окончания битвы.",
+      "ru": "При атаке: Мощь укуса +1. При противодействии: Сила +1. Когда насмехаются: Боевой дух +1. Складывается и сохраняется до окончания битвы.",
       "status": "machine",
-      "srcHash": "cd48180c5ae81505",
+      "srcHash": "201cbe062dc4a2be",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T22:41:11.235Z"
     },
     "r1c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-三太子\"><color=#GradeColor_8>Third Prince</color></link></u></color></align>",
@@ -51,11 +51,11 @@
     "r1c2": {
       "en": "After a natural Critical\\u002c the next incoming attack is guaranteed to be defended. After a natural Defense\\u002c the next attack is guaranteed to be a Critical.",
       "cn": "<align=\"left\">耐力、斗性、耐久属性分别首次降低至50%以下时，100%发动</align>",
-      "ru": "После естественного критического\\u002c следующая входящая Атака гарантированно будет защищена. После естественной защиты\\u002c следующая Атака гарантированно будет критической.",
+      "ru": "После естественного критического\\u002c следующая входящая атака гарантированно будет защищена. После естественной защиты\\u002c следующая атака гарантированно будет критической.",
       "status": "machine",
-      "srcHash": "53b8e2377edab6c4",
+      "srcHash": "3e66b5fbf815c569",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T22:41:11.235Z"
     },
     "r2c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-三段锦\"><color=#GradeColor_8>Three-Section Brocade</color></link></u></color></align>",
@@ -213,11 +213,11 @@
     "r7c2": {
       "en": "All duel attributes except Stamina and Resilience are increased by 1.5× (rounded up)\\u002c lasting until end of battle.",
       "cn": "<align=\"left\">反击时有50%概率发动</align>",
-      "ru": "Все Характеристики Поединка, за исключением Выносливости и сопротивляемости, увеличены в 1,5 раза (округлено в большую сторону)\\u002c длится до конца битвы.",
+      "ru": "Все характеристики поединка, за исключением выносливости и сопротивляемости, увеличены в 1,5 раза (округлено в большую сторону)\\u002c длится до конца битвы.",
       "status": "machine",
-      "srcHash": "2ee0db5451c2bdb6",
+      "srcHash": "602831d4c893d18a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T22:41:11.235Z"
     },
     "r8c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-油纸灯\"><color=#GradeColor_8>Oiled Paper Lantern</color></link></u></color></align>",
@@ -240,20 +240,20 @@
     "r8c2": {
       "en": "When reducing damage while blocking\\u002c deal Endurance Injury equal to Bite Force and Resilience Injury equal to Morale to the opponent.",
       "cn": "<align=\"left\">开始决斗时100%发动</align>",
-      "ru": "При уменьшении урона при блокировании\\u002c наносит Травму на выносливость, равную Мощи укуса, и Травму на устойчивость, равную моральному духу противника.",
+      "ru": "При уменьшении урона при блокировании\\u002c наносит травму на выносливость, равную мощи укуса, и травму на устойчивость, равную моральному духу противника.",
       "status": "machine",
-      "srcHash": "ae6e3636bf8ee047",
+      "srcHash": "82070b735f3f4888",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T22:41:11.235Z"
     },
     "r9c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-玉尾\"><color=#GradeColor_8>Jade Tail</color></link></u></color></align>",
       "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-头陀\"><color=#GradeColor_8>头陀</color></link></u></color></align>",
-      "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-玉尾\"><color=#GradeColor_8>Хвост из Нефрита</color></link></u></color></align>",
+      "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-玉尾\"><color=#GradeColor_8>Хвост из нефрита</color></link></u></color></align>",
       "status": "machine",
-      "srcHash": "9e1debc5a86b3b08",
+      "srcHash": "6fca0a232c4f8387",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T22:41:11.235Z"
     },
     "r9c1": {
       "en": "<align=\"center\">Momentum Break</align>",
@@ -294,11 +294,11 @@
     "r10c2": {
       "en": "When dealing Resilience/Endurance damage: Damage = Base Damage × (120 + self corresponding Injury % × 2.5)%. Self loses 10% of current Resilience or Endurance (rounded down).",
       "cn": "<align=\"left\">依据角力造成耐力伤害时100%发动</align>",
-      "ru": "При нанесении урона стойкости/выносливости: Урон = Базовый урон × (120 + соответствующая самому себе Травма % × 2,5)%. \"Я\" теряет 10% текущей устойчивости или выносливости (округлено в меньшую сторону).",
+      "ru": "При нанесении урона стойкости/выносливости: Урон = Базовый урон × (120 + соответствующая самому себе травма % × 2,5)%. \"Я\" теряет 10% текущей устойчивости или выносливости (округлено в меньшую сторону).",
       "status": "machine",
-      "srcHash": "c091117e08ff3def",
+      "srcHash": "a76e383c80b872e2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T22:41:11.235Z"
     },
     "r11c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-铁弹子\"><color=#GradeColor_8>Iron Pellet</color></link></u></color></align>",
@@ -411,11 +411,11 @@
     "r15c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-披袍轩甲\"><color=#GradeColor_8>Robe Armor</color></link></u></color></align>",
       "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-草三段\"><color=#GradeColor_8>草三段</color></link></u></color></align>",
-      "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-披袍轩甲\"><color=#GradeColor_8>Мантия- Броня</color></link></u></color></align>",
+      "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-披袍轩甲\"><color=#GradeColor_8>Мантия Броня</color></link></u></color></align>",
       "status": "machine",
-      "srcHash": "0b2f021455f898a1",
+      "srcHash": "03950dc367481d86",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T22:41:11.235Z"
     },
     "r15c1": {
       "en": "<align=\"center\">Radiant Armor</align>",
@@ -438,11 +438,11 @@
     "r16c0": {
       "en": "<align=\"center\"><color=#9eb767><u><link=\"促织-玉锄头\"><color=#GradeColor_8>Jade Hoe</color></link></u></color></align>",
       "cn": "<align=\"center\"><color=#9eb767><u><link=\"促织-真紫黄\"><color=#GradeColor_8>真紫黄</color></link></u></color></align>",
-      "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-玉锄头\"><color=#GradeColor_8>Мотыга из Нефрита</color></link></u></color></align>",
+      "ru": "<align=\"center\"><color=#9eb767><u><link=\"促织-玉锄头\"><color=#GradeColor_8>Мотыга из нефрита</color></link></u></color></align>",
       "status": "machine",
-      "srcHash": "32a09e2046107fd3",
+      "srcHash": "4543bb0c61f7a132",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T22:41:11.235Z"
     },
     "r16c1": {
       "en": "<align=\"center\">Sword Nurturing</align>",
@@ -591,11 +591,11 @@
     "r21c2": {
       "en": "If you win the duel\\u002c the opponent grants an additional random reward (if only the base XP reward is available\\u002c it is doubled).",
       "cn": "<align=\"left\">被进攻、被反击、被鸣叫时，有66%概率发动</align>",
-      "ru": "Если ты выиграешь Поединок\\u002c противник предоставляет дополнительную случайную награду (если доступна только базовая награда за опыт\\u002c оно удваивается).",
+      "ru": "Если ты выиграешь поединок\\u002c противник предоставляет дополнительную случайную награду (если доступна только базовая награда за опыт\\u002c оно удваивается).",
       "status": "machine",
-      "srcHash": "f24457ebaedb3e85",
+      "srcHash": "6ecec43f2cc1aa36",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-11T22:41:11.235Z"
     }
   }
 }

@@ -24,11 +24,11 @@
     "7d927f04-73fd-4613-9307-604495d7ea4c/EventContent": {
       "en": "Kicks with vigorous force and moves forward 2 tiles while gaining 1 Footwork.<NL><color=grey>(If Footwork is 2, enters the Earth-Shaking Stance.)",
       "cn": "劲力一踢，可向前移动2格并获得1脚力。<NL><color=grey>（若此时脚力为2则会进入“撼地”姿态。）",
-      "ru": "Наносит удар с огромной Мощью и продвигается вперед на 2 плитки, получая при этом 1 работу ногами.<NL><color=grey>(Если работа ног равна 2, переходит в Стойку для сотрясения земли.)",
+      "ru": "Удары при интенсивном мощь и движется вперед, 2 плитки, получая 1 ног.<NL><color=grey>(Если работа ног равна 2, переходит в стойку для сотрясения земли.)",
       "status": "machine",
-      "srcHash": "bcf41d804965ae98",
+      "srcHash": "1ab9662765a02a59",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "7d927f04-73fd-4613-9307-604495d7ea4c/Option_1": {
       "en": "(Use a front kick...)",
@@ -51,11 +51,11 @@
     "c4837bfa-6924-47fd-87ce-50657aaac690/EventContent": {
       "en": "Rapid Force - Yang, moves right 2 tiles and gains 1 Footwork.<NL><color=grey>(If Footwork is 1, enters the Dexterity Stance.)",
       "cn": "迅力-阳，可向右移动2格并获得1脚力。<NL><color=grey>（若此时脚力为1则进入“迅疾”姿态。）",
-      "ru": "Быстрая Мощь - Ян перемещает вправо 2 плитки и получает 1 работу ногами.<NL><color=grey>(Если работа ног равна 1, переходит в Стойку на Стремительность.)",
+      "ru": "Быстрая мощь - Ян перемещает вправо 2 плитки и получает 1 работу ногами.<NL><color=grey>(Если для движения ног 1, поступает в стремительность стойка.)",
       "status": "machine",
-      "srcHash": "c1b0ca00b2408476",
+      "srcHash": "1883f7a3d16e1959",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "c4837bfa-6924-47fd-87ce-50657aaac690/Option_1": {
       "en": "(Use a right kick...)",
@@ -78,11 +78,11 @@
     "0da65f6a-4588-4096-86fa-e6a298daecfb/EventContent": {
       "en": "Rapid Force - Yin, moves left 2 tiles and gains 1 Footwork.<NL><color=grey>(If Footwork is 1, enters the Dexterity Stance.)",
       "cn": "迅力-阴，可向左移动2格并获得1脚力。<NL><color=grey>（若此时脚力为1则进入“迅疾”姿态。）",
-      "ru": "Быстрая Мощь - Инь, перемещает 2 плитки влево и получает 1 работу ногами.<NL><color=grey>(Если работа ног равна 1, переходит в Стойку на Стремительность.)",
+      "ru": "Быстрое мощь - Инь, перемещается влево 2 плиток и получает 1 ног.<NL><color=grey>(Если для движения ног 1, поступает в стремительность стойка.)",
       "status": "machine",
-      "srcHash": "94b5ccb219b9e4ee",
+      "srcHash": "65e28e40fe88b454",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "0da65f6a-4588-4096-86fa-e6a298daecfb/Option_1": {
       "en": "(Use a left kick...)",
@@ -105,11 +105,11 @@
     "37e37a89-1d8f-4ae5-8513-3110c8d698e9/EventContent": {
       "en": "Turns flexibly and moves forward 2 tiles while gaining 1 Footwork.<NL><color=grey>(If Footwork is 3, enters the Accuracy Stance.)",
       "cn": "巧力回旋，可向后移动2格并获得1脚力。<NL><color=grey>（若此时脚力为3则进入“精妙”姿态。）",
-      "ru": "Гибко поворачивается и перемещает вперед 2 плитки, набирая при этом 1 ход ногой.<NL><color=grey>(Если работа ног равна 3, переходит в Стойку точности.)",
+      "ru": "Получается гибко и движется вперед, 2 плитки, получая 1 ног.<NL><color=grey>(Если для движения ног 3, поступает в позицию стойка.)",
       "status": "machine",
-      "srcHash": "96cab70aa21115cd",
+      "srcHash": "533fca8afc8ad0aa",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "37e37a89-1d8f-4ae5-8513-3110c8d698e9/Option_1": {
       "en": "(Deliver a roundhouse kick...)",
@@ -132,11 +132,11 @@
     "d2f216bc-7ca8-40a6-baee-4001a5abece8/EventContent": {
       "en": "A seal bars the way.<NL>Apply Footwork to reduce its Seal Points...<NL>Current Seal Points: <ArgBox key=HP type=int/>...<NL><color=grey>(The seal breaks when Seal Points reach 0.)</color>",
       "cn": "一道封印横亘于前，阻断去路。<NL>驱使脚力或许可以破除封印……<NL>当前封印值：<ArgBox key=HP type=int/>……<NL><color=grey>（封印值归零时，解除封印。）",
-      "ru": "Путь преграждает Печать.<NL>Приложите усилия ногами, чтобы уменьшить точки Печати...<NL>Текущие точки Печати: <ArgBox key=HP type=int/>...<NL><color=grey>(Печать разрывается, когда точки Печати достигают 0.)</color>",
+      "ru": "В печать бары пути.<NL>Использовать работу ног, чтобы уменьшить свою печать Печать...<NL>Текущий Печать Печать : <ArgBox key=HP type=int/>...<NL><color=grey>(На печать ломает, когда печать очков достигнет 0.)</color>",
       "status": "machine",
-      "srcHash": "29c139e0f48cbecb",
+      "srcHash": "0d8ca84e5a7690b7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "d2f216bc-7ca8-40a6-baee-4001a5abece8/Option_1": {
       "en": "(Break the seal...)",
@@ -159,11 +159,11 @@
     "aeef889c-46c6-48a9-a5f8-1fe891753a47/EventContent": {
       "en": "A formidable seal blocks the path forward.<NL>Apply Footwork to reduce its Seal Points...<NL>Current Seal Points: <ArgBox key=HP type=int/>...<NL><color=grey>(The seal breaks when Seal Points reach 0.)</color>",
       "cn": "强大的封印阻挡着前进道路，<NL>驱使脚力或许可以破除封印……<NL>当前封印值：<ArgBox key=HP type=int/>……<NL><color=grey>（封印值归零时，解除封印。）",
-      "ru": "Грозная Печать преграждает путь вперед.<NL>Приложите усилия ногами, чтобы уменьшить точки Печати...<NL>Текущие точки Печати: <ArgBox key=HP type=int/>...<NL><color=grey>(Печать разрывается, когда точки Печати достигают 0.)</color>",
+      "ru": "Грозная печать преграждает путь вперед.<NL>Приложите усилия ногами, чтобы уменьшить точки печати...<NL>Текущий Печать Печать : <ArgBox key=HP type=int/>...<NL><color=grey>(На печать ломает, когда печать очков достигнет 0.)</color>",
       "status": "machine",
-      "srcHash": "4ec538dea6245db7",
+      "srcHash": "a8ecedad31c031c0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "aeef889c-46c6-48a9-a5f8-1fe891753a47/Option_1": {
       "en": "(Channel energy for a powerful kick...)",
@@ -186,11 +186,11 @@
     "43af5a5e-8822-4eb6-ae83-563bd6396829/EventContent": {
       "en": "On the cliff up front, a rare relic is blinking among the woods.<NL>Getting there is quite the challenge. Footwork and Kicking Arts are essential here...",
       "cn": "前方峭壁之上，隐约可见一处奇珍异宝，在林间光影中微微闪光，<NL>险峻之处，能否取得，全凭脚力与腿法造诣……",
-      "ru": "Впереди, на утесе, среди леса мерцает редкая Реликвия.<NL>Добраться туда довольно непросто. Здесь очень важна работа ног и Искусство ногами брыкаться...",
+      "ru": "На скале впереди, редкая реликвия мигает, среди лесов.<NL>Попасть туда довольно сложной задачей. Ног и искусство ног здесь необходима...",
       "status": "machine",
-      "srcHash": "145f5c4d2d463ab1",
+      "srcHash": "c3504823e7045b73",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "43af5a5e-8822-4eb6-ae83-563bd6396829/Option_1": {
       "en": "(Accept the challenge and get the relic...)",
@@ -213,11 +213,11 @@
     "6e7ad255-0921-4030-bacc-07a89d500b72/EventContent": {
       "en": "Lithe and nimble, excellent Kicking Arts becomes the best ally to scale the steep cliff and acquire the relic...",
       "cn": "闪转腾挪，借助腿法之妙，成功攀至峭壁，将宝物稳稳取下……",
-      "ru": "Гибкие и проворные, обладающие превосходным Искусством ног, они становятся лучшим союзником для того, чтобы взобраться на крутой утес и завладеть Реликвией...",
+      "ru": "Гибкая и проворная, отличный искусство ног становится лучшим союзником, чтобы масштабировать крутой скале и приобрести реликвия...",
       "status": "machine",
-      "srcHash": "2001d4763fbdc898",
+      "srcHash": "756f6ed590942c38",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "6e7ad255-0921-4030-bacc-07a89d500b72/Option_1": {
       "en": "...",
@@ -231,11 +231,11 @@
     "09032458-e25a-46c2-b63c-c67790318f6c/EventContent": {
       "en": "Lacking the necessary Kicking Arts level and Footwork, and the location is truly difficult to reach, the relic is lost. Nothing gained from this experience...",
       "cn": "腿法造诣尚浅，脚力不济，险处难以立足，宝物失手，一无所获……",
-      "ru": "Реликвия утеряна из-за отсутствия необходимого уровня Искусства ногами и работы ног, а также из-за того, что до места действительно труднодоступно. Этот опыт ничего не дал...",
+      "ru": "Отсутствуют необходимые искусство ног искусств и ног, и место действительно трудно достичь, реликвия утеряна. Этот опыт ничего не дал...",
       "status": "machine",
-      "srcHash": "7a74089f26181c63",
+      "srcHash": "6876e8d65f5b0967",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "09032458-e25a-46c2-b63c-c67790318f6c/Option_1": {
       "en": "...",
@@ -321,11 +321,11 @@
     "c0400c0d-15dd-481d-8277-ed4d55dc6cfc/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> studies the stele inscription and manipulates <Character key=RoleTaiwu str=GenderPossessive/> True Qi. Then, <Character key=RoleTaiwu str=GenderSubject/> records the Kicking Arts documented word by word. This turns out to be quite a lucrative adventure.",
       "cn": "<Character key=RoleTaiwu str=Name/>细读碑文，依法运转真气，将石碑所记腿法功法逐字抄录，收获颇丰……",
-      "ru": "<Character key=RoleTaiwu str=Name/> изучает надпись на стеле и манипулирует <Character key=RoleTaiwu str=GenderPossessive/> Истинная Ци. Затем, <Character key=RoleTaiwu str=GenderSubject/> записывает Искусство ногами, задокументированное слово за словом. Это оказывается довольно прибыльным приключением.",
+      "ru": "<Character key=RoleTaiwu str=Name/> изучает надпись на стеле и манипулирует <Character key=RoleTaiwu str=GenderPossessive/> Истинная Ци. Тогда, <Character key=RoleTaiwu str=GenderSubject/> записи в искусство ног документально слово в слово. Этого оказывается достаточно прибыльным приключением.",
       "status": "machine",
-      "srcHash": "c5129933322d2222",
+      "srcHash": "66255857a2aa2214",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "c0400c0d-15dd-481d-8277-ed4d55dc6cfc/Option_1": {
       "en": "...",
@@ -420,11 +420,11 @@
     "d83f1d38-c939-45a2-9e63-49b99a2c37c8/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> alerted the beast up front. <Character key=chara str=Name/> stares and at <Character key=RoleTaiwu str=GenderObject/> angrily, getting ready to attack...",
       "cn": "<Character key=RoleTaiwu str=Name/>惊动了前方的恶兽，<Character key=chara str=Name/>怒目圆睁，虎视眈眈……",
-      "ru": "<Character key=RoleTaiwu str=Name/> предупредил зверя впереди. <Character key=chara str=Name/> пристально смотрит и на <Character key=RoleTaiwu str=GenderObject/> сердито, готовясь к Атаке...",
+      "ru": "<Character key=RoleTaiwu str=Name/> предупредил зверя впереди. <Character key=chara str=Name/> смотрит и <Character key=RoleTaiwu str=GenderObject/> гневно, готовится атака...",
       "status": "machine",
-      "srcHash": "bbd61bccb46029f7",
+      "srcHash": "46d549b6a619f667",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "d83f1d38-c939-45a2-9e63-49b99a2c37c8/Option_1": {
       "en": "(Engage in battle...)",
@@ -474,11 +474,11 @@
     "d4008867-d44c-40ab-8d5a-dd8f5f71a414/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> skillfully maneuvered left and right,<NL>successfully avoiding <Character key=chara str=Name/>'s attack...",
       "cn": "<Character key=RoleTaiwu str=Name/>巧借身法，左右腾挪，<NL>成功地避开了<Character key=chara str=Name/>的袭击……",
-      "ru": "<Character key=RoleTaiwu str=Name/> умело маневрировал влево и вправо,<NL>успешно избегая <Character key=chara str=Name/>это Атака...",
+      "ru": "<Character key=RoleTaiwu str=Name/> умело маневрировал влево и вправо,<NL>успешно избегая <Character key=chara str=Name/>это атака...",
       "status": "machine",
-      "srcHash": "ede3e8ae072565ee",
+      "srcHash": "be4401bb298e08a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "d4008867-d44c-40ab-8d5a-dd8f5f71a414/Option_1": {
       "en": "(This is good...)",
@@ -492,11 +492,11 @@
     "66805237-95a8-475f-88e2-87fd1a269eab/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> seized a moment of opportunity to force his way through,<NL>successfully avoiding <Character key=chara str=Name/>'s attack...",
       "cn": "<Character key=RoleTaiwu str=Name/>趁敌不备，奋力横闯，<NL>成功地避开了<Character key=chara str=Name/>的袭击……",
-      "ru": "<Character key=RoleTaiwu str=Name/> воспользовался моментом, чтобы Мощью пробиться сквозь,<NL>успешно избегая <Character key=chara str=Name/>это Атака...",
+      "ru": "<Character key=RoleTaiwu str=Name/> воспользовался моментом, чтобы мощью пробиться сквозь,<NL>успешно избегая <Character key=chara str=Name/>это атака...",
       "status": "machine",
-      "srcHash": "57fbce1efacf8ebf",
+      "srcHash": "d7f971546ad0d845",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "66805237-95a8-475f-88e2-87fd1a269eab/Option_1": {
       "en": "(This is good...)",
@@ -510,11 +510,11 @@
     "d90ce2c6-adc4-41aa-b153-28ef4fbf5ae0/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> concentrated, moving silently and hidden,<NL>successfully avoiding <Character key=chara str=Name/>'s attack...",
       "cn": "<Character key=RoleTaiwu str=Name/>凝神屏息，隐匿潜行，<NL>成功地避开了<Character key=chara str=Name/>的袭击……",
-      "ru": "<Character key=RoleTaiwu str=Name/> сосредоточенный, двигающийся бесшумно и скрытно,<NL>успешно избегая <Character key=chara str=Name/>это Атака...",
+      "ru": "<Character key=RoleTaiwu str=Name/> сосредоточенный, двигающийся бесшумно и скрытно,<NL>успешно избегая <Character key=chara str=Name/>это атака...",
       "status": "machine",
-      "srcHash": "1da19bdc53fb11a7",
+      "srcHash": "97c3d3b3befb5ed3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "d90ce2c6-adc4-41aa-b153-28ef4fbf5ae0/Option_1": {
       "en": "(This is good...)",
@@ -654,11 +654,11 @@
     "1ebc2e6b-8813-4759-b3d2-7c044764155f/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> skillfully maneuvered left and right,<NL>successfully avoiding <Character key=chara str=Name/>'s attack...",
       "cn": "<Character key=RoleTaiwu str=Name/>巧借身法，左右腾挪，<NL>成功地避开了<Character key=chara str=Name/>的袭击……",
-      "ru": "<Character key=RoleTaiwu str=Name/> умело маневрировал влево и вправо,<NL>успешно избегая <Character key=chara str=Name/>это Атака...",
+      "ru": "<Character key=RoleTaiwu str=Name/> умело маневрировал влево и вправо,<NL>успешно избегая <Character key=chara str=Name/>это атака...",
       "status": "machine",
-      "srcHash": "ede3e8ae072565ee",
+      "srcHash": "be4401bb298e08a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "1ebc2e6b-8813-4759-b3d2-7c044764155f/Option_1": {
       "en": "(This is good...)",
@@ -674,9 +674,9 @@
       "cn": "<Character key=RoleTaiwu str=Name/>施展腿法，蓄力一击，<NL>成功击退了<Character key=chara str=Name/>……",
       "ru": "<Character key=RoleTaiwu str=Name/> использует <Character key=RoleTaiwu str=GenderPossessive/> Искусство ногами, чтобы<NL>успешно победить <Character key=chara str=Name/>...",
       "status": "machine",
-      "srcHash": "a38f8b096ba65f8b",
+      "srcHash": "9d885ff10523e207",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "379dd79b-270e-4885-a338-aad7efbdbe41/Option_1": {
       "en": "(That's good...)",
@@ -717,11 +717,11 @@
     "093d1138-acff-4ec9-9477-905d6464d84c/EventContent": {
       "en": "The opponent's onslaught rolls like an unending tide. <Character key=RoleTaiwu str=Name/> feels their strength waning. With a feint,<NL>they seizes the moment their foe pauses and leaps away, fleeing in haste...",
       "cn": "那人攻势如潮，<Character key=RoleTaiwu str=Name/>渐感不支，只得虚晃一招，<NL>趁其收势之际，纵身跃走，仓皇遁去……",
-      "ru": "Натиск противника накатывает подобно нескончаемому приливу. <Character key=RoleTaiwu str=Name/> чувствует, как убывают их Силы. С помощью ложного выпада,<NL>они улучают момент, когда их враг останавливается, и отпрыгивают в сторону, поспешно спасаясь бегством...",
+      "ru": "Натиск противника накатывает подобно нескончаемому приливу. <Character key=RoleTaiwu str=Name/> чувствует, как убывают их силы. С помощью ложного выпада,<NL>они улучают момент, когда их враг останавливается, и отпрыгивают в сторону, поспешно спасаясь бегством...",
       "status": "machine",
-      "srcHash": "73d96d9039bd6976",
+      "srcHash": "c35540903adc4c10",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "093d1138-acff-4ec9-9477-905d6464d84c/Option_1": {
       "en": "(Regretfully leave...)",
@@ -762,11 +762,11 @@
     "750c2450-eb2e-45d0-9aec-b164ee89bcd0/EventContent": {
       "en": "The Classics of the Unfettered, a Kicking Arts secret tome, lies here silently,<NL>waiting to be taken away by its destined master...",
       "cn": "《八埏至宝经》静静搁置于此，<NL>正等待有缘人将其取走……",
-      "ru": "Классика \"Раскрепощенного\", Тайный трактат по Искусству ног, безмолвно лежит здесь,<NL>ожидающий, когда его заберет предназначенный ему хозяин...",
+      "ru": "Классика \"Раскрепощенного\", тайный трактат по искусству ног, безмолвно лежит здесь,<NL>ожидающий, когда его заберет предназначенный ему хозяин...",
       "status": "machine",
-      "srcHash": "149e65dc90d383ca",
+      "srcHash": "4eb58beb176ea692",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "750c2450-eb2e-45d0-9aec-b164ee89bcd0/Option_1": {
       "en": "(Take the secret tome...)",
@@ -825,11 +825,11 @@
     "0c2fd332-f7d1-4e22-bbb6-689ae09f83c7/EventContent": {
       "en": "An elder stands among the trees, bamboo staff in hand. Seeing <Character key=RoleTaiwu str=Name/> approach, they tap the staff on the ground and say:<NL>\"This mountain hides the ancient secret tome, Classics of the Unfettered. Recently, the spiritual Qi has stirred—a sign the tome is about to emerge.<NL>But traps ring it round, and strong warriors from every direction are already drawn here.<NL>To claim it, you must first grasp the true rhythm of Kicking Arts.\"",
       "cn": "老者持竹杖立于林间，见<Character key=RoleTaiwu str=Name/>行来，竹杖点地，道：<NL>“此山藏有上古奇书《八埏至宝经》，近日灵气异动，正是出世之兆。<NL>然书周遭有重重陷阱，各路强者闻风而至。<NL>欲取此书，需先悟透腿法节奏之真谛。”",
-      "ru": "Старейшина стоит среди деревьев с бамбуковым Посохом в руке. Видя <Character key=RoleTaiwu str=Name/> подходя, они постукивают Посохом по земле и говорят:<NL>- Эта гора скрывает древний Тайный трактат, классику \"Освобожденных\". Недавно духовная Ци зашевелилась — признак того, что том вот-вот появится.<NL>Но его окружают ловушки, и сюда уже стягиваются сильные воины со всех сторон.<NL>Чтобы претендовать на это, вы должны сначала постичь истинный ритм Искусства ногами\".",
+      "ru": "Старейшина стоит среди деревьев с бамбуковым посохом в руке. Видя <Character key=RoleTaiwu str=Name/> подходя, они постукивают посохом по земле и говорят:<NL>- Эта гора скрывает древний тайный трактат, классику \"Освобожденных\". Недавно духовная ци зашевелилась — признак того, что том вот-вот появится.<NL>Но его окружают ловушки, и сюда уже стягиваются сильные воины со всех сторон.<NL>Чтобы претендовать на это, вы должны сначала постичь истинный ритм искусства ногами\".",
       "status": "machine",
-      "srcHash": "801e7168eec4e61e",
+      "srcHash": "6c2bf50cd9db7172",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "0c2fd332-f7d1-4e22-bbb6-689ae09f83c7/Option_1": {
       "en": "(Go ask about it...)",
@@ -843,11 +843,11 @@
     "3fcd118f-d817-4dd1-b02e-24749d1d4c0a/EventContent": {
       "en": "The old man stands with hands behind his back:<NL>\"The aura here is treacherous; when walking, the weight underfoot is irregular. The seal cannot be broken without powerful Kicking Arts.<NL>I have a few techniques that can help you move flexibly and gain timely benefits to get through the difficulties.\"",
       "cn": "老者负手而立：<NL>“此地气场诡谲，行走时脚下轻重无常。封印非强力腿法不可破。<NL>我有几式招式，可助你灵活移动、适时获取增益，以渡难关。”",
-      "ru": "Старик стоит, заложив руки за спину:<NL>- Здешняя аура предательская; при ходьбе вес под ногами нерегулярен. Печать не может быть сломана без мощного Искусства ногами.<NL>У меня есть несколько приемов, которые помогут вам действовать гибко и получать своевременную выгоду, чтобы преодолеть трудности\".",
+      "ru": "Старик стоит, заложив руки за спину:<NL>- Здешняя аура предательская; при ходьбе вес под ногами нерегулярен. Печать не может быть сломана без мощного искусства ногами.<NL>У меня есть несколько приемов, которые помогут вам действовать гибко и получать своевременную выгоду, чтобы преодолеть трудности\".",
       "status": "machine",
-      "srcHash": "ff1a509130800290",
+      "srcHash": "503054301b8917aa",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "3fcd118f-d817-4dd1-b02e-24749d1d4c0a/Option_1": {
       "en": "(Ask about the Vigorous Force Front Kick...)",
@@ -897,11 +897,11 @@
     "08399aba-a12f-4214-8b1a-85a6deda39fa/EventContent": {
       "en": "The old man gathers his Qi and lifts a leg, the wind of his palm setting the ground atremble:<NL>“This is the unyielding force of Kicking Arts—like a fierce tiger charging downhill, heavy as a thousand jun.<NL>Stamp the ground with this force to enter the ‘Earth-Shaking’ stance, and only then may you tread upon thorny ground.”<NL><color=#lightgrey>Both may expend Stamina to use it; after use, move two tiles forward.</color>",
       "cn": "老者运气提腿，掌风带动地面微颤：<NL>“此为腿法刚劲，如猛虎下山，重若千钧。<NL>以此劲踏地，可入‘撼地’之态，方能行于荆棘之地。”<NL><color=#lightgrey>脚力为二者可施展，施后向前移动二格。</color>",
-      "ru": "Старик собирает свою Ци и поднимает ногу, ветер от его ладони заставляет землю дрожать:<NL>“Это несгибаемая Мощь Искусства ног — как свирепый тигр, несущийся вниз по склону, тяжелый, как тысяча джунов.<NL>Топните по земле с такой Мощью, чтобы принять Стойку \"Сотрясающий землю\", и только тогда вы сможете ступить на тернистую почву”.<NL><color=#lightgrey>Оба могут потратить Выносливость, чтобы использовать его; после использования передвиньте две плитки вперед.</color>",
+      "ru": "Старик собирает свою Ци и поднимает ногу, ветер от его ладони заставляет землю дрожать:<NL>“Это несгибаемая мощь искусства ног — как свирепый тигр, несущийся вниз по склону, тяжелый, как тысяча джунов.<NL>Топните по земле с такой мощью, чтобы принять стойку \"Сотрясающий землю\", и только тогда вы сможете ступить на тернистую почву”.<NL><color=#lightgrey>Оба могут потратить выносливость, чтобы использовать его; после использования передвиньте две плитки вперед.</color>",
       "status": "machine",
-      "srcHash": "692fb8d09fbfbb6b",
+      "srcHash": "ad1a1677c6e78708",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "08399aba-a12f-4214-8b1a-85a6deda39fa/Option_1": {
       "en": "Thank you for your guidance!",
@@ -915,11 +915,11 @@
     "8f88e690-81f5-488b-bfd7-b06dbf075d13/EventContent": {
       "en": "The elder darts like a swallow, launching a chain of kicks:<NL>\"Left is Yin, right is Yang. Your steps follow your will. Yin kick—dart left. Yang kick—shoot right.<NL>Light, swift footwork earns the 'Dexterity' stance—the key to escaping a serpent swarm.\"<NL><color=#lightgrey>Rapid Force Side Kick · Yin: moves left 2 tiles. Rapid Force Side Kick · Yang: moves right 2 tiles.</color>",
       "cn": "老者身形腾挪，连环踢出，身姿如燕：<NL>“左阴右阳，步法随心。出阴踢则左移，施阳踢则右掠。<NL>脚力轻捷可入‘迅疾’之态，方能于蛇群中逃生。”<NL><color=#lightgrey>迅力侧踢·阴向左移二格，迅力侧踢·阳向右移二格</color>",
-      "ru": "Старший несется, как ласточка, нанося цепочку ударов:<NL>\"Левое - это Инь, правое - Ян. Ваши шаги следуют вашей воле. Удар Инь — дротик влево. Удар Ян — удар справа.<NL>Легкая, быстрая работа ног обеспечивает Стойку \"Стремительность\" — ключ к спасению от змеиного роя.\"<NL><color=#lightgrey>Боковой удар быстрой Мощи · Инь: перемещает 2 плитки влево. Боковой удар быстрой Мощи · Ян: перемещает вправо 2 плитки.</color>",
+      "ru": "Старший несется, как ласточка, нанося цепочку ударов:<NL>\"Левое - это Инь, правое - Ян. Ваши шаги следуют вашей воле. Удар Инь — дротик влево. Удар Ян — удар справа.<NL>Легкая, быстрая работа ног обеспечивает стойку \"Стремительность\" — ключ к спасению от змеиного роя.\"<NL><color=#lightgrey>Боковой удар быстрой мощи · Инь: перемещает 2 плитки влево. Боковой удар быстрой мощи · Ян: перемещает вправо 2 плитки.</color>",
       "status": "machine",
-      "srcHash": "92e42070b3b1757e",
+      "srcHash": "bbaf7b6b4bc9e9c5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "8f88e690-81f5-488b-bfd7-b06dbf075d13/Option_1": {
       "en": "Thank you for your guidance!",
@@ -933,11 +933,11 @@
     "099c02b9-03a5-4ed0-a540-1fd7df7ca5ec/EventContent": {
       "en": "The elder spins into a roundhouse kick, their steps smooth as drifting clouds:<NL>\"Twist, shift, and kick with the turn—this lets you retreat several paces with ease.<NL>By finely calibrating your Footwork and precisely controlling your force, you enter the 'Precision' stance—the key to moving unhindered through mud.\"<NL><color=#lightgrey>Requires Footwork 3. Moves back 2 tiles.</color>",
       "cn": "老者身形一转，踢出回旋，步法如行云：<NL>“闪转腾挪，回旋巧踢，可从容退避数尺。<NL>脚力收发自如、精准控劲，可入‘精妙’之态，方能在淤泥中行动自如。”<NL><color=#lightgrey>脚力为三者施展后可向后移动二格。</color>",
-      "ru": "Старший разворачивается для удара с разворота, их шаги плавны, как плывущие облака:<NL>\"Поворот, смещение и удар ногой с разворота — это позволяет вам с легкостью отступить на несколько шагов.<NL>Тонко выверяя работу ног и точно контролируя свою Мощь, вы принимаете Стойку \"Точность\" — ключ к беспрепятственному передвижению по грязи.\"<NL><color=#lightgrey>Требуется работа ногами 3. Отодвигает назад 2 плитки.</color>",
+      "ru": "Старший разворачивается для удара с разворота, их шаги плавны, как плывущие облака:<NL>\"Поворот, смещение и удар ногой с разворота — это позволяет вам с легкостью отступить на несколько шагов.<NL>Тонко выверяя работу ног и точно контролируя свою мощь, вы принимаете стойку \"Точность\" — ключ к беспрепятственному передвижению по грязи.\"<NL><color=#lightgrey>Требуется работа ногами 3. Отодвигает назад 2 плитки.</color>",
       "status": "machine",
-      "srcHash": "3386684a2638fd81",
+      "srcHash": "d79cfec40e204dd0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "099c02b9-03a5-4ed0-a540-1fd7df7ca5ec/Option_1": {
       "en": "Thank you for your guidance!",
@@ -951,11 +951,11 @@
     "22fa3174-be03-4a37-a654-88473b3d2809/EventContent": {
       "en": "The land covered in thorns injured <Character key=RoleTaiwu str=Name/>...<NL><color=grey>(This event can be avoided while in the Earth-Shaking stance)</color>",
       "cn": "遍地荆棘刺伤了<Character key=RoleTaiwu str=Name/>……<NL><color=grey>（处于撼地姿态可避免此事件）</color>",
-      "ru": "Земля, покрытая колючками, изранена <Character key=RoleTaiwu str=Name/>...<NL><color=grey>(Этого события можно избежать, находясь в сотрясающей землю Стойке)</color>",
+      "ru": "Земля, покрытая колючками, изранена <Character key=RoleTaiwu str=Name/>...<NL><color=grey>(Этого события можно избежать, находясь в сотрясающей землю стойке)</color>",
       "status": "machine",
-      "srcHash": "0ea4c00eb6f897f8",
+      "srcHash": "9ec519f2885fcedf",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "22fa3174-be03-4a37-a654-88473b3d2809/Option_1": {
       "en": "(Press on through the thorns, enduring the wounds...)",
@@ -969,11 +969,11 @@
     "6626d89d-599b-4bcf-9843-a7756f733463/EventContent": {
       "en": "The swamp makes it harder for <Character key=RoleTaiwu str=Name/> to advance. Energy cost is increased...<NL><color=grey>(This event can be avoided while in the Accuracy stance)",
       "cn": "沼泽泥泞阻碍<Character key=RoleTaiwu str=Name/>的前进，精力消耗增加……<NL><color=grey>（处于精妙姿态可避免此事件）",
-      "ru": "Болото усложняет задачу для <Character key=RoleTaiwu str=Name/> продвигаться вперед. Затраты на Энергию увеличиваются...<NL><color=grey>(Этого события можно избежать, находясь в Стойке точности)",
+      "ru": "Болото усложняет задачу для <Character key=RoleTaiwu str=Name/> продвигаться вперед. Затраты на энергию увеличиваются...<NL><color=grey>(Этого события можно избежать, находясь в стойке точности)",
       "status": "machine",
-      "srcHash": "a33181f88a151d98",
+      "srcHash": "9f19a42af5993c2e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "6626d89d-599b-4bcf-9843-a7756f733463/Option_1": {
       "en": "(Struggling forward...)",
@@ -987,11 +987,11 @@
     "61542119-1d07-4711-be96-2579a564227a/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> startled the snakes, triggering a snake attack...<NL><color=grey>(This event can be avoided while in the Dexterity stance)",
       "cn": "<Character key=RoleTaiwu str=Name/>惊动了蛇群，遭到了蛇群攻击……<NL><color=grey>（处于迅疾姿态可避免此事件）",
-      "ru": "<Character key=RoleTaiwu str=Name/> напугал змей, вызвав змеиную Атаку...<NL><color=grey>(Этого события можно избежать, находясь в Стойке \"Стремительность\")",
+      "ru": "<Character key=RoleTaiwu str=Name/> напугал змей, вызвав змеиную атаку...<NL><color=grey>(Этого события можно избежать, находясь в стойке \"стремительность\")",
       "status": "machine",
-      "srcHash": "4a77786f92f165f6",
+      "srcHash": "c1db956c4e7901f5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "61542119-1d07-4711-be96-2579a564227a/Option_1": {
       "en": "(Press on through the thorns, enduring the wounds...)",
@@ -1005,11 +1005,11 @@
     "bbc99915-0f4e-440a-a49e-710e4f73044a/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> breaks the seal,<NL>revealing the treasure chest concealed behind...",
       "cn": "<Character key=RoleTaiwu str=Name/>击破封印，<NL>发现了隐藏其后的宝箱……",
-      "ru": "<Character key=RoleTaiwu str=Name/> ломает Печать,<NL>открывая спрятанный за ним сундук с сокровищами...",
+      "ru": "<Character key=RoleTaiwu str=Name/> ломает печать,<NL>открывая спрятанный за ним сундук с сокровищами...",
       "status": "machine",
-      "srcHash": "4ddece72ed6a436d",
+      "srcHash": "f8f4bc9deae914a7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "bbc99915-0f4e-440a-a49e-710e4f73044a/Option_1": {
       "en": "(Open the chest...)",
@@ -1041,11 +1041,11 @@
     "c5c7e163-61d5-4735-9028-71459924bd40/EventContent": {
       "en": "The elder stands still. The bamboo staff knocks on the ground again. As <Character key=RoleTaiwu str=Name/> approaches again, the elder nods.<NL>\"The aura of this place is weird. Each step weighs differently.<NL>Breaking the seal on this place takes the strongest Footwork.<NL>You may come to me for any questions you have.\"",
       "cn": "老者依旧立于原处，竹杖轻叩地面，见<Character key=RoleTaiwu str=Name/>再度前来，点头道：<NL>“此地气场诡谲，每一步脚下感受到的重量都不相同，<NL>此地的封印需最强力的腿法才可击破，<NL>有何不解，尽管来问。”",
-      "ru": "Старейшина стоит неподвижно. Бамбуковый Посох снова стучит по земле. Как <Character key=RoleTaiwu str=Name/> снова приближается, старейшина кивает.<NL>\"Аура этого места странная. Каждый шаг весит по-разному.<NL>Чтобы сломать Печать на этом месте, требуется самая сильная работа ногами.<NL>Вы можете обращаться ко мне с любыми вопросами, которые у вас возникнут.\"",
+      "ru": "Старейшина стоит неподвижно. Бамбуковый посох снова стучит по земле. Как <Character key=RoleTaiwu str=Name/> снова приближается, старейшина кивает.<NL>\"Аура этого места странная. Каждый шаг весит по-разному.<NL>Чтобы сломать печать на этом месте, требуется самая сильная работа ногами.<NL>Вы можете обращаться ко мне с любыми вопросами, которые у вас возникнут.\"",
       "status": "machine",
-      "srcHash": "640f3b0be5de7c23",
+      "srcHash": "2cb0254ea7890955",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "c5c7e163-61d5-4735-9028-71459924bd40/Option_1": {
       "en": "(Ask about the Vigorous Force Front Kick...)",
@@ -1122,11 +1122,11 @@
     "9332aea3-ac79-462d-bc48-06f42c940d99/EventContent": {
       "en": "The secret tome has appeared. Be wary—others will come to snatch it.<NL>It is best to leave swiftly...",
       "cn": "奇书出世，需提防前来争夺之人，<NL>眼下最好速速离开……",
-      "ru": "Появился Тайный трактат. Будьте осторожны — другие придут, чтобы забрать его.<NL>Лучше всего поскорее уйти...",
+      "ru": "Появился тайный трактат. Будьте осторожны — другие придут, чтобы забрать его.<NL>Лучше всего поскорее уйти...",
       "status": "machine",
-      "srcHash": "9976caeef1e3f705",
+      "srcHash": "876f2bc98070b86c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "9332aea3-ac79-462d-bc48-06f42c940d99/Option_1": {
       "en": "(Make a swift escape...)",
@@ -1140,11 +1140,11 @@
     "2ee7e803-6de7-4437-9809-3f3ef51925f1/EventContent": {
       "en": "The old man's expression turned serious, he said in a deep voice:<NL>\"The Seal is impassable. The secret tome is sealed in the deepest part,<NL>and the Seal is even stronger. It needs to be broken multiple times to shatter completely,<NL>but the Seal has existed for a long time, there may be threats hidden behind it. Be careful...\"",
       "cn": "老者神色一正，沉声道：<NL>“封印不可通行，奇书被封印在最深处，<NL>封印也更加强大，需要多次击破才能彻底击碎，<NL>不过封印存在已久，恐有威胁隐藏其后，可要小心了……”",
-      "ru": "Выражение лица старика стало серьезным, и он сказал глубоким голосом:<NL>- Печать непроходима. Тайный трактат запечатан Печатью в самой глубокой части,<NL>и Печать становится еще прочнее. Его нужно разбить несколько раз, чтобы он полностью разбился,<NL>но Печать существует уже давно, за ней могут скрываться угрозы. Будь осторожен...\"",
+      "ru": "Выражение лица старика стало серьезным, и он сказал глубоким голосом:<NL>- Печать непроходима. Тайный трактат запечатан печатью в самой глубокой части,<NL>и печать становится еще прочнее. Его нужно разбить несколько раз, чтобы он полностью разбился,<NL>но печать существует уже давно, за ней могут скрываться угрозы. Будь осторожен...\"",
       "status": "machine",
-      "srcHash": "3500883a88e847d3",
+      "srcHash": "1261a61a4790e959",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "2ee7e803-6de7-4437-9809-3f3ef51925f1/Option_1": {
       "en": "(I'm already aware...)",
@@ -1167,11 +1167,11 @@
     "4f7666e6-3015-4f35-8374-e8fcfb380de9/EventContent": {
       "en": "The old man's expression turned serious, he said in a deep voice:<NL>\"The Seal is impassable. The secret tome is sealed in the deepest part,<NL>and the Seal is even stronger. It needs to be broken multiple times to shatter completely,<NL>but the Seal has existed for a long time, there may be threats hidden behind it. Be careful...\"",
       "cn": "老者神色一正，沉声道：<NL>“封印不可通行，奇书被封印在最深处，<NL>封印也更加强大，需要多次击破才能彻底击碎，<NL>不过封印存在已久，恐有威胁隐藏其后，可要小心了……”",
-      "ru": "Выражение лица старика стало серьезным, и он сказал глубоким голосом:<NL>- Печать непроходима. Тайный трактат запечатан Печатью в самой глубокой части,<NL>и Печать становится еще прочнее. Его нужно разбить несколько раз, чтобы он полностью разбился,<NL>но Печать существует уже давно, за ней могут скрываться угрозы. Будь осторожен...\"",
+      "ru": "Выражение лица старика стало серьезным, и он сказал глубоким голосом:<NL>- Печать непроходима. Тайный трактат запечатан печатью в самой глубокой части,<NL>и печать становится еще прочнее. Его нужно разбить несколько раз, чтобы он полностью разбился,<NL>но печать существует уже давно, за ней могут скрываться угрозы. Будь осторожен...\"",
       "status": "machine",
-      "srcHash": "3500883a88e847d3",
+      "srcHash": "1261a61a4790e959",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "4f7666e6-3015-4f35-8374-e8fcfb380de9/Option_1": {
       "en": "(I'm already aware...)",
@@ -1302,11 +1302,11 @@
     "44809d18-376d-4ec6-b61e-b1683c861f92/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> attempted to avoid <Character key=chara str=Name/>'s attack, but failed...<NL><color=grey>(Higher Pure Essence increases escape success rate...)</color>",
       "cn": "<Character key=RoleTaiwu str=Name/>试图避开<Character key=chara str=Name/>的袭击，但失败了……<NL><color=grey>（精纯越高，逃跑成功率越高……）</color>",
-      "ru": "<Character key=RoleTaiwu str=Name/> пытался избежать <Character key=chara str=Name/>это была Атака, но безуспешная...<NL><color=grey>(Более высокая Чистая эссенция увеличивает вероятность успешного побега...)</color>",
+      "ru": "<Character key=RoleTaiwu str=Name/> пытался избежать <Character key=chara str=Name/>это была атака, но безуспешная...<NL><color=grey>(Более высокая чистая эссенция увеличивает вероятность успешного побега...)</color>",
       "status": "machine",
-      "srcHash": "742baa7b7f5ec8cb",
+      "srcHash": "639bb6625fe9b494",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "44809d18-376d-4ec6-b61e-b1683c861f92/Option_1": {
       "en": "(Confront the enemy...)",
@@ -1320,11 +1320,11 @@
     "a0bef0a8-8eeb-42fe-b598-ee33d20a5064/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> seized a moment of opportunity to force his way through,<NL>successfully avoiding <Character key=chara str=Name/>'s attack...",
       "cn": "<Character key=RoleTaiwu str=Name/>趁敌不备，奋力横闯，<NL>成功地避开了<Character key=chara str=Name/>的袭击……",
-      "ru": "<Character key=RoleTaiwu str=Name/> воспользовался моментом, чтобы Мощью пробиться сквозь,<NL>успешно избегая <Character key=chara str=Name/>это Атака...",
+      "ru": "<Character key=RoleTaiwu str=Name/> воспользовался моментом, чтобы мощью пробиться сквозь,<NL>успешно избегая <Character key=chara str=Name/>это атака...",
       "status": "machine",
-      "srcHash": "57fbce1efacf8ebf",
+      "srcHash": "d7f971546ad0d845",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "a0bef0a8-8eeb-42fe-b598-ee33d20a5064/Option_1": {
       "en": "(This is good...)",
@@ -1338,11 +1338,11 @@
     "b3fb9ffe-4c5a-4e5a-88cc-3547e623a57e/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> skillfully maneuvered left and right,<NL>successfully avoiding <Character key=chara str=Name/>'s attack...",
       "cn": "<Character key=RoleTaiwu str=Name/>巧借身法，左右腾挪，<NL>成功地避开了<Character key=chara str=Name/>的袭击……",
-      "ru": "<Character key=RoleTaiwu str=Name/> умело маневрировал влево и вправо,<NL>успешно избегая <Character key=chara str=Name/>это Атака...",
+      "ru": "<Character key=RoleTaiwu str=Name/> умело маневрировал влево и вправо,<NL>успешно избегая <Character key=chara str=Name/>это атака...",
       "status": "machine",
-      "srcHash": "ede3e8ae072565ee",
+      "srcHash": "be4401bb298e08a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "b3fb9ffe-4c5a-4e5a-88cc-3547e623a57e/Option_1": {
       "en": "(This is good...)",
@@ -1356,11 +1356,11 @@
     "1e227b6a-d4fe-4846-99fc-4ed7f09d5c85/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> concentrated, moving silently and hidden,<NL>successfully avoiding <Character key=chara str=Name/>'s attack...",
       "cn": "<Character key=RoleTaiwu str=Name/>凝神屏息，隐匿潜行，<NL>成功地避开了<Character key=chara str=Name/>的袭击……",
-      "ru": "<Character key=RoleTaiwu str=Name/> сосредоточенный, двигающийся бесшумно и скрытно,<NL>успешно избегая <Character key=chara str=Name/>это Атака...",
+      "ru": "<Character key=RoleTaiwu str=Name/> сосредоточенный, двигающийся бесшумно и скрытно,<NL>успешно избегая <Character key=chara str=Name/>это атака...",
       "status": "machine",
-      "srcHash": "1da19bdc53fb11a7",
+      "srcHash": "97c3d3b3befb5ed3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "1e227b6a-d4fe-4846-99fc-4ed7f09d5c85/Option_1": {
       "en": "(This is good...)",
@@ -1464,11 +1464,11 @@
     "65669539-649b-4083-85ae-733af2dc0a39/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> strikes the seal—it trembles a little...<NL>Current Seal Points: <ArgBox key=HP type=int/>...",
       "cn": "<Character key=RoleTaiwu str=Name/>击向封印，封印些微松动……<NL>当前封印值：<ArgBox key=HP type=int/>……",
-      "ru": "<Character key=RoleTaiwu str=Name/> ударяет по Печати — она немного дрожит...<NL>Текущие точки Печати: <ArgBox key=HP type=int/>...",
+      "ru": "<Character key=RoleTaiwu str=Name/> ударяет по печати — она немного дрожит...<NL>Текущие точки печати: <ArgBox key=HP type=int/>...",
       "status": "machine",
-      "srcHash": "d4af62c02ac4ab92",
+      "srcHash": "e0e7a78056689d39",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "65669539-649b-4083-85ae-733af2dc0a39/Option_1": {
       "en": "(This is good...)",
@@ -1482,11 +1482,11 @@
     "af309992-036c-45e4-b0b5-a3dd12e5c7db/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> strikes the seal—it trembles a little...<NL>Current Seal Points: <ArgBox key=HP type=int/>...",
       "cn": "<Character key=RoleTaiwu str=Name/>击向封印，封印些微松动……<NL>当前封印值：<ArgBox key=HP type=int/>……",
-      "ru": "<Character key=RoleTaiwu str=Name/> ударяет по Печати — она немного дрожит...<NL>Текущие точки Печати: <ArgBox key=HP type=int/>...",
+      "ru": "<Character key=RoleTaiwu str=Name/> ударяет по печати — она немного дрожит...<NL>Текущие точки печати: <ArgBox key=HP type=int/>...",
       "status": "machine",
-      "srcHash": "d4af62c02ac4ab92",
+      "srcHash": "e0e7a78056689d39",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "af309992-036c-45e4-b0b5-a3dd12e5c7db/Option_1": {
       "en": "(This is good...)",
@@ -1536,11 +1536,11 @@
     "71871c0f-eabb-46e3-b053-b6e7731f9d3d/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> firmly plants their feet, avoiding the influence of the strong wind...",
       "cn": "<Character key=RoleTaiwu str=Name/>极力站定，没有受到强风影响……",
-      "ru": "<Character key=RoleTaiwu str=Name/> твердо расставляют ноги, избегая Влияния сильного ветра...",
+      "ru": "<Character key=RoleTaiwu str=Name/> твердо расставляют ноги, избегая влияния сильного ветра...",
       "status": "machine",
-      "srcHash": "5d071e152cb5cc35",
+      "srcHash": "0a4afd0811c7f947",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "71871c0f-eabb-46e3-b053-b6e7731f9d3d/Option_1": {
       "en": "(This is good...)",
@@ -1644,11 +1644,11 @@
     "145512ec-6cbf-4783-ad4e-39ecdef97e02/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> defeats <Character key=chara str=Name/> in the debate!<NL>Impressed by <Character key=RoleTaiwu str=Name/>'s fine arts, <Character key=chara str=Name/> loses heart and departs after coughing up blood...",
       "cn": "<Character key=RoleTaiwu str=Name/>在较艺中胜过了<Character key=chara str=Name/>!<NL><Character key=chara str=Name/>被<Character key=RoleTaiwu str=Name/>的技艺折服，最终心灰意冷，呕血而去……",
-      "ru": "<Character key=RoleTaiwu str=Name/> поражения <Character key=chara str=Name/> в Диспуте!<NL>Впечатленный <Character key=RoleTaiwu str=Name/>Ремесла, <Character key=chara str=Name/> падает духом и уходит, откашлявшись кровью...",
+      "ru": "<Character key=RoleTaiwu str=Name/> поражения <Character key=chara str=Name/> в диспуте!<NL>Впечатленный <Character key=RoleTaiwu str=Name/>ремесла, <Character key=chara str=Name/> падает духом и уходит, откашлявшись кровью...",
       "status": "machine",
-      "srcHash": "6070c66e25e4897e",
+      "srcHash": "9f3e35e0a4de882e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "145512ec-6cbf-4783-ad4e-39ecdef97e02/Option_1": {
       "en": "(This is good...)",
@@ -1662,11 +1662,11 @@
     "6b9f056a-5d97-4ce6-86dd-e13a5895668f/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> failed to persuade <Character key=chara str=Name/>.<NL>Rendered speechless, cold sweat streamed down their face.<NL>Growing impatient, <Character key=chara str=Name/> immediately launched another attack at <Character key=RoleTaiwu str=Name/>!",
       "cn": "<Character key=RoleTaiwu str=Name/>未能说服<Character key=chara str=Name/>，<NL>不由哑口无言，冷汗直流，<NL><Character key=chara str=Name/>见状颇为不耐，转眼又向<Character key=RoleTaiwu str=Name/>袭来！",
-      "ru": "<Character key=RoleTaiwu str=Name/> не удалось убедить <Character key=chara str=Name/>.<NL>Лишившись дара речи, холодный пот струился по их лицам.<NL>Растущее нетерпение, <Character key=chara str=Name/> немедленно предпринял еще одну Атаку на <Character key=RoleTaiwu str=Name/>!",
+      "ru": "<Character key=RoleTaiwu str=Name/> не удалось убедить <Character key=chara str=Name/>.<NL>Лишившись дара речи, холодный пот струился по их лицам.<NL>Растущее нетерпение, <Character key=chara str=Name/> немедленно предпринял еще одну атаку на <Character key=RoleTaiwu str=Name/>!",
       "status": "machine",
-      "srcHash": "83e27262ca1536b3",
+      "srcHash": "a995eadf377bf037",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "6b9f056a-5d97-4ce6-86dd-e13a5895668f/Option_1": {
       "en": "(Engage in battle...)",

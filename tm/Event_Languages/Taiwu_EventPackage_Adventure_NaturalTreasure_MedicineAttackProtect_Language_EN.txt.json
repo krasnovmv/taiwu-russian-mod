@@ -15,11 +15,11 @@
     "adc83cd9-c2b6-4649-a363-8e4f1649cf25/EventContent": {
       "en": "Suddenly a figure charges in, though it is <Character key=Enemy str=Name/>, its aura feels discordant at first sight.<NL>Upon closer sniff, a rich medicinal scent lingers around it, presumably it was originally a herbal spirit,<NL>only due to external influence has it become an intruding enemy,<NL>Those well-versed in medical arts know all herbs, and can naturally discern its origin with Medical Art.<NL><NL>(Continuous identification in a short time will increase the Attainment requirement, current required Attainment for identification: <ArgBox key=造诣需求 type=int/>)",
       "cn": "忽见一道身影奔袭而来，虽是<Character key=Enemy str=Name/>，初见便觉气息违和。<NL>细嗅之下，有浓郁药气萦绕其身，想来本是草木灵材，<NL>只因外力作祟，才沦为来犯之敌，<NL>深谙医道者通晓百草，自可以医术辨其根底。<NL><NL>（短时间内连续辨识将会导致造诣需求提高，当前辨识所需造诣：<ArgBox key=造诣需求 type=int/>）",
-      "ru": "Внезапно в комнату врывается фигура, хотя это <Character key=Enemy str=Name/> На первый взгляд его аура кажется диссонирующей.<NL>При ближайшем рассмотрении вокруг него витает насыщенный лекарственный аромат, предположительно, изначально это был травяной Дух,<NL>только благодаря внешнему Влиянию она превратилась в вторгшегося врага,<NL>Те, кто хорошо разбирается в медицине, знают все Травы и, естественно, могут определить их происхождение с помощью медицинского искусства.<NL><NL>(Непрерывная идентификация в течение короткого времени увеличит требования к достижению, текущее требуемое достижение для идентификации: <ArgBox key=造诣需求 type=int/>)",
+      "ru": "Внезапно в комнату врывается фигура, хотя это <Character key=Enemy str=Name/> На первый взгляд его аура кажется диссонирующей.<NL>При ближайшем рассмотрении вокруг него витает насыщенный лекарственный аромат, предположительно, изначально это был травяной дух,<NL>только благодаря внешнему влиянию она превратилась в вторгшегося врага,<NL>Те, кто хорошо разбирается в медицине, знают все травы и, естественно, могут определить их происхождение с помощью медицинского искусства.<NL><NL>(Непрерывная идентификация в течение короткого времени увеличит требования к достижению, текущее требуемое достижение для идентификации: <ArgBox key=造诣需求 type=int/>)",
       "status": "machine",
-      "srcHash": "d5e12920813d55c8",
+      "srcHash": "9159a5f4fe0e49cb",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "adc83cd9-c2b6-4649-a363-8e4f1649cf25/Option_1": {
       "en": "(Identify the medicinal herbs...)",
@@ -78,11 +78,11 @@
     "6173e4cc-5e2d-43b6-b164-aef4244026fc/EventContent": {
       "en": "If the <color=#orange>Mist Stone</color> here is destroyed, the fog shrouding this place may be dispelled.<NL>Yet the stone carries a sinister power and seems capable of turning nearby herbs into <color=#orange>Xiangshu Underlings</color>.<NL>Attempting to clear the mist will surely provoke their retaliation.",
       "cn": "若将此处的<color=#orange>迷雾石</color>摧毁，便可驱散此地迷雾，<NL>然此石邪异，似会将周遭草药幻化为<color=#orange>相枢爪牙</color>，<NL>清除迷雾之际，必会招致其反击。",
-      "ru": "Если бы <color=#orange>Туманный камень</color> здесь все разрушено, туман, окутывающий это место, может быть рассеян.<NL>Тем не менее, камень обладает зловещей силой и, кажется, способен превращать близлежащие Травы в <color=#orange>Подчиненные Сяншу</color>.<NL>Попытка рассеять туман, несомненно, спровоцирует их ответные действия.",
+      "ru": "Если бы <color=#orange>Туманный камень</color> здесь все разрушено, туман, окутывающий это место, может быть рассеян.<NL>Тем не менее, камень обладает зловещей силой и, кажется, способен превращать близлежащие травы в <color=#orange>Подчиненные Сяншу</color>.<NL>Попытка рассеять туман, несомненно, спровоцирует их ответные действия.",
       "status": "machine",
-      "srcHash": "834968144e028ae6",
+      "srcHash": "9bfb7ef97ca0bdd9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "6173e4cc-5e2d-43b6-b164-aef4244026fc/Option_1": {
       "en": "(Dispel the mist...)",
@@ -159,11 +159,11 @@
     "bf8b1245-8558-4616-9c9c-8a4c30ccd7c8/EventContent": {
       "en": "The land is covered in thick fog, which carries a sinister energy. Amid the mist, <Item key=奖励 str=ColorName/> hovers faintly, its true form impossible to discern.<NL>A Three-Eyed Xiao prowls nearby. Fierce and frightening in appearance, yet from its manner it seems hopelessly lost...<NL><NL>Several <color=#orange>Mist Stones</color> lie scattered throughout the area, each exuding streams of fog.<NL>The surrounding illusions seem to arise from these stones.<NL>If they can be destroyed, the mirages may fade and the beast may leave of its own accord.",
       "cn": "此地大雾漫空，晦气相侵，却有<Item key=奖励 str=ColorName/>浮于雾中，难辨真假，<NL>一头三眼魈逡巡其间，形貌狞恶可怖，观其行止，却似迷途……<NL><NL>周遭散落数枚散发迷雾的<color=#orange>迷雾石</color>，雾霭幻象皆由此而生，<NL>若能设法将其毁去，或能驱散周遭幻象，令那凶兽自离此处……",
-      "ru": "Земля покрыта густым туманом, который несет в себе зловещую Энергию. Среди тумана, <Item key=奖励 str=ColorName/> слабо парит, его истинную форму невозможно различить.<NL>Неподалеку бродит Трехглазый Сяо. Свирепый и пугающий на вид, но, судя по его поведению, он кажется безнадежно потерянным...<NL><NL>Несколько <color=#orange>Туманные камни</color> они разбросаны по всей округе, и от каждого исходят струйки тумана.<NL>Окружающие иллюзии, кажется, возникают из-за этих камней.<NL>Если их удастся уничтожить, миражи могут исчезнуть, и зверь может уйти по собственному желанию.",
+      "ru": "Земля покрыта густым туманом, который несет в себе зловещую энергию. Среди тумана, <Item key=奖励 str=ColorName/> слабо парит, его истинную форму невозможно различить.<NL>Неподалеку бродит Трехглазый Сяо. Свирепый и пугающий на вид, но, судя по его поведению, он кажется безнадежно потерянным...<NL><NL>Несколько <color=#orange>Туманные камни</color> они разбросаны по всей округе, и от каждого исходят струйки тумана.<NL>Окружающие иллюзии, кажется, возникают из-за этих камней.<NL>Если их удастся уничтожить, миражи могут исчезнуть, и зверь может уйти по собственному желанию.",
       "status": "machine",
-      "srcHash": "161c60ebb87f5727",
+      "srcHash": "03c92402b36f462d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "bf8b1245-8558-4616-9c9c-8a4c30ccd7c8/Option_1": {
       "en": "(Check the locations of Mist Stones...)",
@@ -222,11 +222,11 @@
     "556d351b-a4fe-451e-bf50-c89d8cbd1627/EventContent": {
       "en": "One stone shatters, and its sinister energy dissipates.<NL>The fog begins to thin, and distant shapes gradually emerge...",
       "cn": "一石既碎，邪气溃散，<NL>迷雾随之淡去。远方轮廓也渐渐清晰……",
-      "ru": "Один камень разбивается вдребезги, и его зловещая Энергия рассеивается.<NL>Туман начинает редеть, и постепенно проступают отдаленные очертания...",
+      "ru": "Один камень разбивается вдребезги, и его зловещая энергия рассеивается.<NL>Туман начинает редеть, и постепенно проступают отдаленные очертания...",
       "status": "machine",
-      "srcHash": "d6c757ba37d7e817",
+      "srcHash": "2d550608ecd25317",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "556d351b-a4fe-451e-bf50-c89d8cbd1627/Option_1": {
       "en": "(Glad to hear that...)",
@@ -395,9 +395,9 @@
       "cn": "三眼魈怒不可遏，警惕异常，<NL>身形蓄而待发，紧盯周遭异动，可要出手袭击？",
       "ru": "Трехглазый Сяо в ярости и очень настороже.<NL>Готовый нанести удар в любой момент, он с яростной бдительностью наблюдает за окрестностями. Атака сейчас?",
       "status": "machine",
-      "srcHash": "0207f340579e4f7d",
+      "srcHash": "24abfcc3c6a40a53",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z"
     },
     "001747c2-88aa-4261-8a67-e7f9ac137544/Option_1": {
       "en": "(Attack the Three-Eyed Xiao...)",
