@@ -1,9 +1,9 @@
 return {
 	Title = "Свитки Тайву",
 	Author = "KrasnoVMV",
-	Version = "0.3.0.0",
-	GameVersion = "1.0.55.0",
-	Description = "Русская локализация The Scroll of Taiwu (в разработке).",
+	Version = "0.4.0.0",
+	GameVersion = "1.0.58.0",
+	Description = "Русская локализация The Scroll of Taiwu",
 	BackendPlugins = {
 		[1] = "TaiwuRusB.dll",
 	},
@@ -37,6 +37,12 @@ return {
 		},
 		[3] = {
 			Timestamp = 1783373324,
+		},
+		[4] = {
+			Timestamp = 1783970763,
+		},
+		[5] = {
+			Timestamp = 1783970785,
 		},
 	},
 	ChangeConfig = false,

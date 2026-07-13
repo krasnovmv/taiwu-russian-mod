@@ -121,13 +121,13 @@
       "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "r6c1": {
-      "en": "This node's connection success rate decreases by 30%\\u002c but connecting does not consume Max Capacity or Deviation Cap. When this node is connected\\u002c 1 random adjacent Normal node changes into an Adversity node.",
+      "en": "This node's connection success rate decreases by 30%\\u002c but connecting does not consume Max Capacity or Deviation Cap. When this node is connected\\u002c transforms 1 random adjacent \"Normal\" node into a \"Fixation\" node.",
       "cn": "此格的打通成功率降低30%，但不会消耗天资上限或入魔上限。打通此格时，将周围随机1个“如常”格变化为“忘我”。",
-      "ru": "Вероятность успешного подключения к этому узлу снижается на 30%\\u002c но при подключении не потребляется максимальная мощность или ограничение на отклонение. Когда этот узел подключен\\u002c 1 случайный соседний нормальный узел превращается в неблагоприятный узел.",
+      "ru": "Вероятность успешного подключения к этому узлу снижается на 30%\\u002c но при подключении не потребляется максимальная мощность или ограничение на отклонение. Когда этот узел подключен\\u002c преобразует 1 случайный соседний \"Нормальный\" узел в узел \"Фиксации\".",
       "status": "machine",
-      "srcHash": "b2795eb726008881",
+      "srcHash": "44d56600b9de245a",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z"
     },
     "r7c0": {
       "en": "<align=\"center\">Contrarian</align>",
@@ -175,13 +175,13 @@
       "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "r9c1": {
-      "en": "When this node is connected\\u002c the connection rates of its adjacent Breakthrough nodes decrease by 50%\\u002c with Power cap +2. They become connectable again after failing to be connected.",
+      "en": "Connecting this node reduces the connection rate of adjacent Breakthrough nodes by 50%\\u002c but grants Power Cap +2. If the attempt fails\\u002c the node becomes connectable again.",
       "cn": "打通此格时，周围突破格的打通成功率降低50%，威力上限+2，并且在打通失败时会重新变成可连接状态。",
-      "ru": "Когда этот узел подключен\\u002c скорость подключения соседних узлов прорыва снижается на 50%\\u002c с пределом мощи +2. Они снова становятся подключаемыми после неудачной попытки подключения.",
+      "ru": "Подключение этого узла снижает скорость подключения соседних узлов прорыва на 50%\\u002c но дает предел мощи +2. Если попытка завершится неудачей\\u002c узел снова становится подключаемым.",
       "status": "machine",
-      "srcHash": "d568d7fa2feec034",
+      "srcHash": "f6fbcbd69d0d0c2e",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z"
     },
     "r10c0": {
       "en": "<align=\"center\">Clarity</align>",

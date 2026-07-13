@@ -265,13 +265,13 @@
       "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "Desc_5": {
-      "en": "When this node is cleared, <color=#orange>the next connection target must be a Breakthrough node with a straight distance of 2.</color>",
+      "en": "When this node is connected, <color=#orange>the next connection target must be a Breakthrough node with a distance of 2.</color>",
       "cn": "打通此格时，下次连接<color=#orange>必须选择直线距离2的突破格为连接目标。</color>",
-      "ru": "Когда этот узел будет очищен, <color=#orange>следующей целью подключения должен быть узел прорыва с расстоянием по прямой, равным 2.</color>",
+      "ru": "Когда этот узел соединен, <color=#orange>следующая цель подключения должна быть прорыв узла с расстоянием 2.</color>",
       "status": "machine",
-      "srcHash": "7502d507754e39f6",
+      "srcHash": "eec9be51cbefd6b4",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z"
     },
     "Desc_6": {
       "en": "Connecting this node grants all 'Normal' nodes around it to transform into random 'Special Breakthrough' nodes.",
@@ -310,40 +310,40 @@
       "updatedAt": "2026-07-10T22:05:17.320Z"
     },
     "Desc_10": {
-      "en": "This node's <color=#brightred>connection rate decreases by 30%</color>, but <color=#brightblue>connecting does not consume Max Capacity or Deviation cap.</color>Upon connecting, transforms 1 random adjacent \"Normal\" node into a \"Fixation\" node.",
+      "en": "This node's <color=#brightred>connection rate decreases by 30%</color>, but <color=#brightblue>connecting does not consume Max Capacity or Deviation Cap. </color>When this node is connected, transforms 1 random adjacent \"Normal\" node into a \"Fixation\" node.",
       "cn": "此格的<color=#brightred>打通成功率减少30%</color>，但<color=#brightblue>不会消耗天资上限或入魔上限。</color>打通此格时，将周围随机1个“如常”格变化为“忘我”。",
-      "ru": "Этот узел <color=#brightred>скорость подключения снижается на 30%</color>, но <color=#brightblue>подключение не требует использования максимальной емкости или ограничения на отклонение.</color>При подключении преобразует 1 случайный соседний \"Обычный\" узел в узел \"Фиксации\".",
+      "ru": "Этого узла <color=#brightred>уменьшается скорость соединения до 30%</color>, но <color=#brightblue>подключение не потребляет максимум мощности или отклонение крышки. </color>Когда этот узел соединен, превращает 1 случайный соседних \"нормальной\" узел в \"ремонта\" узел.",
       "status": "machine",
-      "srcHash": "3a02d4b1d9335907",
+      "srcHash": "8edacc085e13b026",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z"
     },
     "Desc_11": {
-      "en": "This node's <color=#brightred>connection rate decreases by 60%</color>.\\nUpon connecting this node,<color=#brightblue>Max Capacity +3.</color>",
+      "en": "This node's <color=#brightred>connection rate decreases by 60%</color>.\\nWhen this node is connected, <color=#brightblue>Max Capacity +3.</color>",
       "cn": "此格的<color=#brightred>打通成功率降低60%。</color>\\n打通此格时，<color=#brightblue>天资上限+3。</color>",
-      "ru": "Этот узел <color=#brightred>скорость подключения снижается на 60%</color>.\\nПри подключении этого узла,<color=#brightblue>Максимальная вместимость +3.</color>",
+      "ru": "Этого узла <color=#brightred>уменьшается скорость соединения на 60%</color>.\\nКогда этот узел соединен, <color=#brightblue>Максимальная Емкость +3.</color>",
       "status": "machine",
-      "srcHash": "d24c98cd4340d5c9",
+      "srcHash": "66c2dda31410bf86",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z"
     },
     "Desc_12": {
-      "en": "This node's <color=#brightred>connection rate decreases by 60%.</color>For each connected adjacent Breakthrough node, this node's <color=#brightblue>connection rate increases by 20%, and Power cap +1.</color>",
+      "en": "This node's <color=#brightred>connection rate decreases by 60%. </color>For each connected adjacent Breakthrough node, this node's <color=#brightblue>connection rate increases by 20%, and Power cap +1.</color>",
       "cn": "此格的<color=#brightred>打通成功率降低60%。</color>此格周围每有1个打通的突破格，此格的<color=#brightblue>打通成功率提高20%，且威力上限+1。</color>",
-      "ru": "Этот узел <color=#brightred>скорость подключения снижается на 60%.</color>Для каждого подключенного смежного узла прорыва этот узел <color=#brightblue>скорость подключения увеличивается на 20%, а предел мощи - на 1.</color>",
+      "ru": "Этого узла <color=#brightred>уменьшается скорость соединения на 60%. </color>Для каждого подключенного рядом прорыв узла, этот узел еще <color=#brightblue>увеличивает скорость соединения на 20%, а предел мощи +1.</color>",
       "status": "machine",
-      "srcHash": "82e341f9b80bebfc",
+      "srcHash": "8795f7bafde6e8b3",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z"
     },
     "Desc_13": {
-      "en": "Connecting this node <color=#brightred>decreases the connection rate of adjacent Breakthrough nodes by 50%</color>, but grants<color=#brightblue>Power cap +2 and becomes connectable again on failure.</color>",
+      "en": "Connecting this node <color=#brightred>reduces the connection rate of adjacent Breakthrough nodes by 50%</color>, but grants <color=#brightblue>Power Cap +2. If the attempt fails, the node becomes connectable again.</color>",
       "cn": "打通此格时，周围突破格的<color=#brightred>打通成功率降低50%</color>，<color=#brightblue>威力上限+2，并且在打通失败时会重新变成可连接状态。</color>",
-      "ru": "Соединяющий этот узел <color=#brightred>уменьшает скорость подключения соседних узлов прорыва на 50%</color>, но предоставляет<color=#brightblue>Значение предела мощи +2 и снова становится подключаемым в случае сбоя.</color>",
+      "ru": "Соединение данного узла <color=#brightred>снижает скорость соединения смежных узлов прорыв на 50%</color> но гранты <color=#brightblue>Предел Мощи +2. Если попытка завершится неудачно, узел становится снова подключается.</color>",
       "status": "machine",
-      "srcHash": "f7b84d9a8ed00f34",
+      "srcHash": "46adfa4bb0d01aed",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z"
     },
     "Desc_14": {
       "en": "Connecting this node <color=#brightblue>reveals multiple hidden nodes.</color>",
@@ -364,13 +364,13 @@
       "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "Desc_16": {
-      "en": "This node's <color=#brightblue>connection rate increases by 30%.</color>\\nUpon connecting, it turns all adjacent Special Breakthrough nodes into \"Normal\" nodes.",
+      "en": "This node's <color=#brightblue>connection rate increases by 30%.</color>\\nWhen this node is connected, it turns all adjacent Special Breakthrough nodes into \"Normal\" nodes.",
       "cn": "此格的<color=#brightblue>打通成功率提高30%。</color>\\n打通此格时，此格周围的所有“特殊突破格”变化为“如常”。",
-      "ru": "Этот узел <color=#brightblue>скорость подключения увеличивается на 30%.</color>\\nПри подключении он превращает все соседние специальные узлы прорыва в \"обычные\" узлы.",
+      "ru": "Этого узла <color=#brightblue>увеличивает скорость соединения на 30%.</color>\\nКогда этот узел соединяется, получается все рядом специальных прорыв узлов в \"нормальных\" узлов.",
       "status": "machine",
-      "srcHash": "fad9859b16becd84",
+      "srcHash": "97f42d1a3ed13673",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z"
     },
     "Desc_17": {
       "en": "Connecting this node grants <color=#brightblue>Power Cap +1 to all adjacent Breakthrough nodes.</color>",
