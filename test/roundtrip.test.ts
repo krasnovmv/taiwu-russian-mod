@@ -3,8 +3,9 @@ import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { test } from "node:test";
 
-import { languageDir } from "../src/config/paths.js";
+import { languageCnDir, languageDir } from "../src/config/paths.js";
 import { isMultilineValueFile } from "../src/config/known-issues.js";
+import { anchoredTxtAdapter } from "../src/formats/anchored-txt.js";
 import { parsePairs, parseRaw, serializeRaw } from "../src/formats/paired-txt.js";
 
 /**
@@ -25,12 +26,21 @@ for (const file of txtFiles) {
   });
 
   if (isMultilineValueFile(file)) {
-    // Quarantined files are expected to break strict alternation — assert that
-    // the detector still flags them, so the quarantine stays justified.
-    test(`quarantined file is detected as desynced: ${file}`, async () => {
-      const content = await readFile(path.join(languageDir, file), "utf8");
-      const { warnings } = parsePairs(content);
-      assert.ok(warnings.length > 0, `expected desync warnings for ${file}`);
+    // Quarantined files may break strict alternation (values with real newlines),
+    // so the registry routes them to the anchored adapter instead. Whether a given
+    // game build actually ships multi-line values there is not ours to decide — a
+    // patch can clean them up and later reintroduce them. What must hold either way
+    // is that the adapter they are routed to parses them against the CN oracle and
+    // rebuilds them byte-for-byte.
+    test(`quarantined file survives the anchored adapter: ${file}`, async () => {
+      const en = await readFile(path.join(languageDir, file), "utf8");
+      const cn = await readFile(path.join(languageCnDir, file), "utf8");
+      const { units, warnings } = anchoredTxtAdapter.extract(en, cn);
+      assert.deepEqual(warnings, []);
+      assert.ok(units.length > 0, `no units extracted from ${file}`);
+      const identity = anchoredTxtAdapter.apply(en, new Map(units.map((u) => [u.key, u.en])));
+      assert.equal(identity.guardOk, true);
+      assert.equal(identity.content, en);
     });
   } else {
     test(`no pairing warnings: ${file}`, async () => {
