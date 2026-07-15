@@ -146,19 +146,59 @@ test("no glossary block when no term applies", async () => {
   });
 });
 
-test("client errors (4xx) fail fast without retry", async () => {
+test("a transient 400 is retried, then succeeds (LM Studio 'model loading')", async () => {
+  // LM Studio returns 400 while the model is still loading at the start of a run;
+  // those must be retried, not failed fast, or the first units of every run die.
   let chatCalls = 0;
   const fetchImpl = ((url: string | URL) => {
     if (String(url).endsWith("/models"))
       return Promise.resolve(jsonResponse({ data: [{ id: "m" }] }));
     chatCalls++;
-    return Promise.resolve(new Response("bad request", { status: 400 }));
+    return Promise.resolve(
+      chatCalls === 1
+        ? new Response("model is still loading", { status: 400 })
+        : jsonResponse({ choices: [{ message: { content: "ok" } }] }),
+    );
   }) as FetchFn;
 
   await withFetch(fetchImpl, async () => {
     const engine = new LmStudioEngine({});
-    await assert.rejects(engine.translate([{ text: "x" }]), /400/);
-    assert.equal(chatCalls, 1); // no retry
+    assert.deepEqual(await engine.translate([{ text: "x" }]), ["ok"]);
+    assert.equal(chatCalls, 2);
+  });
+});
+
+test("a context-overflow 400 fails fast — retrying it would never succeed", async () => {
+  let chatCalls = 0;
+  const fetchImpl = ((url: string | URL) => {
+    if (String(url).endsWith("/models"))
+      return Promise.resolve(jsonResponse({ data: [{ id: "m" }] }));
+    chatCalls++;
+    return Promise.resolve(
+      new Response(JSON.stringify({ error: "Context size has been exceeded." }), { status: 400 }),
+    );
+  }) as FetchFn;
+
+  await withFetch(fetchImpl, async () => {
+    const engine = new LmStudioEngine({});
+    await assert.rejects(engine.translate([{ text: "x" }]), /Context size has been exceeded/);
+    assert.equal(chatCalls, 1); // no retry — permanent error
+  });
+});
+
+test("a persistent 4xx surfaces the server's error body after exhausting retries", async () => {
+  let chatCalls = 0;
+  const fetchImpl = ((url: string | URL) => {
+    if (String(url).endsWith("/models"))
+      return Promise.resolve(jsonResponse({ data: [{ id: "m" }] }));
+    chatCalls++;
+    return Promise.resolve(new Response("schema too strict", { status: 400 }));
+  }) as FetchFn;
+
+  await withFetch(fetchImpl, async () => {
+    const engine = new LmStudioEngine({});
+    await assert.rejects(engine.translate([{ text: "x" }]), /400: schema too strict/);
+    assert.equal(chatCalls, 4); // initial try + MAX_RETRIES
   });
 });
 

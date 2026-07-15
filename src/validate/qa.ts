@@ -20,7 +20,8 @@
  *                     ratio meaningless)
  */
 import type { SourceUnit } from "../formats/adapter.js";
-import { extractMarkup, markupPreserved } from "../engine/protect.js";
+import { extractMarkup, markupPreserved, stripMarkup } from "../engine/protect.js";
+import type { GlossaryMatch } from "../glossary/match.js";
 import type { TmFile } from "../model/tm.js";
 
 export type IssueKind =
@@ -30,6 +31,8 @@ export type IssueKind =
   | "empty-output"
   | "untranslated"
   | "length-anomaly"
+  | "latin-in-russian"
+  | "glossary-miss"
   | "cn-divergence";
 
 export interface QaIssue {
@@ -99,59 +102,130 @@ function realNewlines(s: string): number {
   return (s.match(/[\r\n]/g) ?? []).length;
 }
 
-export function validateTm(tm: TmFile): QaIssue[] {
-  const issues: QaIssue[] = [];
-  const push = (key: string, kind: IssueKind, detail: string): void => {
-    issues.push({ file: tm.file, key, kind, detail });
-  };
+// A run of Latin letters left in the Russian output (once markup is stripped).
+// Wuxia game text has no reason to keep English words — they are either an
+// untranslated leftover (DMG, XP, Encounter, an item name like `Pixiu`) or a
+// corrupted token (`lackеев`).
+const LATIN_RUN_RE = /[A-Za-z]{2,}|[A-Za-z](?=[Ѐ-ӿ])|(?<=[Ѐ-ӿ])[A-Za-z]/g;
 
-  for (const [key, unit] of Object.entries(tm.units)) {
-    const { en, ru } = unit;
-    if (ru == null) continue;
+// The bare code literals `true`/`false`/`null` are the one Latin that may be
+// load-bearing: some game/AI-condition text prints a boolean the engine keys on,
+// so translating it could break logic. Exempted (lowercase form only — a
+// capitalised `True` mid-sentence is prose, not a literal) pending an explicit
+// decision to translate them too.
+const CODE_LITERALS = new Set(["true", "false", "null"]);
 
-    if (!markupPreserved(en, ru)) {
-      const enMarkup = extractMarkup(en);
-      const ruMarkup = extractMarkup(ru);
-      push(key, "markup-mismatch", `EN[${enMarkup.join(" ")}] vs RU[${ruMarkup.join(" ")}]`);
+/** Latin runs remaining in `ru` after markup is stripped, minus code literals. */
+function latinLeftovers(ru: string): string[] {
+  return (stripMarkup(ru).match(LATIN_RUN_RE) ?? []).filter((run) => !CODE_LITERALS.has(run));
+}
+
+/**
+ * Glossary terms the translation ignored: each matched term's mandated Russian
+ * value should appear (declined) in `ru`. We check the value's HEAD noun — its
+ * last word in Russian noun phrases — by a stem match (case-insensitive, the last
+ * couple of letters dropped so declension still passes). Lenient by design: it
+ * catches a wholesale swap (glossary says `лун`, translation says `дракон`) while
+ * letting any grammatical form of the right word through. Never reintroduces
+ * case-sensitive term *matching* — that was tried and reverted; this is a
+ * value-side check on the output, always case-insensitive.
+ */
+export function glossaryMisses(ru: string, matches: readonly GlossaryMatch[]): TranslationIssue[] {
+  const haystack = ru.toLowerCase();
+  const issues: TranslationIssue[] = [];
+  for (const m of matches) {
+    const words = m.ru.toLowerCase().split(/\s+/).filter(Boolean);
+    const head = words[words.length - 1];
+    if (!head) continue;
+    const stem = head.slice(0, Math.max(3, head.length - 2));
+    if (!haystack.includes(stem)) {
+      issues.push({ kind: "glossary-miss", detail: `${m.en} → ${m.ru} (stem "${stem}" absent)` });
     }
+  }
+  return issues;
+}
 
-    const enMangled = countMangled(en);
-    const ruMangled = countMangled(ru);
-    if (ruMangled > enMangled) {
-      const mangled = ru.match(MANGLED_ESCAPE_RE) ?? [];
-      push(key, "escape-mismatch", `mangled escape(s): ${mangled.map((m) => JSON.stringify(m)).join(" ")}`);
-    } else {
-      // No new stray backslash, but the engine may still have lost (or
-      // invented) a whole escape token cleanly — e.g. deleted a `\n` marker.
-      const enEsc = escapeCounts(en);
-      const ruEsc = escapeCounts(ru);
-      const diffs = COUNTED_ESCAPES.filter((t) => enEsc.get(t) !== ruEsc.get(t));
-      if (diffs.length > 0) {
-        const detail = diffs.map((t) => `${t} count: EN=${enEsc.get(t)} RU=${ruEsc.get(t)}`).join(", ");
-        push(key, "escape-mismatch", detail);
-      }
-    }
+/** An issue found in one translation, before it is attributed to a file/key. */
+export type TranslationIssue = Pick<QaIssue, "kind" | "detail">;
 
-    // Real newlines are fine only where the EN source already has them — a
-    // translation that adds or drops one breaks the file's line structure.
-    const enRealNl = realNewlines(en);
-    const ruRealNl = realNewlines(ru);
-    if (ruRealNl !== enRealNl) {
-      push(key, "newline-hazard", `real newlines: EN=${enRealNl} RU=${ruRealNl}`);
-    }
+/**
+ * Every check we make on a single EN→RU pair, in one place.
+ *
+ * The SINGLE source of translation-validity truth, shared by {@link validateTm}
+ * (the QA report) and the LLM judge (which refuses to write a rewrite that fails
+ * any of these). Keeping one function means the judge can never write something
+ * `npm run validate` would then flag.
+ */
+export function checkTranslation(en: string, ru: string): TranslationIssue[] {
+  const issues: TranslationIssue[] = [];
+  const push = (kind: IssueKind, detail: string): void => void issues.push({ kind, detail });
 
-    if (en.trim() !== "" && ru.trim() === "") push(key, "empty-output", "EN non-empty, RU empty");
+  if (!markupPreserved(en, ru)) {
+    const enMarkup = extractMarkup(en);
+    const ruMarkup = extractMarkup(ru);
+    push("markup-mismatch", `EN[${enMarkup.join(" ")}] vs RU[${ruMarkup.join(" ")}]`);
+  }
 
-    if (hasLetters(en) && en === ru) push(key, "untranslated", "RU identical to EN");
-
-    if (en.length >= LENGTH_MIN_CHARS && ru.length > 0 && !hasCjk(en)) {
-      const ratio = ru.length / en.length;
-      if (ratio < LENGTH_MIN_RATIO || ratio > LENGTH_MAX_RATIO) {
-        push(key, "length-anomaly", `ratio ${ratio.toFixed(2)} (en=${en.length}, ru=${ru.length})`);
-      }
+  const enMangled = countMangled(en);
+  const ruMangled = countMangled(ru);
+  if (ruMangled > enMangled) {
+    const mangled = ru.match(MANGLED_ESCAPE_RE) ?? [];
+    push(
+      "escape-mismatch",
+      `mangled escape(s): ${mangled.map((m) => JSON.stringify(m)).join(" ")}`,
+    );
+  } else {
+    // No new stray backslash, but the engine may still have lost (or
+    // invented) a whole escape token cleanly — e.g. deleted a `\n` marker.
+    const enEsc = escapeCounts(en);
+    const ruEsc = escapeCounts(ru);
+    const diffs = COUNTED_ESCAPES.filter((t) => enEsc.get(t) !== ruEsc.get(t));
+    if (diffs.length > 0) {
+      const detail = diffs
+        .map((t) => `${t} count: EN=${enEsc.get(t)} RU=${ruEsc.get(t)}`)
+        .join(", ");
+      push("escape-mismatch", detail);
     }
   }
 
+  // Real newlines are fine only where the EN source already has them — a
+  // translation that adds or drops one breaks the file's line structure.
+  const enRealNl = realNewlines(en);
+  const ruRealNl = realNewlines(ru);
+  if (ruRealNl !== enRealNl) {
+    push("newline-hazard", `real newlines: EN=${enRealNl} RU=${ruRealNl}`);
+  }
+
+  if (en.trim() !== "" && ru.trim() === "") push("empty-output", "EN non-empty, RU empty");
+
+  if (hasLetters(en) && en === ru) push("untranslated", "RU identical to EN");
+
+  // Latin left in a Russian translation — but not when the RU is just the EN
+  // carried through verbatim (a pinyin name, a dev id): that is already reported
+  // as `untranslated`, and flagging it again as Latin would double-count it.
+  if (en !== ru) {
+    const latin = latinLeftovers(ru);
+    if (latin.length > 0) push("latin-in-russian", `Latin in RU: ${latin.join(" ")}`);
+  }
+
+  if (en.length >= LENGTH_MIN_CHARS && ru.length > 0 && !hasCjk(en)) {
+    const ratio = ru.length / en.length;
+    if (ratio < LENGTH_MIN_RATIO || ratio > LENGTH_MAX_RATIO) {
+      push("length-anomaly", `ratio ${ratio.toFixed(2)} (en=${en.length}, ru=${ru.length})`);
+    }
+  }
+
+  return issues;
+}
+
+export function validateTm(tm: TmFile): QaIssue[] {
+  const issues: QaIssue[] = [];
+  for (const [key, unit] of Object.entries(tm.units)) {
+    if (unit.ru == null) continue;
+    for (const issue of checkTranslation(unit.en, unit.ru)) {
+      issues.push({ file: tm.file, key, ...issue });
+    }
+  }
   return issues;
 }
 

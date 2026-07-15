@@ -84,23 +84,33 @@ engine call and validated on restore, so the same safety applies to all engines.
 
 ## Workflow
 
+Translate everything with one fast engine, then let a local LLM judge and repair
+the result:
+
 ```bash
 npm run estimate                       # how many units / chars / ~cost
-npm run translate -- --all --route     # short→Yandex, long→LM Studio (resumable)
+npm run translate-all                  # Yandex for everything ≤ --max-len (resumable)
+npm run judge-all                      # LLM judge: review + fix the machine output
 npm run validate                       # QA the translations in the TM
 npm run apply -- --all                 # build Language_RU (source untouched)
 ```
 
-`--route` splits by source length at `--threshold` (default `ROUTING_THRESHOLD`
-in `src/config/translate.ts`, 40): short UI strings go to fast/cheap Yandex,
-longer markup-heavy prose to the local LLM (better grammar/declension). Add
-`--max-len N` to **skip** anything longer than N entirely (English kept) — handy
-for a one-off run where the slow LLM shouldn't churn through the longest prose.
-So `--route --threshold 20 --max-len 40` means: ≤20 → Yandex, 21–40 → LM Studio,
-&gt;40 → skipped. Both translated tiers are applied. Or pick one engine with
-`--engine`, optionally windowed by `--min-len`/`--max-len`. Changing the
-threshold re-routes units across the boundary on the next run (cache-first, so
-re-routing is free where that engine already translated the text).
+`translate-all` is `translate -- --all --engine yandex --max-len 10000`: every
+unit up to `--max-len` characters goes to Yandex, and anything longer is **skipped
+entirely** (it keeps its English on apply). Override the cap per run:
+`npm run translate-all -- --max-len 500`.
+
+Quality is not the translator's job any more — it's the judge's. `judge-all`
+walks the machine translations and shows each one to a local LLM (LM Studio) with
+the file it lives in, the English source, the **Chinese original** (the meaning of
+record) and the applicable glossary terms; a translation ruled wrong is rewritten
+in place in the TM as `status: "judged"`. It costs nothing but local GPU time, and
+is resumable — see [LLM judge](#llm-judge).
+
+Length-routing across two engines still exists (`translate -- --all --route
+[--threshold N]`: short → Yandex, long → LM Studio) but is no longer the default
+path. Or pick one engine with `--engine`, optionally windowed by
+`--min-len`/`--max-len`.
 
 Smaller, safer steps while getting started:
 
@@ -125,18 +135,106 @@ npm run apply -- --all
 `sync` never overwrites `reviewed`/`locked` units; it only reports when their
 source changed so you can re-check them.
 
+## LLM judge
+
+```bash
+npm run judge-all                          # every file, every unjudged unit
+npm run judge -- Accessory_language.txt    # one file
+npm run judge -- --all --dry-run           # report the fixes, write nothing
+npm run judge -- --all --min-len 40        # only the long prose
+npm run judge -- --all --limit 20          # sample 20 units per file
+npm run judge -- --all --force             # re-judge units that already have a verdict
+```
+
+The judge reviews an **existing** translation; it never translates from scratch
+(that's `translate-all`). It leaves alone: pending units, `reviewed`/`locked`
+units (human curation always wins), language-neutral units (ids/codes), and units
+whose source has drifted since they were translated — those need re-translating
+first.
+
+### Why it doesn't rewrite everything
+
+The model is not asked "is this good?" — an LLM answering that will always find
+something to improve, and you end up with half the corpus churned into synonyms.
+Instead it does **MQM error annotation** (the standard used to mark up MT quality,
+in the shape [GEMBA-MQM](https://arxiv.org/abs/2310.13988) popularised for LLM
+judges): it lists the concrete errors it found, each with a category
+(`accuracy/mistranslation`, `terminology`, `fluency/agreement`, …) and a severity:
+
+| Severity   | Meaning                                                          | Rewrite? |
+| ---------- | ---------------------------------------------------------------- | -------- |
+| `critical` | misleads the player about mechanics, or the text is unusable     | yes      |
+| `major`    | meaning changed, or comprehension disrupted                      | yes      |
+| `minor`    | an error, but it neither disrupts flow nor hinders comprehension | **no**   |
+
+**The decision is made in code, not by the model** (`shouldFix` in
+`src/judge/prompt.ts`): a rewrite happens only when the annotation contains a
+major or critical error. A clumsy-but-clear phrasing, a synonym the model likes
+less, a word order it wouldn't have chosen — all minor, all left alone. The prompt
+also names, explicitly, what is _not_ an error, because that's where an eager
+judge does its damage.
+
+Then every rewrite the model does propose is re-checked in code against
+`checkTranslation` — the **same function `npm run validate` runs**: markup parity,
+escape and real-newline counts, non-empty, no leftover English, sane length ratio.
+A rewrite that fails any of them is thrown away and the unit is left unmarked, so
+a later run retries it. The judge can never write something QA would then flag.
+
+### Changing the model
+
+```bash
+TAIWU_LMSTUDIO_MODEL=<better-model>   # or, per run: npm run judge -- --all --model <id>
+TAIWU_JUDGE_VERSION=4                 # invalidate every past verdict
+npm run judge-all
+```
+
+A new model on its own re-judges **nothing**: the model is deliberately not part
+of `judgeHash`, or every LM Studio update would silently re-judge the corpus. Bump
+`TAIWU_JUDGE_VERSION` (or use `--force` on one file to sample first).
+
+A unit an earlier pass rewrote holds that pass's wording, not the engine's — so on
+a re-judge the model is _also_ shown the raw engine output, recovered from
+`cache/<engine>.jsonl`, as a **MACHINE** block. It is told that the Russian under
+review is an earlier judge's rewrite of it, and that it may put MACHINE's wording
+back if the rewrite drifted. Without this a second pass would grade the first
+pass's output as if the engine had written it, and rewrites would pile up on each
+other. Nothing is lost by design: the engine's original always stays in the cache.
+
+Each verdict is remembered on the unit (`judgeHash`), so re-running is cheap and
+resumable. A unit is judged again only when something the verdict rested on moved:
+the EN source, the glossary terms in it, or the CN reference. `JUDGE_VERSION` in
+`src/config/judge.ts` (or `TAIWU_JUDGE_VERSION`) is the global re-judge lever —
+bump it after editing the prompt, or nothing re-judges.
+
+A judged fix survives `rebuild-tm`: a cache-only rebuild will not overwrite it
+with the raw engine output it was derived from. A real source or engine change
+still re-translates the unit from scratch, dropping the fix.
+
+The prompt lives in `src/judge/prompt.ts`; replace it wholesale with
+`TAIWU_JUDGE_PROMPT_FILE=path/to/prompt.txt` (and bump `JUDGE_VERSION`).
+
+| Env                        | What                                                 |
+| -------------------------- | ---------------------------------------------------- |
+| `TAIWU_JUDGE_CONCURRENCY`  | Parallel judge requests (default 4)                  |
+| `TAIWU_JUDGE_CHECKPOINT`   | Units judged per TM flush (default 25)               |
+| `TAIWU_JUDGE_EXPLANATIONS` | `0` drops the per-error explanation (smaller output) |
+| `TAIWU_JUDGE_VERSION`      | Bump to invalidate every past verdict                |
+| `TAIWU_JUDGE_PROMPT_FILE`  | Replace the built-in judge system prompt             |
+
 ## Commands
 
-| Command                                                                                                          | What it does                                      |
-| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| `npm run status [-- --files]`                                                                                    | Coverage: translated / stale / pending            |
-| `npm run estimate`                                                                                               | Pending units, characters, ~Yandex cost           |
-| `npm run translate -- (<file>\|--all) [--engine …\|--route] [--limit N] [--min-len N] [--max-len N] [--dry-run]` | Translate into the TM (`--route` = length-routed) |
-| `npm run validate [-- <file>] [--semantic] [--kind <kind>]`                                                      | QA the TM, or EN↔CN markup divergence             |
-| `npm run apply -- (<file>\|--all) [--dry-run]`                                                                   | Build `Language_RU` from the TM                   |
-| `npm run sync [-- --dry-run]`                                                                                    | Reconcile the TM after a game update              |
-| `npm run roundtrip`                                                                                              | Byte-exact round-trip check of all `.txt`         |
-| `npm run glossary:candidates [-- --min N --top N --phrases --json f --skeleton f]`                               | Mine source for glossary term candidates          |
+| Command                                                                                                                         | What it does                                       |
+| ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| `npm run status [-- --files]`                                                                                                   | Coverage: translated / stale / pending             |
+| `npm run estimate`                                                                                                              | Pending units, characters, ~Yandex cost            |
+| `npm run translate -- (<file>\|--all) [--engine …\|--route] [--limit N] [--min-len N] [--max-len N] [--dry-run]`                | Translate into the TM (`--route` = length-routed)  |
+| `npm run translate-all [-- --max-len N]`                                                                                        | Translate everything with Yandex up to `--max-len` |
+| `npm run judge -- (<file>\|--all) [--limit N] [--min-len N] [--max-len N] [--concurrency N] [--model ID] [--force] [--dry-run]` | LLM judge: review + fix the TM's machine output    |
+| `npm run validate [-- <file>] [--semantic] [--kind <kind>]`                                                                     | QA the TM, or EN↔CN markup divergence              |
+| `npm run apply -- (<file>\|--all) [--dry-run]`                                                                                  | Build `Language_RU` from the TM                    |
+| `npm run sync [-- --dry-run]`                                                                                                   | Reconcile the TM after a game update               |
+| `npm run roundtrip`                                                                                                             | Byte-exact round-trip check of all `.txt`          |
+| `npm run glossary:candidates [-- --min N --top N --phrases --json f --skeleton f]`                                              | Mine source for glossary term candidates           |
 
 ## Safety
 

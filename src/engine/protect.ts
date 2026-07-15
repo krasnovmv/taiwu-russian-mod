@@ -151,6 +151,17 @@ export function restore(translated: string, m: Masked): RestoreResult {
 }
 
 /**
+ * The text with every protected span (tags, placeholders, escaped-bracket tags,
+ * literal escapes) removed — i.e. only the human-translatable words. QA uses it
+ * to look for things that must not survive translation, like Latin letters, that
+ * would otherwise be masked by markup a naive scan would trip over (a
+ * `<color=#FiveElementType_Jingang>` tag is full of Latin, but it is markup).
+ */
+export function stripMarkup(text: string): string {
+  return mask(text).masked.replace(SENTINEL_RE, "");
+}
+
+/**
  * Extract the sorted multiset of markup tokens (tags + placeholders) in a
  * string. Used by QA to assert EN and RU carry identical markup.
  */

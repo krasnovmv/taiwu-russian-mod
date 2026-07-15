@@ -46,6 +46,9 @@ async function main(): Promise<void> {
 
   // `untranslated` (RU == EN) is expected while translation is incomplete — it is
   // informational, not an error: it is reported but never fails the run.
+  // `latin-in-russian` IS an error: English/pinyin left in a Russian translation
+  // (an untranslated item name, a leaked technique name) is a defect to fix, not
+  // a pass-through — those are `untranslated` (RU == EN) and excluded from it.
   const INFO_KINDS = new Set<IssueKind>(["untranslated"]);
   const errors = all.filter((i) => !INFO_KINDS.has(i.kind));
   const info = all.filter((i) => INFO_KINDS.has(i.kind));

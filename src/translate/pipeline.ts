@@ -82,7 +82,13 @@ export function needsTranslation(
   if (prev.status === "reviewed" || prev.status === "locked") return false;
   // Re-translate machine units whose source drifted OR whose engine no longer
   // matches the routed engine (so routing/cap changes adopt the chosen engine).
+  // This holds for `judged` units too: once the EN source or the engine moves, the
+  // text the judge corrected is gone, so its fix goes with it.
   if (prev.srcHash !== hash || prev.engine !== engineId) return true;
+  // An up-to-date judged unit outranks the engine output it was derived from — a
+  // cache refresh must not overwrite the judge's correction with the raw machine
+  // translation it already rejected.
+  if (prev.status === "judged") return false;
   // Up-to-date machine unit: normally skipped, but a refresh run re-serves it from
   // the cache so an edited cache entry can overwrite the stored translation.
   return refreshCached;

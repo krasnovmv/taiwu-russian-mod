@@ -1,0 +1,162 @@
+/**
+ * LLM judge: review the machine translations in the TM and fix the bad ones.
+ *
+ *   npm run judge -- --all                  # every file, every unjudged unit
+ *   npm run judge -- <file>                 # one file
+ *   npm run judge -- --all --limit 50       # sample (per file)
+ *   npm run judge -- --all --min-len 40     # only the long prose
+ *   npm run judge -- --all --dry-run        # report the fixes, write nothing
+ *   npm run judge -- --all --force          # re-judge units that already have a verdict
+ *
+ * Talks to a local LM Studio server (TAIWU_LMSTUDIO_BASE_URL, TAIWU_LMSTUDIO_MODEL
+ * or --model). Each unit is shown to the model with its file, key, English source,
+ * Chinese original and glossary terms; a unit ruled wrong is rewritten in place in
+ * the TM (`status: "judged"`). Costs nothing but local GPU time, and is resumable:
+ * a verdict is remembered per unit and only replayed when the EN, CN or glossary
+ * behind it changes (see config/judge.ts).
+ *
+ * Nothing reaches the game until `npm run apply-all`.
+ */
+import { JUDGE_CONCURRENCY } from "../config/judge.js";
+import { LmStudioClient } from "../engine/lmstudio-client.js";
+import { judgeFile, planJudgeFile, type JudgeStats } from "../judge/judge.js";
+import { listSourceFiles } from "../scan.js";
+import { FileProgress, Progress } from "./progress.js";
+
+interface Args {
+  file: string | undefined;
+  all: boolean;
+  limit: number | undefined;
+  minLen: number | undefined;
+  maxLen: number | undefined;
+  concurrency: number | undefined;
+  model: string | undefined;
+  force: boolean;
+  dryRun: boolean;
+}
+
+function parseArgs(argv: string[]): Args {
+  const a: Args = {
+    file: undefined,
+    all: false,
+    limit: undefined,
+    minLen: undefined,
+    maxLen: undefined,
+    concurrency: undefined,
+    model: undefined,
+    force: false,
+    dryRun: false,
+  };
+  const num = (v: string | undefined): number | undefined => {
+    const n = Number(v);
+    return Number.isFinite(n) ? n : undefined;
+  };
+  for (let i = 0; i < argv.length; i++) {
+    const arg = argv[i];
+    if (arg === "--limit") a.limit = num(argv[++i]);
+    else if (arg === "--min-len") a.minLen = num(argv[++i]);
+    else if (arg === "--max-len") a.maxLen = num(argv[++i]);
+    else if (arg === "--concurrency") a.concurrency = num(argv[++i]);
+    else if (arg === "--model") a.model = argv[++i];
+    else if (arg === "--force") a.force = true;
+    else if (arg === "--dry-run") a.dryRun = true;
+    else if (arg === "--all") a.all = true;
+    else if (arg && !arg.startsWith("--")) a.file = arg;
+  }
+  return a;
+}
+
+async function main(): Promise<void> {
+  const args = parseArgs(process.argv.slice(2));
+  if (!args.all && !args.file) {
+    console.error(
+      "Usage: npm run judge -- (<file> | --all) [--limit N] [--min-len N] [--max-len N]\n" +
+        "       [--concurrency N] [--model ID] [--force] [--dry-run]",
+    );
+    process.exitCode = 1;
+    return;
+  }
+
+  const files = args.all ? await listSourceFiles() : [args.file as string];
+  const client = LmStudioClient.fromEnv(args.model);
+  const model = await client.ensureModel(); // fail fast if LM Studio is down
+  const now = new Date().toISOString();
+  const select = {
+    limit: args.limit,
+    minLen: args.minLen,
+    maxLen: args.maxLen,
+    force: args.force,
+  };
+
+  const window =
+    args.minLen !== undefined || args.maxLen !== undefined
+      ? ` | len ${args.minLen ?? 0}..${args.maxLen ?? "∞"}`
+      : "";
+  const suffix = args.dryRun ? " (dry-run)" : "";
+  const concurrency = args.concurrency ?? JUDGE_CONCURRENCY;
+  console.log(
+    `Judge${suffix} | model: ${model} | files: ${files.length} | concurrency: ${concurrency}${window}` +
+      (args.force ? " | force" : ""),
+  );
+
+  // Plan first, so the unit bar shows one global total instead of resetting per file.
+  const plan = new Progress(files.length, "plan");
+  let grandTotal = 0;
+  for (const file of files) {
+    grandTotal += await planJudgeFile(file, select);
+    plan.increment(file);
+  }
+  plan.finish();
+  console.log(`\nUnits to judge: ${grandTotal}`);
+
+  const bars = new FileProgress(files.length, grandTotal);
+  const all: JudgeStats[] = [];
+  let base = 0; // units judged in the already-finished files
+  for (const file of files) {
+    let fileTotal = 0;
+    const stats = await judgeFile(file, client, {
+      ...select,
+      dryRun: args.dryRun,
+      now,
+      concurrency: args.concurrency,
+      onStart: (total) => {
+        fileTotal = total;
+        bars.startFile(file);
+      },
+      onProgress: (done) => bars.unit(base + done),
+    });
+    base += fileTotal;
+    all.push(stats);
+    bars.finishFile();
+  }
+  bars.stop();
+
+  const sum = (pick: (s: JudgeStats) => number): number => all.reduce((n, s) => n + pick(s), 0);
+  const fixes = all.flatMap((s) => s.fixes.map((f) => ({ ...f, file: s.file })));
+  const problems = all.flatMap((s) => s.problems.map((p) => ({ ...p, file: s.file })));
+
+  console.log(
+    `\nJudged: ${sum((s) => s.judged)} | kept: ${sum((s) => s.ok)} (minor-only: ${sum(
+      (s) => s.minorOnly,
+    )}) | fixed: ${sum((s) => s.fixed)} | rejected by QA: ${sum(
+      (s) => s.rejected,
+    )} | errors: ${sum((s) => s.errors)}${suffix}`,
+  );
+
+  if (fixes.length > 0) {
+    console.log(`\nFixes (${fixes.length}):`);
+    for (const f of fixes.slice(0, 15)) {
+      console.log(`  ${f.file} ${f.key}${f.note ? ` — ${f.note}` : ""}`);
+      console.log(`    - ${f.before}`);
+      console.log(`    + ${f.after}`);
+    }
+    if (fixes.length > 15) console.log(`  … and ${fixes.length - 15} more`);
+  }
+  if (problems.length > 0) {
+    console.log(`\nProblems (${problems.length}, left unjudged for a later run):`);
+    for (const p of problems.slice(0, 15)) console.log(`  ${p.file} ${p.key}: ${p.error}`);
+    if (problems.length > 15) console.log(`  … and ${problems.length - 15} more`);
+  }
+}
+
+await main();

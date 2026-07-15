@@ -14,6 +14,13 @@ export type UnitStatus =
   | "pending"
   /** Auto-translated by an engine; safe to overwrite on glossary/source change. */
   | "machine"
+  /**
+   * Machine-translated, then rewritten by the LLM judge (`npm run judge`). Not a
+   * human pin: it is still re-translated from scratch when the source or the
+   * engine changes (dropping the fix), but a cache-only rebuild never overwrites
+   * it — the judged text outranks the raw engine output it was derived from.
+   */
+  | "judged"
   /** Human-approved; never overwritten automatically (only flagged if source drifts). */
   | "reviewed"
   /** Human-pinned; never touched automatically under any condition. */
@@ -33,6 +40,14 @@ export interface TmUnit {
   engine: string | null;
   /** ISO timestamp of the last change to `ru`, or null. */
   updatedAt: string | null;
+  /**
+   * Fingerprint of the last LLM-judge verdict on this unit (see `judgeHash`):
+   * hashes the judge prompt version, the unit's `srcHash` and its CN reference.
+   * Present on both verdicts — `machine` + judgeHash means "judged, no change
+   * needed"; `judged` + judgeHash means "the judge rewrote `ru`". Absent (or
+   * stale, once EN/CN/glossary move) means the unit is due for judging again.
+   */
+  judgeHash?: string;
 }
 
 export interface TmFile {

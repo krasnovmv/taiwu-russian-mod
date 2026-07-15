@@ -10,11 +10,16 @@
  * `--engine lmstudio` talks to a local LM Studio server. `--all` is resumable:
  * TM is saved per file, so re-running skips already-translated units.
  *
- * `--route` ignores `--engine` and routes by source length: units up to
- * `--threshold` (default ROUTING_THRESHOLD) go to Yandex, longer ones to LM
- * Studio. With `--max-len N`, units longer than N are skipped entirely (English
- * kept) — e.g. `--route --threshold 20 --max-len 40`: ≤20 Yandex, 21–40 LM
- * Studio, >40 skipped. `--min-len`/`--max-len` also window a single-engine run.
+ * `npm run translate-all` is the normal path: ONE engine (Yandex) for everything
+ * up to `--max-len`, with longer units skipped entirely (they keep their English
+ * on apply). Quality is then repaired by the LLM judge — `npm run judge-all` —
+ * which reviews and rewrites the machine output, rather than by routing the long
+ * units to a slow local LLM up front.
+ *
+ * `--route` (still supported) ignores `--engine` and routes by source length:
+ * units up to `--threshold` (default ROUTING_THRESHOLD) go to Yandex, longer ones
+ * to LM Studio. `--min-len`/`--max-len` window a single-engine run: units outside
+ * the window are left pending (their English rides through apply).
  *
  * `--cache-only` rebuilds the TM from the engine response cache alone: the API is
  * never called (zero cost). Cache hits are applied — including to already-translated
