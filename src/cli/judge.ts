@@ -18,6 +18,7 @@
  * Nothing reaches the game until `npm run apply-all`.
  */
 import { JUDGE_CONCURRENCY } from "../config/judge.js";
+import { EVENT_DLC_PREFIX, EVENT_PREFIX } from "../config/sources.js";
 import { LmStudioClient } from "../engine/lmstudio-client.js";
 import { judgeFile, planJudgeFile, type JudgeStats } from "../judge/judge.js";
 import { listSourceFiles } from "../scan.js";
@@ -77,7 +78,14 @@ async function main(): Promise<void> {
     return;
   }
 
-  const files = args.all ? await listSourceFiles() : [args.file as string];
+  // TEMPORARY: quest text and the encyclopedia tables are out of the judge queue
+  // for now — drop this filter to fold them back in. An explicit <file> argument
+  // still bypasses it.
+  const skipForNow = (f: string): boolean =>
+    f.startsWith(EVENT_PREFIX) || f.startsWith(EVENT_DLC_PREFIX) || f.endsWith(".tsv");
+  const files = args.all
+    ? (await listSourceFiles()).filter((f) => !skipForNow(f))
+    : [args.file as string];
   const client = LmStudioClient.fromEnv(args.model);
   const model = await client.ensureModel(); // fail fast if LM Studio is down
   const now = new Date().toISOString();
