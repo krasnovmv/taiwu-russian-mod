@@ -101,12 +101,16 @@ async function main(): Promise<void> {
 
   // Plan first, so the unit bar shows one global total instead of resetting per file.
   const plan = new Progress(files.length, "plan");
-  let grandTotal = 0;
+  const planned = new Map<string, number>();
   for (const file of files) {
-    grandTotal += await planJudgeFile(file, select);
+    planned.set(file, await planJudgeFile(file, select));
     plan.increment(file);
   }
   plan.finish();
+  const grandTotal = [...planned.values()].reduce((a, b) => a + b, 0);
+  // Judge the smallest files first: whole files finish (and land in the TM) early,
+  // so an interrupted run leaves the most files fully judged.
+  files.sort((a, b) => (planned.get(a) ?? 0) - (planned.get(b) ?? 0) || a.localeCompare(b));
   console.log(`\nUnits to judge: ${grandTotal}`);
 
   const bars = new FileProgress(files.length, grandTotal);
