@@ -22,8 +22,8 @@
  *
  * Identical review contexts are judged ONCE ({@link dedupKey}): the corpus repeats
  * short strings ("Adventure", "Interaction", …) thousands of times, so units with
- * the same EN/CN/RU share one model request and its verdict fans out to all of
- * them. The CLI passes one {@link JudgeOptions.memo} across every file of a run,
+ * the same EN/CN and engine share one model request and its verdict fans out to
+ * all of them. The CLI passes one {@link JudgeOptions.memo} across every file of a run,
  * extending the reuse across files; between runs the stamped `judgeHash` on each
  * member is what keeps them skipped, so no separate verdict cache is needed.
  */
@@ -121,15 +121,16 @@ interface Candidate {
 }
 
 /**
- * Two units with the same key see the exact same review prompt (bar the FILE/KEY
- * header, whose register hint we accept losing) and deserve the same verdict:
- * same EN, same CN, same RU under review — and the same MACHINE block, which only
- * exists for already-judged units, where it is the `engine`'s cached output for
- * the EN. Everything else in the prompt (glossary terms, QA gates) derives from
- * the EN alone.
+ * Units with the same source (EN + CN) translated by the same engine share one
+ * verdict. The RU wording is deliberately NOT part of the key: for one engine the
+ * translation of a given EN is single-valued (the engine cache is keyed by the
+ * masked EN), so duplicates virtually always carry the same RU anyway — and where
+ * they don't (an earlier judge rewrite, a cache edit not yet rebuilt in), the
+ * group's first unit in TM order is the one shown to the model and its verdict
+ * is taken for the rest.
  */
 export function dedupKey(unit: TmUnit): string {
-  return JSON.stringify([unit.en, unit.cn, unit.ru, unit.status === "judged" ? unit.engine : null]);
+  return JSON.stringify([unit.en, unit.cn, unit.engine]);
 }
 
 /**

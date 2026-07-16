@@ -16,8 +16,8 @@
  * terms; a unit ruled wrong is rewritten in place in the TM (`status: "judged"`).
  * Resumable: a verdict is remembered per unit and only replayed when the EN, CN
  * or glossary behind it changes (see config/judge.ts). Units with an identical
- * review context (same EN/CN/RU) share ONE request per run — the verdict fans
- * out to every duplicate, across files (see `dedupKey` in judge/judge.ts).
+ * review context (same EN/CN and engine) share ONE request per run — the verdict
+ * fans out to every duplicate, across files (see `dedupKey` in judge/judge.ts).
  *
  * Nothing reaches the game until `npm run apply-all`.
  */
@@ -132,9 +132,9 @@ async function main(): Promise<void> {
 
   const bars = new FileProgress(files.length, grandTotal);
   const all: JudgeStats[] = [];
-  // One memo for the whole run: a (EN, CN, RU) context judged in one file settles
-  // its duplicates in every later file without another request. The corpus repeats
-  // short strings heavily, so this roughly halves the requests of a full pass.
+  // One memo for the whole run: a (EN, CN, engine) context judged in one file
+  // settles its duplicates in every later file without another request. The corpus
+  // repeats short strings heavily, so this roughly halves the requests of a full pass.
   const memo = new Map<string, JudgeOutcome>();
   let base = 0; // units judged in the already-finished files
   for (const file of files) {

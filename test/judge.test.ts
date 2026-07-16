@@ -257,20 +257,17 @@ test("the MACHINE block shows the engine's wording a previous judge rewrote", ()
   assert.doesNotMatch(buildUserMessage({ ...ctx, machine: null }, new Map()), /MACHINE/);
 });
 
-test("dedupKey groups identical review contexts and separates judged ones per engine", () => {
+test("dedupKey groups by source and engine, ignoring the RU wording and status", () => {
   assert.equal(dedupKey(unit()), dedupKey(unit()));
-  // A different EN, CN or RU is a different context.
+  // A different EN, CN or engine is a different context.
   assert.notEqual(dedupKey(unit()), dedupKey(unit({ en: "Other" })));
   assert.notEqual(dedupKey(unit()), dedupKey(unit({ cn: "别的" })));
-  assert.notEqual(dedupKey(unit()), dedupKey(unit({ ru: "Другое" })));
-  // A judged unit's prompt carries the engine's MACHINE block; a machine unit's
-  // doesn't — and the engine of an UNjudged unit must not split the group.
-  assert.notEqual(dedupKey(unit()), dedupKey(unit({ status: "judged" })));
-  assert.notEqual(
-    dedupKey(unit({ status: "judged", engine: "yandex" })),
-    dedupKey(unit({ status: "judged", engine: "lmstudio" })),
-  );
-  assert.equal(dedupKey(unit({ engine: "yandex" })), dedupKey(unit({ engine: "lmstudio" })));
+  assert.notEqual(dedupKey(unit({ engine: "yandex" })), dedupKey(unit({ engine: "lmstudio" })));
+  // The RU text and the status do NOT split a group: for one engine the RU of a
+  // given EN is single-valued in practice, and the group head's verdict stands
+  // for all members.
+  assert.equal(dedupKey(unit()), dedupKey(unit({ ru: "Другое" })));
+  assert.equal(dedupKey(unit()), dedupKey(unit({ status: "judged" })));
 });
 
 /** In-memory judge run helpers: a real hasher (empty glossary) and a scripted client. */
