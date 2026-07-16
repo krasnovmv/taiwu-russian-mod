@@ -294,20 +294,22 @@
     "Desc_0": {
       "en": "<color=#pinkyellow>Assigning a Farmer as the Steward of the <color=#orange>[Kitchen]</color> allows them to prepare dishes on your behalf...</color>",
       "cn": "<color=#pinkyellow>在<color=#orange>「食窖」</color>中指派农户作为主事，可以代制菜肴…</color>",
-      "ru": "<color=#pinkyellow>Назначение крестьянина управляющим в <color=#orange>[Кухня]</color> позволяет им готовить блюда от вашего имени...</color>",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>Назначение крестьянина управляющим в <color=#orange>[Пищевое хранилище]</color> позволяет им готовить блюда от вашего имени...</color>",
+      "status": "judged",
       "srcHash": "66740e229641d38c",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:27:10.184Z",
+      "judgeHash": "e2c22d1ad5aa669c"
     },
     "Desc_1": {
       "en": "<color=#pinkyellow>Farmers can be deployed to regions with active Way Stations to gather resources...</color>",
       "cn": "<color=#pinkyellow>可派遣农户前往已开通驿站的地区采集资源…</color>",
-      "ru": "<color=#pinkyellow>Крестьяне могут быть направлены в регионы с действующими путевыми станциями для сбора ресурсов...</color>",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>Крестьян можно направить в регионы с действующими почтовыми станциями для сбора ресурсов...</color>",
+      "status": "judged",
       "srcHash": "829bb0e4eeec0170",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:27:10.184Z",
+      "judgeHash": "86b7b6b06c17c6f9"
     },
     "Desc_2": {
       "en": "<color=#pinkyellow>Selecting \"Relocate\" when dispatching Farmers will obtain the corresponding Resource Core Materials at the cost of destroying resource-rich terrain...</color>\\n - The higher the Farmer's <SpName=mousetip_qiyuan_6>\"Harmony,\" the higher the relocation success rate...",
@@ -325,7 +327,8 @@
       "status": "machine",
       "srcHash": "cfc50f6ce1890fe7",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-11T22:41:11.235Z",
+      "judgeHash": "8f5907a96dfc8a60"
     },
     "Desc_4": {
       "en": "<color=#pinkyellow>Assigning an Artisan as the Steward of a <color=#orange>[Forge]</color>, <color=#orange>[Carpentry Shed]</color>, <color=#orange>[Embroidery Edifice]</color>, or <color=#orange>[Jewelcrafter Workshop]</color> allows them to craft items of the corresponding material...</color>",
@@ -334,16 +337,18 @@
       "status": "machine",
       "srcHash": "93de05eba1519dde",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-11T22:41:11.235Z",
+      "judgeHash": "ee9903529c6d881f"
     },
     "Desc_5": {
       "en": "<color=#pinkyellow>Assigning a Doctor as the Steward of a <color=#orange>[Pharmacy]</color> or <color=#orange>[Secluded Chamber]</color> allows them to prepare medicines and poisons...</color>",
       "cn": "<color=#pinkyellow>在<color=#orange>「药房」</color><color=#orange>「幽室」</color>中指派大夫作为主事，可以代制药毒…</color>",
-      "ru": "<color=#pinkyellow>Назначение врача управляющим в <color=#orange>[Аптека]</color> или <color=#orange>[Уединенная комната]</color> позволяет им готовить лекарства и яды...</color>",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>Назначение врача управляющим в <color=#orange>[Аптеке]</color> или <color=#orange>[Тайной палате]</color> позволяет ему готовить лекарства и яды...</color>",
+      "status": "judged",
       "srcHash": "5995a4a5e8078a60",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:27:10.184Z",
+      "judgeHash": "e0877e5f1619f9a6"
     },
     "Desc_6": {
       "en": "<color=#pinkyellow>Doctors can be dispatched to regions with active Way Stations to perform <color=#orange>[Medical Care]</color> for characters in that region and gain <SpName=mousetip_enyi>[Regional Favor]...</color>\\n - The higher the Doctor's <SpName=mousetip_qiyuan_0>[Composure], the higher the <SpName=mousetip_character>[Rank] of patient they can treat...\\n - The higher the Doctor's Attainment in <SpName=mousetip_jiyi_8>[Medical Art] or <SpName=mousetip_jiyi_9>[Toxicology], or the higher the patient's <SpName=mousetip_character>[Rank], the more <SpName=mousetip_enyi>[Regional Favor] is gained...",
@@ -361,7 +366,8 @@
       "status": "machine",
       "srcHash": "eec7bac4b2ace274",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3824fff78f78a2a9"
     },
     "Desc_8": {
       "en": "<color=#pinkyellow>Merchants can be dispatched to regions with active Way Stations to buy and sell items...</color>\\n - The higher the Merchant's <SpName=mousetip_qiyuan_2>[Enthusiasm], the higher the <SpName=mousetip_character>[Rank] of local characters they can trade with...\\n - The higher the Merchant's <SpName=mousetip_jiyi_15>[Unorthodox Arts] Attainment, the lower the buying price and the higher the selling price...",
@@ -370,7 +376,8 @@
       "status": "machine",
       "srcHash": "c2e79ece00e37338",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-11T22:41:11.235Z",
+      "judgeHash": "4e0bf8e3c2f6c290"
     },
     "Desc_9": {
       "en": "<color=#pinkyellow>While a Merchant is dispatched for [Merchant Trade], the <SpName=mousetip_multilove>[Guild Favorability] of the dispatched region increases each month...</color>\\n - The higher the Merchant's <SpName=mousetip_qiyuan_2>[Enthusiasm] and <SpName=mousetip_jiyi_15>[Unorthodox Arts] Attainment, the more <SpName=mousetip_multilove>[Guild Favorability] is gained...\\n - Dispatching a Merchant to the headquarters of a guild grants even more <SpName=mousetip_multilove>[Favorability] with that guild...",
@@ -384,11 +391,12 @@
     "Desc_10": {
       "en": "<color=#pinkyellow>Assigning a Scholar as the Steward of a <color=#orange>[Tea Plantation]</color> or <color=#orange>[Distillery]</color> allows them to prepare tea and liquor on your behalf...</color>",
       "cn": "<color=#pinkyellow>在<color=#orange>「茶园」</color><color=#orange>「蒸酒坊」</color>中指派文人作为主事，可以代制茶酒…</color>",
-      "ru": "<color=#pinkyellow>Назначение книжника управляющим в <color=#orange>[Чайная плантация]</color> или <color=#orange>[Винокурня]</color> позволяет им приготовить чай и вино от вашего имени...</color>",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>Назначение книжника управляющим в <color=#orange>[Чайную плантацию]</color> или <color=#orange>[Винокурню]</color> позволяет ему готовить чай и вино от вашего имени...</color>",
+      "status": "judged",
       "srcHash": "65b84e624fea34ef",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:35:08.138Z",
+      "judgeHash": "7503032b4d869dbf"
     },
     "Desc_11": {
       "en": "<color=#pinkyellow>Scholars can be dispatched to regions with active Way Stations to influence the <SpName=mousetip_development_0>[Stability] and <SpName=mousetip_development_1>[Culture] of local towns and villages...</color>\\n - The higher the Scholar's <SpName=mousetip_qiyuan_1>[Wit], the more times they can exert influence each month...\\n - The higher the Scholar's Attainment in <SpName=mousetip_jiyi_0>[Music], <SpName=mousetip_jiyi_1>[Weiqi], <SpName=mousetip_jiyi_2>[Literature], or <SpName=mousetip_jiyi_3>[Painting], the more <SpName=mousetip_development_0>[Stability] and <SpName=mousetip_development_1>[Culture] change...\\n - The Scholar's mindset determines the effect of [Martial World Arts]: <SpName=mousetip_lichang_0><color=#ffe78f>Principled</color> Scholars likely increase local Stability or Culture; <SpName=mousetip_lichang_1><color=#9fe0dc>Benevolent</color> Scholars always increase them; <SpName=mousetip_lichang_2><color=#ffffff>Moderate</color> Scholars may randomly increase or decrease them; <SpName=mousetip_lichang_3><color=#b975ff>Rebellious</color> Scholars always decrease them; <SpName=mousetip_lichang_4><color=#c6272e>Egocentric</color> Scholars likely decrease them...",
@@ -397,7 +405,8 @@
       "status": "machine",
       "srcHash": "681beb4db7af31a8",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T15:32:07.227Z"
+      "updatedAt": "2026-07-12T15:32:07.227Z",
+      "judgeHash": "63a40fd08d507642"
     },
     "Desc_12": {
       "en": "<color=#pinkyellow>While a Scholar is dispatched for [Martial World Arts], they change the <SpName=mousetip_multilove>[Favorability]</color> toward Taiwu of random characters within the corresponding settlement's range each month...\\n - The higher the Scholar's <SpName=mousetip_qiyuan_1>[Wit], the more characters are affected...\\n - The higher the Scholar's Attainment in <SpName=mousetip_jiyi_0>[Music], <SpName=mousetip_jiyi_1>[Weiqi], <SpName=mousetip_jiyi_2>[Literature], or <SpName=mousetip_jiyi_3>[Painting], the more <SpName=mousetip_multilove>[Favorability] changes...\\n - <SpName=mousetip_lichang_0><color=#ffe78f>Principled</color> Scholars likely increase Favorability toward Taiwu; <SpName=mousetip_lichang_1><color=#9fe0dc>Benevolent</color> Scholars always increase it; <SpName=mousetip_lichang_2><color=#ffffff>Moderate</color> Scholars may randomly increase or decrease it; <SpName=mousetip_lichang_3><color=#b975ff>Rebellious</color> Scholars always decrease it; <SpName=mousetip_lichang_4><color=#c6272e>Egocentric</color> Scholars likely decrease it...",
@@ -415,16 +424,18 @@
       "status": "machine",
       "srcHash": "44f79cc89f7f5999",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-11T22:41:11.235Z",
+      "judgeHash": "bb4dcacd372bc1fe"
     },
     "Desc_14": {
       "en": "<color=#pinkyellow>Dispatching Mound Wardens to guard Sword Mounds reduces the accumulation of <SpName=mousetip_rumo>[Xiangshu's Evil Will]...</color>\\n - The higher the Mound Warden's <SpName=mousetip_qiyuan_3>[Valor], and the higher their Proficiency in <SpName=mousetip_jiyi_13>[Buddhism] or <SpName=mousetip_jiyi_12>[Taoism], the greater the reduction of <SpName=mousetip_rumo>[Xiangshu's Evil Will]...",
       "cn": "<color=#pinkyellow>派遣护冢驻守剑冢时，降低<SpName=mousetip_rumo>「入魔程度」的累积…</color>\\n -护冢的<SpName=mousetip_qiyuan_3>「勇壮」越高，<SpName=mousetip_jiyi_13>「佛学」或<SpName=mousetip_jiyi_12>「道法」越高，<SpName=mousetip_rumo>「入魔程度」的降低比例越高…",
-      "ru": "<color=#pinkyellow>Отправка смотрителей курганов для охраны Курганов мечей уменьшает накопление <SpName=mousetip_rumo>[Злая воля Сяншу]...</color>\\n - Чем выше должность смотрителя кургана <SpName=mousetip_qiyuan_3>[Доблесть], и чем выше их мастерство в <SpName=mousetip_jiyi_13>[Буддизм] или <SpName=mousetip_jiyi_12>[Даосизм], чем больше сокращение <SpName=mousetip_rumo>[Злая воля Сяншу]...",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>Отправка стражей курганов для охраны Курганов мечей уменьшает накопление <SpName=mousetip_rumo>[Злая воля Сяншу]...</color>\\n - Чем выше <SpName=mousetip_qiyuan_3>[Доблесть] стража кургана и чем выше его мастерство в <SpName=mousetip_jiyi_13>[Буддизм] или <SpName=mousetip_jiyi_12>[Даосизм], тем больше снижение <SpName=mousetip_rumo>[Злая воля Сяншу]...",
+      "status": "judged",
       "srcHash": "fd74ae226ae1b74e",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T08:00:38.821Z",
+      "judgeHash": "feaea8bba78a0b92"
     },
     "Desc_15": {
       "en": "<color=#pinkyellow>Dispatch envoys to a Provincial Capital or Sect region with an active Way Station. When the Taiwu Successor uses the [Provincial Regulations] or [Sect Regulations] interaction in that region, the Crime Level modification range can be expanded by an additional grade...</color>\\n - Regulations with an expanded modification range consume <SpName=mousetip_ziyuan_7>[Prestige] each month. <color=#brightred>If Prestige is insufficient, the modification ceases to take effect...</color>\\n - The higher the envoy's <SpName=mousetip_qiyuan_5>[Luck], the more regulations can have their modification range expanded...",
@@ -433,7 +444,8 @@
       "status": "machine",
       "srcHash": "39e1a161bb56f583",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-11T22:41:11.235Z",
+      "judgeHash": "df9b5c0b3d67652d"
     },
     "DescName_0": {
       "en": "Meal Preparation",
@@ -442,7 +454,8 @@
       "status": "machine",
       "srcHash": "5d615641f4a5b97b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d7c68d958f458bd"
     },
     "DescName_1": {
       "en": "Resource Gathering",
@@ -451,7 +464,8 @@
       "status": "machine",
       "srcHash": "e24d9519a0ef53e4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f5f9f6b66a4c725a"
     },
     "DescName_2": {
       "en": "Relocate Resource",
@@ -460,7 +474,8 @@
       "status": "machine",
       "srcHash": "f1b3ea3fa5303129",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fba6a6c0f99f9c3e"
     },
     "DescName_3": {
       "en": "Intensive Cultivation",
@@ -469,7 +484,8 @@
       "status": "machine",
       "srcHash": "eb70fc38bf0d2759",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8b3e023eb8fafc9c"
     },
     "DescName_4": {
       "en": "Item Crafted",
@@ -478,7 +494,8 @@
       "status": "machine",
       "srcHash": "202f28e81121e389",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "5710bfa2075bb02a"
     },
     "DescName_5": {
       "en": "Medicine and Poison Making",
@@ -487,7 +504,8 @@
       "status": "machine",
       "srcHash": "141fac922bc81300",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "6afbd71c0c4cbe48"
     },
     "DescName_6": {
       "en": "Charitable Healing",
@@ -496,7 +514,8 @@
       "status": "machine",
       "srcHash": "81f40bf725eeb565",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "0f2fa3a52e635025"
     },
     "DescName_7": {
       "en": "Mind and Spirit Regulation",
@@ -505,7 +524,8 @@
       "status": "machine",
       "srcHash": "c60c345c5c695fbf",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "241d0ae7d1c8a6e7"
     },
     "DescName_8": {
       "en": "Merchant Trade",
@@ -514,25 +534,28 @@
       "status": "machine",
       "srcHash": "7c2eb191b14fb19f",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-07-10T20:59:06.747Z",
+      "judgeHash": "9e4f36bdfc76b43b"
     },
     "DescName_9": {
       "en": "Guild Liaison",
       "cn": "商会联络",
-      "ru": "Связь с гильдией",
-      "status": "machine",
+      "ru": "Связь с торговой гильдией",
+      "status": "judged",
       "srcHash": "87ebc87f10018e36",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-07-16T02:27:10.184Z",
+      "judgeHash": "0e32327a02be9598"
     },
     "DescName_10": {
       "en": "Collect Tea or Liquor",
       "cn": "采茶取酒",
-      "ru": "Соберите чай или вино",
-      "status": "machine",
+      "ru": "Соберите чай и вино",
+      "status": "judged",
       "srcHash": "06fa9068340d35de",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-16T02:27:10.184Z",
+      "judgeHash": "776d4a09e95d4bd1"
     },
     "DescName_11": {
       "en": "Martial World Arts",
@@ -541,34 +564,38 @@
       "status": "machine",
       "srcHash": "4bd941def38e7f21",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-07-10T20:59:06.747Z",
+      "judgeHash": "93f8acae9325a855"
     },
     "DescName_12": {
       "en": "Martial World Interaction",
       "cn": "江湖联络",
-      "ru": "Мир Боевых Искусств Боевых ",
-      "status": "machine",
+      "ru": "Взаимодействие в Мире Боевых Искусств",
+      "status": "judged",
       "srcHash": "a66ab99bd33ec6c4",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-16T02:27:10.184Z",
+      "judgeHash": "29e4b1f77910a859"
     },
     "DescName_13": {
       "en": "Guard Sword Mound",
       "cn": "驻守剑冢",
-      "ru": "Охранный Курган мечей",
-      "status": "machine",
+      "ru": "Курган мечей гарнизона",
+      "status": "judged",
       "srcHash": "c53de10b6095cb0b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:27:10.184Z",
+      "judgeHash": "596bc8a433fca1ef"
     },
     "DescName_14": {
       "en": "Brave the Demon",
       "cn": "挺身降魔",
-      "ru": "Сразись с демоном",
-      "status": "machine",
+      "ru": "Стойко поборь демонов",
+      "status": "judged",
       "srcHash": "d22a4b2d1ea791e0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:27:10.184Z",
+      "judgeHash": "8a35c08a3f5c3692"
     },
     "DescName_15": {
       "en": "Visit & Negotiate",
@@ -577,7 +604,8 @@
       "status": "machine",
       "srcHash": "e24e33562be2d127",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8bc0ef5f86ea003c"
     },
     "DescShort_0": {
       "en": "Short Description Placeholder",
@@ -586,7 +614,8 @@
       "status": "machine",
       "srcHash": "c65e136d3947eb0f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fe18d8d016b18145"
     },
     "DescShort_1": {
       "en": "Short Description Placeholder",
@@ -595,7 +624,8 @@
       "status": "machine",
       "srcHash": "c65e136d3947eb0f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fe18d8d016b18145"
     },
     "DescShort_2": {
       "en": "Short Description Placeholder",
@@ -604,7 +634,8 @@
       "status": "machine",
       "srcHash": "c65e136d3947eb0f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fe18d8d016b18145"
     },
     "DescShort_3": {
       "en": "Short Description Placeholder",
@@ -613,7 +644,8 @@
       "status": "machine",
       "srcHash": "c65e136d3947eb0f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fe18d8d016b18145"
     },
     "DescShort_4": {
       "en": "Short Description Placeholder",
@@ -622,7 +654,8 @@
       "status": "machine",
       "srcHash": "c65e136d3947eb0f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fe18d8d016b18145"
     },
     "DescShort_5": {
       "en": "Short Description Placeholder",
@@ -631,7 +664,8 @@
       "status": "machine",
       "srcHash": "c65e136d3947eb0f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fe18d8d016b18145"
     },
     "DescShort_6": {
       "en": "Short Description Placeholder",
@@ -640,7 +674,8 @@
       "status": "machine",
       "srcHash": "c65e136d3947eb0f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fe18d8d016b18145"
     },
     "DescShort_7": {
       "en": "Short Description Placeholder",
@@ -649,7 +684,8 @@
       "status": "machine",
       "srcHash": "c65e136d3947eb0f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fe18d8d016b18145"
     },
     "DescShort_8": {
       "en": "Short Description Placeholder",
@@ -658,7 +694,8 @@
       "status": "machine",
       "srcHash": "c65e136d3947eb0f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fe18d8d016b18145"
     },
     "DescShort_9": {
       "en": "Short Description Placeholder",
@@ -667,7 +704,8 @@
       "status": "machine",
       "srcHash": "c65e136d3947eb0f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fe18d8d016b18145"
     },
     "DescShort_10": {
       "en": "Short Description Placeholder",
@@ -676,7 +714,8 @@
       "status": "machine",
       "srcHash": "c65e136d3947eb0f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fe18d8d016b18145"
     },
     "DescShort_11": {
       "en": "Short Description Placeholder",
@@ -685,7 +724,8 @@
       "status": "machine",
       "srcHash": "c65e136d3947eb0f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fe18d8d016b18145"
     },
     "DescShort_12": {
       "en": "Short Description Placeholder",
@@ -694,7 +734,8 @@
       "status": "machine",
       "srcHash": "c65e136d3947eb0f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fe18d8d016b18145"
     },
     "DescShort_13": {
       "en": "Short Description Placeholder",
@@ -703,7 +744,8 @@
       "status": "machine",
       "srcHash": "c65e136d3947eb0f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fe18d8d016b18145"
     },
     "DescShort_14": {
       "en": "Short Description Placeholder",
@@ -712,7 +754,8 @@
       "status": "machine",
       "srcHash": "c65e136d3947eb0f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fe18d8d016b18145"
     },
     "DescShort_15": {
       "en": "Short Description Placeholder",
@@ -721,25 +764,28 @@
       "status": "machine",
       "srcHash": "c65e136d3947eb0f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fe18d8d016b18145"
     },
     "DescContent_0": {
       "en": "<color=#pinkyellow>Meal Preparation: Assigning a Farmer as the Steward of the <color=#orange>[Kitchen]</color> allows them to prepare dishes on your behalf...</color>",
       "cn": "<color=#pinkyellow>举炊备膳：在<color=#orange>「食窖」</color>中指派农户作为主事，可以代制菜肴…</color>",
-      "ru": "<color=#pinkyellow>Приготовление еды: Назначение крестьянина управляющим в <color=#orange>[Кухня]</color> позволяет им готовить блюда от вашего имени...</color>",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>Приготовление еды: Назначение крестьянина старшим в <color=#orange>[Пищевой погреб]</color> позволяет им готовить блюда от вашего имени...</color>",
+      "status": "judged",
       "srcHash": "a50f3c9c21965603",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:32:08.885Z",
+      "judgeHash": "8232efc3fb6eb8b1"
     },
     "DescContent_1": {
       "en": "<color=#pinkyellow>Gather Resources: Farmers can be dispatched to regions with active Way Stations to gather resources...</color>",
       "cn": "<color=#pinkyellow>采集资源：可派遣农户前往已开通驿站的地区采集资源…</color>",
-      "ru": "<color=#pinkyellow>Сбор ресурсов: крестьян можно отправлять в регионы с активными путевыми станциями для сбора ресурсов...</color>",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>Сбор ресурсов: крестьян можно отправлять в регионы с активными почтовыми станциями для сбора ресурсов...</color>",
+      "status": "judged",
       "srcHash": "661fe47a0013d4c5",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:32:08.885Z",
+      "judgeHash": "c3ad1534c5c31ebe"
     },
     "DescContent_2": {
       "en": "<color=#pinkyellow>Relocate Resources: Selecting \"Relocation\" when dispatching Farmers will obtain the corresponding Resource Core Materials at the cost of destroying resource-rich terrain...</color>\\n - The higher the Farmer's <SpName=mousetip_qiyuan_6>\"Harmony,\" the higher the relocation success rate...",
@@ -757,34 +803,38 @@
       "status": "machine",
       "srcHash": "22f8f7f525fe4232",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-11T22:41:11.235Z",
+      "judgeHash": "7ff0080a579435a3"
     },
     "DescContent_4": {
       "en": "<color=#pinkyellow>Crafting Items: Assigning an Artisan as the Steward of a <color=#orange>[Forge]</color>, <color=#orange>[Carpentry Shed]</color>, <color=#orange>[Embroidery Edifice]</color>, or <color=#orange>[Jewelcrafter Workshop]</color> allows them to craft items of the corresponding material...</color>",
       "cn": "<color=#pinkyellow>制造物品：在<color=#orange>「火炼室」</color><color=#orange>「木工房」</color><color=#orange>「绣楼」</color><color=#orange>「巧匠屋」</color>中指派匠人作为主事，可以代制对应材质的物品…</color>",
-      "ru": "<color=#pinkyellow>Изготовление предметов: Назначение ремесленника управляющим в <color=#orange>[Кузница]</color>, <color=#orange>[Сарай для столярных дел]</color>, <color=#orange>[Вышивальное сооружение]</color>, или <color=#orange>[Мастерская ювелира]</color> позволяет им создавать предметы из соответствующего материала...</color>",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>Изготовление предметов: Назначение ремесленника управляющим в <color=#orange>[Огненная кузница]</color>, <color=#orange>[Столярное дело]</color>, <color=#orange>[Вышивальная башня]</color>, или <color=#orange>[Мастерская ремесленника]</color> позволяет им создавать предметы из соответствующего материала...</color>",
+      "status": "judged",
       "srcHash": "7347f7fecc7eb807",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:35:08.138Z",
+      "judgeHash": "f68d4506b726f018"
     },
     "DescContent_5": {
       "en": "<color=#pinkyellow>Medicine and Poison Making: Assigning a Doctor as the Steward of a <color=#orange>[Pharmacy]</color> or <color=#orange>[Secluded Chamber]</color> allows them to prepare medicines and poisons...</color>",
       "cn": "<color=#pinkyellow>制药炼毒：在<color=#orange>「药房」</color><color=#orange>「幽室」</color>中指派大夫作为主事，可以代制药毒…</color>",
-      "ru": "<color=#pinkyellow>Изготовление лекарств и ядов: Назначение врача управляющим в <color=#orange>[Аптека]</color> или <color=#orange>[Уединенная комната]</color> позволяет им готовить лекарства и яды...</color>",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>Изготовление лекарств и ядов: Назначение врача-целителя ответственным в <color=#orange>[Аптеке]</color> или <color=#orange>[Тайной комнате]</color> позволяет ему готовить лекарства и яды...</color>",
+      "status": "judged",
       "srcHash": "623e81a14dd6ff63",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:32:08.885Z",
+      "judgeHash": "1ebf6c55e8a43948"
     },
     "DescContent_6": {
       "en": "<color=#pinkyellow>Charitable Healing: Doctors can be dispatched to regions with active Way Stations to perform <color=#orange>[Medical Care]</color> for characters in that region and gain <SpName=mousetip_enyi>[Regional Favor]...</color>\\n - The higher the Doctor's <SpName=mousetip_qiyuan_0>[Composure], the higher the <SpName=mousetip_character>[Rank] of patient they can treat...\\n - The higher the Doctor's Attainment in <SpName=mousetip_jiyi_8>[Medical Art] or <SpName=mousetip_jiyi_9>[Toxicology], or the higher the patient's <SpName=mousetip_character>[Rank], the more <SpName=mousetip_enyi>[Regional Favor] is gained...",
       "cn": "<color=#pinkyellow>义诊扶危：可派遣大夫前往已开通驿站的地区，为该地区的人物进行<color=#orange>「诊疗」</color>，并收获<SpName=mousetip_enyi>「地区恩义」…</color>\\n -大夫的<SpName=mousetip_qiyuan_0>「冷静」越高，可为<SpName=mousetip_character>「身份」品阶越高的病患进行诊疗…\\n -大夫的<SpName=mousetip_jiyi_8>「医术」或<SpName=mousetip_jiyi_9>「毒术」造诣越高，或病患的<SpName=mousetip_character>「身份」品阶越高，获得的<SpName=mousetip_enyi>「地区恩义」越多…",
-      "ru": "<color=#pinkyellow>Благотворительное лечение: Врачи могут быть направлены в регионы с действующими промежуточными станциями для проведения <color=#orange>[Лечение]</color> для персонажей в этом регионе и получения <SpName=mousetip_enyi>[Региональная услуга]...</color>\\n - Чем выше квалификация врача <SpName=mousetip_qiyuan_0>[Самообладание], чем выше <SpName=mousetip_character>[Ранг] пациента, которого они могут лечить...\\n - Чем выше уровень подготовки врача в <SpName=mousetip_jiyi_8>[Медицинское искусство] или <SpName=mousetip_jiyi_9>[Токсикология], или чем выше у пациента <SpName=mousetip_character>[Ранг], тем больше <SpName=mousetip_enyi>[Региональная благосклонность] достигнута...",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>Благотворительное лечение: Врачи могут быть направлены в регионы с действующими промежуточными станциями для проведения <color=#orange>[лечения]</color> персонажей в этом регионе и получения <SpName=mousetip_enyi>[Региональная благосклонность]...</color>\\n - Чем выше <SpName=mousetip_qiyuan_0>[Самообладание] врача, тем выше <SpName=mousetip_character>[Ранг] пациента, которого он может лечить...\\n - Чем выше <SpName=mousetip_jiyi_8>[Медицинское искусство] или <SpName=mousetip_jiyi_9>[Токсикология] врача, или чем выше <SpName=mousetip_character>[Ранг] пациента, тем больше <SpName=mousetip_enyi>[Региональная благосклонность] получается...",
+      "status": "judged",
       "srcHash": "4eda576318088796",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T08:00:38.821Z",
+      "judgeHash": "ad516c825a4f729b"
     },
     "DescContent_7": {
       "en": "<color=#pinkyellow>Mind and Spirit Regulation: When a Doctor is dispatched for [Charitable Healing], the <SpName=mousetip_rumo>[Xiangshu's Evil Will] of those in Mania in the region can be reduced...</color>\\n - The higher the Doctor's <SpName=mousetip_qiyuan_0>[Composure], and the higher their Attainment in <SpName=mousetip_jiyi_8>[Medical Art] or <SpName=mousetip_jiyi_9>[Toxicology], the more <SpName=mousetip_rumo>[Xiangshu's Evil Will] is reduced...",
@@ -798,11 +848,12 @@
     "DescContent_8": {
       "en": "<color=#pinkyellow>Merchant Trade: Merchants can be dispatched to regions with active Way Stations to buy and sell items...</color>\\n - The higher the Merchant's <SpName=mousetip_qiyuan_2>[Enthusiasm], the higher the <SpName=mousetip_character>[Rank] of local characters they can trade with...\\n - The higher the Merchant's <SpName=mousetip_jiyi_15>[Unorthodox Arts] Attainment, the lower the buying price and the higher the selling price...",
       "cn": "<color=#pinkyellow>经商行贾：可派遣商人前往已开通驿站的地区买卖物品…</color>\\n -商人的<SpName=mousetip_qiyuan_2>「热情」越高，可与当地<SpName=mousetip_character>「身份」品阶越高的人物进行买卖…\\n -商人的<SpName=mousetip_jiyi_15>「杂学」造诣越高，买入物品价格越低，卖出物品价格越高…",
-      "ru": "<color=#pinkyellow>Торговля с торговцами: торговцев можно отправлять в регионы с активными промежуточными станциями для покупки и продажи товаров...</color>\\n - Чем выше доход торговца <SpName=mousetip_qiyuan_2>[Энтузиазм], чем выше <SpName=mousetip_character>[Ранг] местных персонажей, с которыми они могут торговать...\\n - Чем выше доход торговца <SpName=mousetip_jiyi_15>Достижение [неортодоксальных искусств], тем ниже цена покупки и тем выше цена продажи...",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>Торговля купцов: купцов можно отправлять в регионы с действующими почтовыми станциями для покупки и продажи товаров...</color>\\n - Чем выше <SpName=mousetip_qiyuan_2>[Энтузиазм] купца, тем выше <SpName=mousetip_character>[Статус] местных персонажей, с которыми он может торговать...\\n - Чем выше <SpName=mousetip_jiyi_15>[Знания] купца, тем ниже цена покупки и тем выше цена продажи...",
+      "status": "judged",
       "srcHash": "9135dd2c87a89a3d",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:35:08.138Z",
+      "judgeHash": "8e1137f9ae9ad662"
     },
     "DescContent_9": {
       "en": "<color=#pinkyellow>Guild Liaison: While a Merchant is dispatched for [Merchant Trade], the <SpName=mousetip_multilove>[Guild Favorability] of the dispatched region increases each month...</color>\\n - The higher the Merchant's <SpName=mousetip_qiyuan_2>[Enthusiasm] and <SpName=mousetip_jiyi_15>[Unorthodox Arts] Attainment, the more <SpName=mousetip_multilove>[Guild Favorability] is gained...\\n - Dispatching a Merchant to the headquarters of a guild grants even more <SpName=mousetip_multilove>[Favorability] with that guild...",
@@ -811,16 +862,18 @@
       "status": "machine",
       "srcHash": "48939a286c0a5d20",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-11T22:41:11.235Z",
+      "judgeHash": "2bed43bbfb519e79"
     },
     "DescContent_10": {
       "en": "<color=#pinkyellow>Collect Tea or Liquor: Assigning a Scholar as the Steward of a <color=#orange>[Tea Plantation]</color> or <color=#orange>[Distillery]</color> allows them to prepare tea and liquor on your behalf...</color>",
       "cn": "<color=#pinkyellow>采茶取酒：在<color=#orange>「茶园」</color><color=#orange>「蒸酒坊」</color>中指派文人作为主事，可以代制茶酒…</color>",
-      "ru": "<color=#pinkyellow>Сбор чая или вина: Назначение книжника управляющим в <color=#orange>[Чайная плантация]</color> или <color=#orange>[Винокурня]</color> позволяет им приготовить чай и вино от вашего имени...</color>",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>Сбор чая и вина: Назначение книжника управляющим в <color=#orange>[Чайный сад]</color> или <color=#orange>[Винокурня]</color> позволяет им заваривать чай и варить вино от вашего имени...</color>",
+      "status": "judged",
       "srcHash": "85e1f6e0a5875b14",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:32:08.885Z",
+      "judgeHash": "636905ef2782fd45"
     },
     "DescContent_11": {
       "en": "<color=#pinkyellow>Martial World Arts: Scholars can be dispatched to regions with active Way Stations to influence the <SpName=mousetip_development_0>[Stability] and <SpName=mousetip_development_1>[Culture] of local towns and villages...</color>\\n - The higher the Scholar's <SpName=mousetip_qiyuan_1>[Wit], the more times they can exert influence each month...\\n - The higher the Scholar's Attainment in <SpName=mousetip_jiyi_0>[Music], <SpName=mousetip_jiyi_1>[Weiqi], <SpName=mousetip_jiyi_2>[Literature], or <SpName=mousetip_jiyi_3>[Painting], the more <SpName=mousetip_development_0>[Stability] and <SpName=mousetip_development_1>[Culture] change...\\n - The Scholar's mindset determines the effect of [Martial World Arts]: <SpName=mousetip_lichang_0><color=#ffe78f>Principled</color> Scholars likely increase local Stability or Culture; <SpName=mousetip_lichang_1><color=#9fe0dc>Benevolent</color> Scholars always increase them; <SpName=mousetip_lichang_2><color=#ffffff>Moderate</color> Scholars may randomly increase or decrease them; <SpName=mousetip_lichang_3><color=#b975ff>Rebellious</color> Scholars always decrease them; <SpName=mousetip_lichang_4><color=#c6272e>Egocentric</color> Scholars likely decrease them...",
@@ -829,7 +882,8 @@
       "status": "machine",
       "srcHash": "522e648e4c54c2af",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T15:32:07.227Z"
+      "updatedAt": "2026-07-12T15:32:07.227Z",
+      "judgeHash": "f1200157b457df0f"
     },
     "DescContent_12": {
       "en": "<color=#pinkyellow>Martial World Interaction: While a Scholar is dispatched for [Martial World Arts], they change the <SpName=mousetip_multilove>[Favorability]</color> toward Taiwu of random characters within the corresponding settlement's range each month...\\n - The higher the Scholar's <SpName=mousetip_qiyuan_1>[Wit], the more characters are affected...\\n - The higher the Scholar's Attainment in <SpName=mousetip_jiyi_0>[Music], <SpName=mousetip_jiyi_1>[Weiqi], <SpName=mousetip_jiyi_2>[Literature], or <SpName=mousetip_jiyi_3>[Painting], the more <SpName=mousetip_multilove>[Favorability] changes...\\n - <SpName=mousetip_lichang_0><color=#ffe78f>Principled</color> Scholars likely increase Favorability toward Taiwu; <SpName=mousetip_lichang_1><color=#9fe0dc>Benevolent</color> Scholars always increase it; <SpName=mousetip_lichang_2><color=#ffffff>Moderate</color> Scholars may randomly increase or decrease it; <SpName=mousetip_lichang_3><color=#b975ff>Rebellious</color> Scholars always decrease it; <SpName=mousetip_lichang_4><color=#c6272e>Egocentric</color> Scholars likely decrease it...",
@@ -852,11 +906,12 @@
     "DescContent_14": {
       "en": "<color=#pinkyellow>Brave the Demon: Dispatching Mound Wardens to guard Sword Mounds reduces the accumulation of <SpName=mousetip_rumo>[Xiangshu's Evil Will]...</color>\\n - The higher the Mound Warden's <SpName=mousetip_qiyuan_3>[Valor], and the higher their Proficiency in <SpName=mousetip_jiyi_13>[Buddhism] or <SpName=mousetip_jiyi_12>[Taoism], the greater the reduction of <SpName=mousetip_rumo>[Xiangshu's Evil Will]...",
       "cn": "<color=#pinkyellow>挺身降魔：派遣护冢驻守剑冢时，降低<SpName=mousetip_rumo>「入魔程度」的累积…</color>\\n -护冢的<SpName=mousetip_qiyuan_3>「勇壮」越高，<SpName=mousetip_jiyi_13>「佛学」或<SpName=mousetip_jiyi_12>「道法」越高，<SpName=mousetip_rumo>「入魔程度」的降低比例越高…",
-      "ru": "<color=#pinkyellow>Отважься на демона: Отправка хранителей курганов для охраны Курганов мечей уменьшает накопление <SpName=mousetip_rumo>[Злая воля Сяншу]...</color>\\n - Чем выше должность смотрителя кургана <SpName=mousetip_qiyuan_3>[Доблесть], и чем выше их мастерство в <SpName=mousetip_jiyi_13>[Буддизм] или <SpName=mousetip_jiyi_12>[Даосизм], чем больше сокращение <SpName=mousetip_rumo>[Злая воля Сяншу]...",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>Стойко противостоять демонам: Отправка хранителей курганов для охраны Курганов мечей уменьшает накопление <SpName=mousetip_rumo>[степени инфильтрации Сяншу]...</color>\\n - Чем выше <SpName=mousetip_qiyuan_3>[доблесть] хранителя кургана и чем выше его мастерство в <SpName=mousetip_jiyi_13>[буддизме] или <SpName=mousetip_jiyi_12>[даосизме], тем больше снижение <SpName=mousetip_rumo>[степени инфильтрации Сяншу]...",
+      "status": "judged",
       "srcHash": "9da9e9827c0dd74f",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:32:08.885Z",
+      "judgeHash": "bacca85de48650f3"
     },
     "DescContent_15": {
       "en": "<color=#pinkyellow>Visit & Negotiate: Dispatch envoys to a Provincial Capital or Sect region with an active Way Station. When the Taiwu Successor uses the [Provincial Regulations] or [Sect Regulations] interaction in that region, the Crime Level modification range can be expanded by an additional grade...</color>\\n - Regulations with an expanded modification range consume <SpName=mousetip_ziyuan_7>[Prestige] each month. <color=#brightred>If Prestige is insufficient, the modification ceases to take effect...</color>\\n - The higher the envoy's <SpName=mousetip_qiyuan_5>[Luck], the more regulations can have their modification range expanded...",

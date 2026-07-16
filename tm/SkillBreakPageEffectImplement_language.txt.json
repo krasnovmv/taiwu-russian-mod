@@ -6,20 +6,22 @@
     "EffectDesc_22_0": {
       "en": "While the Protection is active and the user has no Wound Marker, direct DMG taken is reduced by <color=#brightblue>{0}%</color>.",
       "cn": "运起护体时，如果运用者未出现重创标记，所受直接伤害降低<color=#brightblue>{0}%</color>",
-      "ru": "Пока защита активна и у пользователя нет маркера раны, прямой урон от DMG уменьшается на <color=#brightblue>{0}%</color>.",
-      "status": "machine",
+      "ru": "Пока защита активна и у применяющего нет маркера раны, получаемый прямой урон уменьшается на <color=#brightblue>{0}%</color>.",
+      "status": "judged",
       "srcHash": "5e73683a8b21da63",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-16T02:16:55.214Z",
+      "judgeHash": "72be42e6efa46905"
     },
     "EffectDesc_25_0": {
       "en": "While the Protection is active and the user has a Wound Marker, direct DMG taken is reduced by <color=#brightblue>{0}%</color>.",
       "cn": "运起护体时，如果运用者已出现重创标记，所受直接伤害降低<color=#brightblue>{0}%</color>",
-      "ru": "Пока защита активна и у пользователя есть маркер раны, прямой урон от DMG уменьшается на <color=#brightblue>{0}%</color>.",
-      "status": "machine",
+      "ru": "Пока защита активна и у пользователя есть маркер тяжелой раны, получаемый прямой урон снижается на <color=#brightblue>{0}%</color>.",
+      "status": "judged",
       "srcHash": "62399fcb63c50817",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-16T02:16:55.214Z",
+      "judgeHash": "e5c4b2e51abac7af"
     }
   }
 }

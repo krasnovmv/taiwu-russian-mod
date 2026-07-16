@@ -6,20 +6,22 @@
     "Name_0": {
       "en": "Surging",
       "cn": "顺序",
-      "ru": "Вздымающийся",
-      "status": "machine",
+      "ru": "Порядок",
+      "status": "judged",
       "srcHash": "cf2904660075de9d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:16:55.214Z",
+      "judgeHash": "0e5722bb445221fb"
     },
     "Name_1": {
       "en": "Sunsplitter",
       "cn": "分支",
-      "ru": "Расщепитель солнца",
-      "status": "machine",
+      "ru": "Ветвление",
+      "status": "judged",
       "srcHash": "a55d1b7c29103391",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:16:55.214Z",
+      "judgeHash": "57b6e6e1bf1036e2"
     },
     "Name_2": {
       "en": "(Running script...)",
@@ -33,29 +35,32 @@
     "Name_3": {
       "en": "Continue",
       "cn": "中继",
-      "ru": "Продолжить",
-      "status": "machine",
+      "ru": "Ретранслятор",
+      "status": "judged",
       "srcHash": "9bb799fa1f7200f3",
       "engine": "yandex",
-      "updatedAt": "2026-07-09T14:42:57.224Z"
+      "updatedAt": "2026-07-16T02:16:55.214Z",
+      "judgeHash": "574d82340e2ff318"
     },
     "Desc_0": {
       "en": "Execute all child nodes in sequence until an action node",
       "cn": "顺序执行所有子节点直到行为节点",
-      "ru": "Выполняйте все дочерние узлы последовательно, пока не появится узел действия",
-      "status": "machine",
+      "ru": "Выполняйте все дочерние узлы последовательно до узла действия",
+      "status": "judged",
       "srcHash": "a3a76f90b90b58f3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:16:55.214Z",
+      "judgeHash": "f1c36e746e64bfcf"
     },
     "Desc_1": {
       "en": "Determine the next node based on conditions",
       "cn": "根据条件判定接下来执行的节点",
-      "ru": "Определите следующий узел на основе условий",
-      "status": "machine",
+      "ru": "Оцените условия для определения следующего выполняемого узла",
+      "status": "judged",
       "srcHash": "c713f2ddceab881f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:16:55.214Z",
+      "judgeHash": "83adc29cbaf507ea"
     },
     "Desc_2": {
       "en": "Execute specific action",
@@ -64,16 +69,18 @@
       "status": "machine",
       "srcHash": "fa0777076819975f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "d2a6aacd0e3eae8f"
     },
     "Desc_3": {
       "en": "Execute the first child node, then another node",
       "cn": "执行首个子节点，下帧执行另个子节点",
-      "ru": "Выполните первый дочерний узел, затем другой узел",
-      "status": "machine",
+      "ru": "Выполните первый дочерний узел, затем в следующем кадре выполните другой узел",
+      "status": "judged",
       "srcHash": "e8d372108b368d15",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:16:55.214Z",
+      "judgeHash": "d62945493b5de53f"
     }
   }
 }

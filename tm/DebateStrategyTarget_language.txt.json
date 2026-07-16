@@ -60,101 +60,112 @@
     "Name_6": {
       "en": "Non-opponent baseline empty square",
       "cn": "非对方底线空格",
-      "ru": "Пустой квадрат базовой линии, не принадлежащий сопернику",
-      "status": "machine",
+      "ru": "Пустая клетка задней линии, не контролируемая соперником",
+      "status": "judged",
       "srcHash": "8276d284b3ded4b3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "d3972dbeb878ef3d"
     },
     "Name_7": {
       "en": "Non-friendly baseline empty square",
       "cn": "非己方底线空格",
-      "ru": "Неприветливый базовый пустой квадрат",
-      "status": "machine",
+      "ru": "Не принадлежащий игроку базовый пустой квадрат",
+      "status": "judged",
       "srcHash": "ebfcbf6b28ff9ccf",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "c150c31453c99a0c"
     },
     "Name_8": {
       "en": "Empty square adjacent to your Contention",
       "cn": "己方相邻空格",
-      "ru": "Пустой квадрат рядом с вашим утверждением",
-      "status": "machine",
+      "ru": "Пустая клетка рядом с вашим тезисом",
+      "status": "judged",
       "srcHash": "7ad366927c00326c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "086591031884b722"
     },
     "Name_9": {
       "en": "Contention Level",
       "cn": "论点等级",
-      "ru": "Уровень конкуренции",
-      "status": "machine",
+      "ru": "Уровень аргумента",
+      "status": "judged",
       "srcHash": "1c29b30afb421790",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "de15bd60024575dc"
     },
     "Name_10": {
       "en": "Strategy Card",
       "cn": "策略卡片",
-      "ru": "Стратегическая карта",
-      "status": "machine",
+      "ru": "Стратегическая карточка",
+      "status": "judged",
       "srcHash": "8a4f63de38c061d5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "35077e97c04f14de"
     },
     "Name_11": {
       "en": "Relaxed Contention",
       "cn": "宽松论点",
-      "ru": "Смягченное соперничество",
-      "status": "machine",
+      "ru": "Свободный аргумент",
+      "status": "judged",
       "srcHash": "2ba718a7311fde49",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "bfb0674564610ce1"
     },
     "Name_12": {
       "en": "Contention with unrevealed Arguments",
       "cn": "未揭示论据论点",
-      "ru": "Спор с нераскрытыми аргументами",
-      "status": "machine",
+      "ru": "Спор с нераскрытыми аргументами и тезисами",
+      "status": "judged",
       "srcHash": "49bcdb3ebf0ca793",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "9ba4707c3c02e5ad"
     },
     "Name_13": {
       "en": "Contention with unrevealed Strategy",
       "cn": "未揭示策略论点",
-      "ru": "Борьба с нераскрытой стратегией",
-      "status": "machine",
+      "ru": "Аргумент о нераскрытой стратегии",
+      "status": "judged",
       "srcHash": "3ba0772a9a4ddd57",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "2b748658240023ee"
     },
     "Name_14": {
       "en": "Contention with Removable Strategy",
       "cn": "可移除策略论点",
-      "ru": "Борьба со сменной стратегией",
-      "status": "machine",
+      "ru": "Аргумент со снимаемой стратегией",
+      "status": "judged",
       "srcHash": "4e1da37c496e2317",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "967202783ed8232b"
     },
     "Name_15": {
       "en": "Incoming Deck",
       "cn": "待用卡组",
-      "ru": "Приближающаяся палуба",
-      "status": "machine",
+      "ru": "Резервная колода",
+      "status": "judged",
       "srcHash": "2fb55e7bceeed4ff",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "657ad2dd78607ee6"
     },
     "Name_16": {
       "en": "Discard Pile",
       "cn": "弃用卡组",
-      "ru": "Стопка сброса",
-      "status": "machine",
+      "ru": "Колода弃用",
+      "status": "judged",
       "srcHash": "8c8e15995c72baac",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "d64c69f7b0251c78"
     },
     "Name_17": {
       "en": "Opponent's Deck",
@@ -163,7 +174,8 @@
       "status": "machine",
       "srcHash": "33af3d65d5087ed1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "d1e1ae1ed679c5c5"
     }
   }
 }

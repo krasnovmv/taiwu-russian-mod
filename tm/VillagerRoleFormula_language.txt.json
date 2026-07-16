@@ -6,11 +6,12 @@
     "DisplayName_0": {
       "en": "Auto-Gather Count",
       "cn": "自动采集次数",
-      "ru": "Автоматический сбор количества",
-      "status": "machine",
+      "ru": "Количество автоматического сбора",
+      "status": "judged",
       "srcHash": "1771d6eb4b053a1e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "e2daaf9efe84d733"
     },
     "DisplayName_1": {
       "en": "",
@@ -24,38 +25,42 @@
     "DisplayName_2": {
       "en": "Base Relocation Success Rate",
       "cn": "迁移基础成功率",
-      "ru": "Показатель успешности базового перемещения",
-      "status": "machine",
+      "ru": "Базовая вероятность успешного перемещения",
+      "status": "judged",
       "srcHash": "8a77b20d126712c6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "d2cbf3c8779d8092"
     },
     "DisplayName_3": {
       "en": "Bonus Relocation Success Rate",
       "cn": "迁移额外成功率",
-      "ru": "Процент успешного перемещения бонуса",
-      "status": "machine",
+      "ru": "Дополнительный шанс успешной миграции",
+      "status": "judged",
       "srcHash": "1925653a2eb2518d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "a47f93e205c64c01"
     },
     "DisplayName_4": {
       "en": "Core Material Upgrade Chance on Relocation",
       "cn": "迁移心材升级几率",
-      "ru": "Возможность обновления сердцевинного материала при перемещении",
-      "status": "machine",
+      "ru": "Шанс обновления сердцевинного материала при перемещении",
+      "status": "judged",
       "srcHash": "70e49af0e629f28b",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "99af39a411351537"
     },
     "DisplayName_5": {
       "en": "Charitable Healing Capacity",
       "cn": "最高义诊病患",
-      "ru": "Благотворительная способность к исцелению",
-      "status": "machine",
+      "ru": "Высшая способность бесплатной медицинской помощи",
+      "status": "judged",
       "srcHash": "f05d9bdba2116776",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "e89546c9a103c245"
     },
     "DisplayName_6": {
       "en": "",
@@ -96,11 +101,12 @@
     "DisplayName_10": {
       "en": "Reduces Xiangshu's Evil Will",
       "cn": "减轻相枢邪念",
-      "ru": "Уменьшает злую волю Сяншу",
-      "status": "machine",
+      "ru": "Уменьшает злые помыслы Сяншу",
+      "status": "judged",
       "srcHash": "d1d15859957d2c13",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "e71c69d169344f21"
     },
     "DisplayName_11": {
       "en": "",
@@ -150,20 +156,22 @@
     "DisplayName_16": {
       "en": "Additional Policies",
       "cn": "额外法规数目",
-      "ru": "Дополнительные правила",
-      "status": "machine",
+      "ru": "Количество дополнительных правил",
+      "status": "judged",
       "srcHash": "f33fce9d269d632c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "a92d2a6843506471"
     },
     "DisplayName_17": {
       "en": "Policy Maintenance Cost",
       "cn": "法规维系消耗",
-      "ru": "Расходы на поддержание политики",
-      "status": "machine",
+      "ru": "Расходы на поддержание регламента",
+      "status": "judged",
       "srcHash": "c315025f918cdd49",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "1a2756a948a7bfa1"
     },
     "DisplayName_18": {
       "en": "",
@@ -195,29 +203,32 @@
     "DisplayName_21": {
       "en": "Change Stability & Culture Times",
       "cn": "改变安定文化次数",
-      "ru": "Времена стабильности изменений и культуры",
-      "status": "machine",
+      "ru": "Изменить количество раз изменения стабильности и культуры",
+      "status": "judged",
       "srcHash": "4ad12862ae3fca7b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "bd86a74843136942"
     },
     "DisplayName_22": {
       "en": "Stability & Culture Influence:",
       "cn": "安定文化影响程度",
-      "ru": "Стабильность и влияние культуры:",
-      "status": "machine",
+      "ru": "Влияние на стабильность культуры:",
+      "status": "judged",
       "srcHash": "fa483134339ad8c2",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "be0085d67ab14961"
     },
     "DisplayName_23": {
       "en": "Number of individuals influenced",
       "cn": "影响好感人数",
-      "ru": "Количество лиц, оказавших влияние",
-      "status": "machine",
+      "ru": "Количество затронутых в плане好感 людей",
+      "status": "judged",
       "srcHash": "2a8acf057b319599",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "a93ffb45b35a3489"
     },
     "DisplayName_24": {
       "en": "Change in Favorability",
@@ -226,16 +237,18 @@
       "status": "machine",
       "srcHash": "cc171bbd534a6e82",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "cbb9c816294a3470"
     },
     "DisplayName_25": {
       "en": "Maximum Trade Opportunities",
       "cn": "最高可买卖经商",
-      "ru": "Максимальные торговые возможности",
-      "status": "machine",
+      "ru": "Максимальные возможности для покупки и продажи",
+      "status": "judged",
       "srcHash": "bbbef4dbf422fd2f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "b51544845e10ae8f"
     },
     "DisplayName_26": {
       "en": "",
@@ -276,20 +289,22 @@
     "DisplayName_30": {
       "en": "Purchase Price",
       "cn": "收购价格比例",
-      "ru": "Цена покупки",
-      "status": "machine",
+      "ru": "Пропорция цены покупки",
+      "status": "judged",
       "srcHash": "ecf00107dbf5a38b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "868dff9abb4c98dd"
     },
     "DisplayName_31": {
       "en": "Selling price",
       "cn": "出售价格比例",
-      "ru": "Цена продажи",
-      "status": "machine",
+      "ru": "Пропорция цены продажи",
+      "status": "judged",
       "srcHash": "26bc0c9671db05ca",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "c4497d80940a26a6"
     },
     "DisplayName_32": {
       "en": "Guild Headquarter Favorability",
@@ -298,7 +313,8 @@
       "status": "machine",
       "srcHash": "e1c16460636e6b5c",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "77446b25c3425efe"
     },
     "DisplayName_33": {
       "en": "Guild Branch Favorability",
@@ -307,7 +323,8 @@
       "status": "machine",
       "srcHash": "4e0d3c4ec13f7ad6",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "d35aed0d4e400e90"
     },
     "DisplayName_34": {
       "en": "",
@@ -330,20 +347,22 @@
     "DisplayName_36": {
       "en": "Chance to Collect a Insight",
       "cn": "收集见闻几率",
-      "ru": "Шанс получить познание",
-      "status": "machine",
+      "ru": "Шанс собрать познания",
+      "status": "judged",
       "srcHash": "851b77842f1125c5",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "d27239f444dba883"
     },
     "DisplayName_37": {
       "en": "Healing probability:",
       "cn": "抵御受伤几率",
-      "ru": "Вероятность заживления:",
-      "status": "machine",
+      "ru": "Вероятность сопротивления ранению:",
+      "status": "judged",
       "srcHash": "f3186a1fdd0d1d6d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "f4768025c7f662bf"
     },
     "DisplayName_38": {
       "en": "",
@@ -357,11 +376,12 @@
     "DisplayName_39": {
       "en": "Chance to Gain a Trait",
       "cn": "获得特性几率",
-      "ru": "Шанс приобрести какую-либо черту",
-      "status": "machine",
+      "ru": "Шанс получения черты",
+      "status": "judged",
       "srcHash": "a223f2c97cc59785",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "ca75a8f313159e90"
     },
     "DisplayName_40": {
       "en": "Chance to Gain a Trait When Injured",
@@ -370,16 +390,18 @@
       "status": "machine",
       "srcHash": "f86e2ce9947fa8fa",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "0d567f22a90a1d3b"
     },
     "DisplayName_41": {
       "en": "Reduces Xiangshu's Evil Will",
       "cn": "减轻相枢邪念",
-      "ru": "Уменьшает злую волю Сяншу",
-      "status": "machine",
+      "ru": "Уменьшает злые помыслы Сяншу",
+      "status": "judged",
       "srcHash": "d1d15859957d2c13",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "e71c69d169344f21"
     },
     "DisplayName_42": {
       "en": "",
@@ -483,11 +505,12 @@
     "DisplayFormat_5": {
       "en": "Rank {0}",
       "cn": "{0}阶",
-      "ru": "Ранг {0}",
-      "status": "machine",
+      "ru": "Уровень {0}",
+      "status": "judged",
       "srcHash": "01a94a8b6d19699b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "92fa53336f05ff65"
     },
     "DisplayFormat_6": {
       "en": "",
@@ -667,7 +690,8 @@
       "status": "machine",
       "srcHash": "01a94a8b6d19699b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "92fa53336f05ff65"
     },
     "DisplayFormat_26": {
       "en": "",

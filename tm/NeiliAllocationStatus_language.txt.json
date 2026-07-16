@@ -6,11 +6,12 @@
     "Name_0": {
       "en": "True Qi dissipates",
       "cn": "真气溃散",
-      "ru": "Истинная ци рассеивается",
-      "status": "machine",
+      "ru": "Истинная ци разрушается",
+      "status": "judged",
       "srcHash": "50e6f0c6d575934f",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "c50e79c88e340132"
     },
     "Name_1": {
       "en": "True Qi Depletion",
@@ -19,7 +20,8 @@
       "status": "machine",
       "srcHash": "44ff551ae196fe22",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-07-10T20:59:06.747Z",
+      "judgeHash": "716402cc8114ebeb"
     },
     "Name_2": {
       "en": "True Qi Stable",
@@ -28,7 +30,8 @@
       "status": "machine",
       "srcHash": "a1097971b9801ed4",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-07-10T20:59:06.747Z",
+      "judgeHash": "a885f8357d49e588"
     },
     "Name_3": {
       "en": "True Qi is full",
@@ -37,151 +40,168 @@
       "status": "machine",
       "srcHash": "e804e9fd2da94c92",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-07-10T20:59:06.747Z",
+      "judgeHash": "e553c9fccc940f78"
     },
     "Name_4": {
       "en": "True Qi surges",
       "cn": "真气暴涨",
-      "ru": "Всплески истинной ци",
-      "status": "machine",
+      "ru": "Истинная ци резко возрастает",
+      "status": "judged",
       "srcHash": "dee1e4dd1c2816e8",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "6c25f9bf201e8350"
     },
     "Desc_0_0": {
       "en": "{0}'s consumption is <color=#brightblue>reduced by 30%</color>, and the generation is <color=#brightblue>raised by 60%</color>.",
       "cn": "{0}的损耗量<color=#brightblue>降低30%</color>，增加量<color=#brightblue>提高60%</color>。",
-      "ru": "{0}потребление составляет <color=#brightblue>уменьшено на 30%</color>, и поколение это <color=#brightblue>увеличено на 60%</color>.",
-      "status": "machine",
+      "ru": "{0} потребление <color=#brightblue>снижено на 30%</color>, а прирост <color=#brightblue>повышен на 60%</color>.",
+      "status": "judged",
       "srcHash": "75b87972e5d2e586",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "9e2574761fb944ff"
     },
     "Desc_0_1": {
       "en": "The power of {0}-type <color=#pinkyellow>Martial Art</color> is <color=#brightred>reduced by 20%</color>.",
       "cn": "{0}<color=#pinkyellow>功法</color>的威力<color=#brightred>降低20%</color>。",
-      "ru": "Сила {0}-тип <color=#pinkyellow>Боевая техника</color> является <color=#brightred>уменьшено на 20%</color>.",
-      "status": "machine",
+      "ru": "Сила <color=#pinkyellow>Боевой техники</color> типа {0} <color=#brightred>снижается на 20%</color>.",
+      "status": "judged",
       "srcHash": "0175f60d37d56fae",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "e0802b7ed9b197cc"
     },
     "Desc_0_2": {
       "en": "The Recoil damage of {0}-type <color=#pinkyellow>Martial Art</color> is <color=#brightblue>reduced by 50%</color>, and the chance of Recoil is <color=#brightred>increased by 100%</color>.",
       "cn": "{0}<color=#pinkyellow>功法</color>的反噬伤害<color=#brightblue>降低50%</color>，反噬几率<color=#brightred>提高100%</color>。",
-      "ru": "Урон от отдачи {0}-тип <color=#pinkyellow>Боевая техника</color> является <color=#brightblue>уменьшено на 50%</color>, и вероятность отдачи равна <color=#brightred>увеличено на 100%</color>.",
-      "status": "machine",
+      "ru": "Урон от отдачи {0}-го типа <color=#pinkyellow>боевой техники</color> <color=#brightblue>снижен на 50%</color>, а вероятность отдачи <color=#brightred>повышена на 100%</color>.",
+      "status": "judged",
       "srcHash": "3cafae9551e2fd4d",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "3a2e85b1abe10bff"
     },
     "Desc_1_0": {
       "en": "{0}'s consumption is <color=#brightblue>reduced by 15%</color>, and the generation is <color=#brightblue>raised by 30%</color>.",
       "cn": "{0}的损耗量<color=#brightblue>降低15%</color>，增加量<color=#brightblue>提高30%</color>。",
-      "ru": "{0}потребление составляет <color=#brightblue>уменьшено на 15%</color>, и поколение это <color=#brightblue>увеличен на 30%</color>.",
-      "status": "machine",
+      "ru": "{0} расход <color=#brightblue>снижен на 15%</color>, а прирост <color=#brightblue>повышен на 30%</color>.",
+      "status": "judged",
       "srcHash": "5b013d805e391e46",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "c10765d617fc7bae"
     },
     "Desc_1_1": {
       "en": "The power of {0}-type <color=#pinkyellow>Martial Art</color> is <color=#brightred>reduced by 20%</color>.",
       "cn": "{0}<color=#pinkyellow>功法</color>的威力<color=#brightred>降低20%</color>。",
-      "ru": "Сила {0}-тип <color=#pinkyellow>Боевая техника</color> является <color=#brightred>уменьшено на 20%</color>.",
-      "status": "machine",
+      "ru": "Сила <color=#pinkyellow>Боевая техника</color> типа {0} <color=#brightred>снижается на 20%</color>.",
+      "status": "judged",
       "srcHash": "0175f60d37d56fae",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "e0802b7ed9b197cc"
     },
     "Desc_1_2": {
       "en": "The Recoil damage of {0}-type <color=#pinkyellow>Martial Art</color> is <color=#brightblue>reduced by 25%</color>, and the chance of Recoil is <color=#brightred>increased by 50%</color>.",
       "cn": "{0}<color=#pinkyellow>功法</color>的反噬伤害<color=#brightblue>降低25%</color>，反噬几率<color=#brightred>提高50%</color>。",
-      "ru": "Урон от отдачи {0}-тип <color=#pinkyellow>Боевая техника</color> является <color=#brightblue>уменьшено на 25%</color>, и вероятность отдачи равна <color=#brightred>увеличился на 50%</color>.",
-      "status": "machine",
+      "ru": "Обратный урон от <color=#pinkyellow>боевой техники</color> типа {0} <color=#brightblue>снижен на 25%</color>, а вероятность обратного удара <color=#brightred>повышена на 50%</color>.",
+      "status": "judged",
       "srcHash": "1eaf29fa44f0afe4",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "022fa85ace14e397"
     },
     "Desc_2_0": {
       "en": "{0}'s consumption and generation remain <color=#pinkyellow>unchanged</color>.",
       "cn": "{0}的损耗量、增加量<color=#pinkyellow>无变化</color>。",
-      "ru": "{0}потребление и выработка электроэнергии остаются <color=#pinkyellow>неизменившийся</color>.",
-      "status": "machine",
+      "ru": "{0} расход и прирост <color=#pinkyellow>без изменений</color>.",
+      "status": "judged",
       "srcHash": "45522adc8b36397c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "85044cd1dff26cdc"
     },
     "Desc_2_1": {
       "en": "The power of {0}-type <color=#pinkyellow>Martial Art</color> remains <color=#pinkyellow>unchanged</color>.",
       "cn": "{0}<color=#pinkyellow>功法</color>的威力<color=#pinkyellow>无变化</color>。",
-      "ru": "Сила {0}-тип <color=#pinkyellow>Боевая техника</color> остается <color=#pinkyellow>неизменный</color>.",
-      "status": "machine",
+      "ru": "Сила <color=#pinkyellow>Боевая техника</color> {0}-го типа остается <color=#pinkyellow>неизменна</color>.",
+      "status": "judged",
       "srcHash": "7e85acefbe6b5652",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "064ae5a14343a2e3"
     },
     "Desc_2_2": {
       "en": "The Recoil damage and Recoil chance of {0}-type <color=#pinkyellow>Martial Art</color> remain <color=#pinkyellow>unchanged</color>.",
       "cn": "{0}<color=#pinkyellow>功法</color>的反噬伤害、反噬几率<color=#pinkyellow>无变化</color>。",
-      "ru": "Урон от отдачи и вероятность отдачи от {0}-тип <color=#pinkyellow>Боевая техника</color> оставаться <color=#pinkyellow>неизменный</color>.",
-      "status": "machine",
+      "ru": "Урон от контратаки и вероятность контратаки для <color=#pinkyellow>Боевой техники</color> типа {0} остаются <color=#pinkyellow>без изменений</color>.",
+      "status": "judged",
       "srcHash": "9bb67ddba8a705bd",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-16T02:35:08.138Z",
+      "judgeHash": "730d2ed74b3e79b5"
     },
     "Desc_3_0": {
       "en": "{0}'s consumption is <color=#brightred>raised by 30%</color>, and the generation is <color=#brightred>reduced by 15%</color>.",
       "cn": "{0}的损耗量<color=#brightred>提高30%</color>，增加量<color=#brightred>降低15%</color>。",
-      "ru": "{0}потребление составляет <color=#brightred>увеличен на 30%</color>, и поколение это <color=#brightred>уменьшено на 15%</color>.",
-      "status": "machine",
+      "ru": "{0} расход <color=#brightred>повышен на 30%</color>, а прирост <color=#brightred>снижен на 15%</color>.",
+      "status": "judged",
       "srcHash": "e10c868fd6c1c97a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "fa98bbc2d70538c4"
     },
     "Desc_3_1": {
       "en": "The power of {0}-type <color=#pinkyellow>Martial Art</color> is <color=#brightblue>increased by 20%</color>.",
       "cn": "{0}<color=#pinkyellow>功法</color>的威力<color=#brightblue>提高20%</color>。",
-      "ru": "Сила {0}-тип <color=#pinkyellow>Боевая техника</color> является <color=#brightblue>увеличился на 20%</color>.",
-      "status": "machine",
+      "ru": "Величина <color=#pinkyellow>Боевой техники</color> {0}-го типа <color=#brightblue>повышается на 20%</color>.",
+      "status": "judged",
       "srcHash": "9a218eca8230fe25",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-16T02:27:10.184Z",
+      "judgeHash": "3e65107bba135c59"
     },
     "Desc_3_2": {
       "en": "The Recoil damage of {0}-type <color=#pinkyellow>Martial Art</color> is <color=#brightred>increased by 50%</color>, and the chance of Recoil is <color=#brightblue>reduced by 25%</color>.",
       "cn": "{0}<color=#pinkyellow>功法</color>的反噬伤害<color=#brightred>提高50%</color>，反噬几率<color=#brightblue>降低25%</color>。",
-      "ru": "Урон от отдачи {0}-тип <color=#pinkyellow>Боевая техника</color> является <color=#brightred>увеличился на 50%</color>, и вероятность отдачи равна <color=#brightblue>уменьшено на 25%</color>.",
-      "status": "machine",
+      "ru": "Урон от отката {0}-го типа <color=#pinkyellow>Боевой техники</color> <color=#brightred>увеличивается на 50%</color>, а вероятность отката <color=#brightblue>снижается на 25%</color>.",
+      "status": "judged",
       "srcHash": "47a70a9b204921c7",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "14d821aeeb74efae"
     },
     "Desc_4_0": {
       "en": "{0}'s consumption is <color=#brightred>raised by 60%</color>, and the generation is <color=#brightred>reduced by 30%</color>.",
       "cn": "{0}的损耗量<color=#brightred>提高60%</color>，增加量<color=#brightred>降低30%</color>。",
-      "ru": "{0}потребление составляет <color=#brightred>увеличен на 60%</color>, и поколение это <color=#brightred>уменьшено на 30%</color>.",
-      "status": "machine",
+      "ru": "{0} расход <color=#brightred>увеличен на 60%</color>, а прирост <color=#brightred>уменьшен на 30%</color>.",
+      "status": "judged",
       "srcHash": "8e1183a31b26946f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "4de315a729a0b31c"
     },
     "Desc_4_1": {
       "en": "The power of {0}-type <color=#pinkyellow>Martial Art</color> is <color=#brightblue>increased by 20%</color>.",
       "cn": "{0}<color=#pinkyellow>功法</color>的威力<color=#brightblue>提高20%</color>。",
-      "ru": "Сила {0}-тип <color=#pinkyellow>Боевая техника</color> является <color=#brightblue>увеличился на 20%</color>.",
-      "status": "machine",
+      "ru": "Сила <color=#pinkyellow>Боевой техники</color> типа {0} <color=#brightblue>увеличивается на 20%</color>.",
+      "status": "judged",
       "srcHash": "9a218eca8230fe25",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "3e65107bba135c59"
     },
     "Desc_4_2": {
       "en": "The Recoil damage of {0}-type <color=#pinkyellow>Martial Art</color> is <color=#brightred>increased by 100%</color>, and the chance of Recoil is <color=#brightblue>reduced by 50%</color>.",
       "cn": "{0}<color=#pinkyellow>功法</color>的反噬伤害<color=#brightred>提高100%</color>，反噬几率<color=#brightblue>降低50%</color>。",
-      "ru": "Урон от отдачи {0}-тип <color=#pinkyellow>Боевая техника</color> является <color=#brightred>увеличено на 100%</color>, и вероятность отдачи равна <color=#brightblue>уменьшено на 50%</color>.",
-      "status": "machine",
+      "ru": "Урон от отдачи {0}-го типа <color=#pinkyellow>Боевая техника</color> <color=#brightred>увеличен на 100%</color>, а вероятность отдачи <color=#brightblue>уменьшена на 50%</color>.",
+      "status": "judged",
       "srcHash": "e08a0fe60b08a206",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "e2aa9b7fba763ab1"
     }
   }
 }

@@ -6,74 +6,82 @@
     "GrowingBadEffectDesc_0": {
       "en": "The host's weapon attack hit rate against enemies is further decreased.",
       "cn": "宿主的兵器攻击命中敌人的几率额外降低。",
-      "ru": "Скорость попадания при атаке оружием хозяина по врагам еще больше снижается.",
-      "status": "machine",
+      "ru": "Шанс попадания атакой оружием хозяина по врагам дополнительно снижается.",
+      "status": "judged",
       "srcHash": "81e3e2874454dfaf",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "3d106d4120787b5c"
     },
     "GrowingBadEffectDesc_1": {
       "en": "Inflicts minor Daze damage on the host whenever the host's poison takes effect, scaling with the Gu's remaining duration.",
       "cn": "宿主毒性发作时根据蛊虫的剩余持续时间给宿主施加少量失神伤害。",
-      "ru": "Наносит незначительный урон от оцепенения хозяину всякий раз, когда яд хозяина вступает в силу, увеличиваясь в зависимости от оставшегося времени действия Гу.",
-      "status": "machine",
+      "ru": "При срабатывании яда хозяина наносит ему незначительный урон от оцепенения, масштабированный в зависимости от оставшегося времени действия гу.",
+      "status": "judged",
       "srcHash": "9028d898d61b195c",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "3bdb93fa0a546fc5"
     },
     "GrowingBadEffectDesc_2": {
       "en": "The level of the host's Opening and Sealed Acupoint increases by 1.",
       "cn": "宿主受到的破绽、封穴级别增加1级",
-      "ru": "Уровень раскрытия и запечатывания акупунктурной точки хозяина увеличивается на 1.",
-      "status": "machine",
+      "ru": "Уровень уязвимости и запечатанной акупунктурной точки хозяина увеличивается на 1.",
+      "status": "judged",
       "srcHash": "42e4bb437e24c281",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "51ab1e395d27c971"
     },
     "GrowingBadEffectDesc_3": {
       "en": "When the host's True Qi decreases, it randomly causes another type of True Qi in the host to decrease by 2.",
       "cn": "宿主的真气减少时，使宿主随机类型的真气再减少2点。",
-      "ru": "Когда Истинная ци хозяина уменьшается, это случайным образом приводит к уменьшению другого типа истинной ци в хозяине на 2.",
-      "status": "machine",
+      "ru": "Когда истинная ци хозяина уменьшается, случайным образом истинная ци другого типа у хозяина уменьшается на 2.",
+      "status": "judged",
       "srcHash": "eefa264a1c8e6de0",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "2c4d3c52ab87f64b"
     },
     "GrowingBadEffectDesc_4": {
       "en": "If the host's Health is not below 50%, the Wound Damage received by the host is additionally increased. And the more the Wound Damage is increased, the more the host's Health will decrease.",
       "cn": "如果宿主的健康不低于50%，宿主受到的重创伤害额外提高，且被提高的重创伤害越多，宿主的健康也会减少越多。",
-      "ru": "Если здоровье носителя не ниже 50%, урон от раны, получаемый носителем, дополнительно увеличивается. И чем больше увеличивается повреждение раны, тем больше будет снижаться здоровье хозяина.",
-      "status": "machine",
+      "ru": "Если здоровье носителя не ниже 50%, получаемый им урон от тяжелых ран дополнительно увеличивается. И чем больше увеличивается этот урон, тем сильнее снижается здоровье носителя.",
+      "status": "judged",
       "srcHash": "f2ad99305da18ba5",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "69ba1e163d8d74ef"
     },
     "GrowingBadEffectDesc_5": {
       "en": "The chance of the host's Martial Arts and weapons being sealed further increases.",
       "cn": "宿主的功法、兵器被封禁的几率额外提高。",
-      "ru": "Вероятность того, что боевые искусства и оружие хозяина будут запечатаны, еще больше возрастает.",
-      "status": "machine",
+      "ru": "Вероятность того, что боевые искусства и оружие хозяина будут запрещены, дополнительно повышается.",
+      "status": "judged",
       "srcHash": "09e5ba7103ecacea",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "74f60f0d8159de9a"
     },
     "GrowingBadEffectDesc_6": {
       "en": "The Pure Essence Suppression from Pure Essence effects granted to the host by Body Purification, Spirit Fullness, and Transcendent Realm are decreased.",
       "cn": "宿主由洗浊、神足、入化赋予的精纯境界效果中的精纯压制效果降低。",
-      "ru": "Подавление Чистой эссенции от эффектов Чистой эссенции, предоставляемых носителю Очищением тела, Наполненностью Духом и Трансцендентной сферой, уменьшается.",
-      "status": "machine",
+      "ru": "Снижается эффект подавления Чистой эссенции в эффектах Чистой эссенции, предоставляемых носителю Очищением тела, Наполненностью Духом и Трансцендентной сферой.",
+      "status": "judged",
       "srcHash": "1f1aeb19b2c9522b",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "0a55bf0a5b23a744"
     },
     "GrowingBadEffectDesc_7": {
       "en": "The host's positive \"traits\" will temporarily change their positive effects on all of the host's Primary Attributes, Secondary traits, Hit, Deflect, Attack, Defense, and Talent into negative ones.",
       "cn": "宿主的正面「特性」对宿主的所有主要属性、次要属性、命中、化解、攻击、防御、资质的正面影响会暂时变化为负面影响。",
-      "ru": "Положительные \"черты\" хозяина временно изменят свои положительные эффекты на все Первичные характеристики, Вторичные черты, Удар, отклонение, атаку, защиту и Талант хозяина на отрицательные.",
-      "status": "machine",
+      "ru": "Положительные \"черты\" хозяина временно изменят свои положительные эффекты на все Первичные характеристики, Вторичные черты, Попадание, Разрыв, Атаку, Защиту и Талант хозяина на отрицательные.",
+      "status": "judged",
       "srcHash": "0524663714b7e5fc",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "575eca95929dc165"
     },
     "GrowingGoodEffectDesc_0": {
       "en": "The host's weapon attack hit rate against enemies is further increased.",
@@ -87,56 +95,62 @@
     "GrowingGoodEffectDesc_1": {
       "en": "Inflicts minor Daze damage on the enemy whenever the host's poison takes effect, scaling with the Gu's remaining duration.",
       "cn": "宿主毒性发作时根据蛊虫的剩余持续时间给敌人施加少量失神伤害。",
-      "ru": "Наносит врагу незначительный урон от оцепенения всякий раз, когда яд хозяина вступает в силу, увеличиваясь в зависимости от оставшегося времени действия Гу.",
-      "status": "machine",
+      "ru": "Наносит врагу незначительный урон от оцепенения при срабатывании яда хозяина, масштабированный в зависимости от оставшегося времени действия гу.",
+      "status": "judged",
       "srcHash": "09edc23c4f498351",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "cf4d0a5d489eea57"
     },
     "GrowingGoodEffectDesc_2": {
       "en": "The level of the host's Opening and Sealed Acupoint decreases by 1.",
       "cn": "宿主受到的破绽、封穴级别减少1级",
-      "ru": "Уровень раскрытия и запечатанной акупунктурной точки хозяина уменьшается на 1.",
-      "status": "machine",
+      "ru": "Уровень уязвимости и запечатанной акупунктурной точки хозяина уменьшается на 1.",
+      "status": "judged",
       "srcHash": "fd3a4222781605de",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "892e7526b19041ae"
     },
     "GrowingGoodEffectDesc_3": {
       "en": "When the host's True Qi increases, it randomly causes another type of True Qi in the host to increase by 2.",
       "cn": "宿主的真气增加时，使宿主随机类型的真气再增加2点。",
-      "ru": "Когда Истинная ци хозяина увеличивается, это случайным образом приводит к увеличению другого типа истинной ци в хозяине на 2.",
-      "status": "machine",
+      "ru": "Когда истинная ци хозяина увеличивается, случайным образом истинная ци другого типа у хозяина увеличивается на 2.",
+      "status": "judged",
       "srcHash": "9dc28e8c9f1d79a6",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "9d846ea7eec63a79"
     },
     "GrowingGoodEffectDesc_4": {
       "en": "If the host's Health is not below 50%, the Wound Damage received by the host is additionally decreased. And the more the Wound Damage is decreased, the more the host's Health will increase.",
       "cn": "如果宿主的健康不低于50%，宿主受到的重创伤害额外降低，但被降低的重创伤害越多，宿主的健康也会减少越多。",
-      "ru": "Если здоровье носителя не ниже 50%, урон от раны, получаемый носителем, дополнительно уменьшается. И чем больше уменьшается повреждение раны, тем больше увеличивается здоровье хозяина.",
-      "status": "machine",
+      "ru": "Если здоровье носителя не ниже 50%, получаемый им урон от раны дополнительно снижается. И чем больше снижается урон от раны, тем больше уменьшается здоровье хозяина.",
+      "status": "judged",
       "srcHash": "038b57c68910531f",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "a37ed7fce3b40f53"
     },
     "GrowingGoodEffectDesc_5": {
       "en": "The chance of the host's Martial Arts and weapons being sealed further decreases.",
       "cn": "宿主的功法、兵器被封禁的几率额外降低。",
-      "ru": "Вероятность того, что боевые искусства и оружие хозяина будут запечатаны, еще больше уменьшается.",
-      "status": "machine",
+      "ru": "Вероятность того, что боевые искусства и оружие хозяина будут запечатаны, дополнительно уменьшается.",
+      "status": "judged",
       "srcHash": "670535afac462bf2",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "27ae661642e7d8bd"
     },
     "GrowingGoodEffectDesc_6": {
       "en": "The Pure Essence Suppression from Pure Essence effects granted to the host by Body Purification, Spirit Fullness, and Transcendent Realm are increased.",
       "cn": "宿主由洗浊、神足、入化赋予的精纯境界效果中的精纯压制效果提高。",
-      "ru": "Подавление Чистой эссенции от эффектов Чистой эссенции, дарованных носителю Очищением тела, наполненностью Духа и Трансцендентной сферой, увеличивается.",
-      "status": "machine",
+      "ru": "Подавление чистой эссенции от эффектов чистой эссенции, дарованных носителю Очищением тела, наполненностью духа и стадией Вхождения в трансцендентность, увеличивается.",
+      "status": "judged",
       "srcHash": "7b482d32485ff956",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T08:00:38.821Z",
+      "judgeHash": "e29cfd59cecbb906"
     },
     "GrowingGoodEffectDesc_7": {
       "en": "The host's negative \"traits\" will temporarily change their negative effects on all of the host's Primary Attributes, Secondary traits, Hit, Defuse, Attack, Deflect, and Talent into positive ones.",
@@ -145,151 +159,168 @@
       "status": "machine",
       "srcHash": "2ae5bc20a66d3657",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-11T22:41:11.235Z",
+      "judgeHash": "859b4e465046bde0"
     },
     "GrownEffectDesc_0": {
       "en": "The host will lose some items during the change of months.",
       "cn": "宿主在月份更替时会遗失部分物品。",
-      "ru": "Хозяин потеряет некоторые предметы во время смены месяцев.",
-      "status": "machine",
+      "ru": "Носитель потеряет некоторые предметы при смене месяца.",
+      "status": "judged",
       "srcHash": "4681fc22df469cd0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "624f4c7ff529bfa8"
     },
     "GrownEffectDesc_1": {
       "en": "During the change of months, the host will inexplicably become vindictive against those whose Favorability has greatly decreased and will more readily seek revenge on foes.",
       "cn": "宿主在月份更替时还会无端的仇视那些与其好感大幅下降的人物，并更容易向仇人寻仇。",
-      "ru": "Во время смены месяцев хозяин необъяснимым образом станет мстительным по отношению к тем, чья благосклонность значительно снизилась, и с большей готовностью будет мстить врагам.",
-      "status": "machine",
+      "ru": "Во время смены месяцев хозяин необоснованно станет враждебен к тем, чья благосклонность значительно снизилась, и охотнее будет мстить своим врагам.",
+      "status": "judged",
       "srcHash": "31684c5a8fc8b6e6",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "47b8cee694b8c8bf"
     },
     "GrownEffectDesc_2": {
       "en": "The host will suffer from Inner Breath Chaos during the change of months due to the injury level.",
       "cn": "宿主的内息在月份更替时会因身上的伤势程度而紊乱。",
-      "ru": "Хозяин будет страдать от хаоса внутреннего дыхания во время смены месяцев из-за уровня травмы.",
-      "status": "machine",
+      "ru": "Внутреннее дыхание хозяина будет нарушаться в период смены месяцев в зависимости от степени травмы.",
+      "status": "judged",
       "srcHash": "6d4fcbbf24aad01b",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "0749ca7d322b1f3b"
     },
     "GrownEffectDesc_3": {
       "en": "During the change of months, the host's Mania or Deviation multiplies tenfold.",
       "cn": "宿主在月份更替时的入邪、入魔程度的增加量变为10倍。",
-      "ru": "При смене месяцев мания или отклонение хозяина увеличивается в десять раз.",
-      "status": "machine",
+      "ru": "При смене месяцев увеличение степени вхождения в заблуждение или отклонение хозяина становится в 10 раз.",
+      "status": "judged",
       "srcHash": "abe7dbfc21b0e990",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "b297b5f80ce65d8f"
     },
     "GrownEffectDesc_4": {
       "en": "The host's Health cannot be restored during the change of months due to the state of Inner Breath.",
       "cn": "宿主的健康无法在月份更替时因内息状况而得到恢复。",
-      "ru": "Здоровье носителя не может быть восстановлено в течение смены месяцев из-за состояния Внутреннего дыхания.",
-      "status": "machine",
+      "ru": "Здоровье носителя не может быть восстановлено в момент смены месяца из-за состояния внутреннего дыхания.",
+      "status": "judged",
       "srcHash": "45f90d6ff040a38a",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "2942645e23d22694"
     },
     "GrownEffectDesc_5": {
       "en": "The host's Qi cannot be restored during the change of months and will significantly deplete.",
       "cn": "宿主的内力无法在月份更替时恢复，并会大量流失。",
-      "ru": "Ци хозяина не может быть восстановлена в течение смены месяцев и значительно истощится.",
-      "status": "machine",
+      "ru": "Ци хозяина не может восстанавливаться в момент смены месяца и значительно истощается.",
+      "status": "judged",
       "srcHash": "40022cc9c72a30c4",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "593d7fc31c29d392"
     },
     "GrownEffectDesc_6": {
       "en": "During the change of months, the Prime Aureate Gu will randomly devour one of the host's developed Gu and inflict a large amount of toxin on the host.",
       "cn": "金蚕王蛊在月份更替时还会随机吞噬宿主体内的1个成蛊，并向宿主施加大量的毒素。",
-      "ru": "Во время смены месяцев первичный золотистый Гу случайным образом пожирает одну из развитых Гу хозяина и наносит хозяину большое количество токсина.",
-      "status": "machine",
+      "ru": "При смене месяца Золотой Шелковичный Король Гу случайно поедает одну из созревших Гу хозяина и накладывает на него сильный токсин.",
+      "status": "judged",
       "srcHash": "aeda74000210e12e",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "7c4e5ee15b1274ce"
     },
     "GrownEffectDesc_7": {
       "en": "Any individual who makes intimate contact with the host will be inflicted with an un-attuned Prismatic Gu Larva.",
       "cn": "与宿主肌肤相亲的所有人物都会被种下未识主的青髓若蛊。",
-      "ru": "Любой индивид, вступивший в интимный контакт с хозяином, будет заражен не настроенной призматической личинкой Гу.",
-      "status": "machine",
+      "ru": "Любой человек, вступивший в тесный контакт с хозяином, будет заражен личинкой гу Цинсуэй, не узнавшей своего хозяина.",
+      "status": "judged",
       "srcHash": "70a1686847c64d0c",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "3ff619da0d3740f3"
     },
     "MakeTip_0": {
       "en": "It will inevitably occur when <SpName=sp_icon_poison_3><color=#redpoison>Pyrotoxin</color> exceeds 40% of poison consumption.",
       "cn": "<SpName=sp_icon_poison_3><color=#redpoison>赤毒</color>超过毒素消耗的四成时必然诞生",
-      "ru": "Это неизбежно произойдет, когда <SpName=sp_icon_poison_3><color=#redpoison>Пиротоксин</color> превышает 40% потребления яда.",
-      "status": "machine",
+      "ru": "Это неизбежно произойдет, когда <SpName=sp_icon_poison_3><color=#redpoison>пиротоксин</color> превысит 40% потребления яда.",
+      "status": "judged",
       "srcHash": "4ffe6802a2ab1b61",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "990d3ca2b0d4602b"
     },
     "MakeTip_1": {
       "en": "It will inevitably occur when <SpName=sp_icon_poison_1><color=#gloomypoison>Umbritoxin</color> exceeds 40% of poison consumption.",
       "cn": "<SpName=sp_icon_poison_1><color=#gloomypoison>郁毒</color>超过毒素消耗的四成时必然诞生",
-      "ru": "Это неизбежно произойдет, когда <SpName=sp_icon_poison_1><color=#gloomypoison>Умбротоксин</color> превышает 40% потребления яда.",
-      "status": "machine",
+      "ru": "Это неизбежно произойдет, когда <SpName=sp_icon_poison_1><color=#gloomypoison>умбротоксин</color> превысит 40% потребления яда.",
+      "status": "judged",
       "srcHash": "c5be1c182f159d16",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "7f648f9586589e6f"
     },
     "MakeTip_2": {
       "en": "It will inevitably occur when <SpName=sp_icon_poison_4><color=#rottenpoison>Necrotoxin</color> exceeds 40% of poison consumption.",
       "cn": "<SpName=sp_icon_poison_4><color=#rottenpoison>腐毒</color>超过毒素消耗的四成时必然诞生",
-      "ru": "Это неизбежно произойдет, когда <SpName=sp_icon_poison_4><color=#rottenpoison>Некротоксин</color> превышает 40% потребления яда.",
-      "status": "machine",
+      "ru": "Это неизбежно произойдет, когда <SpName=sp_icon_poison_4><color=#rottenpoison>Некротоксин</color> превысит 40% потребления яда.",
+      "status": "judged",
       "srcHash": "edb4755bd69962af",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "519a9c7d69d39d9e"
     },
     "MakeTip_3": {
       "en": "It will inevitably occur when the consumption of all types of Toxins differs by less than 10%.",
       "cn": "所有类型毒素消耗相差不足一成时必然诞生",
-      "ru": "Это неизбежно произойдет, когда потребление всех видов токсинов будет отличаться менее чем на 10%.",
-      "status": "machine",
+      "ru": "Рождение неизбежно, когда разница в потреблении всех видов токсинов составляет менее 10%.",
+      "status": "judged",
       "srcHash": "9a296686e538ee26",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "04cce694b28cfebf"
     },
     "MakeTip_4": {
       "en": "It will inevitably occur when <SpName=sp_icon_poison_0><color=#hotpoison>Acritoxin</color>, <SpName=sp_icon_poison_3><color=#redpoison>Pyrotoxin</color>, and <SpName=sp_icon_poison_4><color=#rottenpoison>Necrotoxin</color> each exceed 30% of poison consumption.",
       "cn": "当<SpName=sp_icon_poison_0><color=#hotpoison>烈毒</color><SpName=sp_icon_poison_3><color=#redpoison>赤毒</color><SpName=sp_icon_poison_4><color=#rottenpoison>腐毒</color>均超过毒素消耗的三成时必然诞生",
-      "ru": "Это неизбежно произойдет, когда <SpName=sp_icon_poison_0><color=#hotpoison>Акритоксин</color>, <SpName=sp_icon_poison_3><color=#redpoison>Пиротоксин</color>, и <SpName=sp_icon_poison_4><color=#rottenpoison>Некротоксин</color> каждый из них превышает 30% от потребляемого яда.",
-      "status": "machine",
+      "ru": "Это неизбежно произойдет, когда <SpName=sp_icon_poison_0><color=#hotpoison>акритоксин</color>, <SpName=sp_icon_poison_3><color=#redpoison>пиротоксин</color> и <SpName=sp_icon_poison_4><color=#rottenpoison>некротоксин</color> каждый превышают 30% от общего расхода яда.",
+      "status": "judged",
       "srcHash": "8fb7c0061777d6a6",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "fe7769b3ba662e52"
     },
     "MakeTip_5": {
       "en": "It will inevitably occur when <SpName=sp_icon_poison_2><color=#coldpoison>Cryotoxin</color> exceeds 40% of poison consumption.",
       "cn": "<SpName=sp_icon_poison_2><color=#coldpoison>寒毒</color>超过毒素消耗的四成时必然诞生",
-      "ru": "Это неизбежно произойдет, когда <SpName=sp_icon_poison_2><color=#coldpoison>Криотоксин</color> превышает 40% потребления яда.",
-      "status": "machine",
+      "ru": "Это неизбежно произойдет, когда <SpName=sp_icon_poison_2><color=#coldpoison>криотоксин</color> превысит 40% потребления яда.",
+      "status": "judged",
       "srcHash": "5a6579c2b1f57956",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "876fe56afbcd4acb"
     },
     "MakeTip_6": {
       "en": "It will inevitably occur when <SpName=sp_icon_poison_0><color=#hotpoison>Acritoxin</color> exceeds 40% of poison consumption.",
       "cn": "<SpName=sp_icon_poison_0><color=#hotpoison>烈毒</color>超过毒素消耗的四成时必然诞生",
-      "ru": "Это неизбежно произойдет, когда <SpName=sp_icon_poison_0><color=#hotpoison>Акритоксин</color> превышает 40% потребления яда.",
-      "status": "machine",
+      "ru": "Это неизбежно произойдет, когда <SpName=sp_icon_poison_0><color=#hotpoison>Акритоксин</color> превысит 40% потребления яда, и эффект возникнет.",
+      "status": "judged",
       "srcHash": "096a6c76ab00922f",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "a2a8e0a658b9f1d3"
     },
     "MakeTip_7": {
       "en": "It will inevitably occur when <SpName=sp_icon_poison_1><color=#gloomypoison>Umbritoxin</color>, <SpName=sp_icon_poison_2><color=#coldpoison>Cryotoxin</color>, <SpName=sp_icon_poison_5><color=#illusorypoison>Oneirotoxin</color> each exceed 30% of poison consumption.",
       "cn": "当<SpName=sp_icon_poison_1><color=#gloomypoison>郁毒</color><SpName=sp_icon_poison_2><color=#coldpoison>寒毒</color><SpName=sp_icon_poison_5><color=#illusorypoison>幻毒</color>均超过毒素消耗的三成时必然诞生",
-      "ru": "Это неизбежно произойдет, когда <SpName=sp_icon_poison_1><color=#gloomypoison>Умбротоксин</color>, <SpName=sp_icon_poison_2><color=#coldpoison>Криотоксин</color>, <SpName=sp_icon_poison_5><color=#illusorypoison>Онейротоксин</color> каждый из них превышает 30% от потребляемого яда.",
-      "status": "machine",
+      "ru": "Это неизбежно произойдет, когда <SpName=sp_icon_poison_1><color=#gloomypoison>умбротоксин</color>, <SpName=sp_icon_poison_2><color=#coldpoison>криотоксин</color>, <SpName=sp_icon_poison_5><color=#illusorypoison>онейротоксин</color> каждый превысит 30% от потребления яда.",
+      "status": "judged",
       "srcHash": "841b57d3e061726b",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-16T02:20:44.408Z",
+      "judgeHash": "e0460331c789e3ed"
     }
   }
 }
