@@ -8,18 +8,18 @@
  *   npm run judge -- --all --dry-run        # report the fixes, write nothing
  *   npm run judge -- --all --force          # re-judge units that already have a verdict
  *
- * Talks to a local LM Studio server (TAIWU_LMSTUDIO_BASE_URL, TAIWU_LMSTUDIO_MODEL
- * or --model). Each unit is shown to the model with its file, key, English source,
- * Chinese original and glossary terms; a unit ruled wrong is rewritten in place in
- * the TM (`status: "judged"`). Costs nothing but local GPU time, and is resumable:
- * a verdict is remembered per unit and only replayed when the EN, CN or glossary
- * behind it changes (see config/judge.ts).
+ * Talks to Yandex AI Studio (TAIWU_YANDEX_API_KEY / TAIWU_YANDEX_FOLDER_ID,
+ * TAIWU_JUDGE_MODEL or --model). Each unit is shown to the model with its file,
+ * key, English source, Chinese original and glossary terms; a unit ruled wrong is
+ * rewritten in place in the TM (`status: "judged"`). Billed per token by Yandex,
+ * and resumable: a verdict is remembered per unit and only replayed when the EN,
+ * CN or glossary behind it changes (see config/judge.ts).
  *
  * Nothing reaches the game until `npm run apply-all`.
  */
 import { JUDGE_CONCURRENCY } from "../config/judge.js";
 import { EVENT_DLC_PREFIX, EVENT_PREFIX } from "../config/sources.js";
-import { LmStudioClient } from "../engine/lmstudio-client.js";
+import { YandexGptClient } from "../engine/yandex-gpt-client.js";
 import { judgeFile, planJudgeFile, type JudgeStats } from "../judge/judge.js";
 import { listSourceFiles } from "../scan.js";
 import { FileProgress, Progress } from "./progress.js";
@@ -86,8 +86,8 @@ async function main(): Promise<void> {
   const files = args.all
     ? (await listSourceFiles()).filter((f) => !skipForNow(f))
     : [args.file as string];
-  const client = LmStudioClient.fromEnv(args.model);
-  const model = await client.ensureModel(); // fail fast if LM Studio is down
+  const client = YandexGptClient.fromEnv(args.model);
+  const model = await client.ensureModel(); // fail fast if credentials are missing
   const now = new Date().toISOString();
   const select = {
     limit: args.limit,

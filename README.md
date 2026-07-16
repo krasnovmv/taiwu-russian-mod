@@ -59,8 +59,11 @@ Yandex credentials are not configured here — they always come from the `yc` CL
 | Variable                     | Purpose                                                       |
 | ---------------------------- | ------------------------------------------------------------- |
 | `TAIWU_LANG_RU_DIR`          | RU output dir for `apply` (default `./Language_RU` into game) |
-| `TAIWU_LMSTUDIO_BASE_URL`    | LM Studio server (default `http://localhost:1234/v1`)         |
-| `TAIWU_LMSTUDIO_MODEL`       | Model id (default: first non-embedding model loaded)          |
+| `TAIWU_YANDEX_API_KEY`       | Judge (Yandex AI Studio) API key; else an IAM token via `yc`   |
+| `TAIWU_YANDEX_FOLDER_ID`     | Judge folder id (default: `yc config get folder-id`)          |
+| `TAIWU_JUDGE_MODEL`          | Judge model (default `yandexgpt/latest`)                      |
+| `TAIWU_LMSTUDIO_BASE_URL`    | LM Studio server for `--engine lmstudio` (default `…:1234/v1`) |
+| `TAIWU_LMSTUDIO_MODEL`       | LM Studio model id (default: first non-embedding model loaded) |
 | `TAIWU_LMSTUDIO_CONCURRENCY` | Parallel requests to LM Studio (default 4)                    |
 
 Source/CN/TM/glossary paths are fixed (`./Language_EN`, `./Language_CN`, `./tm`,
@@ -101,11 +104,11 @@ entirely** (it keeps its English on apply). Override the cap per run:
 `npm run translate-all -- --max-len 500`.
 
 Quality is not the translator's job any more — it's the judge's. `judge-all`
-walks the machine translations and shows each one to a local LLM (LM Studio) with
+walks the machine translations and shows each one to an LLM (Yandex AI Studio) with
 the file it lives in, the English source, the **Chinese original** (the meaning of
 record) and the applicable glossary terms; a translation ruled wrong is rewritten
-in place in the TM as `status: "judged"`. It costs nothing but local GPU time, and
-is resumable — see [LLM judge](#llm-judge).
+in place in the TM as `status: "judged"`. It is billed per token by Yandex, and is
+resumable — see [LLM judge](#llm-judge).
 
 Length-routing across two engines still exists (`translate -- --all --route
 [--threshold N]`: short → Yandex, long → LM Studio) but is no longer the default
@@ -183,13 +186,13 @@ a later run retries it. The judge can never write something QA would then flag.
 ### Changing the model
 
 ```bash
-TAIWU_LMSTUDIO_MODEL=<better-model>   # or, per run: npm run judge -- --all --model <id>
-TAIWU_JUDGE_VERSION=4                 # invalidate every past verdict
+TAIWU_JUDGE_MODEL=yandexgpt-lite/latest  # or, per run: npm run judge -- --all --model <id>
+TAIWU_JUDGE_VERSION=4                     # invalidate every past verdict
 npm run judge-all
 ```
 
 A new model on its own re-judges **nothing**: the model is deliberately not part
-of `judgeHash`, or every LM Studio update would silently re-judge the corpus. Bump
+of `judgeHash`, or every model swap would silently re-judge the corpus. Bump
 `TAIWU_JUDGE_VERSION` (or use `--force` on one file to sample first).
 
 A unit an earlier pass rewrote holds that pass's wording, not the engine's — so on

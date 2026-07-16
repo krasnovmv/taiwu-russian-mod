@@ -1,7 +1,7 @@
 /**
  * LLM-judge configuration (`npm run judge`).
  *
- * The judge re-reads every machine translation with a local LLM (LM Studio),
+ * The judge re-reads every machine translation with an LLM (Yandex AI Studio),
  * given the file it lives in, the English source, the Chinese original and the
  * applicable glossary — and rewrites it when it is wrong. It never translates
  * from scratch: pending units are the translator's job (`npm run translate-all`).
@@ -41,7 +41,7 @@ function envInt(name: string, fallback: number): number {
 
 export const JUDGE_VERSION = envInt("TAIWU_JUDGE_VERSION", DEFAULT_JUDGE_VERSION);
 
-/** Parallel judge requests to LM Studio. */
+/** Parallel judge requests to Yandex AI Studio. */
 export const JUDGE_CONCURRENCY = envInt("TAIWU_JUDGE_CONCURRENCY", DEFAULT_CONCURRENCY);
 
 /** Units judged before the TM is flushed (bounds work lost if interrupted). */

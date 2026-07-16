@@ -16,23 +16,15 @@
  * ignore the flag.
  */
 import { backoffMs, delay } from "../util/async.js";
+import { cleanOutput, type ChatMessage, type ChatOptions } from "./chat-client.js";
 
-const THINK_RE = /<think>[\s\S]*?<\/think>/gi;
+// Re-exported so long-standing importers (e.g. `engine/lmstudio.ts`) keep their
+// paths; the definitions now live in the shared `chat-client.ts`.
+export { cleanOutput, mapPool } from "./chat-client.js";
+export type { ChatMessage, ChatOptions, ChatClient } from "./chat-client.js";
+
 const MAX_RETRIES = 3;
 const DEFAULT_TIMEOUT_MS = 120_000;
-
-export interface ChatMessage {
-  role: "system" | "user";
-  content: string;
-}
-
-export interface ChatOptions {
-  /** Sampling temperature; 0 (default) for reproducible localization output. */
-  temperature?: number;
-  /** Ask the server to constrain output to this JSON schema (structured output). */
-  jsonSchema?: { name: string; schema: unknown };
-  timeoutMs?: number;
-}
 
 interface ModelsResponse {
   data: { id: string }[];
@@ -156,32 +148,4 @@ async function fetchWithTimeout(url: string, body: string, timeoutMs: number): P
   } finally {
     clearTimeout(timer);
   }
-}
-
-/** Strip reasoning blocks and surrounding whitespace/quotes from model output. */
-export function cleanOutput(raw: string): string {
-  let out = raw.replace(THINK_RE, "").trim();
-  // Drop a single pair of wrapping quotes the model may have added.
-  if (out.length >= 2 && /^["“'«]/.test(out) && /["”'»]$/.test(out)) {
-    out = out.slice(1, -1).trim();
-  }
-  return out;
-}
-
-/** Run `fn` over `items` with bounded concurrency, preserving order. */
-export async function mapPool<T, R>(
-  items: T[],
-  concurrency: number,
-  fn: (item: T, index: number) => Promise<R>,
-): Promise<R[]> {
-  const results = new Array<R>(items.length);
-  let next = 0;
-  async function worker(): Promise<void> {
-    for (let i = next++; i < items.length; i = next++) {
-      results[i] = await fn(items[i] as T, i);
-    }
-  }
-  const workers = Array.from({ length: Math.min(concurrency, items.length) }, worker);
-  await Promise.all(workers);
-  return results;
 }

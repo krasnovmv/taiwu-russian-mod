@@ -1,9 +1,9 @@
 /**
  * LLM-judge pass over one file's translation memory.
  *
- * For every machine-translated unit it asks a local LLM (LM Studio) to review the
- * Russian against the English source, the Chinese original and the glossary, and
- * rewrites the ones it rules wrong. Writes ONLY the TM — never the game files,
+ * For every machine-translated unit it asks an LLM (Yandex AI Studio) to review
+ * the Russian against the English source, the Chinese original and the glossary,
+ * and rewrites the ones it rules wrong. Writes ONLY the TM — never the game files,
  * never the engine cache.
  *
  * What it does NOT touch:
@@ -29,7 +29,7 @@ import {
   JUDGE_VERSION,
 } from "../config/judge.js";
 import { EngineCache } from "../engine/cache-lookup.js";
-import { mapPool, type LmStudioClient } from "../engine/lmstudio-client.js";
+import { mapPool, type ChatClient } from "../engine/chat-client.js";
 import { loadGlossary } from "../glossary/load.js";
 import { matchGlossary } from "../glossary/match.js";
 import type { TmFile, TmUnit } from "../model/tm.js";
@@ -146,7 +146,7 @@ export async function planJudgeFile(
 
 export async function judgeFile(
   file: string,
-  client: LmStudioClient,
+  client: ChatClient,
   options: JudgeOptions = {},
 ): Promise<JudgeStats> {
   const empty: JudgeStats = {
