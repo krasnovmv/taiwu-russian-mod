@@ -22,6 +22,11 @@
  * model's output against that very code, so a rewrite that breaks them is thrown
  * away rather than trusted.
  *
+ * The prompt is sent on every request, so its length is a per-unit cost over the
+ * whole corpus: keep it terse. Every rule below is load-bearing (each maps to a
+ * gate in `validate/qa.ts` or to a JUDGE_VERSION note in `config/judge.ts`) — trim
+ * the prose around a rule, never the rule.
+ *
  * Replace the whole system prompt via TAIWU_JUDGE_PROMPT_FILE, and bump
  * JUDGE_VERSION when you do (see `config/judge.ts`), or nothing re-judges.
  */
@@ -36,67 +41,49 @@ import { matchGlossary } from "../glossary/match.js";
  * omits it), so the model returns only category + severity.
  */
 export function defaultSystemPrompt(explanations: boolean): string {
-  return `You are an expert annotator of Russian translation quality for The Scroll of Taiwu (太吾绘卷), a Chinese wuxia (武侠) martial-arts life-simulation game. You annotate errors in an existing machine translation, following the MQM methodology.
+  return `You annotate, by MQM, the quality of a machine translation into Russian for The Scroll of Taiwu (太吾绘卷), a Chinese wuxia (武侠) life-simulation game.
 
-For one string of game text you are given:
-- FILE: the game file it lives in. Its name tells you the register — item/skill/place files are short noun phrases, event and dialogue files are prose, UI files are terse labels.
-- KEY: the string's id in that file.
-- ENGLISH: the text that was translated. It is itself machine-translated from Chinese, so it may be awkward or wrong.
-- CHINESE: the original. It is the MEANING OF RECORD — where English and Chinese disagree, Chinese wins.
-- RUSSIAN: the translation you are annotating.
-- MACHINE: present only when the RUSSIAN is NOT the raw engine output — i.e. an earlier judge already rewrote this string, and MACHINE is what the translation engine originally produced. Treat it as a second opinion, not as a target: if the earlier rewrite fixed a real problem, keep it; if it drifted away from the Chinese, invented a term or read worse than MACHINE, say so and put the better text (MACHINE's wording, or your own) in "ru".
-- GLOSSARY: MANDATORY Russian renderings for specific terms, when any occur. These are not suggestions — see the Glossary section below.
+Blocks you are given for one string:
+- FILE, KEY: where the string lives. The filename gives the register — item/skill/place files are short noun phrases, event/dialogue files prose, UI files terse labels.
+- ENGLISH: the text that was translated. Itself machine-translated from Chinese, so it may be awkward or wrong.
+- CHINESE: the original, and the MEANING OF RECORD — where English and Chinese disagree, Chinese wins.
+- RUSSIAN: the translation you annotate.
+- MACHINE: the raw engine output, present only when the RUSSIAN is an earlier judge's rewrite of it. A second opinion, not a target: keep the rewrite if it fixed a real problem; if it drifted from the Chinese, invented a term or reads worse, say so and put the better text (MACHINE's wording or your own) in "ru".
+- GLOSSARY: mandatory Russian renderings, when any term occurs.
 
-## Your task
+## Task
 
-List ONLY the real errors in the RUSSIAN, each with a category and a severity. Then, if and only if at least one error is major or critical, write a corrected Russian translation in "ru". If every error is minor, or there are no errors, leave "ru" empty.
+List ONLY the real errors in the RUSSIAN, each with a category and a severity. Then, if and only if at least one error is major or critical, write a corrected Russian in "ru". If every error is minor, or there are none, leave "ru" empty.
 
-An empty error list is the correct, expected answer for most strings. Most machine translations here are acceptable. Do not go looking for errors to justify a rewrite.
-${explanations ? `\nEach error's "explanation" is ONE short sentence naming the defect (≤ 200 characters) — not your reasoning, not a discussion, not alternatives you weighed. Do your thinking silently; report only the conclusion.\n` : ""}
+An empty error list is the correct, expected answer for most strings: most of these machine translations are acceptable. Do not go looking for errors to justify a rewrite.
+${explanations ? `\nEach error's "explanation" is ONE short sentence naming the defect (≤ 200 characters) — the conclusion only, not your reasoning, not alternatives you weighed.\n` : ""}
 ## Severity
 
-- critical: the text misleads the player about game mechanics or is unusable (e.g. a number, an effect or a condition contradicts the Chinese; the string is gibberish).
-- major: meaning is changed or comprehension is disrupted (mistranslation of the actual content, a dropped or invented clause, English or Chinese left in the Russian, a mandated glossary term ignored, a special character the ENGLISH has dropped from the Russian — e.g. the wrapping "quotes" of a quoted line, a [bracketed] keyword marker — grammar broken enough to obscure the sense).
-- minor: technically an error, but it does not disrupt the flow or hinder comprehension (a clumsy but understandable phrasing, an imperfect but acceptable term choice, a missing comma).
+- critical: misleads the player about game mechanics, or is unusable (a number, effect or condition contradicts the Chinese; gibberish).
+- major: meaning changed or comprehension disrupted — mistranslation, a dropped or invented clause, English or Chinese left in the Russian, a mandated glossary term ignored, a special character the ENGLISH has dropped (the wrapping "quotes" of a quoted line, a [bracketed] keyword marker), grammar broken enough to obscure the sense.
+- minor: an error that neither disrupts flow nor hinders comprehension — clumsy but understandable phrasing, an imperfect but acceptable term, a missing comma.
 
 ## Categories
 
 accuracy/mistranslation, accuracy/omission, accuracy/addition, accuracy/untranslated, terminology, fluency/grammar, fluency/agreement, fluency/spelling, fluency/punctuation, style/register, markup
 
-## What is NOT an error
+## What is NOT an error — never report these
 
-Be strict with yourself here. None of the following is an error, and none of them may be reported:
-- a wording that differs from what you would have written, but means the same thing;
-- a synonym you like less; a different but valid word order;
-- a non-literal rendering that preserves the meaning (translating meaning, not words, is correct);
-- a transliteration of a Chinese name that is readable and consistent;
-- a valid stylistic choice you would not have made.
-
-If your only complaint is that you could phrase it more elegantly, there is no error. Report nothing.
-
-## Glossary — non-negotiable
-
-When a GLOSSARY is given, every listed term is a FIXED, MANDATORY rendering. This overrides your own preference, the wuxia tone, and even a more natural-sounding alternative. You may NEVER substitute a synonym, a "better" word, or a different transliteration for a glossary term — not even one that means the same thing.
-
-- If the RUSSIAN already uses the mandated term (in any grammatical form — declined for case, number, gender), that part is correct; do not touch it.
-- If the RUSSIAN uses anything OTHER than the mandated term for that concept, that is at LEAST a "terminology / major" error, and your correction MUST use the glossary term, declined to fit the sentence's grammar.
-- Your correction is AUTOMATICALLY REJECTED and your work wasted if it drops or replaces any mandated term. So: whatever else you change, keep every glossary term.
-
-Example: if the glossary says \`loong → лун\`, then "дракон", "дрейк", "змей" are all WRONG, however well they read. Only "лун" (луна, луну, луном… any case) is acceptable.
+A wording that differs from yours but means the same; a synonym you like less; a different but valid word order; a non-literal rendering that preserves the meaning; a readable, consistent transliteration of a Chinese name; a valid stylistic choice you would not have made. If your only complaint is that you could phrase it more elegantly, there is no error — report nothing.
 
 ## Hard constraints on any correction you write
 
-The correction is rejected automatically — and your work wasted — if it breaks any of these:
-1. MARKUP IS SACRED. Every tag and placeholder in the ENGLISH — {0}, {1}, <color=#ffffff>, </color>, <NL>, <Character .../> — must appear in your Russian exactly: same tokens, same count, same numbers. Never add, drop, reorder or translate markup.
-2. ESCAPES ARE SACRED. Backslash escapes (\\n, \\t, \\", \\\\, \\uXXXX) must appear with exactly the same count and be well-formed. Never leave a bare backslash, never truncate a \\uXXXX sequence.
-3. SPECIAL CHARACTERS ARE SACRED. Every quotation mark and bracket the ENGLISH has — " ( ) [ ] { } — plus % # $ * + = must appear in your Russian the same number of times, in the matching place. If the English wraps the whole line in "quotes", your Russian must wrap it in the SAME "quotes" (keep the straight " character — do NOT convert it to «», to a dash —, or drop it). If the English marks a keyword as [Protection], keep it [Защита] in brackets. Dropping or changing one of these is an automatic rejection.
+Breaking any of these rejects the correction automatically and wastes your work:
+1. MARKUP IS SACRED. Every tag and placeholder in the ENGLISH — {0}, {1}, <color=#ffffff>, </color>, <NL>, <Character .../> — appears in your Russian exactly: same tokens, count, numbers. Never add, drop, reorder or translate markup.
+2. ESCAPES ARE SACRED. Backslash escapes (\\n, \\t, \\", \\\\, \\uXXXX): same count, well-formed. Never a bare backslash, never a truncated \\uXXXX.
+3. SPECIAL CHARACTERS ARE SACRED. Every " ( ) [ ] { } % # $ * + = the ENGLISH has appears in your Russian the same number of times, in the matching place. If the English wraps the line in "quotes", wrap yours in the same straight " — do NOT swap it for «», for a dash, or drop it. A keyword marked [Protection] stays [Защита], in brackets.
 4. Do not add or remove real line breaks.
-5. Never leave English or Latin letters in the Russian text (unless the source itself is a code or an id).
-6. NO CHINESE IN THE RUSSIAN. Not one hanzi (汉字) may appear in your correction. The CHINESE block is a reference for you to READ, never text to copy: names, terms and titles go into the Russian TRANSLITERATED in Cyrillic (六甲镜 → «Зеркало Шестицзя», never «Зеркало 六甲»), never as the characters themselves and never as a parenthetical gloss beside the Russian. A single Chinese character is an automatic rejection.
-7. GLOSSARY IS SACRED. Every mandated term from the GLOSSARY must appear in your Russian (declined to fit the grammar). Ignoring, dropping or substituting even one is an automatic rejection.
-8. KEEP IT CONCISE. The UI is laid out for English widths; a Russian string much longer than the English is clipped with an ellipsis in-game and text is lost. Prefer the most compact faithful wording, never pad, and drop nothing meaningful to save space. A correction more than twice the English length is rejected — say the shorter way. Aim at or below the English length.
+5. NO LATIN LETTERS in the Russian (unless the source itself is a code or an id).
+6. NO CHINESE IN THE RUSSIAN. Not one hanzi (汉字). The CHINESE block is to READ, never to copy: names, terms and titles go in TRANSLITERATED in Cyrillic (六甲镜 → «Зеркало Шестицзя», never «Зеркало 六甲»), never as characters, never as a parenthetical gloss beside the Russian. One Chinese character is an automatic rejection.
+7. GLOSSARY IS SACRED. A listed term is FIXED and MANDATORY, over your preference, the wuxia tone and any more natural-sounding alternative: never substitute a synonym, a "better" word or another transliteration, not even one that means the same. Already used (in any case/number/gender)? Correct — do not touch it. Anything else used for that concept? At LEAST terminology/major, and your correction must use the glossary term, declined to fit the grammar. Dropping or replacing one is an automatic rejection.
+8. KEEP IT CONCISE. The UI is laid out for English widths; longer Russian is clipped with an ellipsis in-game and text is lost. Aim at or below the English length, never pad, drop nothing meaningful to save space. Over twice the English length is rejected — say it the shorter way.
 9. The Russian must not be empty or wildly shorter than the English (do not drop content to shorten).
-10. Put ONLY the translation in the "ru" field — no commentary, no English gloss. (This does not mean stripping quotes that belong to the text: quotation marks the ENGLISH itself contains are part of the translation and must stay — see rule 3.)
+10. "ru" holds ONLY the translation — no commentary, no English gloss. Quotation marks the ENGLISH itself contains belong to the text and stay (rule 3).
 
 If you cannot correct the text without breaking a constraint, report the errors and leave "ru" empty.
 
@@ -121,7 +108,7 @@ ENGLISH: Pass the Divine Loong's trial.
 CHINESE: 通过神龙的试炼。
 RUSSIAN: Пройди испытание Божественного Дракона.
 GLOSSARY: divine loong → божественный лун
-→ errors: [{terminology, major${explanations ? `, "glossary mandates 'лун'; 'Дракона' substitutes it"` : ""}}]  ru: "Пройди испытание Божественного луна"   (must use 'лун', declined)`;
+→ errors: [{terminology, major${explanations ? `, "glossary mandates 'лун'; 'Дракона' substitutes it"` : ""}}]  ru: "Пройди испытание Божественного луна"   ('дракон', 'змей' are wrong however well they read; only 'лун', declined)`;
 }
 
 let cachedPrompt: string | null = null;
@@ -176,10 +163,10 @@ export function buildUserMessage(ctx: JudgeContext, glossary: ReadonlyMap<string
   }
   if (matches.length > 0) {
     const lines = matches.map((m) => `${m.en} → ${m.ru}`).join("\n");
-    parts.push(
-      "GLOSSARY (MANDATORY — every term below MUST appear in your Russian, declined to fit the " +
-        `grammar; substituting or dropping one auto-rejects your correction):\n${lines}`,
-    );
+    // Terse on purpose: constraint 7 of the system prompt already spells out that
+    // these are mandatory and what dropping one costs. Repeating it per unit only
+    // buys tokens.
+    parts.push(`GLOSSARY (MANDATORY, decline to fit the grammar):\n${lines}`);
   }
   return parts.join("\n\n");
 }
