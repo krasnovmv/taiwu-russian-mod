@@ -41,6 +41,19 @@ function envInt(name: string, fallback: number): number {
 
 export const JUDGE_VERSION = envInt("TAIWU_JUDGE_VERSION", DEFAULT_JUDGE_VERSION);
 
+/**
+ * Which backend the judge talks to: Yandex AI Studio (default) or a local LM
+ * Studio server. Set `TAIWU_JUDGE_ENGINE=lmstudio` to use the latter; any other
+ * value (or unset) is Yandex. The engine only swaps the transport — prompt,
+ * schema and QA gates are identical either way, so it does NOT invalidate
+ * verdicts (the model is deliberately not part of `judgeHash`).
+ */
+export type JudgeEngine = "yandex" | "lmstudio";
+export const JUDGE_ENGINE: JudgeEngine =
+  (process.env.TAIWU_JUDGE_ENGINE ?? "").trim().toLowerCase() === "lmstudio"
+    ? "lmstudio"
+    : "yandex";
+
 /** Parallel judge requests to Yandex AI Studio. */
 export const JUDGE_CONCURRENCY = envInt("TAIWU_JUDGE_CONCURRENCY", DEFAULT_CONCURRENCY);
 

@@ -108,7 +108,9 @@ walks the machine translations and shows each one to an LLM (Yandex AI Studio) w
 the file it lives in, the English source, the **Chinese original** (the meaning of
 record) and the applicable glossary terms; a translation ruled wrong is rewritten
 in place in the TM as `status: "judged"`. It is billed per token by Yandex, and is
-resumable — see [LLM judge](#llm-judge).
+resumable — see [LLM judge](#llm-judge). Set `TAIWU_JUDGE_ENGINE=lmstudio` to run
+the judge on a local LM Studio server instead (free GPU time); the transport is the
+only difference, so switching does not re-judge anything.
 
 Length-routing across two engines still exists (`translate -- --all --route
 [--threshold N]`: short → Yandex, long → LM Studio) but is no longer the default

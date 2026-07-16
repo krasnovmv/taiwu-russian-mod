@@ -8,17 +8,20 @@
  *   npm run judge -- --all --dry-run        # report the fixes, write nothing
  *   npm run judge -- --all --force          # re-judge units that already have a verdict
  *
- * Talks to Yandex AI Studio (TAIWU_YANDEX_API_KEY / TAIWU_YANDEX_FOLDER_ID,
- * TAIWU_JUDGE_MODEL or --model). Each unit is shown to the model with its file,
- * key, English source, Chinese original and glossary terms; a unit ruled wrong is
- * rewritten in place in the TM (`status: "judged"`). Billed per token by Yandex,
- * and resumable: a verdict is remembered per unit and only replayed when the EN,
- * CN or glossary behind it changes (see config/judge.ts).
+ * Backend is chosen by TAIWU_JUDGE_ENGINE: Yandex AI Studio (default;
+ * TAIWU_YANDEX_API_KEY / TAIWU_YANDEX_FOLDER_ID, billed per token) or a local LM
+ * Studio server (`=lmstudio`; TAIWU_LMSTUDIO_BASE_URL/MODEL, free GPU time).
+ * TAIWU_JUDGE_MODEL or --model picks the model on either. Each unit is shown to
+ * the model with its file, key, English source, Chinese original and glossary
+ * terms; a unit ruled wrong is rewritten in place in the TM (`status: "judged"`).
+ * Resumable: a verdict is remembered per unit and only replayed when the EN, CN
+ * or glossary behind it changes (see config/judge.ts).
  *
  * Nothing reaches the game until `npm run apply-all`.
  */
-import { JUDGE_CONCURRENCY } from "../config/judge.js";
+import { JUDGE_CONCURRENCY, JUDGE_ENGINE } from "../config/judge.js";
 import { EVENT_DLC_PREFIX, EVENT_PREFIX } from "../config/sources.js";
+import { LmStudioClient } from "../engine/lmstudio-client.js";
 import { YandexGptClient } from "../engine/yandex-gpt-client.js";
 import { judgeFile, planJudgeFile, type JudgeStats } from "../judge/judge.js";
 import { listSourceFiles } from "../scan.js";
@@ -86,8 +89,11 @@ async function main(): Promise<void> {
   const files = args.all
     ? (await listSourceFiles()).filter((f) => !skipForNow(f))
     : [args.file as string];
-  const client = YandexGptClient.fromEnv(args.model);
-  const model = await client.ensureModel(); // fail fast if credentials are missing
+  const client =
+    JUDGE_ENGINE === "lmstudio"
+      ? LmStudioClient.fromEnv(args.model)
+      : YandexGptClient.fromEnv(args.model);
+  const model = await client.ensureModel(); // fail fast if the backend is unreachable
   const now = new Date().toISOString();
   const select = {
     limit: args.limit,
@@ -103,7 +109,8 @@ async function main(): Promise<void> {
   const suffix = args.dryRun ? " (dry-run)" : "";
   const concurrency = args.concurrency ?? JUDGE_CONCURRENCY;
   console.log(
-    `Judge${suffix} | model: ${model} | files: ${files.length} | concurrency: ${concurrency}${window}` +
+    `Judge${suffix} | engine: ${JUDGE_ENGINE} | model: ${model} | files: ${files.length} | ` +
+      `concurrency: ${concurrency}${window}` +
       (args.force ? " | force" : ""),
   );
 
