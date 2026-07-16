@@ -186,6 +186,18 @@ test("a rewrite that leaves Latin in the Russian is rejected", () => {
   assert.deepEqual(kinds("Zhang Fei", "Zhang Fei"), ["untranslated"]);
 });
 
+test("a rewrite that leaves Chinese in the Russian is rejected", () => {
+  const kinds = (en: string, ru: string): string[] => checkTranslation(en, ru).map((i) => i.kind);
+  // A name the engine gave up on and left in hanzi.
+  assert.ok(kinds("Hexagonal Mirror", "Зеркало 六甲").includes("chinese-in-russian"));
+  // The CN reference copied in beside the Russian as a gloss.
+  assert.ok(kinds("Wandering Sect", "Секта странников (游侠派)").includes("chinese-in-russian"));
+  // A transliterated name is the correct rendering — no hanzi, nothing flagged.
+  assert.deepEqual(kinds("Hexagonal Mirror", "Зеркало Шестицзя"), []);
+  // A CN-sourced unit carried through verbatim is `untranslated`, not double-flagged.
+  assert.deepEqual(kinds("六甲镜", "六甲镜"), ["untranslated"]);
+});
+
 test("a rewrite that drops a source special character is rejected", () => {
   const kinds = (en: string, ru: string): string[] => checkTranslation(en, ru).map((i) => i.kind);
   // The reported bug: EN wraps the tip in "quotes", the rewrite dropped them.

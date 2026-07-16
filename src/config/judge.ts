@@ -31,7 +31,10 @@
 //    tells the model to strip a quoted line's own quotation marks.
 // 6: conciseness rule — a rewrite more than 2× the English length is rejected
 //    (length-bloat gate), since the UI clips overlong Russian with an ellipsis.
-const DEFAULT_JUDGE_VERSION = 6;
+// 7: no hanzi in the Russian — a rewrite containing even one Chinese character is
+//    rejected (chinese-in-russian gate); the prompt now says the CHINESE block is
+//    to be read, not copied, and that names are transliterated into Cyrillic.
+const DEFAULT_JUDGE_VERSION = 7;
 const DEFAULT_CONCURRENCY = 4;
 
 function envInt(name: string, fallback: number): number {

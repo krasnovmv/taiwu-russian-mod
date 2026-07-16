@@ -15,6 +15,8 @@
  *   - empty output:   non-empty EN must not translate to empty RU
  *   - untranslated:   RU equal to EN for text that contained letters (informational
  *                     while translation is incomplete — the CLI never fails on it)
+ *   - chinese in RU:  hanzi left in the Russian — the CN original leaking through
+ *                     an untranslated name or a copied reference block
  *   - length anomaly: RU wildly SHORTER than EN (likely dropped content)
  *   - length bloat:   RU much LONGER than EN (> 2×) — an English-sized UI box
  *                     clips the overflow with an ellipsis, so text is lost
@@ -35,6 +37,7 @@ export type IssueKind =
   | "length-anomaly"
   | "length-bloat"
   | "latin-in-russian"
+  | "chinese-in-russian"
   | "special-char-loss"
   | "glossary-miss"
   | "cn-divergence";
@@ -127,6 +130,17 @@ const CODE_LITERALS = new Set(["true", "false", "null"]);
 /** Latin runs remaining in `ru` after markup is stripped, minus code literals. */
 function latinLeftovers(ru: string): string[] {
   return (stripMarkup(ru).match(LATIN_RUN_RE) ?? []).filter((run) => !CODE_LITERALS.has(run));
+}
+
+// Hanzi left in the Russian output (once markup is stripped). Unlike Latin there
+// is no exempt form: a Chinese character in a Russian string is always a defect —
+// either a name the engine gave up on, or the CN reference leaking in from the
+// judge's prompt. Names belong in Cyrillic transliteration.
+const HAN_RUN_RE = /\p{Script=Han}+/gu;
+
+/** Runs of Chinese characters remaining in `ru` after markup is stripped. */
+function chineseLeftovers(ru: string): string[] {
+  return stripMarkup(ru).match(HAN_RUN_RE) ?? [];
 }
 
 // Literal symbol characters that carry meaning and must survive translation
@@ -246,10 +260,15 @@ export function checkTranslation(en: string, ru: string): TranslationIssue[] {
 
   // Latin left in a Russian translation — but not when the RU is just the EN
   // carried through verbatim (a pinyin name, a dev id): that is already reported
-  // as `untranslated`, and flagging it again as Latin would double-count it.
+  // as `untranslated`, and flagging it again as Latin would double-count it. The
+  // same carve-out covers the Chinese check: some units ship a CN `en` field, and
+  // an untouched pass-through of one is `untranslated`, not a leak.
   if (en !== ru) {
     const latin = latinLeftovers(ru);
     if (latin.length > 0) push("latin-in-russian", `Latin in RU: ${latin.join(" ")}`);
+
+    const chinese = chineseLeftovers(ru);
+    if (chinese.length > 0) push("chinese-in-russian", `Chinese in RU: ${chinese.join(" ")}`);
   }
 
   // Literal special characters (brackets, quotes, %) the source has but the

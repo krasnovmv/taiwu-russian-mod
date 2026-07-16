@@ -337,7 +337,7 @@ export async function judgeTm(
         }
 
         // A rewrite must pass exactly the checks `npm run validate` runs (markup
-        // parity, escape/newline counts, non-empty, no Latin left in the Russian,
+        // parity, escape/newline counts, non-empty, no Latin or hanzi left in the Russian,
         // sane length), PLUS glossary compliance — the judge is given the mandated
         // terms, so a rewrite that ignores one is a regression, not an improvement.
         // If any check fails, drop the rewrite and leave every member UNMARKED
