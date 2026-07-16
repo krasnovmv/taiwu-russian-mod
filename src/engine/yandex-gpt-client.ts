@@ -135,6 +135,13 @@ export class YandexGptClient implements ChatClient {
       max_tokens: this.maxTokens,
       stream: false,
       messages,
+      // Turn off the model's "thinking". Yandex AI Studio enables reasoning by
+      // default for models that support it, which wastes latency and tokens on a
+      // judge whose output is already pinned by the JSON schema. The lever the
+      // OpenAI-compatible endpoint documents (e.g. on the qwen3.6-35b-a3b model
+      // card) is reasoning_effort: "none"; ignored by models without a reasoning
+      // mode.
+      reasoning_effort: "none",
       ...(opts.jsonSchema
         ? { response_format: { type: "json_schema", json_schema: opts.jsonSchema } }
         : {}),

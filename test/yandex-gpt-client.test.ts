@@ -65,11 +65,14 @@ test("chat sends the model URI, api-key auth, folder header and structured outpu
     model: string;
     response_format: { type: string; json_schema: { name: string } };
     temperature: number;
+    reasoning_effort: string;
   };
   assert.equal(body.model, "gpt://folder-123/yandexgpt/latest");
   assert.equal(body.temperature, 0);
   assert.equal(body.response_format.type, "json_schema");
   assert.equal(body.response_format.json_schema.name, "mqm");
+  // Reasoning is turned off (Yandex documents reasoning_effort: "none").
+  assert.equal(body.reasoning_effort, "none");
 });
 
 test("a lapsed IAM token (401) is re-minted and the request retried", async () => {
