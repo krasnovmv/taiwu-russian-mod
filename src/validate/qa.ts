@@ -15,9 +15,11 @@
  *   - empty output:   non-empty EN must not translate to empty RU
  *   - untranslated:   RU equal to EN for text that contained letters (informational
  *                     while translation is incomplete — the CLI never fails on it)
- *   - length anomaly: RU wildly shorter/longer than EN (heuristic; skipped when
- *                     the EN field is actually Chinese — CJK density makes the
- *                     ratio meaningless)
+ *   - length anomaly: RU wildly SHORTER than EN (likely dropped content)
+ *   - length bloat:   RU much LONGER than EN (> 2×) — an English-sized UI box
+ *                     clips the overflow with an ellipsis, so text is lost
+ *   (both skipped when the EN field is actually Chinese — CJK density makes the
+ *   ratio meaningless)
  */
 import type { SourceUnit } from "../formats/adapter.js";
 import { extractMarkup, markupPreserved, stripMarkup } from "../engine/protect.js";
@@ -31,7 +33,9 @@ export type IssueKind =
   | "empty-output"
   | "untranslated"
   | "length-anomaly"
+  | "length-bloat"
   | "latin-in-russian"
+  | "special-char-loss"
   | "glossary-miss"
   | "cn-divergence";
 
@@ -43,7 +47,12 @@ export interface QaIssue {
 }
 
 const LENGTH_MIN_RATIO = 0.2;
-const LENGTH_MAX_RATIO = 6;
+// RU beyond this multiple of the EN length is "much longer": the UI is laid out
+// for English widths, so an overlong Russian string is clipped with an ellipsis
+// and part of it is lost. Russian runs ~1.1× English on the median and 1.9× at
+// the 99th percentile (corpus audit 2026-07-15), so 2× flags the genuinely
+// bloated tail (~0.6% of units) without catching normal expansion.
+const LENGTH_BLOAT_RATIO = 2;
 const LENGTH_MIN_CHARS = 12; // ignore ratio checks on very short strings
 
 function hasLetters(s: string): boolean {
@@ -118,6 +127,41 @@ const CODE_LITERALS = new Set(["true", "false", "null"]);
 /** Latin runs remaining in `ru` after markup is stripped, minus code literals. */
 function latinLeftovers(ru: string): string[] {
   return (stripMarkup(ru).match(LATIN_RUN_RE) ?? []).filter((run) => !CODE_LITERALS.has(run));
+}
+
+// Literal symbol characters that carry meaning and must survive translation
+// verbatim: brackets wrap keyword markers, quotes wrap quoted tips, `%`/`$` guard
+// game stats/format tokens. Their EN and RU counts must match once markup is
+// stripped. Chosen from a corpus-wide audit (2026-07-15): the bracket/symbol set
+// mismatches < 2% of the time (translation preserves it). Deliberately EXCLUDED
+// because translation legitimately changes them (audited 36–98% mismatch):
+// sentence dashes and commas (`, - —`), the apostrophe (`'`, no Russian form),
+// and `&` — which Yandex correctly renders as the word «и». The straight quote `"`
+// is the one high-mismatch (37%) character we still guard: a dropped quote around
+// a tip IS a defect, not a translation choice, and it is the case that started this.
+const SPECIAL_CHARS = [...'"()[]{}<>%#$^~|*+='];
+
+function countChar(s: string, ch: string): number {
+  let n = 0;
+  for (const c of s) if (c === ch) n++;
+  return n;
+}
+
+/** EN special characters whose count changed in RU (markup stripped from both). */
+function specialCharDiffs(en: string, ru: string): string[] {
+  // Strip markup AND backslash-escapes: an escaped quote `\"` (or `\\`) is owned
+  // by the escape-mismatch check, so counting the bare `"` inside it here would
+  // double-flag the same defect. What remains are the source's LITERAL symbols.
+  const e = stripMarkup(en).replace(/\\./gs, "");
+  const r = stripMarkup(ru).replace(/\\./gs, "");
+  const diffs: string[] = [];
+  for (const ch of SPECIAL_CHARS) {
+    const ce = countChar(e, ch);
+    if (ce === 0) continue; // only guard characters the source actually has
+    const cr = countChar(r, ch);
+    if (ce !== cr) diffs.push(`${ch} EN=${ce} RU=${cr}`);
+  }
+  return diffs;
 }
 
 /**
@@ -208,10 +252,25 @@ export function checkTranslation(en: string, ru: string): TranslationIssue[] {
     if (latin.length > 0) push("latin-in-russian", `Latin in RU: ${latin.join(" ")}`);
   }
 
+  // Literal special characters (brackets, quotes, %) the source has but the
+  // translation dropped or duplicated — e.g. the wrapping quotes of a quoted tip.
+  const scDiffs = specialCharDiffs(en, ru);
+  if (scDiffs.length > 0) push("special-char-loss", scDiffs.join(", "));
+
   if (en.length >= LENGTH_MIN_CHARS && ru.length > 0 && !hasCjk(en)) {
     const ratio = ru.length / en.length;
-    if (ratio < LENGTH_MIN_RATIO || ratio > LENGTH_MAX_RATIO) {
-      push("length-anomaly", `ratio ${ratio.toFixed(2)} (en=${en.length}, ru=${ru.length})`);
+    if (ratio < LENGTH_MIN_RATIO) {
+      // RU suspiciously short: likely dropped content.
+      push(
+        "length-anomaly",
+        `RU too short: ratio ${ratio.toFixed(2)} (en=${en.length}, ru=${ru.length})`,
+      );
+    } else if (ratio > LENGTH_BLOAT_RATIO) {
+      // RU much longer than EN: risks being clipped by an English-sized UI box.
+      push(
+        "length-bloat",
+        `RU is ${ratio.toFixed(1)}× the English (en=${en.length}, ru=${ru.length}); may be clipped in-game`,
+      );
     }
   }
 

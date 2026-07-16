@@ -56,7 +56,7 @@ ${explanations ? `\nEach error's "explanation" is ONE short sentence naming the 
 ## Severity
 
 - critical: the text misleads the player about game mechanics or is unusable (e.g. a number, an effect or a condition contradicts the Chinese; the string is gibberish).
-- major: meaning is changed or comprehension is disrupted (mistranslation of the actual content, a dropped or invented clause, English left in the Russian, a mandated glossary term ignored, grammar broken enough to obscure the sense).
+- major: meaning is changed or comprehension is disrupted (mistranslation of the actual content, a dropped or invented clause, English left in the Russian, a mandated glossary term ignored, a special character the ENGLISH has dropped from the Russian — e.g. the wrapping "quotes" of a quoted line, a [bracketed] keyword marker — grammar broken enough to obscure the sense).
 - minor: technically an error, but it does not disrupt the flow or hinder comprehension (a clumsy but understandable phrasing, an imperfect but acceptable term choice, a missing comma).
 
 ## Categories
@@ -89,11 +89,13 @@ Example: if the glossary says \`loong → лун\`, then "дракон", "дре
 The correction is rejected automatically — and your work wasted — if it breaks any of these:
 1. MARKUP IS SACRED. Every tag and placeholder in the ENGLISH — {0}, {1}, <color=#ffffff>, </color>, <NL>, <Character .../> — must appear in your Russian exactly: same tokens, same count, same numbers. Never add, drop, reorder or translate markup.
 2. ESCAPES ARE SACRED. Backslash escapes (\\n, \\t, \\", \\\\, \\uXXXX) must appear with exactly the same count and be well-formed. Never leave a bare backslash, never truncate a \\uXXXX sequence.
-3. Do not add or remove real line breaks.
-4. Never leave English or Latin letters in the Russian text (unless the source itself is a code or an id).
-5. GLOSSARY IS SACRED. Every mandated term from the GLOSSARY must appear in your Russian (declined to fit the grammar). Ignoring, dropping or substituting even one is an automatic rejection.
-6. The Russian must not be empty, and must not be wildly shorter or longer than the English.
-7. Output the translation itself in "ru" — no quotes around it, no commentary, no English gloss.
+3. SPECIAL CHARACTERS ARE SACRED. Every quotation mark and bracket the ENGLISH has — " ( ) [ ] { } — plus % # $ * + = must appear in your Russian the same number of times, in the matching place. If the English wraps the whole line in "quotes", your Russian must wrap it in the SAME "quotes" (keep the straight " character — do NOT convert it to «», to a dash —, or drop it). If the English marks a keyword as [Protection], keep it [Защита] in brackets. Dropping or changing one of these is an automatic rejection.
+4. Do not add or remove real line breaks.
+5. Never leave English or Latin letters in the Russian text (unless the source itself is a code or an id).
+6. GLOSSARY IS SACRED. Every mandated term from the GLOSSARY must appear in your Russian (declined to fit the grammar). Ignoring, dropping or substituting even one is an automatic rejection.
+7. KEEP IT CONCISE. The UI is laid out for English widths; a Russian string much longer than the English is clipped with an ellipsis in-game and text is lost. Prefer the most compact faithful wording, never pad, and drop nothing meaningful to save space. A correction more than twice the English length is rejected — say the shorter way. Aim at or below the English length.
+8. The Russian must not be empty or wildly shorter than the English (do not drop content to shorten).
+9. Put ONLY the translation in the "ru" field — no commentary, no English gloss. (This does not mean stripping quotes that belong to the text: quotation marks the ENGLISH itself contains are part of the translation and must stay — see rule 3.)
 
 If you cannot correct the text without breaking a constraint, report the errors and leave "ru" empty.
 

@@ -178,6 +178,24 @@ test("a rewrite that leaves Latin in the Russian is rejected", () => {
   assert.deepEqual(kinds("Zhang Fei", "Zhang Fei"), ["untranslated"]);
 });
 
+test("a rewrite that drops a source special character is rejected", () => {
+  const kinds = (en: string, ru: string): string[] => checkTranslation(en, ru).map((i) => i.kind);
+  // The reported bug: EN wraps the tip in "quotes", the rewrite dropped them.
+  assert.ok(
+    kinds('"Cancel the [Protection] art."', "Отмени [Защита].").includes("special-char-loss"),
+  );
+  // Quotes kept → fine.
+  assert.deepEqual(kinds('"Cancel it."', '"Отмени это."'), []);
+  // A game-stat percent dropped is caught.
+  assert.ok(kinds("Deals 50% damage", "Наносит 50 урона").includes("special-char-loss"));
+  // `&` correctly rendered as the word «и» is NOT flagged (it is excluded).
+  assert.deepEqual(kinds("Visit & Rest", "Посещение и отдых"), []);
+  // An English apostrophe with no Russian form is NOT flagged.
+  assert.deepEqual(kinds("the enemy's blade", "клинок врага"), []);
+  // An escaped quote is the escape check's job, not double-flagged here.
+  assert.deepEqual(kinds('Say \\"hi\\"', "Скажи привет"), ["escape-mismatch"]);
+});
+
 test("a rewrite that ignores a mandated glossary term is rejected", () => {
   const g = new Map([["divine loong", "божественный лун"]]);
   const matches = matchGlossary("Pass the Divine Loong trial", g);

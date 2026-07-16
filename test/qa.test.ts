@@ -85,14 +85,14 @@ test("flags a real newline dropped by the translation", () => {
   assert.deepEqual(kinds(tm({ A: u("Hello\nworld", "Привет мир") })), ["newline-hazard"]);
 });
 
-test("detects a changed \\t / \\\" escape count", () => {
+test('detects a changed \\t / \\" escape count', () => {
   assert.deepEqual(kinds(tm({ A: u("Col A\\tCol B", "Столбец А Столбец Б") })), [
     "escape-mismatch",
   ]);
   assert.deepEqual(kinds(tm({ A: u('Say \\"hi\\" now', "Скажи привет") })), ["escape-mismatch"]);
 });
 
-test("matching \\t and \\\" escape counts produce no issue", () => {
+test('matching \\t and \\" escape counts produce no issue', () => {
   assert.deepEqual(validateTm(tm({ A: u('A\\tB \\"quote\\"', 'А\\tБ \\"цитата\\"') })), []);
 });
 
@@ -100,8 +100,20 @@ test("detects untranslated (RU equals EN)", () => {
   assert.deepEqual(kinds(tm({ A: u("Iron Ring", "Iron Ring") })), ["untranslated"]);
 });
 
-test("detects length anomaly", () => {
+test("detects length anomaly (RU too short)", () => {
   assert.deepEqual(kinds(tm({ A: u("A reasonably long sentence here", "X") })), ["length-anomaly"]);
+});
+
+test("detects length bloat (RU much longer than EN)", () => {
+  // ~2.5× the English: risks being clipped by an English-sized UI box.
+  assert.deepEqual(
+    kinds(
+      tm({ A: u("Attack the foe", "Стремительно и беспощадно атакуйте своего врага немедленно") }),
+    ),
+    ["length-bloat"],
+  );
+  // Normal Russian expansion (~1.3×) is not flagged.
+  assert.deepEqual(kinds(tm({ A: u("Attack the enemy now", "Атакуйте врага сейчас") })), []);
 });
 
 test("skips length anomaly when EN field is Chinese", () => {

@@ -26,7 +26,12 @@
 //    from (the MACHINE block), so rewrites can be reverted instead of compounding.
 // 4: glossary hardened to non-negotiable in the prompt (dedicated section, hard
 //    constraint, worked example) to match the glossary-miss rejection gate.
-const DEFAULT_JUDGE_VERSION = 4;
+// 5: special characters (quotes, brackets, %) made sacred in the prompt to match
+//    the new special-char-loss gate; the "no quotes" rule reworded so it no longer
+//    tells the model to strip a quoted line's own quotation marks.
+// 6: conciseness rule — a rewrite more than 2× the English length is rejected
+//    (length-bloat gate), since the UI clips overlong Russian with an ellipsis.
+const DEFAULT_JUDGE_VERSION = 6;
 const DEFAULT_CONCURRENCY = 4;
 
 function envInt(name: string, fallback: number): number {
