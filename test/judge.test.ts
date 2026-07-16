@@ -1,13 +1,18 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
+import { mkdtemp, appendFile } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import path from "node:path";
+
 import {
-  dedupKey,
   judgeHash,
   judgeTm,
   selectJudgeWork,
+  verdictKey,
   type JudgeOutcome,
 } from "../src/judge/judge.js";
+import { VerdictCache } from "../src/judge/verdict-cache.js";
 import { buildUserMessage, parseVerdict, shouldFix, type Verdict } from "../src/judge/prompt.js";
 import { needsTranslation } from "../src/translate/pipeline.js";
 import { TM_SCHEMA_VERSION, type TmFile, type TmUnit } from "../src/model/tm.js";
@@ -269,17 +274,20 @@ test("the MACHINE block shows the engine's wording a previous judge rewrote", ()
   assert.doesNotMatch(buildUserMessage({ ...ctx, machine: null }, new Map()), /MACHINE/);
 });
 
-test("dedupKey groups by source and engine, ignoring the RU wording and status", () => {
-  assert.equal(dedupKey(unit()), dedupKey(unit()));
-  // A different EN, CN or engine is a different context.
-  assert.notEqual(dedupKey(unit()), dedupKey(unit({ en: "Other" })));
-  assert.notEqual(dedupKey(unit()), dedupKey(unit({ cn: "别的" })));
-  assert.notEqual(dedupKey(unit({ engine: "yandex" })), dedupKey(unit({ engine: "lmstudio" })));
+test("verdictKey groups by judge context and engine, ignoring the RU wording and status", () => {
+  assert.equal(verdictKey("h", unit()), verdictKey("h", unit()));
+  // A different source hash (EN/glossary), CN or engine is a different context.
+  assert.notEqual(verdictKey("h", unit()), verdictKey("h2", unit()));
+  assert.notEqual(verdictKey("h", unit()), verdictKey("h", unit({ cn: "别的" })));
+  assert.notEqual(
+    verdictKey("h", unit({ engine: "yandex" })),
+    verdictKey("h", unit({ engine: "lmstudio" })),
+  );
   // The RU text and the status do NOT split a group: for one engine the RU of a
   // given EN is single-valued in practice, and the group head's verdict stands
   // for all members.
-  assert.equal(dedupKey(unit()), dedupKey(unit({ ru: "Другое" })));
-  assert.equal(dedupKey(unit()), dedupKey(unit({ status: "judged" })));
+  assert.equal(verdictKey("h", unit()), verdictKey("h", unit({ ru: "Другое" })));
+  assert.equal(verdictKey("h", unit()), verdictKey("h", unit({ status: "judged" })));
 });
 
 /** In-memory judge run helpers: a real hasher (empty glossary) and a scripted client. */
@@ -351,6 +359,40 @@ test("a shared memo settles duplicates across files without a request", async ()
   assert.equal(stats.reused, 1);
   assert.equal(second.units.z?.ru, "Странствие");
   assert.equal(second.units.z?.status, "judged");
+});
+
+test("--force bypasses memo reads but still records the fresh verdict", async () => {
+  const u = liveUnit("Adventure", "Приключение");
+  const memo = new Map<string, JudgeOutcome>([
+    [verdictKey(realHash("Adventure"), u), { kind: "fix", ru: "Из кеша" }],
+  ]);
+  const tm = tmOf({ a: u });
+  const client = clientOf(() => KEEP);
+
+  const stats = await judgeTm(tm, client, emptyGlossary, { memo, force: true });
+
+  assert.equal(client.calls.length, 1); // asked the model despite the cached verdict
+  assert.equal(stats.judged, 1);
+  assert.equal(tm.units.a?.ru, "Приключение"); // fresh "keep" won, not the stale fix
+  assert.deepEqual(memo.get(verdictKey(realHash("Adventure"), u)), { kind: "keep" });
+});
+
+test("VerdictCache round-trips outcomes through disk and compacts stale lines", async () => {
+  const file = path.join(await mkdtemp(path.join(tmpdir(), "taiwu-judge-cache-")), "judge.jsonl");
+  const cache = await VerdictCache.open(file);
+  cache.set("k1 yandex", { kind: "keep" });
+  cache.set("k2 yandex", { kind: "fix", ru: "Текст" });
+  await cache.flush();
+
+  const reopened = await VerdictCache.open(file);
+  assert.deepEqual(reopened.get("k1 yandex"), { kind: "keep" });
+  assert.deepEqual(reopened.get("k2 yandex"), { kind: "fix", ru: "Текст" });
+  assert.equal(reopened.get("unknown"), undefined);
+
+  // A duplicate line (e.g. a --force overwrite) wins on reload and is compacted.
+  await appendFile(file, `${JSON.stringify({ k: "k1 yandex", v: "Новый" })}\n`, "utf8");
+  const compacted = await VerdictCache.open(file);
+  assert.deepEqual(compacted.get("k1 yandex"), { kind: "fix", ru: "Новый" });
 });
 
 test("a QA-rejected fix marks and memoizes nothing — every duplicate stays retryable", async () => {

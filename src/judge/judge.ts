@@ -20,12 +20,14 @@
  * untouched AND unmarked, so a later run retries it — corrupt markup is never
  * written (same guarantee as the translation pipeline).
  *
- * Identical review contexts are judged ONCE ({@link dedupKey}): the corpus repeats
- * short strings ("Adventure", "Interaction", …) thousands of times, so units with
- * the same EN/CN and engine share one model request and its verdict fans out to
- * all of them. The CLI passes one {@link JudgeOptions.memo} across every file of a run,
- * extending the reuse across files; between runs the stamped `judgeHash` on each
- * member is what keeps them skipped, so no separate verdict cache is needed.
+ * Identical review contexts are judged ONCE ({@link verdictKey}): the corpus
+ * repeats short strings ("Adventure", "Interaction", …) thousands of times, so
+ * units with the same EN/CN and engine share one model request and its verdict
+ * fans out to all of them. The CLI passes one {@link JudgeOptions.memo} across
+ * every file of a run — the disk-backed `VerdictCache` (`cache/judge.jsonl`), so
+ * settled verdicts are also replayed across runs: a re-extracted unit or a new
+ * duplicate of an already-judged string costs nothing. Already-marked units are
+ * skipped even earlier by their stamped `judgeHash`.
  */
 import { createHash } from "node:crypto";
 
@@ -67,8 +69,21 @@ export function judgeHash(srcHash: string, cn: string | null): string {
     .slice(0, 16);
 }
 
-/** A settled verdict for one review context, reusable across files within a run. */
+/** A settled verdict for one review context, reusable across files and runs. */
 export type JudgeOutcome = { kind: "keep" } | { kind: "fix"; ru: string };
+
+/**
+ * Where settled verdicts live: a plain `Map` (dry runs, tests) or the disk-backed
+ * `VerdictCache` (`cache/judge.jsonl`), which also persists them across runs.
+ * `flush`, when present, is called at every checkpoint — BEFORE the TM flush, so
+ * an interruption between the two can only leave a verdict that is cached but
+ * not yet applied (replayed for free next run), never the reverse.
+ */
+export interface JudgeMemo {
+  get(key: string): JudgeOutcome | undefined;
+  set(key: string, outcome: JudgeOutcome): void;
+  flush?(): Promise<void>;
+}
 
 export interface JudgeOptions {
   /** Judge at most this many units (sampling). */
@@ -83,13 +98,14 @@ export interface JudgeOptions {
   now?: string;
   concurrency?: number;
   /**
-   * Cross-file verdict memo: {@link dedupKey} → settled outcome. Pass ONE map to
-   * every call of a run and a context already judged in an earlier file is
-   * settled without a request. Rejected fixes and model errors are deliberately
-   * never memoized — they stay retryable. In-memory only; the durable skip
-   * between runs is the `judgeHash` stamped on each unit.
+   * Verdict memo: {@link verdictKey} → settled outcome. Pass ONE memo to every
+   * call of a run and a context already judged in an earlier file is settled
+   * without a request; pass the disk-backed VerdictCache and the reuse extends
+   * across runs. Rejected fixes and model errors are deliberately never
+   * memoized — they stay retryable. `--force` bypasses reads (fresh verdicts)
+   * but still records the outcomes.
    */
-  memo?: Map<string, JudgeOutcome>;
+  memo?: JudgeMemo;
   onStart?: (totalUnits: number) => void;
   onProgress?: (done: number) => void;
 }
@@ -121,16 +137,23 @@ interface Candidate {
 }
 
 /**
- * Units with the same source (EN + CN) translated by the same engine share one
+ * The key a verdict is remembered under, in memory and on disk: the unit's
+ * {@link judgeHash} — which folds JUDGE_VERSION, the EN source, the applicable
+ * glossary terms and the CN reference — plus the engine whose translation was
+ * reviewed. Units with the same source translated by the same engine share one
  * verdict. The RU wording is deliberately NOT part of the key: for one engine the
  * translation of a given EN is single-valued (the engine cache is keyed by the
  * masked EN), so duplicates virtually always carry the same RU anyway — and where
  * they don't (an earlier judge rewrite, a cache edit not yet rebuilt in), the
  * group's first unit in TM order is the one shown to the model and its verdict
  * is taken for the rest.
+ *
+ * `hash` is the unit's CURRENT srcHash (selection guarantees it), so anything
+ * that would invalidate a verdict — source, glossary, CN, JUDGE_VERSION —
+ * changes the key and a stale cached verdict is simply never hit again.
  */
-export function dedupKey(unit: TmUnit): string {
-  return JSON.stringify([unit.en, unit.cn, unit.engine]);
+export function verdictKey(hash: string, unit: TmUnit): string {
+  return `${judgeHash(hash, unit.cn)} ${unit.engine ?? ""}`;
 }
 
 /**
@@ -230,7 +253,7 @@ export async function judgeTm(
   // group, and progress ticks per UNIT (the plan counted units, not groups).
   const groups = new Map<string, Candidate[]>();
   for (const item of work) {
-    const k = dedupKey(item.unit);
+    const k = verdictKey(item.hash, item.unit);
     const g = groups.get(k);
     if (g) g.push(item);
     else groups.set(k, [item]);
@@ -267,7 +290,7 @@ export async function judgeTm(
 
     await mapPool(chunk, concurrency, async (members) => {
       const head = members[0] as Candidate;
-      const memoKey = dedupKey(head.unit);
+      const memoKey = verdictKey(head.hash, head.unit);
       const keepAll = (): void => {
         for (const m of members)
           tm.units[m.key] = { ...m.unit, judgeHash: judgeHash(m.hash, m.unit.cn) };
@@ -283,11 +306,12 @@ export async function judgeTm(
           };
       };
 
-      // An earlier file of this run already settled this exact context: apply
-      // its outcome to the whole group without a request. The fix was QA-gated
-      // when memoized, and both QA and the glossary derive from the EN alone,
-      // so it holds verbatim here.
-      const settled = options.memo?.get(memoKey);
+      // An earlier file — or, with the disk-backed memo, an earlier run —
+      // already settled this exact context: apply its outcome to the whole
+      // group without a request. The fix was QA-gated when memoized, and both
+      // QA and the glossary derive from the EN alone, so it holds verbatim
+      // here. --force wants fresh verdicts, so it never reads the memo.
+      const settled = options.force ? undefined : options.memo?.get(memoKey);
       if (settled) {
         if (settled.kind === "keep") keepAll();
         else fixAll(settled.ru);
@@ -368,6 +392,9 @@ export async function judgeTm(
       }
     });
 
+    // Verdicts first, TM second: interrupted in between, a verdict can be
+    // cached-but-unapplied (replayed for free next run) — never applied-but-lost.
+    await options.memo?.flush?.();
     if (options.flush) await options.flush(tm);
   }
 

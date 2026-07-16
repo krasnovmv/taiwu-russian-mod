@@ -16,8 +16,9 @@
  * terms; a unit ruled wrong is rewritten in place in the TM (`status: "judged"`).
  * Resumable: a verdict is remembered per unit and only replayed when the EN, CN
  * or glossary behind it changes (see config/judge.ts). Units with an identical
- * review context (same EN/CN and engine) share ONE request per run — the verdict
- * fans out to every duplicate, across files (see `dedupKey` in judge/judge.ts).
+ * review context (same EN/CN and engine) share ONE request — the verdict fans
+ * out to every duplicate across files, and is persisted in cache/judge.jsonl so
+ * later runs replay it for free (see `verdictKey` in judge/judge.ts).
  *
  * Nothing reaches the game until `npm run apply-all`.
  */
@@ -25,7 +26,14 @@ import { JUDGE_CONCURRENCY, JUDGE_ENGINE } from "../config/judge.js";
 import { EVENT_DLC_PREFIX, EVENT_PREFIX } from "../config/sources.js";
 import { LmStudioClient } from "../engine/lmstudio-client.js";
 import { YandexGptClient } from "../engine/yandex-gpt-client.js";
-import { judgeFile, planJudgeFile, type JudgeOutcome, type JudgeStats } from "../judge/judge.js";
+import {
+  judgeFile,
+  planJudgeFile,
+  type JudgeMemo,
+  type JudgeOutcome,
+  type JudgeStats,
+} from "../judge/judge.js";
+import { VerdictCache } from "../judge/verdict-cache.js";
 import { listSourceFiles } from "../scan.js";
 import { FileProgress, Progress } from "./progress.js";
 
@@ -132,10 +140,11 @@ async function main(): Promise<void> {
 
   const bars = new FileProgress(files.length, grandTotal);
   const all: JudgeStats[] = [];
-  // One memo for the whole run: a (EN, CN, engine) context judged in one file
-  // settles its duplicates in every later file without another request. The corpus
-  // repeats short strings heavily, so this roughly halves the requests of a full pass.
-  const memo = new Map<string, JudgeOutcome>();
+  // One memo for the whole run: a (EN, CN, engine) context judged once settles
+  // its duplicates in every later file without another request. The disk-backed
+  // cache (cache/judge.jsonl) extends the reuse across runs; a dry run must not
+  // write anything, so it gets a throwaway in-memory map instead.
+  const memo: JudgeMemo = args.dryRun ? new Map<string, JudgeOutcome>() : await VerdictCache.open();
   let base = 0; // units judged in the already-finished files
   for (const file of files) {
     let fileTotal = 0;
