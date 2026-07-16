@@ -1,12 +1,20 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { judgeHash, selectJudgeWork } from "../src/judge/judge.js";
+import {
+  dedupKey,
+  judgeHash,
+  judgeTm,
+  selectJudgeWork,
+  type JudgeOutcome,
+} from "../src/judge/judge.js";
 import { buildUserMessage, parseVerdict, shouldFix, type Verdict } from "../src/judge/prompt.js";
 import { needsTranslation } from "../src/translate/pipeline.js";
 import { TM_SCHEMA_VERSION, type TmFile, type TmUnit } from "../src/model/tm.js";
 import { checkTranslation, glossaryMisses } from "../src/validate/qa.js";
 import { matchGlossary } from "../src/glossary/match.js";
+import { makeSrcHasher } from "../src/tm/hash.js";
+import type { ChatMessage } from "../src/engine/chat-client.js";
 
 const unit = (over: Partial<TmUnit> = {}): TmUnit => ({
   en: "A blade of the Wandering Sect.",
@@ -247,6 +255,112 @@ test("the MACHINE block shows the engine's wording a previous judge rewrote", ()
   const same = buildUserMessage({ ...ctx, ru: ctx.machine }, new Map());
   assert.doesNotMatch(same, /MACHINE/);
   assert.doesNotMatch(buildUserMessage({ ...ctx, machine: null }, new Map()), /MACHINE/);
+});
+
+test("dedupKey groups identical review contexts and separates judged ones per engine", () => {
+  assert.equal(dedupKey(unit()), dedupKey(unit()));
+  // A different EN, CN or RU is a different context.
+  assert.notEqual(dedupKey(unit()), dedupKey(unit({ en: "Other" })));
+  assert.notEqual(dedupKey(unit()), dedupKey(unit({ cn: "别的" })));
+  assert.notEqual(dedupKey(unit()), dedupKey(unit({ ru: "Другое" })));
+  // A judged unit's prompt carries the engine's MACHINE block; a machine unit's
+  // doesn't — and the engine of an UNjudged unit must not split the group.
+  assert.notEqual(dedupKey(unit()), dedupKey(unit({ status: "judged" })));
+  assert.notEqual(
+    dedupKey(unit({ status: "judged", engine: "yandex" })),
+    dedupKey(unit({ status: "judged", engine: "lmstudio" })),
+  );
+  assert.equal(dedupKey(unit({ engine: "yandex" })), dedupKey(unit({ engine: "lmstudio" })));
+});
+
+/** In-memory judge run helpers: a real hasher (empty glossary) and a scripted client. */
+const emptyGlossary = new Map<string, string>();
+const realHash = makeSrcHasher(emptyGlossary);
+const liveUnit = (en: string, ru: string, over: Partial<TmUnit> = {}): TmUnit => ({
+  en,
+  cn: `原文:${en}`,
+  ru,
+  status: "machine",
+  srcHash: realHash(en),
+  engine: "yandex",
+  updatedAt: null,
+  ...over,
+});
+const clientOf = (
+  respond: (user: string) => string,
+): { calls: string[]; chat: (messages: ChatMessage[]) => Promise<string> } => {
+  const calls: string[] = [];
+  return {
+    calls,
+    chat: (messages) => {
+      const user = messages[1]?.content ?? "";
+      calls.push(user);
+      return Promise.resolve(respond(user));
+    },
+  };
+};
+const KEEP = '{"errors":[],"ru":""}';
+const fixWith = (ru: string): string =>
+  `{"errors":[{"category":"accuracy/mistranslation","severity":"major","explanation":"x"}],"ru":${JSON.stringify(ru)}}`;
+
+test("judgeTm sends one request per identical context and fans the verdict out", async () => {
+  const tm = tmOf({
+    a: liveUnit("Adventure", "Приключение"),
+    b: liveUnit("Adventure", "Приключение"),
+    c: liveUnit("Sect", "Секта"),
+  });
+  const client = clientOf((user) => (user.includes("Adventure") ? fixWith("Странствие") : KEEP));
+
+  const stats = await judgeTm(tm, client, emptyGlossary, { now: "T" });
+
+  assert.equal(client.calls.length, 2); // one per group, not per unit
+  assert.equal(stats.judged, 2);
+  assert.equal(stats.fixed, 1);
+  assert.equal(stats.ok, 1);
+  assert.equal(stats.reused, 1); // the duplicate rode along for free
+  // The rewrite reached BOTH duplicates; the singleton kept its text but is marked.
+  for (const key of ["a", "b"] as const) {
+    assert.equal(tm.units[key]?.ru, "Странствие");
+    assert.equal(tm.units[key]?.status, "judged");
+    assert.equal(tm.units[key]?.judgeHash, judgeHash(realHash("Adventure"), "原文:Adventure"));
+  }
+  assert.equal(tm.units.c?.ru, "Секта");
+  assert.equal(tm.units.c?.judgeHash, judgeHash(realHash("Sect"), "原文:Sect"));
+});
+
+test("a shared memo settles duplicates across files without a request", async () => {
+  const memo = new Map<string, JudgeOutcome>();
+  const first = tmOf({ a: liveUnit("Adventure", "Приключение") });
+  const second = tmOf({ z: liveUnit("Adventure", "Приключение") });
+  const client = clientOf(() => fixWith("Странствие"));
+
+  await judgeTm(first, client, emptyGlossary, { memo });
+  const stats = await judgeTm(second, client, emptyGlossary, { memo });
+
+  assert.equal(client.calls.length, 1);
+  assert.equal(stats.judged, 0);
+  assert.equal(stats.reused, 1);
+  assert.equal(second.units.z?.ru, "Странствие");
+  assert.equal(second.units.z?.status, "judged");
+});
+
+test("a QA-rejected fix marks and memoizes nothing — every duplicate stays retryable", async () => {
+  const memo = new Map<string, JudgeOutcome>();
+  const tm = tmOf({
+    a: liveUnit("Adventure", "Приключение"),
+    b: liveUnit("Adventure", "Приключение"),
+  });
+  // The "fix" leaves Latin in the Russian, so the QA gate throws it away.
+  const client = clientOf(() => fixWith("Adventure тур"));
+
+  const stats = await judgeTm(tm, client, emptyGlossary, { memo });
+
+  assert.equal(stats.rejected, 1);
+  assert.equal(stats.fixed, 0);
+  assert.equal(memo.size, 0);
+  assert.equal(tm.units.a?.judgeHash, undefined);
+  assert.equal(tm.units.b?.judgeHash, undefined);
+  assert.equal(tm.units.a?.ru, "Приключение");
 });
 
 test("the CN block says so when the string has no Chinese original", () => {

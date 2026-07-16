@@ -15,7 +15,9 @@
  * the model with its file, key, English source, Chinese original and glossary
  * terms; a unit ruled wrong is rewritten in place in the TM (`status: "judged"`).
  * Resumable: a verdict is remembered per unit and only replayed when the EN, CN
- * or glossary behind it changes (see config/judge.ts).
+ * or glossary behind it changes (see config/judge.ts). Units with an identical
+ * review context (same EN/CN/RU) share ONE request per run — the verdict fans
+ * out to every duplicate, across files (see `dedupKey` in judge/judge.ts).
  *
  * Nothing reaches the game until `npm run apply-all`.
  */
@@ -23,7 +25,7 @@ import { JUDGE_CONCURRENCY, JUDGE_ENGINE } from "../config/judge.js";
 import { EVENT_DLC_PREFIX, EVENT_PREFIX } from "../config/sources.js";
 import { LmStudioClient } from "../engine/lmstudio-client.js";
 import { YandexGptClient } from "../engine/yandex-gpt-client.js";
-import { judgeFile, planJudgeFile, type JudgeStats } from "../judge/judge.js";
+import { judgeFile, planJudgeFile, type JudgeOutcome, type JudgeStats } from "../judge/judge.js";
 import { listSourceFiles } from "../scan.js";
 import { FileProgress, Progress } from "./progress.js";
 
@@ -130,6 +132,10 @@ async function main(): Promise<void> {
 
   const bars = new FileProgress(files.length, grandTotal);
   const all: JudgeStats[] = [];
+  // One memo for the whole run: a (EN, CN, RU) context judged in one file settles
+  // its duplicates in every later file without another request. The corpus repeats
+  // short strings heavily, so this roughly halves the requests of a full pass.
+  const memo = new Map<string, JudgeOutcome>();
   let base = 0; // units judged in the already-finished files
   for (const file of files) {
     let fileTotal = 0;
@@ -138,6 +144,7 @@ async function main(): Promise<void> {
       dryRun: args.dryRun,
       now,
       concurrency: args.concurrency,
+      memo,
       onStart: (total) => {
         fileTotal = total;
         bars.startFile(file);
@@ -159,7 +166,7 @@ async function main(): Promise<void> {
       (s) => s.minorOnly,
     )}) | fixed: ${sum((s) => s.fixed)} | rejected by QA: ${sum(
       (s) => s.rejected,
-    )} | errors: ${sum((s) => s.errors)}${suffix}`,
+    )} | reused (duplicates): ${sum((s) => s.reused)} | errors: ${sum((s) => s.errors)}${suffix}`,
   );
 
   if (fixes.length > 0) {

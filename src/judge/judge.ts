@@ -19,6 +19,13 @@
  * A fix whose markup does not match the English is rejected and the unit is left
  * untouched AND unmarked, so a later run retries it — corrupt markup is never
  * written (same guarantee as the translation pipeline).
+ *
+ * Identical review contexts are judged ONCE ({@link dedupKey}): the corpus repeats
+ * short strings ("Adventure", "Interaction", …) thousands of times, so units with
+ * the same EN/CN/RU share one model request and its verdict fans out to all of
+ * them. The CLI passes one {@link JudgeOptions.memo} across every file of a run,
+ * extending the reuse across files; between runs the stamped `judgeHash` on each
+ * member is what keeps them skipped, so no separate verdict cache is needed.
  */
 import { createHash } from "node:crypto";
 
@@ -60,6 +67,9 @@ export function judgeHash(srcHash: string, cn: string | null): string {
     .slice(0, 16);
 }
 
+/** A settled verdict for one review context, reusable across files within a run. */
+export type JudgeOutcome = { kind: "keep" } | { kind: "fix"; ru: string };
+
 export interface JudgeOptions {
   /** Judge at most this many units (sampling). */
   limit?: number;
@@ -72,23 +82,33 @@ export interface JudgeOptions {
   dryRun?: boolean;
   now?: string;
   concurrency?: number;
+  /**
+   * Cross-file verdict memo: {@link dedupKey} → settled outcome. Pass ONE map to
+   * every call of a run and a context already judged in an earlier file is
+   * settled without a request. Rejected fixes and model errors are deliberately
+   * never memoized — they stay retryable. In-memory only; the durable skip
+   * between runs is the `judgeHash` stamped on each unit.
+   */
+  memo?: Map<string, JudgeOutcome>;
   onStart?: (totalUnits: number) => void;
   onProgress?: (done: number) => void;
 }
 
 export interface JudgeStats {
   file: string;
-  /** Units the run sent to the model. */
+  /** Requests the run sent to the model (one per group of identical contexts). */
   judged: number;
-  /** Left as they were: no error, or none serious enough to rewrite. */
+  /** Requests ruled fine: no error, or none serious enough to rewrite. */
   ok: number;
   /** Of those: annotated with minor errors only — deliberately not rewritten. */
   minorOnly: number;
-  /** Rewritten (a major/critical error, and the rewrite passed QA). */
+  /** Requests that produced a rewrite (major/critical error, passed QA). */
   fixed: number;
   /** Rewrite offered but rejected by QA (markup/escape/newline/length) — NOT written. */
   rejected: number;
-  /** Units the model errored on; left unmarked so a later run retries them. */
+  /** Units settled WITHOUT a request: duplicates of a judged context (this file or the memo). */
+  reused: number;
+  /** Groups the model errored on; every member left unmarked so a later run retries. */
   errors: number;
   fixes: { key: string; note: string; before: string; after: string }[];
   problems: { key: string; error: string }[];
@@ -98,6 +118,18 @@ interface Candidate {
   key: string;
   unit: TmUnit;
   hash: string;
+}
+
+/**
+ * Two units with the same key see the exact same review prompt (bar the FILE/KEY
+ * header, whose register hint we accept losing) and deserve the same verdict:
+ * same EN, same CN, same RU under review — and the same MACHINE block, which only
+ * exists for already-judged units, where it is the `engine`'s cached output for
+ * the EN. Everything else in the prompt (glossary terms, QA gates) derives from
+ * the EN alone.
+ */
+export function dedupKey(unit: TmUnit): string {
+  return JSON.stringify([unit.en, unit.cn, unit.ru, unit.status === "judged" ? unit.engine : null]);
 }
 
 /**
@@ -149,28 +181,60 @@ export async function judgeFile(
   client: ChatClient,
   options: JudgeOptions = {},
 ): Promise<JudgeStats> {
-  const empty: JudgeStats = {
+  const tm = await loadTm(file);
+  if (!tm) {
+    options.onStart?.(0);
+    return emptyStats(file);
+  }
+  const stats = await judgeTm(tm, client, await loadGlossary(), {
+    ...options,
+    flush: options.dryRun ? undefined : saveTm,
+  });
+  stats.file = file; // report under the source id, not the TM key
+  return stats;
+}
+
+function emptyStats(file: string): JudgeStats {
+  return {
     file,
     judged: 0,
     ok: 0,
     minorOnly: 0,
     fixed: 0,
     rejected: 0,
+    reused: 0,
     errors: 0,
     fixes: [],
     problems: [],
   };
-  const tm = await loadTm(file);
-  if (!tm) {
-    options.onStart?.(0);
-    return empty;
-  }
+}
 
-  const glossary = await loadGlossary();
+/**
+ * Judge one loaded TM in place. Split from {@link judgeFile} so the dedup and
+ * fan-out logic can be exercised on an in-memory TM with a scripted client;
+ * `flush` (when given) persists the TM after every checkpoint of groups.
+ */
+export async function judgeTm(
+  tm: TmFile,
+  client: ChatClient,
+  glossary: ReadonlyMap<string, string>,
+  options: JudgeOptions & { flush?: (tm: TmFile) => Promise<void> } = {},
+): Promise<JudgeStats> {
   const hashEn = makeSrcHasher(glossary);
   const work = selectJudgeWork(tm, hashEn, options);
   options.onStart?.(work.length);
-  if (work.length === 0) return empty;
+  if (work.length === 0) return emptyStats(tm.file);
+
+  // One request per distinct review context: its verdict fans out to the whole
+  // group, and progress ticks per UNIT (the plan counted units, not groups).
+  const groups = new Map<string, Candidate[]>();
+  for (const item of work) {
+    const k = dedupKey(item.unit);
+    const g = groups.get(k);
+    if (g) g.push(item);
+    else groups.set(k, [item]);
+  }
+  const groupList = [...groups.values()];
 
   // A unit an earlier pass already rewrote no longer holds the engine's wording.
   // Load that engine's cache so the judge can be shown BOTH — otherwise a second
@@ -193,15 +257,46 @@ export async function judgeFile(
   // string lives, which is what tells it the register to expect.
   const system = await loadSystemPrompt();
   const schema = verdictSchema(JUDGE_EXPLANATIONS);
-  const stats: JudgeStats = { ...empty, fixes: [], problems: [] };
+  const stats: JudgeStats = emptyStats(tm.file);
   const concurrency = Math.max(1, options.concurrency ?? JUDGE_CONCURRENCY);
   let done = 0;
 
-  for (let start = 0; start < work.length; start += JUDGE_CHECKPOINT) {
-    const chunk = work.slice(start, start + JUDGE_CHECKPOINT);
+  for (let start = 0; start < groupList.length; start += JUDGE_CHECKPOINT) {
+    const chunk = groupList.slice(start, start + JUDGE_CHECKPOINT);
 
-    await mapPool(chunk, concurrency, async (item) => {
-      const { key, unit, hash } = item;
+    await mapPool(chunk, concurrency, async (members) => {
+      const head = members[0] as Candidate;
+      const memoKey = dedupKey(head.unit);
+      const keepAll = (): void => {
+        for (const m of members)
+          tm.units[m.key] = { ...m.unit, judgeHash: judgeHash(m.hash, m.unit.cn) };
+      };
+      const fixAll = (fixedRu: string): void => {
+        for (const m of members)
+          tm.units[m.key] = {
+            ...m.unit,
+            ru: fixedRu,
+            status: "judged",
+            judgeHash: judgeHash(m.hash, m.unit.cn),
+            updatedAt: options.now ?? m.unit.updatedAt,
+          };
+      };
+
+      // An earlier file of this run already settled this exact context: apply
+      // its outcome to the whole group without a request. The fix was QA-gated
+      // when memoized, and both QA and the glossary derive from the EN alone,
+      // so it holds verbatim here.
+      const settled = options.memo?.get(memoKey);
+      if (settled) {
+        if (settled.kind === "keep") keepAll();
+        else fixAll(settled.ru);
+        stats.reused += members.length;
+        done += members.length;
+        options.onProgress?.(done);
+        return;
+      }
+
+      const { key, unit } = head;
       const ru = unit.ru as string;
       try {
         const raw = await client.chat(
@@ -234,7 +329,9 @@ export async function judgeFile(
         // `machine`, so an edited cache entry can still flow into it.
         if (!shouldFix(verdict) || verdict.ru === ru) {
           stats.ok++;
-          tm.units[key] = { ...unit, judgeHash: judgeHash(hash, unit.cn) };
+          stats.reused += members.length - 1;
+          keepAll();
+          options.memo?.set(memoKey, { kind: "keep" });
           return;
         }
 
@@ -242,8 +339,9 @@ export async function judgeFile(
         // parity, escape/newline counts, non-empty, no Latin left in the Russian,
         // sane length), PLUS glossary compliance — the judge is given the mandated
         // terms, so a rewrite that ignores one is a regression, not an improvement.
-        // If any check fails, drop the rewrite and leave the unit UNMARKED so a
-        // later run retries — the judge must never write what QA would then flag.
+        // If any check fails, drop the rewrite and leave every member UNMARKED
+        // (and un-memoized) so a later run retries — the judge must never write
+        // what QA would then flag.
         const broken = [
           ...checkTranslation(unit.en, verdict.ru),
           ...glossaryMisses(verdict.ru, matchGlossary(unit.en, glossary)),
@@ -256,23 +354,20 @@ export async function judgeFile(
         }
 
         stats.fixed++;
+        stats.reused += members.length - 1;
         stats.fixes.push({ key, note: summarize(verdict), before: ru, after: verdict.ru });
-        tm.units[key] = {
-          ...unit,
-          ru: verdict.ru,
-          status: "judged",
-          judgeHash: judgeHash(hash, unit.cn),
-          updatedAt: options.now ?? unit.updatedAt,
-        };
+        fixAll(verdict.ru);
+        options.memo?.set(memoKey, { kind: "fix", ru: verdict.ru });
       } catch (err) {
         stats.errors++;
         stats.problems.push({ key, error: (err as Error).message });
       } finally {
-        options.onProgress?.(++done);
+        done += members.length;
+        options.onProgress?.(done);
       }
     });
 
-    if (!options.dryRun) await saveTm(tm);
+    if (options.flush) await options.flush(tm);
   }
 
   return stats;
