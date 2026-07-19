@@ -1,7 +1,7 @@
 return {
 	Title = "Свитки Тайву",
 	Author = "KrasnoVMV",
-	Version = "0.4.0.0",
+	Version = "0.5.0.0",
 	GameVersion = "1.0.58.0",
 	Description = "Русская локализация The Scroll of Taiwu",
 	BackendPlugins = {
@@ -50,6 +50,6 @@ return {
 	SettingGroups = {
 		[1] = "Основные",
 	},
-	Cover = nil,
-	WorkshopCover = nil,
+	Cover = "logo.png",
+	WorkshopCover = "logo.png",
 }
