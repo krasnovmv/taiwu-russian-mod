@@ -1,90 +1,202 @@
 <Project>
 
-    <!-- The game's build info is not exposed as a file or an assembly version: the boot scene
-         (<Data>/level0) carries a component holding the version and the build date as two
-         Unity-serialized strings, and the frontend hands them to the backend via
-         GlobalDomain.SetGameBuildInfo ("Game Version: 1.0.58, Build Date: 2026…" in Logs/).
-         Scan that scene for the pair rather than hardcoding the version anywhere. -->
-    <UsingTask TaskName="ReadTaiwuGameVersion" TaskFactory="RoslynCodeTaskFactory"
+    <PropertyGroup>
+        <ModDeployDir>$(GameDir)\Mod\TaiwuRus</ModDeployDir>
+        <DistDir>$(MSBuildThisFileDirectory)..\dist</DistDir>
+    </PropertyGroup>
+
+    <!-- Keeps dist/Config.Lua in sync with everything that owns a field in it, so none of them is
+         maintained by hand:
+
+           Author, Version   <- ModInfo.cs (which also drives the assembly version and PluginConfig)
+           GameVersion       <- the installed game (see ReadGameVersion below)
+           FileId,           -> written by the game's publish flow into the deployed copy, so they
+           UpdateLogList        are carried back here before the deploy overwrites them
+
+         The last two are why this runs before DeployToGame: after a Workshop upload the new
+         UpdateLogList entry lands in the deployed Config.Lua, this pulls it into the repo copy, and
+         the deploy then writes the two files back to byte-for-byte identical. The file is only
+         rewritten when something actually changed, so a normal build touches nothing. -->
+    <UsingTask TaskName="SyncTaiwuConfig" TaskFactory="RoslynCodeTaskFactory"
                AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll">
-        <ParameterGroup>
-            <SceneFile ParameterType="System.String" Required="true" />
-            <GameVersion ParameterType="System.String" Output="true" />
-        </ParameterGroup>
         <Task>
-            <Code Type="Fragment" Language="cs"><![CDATA[
-                // Layout: <int32 len>"1.0.58"<align padding><int32 18>"202607132238322350".
-                // The 18-digit build date anchors the match, and the length prefix in front of the
-                // version confirms it — together those make a false positive all but impossible.
-                byte[] bytes = System.IO.File.ReadAllBytes(SceneFile);
-                string text = System.Text.Encoding.ASCII.GetString(bytes);
-                foreach (System.Text.RegularExpressions.Match m in
-                         System.Text.RegularExpressions.Regex.Matches(
-                             text, @"(\d+\.\d+\.\d+)\x00{0,3}\x12\x00\x00\x00\d{18}"))
-                {
-                    string found = m.Groups[1].Value;
-                    int at = m.Groups[1].Index;
-                    if (at >= 4 && bytes[at - 4] == found.Length &&
-                        bytes[at - 3] == 0 && bytes[at - 2] == 0 && bytes[at - 1] == 0)
-                    {
-                        GameVersion = found;
-                        break;
-                    }
-                }
+            <Code Type="Class" Language="cs"><![CDATA[
+using System;
+using System.IO;
+using System.Text;
+using System.Text.RegularExpressions;
+using Microsoft.Build.Framework;
+using Microsoft.Build.Utilities;
+
+public class SyncTaiwuConfig : Task
+{
+    /// <summary>dist/Config.Lua — the copy under source control, and the one rewritten here.</summary>
+    [Required] public string ConfigFile { get; set; }
+
+    /// <summary>ModInfo.cs, the source of Author and Version.</summary>
+    [Required] public string ModInfoFile { get; set; }
+
+    /// <summary>The game's boot scene, the source of GameVersion. May be absent.</summary>
+    public string SceneFile { get; set; }
+
+    /// <summary>Config.Lua in the game's Mod folder, the source of the published fields. May be absent.</summary>
+    public string DeployedFile { get; set; }
+
+    public override bool Execute()
+    {
+        string modInfo = File.ReadAllText(ModInfoFile);
+        string author = Constant(modInfo, "Author");
+        string version = Constant(modInfo, "Version");
+        if (author == null || version == null)
+        {
+            Log.LogError("[TaiwuRus] could not read Author/Version out of " + ModInfoFile);
+            return false;
+        }
+
+        string original = File.ReadAllText(ConfigFile);
+        string text = SetField(original, "Author", author);
+        text = SetField(text, "Version", version);
+
+        string gameVersion = ReadGameVersion();
+        if (gameVersion == null)
+        {
+            // Leave the field at its last synced value rather than stamping a wrong version.
+            Log.LogWarning("[TaiwuRus] could not read the game version from " + SceneFile +
+                           "; GameVersion in Config.Lua left as is");
+        }
+        else
+        {
+            // Config.Lua spells the game version with four parts, the scene with three.
+            if (Regex.IsMatch(gameVersion, @"^\d+\.\d+\.\d+$")) gameVersion += ".0";
+            text = SetField(text, "GameVersion", gameVersion);
+        }
+
+        string published = CarryOverPublishedFields(text);
+        if (published != null) text = published;
+
+        if (text == original)
+        {
+            Log.LogMessage(MessageImportance.Low, "[TaiwuRus] Config.Lua already in sync");
+            return true;
+        }
+
+        File.WriteAllText(ConfigFile, text, new UTF8Encoding(false));
+        Log.LogMessage(MessageImportance.High,
+            "[TaiwuRus] Config.Lua synced: Author=" + author + " Version=" + version +
+            " GameVersion=" + (gameVersion ?? "(kept)"));
+        return true;
+    }
+
+    /// <summary>Reads a string constant out of ModInfo.cs. \b keeps Version off GameVersion.</summary>
+    private static string Constant(string source, string name)
+    {
+        Match m = Regex.Match(source, @"\b" + name + @"\s*=\s*""([^""]*)""");
+        return m.Success ? m.Groups[1].Value : null;
+    }
+
+    /// <summary>Replaces the value of a top-level <c>Name = "value",</c> field in Config.Lua.</summary>
+    private static string SetField(string config, string name, string value)
+    {
+        return Regex.Replace(config, @"(?m)^(\s*" + name + @"\s*=\s*)""[^""]*""", "${1}\"" + value + "\"");
+    }
+
+    /// <summary>
+    /// The game's build info is not exposed as a file or an assembly version: the boot scene
+    /// (&lt;Data&gt;/level0) carries a component holding the version and the build date as two
+    /// Unity-serialized strings, which the frontend hands to the backend via
+    /// GlobalDomain.SetGameBuildInfo ("Game Version: 1.0.58, Build Date: 2026…" in Logs/). The
+    /// layout is &lt;int32 len&gt;"1.0.58"&lt;align padding&gt;&lt;int32 18&gt;"202607132238322350":
+    /// the 18-digit build date anchors the match and the length prefix in front of the version
+    /// confirms it, which together make a false positive all but impossible.
+    /// </summary>
+    private string ReadGameVersion()
+    {
+        if (string.IsNullOrEmpty(SceneFile) || !File.Exists(SceneFile)) return null;
+
+        byte[] bytes = File.ReadAllBytes(SceneFile);
+        string text = Encoding.ASCII.GetString(bytes);
+        foreach (Match m in Regex.Matches(text, @"(\d+\.\d+\.\d+)\x00{0,3}\x12\x00\x00\x00\d{18}"))
+        {
+            string found = m.Groups[1].Value;
+            int at = m.Groups[1].Index;
+            if (at >= 4 && bytes[at - 4] == found.Length &&
+                bytes[at - 3] == 0 && bytes[at - 2] == 0 && bytes[at - 1] == 0)
+            {
+                return found;
+            }
+        }
+        return null;
+    }
+
+    /// <summary>
+    /// Copies FileId and UpdateLogList from the deployed Config.Lua, which the game's publish flow
+    /// owns: FileId identifies the Workshop item and UpdateLogList grows by one entry per upload.
+    /// Returns null when there is nothing to carry over.
+    /// </summary>
+    private string CarryOverPublishedFields(string config)
+    {
+        if (string.IsNullOrEmpty(DeployedFile) || !File.Exists(DeployedFile)) return null;
+
+        string deployed = File.ReadAllText(DeployedFile);
+        string result = config;
+
+        Match fileId = Regex.Match(deployed, @"(?m)^([ \t]*FileId\s*=\s*)([^,\r\n]*)");
+        if (fileId.Success)
+        {
+            // ${1} rather than $1: the id follows straight after, and $13757119125 would parse as
+            // a capture group number.
+            result = Regex.Replace(result, @"(?m)^([ \t]*FileId\s*=\s*)([^,\r\n]*)",
+                                   "${1}" + fileId.Groups[2].Value.Replace("$", "$$"));
+        }
+
+        string log = Block(deployed, "UpdateLogList");
+        if (log != null && Block(result, "UpdateLogList") != null)
+        {
+            result = result.Replace(Block(result, "UpdateLogList"), log);
+        }
+
+        return result == config ? null : result;
+    }
+
+    /// <summary>
+    /// Returns a whole <c>Name = { … },</c> table, braces matched so nested entries are included.
+    /// Values in this file never contain braces, so counting them is enough.
+    /// </summary>
+    private static string Block(string config, string name)
+    {
+        Match m = Regex.Match(config, @"(?m)^[ \t]*" + name + @"\s*=\s*\{");
+        if (!m.Success) return null;
+
+        int depth = 0;
+        int i = m.Index + m.Length - 1;
+        for (; i < config.Length; i++)
+        {
+            if (config[i] == '{') depth++;
+            else if (config[i] == '}' && --depth == 0) { i++; break; }
+        }
+        if (depth != 0) return null;
+        if (i < config.Length && config[i] == ',') i++;
+        return config.Substring(m.Index, i - m.Index);
+    }
+}
             ]]></Code>
         </Task>
     </UsingTask>
 
-    <!-- dist/Config.Lua declares the mod to the game's mod list. Author/Version are owned by
-         ModInfo.cs (which also drives the assembly version and the PluginConfig attributes) and
-         GameVersion is read out of the installed game, so no field here is maintained by hand.
-         The file is left untouched when it already matches, so a normal build writes nothing. -->
     <Target Name="SyncConfigLua" BeforeTargets="DeployToGame" Condition="'$(DeployMod)' == 'true'">
         <PropertyGroup>
-            <ModInfoFile>$(MSBuildThisFileDirectory)TaiwuRus.Shared\ModInfo.cs</ModInfoFile>
-            <ConfigLuaFile>$(MSBuildThisFileDirectory)..\dist\Config.Lua</ConfigLuaFile>
-            <ModInfoText>$([System.IO.File]::ReadAllText($(ModInfoFile)))</ModInfoText>
-            <ModAuthor>$([System.Text.RegularExpressions.Regex]::Match($(ModInfoText), '\bAuthor\s*=\s*"([^"]*)"').Groups.get_Item(1).Value)</ModAuthor>
-            <ModVersion>$([System.Text.RegularExpressions.Regex]::Match($(ModInfoText), '\bVersion\s*=\s*"([^"]*)"').Groups.get_Item(1).Value)</ModVersion>
             <TaiwuSceneFile Condition="'$(TaiwuSceneFile)' == ''">$(GameDir)\The Scroll of Taiwu_Data\level0</TaiwuSceneFile>
         </PropertyGroup>
-        <Error Condition="'$(ModAuthor)' == '' or '$(ModVersion)' == ''"
-               Text="[TaiwuRus] could not read Author/Version out of $(ModInfoFile)" />
-
-        <ReadTaiwuGameVersion SceneFile="$(TaiwuSceneFile)" Condition="Exists('$(TaiwuSceneFile)')">
-            <Output TaskParameter="GameVersion" PropertyName="ModGameVersion" />
-        </ReadTaiwuGameVersion>
-        <!-- Config.Lua spells the game version with four parts, the scene with three. -->
-        <PropertyGroup>
-            <ModGameVersion Condition="$([System.Text.RegularExpressions.Regex]::IsMatch('$(ModGameVersion)', '^\d+\.\d+\.\d+$'))">$(ModGameVersion).0</ModGameVersion>
-        </PropertyGroup>
-        <!-- Without the game installed the field simply keeps its last synced value. -->
-        <Warning Condition="'$(ModGameVersion)' == ''"
-                 Text="[TaiwuRus] could not read the game version from $(TaiwuSceneFile); GameVersion in Config.Lua left as is" />
-
-        <PropertyGroup>
-            <!-- Trailing newline is dropped on both sides: WriteLinesToFile re-adds exactly one,
-                 so a synced file compares equal on the next build instead of growing. -->
-            <ConfigLuaText>$([System.IO.File]::ReadAllText($(ConfigLuaFile)).TrimEnd())</ConfigLuaText>
-            <ConfigLuaSynced>$([System.Text.RegularExpressions.Regex]::Replace($(ConfigLuaText), '(?m)^(\s*Author\s*=\s*)"[^"]*"', '$1"$(ModAuthor)"'))</ConfigLuaSynced>
-            <ConfigLuaSynced>$([System.Text.RegularExpressions.Regex]::Replace($(ConfigLuaSynced), '(?m)^(\s*Version\s*=\s*)"[^"]*"', '$1"$(ModVersion)"'))</ConfigLuaSynced>
-            <ConfigLuaSynced Condition="'$(ModGameVersion)' != ''">$([System.Text.RegularExpressions.Regex]::Replace($(ConfigLuaSynced), '(?m)^(\s*GameVersion\s*=\s*)"[^"]*"', '$1"$(ModGameVersion)"'))</ConfigLuaSynced>
-        </PropertyGroup>
-        <WriteLinesToFile Condition="'$(ConfigLuaSynced)' != '$(ConfigLuaText)'"
-                          File="$(ConfigLuaFile)" Lines="$(ConfigLuaSynced)"
-                          Overwrite="true" WriteOnlyWhenDifferent="true" />
-        <Message Condition="'$(ConfigLuaSynced)' != '$(ConfigLuaText)'" Importance="high"
-                 Text="[TaiwuRus] Config.Lua synced: Author=$(ModAuthor) Version=$(ModVersion) GameVersion=$(ModGameVersion)" />
+        <SyncTaiwuConfig ConfigFile="$(DistDir)\Config.Lua"
+                         ModInfoFile="$(MSBuildThisFileDirectory)TaiwuRus.Shared\ModInfo.cs"
+                         SceneFile="$(TaiwuSceneFile)"
+                         DeployedFile="$(ModDeployDir)\Config.Lua" />
     </Target>
 
     <!-- After build, deploy the whole mod package (dist/) into the game's Mod folder.
          Runs only for projects that opt in with <DeployMod>true</DeployMod> (Frontend, Backend). -->
     <Target Name="DeployToGame" AfterTargets="Build"
             Condition="'$(DeployMod)' == 'true' and Exists('$(GameDir)')">
-        <PropertyGroup>
-            <ModDeployDir>$(GameDir)\Mod\TaiwuRus</ModDeployDir>
-            <DistDir>$(MSBuildThisFileDirectory)..\dist</DistDir>
-        </PropertyGroup>
         <ItemGroup>
             <DeployFiles Include="$(DistDir)\**\*" />
         </ItemGroup>
