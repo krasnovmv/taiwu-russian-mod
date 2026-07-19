@@ -3,9 +3,10 @@
     <PropertyGroup>
         <ModDeployDir>$(GameDir)\Mod\TaiwuRus</ModDeployDir>
         <DistDir>$(MSBuildThisFileDirectory)..\dist</DistDir>
-        <!-- The mod's cover art. It lives with the other hand-made RU images rather than being
-             duplicated into dist/, and the game reads it from the mod folder root. -->
-        <ModLogoFile>$(MSBuildThisFileDirectory)..\..\image-ru\logo.png</ModLogoFile>
+        <!-- The mod's own art: the cover (Config.Lua Cover) and the Workshop screenshots
+             (DetailImageList). Both are read from the mod folder root, and both live with the other
+             hand-made RU images rather than being duplicated into dist/. -->
+        <ModArtDir>$(MSBuildThisFileDirectory)..\..\image-ru</ModArtDir>
     </PropertyGroup>
 
     <!-- Keeps dist/Config.Lua in sync with everything that owns a field in it, so none of them is
@@ -202,8 +203,8 @@ public class SyncTaiwuConfig : Task
             Condition="'$(DeployMod)' == 'true' and Exists('$(GameDir)')">
         <ItemGroup>
             <DeployFiles Include="$(DistDir)\**\*" />
-            <!-- No RecursiveDir on a non-wildcard item, so this lands at the mod folder root. -->
-            <DeployFiles Include="$(ModLogoFile)" />
+            <!-- No RecursiveDir on these, so they land at the mod folder root. -->
+            <DeployFiles Include="$(ModArtDir)\logo.png;$(ModArtDir)\screen*.png" />
         </ItemGroup>
         <Copy SourceFiles="@(DeployFiles)"
               DestinationFiles="@(DeployFiles->'$(ModDeployDir)\%(RecursiveDir)%(Filename)%(Extension)')"
