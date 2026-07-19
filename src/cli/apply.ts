@@ -18,6 +18,14 @@ import { imageSrcDir, languageRuDir } from "../config/paths.js";
 import { listSourceFiles } from "../scan.js";
 import { Progress } from "./progress.js";
 
+/**
+ * A localized sprite carries a `_ru` language token, which may sit at the end of the name
+ * (`..._ru.png`) or in front of an atlas index (`..._ru_3.png`, `..._0_ru.png`). Everything else in
+ * {@link imageSrcDir} is mod art rather than a sprite — `logo.png` ships in the mod root — and the
+ * frontend could never load it from here, since it resolves `Language_RU/Images/<name>_ru.png`.
+ */
+const ruSpriteName = /_ru(_|\.)/i;
+
 /** Copy hand-translated RU UI images from {@link imageSrcDir} into the pack's Images/ folder. */
 function deployImages(): number {
   if (!existsSync(imageSrcDir)) return 0;
@@ -26,6 +34,7 @@ function deployImages(): number {
   let n = 0;
   for (const f of readdirSync(imageSrcDir)) {
     if (!f.toLowerCase().endsWith(".png")) continue;
+    if (!ruSpriteName.test(f)) continue;
     cpSync(path.join(imageSrcDir, f), path.join(dst, f));
     n++;
   }
