@@ -7,6 +7,11 @@
     internal static class ModInfo
     {
         public const string Author = "KrasnoVMV";
-        public const string Version = "0.1.0";
+
+        /// <summary>Single source of the mod version: the assembly version, the PluginConfig
+        /// attributes and the Author/Version fields of dist/Config.Lua (rewritten by the
+        /// SyncConfigLua build target) all come from here. Keep the four-part form the game's
+        /// mod list expects.</summary>
+        public const string Version = "0.4.0.0";
     }
 }

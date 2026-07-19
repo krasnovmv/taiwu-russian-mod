@@ -1,5 +1,34 @@
 <Project>
 
+    <!-- dist/Config.Lua declares the mod to the game's mod list, but Author/Version are owned by
+         ModInfo.cs (which also drives the assembly version and the PluginConfig attributes).
+         Rewrite those two fields from ModInfo before deploying so the two can't drift; the file is
+         left untouched when it already matches, so a normal build writes nothing. -->
+    <Target Name="SyncConfigLua" BeforeTargets="DeployToGame" Condition="'$(DeployMod)' == 'true'">
+        <PropertyGroup>
+            <ModInfoFile>$(MSBuildThisFileDirectory)TaiwuRus.Shared\ModInfo.cs</ModInfoFile>
+            <ConfigLuaFile>$(MSBuildThisFileDirectory)..\dist\Config.Lua</ConfigLuaFile>
+            <ModInfoText>$([System.IO.File]::ReadAllText($(ModInfoFile)))</ModInfoText>
+            <ModAuthor>$([System.Text.RegularExpressions.Regex]::Match($(ModInfoText), 'Author\s*=\s*"([^"]*)"').Groups.get_Item(1).Value)</ModAuthor>
+            <ModVersion>$([System.Text.RegularExpressions.Regex]::Match($(ModInfoText), 'Version\s*=\s*"([^"]*)"').Groups.get_Item(1).Value)</ModVersion>
+        </PropertyGroup>
+        <Error Condition="'$(ModAuthor)' == '' or '$(ModVersion)' == ''"
+               Text="[TaiwuRus] could not read Author/Version out of $(ModInfoFile)" />
+
+        <PropertyGroup>
+            <!-- Trailing newline is dropped on both sides: WriteLinesToFile re-adds exactly one,
+                 so a synced file compares equal on the next build instead of growing. -->
+            <ConfigLuaText>$([System.IO.File]::ReadAllText($(ConfigLuaFile)).TrimEnd())</ConfigLuaText>
+            <ConfigLuaSynced>$([System.Text.RegularExpressions.Regex]::Replace($(ConfigLuaText), '(?m)^(\s*Author\s*=\s*)"[^"]*"', '$1"$(ModAuthor)"'))</ConfigLuaSynced>
+            <ConfigLuaSynced>$([System.Text.RegularExpressions.Regex]::Replace($(ConfigLuaSynced), '(?m)^(\s*Version\s*=\s*)"[^"]*"', '$1"$(ModVersion)"'))</ConfigLuaSynced>
+        </PropertyGroup>
+        <WriteLinesToFile Condition="'$(ConfigLuaSynced)' != '$(ConfigLuaText)'"
+                          File="$(ConfigLuaFile)" Lines="$(ConfigLuaSynced)"
+                          Overwrite="true" WriteOnlyWhenDifferent="true" />
+        <Message Condition="'$(ConfigLuaSynced)' != '$(ConfigLuaText)'" Importance="high"
+                 Text="[TaiwuRus] Config.Lua synced from ModInfo: Author=$(ModAuthor) Version=$(ModVersion)" />
+    </Target>
+
     <!-- After build, deploy the whole mod package (dist/) into the game's Mod folder.
          Runs only for projects that opt in with <DeployMod>true</DeployMod> (Frontend, Backend). -->
     <Target Name="DeployToGame" AfterTargets="Build"
