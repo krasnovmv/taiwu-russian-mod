@@ -1,3 +1,3 @@
 return {
-	useImages = false,
+	useImages = true,
 }

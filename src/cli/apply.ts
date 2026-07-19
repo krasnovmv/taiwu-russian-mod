@@ -21,7 +21,7 @@ import { Progress } from "./progress.js";
 /**
  * A localized sprite carries a `_ru` language token, which may sit at the end of the name
  * (`..._ru.png`) or in front of an atlas index (`..._ru_3.png`, `..._0_ru.png`). Everything else in
- * {@link imageSrcDir} is mod art rather than a sprite — `logo.png` ships in the mod root — and the
+ * {@link imageSrcDir} is mod art rather than a sprite — `logo.jpg` ships in the mod root — and the
  * frontend could never load it from here, since it resolves `Language_RU/Images/<name>_ru.png`.
  */
 const ruSpriteName = /_ru(_|\.)/i;

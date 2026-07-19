@@ -14,7 +14,7 @@ return {
 		[1] = "Display",
 		[2] = "Modifications",
 	},
-	NeedRestartWhenSettingChanged = false,
+	NeedRestartWhenSettingChanged = true,
 	DefaultSettings = {
 		[1] = {
 			SettingType = "Toggle",
@@ -22,7 +22,7 @@ return {
 			DisplayName = "Использовать картинки?",
 			Description = "Чтобы использовались русифицированные картинки, включите эту настройку",
 			GroupName = "Основные",
-			DefaultValue = false,
+			DefaultValue = true,
 		},
 	},
 	Source = 0,
@@ -44,17 +44,36 @@ return {
 		[5] = {
 			Timestamp = 1783970785,
 		},
+		[6] = {
+			Timestamp = 1784503047,
+		},
+		[7] = {
+			Timestamp = 1784503426,
+		},
+		[8] = {
+			Timestamp = 1784503604,
+		},
+		[9] = {
+			Timestamp = 1784503864,
+		},
+		[10] = {
+			Timestamp = 1784503907,
+		},
+		[11] = {
+			Timestamp = 1784505109,
+		},
 	},
 	ChangeConfig = false,
 	HasArchive = false,
 	SettingGroups = {
 		[1] = "Основные",
 	},
-	Cover = "logo.png",
-	WorkshopCover = "logo.png",
+	Cover = "logo.jpg",
+	WorkshopCover = "logo.jpg",
 	DetailImageList = {
 		[1] = "screen1.png",
 		[2] = "screen2.png",
 		[3] = "screen3.png",
+		[4] = "screen4.png",
 	},
 }

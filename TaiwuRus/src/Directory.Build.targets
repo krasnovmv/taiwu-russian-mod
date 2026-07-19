@@ -203,8 +203,10 @@ public class SyncTaiwuConfig : Task
             Condition="'$(DeployMod)' == 'true' and Exists('$(GameDir)')">
         <ItemGroup>
             <DeployFiles Include="$(DistDir)\**\*" />
-            <!-- No RecursiveDir on these, so they land at the mod folder root. -->
-            <DeployFiles Include="$(ModArtDir)\logo.png;$(ModArtDir)\screen*.png" />
+            <!-- No RecursiveDir on these, so they land at the mod folder root. The *_orig files are
+                 the full-size captures kept beside the shrunk ones that actually ship. -->
+            <DeployFiles Include="$(ModArtDir)\logo.jpg" />
+            <DeployFiles Include="$(ModArtDir)\screen*.png" Exclude="$(ModArtDir)\*_orig.png" />
         </ItemGroup>
         <Copy SourceFiles="@(DeployFiles)"
               DestinationFiles="@(DeployFiles->'$(ModDeployDir)\%(RecursiveDir)%(Filename)%(Extension)')"
