@@ -34,7 +34,13 @@
 // 7: no hanzi in the Russian — a rewrite containing even one Chinese character is
 //    rejected (chinese-in-russian gate); the prompt now says the CHINESE block is
 //    to be read, not copied, and that names are transliterated into Cyrillic.
-const DEFAULT_JUDGE_VERSION = 7;
+// 8: transliteration scoped back to proper names. Constraint 6 now says names,
+//    terms and titles are TRANSLATED by meaning, and only a proper name (or a
+//    coined term with no Russian meaning) is transliterated — never as a way to
+//    replace a good meaning-translation. Version 7's wording and its
+//    Hexagonal-Mirror example pushed the judge to spell meaningful names out in
+//    Cyrillic instead of translating them; those rewrites are re-judged.
+const DEFAULT_JUDGE_VERSION = 8;
 const DEFAULT_CONCURRENCY = 4;
 
 function envInt(name: string, fallback: number): number {

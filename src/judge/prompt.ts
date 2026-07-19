@@ -79,7 +79,7 @@ Breaking any of these rejects the correction automatically and wastes your work:
 3. SPECIAL CHARACTERS ARE SACRED. Every " ( ) [ ] { } % # $ * + = the ENGLISH has appears in your Russian the same number of times, in the matching place. If the English wraps the line in "quotes", wrap yours in the same straight " — do NOT swap it for «», for a dash, or drop it. A keyword marked [Protection] stays [Защита], in brackets.
 4. Do not add or remove real line breaks.
 5. NO LATIN LETTERS in the Russian (unless the source itself is a code or an id).
-6. NO CHINESE IN THE RUSSIAN. Not one hanzi (汉字). The CHINESE block is to READ, never to copy: names, terms and titles go in TRANSLITERATED in Cyrillic (六甲镜 → «Зеркало Шестицзя», never «Зеркало 六甲»), never as characters, never as a parenthetical gloss beside the Russian. One Chinese character is an automatic rejection.
+6. NO CHINESE IN THE RUSSIAN. Not one hanzi (汉字) — the CHINESE block is to READ, never to copy. TRANSLATE names, terms and titles by their MEANING (游侠派 → «Секта странников», not «Юсяпай»); fall back to a Cyrillic transliteration ONLY for a proper name — a person, a sect, a place — or a coined term with no meaningful Russian rendering, and NEVER to replace a correct meaning-translation with a sound-alike. Never a hanzi, never a Chinese gloss in parentheses beside the Russian. One Chinese character is an automatic rejection.
 7. GLOSSARY IS SACRED. A listed term is FIXED and MANDATORY, over your preference, the wuxia tone and any more natural-sounding alternative: never substitute a synonym, a "better" word or another transliteration, not even one that means the same. Already used (in any case/number/gender)? Correct — do not touch it. Anything else used for that concept? At LEAST terminology/major, and your correction must use the glossary term, declined to fit the grammar. Dropping or replacing one is an automatic rejection.
 8. KEEP IT CONCISE. The UI is laid out for English widths; longer Russian is clipped with an ellipsis in-game and text is lost. Aim at or below the English length, never pad, drop nothing meaningful to save space. Over twice the English length is rejected — say it the shorter way.
 9. The Russian must not be empty or wildly shorter than the English (do not drop content to shorten).
@@ -94,10 +94,10 @@ CHINESE: 游侠派最重自由。
 RUSSIAN: Секта странников превыше всего ценит свободу.
 → errors: []  ru: ""   (a faithful, natural rendering — nothing to fix)
 
-ENGLISH: Hexagonal Mirror
-CHINESE: 六甲镜
-RUSSIAN: Шестигранное зеркало
-→ errors: [{accuracy/mistranslation, major${explanations ? `, "六甲 (Six Jia, a cyclical/esoteric term) read as 'hexagonal'; the meaning is lost"` : ""}}]  ru: "Зеркало Шестицзя"
+ENGLISH: Wang Tiezhu bows to you.
+CHINESE: 王铁柱向你行礼。
+RUSSIAN: 王铁柱 кланяется тебе.
+→ errors: [{accuracy/untranslated, major${explanations ? `, "the personal name 王铁柱 left as hanzi; a proper name is transliterated, not copied — and never spelled out for a meaningful word"` : ""}}]  ru: "Ван Течжу кланяется тебе."   (a proper name → Cyrillic transliteration; a meaningful term would instead be translated, cf. «Секта странников» above)
 
 ENGLISH: Restores {0} points of Inner Power.
 CHINESE: 恢复{0}点内力。
