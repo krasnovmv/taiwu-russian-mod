@@ -32,11 +32,19 @@ namespace TaiwuRus.Frontend
         // patches read LocalizedImage.Active on every call, so this only needs to keep the flag current.
         // GetSetting leaves the value untouched when the mod/key isn't found, so the local default
         // (false — images off unless opted in) survives a missing setting.
+        //
+        // On an actual change the RU PNG caches have to go: they memoize misses, and every name looked
+        // up while the setting was off is memoized as "no RU art" — so without the reset the toggle
+        // would appear to do nothing. Already-drawn images still keep their current art until the
+        // element re-runs its setter; the reset only fixes what is resolved from here on.
         private void RefreshImageSetting()
         {
             bool useImages = false;
             ModManager.GetSetting(ModIdStr, "useImages", ref useImages);
+            bool changed = RuLocale.UseImages != useImages;
             RuLocale.UseImages = useImages;
+            if (changed)
+                LocalizedImage.ResetCache();
             Debug.Log($"[TaiwuRus] useImages = {useImages}");
         }
 
@@ -82,8 +90,8 @@ namespace TaiwuRus.Frontend
 
         public override void OnModSettingUpdate()
         {
-            // NeedRestartWhenSettingChanged = true (Config.Lua) means the game restarts on change, so
-            // this mostly runs at boot — but refresh anyway so the gate is never stale.
+            // Config.Lua declares NeedRestartWhenSettingChanged = false, so this is the only thing that
+            // applies a settings change — the game keeps running with the mod loaded.
             RefreshImageSetting();
         }
 

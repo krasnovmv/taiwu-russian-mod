@@ -24,8 +24,9 @@ namespace TaiwuRus.Shared
         /// <summary>Language-only gate: the mod's Russian language pack is active.</summary>
         public static bool IsRu => LocalStringManager.CurLanguageKey == LanguageKey;
 
-        /// <summary>The <c>useImages</c> mod setting (Config.Lua), read at startup by FrontendPlugin.
-        /// The game restarts when settings change, so this is effectively fixed for the session.</summary>
+        /// <summary>The <c>useImages</c> mod setting (Config.Lua), read by FrontendPlugin at startup
+        /// and again on every settings change — the mod does not ask the game to restart, so this can
+        /// flip mid-session (FrontendPlugin drops the RU PNG caches when it does).</summary>
         public static bool UseImages { get; set; }
 
         /// <summary>Image-art gate: RU is active AND the user opted into the shipped RU graphics.</summary>

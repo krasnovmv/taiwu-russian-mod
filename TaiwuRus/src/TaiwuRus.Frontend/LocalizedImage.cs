@@ -31,7 +31,8 @@ namespace TaiwuRus.Frontend
         private static readonly HashSet<string> Diag = new HashSet<string>();
 
         // ── Step 1: the shipped RU PNG override, loaded once and cached (null cached too, so we probe
-        //    disk only once per name). ────────────────────────────────────────────────────────────
+        //    disk only once per name). A disabled `useImages` also produces that null, so the caches
+        //    outlive the setting — see ResetCache, which the plugin calls when it changes. ─────────
         public static Sprite? RuSprite(string ruName)
         {
             if (SpriteCache.TryGetValue(ruName, out Sprite? cached))
@@ -54,6 +55,25 @@ namespace TaiwuRus.Frontend
             Texture2D? tex = LoadPng(ruName);
             TextureCache[ruName] = tex;
             return tex;
+        }
+
+        /// <summary>
+        /// Forget every memoized lookup, so the next one re-runs step 1 under the current
+        /// <c>useImages</c> value. Without this, flipping the setting in-game does nothing: the
+        /// caches memoize misses, and a disabled setting makes <see cref="LoadPng"/> return null
+        /// before it ever looks at the disk, so every name probed while off stays a null forever.
+        ///
+        /// Deliberately does NOT destroy the cached sprites and textures. Unity's native memory is
+        /// not garbage-collected, so dropping them leaks — but they were handed to live CImage /
+        /// CRawImage instances, and destroying those out from under the UI blanks whatever is on
+        /// screen until each element happens to re-run its setter. A bounded leak (one set of
+        /// objects per toggle, over a handful of shipped PNGs) beats visibly broken art.
+        /// </summary>
+        public static void ResetCache()
+        {
+            SpriteCache.Clear();
+            TextureCache.Clear();
+            Diag.Clear();
         }
 
         private static Texture2D? LoadPng(string ruName)
