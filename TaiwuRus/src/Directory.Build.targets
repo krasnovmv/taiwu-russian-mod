@@ -1,10 +1,44 @@
 <Project>
 
-    <!-- dist/Config.Lua declares the mod to the game's mod list, but Author/Version/GameVersion are
-         owned by ModInfo.cs (which also drives the assembly version and the PluginConfig
-         attributes). Rewrite those three fields from ModInfo before deploying so the two can't
-         drift; the file is left untouched when it already matches, so a normal build writes
-         nothing. \b keeps the Version pattern off the GameVersion constant. -->
+    <!-- The game's build info is not exposed as a file or an assembly version: the boot scene
+         (<Data>/level0) carries a component holding the version and the build date as two
+         Unity-serialized strings, and the frontend hands them to the backend via
+         GlobalDomain.SetGameBuildInfo ("Game Version: 1.0.58, Build Date: 2026…" in Logs/).
+         Scan that scene for the pair rather than hardcoding the version anywhere. -->
+    <UsingTask TaskName="ReadTaiwuGameVersion" TaskFactory="RoslynCodeTaskFactory"
+               AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll">
+        <ParameterGroup>
+            <SceneFile ParameterType="System.String" Required="true" />
+            <GameVersion ParameterType="System.String" Output="true" />
+        </ParameterGroup>
+        <Task>
+            <Code Type="Fragment" Language="cs"><![CDATA[
+                // Layout: <int32 len>"1.0.58"<align padding><int32 18>"202607132238322350".
+                // The 18-digit build date anchors the match, and the length prefix in front of the
+                // version confirms it — together those make a false positive all but impossible.
+                byte[] bytes = System.IO.File.ReadAllBytes(SceneFile);
+                string text = System.Text.Encoding.ASCII.GetString(bytes);
+                foreach (System.Text.RegularExpressions.Match m in
+                         System.Text.RegularExpressions.Regex.Matches(
+                             text, @"(\d+\.\d+\.\d+)\x00{0,3}\x12\x00\x00\x00\d{18}"))
+                {
+                    string found = m.Groups[1].Value;
+                    int at = m.Groups[1].Index;
+                    if (at >= 4 && bytes[at - 4] == found.Length &&
+                        bytes[at - 3] == 0 && bytes[at - 2] == 0 && bytes[at - 1] == 0)
+                    {
+                        GameVersion = found;
+                        break;
+                    }
+                }
+            ]]></Code>
+        </Task>
+    </UsingTask>
+
+    <!-- dist/Config.Lua declares the mod to the game's mod list. Author/Version are owned by
+         ModInfo.cs (which also drives the assembly version and the PluginConfig attributes) and
+         GameVersion is read out of the installed game, so no field here is maintained by hand.
+         The file is left untouched when it already matches, so a normal build writes nothing. -->
     <Target Name="SyncConfigLua" BeforeTargets="DeployToGame" Condition="'$(DeployMod)' == 'true'">
         <PropertyGroup>
             <ModInfoFile>$(MSBuildThisFileDirectory)TaiwuRus.Shared\ModInfo.cs</ModInfoFile>
@@ -12,10 +46,21 @@
             <ModInfoText>$([System.IO.File]::ReadAllText($(ModInfoFile)))</ModInfoText>
             <ModAuthor>$([System.Text.RegularExpressions.Regex]::Match($(ModInfoText), '\bAuthor\s*=\s*"([^"]*)"').Groups.get_Item(1).Value)</ModAuthor>
             <ModVersion>$([System.Text.RegularExpressions.Regex]::Match($(ModInfoText), '\bVersion\s*=\s*"([^"]*)"').Groups.get_Item(1).Value)</ModVersion>
-            <ModGameVersion>$([System.Text.RegularExpressions.Regex]::Match($(ModInfoText), '\bGameVersion\s*=\s*"([^"]*)"').Groups.get_Item(1).Value)</ModGameVersion>
+            <TaiwuSceneFile Condition="'$(TaiwuSceneFile)' == ''">$(GameDir)\The Scroll of Taiwu_Data\level0</TaiwuSceneFile>
         </PropertyGroup>
-        <Error Condition="'$(ModAuthor)' == '' or '$(ModVersion)' == '' or '$(ModGameVersion)' == ''"
-               Text="[TaiwuRus] could not read Author/Version/GameVersion out of $(ModInfoFile)" />
+        <Error Condition="'$(ModAuthor)' == '' or '$(ModVersion)' == ''"
+               Text="[TaiwuRus] could not read Author/Version out of $(ModInfoFile)" />
+
+        <ReadTaiwuGameVersion SceneFile="$(TaiwuSceneFile)" Condition="Exists('$(TaiwuSceneFile)')">
+            <Output TaskParameter="GameVersion" PropertyName="ModGameVersion" />
+        </ReadTaiwuGameVersion>
+        <!-- Config.Lua spells the game version with four parts, the scene with three. -->
+        <PropertyGroup>
+            <ModGameVersion Condition="$([System.Text.RegularExpressions.Regex]::IsMatch('$(ModGameVersion)', '^\d+\.\d+\.\d+$'))">$(ModGameVersion).0</ModGameVersion>
+        </PropertyGroup>
+        <!-- Without the game installed the field simply keeps its last synced value. -->
+        <Warning Condition="'$(ModGameVersion)' == ''"
+                 Text="[TaiwuRus] could not read the game version from $(TaiwuSceneFile); GameVersion in Config.Lua left as is" />
 
         <PropertyGroup>
             <!-- Trailing newline is dropped on both sides: WriteLinesToFile re-adds exactly one,
@@ -23,13 +68,13 @@
             <ConfigLuaText>$([System.IO.File]::ReadAllText($(ConfigLuaFile)).TrimEnd())</ConfigLuaText>
             <ConfigLuaSynced>$([System.Text.RegularExpressions.Regex]::Replace($(ConfigLuaText), '(?m)^(\s*Author\s*=\s*)"[^"]*"', '$1"$(ModAuthor)"'))</ConfigLuaSynced>
             <ConfigLuaSynced>$([System.Text.RegularExpressions.Regex]::Replace($(ConfigLuaSynced), '(?m)^(\s*Version\s*=\s*)"[^"]*"', '$1"$(ModVersion)"'))</ConfigLuaSynced>
-            <ConfigLuaSynced>$([System.Text.RegularExpressions.Regex]::Replace($(ConfigLuaSynced), '(?m)^(\s*GameVersion\s*=\s*)"[^"]*"', '$1"$(ModGameVersion)"'))</ConfigLuaSynced>
+            <ConfigLuaSynced Condition="'$(ModGameVersion)' != ''">$([System.Text.RegularExpressions.Regex]::Replace($(ConfigLuaSynced), '(?m)^(\s*GameVersion\s*=\s*)"[^"]*"', '$1"$(ModGameVersion)"'))</ConfigLuaSynced>
         </PropertyGroup>
         <WriteLinesToFile Condition="'$(ConfigLuaSynced)' != '$(ConfigLuaText)'"
                           File="$(ConfigLuaFile)" Lines="$(ConfigLuaSynced)"
                           Overwrite="true" WriteOnlyWhenDifferent="true" />
         <Message Condition="'$(ConfigLuaSynced)' != '$(ConfigLuaText)'" Importance="high"
-                 Text="[TaiwuRus] Config.Lua synced from ModInfo: Author=$(ModAuthor) Version=$(ModVersion) GameVersion=$(ModGameVersion)" />
+                 Text="[TaiwuRus] Config.Lua synced: Author=$(ModAuthor) Version=$(ModVersion) GameVersion=$(ModGameVersion)" />
     </Target>
 
     <!-- After build, deploy the whole mod package (dist/) into the game's Mod folder.
