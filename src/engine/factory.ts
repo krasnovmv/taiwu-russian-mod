@@ -3,7 +3,7 @@ import path from "node:path";
 import { cacheDir } from "../config/paths.js";
 import { loadGlossary, loadGlossaryFeeds } from "../glossary/load.js";
 import { markupPreserved } from "./protect.js";
-import { CachingEngine } from "./caching.js";
+import { CachingEngine, usableOutput } from "./caching.js";
 import { LmStudioEngine } from "./lmstudio.js";
 import { MockEngine } from "./mock.js";
 import type { TranslationEngine } from "./types.js";
@@ -49,7 +49,9 @@ export async function createEngine(
     inner,
     cacheFile(id),
     glossary,
-    markupPreserved,
+    // Store only what the pipeline would accept: markup intact AND no hanzi left
+    // (an echoed-back Chinese source would otherwise be served forever).
+    (input, output) => markupPreserved(input, output) && usableOutput(output),
     opts.cacheOnly ?? false,
     feeds,
   );

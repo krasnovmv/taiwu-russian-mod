@@ -4,7 +4,7 @@ import { tmpdir } from "node:os";
 import path from "node:path";
 import { test } from "node:test";
 
-import { CachingEngine } from "../src/engine/caching.js";
+import { CachingEngine, usableOutput } from "../src/engine/caching.js";
 import type {
   ProgressCallback,
   TranslationEngine,
@@ -117,6 +117,45 @@ test("valid outputs are still cached", async () => {
   await eng.translate([{ text: "a" }]);
   await eng.translate([{ text: "a" }]);
   assert.deepEqual(c.seen, ["a"]); // cached after the first call
+});
+
+test("an echoed-back Chinese entry is dropped on load and re-translated", async () => {
+  const file = await cacheFile();
+  // What an older run stored when a wholly-Chinese source was sent as English:
+  // Yandex handed the input straight back. The pipeline rejects hanzi in RU, so
+  // serving this entry would keep the unit failing forever.
+  await writeFile(
+    file,
+    [
+      JSON.stringify({ k: "人物信息", v: "人物信息" }),
+      JSON.stringify({ k: "b", v: "ru:b" }),
+      "",
+    ].join("\n"),
+    "utf8",
+  );
+
+  const c = counter();
+  const eng = new CachingEngine(c.engine, file, new Map(), (_i, o) => usableOutput(o));
+  assert.deepEqual(await eng.translate([{ text: "人物信息" }, { text: "b" }]), [
+    "ru:人物信息",
+    "ru:b",
+  ]);
+  assert.deepEqual(c.seen, ["人物信息"], "the poisoned entry must miss, not be served");
+
+  // The drop is persisted: the rewrite leaves the clean entry only. The fresh
+  // output still carries hanzi (this inner engine echoes), so it isn't stored
+  // either — a later run gets to try again.
+  const lines = (await readFile(file, "utf8")).split("\n").filter((l) => l !== "");
+  assert.deepEqual(
+    lines.map((l) => JSON.parse(l) as unknown),
+    [{ k: "b", v: "ru:b" }],
+  );
+});
+
+test("usableOutput ignores hanzi inside masked markup, not in the text", () => {
+  assert.equal(usableOutput("Кулак"), true);
+  assert.equal(usableOutput("人物信息"), false);
+  assert.equal(usableOutput("Сила <color=#天>удара</color>"), true);
 });
 
 test("duplicate cache lines are compacted on load (one line per key, last wins)", async () => {

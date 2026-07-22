@@ -18,7 +18,7 @@ import path from "node:path";
 
 import { cacheDir } from "../config/paths.js";
 import { loadGlossary, loadGlossaryFeeds } from "../glossary/load.js";
-import { cacheKeyFor, readCacheFile } from "./caching.js";
+import { cacheKeyFor, readCacheFile, usableOutput } from "./caching.js";
 import { mask, restore } from "./protect.js";
 
 export class EngineCache {
@@ -36,7 +36,9 @@ export class EngineCache {
   static async forEngine(engineId: string): Promise<EngineCache | null> {
     if (engineId !== "yandex" && engineId !== "lmstudio") return null;
     const file = path.join(cacheDir, `${engineId}.jsonl`);
-    const { entries } = await readCacheFile(file);
+    // Same usability rule as the engine cache itself: never show the judge an
+    // "engine translation" that is really the untranslated Chinese source.
+    const { entries } = await readCacheFile(file, usableOutput);
     if (entries.size === 0) return null;
     const feeds = engineId === "yandex" ? await loadGlossaryFeeds() : undefined;
     return new EngineCache(entries, await loadGlossary(), feeds);
