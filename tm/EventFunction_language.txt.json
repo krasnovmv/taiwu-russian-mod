@@ -34122,23 +34122,23 @@
       "engine": "neutral",
       "updatedAt": "2026-07-03T21:32:41.679Z"
     },
-    "Name_890": {
+    "Name_889": {
       "en": "重置商店交易数据",
       "cn": null,
       "ru": "Сброс данных о транзакциях хранилища",
       "status": "machine",
       "srcHash": "17a5bb730f8368d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-08T21:55:51.973Z"
+      "updatedAt": "2026-07-22T14:21:52.988Z"
     },
-    "Name_894": {
+    "Name_890": {
       "en": "奇遇是否激活",
       "cn": null,
       "ru": "Активировано ли приключение?",
       "status": "machine",
       "srcHash": "5c2d66cab0cf6a06",
       "engine": "yandex",
-      "updatedAt": "2026-07-08T21:55:51.973Z"
+      "updatedAt": "2026-07-22T14:21:52.988Z"
     },
     "Name_895": {
       "en": "清除天材地宝状态",
@@ -34158,59 +34158,86 @@
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z"
     },
-    "Name_889": {
+    "Name_891": {
       "en": "固定人物正在跟随太吾",
       "cn": null,
       "ru": "Исправлены символы, следующие за Тайго",
       "status": "machine",
       "srcHash": "54bd4c63e0635dfb",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-22T14:21:52.988Z"
     },
-    "Name_891": {
+    "Name_892": {
       "en": "是否装备指定志向技能",
       "cn": null,
       "ru": "Стоит ли овладевать определенными амбициозными навыками",
       "status": "machine",
       "srcHash": "d5c0482570df357d",
       "engine": "yandex",
-      "updatedAt": "2026-07-08T21:55:51.973Z"
+      "updatedAt": "2026-07-22T14:21:52.988Z"
     },
-    "Name_892": {
+    "Name_893": {
       "en": "救治获得心念",
       "cn": null,
       "ru": "Получите рекомендации по лечению",
       "status": "machine",
       "srcHash": "af50f9e324825b1e",
       "engine": "yandex",
-      "updatedAt": "2026-07-08T21:55:51.973Z"
+      "updatedAt": "2026-07-22T14:21:52.988Z"
     },
-    "Name_893": {
+    "Name_894": {
       "en": "救治获得天劫符箓",
       "cn": null,
       "ru": "Исцеление и обретение талисмана Небесной скорби",
       "status": "machine",
       "srcHash": "99460004fd26d15e",
       "engine": "yandex",
-      "updatedAt": "2026-07-08T21:55:51.973Z"
+      "updatedAt": "2026-07-22T14:21:52.988Z"
     },
-    "Desc_890": {
+    "Name_896": {
+      "en": "所属定居点存在元鸡",
+      "cn": null,
+      "ru": "Юаньцзи существует в том поселении, к которому он принадлежит",
+      "status": "machine",
+      "srcHash": "7d965f36bb8742cc",
+      "engine": "yandex",
+      "updatedAt": "2026-07-22T14:21:52.988Z"
+    },
+    "Name_897": {
+      "en": "检测首次武林盟会举办门派",
+      "cn": null,
+      "ru": "Первая Лига боевых искусств в Китае впервые проведет соревнования по боевым искусствам",
+      "status": "machine",
+      "srcHash": "8b87177c9b38fdcf",
+      "engine": "yandex",
+      "updatedAt": "2026-07-22T14:21:52.988Z"
+    },
+    "Name_898": {
+      "en": "人物装备摧破功法内外功比例为1:1",
+      "cn": null,
+      "ru": "Соотношение внутренней и внешней силы техники уничтожения экипировки персонажа составляет 1:1",
+      "status": "machine",
+      "srcHash": "610a5458b8c16db4",
+      "engine": "yandex",
+      "updatedAt": "2026-07-22T14:21:52.988Z"
+    },
+    "Desc_889": {
       "en": "需要在更新消费额度后调用",
       "cn": null,
       "ru": "Необходимо вызвать после обновления лимита потребления",
       "status": "machine",
       "srcHash": "cc20e915666345a1",
       "engine": "yandex",
-      "updatedAt": "2026-07-08T21:55:51.973Z"
+      "updatedAt": "2026-07-22T14:21:52.988Z"
     },
-    "Desc_894": {
+    "Desc_890": {
       "en": "",
       "cn": null,
       "ru": "",
       "status": "machine",
       "srcHash": "2315852aca8bcf4e",
       "engine": "yandex",
-      "updatedAt": "2026-07-08T21:55:51.973Z"
+      "updatedAt": "2026-07-22T14:21:52.988Z"
     },
     "Desc_895": {
       "en": "在天材地宝消亡指令中调用一次",
@@ -34230,15 +34257,6 @@
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z"
     },
-    "Desc_889": {
-      "en": "",
-      "cn": null,
-      "ru": "",
-      "status": "machine",
-      "srcHash": "2315852aca8bcf4e",
-      "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
-    },
     "Desc_891": {
       "en": "",
       "cn": null,
@@ -34249,33 +34267,96 @@
       "updatedAt": "2026-07-08T21:55:51.973Z"
     },
     "Desc_892": {
-      "en": "根据救治的人物精纯获得相应数量的伏虞心念",
-      "cn": null,
-      "ru": "Получите соответствующее количество мыслей Фу Юя, основанных на чистоте обработанных символов",
-      "status": "machine",
-      "srcHash": "12642ead4fb0923d",
-      "engine": "yandex",
-      "updatedAt": "2026-07-08T21:55:51.973Z"
-    },
-    "Desc_893": {
-      "en": "根据救治的人物精纯获得相应数量的天劫符箓",
-      "cn": null,
-      "ru": "Получите соответствующее количество талисманов небесной скорби в соответствии с чистотой обработанного персонажа",
-      "status": "machine",
-      "srcHash": "0692b3b2a06a05f0",
-      "engine": "yandex",
-      "updatedAt": "2026-07-08T21:55:51.973Z"
-    },
-    "InGameHint_890": {
       "en": "",
       "cn": null,
       "ru": "",
       "status": "machine",
       "srcHash": "2315852aca8bcf4e",
       "engine": "yandex",
-      "updatedAt": "2026-07-08T21:55:51.973Z"
+      "updatedAt": "2026-07-22T14:21:52.988Z"
     },
-    "InGameHint_894": {
+    "Desc_893": {
+      "en": "根据救治的人物精纯获得相应数量的伏虞心念",
+      "cn": null,
+      "ru": "Получите соответствующее количество мыслей Фу Юя, основанных на чистоте обработанных символов",
+      "status": "machine",
+      "srcHash": "12642ead4fb0923d",
+      "engine": "yandex",
+      "updatedAt": "2026-07-22T14:21:52.988Z"
+    },
+    "Desc_894": {
+      "en": "根据救治的人物精纯获得相应数量的天劫符箓",
+      "cn": null,
+      "ru": "Получите соответствующее количество талисманов небесной скорби в соответствии с чистотой обработанного персонажа",
+      "status": "machine",
+      "srcHash": "0692b3b2a06a05f0",
+      "engine": "yandex",
+      "updatedAt": "2026-07-22T14:21:52.988Z"
+    },
+    "Desc_896": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-07-22T14:21:52.988Z"
+    },
+    "Desc_897": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-07-22T14:21:52.988Z"
+    },
+    "Desc_898": {
+      "en": "人物当前装备的指定摧破功法平均内外比例为50%时满足条件(有判断任一功法和特定的功法模式)；未装备摧破功法时不满足。",
+      "cn": null,
+      "ru": "Условия выполняются, когда среднее внутреннее и внешнее соотношение назначенной техники уничтожения, используемой персонажем в данный момент, составляет 50% (существует оценка любой техники и конкретного режима техники); это условие не выполняется, когда техника уничтожения не используется.",
+      "status": "machine",
+      "srcHash": "019d8baf0cc507e7",
+      "engine": "yandex",
+      "updatedAt": "2026-07-22T14:21:52.988Z"
+    },
+    "ParameterNames_898_0": {
+      "en": "目标人物",
+      "cn": null,
+      "ru": "объект",
+      "status": "machine",
+      "srcHash": "bd3c8944ffa5dce3",
+      "engine": "yandex",
+      "updatedAt": "2026-07-22T14:21:52.988Z"
+    },
+    "ParameterNames_898_1": {
+      "en": "是否任一功法符合即通过",
+      "cn": null,
+      "ru": "Независимо от того, соответствует ли какое-либо из упражнений предъявляемым требованиям, оно будет успешно выполнено.",
+      "status": "machine",
+      "srcHash": "37eb8b19d82c2d14",
+      "engine": "yandex",
+      "updatedAt": "2026-07-22T14:21:52.988Z"
+    },
+    "ParameterNames_898_2": {
+      "en": "(如果第二参数为false)特定的功法模板ID",
+      "cn": null,
+      "ru": "(Если второй параметр равен false) Идентификатор шаблона конкретной функции",
+      "status": "machine",
+      "srcHash": "4c4f2bcc8aa79ab6",
+      "engine": "yandex",
+      "updatedAt": "2026-07-22T14:21:52.988Z"
+    },
+    "InGameHint_889": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-07-03T21:32:41.679Z"
+    },
+    "InGameHint_890": {
       "en": "",
       "cn": null,
       "ru": "",
@@ -34299,15 +34380,6 @@
       "ru": "Бдительность противника находится на уровне или ниже{0}",
       "status": "machine",
       "srcHash": "62df25a3bae25cfe",
-      "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
-    },
-    "InGameHint_889": {
-      "en": "",
-      "cn": null,
-      "ru": "",
-      "status": "machine",
-      "srcHash": "2315852aca8bcf4e",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z"
     },
@@ -34337,6 +34409,42 @@
       "srcHash": "2315852aca8bcf4e",
       "engine": "yandex",
       "updatedAt": "2026-07-08T21:55:51.973Z"
+    },
+    "InGameHint_894": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-07-08T21:55:51.973Z"
+    },
+    "InGameHint_896": {
+      "en": "所属定居点存在元鸡",
+      "cn": null,
+      "ru": "Юаньцзи существует в том поселении, к которому он принадлежит",
+      "status": "machine",
+      "srcHash": "7d965f36bb8742cc",
+      "engine": "yandex",
+      "updatedAt": "2026-07-22T14:21:52.988Z"
+    },
+    "InGameHint_897": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-07-22T14:21:52.988Z"
+    },
+    "InGameHint_898": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-07-22T14:21:52.988Z"
     }
   }
 }

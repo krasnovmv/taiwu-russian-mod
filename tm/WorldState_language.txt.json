@@ -662,7 +662,7 @@
     },
     "Desc_11": {
       "en": "You are over-encumbered!\\n<color=#darkred>Some items will be lost when the month changes!</color>\\n<color=#brightred>Moving across the map will require extra time!</color>",
-      "cn": "行囊中存放的物品总重量超过了最大负重。\\n<color=#darkred>会因此在月份更替时丢失若干物品！</color>\\n<color=#brightred>在地图上进行移动时所需消耗的时间额外增加！</color>",
+      "cn": "{0}行囊中存放的物品总重量超过了最大负重。\\n<color=#darkred>会因此在月份更替时丢失若干物品！</color>\\n<color=#brightred>在地图上进行移动时所需消耗的时间额外增加！</color>",
       "ru": "Вы чрезмерно обременены!\\n<color=#darkred>Некоторые предметы будут потеряны при смене месяца!</color>\\n<color=#brightred>Перемещение по карте потребует дополнительного времени!</color>",
       "status": "machine",
       "srcHash": "ebf4aa2b6b6017bc",
@@ -1390,6 +1390,24 @@
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
       "judgeHash": "9348cc313414e1c9"
+    },
+    "Name_56": {
+      "en": "玄狱厄变",
+      "cn": null,
+      "ru": null,
+      "status": "pending",
+      "srcHash": "668634ae695bf3a0",
+      "engine": null,
+      "updatedAt": null
+    },
+    "Desc_56": {
+      "en": "玄狱之象，厄变丛生，太吾可决定是否启用新的玄狱挑战：\\n·新增玄狱挑战：\\n{0}",
+      "cn": null,
+      "ru": "Образ таинственной тюрьмы обрастает мрачностью, и Тайго может решить, стоит ли активировать новое испытание \"таинственная тюрьма\".：\\n· Добавлено таинственное тюремное испытание：\\n{0}",
+      "status": "machine",
+      "srcHash": "01806003f816ea74",
+      "engine": "yandex",
+      "updatedAt": "2026-07-22T14:21:52.988Z"
     }
   }
 }
