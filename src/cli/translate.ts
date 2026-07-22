@@ -90,6 +90,8 @@ interface PassResult {
   failed: number;
   cacheMissed: number;
   failures: { key: string; error: string }[];
+  /** Files skipped because they no longer parse, with the adapter's reason. */
+  unparsed: { file: string; reason: string }[];
 }
 
 /** Translate `files` with one engine, within an optional length window. */
@@ -119,7 +121,7 @@ async function runPass(
   plan.finish();
 
   const bars = new FileProgress(files.length, grandTotal);
-  const out: PassResult = { translated: 0, failed: 0, cacheMissed: 0, failures: [] };
+  const out: PassResult = { translated: 0, failed: 0, cacheMissed: 0, failures: [], unparsed: [] };
   let base = 0; // units completed in the already-finished files
   for (const f of files) {
     let fileTotal = 0;
@@ -141,6 +143,7 @@ async function runPass(
     out.failed += stats.failed;
     out.cacheMissed += stats.cacheMissed;
     out.failures.push(...stats.failures);
+    if (stats.unparsed !== undefined) out.unparsed.push({ file: f, reason: stats.unparsed });
     bars.finishFile();
   }
   bars.stop();
@@ -234,6 +237,18 @@ async function main(): Promise<void> {
     console.log(`\nMarkup-validation failures (${failures.length}):`);
     for (const fail of failures.slice(0, 20)) console.log(`  ${fail.key}: ${fail.error}`);
     if (failures.length > 20) console.log(`  … and ${failures.length - 20} more`);
+  }
+
+  // Each pass sees the same files, so a broken file is reported once per pass.
+  const unparsed = new Map(passes.flatMap((p) => p.unparsed).map((u) => [u.file, u.reason]));
+  if (unparsed.size > 0) {
+    console.error(
+      `\nSOURCE FILES THAT NO LONGER PARSE (${unparsed.size}) — their TM was left untouched:`,
+    );
+    for (const [file, reason] of [...unparsed].slice(0, 20)) console.error(`  ${file}: ${reason}`);
+    if (unparsed.size > 20) console.error(`  … and ${unparsed.size - 20} more`);
+    console.error("Fix the format adapter before trusting this run; nothing was translated there.");
+    process.exitCode = 1;
   }
 }
 

@@ -63,6 +63,11 @@ export interface TranslateStats {
   cacheMissed: number;
   /** Restore-validation failures, for surfacing to the user. */
   failures: { key: string; error: string }[];
+  /**
+   * Set when the file was skipped without touching its TM because it no longer
+   * parses (see {@link translateFile}). Carries the adapter's own diagnosis.
+   */
+  unparsed?: string;
 }
 
 interface WorkItem {
@@ -184,6 +189,28 @@ export async function translateFile(
 ): Promise<TranslateStats> {
   const aligned = await alignFile(file);
   const existing = await loadTm(file);
+
+  // A source that extracts nothing while its TM holds translations has stopped
+  // parsing — the adapters report that as a warning and an empty unit list, which
+  // otherwise reads as "this file has no work" and blanks the TM. Skip the file
+  // entirely (no engine calls, no write) and hand the reason back to the caller,
+  // so an `--all` run keeps going and still reports the breakage at the end.
+  const stored = existing ? Object.keys(existing.units).length : 0;
+  if (aligned.units.length === 0 && stored > 0) {
+    options.onStart?.(0);
+    return {
+      file,
+      total: 0,
+      pending: 0,
+      translated: 0,
+      skipped: 0,
+      failed: 0,
+      cacheMissed: 0,
+      failures: [],
+      unparsed: `${aligned.warnings.join("; ") || "no units extracted"} (${stored} TM units kept)`,
+    };
+  }
+
   const hashEn = makeSrcHasher(await loadGlossary());
   const { units, work, pending, skipped } = selectWork(
     aligned,

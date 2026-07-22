@@ -26,10 +26,7 @@ export function tmKey(file: string): string {
   if (!posix.startsWith(EVENT_DLC_PREFIX)) return posix;
   // Strip the <version> segment: Event_DLC/<DLC>/<version>/<rest> → Event_DLC/<DLC>/<rest>.
   // Only when it looks like a dotted numeric version, so unexpected layouts are left intact.
-  return posix.replace(
-    /^(Event_DLC\/[^/]+)\/[0-9]+(?:\.[0-9]+)*\/(.+)$/,
-    "$1/$2",
-  );
+  return posix.replace(/^(Event_DLC\/[^/]+)\/[0-9]+(?:\.[0-9]+)*\/(.+)$/, "$1/$2");
 }
 
 function tmPathFor(file: string): string {
@@ -54,21 +51,60 @@ export function serializeTm(tm: TmFile): string {
 }
 
 /**
+ * Thrown when a write would replace a populated TM with an empty one — always a
+ * bug upstream (a source file that stopped parsing), never a real edit.
+ */
+export class EmptyTmOverwriteError extends Error {
+  constructor(
+    readonly tmFile: string,
+    readonly lost: number,
+  ) {
+    super(
+      `refusing to overwrite ${tmFile} (${lost} translated units) with an empty TM — ` +
+        `the source file extracted zero units, which means it stopped parsing`,
+    );
+    this.name = "EmptyTmOverwriteError";
+  }
+}
+
+/**
+ * Pure: how many units writing `next` over the on-disk `current` would destroy
+ * outright. Non-zero only for the one case no legitimate run produces — an empty
+ * unit map replacing a populated one. Shrinking a TM by some units is normal
+ * (keys come and go with the game), so only the total wipe is reported.
+ */
+export function emptyOverwriteLoss(current: string | null, next: TmFile): number {
+  if (current === null || Object.keys(next.units).length > 0) return 0;
+  return Object.keys((JSON.parse(current) as TmFile).units).length;
+}
+
+/**
  * Persist the TM for a source file (creates nested dirs for tsv/json paths).
  *
  * Skips the write when the serialized content is byte-identical to what's on
  * disk. Serialization is deterministic, so a rebuild that changes nothing (e.g.
  * every unit already up to date) touches no files — keeping git diffs limited to
  * what actually changed and avoiding pointless atomic rewrites of a 155 MB TM.
+ *
+ * Refuses outright to blank a populated TM. Losing every unit at once is not
+ * something a translation run can legitimately do: keys disappear one at a time
+ * as the game changes, and wholesale removal is `pruneOrphanTms`'s job. A file
+ * that suddenly extracts nothing has stopped parsing instead — as 207 event
+ * packages did when the 2026-07-22 update reflowed them to CRLF — and the write
+ * would destroy work no one can recover from the cache.
  */
 export async function saveTm(tm: TmFile): Promise<void> {
   const dest = tmPathFor(tm.file);
   const next = serializeTm(tm);
+  let current: string | null = null;
   try {
-    if ((await readFile(dest, "utf8")) === next) return;
+    current = await readFile(dest, "utf8");
   } catch (err) {
     if ((err as NodeJS.ErrnoException).code !== "ENOENT") throw err;
   }
+  if (current === next) return;
+  const lost = emptyOverwriteLoss(current, tm);
+  if (lost > 0) throw new EmptyTmOverwriteError(tm.file, lost);
   await writeFileAtomic(dest, next);
 }
 
