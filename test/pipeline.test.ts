@@ -80,6 +80,23 @@ test("a markup-mangling engine flags units as failed (never writes corrupt outpu
   assert.equal(stats.failures.length, stats.failed);
 });
 
+test("an untranslated Chinese EN value goes to the engine as zh, not copied as neutral", async () => {
+  const requests: TranslationRequest[] = [];
+  const recorder: TranslationEngine = {
+    id: "recorder",
+    checkpointSize: 100,
+    translate(reqs) {
+      requests.push(...reqs);
+      return Promise.resolve(reqs.map(() => "нет"));
+    },
+  };
+  await translateFile("Feast_language.txt", recorder, { dryRun: true, maxLen: Infinity });
+  assert.ok(
+    requests.some((r) => r.sourceLang === "zh"),
+    "EN==CN Chinese must be translated from Chinese, not copied into RU",
+  );
+});
+
 test("an engine that leaves hanzi in the Russian fails the unit (nothing written)", async () => {
   const echoer: TranslationEngine = {
     id: "echoer",

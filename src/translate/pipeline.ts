@@ -120,9 +120,11 @@ function selectWork(
     const hash = hashEn(unit.en);
     const prev = existing?.units[unit.key];
     const inWindow = unit.en.length >= minLen && unit.en.length <= maxLen;
-    // Language-neutral: identical in EN and CN (IDs, paths, codes, untranslated
-    // terms) → never send to an engine. Copy EN straight into RU so the TM is
-    // complete (no lingering pending unit) and the source rides through apply.
+    // Language-neutral: identical in EN and CN (IDs, paths, codes, numbers) →
+    // never send to an engine. Copy EN straight into RU so the TM is complete (no
+    // lingering pending unit) and the source rides through apply. A unit that is
+    // identical only because the EN pack ships the untranslated Chinese never
+    // reaches here — alignment relabels it `srcLang:"zh"` and drops its `cn`.
     const sameAsCn = unit.cn !== null && unit.en === unit.cn;
     if (sameAsCn) {
       const human = prev?.status === "reviewed" || prev?.status === "locked";

@@ -9,6 +9,7 @@ import { readFile } from "node:fs/promises";
 
 import { applySourceFixes } from "../config/source-fixes.js";
 import { resolveSource } from "../config/sources.js";
+import { stripMarkup } from "../engine/protect.js";
 import type { SourceUnit } from "../formats/adapter.js";
 import { adapterFor } from "../formats/registry.js";
 
@@ -57,6 +58,35 @@ export function alignFile(file: string): Promise<AlignedFile> {
   return promise;
 }
 
+// A Latin letter anywhere in the EN source means the string is (at least partly)
+// English prose — a Chinese name inside an English sentence stays an EN unit.
+const LATIN_RE = /[A-Za-z]/;
+const HAN_RE = /\p{Script=Han}/u;
+
+/**
+ * Mark units whose EN source is *wholly* Chinese as `zh`-source.
+ *
+ * The EN pack ships some fields the developers never translated: the value is the
+ * Chinese original under an English key. Two things then went wrong. Where the CN
+ * pack held the same text, the pipeline's EN==CN heuristic read it as
+ * "language-neutral" (an id, a number) and copied it straight into `ru` — shipping
+ * hanzi as the Russian. Where the CN pack had no such key at all, the string went
+ * to the engine labelled English. Both are the same unit: Chinese source text, so
+ * say so. A `cn` that merely repeats the source is dropped — that is the existing
+ * `srcLang:"zh"` convention (see the adapter's CN-only path), and it also keeps
+ * EN==CN from firing.
+ *
+ * Markup is stripped first so a Chinese line wrapped in `<color=…>` still counts.
+ */
+function markZhSource(units: SourceUnit[]): SourceUnit[] {
+  return units.map((u) => {
+    if (u.srcLang === "zh") return u;
+    const bare = stripMarkup(u.en);
+    if (LATIN_RE.test(bare) || !HAN_RE.test(bare)) return u;
+    return { ...u, cn: u.cn === u.en ? null : u.cn, srcLang: "zh" };
+  });
+}
+
 async function alignFileUncached(file: string): Promise<AlignedFile> {
   const adapter = adapterFor(file);
   const { en, cn } = resolveSource(file);
@@ -65,8 +95,9 @@ async function alignFileUncached(file: string): Promise<AlignedFile> {
 
   const { units: extracted, onlyCn, warnings } = adapter.extract(enContent, cnContent);
   // Repair known source-text markup defects before anything hashes, masks or
-  // validates the units (see config/source-fixes.ts).
-  const units = applySourceFixes(file, extracted, warnings);
+  // validates the units (see config/source-fixes.ts), then label the ones whose
+  // "English" is really Chinese so they are translated, not copied.
+  const units = markZhSource(applySourceFixes(file, extracted, warnings));
   // EN-only = translatable from EN with no CN reference. CN-only units (srcLang
   // "zh") also have `cn === null` but are the opposite case, so exclude them.
   const onlyEn = units.filter((u) => u.cn === null && u.srcLang !== "zh").map((u) => u.key);

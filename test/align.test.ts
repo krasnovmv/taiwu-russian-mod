@@ -23,6 +23,24 @@ test(`alignFile pairs EN with CN for ${SAMPLE}`, async () => {
   }
 });
 
+/**
+ * The EN pack ships some values the developers never translated (the Chinese
+ * original under an English key). Alignment must call those what they are, or the
+ * pipeline reads EN==CN as "language-neutral" and copies hanzi into the Russian.
+ */
+test("a wholly Chinese EN value is labelled zh-source, not left as English", async () => {
+  const aligned = await alignFile("Feast_language.txt");
+  const han = /\p{Script=Han}/u;
+  const untranslated = aligned.units.filter((u) => han.test(u.en) && !/[A-Za-z]/.test(u.en));
+  assert.ok(untranslated.length > 0, "sample file must still ship an untranslated Chinese value");
+  for (const u of untranslated) {
+    assert.equal(u.srcLang, "zh", `${u.key}: Chinese source must be labelled zh`);
+    assert.notEqual(u.cn, u.en, `${u.key}: a CN reference repeating the source must be dropped`);
+  }
+  // English values keep their EN→CN shape.
+  assert.ok(aligned.units.filter((u) => !han.test(u.en)).every((u) => u.srcLang === undefined));
+});
+
 test("alignFile reports onlyEn/onlyCn as arrays", async () => {
   const aligned = await alignFile(SAMPLE);
   assert.ok(Array.isArray(aligned.onlyEn));
