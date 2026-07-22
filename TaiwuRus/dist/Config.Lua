@@ -1,8 +1,8 @@
 return {
 	Title = "Свитки Тайву",
 	Author = "KrasnoVMV",
-	Version = "0.5.0.0",
-	GameVersion = "1.0.58.0",
+	Version = "0.6.0.0",
+	GameVersion = "1.0.67.0",
 	Description = "Русская локализация The Scroll of Taiwu",
 	BackendPlugins = {
 		[1] = "TaiwuRusB.dll",
