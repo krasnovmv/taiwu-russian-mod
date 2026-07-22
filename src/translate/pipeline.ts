@@ -8,8 +8,9 @@
  *   - units already translated with a matching srcHash are skipped;
  *   - `reviewed`/`locked` units are never overwritten (their CN reference is
  *     refreshed, but `ru` is preserved);
- *   - units whose restore validation fails are counted as `failed` and left
- *     pending — corrupted markup is never written.
+ *   - units whose restore validation fails, or whose Russian still contains hanzi,
+ *     are counted as `failed` and left pending — corrupted markup and untranslated
+ *     Chinese are never written.
  *
  * The TM is flushed in checkpoints of `engine.checkpointSize` units, so an
  * interrupted run loses at most one checkpoint's worth of work (not the whole
@@ -26,6 +27,7 @@ import { loadGlossary } from "../glossary/load.js";
 import { TM_SCHEMA_VERSION, type TmFile, type TmUnit } from "../model/tm.js";
 import { makeSrcHasher, type SrcHasher } from "../tm/hash.js";
 import { loadTm, saveTm, tmKey } from "../tm/store.js";
+import { chineseLeftovers } from "../validate/qa.js";
 
 export interface TranslateOptions {
   /** Translate at most this many pending units (for sampling/dry runs). */
@@ -181,7 +183,13 @@ export async function translateFile(
   const aligned = await alignFile(file);
   const existing = await loadTm(file);
   const hashEn = makeSrcHasher(await loadGlossary());
-  const { units, work, pending, skipped } = selectWork(aligned, existing, engine.id, hashEn, options);
+  const { units, work, pending, skipped } = selectWork(
+    aligned,
+    existing,
+    engine.id,
+    hashEn,
+    options,
+  );
 
   const tm: TmFile = {
     schemaVersion: TM_SCHEMA_VERSION,
@@ -245,6 +253,16 @@ export async function translateFile(
         failed++;
         failures.push({ key: item.unit.key, error: restored.error ?? "restore failed" });
         return; // leave the pending placeholder in place
+      }
+      // Hanzi in the Russian is never valid output: either the engine echoed a
+      // zh-source unit back untranslated, or the CN original leaked through a name
+      // it gave up on. Rejected exactly like broken markup — counted, reported and
+      // left pending — so the TM never takes what `npm run validate` would flag.
+      const hanzi = chineseLeftovers(restored.text);
+      if (hanzi.length > 0) {
+        failed++;
+        failures.push({ key: item.unit.key, error: `Chinese in RU: ${hanzi.join(" ")}` });
+        return;
       }
       // No-op refresh: the cache served the same value already in the TM. Leave the
       // unit (and its updatedAt) untouched so cache rebuilds don't churn the diff.

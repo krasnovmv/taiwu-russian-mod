@@ -138,8 +138,12 @@ function latinLeftovers(ru: string): string[] {
 // judge's prompt. Names belong in Cyrillic transliteration.
 const HAN_RUN_RE = /\p{Script=Han}+/gu;
 
-/** Runs of Chinese characters remaining in `ru` after markup is stripped. */
-function chineseLeftovers(ru: string): string[] {
+/**
+ * Runs of Chinese characters remaining in `ru` after markup is stripped. Exported
+ * because the translation pipeline gates engine output on it too — one definition
+ * of "hanzi leaked into the Russian" for the writer and the reporter alike.
+ */
+export function chineseLeftovers(ru: string): string[] {
   return stripMarkup(ru).match(HAN_RUN_RE) ?? [];
 }
 

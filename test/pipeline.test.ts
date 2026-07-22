@@ -80,6 +80,20 @@ test("a markup-mangling engine flags units as failed (never writes corrupt outpu
   assert.equal(stats.failures.length, stats.failed);
 });
 
+test("an engine that leaves hanzi in the Russian fails the unit (nothing written)", async () => {
+  const echoer: TranslationEngine = {
+    id: "echoer",
+    checkpointSize: 5,
+    // Markup-clean, but the Chinese original rides through untranslated.
+    translate: (reqs) => Promise.resolve(reqs.map((r) => `${r.text} 未至此地`)),
+  };
+  const stats = await translateFile(SAMPLE, echoer, { dryRun: true, maxLen: Infinity });
+  assert.equal(stats.translated, 0, "no unit may be written with hanzi in it");
+  assert.ok(stats.failed > 0, "expected the hanzi output to be rejected");
+  assert.equal(stats.failures.length, stats.failed);
+  assert.match(stats.failures[0]!.error, /Chinese in RU: 未至此地/);
+});
+
 test("length window restricts which units are translated", async () => {
   const shortOnly = await translateFile(SAMPLE, new MockEngine(), { dryRun: true, maxLen: 5 });
   const longOnly = await translateFile(SAMPLE, new MockEngine(), { dryRun: true, minLen: 6 });
