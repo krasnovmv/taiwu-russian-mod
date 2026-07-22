@@ -69,7 +69,7 @@ export const tsvAdapter: FormatAdapter = {
         .join("\t");
     });
 
-    const content = serializeRaw({ lines: newLines, trailingNewline: raw.trailingNewline });
+    const content = serializeRaw({ ...raw, lines: newLines });
 
     // Structural guard: row count and per-row column counts must be unchanged.
     const reLines = parseRaw(content).lines;

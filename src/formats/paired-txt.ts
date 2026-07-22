@@ -9,7 +9,8 @@
  *     <value, may be empty>
  *
  * Facts established from the real files (all 225 EN files):
- *   - Encoding UTF-8, no BOM, LF line endings (no CRLF).
+ *   - Encoding UTF-8, no BOM, LF line endings (CRLF appears in other families and
+ *     is normalised away by {@link parseRaw}).
  *   - In-value line breaks are encoded as the literal token `<NL>`, never a real
  *     newline — so a value is always exactly one physical line and the
  *     key/value pairing never desyncs.
@@ -43,12 +44,24 @@ export function parseRaw(content: string): RawTextFile {
     // Drop the empty string that `split` appends after a terminal newline.
     lines.pop();
   }
-  return { lines, trailingNewline };
+  // Line endings are a property of the file, not of its values: the 2026-07-22
+  // game update reflowed part of the event packs to CRLF, and a `\r` left at the
+  // end of every line would ride into the values — silently breaking the anchor
+  // patterns (`.` never matches `\r`) and changing every source hash. Lift it to
+  // a flag instead, but only when *every* line carries one, so the flag alone
+  // restores the original bytes; a mixed file keeps its `\r` characters verbatim.
+  const crlf = lines.length > 0 && lines.every((l) => l.endsWith("\r"));
+  return {
+    lines: crlf ? lines.map((l) => l.slice(0, -1)) : lines,
+    trailingNewline,
+    crlf,
+  };
 }
 
 /** Exact inverse of {@link parseRaw}. */
 export function serializeRaw(file: RawTextFile): string {
-  return file.lines.join("\n") + (file.trailingNewline ? "\n" : "");
+  const eol = file.crlf ? "\r\n" : "\n";
+  return file.lines.join(eol) + (file.trailingNewline ? eol : "");
 }
 
 /**

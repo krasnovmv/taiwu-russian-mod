@@ -14,10 +14,12 @@
 
 /** A `.txt` language file decomposed into exact text lines. */
 export interface RawTextFile {
-  /** Exact text lines. The final newline (if any) is captured separately. */
+  /** Exact text lines, without their line terminator. */
   readonly lines: string[];
   /** Whether the original content ended with a trailing newline. */
   readonly trailingNewline: boolean;
+  /** Whether the original separated lines with CRLF rather than LF. */
+  readonly crlf: boolean;
 }
 
 /** One translatable key/value pair within a paired-`.txt` file. */

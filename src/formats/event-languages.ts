@@ -10,7 +10,9 @@
  *     \t\t-- Option_1 : (Examine the stele closely...)
  *
  * Facts established from the real files (466 EN packages):
- *   - UTF-8, no BOM, LF, trailing newline.
+ *   - UTF-8, no BOM, trailing newline. Line endings are LF or CRLF (the
+ *     2026-07-22 update reflowed 207 of the packages to CRLF); {@link parseRaw}
+ *     lifts that to a flag, so the anchors below always see a bare line.
  *   - EN/CN/KO each share one directory, distinguished by filename suffix.
  *   - EN and KO carry no header; CN prepends `- Group/-GroupName/-Language` lines.
  *   - The GUID order differs between EN and CN, so the CN reference is matched by
@@ -26,6 +28,7 @@
  * kept verbatim. Every apply round-trips the source from its own segments and
  * re-segments the result, refusing to write on any structural drift.
  */
+import type { RawTextFile } from "../model/types.js";
 import type { ApplyOutcome, ExtractResult, FormatAdapter, SourceUnit } from "./adapter.js";
 import { parseRaw, serializeRaw } from "./paired-txt.js";
 
@@ -77,11 +80,11 @@ function segment(lines: string[]): Segmentation {
   return { ok: true, prefix, segments };
 }
 
-/** Exact inverse of {@link segment} for a given trailing-newline flag. */
-function reconstruct(prefix: string[], segments: Segment[], trailingNewline: boolean): string {
+/** Exact inverse of {@link segment} for a given file's line layout. */
+function reconstruct(prefix: string[], segments: Segment[], raw: RawTextFile): string {
   const lines = [...prefix];
   for (const s of segments) lines.push(...(s.prefix + s.value).split("\n"));
-  return serializeRaw({ lines, trailingNewline });
+  return serializeRaw({ ...raw, lines });
 }
 
 interface KeyedSegment {
@@ -112,7 +115,7 @@ export const eventLanguagesAdapter: FormatAdapter = {
     if (!seg.ok) return { units: [], onlyCn: [], warnings: [seg.error ?? "segmentation failed"] };
 
     // Refuse to emit units unless the EN file round-trips exactly.
-    if (reconstruct(seg.prefix, seg.segments, enRaw.trailingNewline) !== enContent) {
+    if (reconstruct(seg.prefix, seg.segments, enRaw) !== enContent) {
       return { units: [], onlyCn: [], warnings: ["event round-trip mismatch; not extracting"] };
     }
 
@@ -153,7 +156,7 @@ export const eventLanguagesAdapter: FormatAdapter = {
     if (!seg.ok) return fail(seg.error ?? "segmentation failed");
 
     // Identity round-trip: rebuilding from segments must reproduce the original.
-    if (reconstruct(seg.prefix, seg.segments, raw.trailingNewline) !== enContent) {
+    if (reconstruct(seg.prefix, seg.segments, raw) !== enContent) {
       return fail("event round-trip mismatch");
     }
 
@@ -166,7 +169,7 @@ export const eventLanguagesAdapter: FormatAdapter = {
       return { ...s, value: ru };
     });
 
-    const content = reconstruct(seg.prefix, newSegments, raw.trailingNewline);
+    const content = reconstruct(seg.prefix, newSegments, raw);
 
     // Post-guard: re-segmenting must reproduce the same anchor sequence — a
     // translation that injected a marker-shaped line would desync the file.

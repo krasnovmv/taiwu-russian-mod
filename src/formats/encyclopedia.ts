@@ -166,7 +166,7 @@ function makeAdapter(spec: EncyclopediaSpec): FormatAdapter {
           .join("\t"),
       );
 
-      const content = serializeRaw({ lines: newLines, trailingNewline: raw.trailingNewline });
+      const content = serializeRaw({ ...raw, lines: newLines });
 
       // Structural guard: grid intact + every non-translatable column and the
       // per-list field count byte-identical to the original.

@@ -99,6 +99,38 @@ test("apply refuses to write if a translation injects a marker-shaped line", () 
   assert.equal(out.content, EN); // original returned unchanged
 });
 
+// The 2026-07-22 game update rewrote 207 event packages with CRLF endings. The
+// anchor pattern cannot match a line that still carries its "\r", so extraction
+// silently collapsed to zero units — and the pipeline wrote that empty result
+// over the existing translations.
+const EN_CRLF = EN.replace(/\n/g, "\r\n");
+const CN_CRLF = CN.replace(/\n/g, "\r\n");
+
+test("extract yields the same units from a CRLF file as from LF", () => {
+  const lf = eventLanguagesAdapter.extract(EN, CN);
+  const crlf = eventLanguagesAdapter.extract(EN_CRLF, CN_CRLF);
+  assert.deepEqual(crlf.warnings, []);
+  assert.ok(crlf.units.length > 0, "CRLF file must still extract units");
+  // Byte-identical units: no "\r" in the values, so srcHash and cache keys are
+  // unchanged by the game's reflow.
+  assert.deepEqual(crlf.units, lf.units);
+});
+
+test("identity apply on a CRLF file is byte-exact and keeps CRLF", () => {
+  const { units } = eventLanguagesAdapter.extract(EN_CRLF, CN_CRLF);
+  const out = eventLanguagesAdapter.apply(EN_CRLF, new Map(units.map((u) => [u.key, u.en])));
+  assert.equal(out.guardOk, true);
+  assert.equal(out.content, EN_CRLF);
+});
+
+test("apply writes a CRLF file back with CRLF endings", () => {
+  const out = eventLanguagesAdapter.apply(EN_CRLF, new Map([["g1/Option_1", "(Осмотреться...)"]]));
+  assert.equal(out.guardOk, true);
+  assert.equal(out.applied, 1);
+  assert.ok(out.content.includes("\t\t-- Option_1 : (Осмотреться...)\r\n"));
+  assert.ok(!/[^\r]\n/.test(out.content), "no bare LF may survive in a CRLF file");
+});
+
 test("extract without markers yields a warning, no units", () => {
   const { units, warnings } = eventLanguagesAdapter.extract("just text\nno markers\n", null);
   assert.equal(units.length, 0);

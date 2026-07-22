@@ -12,6 +12,7 @@
  * result to confirm the key sequence did not drift. Nothing is written unless
  * both checks pass.
  */
+import type { RawTextFile } from "../model/types.js";
 import type { ApplyOutcome, ExtractResult, FormatAdapter, SourceUnit } from "./adapter.js";
 import { parsePairs, parseRaw, serializeRaw } from "./paired-txt.js";
 
@@ -52,13 +53,13 @@ function segment(lines: string[], keys: ReadonlySet<string>): Segmentation {
   return { ok: true, prefix, segments };
 }
 
-function reconstruct(prefix: string[], segments: Segment[], trailingNewline: boolean): string {
+function reconstruct(prefix: string[], segments: Segment[], raw: RawTextFile): string {
   const lines = [...prefix];
   for (const s of segments) {
     lines.push(s.keyLineRaw);
     lines.push(...s.value.split("\n"));
   }
-  return serializeRaw({ lines, trailingNewline });
+  return serializeRaw({ ...raw, lines });
 }
 
 export const anchoredTxtAdapter: FormatAdapter = {
@@ -85,7 +86,7 @@ export const anchoredTxtAdapter: FormatAdapter = {
     if (!seg.ok) return { units: [], onlyCn: [], warnings: [seg.error ?? "segmentation failed"] };
 
     // Refuse to emit units unless we can round-trip the EN file exactly.
-    if (reconstruct(seg.prefix, seg.segments, raw.trailingNewline) !== enContent) {
+    if (reconstruct(seg.prefix, seg.segments, raw) !== enContent) {
       return { units: [], onlyCn: [], warnings: ["anchored round-trip mismatch; not extracting"] };
     }
 
@@ -113,7 +114,7 @@ export const anchoredTxtAdapter: FormatAdapter = {
     if (!seg.ok) return fail(seg.error ?? "segmentation failed");
 
     // Identity round-trip: rebuilding from segments must reproduce the original.
-    if (reconstruct(seg.prefix, seg.segments, raw.trailingNewline) !== enContent) {
+    if (reconstruct(seg.prefix, seg.segments, raw) !== enContent) {
       return fail("anchored round-trip mismatch");
     }
 
@@ -125,7 +126,7 @@ export const anchoredTxtAdapter: FormatAdapter = {
       return { ...s, value: ru };
     });
 
-    const content = reconstruct(seg.prefix, newSegments, raw.trailingNewline);
+    const content = reconstruct(seg.prefix, newSegments, raw);
 
     // Post-guard: re-segmenting must yield the same key sequence (a translation
     // that introduced a line equal to a key would desync).
