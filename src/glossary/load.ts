@@ -45,7 +45,7 @@ async function loadParsed(): Promise<ParsedGlossary> {
     throw err;
   }
 
-  const parsed = JSON5.parse(raw) as Record<string, GlossaryValue>;
+  const parsed = JSON5.parse<Record<string, GlossaryValue>>(raw);
   const terms = new Map<string, string>();
   const feeds = new Map<string, string>();
   for (const [en, value] of Object.entries(parsed)) {

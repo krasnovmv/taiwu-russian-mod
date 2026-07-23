@@ -213,7 +213,7 @@ test("duplicate cache lines are compacted on load (one line per key, last wins)"
   const lines = (await readFile(file, "utf8")).split("\n").filter((l) => l !== "");
   assert.equal(lines.length, 2);
   assert.deepEqual(
-    lines.map((l) => JSON.parse(l)),
+    lines.map((l) => JSON.parse(l) as unknown),
     [
       { k: "a", v: "new-a" },
       { k: "b", v: "ru:b" },
