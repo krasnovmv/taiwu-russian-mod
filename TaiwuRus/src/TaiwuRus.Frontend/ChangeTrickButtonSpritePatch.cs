@@ -44,7 +44,9 @@ namespace TaiwuRus.Frontend
 
             LocalizedImage.LoadSprite(baseName + "_0_ru", ModLoad, normal =>
             {
-                if (normal == null)
+                // The EN/CN fallback loads async: combat may have closed by now, destroying
+                // the button. Unity's overloaded == reports a destroyed object as null.
+                if (normal == null || image == null || button == null)
                     return;
                 image.sprite = normal;
                 image.SetEnabled(true);
@@ -57,6 +59,8 @@ namespace TaiwuRus.Frontend
 
                 LocalizedImage.LoadSprite(baseName + "_4_ru", ModLoad, disabled =>
                 {
+                    if (button == null)
+                        return; // destroyed while the disabled state was loading
                     SpriteState s = button.spriteState;
                     s.disabledSprite = disabled;
                     button.spriteState = s;

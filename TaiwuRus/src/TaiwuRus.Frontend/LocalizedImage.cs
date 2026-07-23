@@ -224,7 +224,11 @@ namespace TaiwuRus.Frontend
                     LoadState(disabled, s3 =>
                     {
                         spriteState.disabledSprite = s3;
-                        btn.spriteState = spriteState;
+                        // The chain loads async: the menu may have closed by now, destroying
+                        // the button. Unity's overloaded == reports it as null (btnImg above
+                        // is guarded the same way per state).
+                        if (btn != null)
+                            btn.spriteState = spriteState;
                     });
                 });
             });
