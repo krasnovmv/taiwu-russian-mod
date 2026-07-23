@@ -111,7 +111,9 @@ namespace TaiwuRus.Shared
         /// <summary>
         /// Copy every file under <paramref name="overlayRoot"/> into <paramref name="gameRoot"/> at
         /// the same relative path, creating directories as needed. A file is copied only when the
-        /// destination is missing or older than the source. Returns the number of files copied.
+        /// destination is missing or older than the source. Each file lands via a temp file in the
+        /// destination directory plus a rename, never an in-place write — see
+        /// <see cref="Replace"/> for why. Returns the number of files copied.
         /// </summary>
         public static int Copy(string? overlayRoot, string? gameRoot, Action<string>? log = null)
         {
@@ -134,7 +136,7 @@ namespace TaiwuRus.Shared
                     string? dstDir = Path.GetDirectoryName(dst);
                     if (!string.IsNullOrEmpty(dstDir))
                         Directory.CreateDirectory(dstDir);
-                    File.Copy(src, dst, true);
+                    Replace(src, dst);
                     copied++;
                 }
                 catch (Exception e)
@@ -144,6 +146,35 @@ namespace TaiwuRus.Shared
             }
             log?.Invoke($"[TaiwuRus] overlay: {copied} file(s) copied / {scanned} scanned -> {gameRoot}");
             return copied;
+        }
+
+        /// <summary>
+        /// Land <paramref name="src"/> at <paramref name="dst"/> without ever exposing a
+        /// half-written destination. A plain in-place <c>File.Copy(src, dst, true)</c> has two
+        /// failure modes this avoids:
+        ///
+        ///   • Killed mid-copy, the truncated destination is left with a fresh mtime — NEWER than
+        ///     the source — so <see cref="IsStale"/> would judge it up to date on every later
+        ///     launch and the self-heal would never repair it (permanent garbage until the
+        ///     pipeline ships a newer file).
+        ///   • The frontend and backend deploy the same overlay concurrently (by design), and a
+        ///     reader in the other process could open a file mid-write and load truncated text
+        ///     for the session.
+        ///
+        /// Copying to a temp name in the same directory and renaming over the destination makes
+        /// the swap effectively atomic on NTFS: a reader sees the old complete file or the new
+        /// complete one. An orphaned temp file (crash between copy and move) is overwritten and
+        /// consumed by the next launch's retry — the destination it was meant for is still stale.
+        /// </summary>
+        private static void Replace(string src, string dst)
+        {
+            // net48 has no overwriting File.Move; delete-then-move leaves only a micro-window
+            // with the destination absent, which IsStale treats as stale (self-heals next run).
+            string tmp = dst + ".taiwurus-tmp";
+            File.Copy(src, tmp, true);
+            if (File.Exists(dst))
+                File.Delete(dst);
+            File.Move(tmp, dst);
         }
 
         // Copy when the destination is absent or older than the source (so re-translation propagates

@@ -89,6 +89,34 @@ namespace TaiwuRus.Tests
             Assert.Equal("newer", File.ReadAllText(dst));
         }
 
+        [Fact]
+        public void Copy_leaves_no_temp_files_behind()
+        {
+            string overlay = Dir("overlay");
+            string game = Dir("game");
+            WriteFile(@"overlay\Data\a.txt", "v1");
+            WriteFile(@"game\Data\a.txt", "old"); // overwrite path goes through the temp file too
+
+            OverlayDeployer.Copy(overlay, game);
+
+            Assert.Empty(Directory.GetFiles(game, "*.taiwurus-tmp", SearchOption.AllDirectories));
+        }
+
+        [Fact]
+        public void Copy_consumes_an_orphaned_temp_file_from_a_crashed_run()
+        {
+            // A crash between the temp copy and the rename leaves dst stale and the temp behind;
+            // the next run must overwrite the orphan and complete the swap.
+            string overlay = Dir("overlay");
+            string game = Dir("game");
+            WriteFile(@"overlay\a.txt", "complete");
+            WriteFile(@"game\a.txt.taiwurus-tmp", "trunca");
+
+            Assert.Equal(1, OverlayDeployer.Copy(overlay, game));
+            Assert.Equal("complete", File.ReadAllText(Path.Combine(game, "a.txt")));
+            Assert.False(File.Exists(Path.Combine(game, "a.txt.taiwurus-tmp")));
+        }
+
         [Theory]
         [InlineData(null, "game")]
         [InlineData("overlay", null)]
