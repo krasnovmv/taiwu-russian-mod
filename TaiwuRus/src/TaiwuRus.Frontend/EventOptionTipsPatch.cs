@@ -26,13 +26,25 @@ namespace TaiwuRus.Frontend
     {
         private const string BundleDir = "RemakeResources/Data/Language_EventOptionTips";
         private static FieldInfo? _contentsField;
+        private static bool _contentsResolved;
 
         private static bool Prefix(EventModel __instance)
         {
             if (!RuLocale.IsRu)
                 return true;
 
-            _contentsField ??= AccessTools.Field(typeof(EventModel), "_optionAvailableContents");
+            // Memoize the lookup RESULT, success or failure: a plain ??= re-runs the
+            // reflection scan on every call once the field is gone, and the degradation
+            // (Chinese tips) would be undiagnosable from the log. The build can't catch
+            // this rename — the field is read by name at runtime — so log it loudly once.
+            if (!_contentsResolved)
+            {
+                _contentsResolved = true;
+                _contentsField = AccessTools.Field(typeof(EventModel), "_optionAvailableContents");
+                if (_contentsField == null)
+                    UnityEngine.Debug.LogWarning(
+                        "[TaiwuRus] BREAKAGE: EventModel._optionAvailableContents is gone (game update?) — event option tips degrade to the engine's Chinese fallback");
+            }
             if (_contentsField is not FieldInfo contents)
                 return true; // can't set the field — let the engine run (CN), better than crashing
 

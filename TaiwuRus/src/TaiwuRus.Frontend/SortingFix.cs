@@ -24,10 +24,21 @@ namespace TaiwuRus.Frontend
             try
             {
                 var field = AccessTools.Field(typeof(Utils_Sorting), "LanguageEncodingDict");
-                if (field?.GetValue(null) is IDictionary dict && !dict.Contains("RU"))
+                if (field?.GetValue(null) is IDictionary dict)
                 {
-                    dict["RU"] = Encoding.Unicode;
-                    Debug.Log("[TaiwuRus] sorting: registered RU encoding");
+                    if (!dict.Contains("RU"))
+                    {
+                        dict["RU"] = Encoding.Unicode;
+                        Debug.Log("[TaiwuRus] sorting: registered RU encoding");
+                    }
+                }
+                else
+                {
+                    // Name-based reflection the build can't check: without this line the
+                    // symptom is a KeyNotFoundException deep inside list sorting with
+                    // nothing in the log pointing at the mod.
+                    Debug.LogWarning(
+                        "[TaiwuRus] BREAKAGE: Utils_Sorting.LanguageEncodingDict is gone (game update?) — sorting any list by language will throw under RU");
                 }
             }
             catch (Exception e)

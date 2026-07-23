@@ -26,14 +26,28 @@ namespace TaiwuRus.Frontend
         private static readonly Dictionary<string, object?> Cache = new Dictionary<string, object?>();
         private static readonly HashSet<string> Failed = new HashSet<string>();
         private static FieldInfo? _pathField;
+        private static bool _pathFieldResolved;
         private static Type? _configType;
+        private static bool _configTypeResolved;
 
         private static bool Prefix(object? configLine, ref object? __result)
         {
             if (!RuLocale.IsRu || configLine == null)
                 return true;
 
-            _pathField ??= AccessTools.Field(configLine.GetType(), "Path");
+            // Both lookups memoize their RESULT, success or failure: a plain ??= re-runs
+            // the reflection scan on every tooltip open once the member is gone — a
+            // hot-path cost paid exactly when the mod is broken — and the degradation
+            // (English tooltips) would be undiagnosable from the log. The build can't
+            // catch these renames (name-based reflection), so log each loudly once.
+            if (!_pathFieldResolved)
+            {
+                _pathFieldResolved = true;
+                _pathField = AccessTools.Field(configLine.GetType(), "Path");
+                if (_pathField == null)
+                    UnityEngine.Debug.LogWarning(
+                        "[TaiwuRus] BREAKAGE: CommonTipConfig.Path is gone (game update?) — tooltips degrade to English");
+            }
             string? path = _pathField?.GetValue(configLine) as string;
             if (path == null || path.Length == 0) // explicit: net48 BCL lacks the narrowing annotations
                 return true;
@@ -50,7 +64,14 @@ namespace TaiwuRus.Frontend
             if (!File.Exists(file))
                 return true; // no RU file — let the engine load the EN one
 
-            _configType ??= AccessTools.TypeByName("Game.Views.MouseTips.CommonTipConfig");
+            if (!_configTypeResolved)
+            {
+                _configTypeResolved = true;
+                _configType = AccessTools.TypeByName("Game.Views.MouseTips.CommonTipConfig");
+                if (_configType == null)
+                    UnityEngine.Debug.LogWarning(
+                        "[TaiwuRus] BREAKAGE: type Game.Views.MouseTips.CommonTipConfig is gone (game update?) — tooltips degrade to English");
+            }
             if (_configType == null)
                 return true;
 
