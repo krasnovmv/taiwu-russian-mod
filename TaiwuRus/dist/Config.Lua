@@ -14,7 +14,7 @@ return {
 		[1] = "Display",
 		[2] = "Modifications",
 	},
-	NeedRestartWhenSettingChanged = true,
+	NeedRestartWhenSettingChanged = false,
 	DefaultSettings = {
 		[1] = {
 			SettingType = "Toggle",

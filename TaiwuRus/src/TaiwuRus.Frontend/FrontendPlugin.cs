@@ -31,9 +31,10 @@ namespace TaiwuRus.Frontend
         }
 
         // Read the "useImages" toggle (Config.Lua -> DefaultSettings) into the image-patch gate. The
-        // patches read LocalizedImage.Active on every call, so this only needs to keep the flag current.
-        // GetSetting leaves the value untouched when the mod/key isn't found, so the local default
-        // (false — images off unless opted in) survives a missing setting.
+        // patches consult RuLocale.UseRuImages on every lookup, so this only needs to keep the flag
+        // current. The SHIPPED default is on (Config.Lua DefaultValue = true); the local false here
+        // is only the conservative fallback when GetSetting finds no mod/key at all — it leaves the
+        // ref value untouched in that case.
         //
         // On an actual change the RU PNG caches have to go: they memoize misses, and every name looked
         // up while the setting was off is memoized as "no RU art" — so without the reset the toggle
