@@ -118,12 +118,15 @@ test("parseVerdict tolerates a model that wraps its JSON in prose or a fence", (
       ru: "Клинок",
     },
   );
-  // Unparseable output must never be read as a rewrite — it leaves the unit alone.
-  assert.deepEqual(parseVerdict("I think it is fine, honestly"), { errors: [], ru: "" });
-  assert.deepEqual(parseVerdict("{ broken"), { errors: [], ru: "" });
+  // Unparseable output is a FAILED request, not a verdict: `null`, never an
+  // empty annotation — that would stamp the unit "reviewed OK" unreviewed.
+  assert.equal(parseVerdict("I think it is fine, honestly"), null);
+  assert.equal(parseVerdict("{ broken"), null);
+  // JSON truncated by the completion cap parses to nothing — also a failure.
+  assert.equal(parseVerdict('{"errors":[{"category":"terminology","severity":"ma'), null);
   // A malformed error entry (bogus severity) is dropped, not trusted.
   assert.deepEqual(
-    parseVerdict('{"errors":[{"category":"x","severity":"huge"}],"ru":"Х"}').errors,
+    parseVerdict('{"errors":[{"category":"x","severity":"huge"}],"ru":"Х"}')?.errors,
     [],
   );
 });
@@ -412,6 +415,25 @@ test("a QA-rejected fix marks and memoizes nothing — every duplicate stays ret
   assert.equal(tm.units.a?.judgeHash, undefined);
   assert.equal(tm.units.b?.judgeHash, undefined);
   assert.equal(tm.units.a?.ru, "Приключение");
+});
+
+test("unparseable model output marks and memoizes nothing — the group stays retryable", async () => {
+  const memo = new Map<string, JudgeOutcome>();
+  const tm = tmOf({
+    a: liveUnit("Adventure", "Приключение"),
+    b: liveUnit("Adventure", "Приключение"),
+  });
+  const client = clientOf(() => "Sure! The translation looks fine to me.");
+
+  const stats = await judgeTm(tm, client, emptyGlossary, { memo });
+
+  assert.equal(stats.errors, 1);
+  assert.equal(stats.judged, 0);
+  assert.equal(stats.ok, 0);
+  assert.equal(memo.size, 0);
+  assert.equal(tm.units.a?.judgeHash, undefined);
+  assert.equal(tm.units.b?.judgeHash, undefined);
+  assert.match(stats.problems[0]?.error ?? "", /unparseable/);
 });
 
 test("the CN block says so when the string has no Chinese original", () => {

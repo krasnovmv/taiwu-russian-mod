@@ -345,6 +345,13 @@ export async function judgeTm(
           { jsonSchema: schema },
         );
         const verdict = parseVerdict(raw);
+        if (verdict === null) {
+          // Same handling as a thrown request error: every member left unmarked
+          // and un-memoized, so a later run retries the group.
+          stats.errors++;
+          stats.problems.push({ key, error: "unparseable model output — will retry" });
+          return;
+        }
         stats.judged++;
         stats.minorOnly += verdict.errors.length > 0 && !shouldFix(verdict) ? 1 : 0;
 

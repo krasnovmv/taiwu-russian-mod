@@ -257,12 +257,15 @@ export function shouldFix(verdict: Verdict): boolean {
 
 /**
  * Parse the model's answer. Tolerates a model that ignores the schema and wraps
- * its JSON in prose or a ```json fence; anything unparseable yields an empty
- * annotation (leave the translation alone) rather than risking a bad write.
+ * its JSON in prose or a ```json fence. Anything unparseable — garbage, or JSON
+ * truncated by the completion cap — returns `null`, which the caller must treat
+ * as a FAILED REQUEST (retry later), never as a verdict: an empty annotation
+ * here would stamp the unit "reviewed OK" (and memoize that for every
+ * duplicate) when the model never actually reviewed it.
  */
-export function parseVerdict(raw: string): Verdict {
+export function parseVerdict(raw: string): Verdict | null {
   const json = extractJson(raw);
-  if (!json) return { errors: [], ru: "" };
+  if (!json) return null;
   const errors = Array.isArray(json.errors)
     ? json.errors.filter(isJudgeError).map((e) => ({
         category: e.category,
