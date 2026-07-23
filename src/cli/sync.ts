@@ -47,13 +47,24 @@ async function main(): Promise<void> {
   // per-file loop above never visits (it isn't in the source list). Prune those —
   // but only when the file is gone from BOTH EN and CN, so a file that still
   // exists in CN (or a broken Language_EN junction) never triggers a deletion.
+  // A whole family listing zero sources is withheld from pruning entirely
+  // (missing junction/extract, not a mass deletion — see partitionOrphans).
   const [enSources, cnSources] = await Promise.all([listAllSourceFiles(), listCnSourceFiles()]);
-  const orphans = await pruneOrphanTms([...enSources, ...cnSources], { dryRun });
+  const { prune: orphans, withheld } = await pruneOrphanTms([...enSources, ...cnSources], {
+    dryRun,
+  });
 
   for (const c of changes) console.log(c);
   if (orphans.length) {
     console.log(`\nOrphaned TM files ${dryRun ? "(would remove)" : "removed"}:`);
     for (const o of orphans) console.log(`  - ${o}`);
+  }
+  for (const w of withheld) {
+    console.log(
+      `\n⚠ ${w.prefix}: 0 source files found but ${w.keys.length} TM file(s) exist — ` +
+        "missing junction/extract? NOTHING pruned there " +
+        "(tools/setup-junctions.ps1; delete the TMs by hand if the family is really gone).",
+    );
   }
   console.log(`\nReconciled ${reconciled} file(s)${dryRun ? " (dry-run, nothing written)" : ""}`);
   console.log(`New keys (pending):        ${added}`);

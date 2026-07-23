@@ -7,7 +7,7 @@ import { readdir, readFile, rmdir, unlink } from "node:fs/promises";
 import path from "node:path";
 
 import { tmDir } from "../config/paths.js";
-import { EVENT_DLC_PREFIX } from "../config/sources.js";
+import { BUNDLE_OPTIONTIPS_PREFIX, EVENT_DLC_PREFIX, EVENT_PREFIX } from "../config/sources.js";
 import type { TmFile } from "../model/tm.js";
 import { writeFileAtomic } from "../util/fs.js";
 
@@ -144,6 +144,54 @@ export function orphanTmKeys(stored: string[], sourceFiles: string[]): string[] 
   return stored.filter((key) => !valid.has(key)).sort();
 }
 
+/**
+ * Source families whose EN **and** CN files all come through one gitignored
+ * mount: the `Event_Languages` junction (languages are filename siblings in one
+ * folder), the `Event_DLC` junction container, and the extracted `bundle-src`
+ * tree. For these, the "still exists in CN" prune safety net is void — the CN
+ * sibling vanishes with the same mount — so a whole family listing ZERO current
+ * sources means the mount is missing or dangling, not that the game deleted
+ * every file at once. (The main pack needs no entry here: `Language_EN` empty
+ * aborts discovery outright, and `Language_CN` is an independent junction.)
+ */
+const MOUNTED_FAMILIES = [EVENT_PREFIX, EVENT_DLC_PREFIX, BUNDLE_OPTIONTIPS_PREFIX];
+
+export interface OrphanPartition {
+  /** Safe to delete: the family still lists sources; these files alone are gone. */
+  prune: string[];
+  /** Withheld per family: it listed no sources at all, so nothing of it is pruned. */
+  withheld: { prefix: string; keys: string[] }[];
+}
+
+/**
+ * Pure: split {@link orphanTmKeys}' result into what may actually be deleted
+ * and what must be withheld because its whole {@link MOUNTED_FAMILIES} family
+ * came back empty. Deliberately conservative: a family the game really removed
+ * wholesale stays withheld too — the report tells the human, who can delete
+ * those TMs by hand; silently dropping a 47k-unit corpus over a dangling
+ * junction is the incident class this exists to prevent.
+ */
+export function partitionOrphans(orphans: string[], sourceFiles: string[]): OrphanPartition {
+  const present = new Set<string>();
+  for (const f of sourceFiles) {
+    const key = tmKey(f);
+    for (const p of MOUNTED_FAMILIES) if (key.startsWith(p)) present.add(p);
+  }
+  const prune: string[] = [];
+  const byPrefix = new Map<string, string[]>();
+  for (const key of orphans) {
+    const family = MOUNTED_FAMILIES.find((p) => key.startsWith(p));
+    if (family !== undefined && !present.has(family)) {
+      const list = byPrefix.get(family);
+      if (list) list.push(key);
+      else byPrefix.set(family, [key]);
+    } else {
+      prune.push(key);
+    }
+  }
+  return { prune, withheld: [...byPrefix].map(([prefix, keys]) => ({ prefix, keys })) };
+}
+
 /** Remove `dir` and any now-empty ancestors, stopping at (and never removing) `tmDir`. */
 async function removeEmptyDirsUpTo(dir: string): Promise<void> {
   let current = dir;
@@ -159,22 +207,28 @@ async function removeEmptyDirsUpTo(dir: string): Promise<void> {
 
 /**
  * Delete every TM file whose source no longer exists and return the removed
- * keys. Pass the source list UNGATED and from BOTH languages (union of
- * `listAllSourceFiles` + `listCnSourceFiles`) so neither a disabled subsystem
- * nor a file that survives only in CN is mistaken for a deletion. With `dryRun`,
- * reports the orphans without touching disk. Empty dirs left behind are removed.
+ * keys, plus the orphans withheld because their whole source family listed
+ * nothing (see {@link partitionOrphans} — a missing junction must not read as a
+ * mass deletion). Pass the source list UNGATED and from BOTH languages (union
+ * of `listAllSourceFiles` + `listCnSourceFiles`) so neither a disabled
+ * subsystem nor a file that survives only in CN is mistaken for a deletion.
+ * With `dryRun`, reports without touching disk. Empty dirs left behind are
+ * removed.
  */
 export async function pruneOrphanTms(
   sourceFiles: string[],
   options: { dryRun?: boolean } = {},
-): Promise<string[]> {
-  const orphans = orphanTmKeys(await listStoredTmKeys(), sourceFiles);
+): Promise<OrphanPartition> {
+  const partition = partitionOrphans(
+    orphanTmKeys(await listStoredTmKeys(), sourceFiles),
+    sourceFiles,
+  );
   if (!options.dryRun) {
-    for (const key of orphans) {
+    for (const key of partition.prune) {
       const file = path.join(tmDir, `${key}.json`);
       await unlink(file);
       await removeEmptyDirsUpTo(path.dirname(file));
     }
   }
-  return orphans;
+  return partition;
 }
