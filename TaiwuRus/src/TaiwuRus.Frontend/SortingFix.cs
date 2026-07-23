@@ -43,7 +43,9 @@ namespace TaiwuRus.Frontend
             }
             catch (Exception e)
             {
-                Debug.LogWarning("[TaiwuRus] SortingFix failed: " + e.Message);
+                // Full exception, not e.Message: the log is this mod's only diagnosis
+                // channel, and the stack is what locates a reflection failure.
+                Debug.LogWarning("[TaiwuRus] SortingFix failed: " + e);
             }
         }
     }

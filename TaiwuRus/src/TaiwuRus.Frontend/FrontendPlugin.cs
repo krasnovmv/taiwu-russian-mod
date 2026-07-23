@@ -86,7 +86,9 @@ namespace TaiwuRus.Frontend
                 }
                 catch (System.Exception e)
                 {
-                    Debug.Log("[TaiwuRus] UI language reload failed: " + e.Message);
+                    // Full exception, not e.Message: the log is this mod's only diagnosis
+                    // channel, and the stack is what locates a reload failure.
+                    Debug.Log("[TaiwuRus] UI language reload failed: " + e);
                 }
             }
         }
