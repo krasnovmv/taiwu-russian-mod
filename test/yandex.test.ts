@@ -84,6 +84,41 @@ test("decodeHtmlEntities reverses Yandex's HTML-mode escaping", () => {
   assert.equal(decodeHtmlEntities("<m0>текст</m0>"), "<m0>текст</m0>");
 });
 
+/** An engine whose gRPC client is replaced by a scripted stub (no yc, no network). */
+function engineWith(
+  translate: () => Promise<{ translations: { text: string }[] }>,
+): YandexEngine {
+  const engine = new YandexEngine({
+    getIamToken: () => Promise.resolve("t"),
+    getFolderId: () => Promise.resolve("f"),
+  });
+  (engine as unknown as { client: unknown }).client = { translate };
+  return engine;
+}
+
+test("a batch reply of the right length is scattered back in order", async () => {
+  const engine = engineWith(() =>
+    Promise.resolve({ translations: [{ text: "один" }, { text: "два" }] }),
+  );
+  assert.deepEqual(await engine.translate([{ text: "one" }, { text: "two" }]), ["один", "два"]);
+});
+
+test("a batch reply of the wrong length aborts — never scattered onto wrong units", async () => {
+  // A short reply would shift every later translation onto the wrong key: silent
+  // TM/cache cross-contamination that per-unit validation cannot catch.
+  let calls = 0;
+  const engine = engineWith(() => {
+    calls++;
+    return Promise.resolve({ translations: [{ text: "только один" }] });
+  });
+  await assert.rejects(
+    engine.translate([{ text: "one" }, { text: "two" }]),
+    /returned 1 translations for 2 texts/,
+  );
+  // A malformed *successful* reply is not a transient failure: no retry billing.
+  assert.equal(calls, 1);
+});
+
 test("YandexEngine.fromEnv builds an engine (yc creds resolved lazily)", () => {
   const engine = YandexEngine.fromEnv();
   assert.equal(engine.id, "yandex");

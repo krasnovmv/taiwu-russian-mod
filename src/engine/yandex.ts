@@ -127,15 +127,27 @@ export class YandexEngine implements TranslationEngine {
     });
 
     for (let attempt = 0; ; attempt++) {
+      let response;
       try {
-        const response = await this.client!.translate(request);
-        // HTML mode escapes literal `<`, `>`, `&` in the text content (the
-        // `<mN>` sentinels come back as real tags, untouched); decode them back.
-        return response.translations.map((t) => decodeHtmlEntities(t.text));
+        response = await this.client!.translate(request);
       } catch (err) {
         if (attempt >= MAX_RETRIES) throw err;
         await delay(backoffMs(attempt));
+        continue;
       }
+      // One translation per text, positionally. A short reply would shift every
+      // later text onto the wrong unit — the caller scatters by index — silently
+      // cross-contaminating the TM and the cache while per-unit validation still
+      // passes. Abort at once (outside the retry: re-billing an identical
+      // request against a malformed reply is not a transient-failure recovery).
+      if (response.translations.length !== texts.length) {
+        throw new Error(
+          `Yandex returned ${response.translations.length} translations for ${texts.length} texts`,
+        );
+      }
+      // HTML mode escapes literal `<`, `>`, `&` in the text content (the
+      // `<mN>` sentinels come back as real tags, untouched); decode them back.
+      return response.translations.map((t) => decodeHtmlEntities(t.text));
     }
   }
 
