@@ -201,6 +201,19 @@ async function discover(includeRootEvents: boolean): Promise<string[]> {
     listDlcEventFiles(),
     listOptionTipsFiles(),
   ]);
+  // A healthy install has ~225 top-level .txt files, so zero means the
+  // Language_EN junction is missing or dangling — a fresh clone or a new git
+  // worktree (they are all gitignored). Every per-family lister above degrades
+  // softly (`[]`) because ANY ONE family may legitimately be absent; the whole
+  // corpus vanishing is different, and quietly returning [] here once read as
+  // "nothing to do" through the entire pipeline (rebuild-tm processed 0 files).
+  if (txt.length === 0) {
+    throw new Error(
+      `no source files found: ${languageDir} is missing or empty — ` +
+        "recreate the gitignored junctions (tools/setup-junctions.ps1; " +
+        'see "Fresh machine" in README.md)',
+    );
+  }
   return [...txt, ...tsv, ...json, ...events, ...dlc, ...optionTips];
 }
 
