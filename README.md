@@ -70,20 +70,24 @@ cp .env.example .env
 ```
 
 Yandex credentials are not configured here — they always come from the `yc` CLI
-(run `yc init` once). All variables are optional:
+(run `yc init` once). **`.env.example` is the authoritative, commented list of
+every variable**; the highlights:
 
-| Variable                     | Purpose                                                       |
-| ---------------------------- | ------------------------------------------------------------- |
-| `TAIWU_LANG_RU_DIR`          | RU output dir for `apply` (default `./Language_RU` into game) |
+| Variable                     | Purpose                                                        |
+| ---------------------------- | -------------------------------------------------------------- |
+| `TAIWU_OUT_LANG`             | Output language slot (default `KO` — the game has no RU slot)  |
+| `TAIWU_OUTPUT_DIR`           | Collect ALL output under a local dir instead of the game       |
+| `TAIWU_LANG_RU_DIR`          | Explicit path for just the main pack dir (wins over the above) |
+| `TAIWU_EVENTS`               | `1` folds the big root `Event_Languages` corpus into runs      |
 | `TAIWU_YANDEX_API_KEY`       | Judge (Yandex AI Studio) API key; else an IAM token via `yc`   |
-| `TAIWU_YANDEX_FOLDER_ID`     | Judge folder id (default: `yc config get folder-id`)          |
-| `TAIWU_JUDGE_MODEL`          | Judge model (default `yandexgpt/latest`)                      |
+| `TAIWU_YANDEX_FOLDER_ID`     | Judge folder id (default: `yc config get folder-id`)           |
+| `TAIWU_JUDGE_MODEL`          | Judge model (default `yandexgpt/latest`)                       |
 | `TAIWU_LMSTUDIO_BASE_URL`    | LM Studio server for `--engine lmstudio` (default `…:1234/v1`) |
 | `TAIWU_LMSTUDIO_MODEL`       | LM Studio model id (default: first non-embedding model loaded) |
-| `TAIWU_LMSTUDIO_CONCURRENCY` | Parallel requests to LM Studio (default 4)                    |
+| `TAIWU_LMSTUDIO_CONCURRENCY` | Parallel requests to LM Studio (default 4)                     |
 
 Source/CN/TM/glossary paths are fixed (`./Language_EN`, `./Language_CN`, `./tm`,
-`./data/glossary.json`).
+`./data/glossary.json5`).
 
 ## Engines
 
@@ -98,8 +102,9 @@ Source/CN/TM/glossary paths are fixed (`./Language_EN`, `./Language_CN`, `./tm`,
 npm run translate -- --all --engine lmstudio
 ```
 
-Markup (`{0}`, `<color=…>`, `<NL>`, …) is masked to `⟦n⟧` tokens before every
-engine call and validated on restore, so the same safety applies to all engines.
+Markup (`{0}`, `<color=…>`, `<NL>`, …) is masked to `<mN></mN>` sentinel tags
+before every engine call and validated on restore, so the same safety applies to
+all engines.
 
 ## Workflow
 
@@ -259,9 +264,12 @@ The prompt lives in `src/judge/prompt.ts`; replace it wholesale with
 
 ## Safety
 
-`apply` writes to a separate `Language_RU` folder and never touches the original
-`Language_EN`, so it is fully reversible — **delete `Language_RU` to undo**.
-Further protections:
+`apply` never touches the original `Language_EN`. Output is staged into the
+mod's overlay — `<game>/Mod/TaiwuRus/Localization`, mirroring the full game-root
+layout, with the pack in the hijacked KO slot (`TAIWU_OUT_LANG`) — or under
+`TAIWU_OUTPUT_DIR` for a fully local build. The C# plugin copies the overlay
+into place on launch (copy-if-newer, self-healing after a Steam verify; see
+[Shipping the mod](#shipping-the-mod)). Further protections:
 
 - Writes are **atomic** (temp file + rename) and pass a **structural guard**
   (keys, line/column counts, JSON paths unchanged) — corrupted output is refused.
@@ -269,23 +277,22 @@ Further protections:
   translation and validated on restore; a unit with broken markup is flagged,
   not written.
 
-With the `Language_RU` junction pointing into the game's `StreamingAssets`,
-`apply` deploys straight into the game. To keep output local instead, set
-`TAIWU_LANG_RU_DIR` to a project path.
+To undo everything on an install, remove the mod and run
+`TaiwuRus/dist/uninstall-localization.bat` (deletes the deployed overlay files).
 
 ## How it works
 
 ```
 Language_EN ─┐                         ┌─► tm/*.json (translation memory, git-tracked)
 Language_CN ─┴─ align (by key) ─ mask ─┤
-                                       └─► engine ─ restore+validate ─► TM ─ apply ─► Language_RU
+                                       └─► engine ─ restore+validate ─► TM ─ apply ─► Mod/TaiwuRus/Localization
 ```
 
 - **Translation memory** (`tm/`): one JSON per source file, holding `en`, `cn`,
   `ru`, `status` (`pending`/`machine`/`reviewed`/`locked`) and a source hash for
   incremental re-runs. It is the durable asset — review and hand-edit it, set
   `status` to `reviewed`/`locked` to protect entries from re-translation.
-- **Glossary** (`data/glossary.json`): EN→RU terms handed to the engine to
+- **Glossary** (`data/glossary.json5`): EN→RU terms handed to the engine to
   enforce — Yandex via its native `glossaryConfig` (`exact: false`, so it
   **declines** each term to fit Russian grammar), LM Studio via the prompt. Only
   terms that occur in a unit are sent, and both the response cache **and** the TM
@@ -312,6 +319,50 @@ blocks (`EventContent` + `Option_N` are translated; `EventGuid`/`EventName` are
 structural anchors), pairs the CN reference by GUID, and writes RU into the KO
 filename slot in the same folder.
 
+## Repository map
+
+The translation pipeline above is HALF the system; the other half is the C# mod
+that delivers the result. One line per top-level path:
+
+| Path                                    | What it is                                                                                 |
+| --------------------------------------- | ------------------------------------------------------------------------------------------ |
+| `tm/`                                   | Translation memory — **the durable asset** (git-tracked)                                   |
+| `cache/`                                | Engine/judge response caches — paid output + hand fixes live here (git-tracked)            |
+| `data/glossary.json5`                   | Curated EN→RU glossary (git-tracked; `glossary-candidates*` reports are regenerable)       |
+| `src/`, `test/`                         | The TypeScript pipeline and its tests                                                      |
+| `TaiwuRus/`                             | The C# mod: two plugins + the `dist/` Workshop package — see [Shipping](#shipping-the-mod) |
+| `image-ru/`                             | Hand-redrawn RU art (git-tracked) — UI PNG overrides + the mod cover/screenshots           |
+| `image-src/`                            | Extracted EN/CN art to redraw from (gitignored; `tools/extract-localized-images.py`)       |
+| `bundle-src/`                           | Text extracted from Unity bundles (gitignored; `tools/extract-option-tips.py`)             |
+| `tools/`                                | `setup-junctions.ps1` + UnityPy extractors (re-run the extractors after a game update)     |
+| `docs/`, `PLAN.md`                      | Investigation notes and the historical build log                                           |
+| `Language_*`, `Event_*`                 | Gitignored junctions into the install ([setup](#fresh-machine--new-worktree-setup))        |
+| `example/`, `worldtalk-src/`, `.tools/` | Gitignored analysis scratch (other Workshop mods, decompiles)                              |
+
+## Shipping the mod
+
+The C# side lives in `TaiwuRus/` (its `PLAN.md` has the full history): a net48
+frontend plugin (Unity process — UI text, images, tooltips) and a net8 backend
+plugin (GameData process — events, encyclopedia), sharing source via
+`TaiwuRus.Shared`. Game types are accessed through a publicizer, so a game
+update that renames a member **breaks the build**, not the runtime; patching is
+all-or-nothing (one missing Harmony target rolls everything back with a logged
+casualty list) — after each game update, rebuild against the fresh DLLs and
+read the log.
+
+```bash
+cd TaiwuRus
+dotnet build TaiwuRus.sln     # builds dist/Plugins/ AND deploys dist/ -> <game>/Mod/TaiwuRus
+dotnet test                   # xunit over the shared BCL core
+```
+
+`npm run apply -- --all` stages the translated overlay into
+`<game>/Mod/TaiwuRus/Localization`; the build deploys the plugins and package
+files (`Config.Lua` is auto-synced — version from `ModInfo.cs`, game version
+read from the install, Workshop `FileId`/`UpdateLogList` carried back after a
+publish). Publishing to the Workshop happens through the in-game mod manager;
+commit the `Config.Lua` changes it writes back.
+
 ## Development
 
 ```bash
@@ -321,4 +372,4 @@ npm run format         # prettier
 npm test               # node:test
 ```
 
-See `PLAN.md` for the phased build log.
+See `PLAN.md` for the phased build log (historical; this README is authoritative).
