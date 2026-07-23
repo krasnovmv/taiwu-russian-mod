@@ -23,7 +23,9 @@ namespace TaiwuRus.Frontend
             UnpackOverlay();
             RefreshImageSetting();
             _harmony = new Harmony("com.krasnovmv.taiwurus.frontend");
-            _harmony.PatchAll(typeof(FrontendPlugin).Assembly);
+            // All-or-nothing: on any missing target every patch is rolled back and one log
+            // line lists all casualties (see HarmonyPatching) — never a mixed-RU session.
+            HarmonyPatching.PatchAllOrAbort(_harmony, typeof(FrontendPlugin).Assembly, Debug.LogError);
             SortingFix.Apply();
             Debug.Log("[TaiwuRus] frontend plugin loaded");
         }

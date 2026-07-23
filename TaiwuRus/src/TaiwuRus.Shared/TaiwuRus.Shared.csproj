@@ -11,10 +11,12 @@
         <RootNamespace>TaiwuRus.Shared</RootNamespace>
     </PropertyGroup>
 
-    <!-- RuLocale references LocalStringManager (GameData.Shared), which this standalone project
-         does not reference; the file is source-linked into Frontend and Backend only. -->
+    <!-- RuLocale references LocalStringManager (GameData.Shared) and HarmonyPatching references
+         HarmonyLib — neither of which this standalone project references; those files are
+         source-linked into Frontend and Backend only. -->
     <ItemGroup>
         <Compile Remove="RuLocale.cs" />
+        <Compile Remove="HarmonyPatching.cs" />
     </ItemGroup>
 
 </Project>

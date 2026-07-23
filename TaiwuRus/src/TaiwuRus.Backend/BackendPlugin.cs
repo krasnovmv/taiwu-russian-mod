@@ -25,7 +25,9 @@ namespace TaiwuRus.Backend
         {
             UnpackOverlay();
             _harmony = new Harmony("com.krasnovmv.taiwurus.backend");
-            _harmony.PatchAll(typeof(BackendPlugin).Assembly);
+            // All-or-nothing: on any missing target every patch is rolled back and one log
+            // line lists all casualties (see HarmonyPatching) — never a mixed-RU session.
+            HarmonyPatching.PatchAllOrAbort(_harmony, typeof(BackendPlugin).Assembly, msg => AdaptableLog.Warning(msg));
             AdaptableLog.Info("[TaiwuRus] backend plugin loaded");
         }
 
