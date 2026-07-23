@@ -11,8 +11,8 @@ namespace TaiwuRus.Frontend
     /// The CharacterMenu "inscribe" (mirror) button loads its icon states through
     /// <c>ViewCharacterMenuInfo.LoadInteractiveButtonSprite(CButton, string)</c>, formatting the
     /// per-state pattern <c>ui9_btn_mirro_{0}_{1}</c> ({0}=language, {1}=state) and loading it via
-    /// <c>ResLoader.Load&lt;Sprite&gt;</c>. Like the tab buttons (see
-    /// <see cref="CharacterMenuButtonSpritePatch"/>), this path does NOT go through
+    /// <c>ResLoader.Load&lt;Sprite&gt;</c>. Like the CharacterMenu tab buttons (whose patch was
+    /// dropped when 1.0.67.0 removed its target method), this path does NOT go through
     /// <c>LanguageRuleImagePattern</c>, so under RU it asks for non-existent <c>_ru</c> atlas sprites.
     ///
     /// We replace the loader for RU only (other languages keep the stock method) and reproduce the
