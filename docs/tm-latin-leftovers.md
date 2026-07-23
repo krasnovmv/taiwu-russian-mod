@@ -1,6 +1,10 @@
 # Проблема: английские остатки в RU-переводах (TM)
 
-Статус: **не исправлено** (задокументировано 2026-07-09, чинить позже)
+Статус: **исправлено** (задокументировано 2026-07-09; закрыто позже в июле 2026:
+латиница вне легальной разметки — теперь ERROR в `npm run validate`
+(`latin-in-russian` в `src/validate/qa.ts`) и гейт судьи — рерайт с латиницей
+отбрасывается. Сквозные копии `ru === en` (пиньинь, dev-идентификаторы) из
+проверки исключены. Цифры ниже — исторический замер на момент диагноза.)
 
 ## Симптом
 
@@ -14,11 +18,11 @@
 
 Всего RU-юнитов: **296 553**.
 
-| Категория | Кол-во |
-|---|---|
-| Любая латиница вне легальной разметки | 5 277 |
-| Латинские слова из 2+ букв | 4 373 |
-| — из них `ru === en` (сквозная копия EN) | 1 763 |
+| Категория                                                    | Кол-во    |
+| ------------------------------------------------------------ | --------- |
+| Любая латиница вне легальной разметки                        | 5 277     |
+| Латинские слова из 2+ букв                                   | 4 373     |
+| — из них `ru === en` (сквозная копия EN)                     | 1 763     |
 | — из них частичный перевод (латиница внутри русского текста) | **2 610** |
 
 «Легальная разметка» исключена из подсчёта: `<...>`-теги, `{...}`-плейсхолдеры,
@@ -37,16 +41,16 @@
 
 Топ файлов:
 
-| Файл | Кол-во |
-|---|---|
-| EventFunction_language.txt.json | 316 |
-| SpecialEffect_language.txt.json | 291 |
-| ui_language.txt.json | 254 |
-| AdventureCore_language.txt.json | 218 |
-| EncyclopediaAssets/EncyclopediaReference.tsv.json | 170 |
-| EncyclopediaAssets/EncyclopediaContent.tsv.json | 118 |
-| AiCondition_language.txt.json | 90 |
-| Armor_language.txt.json | 64 |
+| Файл                                              | Кол-во |
+| ------------------------------------------------- | ------ |
+| EventFunction_language.txt.json                   | 316    |
+| SpecialEffect_language.txt.json                   | 291    |
+| ui_language.txt.json                              | 254    |
+| AdventureCore_language.txt.json                   | 218    |
+| EncyclopediaAssets/EncyclopediaReference.tsv.json | 170    |
+| EncyclopediaAssets/EncyclopediaContent.tsv.json   | 118    |
+| AiCondition_language.txt.json                     | 90     |
+| Armor_language.txt.json                           | 64     |
 
 Частые токены: `DMG` (231), `Encounter/encounter` (251), `NPC` (133),
 `Description` (103), `XP` (78), названия техник и предметов (`Heartbane`,
