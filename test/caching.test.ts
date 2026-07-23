@@ -158,6 +158,37 @@ test("usableOutput ignores hanzi inside masked markup, not in the text", () => {
   assert.equal(usableOutput("Сила <color=#天>удара</color>"), true);
 });
 
+test("usableOutput rejects a blank translation (refusal reduced to nothing)", () => {
+  assert.equal(usableOutput(""), false);
+  assert.equal(usableOutput("  \n "), false);
+});
+
+test("an empty cached entry is dropped on load and re-translated", async () => {
+  const file = await cacheFile();
+  // What an older run stored when a refusal was cleaned down to nothing: served
+  // as a hit, it would keep the unit empty forever, immune to a live re-run.
+  await writeFile(
+    file,
+    [JSON.stringify({ k: "a", v: "" }), JSON.stringify({ k: "b", v: "ru:b" }), ""].join("\n"),
+    "utf8",
+  );
+
+  const c = counter();
+  const eng = new CachingEngine(c.engine, file, new Map(), (_i, o) => usableOutput(o));
+  assert.deepEqual(await eng.translate([{ text: "a" }, { text: "b" }]), ["ru:a", "ru:b"]);
+  assert.deepEqual(c.seen, ["a"], "the empty entry must miss, not be served");
+
+  // The drop is persisted; the fresh (valid) output takes the key's place.
+  const lines = (await readFile(file, "utf8")).split("\n").filter((l) => l !== "");
+  assert.deepEqual(
+    lines.map((l) => JSON.parse(l) as unknown),
+    [
+      { k: "b", v: "ru:b" },
+      { k: "a", v: "ru:a" },
+    ],
+  );
+});
+
 test("duplicate cache lines are compacted on load (one line per key, last wins)", async () => {
   const file = await cacheFile();
   // An append-only log with a repeated key: the later value must win.

@@ -283,6 +283,15 @@ export async function translateFile(
         failures.push({ key: item.unit.key, error: restored.error ?? "restore failed" });
         return; // leave the pending placeholder in place
       }
+      // A blank output for a text that had translatable letters is a refusal or
+      // degenerate reply, never a translation. Rejected like broken markup —
+      // counted, reported, left pending — so the TM never takes what
+      // `npm run validate` would flag as `empty-output`.
+      if (item.masked.translatable && restored.text.trim() === "") {
+        failed++;
+        failures.push({ key: item.unit.key, error: "empty engine output" });
+        return;
+      }
       // Hanzi in the Russian is never valid output: either the engine echoed a
       // zh-source unit back untranslated, or the CN original leaked through a name
       // it gave up on. Rejected exactly like broken markup — counted, reported and

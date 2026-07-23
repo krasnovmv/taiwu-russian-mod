@@ -111,6 +111,28 @@ test("an engine that leaves hanzi in the Russian fails the unit (nothing written
   assert.match(stats.failures[0]!.error, /Chinese in RU: 未至此地/);
 });
 
+test("an engine that returns nothing fails the unit (blank RU is never written)", async () => {
+  const refuser: TranslationEngine = {
+    id: "refuser",
+    checkpointSize: 5,
+    // A refusal the client cleanup reduced to nothing: markup-free units would
+    // restore this to a clean empty string and slip into the TM unflagged.
+    // (Units WITH markup already fail restore on the missing sentinels, so the
+    // gate is exercised on a markup-free file.)
+    translate: (reqs) => Promise.resolve(reqs.map(() => "")),
+  };
+  const stats = await translateFile("Month_language.txt", refuser, {
+    dryRun: true,
+    maxLen: Infinity,
+  });
+  assert.equal(stats.translated, 0, "no unit may be written with an empty RU");
+  assert.ok(stats.failed > 0, "expected the empty output to be rejected");
+  assert.ok(
+    stats.failures.some((f) => /empty engine output/.test(f.error)),
+    JSON.stringify(stats.failures.slice(0, 3)),
+  );
+});
+
 test("length window restricts which units are translated", async () => {
   const shortOnly = await translateFile(SAMPLE, new MockEngine(), { dryRun: true, maxLen: 5 });
   const longOnly = await translateFile(SAMPLE, new MockEngine(), { dryRun: true, minLen: 6 });
