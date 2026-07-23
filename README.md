@@ -14,33 +14,49 @@ reversible output.
 ## Requirements
 
 - Node.js ≥ 22.15 (developed on 25)
-- The game installed; the repo uses junctions in its root pointing at the game's
-  `StreamingAssets`:
-  - `Language_EN` → `.../StreamingAssets/Language_EN` (source)
-  - `Language_CN` → `.../StreamingAssets/Language_CN` (reference)
-  - `Language_RU` → `.../StreamingAssets/Language_RU` (output; `apply` writes here)
-  - `Event_Languages` → `.../Event/EventLanguages` (root quest/event text — lives
-    OUTSIDE `StreamingAssets`; EN/CN/output all share this one folder, keyed by
-    the `_Language_XX` filename suffix, and the KO slot is the RU output). Gated
-    behind `TAIWU_EVENTS` (off by default; large corpus).
-  - `Event_DLC/<DLC>` → `.../<DLC>` (one junction per expansion, into the game's
-    `…_Data`). Each DLC keeps versioned quest packs under
-    `<version>/Events/EventLanguages`; discovery uses the newest version with EN
-    text. Always on (small corpus).
+- The game installed (the repo reads it through junctions — next section)
+- For the C# mod plugin only: .NET SDK 8
+- For `tools/extract-*.py` only: Python 3 + `pip install UnityPy`
 
-  (All gitignored. Override with `TAIWU_LANG_DIR` / `TAIWU_LANG_CN_DIR` /
-  `TAIWU_LANG_RU_DIR` if your layout differs — e.g. to keep RU out of the game.)
+## Fresh machine / new worktree setup
 
-  Create the quest junctions with `mklink /J` (or PowerShell
-  `New-Item -ItemType Junction`), e.g.:
-  `mklink /J Event_Languages "…\The Scroll Of Taiwu\Event\EventLanguages"` and,
-  per DLC, `mklink /J Event_DLC\FiveLoong "…\The Scroll of Taiwu_Data\FiveLoong"`.
+Everything that connects this repo to the game is gitignored, so a fresh clone
+— **and every new `git worktree`** — starts with none of it. Missing pieces used
+to degrade softly (`rebuild-tm` processing 0 files, `apply` routing output
+wrong); discovery now fails loudly instead, pointing here.
+
+1. **Junctions** — run once per clone/worktree (re-run after a game update adds
+   a DLC; existing links are left alone):
+
+   ```bash
+   powershell -File tools/setup-junctions.ps1
+   ```
+
+   (Pass `-GameDir` or set `TAIWU_GAME_DIR` if Steam lives elsewhere.) It creates:
+   - `Language_EN` → `…/StreamingAssets/Language_EN` (source) and
+     `Language_CN` (reference). The game root — where output is staged — is
+     resolved from the `Language_EN` junction target.
+   - `Event_Languages` → `…/Event/EventLanguages` (root quest text, OUTSIDE
+     `StreamingAssets`; all languages share the folder via `_Language_XX`
+     filename suffixes). Gated behind `TAIWU_EVENTS` (off by default).
+   - `Event_DLC/<DLC>` → `…_Data/<DLC>` for every expansion that carries
+     versioned quest packs (`<version>/Events/EventLanguages`) — discovered,
+     not hardcoded. Always on (small corpus).
+   - `Language_KO` / `Language_RU` — convenience only, for inspecting the
+     stock pack and the deployed output in place.
+
+2. **`.env`** — copy from another checkout, or `cp .env.example .env` and fill
+   in. Also needed in every new worktree.
+
+3. **Yandex credentials** — `yc init` once (see [Engines](#engines)).
+
+4. `npm install`.
 
 ## Install
 
 ```bash
 npm install
-npm test          # 775 tests
+npm test          # ~1400 tests (the round-trip suites read the game through the junctions)
 npm run typecheck
 ```
 
