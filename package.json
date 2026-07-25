@@ -29,20 +29,20 @@
     "format:check": "prettier --check ."
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "@types/cli-progress": "^3.11.6",
-    "@types/node": "^26.1.0",
-    "eslint": "^10.6.0",
-    "eslint-config-prettier": "^10.1.8",
-    "prettier": "^3.9.4",
-    "tsx": "^4.23.0",
-    "typescript": "^6.0.3",
-    "typescript-eslint": "^8.63.0"
+    "@eslint/js": "10.0.1",
+    "@types/cli-progress": "3.11.6",
+    "@types/node": "26.1.1",
+    "eslint": "10.8.0",
+    "eslint-config-prettier": "10.1.8",
+    "prettier": "3.9.6",
+    "tsx": "4.23.1",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.65.0"
   },
   "private": true,
   "dependencies": {
-    "@yandex-cloud/nodejs-sdk": "^3.2.0",
-    "cli-progress": "^3.12.0",
-    "json5": "^2.2.3"
+    "@yandex-cloud/nodejs-sdk": "3.2.0",
+    "cli-progress": "3.12.0",
+    "json5": "2.2.3"
   }
 }
