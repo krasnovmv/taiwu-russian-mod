@@ -393,14 +393,13 @@
       "judgeHash": "9c775511eda77497"
     },
     "Desc_15": {
-      "en": "Connecting this node <color=#brightred>turns 3 random adjacent nodes into a failed state</color> and <color=#brightblue>transfers their Power Caps to this node.</color>",
+      "en": "Connecting this node <color=#brightred>sets 3 random adjacent breakthrough nodes to Connection Failed</color> and <color=#brightblue>transfers their Power Cap base values to this node.</color>",
       "cn": "打通此格时，将周围<color=#brightred>随机3个突破格变为连接失败状态</color>，并<color=#brightblue>将它们的威力上限基础值转移至此格。</color>",
-      "ru": "При подключении этого узла <color=#brightred>3 случайных соседних узла-прорыва переходят в состояние сбоя</color>, и <color=#brightblue>их базовые значения пределов мощи переносятся на этот узел.</color>",
-      "status": "judged",
-      "srcHash": "ae0171fcc2984cfb",
+      "ru": "Соединяющий этот узел <color=#brightred>устанавливает 3 случайных соседних узла прорыва в положение Сбой соединения</color> и <color=#brightblue>передает на этот узел базовые значения их предела мощи.</color>",
+      "status": "machine",
+      "srcHash": "99a947df585baf5c",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:27:10.184Z",
-      "judgeHash": "4c899ddc0ca6d204"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_16": {
       "en": "This node's <color=#brightblue>connection rate increases by 30%.</color>\\nWhen this node is connected, it turns all adjacent Special Breakthrough nodes into \"Normal\" nodes.",

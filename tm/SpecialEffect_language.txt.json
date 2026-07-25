@@ -16816,13 +16816,22 @@
       "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "ShortDesc_74_0": {
-      "en": "Prevents yourself from getting Openings.",
+      "en": "Gains Immunity to Openings and Acupoint Sealing.",
       "cn": "己方免受破绽",
-      "ru": "Предохраняет себя от получения открытий.",
+      "ru": "Приобретает иммунитет к отверстиям и герметизации акупунктурных точек.",
       "status": "machine",
-      "srcHash": "d76ca6bdae4bda5a",
+      "srcHash": "dfe752d8cd1bdb14",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
+    },
+    "ShortDesc_74_1": {
+      "en": "Power Accumulated",
+      "cn": null,
+      "ru": "Накопленная энергия",
+      "status": "machine",
+      "srcHash": "b91601d7680384ef",
+      "engine": "yandex",
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "ShortDesc_76_0": {
       "en": "Increases Detox speed.",
@@ -25123,13 +25132,22 @@
       "updatedAt": "2026-07-03T21:32:41.679Z"
     },
     "ShortDesc_800_0": {
-      "en": "Prevents your acupoints from being sealed.",
+      "en": "Gains Immunity to Openings and Acupoint Sealing.",
       "cn": "己方免受封穴",
-      "ru": "Предотвращает запечатывание ваших Акупунктурных точек.",
+      "ru": "Приобретает иммунитет к отверстиям и герметизации акупунктурных точек.",
       "status": "machine",
-      "srcHash": "7fab639abd01edf2",
+      "srcHash": "dfe752d8cd1bdb14",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
+    },
+    "ShortDesc_800_1": {
+      "en": "Power Deducted",
+      "cn": null,
+      "ru": "Вычитаемая мощность",
+      "status": "machine",
+      "srcHash": "d1b90ac35d1ccba0",
+      "engine": "yandex",
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "ShortDesc_802_0": {
       "en": "Reduces the enemy's Detox speed.",
@@ -37957,13 +37975,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_74_0": {
-      "en": "When the user's Defeat Markers exceed half the defeat threshold, it significantly increases True Qi gain in battle and prevents the user from getting Openings.",
+      "en": "When the user's Defeat Markers exceed half the defeat threshold, they can no longer gain Openings or Sealed Acupoints. Whenever the user gains True Qi, they also accumulate Power for the next Annihilation, Protection, and Footwork Arts they cast. The accumulated Power for each type is consumed separately after performing a Martial Art of the corresponding type.",
       "cn": "运用者的战败标记总数超过战败条件的一半时，大幅提高运用者的真气在战斗中的获得量，且运用者不会再出现破绽",
-      "ru": "Когда маркеры поражения пользователя превышают половину порога поражения, это значительно увеличивает прирост истинной ци в бою и не позволяет пользователю получать отверстия.",
+      "ru": "Когда маркеры поражения пользователя превышают половину порога поражения, он больше не может получать отверстия или запечатанные акупунктурные точки. Всякий раз, когда пользователь получает Истинную Ци, он также накапливает силу для следующего применения Сокрушения, защиты и техники передвижения, которую он использует. Накопленная сила для каждого типа расходуется отдельно после выполнения боевой техники соответствующего типа.",
       "status": "machine",
-      "srcHash": "0e1a0f28e2b9536a",
+      "srcHash": "751b5d8418c8e539",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_75_0": {
       "en": "Increases the Power Cap of the user's [Five Immortals Sect] Martial Arts.",
@@ -39649,13 +39667,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_262_0": {
-      "en": "While this Footwork Art is active, each time the user hits an enemy with a [Gauntlet], the user's Stamina is restored.",
+      "en": "While this Footwork Art is active, each time the user hits an enemy with [Glove] weapons, the user's Stamina is restored.",
       "cn": "此身法持续期间，每当运用者以「掌套」类兵器击中敌人，恢复运用者的脚力",
-      "ru": "Пока эта техника передвижения активна, каждый раз, когда пользователь ударяет врага [Перчаткой], выносливость пользователя восстанавливается.",
+      "ru": "Пока эта Техника передвижения активна, каждый раз, когда пользователь поражает врага оружием в [перчатке], выносливость пользователя восстанавливается.",
       "status": "machine",
-      "srcHash": "beab1eac1467d56a",
+      "srcHash": "8003337c63363839",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_263_0": {
       "en": "While this Footwork Art is active, as long as the enemy has no effects that can change the Deflection Type, all of the user's weapon attacks will be based on Precision.",
@@ -39712,13 +39730,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_269_0": {
-      "en": "While this Footwork Art is active, the user's Precision cannot be reduced by any effect; all Martial Arts and status effects that increase the user's Precision are greatly enhanced; the user's Precision-based weapon attacks and Annihilation Martial Arts have a chance equal to their Precision percentage to critically hit an enemy.",
+      "en": "While this Footwork Art is active, the user's Accuracy cannot be reduced by any effect; all Martial Arts and status effects that increase the user's Accuracy are greatly enhanced; the user's Accuracy-based weapon attacks and Annihilation Martial Arts that include Accuracy make an additional check to critically hit an enemy, with a chance equal to their Accuracy percentage.",
       "cn": "此身法持续期间：运用者的精妙不会被任何效果降低；运用者受到的所有提高精妙的功法、状态效果大幅提高；运用者以精妙为命中的兵器攻击以及运用者施展的含有精妙的摧破功法，会以其精妙所占成数额外判定一次是否命中敌人要害",
-      "ru": "Пока эта Техника передвижения активна, точность пользователя не может быть снижена никаким эффектом; все боевые техники и статусные эффекты, которые повышают точность пользователя, значительно улучшаются; атаки оружием на основе точности и сокрушения боевых искусств пользователя имеют шанс нанести критический удар по врагу, равный проценту их точности.",
+      "ru": "Пока эта Техника передвижения активна, точность пользователя не может быть снижена никаким эффектом; все боевые техники и статусные эффекты, повышающие точность пользователя, значительно улучшаются; атаки оружием пользователя, основанные на точности, и Сокрушение боевых искусств, включающие точность, выполняют дополнительную проверку, чтобы нанести критический удар по врагу, с помощью шанс, равный проценту их точности.",
       "status": "machine",
-      "srcHash": "30119f30e244982b",
+      "srcHash": "6e4cb8308744a611",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_270_0": {
       "en": "While this Footwork Art is active, each time the user hits an enemy with a [Guqin], the user's Stamina is restored.",
@@ -40828,13 +40846,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_392_0": {
-      "en": "When this Talisman is cast at $0$0% Power: for each of the enemy's equipped weapon, armor, and relic categories made of Metal, Wound damage is dealt to a random body part of the enemy based on the technique's Power.",
+      "en": "When this Talisman is cast at $0$0% Power: for each of the enemy's equipped weapon, armor, and relic made of Metal, Wound damage is dealt to the enemy based on this Martial Art's Power.",
       "cn": "此符咒发挥$0$成威力时，若敌人装备的每类武器、护具、宝物中有金铁材质，每具有一类就根据此功法的威力对敌人施加重创伤害",
-      "ru": "Когда этот талисман разыгрывается с силой $0$0%: для каждой из категорий снаряженного оружия, брони и реликвий противника, изготовленных из металла, урон от раны наносится случайной части тела врага в зависимости от силы техники.",
+      "ru": "Когда этот талисман разыгрывается с силой $0$0%: за каждое оружие, броню и реликвию противника, изготовленные из металла, врагу наносится урон от ран, основанный на силе этого боевого искусства.",
       "status": "machine",
-      "srcHash": "896daa4e39f9f5f0",
+      "srcHash": "b33b2638aa3ca4e5",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_393_0": {
       "en": "When the user casts this Talisman at $0$0% Power, they gain 9 stacks of the following effect: The more [Annihilation] Martial Arts sealed on the enemy, the more direct External Injury and Internal Injury the user's Annihilation Martial Arts deal. The more [Nimble] Martial Arts sealed, the more Wound damage the user deals with Annihilation Martial Arts. The more [Protection] Martial Arts sealed, the more Daze damage the user deals with Annihilation Martial Arts.",
@@ -42538,13 +42556,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_554_0": {
-      "en": "When casting this Martial Art, the more consecutive [Malice] styles at the front of the user's queue, the more Openings are inflicted on random enemy body parts. Whenever the user switches to a [Concealed Weapon], if the enemy is within this Martial Art's attack range, it is cast from 50% Cast Progress at no cost, but its Power and the number of Openings inflicted are halved.",
+      "en": "When casting this Martial Art, the more consecutive [Malice] styles at the end of the user's queue, the more Openings are inflicted on random enemy body parts. Whenever the user switches to a [Concealed Weapon], if the enemy is within this Martial Art's attack range, it is cast from 50% Cast Progress at no cost, but its Power and the number of Openings inflicted are halved.",
       "cn": "开始施展此功法时，运用者蓄式末尾拥有越多连续的「杀」式，就为敌人添加越多随机部位的破绽；每当运用者使用的兵器切换为「暗器」时，如果敌人在此功法的攻击范围内，从施展进度50%开始无消耗施展此功法攻击敌人，但此功法威力减半，造成的破绽数量也会减半",
-      "ru": "При использовании этой боевой техники, чем больше последовательных стилей [Злобы] в начале очереди пользователя, тем больше отверстий наносится случайным частям тела противника. Всякий раз, когда пользователь переключается на [Скрытое оружие], если враг находится в пределах досягаемости атаки этой боевой техники, он разыгрывается с 50% прогресса броска бесплатно, но его сила и количество нанесенных ранений уменьшаются вдвое.",
+      "ru": "При использовании этой боевой техники, чем больше последовательных стилей [Злобы] в конце очереди пользователя, тем больше отверстий наносится случайным частям тела противника. Всякий раз, когда пользователь переключается на [Скрытое оружие], если враг находится в пределах досягаемости атаки этой боевой техники, оно разыгрывается с 50% прогресса броска бесплатно, но его мощность и количество нанесенных ранений уменьшаются вдвое.",
       "status": "machine",
-      "srcHash": "316e50fc52f277aa",
+      "srcHash": "f18cd7495aae3353",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_555_0": {
       "en": "When the required styles for this Martial Art are insufficient, it can be cast using the user's [Malice] styles. After casting this Martial Art at $0$0% Power, the user gains 6 stacks of this effect: for each non-[Malice] style the user consumes to cast a Martial Arts, they gain 1 [Malice] style.",
@@ -42556,13 +42574,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_556_0": {
-      "en": "When casting this martial art, its Power increases based on the number of consecutive [Malice] styles at the front of the user's queue. When attacking, it consumes up to 3 of the user's non-[Malice] styles (not exceeding the number of [Malice] styles possessed), greatly increasing the Direct DMG dealt. It prioritizes consuming unusable styles at the front of the queue.",
+      "en": "When casting this Martial Art, its Power increases based on the number of consecutive [Malice] styles at the end of the user's queue. When attacking, it consumes up to 3 of the user's non-[Malice] styles (not exceeding the number of [Malice] styles possessed), greatly increasing the Direct DMG dealt. It prioritizes consuming unusable styles at the end of the queue.",
       "cn": "开始施展此功法时，运用者蓄式末尾拥有越多连续的「杀」式，此功法的威力就提高越多；以此功法攻击敌人时，消耗运用者最多3个非「杀」式的蓄式，不超过运用者拥有的「杀」式数量，大幅提高此功法对敌人造成的直接伤害，优先消耗运用者蓄式末尾不可用的式",
-      "ru": "При использовании этого боевого искусства его сила увеличивается в зависимости от количества последовательных стилей [Злобы] в начале очереди пользователя. При атаке он использует до 3 стилей пользователя, отличных от [Malice] (не превышая количество стилей, которыми обладает [Malice]), что значительно увеличивает наносимый прямой урон. Он отдает приоритет использованию неиспользуемых стилей в начале очереди.",
+      "ru": "При использовании этого боевого искусства его сила увеличивается в зависимости от количества последовательных стилей [Злобы] в конце очереди пользователя. При атаке он использует до 3 стилей пользователя, отличных от [Malice] (не превышая количество стилей, которыми обладает [Malice]), что значительно увеличивает наносимый прямой урон. Он отдает приоритет использованию неиспользуемых стилей в конце очереди.",
       "status": "machine",
-      "srcHash": "8df4ed982dde8d39",
+      "srcHash": "4c5bc0f68f27cf12",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_557_0": {
       "en": "The user gains 2 stacks of the following effect after casting this Martial Art at $0$0% Power: each time the user gains a [Malice] style, the enemy loses half of their Stamina. If the enemy's Stamina is fully depleted, it inflicts 3 critical acupoint seals on random body parts.",
@@ -42592,13 +42610,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_559_0": {
-      "en": "When cast at $0$0% Power, this Martial Art grants the user 1 [Malice] style. After casting at $1$0% Power, there is a high chance to immediately cast it again from 50% Cast Progress at no cost. This chance is greatly increased if the first style in the user's queue is a [Malice] style.",
+      "en": "When cast at $0$0% Power, this Martial Art grants the user 1 [Malice] style. After casting at $1$0% Power, there is a high chance to immediately cast it again from 50% Cast Progress at no cost. This chance is greatly increased if the last style in the user's queue is a [Malice] style.",
       "cn": "此功法发挥$0$成威力时，使运用者获得1个「杀」式；此功法发挥$1$成威力后，有较高的几率从施展进度50%开始立即无消耗施展此功法攻击敌人，如果运用者蓄式的蓄式末尾为「杀」式，此几率大幅增加",
-      "ru": "При использовании с силой $0$0% эта боевая техника дает пользователю 1 стиль [Злоба]. После кастинга с мощностью $1$0% есть высокий шанс немедленно разыграть его снова с 50%-ным прогрессом кастинга бесплатно. Этот шанс значительно увеличивается, если первым стилем в очереди пользователя является стиль [Malice].",
+      "ru": "При использовании с силой $0$0% эта боевая техника дает пользователю 1 стиль [Злоба]. После кастинга с мощностью $1$0% есть высокий шанс немедленно разыграть его снова с 50%-ным прогрессом кастинга бесплатно. Этот шанс значительно увеличивается, если последним стилем в очереди пользователя является стиль [Malice].",
       "status": "machine",
-      "srcHash": "3e3db04176d079eb",
+      "srcHash": "fa7eac7c08aaea80",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_560_0": {
       "en": "When attacking with this Martial Art: the higher the user's Favorability with the enemy, the more Direct DMG it deals. If Favorability is at or above Affectionate, the user gains 9 [Malice] styles. After the cast, the enemy's Favorability toward the user will drastically decrease, and a grudge will be formed.",
@@ -42628,13 +42646,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_563_0": {
-      "en": "When attacking with this Martial Art, all of the user's [Malice] styles are treated as additional Openings on the attacked body part. If the first style in the queue is a [Malice] style, all consecutive [Malice] styles at the front are consumed to deal extra Wound damage.",
+      "en": "When attacking with this Martial Art, all of the user's [Malice] styles are treated as additional Openings on the attacked body part. If the first style in the queue is a [Malice] style, all consecutive [Malice] styles at the end are consumed to deal extra Wound damage.",
       "cn": "以此功法攻击敌人时，运用者拥有的所有「杀」式均被视为敌人被攻击部位的额外破绽；如果运用者蓄式的最前列为「杀」式，消耗运用者蓄式末尾所有连续的「杀」式，造成额外的重创伤害",
-      "ru": "При атаке с помощью этой боевой техники все стили пользователя [Malice] рассматриваются как дополнительные отверстия на атаке части тела. Если первым стилем в очереди является стиль [Malice], то все последовательные стили [Malice] в начале используются для нанесения дополнительного урона от ран.",
+      "ru": "При атаке с помощью этой боевой техники все стили пользователя [Malice] рассматриваются как дополнительные отверстия на атаке части тела. Если первым стилем в очереди является стиль [Malice], то все последующие стили [Malice] в конце используются для нанесения дополнительного урона от ран.",
       "status": "machine",
-      "srcHash": "5296731d50a07370",
+      "srcHash": "b4203ca82a05739b",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_564_0": {
       "en": "Whenever the user casts this Martial Art at $0$0% Power, they briefly Seal 3 of the enemy's [Fire] Martial Arts, 2 [Metal] Martial Arts and 1 [Water] Martial Art.",
@@ -42646,13 +42664,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_565_0": {
-      "en": "If the user has at least 7 [Malice] styles, this Martial Art can be cast without consuming styles. After casting at $0$0% Power, the user gains 7 stacks of this effect: whenever the user gains or loses a [Malice] style, if this Martial Art is not sealed, they immediately cast a Tier 6 [Sword Arts] from 100% Cast Progress at no cost. For each additional consecutive [Malice] style at the front of the queue, the tier of the usable [Sword Arts] increases, up to Tier 4. When this effect triggers, this Martial Art is inevitably sealed for a very short time.",
+      "en": "If the user has at least 7 [Malice] styles, this Martial Art can be cast without consuming styles. After casting at $0$0% Power, the user gains 7 stacks of this effect: whenever the user gains or loses a [Malice] style, if this Martial Art is not sealed, they immediately cast a Tier 6 [Sword Arts] from 100% Cast Progress at no cost. For each additional consecutive [Malice] style at the end of the queue, the tier of the usable [Sword Arts] increases, up to Tier 4. When this effect triggers, this Martial Art is inevitably sealed for a very short time.",
       "cn": "如果运用者拥有至少7个「杀」式，施展此功法不需要消耗蓄式；此功法发挥$0$成威力后，运用者获得7层此效果：每当运用者获得或失去「杀」式，如果此功法未被封禁，运用者从施展进度100%开始立即无消耗施展六阶「剑法」攻击敌人，运用者蓄式末尾每多1个连续的「杀」式，运用者可施展的「剑法」品阶也会提升，最高施展四阶的「剑法」；此效果生效时，将极短时间不可避免地封禁此功法",
-      "ru": "Если пользователь владеет по крайней мере 7 стилями [Злобы], эту боевую технику можно использовать без использования стилей. После кастинга с силой $0$0% пользователь получает 7 стеков этого эффекта: всякий раз, когда пользователь приобретает или теряет стиль [Злоба], если эта боевая техника не имеет печати, он немедленно разыгрывает ранг 6 [Искусство меча] со 100% прогрессом в кастинге бесплатно. Для каждого дополнительного последовательного стиля [Злоба] в начале очереди ранг пригодного к использованию [Искусства меча] увеличивается до ранга 4. Когда срабатывает этот эффект, эта боевая техника неизбежно становится печатью на очень короткое время.",
+      "ru": "Если пользователь владеет по крайней мере 7 стилями [Злобы], эту боевую технику можно использовать без использования стилей. После кастинга с силой $0$0% пользователь получает 7 стеков этого эффекта: всякий раз, когда пользователь приобретает или теряет стиль [Злоба], если эта боевая техника не запечатана, он немедленно разыгрывает ранг 6 [Искусство меча] со 100% прогрессом в кастинге бесплатно. Для каждого дополнительного последовательного стиля [Злоба] в конце очереди ранг пригодного к использованию [Искусства меча] увеличивается до ранга 4. Когда срабатывает этот эффект, эта боевая техника неизбежно запечатывается на очень короткое время.",
       "status": "machine",
-      "srcHash": "3464cedd1b547140",
+      "srcHash": "6afce778a1c83daf",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_566_0": {
       "en": "The Direct DMG inflicted by this Martial Art increases along with the severity of the enemy's Cryotoxin. When the user casts this Martial Art at $0$0% Power, they gain 7 stacks of this effect: the more severe the enemy's Cryotoxin, the longer it takes for them to prepare weapon attacks.",
@@ -42682,13 +42700,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_569_0": {
-      "en": "The Power of this Martial Art increases based on how many of the enemy's body parts have Rupture when casting it. Whenever the user casts this Martial Art at $0$0% Power, it causes Leg Rupture on the enemy's injured legs. Leg Rupture: halves maximum Stamina, and if they have 4 or more External Injury markers on their legs, their legs are considered Maimed until they fully recover from all leg External Injuries.",
+      "en": "The Power of this Martial Art increases based on how many of the enemy's body parts have Rupture when casting it. Whenever the user casts this Martial Art at $0$0% Power, it causes Leg Rupture on the enemy's injured legs. Leg Rupture: halves maximum Stamina; if they have 4 or more External Injury markers on their legs, their legs are considered Maimed; and whenever their legs suffer External Injury, they also take an equal amount of Wound damage. Leg Rupture remains until they fully recover from all leg External Injuries.",
       "cn": "开始施展此功法时，敌人“伤坏”的部位越多，此功法的威力就提高越多；此功法发挥$0$成威力时，使敌人有外伤的腿足“膝踵伤坏”；“膝踵伤坏”者的最大脚力值减半，且受创者腿足的外伤标记达到4个即视为腿足残毁，腿足遭受外伤的同时会受到等额的重创伤害，直到受创者治愈了所有腿足的外伤，此创伤才会消失",
-      "ru": "Сила этого боевого искусства увеличивается в зависимости от того, сколько частей тела противника было повреждено при его применении. Всякий раз, когда пользователь применяет эту боевую технику с мощностью $0$0%, это приводит к разрыву поврежденных ног противника. Разрыв ноги: уменьшает максимальную выносливость вдвое, и если у них есть 4 или более маркеров внешних травм на ногах, их ноги считаются искалеченными до тех пор, пока они полностью не оправятся от всех внешних травм ног.",
+      "ru": "Сила этого боевого искусства увеличивается в зависимости от того, сколько частей тела противника было повреждено при его применении. Всякий раз, когда пользователь применяет эту боевую технику с мощностью $0$0%, это приводит к разрыву поврежденных ног противника. Разрыв ноги: уменьшает максимальную выносливость вдвое; если у них есть 4 или более маркеров внешней травмы на ногах, их ноги считаются искалеченными; и всякий раз, когда их ноги получают внешнюю травму, они также получают равное количество повреждений от ран. Разрыв ноги сохраняется до тех пор, пока они полностью не оправятся от всех внешних травм ноги.",
       "status": "machine",
-      "srcHash": "4d05cbd9a71d8721",
+      "srcHash": "bce6e22e3fc4c4fe",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_570_0": {
       "en": "The user gains 10 stacks of the following effect after casting this Martial Art at $0$0% Power: Necrotoxin the user applies to the enemy using Annihilation Martial Arts is increased from [Lesser Poison] to [Severe Poison] and from [Severe Poison] to [Deadly Poison], and their Annihilation Martial Arts with Necrotoxin cannot be Sealed or Interrupted.",
@@ -42700,13 +42718,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_571_0": {
-      "en": "When this Art is first invoked, the more body parts the enemy has \"Ruptured,\" the more this Art's Power increases. When this Art unleashes $0$0% Power, it inflicts \"Torso Rupture\" on the enemy's Torso if the Torso bears any External Injury. While \"Torso Rupture\" is in effect: the sufferer's Inhale cannot exceed 60%. Any Internal Injury sustained by the Torso deals greater Wound damage. Once the Torso's External Injury reaches 4 stacks, the Torso is deemed Maimed. Whenever the Head-and-Neck takes External Injury, an equivalent amount of Wound damage is taken as well. This affliction does not lift until all External Injuries on the Torso are healed.",
+      "en": "When casting this Martial Art, the more body parts the enemy has \"Ruptured,\" the more this Martial Art's Power increases. When this Art unleashes $0$0% Power, it inflicts \"Torso Rupture\" on the enemy's Torso if the Torso bears any External Injury. While \"Torso Rupture\" is in effect: the sufferer's Inhale cannot exceed 60%. Any Internal Injury sustained by the Torso deals greater Wound damage. Once the Torso's External Injury reaches 4 stacks, the Torso is deemed Maimed. Whenever the Torso takes External Injury, an equivalent amount of Wound damage is taken as well. This affliction does not lift until all External Injuries on the Torso are healed.",
       "cn": "开始施展此功法时，敌人“伤坏”的部位越多，此功法的威力就提高越多；此功法发挥$0$成威力时，使敌人有外伤的胸背“胸背伤坏”；“胸背伤坏”者的提气无法超过60%，胸背受到的任何内伤重创提高，且受创者胸背的外伤达到4层即视为胸背残毁，胸背遭受外伤的同时会受到等额的重创伤害，直到受创者治愈了所有胸背的外伤，此创伤才会消失",
-      "ru": "Когда это искусство используется впервые, чем больше частей тела враг \"разорвал\", тем больше увеличивается сила этого искусства. Когда это искусство высвобождает силу в размере $0$0%, оно наносит \"Разрыв груди и спины\" груди и спине противника, если на груди и спине есть какие-либо внешние травмы. Пока действует \"Разрыв груди и спины\": вдох пострадавшего не может превышать 60%. Любая внутренняя травма, полученная в груди и спине, наносит больший ущерб ране. Как только внешняя травма груди и спины достигает 4 баллов, Грудь и спина считаются покалеченными. Всякий раз, когда голова и шея получают внешнюю травму, также наносится эквивалентный ущерб ране. Этот недуг не проходит до тех пор, пока не заживут все внешние травмы на груди и спине.",
+      "ru": "При использовании этой боевой техники, чем больше частей тела \"разорвано\" противником, тем больше увеличивается сила этой боевой техники. Когда это искусство высвобождает силу в размере $0$0%, оно наносит \"Разрыв груди и спины\" груди и спине противника, если на груди и спине есть какие-либо внешние травмы. Пока действует \"Разрыв груди и спины\": вдох пострадавшего не может превышать 60%. Любая внутренняя травма, полученная в груди и спине, наносит больший ущерб ране. Как только внешняя травма груди и спины достигает 4 баллов, Грудь и спина считаются покалеченными. Всякий раз, когда грудь и спина получают внешнюю травму, также наносится эквивалентный ущерб ране. Этот недуг не проходит до тех пор, пока не заживут все внешние травмы на груди и спине.",
       "status": "machine",
-      "srcHash": "bd49d6a576caf2c6",
+      "srcHash": "2aa601b93e9c88b6",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_572_0": {
       "en": "After casting this Martial Art at $0$0% Power, if the user has at least 2 [Grab] styles, they will consume only 2 [Grab] styles and immediately cast this Martial Art again starting from 50% Cast Progress. When cast this way, the Martial Art's Power slightly increases with each cast until it can no longer be cast consecutively, and it will change from Orthodox to Heterodox.",
@@ -44761,13 +44779,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_800_0": {
-      "en": "When the user's total Defeat Markers exceed half of the Defeat Conditions, greatly reduces the user's True Qi consumption during Battle, and the user will no longer suffer Sealed Acupoints.",
+      "en": "When the user's Defeat Markers exceed half the defeat threshold, they can no longer gain Openings or Sealed Acupoints. Whenever the user loses True Qi, they also accumulate Power reduction for the next Annihilation, Protection, and Footwork Arts cast by the enemy. The accumulated Power reduction for each type is consumed separately after the enemy performs a Martial Art of the corresponding type.",
       "cn": "运用者的战败标记总数超过战败条件的一半时，大幅降低运用者的真气在战斗中的损耗量，且运用者不会再出现封穴",
-      "ru": "Когда общие показатели поражения пользователя превышают половину условий поражения, значительно снижается потребление истинной ци пользователя во время боя, и пользователь больше не будет страдать от закрытых акупунктурных точек.",
+      "ru": "Когда маркеры поражения пользователя превышают половину порога поражения, он больше не может получать отверстия или запечатанные акупунктурные точки. Всякий раз, когда пользователь теряет Истинную Ци, он также накапливает уменьшение силы для следующего сокрушения, защиты и Техники передвижения, применяемых врагом. Накопленное снижение мощности для каждого типа расходуется отдельно после того, как противник выполнит боевую технику соответствующего типа.",
       "status": "machine",
-      "srcHash": "276a0fbb4936840a",
+      "srcHash": "9c84133f823fca47",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_801_0": {
       "en": "Reduces the usage requirements of the user's [Five Immortals Sect] Martial Arts.",
@@ -46453,13 +46471,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_988_0": {
-      "en": "While this Footwork Art is active, the user depletes the enemy's Stamina when landing attacks with [Fist] weapons.",
+      "en": "While this Footwork Art is active, the user depletes the enemy's Stamina when landing attacks with [Glove] weapons.",
       "cn": "此身法持续期间，每当运用者以「掌套」类兵器击中敌人，损耗敌人的脚力",
-      "ru": "Пока эта техника передвижения активна, пользователь истощает выносливость противника при нанесении атак с помощью оружия [Кулак].",
+      "ru": "Пока эта техника передвижения активна, пользователь истощает выносливость противника при нанесении атак оружием в [перчатках].",
       "status": "machine",
-      "srcHash": "b0873b1ed36db30b",
+      "srcHash": "685ce2a997b8d489",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_989_0": {
       "en": "While this Footwork Art is active, as long as the enemy does not have an effect that changes their Hit Type, all of their weapon attacks can be Deflected by the user with a Parry.",
@@ -46516,13 +46534,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_995_0": {
-      "en": "While this Footwork Art is active, the enemy's Precision cannot be increased by any effect, and all Martial Arts and status effects that reduce their Precision are greatly enhanced. The enemy's Precision-based weapon attacks and Annihilation Martial Arts have a chance to not hit a vital spot, based on the Precision percentage.",
+      "en": "While this Footwork Art is active, the enemy's Accuracy cannot be increased by any effect, and all Martial Arts and status effects that reduce their Accuracy are greatly enhanced. The enemy's Accuracy-based weapon attacks and Annihilation Martial Arts that include Accuracy make an additional check to fail to critically hit the user, with a chance based on their Accuracy percentage.",
       "cn": "此身法持续期间：敌人的精妙不会被任何效果提高；敌人受到的所有降低精妙的功法、状态效果大幅提高；敌人以精妙为命中的兵器攻击以及敌人施展的含有精妙的摧破功法，会以其精妙所占成数额外判定一次无法命中运用者的要害",
-      "ru": "Пока эта Техника передвижения активна, точность противника не может быть увеличена никаким эффектом, и все эффекты боевых искусств и статуса, которые снижают их точность, значительно усиливаются. Атаки противника, основанные на точности оружия, и Боевые искусства сокрушения имеют шанс не поразить жизненно важную точку, исходя из процента точности.",
+      "ru": "Пока эта техника передвижения активна, точность противника не может быть увеличена никаким эффектом, а все эффекты боевых искусств и статуса, снижающие их точность, значительно усиливаются. Атаки оружием противника, основанные на точности, и Боевые искусства сокрушения, включающие точность, проводят дополнительную проверку на то, что пользователь не сможет нанести критический удар, с шансом, основанным на проценте его точности.",
       "status": "machine",
-      "srcHash": "8920b479544ff79a",
+      "srcHash": "03d181e5f3b22bfc",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_996_0": {
       "en": "While this Footwork Art is active, the user depletes the enemy's Stamina when landing attacks with [guqin] weapons.",
@@ -47632,13 +47650,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_1118_0": {
-      "en": "When this Talisman is cast at $0$0% Power: for each of the user's equipped weapon, armor, and relic categories made of Metal, Daze damage is dealt to a random body part of the enemy based on the technique's Power.",
+      "en": "When this Talisman is cast at $0$0% Power: for each of the user's equipped weapon, armor, and relic categories made of Metal, Daze damage is dealt to the enemy based on this Martial Art's Power.",
       "cn": "此符咒发挥$0$成威力时，若运用者装备的每类武器、护具、宝物中有金铁材质，每具有一类就根据此功法的威力对敌人施加失神伤害",
-      "ru": "Когда этот талисман разыгрывается с силой $0$0%: для каждой из категорий снаряженного пользователем оружия, брони и реликвий, изготовленных из металла, урон от оцепенения наносится случайной части тела врага в зависимости от силы техники.",
+      "ru": "Когда этот талисман разыгрывается с силой $0$0%: для каждой из категорий снаряженного пользователем оружия, брони и реликвий, изготовленных из металла, врагу наносится урон от оцепенения, основанный на силе этого боевого искусства.",
       "status": "machine",
-      "srcHash": "08a2725a11d9d30f",
+      "srcHash": "e92a1f4f01f3dab9",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_1119_0": {
       "en": "The user gains 9 stacks of the following effect after casting this talisman at $0$0% Power: The more [Annihilation] Martial Arts sealed on the enemy, the less Direct External and Direct Internal Injury the user takes from the enemy's [Annihilation] Martial Arts. The more [Nimble] Martial Arts sealed, the less Direct Wound Damage the user takes from the enemy's [Annihilation] Martial Arts. The more [Protection] Martial Arts sealed, the less Daze Damage the user takes from the enemy's [Annihilation] Martial Arts.",
@@ -49351,13 +49369,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_1280_0": {
-      "en": "When casting this Martial Art, the more consecutive [Malice] styles at the front of the enemy's queue, the more Openings are inflicted on random enemy body parts. Whenever the user switches to a [Concealed Weapon], if the enemy is within this Martial Art's attack range, it is cast from 50% Cast Progress at no cost, but its Power and the number of Openings inflicted are halved.",
+      "en": "When casting this Martial Art, the more consecutive [Malice] styles at the end of the enemy's queue, the more Openings are inflicted on random enemy body parts. Whenever the user switches to a [Concealed Weapon], if the enemy is within this Martial Art's attack range, it is cast from 50% Cast Progress at no cost, but its Power and the number of Openings inflicted are halved.",
       "cn": "开始施展此功法时，敌人蓄式末尾拥有越多连续的「杀」式，就为敌人添加越多随机部位的破绽；每当运用者使用的兵器切换为「暗器」时，如果敌人在此功法的攻击范围内，从施展进度50%开始无消耗施展此功法攻击敌人，但此功法威力减半，造成的破绽数量也会减半",
-      "ru": "При использовании этой боевой техники, чем больше последовательных стилей [Злобы] в начале очереди противника, тем больше отверстий наносится случайным частям тела противника. Всякий раз, когда пользователь переключается на [Скрытое оружие], если враг находится в пределах досягаемости атаки этой боевой техники, он разыгрывается с 50% прогресса броска бесплатно, но его сила и количество нанесенных ранений уменьшаются вдвое.",
+      "ru": "При использовании этой боевой техники, чем больше последовательных стилей [Злобы] в конце очереди противника, тем больше отверстий наносится случайным частям тела противника. Всякий раз, когда пользователь переключается на [Скрытое оружие], если враг находится в пределах досягаемости атаки этой боевой техники, оно разыгрывается с 50% прогресса броска бесплатно, но его мощность и количество нанесенных ранений уменьшаются вдвое.",
       "status": "machine",
-      "srcHash": "c90318a194225435",
+      "srcHash": "4bedb06f45144381",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_1281_0": {
       "en": "When there are insufficient styles to cast this Martial Art, it can be cast using the enemy's [Malice] styles. After this Martial Art reaches $0$0% Power, the user gains 6 stacks of this effect: for every non-[Malice] style the user consumes to cast a Martial Art, the enemy gains 1 [Malice] style.",
@@ -49369,13 +49387,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_1282_0": {
-      "en": "When casting this Martial Art, the more consecutive [Malice] styles at the front of the enemy's queue, the more this Martial Art's Power increases. When attacking the enemy with this Martial Art, it consumes up to 3 of the enemy's non-[Malice] styles, not exceeding the number of [Malice] styles the enemy has, greatly increasing the Direct DMG dealt by this Martial Art, prioritizing styles at the front of the enemy's queue.",
+      "en": "When casting this Martial Art, the more consecutive [Malice] styles at the front of the enemy's queue, the more this Martial Art's Power increases. When attacking the enemy with this Martial Art, it consumes up to 3 of the enemy's non-[Malice] styles, not exceeding the number of [Malice] styles the enemy has, greatly increasing the Direct DMG dealt by this Martial Art, prioritizing styles at the end of the enemy's queue.",
       "cn": "开始施展此功法时，敌人最前列拥有越多连续的「杀」式，此功法的威力就提高越多；以此功法攻击敌人时，消耗敌人最多3个非「杀」式的蓄式，不超过敌人拥有的「杀」式数量，大幅提高此功法对敌人造成的直接伤害，优先消耗敌人蓄式末尾可用的式",
-      "ru": "При использовании этой боевой техники, чем больше последовательных стилей [Злобы] в начале очереди противника, тем больше увеличивается сила этой боевой техники. При атаке противника этой боевой техникой он использует до 3 стилей противника, отличных от [Злого умысла], не превышая количество стилей [Злого умысла], имеющихся у противника, что значительно увеличивает прямой урон, наносимый этой боевой техникой, отдавая приоритет стилям, находящимся в начале очереди противника.",
+      "ru": "При использовании этой боевой техники, чем больше последовательных стилей [Злобы] в начале очереди противника, тем больше увеличивается сила этой боевой техники. При атаке противника этой боевой техникой он использует до 3 стилей противника, отличных от [Злого умысла], не превышая количество стилей [Злого умысла], имеющихся у противника, что значительно увеличивает прямой урон, наносимый этой боевой техникой, отдавая приоритет стилям в конце очереди противника.",
       "status": "machine",
-      "srcHash": "cdbdb75749f79602",
+      "srcHash": "0d97902042a2a8a6",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_1283_0": {
       "en": "When this Martial Art reaches $0$0% Power, the user gains 2 stacks of this effect: whenever the enemy gains 1 [Malice] style, half of the enemy's Stamina is depleted. If the enemy's Stamina is fully depleted, it inflicts 3 severe sealed acupoints on random enemy body parts.",
@@ -49405,13 +49423,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_1285_0": {
-      "en": "When this Martial Art reaches $0$0% Power, the enemy gains 1 [Malice] style. After this Martial Art reaches $1$ Power, there is a high chance to immediately cast this Martial Art again from 50% Cast Progress at no cost. If the first style in the enemy's queue is a [Malice] style, this chance is greatly increased.",
+      "en": "When cast at $0$0% Power, this Martial Art grants the enemy 1 [Malice] style. After casting at $1$0% Power, there is a high chance to immediately cast it again from 50% Cast Progress at no cost. This chance is greatly increased if the last style in the enemy's queue is a [Malice] style.",
       "cn": "此功法发挥$0$成威力时，使敌人获得1个「杀」式；此功法发挥$1$成威力后，有较高的几率从施展进度50%开始立即无消耗施展此功法攻击敌人，如果敌人蓄式末尾为「杀」式，此几率大幅增加",
-      "ru": "Когда сила этого боевого искусства достигает $0$0%, враг получает 1 стиль [Злоба]. После того, как эта боевая техника достигнет мощности в 1 доллар, есть высокий шанс немедленно разыграть эту боевую технику снова с 50%-ным прогрессом в разряде бесплатно. Если первым стилем в очереди противника является стиль [Malice], этот шанс значительно увеличивается.",
+      "ru": "При использовании с силой $0$0% эта боевая техника дает врагу 1 стиль [Злоба]. После кастинга с мощностью $1$0% есть высокий шанс немедленно разыграть его снова с 50%-ным прогрессом кастинга бесплатно. Этот шанс значительно увеличивается, если последним стилем в очереди противника является стиль [Malice].",
       "status": "machine",
-      "srcHash": "8cfcebd5eba65f1f",
+      "srcHash": "698ff4b73543d0cb",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_1286_0": {
       "en": "When attacking an enemy with this Martial Art: the higher the Favorability between the user and the enemy, the more Direct DMG this Martial Art deals. When Favorability is at Affectionate or higher, the enemy gains 9 [Malice] styles, and after the cast, the enemy's Favorability toward the user will greatly decrease, and a grudge will be formed.",
@@ -49441,13 +49459,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_1289_0": {
-      "en": "When attacking the enemy with this Martial Art, all of the enemy's [Malice] styles are treated as additional Openings on the attacked body part. If the first style in the enemy's queue is a [Malice] style, all consecutive [Malice] styles at the front of the queue are consumed to deal extra Wound damage.",
+      "en": "When attacking the enemy with this Martial Art, all of the enemy's [Malice] styles are treated as additional Openings on the attacked body part. If the last style in the enemy's queue is a [Malice] style, all consecutive [Malice] styles at the end of the queue are consumed to deal extra Wound damage.",
       "cn": "以此功法攻击敌人时，敌人拥有的所有「杀」式均被视为敌人被攻击部位的额外破绽；如果敌人蓄式末尾为「杀」式，消耗敌人蓄式末尾所有的连续的「杀」式，造成额外的重创伤害",
-      "ru": "При атаке противника с помощью этой боевой техники все стили противника [Злоба] рассматриваются как дополнительные отверстия на атаке части тела. Если первым стилем в очереди противника является стиль [Malice], все последовательные стили [Malice] в начале очереди расходуются для нанесения дополнительного урона от ран.",
+      "ru": "При атаке противника с помощью этой боевой техники все стили противника [Злоба] рассматриваются как дополнительные отверстия в атаке на части тела. Если последним стилем в очереди противника является стиль [Malice], все последовательные стили [Malice] в конце очереди расходуются для нанесения дополнительного урона от ран.",
       "status": "machine",
-      "srcHash": "3c5feeb0d94b0387",
+      "srcHash": "18bdb3f67de42b15",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_1290_0": {
       "en": "When this Martial Art reaches $0$0% Power, it reduces the Power of 3 of the enemy's [Fire] Martial Arts, 2 [Metal] Martial Arts, and 1 [Water] Martial Art until the end of battle.",
@@ -49459,13 +49477,13 @@
       "updatedAt": "2026-07-11T19:11:52.236Z"
     },
     "Desc_1291_0": {
-      "en": "If the enemy has at least 7 [Malice] styles, this Martial Art does not require styles to cast. After this Martial Art reaches $0$0% Power, the user gains 7 stacks of this effect: whenever the enemy gains or loses [Malice] styles, if this Martial Art is not Sealed, the user immediately casts a Tier 6 [Sword Arts] from 100% Cast Progress at no cost. For each additional consecutive [Malice] style at the front of the enemy's queue, the tier of the castable [Sword Arts] increases, up to a maximum of Tier 4. When this effect activates, this Martial Art will be unavoidably Sealed for a very short time.",
+      "en": "If the enemy has at least 7 [Malice] styles, this Martial Art does not require styles to cast. After this Martial Art reaches $0$0% Power, the user gains 7 stacks of this effect: whenever the enemy gains or loses [Malice] styles, if this Martial Art is not Sealed, the user immediately casts a Tier 6 [Sword Arts] from 100% Cast Progress at no cost. For each additional consecutive [Malice] style at the end of the enemy's queue, the tier of the castable [Sword Arts] increases, up to a maximum of Tier 4. When this effect activates, this Martial Art will be unavoidably Sealed for a very short time.",
       "cn": "如果敌人拥有至少7个「杀」式，施展此功法不需要消耗蓄式；此功法发挥$0$成威力后，运用者获得7层此效果：每当敌人获得或失去「杀」式，如果此功法未被封禁，运用者从施展进度100%开始立即无消耗施展六阶「剑法」攻击敌人，敌人蓄式末尾每多1个连续的「杀」式，运用者可施展的「剑法」品阶也会提升，最高施展四阶的「剑法」；此效果生效时，将极短时间不可避免地封禁此功法",
-      "ru": "Если у врага есть по крайней мере 7 стилей [Злобы], для этого боевого искусства не требуются стили для применения. После того, как эта боевая техника достигнет $0$0% мощности, пользователь получает 7 стеков этого эффекта: всякий раз, когда враг приобретает или теряет стили [Злобы], если эта боевая техника не запечатана, пользователь немедленно применяет ранг 6 [Искусство меча] со 100% прогрессом применения бесплатно. За каждый дополнительный последовательный стиль [Злоба] в начале очереди противника ранг кастуемого [Искусства меча] увеличивается, максимум до ранга 4. Когда этот эффект активируется, эта боевая техника неизбежно будет запечатана на очень короткое время.",
+      "ru": "Если у врага есть по крайней мере 7 стилей [Злобы], для этого боевого искусства не требуются стили для применения. После того, как эта боевая техника достигнет $0$0% мощности, пользователь получает 7 стеков этого эффекта: всякий раз, когда враг приобретает или теряет стили [Злобы], если эта боевая техника не запечатана, пользователь немедленно применяет ранг 6 [Искусство меча] со 100% прогрессом применения бесплатно. За каждый дополнительный последовательный стиль [Злоба] в конце очереди противника ранг кастуемого [Искусства меча] увеличивается, максимум до ранга 4. Когда этот эффект активируется, эта боевая техника неизбежно будет запечатана на очень короткое время.",
       "status": "machine",
-      "srcHash": "bccffcc9a05a6645",
+      "srcHash": "9120e99e5e12fda5",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Desc_1292_0": {
       "en": "When attacking the enemy with this Martial Art, the more severe the user's Cryotoxin, the more Direct DMG this Martial Art deals to the enemy. When this Martial Art reaches $0$0% Power, the user gains 7 stacks of this effect: the more severe the user's Cryotoxin, the longer the enemy's weapon attack preparation time becomes.",

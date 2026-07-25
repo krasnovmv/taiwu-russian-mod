@@ -486,6 +486,33 @@
       "updatedAt": "2026-07-03T21:32:41.679Z",
       "judgeHash": "3ce13d4451aa6ba3"
     },
+    "Name_49": {
+      "en": "Serialized communication data is too large.",
+      "cn": "通信数据序列化数据过长",
+      "ru": "Объем сериализованных коммуникационных данных слишком велик.",
+      "status": "machine",
+      "srcHash": "42e80b9b4c95b57d",
+      "engine": "yandex",
+      "updatedAt": "2026-07-25T08:27:11.933Z"
+    },
+    "Name_50": {
+      "en": "Item stacking error",
+      "cn": "道具堆叠异常",
+      "ru": "Ошибка при укладке элементов",
+      "status": "machine",
+      "srcHash": "9d8708cee78666ec",
+      "engine": "yandex",
+      "updatedAt": "2026-07-25T08:27:11.933Z"
+    },
+    "Name_51": {
+      "en": "Item stacking error",
+      "cn": "道具堆叠异常",
+      "ru": "Ошибка при укладке элементов",
+      "status": "machine",
+      "srcHash": "9d8708cee78666ec",
+      "engine": "yandex",
+      "updatedAt": "2026-07-25T08:27:11.933Z"
+    },
     "Info_0": {
       "en": "Illegal Secret data detected and removed.",
       "cn": "因检测到非法的秘闻数据，已作清空处理",
@@ -956,65 +983,32 @@
       "updatedAt": "2026-07-03T21:32:41.679Z",
       "judgeHash": "49da9194e627d828"
     },
-    "Name_49": {
-      "en": "通信数据序列化数据过长",
-      "cn": null,
-      "ru": "Слишком большой объем данных для сериализации коммуникационных данных",
-      "status": "machine",
-      "srcHash": "ba9d05f72dab266a",
-      "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z",
-      "judgeHash": "a801d60418808068"
-    },
-    "Name_50": {
-      "en": "道具堆叠异常",
-      "cn": null,
-      "ru": "Неправильное расположение опор",
-      "status": "machine",
-      "srcHash": "5d65a0a947a1762d",
-      "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z",
-      "judgeHash": "877b85f94d9d1b57"
-    },
-    "Name_51": {
-      "en": "道具堆叠异常",
-      "cn": null,
-      "ru": "Аномальная стопка предметов",
-      "status": "judged",
-      "srcHash": "5d65a0a947a1762d",
-      "engine": "yandex",
-      "updatedAt": "2026-07-16T08:00:38.821Z",
-      "judgeHash": "877b85f94d9d1b57"
-    },
     "Info_49": {
-      "en": "当前序列化数据大小为{0}kb,超出设计上限{1}kb. 注意查看是否为游戏本体问题, 调整并限制数据类型大小. 该警告不会在正式分支输出.",
-      "cn": null,
-      "ru": "Текущий размер сериализованных данных равен {0} кб, превышающий расчетный верхний предел {1} кб. Убедитесь, что это не проблема игрового движка, отрегулируйте и ограничьте размер типа данных. Это предупреждение не будет выведено в официальной ветке.",
-      "status": "judged",
-      "srcHash": "ca449a31a116e8a1",
+      "en": "The current serialized data size is {0} KB, exceeding the designed limit of {1} KB. Check whether this is an issue with the base game, then adjust and limit the size of the relevant data type. This warning will not be displayed in the release branch.",
+      "cn": "当前序列化数据大小为{0}kb,超出设计上限{1}kb. 注意查看是否为游戏本体问题, 调整并限制数据类型大小. 该警告不会在正式分支输出.",
+      "ru": "Текущий размер сериализованных данных равен {0} КБ, что превышает установленный предел в {1} БЗ. Проверьте, не связано ли это с базовой игрой, затем отрегулируйте и ограничьте размер соответствующего типа данных. Это предупреждение не будет отображаться в ветке релиза.",
+      "status": "machine",
+      "srcHash": "63de96c36421a510",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T08:00:38.821Z",
-      "judgeHash": "2a4bdb52fa9de516"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Info_50": {
-      "en": "试图向道具集合Inventory中添加不可堆叠道具[{0}]，该道具已经存在。",
-      "cn": null,
-      "ru": "Попытка добавить нескладываемый предмет [{0}] в коллекцию предметов, этот предмет уже существует.",
-      "status": "judged",
-      "srcHash": "cb38ca0cd06437df",
+      "en": "Attempted to add the non-stackable item [{0}] to the Inventory collection, but the item already exists.",
+      "cn": "试图向道具集合Inventory中添加不可堆叠道具[{0}]，该道具已经存在。",
+      "ru": "Была предпринята попытка добавить не складываемый товар [{0}] в коллекцию инвентаря, но этот товар уже существует.",
+      "status": "machine",
+      "srcHash": "c99d1ac4da21ba3a",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T08:00:38.821Z",
-      "judgeHash": "60af0ca8b717e9fa"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     },
     "Info_51": {
-      "en": "试图向道具集合Inventory中添加数量为{1}的不可堆叠道具[{0}]。",
-      "cn": null,
-      "ru": "Попытка добавить в инвентарь {1} единиц нескладываемого предмета [{0}].",
-      "status": "judged",
-      "srcHash": "ea54491b705c9b8c",
+      "en": "Attempted to add {1} of the non-stackable item [{0}] to the Inventory collection.",
+      "cn": "试图向道具集合Inventory中添加数量为{1}的不可堆叠道具[{0}]。",
+      "ru": "Предпринята попытка добавить {1} из не складываемого товара [{0}] в коллекцию инвентаря.",
+      "status": "machine",
+      "srcHash": "dc19f24a312fb145",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T08:00:38.821Z",
-      "judgeHash": "e4a736ac4c2ece42"
+      "updatedAt": "2026-07-25T08:27:11.933Z"
     }
   }
 }
