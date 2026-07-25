@@ -12,6 +12,6 @@
         /// attributes and the Author/Version fields of dist/Config.Lua (rewritten by the
         /// SyncConfigLua build target) all come from here. Keep the four-part form the game's
         /// mod list expects.</summary>
-        public const string Version = "0.6.1.0";
+        public const string Version = "0.7.0.0";
     }
 }
