@@ -22803,7 +22803,7 @@
     },
     "LK_Building_FixBook_None": {
       "en": "Insert damaged books to restore Durability...",
-      "cn": "置入破损书籍以修复耐久…",
+      "cn": "置入书籍以修复其残缺或亡佚篇章…",
       "ru": "Вставьте поврежденные книги, чтобы восстановить их прочность...",
       "status": "machine",
       "srcHash": "41350207adf8f175",
@@ -48835,6 +48835,24 @@
       "srcHash": "3ddbe8c2cd28f623",
       "engine": "yandex",
       "updatedAt": "2026-07-11T22:41:11.235Z"
+    },
+    "LK_Dlc_FiveLoong_Jiao_Nurturance_Dialog_Content_Reduce": {
+      "en": "If you choose <color=#orange>{0}</color>, it will take at least <color=#orange>{1}</color> months to finish raising the Jiao.\\nEach month will consume certain resources and decrease the Jiao's <color=#orange>{4}</color>...\\n<SpName={5}> {2} {3}/<SpName=mousetip_shijie>\\n\\nAre you sure you want to adopt <color=#orange>{0}</color>?",
+      "cn": "若采用<color=#orange>「{0}」</color>，至少需要<color=#orange>{1}</color>个月完成养育，\\n期间每个月将会消耗一定资源，并减少蛟的<color=#orange>「{4}」</color>…\\n<SpName={5}>{2}{3}/<SpName=mousetip_shijie>\\n\\n确定要采用<color=#orange>「{0}」</color>吗？",
+      "ru": "Если вы выберете <color=#orange>{0}</color>, это займет по крайней мере <color=#orange>{1}</color> месяцы, чтобы закончить выращивание Цзяо.\\nКаждый месяц будет потреблять определенные ресурсы и уменьшать количество Цзяо <color=#orange>{4}</color>...\\n<SpName={5}> {2} {3}/<SpName=mousetip_shijie>\\n\\nВы уверены, что хотите усыновить ребенка <color=#orange>{0}</color>?",
+      "status": "machine",
+      "srcHash": "27333daeed29d251",
+      "engine": "yandex",
+      "updatedAt": "2026-08-18T11:20:59.809Z"
+    },
+    "LK_Dlc_FiveLoong_Jiao_Nurturance_Dialog_Content_Change_Reduce": {
+      "en": "If you choose <color=#orange>{0}</color>, it will take at least <color=#orange>{1}</color> months to finish raising the Jiao.\\nEach month will consume certain resources and decrease the Jiao's <color=#orange>{4}</color>...\\n<SpName={5}> {2} {3} / <SpName=mousetip_shijie>\\n\\n<color=#brightred>Changing the nurturing policy midway will not refund previously spent resources.\\nThe nurturing duration and all growth effects will reset.</color>\\nAre you sure you want to switch the policy to <color=#orange>{0}</color>?",
+      "cn": "若采用<color=#orange>「{0}」</color>，至少需要<color=#orange>{1}</color>个月完成养育，\\n期间每个月将会消耗一定资源，并减少蛟的<color=#orange>「{4}」</color>…\\n<SpName={5}>{2}{3}/<SpName=mousetip_shijie>\\n\\n在养育期间更换养育方针，\\n<color=#brightred>将不会退回已消耗的资源，并且将重置养育时间和所有养育效果，</color>\\n确定要将养育方针更换为<color=#orange>「{0}」</color>吗？",
+      "ru": "Если вы выберете <color=#orange>{0}</color>, это займет по крайней мере <color=#orange>{1}</color> месяцы, чтобы закончить выращивание Цзяо.\\nКаждый месяц будет потреблять определенные ресурсы и уменьшать количество Цзяо <color=#orange>{4}</color>...\\n<SpName={5}> {2} {3} / <SpName=mousetip_shijie>\\n\\n<color=#brightred>Изменение политики воспитания на полпути не приведет к возврату ранее потраченных ресурсов.\\nПродолжительность кормления и все эффекты роста будут сброшены.</color>\\nВы уверены, что хотите изменить политику на <color=#orange>{0}</color>?",
+      "status": "machine",
+      "srcHash": "c5062bb8132c607a",
+      "engine": "yandex",
+      "updatedAt": "2026-08-18T11:20:59.809Z"
     },
     "LK_Dlc_FiveLoong_Jiao_Nurturance_Dialog_Content_Natural": {
       "en": "If you choose <color=#orange>Let it grow freely</color>, it will take at least <color=#orange>18</color> months to finish raising the Jiao.\\n<color=#lightgrey>Each month will consume no resources, but the Jiao's attributes won't grow on their own...</color>\\n\\nAre you sure you want to adopt <color=#orange>Let it grow freely</color>?",
