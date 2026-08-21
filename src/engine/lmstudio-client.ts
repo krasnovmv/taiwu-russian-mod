@@ -7,13 +7,18 @@
  * off. Prompting, glossary handling and output validation live in the callers.
  *
  * Config via environment (all optional — it points at a local server):
- *   TAIWU_LMSTUDIO_BASE_URL   default http://localhost:1234/v1
- *   TAIWU_LMSTUDIO_MODEL      default: first non-embedding model the server lists
+ *   TAIWU_LMSTUDIO_BASE_URL          default http://localhost:1234/v1
+ *   TAIWU_LMSTUDIO_MODEL             default: first non-embedding model the server lists
+ *   TAIWU_LMSTUDIO_REASONING_EFFORT  default "none"; empty = omit the field
  *
- * Reasoning is always disabled — for a reasoning model like Qwen3 it cuts latency
- * dramatically (~70s → ~1s per request) and the thinking trace never reaches the
- * output. Any inline `<think>…</think>` is stripped as a fallback for models that
- * ignore the flag.
+ * Reasoning is disabled by default — for a reasoning model like Qwen3 it cuts
+ * latency dramatically (~70s → ~1s per request) and the thinking trace never
+ * reaches the output. Any inline `<think>…</think>` is stripped as a fallback for
+ * models that ignore the flag. Not every OpenAI-compatible server accepts
+ * `reasoning_effort: "none"` though (an OpenAI-backed one rejects the whole
+ * request with a 400, listing low/medium/high as the only values), hence the
+ * override: set the level the server does accept, or set it empty to leave the
+ * field out entirely.
  */
 import { backoffMs, delay } from "../util/async.js";
 import { cleanOutput, type ChatMessage, type ChatOptions } from "./chat-client.js";
@@ -36,16 +41,22 @@ interface ChatResponse {
 export class LmStudioClient {
   private readonly baseUrl: string;
   private model: string | null;
+  /** Value for `reasoning_effort`; `null` leaves the field out of the request. */
+  private readonly reasoningEffort: string | null;
 
-  constructor(cfg: { baseUrl?: string; model?: string } = {}) {
+  constructor(cfg: { baseUrl?: string; model?: string; reasoningEffort?: string | null } = {}) {
     this.baseUrl = (cfg.baseUrl ?? "http://localhost:1234/v1").replace(/\/$/, "");
     this.model = cfg.model ?? null;
+    this.reasoningEffort = cfg.reasoningEffort === undefined ? "none" : cfg.reasoningEffort;
   }
 
   static fromEnv(model?: string): LmStudioClient {
+    const effort = process.env.TAIWU_LMSTUDIO_REASONING_EFFORT;
     return new LmStudioClient({
       baseUrl: process.env.TAIWU_LMSTUDIO_BASE_URL,
       model: model ?? process.env.TAIWU_LMSTUDIO_MODEL,
+      // Set but empty is a deliberate "send no reasoning_effort at all".
+      reasoningEffort: effort === undefined ? "none" : effort.trim() || null,
     });
   }
 
@@ -89,7 +100,7 @@ export class LmStudioClient {
       // Qwen3.5, `reasoning_effort` for small Qwen3 (e.g. 0.6b), and
       // `chat_template_kwargs` covers other servers/models.
       enable_thinking: false,
-      reasoning_effort: "none",
+      ...(this.reasoningEffort === null ? {} : { reasoning_effort: this.reasoningEffort }),
       chat_template_kwargs: { enable_thinking: false },
     });
     const timeoutMs = opts.timeoutMs ?? DEFAULT_TIMEOUT_MS;
@@ -126,13 +137,19 @@ export class LmStudioClient {
 
 /**
  * Whether a server error body describes a PERMANENT request problem — one that
- * would fail identically on every retry, so retrying only wastes attempts. The
- * one we hit in the wild is a context-window overflow (a long unit plus the judge
- * prompt exceeds the model's context); LM Studio reports it as a 400 whose body
- * says the context size was exceeded.
+ * would fail identically on every retry, so retrying only wastes attempts. Two
+ * we hit in the wild: a context-window overflow (a long unit plus the judge
+ * prompt exceeds the model's context), which LM Studio reports as a 400 whose
+ * body says the context size was exceeded; and a rejected request parameter
+ * (e.g. a server that does not accept `reasoning_effort: "none"`), where the
+ * body is an invalid-request/enum complaint. Both need a config change, not
+ * another attempt.
  */
 function isPermanent(body: string): boolean {
-  return /context (?:size|length)|exceed|too (?:long|large|many tokens)/i.test(body);
+  return (
+    /context (?:size|length)|exceed|too (?:long|large|many tokens)/i.test(body) ||
+    /invalid[_ ](?:request|enum)|invalid enum value/i.test(body)
+  );
 }
 
 async function fetchWithTimeout(url: string, body: string, timeoutMs: number): Promise<Response> {
