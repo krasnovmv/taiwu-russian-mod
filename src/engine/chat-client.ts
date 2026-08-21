@@ -10,7 +10,12 @@
 const THINK_RE = /<think>[\s\S]*?<\/think>/gi;
 
 export interface ChatMessage {
-  role: "system" | "user";
+  /**
+   * `assistant` carries a reply the model itself produced earlier in the same
+   * conversation — see {@link ChatSession}. Both backends pass `messages`
+   * through verbatim, so a multi-turn history needs nothing else from them.
+   */
+  role: "system" | "user" | "assistant";
   content: string;
 }
 
@@ -41,17 +46,26 @@ export function cleanOutput(raw: string): string {
   return out;
 }
 
-/** Run `fn` over `items` with bounded concurrency, preserving order. */
+/**
+ * Run `fn` over `items` with bounded concurrency, preserving order.
+ *
+ * `fn` also receives the index of the WORKER running it (0 … concurrency-1),
+ * which is what lets a caller give each lane its own state — the judge hands each
+ * worker its own {@link ChatSession}, so concurrent lanes never interleave turns
+ * into one conversation.
+ */
 export async function mapPool<T, R>(
   items: T[],
   concurrency: number,
-  fn: (item: T, index: number) => Promise<R>,
+  fn: (item: T, index: number, worker: number) => Promise<R>,
 ): Promise<R[]> {
   const results = new Array<R>(items.length);
   let next = 0;
-  async function worker(): Promise<void> {
+  // `Array.from` passes the element index to its map function, which is exactly
+  // the worker's lane number.
+  async function worker(_unused: unknown, lane: number): Promise<void> {
     for (let i = next++; i < items.length; i = next++) {
-      results[i] = await fn(items[i] as T, i);
+      results[i] = await fn(items[i] as T, i, lane);
     }
   }
   const workers = Array.from({ length: Math.min(concurrency, items.length) }, worker);

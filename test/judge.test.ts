@@ -436,6 +436,102 @@ test("unparseable model output marks and memoizes nothing — the group stays re
   assert.match(stats.problems[0]?.error ?? "", /unparseable/);
 });
 
+/** A client that records the WHOLE message array, so a conversation is visible. */
+const sessionClientOf = (
+  respond: (user: string) => string,
+): { calls: ChatMessage[][]; chat: (messages: ChatMessage[]) => Promise<string> } => {
+  const calls: ChatMessage[][] = [];
+  return {
+    calls,
+    chat: (messages) => {
+      calls.push(messages.map((m) => ({ ...m })));
+      return Promise.resolve(respond(messages[messages.length - 1]?.content ?? ""));
+    },
+  };
+};
+const usersOf = (call: ChatMessage[]): string[] =>
+  call.filter((m) => m.role === "user").map((m) => m.content);
+
+test("the default window keeps every request stateless", async () => {
+  const tm = tmOf({
+    a: liveUnit("Adventure", "Приключение"),
+    b: liveUnit("Sect", "Секта"),
+    c: liveUnit("Blade", "Клинок"),
+  });
+  const client = sessionClientOf(() => KEEP);
+
+  await judgeTm(tm, client, emptyGlossary, { concurrency: 1 });
+
+  // system + the one unit, exactly as before sessions existed.
+  assert.deepEqual(
+    client.calls.map((m) => m.length),
+    [2, 2, 2],
+  );
+});
+
+test("a session carries its earlier turns and restarts after the window", async () => {
+  const tm = tmOf({
+    a: liveUnit("Adventure", "Приключение"),
+    b: liveUnit("Sect", "Секта"),
+    c: liveUnit("Blade", "Клинок"),
+    d: liveUnit("Mirror", "Зеркало"),
+    e: liveUnit("Poison", "Яд"),
+  });
+  const client = sessionClientOf(() => KEEP);
+
+  await judgeTm(tm, client, emptyGlossary, { concurrency: 1, sessionTurns: 3 });
+
+  // Three turns in one conversation (2, 4, 6 messages), then a fresh one.
+  assert.deepEqual(
+    client.calls.map((m) => m.length),
+    [2, 4, 6, 2, 4],
+  );
+  assert.deepEqual(
+    client.calls[2]?.map((m) => m.role),
+    ["system", "user", "assistant", "user", "assistant", "user"],
+  );
+  // The history is this lane's own earlier units, in order.
+  assert.deepEqual(
+    usersOf(client.calls[2] ?? []).map((u) => /ENGLISH:\n(\w+)/.exec(u)?.[1]),
+    ["Adventure", "Sect", "Blade"],
+  );
+});
+
+test("an answer the pipeline could not use is dropped from the conversation", async () => {
+  // Unparseable output, then a rewrite QA rejects: neither may stay in the
+  // history as an example of what the model is expected to return.
+  for (const bad of ["Sure, it all looks fine to me.", fixWith("Adventure тур")]) {
+    const tm = tmOf({
+      a: liveUnit("Adventure", "Приключение"),
+      b: liveUnit("Sect", "Секта"),
+    });
+    const client = sessionClientOf((user) => (user.includes("Adventure") ? bad : KEEP));
+
+    await judgeTm(tm, client, emptyGlossary, { concurrency: 1, sessionTurns: 5 });
+
+    assert.equal(client.calls.length, 2);
+    assert.equal(client.calls[1]?.length, 2); // the second unit starts clean
+  }
+});
+
+test("concurrent lanes keep separate conversations", async () => {
+  const tm = tmOf({
+    a: liveUnit("Adventure", "Приключение"),
+    b: liveUnit("Sect", "Секта"),
+    c: liveUnit("Blade", "Клинок"),
+    d: liveUnit("Mirror", "Зеркало"),
+  });
+  const client = sessionClientOf(() => KEEP);
+
+  await judgeTm(tm, client, emptyGlossary, { concurrency: 2, sessionTurns: 4 });
+
+  // Two lanes → two conversations, and a turn of one never lands in the other.
+  assert.equal(client.calls.filter((m) => m.length === 2).length, 2);
+  const withFirst = client.calls.filter((c) => usersOf(c).some((u) => u.includes("Adventure")));
+  assert.ok(withFirst.length > 0);
+  assert.ok(withFirst.every((c) => !usersOf(c).some((u) => u.includes("Sect"))));
+});
+
 test("the CN block says so when the string has no Chinese original", () => {
   const msg = buildUserMessage(
     { file: "f.txt", key: "k", en: "Hello", cn: null, ru: "Привет" },

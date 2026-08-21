@@ -35,6 +35,7 @@ import {
   JUDGE_CHECKPOINT,
   JUDGE_CONCURRENCY,
   JUDGE_EXPLANATIONS,
+  JUDGE_SESSION_TURNS,
   JUDGE_VERSION,
 } from "../config/judge.js";
 import { EngineCache } from "../engine/cache-lookup.js";
@@ -53,6 +54,7 @@ import {
   summarize,
   verdictSchema,
 } from "./prompt.js";
+import { ChatSession } from "./session.js";
 
 /** Engine marker the pipeline gives language-neutral units (EN == CN). */
 const NEUTRAL_ENGINE = "neutral";
@@ -97,6 +99,12 @@ export interface JudgeOptions {
   dryRun?: boolean;
   now?: string;
   concurrency?: number;
+  /**
+   * Units reviewed inside one conversation before it restarts (see
+   * `judge/session.ts`); 1 makes every request stateless. Defaults to
+   * {@link JUDGE_SESSION_TURNS}.
+   */
+  sessionTurns?: number;
   /**
    * Verdict memo: {@link verdictKey} → settled outcome. Pass ONE memo to every
    * call of a run and a context already judged in an earlier file is settled
@@ -283,12 +291,22 @@ export async function judgeTm(
   const schema = verdictSchema(JUDGE_EXPLANATIONS);
   const stats: JudgeStats = emptyStats(tm.file);
   const concurrency = Math.max(1, options.concurrency ?? JUDGE_CONCURRENCY);
+  // One conversation per concurrent lane, kept across checkpoints so a window
+  // is not cut short every 25 groups. They do NOT outlive the file: `judgeTm` is
+  // called per TM, so a file with fewer groups than the window simply never
+  // fills one — worth folding into a global work queue when the judge starts
+  // sending batches and a file is only a request or two.
+  const sessionTurns = Math.max(1, options.sessionTurns ?? JUDGE_SESSION_TURNS);
+  const sessions = Array.from(
+    { length: concurrency },
+    () => new ChatSession(client, system, sessionTurns),
+  );
   let done = 0;
 
   for (let start = 0; start < groupList.length; start += JUDGE_CHECKPOINT) {
     const chunk = groupList.slice(start, start + JUDGE_CHECKPOINT);
 
-    await mapPool(chunk, concurrency, async (members) => {
+    await mapPool(chunk, concurrency, async (members, _index, lane) => {
       const head = members[0] as Candidate;
       const memoKey = verdictKey(head.hash, head.unit);
       const keepAll = (): void => {
@@ -323,31 +341,32 @@ export async function judgeTm(
 
       const { key, unit } = head;
       const ru = unit.ru as string;
+      // Each lane owns its conversation, so turns of concurrent lanes never
+      // interleave into one history. With sessionTurns = 1 this is a plain
+      // stateless request, byte for byte what the judge sent before.
+      const session = sessions[lane] as ChatSession;
       try {
-        const raw = await client.chat(
-          [
-            { role: "system", content: system },
+        const raw = await session.ask(
+          buildUserMessage(
             {
-              role: "user",
-              content: buildUserMessage(
-                {
-                  file: tm.file,
-                  key,
-                  en: unit.en,
-                  cn: unit.cn,
-                  ru,
-                  machine: await machineFor(unit),
-                },
-                glossary,
-              ),
+              file: tm.file,
+              key,
+              en: unit.en,
+              cn: unit.cn,
+              ru,
+              machine: await machineFor(unit),
             },
-          ],
+            glossary,
+          ),
           { jsonSchema: schema },
         );
         const verdict = parseVerdict(raw);
         if (verdict === null) {
           // Same handling as a thrown request error: every member left unmarked
-          // and un-memoized, so a later run retries the group.
+          // and un-memoized, so a later run retries the group. The garbage is
+          // dropped from the conversation too — an unparseable answer left in
+          // the history is an example of what the model should NOT return.
+          session.rollback();
           stats.errors++;
           stats.problems.push({ key, error: "unparseable model output — will retry" });
           return;
@@ -379,6 +398,9 @@ export async function judgeTm(
           ...glossaryMisses(verdict.ru, matchGlossary(unit.en, glossary)),
         ];
         if (broken.length > 0) {
+          // Dropped from the conversation as well: a rewrite QA threw away must
+          // not sit in the history as a model answer worth imitating.
+          session.rollback();
           stats.rejected++;
           const why = broken.map((i) => `${i.kind}: ${i.detail}`).join("; ");
           stats.problems.push({ key, error: `fix rejected — ${why}` });

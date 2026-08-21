@@ -76,6 +76,27 @@ export const JUDGE_CONCURRENCY = envInt("TAIWU_JUDGE_CONCURRENCY", DEFAULT_CONCU
 export const JUDGE_CHECKPOINT = envInt("TAIWU_JUDGE_CHECKPOINT", 25);
 
 /**
+ * Turns per conversation: how many units a judge lane reviews inside ONE growing
+ * chat before starting a fresh one (see `judge/session.ts`). Each concurrent lane
+ * keeps its own conversation, so `TAIWU_JUDGE_CONCURRENCY` conversations are open
+ * at a time.
+ *
+ * DEFAULT 1 = stateless, i.e. exactly the behaviour before sessions existed, and
+ * that default is measured, not conservative-by-habit: with one unit per turn a
+ * session runs 20-25% SLOWER than stateless requests, because a short unit barely
+ * makes the model deliberate, so there is no warm-up to save (it does take the
+ * prompt-cache hit rate from 0 to ~57%, but that is a cost metric, not latency).
+ * The same A/B on BATCHED turns went the other way, +41%. So this becomes worth
+ * raising once the judge sends batches — until then it is a lever to experiment
+ * with (`--session-turns N`), not a default to flip.
+ *
+ * It does NOT invalidate verdicts: like the backend swap, it changes how the
+ * model is asked, not what the prompt says, and the model is deliberately not
+ * part of `judgeHash`.
+ */
+export const JUDGE_SESSION_TURNS = envInt("TAIWU_JUDGE_SESSION_TURNS", 1);
+
+/**
  * Whether the model must attach a short `explanation` to each annotated error.
  * On by default — the explanations are what the CLI report and the fix log show.
  * Set `TAIWU_JUDGE_EXPLANATIONS=0` to drop the field entirely: the schema no

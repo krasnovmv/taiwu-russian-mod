@@ -7,6 +7,13 @@
  *   npm run judge -- --all --min-len 40     # only the long prose
  *   npm run judge -- --all --dry-run        # report the fixes, write nothing
  *   npm run judge -- --all --force          # re-judge units that already have a verdict
+ *   npm run judge -- <file> --session-turns 6   # review 6 units per conversation
+ *
+ * `--session-turns` (default 1 = a stateless request per unit) keeps a lane's
+ * units in ONE growing conversation, so the model answers having seen its own
+ * earlier verdicts; see `judge/session.ts` for what that costs and buys — on
+ * one-unit turns it measured SLOWER, so the default stands until the judge
+ * batches several units into a turn.
  *
  * Backend is chosen by TAIWU_JUDGE_ENGINE: Yandex AI Studio (default;
  * TAIWU_YANDEX_API_KEY / TAIWU_YANDEX_FOLDER_ID, billed per token) or a local LM
@@ -22,7 +29,7 @@
  *
  * Nothing reaches the game until `npm run apply-all`.
  */
-import { JUDGE_CONCURRENCY, JUDGE_ENGINE } from "../config/judge.js";
+import { JUDGE_CONCURRENCY, JUDGE_ENGINE, JUDGE_SESSION_TURNS } from "../config/judge.js";
 import { EVENT_DLC_PREFIX, EVENT_PREFIX } from "../config/sources.js";
 import { LmStudioClient } from "../engine/lmstudio-client.js";
 import { YandexGptClient } from "../engine/yandex-gpt-client.js";
@@ -44,6 +51,7 @@ interface Args {
   minLen: number | undefined;
   maxLen: number | undefined;
   concurrency: number | undefined;
+  sessionTurns: number | undefined;
   model: string | undefined;
   force: boolean;
   dryRun: boolean;
@@ -57,6 +65,7 @@ function parseArgs(argv: string[]): Args {
     minLen: undefined,
     maxLen: undefined,
     concurrency: undefined,
+    sessionTurns: undefined,
     model: undefined,
     force: false,
     dryRun: false,
@@ -71,6 +80,7 @@ function parseArgs(argv: string[]): Args {
     else if (arg === "--min-len") a.minLen = num(argv[++i]);
     else if (arg === "--max-len") a.maxLen = num(argv[++i]);
     else if (arg === "--concurrency") a.concurrency = num(argv[++i]);
+    else if (arg === "--session-turns") a.sessionTurns = num(argv[++i]);
     else if (arg === "--model") a.model = argv[++i];
     else if (arg === "--force") a.force = true;
     else if (arg === "--dry-run") a.dryRun = true;
@@ -85,7 +95,7 @@ async function main(): Promise<void> {
   if (!args.all && !args.file) {
     console.error(
       "Usage: npm run judge -- (<file> | --all) [--limit N] [--min-len N] [--max-len N]\n" +
-        "       [--concurrency N] [--model ID] [--force] [--dry-run]",
+        "       [--concurrency N] [--session-turns N] [--model ID] [--force] [--dry-run]",
     );
     process.exitCode = 1;
     return;
@@ -118,9 +128,12 @@ async function main(): Promise<void> {
       : "";
   const suffix = args.dryRun ? " (dry-run)" : "";
   const concurrency = args.concurrency ?? JUDGE_CONCURRENCY;
+  const sessionTurns = Math.max(1, args.sessionTurns ?? JUDGE_SESSION_TURNS);
   console.log(
     `Judge${suffix} | engine: ${JUDGE_ENGINE} | model: ${model} | files: ${files.length} | ` +
-      `concurrency: ${concurrency}${window}` +
+      `concurrency: ${concurrency}` +
+      (sessionTurns > 1 ? ` | session: ${sessionTurns} turns` : "") +
+      `${window}` +
       (args.force ? " | force" : ""),
   );
 
@@ -153,6 +166,7 @@ async function main(): Promise<void> {
       dryRun: args.dryRun,
       now,
       concurrency: args.concurrency,
+      sessionTurns,
       memo,
       onStart: (total) => {
         fileTotal = total;
