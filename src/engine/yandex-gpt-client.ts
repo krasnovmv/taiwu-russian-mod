@@ -41,9 +41,7 @@ interface ChatResponse {
 }
 
 /** How the client authenticates: a non-expiring API key, or an IAM token. */
-type Auth =
-  | { kind: "api-key"; value: string }
-  | { kind: "iam"; getToken: () => Promise<string> };
+type Auth = { kind: "api-key"; value: string } | { kind: "iam"; getToken: () => Promise<string> };
 
 export interface YandexGptConfig {
   baseUrl?: string;

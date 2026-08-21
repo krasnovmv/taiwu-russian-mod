@@ -85,9 +85,7 @@ test("decodeHtmlEntities reverses Yandex's HTML-mode escaping", () => {
 });
 
 /** An engine whose gRPC client is replaced by a scripted stub (no yc, no network). */
-function engineWith(
-  translate: () => Promise<{ translations: { text: string }[] }>,
-): YandexEngine {
+function engineWith(translate: () => Promise<{ translations: { text: string }[] }>): YandexEngine {
   const engine = new YandexEngine({
     getIamToken: () => Promise.resolve("t"),
     getFolderId: () => Promise.resolve("f"),

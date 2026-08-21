@@ -1,11 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import {
-  applyGlossaryFeeds,
-  glossarySignature,
-  matchGlossary,
-} from "../src/glossary/match.js";
+import { applyGlossaryFeeds, glossarySignature, matchGlossary } from "../src/glossary/match.js";
 
 const G = new Map([
   ["qi", "ци"],
@@ -57,7 +53,12 @@ const FEEDS = new Map([["phy. penetration", "Physical Penetration"]]);
 
 test("a term's feed surrogate rides along on the match", () => {
   assert.deepEqual(matchGlossary("boosts Phy. Penetration now", DOT, FEEDS), [
-    { en: "phy. penetration", ru: "Физ. урон", src: "Phy. Penetration", feed: "Physical Penetration" },
+    {
+      en: "phy. penetration",
+      ru: "Физ. урон",
+      src: "Phy. Penetration",
+      feed: "Physical Penetration",
+    },
   ]);
   // without a feeds map, no surrogate is attached (unchanged behaviour)
   assert.deepEqual(matchGlossary("boosts Phy. Penetration now", DOT), [
@@ -84,7 +85,13 @@ const TERMINAL_DOT_FEEDS = new Map([
 test("a term ending in a period matches whatever follows the dot", () => {
   // after a period `\b` exists only before a word char, so these all need the
   // trailing anchor dropped: punctuation, markup, digits, or end of string
-  for (const text of ["Acritoxin Res.-100", "Toxin Res.</align>", "Lv.1/Lv.2", "Lv.{0} Skills", "Res."]) {
+  for (const text of [
+    "Acritoxin Res.-100",
+    "Toxin Res.</align>",
+    "Lv.1/Lv.2",
+    "Lv.{0} Skills",
+    "Res.",
+  ]) {
     assert.ok(matchGlossary(text, TERMINAL_DOT, TERMINAL_DOT_FEEDS).length > 0, text);
   }
   // the leading word boundary still holds
@@ -108,9 +115,6 @@ test("applyGlossaryFeeds swaps the dotted term for its surrogate in text", () =>
     "attacking boosts the user's Physical Penetration.",
   );
   // no feeds map, or a term without a surrogate → text unchanged
-  assert.equal(
-    applyGlossaryFeeds("boosts Phy. Penetration.", DOT),
-    "boosts Phy. Penetration.",
-  );
+  assert.equal(applyGlossaryFeeds("boosts Phy. Penetration.", DOT), "boosts Phy. Penetration.");
   assert.equal(applyGlossaryFeeds("just qi here", new Map([["qi", "ци"]]), FEEDS), "just qi here");
 });

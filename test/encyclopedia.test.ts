@@ -103,10 +103,7 @@ test("reference: c4 elements reassemble with the same comma count", () => {
   );
   assert.equal(out.guardOk, true, out.guardError ?? "guard failed");
   assert.equal(out.applied, 3);
-  assert.match(
-    out.content,
-    /\t\{Место ловли,Cyan Cricket,Жёлтый сверчок\}\tОбзор мест ловли\n/,
-  );
+  assert.match(out.content, /\t\{Место ловли,Cyan Cricket,Жёлтый сверчок\}\tОбзор мест ловли\n/);
   // c0–c3 stable identifiers intact.
   assert.match(out.content, /^表Buzhuodian\t表\tBuzhuodian\t\{0\}\t/);
 });

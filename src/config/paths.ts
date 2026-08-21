@@ -104,7 +104,10 @@ export function gameRoot(): string {
  * filename suffix of quest files).
  */
 export function mirrorToOutput(realGamePath: string): string {
-  const rel = path.relative(gameRoot(), realGamePath).split("Language_EN").join(`Language_${outLang}`);
+  const rel = path
+    .relative(gameRoot(), realGamePath)
+    .split("Language_EN")
+    .join(`Language_${outLang}`);
   return path.join(outputRoot(), rel);
 }
 
@@ -118,8 +121,7 @@ export function mirrorToOutput(realGamePath: string): string {
  * - otherwise → `<outputRoot>/<…_Data>/StreamingAssets/Language_<outLang>`.
  */
 export function languageRuDir(): string {
-  if (process.env.TAIWU_LANG_RU_DIR)
-    return path.resolve(process.env.TAIWU_LANG_RU_DIR);
+  if (process.env.TAIWU_LANG_RU_DIR) return path.resolve(process.env.TAIWU_LANG_RU_DIR);
   return mirrorToOutput(realpathSync(languageDir));
 }
 

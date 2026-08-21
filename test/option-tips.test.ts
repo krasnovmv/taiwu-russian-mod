@@ -3,7 +3,8 @@ import { test } from "node:test";
 
 import { optionTipsAdapter } from "../src/formats/option-tips.js";
 
-const EN = "Taiwu has less than {0} companion(s).\nFavorability is at or above {0}.\n\n{0} is not a companion.\n";
+const EN =
+  "Taiwu has less than {0} companion(s).\nFavorability is at or above {0}.\n\n{0} is not a companion.\n";
 const CN = "太吾同道的数量少于{0}\n好感度不低于{0}\n\n{0}不为同道\n";
 
 test("extract: one unit per non-blank line, keyed by index, CN-aligned", () => {

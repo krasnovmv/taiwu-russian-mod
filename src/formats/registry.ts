@@ -5,10 +5,7 @@ import { isMultilineValueFile } from "../config/known-issues.js";
 import { isEventFile, isOptionTipsFile } from "../config/sources.js";
 import type { FormatAdapter } from "./adapter.js";
 import { anchoredTxtAdapter } from "./anchored-txt.js";
-import {
-  encyclopediaContentAdapter,
-  encyclopediaReferenceAdapter,
-} from "./encyclopedia.js";
+import { encyclopediaContentAdapter, encyclopediaReferenceAdapter } from "./encyclopedia.js";
 import { eventLanguagesAdapter } from "./event-languages.js";
 import { jsonTipAdapter } from "./json-tip.js";
 import { optionTipsAdapter } from "./option-tips.js";

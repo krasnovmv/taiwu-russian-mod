@@ -47,7 +47,11 @@ async function walk(absDir: string, relDir: string, exts: string[]): Promise<str
   return out;
 }
 
-async function listUnder(subdir: string, exts: string[], base: string = languageDir): Promise<string[]> {
+async function listUnder(
+  subdir: string,
+  exts: string[],
+  base: string = languageDir,
+): Promise<string[]> {
   try {
     return (await walk(path.join(base, subdir), subdir, exts)).sort();
   } catch (err) {
