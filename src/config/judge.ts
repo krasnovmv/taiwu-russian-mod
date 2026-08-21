@@ -40,7 +40,13 @@
 //    replace a good meaning-translation. Version 7's wording and its
 //    Hexagonal-Mirror example pushed the judge to spell meaningful names out in
 //    Cyrillic instead of translating them; those rewrites are re-judged.
-const DEFAULT_JUDGE_VERSION = 8;
+// 9: no prompt change — a deliberate re-hash of the whole corpus. A run made
+//    with TAIWU_JUDGE_VERSION=2 stamped part of the TM (and 11045 lines of
+//    cache/judge.jsonl) with a number that already meant the version-2 prompt;
+//    moving the default to an unused number restores the invariant that the
+//    version tracks this file's prompt lineage. Every earlier verdict is
+//    orphaned once, so the next full run re-judges from scratch.
+const DEFAULT_JUDGE_VERSION = 9;
 const DEFAULT_CONCURRENCY = 4;
 
 function envInt(name: string, fallback: number): number {
