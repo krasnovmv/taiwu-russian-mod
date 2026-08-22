@@ -366,12 +366,12 @@
     "Desc_12": {
       "en": "This node's <color=#brightred>connection rate decreases by 60%. </color>For each connected adjacent Breakthrough node, this node's <color=#brightblue>connection rate increases by 20%, and Power cap +1.</color>",
       "cn": "此格的<color=#brightred>打通成功率降低60%。</color>此格周围每有1个打通的突破格，此格的<color=#brightblue>打通成功率提高20%，且威力上限+1。</color>",
-      "ru": "Этого узла <color=#brightred>уменьшается скорость соединения на 60%. </color>Для каждого подключенного рядом прорыв узла, этот узел еще <color=#brightblue>увеличивает скорость соединения на 20%, а предел мощи +1.</color>",
-      "status": "machine",
+      "ru": "У этого узла <color=#brightred>вероятность успешного прорыва снижается на 60%. </color>За каждый соседний активированный узел прорыва вероятность успешного прорыва у этого узла <color=#brightblue>повышается на 20%, а предел мощи +1.</color>",
+      "status": "judged",
       "srcHash": "8795f7bafde6e8b3",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z",
-      "judgeHash": "f3ce8a6ba6f6c0ff"
+      "updatedAt": "2026-08-21T15:26:16.919Z",
+      "judgeHash": "27e8dbe2e92f1b15"
     },
     "Desc_13": {
       "en": "Connecting this node <color=#brightred>reduces the connection rate of adjacent Breakthrough nodes by 50%</color>, but grants <color=#brightblue>Power Cap +2. If the attempt fails, the node becomes connectable again.</color>",

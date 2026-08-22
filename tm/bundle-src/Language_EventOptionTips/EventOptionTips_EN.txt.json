@@ -10,7 +10,8 @@
       "status": "machine",
       "srcHash": "1e9c73de979ebdcc",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "33dcea6dd560b204"
     },
     "1": {
       "en": "Taiwu has no less than {0} companion(s).",
@@ -20,7 +21,7 @@
       "srcHash": "14a2415784146a78",
       "engine": "yandex",
       "updatedAt": "2026-07-16T08:00:38.821Z",
-      "judgeHash": "f58ecfa9ffa13424"
+      "judgeHash": "706149107f121ae5"
     },
     "2": {
       "en": "Taiwu has no less than {0} Energy.",
@@ -30,7 +31,7 @@
       "srcHash": "0169e04530e0c75b",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "c1cc3f3ce2d47986"
+      "judgeHash": "fa4d84a1690a0ff7"
     },
     "3": {
       "en": "{0} is not Taiwu's companion.",
@@ -40,16 +41,17 @@
       "srcHash": "320b5b5be7664c9f",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "531c37bf72c2b788"
+      "judgeHash": "d3d53a94b3083d8d"
     },
     "4": {
       "en": "Available in {0} period(s).",
       "cn": "还需等待 {0} 时节才能使用",
-      "ru": "Доступно в {0} период(периоды).",
-      "status": "machine",
+      "ru": "Можно использовать через {0} период(ов).",
+      "status": "judged",
       "srcHash": "320a9c14ea722ebe",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-21T15:26:16.919Z",
+      "judgeHash": "ed37d8704770070a"
     },
     "5": {
       "en": "Favorability with the target is at or above {0}.",
@@ -59,7 +61,7 @@
       "srcHash": "c2fcd992c3718281",
       "engine": "yandex",
       "updatedAt": "2026-07-10T22:05:17.320Z",
-      "judgeHash": "4fbdef77a966c03e"
+      "judgeHash": "7ba133f9134f6290"
     },
     "6": {
       "en": "Regional Favor in {0} is no less than {1}.",
@@ -69,7 +71,7 @@
       "srcHash": "aad8407ad5a41801",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "d7e6b236c012e05f"
+      "judgeHash": "92ed9219cf865102"
     },
     "7": {
       "en": "Taiwu has no less than {0} Silver.",
@@ -79,7 +81,7 @@
       "srcHash": "8d44c2ca0166decc",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "c6bdd9ba9e648148"
+      "judgeHash": "676737a8a06fa10a"
     },
     "8": {
       "en": "Taiwu has no less than {0} Prestige.",
@@ -89,7 +91,7 @@
       "srcHash": "4aeb65562a1fab90",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "977bd6c22786fd6e"
+      "judgeHash": "74291a1766180e71"
     },
     "9": {
       "en": "Taiwu has less than {0} sworn sibling(s).",
@@ -99,7 +101,7 @@
       "srcHash": "1c332f24cd4ff4fb",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:35:08.138Z",
-      "judgeHash": "726ffc2a4d05d3cf"
+      "judgeHash": "39d7fa76e38fe5ea"
     },
     "10": {
       "en": "{0}'s reputation is positive when the Secret occurs.",
@@ -109,7 +111,7 @@
       "srcHash": "e7e23960a06ef9c0",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "a55ca7fdf8d721ff"
+      "judgeHash": "ac660eda565503c4"
     },
     "11": {
       "en": "{0}'s reputation is negative when the Secret occurs.",
@@ -119,7 +121,7 @@
       "srcHash": "0069e920724d0e32",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "d15dc99885a6fb7e"
+      "judgeHash": "0d9875ce20e8e69e"
     },
     "12": {
       "en": "{0} is an Intimate of {1} when the Secret occurs.",
@@ -129,17 +131,17 @@
       "srcHash": "03523801ad2f20b5",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "23351490a32a0889"
+      "judgeHash": "9cb8aee64659f5e2"
     },
     "13": {
       "en": "{0} is a lover of {1} when the Secret occurs.",
       "cn": "秘闻发生时{0}是{1}的恋人",
-      "ru": "В момент раскрытия тайны {0} является возлюбленным {1}.",
+      "ru": "Когда происходит тайное событие, {0} — возлюбленный {1}.",
       "status": "judged",
       "srcHash": "0373857622fb7bfa",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "5fa94b7be38765aa"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "26133d7912101db4"
     },
     "14": {
       "en": "{0} is the victim when the Secret occurs.",
@@ -149,7 +151,7 @@
       "srcHash": "1e27556ba55da903",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "2a6aafcb73baae44"
+      "judgeHash": "6b3a6c10cf800967"
     },
     "15": {
       "en": "Taiwu's Mindset is {0}.",
@@ -159,7 +161,7 @@
       "srcHash": "e0c59904498bdb3d",
       "engine": "yandex",
       "updatedAt": "2026-07-10T22:05:17.320Z",
-      "judgeHash": "c5ff396c3eb94422"
+      "judgeHash": "0bbf0356de1e0cb8"
     },
     "16": {
       "en": "Regional Favor in {0} is no less than {1}.",
@@ -169,7 +171,7 @@
       "srcHash": "aad8407ad5a41801",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "d7e6b236c012e05f"
+      "judgeHash": "92ed9219cf865102"
     },
     "17": {
       "en": "Taiwu has no less than {0} XP.",
@@ -179,17 +181,17 @@
       "srcHash": "a7a5bc1e0e6df720",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "61b7605adf6775c5"
+      "judgeHash": "6247aae19f0a272d"
     },
     "18": {
       "en": "{0}'s Pure Essence is no less than Taiwu's.",
       "cn": "{0}的精纯不低于太吾",
-      "ru": "{0} чистая эссенция ничуть не меньше, чем у Тайву.",
+      "ru": "Чистая эссенция {0} ничуть не меньше, чем у Тайву.",
       "status": "judged",
       "srcHash": "e6ae492bf94be785",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "512b716fa566f8d3"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "f6e53802cdcd57f7"
     },
     "19": {
       "en": "Taiwu has less than {0} companion(s).",
@@ -199,7 +201,7 @@
       "srcHash": "1e9c73de979ebdcc",
       "engine": "yandex",
       "updatedAt": "2026-07-16T08:00:38.821Z",
-      "judgeHash": "a2d1cad3701350c3"
+      "judgeHash": "33dcea6dd560b204"
     },
     "20": {
       "en": "{0} is not a villager of Taiwu.",
@@ -209,7 +211,7 @@
       "srcHash": "4d5dbbca411518eb",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "2790e7ce3efed654"
+      "judgeHash": "85888b72780469bc"
     },
     "21": {
       "en": "{0} must be a member of the sect.",
@@ -219,7 +221,7 @@
       "srcHash": "27c4ef0fda259078",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "5b087f01d1adba61"
+      "judgeHash": "9f154a2dc9e72d2b"
     },
     "22": {
       "en": "Taiwu's Aspiration Seniority is sufficient to use this Aspiration Ability.",
@@ -229,7 +231,7 @@
       "srcHash": "7b3b70f817cd8fd6",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "1ccbc96a015717f2"
+      "judgeHash": "5d60fb3986d4fa95"
     },
     "23": {
       "en": "Taiwu's Aspiration Seniority is sufficient to use this Aspiration Ability on {0}.",
@@ -239,7 +241,7 @@
       "srcHash": "1366a9a9a6642f34",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "7f815f72265f6440"
+      "judgeHash": "c435fb449fd60d87"
     },
     "24": {
       "en": "{0} cannot be vindictive toward Taiwu.",
@@ -249,7 +251,7 @@
       "srcHash": "8638984463b4cbf4",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "f7aa072e0c6781a6"
+      "judgeHash": "e8c08a46e8768295"
     },
     "25": {
       "en": "\"Taiwu has the resources to use this Aspiration Ability, and it is not on cooldown.\"",
@@ -259,17 +261,17 @@
       "srcHash": "74f29e552f04fd2d",
       "engine": "yandex",
       "updatedAt": "2026-07-10T22:05:17.320Z",
-      "judgeHash": "f191078d740955ae"
+      "judgeHash": "181997a4d727d220"
     },
     "26": {
       "en": "{0} must be a Xiangshu Maniac.",
       "cn": "{0}需要为相枢入邪之人",
-      "ru": "{0} должен быть человеком, одержимым Сяншу.",
+      "ru": "{0} должен быть человеком, совращённым Сяншу.",
       "status": "judged",
       "srcHash": "3280089fea142cf1",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "f8c75db72e8369da"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "2c95d90aed54497d"
     },
     "27": {
       "en": "Taiwu must be carrying {0}.",
@@ -279,37 +281,37 @@
       "srcHash": "cc7b23352910423f",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "13a3e97472e8b112"
+      "judgeHash": "cb8c55cd727eed1f"
     },
     "28": {
       "en": "{0}'s Inner Breath Chaos must be below {1}.",
       "cn": "{0}内息紊乱需要低于{1}",
-      "ru": "{0} Внутреннее дыхание должно быть ниже {1}.",
+      "ru": "У {0} внутреннее дыхание должно быть ниже {1}.",
       "status": "judged",
       "srcHash": "abed00cceb9b6c62",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "ba312db8ccfb01e9"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "025834f7f3afacfc"
     },
     "29": {
       "en": "Taiwu's Inner Breath Chaos must be below {0}.",
       "cn": "太吾的内息紊乱需要低于{0}",
-      "ru": "Внутреннее дыхание Тайву: Хаос должно быть ниже {0}.",
+      "ru": "Внутреннее дыхание Тайву: хаос должен быть ниже {0}.",
       "status": "judged",
       "srcHash": "48637f843cd1caf4",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "956d57b295ad2ab9"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "3356baf248398ffd"
     },
     "30": {
       "en": "{0}'s Mindset must be {1} or {2}.",
       "cn": "{0}的处世立场需要为{1}或{2}",
-      "ru": "{0}Позиция должна быть {1} или {2}.",
+      "ru": "Позиция {0} должна быть {1} или {2}.",
       "status": "judged",
       "srcHash": "1317a7848900cf04",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "af76d61a30642312"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "170ab5a0c68282d5"
     },
     "31": {
       "en": "Favorability with the target is at or above {0}.",
@@ -319,7 +321,7 @@
       "srcHash": "c2fcd992c3718281",
       "engine": "yandex",
       "updatedAt": "2026-07-10T22:05:17.320Z",
-      "judgeHash": "4fbdef77a966c03e"
+      "judgeHash": "7ba133f9134f6290"
     },
     "32": {
       "en": "{0} cannot be a monk.",
@@ -329,7 +331,7 @@
       "srcHash": "56b6526fc180029c",
       "engine": "yandex",
       "updatedAt": "2026-07-10T22:05:17.320Z",
-      "judgeHash": "55feb43556659325"
+      "judgeHash": "cb5997d88f3e3d32"
     },
     "33": {
       "en": "{0} must be a city lord.",
@@ -339,37 +341,37 @@
       "srcHash": "9a13697890cf3aba",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "67ea6db193a65d43"
+      "judgeHash": "b303eee5965d545d"
     },
     "34": {
       "en": "{0} cannot be a Xiangshu Maniac or possessed by Xiangshu.",
       "cn": "{0}不能为相枢入邪、相枢入魔之人",
-      "ru": "{0} не может быть человеком, одержимым злом Сяншу или демоном Сяншу.",
+      "ru": "{0} не может быть осквернённым Сяншу или одержимым Сяншу.",
       "status": "judged",
       "srcHash": "e2a12c416d137219",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "39ade81dfe62d74d"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "99617cd92e2afba1"
     },
     "35": {
       "en": "{0} cannot be one enchanted by the Secret Tome: Mania or Possessed.",
       "cn": "{0}不能为因奇书执迷入邪、执迷入魔之人",
-      "ru": "{0} не может быть человеком, одержимым Тайным трактатом: впавшим в злобу или в безумие.",
+      "ru": "{0} не может быть человеком, одержимым тайным трактатом: впавшим в манию или одержимым.",
       "status": "judged",
       "srcHash": "5dbe4731abe0a4aa",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "d66b9b311d6faf16"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "914c32c7145e7e47"
     },
     "36": {
       "en": "{0}'s Mindset cannot be temporarily altered by special effects.",
       "cn": "{0}不能被特殊效果临时影响处世立场",
-      "ru": "{0} не может быть временно изменена его позиция с помощью специальных эффектов.",
+      "ru": "Позиция {0} не может быть временно изменена специальными эффектами.",
       "status": "judged",
       "srcHash": "0edebc0c858c5cba",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "61e2859ab04b901d"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "8bf7a94027679c36"
     },
     "37": {
       "en": "Taiwu has no less than {0} XP.",
@@ -379,17 +381,17 @@
       "srcHash": "a7a5bc1e0e6df720",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:35:08.138Z",
-      "judgeHash": "61b7605adf6775c5"
+      "judgeHash": "6247aae19f0a272d"
     },
     "38": {
       "en": "\"{0} must be either wounded, poisoned, or suffering from Inner Breath Chaos.\"",
       "cn": "{0}需伤病未愈、身受毒害或内息紊乱",
-      "ru": "\"{0} должен находиться в состоянии ранения, отравления или внутреннего дыхания.\"",
+      "ru": "\"{0} должен быть ранен, отравлен или страдать от расстройства внутреннего дыхания.\"",
       "status": "judged",
       "srcHash": "471a5c7454a74dbc",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:35:08.138Z",
-      "judgeHash": "a9a4ebfae713bbf5"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "850625b6378d5664"
     },
     "39": {
       "en": "{0} must be an adult.",
@@ -399,17 +401,17 @@
       "srcHash": "5d5a116294c7321b",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:35:08.138Z",
-      "judgeHash": "16e7ebad04055f37"
+      "judgeHash": "ef856bd9d5763466"
     },
     "40": {
       "en": "{0} must have an available consumable slot.",
       "cn": "{0}需要有服食栏位",
-      "ru": "{0} должен иметь свободное слот для приема пищи.",
+      "ru": "{0} должен иметь свободную ячейку для расходников.",
       "status": "judged",
       "srcHash": "04cc46e3ebd4321d",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "2a87b074ac311d1b"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "6efb4c7d1d0e8e03"
     },
     "41": {
       "en": "Taiwu must have an available consumable slot.",
@@ -418,7 +420,8 @@
       "status": "machine",
       "srcHash": "154998bb8c1f0b2e",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T22:39:44.118Z"
+      "updatedAt": "2026-07-16T22:39:44.118Z",
+      "judgeHash": "6618a8fa34e01d46"
     },
     "42": {
       "en": "Already obtained Support from a high-ranking Shaolin member.",
@@ -428,7 +431,7 @@
       "srcHash": "d4e0f383f98e36fd",
       "engine": "yandex",
       "updatedAt": "2026-07-10T22:05:17.320Z",
-      "judgeHash": "382aba2fb1033f07"
+      "judgeHash": "19c857eb5f4eb015"
     },
     "43": {
       "en": "Taiwu has no less than {1} {0}.",
@@ -438,7 +441,7 @@
       "srcHash": "403cc54ec465f77e",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "d156e9b413c0f4b0"
+      "judgeHash": "bdcb9f139cf6f4f2"
     },
     "44": {
       "en": "Available in {0} month(s).",
@@ -448,17 +451,17 @@
       "srcHash": "db6d3c38f0f8da59",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:35:08.138Z",
-      "judgeHash": "ccac94eac97073b3"
+      "judgeHash": "666e3b5c84113ec1"
     },
     "45": {
       "en": "This Jiao can only be tamed once per month.",
       "cn": "每月此蛟仅限驯养一次",
-      "ru": "Этого Цзяо можно приручить только один раз в месяц.",
-      "status": "machine",
+      "ru": "Этого цзяо можно приручить только один раз в месяц.",
+      "status": "judged",
       "srcHash": "c3107b50614879c6",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z",
-      "judgeHash": "c072260de0261799"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "302ef7b11df7956c"
     },
     "46": {
       "en": "The Insight has at least {0} help attempt(s) remaining.",
@@ -477,17 +480,17 @@
       "srcHash": "6f7297afcd448ccf",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:35:08.138Z",
-      "judgeHash": "688bcee87f482e63"
+      "judgeHash": "546b31e9c5e700c1"
     },
     "48": {
       "en": "The target has a teachable martial art of tier no higher than {0}.",
       "cn": "对方持有可指点的武学，且功法品阶不超过{0}",
-      "ru": "У цели есть боевая техника, которую можно указать, и её ранг не выше {0}.",
+      "ru": "У цели есть боевая техника, которой можно обучать, и её ранг не выше {0}.",
       "status": "judged",
       "srcHash": "3a57b4a9d03140f6",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:35:08.138Z",
-      "judgeHash": "145cd9fbf1e61e44"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "33cc01d7fe57e67a"
     },
     "49": {
       "en": "The target's status rank is no higher than {0}.",
@@ -497,7 +500,7 @@
       "srcHash": "b6205b955b807cb4",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:35:08.138Z",
-      "judgeHash": "8f541cecd1a81df0"
+      "judgeHash": "1b9150970d7f6c69"
     },
     "50": {
       "en": "At least one of Taiwu's companions is an adult.",
@@ -507,7 +510,7 @@
       "srcHash": "54f016a50727b3e1",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "64b65f12280480fd"
+      "judgeHash": "a864cec5690adfd0"
     },
     "51": {
       "en": "Taiwu has at least one Bewitched imprisoned.",
@@ -517,7 +520,7 @@
       "srcHash": "5c732c0bcb1a0404",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "c0cd18a83788a658"
+      "judgeHash": "78667c7c2ada2450"
     },
     "52": {
       "en": "Not yet used on this target this month.",
@@ -527,7 +530,7 @@
       "srcHash": "797004d1f9a9f321",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "aab550ce08dc7d33"
+      "judgeHash": "3ff632fae95163e4"
     },
     "53": {
       "en": "Taiwu has no less than {0} living cricket(s).",
@@ -536,7 +539,8 @@
       "status": "machine",
       "srcHash": "94d0d9d7fd48b609",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "37fbcb09c7cc979d"
     },
     "54": {
       "en": "\"Taiwu does not have the \"\"Lost Path in Shu\"\" trait.\"",
@@ -546,7 +550,7 @@
       "srcHash": "86e11291f9af3616",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "a0d6ff7aab000733"
+      "judgeHash": "67df3d089e061a9c"
     },
     "55": {
       "en": "{0} is not endorsed.",
@@ -555,16 +559,18 @@
       "status": "machine",
       "srcHash": "060ced583a8c61d8",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T22:39:44.118Z"
+      "updatedAt": "2026-07-16T22:39:44.118Z",
+      "judgeHash": "0e4257101f229a12"
     },
     "56": {
       "en": "\"The Travel Bag must contain a cricket that is neither Prime nor Unique, and lacks Exceptional Vivacity.\"",
       "cn": "行囊中持有非异品、非真色且尚未添加神采非凡的促织",
-      "ru": "\"В дорожной сумке должен быть сверчок, который не является ни первоклассным, ни уникальным, и которому не хватает исключительной живости\".",
-      "status": "machine",
+      "ru": "\"В дорожной сумке должен быть сверчок, который не является ни первоклассным, ни уникальным, и которому ещё не придали исключительную живость\".",
+      "status": "judged",
       "srcHash": "b7f25174d386841c",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T22:39:44.118Z"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "ee1c380bcc6a261b"
     },
     "57": {
       "en": "\"The travel bag must contain a cricket that is neither Prime nor Unique, has Exceptional Vivacity, and remains untransformed.\"",
@@ -574,7 +580,7 @@
       "srcHash": "cbc0a73ff0b760e9",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "4891fc828985c918"
+      "judgeHash": "6829e190d718e483"
     },
     "58": {
       "en": "Taiwu's {1} Seniority is sufficient to use this Aspiration Ability on {0}.",
@@ -584,7 +590,7 @@
       "srcHash": "30dbf1115f458e20",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "0ee24287e22cec9c"
+      "judgeHash": "6e4bf6732ad75836"
     },
     "59": {
       "en": "Taiwu's remaining lifespan is no less than {0}.",
@@ -594,7 +600,7 @@
       "srcHash": "b4abc3f83926669b",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "7a4904e2017284e6"
+      "judgeHash": "483efa09a70fbaad"
     },
     "60": {
       "en": "The target must be in good health.",
@@ -603,17 +609,18 @@
       "status": "machine",
       "srcHash": "3f8f64fe1e664b8d",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "9fb654cbde3fb85e"
     },
     "61": {
       "en": "The character must be at their settlement.",
       "cn": "人物需在所属定居点",
-      "ru": "Персонаж должен находиться в их поселении.",
-      "status": "machine",
+      "ru": "Персонаж должен находиться в своём поселении.",
+      "status": "judged",
       "srcHash": "6feec259d98d7a6c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "f952e8fe501de5e6"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "7be9bd7f32d5d762"
     },
     "62": {
       "en": "{0} is not married to Taiwu.",
@@ -623,7 +630,7 @@
       "srcHash": "9c4776a1c1de29cc",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "7bff9bac25f1471e"
+      "judgeHash": "eac9ca436a839dcb"
     },
     "63": {
       "en": "{0} is not Taiwu's sworn sibling.",
@@ -633,7 +640,7 @@
       "srcHash": "a67f104b77f57063",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "544f5d4681be485c"
+      "judgeHash": "4e47a2238fcfcd0a"
     },
     "64": {
       "en": "The character must be within their settlement or its influence area.",
@@ -643,7 +650,7 @@
       "srcHash": "08f4d19b32b64a67",
       "engine": "yandex",
       "updatedAt": "2026-07-10T22:05:17.320Z",
-      "judgeHash": "8c6b7f68908999b3"
+      "judgeHash": "d0a65857533b9fc8"
     },
     "65": {
       "en": "{0} has less than {1} Defeat Marker(s).",
@@ -662,7 +669,7 @@
       "srcHash": "28a7b2a333e77b08",
       "engine": "yandex",
       "updatedAt": "2026-07-10T22:05:17.320Z",
-      "judgeHash": "664576b8f7c19f48"
+      "judgeHash": "350be70779092e2d"
     },
     "67": {
       "en": "{0}'s accumulated Star Fortune is no less than {1}.",
@@ -672,17 +679,17 @@
       "srcHash": "e625c3269e9700d9",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "b116cedafcd09ee9"
+      "judgeHash": "9918dc191012d8bd"
     },
     "68": {
       "en": "Taiwu's Appreciation Attainment is no less than {0}.",
       "cn": "太吾的品鉴造诣不低于{0}",
-      "ru": "Престиж Тайву не ниже {0}.",
+      "ru": "Мастерство оценки Тайву не ниже {0}.",
       "status": "judged",
       "srcHash": "85e28226c149494b",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "8c5e7e8d13c79073"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "1267571580847d7e"
     }
   }
 }

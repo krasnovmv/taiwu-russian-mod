@@ -11,7 +11,7 @@
       "srcHash": "d489781923ba5e0b",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "0b0ff5c8fb9c2490"
+      "judgeHash": "08cda6511efc1e98"
     },
     "Desc_1": {
       "en": "<color=#pinkyellow>Placed {0} {1}...</color>",
@@ -21,7 +21,7 @@
       "srcHash": "cd720b21389d6ad7",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "3ae778b5acbd8b03"
+      "judgeHash": "7e846d256e413323"
     },
     "Desc_2": {
       "en": "<color=#pinkyellow>{0} was attacked by {1},</color> and <color=#brightred>lost {2} {3}!</color>",
@@ -31,16 +31,17 @@
       "srcHash": "bfe913056f4dcc6b",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "100f6c31c4b3a990"
+      "judgeHash": "f94c1da75c493e7d"
     },
     "Desc_3": {
       "en": "<color=#pinkyellow>Round starts.</color> <color=#brightblue>Drew {0} Strategy(ies)...</color>",
       "cn": "<color=#pinkyellow>回合开始，</color><color=#brightblue>抽取了{0}张策略…</color>",
-      "ru": "<color=#pinkyellow>Раунд начинается.</color> <color=#brightblue>Нарисовал {0} Стратегия(стратегии)...</color>",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>Раунд начинается.</color> <color=#brightblue>Взято {0} карт стратег(ий)...</color>",
+      "status": "judged",
       "srcHash": "8e04768a1c82c784",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-21T15:26:16.919Z",
+      "judgeHash": "ca55c0051bba495a"
     },
     "Desc_4": {
       "en": "<color=#pinkyellow>The turn has ended.</color> <color=#brightred>{0} strategy cards discarded...</color>",
@@ -50,7 +51,7 @@
       "srcHash": "b8d0c9145608313c",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "a1640f9c0d0548d4"
+      "judgeHash": "472ee28c8332c933"
     },
     "Desc_5": {
       "en": "<color=#pinkyellow>Retrieving all discarded strategy cards,</color> <color=#brightred>Pressure has increased by {0}...</color>",
@@ -60,82 +61,87 @@
       "srcHash": "2c471d75234b02ca",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "be9e08ac0226bead"
+      "judgeHash": "2a0b7095dcf2bec4"
     },
     "Desc_6": {
       "en": "<color=#orange>{0}</color> <color=#pinkyellow>made a </color>{2}<color=#pinkyellow> comment on </color><color=#orange>{1}</color><color=#pinkyellow>...</color>",
       "cn": "<color=#orange>{0}</color><color=#pinkyellow>对</color><color=#orange>{1}</color><color=#pinkyellow>发表了</color>{2}<color=#pinkyellow>评价…</color>",
-      "ru": "<color=#orange>{0}</color> <color=#pinkyellow>высказал </color>{2}<color=#pinkyellow> о </color><color=#orange>{1}</color><color=#pinkyellow>...</color>",
+      "ru": "<color=#orange>{0}</color> <color=#pinkyellow>высказал </color>{2}<color=#pinkyellow> комментарий о </color><color=#orange>{1}</color><color=#pinkyellow>...</color>",
       "status": "judged",
       "srcHash": "cb46e14a21fc7c00",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "1d74600192ab54c1"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "3ddee78b28fe4ef2"
     },
     "Desc_7": {
       "en": "<color=#pinkyellow>Affected by the {2} comment from </color><color=#orange>{1}</color><color=#pinkyellow>,</color> <color=#brightred>{0}'s Arguments and Strategies were revealed...</color><color=#pinkyellow></color>",
       "cn": "<color=#pinkyellow>{0}受</color><color=#orange>{1}</color><color=#pinkyellow>发表的</color>{2}<color=#pinkyellow>的影响，</color><color=#brightred>论据和策略被揭示了…</color>",
-      "ru": "<color=#pinkyellow>{0} под влиянием комментария {2} от </color><color=#orange>{1}</color><color=#pinkyellow>,</color> <color=#brightred>аргументы и стратегии были раскрыты...</color><color=#pinkyellow></color>",
+      "ru": "<color=#pinkyellow>Под влиянием комментария {2} от </color><color=#orange>{1}</color><color=#pinkyellow>,</color> <color=#brightred>были раскрыты аргументы и стратегии {0}...</color><color=#pinkyellow></color>",
       "status": "judged",
       "srcHash": "193b011ba8bfd720",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "91c7712c25251a02"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "375cb662e8215840"
     },
     "Desc_8": {
       "en": "<color=#pinkyellow>Affected by </color><color=#orange>{1}'s</color><color=#pinkyellow> {2} comment, {0}</color><color=#brightblue> took {3} additional moves...</color><color=#pinkyellow></color>",
       "cn": "<color=#pinkyellow>{0}受</color><color=#orange>{1}</color><color=#pinkyellow>发表的</color>{2}<color=#pinkyellow>的影响，</color><color=#brightblue>额外行动了{3}次…</color>",
-      "ru": "<color=#pinkyellow>Затронутый </color><color=#orange>{1}'s</color><color=#pinkyellow> {2} комментарий, {0}</color><color=#brightblue> взял {3} дополнительные ходы...</color><color=#pinkyellow></color>",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>Под влиянием </color><color=#orange>{1}</color><color=#pinkyellow> комментария о {2} {0}</color><color=#brightblue> совершил {3} дополнительных действий…</color><color=#pinkyellow></color>",
+      "status": "judged",
       "srcHash": "c92786b20fdcdda9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "a1543eba24508cde"
     },
     "Desc_9": {
       "en": "<color=#pinkyellow>{0} moved to the square of </color><color=#orange>{1}'s</color><color=#pinkyellow> {2} comment,</color> and <color=#brightblue>restored {3}% of {4}...</color><color=#pinkyellow></color>",
       "cn": "<color=#pinkyellow>{0}前进至</color><color=#orange>{1}</color><color=#pinkyellow>发表的</color>{2}<color=#pinkyellow>所在格，</color><color=#brightblue>恢复了{3}%的{4}…</color>",
-      "ru": "<color=#pinkyellow>{0} перенесен на площадь города </color><color=#orange>{1}'с</color><color=#pinkyellow> {2} комментарий,</color> и <color=#brightblue>восстановленный {3}% от {4}...</color><color=#pinkyellow></color>",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>{0} продвинулся на клетку с комментарием </color><color=#orange>{1}</color><color=#pinkyellow> {2}, и </color><color=#brightblue>восстановил {3}% от {4}...</color><color=#pinkyellow></color>",
+      "status": "judged",
       "srcHash": "f403bf8b1397a568",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "3a7c5fe89fb94d61"
     },
     "Desc_10": {
       "en": "<color=#pinkyellow>Placed <color=#pinkyellow>{2} extra {3}</color> on the square of </color><color=#orange>{0}'s</color><color=#pinkyellow> {1} comment...</color>",
       "cn": "<color=#pinkyellow>额外在</color><color=#orange>{0}</color><color=#pinkyellow>发表的</color>{1}<color=#pinkyellow>所在格</color><color=#brightblue>放置了{2}个{3}…</color>",
-      "ru": "<color=#pinkyellow>Размещенный <color=#pinkyellow>{2} дополнительный {3}</color> на площади города </color><color=#orange>{0}'s</color><color=#pinkyellow> {1} комментарий...</color>",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>Дополнительно размещено <color=#pinkyellow>{2} шт. {3}</color> на клетке, где </color><color=#orange>{0}</color><color=#pinkyellow> оставил(а) комментарий {1}...</color>",
+      "status": "judged",
       "srcHash": "5877944b181eaba2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "faeb65bbf928cc5a"
     },
     "Desc_11": {
       "en": "<color=#pinkyellow>{0}, affected by </color><color=#orange>{1}'s</color><color=#pinkyellow> {2} comment, was transferred before </color><color=#orange>{3}'s</color><color=#pinkyellow> {4}...</color><color=#pinkyellow></color>",
       "cn": "<color=#pinkyellow>{0}受</color><color=#orange>{1}</color><color=#pinkyellow>发表的</color>{2}<color=#pinkyellow>影响，被转移至</color><color=#orange>{3}</color><color=#pinkyellow>的{4}前…</color>",
-      "ru": "<color=#pinkyellow>{0}, затронутый </color><color=#orange>{1}'с</color><color=#pinkyellow> {2} комментарий, который был передан ранее </color><color=#orange>{3}'с</color><color=#pinkyellow> {4}...</color><color=#pinkyellow></color>",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>{0}, затронутый </color><color=#orange>высказыванием {1}</color><color=#pinkyellow> {2}, был перемещён перед </color><color=#orange>{3}</color><color=#pinkyellow> {4}...</color><color=#pinkyellow></color>",
+      "status": "judged",
       "srcHash": "134b548de7d9613a",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T22:39:44.118Z"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "cae98d54c894b4c5"
     },
     "Desc_12": {
       "en": "<color=#pinkyellow>{2}, affected by </color><color=#orange>{0}'s</color><color=#pinkyellow> {1} comment, was breached by {3},</color><color=#brightred> losing an extra {4} {5}...</color>",
       "cn": "<color=#pinkyellow>受</color><color=#orange>{0}</color><color=#pinkyellow>发表的{1}影响的{2}被{3}攻破，</color><color=#brightred>额外失去了{4}点{5}…</color>",
-      "ru": "<color=#pinkyellow>{2}, затронутый </color><color=#orange>{0}'s</color><color=#pinkyellow> {1} комментарий, был нарушен {3},</color><color=#brightred> потеря лишнего {4} {5}...</color>",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>{2}, на которого повлиял </color><color=#orange>{0}</color><color=#pinkyellow> комментарий о {1}, был пробит {3},</color><color=#brightred> лишившись ещё {4} ед. {5}...</color>",
+      "status": "judged",
       "srcHash": "a834ea8e8b6d6ce9",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T22:39:44.118Z"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "d0cc8e5f18323939"
     },
     "Desc_13": {
       "en": "<color=#pinkyellow>{0} has reached {1},</color><color=#brightred> and lost {2} {3}!</color>",
       "cn": "<color=#pinkyellow>{0}已达{1}，</color><color=#brightred>失去了{2}点{3}！</color>",
-      "ru": "<color=#pinkyellow>{0} достиг {1},</color><color=#brightred> потеряв {2} {3}!</color>",
+      "ru": "<color=#pinkyellow>{0} достиг {1},</color><color=#brightred> потеряв {2} очков {3}!</color>",
       "status": "judged",
       "srcHash": "b148df479cdacb9d",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "5db23d1af92d1eb4"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "590762d0ecc524bd"
     },
     "Desc_14": {
       "en": "<color=#pinkyellow>{0} has reached {1},</color><color=#brightred> the {2} restored at the start of each round halved!</color>",
@@ -145,7 +151,7 @@
       "srcHash": "648c7cddb13551c5",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "91e6441be1d4c5ea"
+      "judgeHash": "00dbeed765939ca1"
     },
     "Desc_15": {
       "en": "<color=#pinkyellow>{0} has reached {1},</color><color=#brightred> the {2} restored at the start of each round halved!</color>",
@@ -155,7 +161,7 @@
       "srcHash": "648c7cddb13551c5",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "91e6441be1d4c5ea"
+      "judgeHash": "00dbeed765939ca1"
     },
     "Desc_16": {
       "en": "<color=#pinkyellow>{0} has reached {1},</color><color=#brightred> failed to place {2}!</color>",
@@ -165,7 +171,7 @@
       "srcHash": "46bd62bdcb2a72e9",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "98889f3093be38e2"
+      "judgeHash": "041680f4d1d16d00"
     },
     "Desc_17": {
       "en": "<color=#pinkyellow>{0} has reached {1},</color><color=#brightred> failed to use {2}!</color>",
@@ -175,7 +181,7 @@
       "srcHash": "f8fb739c57ed0364",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "ca3f8da028fdceb7"
+      "judgeHash": "1af0506dd6397fa2"
     },
     "Desc_18": {
       "en": "<color=#pinkyellow>Used an unknown Strategy...</color>",
@@ -185,7 +191,7 @@
       "srcHash": "a8ba439441889714",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "8d3868caaed322f3"
+      "judgeHash": "0e9a0acbca348734"
     },
     "Desc_19": {
       "en": "<color=#pinkyellow>Used {0}...</color>",
@@ -195,7 +201,7 @@
       "srcHash": "2bde342ded400155",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "d16965a03a658d39"
+      "judgeHash": "4cdba04eb7ddd047"
     },
     "Desc_20": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightred> to reduce {1}'s Arguments...</color>",
@@ -205,7 +211,7 @@
       "srcHash": "ce1a9ce9a73853ee",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "3974732fb0ccc9e5"
+      "judgeHash": "03d28c3ab35e6bdb"
     },
     "Desc_21": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightred> to reduce {1}'s Arguments...</color>",
@@ -215,7 +221,7 @@
       "srcHash": "ce1a9ce9a73853ee",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "3974732fb0ccc9e5"
+      "judgeHash": "03d28c3ab35e6bdb"
     },
     "Desc_22": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightred> to reduce {1}'s Arguments...</color>",
@@ -225,7 +231,7 @@
       "srcHash": "ce1a9ce9a73853ee",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "3974732fb0ccc9e5"
+      "judgeHash": "03d28c3ab35e6bdb"
     },
     "Desc_23": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightblue> to place {1} extra {2}...</color>",
@@ -235,17 +241,17 @@
       "srcHash": "dabf0133f206af0d",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "e4624f0461a8a6c4"
+      "judgeHash": "8ef082fb42774b5b"
     },
     "Desc_24": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightblue> to swap the positions of {1} {2}...</color>",
       "cn": "<color=#pinkyellow>使用{0}</color><color=#brightblue>交换了{1}个{2}的位置…</color>",
-      "ru": "<color=#pinkyellow>Используя {0}</color><color=#brightblue> поменял местами позиции {1} {2}...</color>",
+      "ru": "<color=#pinkyellow>Использовано {0}</color><color=#brightblue> для обмена местами {1} {2}...</color>",
       "status": "judged",
       "srcHash": "fe5160d4c3b2ab07",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "fc4d562005b1f3a0"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "e0bb350f89fca277"
     },
     "Desc_25": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightblue> to move the positions of {1} {2}...</color>",
@@ -255,17 +261,17 @@
       "srcHash": "18de41ace3711325",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "2bafee5c984be29e"
+      "judgeHash": "43406773af07b056"
     },
     "Desc_26": {
       "en": "<color=#pinkyellow>Because {1}, which has {0} attached, breached {2},</color><color=#brightred> an extra {3} {4} were lost!</color>",
       "cn": "<color=#pinkyellow>因被附加了{0}的{1}攻破{2}，</color><color=#brightred>额外失去了{3}点{4}！</color>",
-      "ru": "<color=#pinkyellow>Так как {1}, на который наложено {0}, прорвал оборону {2},</color><color=#brightred> потеряно дополнительно {3} {4}!</color>",
+      "ru": "<color=#pinkyellow>Так как {1}, на который наложено {0}, прорвал {2},</color><color=#brightred> потеряно дополнительно {3} {4}!</color>",
       "status": "judged",
       "srcHash": "925b3088c87901c2",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "d928f8e05efcf920"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "855b0fb95d8f3139"
     },
     "Desc_27": {
       "en": "<color=#pinkyellow>Because {1} with {0} attached won the Clash,</color><color=#brightblue> it advanced {2} extra squares!</color>",
@@ -275,17 +281,17 @@
       "srcHash": "81063b4b61919c77",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "4e8647f552698892"
+      "judgeHash": "028e2eb9a2b247f8"
     },
     "Desc_28": {
       "en": "<color=#pinkyellow>{0}, which started the Clash, has {1} attached,</color><color=#brightblue> gaining extra Arguments equal to half of {2}!</color>",
       "cn": "<color=#pinkyellow>开始论战的{0}因附加了{1}，</color><color=#brightblue>额外增加相当于{2}一半的论据！</color>",
-      "ru": "<color=#pinkyellow>{0}, начавший дискуссию и имеющий эффект {1},</color><color=#brightblue> получает дополнительные очки, равные половине от {2}!</color>",
+      "ru": "<color=#pinkyellow>{0}, начавший дискуссию и имеющий эффект {1},</color><color=#brightblue> получает дополнительные аргументы, равные половине {2}!</color>",
       "status": "judged",
       "srcHash": "ce4dba2d9812a592",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "7618cfb5ea9d49de"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "cb16ec0ae3f54806"
     },
     "Desc_29": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightblue> to increase {1}'s Arguments...</color>",
@@ -295,7 +301,7 @@
       "srcHash": "2174f20e9730457b",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "f1bba1b67fec3130"
+      "judgeHash": "0f7520b0236e69bd"
     },
     "Desc_30": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightblue> to increase {1}'s Arguments...</color>",
@@ -305,7 +311,7 @@
       "srcHash": "2174f20e9730457b",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "f1bba1b67fec3130"
+      "judgeHash": "0f7520b0236e69bd"
     },
     "Desc_31": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightblue> to increase {1}'s Arguments...</color>",
@@ -315,7 +321,7 @@
       "srcHash": "2174f20e9730457b",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "f1bba1b67fec3130"
+      "judgeHash": "0f7520b0236e69bd"
     },
     "Desc_32": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightblue> to draw {2} Strategies from {1}...</color>",
@@ -325,17 +331,17 @@
       "srcHash": "a9fd21994b237e07",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "be6f90cb627702a8"
+      "judgeHash": "d11fd21fcc6ca579"
     },
     "Desc_33": {
       "en": "<color=#pinkyellow>Used {0} to reverse the Argument increase and decrease effects on {1}...</color>",
       "cn": "<color=#pinkyellow>使用{0}反转了{1}的论据提高和降低效果…</color>",
-      "ru": "<color=#pinkyellow>Использовал {0} для отмены эффектов увеличения и уменьшения аргументов у {1}...</color>",
+      "ru": "<color=#pinkyellow>Использовал {0}, чтобы обратить эффекты повышения и снижения аргументов у {1}...</color>",
       "status": "judged",
       "srcHash": "b01a27e73d6bb3a3",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "c13914b320cb9252"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "d2c9ae4214297513"
     },
     "Desc_34": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightred> to move the positions of {1} {2}...</color>",
@@ -345,7 +351,7 @@
       "srcHash": "f65812e2f1371878",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "eb2037409620ced9"
+      "judgeHash": "120f19456b94a979"
     },
     "Desc_35": {
       "en": "<color=#pinkyellow>Round starts. Because {0} has {1} attached,</color><color=#brightred> {2}% of {3} was lost!</color>",
@@ -355,7 +361,7 @@
       "srcHash": "122c36c918b38959",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "78f85833bc94799a"
+      "judgeHash": "4024b3cf09f704fe"
     },
     "Desc_36": {
       "en": "<color=#pinkyellow>Round starts. Because {0} has {1} attached,</color><color=#brightred> {3} x{2} got lost!</color>",
@@ -365,7 +371,7 @@
       "srcHash": "cd6e00efac943194",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "8ce13aefaca32669"
+      "judgeHash": "e0bd2d51133511dd"
     },
     "Desc_37": {
       "en": "<color=#pinkyellow>{1} breached the enemy's {0}. Because it had {2} attached,</color><color=#brightblue> it returned to an empty square on your side!</color>",
@@ -375,7 +381,7 @@
       "srcHash": "df9a717952d7174b",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "fc47fa9217617326"
+      "judgeHash": "20a4dc9177c8fbe3"
     },
     "Desc_38": {
       "en": "<color=#pinkyellow>{0} won the Clash. Because it had {1} attached,</color><color=#brightblue> its Arguments were not damaged!</color>",
@@ -385,17 +391,17 @@
       "srcHash": "63b6c0be87448938",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:35:08.138Z",
-      "judgeHash": "f74e4c8d3fd1a039"
+      "judgeHash": "6a04535f6a654d40"
     },
     "Desc_39": {
       "en": "<color=#pinkyellow>{0} lost the Clash. Because it had {1} attached,</color><color=#brightblue> it retreated to your side's {2}!</color>",
       "cn": "<color=#pinkyellow>论战失败的{0}因附加了{1}，</color><color=#brightblue>退回了己方{2}！</color>",
-      "ru": "<color=#pinkyellow>{0} проиграл столкновение. Из-за прикрепленного {1},</color><color=#brightblue> он отступил на свою сторону, в {2}!</color>",
+      "ru": "<color=#pinkyellow>{0} проиграл спор. Из-за того, что к нему прикрепили {1},</color><color=#brightblue>он отступил на свою сторону, в {2}!</color>",
       "status": "judged",
       "srcHash": "c8d622ac7fb6f0a3",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "8eec92007dae5f57"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "458889e2dc8ad60d"
     },
     "Desc_40": {
       "en": "<color=#pinkyellow>As {0} advanced, its Arguments increased</color><color=#brightblue> because it had {1} attached!</color>",
@@ -405,7 +411,7 @@
       "srcHash": "5988c5692be75f41",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "29f5026286e7c807"
+      "judgeHash": "8ba7046c920cc4b6"
     },
     "Desc_41": {
       "en": "<color=#pinkyellow>Round starts. Because {0} has {1} attached,</color><color=#brightblue> {2}% of {3} was restored!</color>",
@@ -415,7 +421,7 @@
       "srcHash": "015023f0d25e03a1",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:35:08.138Z",
-      "judgeHash": "ab52a629fcddb562"
+      "judgeHash": "09408a219bb53c22"
     },
     "Desc_42": {
       "en": "<color=#pinkyellow>Round starts. Because {0} has {1} attached,</color><color=#brightblue> {2} {3} were restored!</color>",
@@ -425,7 +431,7 @@
       "srcHash": "9c1c4c0fb3bb1392",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:35:08.138Z",
-      "judgeHash": "e3966660f3716810"
+      "judgeHash": "e658b11f1cfa88d1"
     },
     "Desc_43": {
       "en": "<color=#pinkyellow>Used {0},</color><color=#brightblue> causing {0} to advance an extra {1} squares...</color>",
@@ -435,17 +441,17 @@
       "srcHash": "b322c06ec2b22a55",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "0f263e47ac92ff5c"
+      "judgeHash": "d268a4fd7b871c63"
     },
     "Desc_44": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightred> to reveal {1}'s Arguments...</color>",
       "cn": "<color=#pinkyellow>使用{0}</color><color=#brightred>揭示了{1}的论据…</color>",
-      "ru": "<color=#pinkyellow>Используй {0}</color><color=#brightred>, чтобы раскрыть аргументы {1}…</color>",
+      "ru": "<color=#pinkyellow>Использовано {0}</color><color=#brightred> для раскрытия аргументов {1}…</color>",
       "status": "judged",
       "srcHash": "760cea734412df45",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "834ecf88be672260"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "220b2f6baa4436ad"
     },
     "Desc_45": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightred> to eliminate {1} {2}...</color>",
@@ -455,7 +461,7 @@
       "srcHash": "cc7b6b36d8f339ea",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:35:08.138Z",
-      "judgeHash": "1c529f65f7065e07"
+      "judgeHash": "204b0e6addc0cee5"
     },
     "Desc_46": {
       "en": "<color=#pinkyellow>Due to the influence of {0},</color><color=#brightblue> restored an extra {1} {2}!</color>",
@@ -465,7 +471,7 @@
       "srcHash": "33132560906cc8fe",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:35:08.138Z",
-      "judgeHash": "fdcc7aeaee324d73"
+      "judgeHash": "ffa38ce0cfdec409"
     },
     "Desc_47": {
       "en": "<color=#pinkyellow>Because {1} with {0} attached breached the enemy's {2},</color><color=#brightblue> an extra {3} {4} were restored!</color>",
@@ -475,7 +481,7 @@
       "srcHash": "20f6234a4190fb5a",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:35:08.138Z",
-      "judgeHash": "8822383b57b9f3ab"
+      "judgeHash": "ffd97ccdbc28391f"
     },
     "Desc_48": {
       "en": "<color=#pinkyellow>Because {1} with {0} attached was eliminated,</color><color=#brightred> other {2} with {0} attached were also eliminated!</color>",
@@ -485,17 +491,17 @@
       "srcHash": "504e160b0b1b4d85",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:35:08.138Z",
-      "judgeHash": "42efc2a196ae5467"
+      "judgeHash": "cd1f20043a8f1285"
     },
     "Desc_49": {
       "en": "<color=#pinkyellow>Because {1} with {0} attached breached the enemy's {2},</color><color=#brightred> an extra {3} {4} were lost!</color>",
       "cn": "<color=#pinkyellow>因附加了{0}的{1}攻破敌方{2}，</color><color=#brightred>额外失去了{3}点{4}！</color>",
-      "ru": "<color=#pinkyellow>Так как {1} с наложенным {0} проник в защиту противника {2},</color><color=#brightred> дополнительно потеряно {3} {4}!</color>",
+      "ru": "<color=#pinkyellow>Так как {1} с наложенным {0} пробил защиту противника {2},</color><color=#brightred> дополнительно потеряно {3} единиц {4}!</color>",
       "status": "judged",
       "srcHash": "b35fd81e4c0ded16",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T08:00:38.821Z",
-      "judgeHash": "e9715aadd2dbd5a0"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "4a825594aff9a10f"
     },
     "Desc_50": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightblue> to increase {1}'s Arguments...</color>",
@@ -505,7 +511,7 @@
       "srcHash": "2174f20e9730457b",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "f1bba1b67fec3130"
+      "judgeHash": "0f7520b0236e69bd"
     },
     "Desc_51": {
       "en": "<color=#pinkyellow>Because {1} with {0} attached won the Clash,</color><color=#brightblue> {2} extra {1} were generated!</color>",
@@ -515,17 +521,17 @@
       "srcHash": "e61dc46455c34c7f",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "141f28d2d5eb2db1"
+      "judgeHash": "403dc8cfdd7b72e8"
     },
     "Desc_52": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightblue> to bind the Arguments of {1} {2}...</color>",
       "cn": "<color=#pinkyellow>使用了{0}，</color><color=#brightblue>将{1}个{2}的论据绑定…</color>",
-      "ru": "<color=#pinkyellow>Использовано {0}</color><color=#brightblue> для привязки аргументов {1} {2}...</color>",
+      "ru": "<color=#pinkyellow>Использовано {0}</color><color=#brightblue> для привязки {1} аргументов {2}...</color>",
       "status": "judged",
       "srcHash": "8b389b72a204ff18",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "d8573ea3cab749c9"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "b241a9dcc19809c1"
     },
     "Desc_53": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightred> to eliminate {1} {2}...</color>",
@@ -535,7 +541,7 @@
       "srcHash": "cc7b6b36d8f339ea",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "1c529f65f7065e07"
+      "judgeHash": "204b0e6addc0cee5"
     },
     "Desc_54": {
       "en": "<color=#pinkyellow>Due to the influence of {0},</color><color=#brightblue> restored an extra {1} {2}!</color>",
@@ -545,47 +551,47 @@
       "srcHash": "33132560906cc8fe",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "fdcc7aeaee324d73"
+      "judgeHash": "ffa38ce0cfdec409"
     },
     "Desc_55": {
       "en": "<color=#pinkyellow>Because {2} was used on {1} (which has {0} attached),</color><color=#brightred> an extra {3} {4} were consumed!</color>",
       "cn": "<color=#pinkyellow>因对被附加了{0}的{1}使用{2}，</color><color=#brightred>额外消耗了{3}点{4}！</color>",
-      "ru": "<color=#pinkyellow>Так как {2} был применён к {1} (к которому прикреплён {0}),</color><color=#brightred> дополнительно потрачено {3} {4}!</color>",
+      "ru": "<color=#pinkyellow>Так как {2} был применён к {1} (к которому прикреплён {0}),</color><color=#brightred> дополнительно потрачено {3} единиц {4}!</color>",
       "status": "judged",
       "srcHash": "d87d4bd709a275f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "9a3c7befb469efb0"
+      "updatedAt": "2026-08-21T15:26:16.919Z",
+      "judgeHash": "a49e993018db9cd1"
     },
     "Desc_56": {
       "en": "<color=#pinkyellow>Because {1}, with {0} attached, breached {2},</color><color=#brightred> an extra {3} {4} were lost!</color>",
       "cn": "<color=#pinkyellow>因附加了{0}的{1}攻破了{2}，</color><color=#brightred>额外失去了{3}点{4}！</color>",
-      "ru": "<color=#pinkyellow>Так как {1} с {0} прорвал {2},</color><color=#brightred> потеряно дополнительно {3} {4}!</color>",
+      "ru": "<color=#pinkyellow>Так как {1} с прикреплённым {0} прорвал {2},</color><color=#brightred> дополнительно потеряно {3} единиц {4}!</color>",
       "status": "judged",
       "srcHash": "e39c1452cf37f284",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "df0433f6212b8b0a"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "a4a8671edd8a6874"
     },
     "Desc_57": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightred> to make {1} {2} retreat {3} squares...</color>",
       "cn": "<color=#pinkyellow>使用{0}</color><color=#brightred>使{1}个{2}后退了{3}格…</color>",
-      "ru": "<color=#pinkyellow>Используется {0}</color><color=#brightred>, чтобы {1} {2} отступили на {3} клетки...</color>",
+      "ru": "<color=#pinkyellow>Использовал {0}</color><color=#brightred>, чтобы заставить {1} {2} отступить на {3} клетки...</color>",
       "status": "judged",
       "srcHash": "1d01528fd08dc089",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "1d3489af39ab4363"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "cf1513b05c995721"
     },
     "Desc_58": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightred> to discard {1},</color><color=#brightblue> restoring an extra {2} {3}...</color>",
       "cn": "<color=#pinkyellow>使用{0}</color><color=#brightred>弃用了{1}，</color><color=#brightblue>额外恢复了{2}点{3}…</color>",
-      "ru": "<color=#pinkyellow>Используйте {0}</color><color=#brightred>, чтобы отбросить {1},</color><color=#brightblue> восстановив дополнительно {2} {3}...</color>",
+      "ru": "<color=#pinkyellow>Использован {0}</color><color=#brightred> для сброса {1},</color><color=#brightblue> дополнительно восстановлено {2} ед. {3}…</color>",
       "status": "judged",
       "srcHash": "3e5e6ae0cdcd7cde",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "eadad74608f9354c"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "cb64bae01bd72c4d"
     },
     "Desc_59": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightblue> to draw {2} Strategies from {1}...</color>",
@@ -595,17 +601,17 @@
       "srcHash": "a9fd21994b237e07",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "be6f90cb627702a8"
+      "judgeHash": "d11fd21fcc6ca579"
     },
     "Desc_60": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightred> to reveal the Strategy attached to {1} {2}...</color>",
       "cn": "<color=#pinkyellow>使用{0}</color><color=#brightred>揭示了{1}个{2}上附着的策略…</color>",
-      "ru": "<color=#pinkyellow>Используй {0}</color><color=#brightred>, чтобы раскрыть стратегию, прикрепленную к {1} {2}...</color>",
+      "ru": "<color=#pinkyellow>Использован {0}</color><color=#brightred> чтобы раскрыть стратегию, прикреплённую к {1} {2}...</color>",
       "status": "judged",
       "srcHash": "702408e2b6cdfd8a",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "20e2fc09b1d6f67f"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "a1bbcefcf1256fd4"
     },
     "Desc_61": {
       "en": "<color=#pinkyellow>{0}, which was about to enter a Clash, swapped positions with {2} instead</color><color=#brightblue> because it had {1} attached!</color>",
@@ -615,7 +621,7 @@
       "srcHash": "2360cf00c629c924",
       "engine": "yandex",
       "updatedAt": "2026-07-16T02:32:08.885Z",
-      "judgeHash": "8521c1e7aed43228"
+      "judgeHash": "908d2ec16c287a72"
     },
     "Desc_62": {
       "en": "<color=#pinkyellow>Because {0} had {1} attached,</color><color=#brightred> it failed to advance during the resolution phase!</color>",
@@ -625,27 +631,27 @@
       "srcHash": "8656076b1b2d740e",
       "engine": "yandex",
       "updatedAt": "2026-07-16T08:00:38.821Z",
-      "judgeHash": "a542a63a0eb0d3ea"
+      "judgeHash": "ccda5c6d61c64cb1"
     },
     "Desc_63": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightred> to occupy {2} of {1}'s Strategy slots...</color>",
       "cn": "<color=#pinkyellow>使用{0}</color><color=#brightred>占用了{1}的{2}个策略位…</color>",
-      "ru": "<color=#pinkyellow>Использовано {0}</color><color=#brightred> для занятия {2} стратегических слотов {1}…</color>",
+      "ru": "<color=#pinkyellow>Использовано {0}</color><color=#brightred> чтобы занять {2} из стратегических слотов {1}…</color>",
       "status": "judged",
       "srcHash": "7f922c776cd6bd26",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:35:08.138Z",
-      "judgeHash": "722ef16f1a788259"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "d8647875178c7af4"
     },
     "Desc_64": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightblue> to merge the Arguments of {1} into another {2}...</color>",
       "cn": "<color=#pinkyellow>使用{0}</color><color=#brightblue>将{1}的论据合并到了另一个{2}中…</color>",
-      "ru": "<color=#pinkyellow>Используя {0}</color><color=#brightblue> объединяет аргументы {1} в другой {2}...</color>",
+      "ru": "<color=#pinkyellow>Использовали {0}</color><color=#brightblue>, чтобы объединить аргументы {1} в другой {2}...</color>",
       "status": "judged",
       "srcHash": "111bdf4cc570a378",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T02:35:08.138Z",
-      "judgeHash": "be3b3a0a73550447"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "90e78739408e2065"
     },
     "Desc_65": {
       "en": "<color=#pinkyellow>{0} was decomposed by {1}</color><color=#brightblue> into {2} new {0}s...</color>",
@@ -655,37 +661,37 @@
       "srcHash": "d5753f6e0ce0f577",
       "engine": "yandex",
       "updatedAt": "2026-07-16T08:00:38.821Z",
-      "judgeHash": "4a6f1c33ec84e9b8"
+      "judgeHash": "4e341023c01d5dc6"
     },
     "Desc_66": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightblue> to eliminate {1}'s Strategy...</color>",
       "cn": "<color=#pinkyellow>使用{0}</color><color=#brightblue>消除了{1}的策略…</color>",
-      "ru": "<color=#pinkyellow>Использовано {0}</color><color=#brightblue> для устранения стратегии {1}...</color>",
+      "ru": "<color=#pinkyellow>Использовано {0}</color><color=#brightblue> для устранения стратегии, принадлежащей {1}...</color>",
       "status": "judged",
       "srcHash": "75637ce9459b66b2",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T08:00:38.821Z",
-      "judgeHash": "f7e4e0edf5966a1e"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "4417bf4187fa6af4"
     },
     "Desc_67": {
       "en": "<color=#pinkyellow>Used {0}</color><color=#brightblue> to swap the Strategies of {1} and another {2}...</color>",
       "cn": "<color=#pinkyellow>使用{0}</color><color=#brightblue>交换了{1}和另一个{2}的策略…</color>",
-      "ru": "<color=#pinkyellow>Используй {0}</color><color=#brightblue>, чтобы поменять местами стратегии {1} и другого {2}...</color>",
+      "ru": "<color=#pinkyellow>Использован {0}</color><color=#brightblue>, чтобы поменять местами стратегии {1} и другого {2}...</color>",
       "status": "judged",
       "srcHash": "c00c83140b0c4d12",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T08:00:38.821Z",
-      "judgeHash": "7aae6bbff9756697"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "3d772c4bcfcc2267"
     },
     "Desc_68": {
       "en": "<color=#pinkyellow>Used {0} to swap the Strategies held by both sides...</color>",
       "cn": "<color=#pinkyellow>使用{0}交换了双方持有的策略…</color>",
-      "ru": "<color=#pinkyellow>Используй {0}, чтобы поменять местами стратегии обеих сторон...</color>",
+      "ru": "<color=#pinkyellow>Использовали {0}, чтобы поменять местами стратегии обеих сторон...</color>",
       "status": "judged",
       "srcHash": "bf5814cf610e66dc",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T08:00:38.821Z",
-      "judgeHash": "100ede9dfc8a970c"
+      "updatedAt": "2026-08-21T11:36:54.909Z",
+      "judgeHash": "0af5570b730e1d56"
     }
   }
 }
