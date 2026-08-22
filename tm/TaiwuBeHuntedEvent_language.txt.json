@@ -415,11 +415,12 @@
     "ResistEvent_11": {
       "en": "\"Since you spurn our laws,\\nI shall show you the Five Immortals Sect's might!\"\\n\\nSeeing the defiant attitude of <Character key=RoleTaiwu str=Name/>, <Character key=CharacterId str=Name/> stands poised to launch a strike at <Character key=RoleTaiwu str=Name/>!",
       "cn": "“你既不服法，\\n那便叫你领教下我五仙教的手段！”\\n\\n<Character key=CharacterId str=Name/>见<Character key=RoleTaiwu str=Name/>回绝，便摆出攻势，似要向<Character key=RoleTaiwu str=Name/>袭来！",
-      "ru": "- С тех пор, как вы отвергли наши законы,\\nЯ покажу тебе мощь Секты пяти Бессмертных!\"\\n\\nВидя вызывающее отношение <Character key=RoleTaiwu str=Name/>, <Character key=CharacterId str=Name/> стоит, готовый нанести удар по <Character key=RoleTaiwu str=Name/>!",
-      "status": "machine",
+      "ru": "\"Раз вы отвергаете наши законы,\\nя покажу тебе мощь Секты пяти бессмертных!\"\\n\\nУвидев, что <Character key=RoleTaiwu str=Name/> отказался, <Character key=CharacterId str=Name/> принял боевую стойку, словно собираясь атаковать <Character key=RoleTaiwu str=Name/>!",
+      "status": "judged",
       "srcHash": "b2f336c10a7291c1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "d81d2e57de9a0475"
     },
     "ResistEvent_12": {
       "en": "\"What's due at midnight won't wait till dawn.\\nStruggle only prolongs agony...\"\\n\\nSeeing the defiant attitude of <Character key=RoleTaiwu str=Name/>, <Character key=CharacterId str=Name/> stands poised to launch a strike at <Character key=RoleTaiwu str=Name/>!",
@@ -717,11 +718,12 @@
     "ResistLoseEvent_12": {
       "en": "<Character key=RoleTaiwu str=Name/> is defeated by <Character key=CharacterId str=Name/>...\\n\\n\"Binding prey is tedious. Slaughter is swifter...\"\\n\\n<Character key=CharacterId str=Name/> binds <Character key=RoleTaiwu str=Name/> hand and foot,\\nescorting <Character key=RoleTaiwu str=GenderObject/> to the Veil Scar Sect...",
       "cn": "<Character key=RoleTaiwu str=Name/>不敌<Character key=CharacterId str=Name/>，败下阵来……\\n\\n“擒人颇为费力，还是杀人容易些……”\\n\\n<Character key=CharacterId str=Name/>将<Character key=RoleTaiwu str=Name/>五花大绑，\\n随后押送其前往界青门……",
-      "ru": "<Character key=RoleTaiwu str=Name/> побежден <Character key=CharacterId str=Name/>...\\n\\n- Связывать добычу утомительно. Резня происходит быстрее...\"\\n\\n<Character key=CharacterId str=Name/> связывает <Character key=RoleTaiwu str=Name/> рука и нога,\\nсопровождающий <Character key=RoleTaiwu str=GenderObject/> в Секту завесы...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> побеждён <Character key=CharacterId str=Name/>...\\n\\n\"Связывать добычу утомительно. Убивать быстрее...\"\\n\\n<Character key=CharacterId str=Name/> связывает <Character key=RoleTaiwu str=Name/> по рукам и ногам,\\nа затем отправляет <Character key=RoleTaiwu str=GenderObject/> в Секту завесы...",
+      "status": "judged",
       "srcHash": "87ada88354c7a66b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "8ed926996493ea38"
     },
     "ResistLoseEvent_13": {
       "en": "<Character key=RoleTaiwu str=Name/> is defeated by <Character key=CharacterId str=Name/>...\\n\\n\"Hmph, you dare challenge the might of the True Loong? I shall see you delivered to justice!\"\\n\\n<Character key=CharacterId str=Name/> binds <Character key=RoleTaiwu str=Name/> hand and foot,\\nescorting <Character key=RoleTaiwu str=GenderObject/> to the Fuloong Sanctuary...",
@@ -754,11 +756,12 @@
     "PersuadeEvent_1": {
       "en": "<Character key=RoleTaiwu str=Name/> seeks words with <Character key=CharacterId str=Name/> in good faith...\\n\\n<Character key=CharacterId str=Name/> says:\\n\"Our sect always holds that 'listening brings enlightenment.' Since you are eager to defend yourself, now speak your case...\"",
       "cn": "<Character key=RoleTaiwu str=Name/>与<Character key=CharacterId str=Name/>好言相商……\\n\\n<Character key=CharacterId str=Name/>开口道：\\n“本派素以‘兼听则明’为训，你既急欲陈词，便可就此申辩……”",
-      "ru": "<Character key=RoleTaiwu str=Name/> ищет слова с <Character key=CharacterId str=Name/> добросовестно...\\n\\n<Character key=CharacterId str=Name/> говорит:\\n\"Наша секта всегда придерживается мнения, что \"слушание приносит просветление\". Поскольку вы стремитесь защитить себя, теперь излагайте свою точку зрения...\"",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> ищет слова с <Character key=CharacterId str=Name/> в добрых намерениях...\\n\\n<Character key=CharacterId str=Name/> говорит:\\n\"Наша секта всегда придерживается мнения, что 'слушание приносит просветление'. Поскольку вы стремитесь защитить себя, теперь излагайте свою точку зрения...\"",
+      "status": "judged",
       "srcHash": "2e1f5df8099c7789",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "7f65b21ee03c7dbd"
     },
     "PersuadeEvent_2": {
       "en": "<Character key=RoleTaiwu str=Name/> seeks words with <Character key=CharacterId str=Name/> in good faith...\\n\\n<Character key=CharacterId str=Name/> says:\\n\"Our creed of 'benefiting the world through reason' compels us to listen—speak your defense now...\"",
@@ -773,11 +776,12 @@
     "PersuadeEvent_3": {
       "en": "<Character key=RoleTaiwu str=Name/> seeks words with <Character key=CharacterId str=Name/> in good faith...\\n\\n<Character key=CharacterId str=Name/> says:\\n\"To uphold the Tao and righteousness, I shall hear what you have to say...\"",
       "cn": "<Character key=RoleTaiwu str=Name/>与<Character key=CharacterId str=Name/>好言相商……\\n\\n<Character key=CharacterId str=Name/>开口道：\\n“辩道法而明乎其理，此为正举，我便听你一言……”",
-      "ru": "<Character key=RoleTaiwu str=Name/> ищет слова с <Character key=CharacterId str=Name/> добросовестно...\\n\\n<Character key=CharacterId str=Name/> говорит:\\n\"Чтобы поддерживать Дао и праведность, я выслушаю то, что ты хочешь сказать...\"",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> мирно обсуждает вопрос с <Character key=CharacterId str=Name/>...\\n\\n<Character key=CharacterId str=Name/> говорит:\\n\"Рассуждать о Дао и постигать его принципы — праведный поступок, поэтому я выслушаю тебя...\"",
+      "status": "judged",
       "srcHash": "e862c7674aa64459",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "04683cf0813c825f"
     },
     "PersuadeEvent_4": {
       "en": "<Character key=RoleTaiwu str=Name/> seeks words with <Character key=CharacterId str=Name/> in good faith...\\n\\n<Character key=CharacterId str=Name/> says:\\n\"Your words carry kindness and virtue—I shall listen to your reasoning...\"",
@@ -826,25 +830,28 @@
       "status": "machine",
       "srcHash": "af12cb50e49702a3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8c9010c2718b1dc0"
     },
     "PersuadeEvent_9": {
       "en": "<Character key=RoleTaiwu str=Name/> seeks words with <Character key=CharacterId str=Name/> in good faith...\\n\\nSeeing <Character key=RoleTaiwu str=Name/> eager to explain, <Character key=CharacterId str=Name/> frowns and says:\\n\"I care little for your prattle,\\nbut since you insist—speak swiftly...\"",
       "cn": "<Character key=RoleTaiwu str=Name/>与<Character key=CharacterId str=Name/>好言相商……\\n\\n<Character key=CharacterId str=Name/>见<Character key=RoleTaiwu str=Name/>急欲申辩，蹙眉开口道：\\n“此等繁琐之言，我本无兴致一听，\\n然你不说尽此话，似不罢休，那请速速道来……”",
-      "ru": "<Character key=RoleTaiwu str=Name/> ищет слова с <Character key=CharacterId str=Name/> добросовестно...\\n\\nВидя <Character key=RoleTaiwu str=Name/> жаждущий объяснить, <Character key=CharacterId str=Name/> хмурится и говорит:\\n- Меня мало волнует твоя болтовня,\\nно раз уж вы настаиваете — говорите быстро...\"",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> пытается по-доброму поговорить с <Character key=CharacterId str=Name/>…\\n\\nУвидев, что <Character key=RoleTaiwu str=Name/> жаждет объясниться, <Character key=CharacterId str=Name/> хмурится и говорит:\\n\"Меня мало интересует твоя болтовня,\\nно раз уж ты не отстанешь, пока всё не выскажешься, говори же скорее…\"",
+      "status": "judged",
       "srcHash": "be91ff25a393a053",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "891ab262fb188c60"
     },
     "PersuadeEvent_10": {
       "en": "<Character key=RoleTaiwu str=Name/> seeks words with <Character key=CharacterId str=Name/> in good faith...\\n\\nSensing reason in <Character key=RoleTaiwu str=Name/>'s words, <Character key=CharacterId str=Name/> states:\\n\"You seem to grasp a sliver of the Buddha's wisdom...\\nVery well. Speak, and I shall listen!\"",
       "cn": "<Character key=RoleTaiwu str=Name/>与<Character key=CharacterId str=Name/>好言相商……\\n\\n<Character key=CharacterId str=Name/>见<Character key=RoleTaiwu str=Name/>似要讲出几分道理，便开口道：\\n“佛爷箴言，你好似略知一二……\\n既然如此，我便姑且听你一言！”",
-      "ru": "<Character key=RoleTaiwu str=Name/> ищет слова с <Character key=CharacterId str=Name/> добросовестно...\\n\\nЧувствуя причину в <Character key=RoleTaiwu str=Name/>его слова, <Character key=CharacterId str=Name/> государства:\\n- Кажется, ты уловил крупицу мудрости Будды...\\nОчень хорошо. Говори, а я буду слушать!\"",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> обменивается вежливыми словами с <Character key=CharacterId str=Name/>…\\n\\nУслышав, что в словах <Character key=RoleTaiwu str=Name/> есть доля смысла, <Character key=CharacterId str=Name/> говорит:\\n\"Ты, похоже, немного знаешь наставления Будды…\\nЧто ж, говори, я тебя выслушаю!\"",
+      "status": "judged",
       "srcHash": "685ae3340e68cb9e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "fbdd32af6c1a007b"
     },
     "PersuadeEvent_11": {
       "en": "<Character key=RoleTaiwu str=Name/> seeks words with <Character key=CharacterId str=Name/> in good faith...\\n\\n<Character key=CharacterId str=Name/> says:\\n\"I've no patience for lectures...\\nBut you'll yammer on regardless. Speak, then—quickly!\"",
@@ -867,11 +874,12 @@
     "PersuadeEvent_13": {
       "en": "<Character key=RoleTaiwu str=Name/> seeks words with <Character key=CharacterId str=Name/> in good faith...\\n\\n<Character key=CharacterId str=Name/> says:\\n\"If you hold the True Loong in reverence and seek to prove your sincerity,\\nthen I shall hear you out...\"",
       "cn": "<Character key=RoleTaiwu str=Name/>与<Character key=CharacterId str=Name/>好言相商……\\n\\n<Character key=CharacterId str=Name/>开口道：\\n“你既对真龙有尊崇之意，\\n且要言明本心，那我便姑且一听……”",
-      "ru": "<Character key=RoleTaiwu str=Name/> ищет слова с <Character key=CharacterId str=Name/> добросовестно...\\n\\n<Character key=CharacterId str=Name/> говорит:\\n\"Если ты с почтением относишься к Истинному Лун и стремишься доказать свою искренность,\\nтогда я вас выслушаю...\"",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> мирно беседует с <Character key=CharacterId str=Name/>…\\n\\n<Character key=CharacterId str=Name/> говорит:\\n\"Если ты почитаешь истинного луна и хочешь выразить свои истинные намерения,\\nто я тебя выслушаю…\"",
+      "status": "judged",
       "srcHash": "8a02aded0ed1d5d5",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "85470988cb0e82f4"
     },
     "PersuadeEvent_14": {
       "en": "<Character key=RoleTaiwu str=Name/> seeks words with <Character key=CharacterId str=Name/> in good faith...\\n\\n<Character key=CharacterId str=Name/> says:\\n\"Your words hold a certain defiance against convention. I shall hear what you have to say...\"",
@@ -935,11 +943,12 @@
     "PersuadeWinEvent_5": {
       "en": "<Character key=RoleTaiwu str=Name/> succeeds in persuasion!\\n\\n<Character key=CharacterId str=Name/> hangs <Character key=RoleTaiwu str=GenderPossessive/> head, sighing:\\n\"You are most eloquent... Your words indeed bear reason, and I find myself unable to refute them...\"\\n\\n<Character key=CharacterId str=Name/> is convinced by <Character key=RoleTaiwu str=Name/>, letting <Character key=RoleTaiwu str=Name/> take <Character key=RoleTaiwu str=GenderPossessive/> leave...",
       "cn": "<Character key=RoleTaiwu str=Name/>取得了胜利！\\n\\n<Character key=CharacterId str=Name/>耷头耷脑道：\\n“你甚会说道，所言有几分道理，我刮肠搜肚也分辩不得……”\\n\\n<Character key=CharacterId str=Name/>被<Character key=RoleTaiwu str=Name/>说服，便由<Character key=RoleTaiwu str=Name/>自行离去……",
-      "ru": "<Character key=RoleTaiwu str=Name/> преуспевает в убеждении!\\n\\n<Character key=CharacterId str=Name/> висит <Character key=RoleTaiwu str=GenderPossessive/> головой, вздыхая:\\n- Вы очень красноречивы... В ваших словах действительно есть резон, и я не могу их опровергнуть...\"\\n\\n<Character key=CharacterId str=Name/> убежден в <Character key=RoleTaiwu str=Name/>, позволяя <Character key=RoleTaiwu str=Name/> возьмите <Character key=RoleTaiwu str=GenderPossessive/> уходи...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> одерживает победу в споре!\\n\\n<Character key=CharacterId str=Name/> понуро опускает <Character key=RoleTaiwu str=GenderPossessive/> голову, вздыхая:\\n\"Вы весьма красноречивы... В ваших словах действительно есть доля истины, и мне нечем их опровергнуть...\"\\n\\n<Character key=CharacterId str=Name/> убеждён словами <Character key=RoleTaiwu str=Name/>, и потому позволяет <Character key=RoleTaiwu str=Name/> уйти по <Character key=RoleTaiwu str=GenderPossessive/> воле...",
+      "status": "judged",
       "srcHash": "a45165594be4ddf0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "e3af6231b8a48231"
     },
     "PersuadeWinEvent_6": {
       "en": "<Character key=RoleTaiwu str=Name/> succeeds in persuasion!\\n\\n<Character key=CharacterId str=Name/> says:\\n\"I failed to see through the shifting tides of debate... Misjudging the flow of words, I have faltered...\"\\n\\n<Character key=CharacterId str=Name/> is convinced by <Character key=RoleTaiwu str=Name/>, letting <Character key=RoleTaiwu str=Name/> take <Character key=RoleTaiwu str=GenderPossessive/> leave...",
@@ -963,20 +972,22 @@
     "PersuadeWinEvent_8": {
       "en": "<Character key=RoleTaiwu str=Name/> succeeds in persuasion!\\n\\n<Character key=CharacterId str=Name/> nods in approval:\\n\"Your words have opened my eyes.\\nIt seems my cultivation was insufficient, my understanding shallow...\"\\n\\n<Character key=CharacterId str=Name/> is convinced by <Character key=RoleTaiwu str=Name/>, letting <Character key=RoleTaiwu str=Name/> take <Character key=RoleTaiwu str=GenderPossessive/> leave...",
       "cn": "<Character key=RoleTaiwu str=Name/>取得了胜利！\\n\\n<Character key=CharacterId str=Name/>点头称道：\\n“我听你一言方才顿悟，\\n便是平日里仍磨砺不够，思虑不足……”\\n\\n<Character key=CharacterId str=Name/>被<Character key=RoleTaiwu str=Name/>说服，便由<Character key=RoleTaiwu str=Name/>自行离去……",
-      "ru": "<Character key=RoleTaiwu str=Name/> преуспевает в убеждении!\\n\\n<Character key=CharacterId str=Name/> одобрительно кивает:\\n- Твои слова открыли мне глаза.\\nПохоже, мое развитие было недостаточным, мое понимание поверхностным...\"\\n\\n<Character key=CharacterId str=Name/> убежден в <Character key=RoleTaiwu str=Name/>, позволяя <Character key=RoleTaiwu str=Name/> возьмите <Character key=RoleTaiwu str=GenderPossessive/> уходи...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> одерживает победу!\\n\\n<Character key=CharacterId str=Name/> одобрительно кивает:\\n\"Твои слова открыли мне глаза.\\nПохоже, мне не хватало усердия в совершенствовании, а мои мысли были недостаточно глубокими...\"\\n\\n<Character key=CharacterId str=Name/> убеждён словами <Character key=RoleTaiwu str=Name/> и позволяет <Character key=RoleTaiwu str=Name/> уйти по <Character key=RoleTaiwu str=GenderPossessive/> воле...",
+      "status": "judged",
       "srcHash": "2db81bbc700f6871",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "15e752bd4b8c19c7"
     },
     "PersuadeWinEvent_9": {
       "en": "<Character key=RoleTaiwu str=Name/> succeeds in persuasion!\\n\\n<Character key=CharacterId str=Name/> nods in approval:\\n\"Your words hold truth. Right and wrong indeed blur in this world...\"\\n\\n<Character key=CharacterId str=Name/> is convinced by <Character key=RoleTaiwu str=Name/>, letting <Character key=RoleTaiwu str=Name/> take <Character key=RoleTaiwu str=GenderPossessive/> leave...",
       "cn": "<Character key=RoleTaiwu str=Name/>取得了胜利！\\n\\n<Character key=CharacterId str=Name/>点头称道：\\n“你所言有理，世间之事，确是功过是非难论……”\\n\\n<Character key=CharacterId str=Name/>被<Character key=RoleTaiwu str=Name/>说服，便由<Character key=RoleTaiwu str=Name/>自行离去……",
-      "ru": "<Character key=RoleTaiwu str=Name/> преуспевает в убеждении!\\n\\n<Character key=CharacterId str=Name/> одобрительно кивает:\\n- В твоих словах есть доля правды. Правильное и неправильное действительно размываются в этом мире...\"\\n\\n<Character key=CharacterId str=Name/> убежден в <Character key=RoleTaiwu str=Name/>, позволяя <Character key=RoleTaiwu str=Name/> возьмите <Character key=RoleTaiwu str=GenderPossessive/> уходи...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> преуспевает в убеждении!\\n\\n<Character key=CharacterId str=Name/> одобрительно кивает:\\n\"Твои слова разумны. В этом мире действительно трудно судить, что правильно, а что нет...\"\\n\\n<Character key=CharacterId str=Name/> убеждён словами <Character key=RoleTaiwu str=Name/> и позволяет <Character key=RoleTaiwu str=Name/> уйти по <Character key=RoleTaiwu str=GenderPossessive/> воле...",
+      "status": "judged",
       "srcHash": "03d540fc80010fa0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "5d4410e71c03280d"
     },
     "PersuadeWinEvent_10": {
       "en": "<Character key=RoleTaiwu str=Name/> succeeds in persuasion!\\n\\n<Character key=CharacterId str=Name/> says:\\n\"I've mastered our sect's deepest doctrines,\\nyet this debate slips through my fingers...\"\\n\\n<Character key=CharacterId str=Name/> is convinced by <Character key=RoleTaiwu str=Name/>, letting <Character key=RoleTaiwu str=Name/> take <Character key=RoleTaiwu str=GenderPossessive/> leave...",
@@ -1001,11 +1012,12 @@
     "PersuadeWinEvent_12": {
       "en": "<Character key=RoleTaiwu str=Name/> succeeds in persuasion!\\n\\n<Character key=CharacterId str=Name/> says in a measured tone:\\n\"Leave now...\\nNext time, your tongue won't save you!\"\\n\\n<Character key=CharacterId str=Name/> is convinced by <Character key=RoleTaiwu str=Name/>, letting <Character key=RoleTaiwu str=Name/> take <Character key=RoleTaiwu str=GenderPossessive/> leave...",
       "cn": "<Character key=RoleTaiwu str=Name/>取得了胜利！\\n\\n<Character key=CharacterId str=Name/>沉声道：\\n“你就此离去罢……\\n若有下次，我怕是不会让你开口！”\\n\\n<Character key=CharacterId str=Name/>被<Character key=RoleTaiwu str=Name/>说服，便由<Character key=RoleTaiwu str=Name/>自行离去……",
-      "ru": "<Character key=RoleTaiwu str=Name/> преуспевает в убеждении!\\n\\n<Character key=CharacterId str=Name/> говорит размеренным тоном:\\n- Уходи сейчас же...\\nВ следующий раз твой язык тебя не спасет!\"\\n\\n<Character key=CharacterId str=Name/> убежден в <Character key=RoleTaiwu str=Name/>, позволяя <Character key=RoleTaiwu str=Name/> возьмите <Character key=RoleTaiwu str=GenderPossessive/> уходи...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> одерживает победу в споре!\\n\\n<Character key=CharacterId str=Name/> говорит низким голосом:\\n\"Уходи сейчас же...\\nВ следующий раз я не позволю тебе открыть рот!\"\\n\\n<Character key=CharacterId str=Name/> убеждён <Character key=RoleTaiwu str=Name/>, после чего <Character key=RoleTaiwu str=Name/> сам отправляется в <Character key=RoleTaiwu str=GenderPossessive/> путь...",
+      "status": "judged",
       "srcHash": "cc584d9712e22ed4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "b8425bda290ad77a"
     },
     "PersuadeWinEvent_13": {
       "en": "<Character key=RoleTaiwu str=Name/> succeeds in persuasion!\\n\\n<Character key=CharacterId str=Name/> says:\\n\"Your words... do bear some truth after all...\"\\n\\n<Character key=CharacterId str=Name/> is convinced by <Character key=RoleTaiwu str=Name/>, letting <Character key=RoleTaiwu str=Name/> take <Character key=RoleTaiwu str=GenderPossessive/> leave...",
@@ -1039,29 +1051,32 @@
     "PersuadeLoseEvent_1": {
       "en": "<Character key=RoleTaiwu str=Name/> fails to convince <Character key=CharacterId str=Name/>...\\n\\n<Character key=CharacterId str=Name/> says:\\n\"Our teachings, having integrated the true essence of Confucianism, Buddhism, and Taoism,\\nrender your words unconvincing...\"\\n\\n<Character key=RoleTaiwu str=Name/> has no choice but to submit, <Character key=CharacterId str=Name/> binds <Character key=RoleTaiwu str=Name/> hand and foot,\\nescorting <Character key=RoleTaiwu str=GenderObject/> to the Emei Sect...",
       "cn": "<Character key=RoleTaiwu str=Name/>未能以言辞说服<Character key=CharacterId str=Name/>……\\n\\n<Character key=CharacterId str=Name/>道：\\n“我派所学已融会儒释道三教真意，\\n故你此言并未劝服我……”\\n\\n<Character key=RoleTaiwu str=Name/>俯首就擒，<Character key=CharacterId str=Name/>将<Character key=RoleTaiwu str=Name/>五花大绑，\\n随后押送其前往峨眉派……",
-      "ru": "<Character key=RoleTaiwu str=Name/> не удается убедить <Character key=CharacterId str=Name/>...\\n\\n<Character key=CharacterId str=Name/> говорит:\\n\"Наши учения, объединившие истинную сущность конфуцианства, буддизма и даосизма,\\nсделайте ваши слова неубедительными...\"\\n\\n<Character key=RoleTaiwu str=Name/> у него нет другого выбора, кроме как подчиниться, <Character key=CharacterId str=Name/> связывает <Character key=RoleTaiwu str=Name/> рука и нога,\\nсопровождающий <Character key=RoleTaiwu str=GenderObject/> в секту Эмэй...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> не удалось убедить <Character key=CharacterId str=Name/>...\\n\\n<Character key=CharacterId str=Name/> говорит:\\n\"Наши учения, вобравшие истинную суть конфуцианства, буддизма и даосизма,\\nделают твои слова неубедительными...\"\\n\\n<Character key=RoleTaiwu str=Name/> покорно сдаётся, <Character key=CharacterId str=Name/> связывает <Character key=RoleTaiwu str=Name/> по рукам и ногам,\\nзатем препровождает <Character key=RoleTaiwu str=GenderObject/> в секту Эмэй...",
+      "status": "judged",
       "srcHash": "fe952fb0858c28b3",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "0158ebab37e45582"
     },
     "PersuadeLoseEvent_2": {
       "en": "<Character key=RoleTaiwu str=Name/> fails to convince <Character key=CharacterId str=Name/>...\\n\\n<Character key=CharacterId str=Name/> says:\\n\"Your defense, though fervent,\\nlacks clarity and fails to convince me...\"\\n\\n<Character key=RoleTaiwu str=Name/> has no choice but to submit, <Character key=CharacterId str=Name/> binds <Character key=RoleTaiwu str=Name/> hand and foot,\\nescorting <Character key=RoleTaiwu str=GenderObject/> to the Valley of Flowers...",
       "cn": "<Character key=RoleTaiwu str=Name/>未能以言辞说服<Character key=CharacterId str=Name/>……\\n\\n<Character key=CharacterId str=Name/>开口道：\\n“你此番申辩，\\n并未阐明其理，亦难以说服我……”\\n\\n<Character key=RoleTaiwu str=Name/>只得俯首就擒，<Character key=CharacterId str=Name/>将<Character key=RoleTaiwu str=Name/>五花大绑，\\n随后押送其前往百花谷……",
-      "ru": "<Character key=RoleTaiwu str=Name/> не удается убедить <Character key=CharacterId str=Name/>...\\n\\n<Character key=CharacterId str=Name/> говорит:\\n- Ваша защита, хотя и пылкая,\\nне хватает ясности и не удается убедить меня...\"\\n\\n<Character key=RoleTaiwu str=Name/> у него нет другого выбора, кроме как подчиниться, <Character key=CharacterId str=Name/> связывает <Character key=RoleTaiwu str=Name/> рука и нога,\\nсопровождающий <Character key=RoleTaiwu str=GenderObject/> в Долину цветов...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> не удалось убедить <Character key=CharacterId str=Name/>...\\n\\n<Character key=CharacterId str=Name/> говорит:\\n\"Ваша защита, хоть и пылка,\\nнедостаточно ясна и не убеждает меня...\"\\n\\n<Character key=RoleTaiwu str=Name/> остаётся лишь сдаться, и <Character key=CharacterId str=Name/> связывает <Character key=RoleTaiwu str=Name/> по рукам и ногам,\\nа затем отправляет <Character key=RoleTaiwu str=GenderObject/> в Долину цветов...",
+      "status": "judged",
       "srcHash": "a025c17e78a5435a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "c43d7f3f53311b2f"
     },
     "PersuadeLoseEvent_3": {
       "en": "<Character key=RoleTaiwu str=Name/> fails to convince <Character key=CharacterId str=Name/>...\\n\\n<Character key=CharacterId str=Name/> sighs:\\n\"I have grasped a fragment of true enlightenment.\\nThus, I cannot be swayed by your words...\"\\n\\n<Character key=RoleTaiwu str=Name/> has no choice but to submit, <Character key=CharacterId str=Name/> binds <Character key=RoleTaiwu str=Name/> hand and foot,\\nescorting <Character key=RoleTaiwu str=GenderObject/> to the Wudang Sect...",
       "cn": "<Character key=RoleTaiwu str=Name/>未能以言辞说服<Character key=CharacterId str=Name/>……\\n\\n<Character key=CharacterId str=Name/>暗叹一声道：\\n“我于修行一途，\\n幸得几分真意，才未被你劝服……”\\n\\n<Character key=RoleTaiwu str=Name/>只得俯首就擒，<Character key=CharacterId str=Name/>将<Character key=RoleTaiwu str=Name/>五花大绑，\\n随后押送其前往武当派……",
-      "ru": "<Character key=RoleTaiwu str=Name/> не удается убедить <Character key=CharacterId str=Name/>...\\n\\n<Character key=CharacterId str=Name/> вздыхает:\\n\"Я постиг фрагмент истинного просветления.\\nТаким образом, ваши слова не могут вызвать у меня смятения...\"\\n\\n<Character key=RoleTaiwu str=Name/> у него нет другого выбора, кроме как подчиниться, <Character key=CharacterId str=Name/> связывает <Character key=RoleTaiwu str=Name/> рука и нога,\\nсопровождающий <Character key=RoleTaiwu str=GenderObject/> в секту Удан...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> не смог убедить <Character key=CharacterId str=Name/>…\\n\\n<Character key=CharacterId str=Name/> со вздохом говорит:\\n\"Мне посчастливилось постичь на пути совершенствования несколько истин.\\nПоэтому твои слова не смогли меня убедить…\"\\n\\n<Character key=RoleTaiwu str=Name/> лишь покорно сдаётся, и <Character key=CharacterId str=Name/> связывает <Character key=RoleTaiwu str=Name/> по рукам и ногам,\\nа затем конвоирует <Character key=RoleTaiwu str=GenderObject/> в секту Удан…",
+      "status": "judged",
       "srcHash": "11bfc3a799fa500a",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "913e4613e0ef046d"
     },
     "PersuadeLoseEvent_4": {
       "en": "<Character key=RoleTaiwu str=Name/> fails to convince <Character key=CharacterId str=Name/>...\\n\\n<Character key=CharacterId str=Name/> says:\\n\"I have cultivated for many years; my heart and convictions are unshakable.\\nYou have not swayed me...\"\\n\\n<Character key=RoleTaiwu str=Name/> has no choice but to submit, <Character key=CharacterId str=Name/> binds <Character key=RoleTaiwu str=Name/> hand and foot,\\nescorting <Character key=RoleTaiwu str=GenderObject/> to the Yuanshan Sect...",
@@ -1133,20 +1148,22 @@
     "PersuadeLoseEvent_11": {
       "en": "<Character key=RoleTaiwu str=Name/> fails to convince <Character key=CharacterId str=Name/>...\\n\\n<Character key=CharacterId str=Name/> snaps:\\n\"Your endless prattle holds no flavor!\"\\n\\n<Character key=RoleTaiwu str=Name/> has no choice but to submit, <Character key=CharacterId str=Name/> binds <Character key=RoleTaiwu str=Name/> hand and foot,\\nescorting <Character key=RoleTaiwu str=GenderObject/> to the Five Immortals Sect...",
       "cn": "<Character key=RoleTaiwu str=Name/>未能以言辞说服<Character key=CharacterId str=Name/>……\\n\\n<Character key=CharacterId str=Name/>不耐道：\\n“你说了这老长一番话，我却没听出什么趣儿来！”\\n\\n<Character key=RoleTaiwu str=Name/>只得俯首就擒，<Character key=CharacterId str=Name/>将<Character key=RoleTaiwu str=Name/>五花大绑，\\n随后押送其前往五仙教……",
-      "ru": "<Character key=RoleTaiwu str=Name/> не удается убедить <Character key=CharacterId str=Name/>...\\n\\n<Character key=CharacterId str=Name/> щелкает:\\n\"В твоей бесконечной болтовне нет никакого вкуса!\"\\n\\n<Character key=RoleTaiwu str=Name/> у него нет другого выбора, кроме как подчиниться, <Character key=CharacterId str=Name/> связывает <Character key=RoleTaiwu str=Name/> рука и нога,\\nсопровождающий <Character key=RoleTaiwu str=GenderObject/> в Секту пяти Бессмертных...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> не удаётся убедить <Character key=CharacterId str=Name/>…\\n\\n<Character key=CharacterId str=Name/> раздражённо произносит:\\n\"Ты столько наговорил, а в этом не было ничего интересного!\"\\n\\n<Character key=RoleTaiwu str=Name/> не остаётся иного выбора, кроме как сдаться, <Character key=CharacterId str=Name/> связывает <Character key=RoleTaiwu str=Name/> по рукам и ногам,\\nа затем препровождает <Character key=RoleTaiwu str=GenderObject/> в Секту пяти бессмертных…",
+      "status": "judged",
       "srcHash": "59e6acc22fa3560d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "8797608ed7edfef6"
     },
     "PersuadeLoseEvent_12": {
       "en": "<Character key=RoleTaiwu str=Name/> fails to convince <Character key=CharacterId str=Name/>...\\n\\n<Character key=CharacterId str=Name/> hisses:\\n\"My patience withers. One more word, and your breath follows...\"\\n\\n<Character key=RoleTaiwu str=Name/> submits. <Character key=CharacterId str=Name/> binds <Character key=RoleTaiwu str=Name/> hand and foot,\\nescorting <Character key=RoleTaiwu str=GenderObject/> to the Veil Scar Sect...",
       "cn": "<Character key=RoleTaiwu str=Name/>未能以言辞说服<Character key=CharacterId str=Name/>……\\n\\n<Character key=CharacterId str=Name/>冷声道：\\n“我已忍耐许久，你若敢再言，便莫怪我出手……”\\n\\n<Character key=RoleTaiwu str=Name/>俯首就擒，<Character key=CharacterId str=Name/>将<Character key=RoleTaiwu str=Name/>五花大绑，\\n随后押送其前往界青门……",
-      "ru": "<Character key=RoleTaiwu str=Name/> не удается убедить <Character key=CharacterId str=Name/>...\\n\\n<Character key=CharacterId str=Name/> шипит:\\n- Мое терпение иссякает. Еще одно слово, и твое дыхание последует за...\"\\n\\n<Character key=RoleTaiwu str=Name/> подчиняется. <Character key=CharacterId str=Name/> связывает <Character key=RoleTaiwu str=Name/> рука и нога,\\nсопровождающий <Character key=RoleTaiwu str=GenderObject/> в Секту завесы...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> не удаётся убедить <Character key=CharacterId str=Name/>...\\n\\n<Character key=CharacterId str=Name/> шипит:\\n\"Моё терпение на исходе. Ещё одно слово — и я применю силу...\"\\n\\n<Character key=RoleTaiwu str=Name/> сдаётся. <Character key=CharacterId str=Name/> связывает <Character key=RoleTaiwu str=Name/> по рукам и ногам,\\nпосле чего отправляет <Character key=RoleTaiwu str=GenderObject/> в Секту завесы...",
+      "status": "judged",
       "srcHash": "7e42f485ab06bb23",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "a848634c3d44af20"
     },
     "PersuadeLoseEvent_13": {
       "en": "<Character key=RoleTaiwu str=Name/> fails to convince <Character key=CharacterId str=Name/>...\\n\\n<Character key=CharacterId str=Name/> lifts the chin and declares:\\n\"Since pledging myself to the True Loong, my will has been unshaken.\\n Even Taiwu cannot sway me in the slightest...\"\\n\\n<Character key=RoleTaiwu str=Name/> submits. <Character key=CharacterId str=Name/> binds <Character key=RoleTaiwu str=Name/> hand and foot,\\nescorting <Character key=RoleTaiwu str=GenderObject/> to the Fuloong Sanctuary...",
@@ -1169,11 +1186,12 @@
     "BribeEvent_0": {
       "en": "A thought arises within <Character key=RoleTaiwu str=Name/>.\\nIf <Character key=RoleTaiwu str=GenderSubject/> attempts to bribe <Character key=CharacterId str=Name/>,\\nconfessing mistakes and showing genuine remorse—perhaps this matter could be resolved...",
       "cn": "<Character key=RoleTaiwu str=Name/>心生一计，\\n若尝试收买<Character key=CharacterId str=Name/>，将贿物施与他人，\\n以示悔过之心，或可消弭罪孽，了却此事……",
-      "ru": "Внутри возникает мысль <Character key=RoleTaiwu str=Name/>.\\nЕсли <Character key=RoleTaiwu str=GenderSubject/> попытки подкупа <Character key=CharacterId str=Name/>,\\nпризнание в ошибках и проявление искреннего раскаяния — возможно, этот вопрос можно было бы решить...",
-      "status": "machine",
+      "ru": "У <Character key=RoleTaiwu str=Name/> возникает идея.\\nЕсли <Character key=RoleTaiwu str=GenderSubject/> попытается подкупить <Character key=CharacterId str=Name/>, передав ему подношение,\\nчтобы показать своё раскаяние, возможно, удастся искупить вину и уладить это дело...",
+      "status": "judged",
       "srcHash": "e55c0677299cb613",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "24dbd05bc04175a0"
     },
     "BribeEvent_1": {
       "en": "A thought arises within <Character key=RoleTaiwu str=Name/>.\\nIf <Character key=RoleTaiwu str=GenderSubject/> attempts to bribe <Character key=CharacterId str=Name/>, confessing faults and displaying genuine remorse first,\\nand then presenting a \"gift of amends\"—perhaps the matter could be forgiven, for those of Emei Sect are known for their mercy...",
@@ -1198,11 +1216,12 @@
     "BribeEvent_3": {
       "en": "A thought arises within <Character key=RoleTaiwu str=Name/>.\\nIf <Character key=RoleTaiwu str=GenderSubject/> attempts to bribe <Character key=CharacterId str=Name/>, confessing faults and displaying genuine remorse first,\\nand then presenting a \"gift of amends\"—perhaps the matter could be forgiven, for <Character key=CharacterId str=Name/> is a righteous figure...",
       "cn": "<Character key=RoleTaiwu str=Name/>心生一计，\\n若尝试收买<Character key=CharacterId str=Name/>，先自陈过错，表露悔罪之心，\\n而后捐赠贿物，以示惩戒，<Character key=CharacterId str=Name/>乃正义之士，或可宽宥此事……",
-      "ru": "Внутри возникает мысль <Character key=RoleTaiwu str=Name/>.\\nЕсли <Character key=RoleTaiwu str=GenderSubject/> попытки подкупа <Character key=CharacterId str=Name/>, сначала признавая свои ошибки и проявляя искреннее раскаяние,\\nа затем преподнести \"подарок в качестве компенсации\" — возможно, этот вопрос можно было бы простить, ибо <Character key=CharacterId str=Name/> это праведная фигура...",
-      "status": "machine",
+      "ru": "У <Character key=RoleTaiwu str=Name/> возникает мысль.\\nЕсли <Character key=RoleTaiwu str=GenderSubject/> попытается подкупить <Character key=CharacterId str=Name/>, сначала признав свои ошибки и искренне раскаявшись,\\nа затем преподнеся \"подарок в качестве компенсации\" — возможно, <Character key=CharacterId str=Name/> простит этот поступок, ведь это праведный человек...",
+      "status": "judged",
       "srcHash": "53843f055d568031",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "6819a89d22134e6d"
     },
     "BribeEvent_4": {
       "en": "A thought arises within <Character key=RoleTaiwu str=Name/>.\\nIf <Character key=RoleTaiwu str=GenderSubject/> attempts to bribe <Character key=CharacterId str=Name/>, confessing faults and claiming good intentionsc,\\nand then presenting a \"gift of amends\"—perhaps the matter could be forgiven...",
@@ -1216,11 +1235,12 @@
     "BribeEvent_5": {
       "en": "A thought arises within <Character key=RoleTaiwu str=Name/>.\\nIf <Character key=RoleTaiwu str=GenderSubject/> attempts to bribe <Character key=CharacterId str=Name/>, speaking in praise of <Character key=RoleTaiwu str=GenderPossessive/> remarkable skills first,\\nand then offering a gift to further flatter <Character key=CharacterId str=Name/>, perhaps the matter could be settled...",
       "cn": "<Character key=RoleTaiwu str=Name/>心生一计，\\n若尝试收买<Character key=CharacterId str=Name/>，先好言相劝，称许其身手不凡，\\n待<Character key=CharacterId str=Name/>心有所动，再赠予贿物，或可了却此事……",
-      "ru": "Внутри возникает мысль <Character key=RoleTaiwu str=Name/>.\\nЕсли <Character key=RoleTaiwu str=GenderSubject/> попытки подкупа <Character key=CharacterId str=Name/>, говоря во славу <Character key=RoleTaiwu str=GenderPossessive/> сначала выдающиеся навыки,\\nа затем предлагает подарок, чтобы еще больше польстить <Character key=CharacterId str=Name/> Возможно, этот вопрос можно было бы уладить...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> приходит в голову мысль.\\nЕсли <Character key=RoleTaiwu str=GenderSubject/> попытается подкупить <Character key=CharacterId str=Name/>, сначала расхваливая <Character key=RoleTaiwu str=GenderPossessive/> выдающиеся навыки,\\nа затем, когда <Character key=CharacterId str=Name/> будет польщён, преподнося ему подарок, возможно, это дело удастся уладить...",
+      "status": "judged",
       "srcHash": "6761d4a7a4112ce9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "5a16cf2e5a55c3c7"
     },
     "BribeEvent_6": {
       "en": "A thought arises within <Character key=RoleTaiwu str=Name/>.\\nIf <Character key=RoleTaiwu str=GenderSubject/> attempts to bribe <Character key=CharacterId str=Name/>, offering words of admiration first,\\nand then presenting a gift to <Character key=CharacterId str=Name/> as a sacred tribute, perhaps the matter could be settled...",
@@ -1273,11 +1293,12 @@
     "BribeEvent_11": {
       "en": "A thought arises within <Character key=RoleTaiwu str=Name/>.\\nIf <Character key=RoleTaiwu str=GenderSubject/> attempts to bribe <Character key=CharacterId str=Name/>, speaking in praise of Poison Sages first,\\nand then offering a gift to further flatter <Character key=RoleTaiwu str=GenderObject/>, perhaps the matter could be settled...",
       "cn": "<Character key=RoleTaiwu str=Name/>心生一计，\\n若尝试收买<Character key=CharacterId str=Name/>，便先言语恭维，称许五圣之毒，\\n待其心有所动，再赠予贿物，或可了却此事……",
-      "ru": "Внутри возникает мысль <Character key=RoleTaiwu str=Name/>.\\nЕсли <Character key=RoleTaiwu str=GenderSubject/> попытки подкупа <Character key=CharacterId str=Name/>, сначала восхваляя мудрецов с ядом,\\nа затем предлагает подарок, чтобы еще больше польстить <Character key=RoleTaiwu str=GenderObject/> Возможно, этот вопрос можно было бы уладить...",
-      "status": "machine",
+      "ru": "В голову <Character key=RoleTaiwu str=Name/> приходит план.\\nЕсли <Character key=RoleTaiwu str=GenderSubject/> попытается подкупить <Character key=CharacterId str=Name/>, сначала следует польстить ему словами, восхваляя яд Пяти мудрецов,\\nа затем, дождавшись, когда его сердце дрогнет, вручить подарок, чтобы ещё больше польстить <Character key=RoleTaiwu str=GenderObject/> — возможно, это дело удастся уладить…",
+      "status": "judged",
       "srcHash": "39f942713d431012",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "532a68fd9487db21"
     },
     "BribeEvent_12": {
       "en": "A thought arises within <Character key=RoleTaiwu str=Name/>.\\nIf <Character key=RoleTaiwu str=GenderSubject/> attempts to bribe <Character key=CharacterId str=Name/>, feigning fear of <Character key=RoleTaiwu str=GenderPossessive/> lethality first,\\nand then offering a gift to further flatter <Character key=RoleTaiwu str=GenderObject/>, perhaps the matter could be settled...",
@@ -1509,11 +1530,12 @@
     "SurrenderEvent_5": {
       "en": "<Character key=RoleTaiwu str=Name/> submits, at the mercy of the Lion-Face Clan...\\n\\n<Character key=CharacterId str=Name/> advances, binding <Character key=RoleTaiwu str=Name/>'s hands with rope,\\nand escorting <Character key=RoleTaiwu str=GenderObject/> to the Lion-Face Clan...",
       "cn": "<Character key=RoleTaiwu str=Name/>俯首就擒，任由狮相门处置……\\n\\n<Character key=CharacterId str=Name/>上前，只用绳索缚住<Character key=RoleTaiwu str=Name/>双手，\\n随后押送其前往狮相门……",
-      "ru": "<Character key=RoleTaiwu str=Name/> сдается на милость клана Львинолицых...\\n\\n<Character key=CharacterId str=Name/> авансы, обязывающие <Character key=RoleTaiwu str=Name/>руки с веревкой,\\nи сопровождающий <Character key=RoleTaiwu str=GenderObject/> к клану Львинолицых...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> сдаётся на милость клана Львинолицых...\\n\\n<Character key=CharacterId str=Name/> подходит, связывает <Character key=RoleTaiwu str=Name/> руки верёвкой,\\nа затем конвоирует <Character key=RoleTaiwu str=GenderObject/> в клан Львинолицых...",
+      "status": "judged",
       "srcHash": "d29c348965fd9c97",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "194fa08af063f90d"
     },
     "SurrenderEvent_6": {
       "en": "<Character key=RoleTaiwu str=Name/> submits, at the mercy of the Ranshan Sect...\\n\\n<Character key=CharacterId str=Name/> advances, binding <Character key=RoleTaiwu str=Name/>'s hands with rope,\\nand escorting <Character key=RoleTaiwu str=GenderObject/> to the Ranshan Sect...",
@@ -1768,11 +1790,12 @@
     "PunishEvent2_1": {
       "en": "<Character key=RoleTaiwu str=Name/> enters the grand hall of the Emei Sect,\\nupon reaching <Character key=SectLeader str=Name/>, who bows before speaking softly:\\n\\n\"In these chaotic times, we must do all we can to protect the people...\\nYour wrongdoings in Shu cannot go unpunished. You must face judgment...\"",
       "cn": "<Character key=RoleTaiwu str=Name/>入此峨嵋派大殿内，\\n将至<Character key=SectLeader str=Name/>身前，其略施一礼，缓声道：\\n\\n“此世道乱象频生，我等须尽力护百姓安危……\\n你既在蜀地犯下过错，需得依律惩处……”",
-      "ru": "<Character key=RoleTaiwu str=Name/> входит в большой зал секты Эмэй,\\nпо достижении <Character key=SectLeader str=Name/>, который кланяется , прежде чем тихо заговорить:\\n\\n\"В эти хаотичные времена мы должны сделать все, что в наших силах, чтобы защитить людей...\\nВаши проступки в Карцере не могут остаться безнаказанными. Ты должен предстать перед судом...\"",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> входит в большой зал секты Эмэй,\\nподойдя к <Character key=SectLeader str=Name/>, который слегка кланяется и тихо говорит:\\n\\n\"В эти смутные времена мы должны сделать всё возможное, чтобы защитить людей...\\nТвои проступки в Шу не могут остаться безнаказанными. Ты должен предстать перед судом...\"",
+      "status": "judged",
       "srcHash": "edd3b5ab642e25e2",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "d0c951e8e9cbeae6"
     },
     "PunishEvent2_2": {
       "en": "<Character key=RoleTaiwu str=Name/> enters the loft of the Valley of Flowers,\\nupon reaching <Character key=SectLeader str=Name/>, who declares:\\n\\n\"Taiwu is meant to embrace the spirit of selflessness.\\nYet, you have violated our code. Your wrongdoings cannot go unpunished. You must face judgment...\"",
@@ -1837,11 +1860,12 @@
     "PunishEvent2_8": {
       "en": "<Character key=RoleTaiwu str=Name/> enters the Foundry Houses of the Swordsmith Villa,\\nupon reaching <Character key=SectLeader str=Name/>, who says:\\n\\n\"Though we forge weapons, we also safeguard this land and its people.\\nYour wrongdoings cannot go unpunished. You must face judgment. There is nothing more to say...\"",
       "cn": "<Character key=RoleTaiwu str=Name/>入此铸剑山庄之铸造坊中，\\n及至<Character key=SectLeader str=Name/>身前，便听对方开口道：\\n\\n “我等虽以铸造宝剑为要，但亦护佑此地百姓安危，\\n你既已服法，也无须再多言，便请依律受惩……”",
-      "ru": "<Character key=RoleTaiwu str=Name/> входит в литейные цеха Усадьбы ковкого мечей,\\nпо достижении <Character key=SectLeader str=Name/>, кто говорит:\\n\\n\"Хотя мы куем оружие, мы также защищаем эту землю и ее людей.\\nВаши проступки не могут остаться безнаказанными. Вы должны предстать перед судом. Больше мне нечего сказать...\"",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> входит в кузнечную мастерскую Усадьбы ковки мечей,\\nподойдя к <Character key=SectLeader str=Name/>, он слышит:\\n\\n\"Хотя мы в первую очередь куём оружие, мы также защищаем здешний народ.\\nРаз ты уже понёс наказание по закону, нечего больше говорить — прими наказание согласно закону...\"",
+      "status": "judged",
       "srcHash": "1d50592cb3c5a452",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "794919fd6977a6a4"
     },
     "PunishEvent2_9": {
       "en": "<Character key=RoleTaiwu str=Name/> enters the Pharmacy of the Kongsang Sect,\\nupon reaching <Character key=SectLeader str=Name/>, who declares:\\n\\n\"Though we seek the path to immortality and wish not to be disturbed by trivial matters,\\nthis place is our sanctuary, and we will not allow any disruption...\"",
@@ -1876,11 +1900,12 @@
     "PunishEvent2_12": {
       "en": "<Character key=RoleTaiwu str=Name/> enters the cavern of Veil Scar Sect,\\nupon reaching <Character key=SectLeader str=Name/>, whose voice echoes:\\n\\n\"The JVeil Scar Sect needs no reasons—only obedience.\\nYou are ours to break...\"",
       "cn": "<Character key=RoleTaiwu str=Name/>入此界青门崖窟内，\\n及至<Character key=SectLeader str=Name/>身前，便听对方开口道：\\n\\n“界青门有界青门的规矩，\\n我界青门要惩治你，你便无须知道其中的缘故……”",
-      "ru": "<Character key=RoleTaiwu str=Name/> входит в пещеру Секты завесы,\\nпо достижении <Character key=SectLeader str=Name/>, чей голос отдается эхом:\\n\\n— Секте Джвейл Шрам не нужны никакие причины - только повиновение.\\nТы наш, чтобы сломить...\"",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> входит в пещеру Секты завесы,\\nдойдя до <Character key=SectLeader str=Name/>, он слышит его голос:\\n\\n\"У Секты завесы есть свои правила,\\nесли Секта завесы хочет тебя наказать, тебе незачем знать причину…\"",
+      "status": "judged",
       "srcHash": "d4a327a7499ebf5e",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "178fcf055584e2ae"
     },
     "PunishEvent2_13": {
       "en": "<Character key=RoleTaiwu str=Name/> enters the grand hall of Fuloong Sanctuary,\\nupon reaching <Character key=SectLeader str=Name/>, whose voice echoes through the chamber:\\n\\n\"The Chiming Island's people offer us gold and silver in tribute, blessed under the True Loong's protection.\\nYet you dare undermine its divine authority? You shall face severe punishment!\"",
@@ -1944,20 +1969,22 @@
     "PunishEvent3_4": {
       "en": "The punishment of the Yuanshan Sect,\\nplaces the offender in a stone cell, forcing them to witness the madness of the Bewitched.\\nTheir mind is disturbed, their heart weighed down with sorrow...",
       "cn": "元山派所设惩戒，\\n乃是将受惩者置于石牢中，使其亲历失心人之惨状，\\n然心生魔障，郁郁寡欢……",
-      "ru": "Наказание секты Юаньшань,\\nпомещает преступника в каменную камеру, мощью заставляя его стать свидетелем безумия Заколдованного.\\nИх разум встревожен, их сердце отягощено печалью...",
-      "status": "machine",
+      "ru": "Наказание, установленное сектой Юаньшань,\\nзаключается в том, чтобы поместить наказуемого в каменную тюрьму и заставить его лично увидеть страдания потерявшего рассудок.\\nОднако в его душе рождаются демонические препятствия, и он впадает в уныние…",
+      "status": "judged",
       "srcHash": "10787115ef27b41b",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "35dc47a4024e922c"
     },
     "PunishEvent3_5": {
       "en": "The punishment of the Lion-Face Clan\\ninvolves constant, relentless training, pushing the offender to the point of exhaustion.\\nIn time, their skills will fade, and their Talent will be permanently stunted...",
       "cn": "狮相门所设惩戒，\\n乃是让受惩者终日操练，乏累至极，\\n便会诸艺荒废，资质受挫……",
-      "ru": "Наказание клана Львинолицых\\nпредполагает постоянные, неустанные тренировки, доводящие нарушителя до изнеможения.\\nСо временем их навыки угаснут, а талант будет постоянно подавляться...",
-      "status": "machine",
+      "ru": "Наказание секты Львинолицых\\nпредполагает постоянные, неустанные тренировки, доводящие нарушителя до изнеможения.\\nСо временем их навыки угаснут, а талант будет навсегда подорван...",
+      "status": "judged",
       "srcHash": "8dfd1ca421dd2126",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "d9e982d36e0ba483"
     },
     "PunishEvent3_6": {
       "en": "The punishment of the Ranshan Sect plunges the offender into the deepest meditative trance.\\nUpon returning, they feel a void within, their energy drained and their Qi dissipated,\\ntheir Pure Essence lost for months to come...",
@@ -1966,7 +1993,8 @@
       "status": "machine",
       "srcHash": "f1b7fe8f26d39091",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-07-11T22:41:11.235Z",
+      "judgeHash": "7ce755299e457eb5"
     },
     "PunishEvent3_7": {
       "en": "The punishment of the Jade-Maiden Sect requires\\nthe offender to endure sorrowful melodies that pierce the mind.\\nThey must listen unceasingly, their thoughts unraveling, their spirit fading, until even their Dispositions are diminished...",
@@ -1998,20 +2026,22 @@
     "PunishEvent3_10": {
       "en": "The punishment of the Vajra Sect\\nuses secret skills to create illusions, forcing the offender to face the terrifying images of Rakshasa demons, and suffer from the three poisons,\\nuntil their Meridians and Chakras rupture and spiritual essence crumbles...",
       "cn": "金刚宗所设惩戒，乃是以秘法加身，\\n令受惩者见罗刹恶鬼之姿，受三毒无量之苦，\\n致使其三脉七轮失常，诸性受损……",
-      "ru": "Наказание Секты Ваджра\\nиспользует секретные навыки для создания иллюзий, Мощь которых заставляет преступника сталкиваться с ужасающими образами демонов-ракшасов и страдать от трех ядов,\\nпока их меридианы и чакры не разорвутся и духовная сущность не рассыплется...",
-      "status": "machine",
+      "ru": "Наказание Секты ваджры\\nпосредством тайного искусства заставляет наказуемого видеть ужасные образы демонов-ракшасов и испытывать безмерные страдания от трёх ядов,\\nпока три меридиана и семь чакр не придут в расстройство, а все его сущности не пострадают…",
+      "status": "judged",
       "srcHash": "e99f7e22aaa833f9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "0251fa3d1e59598e"
     },
     "PunishEvent3_11": {
       "en": "The punishment of the Five Immortals Sect\\ninvolves channeling Gu into the offender's body.\\nThey endure its gnawing day and night—a feast for worms, a warning to fools...",
       "cn": "五仙教所设惩戒，\\n乃是于受惩者体内种下蛊虫， \\n此后受惩者将终日受蛊虫噬咬，苦不堪言……",
-      "ru": "Наказание Секты пяти бессмертных\\nвключает в себя введение Гу в тело преступника.\\nОни терпят его грызение день и ночь — пиршество для червей, предостережение глупцам...",
-      "status": "machine",
+      "ru": "Наказание, установленное Сектой пяти бессмертных,\\nзаключается во внедрении гу в тело подвергшегося наказанию.\\nПосле этого гу будут терзать его днём и ночью, причиняя невыносимые страдания...",
+      "status": "judged",
       "srcHash": "8288bdf316c4decf",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "6ac4c66d371d4fca"
     },
     "PunishEvent3_12": {
       "en": "The punishment of the Veil Scar Sect is\\nto throw the offender's name-sealed token into the Demise Abyss,\\nand for the next several months, anyone who finds it will relentlessly hunt them down...",
@@ -2095,11 +2125,12 @@
     "PunishEvent4_5": {
       "en": "<Character key=RoleTaiwu str=Name/> is brought before the Lion-Face Clan senior who guards here.\\nThe senior exclaims:\\n\\n\"Daring to stir trouble on my Guangdong turf—are you looking down on the brothers of Lion-Face Clan?!\\nWeak in body, corrupt in heart—looks like you need some proper training in our sect!\"",
       "cn": "<Character key=RoleTaiwu str=Name/>被带至狮相门护卫此地的前辈身前，\\n便听对方高声道：\\n\\n “敢在我广东地界犯事，阁下莫非是瞧不起我狮相门各堂弟兄？！\\n 身不强，则心不正，就让你在我门中好好操练一番！”",
-      "ru": "<Character key=RoleTaiwu str=Name/> предстает перед старейшиной клана Львинолицых, который охраняет здесь.\\nСтарший восклицает:\\n\\n- Осмеливаешься сеять смуту на моей территории в Гуандуне — ты что, смотришь свысока на братьев из клана Львинолицых?!\\nСлабый телом, испорченный сердцем — похоже, тебе нужно как следует потренироваться в нашей секте!\"",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> приведён перед старейшиной секты Львинолицых, охраняющим это место.\\nСтарейшина восклицает:\\n\\n\"Осмеливаешься сеять смуту на моей территории в Гуандуне — ты что, смотришь свысока на братьев секты Львинолицых?!\\nСлаб телом, нечист сердцем — похоже, тебе нужно как следует потренироваться в нашей секте!\"",
+      "status": "judged",
       "srcHash": "29f64537872b1e81",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "209edca7970a11db"
     },
     "PunishEvent4_6": {
       "en": "<Character key=RoleTaiwu str=Name/> is brought before the Ranshan senior who guards here.\\nThe senior declares:\\n\\n\"The laws of heaven and earth must be upheld.\\nWe seldom interfere with worldly affairs, yet since you have disturbed our Qilu lands,\\nyou cannot be allowed to leave unpunished—prepare to face judgment...\"",

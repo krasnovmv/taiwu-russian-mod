@@ -599,7 +599,8 @@
       "status": "machine",
       "srcHash": "a2076c7dd0cd88b2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "37005a7183fd5946"
     },
     "Name_60": {
       "en": "Keen Eyes",
@@ -1111,11 +1112,12 @@
     "Desc_39": {
       "en": "No silver for food? No problem! But that full pack of yours—chickens, fish, fine wine—why not share? A feast for me, a lighter load for you!",
       "cn": "乞得银钱吃不得，腹中空空当如何？瞧你行囊重又满，鸡鸭鱼羊吃不完，不如叫我尝一尝，好酒好肉肚中装。吃得你行囊空荡荡，轻装出游喜洋洋……",
-      "ru": "Нет серебра на еду? Нет проблем! Но этот твой полный набор — цыплята, рыба, прекрасное вино — почему бы не поделиться? Праздник для меня, легкая ноша для тебя!",
-      "status": "machine",
+      "ru": "Нет серебра на еду — и что делать с пустым желудком? Гляжу, твоя сумка полна: цыплята, утки, рыба и баранина — всего не съесть. Дай-ка мне отведать: хорошее вино и мясо набьют мне живот. Твоя сумка опустеет, а ты радостно отправишься налегке…",
+      "status": "judged",
       "srcHash": "b72bfdb3796eaba4",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "c3bd1e28c13d7c8a"
     },
     "Desc_40": {
       "en": "The Commoner lives a simple, honest life. They care more about their neighborly bonds than wealth, understanding that a small gift can carry great meaning...",
@@ -1490,11 +1492,12 @@
     "FunctionalDesc_5": {
       "en": "<color=#brightblue>Summons a beast mount in battle to attack enemies at the cost of Conveyance Durability.</color>\\nThe higher <color=#orange>the Hunter's <SpName=mousetip_qibuff><color=#pinkyellow>Pure Essence</color></color>, the greater the beast's ATK and Hit bonus.",
       "cn": "<color=#brightblue>在战斗中损耗一定代步耐久，召来野兽坐骑攻击敌人；</color>\\n<color=#orange>主人的<SpName=mousetip_qibuff><color=#pinkyellow>精纯境界</color>越高</color>，野兽的攻击、命中提高越多",
-      "ru": "<color=#brightblue>Призывает зверя крепление в бою атака противников за счет долговечность, прочность.</color>\\nВысшее <color=#orange>охотничий <SpName=mousetip_qibuff><color=#pinkyellow>Чистая Эссенция</color></color>, тем больше зверя АТК и нажмите бонуса.",
-      "status": "machine",
+      "ru": "<color=#brightblue>В бою призывает зверя-скакуна для атаки врагов, расходуя прочность транспорта.</color>\\n<color=#orange>Чем выше у хозяина уровень <SpName=mousetip_qibuff><color=#pinkyellow>чистой эссенции</color></color>, тем сильнее повышаются атака и меткость зверя.",
+      "status": "judged",
       "srcHash": "e19eea330495221a",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "a301ebc031f7131a"
     },
     "FunctionalDesc_6": {
       "en": "<color=#brightblue>Finds hidden beasts in explored tiles within the current region.</color>\\nThe higher the <color=#orange>Hunter's Seniority</color>, the more beasts can be found and the greater the chance of discovering beasts with higher <SpName=mousetip_qibuff><color=#pinkyellow>Pure Essence</color>.",
@@ -1799,11 +1802,12 @@
     "FunctionalDesc_36": {
       "en": "<color=#brightblue>When begging for <SpName=mousetip_ziyuan_6><color=#pinkyellow>Silver</color>, the worse the <SpName=mousetip_moodlcircular><color=#pinkyellow>mood</color>, <SpName=mousetip_injury><color=#pinkyellow>injuries</color>, or <SpName=mousetip_poison><color=#pinkyellow>poison</color>, the more <SpName=mousetip_ziyuan_6><color=#pinkyellow>Silver</color> you'll get.</color>\\nThe higher the <color=#orange>Beggar's Seniority</color>, the more settlements you can choose and the more <SpName=mousetip_ziyuan_6><color=#pinkyellow>Silver</color> you can get.",
       "cn": "<color=#brightblue>于各处乞讨<SpName=mousetip_ziyuan_6><color=#pinkyellow>银钱</color>，</color><SpName=mousetip_moodlcircular><color=#pinkyellow>心情</color>越低、<SpName=mousetip_injury><color=#pinkyellow>伤势</color>越重、<SpName=mousetip_poison><color=#pinkyellow>中毒</color>越深，乞讨到的<SpName=mousetip_ziyuan_6><color=#pinkyellow>银钱</color>就越多；\\n<color=#orange>乞丐资历</color>越高，可行乞的定居点类型就越多，可能乞讨到的<SpName=mousetip_ziyuan_6><color=#pinkyellow>银钱</color>也越多",
-      "ru": "<color=#brightblue>Когда выпрашиваешь <SpName=mousetip_ziyuan_6><color=#pinkyellow>Серебро</color>, чем хуже , тем <SpName=mousetip_moodlcircular><color=#pinkyellow>настроение</color>, <SpName=mousetip_injury><color=#pinkyellow>травмы</color>, или <SpName=mousetip_poison><color=#pinkyellow>яд</color>, тем больше <SpName=mousetip_ziyuan_6><color=#pinkyellow>Серебро</color> ты получишь.</color>\\nЧем выше, тем <color=#orange>Стаж нищего</color>, чем больше населенных пунктов вы можете выбрать и тем больше <SpName=mousetip_ziyuan_6><color=#pinkyellow>Серебро</color> ты можешь достать.",
-      "status": "machine",
+      "ru": "<color=#brightblue>Когда выпрашиваешь <SpName=mousetip_ziyuan_6><color=#pinkyellow>Серебро</color>, чем ниже <SpName=mousetip_moodlcircular><color=#pinkyellow>настроение</color>, чем тяжелее <SpName=mousetip_injury><color=#pinkyellow>травмы</color> и чем сильнее <SpName=mousetip_poison><color=#pinkyellow>яд</color>, тем больше <SpName=mousetip_ziyuan_6><color=#pinkyellow>Серебра</color> ты получишь.</color>\\nЧем выше <color=#orange>Стаж нищего</color>, тем больше типов поселений ты можешь выбрать и тем больше <SpName=mousetip_ziyuan_6><color=#pinkyellow>Серебра</color> ты можешь получить.",
+      "status": "judged",
       "srcHash": "4cb7e2f08552da80",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "5b62ffa0f0b726f2"
     },
     "FunctionalDesc_37": {
       "en": "<color=#brightblue>Drives out all characters in the tile and prevent anyone from entering until the next month.</color>",
@@ -1837,11 +1841,12 @@
     "FunctionalDesc_40": {
       "en": "<color=#brightblue>Increases the <SpName=mousetip_multilove><color=#pinkyellow>Favorability</color> gain when meeting non-sect characters for the first time and sending gifts to non-sect characters. Also increases the selected items' Gift Level, allowing characters with higher rank to accept items of lower tier.</color>\\nThe higher <color=#orange>Commoner Seniority</color> is, the more <SpName=mousetip_multilove><color=#pinkyellow>Favorability</color> will be gained from first meeting and gifting, and characters with higher <SpName=mousetip_character><color=#pinkyellow>Rank</color> will accept items of lower tier.",
       "cn": "<color=#brightblue>提升与非门派人物初次见面及向非门派人物送礼时增加的<SpName=mousetip_multilove><color=#pinkyellow>好感</color>，并增加所选物品的礼物级别，使身份较高的人物愿意收下品级较低的物品；</color>\\n<color=#orange>平民资历</color>越高，初次见面及赠礼<SpName=mousetip_multilove><color=#pinkyellow>好感</color>提升越多，且<SpName=mousetip_character><color=#pinkyellow>身份</color>更高的人物将接受品级更低的物品",
-      "ru": "<color=#brightblue>Увеличивает <SpName=mousetip_multilove><color=#pinkyellow>Благосклонность</color> выигрыш при первой встрече с персонажами, не входящими в секту, и отправке подарков персонажам, не входящим в секту. Также повышается уровень подарка выбранных предметов, позволяя персонажам с более высоким рангом принимать предметы более низкого ранга.</color>\\nБолее высокий <color=#orange>Стаж простолюдина</color> заключается в том, что чем больше <SpName=mousetip_multilove><color=#pinkyellow>Благосклонность</color> будут получены при первой встрече и вручении подарков, а также персонажи с более высоким <SpName=mousetip_character><color=#pinkyellow>Ранг</color> будут приниматься предметы более низкого ранга.",
-      "status": "machine",
+      "ru": "<color=#brightblue>Увеличивает прирост <SpName=mousetip_multilove><color=#pinkyellow>Благосклонности</color> при первой встрече с персонажами, не входящими в секту, и при отправке подарков персонажам, не входящим в секту. Также повышает уровень подарка выбранных предметов, позволяя персонажам с более высоким рангом принимать предметы более низкого ранга.</color>\\nЧем выше <color=#orange>Стаж простолюдина</color>, тем больше <SpName=mousetip_multilove><color=#pinkyellow>Благосклонности</color> будет получено при первой встрече и вручении подарков, а персонажи с более высоким <SpName=mousetip_character><color=#pinkyellow>Рангом</color> будут принимать предметы более низкого ранга.",
+      "status": "judged",
       "srcHash": "b6b0e9118cd5ee4b",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "437f5181bc1d5675"
     },
     "FunctionalDesc_41": {
       "en": "<color=#brightblue>Resolves a certain amount of grudges between people in the tile.</color>\\nThe higher the <color=#orange>Commoner's Seniority</color>, the more grudges you can help resolve.",
@@ -2226,11 +2231,12 @@
     "SkillUnlockDesc_7": {
       "en": "Having spent so much time with beasts, {0} has formed a deep bond with them.\\nNow, these creatures have grown more loyal, evendisplaying a hint of intelligence.\\nWhether traveling or fighting, they stay close, ready to follow {1}'s command in battle...",
       "cn": "{0}常与野兽相伴，已与其心性相通，\\n如今野兽护主之心愈甚，渐生灵性，行路时皆愿跟随左右，\\n临战之际，{1}可驱策野兽助阵攻敌，使其听令而战……",
-      "ru": "Проведя так много времени со зверями, {0} у меня с ними установилась глубокая связь.\\nТеперь эти существа стали более лояльными, даже проявляя намек на интеллект.\\nПутешествуют ли они или сражаются, они остаются рядом, готовые следовать за ними {1}командует в бою...",
-      "status": "machine",
+      "ru": "Долгое общение со зверями позволило {0} установить с ними глубокую связь.\\nТеперь звери ещё сильнее стремятся защищать хозяина и постепенно обретают духовность.\\nВ пути они охотно следуют рядом, а в бою {1} может направлять зверей, чтобы те помогали атаковать врага и сражались по его приказу...",
+      "status": "judged",
       "srcHash": "9fe3fcf817bf2212",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "3cfeb2a2aefa55e9"
     },
     "SkillUnlockDesc_8": {
       "en": "{0} has spent years crafting things,\\nmastering Carpentry, Smithing, Weaving, and Jewelcrafting.\\nNow, even without tools, {0}'s keen eye and skilled hands can shape materials with precision.\\nWhatever {1} crafts, even by hand, meets the highest standards and can be considered a masterpiece...",
@@ -2303,11 +2309,12 @@
     "SkillUnlockDesc_15": {
       "en": "With {0}'s unmatched strength and influence, \\na single call could rally both Outlaws and Xiakes,\\nready to strike down those who stand against them...",
       "cn": "{0}已然雄才盖世，\\n只需振臂一呼，无论外道或是义士，皆为之支党，\\n号令即出，便可策动四方，攻伐周遭名誉与其相悖之人……",
-      "ru": "С {0}непревзойденная сила и влияние, \\nодин звонок мог бы сплотить как преступников, так и Сиаков,\\nготовые сразить тех, кто встанет против них...",
-      "status": "machine",
+      "ru": "Сила и влияние {0} не имеют себе равных;\\nстоит лишь поднять руку и призвать — и преступники и праведники будут готовы сразить тех, кто противостоит им,\\nа один приказ побудит силы со всех сторон напасть на окружающих людей, чьи слава и взгляды им противоречат…",
+      "status": "judged",
       "srcHash": "2287824a94b8686c",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "704f4c0c3835a85c"
     },
     "SkillUnlockDesc_16": {
       "en": "{0}'s literary talent shines through every stroke of the pen,\\nearning the admiration of the people.\\nNow, {1}'s words carry such weight that new names may be bestowed upon those who seek them...",
@@ -2340,20 +2347,22 @@
     "SkillUnlockDesc_19": {
       "en": "{0}'s insights stand above all. Whatever is seen or heard, \\n{1} interprets with wisdom. \\nAnd now, when shared with others, these insights leave a lasting impression...",
       "cn": "艺林之中，{0}屹然为一代山斗，\\n行路中所见所闻，皆可深究其理，颇具独到之见，\\n如今{1}就见闻与当地众人相谈时，所言皆可深入人心……",
-      "ru": "{0}его Познания стоят превыше всего. Что бы ни было увидено или услышано, \\n{1} истолковывает с мудростью. \\nИ теперь, когда этими Познаниями делятся с другими, они оставляют неизгладимое впечатление...",
-      "status": "machine",
+      "ru": "В мире искусств {0} — непревзойдённый мастер своего поколения,\\nвсё увиденное и услышанное в пути {1} способен глубоко осмыслить и составить собственное мнение,\\nа теперь, обсуждая свои наблюдения с местными жителями, он говорит так, что его слова проникают в самое сердце...",
+      "status": "judged",
       "srcHash": "0a3feb3b6ce10d5a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "f6741cc253039453"
     },
     "SkillUnlockDesc_20": {
       "en": "\"Refine the spirit, and nurture the soul.\\nBeyond this truth, there is no goal. Immortals speak in riddles deep, and countless hearts in wonder weep.\"\\n\\n{0}has spent years mastering the art of Qi cultivation.\\nNow, whenever {1} enters meditation, the mind grows tranquil, \\nunshaken by distractions, absorbing the essence of the universe...",
       "cn": "“精养灵根气养神，此真之外更无真。\\n神仙不肯分明说，迷了千千万万人……”\\n\\n{0}常年修道，悉知炼气法门，\\n而今每当{1}盘腿静坐，默念法诀，\\n便可使心无挂碍，意无所执，而能引天地灵气、汲日月精华运转周身……",
-      "ru": "- Совершенствуй дух и взращивай душу.\\nЗа пределами этой истины нет никакой цели. Бессмертные говорят глубокими загадками, и бесчисленные сердца в изумлении плачут.\"\\n\\n{0}потратил годы на овладение искусством культивирования Ци.\\nТеперь, всякий раз, когда {1} входит в медитацию, ум становится спокойным, \\nнепоколебимый отвлекающими факторами, впитывающий суть Вселенной...",
-      "status": "machine",
+      "ru": "\"Совершенствуй дух и взращивай душу.\\nЗа пределами этой истины нет никакой цели. Бессмертные говорят глубокими загадками, и бесчисленные сердца в изумлении плачут.\"\\n\\n{0}потратил годы на овладение искусством культивирования ци.\\nТеперь, всякий раз, когда {1} входит в медитацию, ум становится спокойным, \\nнепоколебимым перед отвлекающими факторами и впитывающим суть Вселенной...",
+      "status": "judged",
       "srcHash": "5e40f1268ab0df84",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "6ee5a07e394a9e23"
     },
     "SkillUnlockDesc_21": {
       "en": "Xiangshu throws the world into chaos, where light and darkness intertwine,\\nnd demons, ghosts, and restless spirits run rampant. The winds howl, the storms rage, and malevolent forces wreak havoc...\\n {0} shall follow the mandate of Heaven and walk the path of the Tao, thus, harness mystical arts beyond mortal reach.\\nPerform rituals, summon divine soldiers, and dispel evil, bringing blessings to all beings...",
@@ -2477,11 +2486,12 @@
     "SkillUnlockDesc_33": {
       "en": "\"A gentleman who stands to serve the world must employ others according to their abilities.\"\\nAs {0} hails from a distinguished family, they gather talents from all corners and elevates them,\\nseeking to bring their full abilities into play...",
       "cn": "“君子立而相天下，必因其材力而役使之。”\\n{0}身为名门甲第，网罗天下英秀而拔擢之，\\n务在使人尽其才，才尽其用……",
-      "ru": "\"Джентльмен, который хочет служить миру, должен нанимать других в соответствии с их способностями\".\\nКак {0} происходя из знатной семьи, они собирают таланты со всех уголков и возвышают их,\\nстремясь задействовать все свои способности в полной мере...",
-      "status": "machine",
+      "ru": "\"Джентльмен, вставший на путь служения миру, должен нанимать других в соответствии с их способностями.\"\\nБудучи выходцем из знатной семьи, {0} собирает таланты со всех уголков и возвышает их,\\nстремясь в полной мере использовать их способности...",
+      "status": "judged",
       "srcHash": "00fe8cbdf7905cbb",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "276d931533439a3c"
     },
     "SkillUnlockDesc_34": {
       "en": "With a renowned reputation, {0}'s name echoes wherever they go. \\nNow known far and wide, {0}'s family is regarded as powerful and influential, \\nadmired by all for its strength and virtue.",
@@ -2598,7 +2608,8 @@
       "status": "machine",
       "srcHash": "273b8bfcbc2c606f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8b094d86b8e0489e"
     },
     "SkillUnlockDesc_46": {
       "en": "The mountains, waters, and caves... nature holds profound mysteries.\\nAfter traversing through various terrains, once {0} finds the right path,\\na distant place seems near, and dangers are as easy to tackle as walking on flat ground. Even if separated by thousands of miles, {0} can arrive in no time...",
@@ -2689,11 +2700,12 @@
     "SkillUnlockDesc_55": {
       "en": "\"Why seek jade scrolls for life to extend, when golden needles heal without end?\"\\n\\n{0} has reached the pinnacle of acupuncture,\\nable to extend another's life at the cost of {0} own.\\nWith a single needle, {1} can challenge the will of the heavens and rewrite the fate of the dying...",
       "cn": "“何必玉录长生符，金针起落寿无穷。”\\n\\n{0}钻研医术至深，\\n已然深谙灸刺之术，一手金针妙用通玄，可以己身之命，延他人之寿，\\n是以{1}金针一出，不仅可与阎王争命，更能与天地比寿……",
-      "ru": "\"Зачем искать свитки из нефрита, чтобы продлить жизнь, когда золотые иглы исцеляют без конца?\"\\n\\n{0} достиг вершины иглоукалывания,\\nспособный продлить чью-то жизнь ценой {0} собственный.\\nС помощью одной иглы, {1} может бросить вызов воле небес и переписать судьбу умирающего...",
-      "status": "machine",
+      "ru": "\"Зачем искать нефритовые свитки о продлении жизни, когда золотые иглы даруют бесконечное долголетие?\"\\n\\n{0} глубоко изучил врачебное искусство,\\nв совершенстве овладел прижиганием и иглоукалыванием: искусно владея золотой иглой, он может продлить жизнь другого ценой жизни самого {0}.\\nОдной золотой иглой {1} способен не только поспорить с Яньло за жизнь, но и сравниться с небесами долголетием…",
+      "status": "judged",
       "srcHash": "3d7969f8486ba904",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "c1ddb70337307df7"
     },
     "SkillUnlockDesc_56": {
       "en": "\"Unbound by worldly concerns, free as the drifting clouds...\"\\n\\n{0} seeks only freedom, unshackled by the mundane.\\nWandering through mountains and valleys, crossing rapids, and exploring hidden paths,\\n{0} has honed the body and spirit, moving as if they were weightless,\\nalmost like a celestial being...",
@@ -2766,11 +2778,12 @@
     "SkillUnlockDesc_63": {
       "en": "{0} spends lavishly and has vast wealth,\\nmaking them the honored guest of every major guild.\\nEager to please {1}, these guilds now present their finest wares,\\nfor {2} to browse and purchase...",
       "cn": "{0}积金累玉，出手阔绰，所到之处好似无所不买，\\n早已是各大商会争相追捧的上宾贵客，\\n为得{1}青睐，各大商会自会奉上珍奇之物，\\n以供{2}检阅采购……",
-      "ru": "{0} щедро тратит и обладает огромным богатством,\\nчто делает их почетными гостями каждой крупной гильдии.\\nСтремящийся угодить {1} теперь эти гильдии представляют свои лучшие товары,\\nдля {2} для просмотра и покупки...",
-      "status": "machine",
+      "ru": "{0} щедро тратит деньги и обладает огромным богатством, куда бы ни пришёл, словно скупая всё подряд,\\nчто делает его почётным гостем каждой крупной гильдии.\\nСтремясь снискать расположение {1}, эти гильдии теперь представляют свои лучшие товары\\nдля осмотра и покупки {2}...",
+      "status": "judged",
       "srcHash": "f391ef6155d5cef5",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "d8d650af2bac8320"
     },
     "SkillUnlockDesc_64": {
       "en": "{0} cradles a teacup, feeling as if the entire world is reflected in its depths.\\nWith each shared cup, friendships deepen, and kindred spirits connect.\\nNow, every tea session brings a sense of perfect harmony...",
@@ -2828,7 +2841,8 @@
       "status": "machine",
       "srcHash": "1c646c79c3e2a174",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "a27c2666b9236a06"
     },
     "SkillUnlockDesc_70": {
       "en": "{0}, known among royalty for expertise in rare creatures,\\nhas mastered the secrets of cricket physiology.\\nEven when a cricket's time has passed, reduced to mere remains,\\n{1} can breathe new life into it...",
@@ -3218,11 +3232,12 @@
     "SkillUnlockExplain_37": {
       "en": "({0} now can use Nasty Slang to drive away nearby characters...)",
       "cn": "（{0}现可进行芜行俚语之行为，驱赶附近人物，暂且盘踞一地……）",
-      "ru": "({0} теперь можно использовать неприятный сленг, чтобы отогнать находящихся поблизости персонажей ...)",
-      "status": "machine",
+      "ru": "({0} теперь может использовать неприятный сленг, чтобы отогнать находящихся поблизости персонажей и временно занять место...)",
+      "status": "judged",
       "srcHash": "32621eb8d1fbf603",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "e490a7cba541977e"
     },
     "SkillUnlockExplain_38": {
       "en": "({0} now can look for a specific person with the help of the Wide Brotherhood...)",

@@ -2494,7 +2494,8 @@
       "status": "machine",
       "srcHash": "44019725f598aad2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "46ed6a671f2c3bfe"
     },
     "Name_249": {
       "en": "Extra Microcosmic Circulation",
@@ -2839,11 +2840,12 @@
     "Name_285": {
       "en": "Qi became Metal",
       "cn": "内力变化为金刚",
-      "ru": "Ци превратилась в металл",
-      "status": "machine",
+      "ru": "Ци стала несокрушимой",
+      "status": "judged",
       "srcHash": "4968e6198637c26e",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "d017f2bb7b123b7f"
     },
     "Name_286": {
       "en": "Qi became Wood",
@@ -2857,11 +2859,12 @@
     "Name_287": {
       "en": "Qi became Water",
       "cn": "内力变化为玄阴",
-      "ru": "Ци превратилась в воду",
-      "status": "machine",
+      "ru": "Ци превратилась в Сюаньинь",
+      "status": "judged",
       "srcHash": "2c25484aec922733",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "abd78516bc62373c"
     },
     "Name_288": {
       "en": "Qi became Fire",
@@ -6178,11 +6181,12 @@
     "SimpleDesc_285": {
       "en": "{0}'s Elemental Qi became <color=#FiveElementType_Jingang>Metal</color>...",
       "cn": "{0}的内力五行变化为了<color=#FiveElementType_Jingang>金刚</color>…",
-      "ru": "{0}Элементарная Ци стала <color=#FiveElementType_Jingang>Металл</color>...",
-      "status": "machine",
+      "ru": "{0}: элементальная ци стала <color=#FiveElementType_Jingang>металлом</color>...",
+      "status": "judged",
       "srcHash": "d89a7bd122545589",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "b125c97cfb019a37"
     },
     "SimpleDesc_286": {
       "en": "{0}'s Elemental Qi became <color=#FiveElementType_Zixia>Wood</color>...",
@@ -6207,20 +6211,22 @@
     "SimpleDesc_288": {
       "en": "{0}'s Elemental Qi became <color=#FiveElementType_Chunyang>Fire</color>...",
       "cn": "{0}的内力五行变化为了<color=#FiveElementType_Chunyang>纯阳</color>…",
-      "ru": "{0}Элементарная Ци стала <color=#FiveElementType_Chunyang>Огонь</color>...",
-      "status": "machine",
+      "ru": "{0}: внутренняя ци изменилась на <color=#FiveElementType_Chunyang>чистый ян</color>…",
+      "status": "judged",
       "srcHash": "b20b00a9e2a20fe1",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "0b4a973e43abbdd8"
     },
     "SimpleDesc_289": {
       "en": "{0}'s Elemental Qi became <color=#FiveElementType_Guiyuan>Earth</color>...",
       "cn": "{0}的内力五行变化为了<color=#FiveElementType_Guiyuan>归元</color>…",
-      "ru": "{0}Элементарная Ци стала <color=#FiveElementType_Guiyuan>Земля</color>...",
-      "status": "machine",
+      "ru": "Внутренняя ци {0} изменилась на <color=#FiveElementType_Guiyuan>Возврат к истоку</color>…",
+      "status": "judged",
       "srcHash": "84279f016801b437",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "79dd04394a1d43d1"
     },
     "SimpleDesc_283": {
       "en": "{0} passed away...",
@@ -6983,11 +6989,12 @@
     "Desc_29": {
       "en": "<color=#ffffff>Favorability</color> of {1} from {0} toward {2} has <color=#lightblue>increased</color>...",
       "cn": "{0}{1}对{2}的<color=#ffffff>好感</color><color=#lightblue>上升</color>…",
-      "ru": "<color=#ffffff>Благосклонность</color> из {1} от {0} навстречу {2} имеет <color=#lightblue>увеличенный</color>...",
-      "status": "machine",
+      "ru": "<color=#ffffff>Благосклонность</color> {1} со стороны {0} к {2} <color=#lightblue>повысилась</color>...",
+      "status": "judged",
       "srcHash": "078f235da12ce800",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "49f4caff28d0e3e5"
     },
     "Desc_30": {
       "en": "<color=#ffffff>Favorability</color> of {1} from {0} toward {2} has <color=#brightred>decreased</color>...",
@@ -7210,11 +7217,12 @@
     "Desc_52": {
       "en": "{1}Toxins in {0}'s body <color=#lightblue>decreased</color> by {2}...",
       "cn": "{0}体内的{1}毒素<color=#lightblue>减少</color>{2}点…",
-      "ru": "{1}Токсины в {0}чье-то тело <color=#lightblue>уменьшенный</color> по {2}...",
-      "status": "machine",
+      "ru": "{1}Токсины в теле {0} <color=#lightblue>уменьшились</color> на {2}...",
+      "status": "judged",
       "srcHash": "acc07c52c96f6f24",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "239cfbf5c5fcdf89"
     },
     "Desc_53": {
       "en": "",
@@ -7344,11 +7352,12 @@
     "Desc_66": {
       "en": "{2}'s <color=#ffffff>mood</color> <color=#lightblue>improved</color> upon hearing that {0} was defeated by {1} in a Debate...",
       "cn": "听闻{0}与{1}较艺落败，{2}的<color=#ffffff>心情</color><color=#lightblue>上升</color>…",
-      "ru": "{2}'s <color=#ffffff>настроение</color> <color=#lightblue>улучшенный</color> услышав это {0} был побежден {1} в ходе диспута...",
-      "status": "machine",
+      "ru": "После известия о поражении {0} от {1} в диспуте у {2} <color=#ffffff>настроение</color> <color=#lightblue>улучшилось</color>…",
+      "status": "judged",
       "srcHash": "04d51d2298fb74b4",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "98ded3943a0005c7"
     },
     "Desc_67": {
       "en": "{2}'s <color=#ffffff>mood</color> <color=#lightblue>improved</color> upon hearing that {0} was defeated by {1} in a fight...",
@@ -7373,11 +7382,12 @@
     "Desc_69": {
       "en": "{2}'s <color=#ffffff>mood</color> <color=#brightred>declined</color> upon hearing that {0}'s loss of a child...",
       "cn": "听闻{0}痛失骨肉，{2}的<color=#ffffff>心情</color><color=#brightred>下降</color>…",
-      "ru": "{2}'s <color=#ffffff>настроение</color> <color=#brightred>отклонено</color> услышав это {0}это потеря ребенка...",
-      "status": "machine",
+      "ru": "Настроение {2} <color=#ffffff>упало</color>, <color=#brightred>услышав</color> о потере {0} ребёнка...",
+      "status": "judged",
       "srcHash": "baf842a82bebd1d1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "78d9b8ae0b07c484"
     },
     "Desc_70": {
       "en": "{0}'s <color=#ffffff>mood</color> <color=#brightred>declined</color> due to their abandonment being disclosed...",
@@ -7560,11 +7570,12 @@
     "Desc_88": {
       "en": "{2}'s <color=#ffffff>mood</color> has <color=#brightred>declined</color> upon hearing that {0} recognized {1} as foster mother...",
       "cn": "得知{0}认{1}为义母，{2}的<color=#ffffff>心情</color><color=#brightred>下降</color>…",
-      "ru": "{2}'s <color=#ffffff>настроение</color> имеет <color=#brightred>отклонено</color> услышав это {0} признанный {1} как приемная мать...",
-      "status": "machine",
+      "ru": "Настроение {2} <color=#ffffff>понизилось</color> <color=#brightred>после известия</color> о том, что {0} признал {1} своей приёмной матерью…",
+      "status": "judged",
       "srcHash": "010b374ed5ed48c3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "a7a28318bb3bc5c0"
     },
     "Desc_89": {
       "en": "{2}'s <color=#ffffff>mood</color> has <color=#lightblue>improved</color> upon hearing that {0} broke up with {1}...",
@@ -7599,11 +7610,12 @@
     "Desc_92": {
       "en": "{2}'s <color=#ffffff>mood</color> has <color=#brightred>declined</color> upon hearing that {0} spent a night of intimacy with {1}...",
       "cn": "得知{0}与{1}共度春宵，{2}的<color=#ffffff>心情</color><color=#brightred>下降</color>…",
-      "ru": "{2}'s <color=#ffffff>настроение</color> имеет <color=#brightred>отклонено</color> услышав это {0} провел ночь близости с {1}...",
-      "status": "machine",
+      "ru": "У {2} <color=#ffffff>настроение</color> <color=#brightred>понизилось</color>, узнав, что {0} провёл ночь в интимной близости с {1}...",
+      "status": "judged",
       "srcHash": "3f87d1a01d34f9f3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "7a2f2f107ed918c6"
     },
     "Desc_93": {
       "en": "",
@@ -7747,11 +7759,12 @@
     "Desc_107": {
       "en": "You witness the ending of {0} and gain an Insight of Rise...",
       "cn": "因见证{0}的结局，获得一则其昌盛的见闻…",
-      "ru": "Вы становитесь свидетелем окончания {0} и получите представление о познании Rise...",
-      "status": "machine",
+      "ru": "Вы становитесь свидетелем окончания {0} и получаете познания о его процветании…",
+      "status": "judged",
       "srcHash": "28b38ad6d83b6043",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "059b3595148a9294"
     },
     "Desc_108": {
       "en": "You witness the ending of {0} and gain an Insight of its fall...",
@@ -8276,11 +8289,12 @@
     "Desc_160": {
       "en": "{0}'s influence has <color=#brightred>decreases</color> by <color=#pinkyellow>{1}%</color>, now at {2}...",
       "cn": "{0}的势力值<color=#brightred>降低</color>了<color=#pinkyellow>{1}%</color>，现为{2}…",
-      "ru": "{0}его влияние оказывает <color=#brightred>уменьшается</color> по <color=#pinkyellow>{1}%</color>, теперь в {2}...",
-      "status": "machine",
+      "ru": "Влияние {0} <color=#brightred>уменьшилось</color> на <color=#pinkyellow>{1}%</color>, теперь составляет {2}...",
+      "status": "judged",
       "srcHash": "f03d6552804d22ef",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "243c8221fdcd383d"
     },
     "Desc_161": {
       "en": "{0}'s <color=#pinkyellow>{1}</color> has improved...",
@@ -8435,11 +8449,12 @@
     "Desc_176": {
       "en": "{0}'s <color=#ffffff>Stability</color> has <color=#lightblue>increased</color> {1}...",
       "cn": "{0}的<color=#ffffff>安定</color><color=#brightblue>提升</color>了{1}…",
-      "ru": "{0}'s <color=#ffffff>Стабильность</color> имеет <color=#lightblue>увеличенный</color> {1}...",
-      "status": "machine",
+      "ru": "{0}: <color=#ffffff>Стабильность</color> <color=#lightblue>увеличилась</color> на {1}...",
+      "status": "judged",
       "srcHash": "d9ead1a4849c808a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "9fd3818ece1926db"
     },
     "Desc_177": {
       "en": "{0}'s <color=#ffffff>Culture</color> has <color=#brightred>declined</color> by {1}...",
@@ -9384,11 +9399,12 @@
     "Desc_271": {
       "en": "Since the Five Elemental Qi can utilize the <color=#FiveElementType_Chunyang>Fire Hellstone</color>, {0} and their companions are aided by the <color=#FiveElementType_Chunyang>Fire Demonic Qi</color>, <color=#brightblue>reducing</color> their injuries and Inner Breath Chaos...",
       "cn": "因内力五行能够化用<color=#FiveElementType_Chunyang>纯阳狱石</color>五行，{0}一行得<color=#FiveElementType_Chunyang>纯阳魔气</color>助益，伤势和内息紊乱<color=#brightblue>减轻了</color>…",
-      "ru": "Поскольку Пятиэлементная Ци может использовать <color=#FiveElementType_Chunyang>Огненный адский камень</color>, {0} и их спутникам помогает <color=#FiveElementType_Chunyang>Огненная Демоническая ци</color>, <color=#brightblue>уменьшающий</color> их травмы и хаос внутреннего дыхания...",
-      "status": "machine",
+      "ru": "Поскольку пять стихий внутренней силы могут использовать пять стихий <color=#FiveElementType_Chunyang>чистого янского адского камня</color>, {0} и их спутникам помогает <color=#FiveElementType_Chunyang>демоническая ци чистого ян</color>, <color=#brightblue>уменьшающая</color> их травмы и расстройство внутреннего дыхания...",
+      "status": "judged",
       "srcHash": "796ad7fbe5b327b6",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "017497a26617af5c"
     },
     "Desc_272": {
       "en": "Since the Five Elemental Qi can utilize the <color=#FiveElementType_Guiyuan>the special Earth Hellstone</color>, {0} and their companions are aided by the <color=#FiveElementType_Guiyuan>Earth Demonic Qi</color>, <color=#brightblue>reducing</color> their injurie sand Inner Breath Chaos...",

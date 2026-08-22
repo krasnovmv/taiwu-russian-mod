@@ -16,11 +16,12 @@
     "Name_1": {
       "en": "Judgment Probability",
       "cn": "判定概率",
-      "ru": "Вероятность суждения",
-      "status": "machine",
+      "ru": "Вероятность проверки",
+      "status": "judged",
       "srcHash": "26ee27d7d654005a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "036396da301e0075"
     },
     "Name_2": {
       "en": "First Time",
@@ -864,11 +865,12 @@
     "Name_85": {
       "en": "All Injury Markers",
       "cn": "所有内外标记",
-      "ru": "Все признаки травмы",
-      "status": "machine",
+      "ru": "Все внутренние и внешние метки травм",
+      "status": "judged",
       "srcHash": "533d90bff1356524",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "b95bbd4aa5742fec"
     },
     "Name_86": {
       "en": "All Injury Markers",
@@ -1236,7 +1238,8 @@
       "status": "machine",
       "srcHash": "2b2bc426b891ea19",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "5fa9568c36ed8bc1"
     },
     "Name_124": {
       "en": "Annihilation Qi/Physical Ratio 2",
@@ -1330,11 +1333,12 @@
     "Desc_6": {
       "en": "Return true when the current distance +{1} is within the range of {0}'s basic attack or casting Annihilation Attack",
       "cn": "当前距离 +{1} 处于 {0} 的普攻或施展中摧破攻击范围时返回真值",
-      "ru": "Возвращает значение true, когда текущее расстояние +{1} находится в пределах диапазона {0}базовая атака или кастовая атака на сокрушение",
-      "status": "machine",
+      "ru": "Возвращает истину, если текущее расстояние +{1} находится в пределах дальности базовой атаки {0} или применяемой им атаки сокрушения",
+      "status": "judged",
       "srcHash": "446dd07aa97e708f",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-22T07:47:17.524Z",
+      "judgeHash": "408d267fcd452db5"
     },
     "Desc_7": {
       "en": "Return true when the current distance + {1} is within {0}'s Martial Art {2} range",
