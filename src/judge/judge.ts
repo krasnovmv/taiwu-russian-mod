@@ -165,12 +165,40 @@ export function verdictKey(hash: string, unit: TmUnit): string {
 }
 
 /**
+ * Where one unit stands with respect to the judge. The rules live here and
+ * nowhere else, so the selection a run makes ({@link selectJudgeWork}) and the
+ * coverage a report shows ({@link judgeCoverage}) can never drift apart.
+ *
+ *   pending  no `ru` yet                    → the translator's job
+ *   human    reviewed/locked                → human curation always wins
+ *   neutral  EN == CN (ids, codes)          → nothing to judge
+ *   drifted  stored srcHash is stale        → re-translate before judging
+ *   judged   carries a current verdict      → skipped unless --force
+ *   todo     translated and unjudged        → what a run would send
+ */
+export type JudgeState = "pending" | "human" | "neutral" | "drifted" | "judged" | "todo";
+
+/**
+ * Classify a unit, and hand back the CURRENT source hash when one was needed to
+ * decide (empty for the states settled before it is computed — hashing every
+ * pending unit would be wasted work on a corpus this size).
+ */
+export function judgeState(
+  unit: TmUnit,
+  hashEn: (en: string) => string,
+): { state: JudgeState; hash: string } {
+  if (unit.ru === null) return { state: "pending", hash: "" };
+  if (unit.status === "reviewed" || unit.status === "locked") return { state: "human", hash: "" };
+  if (unit.engine === NEUTRAL_ENGINE) return { state: "neutral", hash: "" };
+  const hash = hashEn(unit.en);
+  if (unit.srcHash !== hash) return { state: "drifted", hash };
+  const state = unit.judgeHash === judgeHash(hash, unit.cn) ? "judged" : "todo";
+  return { state, hash };
+}
+
+/**
  * The units a judge run would send to the model, in TM order. Pure, so the CLI
  * can size a global progress bar with exactly the work the run will do.
- *
- * `hashEn` supplies the CURRENT source hash: a unit whose stored `srcHash` no
- * longer matches has a stale `ru` (the EN or the glossary moved under it) and is
- * skipped — judging text that is about to be re-translated wastes a request.
  */
 export function selectJudgeWork(
   tm: TmFile,
@@ -183,16 +211,33 @@ export function selectJudgeWork(
 
   for (const [key, unit] of Object.entries(tm.units)) {
     if (options.limit !== undefined && out.length >= options.limit) break;
-    if (unit.ru === null) continue; // pending: nothing to judge
-    if (unit.status === "reviewed" || unit.status === "locked") continue; // human wins
-    if (unit.engine === NEUTRAL_ENGINE) continue; // ids/codes: ru == en by construction
     if (unit.en.length < minLen || unit.en.length > maxLen) continue;
 
-    const hash = hashEn(unit.en);
-    if (unit.srcHash !== hash) continue; // stale ru — translate before judging
-    if (!options.force && unit.judgeHash === judgeHash(hash, unit.cn)) continue; // already judged
+    const { state, hash } = judgeState(unit, hashEn);
+    if (state === "todo" || (state === "judged" && options.force)) out.push({ key, unit, hash });
+  }
+  return out;
+}
 
-    out.push({ key, unit, hash });
+/** How much of one TM the judge has been through. Counts units, not requests. */
+export interface JudgeCoverage {
+  file: string;
+  /** Carries a verdict that still stands. */
+  judged: number;
+  /** Translated, in scope, no current verdict — what `--all` would pick up. */
+  todo: number;
+  /** Out of the judge's reach: pending, human-curated, neutral or drifted. */
+  outOfScope: number;
+}
+
+/** Judge coverage for one loaded TM (read-only; no requests). */
+export function judgeCoverage(tm: TmFile, hashEn: (en: string) => string): JudgeCoverage {
+  const out: JudgeCoverage = { file: tm.file, judged: 0, todo: 0, outOfScope: 0 };
+  for (const unit of Object.values(tm.units)) {
+    const { state } = judgeState(unit, hashEn);
+    if (state === "judged") out.judged++;
+    else if (state === "todo") out.todo++;
+    else out.outOfScope++;
   }
   return out;
 }
