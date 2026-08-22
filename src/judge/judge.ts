@@ -22,16 +22,25 @@
  *
  * Identical review contexts are judged ONCE ({@link verdictKey}): the corpus
  * repeats short strings ("Adventure", "Interaction", …) thousands of times, so
- * units with the same EN/CN and engine share one model request and its verdict
- * fans out to all of them. The CLI passes one {@link JudgeOptions.memo} across
- * every file of a run — the disk-backed `VerdictCache` (`cache/judge.jsonl`), so
- * settled verdicts are also replayed across runs: a re-extracted unit or a new
- * duplicate of an already-judged string costs nothing. Already-marked units are
- * skipped even earlier by their stamped `judgeHash`.
+ * units with the same EN/CN and engine share one verdict, which fans out to all
+ * of them. The CLI passes one {@link JudgeOptions.memo} across every file of a
+ * run — the disk-backed `VerdictCache` (`cache/judge.jsonl`), so settled verdicts
+ * are also replayed across runs: a re-extracted unit or a new duplicate of an
+ * already-judged string costs nothing. Already-marked units are skipped even
+ * earlier by their stamped `judgeHash`.
+ *
+ * What is left after all that dedup is sent in BATCHES ({@link JUDGE_BATCH}):
+ * these strings are mostly short, and on a short string the model barely
+ * deliberates, so a request per context spends more on the round trip than on the
+ * judging. A batch is one request and one conversation turn; the answer carries
+ * an entry per unit id, and every gate below it stays strictly per unit — one bad
+ * entry never costs the units it travelled with.
  */
 import { createHash } from "node:crypto";
 
 import {
+  JUDGE_BATCH,
+  JUDGE_BATCH_CHARS,
   JUDGE_CHECKPOINT,
   JUDGE_CONCURRENCY,
   JUDGE_EXPLANATIONS,
@@ -47,14 +56,15 @@ import { makeSrcHasher } from "../tm/hash.js";
 import { loadTm, saveTm } from "../tm/store.js";
 import { checkTranslation, glossaryMisses } from "../validate/qa.js";
 import {
-  buildUserMessage,
+  batchVerdictSchema,
+  buildBatchMessage,
   loadSystemPrompt,
-  parseVerdict,
+  parseBatchVerdict,
   shouldFix,
   summarize,
-  verdictSchema,
+  type JudgeContext,
 } from "./prompt.js";
-import { ChatSession } from "./session.js";
+import { ChatSession, MAX_HISTORY_CHARS } from "./session.js";
 
 /** Engine marker the pipeline gives language-neutral units (EN == CN). */
 const NEUTRAL_ENGINE = "neutral";
@@ -106,6 +116,13 @@ export interface JudgeOptions {
    */
   sessionTurns?: number;
   /**
+   * Review contexts packed into one request; defaults to {@link JUDGE_BATCH}.
+   * 1 sends a request per context, the shape the judge had before batching.
+   */
+  batch?: number;
+  /** Character budget for one request; defaults to {@link JUDGE_BATCH_CHARS}. */
+  batchChars?: number;
+  /**
    * Verdict memo: {@link verdictKey} → settled outcome. Pass ONE memo to every
    * call of a run and a context already judged in an earlier file is settled
    * without a request; pass the disk-backed VerdictCache and the reuse extends
@@ -120,7 +137,9 @@ export interface JudgeOptions {
 
 export interface JudgeStats {
   file: string;
-  /** Requests the run sent to the model (one per group of identical contexts). */
+  /** Requests the run sent to the model (each carries a batch of contexts). */
+  requests: number;
+  /** Review contexts the model returned a verdict on (one per group). */
   judged: number;
   /** Requests ruled fine: no error, or none serious enough to rewrite. */
   ok: number;
@@ -132,7 +151,10 @@ export interface JudgeStats {
   rejected: number;
   /** Units settled WITHOUT a request: duplicates of a judged context (this file or the memo). */
   reused: number;
-  /** Groups the model errored on; every member left unmarked so a later run retries. */
+  /**
+   * Groups left unanswered — the request threw, the batch was unreadable, or the
+   * model skipped the unit. Every member stays unmarked so a later run retries.
+   */
   errors: number;
   fixes: { key: string; note: string; before: string; after: string }[];
   problems: { key: string; error: string }[];
@@ -142,6 +164,41 @@ interface Candidate {
   key: string;
   unit: TmUnit;
   hash: string;
+}
+
+/** Duplicates of one review context: one verdict, fanned out to every member. */
+type Group = Candidate[];
+
+/**
+ * Pack `items` into batches bounded BOTH by count and by a cost budget, keeping
+ * the input order. An item costing more than the whole budget travels alone
+ * rather than being dropped — the judge must never silently skip a unit.
+ *
+ * Shared shape with `batchByChars` in `engine/yandex.ts`, kept separate because
+ * that one batches strings for the MT API and this one batches groups of TM
+ * candidates; folding them together would only buy a generic with two callers.
+ */
+export function batchByCost<T>(
+  items: T[],
+  maxItems: number,
+  budget: number,
+  cost: (item: T) => number,
+): T[][] {
+  const batches: T[][] = [];
+  let current: T[] = [];
+  let spent = 0;
+  for (const item of items) {
+    const c = cost(item);
+    if (current.length > 0 && (current.length >= maxItems || spent + c > budget)) {
+      batches.push(current);
+      current = [];
+      spent = 0;
+    }
+    current.push(item);
+    spent += c;
+  }
+  if (current.length > 0) batches.push(current);
+  return batches;
 }
 
 /**
@@ -274,6 +331,7 @@ export async function judgeFile(
 function emptyStats(file: string): JudgeStats {
   return {
     file,
+    requests: 0,
     judged: 0,
     ok: 0,
     minorOnly: 0,
@@ -287,9 +345,9 @@ function emptyStats(file: string): JudgeStats {
 }
 
 /**
- * Judge one loaded TM in place. Split from {@link judgeFile} so the dedup and
- * fan-out logic can be exercised on an in-memory TM with a scripted client;
- * `flush` (when given) persists the TM after every checkpoint of groups.
+ * Judge one loaded TM in place. Split from {@link judgeFile} so the dedup,
+ * batching and fan-out logic can be exercised on an in-memory TM with a scripted
+ * client; `flush` (when given) persists the TM after every checkpoint.
  */
 export async function judgeTm(
   tm: TmFile,
@@ -302,16 +360,15 @@ export async function judgeTm(
   options.onStart?.(work.length);
   if (work.length === 0) return emptyStats(tm.file);
 
-  // One request per distinct review context: its verdict fans out to the whole
-  // group, and progress ticks per UNIT (the plan counted units, not groups).
-  const groups = new Map<string, Candidate[]>();
+  // One verdict per distinct review context, fanned out to the whole group.
+  // Progress ticks per UNIT (the plan counted units, not groups or requests).
+  const groups = new Map<string, Group>();
   for (const item of work) {
     const k = verdictKey(item.hash, item.unit);
     const g = groups.get(k);
     if (g) g.push(item);
     else groups.set(k, [item]);
   }
-  const groupList = [...groups.values()];
 
   // A unit an earlier pass already rewrote no longer holds the engine's wording.
   // Load that engine's cache so the judge can be shown BOTH — otherwise a second
@@ -333,138 +390,212 @@ export async function judgeTm(
   // The unit's own file id is part of the prompt: the judge is told where the
   // string lives, which is what tells it the register to expect.
   const system = await loadSystemPrompt();
-  const schema = verdictSchema(JUDGE_EXPLANATIONS);
+  const schema = batchVerdictSchema(JUDGE_EXPLANATIONS);
   const stats: JudgeStats = emptyStats(tm.file);
   const concurrency = Math.max(1, options.concurrency ?? JUDGE_CONCURRENCY);
-  // One conversation per concurrent lane, kept across checkpoints so a window
-  // is not cut short every 25 groups. They do NOT outlive the file: `judgeTm` is
-  // called per TM, so a file with fewer groups than the window simply never
-  // fills one — worth folding into a global work queue when the judge starts
-  // sending batches and a file is only a request or two.
+  const batchSize = Math.max(1, options.batch ?? JUDGE_BATCH);
+  const batchChars = Math.max(1, options.batchChars ?? JUDGE_BATCH_CHARS);
+  // One conversation per concurrent lane, kept across checkpoints so a window is
+  // not cut short every checkpoint. They do NOT outlive the file: `judgeTm` is
+  // called per TM, so a file with fewer batches than the window simply never
+  // fills one — worth folding into a global work queue if the many tiny files
+  // ever justify it. A turn is a whole batch, so the history cap has to be sized
+  // to batches or it would close a conversation after two of them.
   const sessionTurns = Math.max(1, options.sessionTurns ?? JUDGE_SESSION_TURNS);
   const sessions = Array.from(
     { length: concurrency },
-    () => new ChatSession(client, system, sessionTurns),
+    () =>
+      new ChatSession(client, system, sessionTurns, Math.max(MAX_HISTORY_CHARS, 3 * batchChars)),
   );
+
   let done = 0;
+  const tick = (units: number): void => {
+    done += units;
+    options.onProgress?.(done);
+  };
+  const units = (batch: Group[]): number => batch.reduce((n, g) => n + g.length, 0);
 
-  for (let start = 0; start < groupList.length; start += JUDGE_CHECKPOINT) {
-    const chunk = groupList.slice(start, start + JUDGE_CHECKPOINT);
-
-    await mapPool(chunk, concurrency, async (members, _index, lane) => {
-      const head = members[0] as Candidate;
-      const memoKey = verdictKey(head.hash, head.unit);
-      const keepAll = (): void => {
-        for (const m of members)
-          tm.units[m.key] = { ...m.unit, judgeHash: judgeHash(m.hash, m.unit.cn) };
+  const keepAll = (members: Group): void => {
+    for (const m of members)
+      tm.units[m.key] = { ...m.unit, judgeHash: judgeHash(m.hash, m.unit.cn) };
+  };
+  const fixAll = (members: Group, fixedRu: string): void => {
+    for (const m of members)
+      tm.units[m.key] = {
+        ...m.unit,
+        ru: fixedRu,
+        status: "judged",
+        judgeHash: judgeHash(m.hash, m.unit.cn),
+        updatedAt: options.now ?? m.unit.updatedAt,
       };
-      const fixAll = (fixedRu: string): void => {
-        for (const m of members)
-          tm.units[m.key] = {
-            ...m.unit,
-            ru: fixedRu,
-            status: "judged",
-            judgeHash: judgeHash(m.hash, m.unit.cn),
-            updatedAt: options.now ?? m.unit.updatedAt,
-          };
-      };
+  };
 
-      // An earlier file — or, with the disk-backed memo, an earlier run —
-      // already settled this exact context: apply its outcome to the whole
-      // group without a request. The fix was QA-gated when memoized, and both
-      // QA and the glossary derive from the EN alone, so it holds verbatim
-      // here. --force wants fresh verdicts, so it never reads the memo.
-      const settled = options.force ? undefined : options.memo?.get(memoKey);
-      if (settled) {
-        if (settled.kind === "keep") keepAll();
-        else fixAll(settled.ru);
-        stats.reused += members.length;
-        done += members.length;
-        options.onProgress?.(done);
+  // An earlier file — or, with the disk-backed memo, an earlier run — already
+  // settled some of these contexts: apply their outcomes without a request. The
+  // fix was QA-gated when memoized, and both QA and the glossary derive from the
+  // EN alone, so it holds verbatim here. --force wants fresh verdicts, so it
+  // never reads the memo.
+  //
+  // Settled BEFORE the batches are packed, so a request is never half-full of
+  // work already done. Nothing is lost by resolving them up front: the memo key
+  // IS the group key, so two groups of one file can never share one, and no
+  // intra-file hit could appear part-way through the run.
+  const pending: Group[] = [];
+  for (const [memoKey, members] of groups) {
+    const settled = options.force ? undefined : options.memo?.get(memoKey);
+    if (!settled) {
+      pending.push(members);
+      continue;
+    }
+    if (settled.kind === "keep") keepAll(members);
+    else fixAll(members, settled.ru);
+    stats.reused += members.length;
+    tick(members.length);
+  }
+
+  /**
+   * Judge one batch in one request, then scatter the answer back by unit id.
+   *
+   * An answer that could not be read AT ALL splits the batch and retries the
+   * halves — without that, the group that broke it would poison every unit
+   * travelling with it, and the next run would pack the very same batch by the
+   * very same rule and fail identically. Splitting isolates the culprit in
+   * ~2·log2(N) extra requests and lands the rest.
+   *
+   * Every other defect is per unit: a group missing from the answer is left
+   * unmarked and un-memoized (a later run retries it) while its neighbours apply
+   * normally. A thrown request is NOT split — the clients already retried it, so
+   * it is a dead backend or a permanent error, and splitting would only hammer it.
+   */
+  const judgeBatch = async (batch: Group[], session: ChatSession): Promise<void> => {
+    let raw: string;
+    const contexts: JudgeContext[] = await Promise.all(
+      batch.map(async (members): Promise<JudgeContext> => {
+        const { key, unit } = members[0] as Candidate;
+        return {
+          file: tm.file,
+          key,
+          en: unit.en,
+          cn: unit.cn,
+          ru: unit.ru as string,
+          machine: await machineFor(unit),
+        };
+      }),
+    );
+    try {
+      stats.requests++;
+      raw = await session.ask(buildBatchMessage(contexts, glossary), { jsonSchema: schema });
+    } catch (err) {
+      for (const members of batch) {
+        stats.errors++;
+        stats.problems.push({ key: (members[0] as Candidate).key, error: (err as Error).message });
+      }
+      tick(units(batch));
+      return;
+    }
+
+    const verdicts = parseBatchVerdict(raw);
+    if (verdicts === null) {
+      // Garbage is dropped from the conversation too — an unreadable answer left
+      // in the history is an example of what the model should NOT return.
+      session.rollback();
+      if (batch.length > 1) {
+        const mid = Math.ceil(batch.length / 2);
+        await judgeBatch(batch.slice(0, mid), session);
+        await judgeBatch(batch.slice(mid), session);
         return;
       }
+      stats.errors++;
+      stats.problems.push({
+        key: (batch[0] as Group)[0]?.key ?? "",
+        error: "unparseable model output — will retry",
+      });
+      tick(units(batch));
+      return;
+    }
 
-      const { key, unit } = head;
+    // A turn is kept only if SOMETHING in it was usable. With one unit per batch
+    // that is exactly the old rule (an unusable answer never stays in the
+    // history); with forty it stops one rejected rewrite from throwing away
+    // thirty-nine good worked examples.
+    let usable = 0;
+    for (const [index, members] of batch.entries()) {
+      const { key, unit } = members[0] as Candidate;
       const ru = unit.ru as string;
-      // Each lane owns its conversation, so turns of concurrent lanes never
-      // interleave into one history. With sessionTurns = 1 this is a plain
-      // stateless request, byte for byte what the judge sent before.
-      const session = sessions[lane] as ChatSession;
-      try {
-        const raw = await session.ask(
-          buildUserMessage(
-            {
-              file: tm.file,
-              key,
-              en: unit.en,
-              cn: unit.cn,
-              ru,
-              machine: await machineFor(unit),
-            },
-            glossary,
-          ),
-          { jsonSchema: schema },
-        );
-        const verdict = parseVerdict(raw);
-        if (verdict === null) {
-          // Same handling as a thrown request error: every member left unmarked
-          // and un-memoized, so a later run retries the group. The garbage is
-          // dropped from the conversation too — an unparseable answer left in
-          // the history is an example of what the model should NOT return.
-          session.rollback();
-          stats.errors++;
-          stats.problems.push({ key, error: "unparseable model output — will retry" });
-          return;
-        }
-        stats.judged++;
-        stats.minorOnly += verdict.errors.length > 0 && !shouldFix(verdict) ? 1 : 0;
-
-        // The severity threshold decides, not the model: a rewrite happens only
-        // when it is backed by a major/critical error. Everything else is left
-        // exactly as it is — and marked, so the next run skips it. Status stays
-        // `machine`, so an edited cache entry can still flow into it.
-        if (!shouldFix(verdict) || verdict.ru === ru) {
-          stats.ok++;
-          stats.reused += members.length - 1;
-          keepAll();
-          options.memo?.set(memoKey, { kind: "keep" });
-          return;
-        }
-
-        // A rewrite must pass exactly the checks `npm run validate` runs (markup
-        // parity, escape/newline counts, non-empty, no Latin or hanzi left in the Russian,
-        // sane length), PLUS glossary compliance — the judge is given the mandated
-        // terms, so a rewrite that ignores one is a regression, not an improvement.
-        // If any check fails, drop the rewrite and leave every member UNMARKED
-        // (and un-memoized) so a later run retries — the judge must never write
-        // what QA would then flag.
-        const broken = [
-          ...checkTranslation(unit.en, verdict.ru),
-          ...glossaryMisses(verdict.ru, matchGlossary(unit.en, glossary)),
-        ];
-        if (broken.length > 0) {
-          // Dropped from the conversation as well: a rewrite QA threw away must
-          // not sit in the history as a model answer worth imitating.
-          session.rollback();
-          stats.rejected++;
-          const why = broken.map((i) => `${i.kind}: ${i.detail}`).join("; ");
-          stats.problems.push({ key, error: `fix rejected — ${why}` });
-          return;
-        }
-
-        stats.fixed++;
-        stats.reused += members.length - 1;
-        stats.fixes.push({ key, note: summarize(verdict), before: ru, after: verdict.ru });
-        fixAll(verdict.ru);
-        options.memo?.set(memoKey, { kind: "fix", ru: verdict.ru });
-      } catch (err) {
+      const memoKey = verdictKey((members[0] as Candidate).hash, unit);
+      const verdict = verdicts.get(index + 1);
+      if (verdict === undefined) {
         stats.errors++;
-        stats.problems.push({ key, error: (err as Error).message });
-      } finally {
-        done += members.length;
-        options.onProgress?.(done);
+        stats.problems.push({ key, error: "unit missing from the batch answer — will retry" });
+        tick(members.length);
+        continue;
       }
-    });
+      stats.judged++;
+      stats.minorOnly += verdict.errors.length > 0 && !shouldFix(verdict) ? 1 : 0;
+
+      // The severity threshold decides, not the model: a rewrite happens only
+      // when it is backed by a major/critical error. Everything else is left
+      // exactly as it is — and marked, so the next run skips it. Status stays
+      // `machine`, so an edited cache entry can still flow into it.
+      if (!shouldFix(verdict) || verdict.ru === ru) {
+        stats.ok++;
+        stats.reused += members.length - 1;
+        keepAll(members);
+        options.memo?.set(memoKey, { kind: "keep" });
+        usable++;
+        tick(members.length);
+        continue;
+      }
+
+      // A rewrite must pass exactly the checks `npm run validate` runs (markup
+      // parity, escape/newline counts, non-empty, no Latin or hanzi left in the Russian,
+      // sane length), PLUS glossary compliance — the judge is given the mandated
+      // terms, so a rewrite that ignores one is a regression, not an improvement.
+      // If any check fails, drop the rewrite and leave every member UNMARKED
+      // (and un-memoized) so a later run retries — the judge must never write
+      // what QA would then flag.
+      const broken = [
+        ...checkTranslation(unit.en, verdict.ru),
+        ...glossaryMisses(verdict.ru, matchGlossary(unit.en, glossary)),
+      ];
+      if (broken.length > 0) {
+        stats.rejected++;
+        const why = broken.map((i) => `${i.kind}: ${i.detail}`).join("; ");
+        stats.problems.push({ key, error: `fix rejected — ${why}` });
+        tick(members.length);
+        continue;
+      }
+
+      stats.fixed++;
+      stats.reused += members.length - 1;
+      stats.fixes.push({ key, note: summarize(verdict), before: ru, after: verdict.ru });
+      fixAll(members, verdict.ru);
+      options.memo?.set(memoKey, { kind: "fix", ru: verdict.ru });
+      usable++;
+      tick(members.length);
+    }
+    if (usable === 0) session.rollback();
+  };
+
+  // Cost a group by the three texts the prompt always carries for it; only the
+  // group's head is ever shown, so duplicates ride along free.
+  const batches = batchByCost(pending, batchSize, batchChars, (members) => {
+    const { unit } = members[0] as Candidate;
+    return unit.en.length + (unit.cn?.length ?? 0) + (unit.ru?.length ?? 0);
+  });
+
+  // The checkpoint is a group count, but a batch can hold more groups than that,
+  // so it becomes a batch count — and never fewer batches than there are lanes,
+  // or the pool would be handed one item and the concurrency would be lost.
+  const perCheckpoint = Math.max(concurrency, Math.ceil(JUDGE_CHECKPOINT / batchSize));
+  for (let start = 0; start < batches.length; start += perCheckpoint) {
+    const chunk = batches.slice(start, start + perCheckpoint);
+
+    // Each lane owns its conversation, so turns of concurrent lanes never
+    // interleave into one history.
+    await mapPool(chunk, concurrency, (batch, _index, lane) =>
+      judgeBatch(batch, sessions[lane] as ChatSession),
+    );
 
     // Verdicts first, TM second: interrupted in between, a verdict can be
     // cached-but-unapplied (replayed for free next run) — never applied-but-lost.

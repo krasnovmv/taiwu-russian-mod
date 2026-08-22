@@ -7,20 +7,22 @@
  *   npm run judge -- --all --min-len 40     # only the long prose
  *   npm run judge -- --all --dry-run        # report the fixes, write nothing
  *   npm run judge -- --all --force          # re-judge units that already have a verdict
- *   npm run judge -- <file> --session-turns 6   # review 6 units per conversation
+ *   npm run judge -- <file> --batch 10          # 10 units per request
+ *   npm run judge -- <file> --session-turns 6   # 6 requests per conversation
  *
- * `--session-turns` (default 1 = a stateless request per unit) keeps a lane's
- * units in ONE growing conversation, so the model answers having seen its own
- * earlier verdicts; see `judge/session.ts` for what that costs and buys — on
- * one-unit turns it measured SLOWER, so the default stands until the judge
- * batches several units into a turn.
+ * `--batch` (default {@link JUDGE_BATCH}) is how many review contexts ride in one
+ * request; `--batch 1` restores the request-per-unit shape the judge had before
+ * batching. `--session-turns` (default 1 = a stateless request) keeps a lane's
+ * requests in ONE growing conversation, so the model answers having seen its own
+ * earlier verdicts; see `judge/session.ts` for what that costs and buys.
  *
  * Backend is chosen by TAIWU_JUDGE_ENGINE: Yandex AI Studio (default;
  * TAIWU_YANDEX_API_KEY / TAIWU_YANDEX_FOLDER_ID, billed per token) or a local LM
  * Studio server (`=lmstudio`; TAIWU_LMSTUDIO_BASE_URL/MODEL, free GPU time).
  * TAIWU_JUDGE_MODEL or --model picks the model on either. Each unit is shown to
  * the model with its file, key, English source, Chinese original and glossary
- * terms; a unit ruled wrong is rewritten in place in the TM (`status: "judged"`).
+ * terms — several units to a request; a unit ruled wrong is rewritten in place
+ * in the TM (`status: "judged"`).
  * Resumable: a verdict is remembered per unit and only replayed when the EN, CN
  * or glossary behind it changes (see config/judge.ts). Units with an identical
  * review context (same EN/CN and engine) share ONE request — the verdict fans
@@ -29,7 +31,12 @@
  *
  * Nothing reaches the game until `npm run apply-all`.
  */
-import { JUDGE_CONCURRENCY, JUDGE_ENGINE, JUDGE_SESSION_TURNS } from "../config/judge.js";
+import {
+  JUDGE_BATCH,
+  JUDGE_CONCURRENCY,
+  JUDGE_ENGINE,
+  JUDGE_SESSION_TURNS,
+} from "../config/judge.js";
 import { EVENT_DLC_PREFIX, EVENT_PREFIX } from "../config/sources.js";
 import { LmStudioClient } from "../engine/lmstudio-client.js";
 import { YandexGptClient } from "../engine/yandex-gpt-client.js";
@@ -52,6 +59,7 @@ interface Args {
   maxLen: number | undefined;
   concurrency: number | undefined;
   sessionTurns: number | undefined;
+  batch: number | undefined;
   model: string | undefined;
   force: boolean;
   dryRun: boolean;
@@ -66,6 +74,7 @@ function parseArgs(argv: string[]): Args {
     maxLen: undefined,
     concurrency: undefined,
     sessionTurns: undefined,
+    batch: undefined,
     model: undefined,
     force: false,
     dryRun: false,
@@ -81,6 +90,7 @@ function parseArgs(argv: string[]): Args {
     else if (arg === "--max-len") a.maxLen = num(argv[++i]);
     else if (arg === "--concurrency") a.concurrency = num(argv[++i]);
     else if (arg === "--session-turns") a.sessionTurns = num(argv[++i]);
+    else if (arg === "--batch") a.batch = num(argv[++i]);
     else if (arg === "--model") a.model = argv[++i];
     else if (arg === "--force") a.force = true;
     else if (arg === "--dry-run") a.dryRun = true;
@@ -95,7 +105,8 @@ async function main(): Promise<void> {
   if (!args.all && !args.file) {
     console.error(
       "Usage: npm run judge -- (<file> | --all) [--limit N] [--min-len N] [--max-len N]\n" +
-        "       [--concurrency N] [--session-turns N] [--model ID] [--force] [--dry-run]",
+        "       [--concurrency N] [--batch N] [--session-turns N] [--model ID]\n" +
+        "       [--force] [--dry-run]",
     );
     process.exitCode = 1;
     return;
@@ -129,9 +140,10 @@ async function main(): Promise<void> {
   const suffix = args.dryRun ? " (dry-run)" : "";
   const concurrency = args.concurrency ?? JUDGE_CONCURRENCY;
   const sessionTurns = Math.max(1, args.sessionTurns ?? JUDGE_SESSION_TURNS);
+  const batch = Math.max(1, args.batch ?? JUDGE_BATCH);
   console.log(
     `Judge${suffix} | engine: ${JUDGE_ENGINE} | model: ${model} | files: ${files.length} | ` +
-      `concurrency: ${concurrency}` +
+      `concurrency: ${concurrency} | batch: ${batch}` +
       (sessionTurns > 1 ? ` | session: ${sessionTurns} turns` : "") +
       `${window}` +
       (args.force ? " | force" : ""),
@@ -167,6 +179,7 @@ async function main(): Promise<void> {
       now,
       concurrency: args.concurrency,
       sessionTurns,
+      batch,
       memo,
       onStart: (total) => {
         fileTotal = total;
@@ -184,12 +197,16 @@ async function main(): Promise<void> {
   const fixes = all.flatMap((s) => s.fixes.map((f) => ({ ...f, file: s.file })));
   const problems = all.flatMap((s) => s.problems.map((p) => ({ ...p, file: s.file })));
 
+  const judged = sum((s) => s.judged);
+  const requests = sum((s) => s.requests);
+  const perRequest = requests > 0 ? (judged / requests).toFixed(1) : "0";
   console.log(
-    `\nJudged: ${sum((s) => s.judged)} | kept: ${sum((s) => s.ok)} (minor-only: ${sum(
+    `\nJudged: ${judged} | kept: ${sum((s) => s.ok)} (minor-only: ${sum(
       (s) => s.minorOnly,
     )}) | fixed: ${sum((s) => s.fixed)} | rejected by QA: ${sum(
       (s) => s.rejected,
-    )} | reused (duplicates): ${sum((s) => s.reused)} | errors: ${sum((s) => s.errors)}${suffix}`,
+    )} | reused (duplicates): ${sum((s) => s.reused)} | errors: ${sum((s) => s.errors)}${suffix}` +
+      `\nRequests: ${requests} (${perRequest} contexts each)`,
   );
 
   if (fixes.length > 0) {

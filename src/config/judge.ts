@@ -46,6 +46,12 @@
 //    moving the default to an unused number restores the invariant that the
 //    version tracks this file's prompt lineage. Every earlier verdict is
 //    orphaned once, so the next full run re-judges from scratch.
+//
+// Batching (several units per request) deliberately did NOT bump this. Like the
+// backend swap and the session window, it changes HOW the model is asked, not
+// WHAT is asked of it: the rules, the severity threshold and the QA gates are
+// identical, and each unit is still annotated on its own blocks. Verdicts made
+// one-at-a-time therefore still stand, and `cache/judge.jsonl` keeps playing.
 const DEFAULT_JUDGE_VERSION = 9;
 const DEFAULT_CONCURRENCY = 4;
 
@@ -76,6 +82,32 @@ export const JUDGE_CONCURRENCY = envInt("TAIWU_JUDGE_CONCURRENCY", DEFAULT_CONCU
 export const JUDGE_CHECKPOINT = envInt("TAIWU_JUDGE_CHECKPOINT", 25);
 
 /**
+ * Review contexts packed into ONE request. The corpus is mostly short strings, on
+ * which the model barely deliberates, so a request-per-unit spends more on round
+ * trips than on judging; batching amortises that.
+ *
+ * Bounded twice — by count here and by {@link JUDGE_BATCH_CHARS} — because these
+ * two failure modes are different: 40 UI labels are a small request, while 40
+ * quest paragraphs would overrun the context window (a permanent 400, see the
+ * clients' `isPermanent`). Whichever limit is hit first closes the batch.
+ *
+ * `--batch 1` restores a request per context, which is what the A/B measurements
+ * in `judge/session.ts` were made against.
+ */
+export const JUDGE_BATCH = envInt("TAIWU_JUDGE_BATCH", 40);
+
+/**
+ * Character budget for one request, summed over the EN, CN and RU of the units in
+ * it. A context heavier than the whole budget still travels alone rather than
+ * being dropped (same discipline as `batchByChars` in `engine/yandex.ts`).
+ *
+ * Counts the three texts the prompt always carries, not the optional MACHINE
+ * block: that one appears only on a re-judge of an already-fixed unit, and the
+ * budget keeps enough slack for it.
+ */
+export const JUDGE_BATCH_CHARS = envInt("TAIWU_JUDGE_BATCH_CHARS", 12_000);
+
+/**
  * Turns per conversation: how many units a judge lane reviews inside ONE growing
  * chat before starting a fresh one (see `judge/session.ts`). Each concurrent lane
  * keeps its own conversation, so `TAIWU_JUDGE_CONCURRENCY` conversations are open
@@ -86,9 +118,12 @@ export const JUDGE_CHECKPOINT = envInt("TAIWU_JUDGE_CHECKPOINT", 25);
  * session runs 20-25% SLOWER than stateless requests, because a short unit barely
  * makes the model deliberate, so there is no warm-up to save (it does take the
  * prompt-cache hit rate from 0 to ~57%, but that is a cost metric, not latency).
- * The same A/B on BATCHED turns went the other way, +41%. So this becomes worth
- * raising once the judge sends batches — until then it is a lever to experiment
- * with (`--session-turns N`), not a default to flip.
+ * The same A/B on BATCHED turns went the other way, +41%.
+ *
+ * Now that a turn IS a batch ({@link JUDGE_BATCH}), that +41% is the expected
+ * direction — but it was measured on a hand-rolled batch, not on this pipeline,
+ * so the default stays at 1 until a run of the real thing says otherwise. Raise
+ * it with `--session-turns N` to make that measurement.
  *
  * It does NOT invalidate verdicts: like the backend swap, it changes how the
  * model is asked, not what the prompt says, and the model is deliberately not

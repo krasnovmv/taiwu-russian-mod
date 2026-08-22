@@ -1,6 +1,6 @@
 /**
- * The judge prompt: what the LLM sees for one translation unit, and how its
- * answer is read back.
+ * The judge prompt: what the LLM sees for the translation units of one request,
+ * and how its answer is read back.
  *
  * The design follows MQM (Multidimensional Quality Metrics), the standard used to
  * annotate MT quality, in the shape GEMBA-MQM popularised for LLM judges: the
@@ -43,7 +43,9 @@ import { matchGlossary } from "../glossary/match.js";
 export function defaultSystemPrompt(explanations: boolean): string {
   return `You annotate, by MQM, the quality of a machine translation into Russian for The Scroll of Taiwu (太吾绘卷), a Chinese wuxia (武侠) life-simulation game.
 
-Blocks you are given for one string:
+One request carries one or more units, each introduced by a "UNIT <id>" line. Annotate EVERY unit and return exactly one entry per unit, carrying that unit's id. The units travel together for economy only: they are unrelated strings, so judge each one solely on its own blocks and never let a neighbour's wording justify an error or a correction.
+
+Blocks you are given for one unit:
 - FILE, KEY: where the string lives. The filename gives the register — item/skill/place files are short noun phrases, event/dialogue files prose, UI files terse labels.
 - ENGLISH: the text that was translated. Itself machine-translated from Chinese, so it may be awkward or wrong.
 - CHINESE: the original, and the MEANING OF RECORD — where English and Chinese disagree, Chinese wins.
@@ -171,6 +173,31 @@ export function buildUserMessage(ctx: JudgeContext, glossary: ReadonlyMap<string
   return parts.join("\n\n");
 }
 
+/**
+ * Between two units of a batch. A rule, not just a blank line: prose units carry
+ * blank lines of their own, and a boundary the model has to infer is a boundary
+ * it can get wrong — which would show up as an annotation made on the wrong text.
+ */
+const UNIT_SEPARATOR = "\n\n---\n\n";
+
+/**
+ * The user message for a whole batch: the per-unit blocks of
+ * {@link buildUserMessage}, each under a `UNIT <id>` header, separated by a rule.
+ *
+ * Ids are the unit's 1-based position in the batch, and they are how the answer
+ * is scattered back ({@link parseBatchVerdict}) — position in the reply is NOT
+ * trusted, so a model that reorders or skips entries costs only the units it
+ * actually got wrong.
+ */
+export function buildBatchMessage(
+  contexts: JudgeContext[],
+  glossary: ReadonlyMap<string, string>,
+): string {
+  return contexts
+    .map((ctx, i) => `UNIT ${i + 1}\n${buildUserMessage(ctx, glossary)}`)
+    .join(UNIT_SEPARATOR);
+}
+
 export const SEVERITIES = ["minor", "major", "critical"] as const;
 export type Severity = (typeof SEVERITIES)[number];
 
@@ -189,13 +216,16 @@ const CATEGORIES = [
 ] as const;
 
 /**
- * Structured-output schema for the annotation (LM Studio `response_format`).
+ * Structured-output schema for a batch of annotations (LM Studio
+ * `response_format`): one entry per unit, each tagged with the unit's `id`.
+ *
  * With `explanations` off, the per-error `explanation` field is dropped entirely
  * — the model is grammar-constrained to category + severity, so it cannot pad the
  * output (and cannot dump chain-of-thought, which is what overflowed the context
- * window on long units).
+ * window on long units). That matters more the bigger the batch: the reply has to
+ * fit the completion cap whole, and a truncated reply parses to nothing.
  */
-export function verdictSchema(explanations: boolean): {
+export function batchVerdictSchema(explanations: boolean): {
   name: string;
   schema: Record<string, unknown>;
 } {
@@ -214,18 +244,29 @@ export function verdictSchema(explanations: boolean): {
     schema: {
       type: "object",
       properties: {
-        errors: {
+        units: {
           type: "array",
           items: {
             type: "object",
-            properties: errorProps,
-            required,
+            properties: {
+              id: { type: "integer" },
+              errors: {
+                type: "array",
+                items: {
+                  type: "object",
+                  properties: errorProps,
+                  required,
+                  additionalProperties: false,
+                },
+              },
+              ru: { type: "string" },
+            },
+            required: ["id", "errors", "ru"],
             additionalProperties: false,
           },
         },
-        ru: { type: "string" },
       },
-      required: ["errors", "ru"],
+      required: ["units"],
       additionalProperties: false,
     },
   };
@@ -256,16 +297,46 @@ export function shouldFix(verdict: Verdict): boolean {
 }
 
 /**
- * Parse the model's answer. Tolerates a model that ignores the schema and wraps
- * its JSON in prose or a ```json fence. Anything unparseable — garbage, or JSON
- * truncated by the completion cap — returns `null`, which the caller must treat
- * as a FAILED REQUEST (retry later), never as a verdict: an empty annotation
- * here would stamp the unit "reviewed OK" (and memoize that for every
- * duplicate) when the model never actually reviewed it.
+ * Read the model's answer back into `id → verdict`. The ids are the ones
+ * {@link buildBatchMessage} handed out, so a reply that reorders its entries is
+ * still scattered correctly. Tolerates a model that ignores the schema and wraps
+ * its JSON in prose or a ```json fence.
+ *
+ * `null` means the answer as a WHOLE was unusable — garbage, JSON truncated by
+ * the completion cap, or no `units` array to read. The caller must treat that as
+ * a FAILED REQUEST for every unit in the batch (and recover by splitting it),
+ * never as "no errors found": an empty annotation would stamp units "reviewed OK"
+ * (and memoize that for every duplicate) when the model never reviewed them.
+ *
+ * Anything short of that is handled per unit, so one bad entry cannot cost the
+ * others: an entry without a usable id is dropped, and an id claimed TWICE is
+ * dropped along with its first entry — two annotations for one unit is the model
+ * losing track of the batch, and neither can be trusted over the other. The
+ * dropped units simply go unanswered, which the caller retries later.
  */
-export function parseVerdict(raw: string): Verdict | null {
+export function parseBatchVerdict(raw: string): Map<number, Verdict> | null {
   const json = extractJson(raw);
-  if (!json) return null;
+  if (!json || !Array.isArray(json.units) || json.units.length === 0) return null;
+
+  const out = new Map<number, Verdict>();
+  const conflicted = new Set<number>();
+  for (const entry of json.units) {
+    if (typeof entry !== "object" || entry === null) continue;
+    const record = entry as Record<string, unknown>;
+    const id = typeof record.id === "number" ? record.id : Number(record.id);
+    if (!Number.isInteger(id) || conflicted.has(id)) continue;
+    if (out.has(id)) {
+      out.delete(id);
+      conflicted.add(id);
+      continue;
+    }
+    out.set(id, toVerdict(record));
+  }
+  return out;
+}
+
+/** One annotation object → a {@link Verdict}, dropping malformed error entries. */
+function toVerdict(json: Record<string, unknown>): Verdict {
   const errors = Array.isArray(json.errors)
     ? json.errors.filter(isJudgeError).map((e) => ({
         category: e.category,

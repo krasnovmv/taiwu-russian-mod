@@ -30,12 +30,13 @@
  * rewrites the QA gates rejected, so none would have reached the TM.
  *
  * IMPORTANT, measured: the win above is a property of BATCHED turns. With one
- * unit per turn — the judge's current shape — sessions came out 20-25% SLOWER
- * than stateless requests (0.25-0.27 vs 0.33 units/s over four paired runs),
- * because a single short unit triggers almost no deliberation to begin with, so
- * there is nothing for the warm-up to save. That is why `TAIWU_JUDGE_SESSION_TURNS`
- * defaults to 1 (stateless): this module is the layer batching will sit on, and
- * turning it on before then buys a slower run and a prettier cache-hit number.
+ * unit per turn sessions came out 20-25% SLOWER than stateless requests
+ * (0.25-0.27 vs 0.33 units/s over four paired runs), because a single short unit
+ * triggers almost no deliberation to begin with, so there is nothing for the
+ * warm-up to save. The judge now batches (`TAIWU_JUDGE_BATCH`), so a turn is a
+ * whole batch and the +41% is the expected direction — but that number came off a
+ * hand-rolled batch, not off this pipeline, so `TAIWU_JUDGE_SESSION_TURNS` still
+ * defaults to 1 until a real run says otherwise.
  *
  * A turn only joins the history once its answer proved usable — see
  * {@link ChatSession.rollback}. A conversation that kept an unparseable reply, or
@@ -45,12 +46,17 @@
 import type { ChatClient, ChatMessage, ChatOptions } from "../engine/chat-client.js";
 
 /**
- * Characters of history after which the conversation restarts early, whatever
- * `maxTurns` says. A guard for outliers, not a tuning knob: a handful of long
- * prose units in one window would otherwise push the request toward the model's
- * context limit, which fails as a permanent 400 (see the clients' `isPermanent`).
+ * Default characters of history after which the conversation restarts early,
+ * whatever `maxTurns` says. A guard for outliers, not a tuning knob: a handful of
+ * long prose units in one window would otherwise push the request toward the
+ * model's context limit, which fails as a permanent 400 (see the clients'
+ * `isPermanent`).
+ *
+ * A caller whose turns are BATCHED must raise it (see {@link ChatSession}'s
+ * `maxChars`): a turn is then a whole batch, and a cap sized for single units
+ * would trip after two of them, leaving `maxTurns` with nothing to do.
  */
-const MAX_HISTORY_CHARS = 20_000;
+export const MAX_HISTORY_CHARS = 20_000;
 
 export class ChatSession {
   /** Completed user/assistant pairs, oldest first. Never holds a partial turn. */
@@ -61,11 +67,14 @@ export class ChatSession {
    *                constant, the part the backend's prompt cache keys on).
    * @param maxTurns turns per conversation; 1 makes every request stateless,
    *                which is exactly the pre-session behaviour.
+   * @param maxChars characters of history that also close a conversation, sized
+   *                to the caller's turns — see {@link MAX_HISTORY_CHARS}.
    */
   constructor(
     private readonly client: ChatClient,
     private readonly system: string,
     private readonly maxTurns: number,
+    private readonly maxChars: number = MAX_HISTORY_CHARS,
   ) {}
 
   /** Turns currently carried into the next request (0 right after a reset). */
@@ -88,7 +97,7 @@ export class ChatSession {
     const reply = await this.client.chat(messages, opts);
     if (this.maxTurns > 1) {
       this.history.push({ role: "user", content: user }, { role: "assistant", content: reply });
-      if (this.turns >= this.maxTurns || this.chars() > MAX_HISTORY_CHARS) this.history = [];
+      if (this.turns >= this.maxTurns || this.chars() > this.maxChars) this.history = [];
     }
     return reply;
   }

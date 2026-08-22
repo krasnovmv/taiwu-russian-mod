@@ -6,6 +6,7 @@ import { tmpdir } from "node:os";
 import path from "node:path";
 
 import {
+  batchByCost,
   judgeHash,
   judgeTm,
   selectJudgeWork,
@@ -13,7 +14,13 @@ import {
   type JudgeOutcome,
 } from "../src/judge/judge.js";
 import { VerdictCache } from "../src/judge/verdict-cache.js";
-import { buildUserMessage, parseVerdict, shouldFix, type Verdict } from "../src/judge/prompt.js";
+import {
+  buildBatchMessage,
+  buildUserMessage,
+  parseBatchVerdict,
+  shouldFix,
+  type Verdict,
+} from "../src/judge/prompt.js";
 import { needsTranslation } from "../src/translate/pipeline.js";
 import { TM_SCHEMA_VERSION, type TmFile, type TmUnit } from "../src/model/tm.js";
 import { checkTranslation, glossaryMisses } from "../src/validate/qa.js";
@@ -104,13 +111,16 @@ test("a judged unit survives a cache rebuild but not a source or engine change",
   assert.equal(needsTranslation(u, "h", "lmstudio", true), true);
 });
 
-test("parseVerdict tolerates a model that wraps its JSON in prose or a fence", () => {
-  assert.deepEqual(parseVerdict('{"errors":[],"ru":""}'), { errors: [], ru: "" });
+test("parseBatchVerdict tolerates a model that wraps its JSON in prose or a fence", () => {
+  assert.deepEqual(parseBatchVerdict('{"units":[{"id":1,"errors":[],"ru":""}]}')?.get(1), {
+    errors: [],
+    ru: "",
+  });
   assert.deepEqual(
-    parseVerdict(
-      'Here you go:\n```json\n{"errors":[{"category":"terminology","severity":"major",' +
-        '"explanation":"glossary term ignored"}],"ru":" Клинок "}\n```',
-    ),
+    parseBatchVerdict(
+      'Here you go:\n```json\n{"units":[{"id":1,"errors":[{"category":"terminology",' +
+        '"severity":"major","explanation":"glossary term ignored"}],"ru":" Клинок "}]}\n```',
+    )?.get(1),
     {
       errors: [
         { category: "terminology", severity: "major", explanation: "glossary term ignored" },
@@ -119,16 +129,40 @@ test("parseVerdict tolerates a model that wraps its JSON in prose or a fence", (
     },
   );
   // Unparseable output is a FAILED request, not a verdict: `null`, never an
-  // empty annotation — that would stamp the unit "reviewed OK" unreviewed.
-  assert.equal(parseVerdict("I think it is fine, honestly"), null);
-  assert.equal(parseVerdict("{ broken"), null);
+  // empty annotation — that would stamp the units "reviewed OK" unreviewed.
+  assert.equal(parseBatchVerdict("I think it is fine, honestly"), null);
+  assert.equal(parseBatchVerdict("{ broken"), null);
   // JSON truncated by the completion cap parses to nothing — also a failure.
-  assert.equal(parseVerdict('{"errors":[{"category":"terminology","severity":"ma'), null);
+  assert.equal(parseBatchVerdict('{"units":[{"id":1,"errors":[{"category":"termino'), null);
+  // An answer with no annotations at all is a failure too, not "all fine".
+  assert.equal(parseBatchVerdict('{"units":[]}'), null);
   // A malformed error entry (bogus severity) is dropped, not trusted.
   assert.deepEqual(
-    parseVerdict('{"errors":[{"category":"x","severity":"huge"}],"ru":"Х"}')?.errors,
+    parseBatchVerdict(
+      '{"units":[{"id":1,"errors":[{"category":"x","severity":"huge"}],"ru":"Х"}]}',
+    )?.get(1)?.errors,
     [],
   );
+});
+
+test("parseBatchVerdict keys by the answer's ids, not by position", () => {
+  const out = parseBatchVerdict(
+    '{"units":[{"id":2,"errors":[],"ru":"Второй"},{"id":1,"errors":[],"ru":"Первый"}]}',
+  );
+  assert.equal(out?.get(1)?.ru, "Первый");
+  assert.equal(out?.get(2)?.ru, "Второй");
+});
+
+test("parseBatchVerdict drops an entry with no usable id, and both of a duplicated one", () => {
+  const out = parseBatchVerdict(
+    '{"units":[{"errors":[],"ru":"Безымянный"},{"id":1,"errors":[],"ru":"А"},' +
+      '{"id":1,"errors":[],"ru":"Б"},{"id":3,"errors":[],"ru":"В"}]}',
+  );
+  // Two annotations claiming unit 1 is the model losing track of the batch:
+  // neither is trustworthy over the other, so the unit simply goes unanswered.
+  assert.equal(out?.has(1), false);
+  assert.equal(out?.get(3)?.ru, "В");
+  assert.equal(out?.size, 1);
 });
 
 test("only a major/critical error rewrites a translation — minor ones never do", () => {
@@ -306,34 +340,59 @@ const liveUnit = (en: string, ru: string, over: Partial<TmUnit> = {}): TmUnit =>
   updatedAt: null,
   ...over,
 });
+/** The per-unit blocks of a batch message, in the order they were sent. */
+const unitBlocks = (user: string): string[] => user.split("\n\n---\n\n");
+
+/** A client that answers each unit of a batch by its own blocks. */
 const clientOf = (
+  respond: (unit: string) => Omit<Verdict, "errors"> & { errors: Verdict["errors"] },
+): { calls: string[]; chat: (messages: ChatMessage[]) => Promise<string> } => {
+  const calls: string[] = [];
+  return {
+    calls,
+    chat: (messages) => {
+      const user = messages[messages.length - 1]?.content ?? "";
+      calls.push(user);
+      const units = unitBlocks(user).map((block, i) => ({ id: i + 1, ...respond(block) }));
+      return Promise.resolve(JSON.stringify({ units }));
+    },
+  };
+};
+
+/** A client whose raw reply is scripted verbatim — for malformed answers. */
+const rawClientOf = (
   respond: (user: string) => string,
 ): { calls: string[]; chat: (messages: ChatMessage[]) => Promise<string> } => {
   const calls: string[] = [];
   return {
     calls,
     chat: (messages) => {
-      const user = messages[1]?.content ?? "";
+      const user = messages[messages.length - 1]?.content ?? "";
       calls.push(user);
       return Promise.resolve(respond(user));
     },
   };
 };
-const KEEP = '{"errors":[],"ru":""}';
-const fixWith = (ru: string): string =>
-  `{"errors":[{"category":"accuracy/mistranslation","severity":"major","explanation":"x"}],"ru":${JSON.stringify(ru)}}`;
 
-test("judgeTm sends one request per identical context and fans the verdict out", async () => {
+const KEEP: Verdict = { errors: [], ru: "" };
+const fixWith = (ru: string): Verdict => ({
+  errors: [{ category: "accuracy/mistranslation", severity: "major", explanation: "x" }],
+  ru,
+});
+
+test("judgeTm judges each identical context once and fans the verdict out", async () => {
   const tm = tmOf({
     a: liveUnit("Adventure", "Приключение"),
     b: liveUnit("Adventure", "Приключение"),
     c: liveUnit("Sect", "Секта"),
   });
-  const client = clientOf((user) => (user.includes("Adventure") ? fixWith("Странствие") : KEEP));
+  const client = clientOf((unit) => (unit.includes("Adventure") ? fixWith("Странствие") : KEEP));
 
-  const stats = await judgeTm(tm, client, emptyGlossary, { now: "T" });
+  // batch 1 so the dedup is what the request count measures, not the packing.
+  const stats = await judgeTm(tm, client, emptyGlossary, { now: "T", batch: 1 });
 
   assert.equal(client.calls.length, 2); // one per group, not per unit
+  assert.equal(stats.requests, 2);
   assert.equal(stats.judged, 2);
   assert.equal(stats.fixed, 1);
   assert.equal(stats.ok, 1);
@@ -423,7 +482,7 @@ test("unparseable model output marks and memoizes nothing — the group stays re
     a: liveUnit("Adventure", "Приключение"),
     b: liveUnit("Adventure", "Приключение"),
   });
-  const client = clientOf(() => "Sure! The translation looks fine to me.");
+  const client = rawClientOf(() => "Sure! The translation looks fine to me.");
 
   const stats = await judgeTm(tm, client, emptyGlossary, { memo });
 
@@ -452,15 +511,18 @@ const sessionClientOf = (
 const usersOf = (call: ChatMessage[]): string[] =>
   call.filter((m) => m.role === "user").map((m) => m.content);
 
+/** A whole batch answer for a request carrying exactly one unit. */
+const oneUnit = (verdict: Verdict): string => JSON.stringify({ units: [{ id: 1, ...verdict }] });
+
 test("the default window keeps every request stateless", async () => {
   const tm = tmOf({
     a: liveUnit("Adventure", "Приключение"),
     b: liveUnit("Sect", "Секта"),
     c: liveUnit("Blade", "Клинок"),
   });
-  const client = sessionClientOf(() => KEEP);
+  const client = sessionClientOf(() => oneUnit(KEEP));
 
-  await judgeTm(tm, client, emptyGlossary, { concurrency: 1 });
+  await judgeTm(tm, client, emptyGlossary, { concurrency: 1, batch: 1 });
 
   // system + the one unit, exactly as before sessions existed.
   assert.deepEqual(
@@ -477,9 +539,9 @@ test("a session carries its earlier turns and restarts after the window", async 
     d: liveUnit("Mirror", "Зеркало"),
     e: liveUnit("Poison", "Яд"),
   });
-  const client = sessionClientOf(() => KEEP);
+  const client = sessionClientOf(() => oneUnit(KEEP));
 
-  await judgeTm(tm, client, emptyGlossary, { concurrency: 1, sessionTurns: 3 });
+  await judgeTm(tm, client, emptyGlossary, { concurrency: 1, sessionTurns: 3, batch: 1 });
 
   // Three turns in one conversation (2, 4, 6 messages), then a fresh one.
   assert.deepEqual(
@@ -500,14 +562,14 @@ test("a session carries its earlier turns and restarts after the window", async 
 test("an answer the pipeline could not use is dropped from the conversation", async () => {
   // Unparseable output, then a rewrite QA rejects: neither may stay in the
   // history as an example of what the model is expected to return.
-  for (const bad of ["Sure, it all looks fine to me.", fixWith("Adventure тур")]) {
+  for (const bad of ["Sure, it all looks fine to me.", oneUnit(fixWith("Adventure тур"))]) {
     const tm = tmOf({
       a: liveUnit("Adventure", "Приключение"),
       b: liveUnit("Sect", "Секта"),
     });
-    const client = sessionClientOf((user) => (user.includes("Adventure") ? bad : KEEP));
+    const client = sessionClientOf((user) => (user.includes("Adventure") ? bad : oneUnit(KEEP)));
 
-    await judgeTm(tm, client, emptyGlossary, { concurrency: 1, sessionTurns: 5 });
+    await judgeTm(tm, client, emptyGlossary, { concurrency: 1, sessionTurns: 5, batch: 1 });
 
     assert.equal(client.calls.length, 2);
     assert.equal(client.calls[1]?.length, 2); // the second unit starts clean
@@ -521,15 +583,200 @@ test("concurrent lanes keep separate conversations", async () => {
     c: liveUnit("Blade", "Клинок"),
     d: liveUnit("Mirror", "Зеркало"),
   });
-  const client = sessionClientOf(() => KEEP);
+  const client = sessionClientOf(() => oneUnit(KEEP));
 
-  await judgeTm(tm, client, emptyGlossary, { concurrency: 2, sessionTurns: 4 });
+  await judgeTm(tm, client, emptyGlossary, { concurrency: 2, sessionTurns: 4, batch: 1 });
 
   // Two lanes → two conversations, and a turn of one never lands in the other.
   assert.equal(client.calls.filter((m) => m.length === 2).length, 2);
   const withFirst = client.calls.filter((c) => usersOf(c).some((u) => u.includes("Adventure")));
   assert.ok(withFirst.length > 0);
   assert.ok(withFirst.every((c) => !usersOf(c).some((u) => u.includes("Sect"))));
+});
+
+test("batchByCost respects both limits and never drops an oversized item", () => {
+  const cost = (n: number): number => n;
+  // The count cap closes the batch.
+  assert.deepEqual(batchByCost([1, 1, 1, 1, 1], 2, 100, cost), [[1, 1], [1, 1], [1]]);
+  // The budget closes it earlier than the count would.
+  assert.deepEqual(batchByCost([4, 4, 4], 10, 8, cost), [[4, 4], [4]]);
+  // An item heavier than the whole budget travels alone rather than vanishing.
+  assert.deepEqual(batchByCost([50, 1], 10, 10, cost), [[50], [1]]);
+  assert.deepEqual(batchByCost([], 10, 10, cost), []);
+});
+
+test("buildBatchMessage numbers its units and keeps their blocks intact", () => {
+  const ctx = (en: string, ru: string): Parameters<typeof buildUserMessage>[0] => ({
+    file: "f.txt",
+    key: en,
+    en,
+    cn: `原文:${en}`,
+    ru,
+  });
+  const msg = buildBatchMessage([ctx("Adventure", "Приключение"), ctx("Sect", "Секта")], new Map());
+
+  assert.match(msg, /^UNIT 1\n/);
+  assert.match(msg, /\nUNIT 2\n/);
+  assert.deepEqual(unitBlocks(msg).length, 2);
+  assert.match(unitBlocks(msg)[1] ?? "", /ENGLISH:\nSect/);
+});
+
+test("a batch carries several contexts in one request and scatters the answer back", async () => {
+  const tm = tmOf({
+    a: liveUnit("Adventure", "Приключение"),
+    b: liveUnit("Sect", "Секта"),
+    c: liveUnit("Blade", "Клинок"),
+  });
+  const client = clientOf((unit) => (unit.includes("Blade") ? fixWith("Меч") : KEEP));
+
+  const stats = await judgeTm(tm, client, emptyGlossary, { now: "T", batch: 10 });
+
+  assert.equal(client.calls.length, 1); // three contexts, one round trip
+  assert.equal(stats.requests, 1);
+  assert.equal(stats.judged, 3);
+  assert.equal(stats.ok, 2);
+  assert.equal(stats.fixed, 1);
+  // The rewrite landed on ITS unit, and only that one.
+  assert.equal(tm.units.c?.ru, "Меч");
+  assert.equal(tm.units.c?.status, "judged");
+  assert.equal(tm.units.a?.ru, "Приключение");
+  assert.equal(tm.units.b?.ru, "Секта");
+  for (const key of ["a", "b", "c"] as const) assert.ok(tm.units[key]?.judgeHash);
+});
+
+test("the character budget closes a batch early", async () => {
+  const tm = tmOf({
+    a: liveUnit("x".repeat(300), "и".repeat(300)),
+    b: liveUnit("y".repeat(300), "и".repeat(300)),
+    c: liveUnit("z".repeat(300), "и".repeat(300)),
+  });
+  const client = clientOf(() => KEEP);
+
+  // Each context costs en + cn + ru; two of them already overrun 1500.
+  const stats = await judgeTm(tm, client, emptyGlossary, { batch: 40, batchChars: 1500 });
+
+  assert.equal(stats.requests, 3);
+  assert.equal(stats.judged, 3);
+});
+
+test("a unit missing from the batch answer stays retryable while its neighbours apply", async () => {
+  const memo = new Map<string, JudgeOutcome>();
+  const tm = tmOf({
+    a: liveUnit("Adventure", "Приключение"),
+    b: liveUnit("Sect", "Секта"),
+    c: liveUnit("Blade", "Клинок"),
+  });
+  // The model answers about units 1 and 3 and silently forgets unit 2.
+  const client = rawClientOf(() =>
+    JSON.stringify({
+      units: [
+        { id: 1, errors: [], ru: "" },
+        { id: 3, errors: [], ru: "" },
+      ],
+    }),
+  );
+
+  const stats = await judgeTm(tm, client, emptyGlossary, { memo, batch: 10 });
+
+  assert.equal(client.calls.length, 1); // no split: the answer itself was readable
+  assert.equal(stats.judged, 2);
+  assert.equal(stats.errors, 1);
+  assert.ok(tm.units.a?.judgeHash);
+  assert.ok(tm.units.c?.judgeHash);
+  assert.equal(tm.units.b?.judgeHash, undefined); // unanswered → next run retries it
+  assert.equal(memo.size, 2);
+  assert.match(stats.problems[0]?.error ?? "", /missing from the batch answer/);
+});
+
+test("an unreadable batch answer is split and retried, salvaging the rest", async () => {
+  const tm = tmOf({
+    a: liveUnit("Adventure", "Приключение"),
+    b: liveUnit("Sect", "Секта"),
+    c: liveUnit("Blade", "Клинок"),
+    d: liveUnit("Mirror", "Зеркало"),
+  });
+  // One poisonous context: any request carrying it comes back as prose.
+  const client = rawClientOf((user) =>
+    user.includes("Adventure")
+      ? "I could not follow the format, sorry."
+      : JSON.stringify({
+          units: unitBlocks(user).map((_block, i) => ({ id: i + 1, errors: [], ru: "" })),
+        }),
+  );
+
+  const stats = await judgeTm(tm, client, emptyGlossary, { concurrency: 1, batch: 4 });
+
+  // [a b c d] → [a b] + [c d]; [a b] → [a] + [b]. Five requests, one dead unit.
+  assert.equal(stats.requests, 5);
+  assert.equal(stats.judged, 3);
+  assert.equal(stats.errors, 1);
+  assert.equal(tm.units.a?.judgeHash, undefined);
+  for (const key of ["b", "c", "d"] as const) assert.ok(tm.units[key]?.judgeHash);
+});
+
+test("a QA-rejected rewrite inside a batch costs only its own unit", async () => {
+  const memo = new Map<string, JudgeOutcome>();
+  const tm = tmOf({
+    a: liveUnit("Adventure", "Приключение"),
+    b: liveUnit("Sect", "Секта"),
+  });
+  // The "fix" for the first unit leaves Latin in the Russian; the second is fine.
+  const client = clientOf((unit) =>
+    unit.includes("Adventure") ? fixWith("Adventure тур") : fixWith("Школа"),
+  );
+
+  const stats = await judgeTm(tm, client, emptyGlossary, { memo, batch: 10 });
+
+  assert.equal(stats.requests, 1);
+  assert.equal(stats.rejected, 1);
+  assert.equal(stats.fixed, 1);
+  assert.equal(tm.units.a?.ru, "Приключение"); // untouched and unmarked
+  assert.equal(tm.units.a?.judgeHash, undefined);
+  assert.equal(tm.units.b?.ru, "Школа");
+  assert.equal(memo.size, 1);
+});
+
+test("a memo hit is settled before packing, so it never takes up a batch slot", async () => {
+  const settled = liveUnit("Adventure", "Приключение");
+  const memo = new Map<string, JudgeOutcome>([
+    [verdictKey(realHash("Adventure"), settled), { kind: "fix", ru: "Странствие" }],
+  ]);
+  const tm = tmOf({ a: settled, b: liveUnit("Sect", "Секта") });
+  const client = clientOf(() => KEEP);
+
+  const stats = await judgeTm(tm, client, emptyGlossary, { memo, batch: 10 });
+
+  assert.equal(stats.requests, 1);
+  assert.equal(stats.reused, 1);
+  // Only the unsettled context was sent.
+  assert.equal(unitBlocks(client.calls[0] ?? "").length, 1);
+  assert.match(client.calls[0] ?? "", /ENGLISH:\nSect/);
+  assert.equal(tm.units.a?.ru, "Странствие");
+});
+
+test("a batched turn does not close the session window on characters alone", async () => {
+  // A batch is a whole turn, so a history cap sized for single units would end
+  // every conversation after two turns and make --session-turns a no-op.
+  const long = "x".repeat(4000);
+  const tm = tmOf({
+    a: liveUnit(`${long}1`, "и".repeat(400)),
+    b: liveUnit(`${long}2`, "и".repeat(400)),
+    c: liveUnit(`${long}3`, "и".repeat(400)),
+  });
+  const client = sessionClientOf(() => oneUnit(KEEP));
+
+  await judgeTm(tm, client, emptyGlossary, {
+    concurrency: 1,
+    sessionTurns: 3,
+    batch: 1,
+    batchChars: 12_000,
+  });
+
+  // Three turns of one conversation: 2, 4, 6 messages.
+  assert.deepEqual(
+    client.calls.map((m) => m.length),
+    [2, 4, 6],
+  );
 });
 
 test("the CN block says so when the string has no Chinese original", () => {
