@@ -150,11 +150,12 @@
     "Adv.10026 CustomTexts.11 Text": {
       "en": "The Qi Vein must be adjusted to break the omen...",
       "cn": "欲要破煞，需调和气脉……",
-      "ru": "Вена Ци должна быть настроена таким образом, чтобы разрушить предзнаменование...",
-      "status": "machine",
+      "ru": "Чтобы разрушить зловредное влияние, нужно гармонизировать ци……",
+      "status": "judged",
       "srcHash": "a16957a5ad7ef793",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:04:50.897Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "561f9ee6d5de9cae"
     },
     "Adv.10026 CustomTexts.2 Text": {
       "en": "It's getting foggy. Perhaps the source is nearby...",
@@ -317,11 +318,12 @@
     "Adv.10026 Parameters.2 Desc": {
       "en": "Seeing Ghosts: An extra scene plays out if Taiwu's first encounter with a monster ends without interaction with the Qi Vein.",
       "cn": "见鬼：太吾如果第一次遭遇怪结束且气脉未交互，则有一段额外剧情",
-      "ru": "Видение призраков: Разыгрывается дополнительная сцена, если первая встреча Тайву с монстром заканчивается без взаимодействия с веной Ци.",
-      "status": "machine",
+      "ru": "Видение призраков: Разыгрывается дополнительная сцена, если первая встреча Тайву с монстром заканчивается без взаимодействия с ци.",
+      "status": "judged",
       "srcHash": "b926585f7d84edde",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:47:31.820Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "46f3bccb1eeb7784"
     },
     "Adv.10026 Parameters.2 Name": {
       "en": "",
@@ -392,11 +394,12 @@
     "Adv.10026 Parameters.6 Desc": {
       "en": "Complete Qi Vein: After Taiwu completes the Qi Vein correctly, it is sett to 1, and battles after that do not place a buff on the enemy. A failed attempt sets it to -1.",
       "cn": "完成气脉：太吾正确完成气脉后，该值设为1，后续战斗时不为敌人附加BUFF。完成失败则变为-1。",
-      "ru": "Заполните жилу Ци: После того, как Тайву правильно завершит заполнение жилы Ци, она устанавливается равной 1, и сражения после этого не накладывают бафф на врага. Неудачная попытка устанавливает его равным -1.",
-      "status": "machine",
+      "ru": "Завершение ци: После того как Тайву правильно завершит настройку ци, это значение устанавливается равным 1, и последующие сражения не накладывают на врага бафф. При неудаче значение становится равным -1.",
+      "status": "judged",
       "srcHash": "a34365584295c8c9",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:47:31.820Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "ce327af5f55aa5ea"
     },
     "Adv.10026 Parameters.6 Name": {
       "en": "",
@@ -1004,11 +1007,12 @@
     "Adv.1016260222 CustomTexts.10 Text": {
       "en": "\"Would you like some grooming?\"",
       "cn": "\"贵客可要梳头修面，整理仪容？\"",
-      "ru": "\"Не хочешь немного причесаться?\"",
-      "status": "machine",
+      "ru": "\"Не желаете ли привести себя в порядок?\"",
+      "status": "judged",
       "srcHash": "9f518da2891129c7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "d0acb9438a38b3fc"
     },
     "Adv.1016260222 CustomTexts.11 Text": {
       "en": "\"If someone catches your eye, you can ask me to buy her freedom...\"",
@@ -1267,7 +1271,8 @@
       "status": "machine",
       "srcHash": "05f1e516c0c134a4",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "7f3343d419f211df"
     },
     "Adv.1016260222 CustomTexts.35 Text": {
       "en": "\"Would you like to host a banquet here to spend time with the paragons?\"",
@@ -1282,11 +1287,12 @@
     "Adv.1016260222 CustomTexts.36 Text": {
       "en": "\"This is where you redeem freedom for someone...\"",
       "cn": "\"可来此处赎身……\"",
-      "ru": "\"Вот где ты выкупаешь свободу для кого-то...\"",
-      "status": "machine",
+      "ru": "\"Здесь можно выкупиться из зависимости……\"",
+      "status": "judged",
       "srcHash": "2dfe7d2b183d527c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "68de604030c535ec"
     },
     "Adv.1016260222 CustomTexts.37 Text": {
       "en": "\"This is a place for Weiqi...\"",
@@ -1361,11 +1367,12 @@
     "Adv.1016260222 CustomTexts.7 Text": {
       "en": "\"Would you like to have a match?\"",
       "cn": "\"贵客可要与我手谈一局？\"",
-      "ru": "\"Не хотите ли чиркнуть спичкой?\"",
-      "status": "machine",
+      "ru": "\"Не желаете ли сыграть со мной партию?\"",
+      "status": "judged",
       "srcHash": "512efb589fcb497a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "dd089ce5ee0a56b4"
     },
     "Adv.1016260222 CustomTexts.8 Text": {
       "en": "\"Would you like to read poems with me?\"",
@@ -2641,7 +2648,8 @@
       "status": "machine",
       "srcHash": "98ca7279ce51160a",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "c1d157965f0915d7"
     },
     "Adv.105359907 DescTarget": {
       "en": "Deliver the designated dishes to each table...",
@@ -4934,7 +4942,8 @@
       "status": "machine",
       "srcHash": "d7cfd6c7557e0386",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "0129266025302dd4"
     },
     "Adv.114668976 CustomTexts.12 Text": {
       "en": "\"I should get into the Arena and find someone to spar with...\"",
@@ -5079,11 +5088,12 @@
     "Adv.114668976 CustomTexts.25 Text": {
       "en": "\"Bets are final! No take-backs!\"",
       "cn": "\"买定离手，落注无悔！\"",
-      "ru": "\"Ставки окончательны! Никаких отступлений!\"",
-      "status": "machine",
+      "ru": "\"Ставки окончательны! Забрать их нельзя!\"",
+      "status": "judged",
       "srcHash": "84fc35c830efafaa",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "6ee2f07c2e63d8a1"
     },
     "Adv.114668976 CustomTexts.26 Text": {
       "en": "\"There seems to be a sect leader summoning me up ahead...\"",
@@ -7815,11 +7825,12 @@
     "Adv.122010010 Parameters.15 Name": {
       "en": "Number of Fragmented Texts Obtained by NPC 1",
       "cn": "npc1拿到残页数量",
-      "ru": "Количество фрагментированных текстов, полученных NPC 1",
-      "status": "machine",
+      "ru": "Количество полученных НИП 1 фрагментов текстов",
+      "status": "judged",
       "srcHash": "ecdef86c11833c5b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "49c336ab42b056f3"
     },
     "Adv.122010010 Parameters.16 Desc": {
       "en": "",
@@ -7833,11 +7844,12 @@
     "Adv.122010010 Parameters.16 Name": {
       "en": "Number of Fragmented Texts Obtained by NPC",
       "cn": "npc拿到残页数量",
-      "ru": "Количество фрагментированных текстов, полученных NPC",
-      "status": "machine",
+      "ru": "Количество полученных НИП фрагментов текстов",
+      "status": "judged",
       "srcHash": "5d15542a280db7c8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "54d38a0626d82a8e"
     },
     "Adv.122010010 Parameters.17 Desc": {
       "en": "Taiwu Has Obtained the Secret Tome",
@@ -10749,7 +10761,8 @@
       "status": "machine",
       "srcHash": "e14cfd312646002d",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:04:50.897Z"
+      "updatedAt": "2026-07-10T22:04:50.897Z",
+      "judgeHash": "b7e110e195934b53"
     },
     "Adv.136028250 Parameters.4 Name": {
       "en": "Current Luban Rulers",
@@ -22786,11 +22799,12 @@
     "Adv.183412332 Parameters.3 Name": {
       "en": "Wheat (Unstored)",
       "cn": "麦子（未入仓）",
-      "ru": "Пшеница (неочищенная)",
-      "status": "machine",
+      "ru": "Пшеница (не сложенная на склад)",
+      "status": "judged",
       "srcHash": "1775e1fb17b8721a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "ba173d2bac36ab09"
     },
     "Adv.183412332 Parameters.4 Desc": {
       "en": "",
@@ -29795,11 +29809,12 @@
     "Adv.199144444 Name": {
       "en": "Sect Tournament (Sanguine)",
       "cn": "门派较武-血犼",
-      "ru": "Турнир секты (Сангвиник)",
-      "status": "machine",
+      "ru": "Турнир секты (мужской)",
+      "status": "judged",
       "srcHash": "b74c70c04ca7752b",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "07643a8e884e89e7"
     },
     "Adv.199144444 Parameters.0 Desc": {
       "en": "",
@@ -34542,11 +34557,12 @@
     "Adv.207273516 Name": {
       "en": "Lesser Heat - Drying Books",
       "cn": "小暑·晒书祛蠹",
-      "ru": "Книги меньшей термической сушки",
-      "status": "machine",
+      "ru": "Малая жара — сушка книг",
+      "status": "judged",
       "srcHash": "cfce531845ab1494",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "ee846030e5d98781"
     },
     "Adv.207273516 Parameters.0 Desc": {
       "en": "",
@@ -35065,7 +35081,8 @@
       "status": "machine",
       "srcHash": "eaff485142f173c1",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "1d0a7fc793697b9e"
     },
     "Adv.208306838 CustomTexts.7 Text": {
       "en": "Honored Guest, I have come for you, and offer you my most sincere service!",
@@ -38723,11 +38740,12 @@
     "Adv.219146022 Desc": {
       "en": "The caravan is laden with medicinal herbs, their fragrance filling the air. As a sudden epidemic has broken out nearby, the doctors have set up a shade canopy on the spot to offer Charitable healing to the villagers, while also laying out prepared medicines for people to take. An endless stream of people comes and goes...",
       "cn": "车队满载药草，药香扑鼻。因附近突发时疫，药师们就地支起凉棚，为乡民义诊，同时也将部分成药摆出供人取用，人群络绎不绝……",
-      "ru": "В караван, несут в себе лекарственные травы, их аромат наполняет воздух. А вдруг эпидемия разразилась неподалеку, врачи создали навесом на месте, чтобы предложить благотворительные исцеление сельчан, а также выкладывая приготовленные лекарства для людей, чтобы взять. Идет бесконечный поток людей и уходит...",
-      "status": "machine",
+      "ru": "Караван везёт лекарственные травы, и их аромат наполняет воздух. Из-за внезапной эпидемии поблизости лекари прямо здесь поставили навес, чтобы бесплатно лечить жителей деревни, а также выложили готовые лекарства для всех желающих. Люди идут нескончаемым потоком……",
+      "status": "judged",
       "srcHash": "b60088f4331b6f8a",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "c1259d50c754f502"
     },
     "Adv.219146022 DescReward": {
       "en": "Purchase goods to receive discounts...",
@@ -41983,11 +42001,12 @@
     "Adv.223138325 CustomTexts.0 Text": {
       "en": "\"Start adding the curdle here!\"",
       "cn": "“从这里开始点卤！”",
-      "ru": "\"Начинай добавлять творог сюда!\"",
-      "status": "machine",
+      "ru": "\"Начинай добавлять закваску сюда!\"",
+      "status": "judged",
       "srcHash": "41062e994b0a4dcd",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "a5d91aea3d8a6acf"
     },
     "Adv.223138325 CustomTexts.1 Text": {
       "en": "Finish adding the curdle here!",
@@ -42016,7 +42035,8 @@
       "status": "machine",
       "srcHash": "d7b9723ffed6d766",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "4735d8a73ccc8677"
     },
     "Adv.223138325 DescTarget": {
       "en": "Clear the curdle minigame 5 times.",
@@ -43305,11 +43325,12 @@
     "Adv.230120484 Name": {
       "en": "Betrothal Contest (M)",
       "cn": "比武招亲-男",
-      "ru": "Конкурс на обручение (M)",
-      "status": "machine",
+      "ru": "Состязание за невесту (мужской)",
+      "status": "judged",
       "srcHash": "7fedd8a3340aee74",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "443c0e1aa3035db8"
     },
     "Adv.230120484 Parameters.0 Desc": {
       "en": "",
@@ -46678,7 +46699,8 @@
       "status": "machine",
       "srcHash": "2d270273abd125bc",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-07-11T13:40:34.924Z",
+      "judgeHash": "d8ce2d3173e5231a"
     },
     "Adv.237338870 Desc": {
       "en": "You mingle with scholars and befriend others over tea and liquor. At the table, cups are raised and passed around, and lively conversation fills the air. Seize this chance to grow closer to the guests, and perhaps find a few lost martial arts books, as well as some rare teas and liquors.",
@@ -50538,11 +50560,12 @@
     "Adv.245186940 CustomTexts.4 Text": {
       "en": "\"Attend the Manor Tea Gathering, with a total of 30 Energy. When Energy is exhausted, the feast concludes and you depart...\"",
       "cn": "“赴庄园茶会，共有三十精力，精力耗尽，宴散离席…”",
-      "ru": "\"Принять участие во встрече Усадьба чая, в общей сложности 30 энергия. Когда энергия будет исчерпана, праздник завершается, и вы отойти...\"",
-      "status": "machine",
+      "ru": "\"Посетите чайное собрание в поместье, имея всего 30 единиц энергии. Когда энергия иссякнет, пир завершится, и вы уйдёте……\"",
+      "status": "judged",
       "srcHash": "0b39f43b056e33ea",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "35954b54441b493e"
     },
     "Adv.245186940 Desc": {
       "en": "You mingle with scholars and befriend others over tea and liquor. At the table, cups are raised and passed around, and lively conversation fills the air. Seize this chance to grow closer to the guests, and perhaps find a few lost martial arts books, as well as some rare teas and liquors.",
@@ -51936,7 +51959,8 @@
       "status": "machine",
       "srcHash": "3816085a0d738afe",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "b8d7dcdc60c81d42"
     },
     "Adv.250510544 CustomTexts.2 Text": {
       "en": "\"The Gong tone is hefty, like the earth bearing things, Qi mechanism returns to calm.\"",
@@ -51954,7 +51978,8 @@
       "status": "machine",
       "srcHash": "f133371414696c57",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "8b3035cd68124c45"
     },
     "Adv.250510544 CustomTexts.4 Text": {
       "en": "\"The Yu tone is deep and mysterious, like a trickling stream returning to the sea, Qi mechanism circulates endlessly.\"",
@@ -51963,7 +51988,8 @@
       "status": "machine",
       "srcHash": "4c29d0f9874890b3",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-07-11T13:40:34.924Z",
+      "judgeHash": "db53e60ff900f40c"
     },
     "Adv.250510544 CustomTexts.5 Text": {
       "en": "\"The secret tome, Celestial Melodist, is sealed here.\"",
@@ -55880,11 +55906,12 @@
     "Adv.26 CustomTexts.11 Text": {
       "en": "The Qi Vein must be adjusted to break the omen...",
       "cn": "欲要破煞，需调和气脉……",
-      "ru": "Вена Ци должна быть настроена таким образом, чтобы разрушить предзнаменование...",
-      "status": "machine",
+      "ru": "Чтобы разрушить зловредное влияние, нужно гармонизировать ци……",
+      "status": "judged",
       "srcHash": "a16957a5ad7ef793",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "561f9ee6d5de9cae"
     },
     "Adv.26 CustomTexts.2 Text": {
       "en": "It's getting foggy. Perhaps the source is nearby...",
@@ -56066,11 +56093,12 @@
     "Adv.26 Parameters.2 Desc": {
       "en": "Seeing Ghosts: An extra scene plays out if Taiwu's first encounter with a monster ends without interaction with the Qi Vein.",
       "cn": "见鬼：太吾如果第一次遭遇怪结束且气脉未交互，则有一段额外剧情",
-      "ru": "Видение призраков: Разыгрывается дополнительная сцена, если первая встреча Тайву с монстром заканчивается без взаимодействия с веной Ци.",
-      "status": "machine",
+      "ru": "Видение призраков: Разыгрывается дополнительная сцена, если первая встреча Тайву с монстром заканчивается без взаимодействия с ци.",
+      "status": "judged",
       "srcHash": "b926585f7d84edde",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "46f3bccb1eeb7784"
     },
     "Adv.26 Parameters.2 Name": {
       "en": "",
@@ -56141,11 +56169,12 @@
     "Adv.26 Parameters.6 Desc": {
       "en": "Complete Qi Vein: After Taiwu completes the Qi Vein correctly, it is sett to 1, and battles after that do not place a buff on the enemy. A failed attempt sets it to -1.",
       "cn": "完成气脉：太吾正确完成气脉后，该值设为1，后续战斗时不为敌人附加BUFF。完成失败则变为-1。",
-      "ru": "Заполните жилу Ци: После того, как Тайву правильно завершит заполнение жилы Ци, она устанавливается равной 1, и сражения после этого не накладывают бафф на врага. Неудачная попытка устанавливает его равным -1.",
-      "status": "machine",
+      "ru": "Завершение ци: После того как Тайву правильно завершит настройку ци, это значение устанавливается равным 1, и последующие сражения не накладывают на врага бафф. При неудаче значение становится равным -1.",
+      "status": "judged",
       "srcHash": "a34365584295c8c9",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "ce327af5f55aa5ea"
     },
     "Adv.26 Parameters.6 Name": {
       "en": "",
@@ -56807,7 +56836,8 @@
       "status": "machine",
       "srcHash": "f3fd7e9703838e23",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b2876c0ffb2284a4"
     },
     "Adv.261009073 DescReward": {
       "en": "Concoctions and other resources...",
@@ -57225,7 +57255,8 @@
       "status": "machine",
       "srcHash": "c21b0dd7454a0594",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-07-11T13:40:34.924Z",
+      "judgeHash": "12b1b424fccc118d"
     },
     "Adv.262953388 DescReward": {
       "en": "Concoctions and other resources...",
@@ -69026,11 +69057,12 @@
     "Adv.38844009 Parameters.7 Desc": {
       "en": "Total Favor Obtained",
       "cn": "累计获得的恩义",
-      "ru": "Общая полученная польза",
-      "status": "machine",
+      "ru": "Всего получено благосклонности",
+      "status": "judged",
       "srcHash": "c8628e5a792def33",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "aa3eefd991131c7c"
     },
     "Adv.38844009 Parameters.7 Name": {
       "en": "Favor Obtained",
@@ -76232,29 +76264,32 @@
     "Adv.719558403 CustomTexts.10 Text": {
       "en": "\"So this is the critical junction of the Water Qi in this area...\"",
       "cn": "“这便是此地的玄阴之气要冲么……”",
-      "ru": "\"Итак, это критическое место соединения водной Ци в этой области...\"",
-      "status": "machine",
+      "ru": "\"Так это узловое место таинственной иньской ци в этой области……\"",
+      "status": "judged",
       "srcHash": "d6e8b9d0b73e4f79",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "ad2b4b7110895f60"
     },
     "Adv.719558403 CustomTexts.11 Text": {
       "en": "\"So this is the critical junction of the Fire Qi in this area...\"",
       "cn": "“这便是此地的纯阳之气要冲么……”",
-      "ru": "\"Итак, это критическое соединение Огненной Ци в этой области...\"",
-      "status": "machine",
+      "ru": "\"Так это узловое место чистой янской ци в этой области……\"",
+      "status": "judged",
       "srcHash": "2af30a1704734943",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "9cf4711213eca056"
     },
     "Adv.719558403 CustomTexts.12 Text": {
       "en": "\"So this is the critical junction of the Earth Qi in this area...\"",
       "cn": "“这便是此地的归元之气要冲么……”",
-      "ru": "\"Итак, это критическое соединение Земной Ци в этой области...\"",
-      "status": "machine",
+      "ru": "\"Так это узловое место ци возвращения к истоку в этой области……\"",
+      "status": "judged",
       "srcHash": "b0e371ed82b5dc93",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "19235dca22d28912"
     },
     "Adv.719558403 CustomTexts.13 Text": {
       "en": "\"Perhaps the strange stones here can be used to cure injuries and diseases...\"",
@@ -76279,11 +76314,12 @@
     "Adv.719558403 CustomTexts.15 Text": {
       "en": "\"The balance of the Five Elements' Demonic Qi has not been broken. Perhaps the Wicked Associate still has a Hunyuan body...\"",
       "cn": "“五行魔气平衡未破，想来邪道共主此时仍是混元之体……”",
-      "ru": "\"Баланс Демонической ци Пяти Стихий не был нарушен. Возможно, у Злого Сообщника все еще есть тело Хуньюаня...\"",
-      "status": "machine",
+      "ru": "\"Баланс демонической ци Пяти стихий ещё не нарушен. Похоже, владыка еретического пути всё ещё обладает телом Хуньюань……\"",
+      "status": "judged",
       "srcHash": "d4516d1f8e78125c",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "1c3610f95bbb1413"
     },
     "Adv.719558403 CustomTexts.16 Text": {
       "en": "\"The Wicked Associate must have been affected by the demonic qi and become aligned with Metal...\"",
@@ -99994,11 +100030,12 @@
     "AdvElement.1372287159 Parameters.0 Desc": {
       "en": "NPC alert status in a large tile",
       "cn": "大地格中的NPC警惕情况",
-      "ru": "Состояние оповещения NPC на большой плитке",
-      "status": "machine",
+      "ru": "Состояние настороженности НПС на большой клетке",
+      "status": "judged",
       "srcHash": "c0abe39627ebe7ee",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "da75a74777585795"
     },
     "AdvElement.1372287159 Parameters.0 Name": {
       "en": "Tile Alert",
@@ -100052,11 +100089,12 @@
     "AdvElement.1372480259 Parameters.0 Desc": {
       "en": "NPC alert status in a large tile",
       "cn": "大地格中的NPC警惕情况",
-      "ru": "Состояние оповещения NPC на большой плитке",
-      "status": "machine",
+      "ru": "Состояние настороженности НПС на большой клетке",
+      "status": "judged",
       "srcHash": "c0abe39627ebe7ee",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "da75a74777585795"
     },
     "AdvElement.1372480259 Parameters.0 Name": {
       "en": "Tile Alert",
@@ -100110,11 +100148,12 @@
     "AdvElement.1372918989 Parameters.0 Desc": {
       "en": "NPC alert status in a large tile",
       "cn": "大地格中的NPC警惕情况",
-      "ru": "Состояние оповещения NPC на большой плитке",
-      "status": "machine",
+      "ru": "Состояние настороженности НПС на большой клетке",
+      "status": "judged",
       "srcHash": "c0abe39627ebe7ee",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "da75a74777585795"
     },
     "AdvElement.1372918989 Parameters.0 Name": {
       "en": "Tile Alert",
@@ -100168,11 +100207,12 @@
     "AdvElement.1373094410 Parameters.0 Desc": {
       "en": "NPC alert status in a large tile",
       "cn": "大地格中的NPC警惕情况",
-      "ru": "Состояние оповещения NPC на большой плитке",
-      "status": "machine",
+      "ru": "Состояние настороженности НПС на большой клетке",
+      "status": "judged",
       "srcHash": "c0abe39627ebe7ee",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "da75a74777585795"
     },
     "AdvElement.1373094410 Parameters.0 Name": {
       "en": "Tile Alert",
@@ -100226,11 +100266,12 @@
     "AdvElement.1373287524 Parameters.0 Desc": {
       "en": "NPC alert status in a large tile",
       "cn": "大地格中的NPC警惕情况",
-      "ru": "Состояние оповещения NPC на большой плитке",
-      "status": "machine",
+      "ru": "Состояние настороженности НПС на большой клетке",
+      "status": "judged",
       "srcHash": "c0abe39627ebe7ee",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "da75a74777585795"
     },
     "AdvElement.1373287524 Parameters.0 Name": {
       "en": "Tile Alert",
@@ -100322,11 +100363,12 @@
     "AdvElement.1373550731 Parameters.0 Desc": {
       "en": "NPC alert status in a large tile",
       "cn": "大地格中的NPC警惕情况",
-      "ru": "Состояние оповещения NPC на большой плитке",
-      "status": "machine",
+      "ru": "Состояние настороженности НПС на большой клетке",
+      "status": "judged",
       "srcHash": "c0abe39627ebe7ee",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "da75a74777585795"
     },
     "AdvElement.1373550731 Parameters.0 Name": {
       "en": "Tile Alert",
@@ -100456,11 +100498,12 @@
     "AdvElement.1373726249 Parameters.0 Desc": {
       "en": "NPC alert status in a large tile",
       "cn": "大地格中的NPC警惕情况",
-      "ru": "Состояние оповещения NPC на большой плитке",
-      "status": "machine",
+      "ru": "Состояние настороженности НПС на большой клетке",
+      "status": "judged",
       "srcHash": "c0abe39627ebe7ee",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "da75a74777585795"
     },
     "AdvElement.1373726249 Parameters.0 Name": {
       "en": "Tile Alert",
@@ -100514,11 +100557,12 @@
     "AdvElement.1373884262 Parameters.0 Desc": {
       "en": "NPC alert status in a large tile",
       "cn": "大地格中的NPC警惕情况",
-      "ru": "Состояние оповещения NPC на большой плитке",
-      "status": "machine",
+      "ru": "Состояние настороженности НПС на большой клетке",
+      "status": "judged",
       "srcHash": "c0abe39627ebe7ee",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "da75a74777585795"
     },
     "AdvElement.1373884262 Parameters.0 Name": {
       "en": "Tile Alert",
@@ -100572,11 +100616,12 @@
     "AdvElement.1374042118 Parameters.0 Desc": {
       "en": "NPC alert status in a large tile",
       "cn": "大地格中的NPC警惕情况",
-      "ru": "Состояние оповещения NPC на большой плитке",
-      "status": "machine",
+      "ru": "Состояние настороженности НПС на большой клетке",
+      "status": "judged",
       "srcHash": "c0abe39627ebe7ee",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "da75a74777585795"
     },
     "AdvElement.1374042118 Parameters.0 Name": {
       "en": "Tile Alert",
@@ -132730,7 +132775,8 @@
       "status": "machine",
       "srcHash": "918efd5e89b82f40",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "1cfa4adc8caeac11"
     },
     "AdvElement.199616527 Name": {
       "en": "Blossom Sea",
@@ -136584,11 +136630,12 @@
     "AdvElement.20552874 Parameters.1 Desc": {
       "en": "Guard Alert Radius",
       "cn": "守卫的警戒范围",
-      "ru": "Радиус действия охранной сигнализации",
-      "status": "machine",
+      "ru": "Радиус настороженности стражи",
+      "status": "judged",
       "srcHash": "ceb4faf949bd0a57",
       "engine": "yandex",
-      "updatedAt": "2026-07-25T08:27:11.933Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "d6c79e137ad717af"
     },
     "AdvElement.20552874 Parameters.1 Name": {
       "en": "Alert Range",
@@ -146315,7 +146362,8 @@
       "status": "machine",
       "srcHash": "3dceb4c9ddc74bac",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-07-10T20:59:06.747Z",
+      "judgeHash": "cac74554e2286984"
     },
     "AdvElement.212853210 Parameters.0 Desc": {
       "en": "Special interaction already performed with this character...",
@@ -161531,11 +161579,12 @@
     "AdvElement.237616066 Parameters.1 Desc": {
       "en": "NPC has a state?",
       "cn": "Npc当前是否有状态",
-      "ru": "У NPC есть государство?",
-      "status": "machine",
+      "ru": "У НПС есть состояние?",
+      "status": "judged",
       "srcHash": "95ad8ef43c32e518",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "708edabcaec20a6b"
     },
     "AdvElement.237616066 Parameters.1 Name": {
       "en": "HasStatus",
@@ -183225,7 +183274,8 @@
       "status": "machine",
       "srcHash": "918efd5e89b82f40",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "1cfa4adc8caeac11"
     },
     "AdvElement.267767606 Name": {
       "en": "Flower Patch",
@@ -198941,11 +198991,12 @@
     "AdvElement.308003813 Parameters.1 Desc": {
       "en": "NPC has a state?",
       "cn": "Npc当前是否有状态",
-      "ru": "У NPC есть государство?",
-      "status": "machine",
+      "ru": "У НПС есть состояние?",
+      "status": "judged",
       "srcHash": "95ad8ef43c32e518",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "708edabcaec20a6b"
     },
     "AdvElement.308003813 Parameters.1 Name": {
       "en": "HasStatus",
@@ -202035,7 +202086,8 @@
       "status": "machine",
       "srcHash": "918efd5e89b82f40",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "1cfa4adc8caeac11"
     },
     "AdvElement.311522481 Name": {
       "en": "Flower Patch",
@@ -202487,7 +202539,8 @@
       "status": "machine",
       "srcHash": "918efd5e89b82f40",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "1cfa4adc8caeac11"
     },
     "AdvElement.311720805 Name": {
       "en": "Flower Patch",
@@ -207889,11 +207942,12 @@
     "AdvElement.340676022 Name": {
       "en": "Trial Ground Camera Anchor_Left",
       "cn": "试炼场镜头定位器_左",
-      "ru": "Привязка наземной камеры для испытаний слева",
-      "status": "machine",
+      "ru": "Левый якорь камеры полигона испытания",
+      "status": "judged",
       "srcHash": "fc923c380988e47e",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "4e6e28e561707e42"
     },
     "AdvElement.340780366 Desc": {
       "en": "Obstacle.",
@@ -207927,11 +207981,12 @@
     "AdvElement.340838405 Name": {
       "en": "Trial Ground Camera Anchor_Up",
       "cn": "试炼场镜头定位器_上",
-      "ru": "Установка наземной камеры для испытаний",
-      "status": "machine",
+      "ru": "Верхний якорь камеры полигона испытания",
+      "status": "judged",
       "srcHash": "bdc49dfdf718b632",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "2295ef62ea776b76"
     },
     "AdvElement.341045629 Desc": {
       "en": "",
@@ -207945,11 +208000,12 @@
     "AdvElement.341045629 Name": {
       "en": "Trial Ground Camera Anchor_Right",
       "cn": "试炼场镜头定位器_右",
-      "ru": "Испытание наземной камеры Anchor_Right",
-      "status": "machine",
+      "ru": "Правый якорь камеры полигона испытания",
+      "status": "judged",
       "srcHash": "97270a0169796e72",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "5b5a15afbb9c8857"
     },
     "AdvElement.341607391 Desc": {
       "en": "Obstacle.",
@@ -217427,11 +217483,12 @@
     "AdvElement.387360412 Parameters.1 Desc": {
       "en": "NPC has a state?",
       "cn": "Npc当前是否有状态",
-      "ru": "У NPC есть государство?",
-      "status": "machine",
+      "ru": "У НПС есть состояние?",
+      "status": "judged",
       "srcHash": "95ad8ef43c32e518",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "708edabcaec20a6b"
     },
     "AdvElement.387360412 Parameters.1 Name": {
       "en": "HasStatus",
@@ -220746,7 +220803,8 @@
       "status": "machine",
       "srcHash": "918efd5e89b82f40",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "1cfa4adc8caeac11"
     },
     "AdvElement.404275262 Name": {
       "en": "Blossom Sea",
@@ -220765,7 +220823,8 @@
       "status": "machine",
       "srcHash": "918efd5e89b82f40",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "1cfa4adc8caeac11"
     },
     "AdvElement.404358478 Name": {
       "en": "Blossom Sea",
@@ -226045,11 +226104,12 @@
     "AdvElement.438274480 Parameters.1 Desc": {
       "en": "NPC has a state?",
       "cn": "Npc当前是否有状态",
-      "ru": "У NPC есть государство?",
-      "status": "machine",
+      "ru": "У НПС есть состояние?",
+      "status": "judged",
       "srcHash": "95ad8ef43c32e518",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "708edabcaec20a6b"
     },
     "AdvElement.438274480 Parameters.1 Name": {
       "en": "HasStatus",
@@ -232685,11 +232745,12 @@
     "AdvElement.470820707 Parameters.1 Desc": {
       "en": "NPC has a state?",
       "cn": "Npc当前是否有状态",
-      "ru": "У NPC есть государство?",
-      "status": "machine",
+      "ru": "У НПС есть состояние?",
+      "status": "judged",
       "srcHash": "95ad8ef43c32e518",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "708edabcaec20a6b"
     },
     "AdvElement.470820707 Parameters.1 Name": {
       "en": "HasStatus",
@@ -246048,11 +246109,12 @@
     "AdvElement.581610495 Name": {
       "en": "Nameless Corpse",
       "cn": "无名曝尸",
-      "ru": "Безымянный труп",
-      "status": "machine",
+      "ru": "Безымянный выставленный труп",
+      "status": "judged",
       "srcHash": "b6b75966a302abce",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "db809c2dcb7ce44d"
     },
     "AdvElement.582053664 Desc": {
       "en": "An enchantress reciting poems within the Enthralling Trap...",
@@ -250620,11 +250682,12 @@
     "AdvElement.657879043 Parameters.1 Desc": {
       "en": "NPC has a state?",
       "cn": "Npc当前是否有状态",
-      "ru": "У NPC есть государство?",
-      "status": "machine",
+      "ru": "У НПС есть состояние?",
+      "status": "judged",
       "srcHash": "95ad8ef43c32e518",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "708edabcaec20a6b"
     },
     "AdvElement.657879043 Parameters.1 Name": {
       "en": "HasStatus",
@@ -251016,7 +251079,8 @@
       "status": "machine",
       "srcHash": "918efd5e89b82f40",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "1cfa4adc8caeac11"
     },
     "AdvElement.664034500 Name": {
       "en": "Blossom Sea",
@@ -251256,7 +251320,8 @@
       "status": "machine",
       "srcHash": "1251b15760514bb3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "c24525604aa7b3bf"
     },
     "AdvElement.66674325 Parameters.0 Desc": {
       "en": "",
@@ -251429,11 +251494,12 @@
     "AdvElement.67846940 Name": {
       "en": "Western Hall Unlit Lamp",
       "cn": "大殿西方的暗灯",
-      "ru": "Западный зал с незажженной лампой",
-      "status": "machine",
+      "ru": "Незажжённая лампа западного зала",
+      "status": "judged",
       "srcHash": "4db5222ae1a6b885",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "477c5e0fa64d568b"
     },
     "AdvElement.67884311 Desc": {
       "en": "A lamp that burns day and night. Its light will reveal Taiwu's movements.",
@@ -251491,7 +251557,8 @@
       "status": "machine",
       "srcHash": "328a902056bd31b3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "1a0553bc938a95d0"
     },
     "AdvElement.67905235 Parameters.0 Desc": {
       "en": "",
@@ -251584,11 +251651,12 @@
     "AdvElement.67977844 Name": {
       "en": "Eastern Hall Unlit Lamp",
       "cn": "大殿东方的暗灯",
-      "ru": "Восточный зал с незажженной лампой",
-      "status": "machine",
+      "ru": "Незажжённая лампа восточного зала",
+      "status": "judged",
       "srcHash": "7c5a22ecb1dd5caf",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "bfb38a7758499c98"
     },
     "AdvElement.67998791 Desc": {
       "en": "An extinguished oil lamp that can be relit to illuminate the surroundings.",
@@ -253673,11 +253741,12 @@
     "AdvElement.725887265 Name": {
       "en": "Wood Demonic Tower",
       "cn": "紫霞魔塔",
-      "ru": "Деревянная демоническая башня",
-      "status": "machine",
+      "ru": "Демоническая башня Пурпурной зари",
+      "status": "judged",
       "srcHash": "7e951820dedc5282",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "8d0c8353fb946f04"
     },
     "AdvElement.725887265 Parameters.0 Desc": {
       "en": "",
@@ -261887,11 +261956,12 @@
     "AdvElement.939849044 Parameters.0 Desc": {
       "en": "NPC alert status in a large tile",
       "cn": "大地格中的NPC警惕情况",
-      "ru": "Состояние оповещения NPC на большой плитке",
-      "status": "machine",
+      "ru": "Состояние настороженности НПС на большой клетке",
+      "status": "judged",
       "srcHash": "c0abe39627ebe7ee",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "da75a74777585795"
     },
     "AdvElement.939849044 Parameters.0 Name": {
       "en": "Tile Alert",
@@ -261945,11 +262015,12 @@
     "AdvElement.940521757 Parameters.0 Desc": {
       "en": "NPC alert status in a large tile",
       "cn": "大地格中的NPC警惕情况",
-      "ru": "Состояние оповещения NPC на большой плитке",
-      "status": "machine",
+      "ru": "Состояние настороженности НПС на большой клетке",
+      "status": "judged",
       "srcHash": "c0abe39627ebe7ee",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "da75a74777585795"
     },
     "AdvElement.940521757 Parameters.0 Name": {
       "en": "Tile Alert",
@@ -262281,11 +262352,12 @@
     "AdvElement.940935705 Parameters.0 Desc": {
       "en": "NPC alert status in a large tile",
       "cn": "大地格中的NPC警惕情况",
-      "ru": "Состояние оповещения NPC на большой плитке",
-      "status": "machine",
+      "ru": "Состояние настороженности НПС на большой клетке",
+      "status": "judged",
       "srcHash": "c0abe39627ebe7ee",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "da75a74777585795"
     },
     "AdvElement.940935705 Parameters.0 Name": {
       "en": "Tile Alert",
@@ -262359,11 +262431,12 @@
     "AdvElement.942091548 Parameters.0 Desc": {
       "en": "NPC alert status in a large tile",
       "cn": "大地格中的NPC警惕情况",
-      "ru": "Состояние оповещения NPC на большой плитке",
-      "status": "machine",
+      "ru": "Состояние настороженности НПС на большой клетке",
+      "status": "judged",
       "srcHash": "c0abe39627ebe7ee",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "da75a74777585795"
     },
     "AdvElement.942091548 Parameters.0 Name": {
       "en": "Tile Alert",
@@ -277522,11 +277595,12 @@
     "MajorEvent.489753267 Name": {
       "en": "Sword Mound \"Monu Weave\" (Deprecated)",
       "cn": "剑冢“莫女衣”废弃",
-      "ru": "Курган мечей \"Плетение Мону\" (устарел)",
-      "status": "machine",
+      "ru": "Курган мечей \"Мо Нюй И\" (устарел)",
+      "status": "judged",
       "srcHash": "966c5407005b7445",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "235f337aa168d84b"
     },
     "MajorEvent.489753267 Nodes.0 Desc": {
       "en": "",
@@ -279042,7 +279116,8 @@
       "status": "machine",
       "srcHash": "77049405953a9ea6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "9f11edd07d5e33ee"
     },
     "MajorEvent.633847190 Nodes.2 Desc": {
       "en": "",
@@ -279539,11 +279614,12 @@
     "MajorEvent.640268706 Desc": {
       "en": "White ash shrouds the azure etchings.\\nFrom the medicine cauldron, weeping ebbs and flows.\\nAmidst the crevices of dust, what secrets lie concealed...",
       "cn": "青纹之上，白灰裹覆，\\n药鼎之中，啼吟起落，\\n灰隙之间，有何隐秘潜藏……",
-      "ru": "Белый пепел окутывает Лазурного офорты.\\nИз казана медицина, плач приливы и отливы.\\nСреди щелях пыль, какие тайны скрыты...",
-      "status": "machine",
+      "ru": "Белый пепел окутывает лазурные узоры.\\nВ лекарственном котле то поднимается, то стихает плач.\\nСреди щелей в пыли какие тайны скрыты...",
+      "status": "judged",
       "srcHash": "1b73631a96675683",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "813b2827bbb6b97d"
     },
     "MajorEvent.640268706 Name": {
       "en": "Ashes in the Vessel",
@@ -280099,11 +280175,12 @@
     "MajorEvent.662834376 Nodes.3 Name": {
       "en": "The Great Drum",
       "cn": "齐大鼓",
-      "ru": "Большой барабан",
-      "status": "machine",
+      "ru": "Великий барабан Ци",
+      "status": "judged",
       "srcHash": "cafd67b942292ae8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "0ef9842785da7b6f"
     },
     "MajorEvent.662834376 Nodes.4 Desc": {
       "en": "No Description",
@@ -284130,11 +284207,12 @@
     "MajorEvent.89579781 Nodes.1 Name": {
       "en": "Rite of the Star",
       "cn": "祭星神典",
-      "ru": "Ритуал звезды",
-      "status": "machine",
+      "ru": "Священный канон обряда звезды",
+      "status": "judged",
       "srcHash": "82f2596783042189",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "aa1a8fe979864eeb"
     },
     "MajorEvent.89579781 Nodes.2 Desc": {
       "en": "",

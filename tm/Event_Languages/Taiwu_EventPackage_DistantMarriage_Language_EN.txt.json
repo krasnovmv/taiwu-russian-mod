@@ -6,11 +6,12 @@
     "861cf963-dace-4203-abfd-f5b702a179c4/EventContent": {
       "en": "On this day, <Character key=CharId str=Name /> sent someone to deliver a letter. The letter read,<NL><NL>\"Through a matchmaker's arrangement, I am to be wed to <Character key=TargetCharId str=Name /> of <Character key=TargetCharId str=SettlementName />.<NL>This matter is not trivial; I only hope to receive your guidance...\"",
       "cn": "此日，<Character key=CharId str=Name />托人送来一封书信，只见信中写道：<NL><NL>“经媒妁之言，撮合我与<Character key=TargetCharId str=SettlementName />的<Character key=TargetCharId str=Name />结为夫妻，<NL>此事非同儿戏，唯愿能得你指点迷津……”",
-      "ru": "В этот день, <Character key=CharId str=Name /> послали кого-то доставить письмо. В письме говорилось:,<NL><NL>\"По договоренности со свахой я выхожу замуж за <Character key=TargetCharId str=Name /> от <Character key=TargetCharId str=SettlementName />.<NL>Этот вопрос не тривиален; я только надеюсь получить ваше руководство...\"",
-      "status": "machine",
+      "ru": "В этот день <Character key=CharId str=Name /> послал кого-то доставить письмо. В письме говорилось:<NL><NL>\"По сватовству мне предстоит вступить в брак с <Character key=TargetCharId str=Name /> из <Character key=TargetCharId str=SettlementName />.<NL>Это дело нешуточное; я лишь надеюсь получить ваше наставление...\"",
+      "status": "judged",
       "srcHash": "3d4c662a47e104ff",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "2c1746442f3a42e8"
     },
     "861cf963-dace-4203-abfd-f5b702a179c4/Option_1": {
       "en": "(View info...)",
@@ -19,7 +20,8 @@
       "status": "machine",
       "srcHash": "1ec54459c86a5c86",
       "engine": "yandex",
-      "updatedAt": "2026-07-25T08:27:11.933Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z",
+      "judgeHash": "07bdbdb8801974d9"
     },
     "861cf963-dace-4203-abfd-f5b702a179c4/Option_2": {
       "en": "(Congratulate...)",
@@ -28,7 +30,8 @@
       "status": "machine",
       "srcHash": "72f4d97ece052ae0",
       "engine": "yandex",
-      "updatedAt": "2026-07-25T08:27:11.933Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z",
+      "judgeHash": "822a73b0838dd1fb"
     },
     "861cf963-dace-4203-abfd-f5b702a179c4/Option_3": {
       "en": "(Instigate...)",
@@ -37,7 +40,8 @@
       "status": "machine",
       "srcHash": "0beafc52f33b9fdf",
       "engine": "yandex",
-      "updatedAt": "2026-07-25T08:27:11.933Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z",
+      "judgeHash": "0c98b1aab7d255f3"
     },
     "861cf963-dace-4203-abfd-f5b702a179c4/Option_4": {
       "en": "(Dissuade...)",
@@ -46,7 +50,8 @@
       "status": "machine",
       "srcHash": "bc888d5903231b2b",
       "engine": "yandex",
-      "updatedAt": "2026-07-25T08:27:11.933Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z",
+      "judgeHash": "a19c398bd038e0a5"
     },
     "861cf963-dace-4203-abfd-f5b702a179c4/Option_5": {
       "en": "(Let it be...)",
@@ -55,16 +60,18 @@
       "status": "machine",
       "srcHash": "8679413f05b4e66c",
       "engine": "yandex",
-      "updatedAt": "2026-07-25T08:27:11.933Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z",
+      "judgeHash": "27c1ad708f665889"
     },
     "f965c439-471f-4652-9d66-6205a7dd293c/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> heard of this matter and deeply felt that the two were a match made in heaven.<NL><Character key=RoleTaiwu str=UpperGenderSubject/> immediately wrote a reply, wishing for <Character key=CharId str=Name /> and <Character key=TargetCharId str=Name /> to join in wedlock, living in harmony and never parting from their love from then on.<NL><NL>Several days later, it was heard that <Character key=CharId str=Name /> and <Character key=TargetCharId str=Name /> had happily married and started their good life together...",
       "cn": "<Character key=RoleTaiwu str=Name />闻有此事，深觉二人乃是天作之合，<NL>随即提笔回信，愿<Character key=CharId str=Name />与<Character key=TargetCharId str=Name />共结鸳盟，从此琴瑟和鸣，恩爱不移。<NL><NL>待得数日之后，便听闻<Character key=CharId str=Name />已与<Character key=TargetCharId str=Name />喜结连理，共谱良缘……",
-      "ru": "<Character key=RoleTaiwu str=Name /> услышал об этом и глубоко прочувствовал, что эти двое - брак, заключенный на небесах.<NL><Character key=RoleTaiwu str=UpperGenderSubject/> немедленно написал ответ, пожелав <Character key=CharId str=Name /> и <Character key=TargetCharId str=Name /> вступить в брак, жить в гармонии и никогда больше не расставаться со своей любовью.<NL><NL>Несколько дней спустя стало известно, что <Character key=CharId str=Name /> и <Character key=TargetCharId str=Name /> они счастливо поженились и начали свою счастливую совместную жизнь...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> услышал об этом и глубоко почувствовал, что эти двое созданы друг для друга.<NL><Character key=RoleTaiwu str=UpperGenderSubject/> немедленно написал ответ, пожелав <Character key=CharId str=Name /> и <Character key=TargetCharId str=Name /> вступить в брак, жить в гармонии и никогда больше не расставаться.<NL><NL>Несколько дней спустя стало известно, что <Character key=CharId str=Name /> и <Character key=TargetCharId str=Name /> счастливо поженились и вместе начали новую жизнь...",
+      "status": "judged",
       "srcHash": "f261d71b742d94d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "549169306710dc3c"
     },
     "f965c439-471f-4652-9d66-6205a7dd293c/Option_1": {
       "en": "(That's great...)",
@@ -73,16 +80,18 @@
       "status": "machine",
       "srcHash": "7e9a2d0d91c4820f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "4324eb0a1ac9a2fc"
     },
     "711532d2-b126-4a85-813f-462ee689cee7/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> heard of this matter and immediately wrote a reply,<NL>stating that <Character key=CharId str=Name /> and <Character key=TargetCharId str=Name /> were so mismatched. While marrying now is possible, it would likely lead to lifelong quarreling.<NL><NL>Several days later, it was heard that <Character key=CharId str=Name /> had doubts in heart, yet still married <Character key=TargetCharId str=Name />...",
       "cn": "<Character key=RoleTaiwu str=Name />闻有此事，随即提笔回信，<NL>只道<Character key=CharId str=Name />与<Character key=TargetCharId str=Name />诸般不合，眼下成亲未为不可，只恐来日终为怨偶。<NL><NL>待得数日之后，便听闻<Character key=CharId str=Name />心存疑虑，却仍与<Character key=TargetCharId str=Name />结为了连理……",
-      "ru": "<Character key=RoleTaiwu str=Name /> услышал об этом и немедленно написал ответ,<NL>в котором говорилось, что <Character key=CharId str=Name /> и <Character key=TargetCharId str=Name /> они так не подходили друг другу. Хотя сейчас брак возможен, это, скорее всего, привело бы к ссорам на всю жизнь.<NL><NL>Несколько дней спустя стало известно, что <Character key=CharId str=Name /> в глубине души они сомневались, но все же поженились <Character key=TargetCharId str=Name />...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> услышал об этом и немедленно написал ответ,<NL>в котором говорилось, что <Character key=CharId str=Name /> и <Character key=TargetCharId str=Name /> во многом не подходят друг другу. Хотя сейчас им можно пожениться, это, скорее всего, приведёт к ссорам на всю жизнь.<NL><NL>Несколько дней спустя стало известно, что <Character key=CharId str=Name /> сомневался в глубине души, но всё же вступил в брак с <Character key=TargetCharId str=Name />...",
+      "status": "judged",
       "srcHash": "9f55a10d2ad3dac4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "0796ec2b7b9777be"
     },
     "711532d2-b126-4a85-813f-462ee689cee7/Option_1": {
       "en": "(That's great...)",
@@ -91,7 +100,8 @@
       "status": "machine",
       "srcHash": "7e9a2d0d91c4820f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "4324eb0a1ac9a2fc"
     },
     "d24b16d3-35ff-4391-994c-46c00e2e9539/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> heard of this matter and felt concern, sensing the two were not well-suited.<NL><Character key=RoleTaiwu str=UpperGenderSubject/> promptly wrote a reply, advising against this marriage.<NL><NL>Feeling some regret upon receiving this counsel, <Character key=CharId str=Name /> thought it over, ultimately abandoned the matter, and never mentioned it again...",
@@ -100,7 +110,8 @@
       "status": "machine",
       "srcHash": "7ad74dde2ba63ac1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "5d605dcb6815d61e"
     },
     "d24b16d3-35ff-4391-994c-46c00e2e9539/Option_1": {
       "en": "(That's great...)",
@@ -109,7 +120,8 @@
       "status": "machine",
       "srcHash": "7e9a2d0d91c4820f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "4324eb0a1ac9a2fc"
     },
     "9a145391-2c0a-4ccc-bab9-c7f184d206fa/EventContent": {
       "en": "Enclosed with the letter is a marriage compatibility document.<NL>The birth dates, birth hours, and every other pertinent detail of the two are recorded upon it.<NL><NL>A worthy gentleman and a graceful maiden... could they truly be destined for one another?<NL><NL>(<Character key=RoleTaiwu str=Name /> can click to view the character's information...)",
@@ -118,7 +130,8 @@
       "status": "machine",
       "srcHash": "84866bb7777c8842",
       "engine": "yandex",
-      "updatedAt": "2026-07-25T08:27:11.933Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z",
+      "judgeHash": "525b1e575e7741db"
     },
     "9a145391-2c0a-4ccc-bab9-c7f184d206fa/Option_1": {
       "en": "(I'm already aware...)",
@@ -127,7 +140,8 @@
       "status": "machine",
       "srcHash": "3f2ed4564a5c3465",
       "engine": "yandex",
-      "updatedAt": "2026-07-25T08:27:11.933Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z",
+      "judgeHash": "4dddf32f6d8da85b"
     }
   }
 }

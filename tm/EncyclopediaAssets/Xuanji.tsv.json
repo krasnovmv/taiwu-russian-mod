@@ -10,16 +10,18 @@
       "status": "machine",
       "srcHash": "2d2d30edec3a3269",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f5cfab129904181b"
     },
     "r0c1": {
       "en": "Reduces the technique's <color=#6fb6ff><u><link=\"发挥需求\">usage requirements</link></u></color>",
       "cn": "降低功法的<color=#6fb6ff><u><link=\"发挥需求\">发挥需求</link></u></color>",
-      "ru": "Уменьшает эффективность техники <color=#6fb6ff><u><link=\"发挥需求\">требования к использованию</link></u></color>",
-      "status": "machine",
+      "ru": "Уменьшает требования к использованию техники <color=#6fb6ff><u><link=\"发挥需求\">требования к использованию</link></u></color>",
+      "status": "judged",
       "srcHash": "5ae512d99e5a53da",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "7d3735bd18379172"
     },
     "r0c2": {
       "en": "Usage requirements decrease % = Mechanism Tier + 4",
@@ -28,7 +30,8 @@
       "status": "machine",
       "srcHash": "5979eab57a023ee2",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "3fd81660f17c822f"
     },
     "r1c0": {
       "en": "<align=\"center\">Mutual Love</align>",
@@ -37,7 +40,8 @@
       "status": "machine",
       "srcHash": "e72b2172b194a1f4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3135efd4d0673b54"
     },
     "r1c1": {
       "en": "Grants the technique an effect that increases Sway",
@@ -46,7 +50,8 @@
       "status": "machine",
       "srcHash": "e566c1327f91806f",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "06b38b360b9374e0"
     },
     "r1c2": {
       "en": "Sway Increase: Character Favorability/1000\\u002c minimum 0",
@@ -55,7 +60,8 @@
       "status": "machine",
       "srcHash": "8b96dfc45ffdc722",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "a6a7c6dc72b08009"
     },
     "r2c0": {
       "en": "<align=\"center\">Enemy</align>",
@@ -64,7 +70,8 @@
       "status": "machine",
       "srcHash": "fd38f253329804ee",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "cd581a4edc207c2b"
     },
     "r2c1": {
       "en": "Grants the technique an effect that increases Poise",
@@ -73,7 +80,8 @@
       "status": "machine",
       "srcHash": "245f061178b00913",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "feaf68566da96170"
     },
     "r2c2": {
       "en": "Poise Increase: -1 × Character Favorability/1000\\u002c minimum 0",
@@ -82,7 +90,8 @@
       "status": "machine",
       "srcHash": "f75ca98d33345bbe",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "1fa9190e7343c77f"
     },
     "r3c0": {
       "en": "<align=\"center\">Friends</align>",
@@ -91,16 +100,18 @@
       "status": "machine",
       "srcHash": "2756ecd02d49a50e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "0227a8a73b3c0363"
     },
     "r3c1": {
       "en": "Increases the technique's current <color=#6fb6ff><u><link=\"威力\">Power</link></u></color>",
       "cn": "增加功法的当前<color=#6fb6ff><u><link=\"威力\">威力</link></u></color>",
-      "ru": "Увеличивает ток техники <color=#6fb6ff><u><link=\"威力\">Сила</link></u></color>",
-      "status": "machine",
+      "ru": "Увеличивает текущую <color=#6fb6ff><u><link=\"威力\">силу</link></u></color> техники",
+      "status": "judged",
       "srcHash": "b5caa3e4a71e3ef7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "ffa30b5d870ffac4"
     },
     "r3c2": {
       "en": "Power Increase = 1 + Character's corresponding Martial Arts Attainment × Favorability Level × 50 ÷ 10000\\u002c min 1\\u002c max 10",
@@ -109,7 +120,8 @@
       "status": "machine",
       "srcHash": "b8383027c64fcb9b",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "1390f78a1de5ba25"
     },
     "r4c0": {
       "en": "<align=\"center\">Music Book</align>",
@@ -118,16 +130,18 @@
       "status": "machine",
       "srcHash": "0f4233dddfc8122f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f1e485b780117280"
     },
     "r4c1": {
       "en": "Increases the efficacy of all fine arts within the martial art's usage requirements",
       "cn": "增加功法的发挥需求中，所有技艺的发挥程度",
-      "ru": "Повышает эффективность всех ремесел в рамках требований к использованию боевой техники",
-      "status": "machine",
+      "ru": "Повышает эффективность всех ремёсел в рамках требований к использованию боевой техники",
+      "status": "judged",
       "srcHash": "3f4374176d76ac99",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "028d258bed43af0a"
     },
     "r4c2": {
       "en": "Performance Increase = Music Attainment × (Book Tier + 2) ÷ 100\\u002c minimum 1",
@@ -136,7 +150,8 @@
       "status": "machine",
       "srcHash": "32d3e8694b297066",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "0950f0b4081cfc8b"
     },
     "r5c0": {
       "en": "<align=\"center\">Weiqi Book</align>",
@@ -145,25 +160,28 @@
       "status": "machine",
       "srcHash": "35ddc1a20dbefe4e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "d873309093c29fcc"
     },
     "r5c1": {
       "en": "Increases the efficacy of all fine arts within the martial art's usage requirements",
       "cn": "增加功法的发挥需求中，所有技艺的发挥程度",
-      "ru": "Повышает эффективность всех ремесел в рамках требований к использованию боевой техники",
-      "status": "machine",
+      "ru": "Повышает эффективность всех ремёсел в рамках требований к использованию боевой техники",
+      "status": "judged",
       "srcHash": "3f4374176d76ac99",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "028d258bed43af0a"
     },
     "r5c2": {
       "en": "Performance Increase = Weiqi Attainment × (Book Tier + 2) ÷ 100\\u002c minimum 1",
       "cn": "发挥增加 = 弈棋造诣 × (书籍品级 + 2) ÷ 100，最小为1",
-      "ru": "Повышение производительности = Достижение Weiqi × (ранг книги + 2) ÷ 100\\u002c минимум 1",
-      "status": "machine",
+      "ru": "Повышение эффективности = Достижение вэйци × (ранг книги + 2) ÷ 100\\u002c минимум 1",
+      "status": "judged",
       "srcHash": "bca7cbf418130743",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "9518613403419e70"
     },
     "r6c0": {
       "en": "<align=\"center\">Literature Book</align>",
@@ -172,25 +190,28 @@
       "status": "machine",
       "srcHash": "b5354a447a8d8842",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "134abd985fe6c137"
     },
     "r6c1": {
       "en": "Increases the efficacy of all fine arts within the martial art's usage requirements",
       "cn": "增加功法的发挥需求中，所有技艺的发挥程度",
-      "ru": "Повышает эффективность всех ремесел в рамках требований к использованию боевой техники",
-      "status": "machine",
+      "ru": "Повышает эффективность всех ремёсел в рамках требований к использованию боевой техники",
+      "status": "judged",
       "srcHash": "3f4374176d76ac99",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "028d258bed43af0a"
     },
     "r6c2": {
       "en": "Performance Increase = Literature Attainment × (Book Tier + 2) ÷ 100\\u002c minimum 1",
       "cn": "发挥增加 = 诗书造诣 × (书籍品级 + 2) ÷ 100，最小为1",
-      "ru": "Повышение успеваемости = Уровень владения литературой × (книжный ранг + 2) ÷ 100\\u002c минимум 1",
-      "status": "machine",
+      "ru": "Повышение эффективности = Уровень владения литературой × (ранг книги + 2) ÷ 100\\u002c минимум 1",
+      "status": "judged",
       "srcHash": "7372e94bd5da56dd",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "33ec9a700310ee75"
     },
     "r7c0": {
       "en": "<align=\"center\">Painting Book</align>",
@@ -199,16 +220,18 @@
       "status": "machine",
       "srcHash": "6f273d682595ff4d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b42a6579606a8dc1"
     },
     "r7c1": {
       "en": "Increases the efficacy of all fine arts within the martial art's usage requirements",
       "cn": "增加功法的发挥需求中，所有技艺的发挥程度",
-      "ru": "Повышает эффективность всех ремесел в рамках требований к использованию боевой техники",
-      "status": "machine",
+      "ru": "Повышает эффективность всех ремёсел в рамках требований к использованию боевой техники",
+      "status": "judged",
       "srcHash": "3f4374176d76ac99",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "028d258bed43af0a"
     },
     "r7c2": {
       "en": "Performance Increase = Painting Attainment × (Book Tier + 2) ÷ 100\\u002c minimum 1",
@@ -217,43 +240,48 @@
       "status": "machine",
       "srcHash": "c8f222c296b6fdaa",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "a135f4fb5d0cc0c5"
     },
     "r8c0": {
       "en": "<align=\"center\">Astrology Book</align>",
       "cn": "<align=\"center\">术数书籍</align>",
-      "ru": "<align=\"center\">Книга по астрологии</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Книга по гаданию</align>",
+      "status": "judged",
       "srcHash": "d86b003a927836e1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "5bbe22641f7c7bb0"
     },
     "r8c1": {
       "en": "Reduces the technique's <color=#6fb6ff><u><link=\"施展时间\">Cast Time</link></u></color>",
       "cn": "降低功法的<color=#6fb6ff><u><link=\"施展时间\">施展时间</link></u></color>",
-      "ru": "Уменьшает эффективность техники <color=#6fb6ff><u><link=\"施展时间\">Время броска</link></u></color>",
-      "status": "machine",
+      "ru": "Сокращает <color=#6fb6ff><u><link=\"施展时间\">время применения</link></u></color> техники",
+      "status": "judged",
       "srcHash": "10ba97a392a50b62",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "1fb0e2755ac96742"
     },
     "r8c2": {
       "en": "Cast Time Reduction % = Astrology Attainment × (Book Tier + 2)/500\\u002c minimum 1\\u002c maximum 10",
       "cn": "施展时间降低% = 术数造诣 × (书籍品级 + 2) ÷ 500，最小为1，最大为10",
-      "ru": "Сокращение времени разыгрывания % = Достижение астрологии × (ранг книги + 2)/500\\u002c минимум 1\\u002c максимум 10",
-      "status": "machine",
+      "ru": "Сокращение времени гадания % = Достижение в гадании × (ранг книги + 2)/500\\u002c минимум 1\\u002c максимум 10",
+      "status": "judged",
       "srcHash": "c6a05282cc253ead",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "8269b154f9f766c8"
     },
     "r9c0": {
       "en": "<align=\"center\">Appreciation Book</align>",
       "cn": "<align=\"center\">品鉴书籍</align>",
-      "ru": "<align=\"center\">Благодарственная книга</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Книга по оценке</align>",
+      "status": "judged",
       "srcHash": "238f6250d94b6f11",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "90f2d18be019a500"
     },
     "r9c1": {
       "en": "Reduces the technique's cast time",
@@ -262,16 +290,18 @@
       "status": "machine",
       "srcHash": "84855fc238e32123",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z",
+      "judgeHash": "fd45189d5a22097f"
     },
     "r9c2": {
       "en": "Cast Time Reduction % = Appreciation Attainment × (Book Tier + 2)/500\\u002c minimum 1\\u002c maximum 10",
       "cn": "施展时间降低% = 品鉴造诣 × (书籍品级 + 2) ÷ 500，最小为1，最大为10",
-      "ru": "Сокращение времени разыгрывания % = Достижение высокой оценки × (ранг книги + 2)/500\\u002c минимум 1\\u002c максимум 10",
-      "status": "machine",
+      "ru": "Сокращение времени разыгрывания % = Достижение в оценке × (ранг книги + 2)/500\\u002c минимум 1\\u002c максимум 10",
+      "status": "judged",
       "srcHash": "a044cfeb75b67aa4",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "87e3d67a1969115b"
     },
     "r10c0": {
       "en": "<align=\"center\">Smithing Book</align>",
@@ -280,16 +310,18 @@
       "status": "machine",
       "srcHash": "e72e3f10168f1b16",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f8828685e65f8872"
     },
     "r10c1": {
       "en": "Reduces the technique's <color=#6fb6ff><u><link=\"架势\">Stance</link></u></color> cost",
       "cn": "降低功法的<color=#6fb6ff><u><link=\"架势\">架势</link></u></color>消耗",
-      "ru": "Уменьшает эффективность техники <color=#6fb6ff><u><link=\"架势\">Стойка</link></u></color> стоимость",
-      "status": "machine",
+      "ru": "Уменьшает стоимость <color=#6fb6ff><u><link=\"架势\">стойки</link></u></color> техники",
+      "status": "judged",
       "srcHash": "4f5dd4e4bbf0fdbb",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "69abb3f2b7a61bfd"
     },
     "r10c2": {
       "en": "Stance Cost Reduction % = Smithing Attainment × (Book Tier + 2)/1000\\u002c minimum 1\\u002c maximum 5",
@@ -298,16 +330,18 @@
       "status": "machine",
       "srcHash": "a725391e8c3e7c68",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "5892900ed87c740c"
     },
     "r11c0": {
       "en": "<align=\"center\">Carpentry Book</align>",
       "cn": "<align=\"center\">制木书籍</align>",
-      "ru": "<align=\"center\">Столярное Дело Книга</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Книга столярного дела</align>",
+      "status": "judged",
       "srcHash": "4497533a78e4d7dd",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "5a298d99b265c4f7"
     },
     "r11c1": {
       "en": "Reduces the technique's Stance cost.",
@@ -325,16 +359,18 @@
       "status": "machine",
       "srcHash": "123c62708868f4a5",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "d3332e1f44c064ca"
     },
     "r12c0": {
       "en": "<align=\"center\">Brocade-Weaving Book</align>",
       "cn": "<align=\"center\">织锦书籍</align>",
-      "ru": "<align=\"center\">Парча-Ткачество Забронировать</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Книга ткачества</align>",
+      "status": "judged",
       "srcHash": "0ead13bb0465fd6b",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "5d01b0b30bfbc3cf"
     },
     "r12c1": {
       "en": "Reduces the technique's Stance cost.",
@@ -348,11 +384,12 @@
     "r12c2": {
       "en": "Stance Cost Reduction % = Weaving Attainment × (Book Tier + 2)/1000\\u002c minimum 1\\u002c maximum 5",
       "cn": "架势消耗降低% = 织锦造诣 × (书籍品级 + 2) ÷ 1000，最小为1，最大为5",
-      "ru": "Стойка Снижения Себестоимости % = Ткачество Достижения × (Книга Ранг + 2)/1000\\u002c минимум 1\\u002c не более 5",
-      "status": "machine",
+      "ru": "Снижение затрат на стойку % = Достижение в ткачестве × (ранг книги + 2)/1000\\u002c минимум 1\\u002c максимум 5",
+      "status": "judged",
       "srcHash": "e9e7b8e2032ec967",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "38b46e940e3a5a6c"
     },
     "r13c0": {
       "en": "<align=\"center\">Jewelcrafting Book</align>",
@@ -361,7 +398,8 @@
       "status": "machine",
       "srcHash": "6467a19da7ffc690",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "03f9c775843312c2"
     },
     "r13c1": {
       "en": "Reduces the technique's Stance cost.",
@@ -379,7 +417,8 @@
       "status": "machine",
       "srcHash": "bf4c4dfed2865b10",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "c0d519f78fe6c86a"
     },
     "r14c0": {
       "en": "<align=\"center\">Medical Art Book</align>",
@@ -388,25 +427,28 @@
       "status": "machine",
       "srcHash": "1e521ce2bab221d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8299d5570b977fcb"
     },
     "r14c1": {
       "en": "Reduces the technique's cost of <color=#6fb6ff><u><link=\"提气\">Inhale</link></u></color>",
       "cn": "降低功法的<color=#6fb6ff><u><link=\"提气\">提气</link></u></color>消耗",
-      "ru": "Снижает стоимость метода <color=#6fb6ff><u><link=\"提气\">Вдохните</link></u></color>",
-      "status": "machine",
+      "ru": "Снижает стоимость <color=#6fb6ff><u><link=\"提气\">вдоха</link></u></color> техники",
+      "status": "judged",
       "srcHash": "86bb53059e81e4b1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "d947700e06056945"
     },
     "r14c2": {
       "en": "Inhale Cost Reduction % = Medical Art Attainment × (Book Tier + 2)/1000\\u002c minimum 1\\u002c maximum 5",
       "cn": "提气消耗降低% = 医术造诣 × (书籍品级 + 2) ÷ 1000，最小为1，最大为5",
-      "ru": "Снижение затрат на ингаляцию % = Достижение медицинского мастерства × (ранг книги + 2)/1000\\u002c минимум 1\\u002c максимум 5",
-      "status": "machine",
+      "ru": "Снижение затрат на вдох % = Достижение в медицинском искусстве × (ранг книги + 2)/1000\\u002c минимум 1\\u002c максимум 5",
+      "status": "judged",
       "srcHash": "61c227ad77dceea4",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "1bcd1d0bb893f190"
     },
     "r15c0": {
       "en": "<align=\"center\">Toxicology Book</align>",
@@ -415,7 +457,8 @@
       "status": "machine",
       "srcHash": "d7daf8f46b3a4f22",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "cde78d31d07f5613"
     },
     "r15c1": {
       "en": "Reduces the technique's cost of Inhale.",
@@ -424,7 +467,8 @@
       "status": "machine",
       "srcHash": "418b5537f343d08d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "39dd8275087e5248"
     },
     "r15c2": {
       "en": "Inhale Cost Reduction % = Toxicology Attainment × (Book Tier + 2)/1000\\u002c minimum 1\\u002c maximum 5",
@@ -433,61 +477,68 @@
       "status": "machine",
       "srcHash": "665f8e5bd5840f8e",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "562c5a5bebf4c365"
     },
     "r16c0": {
       "en": "<align=\"center\">Taoism Book</align>",
       "cn": "<align=\"center\">道法书籍</align>",
-      "ru": "<align=\"center\">Даосизм Даосизм </align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Книга по даосизму</align>",
+      "status": "judged",
       "srcHash": "1dfd7679c866b655",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "aaa47498bf2fc2f9"
     },
     "r16c1": {
       "en": "Increases the technique's <color=#6fb6ff><u><link=\"威力上限\">Power Cap</link></u></color>",
       "cn": "增加功法的<color=#6fb6ff><u><link=\"威力上限\">威力上限</link></u></color>",
-      "ru": "Увеличивает техника <color=#6fb6ff><u><link=\"威力上限\">Предел Мощи</link></u></color>",
-      "status": "machine",
+      "ru": "Увеличивает предел мощи техники <color=#6fb6ff><u><link=\"威力上限\">предел мощи</link></u></color>",
+      "status": "judged",
       "srcHash": "16dcf08a8e6fe440",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "e5c24c7890b2d7de"
     },
     "r16c2": {
       "en": "Power Cap Increase = Taoism Attainment × (Book Tier + 2)/500\\u002c minimum 1\\u002c maximum 10",
       "cn": "威力上限增加 = 道法造诣 × (书籍品级 + 2) ÷ 500，最小为1，最大为10",
-      "ru": "Предел Мощи Рост = Даосизм Достижение × (Книга Ранг + 2)/500\\u002c минимум 1\\u002c максимум 10",
-      "status": "machine",
+      "ru": "Увеличение предела мощи = достижение в даосизме × (ранг книги + 2)/500\\u002c минимум 1\\u002c максимум 10",
+      "status": "judged",
       "srcHash": "46ee87a573b15e49",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "711ac33e45e3f978"
     },
     "r17c0": {
       "en": "<align=\"center\">Buddhism Book</align>",
       "cn": "<align=\"center\">佛学书籍</align>",
-      "ru": "<align=\"center\">Буддизм Буддизм </align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Книга по буддизму</align>",
+      "status": "judged",
       "srcHash": "428cd4a82885127e",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "7c3cdcafeca90e9c"
     },
     "r17c1": {
       "en": "Increases the technique's Power Cap.",
       "cn": "增加功法的威力上限",
-      "ru": "Увеличивает техника предел мощи.",
-      "status": "machine",
+      "ru": "Увеличивает предел мощи техники.",
+      "status": "judged",
       "srcHash": "8b8c983070fffea6",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "d4401194e70fd0cd"
     },
     "r17c2": {
       "en": "Power Cap Increase = Buddhism Attainment × (Book Tier + 2)/500\\u002c minimum 1\\u002c maximum 10",
       "cn": "威力上限增加 = 佛学造诣 × (书籍品级 + 2) ÷ 500，最小为1，最大为10",
-      "ru": "Предел Мощи Рост = Буддизм Достижения × (Книга Ранг + 2)/500\\u002c минимум 1\\u002c максимум 10",
-      "status": "machine",
+      "ru": "Увеличение предела мощи = достижение в буддизме × (ранг книги + 2)/500\\u002c минимум 1\\u002c максимум 10",
+      "status": "judged",
       "srcHash": "8a1cd6bb4c30882a",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "cefab586e2174320"
     },
     "r18c0": {
       "en": "<align=\"center\">Cooking Book</align>",
@@ -496,7 +547,8 @@
       "status": "machine",
       "srcHash": "019825bf6cca9baf",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "9d468c1d805f2d7c"
     },
     "r18c1": {
       "en": "Reduces the technique's cast time",
@@ -505,7 +557,8 @@
       "status": "machine",
       "srcHash": "84855fc238e32123",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z",
+      "judgeHash": "fd45189d5a22097f"
     },
     "r18c2": {
       "en": "Cast Time Reduction % = Culinary Arts Attainment × (Book Tier + 2)/500\\u002c minimum 1\\u002c maximum 10",
@@ -514,7 +567,8 @@
       "status": "machine",
       "srcHash": "66d5d4056a96fd47",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z",
+      "judgeHash": "3773cb412bb6665f"
     },
     "r19c0": {
       "en": "<align=\"center\">Unorthodox Arts Book</align>",
@@ -523,7 +577,8 @@
       "status": "machine",
       "srcHash": "d49b9292c58ebd5a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "618af28e1994bbfe"
     },
     "r19c1": {
       "en": "Reduces the technique's cast time",
@@ -532,7 +587,8 @@
       "status": "machine",
       "srcHash": "84855fc238e32123",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z",
+      "judgeHash": "fd45189d5a22097f"
     },
     "r19c2": {
       "en": "Cast Time Reduction % = Unorthodox Arts Attainment × (Book Tier + 2)/500\\u002c minimum 1\\u002c maximum 10",
@@ -541,115 +597,128 @@
       "status": "machine",
       "srcHash": "bc97f6ffe5afdba6",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z",
+      "judgeHash": "665b5e528101e22e"
     },
     "r20c0": {
       "en": "<align=\"center\">Internal Injury Concoction</align>",
       "cn": "<align=\"center\">内伤丹药</align>",
-      "ru": "<align=\"center\">Внутренняя Травма Смесь</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Снадобье от внутренних травм</align>",
+      "status": "judged",
       "srcHash": "d0cf60c0b545b979",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "98ed860c14cac3c3"
     },
     "r20c1": {
       "en": "Increases the technique's <color=#6fb6ff><u><link=\"内伤强健\">Internal Injury Resilience</link></u></color>",
       "cn": "提高功法的<color=#6fb6ff><u><link=\"内伤强健\">内伤强健</link></u></color>",
-      "ru": "Увеличивает эффективность техники <color=#6fb6ff><u><link=\"内伤强健\">Устойчивость к внутренним травмам</link></u></color>",
-      "status": "machine",
+      "ru": "Увеличивает устойчивость техники к внутренним травмам <color=#6fb6ff><u><link=\"内伤强健\">Устойчивость к внутренним травмам</link></u></color>",
+      "status": "judged",
       "srcHash": "e4c6cb42875361bc",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "7dace9ddc1fef17a"
     },
     "r20c2": {
       "en": "Internal Injury Resilience Increase% = 5 + (Concoction Tier + 2) × 2",
       "cn": "内伤强健提高% = 5 + (丹药品级 + 2) × 2",
-      "ru": "Внутренняя Травма Устойчивость Увеличение% = 5 + (Смесь Ранг + 2) × 2",
-      "status": "machine",
+      "ru": "Увеличение устойчивости к внутренним травмам% = 5 + (ранг снадобья + 2) × 2",
+      "status": "judged",
       "srcHash": "b1a7cd2f3e866527",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "31b7f1d8d34ac44e"
     },
     "r21c0": {
       "en": "<align=\"center\">External Injury Concoction</align>",
       "cn": "<align=\"center\">外伤丹药</align>",
-      "ru": "<align=\"center\">Внешняя Травма Смесь</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Снадобье от внешних травм</align>",
+      "status": "judged",
       "srcHash": "3562c3b50c05edd7",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "64a623ada4892534"
     },
     "r21c1": {
       "en": "Increases the technique's <color=#6fb6ff><u><link=\"外伤强健\">External Injury Resilience</link></u></color>",
       "cn": "提高功法的<color=#6fb6ff><u><link=\"外伤强健\">外伤强健</link></u></color>",
-      "ru": "Увеличивает эффективность техники <color=#6fb6ff><u><link=\"外伤强健\">Устойчивость к внешним травмам</link></u></color>",
-      "status": "machine",
+      "ru": "Увеличивает устойчивость техники к внешним травмам <color=#6fb6ff><u><link=\"外伤强健\">Устойчивость к внешним травмам</link></u></color>",
+      "status": "judged",
       "srcHash": "ec8135abca3f25e0",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "b43b6cdb25350057"
     },
     "r21c2": {
       "en": "External Injury Resilience Increase% = 5 + (Concoction Tier + 2) × 2",
       "cn": "外伤强健提高% = 5 + (丹药品级 + 2) × 2",
-      "ru": "Внешняя Травма Устойчивость Увеличение% = 5 + (Смесь Ранг + 2) × 2",
-      "status": "machine",
+      "ru": "Увеличение устойчивости к внешним травмам% = 5 + (ранг снадобья + 2) × 2",
+      "status": "judged",
       "srcHash": "bc0644ef5a9fe20c",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "0cce98b9b4bb5266"
     },
     "r22c0": {
       "en": "<align=\"center\">Inner Breath Concoction</align>",
       "cn": "<align=\"center\">内息丹药</align>",
-      "ru": "<align=\"center\">Внутреннее Дыхание Дыхание </align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Снадобье внутреннего дыхания</align>",
+      "status": "judged",
       "srcHash": "bde31422726496d4",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "c6b03c30080e27a8"
     },
     "r22c1": {
       "en": "Increases the technique's <color=#6fb6ff><u><link=\"失神强健\">Daze Resilience</link></u></color>",
       "cn": "提高功法的<color=#6fb6ff><u><link=\"失神强健\">失神强健</link></u></color>",
-      "ru": "Увеличивает эффективность техники <color=#6fb6ff><u><link=\"失神强健\">Оцепенение Устойчивости</link></u></color>",
-      "status": "machine",
+      "ru": "Увеличивает эффективность техники <color=#6fb6ff><u><link=\"失神强健\">Устойчивость к оцепенению</link></u></color>",
+      "status": "judged",
       "srcHash": "4f9a2f67bac7ab9f",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "d6e886abad8386ff"
     },
     "r22c2": {
       "en": "Daze Resilience Increase% = 5 + (Concoction Tier + 2) × 2",
       "cn": "失神强健提高% = 5 + (丹药品级 + 2) × 2",
-      "ru": "Оцепенение Устойчивость Увеличение% = 5 + (Смесь Ранг + 2) × 2",
-      "status": "machine",
+      "ru": "Увеличение устойчивости к оцепенению% = 5 + (ранг снадобья + 2) × 2",
+      "status": "judged",
       "srcHash": "dde2f43046c6ed5b",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "c9eafcadb270b40c"
     },
     "r23c0": {
       "en": "<align=\"center\">Health Concoction</align>",
       "cn": "<align=\"center\">健康丹药</align>",
-      "ru": "<align=\"center\">Здоровье Здоровье </align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Снадобье здоровья</align>",
+      "status": "judged",
       "srcHash": "2876b57dfebb5bc5",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "846db40cbedafe6c"
     },
     "r23c1": {
       "en": "Increases the technique's <color=#6fb6ff><u><link=\"重创强健\">Wound Resilience</link></u></color>",
       "cn": "提高功法的<color=#6fb6ff><u><link=\"重创强健\">重创强健</link></u></color>",
-      "ru": "Увеличивает техника <color=#6fb6ff><u><link=\"重创强健\">Рана Устойчивости</link></u></color>",
-      "status": "machine",
+      "ru": "Увеличивает устойчивость техники к ранам <color=#6fb6ff><u><link=\"重创强健\">Устойчивость к ранам</link></u></color>",
+      "status": "judged",
       "srcHash": "ebf74ef08219bb03",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "9911e3b5ee0b8b15"
     },
     "r23c2": {
       "en": "Wound Resilience Increase% = 5 + (Concoction Tier + 2) × 2",
       "cn": "重创强健提高% = 5 + (丹药品级 + 2) × 2",
-      "ru": "Рана Устойчивость Увеличение% = 5 + (Смесь Ранг + 2) × 2",
-      "status": "machine",
+      "ru": "Увеличение устойчивости к ранам% = 5 + (ранг снадобья + 2) × 2",
+      "status": "judged",
       "srcHash": "bd6cb94a1e0127d4",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "a9dec7634d213568"
     },
     "r24c0": {
       "en": "<align=\"center\">Detoxification Concoction</align>",
@@ -658,25 +727,28 @@
       "status": "machine",
       "srcHash": "bbe64620caea8c3b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "81129e60678479df"
     },
     "r24c1": {
       "en": "Grants the technique an effect that increases Toxin Resistance to the corresponding toxin type.",
       "cn": "使功法获得增加对应类型毒素抵抗的运功效果",
-      "ru": "Гранты методика эффект, который увеличивает сопротивление токсин в соответствующий токсин токсин.",
-      "status": "machine",
+      "ru": "Даёт технике эффект, повышающий сопротивление соответствующему типу токсина.",
+      "status": "judged",
       "srcHash": "903558e63b1d9705",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "887126116adde693"
     },
     "r24c2": {
       "en": "Toxin Resistance Increase = Concoction Tier + 2",
       "cn": "毒素抵抗增加 = 丹药品级 + 2",
-      "ru": "Токсин Сопротивление Сопротивление = Варево Ранг + 2",
-      "status": "machine",
+      "ru": "Увеличение сопротивления токсинам = ранг снадобья + 2",
+      "status": "judged",
       "srcHash": "3dedc81addcc2c4b",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "ec5130de56f56f82"
     },
     "r25c0": {
       "en": "<align=\"center\">Attack Concoction</align>",
@@ -685,25 +757,28 @@
       "status": "machine",
       "srcHash": "5b93912352f65017",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "92aa8a1477474933"
     },
     "r25c1": {
       "en": "Grants the technique an effect that increases corresponding Attack attribute",
       "cn": "使功法获得增加对应攻击属性的运功效果",
-      "ru": "Гранты методика эффект, что увеличивает соответствующие атака атака ",
-      "status": "machine",
+      "ru": "Даёт технике эффект, повышающий соответствующий атрибут атаки",
+      "status": "judged",
       "srcHash": "5f86af8920432d16",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "ec5859c88969a019"
     },
     "r25c2": {
       "en": "Attribute Increase = (Concoction Tier + 2) ×3",
       "cn": "属性增加 = (丹药品级 + 2) × 3",
-      "ru": "Повышение Атрибута = (Смесь Ранг + 2) ×3",
-      "status": "machine",
+      "ru": "Увеличение атрибута = (ранг снадобья + 2) ×3",
+      "status": "judged",
       "srcHash": "7ba4390e7b2b4856",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "7d08060045b12aa4"
     },
     "r26c0": {
       "en": "<align=\"center\">Defense Concoction</align>",
@@ -712,7 +787,8 @@
       "status": "machine",
       "srcHash": "227441e2240eb0fe",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8a60fc248d08dfd8"
     },
     "r26c1": {
       "en": "Grants the technique an effect that increases corresponding Defense attribute",
@@ -721,25 +797,28 @@
       "status": "machine",
       "srcHash": "28da3c5d9a559db4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "d2dcf1801f1dbe00"
     },
     "r26c2": {
       "en": "Attribute Increase = (Concoction Tier + 2) ×3",
       "cn": "属性增加 = (丹药品级 + 2) × 3",
-      "ru": "Повышение Атрибута = (Смесь Ранг + 2) ×3",
-      "status": "machine",
+      "ru": "Увеличение атрибута = (ранг снадобья + 2) ×3",
+      "status": "judged",
       "srcHash": "7ba4390e7b2b4856",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "7d08060045b12aa4"
     },
     "r27c0": {
       "en": "<align=\"center\">Hit Concoction</align>",
       "cn": "<align=\"center\">命中丹药</align>",
-      "ru": "<align=\"center\">Хитовая смесь</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Смесь для попадания</align>",
+      "status": "judged",
       "srcHash": "c7f2f05b1c35789b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "465b1e9311b44bd4"
     },
     "r27c1": {
       "en": "Grants the technique an effect that increases corresponding Hit attribute",
@@ -748,16 +827,18 @@
       "status": "machine",
       "srcHash": "202478f56cfd9b98",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f85ac601143a1119"
     },
     "r27c2": {
       "en": "Attribute Increase = (Concoction Tier + 2) ×2",
       "cn": "属性增加 = (丹药品级 + 2) × 2",
-      "ru": "Повышение Атрибута = (Смесь Ранг + 2) ×2",
-      "status": "machine",
+      "ru": "Увеличение атрибута = (ранг снадобья + 2) ×2",
+      "status": "judged",
       "srcHash": "b41a0239f11480b9",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "be2869551902bca0"
     },
     "r28c0": {
       "en": "<align=\"center\">Neutralize Concoction</align>",
@@ -766,7 +847,8 @@
       "status": "machine",
       "srcHash": "2d0400b3dc4184da",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "eb7876d145e8f5c8"
     },
     "r28c1": {
       "en": "Grants the technique an effect that increases corresponding Deflect attribute",
@@ -775,16 +857,18 @@
       "status": "machine",
       "srcHash": "207bce53654c37fd",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "9835a7dc22acb0dc"
     },
     "r28c2": {
       "en": "Attribute Increase = (Concoction Tier + 2) ×2",
       "cn": "属性增加 = (丹药品级 + 2) × 2",
-      "ru": "Повышение Атрибута = (Смесь Ранг + 2) ×2",
-      "status": "machine",
+      "ru": "Увеличение атрибута = (ранг снадобья + 2) ×2",
+      "status": "judged",
       "srcHash": "b41a0239f11480b9",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "be2869551902bca0"
     },
     "r29c0": {
       "en": "<align=\"center\">Secondary Attribute Concoction</align>",
@@ -793,7 +877,8 @@
       "status": "machine",
       "srcHash": "aebf811328a6b434",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "cbeb212fc63a2736"
     },
     "r29c1": {
       "en": "Grants the technique an effect that increases corresponding secondary attribute",
@@ -802,7 +887,8 @@
       "status": "machine",
       "srcHash": "78643409d11837b9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "9bb946ef2eebbeb8"
     },
     "r29c2": {
       "en": "Attribute Increase = Concoction Tier + 2",
@@ -811,7 +897,8 @@
       "status": "machine",
       "srcHash": "6e6954edd1466d6f",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "e1c055ac85a9e244"
     },
     "r30c0": {
       "en": "<align=\"center\">Poison</align>",
@@ -820,7 +907,8 @@
       "status": "machine",
       "srcHash": "e5df2698ea98882e",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "0f5bff44631b600a"
     },
     "r30c1": {
       "en": "Increase the technique's corresponding Toxin Amount",
@@ -829,7 +917,8 @@
       "status": "machine",
       "srcHash": "4b101a3e455b80c2",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "b2be34e3fed092fb"
     },
     "r30c2": {
       "en": "Toxin Infliction Increase% = (Toxin Tier + 2) × 2",
@@ -838,7 +927,8 @@
       "status": "machine",
       "srcHash": "66c874d869222443",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "f40c3f2bc8c85561"
     },
     "r31c0": {
       "en": "<align=\"center\">Metal Reagent (Qi Art)</align>",
@@ -847,7 +937,8 @@
       "status": "machine",
       "srcHash": "519a1f8cb0dbe406",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "458aff53427e646a"
     },
     "r31c1": {
       "en": "The technique provides +1 <color=#6fb6ff><u><link=\"摧破栏位\">Annihilation Slot</link></u></color>\\u002c and increases the Power Cap of all techniques in Annihilation Slots.",
@@ -856,7 +947,8 @@
       "status": "machine",
       "srcHash": "71700da624cf2f37",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "30e9503bc95f50e4"
     },
     "r31c2": {
       "en": "Martial Arts Power Cap Increase = Reagent Tier + 2\\u002c minimum 1",
@@ -865,7 +957,8 @@
       "status": "machine",
       "srcHash": "59e5d2aba7243f21",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "f42b504278889623"
     },
     "r32c0": {
       "en": "<align=\"center\">Wood Reagent (Qi Art)</align>",
@@ -874,16 +967,18 @@
       "status": "machine",
       "srcHash": "36db3ff1d426616f",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "17e2653391209159"
     },
     "r32c1": {
       "en": "The technique provides +1 <color=#6fb6ff><u><link=\"护体栏位\">Protection Slot</link></u></color>\\u002c and increases the Power Cap of all techniques in Protection Slots.",
       "cn": "功法额外提供1格<color=#6fb6ff><u><link=\"护体栏位\">护体栏位</link></u></color>，并增加护体栏位中所有功法的威力上限",
-      "ru": "Методика обеспечивает +1 <color=#6fb6ff><u><link=\"护体栏位\">Защитная прорезь</link></u></color>\\u002c и увеличивает предел мощи всех техник в защитных слотах.",
-      "status": "machine",
+      "ru": "Методика обеспечивает +1 <color=#6fb6ff><u><link=\"护体栏位\">Защитный слот</link></u></color>\\u002c и увеличивает предел мощи всех техник в слотах защиты.",
+      "status": "judged",
       "srcHash": "04de51756370d89a",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "eb08a166f046d18a"
     },
     "r32c2": {
       "en": "Martial Arts Power Cap Increase = Reagent Tier + 2\\u002c minimum 1",
@@ -892,7 +987,8 @@
       "status": "machine",
       "srcHash": "59e5d2aba7243f21",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "f42b504278889623"
     },
     "r33c0": {
       "en": "<align=\"center\">Jade Reagent (Qi Art)</align>",
@@ -901,16 +997,18 @@
       "status": "machine",
       "srcHash": "905564b81fcb06dd",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "4a15ebf631bfeb44"
     },
     "r33c1": {
       "en": "The technique provides +1 <color=#6fb6ff><u><link=\"奇窍栏位\">Acumen Slot</link></u></color>\\u002c and increases the Power Cap of all techniques in Acumen Slots.",
       "cn": "功法额外提供1格<color=#6fb6ff><u><link=\"奇窍栏位\">奇窍栏位</link></u></color>，并增加奇窍栏位中所有功法的威力上限",
-      "ru": "Методика обеспечивает +1 <color=#6fb6ff><u><link=\"奇窍栏位\">Прорезь для проницательности</link></u></color>\\u002c и увеличивает предел мощи всех техник в слотах Acumen.",
-      "status": "machine",
+      "ru": "Методика обеспечивает +1 <color=#6fb6ff><u><link=\"奇窍栏位\">Прорезь для проницательности</link></u></color>\\u002c и увеличивает предел мощи всех техник в слотах проницательности.",
+      "status": "judged",
       "srcHash": "4fc27618fcebe064",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "a44e377196bbbc7a"
     },
     "r33c2": {
       "en": "Martial Arts Power Cap Increase = Reagent Tier + 2\\u002c minimum 1",
@@ -919,7 +1017,8 @@
       "status": "machine",
       "srcHash": "59e5d2aba7243f21",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "f42b504278889623"
     },
     "r34c0": {
       "en": "<align=\"center\">Fabric Reagent (Qi Art)</align>",
@@ -928,16 +1027,18 @@
       "status": "machine",
       "srcHash": "8d39be15ebfb9a3c",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "8bfe79bc54a4d88f"
     },
     "r34c1": {
       "en": "The Martial Arts grant +1 <color=#6fb6ff><u><link=\"轻灵栏位\">Nimble Slot</link></u></color>\\u002c and increase the Power cap of all Martial Arts in Nimble Slots.",
       "cn": "功法额外提供1格<color=#6fb6ff><u><link=\"轻灵栏位\">轻灵栏位</link></u></color>，并增加轻灵栏位中所有功法的威力上限",
-      "ru": "Грант на обучение боевым искусствам +1 <color=#6fb6ff><u><link=\"轻灵栏位\">Проворный слот</link></u></color>\\u002c и увеличьте предел мощи всех боевых искусств в слотах Nimble.",
-      "status": "machine",
+      "ru": "Боевые искусства дают +1 <color=#6fb6ff><u><link=\"轻灵栏位\">Проворный слот</link></u></color>\\u002c и увеличивают предел мощи всех боевых искусств в проворных слотах.",
+      "status": "judged",
       "srcHash": "6a3a2a15fb1cca82",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "3a0b59d1f3733966"
     },
     "r34c2": {
       "en": "Martial Arts Power Cap Increase = Reagent Tier + 2\\u002c minimum 1",
@@ -946,7 +1047,8 @@
       "status": "machine",
       "srcHash": "59e5d2aba7243f21",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "f42b504278889623"
     },
     "r35c0": {
       "en": "<align=\"center\">Metal Reagent (Annihilation)</align>",
@@ -955,25 +1057,28 @@
       "status": "machine",
       "srcHash": "b8fee1745815816a",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "d4f6d0b840070fdd"
     },
     "r35c1": {
       "en": "Increases Annihilation's <color=#6fb6ff><u><link=\"直接伤害\">Direct DMG</link></u></color>",
       "cn": "提高摧破造成的<color=#6fb6ff><u><link=\"直接伤害\">直接伤害</link></u></color>",
-      "ru": "Увеличивает коэффициент сокрушения <color=#6fb6ff><u><link=\"直接伤害\">Прямой урон</link></u></color>",
-      "status": "machine",
+      "ru": "Увеличивает прямой урон сокрушения <color=#6fb6ff><u><link=\"直接伤害\">Прямой урон</link></u></color>",
+      "status": "judged",
       "srcHash": "0575fe302abb1b6b",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "cdb4ee297d8ce34a"
     },
     "r35c2": {
       "en": "Direct DMG Increase % = Reagent Tier + 3",
       "cn": "直接伤害提高% = 引子品级 + 3",
-      "ru": "Увеличение прямого урона DMG % = ранг реагента + 3",
-      "status": "machine",
+      "ru": "Увеличение прямого урона % = ранг реагента + 3",
+      "status": "judged",
       "srcHash": "e672d4e1f5ad0705",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "90b0a71721d0e5d7"
     },
     "r36c0": {
       "en": "<align=\"center\">Wood Reagent (Annihilation)</align>",
@@ -982,16 +1087,18 @@
       "status": "machine",
       "srcHash": "86cb47c44348dbcb",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "39100d7081612fa1"
     },
     "r36c1": {
       "en": "Increases Annihilation's <color=#6fb6ff><u><link=\"攻击范围\">Attack Range</link></u></color> (melee)",
       "cn": "增加摧破的<color=#6fb6ff><u><link=\"攻击范围\">攻击范围</link></u></color>（近）",
-      "ru": "Увеличивает коэффициент сокрушения <color=#6fb6ff><u><link=\"攻击范围\">Дальность атаки</link></u></color> (рукопашный бой)",
-      "status": "machine",
+      "ru": "Увеличивает дальность атаки сокрушения <color=#6fb6ff><u><link=\"攻击范围\">Дальность атаки</link></u></color> (рукопашный бой)",
+      "status": "judged",
       "srcHash": "67acbb49c442436b",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "c1d7c9da25796a7d"
     },
     "r36c2": {
       "en": "Attack range (melee) increase = Reagent Tier/10",
@@ -1000,7 +1107,8 @@
       "status": "machine",
       "srcHash": "ef3eb36d82c1816b",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "e1f386187a5c2e47"
     },
     "r37c0": {
       "en": "<align=\"center\">Jade Reagent (Annihilation)</align>",
@@ -1009,7 +1117,8 @@
       "status": "machine",
       "srcHash": "d31c08e01a6bdea0",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "b51ff974d575c1b3"
     },
     "r37c1": {
       "en": "Boosts Annihilation's Hit bonus.",
@@ -1018,7 +1127,8 @@
       "status": "machine",
       "srcHash": "e04980f1ecd20604",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "16217919f20a3316"
     },
     "r37c2": {
       "en": "Hit bonus increase % = Reagent Tier + 3",
@@ -1027,7 +1137,8 @@
       "status": "machine",
       "srcHash": "742618c786c083ca",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "341cee1c6ba5b675"
     },
     "r38c0": {
       "en": "<align=\"center\">Fabric Reagent (Annihilation)</align>",
@@ -1036,25 +1147,28 @@
       "status": "machine",
       "srcHash": "9bef916ab1008798",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "b58062b24e1113b3"
     },
     "r38c1": {
       "en": "Increases Annihilation's attack range (ranged).",
       "cn": "增加摧破的攻击范围（远）",
-      "ru": "Увеличивает дальность атаки сокрушением (ranged).",
-      "status": "machine",
+      "ru": "Увеличивает дальность атаки сокрушения (дальний бой).",
+      "status": "judged",
       "srcHash": "bed7582c5d86580e",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "f6aa75e27d366cf6"
     },
     "r38c2": {
       "en": "Attack range (ranged) increase = Reagent Tier/10",
       "cn": "攻击范围（远）增加 = 引子品级 ÷ 10",
-      "ru": "Увеличение дальности атаки = ранг реагента/10",
-      "status": "machine",
+      "ru": "Увеличение дальности атаки (дальний бой) = ранг реагента/10",
+      "status": "judged",
       "srcHash": "e0487fc977e2ced8",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "d615b6bd1fa62ddc"
     },
     "r39c0": {
       "en": "<align=\"center\">Metal Reagent (Footwork Arts)</align>",
@@ -1063,16 +1177,18 @@
       "status": "machine",
       "srcHash": "9ec57ad25df4da0f",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "761feb2cb1070b35"
     },
     "r39c1": {
       "en": "Boosts Footwork Arts' Hit bonus.",
       "cn": "提高身法的命中加成",
-      "ru": "Увеличивает бонус к попаданию в Footwork Arts.",
-      "status": "machine",
+      "ru": "Увеличивает бонус к попаданию искусств работы ногами.",
+      "status": "judged",
       "srcHash": "f62b03369cff9d5a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "d9938de5523eef8c"
     },
     "r39c2": {
       "en": "Hit bonus increase % = Reagent Tier + 3",
@@ -1081,7 +1197,8 @@
       "status": "machine",
       "srcHash": "742618c786c083ca",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "341cee1c6ba5b675"
     },
     "r40c0": {
       "en": "<align=\"center\">Wood Reagent (Footwork Arts)</align>",
@@ -1090,16 +1207,18 @@
       "status": "machine",
       "srcHash": "ab3e25069ed90a26",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "1c4181f162fccfb6"
     },
     "r40c1": {
       "en": "Reduces the sustained Footwork cost for Footwork Arts",
       "cn": "降低身法的持续脚力消耗",
-      "ru": "Снижает затраты на длительную работу ногами в области искусства работы ногами",
-      "status": "machine",
+      "ru": "Снижает затраты выносливости на поддержание искусств работы ногами",
+      "status": "judged",
       "srcHash": "00e9d61004677503",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "8e546879a214bb42"
     },
     "r40c2": {
       "en": "Stamina cost reduction % = Reagent Tier + 3",
@@ -1108,7 +1227,8 @@
       "status": "machine",
       "srcHash": "df41d6b60d06af73",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "ad6354630a7bc78e"
     },
     "r41c0": {
       "en": "<align=\"center\">Jade Reagent (Footwork Arts)</align>",
@@ -1117,16 +1237,18 @@
       "status": "machine",
       "srcHash": "392ea2a5755c97bc",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "57c516baedee3367"
     },
     "r41c1": {
       "en": "Reduces the movement Footwork cost for Footwork Arts",
       "cn": "降低身法的移动脚力消耗",
-      "ru": "Снижает затраты на передвижение и работу ногами в искусстве работы ногами",
-      "status": "machine",
+      "ru": "Снижает затраты выносливости на передвижение для искусств работы ногами",
+      "status": "judged",
       "srcHash": "5ae38df54e995ba3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "07e2f18111c08098"
     },
     "r41c2": {
       "en": "Stamina cost reduction % = Reagent Tier + 3",
@@ -1135,7 +1257,8 @@
       "status": "machine",
       "srcHash": "df41d6b60d06af73",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "ad6354630a7bc78e"
     },
     "r42c0": {
       "en": "<align=\"center\">Fabric Reagent (Footwork Arts)</align>",
@@ -1144,16 +1267,18 @@
       "status": "machine",
       "srcHash": "4177b0f1e1398c38",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "66af35e2a29a49ab"
     },
     "r42c1": {
       "en": "Reduces the Stamina required to cast Footwork Arts.",
       "cn": "降低身法施展需要的脚力消耗",
-      "ru": "Снижает выносливость, необходимую для применения техники работы ногами.",
-      "status": "machine",
+      "ru": "Снижает затраты выносливости на применение искусств работы ногами.",
+      "status": "judged",
       "srcHash": "c240084fce82888e",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "dce6337d214171e9"
     },
     "r42c2": {
       "en": "Footwork Cost Reduction% = (Reagent Tier + 3) × 2",
@@ -1162,7 +1287,8 @@
       "status": "machine",
       "srcHash": "0706c8aa48c7486d",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "9cc309e565512c20"
     },
     "r43c0": {
       "en": "<align=\"center\">Metal Reagent (Protection)</align>",
@@ -1171,7 +1297,8 @@
       "status": "machine",
       "srcHash": "a6ac76d9cbd25f56",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "0a81853bfc7e9a6e"
     },
     "r43c1": {
       "en": "Increases Protection's Defense bonus.",
@@ -1180,7 +1307,8 @@
       "status": "machine",
       "srcHash": "1f55b1ff11c889fe",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "7e961c5d79c5d2b6"
     },
     "r43c2": {
       "en": "Defense increase % = Reagent Tier + 3",
@@ -1189,7 +1317,8 @@
       "status": "machine",
       "srcHash": "ab443b112f43f3da",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "483e05efbbdbb10f"
     },
     "r44c0": {
       "en": "<align=\"center\">Wood Reagent (Protection)</align>",
@@ -1198,25 +1327,28 @@
       "status": "machine",
       "srcHash": "cf0ef05c0cba1ec5",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "c21c50e9a6abc2b4"
     },
     "r44c1": {
       "en": "Increase the technique's <color=#6fb6ff><u><link=\"反击\">Counterattack</link></u></color> power",
       "cn": "提高功法的<color=#6fb6ff><u><link=\"反击\">反击</link></u></color>威力",
-      "ru": "Увеличьте эффективность техники <color=#6fb6ff><u><link=\"反击\">Контратака</link></u></color> сила",
-      "status": "machine",
+      "ru": "Увеличьте силу контратаки техники <color=#6fb6ff><u><link=\"反击\">Контратака</link></u></color>",
+      "status": "judged",
       "srcHash": "356919d4e9a7cdb7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "eb47abeca3e4eeac"
     },
     "r44c2": {
       "en": "Counter Power Increase% = (Reagent Tier + 3) × 2",
       "cn": "反击威力提高% = (引子品级 + 3) × 2",
-      "ru": "Увеличение мощности счетчика% = (ранг реагента + 3) × 2",
-      "status": "machine",
+      "ru": "Увеличение мощности контратаки% = (ранг реагента + 3) × 2",
+      "status": "judged",
       "srcHash": "fb7b5b6f68965cbe",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "2ff9cc5abfc9f12d"
     },
     "r45c0": {
       "en": "<align=\"center\">Jade Reagent (Protection)</align>",
@@ -1225,16 +1357,18 @@
       "status": "machine",
       "srcHash": "e3faaa1906b92c9c",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "da20979cf06489c4"
     },
     "r45c1": {
       "en": "Increase the technique's <color=#6fb6ff><u><link=\"反震\">Reflection</link></u></color> power",
       "cn": "提高功法的<color=#6fb6ff><u><link=\"反震\">反震</link></u></color>威力",
-      "ru": "Увеличьте эффективность техники <color=#6fb6ff><u><link=\"反震\">Отражение</link></u></color> сила",
-      "status": "machine",
+      "ru": "Увеличивает мощь техники <color=#6fb6ff><u><link=\"反震\">Отражение</link></u></color>",
+      "status": "judged",
       "srcHash": "6a61f83351b053f1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "868a292f5103f21a"
     },
     "r45c2": {
       "en": "Reflection Power Increase% = (Reagent Tier + 3) × 2",
@@ -1243,7 +1377,8 @@
       "status": "machine",
       "srcHash": "dd3ff36bd30b5df2",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "9d5d868820085513"
     },
     "r46c0": {
       "en": "<align=\"center\">Fabric Reagent (Protection)</align>",
@@ -1252,7 +1387,8 @@
       "status": "machine",
       "srcHash": "ecae157df1007076",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "9386b194d661e00a"
     },
     "r46c1": {
       "en": "Increases Protection's Deflect bonus",
@@ -1261,7 +1397,8 @@
       "status": "machine",
       "srcHash": "36ef743fddffbfb3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "5217aa5fc095936b"
     },
     "r46c2": {
       "en": "Deflect increase % = Reagent Tier + 3",
@@ -1270,7 +1407,8 @@
       "status": "machine",
       "srcHash": "e9c779b6600eca4a",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "6a234663a1563b9c"
     },
     "r47c0": {
       "en": "<align=\"center\">Metal Reagent (Acumen)</align>",
@@ -1279,7 +1417,8 @@
       "status": "machine",
       "srcHash": "26fd59ff8179d451",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "a963af525075b091"
     },
     "r47c1": {
       "en": "The technique's practice effects (Force and Resistance) gain an additional bonus.",
@@ -1297,16 +1436,18 @@
       "status": "machine",
       "srcHash": "5c7ef2cca556e181",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "43e4aeb7b15f02e7"
     },
     "r48c0": {
       "en": "<align=\"center\">Wood Reagent (Acumen)</align>",
       "cn": "<align=\"center\">木材引子（奇窍）</align>",
-      "ru": "<align=\"center\">Реагент для древесины (Acumen)</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Реагент для древесины (проницательность)</align>",
+      "status": "judged",
       "srcHash": "5196cee09b8a1081",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "ed2ec85b97c5d16a"
     },
     "r48c1": {
       "en": "The technique's practice effects (Precision and Parry) gain an additional bonus.",
@@ -1324,7 +1465,8 @@
       "status": "machine",
       "srcHash": "5c7ef2cca556e181",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "43e4aeb7b15f02e7"
     },
     "r49c0": {
       "en": "<align=\"center\">Jade Reagent (Acumen)</align>",
@@ -1333,7 +1475,8 @@
       "status": "machine",
       "srcHash": "66ca34a504b2a011",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "44ced83f727c75a8"
     },
     "r49c1": {
       "en": "The technique's practice effects (Sway and Poise) gain an additional bonus.",
@@ -1351,16 +1494,18 @@
       "status": "machine",
       "srcHash": "5c7ef2cca556e181",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "43e4aeb7b15f02e7"
     },
     "r50c0": {
       "en": "<align=\"center\">Fabric Reagent (Acumen)</align>",
       "cn": "<align=\"center\">织物引子（奇窍）</align>",
-      "ru": "<align=\"center\">Тканевый реагент (Acumen)</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Тканевый реагент (проницательность)</align>",
+      "status": "judged",
       "srcHash": "3c173144e73ff379",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "36b913f08922b999"
     },
     "r50c1": {
       "en": "The technique's practice effects (Dexterity and Dodge) gain an additional bonus.",
@@ -1378,7 +1523,8 @@
       "status": "machine",
       "srcHash": "5c7ef2cca556e181",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "43e4aeb7b15f02e7"
     },
     "r51c0": {
       "en": "<align=\"center\">Dish</align>",
@@ -1387,7 +1533,8 @@
       "status": "machine",
       "srcHash": "ef00c0f66acf5f90",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "49c25bb6c68634a4"
     },
     "r51c1": {
       "en": "Grants the technique an effect that increases corresponding primary attributes",
@@ -1396,16 +1543,18 @@
       "status": "machine",
       "srcHash": "25fb844069b82fcc",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "975ff46a217c923f"
     },
     "r51c2": {
       "en": "Primary Attributes increase = Dish Recovery Attribute/10 (rounded down)",
       "cn": "主要属性增加 = 菜肴恢复的属性 ÷ 10（向下取整）",
-      "ru": "Увеличение основных характеристик = Характеристика восстановления посуды/10 (округлено в меньшую сторону)",
-      "status": "machine",
+      "ru": "Увеличение основных характеристик = характеристика восстановления блюда/10 (округлено в меньшую сторону)",
+      "status": "judged",
       "srcHash": "32406b957daa6334",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "d15efe3f38df03da"
     },
     "r52c0": {
       "en": "<align=\"center\">Fruit</align>",
@@ -1414,7 +1563,8 @@
       "status": "machine",
       "srcHash": "817a0e01a17c0421",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "810899360edda562"
     },
     "r52c1": {
       "en": "Increases the Qi Cap obtainable from <color=#6fb6ff><u><link=\"周天运转\">Microcosmic Circulation</link></u></color> (Qi Art only).",
@@ -1423,7 +1573,8 @@
       "status": "machine",
       "srcHash": "705cef1e84dc5791",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "f7b3402d2178960e"
     },
     "r52c2": {
       "en": "Qi Growth Cap Increase = (Fruit Tier + 2) × 10",
@@ -1432,7 +1583,8 @@
       "status": "machine",
       "srcHash": "08a45f8067ceb636",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "c8ba9463e04dcc99"
     },
     "r53c0": {
       "en": "<align=\"center\">Tea</align>",
@@ -1441,7 +1593,8 @@
       "status": "machine",
       "srcHash": "fae96bb57e2e0946",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2f131703ef9b8a47"
     },
     "r53c1": {
       "en": "Grants the practice an effect that increases <color=#6fb6ff><u><link=\"调息吐纳\">Breath Control</link></u></color>",
@@ -1450,7 +1603,8 @@
       "status": "machine",
       "srcHash": "d3a9687f6d9e884e",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "743ea476b13974d1"
     },
     "r53c2": {
       "en": "Breath Control Increase = Tea Tier + 2",
@@ -1459,7 +1613,8 @@
       "status": "machine",
       "srcHash": "1dc5d924357a9302",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "472e51daeb019376"
     },
     "r54c0": {
       "en": "<align=\"center\">Wine</align>",
@@ -1468,7 +1623,8 @@
       "status": "machine",
       "srcHash": "0db94662ed9a08db",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ecba1db5435d37e8"
     },
     "r54c1": {
       "en": "Grants the practice an effect that increases <color=#6fb6ff><u><link=\"内功发挥\">Qi Art Efficacy</link></u></color>",
@@ -1477,7 +1633,8 @@
       "status": "machine",
       "srcHash": "d5e7aa09080f9e9c",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "e96cea1dba63be4a"
     },
     "r54c2": {
       "en": "Qi Art Efficacy increase = Liquor Tier + 2",
@@ -1486,16 +1643,18 @@
       "status": "machine",
       "srcHash": "5938688ef78c3140",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "645403b2815f96a2"
     },
     "r55c0": {
       "en": "<align=\"center\">Souldew</align>",
       "cn": "<align=\"center\">血露</align>",
-      "ru": "<align=\"center\">Плесень</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Кровавая роса</align>",
+      "status": "judged",
       "srcHash": "3b4f3dfce0fcaa3a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "721c79854623f13f"
     },
     "r55c1": {
       "en": "Expands the adjustable range of <color=#6fb6ff><u><link=\"内外功比例\">Qi/Physical Martial Arts Ratio</link></u></color> in techniques",
@@ -1504,16 +1663,18 @@
       "status": "machine",
       "srcHash": "b4697b3551ecd7f5",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "65da79c121bd22f6"
     },
     "r55c2": {
       "en": "Adjustable range increase = (Souldew Tier + 2) × 2",
       "cn": "可调节范围增加 = (血露品级 + 2) × 2",
-      "ru": "Регулируемое увеличение дальности = (новый ранг + 2) × 2",
-      "status": "machine",
+      "ru": "Увеличение диапазона регулировки = (ранг кровавой росы + 2) × 2",
+      "status": "judged",
       "srcHash": "f6a442679679dece",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "00bae0331037b178"
     }
   }
 }

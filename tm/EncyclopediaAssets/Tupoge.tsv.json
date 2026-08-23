@@ -10,25 +10,28 @@
       "status": "machine",
       "srcHash": "f24081339fcd0856",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "914cfc99b3585980"
     },
     "r0c1": {
       "en": "When this node is connected\\u002c all adjacent nodes get a 30% higher connection rate.",
       "cn": "打通此格时，周围所有格子的打通成功率提高30%。",
-      "ru": "Когда этот узел подключен\\u002c все соседние узлы получают на 30% более высокую скорость подключения.",
-      "status": "machine",
+      "ru": "При подключении этого узла вероятность успешного соединения всех соседних узлов повышается на 30%.",
+      "status": "judged",
       "srcHash": "91cac92b6d20ab01",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "aa9bf4038dd8ffe4"
     },
     "r1c0": {
       "en": "<align=\"center\">Immersion</align>",
       "cn": "<align=\"center\">蕴海</align>",
-      "ru": "<align=\"center\">Погружение</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Море накоплений</align>",
+      "status": "judged",
       "srcHash": "935d55a25a5dadb8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "cd467535a0011b82"
     },
     "r1c1": {
       "en": "When this node is connected\\u002c the next connection target must be a Breakthrough node with a distance of 2.",
@@ -37,7 +40,8 @@
       "status": "machine",
       "srcHash": "a960fafa9ec569f5",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "b5cab404a7a720b5"
     },
     "r2c0": {
       "en": "<align=\"center\">Oligomerization</align>",
@@ -46,7 +50,8 @@
       "status": "machine",
       "srcHash": "17428d9f2768fe4e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "a8be5a27c6330051"
     },
     "r2c1": {
       "en": "When this node is connected\\u002c all adjacent Normal nodes change into random Special Breakthrough nodes.",
@@ -55,43 +60,48 @@
       "status": "machine",
       "srcHash": "62f7398d364416a2",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "ef61d702386cf45e"
     },
     "r3c0": {
       "en": "<align=\"center\">Sacrifice</align>",
       "cn": "<align=\"center\">破立</align>",
-      "ru": "<align=\"center\">Жертва</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Разрушение и созидание</align>",
+      "status": "judged",
       "srcHash": "8bfd9989610cdb30",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "655366b0b39121ee"
     },
     "r3c1": {
       "en": "This node's connection rate decreases by 100%. All adjacent nodes' connection rate increases by 60%.",
       "cn": "此格的打通成功率降低100%。此格周围所有格子的打通成功率提高60%。",
-      "ru": "Скорость подключения этого узла снижается на 100%. Скорость подключения всех соседних узлов увеличивается на 60%.",
-      "status": "machine",
+      "ru": "Вероятность успешного соединения этого узла снижается на 100%. Вероятность успешного соединения всех соседних узлов повышается на 60%.",
+      "status": "judged",
       "srcHash": "155dedfff881272a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "5237330d5496dd99"
     },
     "r4c0": {
       "en": "<align=\"center\">Association</align>",
       "cn": "<align=\"center\">不息</align>",
-      "ru": "<align=\"center\">Ассоциация</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Неугасание</align>",
+      "status": "judged",
       "srcHash": "c060488355e39ede",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "12afafdb41d05039"
     },
     "r4c1": {
       "en": "This node grants a 100% connection rate for the next node.",
       "cn": "与此格相连的下1个格子必然可以打通。",
-      "ru": "Этот узел предоставляет 100%-ную скорость подключения для следующего узла.",
-      "status": "machine",
+      "ru": "Этот узел гарантирует 100%-ное подключение следующего узла.",
+      "status": "judged",
       "srcHash": "2ae3c7e0de3b2981",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "02cbe1283341c43d"
     },
     "r5c0": {
       "en": "<align=\"center\">Inspiration</align>",
@@ -100,43 +110,48 @@
       "status": "machine",
       "srcHash": "830de17d5d389000",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "db19799833c58dcb"
     },
     "r5c1": {
       "en": "Connecting to this node does not consume Max Capacity or Deviation cap.",
       "cn": "连接此格不会消耗天资上限或入魔上限。",
-      "ru": "Подключение к этому узлу не потребляет максимальную пропускную способность или ограничение по отклонению.",
-      "status": "machine",
+      "ru": "Подключение к этому узлу не расходует предел таланта или предел отклонения.",
+      "status": "judged",
       "srcHash": "dcc3f2c13375036b",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "9735792426f36a67"
     },
     "r6c0": {
       "en": "<align=\"center\">Fixation</align>",
       "cn": "<align=\"center\">忘我</align>",
-      "ru": "<align=\"center\">Фиксация</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Забвение себя</align>",
+      "status": "judged",
       "srcHash": "48c1d522f1c925a5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "9a5a9596bc9f54b0"
     },
     "r6c1": {
       "en": "This node's connection success rate decreases by 30%\\u002c but connecting does not consume Max Capacity or Deviation Cap. When this node is connected\\u002c transforms 1 random adjacent \"Normal\" node into a \"Fixation\" node.",
       "cn": "此格的打通成功率降低30%，但不会消耗天资上限或入魔上限。打通此格时，将周围随机1个“如常”格变化为“忘我”。",
-      "ru": "Вероятность успешного подключения к этому узлу снижается на 30%\\u002c но при подключении не потребляется максимальная мощность или ограничение на отклонение. Когда этот узел подключен\\u002c преобразует 1 случайный соседний \"Нормальный\" узел в узел \"Фиксации\".",
-      "status": "machine",
+      "ru": "Вероятность успешного подключения этого узла снижается на 30%\\u002c но подключение не расходует максимальную вместимость или предел отклонения. При подключении этого узла 1 случайный соседний \"Нормальный\" узел превращается в узел \"Фиксация\".",
+      "status": "judged",
       "srcHash": "44d56600b9de245a",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "919059467cec89bf"
     },
     "r7c0": {
       "en": "<align=\"center\">Contrarian</align>",
       "cn": "<align=\"center\">逆行</align>",
-      "ru": "<align=\"center\">Противоречивый</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Обратный ход</align>",
+      "status": "judged",
       "srcHash": "a879eb4557bcd5ac",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "9c91cc8f8b9f54a8"
     },
     "r7c1": {
       "en": "This node's connection rate decreases by 60%. When this node is connected\\u002c Max Capacity +3.",
@@ -150,11 +165,12 @@
     "r8c0": {
       "en": "<align=\"center\">Conformity</align>",
       "cn": "<align=\"center\">循序</align>",
-      "ru": "<align=\"center\">Соответствие</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Последовательность</align>",
+      "status": "judged",
       "srcHash": "43fac6c2803e10d8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "42b8ab8caa4e94ad"
     },
     "r8c1": {
       "en": "This node's connection rate decreases by 60%. For each connected adjacent Breakthrough node\\u002c this node's connection rate increases by 20%\\u002c and Power cap +1.",
@@ -172,16 +188,18 @@
       "status": "machine",
       "srcHash": "fa88defce975916b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b065f5afe40c10ca"
     },
     "r9c1": {
       "en": "Connecting this node reduces the connection rate of adjacent Breakthrough nodes by 50%\\u002c but grants Power Cap +2. If the attempt fails\\u002c the node becomes connectable again.",
       "cn": "打通此格时，周围突破格的打通成功率降低50%，威力上限+2，并且在打通失败时会重新变成可连接状态。",
-      "ru": "Подключение этого узла снижает скорость подключения соседних узлов прорыва на 50%\\u002c но дает предел мощи +2. Если попытка завершится неудачей\\u002c узел снова становится подключаемым.",
-      "status": "machine",
+      "ru": "Подключение этого узла снижает вероятность успешного подключения соседних узлов прорыва на 50%\\u002c но даёт предел мощи +2. Если попытка завершится неудачей\\u002c узел снова становится подключаемым.",
+      "status": "judged",
       "srcHash": "f6fbcbd69d0d0c2e",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "ecda1756b0061299"
     },
     "r10c0": {
       "en": "<align=\"center\">Clarity</align>",
@@ -190,7 +208,8 @@
       "status": "machine",
       "srcHash": "2c50cef34e275a66",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "7fce266d2c2f084c"
     },
     "r10c1": {
       "en": "When this node is connected\\u002c multiple hidden nodes are revealed.",
@@ -199,16 +218,18 @@
       "status": "machine",
       "srcHash": "81a33ee9ae4ae633",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "62ac3271999e0bd6"
     },
     "r11c0": {
       "en": "<align=\"center\">Crisis</align>",
       "cn": "<align=\"center\">奇劫</align>",
-      "ru": "<align=\"center\">Кризис</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Необычное бедствие</align>",
+      "status": "judged",
       "srcHash": "2b7239ef86f75d74",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "2c9ce596830996c7"
     },
     "r11c1": {
       "en": "When this node is connected\\u002c 3 random adjacent nodes turn into a failed state and their Power Caps are transferred to this node.",
@@ -217,34 +238,38 @@
       "status": "machine",
       "srcHash": "2e1adf3671357e06",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "0f68e59d196d3c9a"
     },
     "r12c0": {
       "en": "<align=\"center\">Normalization</align>",
       "cn": "<align=\"center\">归心</align>",
-      "ru": "<align=\"center\">Нормализация</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Возвращение к сердцу</align>",
+      "status": "judged",
       "srcHash": "498ce7fa8189e096",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "d19f7701c0929633"
     },
     "r12c1": {
       "en": "This node's connection rate increases by 30%. When this node is connected\\u002c all adjacent Special Breakthrough nodes turn into Normal nodes.",
       "cn": "此格的打通成功率提高30%。打通此格时，此格周围的所有“特殊突破格”变化为“如常”。",
-      "ru": "Скорость подключения этого узла увеличивается на 30%. Когда этот узел подключен\\u002c все соседние специальные узлы прорыва превращаются в обычные узлы.",
-      "status": "machine",
+      "ru": "Вероятность успешного подключения к этому узлу повышается на 30%. При подключении этого узла все соседние узлы особого прорыва превращаются в обычные узлы.",
+      "status": "judged",
       "srcHash": "82228e5304640fb7",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "f34e11bf9e8bac66"
     },
     "r13c0": {
       "en": "<align=\"center\">Altruism</align>",
       "cn": "<align=\"center\">嫁衣</align>",
-      "ru": "<align=\"center\">Альтруизм</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Свадебная одежда</align>",
+      "status": "judged",
       "srcHash": "62ea2d432a2b558c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "bbef0a9880bfbcce"
     },
     "r13c1": {
       "en": "When this node is connected\\u002c Power Cap +1 to all adjacent Breakthrough nodes.",
@@ -258,11 +283,12 @@
     "r14c0": {
       "en": "<align=\"center\">Silence</align>",
       "cn": "<align=\"center\">寂灭</align>",
-      "ru": "<align=\"center\">Тишина</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Угасание</align>",
+      "status": "judged",
       "srcHash": "284be1a1ea93a967",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "a33e7ee11b5a4002"
     },
     "r14c1": {
       "en": "When this node is connected\\u002c Max Capacity +3\\u002c and the Power Cap of all adjacent Breakthrough nodes change to 0.",
@@ -271,25 +297,28 @@
       "status": "machine",
       "srcHash": "af6456f3401cdf40",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "2b7474780b9662fd"
     },
     "r15c0": {
       "en": "<align=\"center\">Abundance</align>",
       "cn": "<align=\"center\">焚心</align>",
-      "ru": "<align=\"center\">Изобилие</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Жжение сердца</align>",
+      "status": "judged",
       "srcHash": "bd65a0041b9c0419",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "f2a7f999685ad2f8"
     },
     "r15c1": {
       "en": "The more your current Capacity exceeds half of the Max Capacity\\u002c the higher the connection rate granted to the node and all nodes around it.",
       "cn": "当前天资超过天资上限的一半越多，此格及此格周围所有格子的打通成功率就提高越多。",
-      "ru": "Чем больше ваша текущая емкость превышает половину максимальной емкости\\u002c тем выше скорость соединения, предоставляемая узлу и всем узлам вокруг него.",
-      "status": "machine",
+      "ru": "Чем сильнее текущий талант превышает половину предела таланта\\u002c тем выше вероятность успешного подключения к этому узлу и всем узлам вокруг него.",
+      "status": "judged",
       "srcHash": "f8c878c8425e9127",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "8f73ff6585b85cd5"
     },
     "r16c0": {
       "en": "<align=\"center\">Ambition</align>",
@@ -298,25 +327,28 @@
       "status": "machine",
       "srcHash": "7eb72057bfd6aeb1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "c1ad428a5f1007ae"
     },
     "r16c1": {
       "en": "The further your current Capacity is below half of the Max Capacity\\u002c the higher the connection rate granted to the node and all nodes around it.",
       "cn": "当前天资相比天资上限的一半越少，此格及此格周围所有格子的打通成功率就提高越多。",
-      "ru": "Чем дальше ваша текущая емкость становится ниже половины максимальной емкости\\u002c тем выше скорость соединения, предоставляемая узлу и всем узлам вокруг него.",
-      "status": "machine",
+      "ru": "Чем сильнее текущий талант ниже половины предела таланта\\u002c тем выше вероятность успешного подключения к этому узлу и всем узлам вокруг него.",
+      "status": "judged",
       "srcHash": "4a899c1bf7f0a338",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "3c05e54e0b251ea8"
     },
     "r17c0": {
       "en": "<align=\"center\">Ingenuity</align>",
       "cn": "<align=\"center\">诀窍</align>",
-      "ru": "<align=\"center\">Изобретательность</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Секретный приём</align>",
+      "status": "judged",
       "srcHash": "39698540e601653b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "29bdeb311f05bf30"
     },
     "r17c1": {
       "en": "When this node is connected\\u002c for your next connection\\u002c you can select any \"Ingenuity\" Breakthrough node as the target.",
@@ -325,7 +357,8 @@
       "status": "machine",
       "srcHash": "e9feaba1c0a40fa4",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "c42bdc336636574c"
     },
     "r18c0": {
       "en": "<align=\"center\">Comprehension</align>",
@@ -334,34 +367,38 @@
       "status": "machine",
       "srcHash": "8ba8795baed46a17",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "3145a852eafb7e0f"
     },
     "r18c1": {
       "en": "Everything in this node has been memorized. This node is guaranteed a successful connection.",
       "cn": "已熟知此格的要领。此格必然可以连接成功。",
-      "ru": "Все, что находится в этом узле, было запомнено. Этому узлу гарантировано успешное подключение.",
-      "status": "machine",
+      "ru": "Суть этого узла уже освоена. Подключение этого узла гарантированно будет успешным.",
+      "status": "judged",
       "srcHash": "b3b65bee763c3140",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "0509128187d27f20"
     },
     "r19c0": {
       "en": "<align=\"center\">Mishap</align>",
       "cn": "<align=\"center\">覆辙</align>",
-      "ru": "<align=\"center\">Неудача</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Прежняя ошибка</align>",
+      "status": "judged",
       "srcHash": "e84e5d357778b0d1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "313f791428e6d71d"
     },
     "r19c1": {
       "en": "Suffered setbacks at this node. This node's connection rate increases by 100%\\u002c but Health decreases whether the connection succeeds or fails.",
       "cn": "曾在此格遭受挫折。此格的打通成功率提高100%，但连接此格无论成功或失败均会损失一定的健康。",
-      "ru": "Потерпел неудачу на этом узле. Скорость подключения этого узла увеличивается на 100%\\u002c но здоровье снижается независимо от того, успешно ли установлено соединение или нет.",
-      "status": "machine",
+      "ru": "На этом узле уже были перенесены неудачи. Вероятность успешного подключения к этому узлу повышается на 100%\\u002c но при любом результате подключения теряется здоровье.",
+      "status": "judged",
       "srcHash": "618c783b367a0c9e",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "3ee13732891db714"
     }
   }
 }

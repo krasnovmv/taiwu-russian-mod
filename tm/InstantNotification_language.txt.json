@@ -3236,7 +3236,8 @@
       "status": "machine",
       "srcHash": "68a74aade248683a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "945aa0712c7280b8"
     },
     "Name_324": {
       "en": "Took the Fall",
@@ -3294,7 +3295,8 @@
       "status": "machine",
       "srcHash": "da76bbc4876448ce",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-07-10T20:59:06.747Z",
+      "judgeHash": "27d994f59b2070ea"
     },
     "Name_330": {
       "en": "Dampened Longevity",
@@ -3333,7 +3335,8 @@
       "status": "machine",
       "srcHash": "68a74aade248683a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "945aa0712c7280b8"
     },
     "Name_334": {
       "en": "Took the Fall",
@@ -3637,11 +3640,12 @@
     "SimpleDesc_28": {
       "en": "{0}'s <color=#ffffff>Mood</color> has <color=#red>declined</color>...",
       "cn": "{0}的<color=#ffffff>心情</color><color=#red>下降</color>…",
-      "ru": "{0}'s <color=#ffffff>Настроение</color> имеет <color=#red>отклонено</color>...",
-      "status": "machine",
+      "ru": "{0}, <color=#ffffff>Настроение</color> <color=#red>ухудшилось</color>…",
+      "status": "judged",
       "srcHash": "36bb438430a10c6b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "91a4300b89777017"
     },
     "SimpleDesc_29": {
       "en": "<color=#ffffff>Favorability</color> of {1} toward {2} has <color=#lightblue>increased</color>...",
@@ -7015,11 +7019,12 @@
     "Desc_31": {
       "en": "{0}'s <color=#ffffff>Favorability</color> toward {1} has <color=#lightblue>increased</color>, their relationship has become {2}...",
       "cn": "{0}对{1}的<color=#ffffff>好感</color><color=#lightblue>上升</color>，与{1}的关系变为了{2}…",
-      "ru": "{0}'s <color=#ffffff>Благосклонность</color> навстречу {1} имеет <color=#lightblue>увеличенный</color>, их отношения стали {2}...",
-      "status": "machine",
+      "ru": "{0}: <color=#ffffff>Благосклонность</color> к {1} <color=#lightblue>повысилась</color>, их отношения стали {2}…",
+      "status": "judged",
       "srcHash": "1588e3a52c9bbf6d",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "73ec416cdc8d0600"
     },
     "Desc_32": {
       "en": "{0}'s <color=#ffffff>Favorability</color> toward {1} has <color=#brightred>decreased</color>, their relationship has become {2}...",
@@ -7330,11 +7335,12 @@
     "Desc_63": {
       "en": "{2}'s <color=#ffffff>mood</color> <color=#lightblue>improved</color> upon hearing that {0} had passed away in {1}...",
       "cn": "听闻{0}在{1}离开人世，{2}的<color=#ffffff>心情</color><color=#lightblue>上升</color>…",
-      "ru": "{2}'s <color=#ffffff>настроение</color> <color=#lightblue>улучшенный</color> услышав это {0} скончался в {1}...",
-      "status": "machine",
+      "ru": "Услышав, что {0} скончался в {1}, <color=#ffffff>настроение</color> {2} <color=#lightblue>улучшилось</color>…",
+      "status": "judged",
       "srcHash": "960376ae8d0bbcab",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "ab3e87e639dd17ba"
     },
     "Desc_64": {
       "en": "{2}'s <color=#ffffff>mood</color> <color=#brightred>declined</color> upon hearing that {0} got a serendipity in {1}...",
@@ -9918,11 +9924,12 @@
     "Desc_323": {
       "en": "Due to the Candelor's Tail Divine Sword effect, {0}'s Health Status was transferred to nearby characters...",
       "cn": "由于解龙魄神剑效果，{0}所受伤病转移至附近其他人物…",
-      "ru": "Благодаря эффекту Божественного меча в хвосте Канделора, {0}Статус здоровья был передан ближайшим персонажам...",
-      "status": "machine",
+      "ru": "Из-за эффекта Божественного меча Освобождения души дракона состояние здоровья {0} было передано ближайшим персонажам…",
+      "status": "judged",
       "srcHash": "c9dc3ee23bfc36c6",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "3a62cd59be35c51a"
     },
     "Desc_324": {
       "en": "Due to the Candelor's Tail Divine Sword effect, {0} took on the Health Status of nearby characters...",

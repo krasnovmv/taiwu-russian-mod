@@ -6,11 +6,12 @@
     "r0c0": {
       "en": "<align=\"center\">Fractured Bones</align>",
       "cn": "<align=\"center\">裂皮碎骨</align>",
-      "ru": "<align=\"center\">Переломанные кости</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Разодранная кожа и раздробленные кости</align>",
+      "status": "judged",
       "srcHash": "7266effab27de266",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "7aeff0f4b39cff38"
     },
     "r0c1": {
       "en": "<align=\"center\">Acritoxin-Pyrotoxin-Necrotoxin</align>",
@@ -19,25 +20,28 @@
       "status": "machine",
       "srcHash": "700fab50a6256495",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "475109ef57a9ea92"
     },
     "r0c2": {
       "en": "When Acritoxin or Pyrotoxin bursts\\u002c it inflicts a number of <color=#6fb6ff><u><link=\"重创标记\">Wound Markers</link></u></color> equal to the current Necrotoxin level.",
       "cn": "当烈毒或赤毒发作时，人物产生<color=#6fb6ff><u><link=\"重创标记\">重创标记</link></u></color>，标记数量=所中腐毒等级",
-      "ru": "При взрыве акритоксина или пиротоксина\\u002c это причиняет ряд <color=#6fb6ff><u><link=\"重创标记\">Маркеры ран</link></u></color> равен текущему уровню некротоксина.",
-      "status": "machine",
+      "ru": "При взрыве акритоксина или пиротоксина персонаж получает количество <color=#6fb6ff><u><link=\"重创标记\">маркеров ран</link></u></color>, равное текущему уровню некротоксина.",
+      "status": "judged",
       "srcHash": "dc5d99f99fbf1788",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "2ebc9b96d5e17d57"
     },
     "r0c3": {
       "en": "When the month advances\\u002c the character's <color=#6fb6ff><u><link=\"健康\">Health</link></u></color> decreases by the sum of corresponding Poison Levels × 12.",
       "cn": "月份更替时，人物的<color=#6fb6ff><u><link=\"健康\">健康</link></u></color>减少=对应毒素等级之和×12",
-      "ru": "Когда наступит месяц\\u002c имя персонажа <color=#6fb6ff><u><link=\"健康\">Здоровье</link></u></color> уменьшается на сумму соответствующих уровней яда × 12.",
-      "status": "machine",
+      "ru": "При смене месяца <color=#6fb6ff><u><link=\"健康\">здоровье</link></u></color> персонажа уменьшается на сумму соответствующих уровней яда × 12.",
+      "status": "judged",
       "srcHash": "94e72e0b3392ef31",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "ccce91040c4eee97"
     },
     "r1c0": {
       "en": "<align=\"center\">Ruptured Heart</align>",
@@ -46,7 +50,8 @@
       "status": "machine",
       "srcHash": "115597e4df87762a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "bec15014442b104b"
     },
     "r1c1": {
       "en": "<align=\"center\">Acritoxin-Necrotoxin-Oneirotoxin</align>",
@@ -55,25 +60,28 @@
       "status": "machine",
       "srcHash": "acb33fe5f2d6a2dd",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "2fcc7010a0ad7094"
     },
     "r1c2": {
       "en": "When Acritoxin bursts\\u002c the character's Footwork Arts are dispelled\\u002c and 1 random Footwork Art is sealed for (Necrotoxin + Oneirotoxin levels) × 10 seconds.",
       "cn": "当烈毒发作时，人物的身法将被消除，且人物的1个随机身法被封禁，封禁时间（秒）=所中腐毒、幻毒等级之和×10",
-      "ru": "Когда акритоксин взрывается\\u002c способность персонажа к технике передвижения по земле развеяна\\u002c и 1 случайная техника передвижения запечатывается на (уровни некротоксина + онейротоксина) × 10 секунд.",
-      "status": "machine",
+      "ru": "Когда акритоксин взрывается, техники передвижения персонажа развеиваются, а одна случайная техника передвижения запечатывается на (уровни некротоксина + онейротоксина) × 10 секунд.",
+      "status": "judged",
       "srcHash": "b783d8bf67c58f15",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "2cb861f3259f2693"
     },
     "r1c3": {
       "en": "While it's active\\u002c the character's <color=#6fb6ff><u><link=\"轻灵栏位\">Nimble Slots</link></u></color> decrease by the sum of corresponding Poison Levels ÷ 3 (rounded down).",
       "cn": "持续期间，减少人物的<color=#6fb6ff><u><link=\"轻灵栏位\">轻灵栏位</link></u></color>=对应毒素等级之和÷3（向下取整）",
-      "ru": "Пока он активен\\u002c имя персонажа <color=#6fb6ff><u><link=\"轻灵栏位\">Проворные слоты</link></u></color> уменьшите на сумму соответствующих уровней яда ÷ 3 (округлено в меньшую сторону).",
-      "status": "machine",
+      "ru": "Пока эффект активен, <color=#6fb6ff><u><link=\"轻灵栏位\">проворные слоты</link></u></color> персонажа уменьшаются на сумму соответствующих уровней яда ÷ 3 (с округлением вниз).",
+      "status": "judged",
       "srcHash": "b6a73abb3b966af2",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "8d45c22150e5c2ac"
     },
     "r2c0": {
       "en": "<align=\"center\">Tangled Tendons</align>",
@@ -82,7 +90,8 @@
       "status": "machine",
       "srcHash": "4572317a72881b59",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "213119782074383e"
     },
     "r2c1": {
       "en": "<align=\"center\">Acritoxin-Umbritoxin-Necrotoxin</align>",
@@ -91,25 +100,28 @@
       "status": "machine",
       "srcHash": "75d8afcf702c0db5",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "f85f160253dc4368"
     },
     "r2c2": {
       "en": "When Acritoxin or Umbritoxin bursts\\u002c based on the Necrotoxin level\\u002c a character able to drop their weapon has a certain chance to immediately drop it and switch to <color=#9eb767><u><link=\"武器-空手\"><color=#GradeColor_0>unarmed</color></link></u></color>\\u002c and all their weapons become temporarily unusable. Trigger Chance = Necrotoxin Level × 20%.",
       "cn": "当烈毒或郁毒发作时，根据人物所中腐毒的中毒等级，若人物可以抛下兵器，人物有一定几率立即抛下手中的武器切换至<color=#9eb767><u><link=\"武器-空手\"><color=#GradeColor_0>空手</color></link></u></color>，且人物所有的兵器均暂时无法使用，触发概率=所中腐毒等级×20%",
-      "ru": "Когда акритоксин или умбротоксин взрывается\\u002c в зависимости от уровня некротоксина\\u002c персонаж, способный бросить свое оружие, имеет определенный шанс немедленно бросить его и переключиться на <color=#9eb767><u><link=\"武器-空手\"><color=#GradeColor_0>безоружный</color></link></u></color>\\u002c и все их оружие временно приходит в негодность. Вероятность срабатывания = уровень некротоксина × 20%.",
-      "status": "machine",
+      "ru": "Когда акритоксин или умбротоксин взрывается, в зависимости от уровня некротоксина персонаж, способный бросить оружие, с определённой вероятностью немедленно бросает его и переходит в состояние <color=#9eb767><u><link=\"武器-空手\"><color=#GradeColor_0>без оружия</color></link></u></color>, а всё его оружие временно становится непригодным. Вероятность срабатывания = уровень некротоксина × 20%.",
+      "status": "judged",
       "srcHash": "4474f63887fa5476",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "e8792193f3e3db10"
     },
     "r2c3": {
       "en": "When the month advances\\u002c the character discards a number of random held items = Mixed Toxin Level.",
       "cn": "月份更替时，人物会丢弃所持有的随机物品，丢弃数量=对应毒素等级之和",
-      "ru": "Когда наступит месяц\\u002c персонаж выбрасывает некоторое количество случайно удерживаемых предметов = уровень смешанного токсина.",
-      "status": "machine",
+      "ru": "При смене месяца персонаж выбрасывает некоторое количество случайных предметов из своего инвентаря = сумма соответствующих уровней токсинов.",
+      "status": "judged",
       "srcHash": "9ae38749602ea06a",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "e2188e42707a3d1a"
     },
     "r3c0": {
       "en": "<align=\"center\">Split Intestines</align>",
@@ -118,7 +130,8 @@
       "status": "machine",
       "srcHash": "89dee1872362422f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f6e9528f5e2af048"
     },
     "r3c1": {
       "en": "<align=\"center\">Acritoxin-Cryotoxin-Necrotoxin</align>",
@@ -127,7 +140,8 @@
       "status": "machine",
       "srcHash": "73fd14c9f25e5a5b",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "34e001cb6c326f07"
     },
     "r3c2": {
       "en": "When Acritoxin or Cryotoxin bursts\\u002c additional Pyrotoxin is derived a number of times equal to the Necrotoxin level\\u002c\\nand the progress of the next Pyrotoxin burst increases by Necrotoxin Level × 20%.",
@@ -136,7 +150,8 @@
       "status": "machine",
       "srcHash": "062d35ce533590fa",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "4a24be83931bc0b5"
     },
     "r3c3": {
       "en": "When a character is afflicted with Pyrotoxin\\u002c the Base Toxin Amount increases by the sum of corresponding Poison Levels × 10 + 10.",
@@ -145,7 +160,8 @@
       "status": "machine",
       "srcHash": "8565836297ee35fc",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "9d92df9f0a07b3e8"
     },
     "r4c0": {
       "en": "<align=\"center\">Occluded Acupoints</align>",
@@ -154,7 +170,8 @@
       "status": "machine",
       "srcHash": "d883499de4616178",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "7bd61da0d6431924"
     },
     "r4c1": {
       "en": "<align=\"center\">Pyrotoxin-Necrotoxin-Oneirotoxin</align>",
@@ -163,7 +180,8 @@
       "status": "machine",
       "srcHash": "d8578b8eba9cb9b5",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "26a5bdcc90c84e7b"
     },
     "r4c2": {
       "en": "When Pyrotoxin bursts\\u002c 1 random Annihilation Technique is sealed for (Necrotoxin + Oneirotoxin levels) × 10 seconds.",
@@ -172,16 +190,18 @@
       "status": "machine",
       "srcHash": "af62851f9c17b547",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "a9f5039899499408"
     },
     "r4c3": {
       "en": "While it's active\\u002c the character's <color=#6fb6ff><u><link=\"摧破栏位\">Annihilation Slots</link></u></color> decrease by the sum of corresponding Poison Levels ÷ 3 (rounded down).",
       "cn": "持续期间，减少人物的<color=#6fb6ff><u><link=\"摧破栏位\">摧破栏位</link></u></color>=对应毒素等级之和÷3（向下取整）",
-      "ru": "Пока он активен\\u002c имя персонажа <color=#6fb6ff><u><link=\"摧破栏位\">Слоты для сокрушения</link></u></color> уменьшите на сумму соответствующих уровней яда ÷ 3 (округлено в меньшую сторону).",
-      "status": "machine",
+      "ru": "Пока эффект активен, <color=#6fb6ff><u><link=\"摧破栏位\">слоты сокрушения</link></u></color> персонажа уменьшаются на сумму соответствующих уровней яда ÷ 3 (с округлением вниз).",
+      "status": "judged",
       "srcHash": "e7829bc96d059e2b",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "5997dbc323abaabc"
     },
     "r5c0": {
       "en": "<align=\"center\">Organ Decomposition</align>",
@@ -190,7 +210,8 @@
       "status": "machine",
       "srcHash": "88816e4da2dc5a94",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8048b2a97ac8d933"
     },
     "r5c1": {
       "en": "<align=\"center\">Umbritoxin-Pyrotoxin-Necrotoxin</align>",
@@ -199,7 +220,8 @@
       "status": "machine",
       "srcHash": "64387786019fcf40",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "9d4f39440772e25b"
     },
     "r5c2": {
       "en": "When Umbritoxin or Pyrotoxin bursts\\u002c additional Acritoxin is derived a number of times equal to the Necrotoxin level\\u002c\\nand the progress of the next Acritoxin burst increases by Necrotoxin Level × 20%.",
@@ -208,7 +230,8 @@
       "status": "machine",
       "srcHash": "6ec8179e0aa58b28",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "066b6a43bf47f326"
     },
     "r5c3": {
       "en": "When a character is afflicted with Acritoxin\\u002c the Base Toxin Amount increases by the sum of corresponding Poison Levels × 10 + 10",
@@ -217,16 +240,18 @@
       "status": "machine",
       "srcHash": "eeef82c88f04cd8d",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "d6d3cd1fadd92901"
     },
     "r6c0": {
       "en": "<align=\"center\">Sanguine Ruination</align>",
       "cn": "<align=\"center\">坏血断肠</align>",
-      "ru": "<align=\"center\">Оптимистичное разрушение</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Губительное разрушение крови</align>",
+      "status": "judged",
       "srcHash": "caff34c5b788d438",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "82b38de0e2385a37"
     },
     "r6c1": {
       "en": "<align=\"center\">Pyrotoxin-Cryotoxin-Necrotoxin</align>",
@@ -235,7 +260,8 @@
       "status": "machine",
       "srcHash": "f5dfe6468b9afdd2",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "fa7fd989bb0f1913"
     },
     "r6c2": {
       "en": "When Pyrotoxin or Cryotoxin bursts\\u002c based on the Necrotoxin level\\u002c the character receives a random <color=#6fb6ff><u><link=\"化解属性\">Deflect-reducing</link></u></color> <color=#6fb6ff><u><link=\"损害状态\">Impairment State</link></u></color> (-100 × Necrotoxin level)\\u002c and a portion of their Necrotoxin spreads to their <color=#6fb6ff><u><link=\"助战同道\">Support Companions</link></u></color> (spread ratio = Necrotoxin level × 10%).",
@@ -244,7 +270,8 @@
       "status": "machine",
       "srcHash": "60e09956be4e0554",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "0c924c365e23386f"
     },
     "r6c3": {
       "en": "When the month advances\\u002c the character spreads Necrotoxin to other characters on the same tile at Deadly Poison level\\u002c with an amount of 100 + the sum of corresponding Poison Levels × 20.",
@@ -253,7 +280,8 @@
       "status": "machine",
       "srcHash": "4ba3e977384a68da",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "f859aff5dce37aa8"
     },
     "r7c0": {
       "en": "<align=\"center\">Searing Enchantment</align>",
@@ -262,7 +290,8 @@
       "status": "machine",
       "srcHash": "aa1259575a0efe83",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3338eec20126c3ab"
     },
     "r7c1": {
       "en": "<align=\"center\">Acritoxin-Pyrotoxin-Oneirotoxin</align>",
@@ -271,16 +300,18 @@
       "status": "machine",
       "srcHash": "cfcb869de05215fe",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "49de436a2f748975"
     },
     "r7c2": {
       "en": "When Acritoxin or Pyrotoxin bursts\\u002c the character performs several <color=#6fb6ff><u><link=\"兵器攻击\">weapon attacks</link></u></color> on themselves equal to the Oneirotoxin level.",
       "cn": "当烈毒或赤毒发作时，人物立即对自己进行<color=#6fb6ff><u><link=\"兵器攻击\">兵器攻击</link></u></color>，攻击次数=所中幻毒等级",
-      "ru": "При взрыве акритоксина или пиротоксина\\u002c персонаж выполняет несколько <color=#6fb6ff><u><link=\"兵器攻击\">атаки с оружием</link></u></color> сами по себе равны уровню онейротоксина.",
-      "status": "machine",
+      "ru": "При взрыве акритоксина или пиротоксина персонаж несколько раз атакует себя <color=#6fb6ff><u><link=\"兵器攻击\">оружием</link></u></color>; число атак равно уровню онейротоксина.",
+      "status": "judged",
       "srcHash": "46699c97908f9e7d",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "d6e50053b8001412"
     },
     "r7c3": {
       "en": "When the month advances\\u002c the character will commit malicious acts (<color=#6fb6ff><u><link=\"窃取\">Steal</link></u></color>\\u002c <color=#6fb6ff><u><link=\"夺取\">Snatch</link></u></color>\\u002c <color=#6fb6ff><u><link=\"唬骗\">Swindle</link></u></color>\\u002c <color=#6fb6ff><u><link=\"欺侮\">Humiliation</link></u></color>) against random characters a number of times = the sum of corresponding Poison Levels.",
@@ -289,7 +320,8 @@
       "status": "machine",
       "srcHash": "e79259272b3c18e4",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "04053fe0d3110115"
     },
     "r8c0": {
       "en": "<align=\"center\">Burning Marrow</align>",
@@ -298,7 +330,8 @@
       "status": "machine",
       "srcHash": "891cc70d3571bf99",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "1820cf9737983ac1"
     },
     "r8c1": {
       "en": "<align=\"center\">Acritoxin-Umbritoxin-Pyrotoxin</align>",
@@ -307,16 +340,18 @@
       "status": "machine",
       "srcHash": "34bd6a83bbc45a03",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "254e876752cd6f0c"
     },
     "r8c2": {
       "en": "When Acritoxin\\u002c Umbritoxin\\u002c or Pyrotoxin bursts\\u002c the character's <color=#6fb6ff><u><link=\"脚力\">Stamina</link></u></color> depletion% = (Acritoxin + Umbritoxin + Pyrotoxin levels) × 5 - 5",
       "cn": "当烈毒、郁毒或赤毒发作时，人物<color=#6fb6ff><u><link=\"脚力\">脚力</link></u></color>损耗%=所中烈郁、赤毒等级之和×5-5",
-      "ru": "Когда акритоксин\\u002c Умбротоксин\\u002c или взрывы пиротоксина\\u002c имя персонажа <color=#6fb6ff><u><link=\"脚力\">Выносливость</link></u></color> % истощения = (уровни акритоксина + умбротоксина + пиротоксина) × 5 - 5",
-      "status": "machine",
+      "ru": "Когда взрывается акритоксин\\u002c умбротоксин или пиротоксин\\u002c истощение <color=#6fb6ff><u><link=\"脚力\">выносливости</link></u></color> персонажа в % = (уровни акритоксина + умбротоксина + пиротоксина) × 5 - 5",
+      "status": "judged",
       "srcHash": "1641d86dca74ad1c",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "1a0250fa1a57f4b6"
     },
     "r8c3": {
       "en": "When the month advances\\u002c the character's appearance is ravaged until they go 3 consecutive months without this effect. Charm decrease = the sum of corresponding Poison Levels × 50.",
@@ -325,7 +360,8 @@
       "status": "machine",
       "srcHash": "fd9a9ed864bba0c3",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "b5d903af1af99dc7"
     },
     "r9c0": {
       "en": "<align=\"center\">Malignant Yin</align>",
@@ -334,7 +370,8 @@
       "status": "machine",
       "srcHash": "4f77695161241ff3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "635be0ee5295e8bf"
     },
     "r9c1": {
       "en": "<align=\"center\">Acritoxin-Pyrotoxin-Cryotoxin</align>",
@@ -343,7 +380,8 @@
       "status": "machine",
       "srcHash": "9ba906e2fa12b8c5",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "94d63a25568d01ba"
     },
     "r9c2": {
       "en": "When Acritoxin\\u002c Pyrotoxin\\u002c or Cryotoxin bursts\\u002c the character has a chance (the sum of corresponding Poison Levels × 20%) to get a <color=#6fb6ff><u><link=\"旧时外伤\">Pre-existing External Injury</link></u></color> on a random body part.\\nIf no Pre-existing External Injury appears\\u002c they get an <color=#6fb6ff><u><link=\"破绽\">Opening</link></u></color> of Lv.Sum of the corresponding Poison Levels ÷ 3 (rounded down).",
@@ -361,7 +399,8 @@
       "status": "machine",
       "srcHash": "0f750ce6c62542be",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "6a1c8ff27bf613c9"
     },
     "r10c0": {
       "en": "<align=\"center\">Baneful Blight</align>",
@@ -370,7 +409,8 @@
       "status": "machine",
       "srcHash": "5050fb25d5e0dc73",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "44fd72a686db0576"
     },
     "r10c1": {
       "en": "<align=\"center\">Umbritoxin-Cryotoxin-Oneirotoxin</align>",
@@ -379,34 +419,38 @@
       "status": "machine",
       "srcHash": "9999b3936ec9137e",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "a545e2f38b95fcfc"
     },
     "r10c2": {
       "en": "When Umbritoxin or Cryotoxin bursts\\u002c it inflicts a number of <color=#6fb6ff><u><link=\"失神标记\">Daze Markers</link></u></color> equal to the Oneirotoxin level.",
       "cn": "当郁毒或寒毒发作时，人物产生<color=#6fb6ff><u><link=\"失神标记\">失神标记</link></u></color>，标记数量=所中幻毒等级",
-      "ru": "Когда взрывается умбротоксин или криотоксин\\u002c это причиняет ряд <color=#6fb6ff><u><link=\"失神标记\">Маркеры оцепенения</link></u></color> равен уровню онейротоксина.",
-      "status": "machine",
+      "ru": "Когда умбротоксин или криотоксин активируется\\u002c персонаж получает количество <color=#6fb6ff><u><link=\"失神标记\">маркеров оцепенения</link></u></color>\\u002c равное уровню онейротоксина.",
+      "status": "judged",
       "srcHash": "16238a1c7975e52d",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "28c2ea04c491ee5c"
     },
     "r10c3": {
       "en": "The character's <color=#6fb6ff><u><link=\"生育能力\">Fertility Ability</link></u></color> decreases by the sum of corresponding Poison Levels × 30",
       "cn": "人物的<color=#6fb6ff><u><link=\"生育能力\">生育能力</link></u></color>降低=对应毒素等级之和×30",
-      "ru": "Имя персонажа <color=#6fb6ff><u><link=\"生育能力\">Способность к плодовитости</link></u></color> уменьшается на сумму соответствующих уровней яда × 30",
-      "status": "machine",
+      "ru": "Способность персонажа к <color=#6fb6ff><u><link=\"生育能力\">плодовитости</link></u></color> уменьшается на сумму соответствующих уровней яда × 30",
+      "status": "judged",
       "srcHash": "138f0abe45314d3c",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "d679fba9bdfa53e9"
     },
     "r11c0": {
       "en": "<align=\"center\">Congested Marrow</align>",
       "cn": "<align=\"center\">化骨封髓</align>",
-      "ru": "<align=\"center\">Перегруженный костный мозг</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Запечатанные кости и костный мозг</align>",
+      "status": "judged",
       "srcHash": "101a88843065fa63",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "8775a337d1916f25"
     },
     "r11c1": {
       "en": "<align=\"center\">Umbritoxin-Cryotoxin-Necrotoxin</align>",
@@ -415,34 +459,38 @@
       "status": "machine",
       "srcHash": "44736656202446bf",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "3a05764c3a3ea975"
     },
     "r11c2": {
       "en": "When Umbritoxin or Cryotoxin bursts\\u002c the character takes <color=#6fb6ff><u><link=\"反噬\">Recoil</link></u></color> damage from random Martial Arts\\u002c repeated Sum of the Corresponding Poison Levels times.",
       "cn": "当郁毒或寒毒发作时，人物受到随机功法的<color=#6fb6ff><u><link=\"反噬\">反噬</link></u></color>伤害，重复次数=对应毒素等级之和",
-      "ru": "Когда взрывается умбротоксин или криотоксин\\u002c персонаж принимает <color=#6fb6ff><u><link=\"反噬\">Отдача</link></u></color> урон от случайных боевых искусств\\u002c повторяется сумма соответствующих уровней яда несколько раз.",
-      "status": "machine",
+      "ru": "Когда умбротоксин или криотоксин активируется\\u002c персонаж получает урон от <color=#6fb6ff><u><link=\"反噬\">отдачи</link></u></color> случайных боевых искусств\\u002c повторяемый сумму соответствующих уровней яда раз.",
+      "status": "judged",
       "srcHash": "f5bbf6000ae98b24",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "c0c68704e2f79890"
     },
     "r11c3": {
       "en": "When the month advances\\u002c the character takes Recoil damage from random Martial Arts\\u002c repeated Sum of the Corresponding Poison Levels times.",
       "cn": "月份更替时，人物受到随机功法的反噬伤害，重复次数=对应毒素等级之和",
-      "ru": "Когда наступит месяц\\u002c персонаж получает урон отдачей от случайных боевых искусств\\u002c повторяется сумма соответствующих уровней яда несколько раз.",
-      "status": "machine",
+      "ru": "Когда наступает новый месяц\\u002c персонаж получает урон от отдачи случайных боевых искусств\\u002c повторяемый сумму соответствующих уровней яда раз.",
+      "status": "judged",
       "srcHash": "627b71556bc03c40",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "6aa796df32462a85"
     },
     "r12c0": {
       "en": "<align=\"center\">Frosted Pulse</align>",
       "cn": "<align=\"center\">寒锥锁脉</align>",
-      "ru": "<align=\"center\">Замороженный пульс</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Холодный шип, запирающий меридианы</align>",
+      "status": "judged",
       "srcHash": "ae5f27a1e1d1e742",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "7846ca5a2945f4c6"
     },
     "r12c1": {
       "en": "<align=\"center\">Acritoxin-Umbritoxin-Cryotoxin</align>",
@@ -451,34 +499,38 @@
       "status": "machine",
       "srcHash": "7048ed10b0b93710",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "5b804c19e69a5dad"
     },
     "r12c2": {
       "en": "When Acritoxin\\u002c Umbritoxin\\u002c or Pyrotoxin bursts\\u002c the character's <color=#6fb6ff><u><link=\"内息紊乱\">Inner Breath Chaos</link></u></color> increases by the sum of corresponding Poison Levels × 30 × random 50% to 150%.",
       "cn": "当烈毒、郁毒或赤毒发作时，人物<color=#6fb6ff><u><link=\"内息紊乱\">内息紊乱</link></u></color>增加=对应毒素等级之和×30×随机50%~150%",
-      "ru": "Когда акритоксин\\u002c Умбротоксин\\u002c или взрывы пиротоксина\\u002c имя персонажа <color=#6fb6ff><u><link=\"内息紊乱\">Внутреннее дыхание Хаоса</link></u></color> увеличивается на сумму соответствующих уровней яда × 30 × случайным образом от 50% до 150%.",
-      "status": "machine",
+      "ru": "Когда акритоксин\\u002c умбротоксин или пиротоксин активируется\\u002c <color=#6fb6ff><u><link=\"内息紊乱\">хаос внутреннего дыхания</link></u></color> персонажа увеличивается на сумму соответствующих уровней яда × 30 × случайное значение от 50% до 150%.",
+      "status": "judged",
       "srcHash": "7f15c1f31e112ef4",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "7f1c8389bc69f63e"
     },
     "r12c3": {
       "en": "When the month advances\\u002c the character's <color=#6fb6ff><u><link=\"内息紊乱\">Inner Breath Chaos</link></u></color> increases by the sum of corresponding Poison Levels × 50 × random 50% to 150%.",
       "cn": "月份更替时，人物<color=#6fb6ff><u><link=\"内息紊乱\">内息紊乱</link></u></color>增加=对应毒素等级之和×50×随机50%~150%",
-      "ru": "Когда наступит месяц\\u002c имя персонажа <color=#6fb6ff><u><link=\"内息紊乱\">Внутреннее дыхание Хаоса</link></u></color> увеличивается на сумму соответствующих уровней яда × 50 × случайным образом от 50% до 150%.",
-      "status": "machine",
+      "ru": "Когда наступает новый месяц\\u002c <color=#6fb6ff><u><link=\"内息紊乱\">хаос внутреннего дыхания</link></u></color> персонажа увеличивается на сумму соответствующих уровней яда × 50 × случайное значение от 50% до 150%.",
+      "status": "judged",
       "srcHash": "ef051a0e3d576997",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "43e42d016529741a"
     },
     "r13c0": {
       "en": "<align=\"center\">Blood Coagulation</align>",
       "cn": "<align=\"center\">锁血凝髓</align>",
-      "ru": "<align=\"center\">Свертывание крови</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Запечатанные кровь и костный мозг</align>",
+      "status": "judged",
       "srcHash": "92b15d1663c723d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "1c0e745ee15954de"
     },
     "r13c1": {
       "en": "<align=\"center\">Umbritoxin-Pyrotoxin-Cryotoxin</align>",
@@ -487,7 +539,8 @@
       "status": "machine",
       "srcHash": "cd1996f3e9d85e61",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "d3322afa43c01044"
     },
     "r13c2": {
       "en": "When Acritoxin\\u002c Umbritoxin\\u002c or Pyrotoxin bursts\\u002c the character has a chance (the sum of corresponding Poison Levels × 20%) to get a <color=#6fb6ff><u><link=\"旧时内伤\">Pre-existing Internal Injury</link></u></color> on a random body part.\\nIf no Pre-existing Internal Injury appears\\u002c they get a <color=#6fb6ff><u><link=\"封穴\">Sealed Acupoint</link></u></color> of Lv.Sum of the corresponding Poison Levels ÷ 3 (rounded down).",
@@ -505,16 +558,18 @@
       "status": "machine",
       "srcHash": "1e3042bf9e252632",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "1276f2c0a8eeb6c4"
     },
     "r14c0": {
       "en": "<align=\"center\">Infectious Yin</align>",
       "cn": "<align=\"center\">邪阴彻体</align>",
-      "ru": "<align=\"center\">Заразительная Инь</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Злая Инь, пронизывающая тело</align>",
+      "status": "judged",
       "srcHash": "2cff299bf3c5f013",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "68bd11620fd9d688"
     },
     "r14c1": {
       "en": "<align=\"center\">Cryotoxin-Necrotoxin-Oneirotoxin</align>",
@@ -523,7 +578,8 @@
       "status": "machine",
       "srcHash": "8bcaab588060d872",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "4c29f7895d807707"
     },
     "r14c2": {
       "en": "When Cryotoxin bursts\\u002c 1 random Acumen Technique is sealed for (Necrotoxin + Oneirotoxin levels) × 10 seconds.",
@@ -532,16 +588,18 @@
       "status": "machine",
       "srcHash": "42142216ca93c23a",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "1b81b141110726ec"
     },
     "r14c3": {
       "en": "While it's active\\u002c the character's <color=#6fb6ff><u><link=\"奇窍栏位\">Acumen Slots</link></u></color> decrease by the sum of corresponding Poison Levels ÷ 3 (rounded down).",
       "cn": "持续期间，减少人物的<color=#6fb6ff><u><link=\"奇窍栏位\">奇窍栏位</link></u></color>=对应毒素等级之和÷3（向下取整）",
-      "ru": "Пока он активен\\u002c имя персонажа <color=#6fb6ff><u><link=\"奇窍栏位\">Прорези для сообразительности</link></u></color> уменьшите на сумму соответствующих уровней яда ÷ 3 (округлено в меньшую сторону).",
-      "status": "machine",
+      "ru": "Пока эффект действует\\u002c <color=#6fb6ff><u><link=\"奇窍栏位\">ячейки проницательности</link></u></color> персонажа уменьшаются на сумму соответствующих уровней яда ÷ 3 (с округлением вниз).",
+      "status": "judged",
       "srcHash": "1ff34411e4bb59c2",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "0fdf03e82d6187cb"
     },
     "r15c0": {
       "en": "<align=\"center\">Grueling Fear</align>",
@@ -550,7 +608,8 @@
       "status": "machine",
       "srcHash": "a7e1385b8854e44e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "4e4accb6b7ce5abb"
     },
     "r15c1": {
       "en": "<align=\"center\">Acritoxin-Cryotoxin-Oneirotoxin</align>",
@@ -559,7 +618,8 @@
       "status": "machine",
       "srcHash": "9eb341d4230c3286",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "36ffc86a6c631b04"
     },
     "r15c2": {
       "en": "When Acritoxin or Cryotoxin bursts\\u002c additional Umbritoxin is derived a number of times equal to the Oneirotoxin level\\u002c\\nand the progress of the next Umbritoxin burst increases by Oneirotoxin Level × 20%.",
@@ -568,7 +628,8 @@
       "status": "machine",
       "srcHash": "abce98b4ff305543",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "e92a3a0a35c7615c"
     },
     "r15c3": {
       "en": "When a character is afflicted with Umbritoxin\\u002c the Base Toxin Amount increases by the sum of corresponding Poison Levels × 10 + 10.",
@@ -577,7 +638,8 @@
       "status": "machine",
       "srcHash": "344bdde2e237e2d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "36b20873f435e5ac"
     },
     "r16c0": {
       "en": "<align=\"center\">Agonizing Ordeal</align>",
@@ -586,7 +648,8 @@
       "status": "machine",
       "srcHash": "c632859037d51188",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "7c40937822027108"
     },
     "r16c1": {
       "en": "<align=\"center\">Pyrotoxin-Cryotoxin-Oneirotoxin</align>",
@@ -595,7 +658,8 @@
       "status": "machine",
       "srcHash": "36f966b4e5313716",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "3a05f20e3dd67ff6"
     },
     "r16c2": {
       "en": "When Pyrotoxin or Cryotoxin bursts\\u002c the character receives a random <color=#6fb6ff><u><link=\"命中属性\">Hit-reducing</link></u></color> <color=#6fb6ff><u><link=\"损害状态\">Impairment State</link></u></color> (-100 × Oneirotoxin level)\\u002c and a portion of their Oneirotoxin spreads to their <color=#6fb6ff><u><link=\"助战同道\">Support Companions</link></u></color> (spread ratio = Oneirotoxin level × 10%).",
@@ -604,25 +668,28 @@
       "status": "machine",
       "srcHash": "ec5141b4c6c96bef",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "ba78728b482698c4"
     },
     "r16c3": {
       "en": "When the month advances\\u002c the character spreads Oneirotoxin to other characters on the same tile at Deadly Poison level\\u002c with an amount of 100 + the sum of corresponding Poison Levels × 20.",
       "cn": "月份更替时，人物会将幻毒扩散给同地格的人物，毒素等级为奇毒，毒素量=100+对应毒素等级之和×20",
-      "ru": "Когда наступит месяц\\u002c персонаж распространяет Онейротоксин на других персонажей на той же плитке на уровне смертельного яда\\u002c при количестве 100 + сумма соответствующих уровней яда × 20.",
-      "status": "machine",
+      "ru": "Когда наступает новый месяц\\u002c персонаж распространяет онейротоксин на других персонажей на той же клетке на уровне редкого яда\\u002c количество токсина = 100 + сумма соответствующих уровней яда × 20.",
+      "status": "judged",
       "srcHash": "1a5053e4992461ce",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "27a4655d3c99c40c"
     },
     "r17c0": {
       "en": "<align=\"center\">Soulless Rancor</align>",
       "cn": "<align=\"center\">失魂鬼瘴</align>",
-      "ru": "<align=\"center\">Бездушная злоба</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Призрачная миазма, лишающая душу</align>",
+      "status": "judged",
       "srcHash": "34e1f475b6af6dac",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "4df0c0e645895bb9"
     },
     "r17c1": {
       "en": "<align=\"center\">Umbritoxin-Necrotoxin-Oneirotoxin</align>",
@@ -631,7 +698,8 @@
       "status": "machine",
       "srcHash": "3086c2afa78d125f",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "50856abb442f8342"
     },
     "r17c2": {
       "en": "When Umbritoxin bursts\\u002c the character's Protection is dispelled\\u002c and 1 random Protection Technique is sealed for (Necrotoxin + Oneirotoxin levels) × 10 seconds.",
@@ -640,25 +708,28 @@
       "status": "machine",
       "srcHash": "e01d836b6049716d",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "413da0f727ac2f54"
     },
     "r17c3": {
       "en": "While it's active\\u002c the character's <color=#6fb6ff><u><link=\"护体栏位\">Protection Slots</link></u></color> decrease by the sum of corresponding Poison Levels ÷ 3 (rounded down).",
       "cn": "持续期间，减少人物的<color=#6fb6ff><u><link=\"护体栏位\">护体栏位</link></u></color>=对应毒素等级之和÷3（向下取整）",
-      "ru": "Пока он активен\\u002c имя персонажа <color=#6fb6ff><u><link=\"护体栏位\">Защитные прорези</link></u></color> уменьшите на сумму соответствующих уровней яда ÷ 3 (округлено в меньшую сторону).",
-      "status": "machine",
+      "ru": "Пока эффект действует\\u002c <color=#6fb6ff><u><link=\"护体栏位\">защитные ячейки</link></u></color> персонажа уменьшаются на сумму соответствующих уровней яда ÷ 3 (с округлением вниз).",
+      "status": "judged",
       "srcHash": "cc410acd3846e42b",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "be33b59719ebc9f6"
     },
     "r18c0": {
       "en": "<align=\"center\">Severed Meridians</align>",
       "cn": "<align=\"center\">绝脉乱心</align>",
-      "ru": "<align=\"center\">Разорванные меридианы</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Разорванные меридианы, смятение сердца</align>",
+      "status": "judged",
       "srcHash": "d176f98bc8ee10c5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "076130fa8d534554"
     },
     "r18c1": {
       "en": "<align=\"center\">Acritoxin-Umbritoxin-Oneirotoxin</align>",
@@ -667,7 +738,8 @@
       "status": "machine",
       "srcHash": "0f780b63f01066f1",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "8786f74c30fce199"
     },
     "r18c2": {
       "en": "When Acritoxin or Umbritoxin bursts\\u002c the character loses a random type of True Qi\\u002c depletion amount = the sum of corresponding Poison Levels × 10.",
@@ -676,7 +748,8 @@
       "status": "machine",
       "srcHash": "cebdf51473a8bb53",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "f0b7cc847a59bd19"
     },
     "r18c3": {
       "en": "When the month advances\\u002c the character's random type of True Qi depletion = the sum of corresponding Poison Levels × current True Qi × 5%.",
@@ -685,16 +758,18 @@
       "status": "machine",
       "srcHash": "3936b42e41bef63e",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "2841a735bc152680"
     },
     "r19c0": {
       "en": "<align=\"center\">Sealed Blood</align>",
       "cn": "<align=\"center\">封颅闭血</align>",
-      "ru": "<align=\"center\">Запечатанная кровь</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Запечатанный череп, запечатанная кровь</align>",
+      "status": "judged",
       "srcHash": "21ed14cea83a728e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "7742e5ca71322135"
     },
     "r19c1": {
       "en": "<align=\"center\">Umbritoxin-Pyrotoxin-Oneirotoxin</align>",
@@ -703,7 +778,8 @@
       "status": "machine",
       "srcHash": "7cef695f4163e795",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "f662513a3144426a"
     },
     "r19c2": {
       "en": "When Umbritoxin or Pyrotoxin bursts\\u002c additional Cryotoxin is derived a number of times equal to the Oneirotoxin level\\u002c\\nand the progress of the next Cryotoxin burst increases by Oneirotoxin Level × 20%.",
@@ -712,7 +788,8 @@
       "status": "machine",
       "srcHash": "a92a1651dea5bb3c",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "db65631b67ab468e"
     },
     "r19c3": {
       "en": "When a character is afflicted with Cryotoxin\\u002c the Base Toxin Amount increases by the sum of corresponding Poison Levels × 10 + 10.",
@@ -721,7 +798,8 @@
       "status": "machine",
       "srcHash": "eed2e07fa2bede2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-07-11T23:30:44.155Z",
+      "judgeHash": "a0cfa1be753f041e"
     }
   }
 }

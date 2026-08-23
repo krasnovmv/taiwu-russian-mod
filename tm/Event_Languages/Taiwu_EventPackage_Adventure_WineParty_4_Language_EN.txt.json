@@ -6,11 +6,12 @@
     "d586f075-45d1-4d04-a11e-4fe8bc943c88/EventContent": {
       "en": "In the room, many liquor jars are placed in disarray, as if sealed and carefully treasured for years,<NL>this is presumably the wine cellar the family head mentioned, and those jars must contain rare fine liquors...<NL>But there is also a family member guarding the liquor cellar, this person has a vigilant look and alert expression...<NL>",
       "cn": "屋中错落摆放着诸多酒坛，好似经年封存、悉心珍藏，<NL>此处想来便是家主提及的酒窖，而那罐中，定然皆是难得一见的美酒……<NL>但酒窖中亦有家眷驻守，此人目光警惕、神色戒备……<NL>",
-      "ru": "В комнате в беспорядке расставлено множество банок из-под вина, как будто они были запечатаны и бережно хранились годами,<NL>предположительно, это тот самый винный погреб, о котором упоминал глава семьи, и в этих кувшинах должны быть редкие изысканные вина...<NL>Но есть также член семьи, охраняющий погреб с вином, у этого человека бдительный взгляд и настороженное выражение лица...<NL>",
-      "status": "machine",
+      "ru": "В комнате в беспорядке расставлено множество винных кувшинов, как будто они были запечатаны и бережно хранились годами,<NL>предположительно, это тот самый винный погреб, о котором упоминал глава семьи, и в этих кувшинах должны быть редкие изысканные вина...<NL>Но есть также член семьи, охраняющий погреб с вином, у этого человека бдительный взгляд и настороженное выражение лица...<NL>",
+      "status": "judged",
       "srcHash": "6bc8cc6757148e0c",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "2250d4c06acbf09b"
     },
     "d586f075-45d1-4d04-a11e-4fe8bc943c88/Option_1": {
       "en": "(Steal fine liquor...)",
@@ -19,16 +20,18 @@
       "status": "machine",
       "srcHash": "8cf551fe4131531d",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "f13edd44c1f958f7"
     },
     "d586f075-45d1-4d04-a11e-4fe8bc943c88/Option_2": {
       "en": "(Snatch fine liquor...)",
       "cn": "（抢取美酒……）",
-      "ru": "(Выпей хорошего вина...)",
-      "status": "machine",
+      "ru": "(Схватить хорошее вино...)",
+      "status": "judged",
       "srcHash": "c6ed4daec1053eeb",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "17a0f590609acef4"
     },
     "d586f075-45d1-4d04-a11e-4fe8bc943c88/Option_3": {
       "en": "(Do nothing...)",
@@ -37,7 +40,8 @@
       "status": "machine",
       "srcHash": "c9bc180224db6e47",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "78eb09446a31eb73"
     },
     "bcce2b18-b581-4465-bb4e-6801a09f9722/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> walks slowly along the corridor,<NL>suddenly smells the delicate aroma of liquor, and sees a quiet and elegant room beside,<NL>the fragrance of liquor is wafting and overflowing from the door...",
@@ -46,7 +50,8 @@
       "status": "machine",
       "srcHash": "02317ba8f61a832c",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "62f10a87a53e76ba"
     },
     "bcce2b18-b581-4465-bb4e-6801a09f9722/Option_1": {
       "en": "(Approach to check...)",
@@ -55,7 +60,8 @@
       "status": "machine",
       "srcHash": "971aeabb3641479b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "71aeecae0f25262b"
     },
     "bcce2b18-b581-4465-bb4e-6801a09f9722/Option_2": {
       "en": "(Do nothing...)",
@@ -64,16 +70,18 @@
       "status": "machine",
       "srcHash": "c9bc180224db6e47",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "78eb09446a31eb73"
     },
     "781ec455-5f40-4bf8-aff6-0be1000728cb/EventContent": {
       "en": "This washroom is clean and simple, without accumulated odor.<NL>If <Character key=RoleTaiwu str=Name/> has drunk too much and is dizzy and drunk, or has eaten too much and suffers from a bloated stomach,<NL>you can vomit the contents of your stomach here to relieve discomfort...<NL><color=#lightgrey>(Vomiting will reduce drunkenness value, clear one Square of Consumable Slots, and consume three points of Energy...)</color>",
       "cn": "此净房素洁简净、不积浊气，<NL><Character key=RoleTaiwu str=Name/>若饮酒过多，昏然欲醉；或进食太饱，肚胀难忍，<NL>皆可在此呕出腹中之物，纾解不适……<NL><color=#lightgrey>（呕吐将减少醉酒值，清空一格服食栏位，同时将消耗三点精力……）</color>",
-      "ru": "Эта ванная комната чистая и простая, без накопившегося запаха.<NL>Если <Character key=RoleTaiwu str=Name/> выпил слишком много, и у него кружится голова, и он пьян, или съел слишком много и страдает от вздутия живота,<NL>здесь вы можете выблевать содержимое своего желудка, чтобы облегчить дискомфорт...<NL><color=#lightgrey>(Рвота снизит показатель опьянения, очистит один квадрат от слотов для расходных материалов и израсходует три единицы энергии...)</color>",
-      "status": "machine",
+      "ru": "Эта ванная комната чистая и простая, без накопившегося запаха.<NL>Если <Character key=RoleTaiwu str=Name/> выпил слишком много, у него кружится голова и он пьян, или съел слишком много и страдает от вздутия живота,<NL>здесь можно извергнуть содержимое желудка, чтобы облегчить дискомфорт...<NL><color=#lightgrey>(Рвота снизит показатель опьянения, очистит одну ячейку слотов расходуемых предметов и израсходует три единицы энергии...)</color>",
+      "status": "judged",
       "srcHash": "ca9b043f07615d9e",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "db30ddae3620953f"
     },
     "781ec455-5f40-4bf8-aff6-0be1000728cb/Option_1": {
       "en": "(Attempt to vomit to relieve discomfort...)",
@@ -82,7 +90,8 @@
       "status": "machine",
       "srcHash": "0eedf86bc9f03089",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fe882e1937a09b54"
     },
     "781ec455-5f40-4bf8-aff6-0be1000728cb/Option_2": {
       "en": "(No discomfort, let it be for now...)",
@@ -91,7 +100,8 @@
       "status": "machine",
       "srcHash": "868dd9bd6afe6fd5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "45500fb1e50e6286"
     },
     "d8163c2d-dd7d-4038-abeb-505f589e987b/EventContent": {
       "en": "nan",
@@ -100,7 +110,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "8a75ebc7-e3fd-4891-bf6a-25529c620162/EventContent": {
       "en": "nan",
@@ -109,16 +120,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "b4ae06da-53d2-48f9-bfce-ee87e6560885/EventContent": {
       "en": "The family head has always appreciated <Character key=RoleTaiwu str=Name/>, feeling quite congenial in conversation...<NL>At the farewell, he takes out a jar of Fine Wine that is well-sealed and of excellent Tier,<NL>smiling and saying that meeting and drinking with <Character key=RoleTaiwu str=Name/> this time was truly delightful, this jar of Fine Wine has been treasured for years,<NL>today he gives it to <Character key=RoleTaiwu str=Name/>, hoping that in the future you can come again to meet and taste wine together...",
       "cn": "家主素来赏识<Character key=RoleTaiwu str=Name/>，自觉言谈之间颇为投契……<NL>辞别之际，此人取出一罐封存完好、品级上佳的美酒，<NL>笑言此番与<Character key=RoleTaiwu str=Name/>相聚饮酒，甚是快意，这罐美酒已珍藏多年，<NL>今日便赠与<Character key=RoleTaiwu str=Name/>，愿日后阁下能再度赴会，一同品酒……",
-      "ru": "Глава семьи всегда ценил <Character key=RoleTaiwu str=Name/>, чувствуя себя вполне дружелюбным в разговоре...<NL>На прощание он достает кувшин с прекрасным вином, хорошо закупоренным и отличного ранга,<NL>улыбается и говорит, что встречается и пьет с <Character key=RoleTaiwu str=Name/> это время было поистине восхитительным, этот кувшин прекрасного вина хранился в течение многих лет,<NL>сегодня он дарит его <Character key=RoleTaiwu str=Name/>, надеясь, что в будущем вы сможете прийти снова, чтобы встретиться и вместе продегустировать вино...",
-      "status": "machine",
+      "ru": "Глава семьи всегда ценил <Character key=RoleTaiwu str=Name/> и находил его приятным собеседником...<NL>На прощание он достаёт хорошо закупоренный кувшин прекрасного вина отличного ранга,<NL>улыбается и говорит, что встреча и выпивка с <Character key=RoleTaiwu str=Name/> в этот раз были поистине восхитительными, а это прекрасное вино хранилось много лет,<NL>сегодня он дарит его <Character key=RoleTaiwu str=Name/>, надеясь, что в будущем тот снова придёт на встречу и вместе с ним отведает вина...",
+      "status": "judged",
       "srcHash": "51c6cf3ddcc35317",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "200b82ef49ac39bb"
     },
     "b4ae06da-53d2-48f9-bfce-ee87e6560885/Option_1": {
       "en": "(Accept the gift with gratitude...)",
@@ -127,7 +140,8 @@
       "status": "machine",
       "srcHash": "5da2ba37a043a714",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "1510ac404140ec35"
     },
     "f5e0a554-f6c7-486e-8ab9-03104847c9a2/EventContent": {
       "en": "nan",
@@ -136,7 +150,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "13074f89-39d7-41ae-afea-adf691e7e7f0/EventContent": {
       "en": "\"The leftover cup still holds flavor, the feast ends and guests gradually return.\"<NL>After three rounds of wine, it is late, the banquet is about to end,<NL>the family head bows and thanks, respectfully seeing off all the guests...",
@@ -145,7 +160,8 @@
       "status": "machine",
       "srcHash": "0d25f11029b66919",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "6829a082d5ac4247"
     },
     "13074f89-39d7-41ae-afea-adf691e7e7f0/Option_1": {
       "en": "(Say goodbye to the family head...)",
@@ -154,7 +170,8 @@
       "status": "machine",
       "srcHash": "bbf8463e150b2d8b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "bc4eff4452bf69a4"
     },
     "6e958a19-583b-4eca-8bb4-597abc414711/EventContent": {
       "en": "The family head has a smile on his face,<NL>but his words can hardly conceal fatigue, and at farewell he says:<NL>\"Today we have drunk with great joy, I hope you will often come to the liquor gatherings in the future,<NL>interact frequently with the guests, build deep friendships, and then there will be good gifts for you...\"",
@@ -163,7 +180,8 @@
       "status": "machine",
       "srcHash": "2460cbcee5ee1f52",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "7be2116c26235448"
     },
     "6e958a19-583b-4eca-8bb4-597abc414711/Option_1": {
       "en": "(So be it...)",
@@ -172,16 +190,18 @@
       "status": "machine",
       "srcHash": "1dc994ed57593e7c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "85bc1c5906fa3510"
     },
     "4efac551-700f-4bc3-b966-dcec0c7698e5/EventContent": {
       "en": "You reach out to take the most eye-catching liquor jar on the table, when suddenly you hear an angry shout from behind, the family member from the corridor has a fierce look in his eyes,<NL>and shouts harshly: \"Madman! How dare you break into the Inner Court liquor cellar and Steal the family's hidden treasures!\"<NL>(<color=#lightgrey>(If Battle Lost, you will be expelled from the family banquet...)</color>",
       "cn": "你伸手便要去拿案上最惹眼的酒坛，忽听得身后一声怒喝，方才廊下的家眷已目露凶光，<NL>厉声喝道：“狂徒！竟敢私闯内院酒窖，窃夺族中密藏！”<NL>（<color=#lightgrey>（若战斗失败，将被逐出家宴……）</color>",
-      "ru": "Вы протягиваете руку, чтобы взять самую привлекательную банку из-под вина, стоящую на столе, как вдруг слышите сердитый окрик сзади, у члена семьи из коридора свирепый взгляд,<NL>и резко кричит: \"Сумасшедший! Как ты посмел вломиться в погреб с вином во Внутреннем дворе и украсть спрятанные семьей сокровища!\"<NL>(<color=#lightgrey>(Если битва проиграна, вы будете исключены с семейного банкета...)</color>",
-      "status": "machine",
+      "ru": "Вы протягиваете руку, чтобы взять самый приметный кувшин с вином, стоящий на столе, как вдруг слышите сердитый окрик сзади; у члена семьи из коридора свирепый взгляд,<NL>и он резко кричит: \"Сумасшедший! Как ты посмел вломиться в погреб с вином во Внутреннем дворе и украсть спрятанные семьёй сокровища!\"<NL>(<color=#lightgrey>(Если битва проиграна, вы будете изгнаны с семейного банкета...)</color>",
+      "status": "judged",
       "srcHash": "ab135ad8a1051740",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "7fa691b9b297ef13"
     },
     "4efac551-700f-4bc3-b966-dcec0c7698e5/Option_1": {
       "en": "(Engage in battle...)",
@@ -190,7 +210,8 @@
       "status": "machine",
       "srcHash": "778c64b705b87cab",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "59cf62802709388b"
     },
     "7de32f86-32f8-47dd-a428-103917ade403/EventContent": {
       "en": "nan",
@@ -199,7 +220,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "33aed18d-4a11-4ff3-b62f-a4d758953536/EventContent": {
       "en": "The family member's body softens and collapses to the ground...<NL><Character key=RoleTaiwu str=Name/> opens the liquor jar, fragrant and rich, the strong aroma Entangles the sleeves,<NL>the long-stored liquor in the jar is indeed a rare treasure, <Character key=RoleTaiwu str=Name/> immediately tucks the jar into his bosom...",
@@ -208,7 +230,8 @@
       "status": "machine",
       "srcHash": "c9fdf6457802b0c0",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "a665b4ca4fa5ca1d"
     },
     "33aed18d-4a11-4ff3-b62f-a4d758953536/Option_1": {
       "en": "(This is good...)",
@@ -217,16 +240,18 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "4770cf28-f43d-4cbb-923d-c909d4c02ce5/EventContent": {
       "en": "Caught on the spot... The family head hears the news and hurries over, face indignant,<NL>saying that he has always treated with courtesy, never thought <Character key=RoleTaiwu str=Name/> would try to seize his treasured liquor,<NL>thus it is no longer convenient to keep a guest, and asks <Character key=RoleTaiwu str=Name/> to leave quickly...",
       "cn": "被当场擒住……家主闻讯匆匆赶来，面色愤然，<NL>只道自己素来以礼相待，不曾想<Character key=RoleTaiwu str=Name/>竟妄图抢取自己珍藏的美酒，<NL>如此实在不便再留客，还请<Character key=RoleTaiwu str=Name/>速速离去……",
-      "ru": "Застигнутый на месте... Глава семьи слышит новость и спешит к ним с возмущенным лицом,<NL>говоря, что он всегда относился с вежливостью, никогда не думал <Character key=RoleTaiwu str=Name/> попытался бы завладеть его драгоценным вином,<NL>таким образом, ему уже неудобно держать гостя, и он просит <Character key=RoleTaiwu str=Name/> чтобы поскорее уйти...",
-      "status": "machine",
+      "ru": "Пойманный на месте... Глава семьи, услышав новость, поспешно приходит, гневно нахмурившись,<NL>говорит, что всегда относился к гостю учтиво и не ожидал, что <Character key=RoleTaiwu str=Name/> попытается завладеть его запасами вина,<NL>поэтому больше не может принимать гостя и просит <Character key=RoleTaiwu str=Name/> поскорее уйти...",
+      "status": "judged",
       "srcHash": "4b673fb5c8c6ef7d",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "2f9d80aebefc5f47"
     },
     "4770cf28-f43d-4cbb-923d-c909d4c02ce5/Option_1": {
       "en": "(Feeling helpless...)",
@@ -235,7 +260,8 @@
       "status": "machine",
       "srcHash": "ae94316f9c3896ba",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "57f6ca0cf6784d36"
     },
     "d95d6cda-de17-4ddf-b3de-34b45bbfb715/EventContent": {
       "en": "nan",
@@ -244,16 +270,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "3dbfc442-609a-4dcd-bbe3-9bd36c9de974/EventContent": {
       "en": "\"Raising a cup to discuss the Martial Way, swords clash before the hall.\"<NL>The Martial Artist sees <Character key=RoleTaiwu str=Name/> coming, holds fists and bows: The sparring platform is already prepared, when the guests all arrive, the martial gathering will begin immediately!",
       "cn": "“举盏论武道，堂前剑铮鸣。”<NL>武师见<Character key=RoleTaiwu str=Name/>前来，抱拳施礼道：比武台早已备好，待宾客到齐，武会即刻开场！",
-      "ru": "\"Поднимаем кубок, чтобы обсудить боевой путь, мечи лязгают перед залом\".<NL>Мастер боевых искусств видит <Character key=RoleTaiwu str=Name/> подходит, сжимает кулаки и кланяется: площадка для спарринга уже подготовлена, когда все гости прибудут, сразу же начнется боевой сбор!",
-      "status": "machine",
+      "ru": "\"Поднимаем кубок, чтобы обсудить боевой путь, мечи лязгают перед залом\".<NL>Мастер боевых искусств видит, как <Character key=RoleTaiwu str=Name/> подходит, и, сложив кулаки, кланяется: площадка для спарринга уже подготовлена; когда все гости прибудут, боевой сбор сразу начнётся!",
+      "status": "judged",
       "srcHash": "7b4eb95a66f87dbd",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "773d4f943f6faddc"
     },
     "3dbfc442-609a-4dcd-bbe3-9bd36c9de974/Option_1": {
       "en": "This is good",
@@ -262,7 +290,8 @@
       "status": "machine",
       "srcHash": "7d58443f29508618",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "dec9d10e725dd9b9"
     },
     "d7791970-ac4d-4794-9598-30130709bba1/EventContent": {
       "en": "The war drums are about to sound. You may step onto the field for a battle, or take a brief rest.",
@@ -271,7 +300,8 @@
       "status": "machine",
       "srcHash": "664c878c018d72f6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8f042387eb7d08d4"
     },
     "d7791970-ac4d-4794-9598-30130709bba1/Option_1": {
       "en": "(Partake in the Tournament...)",
@@ -280,7 +310,8 @@
       "status": "machine",
       "srcHash": "bbebaf8d730bccae",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "1d3dd46d4e84a769"
     },
     "d7791970-ac4d-4794-9598-30130709bba1/Option_2": {
       "en": "(Let it be for now...)",
@@ -289,16 +320,18 @@
       "status": "machine",
       "srcHash": "4eda2412509aa567",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "4c07bed565bec3ef"
     },
     "9b59c2de-dc20-485f-9009-c34417704e64/EventContent": {
       "en": "\"Who does <Character key=RoleTaiwu str=Name/> wish to choose for Sparring?\"",
       "cn": "“不知<Character key=RoleTaiwu str=Name/>欲选择谁切磋比武？”",
-      "ru": "\"Кто это делает <Character key=RoleTaiwu str=Name/> хотите выбрать для спарринга?\"",
-      "status": "machine",
+      "ru": "\"Кого <Character key=RoleTaiwu str=Name/> хочет выбрать для спарринга?\"",
+      "status": "judged",
       "srcHash": "d973e6531cbe895f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "05dc442b6b44306d"
     },
     "9b59c2de-dc20-485f-9009-c34417704e64/Option_1": {
       "en": "(This one...)",
@@ -307,7 +340,8 @@
       "status": "machine",
       "srcHash": "d64946cd9942bc04",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b03c959b8b7173e9"
     },
     "9b59c2de-dc20-485f-9009-c34417704e64/Option_2": {
       "en": "(Never mind...)",
@@ -316,7 +350,8 @@
       "status": "machine",
       "srcHash": "a4319569b892789e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "c104e3a473f55f60"
     },
     "ffafcea2-fb16-4867-bdab-d077caa7ffe5/EventContent": {
       "en": "(Start sparring...)",
@@ -325,7 +360,8 @@
       "status": "machine",
       "srcHash": "ba76e5858185d5d3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11dee930b4be07ac"
     },
     "ffafcea2-fb16-4867-bdab-d077caa7ffe5/Option_1": {
       "en": "(Start the fight...)",
@@ -334,7 +370,8 @@
       "status": "machine",
       "srcHash": "9fb12af72890335e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "9c5940085d21965b"
     },
     "0f664456-d2d7-49f1-bf3f-9888a834841d/EventContent": {
       "en": "nan",
@@ -343,16 +380,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "fc917425-5b9f-421b-a58d-cfd92b1f5cbf/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/>'s moves are fierce, pressing step by step,<NL>the opponent is caught off guard, retreating step by step, and finally has to admit defeat with a fist salute, sincerely convinced...<NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name/>'s Favorability with the guests rises...)</color>",
       "cn": "<Character key=RoleTaiwu str=Name/>招势凌厉、步步紧逼，<NL>对手措手不及、节节败退，最终只得拱手认输，心悦诚服……<NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name/>与宾客的好感度上升……）</color>",
-      "ru": "<Character key=RoleTaiwu str=Name/>его движения яростны, он продвигается шаг за шагом,<NL>противник застигнут врасплох, отступает шаг за шагом и, наконец, вынужден признать поражение, отсалютовав кулаком, искренне убежденный в этом...<NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name/>Благосклонность к гостям повышается...)</color>",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> наносит яростные удары, шаг за шагом тесняя противника,<NL>тот оказывается застигнут врасплох, отступает шаг за шагом и в конце вынужден, сложив кулаки, признать поражение, искренне признав превосходство противника...<NL><color=#lightgrey>(Благосклонность гостей к <Character key=RoleTaiwu str=Name/> повышается...)</color>",
+      "status": "judged",
       "srcHash": "bede548ef7ff64c0",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "cb85dbd1a1a2ed3f"
     },
     "fc917425-5b9f-421b-a58d-cfd92b1f5cbf/Option_1": {
       "en": "(That's good...)",
@@ -361,7 +400,8 @@
       "status": "machine",
       "srcHash": "381aae5def8c5a11",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f79fccfce5511e97"
     },
     "966b64da-6237-48bd-8874-fb69b13e4529/EventContent": {
       "en": "The two fight for a long time, engaged in a fierce battle without rest,<NL>the opponent suddenly approaches for a surprise attack, <Character key=RoleTaiwu str=Name/> is unprepared and staggers back, also has to admit defeat with a fist salute...",
@@ -370,7 +410,8 @@
       "status": "machine",
       "srcHash": "520ffebaa6e5f22c",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "eff51ef28820bc71"
     },
     "966b64da-6237-48bd-8874-fb69b13e4529/Option_1": {
       "en": "(So be it...)",
@@ -379,7 +420,8 @@
       "status": "machine",
       "srcHash": "1dc994ed57593e7c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "85bc1c5906fa3510"
     },
     "239ab04d-1992-4eea-bb16-182226fbdcb9/EventContent": {
       "en": "nan",
@@ -388,16 +430,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "d86d2c52-11dc-4b3c-a946-e3cdaab95001/EventContent": {
       "en": "The pre-banquet sparring, victory and defeat are decided...<NL>The victor stands at the platform and bows in greeting, the loser shows no regret,<NL>everyone continues to drink and chat happily and harmoniously...<NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name/>'s Favorability with the guests rises...)</color>",
       "cn": "宴前比武，胜负已分……<NL>胜者站于台前拱手致意，败者亦不见惋惜之色，<NL>众人继续把酒言欢，和乐融融……<NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name/>与宾客的好感度上升……）</color>",
-      "ru": "Решаются вопросы о спарринге перед банкетом, победе и поражении...<NL>Победитель стоит на помосте и кланяется в знак приветствия, проигравший не выказывает ни малейшего сожаления,<NL>все продолжают пить и весело и гармонично болтать...<NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name/>Благосклонность к гостям повышается...)</color>",
-      "status": "machine",
+      "ru": "Предбанкетный спарринг окончен, победитель и проигравший определены...<NL>Победитель стоит на помосте и кланяется в знак приветствия, проигравший не выказывает ни малейшего сожаления,<NL>все продолжают пить и весело и дружно беседовать...<NL><color=#lightgrey>(Благосклонность гостей к <Character key=RoleTaiwu str=Name/> повышается...)</color>",
+      "status": "judged",
       "srcHash": "7824e50bf1270be9",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "d93d24c7f686de39"
     },
     "d86d2c52-11dc-4b3c-a946-e3cdaab95001/Option_1": {
       "en": "(This is good...)",
@@ -406,7 +450,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "ac1438e3-4c1c-4b81-bcd0-0d7e0f2b616c/EventContent": {
       "en": "nan",
@@ -415,7 +460,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "d86b2ca4-db3f-4abb-bdb7-b9dd2a94c566/EventContent": {
       "en": "nan",
@@ -424,7 +470,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "ad854e08-d802-4cb4-8f93-c6840807ff09/EventContent": {
       "en": "nan",
@@ -433,16 +480,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "4df6e190-67b0-43de-bb8d-35283e1fc6b9/EventContent": {
       "en": "\"Raising a cup to discuss the Martial Way, swords have already clashed before the hall.\"<NL>I see two people sparring before the banquet,<NL>attack and defense interwoven, hard to tell who wins, splendid and lively,<NL>Would <Character key=RoleTaiwu str=Name/> like to stay and watch the battle?",
       "cn": "“举盏论武道，堂前剑已鸣。”<NL>只见两人正在宴前比武，<NL>攻守交错、难分胜负，精彩纷呈，场面热闹至极，<NL><Character key=RoleTaiwu str=Name/>可要留步，在此观战？",
-      "ru": "\"Поднимая кубок, чтобы обсудить боевой путь, мечи уже схлестнулись перед залом\".<NL>Я вижу, как два человека устраивают спарринг перед банкетом,<NL>атака и оборона переплетены, трудно сказать, кто победит, великолепно и живо,<NL>Бы <Character key=RoleTaiwu str=Name/> хотите остаться и понаблюдать за битвой?",
-      "status": "machine",
+      "ru": "\"Поднимая кубок, чтобы обсудить боевой путь, мечи уже схлестнулись перед залом\".<NL>Я вижу, как два человека устраивают спарринг перед банкетом,<NL>атака и оборона переплетены, трудно сказать, кто победит, зрелище великолепное и оживлённое,<NL>Не хочет ли <Character key=RoleTaiwu str=Name/> остаться и понаблюдать за боем?",
+      "status": "judged",
       "srcHash": "9613f98a0fa55d0b",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "a4c3efc00a80d061"
     },
     "4df6e190-67b0-43de-bb8d-35283e1fc6b9/Option_1": {
       "en": "(Watch the bout...)",
@@ -451,7 +500,8 @@
       "status": "machine",
       "srcHash": "9e7d83f3ee975e18",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8475f9e59d00da58"
     },
     "4df6e190-67b0-43de-bb8d-35283e1fc6b9/Option_2": {
       "en": "(Do nothing...)",
@@ -460,7 +510,8 @@
       "status": "machine",
       "srcHash": "c9bc180224db6e47",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "78eb09446a31eb73"
     },
     "7383a947-0bf3-4191-a9ee-2f66411afd95/EventContent": {
       "en": "nan",
@@ -469,7 +520,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "ade4957c-6fae-4971-baac-05c2e32e2cac/EventContent": {
       "en": "nan",
@@ -478,7 +530,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "b798a6af-9a6f-418f-a0a2-741421b47345/EventContent": {
       "en": "\"Guests arrive, the Golden Chalice is raised; the feast begins, all guests rejoice.\"<NL><Character key=RoleTaiwu str=Name/> attends this family banquet,<NL>sees the courtyard filled with clear breeze, the room brimming with liquor fragrance, friends gather, chatting and laughing joyfully",
@@ -487,7 +540,8 @@
       "status": "machine",
       "srcHash": "201dd41e9b0d6c9e",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "08a0d81a00dcb5f4"
     },
     "b798a6af-9a6f-418f-a0a2-741421b47345/Option_1": {
       "en": "(Approach...)",
@@ -496,7 +550,8 @@
       "status": "machine",
       "srcHash": "87eb00eb2f9d0e7b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "59a128f0fd7e0fd9"
     },
     "cd3cf322-7396-45cf-8918-02e40a02d960/EventContent": {
       "en": "\"Thank you for gracing this family banquet...<NL>Today, wise friends gather at home, both literary masters and Martial World Heroes,<NL>Noble guest need not stand on ceremony, please join the banquet for liquor and casual chat...\"",
@@ -505,7 +560,8 @@
       "status": "machine",
       "srcHash": "3c28f56cce452ac6",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "b422c07bf15bcf82"
     },
     "cd3cf322-7396-45cf-8918-02e40a02d960/Option_1": {
       "en": "Is there anything not Ordinary about this liquor gathering Scholar Gathering? What are the delightful amusements?",
@@ -514,7 +570,8 @@
       "status": "machine",
       "srcHash": "8d66c8b74454eb36",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "80619cd6a2aed60b"
     },
     "1f4697d5-71e0-4241-888a-af05fb60159f/EventContent": {
       "en": "\"Although this liquor gathering is a family banquet, I have also carefully arranged it,<NL>its Unique aspects and various delightful amusements, allow me to recount them to you one by one...\"",
@@ -523,7 +580,8 @@
       "status": "machine",
       "srcHash": "2585d98edb3edd8a",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "6b9209563354e279"
     },
     "1f4697d5-71e0-4241-888a-af05fb60159f/Option_1": {
       "en": "(The Unique aspects of the family banquet liquor gathering?)",
@@ -532,7 +590,8 @@
       "status": "machine",
       "srcHash": "ff03386845e9caf1",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "12a9a146ff6a454b"
     },
     "1f4697d5-71e0-4241-888a-af05fb60159f/Option_2": {
       "en": "(The delightful amusements of the family banquet liquor gathering?)",
@@ -541,7 +600,8 @@
       "status": "machine",
       "srcHash": "ef50a82062417f4a",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "e79f3db677c75fba"
     },
     "1f4697d5-71e0-4241-888a-af05fb60159f/Option_3": {
       "en": "(Still need to be cautious walking here?)",
@@ -550,7 +610,8 @@
       "status": "machine",
       "srcHash": "ad8028b0a9e16d9a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b50f2dcea8d4df51"
     },
     "1f4697d5-71e0-4241-888a-af05fb60159f/Option_4": {
       "en": "(Tour around...)",
@@ -559,16 +620,18 @@
       "status": "machine",
       "srcHash": "feae964a01725daf",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "399d6cef79dddd9e"
     },
     "e490d019-51ab-4bcd-9c20-7f8b02c1dd1e/EventContent": {
       "en": "\"In the halls and corridors of the mansion, wherever the banquet is held, tables are set with fine liquor and delicacies,<NL>you need not be restrained, you may sit as you wish...<NL>The back garden has lush flowers and trees, you may also take a leisurely stroll...\"",
       "cn": "“家中厅堂廊庑，凡设宴处，皆置有桌案，备美酒佳肴，<NL>阁下不必拘束，可随兴入座……<NL>后花园花木繁秀，阁下亦可漫步闲游……”",
-      "ru": "\"В залах и коридорах особняка, где бы ни проводился банкет, столы накрыты изысканными винами и деликатесами,<NL>вас не нужно сдерживать, вы можете сидеть, как пожелаете...<NL>В саду за домом растут пышные цветы и деревья, вы также можете неторопливо прогуляться...\"",
-      "status": "machine",
+      "ru": "\"В залах и коридорах особняка, где бы ни проходил банкет, столы накрыты изысканным вином и деликатесами,<NL>не стесняйтесь, садитесь как пожелаете...<NL>В саду за домом растут пышные цветы и деревья, там также можно неторопливо прогуляться...\"",
+      "status": "judged",
       "srcHash": "14a56922ab487a36",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "37a726e1826b780a"
     },
     "e490d019-51ab-4bcd-9c20-7f8b02c1dd1e/Option_1": {
       "en": "(I see...)",
@@ -577,16 +640,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e7bee5614b0eb6eb"
     },
     "644c71e2-5a9e-4fa0-9e66-e23cb88be732/EventContent": {
       "en": "\"The Golden Chalice ripples with liquor, cups and goblets condense fragrance,<NL>Fine Wine and delicacies are already prepared on the banquet table,<Character key=RoleTaiwu str=Name/> can chat joyfully over cups and savor the delicacies with guests;<NL>or go to the back garden to stroll and seek fragrance, or engage in martial discussions of the Tao and Sparring martial skills with guests...<NL>All such refined activities can be done as one pleases, thus becoming more congenial with the banquet guests...\"",
       "cn": "“金樽酒漾，杯盏凝香，<NL>宴会桌上已备好美酒佳肴，<Character key=RoleTaiwu str=Name/>可与宾客杯酒言欢、细品佳肴；<NL>也可去后花园中，信步寻芳，或与宾客比武论道，切磋武技……<NL>诸般雅事可随心而行，便与宴上宾朋愈发投契……”",
-      "ru": "\"Золотая чаша переливается вином, кубки и фужеры источают аромат,<NL>Изысканное вино и деликатесы уже приготовлены на банкетном столе,<Character key=RoleTaiwu str=Name/> можете весело поболтать за чашечкой кофе и отведать деликатесы вместе с гостями;<NL>или отправляйтесь в сад за домом, чтобы прогуляться и насладиться ароматом, или участвуйте в боевых дискуссиях о Дао и спаррингах по боевым навыкам с гостями...<NL>Все эти изысканные мероприятия можно проводить так, как вам заблагорассудится, тем самым становясь более близкими по духу гостям банкета...\"",
-      "status": "machine",
+      "ru": "\"Золотая чаша колышется от вина, кубки и чаши источают аромат,<NL>На банкетном столе уже приготовлены изысканное вино и деликатесы,<Character key=RoleTaiwu str=Name/> может весело беседовать с гостями за чашами вина и пробовать деликатесы;<NL>или отправиться в сад за домом, чтобы прогуляться и насладиться ароматом, либо обсудить с гостями Дао и посостязаться в боевых искусствах...<NL>Всеми этими изысканными занятиями можно заниматься по своему желанию и благодаря этому стать ближе с гостями банкета...\"",
+      "status": "judged",
       "srcHash": "23363ebb394c3ed9",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "6a270fa670253ef2"
     },
     "644c71e2-5a9e-4fa0-9e66-e23cb88be732/Option_1": {
       "en": "(I see...)",
@@ -595,16 +660,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e7bee5614b0eb6eb"
     },
     "0febca52-aed6-4d66-ab90-c2cf6ced2881/EventContent": {
       "en": "\"Liquor gatherings are usually held in three places: Family, Tavern, and Manor...<NL><NL>If held at Family, guests sit together for liquor.<NL>Though the courtyard is small, it allows easy conversation and strengthens bonds without much effort...<NL>If held in a Tavern or Manor, the venues are larger with more entertainment, but consume more energy...\"<NL><NL><color=#lightgrey>(A Family liquor gathering allows a maximum Energy of 20. The liquor gathering ends when all Energy is depleted.)</color>",
       "cn": "“酒会雅集常设在三处：私宅家宴、市井酒楼、私家庄园……<NL><NL>设于家中，宾朋围坐品酒，虽院落不大，<NL>但彼此促膝而谈，情谊陡增，亦不劳神费力……<NL>而若择选酒楼或庄园，场地开阔、游艺繁多，恐怕颇耗精力……”<NL><NL><color=#lightgrey>（酒会设于家宴中，精力上限为20，若精力耗尽，则酒会结束。）</color>",
-      "ru": "\"Посиделки с вином обычно проводятся в трех местах: в семье, таверне и поместье...<NL><NL>Если мероприятие проводится в семейном кругу, гости сидят вместе за вином.<NL>Несмотря на то, что внутренний двор небольшой, он позволяет непринужденно беседовать и укрепляет связи без особых усилий...<NL>Если они проводятся в таверне или поместье, то места больше, с большим количеством развлечений, но потребляют больше энергии...\"<NL><NL><color=#lightgrey>(Семейное собрание с вином позволяет получить максимум 20 энергий. Сбор вина заканчивается, когда вся энергия исчерпана.)</color>",
-      "status": "machine",
+      "ru": "\"Винные банкеты обычно устраивают в трёх местах: дома, в таверне и в поместье...<NL><NL>Если банкет устраивают дома, гости сидят вместе и пьют вино.<NL>Хотя двор невелик, это позволяет непринуждённо беседовать и укреплять дружбу без особых усилий...<NL>Если же банкет проходит в таверне или поместье, места там больше и развлечений больше, но они требуют больше энергии...\"<NL><NL><color=#lightgrey>(На домашнем винном банкете запас энергии может достигать 20. Когда вся энергия исчерпана, винный банкет заканчивается.)</color>",
+      "status": "judged",
       "srcHash": "37755e239a729ced",
       "engine": "yandex",
-      "updatedAt": "2026-07-25T08:27:11.933Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "1db12524ad013462"
     },
     "0febca52-aed6-4d66-ab90-c2cf6ced2881/Option_1": {
       "en": "(I see...)",
@@ -613,7 +680,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e7bee5614b0eb6eb"
     },
     "08b7c692-8ba8-459f-bab5-f2dad88fc02c/EventContent": {
       "en": "\"\"I have stored all my treasured Fine Wine for years in the jars of the wine cellar,<NL>so it is not convenient to entertain guests here, I hope you do not trespass into the wine cellar...\"\"",
@@ -622,7 +690,8 @@
       "status": "machine",
       "srcHash": "195ff0d722694693",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e1cb05a7468a6fe9"
     },
     "08b7c692-8ba8-459f-bab5-f2dad88fc02c/Option_1": {
       "en": "(I see...)",
@@ -631,7 +700,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e7bee5614b0eb6eb"
     },
     "790b0aca-b3f7-47ee-bb62-385e27eb8c00/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> cleverly makes excuses and seizes the opportunity to lightly lift his sleeve,<NL>hides a jar of liquor in his bosom, then pretends nothing has happened<NL>",
@@ -640,7 +710,8 @@
       "status": "machine",
       "srcHash": "c39fa9b485790932",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "8cdb0ff10f510d9c"
     },
     "790b0aca-b3f7-47ee-bb62-385e27eb8c00/Option_1": {
       "en": "(This is good...)",
@@ -649,7 +720,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "1cce44b4-67d6-4d09-aff8-464ab36b28e5/EventContent": {
       "en": "nan",
@@ -658,7 +730,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "25cc93fe-41ea-4a03-a7d2-a4d3104588a0/EventContent": {
       "en": "nan",
@@ -667,7 +740,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "a353abbd-8c52-4594-bd42-3c900c0203de/EventContent": {
       "en": "nan",
@@ -676,7 +750,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "b604b3b1-f5ce-4447-8fcf-3eeadb08e3a0/EventContent": {
       "en": "nan",
@@ -685,7 +760,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "f8dc4450-11c6-425c-8405-75d422814afc/EventContent": {
       "en": "nan",
@@ -694,16 +770,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "7cf5dda1-3045-4bd5-816f-ece1c49bc4f4/EventContent": {
       "en": "The family member guards the wine cellar, raises eyes to look at <Character key=RoleTaiwu str=Name/>,<NL>with alert expression, bows and says:<NL>\"This is an important place in the mansion, not convenient for outside guests, please move to another place for sightseeing...\"",
       "cn": "家眷驻守酒窖，抬眸望向<Character key=RoleTaiwu str=Name/>，<NL>神色警惕，拱手施礼道：<NL>“此处乃府中重地，外客不便入内，还请移步他处游赏……”",
-      "ru": "Член семьи, охраняющий винный погреб, поднимает глаза, чтобы посмотреть на <Character key=RoleTaiwu str=Name/>,<NL>с настороженным выражением лица кланяется и говорит:<NL>\"Это важное место в особняке, неудобное для посторонних гостей, пожалуйста, переместитесь в другое место для осмотра достопримечательностей...\"",
-      "status": "machine",
+      "ru": "Член семьи охраняет винный погреб и, подняв глаза, смотрит на <Character key=RoleTaiwu str=Name/>,<NL>настороженно кланяется и говорит:<NL>\"Это важное место в особняке, посторонним гостям сюда нельзя, пожалуйста, пройдите в другое место для осмотра достопримечательностей...\"",
+      "status": "judged",
       "srcHash": "deb9ab17c5a27ab0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "62f32567e2520364"
     },
     "7cf5dda1-3045-4bd5-816f-ece1c49bc4f4/Option_1": {
       "en": "(Nothing else for now...)",
@@ -712,7 +790,8 @@
       "status": "machine",
       "srcHash": "07a309e69acf8288",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "6df6c46008658dbf"
     },
     "25f3cd98-40b6-4667-b3cd-40c08dc4c043/EventContent": {
       "en": "The guests have not arrived yet.<NL>Wait for the Gallants from all directions to gather, then proceed with Sparring.",
@@ -721,7 +800,8 @@
       "status": "machine",
       "srcHash": "2d0632a638eb5968",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e92d1aaff05fbdb0"
     },
     "25f3cd98-40b6-4667-b3cd-40c08dc4c043/Option_1": {
       "en": "Look around",
@@ -730,16 +810,18 @@
       "status": "machine",
       "srcHash": "7cc83697e9c5a147",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "5c3dc027a4d54e18"
     },
     "32781294-acd1-4972-9260-d56cbadc4379/EventContent": {
       "en": "<Character key=BK str=Name/> leisurely enjoys the feast,<NL>eyes and brows Michelia Flower, as if exceptionally content,<NL>sees <Character key=RoleTaiwu str=Name/> approaching gracefully, nods in greeting...",
       "cn": "<Character key=BK str=Name/>悠然享宴，<NL>眉眼含笑，好似分外陶然自得，<NL>见<Character key=RoleTaiwu str=Name/>款步而来，颔首致意……",
-      "ru": "<Character key=BK str=Name/> неторопливо наслаждается застольем,<NL>глаза и брови Микелии расцветают, как будто она исключительно довольна,<NL>видит <Character key=RoleTaiwu str=Name/> грациозно приближается, кивает в знак приветствия...",
-      "status": "machine",
+      "ru": "<Character key=BK str=Name/> неторопливо наслаждается пиршеством,<NL>в его глазах и бровях играет улыбка, словно он необычайно доволен собой,<NL>увидев, как <Character key=RoleTaiwu str=Name/> грациозно приближается, он кивает в знак приветствия…",
+      "status": "judged",
       "srcHash": "16738891765050b0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "19d2e2c0fa33b50e"
     },
     "32781294-acd1-4972-9260-d56cbadc4379/Option_1": {
       "en": "(Nod in return, and exchange a smile...)",
@@ -748,7 +830,8 @@
       "status": "machine",
       "srcHash": "8d630f1d9bf5c668",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ccbed02a50f3845f"
     },
     "009fd2f6-d29f-4621-afba-8ab165b5a391/EventContent": {
       "en": "nan",
@@ -757,7 +840,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     }
   }
 }

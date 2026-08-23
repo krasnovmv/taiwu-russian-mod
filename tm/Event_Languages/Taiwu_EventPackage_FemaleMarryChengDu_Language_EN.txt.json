@@ -6,11 +6,12 @@
     "0069ded3-5997-4688-abba-70ddd1a9ad79/EventContent": {
       "en": "\"At a banquet like this, we should both relish the moment, young lady. Please do not decline this...\"<NL><Character key=Participant str=Name /> approached the pavilion, extending a cup of liquor toward <Character key=RoleTaiwu str=Name /> from behind the gauze curtains.",
       "cn": "“既是酒宴，主客相宜，此杯姑娘不当推辞……”<NL><Character key=Participant str=Name />行至凉亭，隔着纱幔向<Character key=RoleTaiwu str=Name />递来一杯美酒……",
-      "ru": "- На таком банкете, как этот, мы оба должны наслаждаться моментом, юная леди. Пожалуйста, не отказывайтесь от этого...\"<NL><Character key=Participant str=Name /> подошел к павильону, протягивая стакан с вином в сторону <Character key=RoleTaiwu str=Name /> из-за газовых занавесок.",
-      "status": "machine",
+      "ru": "\"На таком банкете, как этот, нам обоим следует наслаждаться моментом, юная леди. Пожалуйста, не отказывайтесь от этого...\"<NL><Character key=Participant str=Name /> подошел к павильону, протягивая <Character key=RoleTaiwu str=Name /> чашу вина из-за газовых занавесок.",
+      "status": "judged",
       "srcHash": "d2651fb44b180d72",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "dae995aa3aa6ebf9"
     },
     "0069ded3-5997-4688-abba-70ddd1a9ad79/Option_1": {
       "en": "(Drink in one gulp...)",
@@ -19,7 +20,8 @@
       "status": "machine",
       "srcHash": "e193843d83b334b6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "26c1f6dd4f3ed3d2"
     },
     "0069ded3-5997-4688-abba-70ddd1a9ad79/Option_2": {
       "en": "(Politely decline...)",
@@ -28,7 +30,8 @@
       "status": "machine",
       "srcHash": "623b6d72d418fa07",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "c0afc5cf1357e4d6"
     },
     "0069ded3-5997-4688-abba-70ddd1a9ad79/Option_3": {
       "en": "(Kick out from the banquet...)",
@@ -37,7 +40,8 @@
       "status": "machine",
       "srcHash": "afa38d8f9ccd165d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "333604900a70bb5c"
     },
     "018b04b2-ebcb-45bf-a117-8b493ba180a5/EventContent": {
       "en": "nan",
@@ -46,16 +50,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e975abb8a27a41cb"
     },
     "018b04b2-ebcb-45bf-a117-8b493ba180a5/Option_1": {
       "en": "(Toast <Character key=ParticipantA str=Name />...)",
       "cn": "（向<Character key=ParticipantA str=Name />敬酒……）",
-      "ru": "(Тост <Character key=ParticipantA str=Name />...)",
-      "status": "machine",
+      "ru": "(Выпить за <Character key=ParticipantA str=Name />...)",
+      "status": "judged",
       "srcHash": "dad89cddb64fe98d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "6f2c9ad948d870fd"
     },
     "018b04b2-ebcb-45bf-a117-8b493ba180a5/Option_2": {
       "en": "(Have no such intention...)",
@@ -64,7 +70,8 @@
       "status": "machine",
       "srcHash": "f09228cec3e277b2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3ed7082f80e2217d"
     },
     "040d1d1b-7843-4c05-a5ee-f78c92abd2fb/EventContent": {
       "en": "\"Mutual exchanges create the most memorable moments...\"<NL><Character key=Participant str=Name /> accepted without hesitation, toasting with <Character key=RoleTaiwu str=Name /> once again.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)<NL>(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color><NL>",
@@ -73,16 +80,18 @@
       "status": "machine",
       "srcHash": "ec55200c41caa030",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "7f19185c44bc63fd"
     },
     "040d1d1b-7843-4c05-a5ee-f78c92abd2fb/Option_1": {
       "en": "(Return the toast...)",
       "cn": "（回敬美酒……）",
-      "ru": "(Верните тост...)",
-      "status": "machine",
+      "ru": "(Ответить на тост вином...)",
+      "status": "judged",
       "srcHash": "5ddbed7a11db709e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "f1f0b3d2fa4ca5ab"
     },
     "040d1d1b-7843-4c05-a5ee-f78c92abd2fb/Option_2": {
       "en": "(This is good...)",
@@ -91,7 +100,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "09fba149-d06b-4e34-ba1f-655446e02ea4/EventContent": {
       "en": "\"Why is this happening... Never mind.<NL>According to the rules, if you can defeat me, I'll leave willingly...\"<NL><Character key=Participant str=Name /> bowed with hands folded in front, assuming a dueling stance.",
@@ -100,7 +110,8 @@
       "status": "machine",
       "srcHash": "5524ae9679edb651",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "f6785fab011a9bfa"
     },
     "09fba149-d06b-4e34-ba1f-655446e02ea4/Option_1": {
       "en": "(Take on the fight...)",
@@ -109,16 +120,18 @@
       "status": "machine",
       "srcHash": "3a3f841ba7ed4a7c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "88451a0d9cd7ffac"
     },
     "0ca69165-c1b8-4842-a3d7-372ca272470c/EventContent": {
       "en": "\"I didn't plan on sharing a drink with you. My stomach's just playing host to an insistent 'alcohol bug'...\"<NL><Character key=Participant str=Name /> rose the cup willingly, toasting with <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)?(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color>",
       "cn": "“可不是我想同你喝，只是我肚中的‘酒虫’叫个不停……”<NL><Character key=Participant str=Name />并未推辞，接过<Character key=RoleTaiwu str=Name />手中的美酒，与之共饮……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />将酒饮下，内息因醉酒而紊乱……）（<Character key=Participant str=Name />将酒饮下，内息因醉酒而紊乱……）</color>",
-      "ru": "- Я не планировал делиться с тобой выпивкой. Мой желудок просто принимает у себя настойчивую \"алкогольную инфекцию\"...\"<NL><Character key=Participant str=Name /> охотно поднял чашу, произнося тост с <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> выпил напиток, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)?(<Character key=Participant str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)</color>",
-      "status": "machine",
+      "ru": "\"Я вовсе не собирался пить с тобой. Просто мой «винный червячок» никак не угомонится...\"<NL><Character key=Participant str=Name /> без колебаний взял вино из рук <Character key=RoleTaiwu str=Name /> и выпил вместе с ним...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)?(<Character key=Participant str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)</color>",
+      "status": "judged",
       "srcHash": "334f837de6d25b3b",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "3bb44d3a91807aa5"
     },
     "0ca69165-c1b8-4842-a3d7-372ca272470c/Option_1": {
       "en": "(Invite for another round...)",
@@ -127,7 +140,8 @@
       "status": "machine",
       "srcHash": "928b438e8ae9872e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e98c4a4475c59439"
     },
     "0ca69165-c1b8-4842-a3d7-372ca272470c/Option_2": {
       "en": "(Stop drinking and bid farewell...)",
@@ -136,7 +150,8 @@
       "status": "machine",
       "srcHash": "73ff003900ed9df0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b6f104ec58f6f79e"
     },
     "0d6fbdb1-f716-4d46-8990-058525e98928/EventContent": {
       "en": "\"Miss, you look a bit uncomfortable with the drink. How about we call it a night?\"<NL><Character key=Participant str=Name /> put down the cup and headed back to the banquet.",
@@ -145,7 +160,8 @@
       "status": "machine",
       "srcHash": "ac071602a01c0d95",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fdceccf89ea9764b"
     },
     "0d6fbdb1-f716-4d46-8990-058525e98928/Option_1": {
       "en": "(...)",
@@ -154,16 +170,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "191ce870-6ce7-440c-bf98-447c7a6d6a09/EventContent": {
       "en": "\"Uh, did you put something in the liquor? Why am I feeling so dizzy...\"<NL><Character key=Participant str=Name /> accepted without hesitation, toasting with <Character key=RoleTaiwu str=Name /> once again.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)<NL>(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color><NL>",
       "cn": "“唔，你在酒里下了药么，否则我怎么晕晕乎乎……”<NL><Character key=Participant str=Name />并未推辞，接过<Character key=RoleTaiwu str=Name />手中的美酒，与之共饮……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />将酒饮下，内息因醉酒而紊乱……）<NL>（<Character key=Participant str=Name />将酒饮下，内息因醉酒而紊乱……）</color><NL>",
-      "ru": "- Э-э, ты что-то подмешал в вино? Почему у меня так кружится голова...\"<NL><Character key=Participant str=Name /> принял без колебаний, провозгласив тост с <Character key=RoleTaiwu str=Name /> еще раз.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)<NL>(<Character key=Participant str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)</color><NL>",
-      "status": "machine",
+      "ru": "\"Э-э, ты что-то подмешал в вино? Почему у меня так кружится голова...\"<NL><Character key=Participant str=Name /> без колебаний взял вино из рук <Character key=RoleTaiwu str=Name /> и выпил вместе с ним...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)<NL>(<Character key=Participant str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)</color><NL>",
+      "status": "judged",
       "srcHash": "4051fcc677fabb9c",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "add9043dff576203"
     },
     "191ce870-6ce7-440c-bf98-447c7a6d6a09/Option_1": {
       "en": "(Invite for another round...)",
@@ -172,7 +190,8 @@
       "status": "machine",
       "srcHash": "928b438e8ae9872e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e98c4a4475c59439"
     },
     "191ce870-6ce7-440c-bf98-447c7a6d6a09/Option_2": {
       "en": "(Stop drinking and bid farewell...)",
@@ -181,16 +200,18 @@
       "status": "machine",
       "srcHash": "73ff003900ed9df0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b6f104ec58f6f79e"
     },
     "1a1304b6-7ed4-4540-a6ac-fc7c1fb098f0/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> unveiled her face, stepping onto the banquet, approaching <Character key=Participant str=Name />...",
       "cn": "<Character key=RoleTaiwu str=Name />揭下面纱，来到了宴席之上，缓缓行至<Character key=Participant str=Name />身前……",
-      "ru": "<Character key=RoleTaiwu str=Name /> открыла свое лицо, ступая на банкет, приближаясь <Character key=Participant str=Name />...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> сняла вуаль, вошла на банкет и медленно подошла к <Character key=Participant str=Name />...",
+      "status": "judged",
       "srcHash": "22d19ac1429208ae",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "4a1dd40224fb8e0a"
     },
     "1a1304b6-7ed4-4540-a6ac-fc7c1fb098f0/Option_1": {
       "en": "(...)",
@@ -199,16 +220,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "1a43ce75-8bde-403d-b9f9-ae2f70611dec/EventContent": {
       "en": "\"Thanks for the toast.\"<NL><Character key=Participant str=Name /> expressed gratitude with hands folded, returning to the banquet.",
       "cn": "“多谢姑娘赏脸……”<NL><Character key=Participant str=Name />拱手说道，随后回到了酒席……",
-      "ru": "\"Спасибо за тост\".<NL><Character key=Participant str=Name /> выразил благодарность, сложив руки, и вернулся на банкет.",
-      "status": "machine",
+      "ru": "\"Спасибо, что оказали мне честь...\"<NL><Character key=Participant str=Name /> сложил руки и поблагодарил её, после чего вернулся к застолью.",
+      "status": "judged",
       "srcHash": "c29bcc369c33a7c0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "eb1b4173eb569f97"
     },
     "1a43ce75-8bde-403d-b9f9-ae2f70611dec/Option_1": {
       "en": "(...)",
@@ -217,7 +240,8 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "1b9df6ec-d229-4cef-b74b-9dd94e35fb22/EventContent": {
       "en": "After a while, guests took their seats amidst laughter and conversations and waited for the banquet to officially commence.",
@@ -226,7 +250,8 @@
       "status": "machine",
       "srcHash": "a78fff42f340f71a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "378138ce69796a9f"
     },
     "1b9df6ec-d229-4cef-b74b-9dd94e35fb22/Option_1": {
       "en": "(...)",
@@ -235,7 +260,8 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "1f7eb2f1-4304-4d21-b7ab-bea631174f4b/EventContent": {
       "en": "\"Aromatic and mellow, what a fantastic drink! You should try it, young lady.\"<NL><Character key=Participant str=Name /> approached the pavilion, extending a cup of liquor toward <Character key=RoleTaiwu str=Name /> from behind the gauze curtains.",
@@ -244,7 +270,8 @@
       "status": "machine",
       "srcHash": "ed847bcfb60e3044",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "9084ce59d1f7bb69"
     },
     "1f7eb2f1-4304-4d21-b7ab-bea631174f4b/Option_1": {
       "en": "(Drink in one gulp...)",
@@ -253,7 +280,8 @@
       "status": "machine",
       "srcHash": "e193843d83b334b6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "26c1f6dd4f3ed3d2"
     },
     "1f7eb2f1-4304-4d21-b7ab-bea631174f4b/Option_2": {
       "en": "(Politely decline...)",
@@ -262,7 +290,8 @@
       "status": "machine",
       "srcHash": "623b6d72d418fa07",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "c0afc5cf1357e4d6"
     },
     "1f7eb2f1-4304-4d21-b7ab-bea631174f4b/Option_3": {
       "en": "(Kick out from the banquet...)",
@@ -271,7 +300,8 @@
       "status": "machine",
       "srcHash": "afa38d8f9ccd165d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "333604900a70bb5c"
     },
     "20a208f9-eea4-45cc-8871-ebcbdb1b6050/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> accepted without hesitation, toasting with <Character key=Participant str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)<NL>(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color><NL>",
@@ -280,16 +310,18 @@
       "status": "machine",
       "srcHash": "763d4588fdb5248d",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "444d0f6d32f69465"
     },
     "20a208f9-eea4-45cc-8871-ebcbdb1b6050/Option_1": {
       "en": "(Return the toast...)",
       "cn": "（回敬美酒……）",
-      "ru": "(Верните тост...)",
-      "status": "machine",
+      "ru": "(Ответить на тост вином...)",
+      "status": "judged",
       "srcHash": "5ddbed7a11db709e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "f1f0b3d2fa4ca5ab"
     },
     "20a208f9-eea4-45cc-8871-ebcbdb1b6050/Option_2": {
       "en": "(This is good...)",
@@ -298,16 +330,18 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "21e78470-60a1-4048-afc7-1f75659cf115/EventContent": {
       "en": "\"Miss, you've got the guts,<NL>but going head-to-head with so many men in drinking might be a bit challenging.<NL>How about letting us Cui'e handle it? It only requires a small sum of silver...\"",
       "cn": "“姑娘虽是巾帼不让须眉，<NL>但若要与那么多男子拼酒，不免也会心有余而力不足……<NL>倒不如叫翠娥们为姑娘代劳，只需要些许银钱罢了……”",
-      "ru": "- Мисс, у вас есть мужество,<NL>но встретиться лицом к лицу с таким количеством пьющих мужчин может быть немного непросто.<NL>Как насчет того, чтобы позволить нам самим разобраться с этим? Для этого требуется всего лишь небольшая сумма серебра...\"",
-      "status": "machine",
+      "ru": "\"Мисс, вы не уступаете мужчинам в смелости,<NL>но состязаться в выпивке с таким количеством мужчин может быть непросто.<NL>Почему бы не позволить нам, девушкам Цуйэ, выпить вместо вас? Это стоит всего лишь немного серебра...\"",
+      "status": "judged",
       "srcHash": "80081dde078ac701",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "d3f66937852e0913"
     },
     "21e78470-60a1-4048-afc7-1f75659cf115/Option_1": {
       "en": "Pick a husband?",
@@ -316,16 +350,18 @@
       "status": "machine",
       "srcHash": "513e14882a5abaf9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e3c76a7bdeffe1d9"
     },
     "21e78470-60a1-4048-afc7-1f75659cf115/Option_2": {
       "en": "Let Cui'e test their liquor tolerance?",
       "cn": "翠娥劝酒？",
-      "ru": "Позволить Цуйе проверить их переносимость вина?",
-      "status": "machine",
+      "ru": "Позволить Цуйэ угостить их вином?",
+      "status": "judged",
       "srcHash": "45dd6b1921080f6f",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "2e8c4689aa5000dc"
     },
     "21e78470-60a1-4048-afc7-1f75659cf115/Option_3": {
       "en": "(So that's how it is...)",
@@ -334,7 +370,8 @@
       "status": "machine",
       "srcHash": "6718b1318dd51c4c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "99ce73ad103afdff"
     },
     "235f8f98-8794-407a-908c-fd7fd078c5ed/EventContent": {
       "en": "\"Alright! According to the rules, if you can beat me, I'll never set foot in this place again!\"<NL><Character key=Participant str=Name /> declared earnestly, getting ready for a duel.",
@@ -343,7 +380,8 @@
       "status": "machine",
       "srcHash": "2b0e2fd987787bff",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "1ef80e279ab2aff7"
     },
     "235f8f98-8794-407a-908c-fd7fd078c5ed/Option_1": {
       "en": "(Take on the fight...)",
@@ -352,16 +390,18 @@
       "status": "machine",
       "srcHash": "3a3f841ba7ed4a7c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "88451a0d9cd7ffac"
     },
     "241746df-576e-4695-b21e-64dfb21fbfcc/EventContent": {
       "en": "\"Sure, even if it's good liquor, it's wise to drink in moderation...\"<NL><Character key=Participant str=Name /> agreed with hands folded, returning to the banquet.",
       "cn": "“好，即使是美酒，也不当多饮……”<NL><Character key=Participant str=Name />拱手说道，随后回到了酒席……",
-      "ru": "\"Конечно, даже если это хороший вино, разумно пить в умеренных количествах...\"<NL><Character key=Participant str=Name /> согласился, сложив руки на груди, и вернулся на банкет.",
-      "status": "machine",
+      "ru": "\"Конечно, даже если это хорошее вино, разумно пить в умеренных количествах...\"<NL><Character key=Participant str=Name /> согласился, сложив руки, и вернулся к застолью.",
+      "status": "judged",
       "srcHash": "0fed386f17568394",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "ac2c42d1c74f010d"
     },
     "241746df-576e-4695-b21e-64dfb21fbfcc/Option_1": {
       "en": "(...)",
@@ -370,16 +410,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "246b910f-e5bd-4bbb-935f-43779165f190/EventContent": {
       "en": "As the sun set, the banquet came to an end.<NL>Peering through the gauze curtains, <Character key=RoleTaiwu str=Name /> noticed that only <Character key=Participant str=Name /> remained sober.",
       "cn": "随着日落西山，这场酒宴也随即宣告结束，<NL><Character key=RoleTaiwu str=Name />透过纱幔观望，只见宴席中只有<Character key=Participant str=Name />一人尚且清醒……",
-      "ru": "Когда солнце село, банкет подошел к концу.<NL>Выглядываю из-за газовых занавесок, <Character key=RoleTaiwu str=Name /> заметил, что только <Character key=Participant str=Name /> оставался трезвым.",
-      "status": "machine",
+      "ru": "Когда солнце село, банкет подошел к концу.<NL>Взглянув из-за газовых занавесок, <Character key=RoleTaiwu str=Name /> заметила, что только <Character key=Participant str=Name /> оставался трезвым.",
+      "status": "judged",
       "srcHash": "8ae48c91cf05ed3c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "aefe103b61c661d6"
     },
     "246b910f-e5bd-4bbb-935f-43779165f190/Option_1": {
       "en": "(Head to the Banquet...)",
@@ -388,7 +430,8 @@
       "status": "machine",
       "srcHash": "b52d4fedebffb4e4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "c1c3bcc9bfa8eb5f"
     },
     "29fd3e31-64a0-4a04-8e0e-34fc7dfddac1/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> accepted without hesitation, toasting with <Character key=Participant str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)<NL>(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color><NL>",
@@ -397,16 +440,18 @@
       "status": "machine",
       "srcHash": "763d4588fdb5248d",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "444d0f6d32f69465"
     },
     "29fd3e31-64a0-4a04-8e0e-34fc7dfddac1/Option_1": {
       "en": "(Return the toast...)",
       "cn": "（回敬美酒……）",
-      "ru": "(Верните тост...)",
-      "status": "machine",
+      "ru": "(Ответить на тост вином...)",
+      "status": "judged",
       "srcHash": "5ddbed7a11db709e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "f1f0b3d2fa4ca5ab"
     },
     "29fd3e31-64a0-4a04-8e0e-34fc7dfddac1/Option_2": {
       "en": "(This is good...)",
@@ -415,7 +460,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "2da85889-e9f0-4c1e-a7be-bbcfa0966c67/EventContent": {
       "en": "\"Miss, if you insist, I'll have another drink.\"<NL><Character key=Participant str=Name /> accepted without hesitation, toasting with <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)?(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color>",
@@ -424,7 +470,8 @@
       "status": "machine",
       "srcHash": "b74d3f96f42e9922",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "c6310f07e5111e22"
     },
     "2da85889-e9f0-4c1e-a7be-bbcfa0966c67/Option_1": {
       "en": "(Invite for another round...)",
@@ -433,7 +480,8 @@
       "status": "machine",
       "srcHash": "928b438e8ae9872e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e98c4a4475c59439"
     },
     "2da85889-e9f0-4c1e-a7be-bbcfa0966c67/Option_2": {
       "en": "(Stop drinking and bid farewell...)",
@@ -442,7 +490,8 @@
       "status": "machine",
       "srcHash": "73ff003900ed9df0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b6f104ec58f6f79e"
     },
     "398a8f53-7fc0-464e-95bb-6062526ea89b/EventContent": {
       "en": "nan",
@@ -451,16 +500,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "4093b2de-e614-4a5b-8bbc-b9ca6e0dfa31/EventContent": {
       "en": "<Character key=Participant str=Name /> emerged as the undisputed victor of the marriage contest, surpassing all other suitors.<NL><Character key=RoleTaiwu str=Name /> unveiled her face and walked up to <Character key=Participant str=Name />...",
       "cn": "<Character key=Participant str=Name />力战群雄，成为了此次招亲当之无愧的胜者……<NL><Character key=RoleTaiwu str=Name />揭下面纱，来到了宴席之上，缓缓行至<Character key=Participant str=Name />身前……",
-      "ru": "<Character key=Participant str=Name /> стал бесспорным победителем брачного состязания, превзойдя всех остальных женихов.<NL><Character key=RoleTaiwu str=Name /> открыла лицо и подошла к <Character key=Participant str=Name />...",
-      "status": "machine",
+      "ru": "<Character key=Participant str=Name /> стал бесспорным победителем брачного состязания, превзойдя всех остальных женихов.<NL><Character key=RoleTaiwu str=Name /> сняла вуаль и подошла к <Character key=Participant str=Name /> на пиршестве...",
+      "status": "judged",
       "srcHash": "7ca614a48ed4ce7f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "97ceec4bd7105720"
     },
     "4093b2de-e614-4a5b-8bbc-b9ca6e0dfa31/Option_1": {
       "en": "(...)",
@@ -469,16 +520,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "47c1f4d5-e30f-4af6-9f62-b26ce02759dc/EventContent": {
       "en": "\"Thanks for your gracious hospitality. Let me finish this cup first!\"<NL><Character key=Participant str=Name /> approached the pavilion, extending the liquor toward <Character key=RoleTaiwu str=Name /> from behind the gauze curtains.",
       "cn": "“多谢姑娘的盛情款待，这杯酒我先饮为尽！”<NL><Character key=Participant str=Name />行至凉亭，隔着纱幔向<Character key=RoleTaiwu str=Name />递来一杯美酒……",
-      "ru": "- Спасибо за ваше любезное гостеприимство. Дай мне сначала допить эту чашку!\"<NL><Character key=Participant str=Name /> подошел к павильону, протягивая вино в сторону <Character key=RoleTaiwu str=Name /> из-за газовых занавесок.",
-      "status": "machine",
+      "ru": "\"Спасибо за ваше любезное гостеприимство. Дай мне сначала допить эту чашку!\"<NL><Character key=Participant str=Name /> подошел к павильону, протягивая вино в сторону <Character key=RoleTaiwu str=Name /> из-за марлевых занавесок.",
+      "status": "judged",
       "srcHash": "6b587f24a2506457",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "2b0d0901fe94d8c4"
     },
     "47c1f4d5-e30f-4af6-9f62-b26ce02759dc/Option_1": {
       "en": "(Drink in one gulp...)",
@@ -487,7 +540,8 @@
       "status": "machine",
       "srcHash": "e193843d83b334b6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "26c1f6dd4f3ed3d2"
     },
     "47c1f4d5-e30f-4af6-9f62-b26ce02759dc/Option_2": {
       "en": "(Politely decline...)",
@@ -496,7 +550,8 @@
       "status": "machine",
       "srcHash": "623b6d72d418fa07",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "c0afc5cf1357e4d6"
     },
     "47c1f4d5-e30f-4af6-9f62-b26ce02759dc/Option_3": {
       "en": "(Kick out from the banquet...)",
@@ -505,7 +560,8 @@
       "status": "machine",
       "srcHash": "afa38d8f9ccd165d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "333604900a70bb5c"
     },
     "4824237f-a478-41dd-969b-1b4492e0a0db/EventContent": {
       "en": "\"<Character key=Participant str=Name />? I'll remember that...\"<NL>The girl bowed and gracefully made her way toward the banquet.",
@@ -514,7 +570,8 @@
       "status": "machine",
       "srcHash": "2b70c21b8836d89b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "c3b07124d0324eb1"
     },
     "4824237f-a478-41dd-969b-1b4492e0a0db/Option_1": {
       "en": "(This is good...)",
@@ -523,16 +580,18 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "49c9fbe0-2d4f-4df9-aa15-458d3e5e4108/EventContent": {
       "en": "\"Stubborn, aren't you?\"<NL><Character key=Participant str=Name /> put down the cup and returned to the banquet.",
       "cn": "“不知好歹！”<NL><Character key=Participant str=Name />放下酒杯，回到了酒席当中……",
-      "ru": "- Ты упрямый, не так ли?<NL><Character key=Participant str=Name /> поставил чашку и вернулся к пиршеству.",
-      "status": "machine",
+      "ru": "\"Не знаешь, что для тебя лучше!\"<NL><Character key=Participant str=Name /> поставил чашку и вернулся к пиршеству.",
+      "status": "judged",
       "srcHash": "b88fc196cab746fd",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "f7a81da4e1287da5"
     },
     "49c9fbe0-2d4f-4df9-aa15-458d3e5e4108/Option_1": {
       "en": "(...)",
@@ -541,16 +600,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "4ac7facd-43e8-4653-8a08-51a7baef69e3/EventContent": {
       "en": "\"If... if you can't handle it, feel free to beg for mercy. I won't make things hard for you...\"<NL><Character key=Participant str=Name /> accepted without hesitation, toasting with <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)<NL>(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color><NL>",
       "cn": "“若是喝不了……向我……向我求饶便是，我自然不会为难你……”<NL><Character key=Participant str=Name />并未推辞，接过<Character key=RoleTaiwu str=Name />手中的美酒，与之共饮……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />将酒饮下，内息因醉酒而紊乱……）<NL>（<Character key=Participant str=Name />将酒饮下，内息因醉酒而紊乱……）</color><NL>",
-      "ru": "- Если... если ты не можешь с этим справиться, не стесняйся молить о пощаде. Я не буду усложнять тебе жизнь...\"<NL><Character key=Participant str=Name /> принял без колебаний, провозгласив тост с <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)<NL>(<Character key=Participant str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)</color><NL>",
-      "status": "machine",
+      "ru": "\"Если... если ты не можешь выпить, просто... просто попроси меня о пощаде. Я не стану тебя мучить...\"<NL><Character key=Participant str=Name /> без колебаний принял вино от <Character key=RoleTaiwu str=Name /> и выпил вместе с ней...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> осушила бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за опьянения вином...)<NL>(<Character key=Participant str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за опьянения вином...)</color><NL>",
+      "status": "judged",
       "srcHash": "47a4c79e76d62e75",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "8fdf0f2248d655f6"
     },
     "4ac7facd-43e8-4653-8a08-51a7baef69e3/Option_1": {
       "en": "(Invite for another round...)",
@@ -559,7 +620,8 @@
       "status": "machine",
       "srcHash": "928b438e8ae9872e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e98c4a4475c59439"
     },
     "4ac7facd-43e8-4653-8a08-51a7baef69e3/Option_2": {
       "en": "(Stop drinking and bid farewell...)",
@@ -568,16 +630,18 @@
       "status": "machine",
       "srcHash": "73ff003900ed9df0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b6f104ec58f6f79e"
     },
     "4ad74329-b42a-4c01-84f2-6f41caee49a5/EventContent": {
       "en": "On this delightful day, blessed with warm sunshine, blooming flowers, and the sweet melody of singing birds,<NL><Character key=Participant str=Name /> proposed to <Character key=RoleTaiwu str=Name /> at the banquet,<NL>and the two exchanged vows in the manor, officially becoming a married couple...<NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> and <Character key=Participant str=Name /> have become spouses...)</color>",
       "cn": "是日，阳光和煦，天青云淡，百花献瑞，燕雀报喜，<NL><Character key=Participant str=Name />从酒宴当中迎娶了<Character key=RoleTaiwu str=Name />，<NL>二人于宅邸拜了天地，结为了夫妻……<NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />与<Character key=Participant str=Name />结为了夫妻……）</color>",
-      "ru": "В этот восхитительный день, благословленный теплым солнечным светом, распускающимися цветами и сладкой мелодией пения птиц,<NL><Character key=Participant str=Name /> предложил <Character key=RoleTaiwu str=Name /> на банкете,<NL>и эти двое обменялись клятвами в поместье, официально став супружеской парой...<NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> и <Character key=Participant str=Name /> стали супругами...)</color>",
-      "status": "machine",
+      "ru": "В этот восхитительный день, благословленный тёплым солнечным светом, распускающимися цветами и сладким пением птиц,<NL><Character key=Participant str=Name /> на пиршестве взял в жёны <Character key=RoleTaiwu str=Name />,<NL>и они в поместье совершили брачный обряд, став супругами...<NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> и <Character key=Participant str=Name /> стали супругами...)</color>",
+      "status": "judged",
       "srcHash": "df60adaf7e6816d4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "53f93c5f984851bc"
     },
     "4ad74329-b42a-4c01-84f2-6f41caee49a5/Option_1": {
       "en": "(Overwhelmed with joy!)",
@@ -586,7 +650,8 @@
       "status": "machine",
       "srcHash": "245eab4c3ddf87be",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "9b9eb811d1a9a354"
     },
     "4cacbb5c-2151-4f70-996a-1c77a2886994/EventContent": {
       "en": "nan",
@@ -595,16 +660,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "4d9ba5c1-3b0f-4c12-8e42-1816733b5911/EventContent": {
       "en": "\"Another round? If it were someone else, I wouldn't be so lenient...\"<NL><Character key=Participant str=Name /> accepted without hesitation, toasting with <Character key=RoleTaiwu str=Name />.<NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)<NL>(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color>",
       "cn": "“再饮？若是旁人，我可没这么好说话……”<NL><Character key=Participant str=Name />并未推辞，接过<Character key=RoleTaiwu str=Name />手中的美酒，与之共饮……<NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />将酒饮下，内息因醉酒而紊乱……）<NL>（<Character key=Participant str=Name />将酒饮下，内息因醉酒而紊乱……）</color>",
-      "ru": "- Еще по одной? Если бы это был кто-то другой, я бы не был так снисходителен...\"<NL><Character key=Participant str=Name /> принял без колебаний, провозгласив тост с <Character key=RoleTaiwu str=Name />.<NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)<NL>(<Character key=Participant str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)</color>",
-      "status": "machine",
+      "ru": "\"Ещё выпьем? С кем-нибудь другим я не был бы столь снисходителен...\"<NL><Character key=Participant str=Name /> без колебаний принял вино от <Character key=RoleTaiwu str=Name /> и выпил вместе с ним...<NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за опьянения вином...)<NL>(<Character key=Participant str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за опьянения вином...)</color>",
+      "status": "judged",
       "srcHash": "e41ab7902dbda9f0",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "3170ecbc18ff83aa"
     },
     "4d9ba5c1-3b0f-4c12-8e42-1816733b5911/Option_1": {
       "en": "(Invite for another round...)",
@@ -613,7 +680,8 @@
       "status": "machine",
       "srcHash": "928b438e8ae9872e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e98c4a4475c59439"
     },
     "4d9ba5c1-3b0f-4c12-8e42-1816733b5911/Option_2": {
       "en": "(Stop drinking and bid farewell...)",
@@ -622,16 +690,18 @@
       "status": "machine",
       "srcHash": "73ff003900ed9df0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b6f104ec58f6f79e"
     },
     "4f4f5f48-99c7-4511-b25b-8d4df449613a/EventContent": {
       "en": "\"Oh, I give up... I give up... No more for me...\"<NL><Character key=Participant str=Name /> seemed a bit tipsy and declined the drink.",
       "cn": "“哎哟，我认输……认输……不喝啦……”<NL><Character key=Participant str=Name />似有醉意，于是推辞不饮……",
-      "ru": "\"О, я сдаюсь... Я сдаюсь... Для меня этого больше нет...\"<NL><Character key=Participant str=Name /> казался немного навеселе и отказался от выпивки.",
-      "status": "machine",
+      "ru": "\"Ой, я сдаюсь... Сдаюсь... Больше не буду пить...\"<NL><Character key=Participant str=Name /> был слегка пьян и отказался пить.",
+      "status": "judged",
       "srcHash": "b8e094a31b13134a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "8672fa3db036d596"
     },
     "4f4f5f48-99c7-4511-b25b-8d4df449613a/Option_1": {
       "en": "(...)",
@@ -640,7 +710,8 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "52515cc2-b55e-4f0c-8c2d-85d48c3f71a9/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> accepted without hesitation, toasting with <Character key=Participant str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected Qi disruption due to the effects of liquor...)<NL>(<Character key=Participant str=Name /> downed the drink, feeling an unexpected Qi disruption due to the effects of liquor...)</color><NL>",
@@ -649,16 +720,18 @@
       "status": "machine",
       "srcHash": "70008bb8c7c49788",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "924bf923a2188db4"
     },
     "52515cc2-b55e-4f0c-8c2d-85d48c3f71a9/Option_1": {
       "en": "(Return the toast...)",
       "cn": "（回敬美酒……）",
-      "ru": "(Верните тост...)",
-      "status": "machine",
+      "ru": "(Ответить на тост вином...)",
+      "status": "judged",
       "srcHash": "5ddbed7a11db709e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "f1f0b3d2fa4ca5ab"
     },
     "52515cc2-b55e-4f0c-8c2d-85d48c3f71a9/Option_2": {
       "en": "(This is good...)",
@@ -667,7 +740,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "52b6da8e-3b5d-4d2e-88dd-baf25b2f2490/EventContent": {
       "en": "\"Well, if you're not willing, I won't force you...\"<NL><Character key=Participant str=Name /> sat down the cup, bid farewell, and returned to the banquet.",
@@ -676,7 +750,8 @@
       "status": "machine",
       "srcHash": "69b1d5f68e82d86d",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "be5673d88e0c3e16"
     },
     "52b6da8e-3b5d-4d2e-88dd-baf25b2f2490/Option_1": {
       "en": "(...)",
@@ -685,7 +760,8 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "5b715d8d-54f0-494c-bff6-2027e1e14757/EventContent": {
       "en": "\"I... I have urgent matters to attend to. I... I'm not scared of you...\"<NL><Character key=Participant str=Name /> seemed a bit tipsy and declined the drink.",
@@ -694,7 +770,8 @@
       "status": "machine",
       "srcHash": "c7919d884d707df5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "46cb533a0f9a7f40"
     },
     "5b715d8d-54f0-494c-bff6-2027e1e14757/Option_1": {
       "en": "(Stop drinking and bid farewell...)",
@@ -703,7 +780,8 @@
       "status": "machine",
       "srcHash": "73ff003900ed9df0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b6f104ec58f6f79e"
     },
     "6144c28e-853b-4734-b605-c5307f343b67/EventContent": {
       "en": "nan",
@@ -712,16 +790,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e975abb8a27a41cb"
     },
     "6144c28e-853b-4734-b605-c5307f343b67/Option_1": {
       "en": "(Toast <Character key=Participant str=Name />...)",
       "cn": "（向<Character key=Participant str=Name />敬酒……）",
-      "ru": "(Тост <Character key=Participant str=Name />...)",
-      "status": "machine",
+      "ru": "(Поднести тост <Character key=Participant str=Name />...)",
+      "status": "judged",
       "srcHash": "42821d18dcfcdec9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "96acbec10711063a"
     },
     "6144c28e-853b-4734-b605-c5307f343b67/Option_2": {
       "en": "(Have no such intention...)",
@@ -730,7 +810,8 @@
       "status": "machine",
       "srcHash": "f09228cec3e277b2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3ed7082f80e2217d"
     },
     "61558327-5d1f-473b-9965-61126c282d73/EventContent": {
       "en": "\"Miss, you have a keen eye...\"<NL><Character key=Participant str=Name /> accepted without hesitation, toasting with <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)<NL>(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color><NL>",
@@ -739,7 +820,8 @@
       "status": "machine",
       "srcHash": "0808770b3b9e1f06",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "0059536085dd2320"
     },
     "61558327-5d1f-473b-9965-61126c282d73/Option_1": {
       "en": "(Invite for another round...)",
@@ -748,7 +830,8 @@
       "status": "machine",
       "srcHash": "928b438e8ae9872e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e98c4a4475c59439"
     },
     "61558327-5d1f-473b-9965-61126c282d73/Option_2": {
       "en": "(Stop drinking and bid farewell...)",
@@ -757,7 +840,8 @@
       "status": "machine",
       "srcHash": "73ff003900ed9df0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b6f104ec58f6f79e"
     },
     "61efe7ff-fdfb-40f7-8b2a-3e1df0550a7e/EventContent": {
       "en": "\"Alright! Let's down another cup!\"<NL><Character key=Participant str=Name /> accepted without hesitation, toasting with <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)?(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color>",
@@ -766,7 +850,8 @@
       "status": "machine",
       "srcHash": "276759199e2f52dc",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "ab2a2bff03f6084b"
     },
     "61efe7ff-fdfb-40f7-8b2a-3e1df0550a7e/Option_1": {
       "en": "(Invite for another round...)",
@@ -775,7 +860,8 @@
       "status": "machine",
       "srcHash": "928b438e8ae9872e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e98c4a4475c59439"
     },
     "61efe7ff-fdfb-40f7-8b2a-3e1df0550a7e/Option_2": {
       "en": "(Stop drinking and bid farewell...)",
@@ -784,7 +870,8 @@
       "status": "machine",
       "srcHash": "73ff003900ed9df0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b6f104ec58f6f79e"
     },
     "662200ab-1ead-4abb-97f9-3e266a5b15e2/EventContent": {
       "en": "\"Finding a real gem is easy, but finding true love?<NL>Now that's a rare feat. Allow me to help you find the perfect match...\"<NL>The girl, holding her cup, came closer to <Character key=RoleTaiwu str=Name />, giving <Character key=RoleTaiwu str=Name /> a respectful bow.",
@@ -798,65 +885,72 @@
     "662200ab-1ead-4abb-97f9-3e266a5b15e2/Option_1": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=Participant str=Name />...)",
       "cn": "（派遣翠娥向<Character key=Participant str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=Participant str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=Participant str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "0f607cfbebb359fb",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "7434037f1de8675f"
     },
     "662200ab-1ead-4abb-97f9-3e266a5b15e2/Option_2": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantA str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantA str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantA str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantA str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "03d74925112b19dd",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "14016bebc1b74f73"
     },
     "662200ab-1ead-4abb-97f9-3e266a5b15e2/Option_3": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantB str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantB str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantB str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantB str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "cb5cc6e6b18a48d2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "b86a6e0f3f07c6c5"
     },
     "662200ab-1ead-4abb-97f9-3e266a5b15e2/Option_4": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantC str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantC str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantC str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantC str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "ba6539c50c2d00e5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "0158e22659d69f57"
     },
     "662200ab-1ead-4abb-97f9-3e266a5b15e2/Option_5": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantD str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantD str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantD str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantD str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "0146c9fb990b2e0a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "93a8a7329b04bd93"
     },
     "662200ab-1ead-4abb-97f9-3e266a5b15e2/Option_6": {
       "en": "(There is no need...)",
       "cn": "（不必劝酒……）\n",
-      "ru": "(В этом нет необходимости...)",
-      "status": "machine",
+      "ru": "(Не стоит уговаривать пить……)",
+      "status": "judged",
       "srcHash": "88f73502ccc8ffd6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "a8577f3f5d8a6c0d"
     },
     "66d16196-e8c9-43d4-9aac-398f0112faa4/EventContent": {
       "en": "As <Character key=RoleTaiwu str=Name /> woke up, the sun had already set, bringing the banquet to an end.<NL>Gazing through the gauze curtains, <Character key=RoleTaiwu str=Name /> observed that only <Character key=Participant str=Name /> remained sober,<NL>likely the sole victor of this marriage contest.",
       "cn": "等<Character key=RoleTaiwu str=Name />醒转过来，已是日落西山，这场酒宴也即将宣告结束，<NL><Character key=RoleTaiwu str=Name />透过纱幔观望，只见宴席中只有<Character key=Participant str=Name />一人尚且清醒，<NL>想必他便是此次招亲的唯一胜者……",
-      "ru": "Как <Character key=RoleTaiwu str=Name /> проснулся, когда солнце уже село, и банкет подошел к концу.<NL>Смотрю сквозь газовые занавески, <Character key=RoleTaiwu str=Name /> заметил, что только <Character key=Participant str=Name /> оставался трезвым,<NL>вероятно, единственный победитель в этом брачном состязании.",
-      "status": "machine",
+      "ru": "Когда <Character key=RoleTaiwu str=Name /> проснулся, солнце уже село, и пиршество подходило к концу.<NL>Глядя сквозь марлевые занавеси, <Character key=RoleTaiwu str=Name /> заметил, что трезвым оставался лишь <Character key=Participant str=Name />,<NL>вероятно, единственный победитель этого состязания за невесту.",
+      "status": "judged",
       "srcHash": "aa53716ce09f8524",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "d3c6b1d36a9e78d7"
     },
     "66d16196-e8c9-43d4-9aac-398f0112faa4/Option_1": {
       "en": "(Head to the Banquet...)",
@@ -865,16 +959,18 @@
       "status": "machine",
       "srcHash": "b52d4fedebffb4e4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "c1c3bcc9bfa8eb5f"
     },
     "68cf1662-2af7-409d-bf09-47fff5aa106a/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> slipped away from <Character key=Participant str=Name />'s grasp.<NL><Character key=Participant str=Name /> returned reluctantly, continuing the quest to find a suitable match for themselves.",
       "cn": "<Character key=RoleTaiwu str=Name />从<Character key=Participant str=Name />手中逃脱了，<NL><Character key=Participant str=Name />只好回到酒席当中，继续参与招亲……",
-      "ru": "<Character key=RoleTaiwu str=Name /> ускользнул от <Character key=Participant str=Name />его хватка.<NL><Character key=Participant str=Name /> вернулись неохотно, продолжая поиски подходящей пары для себя.",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> вырвался из хватки <Character key=Participant str=Name />.<NL><Character key=Participant str=Name /> неохотно вернулся к пиршеству, продолжив участвовать в сватовстве……",
+      "status": "judged",
       "srcHash": "5d65245c536c4456",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "205538a6569707b5"
     },
     "68cf1662-2af7-409d-bf09-47fff5aa106a/Option_1": {
       "en": "(...)",
@@ -883,16 +979,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "68f2f0af-ff52-4441-98ee-2ec58e789241/EventContent": {
       "en": "\"You've got to be under the influence of liquor... or maybe I just misheard?\"<NL><Character key=Participant str=Name />'s eyes widened in disbelief at <Character key=RoleTaiwu str=Name />'s words.<NL><Character key=RoleTaiwu str=Name /> took a few steps back, apologized with a bow, then left the banquet...",
       "cn": "“姑娘酒后胡言……还是我听不真切……”<NL><Character key=Participant str=Name />睁大眼睛，不敢相信<Character key=RoleTaiwu str=Name />的话，<NL><Character key=RoleTaiwu str=Name />退出几步，躬身致歉，随后离开了酒席……",
-      "ru": "\"Ты, должно быть, находишься под влиянием вина... или, может быть, я просто ослышался?\"<NL><Character key=Participant str=Name />его глаза расширились от недоверия при виде <Character key=RoleTaiwu str=Name />его слова.<NL><Character key=RoleTaiwu str=Name /> сделал несколько шагов назад, извинился с поклоном и покинул банкет...",
-      "status": "machine",
+      "ru": "\"Ты, должно быть, под влиянием вина... или, может быть, я просто ослышался?\"<NL><Character key=Participant str=Name /> недоверчиво расширил глаза, услышав слова <Character key=RoleTaiwu str=Name />.<NL><Character key=RoleTaiwu str=Name /> отступил на несколько шагов, поклонился в извинение и покинул пиршество……",
+      "status": "judged",
       "srcHash": "2a9fe823715e49e3",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "d7ec985ba7d73c33"
     },
     "68f2f0af-ff52-4441-98ee-2ec58e789241/Option_1": {
       "en": "(...)",
@@ -901,7 +999,8 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "69d709a8-8048-496b-bfa7-e6ef8e8aac58/EventContent": {
       "en": "\"Toasting and chatting with you is truly a pleasure in life...\"<NL><Character key=Participant str=Name /> enjoyed a good time and bid farewell to <Character key=RoleTaiwu str=Name />.",
@@ -910,7 +1009,8 @@
       "status": "machine",
       "srcHash": "92240b04eeda971e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "9a7175487290952c"
     },
     "69d709a8-8048-496b-bfa7-e6ef8e8aac58/Option_1": {
       "en": "(...)",
@@ -919,7 +1019,8 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "6e797e4b-e951-4f55-8a5f-41b4958fbb2e/EventContent": {
       "en": "\"I did win, but... May I ask what you think of me?\"<NL><Character key=Participant str=Name />, upon seeing <Character key=RoleTaiwu str=Name />, didn't seem pleased and took a few steps back,<NL>keeping a distance from <Character key=RoleTaiwu str=Name />.",
@@ -928,7 +1029,8 @@
       "status": "machine",
       "srcHash": "2bda24fadb41a378",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "803a57b53d8f8091"
     },
     "6e797e4b-e951-4f55-8a5f-41b4958fbb2e/Option_1": {
       "en": "(Confess love...)",
@@ -937,7 +1039,8 @@
       "status": "machine",
       "srcHash": "e66d3935c26e3f46",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "03a0c5a5dfbaf40e"
     },
     "6e797e4b-e951-4f55-8a5f-41b4958fbb2e/Option_2": {
       "en": "(A misunderstanding...)",
@@ -946,16 +1049,18 @@
       "status": "machine",
       "srcHash": "c1a3789e8284c10e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "7f14c42a95ef0ccf"
     },
     "736814fc-5d3b-4bd8-abde-03bb7bddc670/EventContent": {
       "en": "\"A sip soothes the soul, a flood drowns the health...\"<NL><Character key=Participant str=Name /> did not decline, took the fine wine from <Character key=RoleTaiwu str=Name />'s hand, and drank together...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> drank the liquor, and Inner Breath became chaotic due to getting drunk...)<NL>(<Character key=Participant str=Name /> drank the liquor, and Inner Breath became chaotic due to getting drunk...)</color>",
       "cn": "“小酌怡情，痛饮伤身……”<NL><Character key=Participant str=Name />并未推辞，接过<Character key=RoleTaiwu str=Name />手中的美酒，与之共饮……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />将酒饮下，内息因醉酒而紊乱……）（<Character key=Participant str=Name />将酒饮下，内息因醉酒而紊乱……）</color>",
-      "ru": "\"Глоток успокаивает душу, поток топит здоровье...\"<NL><Character key=Participant str=Name /> не стал отказываться, взял прекрасное вино из <Character key=RoleTaiwu str=Name />за руку, и выпили вместе...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> выпил вино, и внутреннее дыхание стало хаотичным из-за того, что напился...)<NL>(<Character key=Participant str=Name /> выпил вино, и внутреннее дыхание стало хаотичным из-за того, что напился...)</color>",
-      "status": "machine",
+      "ru": "\"Глоток успокаивает душу, а поток губит здоровье...\"<NL><Character key=Participant str=Name /> не стал отказываться, взял прекрасное вино из рук <Character key=RoleTaiwu str=Name /> и выпил вместе с ним...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> выпил вино, и внутреннее дыхание стало хаотичным из-за опьянения...)<NL>(<Character key=Participant str=Name /> выпил вино, и внутреннее дыхание стало хаотичным из-за опьянения...)</color>",
+      "status": "judged",
       "srcHash": "681fb77d03a6a52a",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "47f151926ea6b462"
     },
     "736814fc-5d3b-4bd8-abde-03bb7bddc670/Option_1": {
       "en": "(Invite for another round...)",
@@ -964,7 +1069,8 @@
       "status": "machine",
       "srcHash": "928b438e8ae9872e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e98c4a4475c59439"
     },
     "736814fc-5d3b-4bd8-abde-03bb7bddc670/Option_2": {
       "en": "(Set the cup aside and take your leave...)",
@@ -973,16 +1079,18 @@
       "status": "machine",
       "srcHash": "3c83c218fdb73c2b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "5b774415912aff81"
     },
     "74660458-3815-421c-8207-9dda92241b4b/EventContent": {
       "en": "No need for more... I still have 'important matters' to attend to...<NL><Character key=Participant str=Name /> seems to be intoxicated, and declines to drink...",
       "cn": "“不必再饮……我尚有‘要事’在身……”<NL><Character key=Participant str=Name />似有醉意，于是推辞不饮……",
-      "ru": "Большего и не нужно... У меня все еще есть \"важные дела\", которыми нужно заняться...<NL><Character key=Participant str=Name /> кажется, он в состоянии алкогольного опьянения и отказывается пить...",
-      "status": "machine",
+      "ru": "Больше пить не нужно... У меня всё ещё есть \"важные дела\", которыми нужно заняться...<NL><Character key=Participant str=Name /> выглядит слегка опьяневшим и отказывается пить...",
+      "status": "judged",
       "srcHash": "b9fb79d1471ea759",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "1454b2e6cb6d3b85"
     },
     "74660458-3815-421c-8207-9dda92241b4b/Option_1": {
       "en": "(...)",
@@ -991,16 +1099,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "74af77f4-4b21-4ef2-bb1e-6daaa4fa98c5/EventContent": {
       "en": "<Character key=Participant str=Name /> managed to escape from <Character key=RoleTaiwu str=Name />...",
       "cn": "<Character key=Participant str=Name />从<Character key=RoleTaiwu str=Name />手中逃脱了……",
-      "ru": "<Character key=Participant str=Name /> сумел сбежать из <Character key=RoleTaiwu str=Name />...",
-      "status": "machine",
+      "ru": "<Character key=Participant str=Name /> сумел сбежать от <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "958693778af5f3b1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "76087de012db7e17"
     },
     "74af77f4-4b21-4ef2-bb1e-6daaa4fa98c5/Option_1": {
       "en": "(...)",
@@ -1009,7 +1119,8 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "751e14e9-e8ab-42a6-a2bf-8b4af3cb1831/EventContent": {
       "en": "Suddenly, the sound of boisterous voices could be heard.<NL><Character key=RoleTaiwu str=Name /> followed the noise and saw the marriage-seeking guests heading toward the banquet in pairs and groups,<NL>chatting and laughing merrily along the way. What a lively scene...",
@@ -1018,7 +1129,8 @@
       "status": "machine",
       "srcHash": "fca09f7b7e9a39e9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "7d4dc1966f21c64b"
     },
     "751e14e9-e8ab-42a6-a2bf-8b4af3cb1831/Option_1": {
       "en": "(...)",
@@ -1027,25 +1139,28 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "7585181e-23a4-439f-bc8c-2596d42c4e9b/EventContent": {
       "en": "\"What fine wine... though somewhat intoxicating...\"<NL><Character key=Participant str=Name /> did not decline but drank together with <Character key=RoleTaiwu str=Name /> once more...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> drank the liquor, and Inner Breath became chaotic due to getting drunk...)<NL>(<Character key=Participant str=Name /> drank the liquor, and Inner Breath became chaotic due to getting drunk...)</color><NL>",
       "cn": "“好酒……只是有些醉人……”<NL><Character key=Participant str=Name />并未推辞，又再与<Character key=RoleTaiwu str=Name />共饮……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />将酒饮下，内息因醉酒而紊乱……）<NL>（<Character key=Participant str=Name />将酒饮下，内息因醉酒而紊乱……）</color><NL>",
-      "ru": "- Какое прекрасное вино... хотя и несколько опьяняющий...\"<NL><Character key=Participant str=Name /> не отказался, а выпил вместе с <Character key=RoleTaiwu str=Name /> еще раз...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> выпил вино, и внутреннее дыхание стало хаотичным из-за того, что напился...)<NL>(<Character key=Participant str=Name /> выпил вино, и внутреннее дыхание стало хаотичным из-за того, что напился...)</color><NL>",
-      "status": "machine",
+      "ru": "\"Какое прекрасное вино... хотя от него слегка пьянеешь...\"<NL><Character key=Participant str=Name /> не стал отказываться и снова выпил вместе с <Character key=RoleTaiwu str=Name />...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> выпил вино, и внутреннее дыхание стало хаотичным из-за опьянения...)<NL>(<Character key=Participant str=Name /> выпил вино, и внутреннее дыхание стало хаотичным из-за опьянения...)</color><NL>",
+      "status": "judged",
       "srcHash": "c8fc107849b916ee",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "b1848e33c67dc0a7"
     },
     "7585181e-23a4-439f-bc8c-2596d42c4e9b/Option_1": {
       "en": "(Return the toast...)",
       "cn": "（回敬美酒……）",
-      "ru": "(Верните тост...)",
-      "status": "machine",
+      "ru": "(Ответить на тост вином...)",
+      "status": "judged",
       "srcHash": "5ddbed7a11db709e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "f1f0b3d2fa4ca5ab"
     },
     "7585181e-23a4-439f-bc8c-2596d42c4e9b/Option_2": {
       "en": "(This is good...)",
@@ -1054,16 +1169,18 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "783edd1a-8f7b-47a6-94d7-b6de1744f877/EventContent": {
       "en": "Thus, I shall take my leave...<NL>The young girl bowed and left the pavilion...",
       "cn": "“如此，奴婢先行告退……”<NL>少女躬身退下，离开了凉亭……",
-      "ru": "Итак, я должен откланяться...<NL>Молодая девушка поклонилась и вышла из павильона...",
-      "status": "machine",
+      "ru": "Итак, я должна откланяться...<NL>Молодая девушка поклонилась и вышла из павильона...",
+      "status": "judged",
       "srcHash": "d045e481b13b4ce8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "a01f25eb63d065e6"
     },
     "783edd1a-8f7b-47a6-94d7-b6de1744f877/Option_1": {
       "en": "(This is good...)",
@@ -1072,16 +1189,18 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "81e21667-561e-4998-8941-2392cd346c90/EventContent": {
       "en": "\"Truly... truly delightful!\"<NL><Character key=Participant str=Name /> did not decline, took the fine wine from <Character key=RoleTaiwu str=Name />'s hand, and drank together...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> drank the liquor, and Inner Breath became chaotic due to getting drunk...)<NL>(<Character key=Participant str=Name /> drank the liquor, and Inner Breath became chaotic due to getting drunk...)</color>",
       "cn": "“实在……实在尽兴！”<NL><Character key=Participant str=Name />并未推辞，接过<Character key=RoleTaiwu str=Name />手中的美酒，与之共饮……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />将酒饮下，内息因醉酒而紊乱……）（<Character key=Participant str=Name />将酒饮下，内息因醉酒而紊乱……）</color>",
-      "ru": "\"Поистине... поистине восхитительно!\"<NL><Character key=Participant str=Name /> не стал отказываться, взял прекрасное вино из <Character key=RoleTaiwu str=Name />за руку, и выпили вместе...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> выпил вино, и внутреннее дыхание стало хаотичным из-за того, что напился...)<NL>(<Character key=Participant str=Name /> выпил вино, и внутреннее дыхание стало хаотичным из-за того, что напился...)</color>",
-      "status": "machine",
+      "ru": "\"Поистине... поистине восхитительно!\"<NL><Character key=Participant str=Name /> не стал отказываться, взял прекрасное вино из рук <Character key=RoleTaiwu str=Name /> и выпил вместе с ним...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> выпил вино, и внутреннее дыхание стало хаотичным из-за опьянения...)<NL>(<Character key=Participant str=Name /> выпил вино, и внутреннее дыхание стало хаотичным из-за опьянения...)</color>",
+      "status": "judged",
       "srcHash": "f81efb3308d1b83e",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "8b2edd266a92844e"
     },
     "81e21667-561e-4998-8941-2392cd346c90/Option_1": {
       "en": "(Invite for another round...)",
@@ -1090,7 +1209,8 @@
       "status": "machine",
       "srcHash": "928b438e8ae9872e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e98c4a4475c59439"
     },
     "81e21667-561e-4998-8941-2392cd346c90/Option_2": {
       "en": "(Set the cup aside and take your leave...)",
@@ -1099,25 +1219,28 @@
       "status": "machine",
       "srcHash": "3c83c218fdb73c2b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "5b774415912aff81"
     },
     "837b6d95-9606-42e0-b46a-5e3034399fa5/EventContent": {
       "en": "\"Young lady... you certainly can hold your liquor!\"<NL><Character key=Participant str=Name /> did not decline but drank together with <Character key=RoleTaiwu str=Name /> once more...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> drank the liquor, and Inner Breath became chaotic due to getting drunk...)<NL>(<Character key=Participant str=Name /> drank the liquor, and Inner Breath became chaotic due to getting drunk...)</color><NL>",
       "cn": "“姑娘……姑娘好酒量！”<NL><Character key=Participant str=Name />并未推辞，又再与<Character key=RoleTaiwu str=Name />共饮……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />将酒饮下，内息因醉酒而紊乱……）<NL>（<Character key=Participant str=Name />将酒饮下，内息因醉酒而紊乱……）</color><NL>",
-      "ru": "- Юная леди... ты, конечно, умеешь держать свое вино в руках!\"<NL><Character key=Participant str=Name /> не отказался, а выпил вместе с <Character key=RoleTaiwu str=Name /> еще раз...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> выпил вино, и внутреннее дыхание стало хаотичным из-за того, что напился...)<NL>(<Character key=Participant str=Name /> выпил вино, и внутреннее дыхание стало хаотичным из-за того, что напился...)</color><NL>",
-      "status": "machine",
+      "ru": "\"Юная барышня... вы, похоже, хорошо держитесь после вина!\"<NL><Character key=Participant str=Name /> не стал отказываться и снова выпил вместе с <Character key=RoleTaiwu str=Name />...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> выпил вино, и внутреннее дыхание стало хаотичным из-за опьянения...)<NL>(<Character key=Participant str=Name /> выпил вино, и внутреннее дыхание стало хаотичным из-за опьянения...)</color><NL>",
+      "status": "judged",
       "srcHash": "8b801ddcb3793858",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "ca0a5ff944b22fca"
     },
     "837b6d95-9606-42e0-b46a-5e3034399fa5/Option_1": {
       "en": "(Return the toast...)",
       "cn": "（回敬美酒……）",
-      "ru": "(Верните тост...)",
-      "status": "machine",
+      "ru": "(Ответить на тост вином...)",
+      "status": "judged",
       "srcHash": "5ddbed7a11db709e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "f1f0b3d2fa4ca5ab"
     },
     "837b6d95-9606-42e0-b46a-5e3034399fa5/Option_2": {
       "en": "(This is good...)",
@@ -1126,7 +1249,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "8505fe42-9b30-4d0a-8c54-870db3eaba2d/EventContent": {
       "en": "\"Are you trying to compete with me in drinking?... Of course I'm not afraid!\"<NL><Character key=Participant str=Name /> did not decline but drank together with <Character key=RoleTaiwu str=Name /> once more...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> drank the liquor, and Inner Breath became chaotic due to getting drunk...)<NL>(<Character key=Participant str=Name /> drank the liquor, and Inner Breath became chaotic due to getting drunk...)</color><NL>",
@@ -1135,16 +1259,18 @@
       "status": "machine",
       "srcHash": "b4b193fe38f2a589",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "e0d45500efa719ae"
     },
     "8505fe42-9b30-4d0a-8c54-870db3eaba2d/Option_1": {
       "en": "(Return the toast...)",
       "cn": "（回敬美酒……）",
-      "ru": "(Верните тост...)",
-      "status": "machine",
+      "ru": "(Ответить на тост вином...)",
+      "status": "judged",
       "srcHash": "5ddbed7a11db709e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "f1f0b3d2fa4ca5ab"
     },
     "8505fe42-9b30-4d0a-8c54-870db3eaba2d/Option_2": {
       "en": "(This is good...)",
@@ -1153,7 +1279,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "866db1db-851d-4eb2-85c9-86ed3fa7c7cf/EventContent": {
       "en": "nan",
@@ -1162,7 +1289,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e975abb8a27a41cb"
     },
     "866db1db-851d-4eb2-85c9-86ed3fa7c7cf/Option_1": {
       "en": "(Toast to <Character key=ParticipantB str=Name />...)",
@@ -1171,7 +1299,8 @@
       "status": "machine",
       "srcHash": "162a29b4620a2e82",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "5498a734dc39791a"
     },
     "866db1db-851d-4eb2-85c9-86ed3fa7c7cf/Option_2": {
       "en": "(Have no such intention...)",
@@ -1180,7 +1309,8 @@
       "status": "machine",
       "srcHash": "f09228cec3e277b2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3ed7082f80e2217d"
     },
     "87c98ed0-6d96-497e-9e85-c7e466aeaaa4/EventContent": {
       "en": "\"Those people at the banquet table all seem dreadfully dull to me, not a single one worthy of you!\"<NL>The maiden walked over with liquor in hand to <Character key=RoleTaiwu str=Name />'s side and bowed respectfully toward <Character key=RoleTaiwu str=Name />...",
@@ -1189,70 +1319,78 @@
       "status": "machine",
       "srcHash": "7dd56204a4cdd4e9",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "b661be0991b3c849"
     },
     "87c98ed0-6d96-497e-9e85-c7e466aeaaa4/Option_1": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=Participant str=Name />...)",
       "cn": "（派遣翠娥向<Character key=Participant str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=Participant str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=Participant str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "0f607cfbebb359fb",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "7434037f1de8675f"
     },
     "87c98ed0-6d96-497e-9e85-c7e466aeaaa4/Option_2": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantA str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantA str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantA str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantA str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "03d74925112b19dd",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "14016bebc1b74f73"
     },
     "87c98ed0-6d96-497e-9e85-c7e466aeaaa4/Option_3": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantB str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantB str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantB str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantB str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "cb5cc6e6b18a48d2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "b86a6e0f3f07c6c5"
     },
     "87c98ed0-6d96-497e-9e85-c7e466aeaaa4/Option_4": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantC str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantC str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantC str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantC str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "ba6539c50c2d00e5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "0158e22659d69f57"
     },
     "87c98ed0-6d96-497e-9e85-c7e466aeaaa4/Option_5": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantD str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantD str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantD str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantD str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "0146c9fb990b2e0a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "93a8a7329b04bd93"
     },
     "87c98ed0-6d96-497e-9e85-c7e466aeaaa4/Option_6": {
       "en": "(There is no need...)",
       "cn": "（不必劝酒……）\n",
-      "ru": "(В этом нет необходимости...)",
-      "status": "machine",
+      "ru": "(Не стоит уговаривать пить……)",
+      "status": "judged",
       "srcHash": "88f73502ccc8ffd6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "a8577f3f5d8a6c0d"
     },
     "87ef0792-d0ae-4c5b-8909-33c5d431dca8/EventContent": {
       "en": "Thank you for the hospitality...<NL><Character key=Participant str=Name /> cupped hands to <Character key=RoleTaiwu str=Name /> to bid farewell,<NL>turned and left the place, as a pleasant matter ended on a sour note...",
       "cn": "“多谢款待……”<NL><Character key=Participant str=Name />向拱手<Character key=RoleTaiwu str=Name />告辞，<NL>转身离开了此地一桩美事就此不欢而散……",
-      "ru": "Спасибо вам за гостеприимство...<NL><Character key=Participant str=Name /> сложенные чашечкой ладони, чтобы <Character key=RoleTaiwu str=Name /> попрощаться,<NL>повернулся и вышел из заведения, поскольку приятное дело закончилось на кислой ноте...",
-      "status": "machine",
+      "ru": "Спасибо за гостеприимство...<NL><Character key=Participant str=Name />, сложив ладони, попрощался с <Character key=RoleTaiwu str=Name />,<NL>повернулся и покинул это место — приятное дело закончилось на горькой ноте...",
+      "status": "judged",
       "srcHash": "cfd08a3f05112cbe",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "3035a0a1dbb94998"
     },
     "87ef0792-d0ae-4c5b-8909-33c5d431dca8/Option_1": {
       "en": "(...)",
@@ -1261,7 +1399,8 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "8acb2148-9705-4740-a7da-70c3a854abcc/EventContent": {
       "en": "nan",
@@ -1270,7 +1409,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e975abb8a27a41cb"
     },
     "8acb2148-9705-4740-a7da-70c3a854abcc/Option_1": {
       "en": "(Look at <Character key=Participant str=Name />...)",
@@ -1279,7 +1419,8 @@
       "status": "machine",
       "srcHash": "c9ee73ce44a1b6c1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "6a04365807ddca90"
     },
     "8acb2148-9705-4740-a7da-70c3a854abcc/Option_2": {
       "en": "(Look at <Character key=ParticipantA str=Name />...)",
@@ -1288,7 +1429,8 @@
       "status": "machine",
       "srcHash": "180d9beaf58c81d4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "935fae02596539b2"
     },
     "8acb2148-9705-4740-a7da-70c3a854abcc/Option_3": {
       "en": "(Look at <Character key=ParticipantB str=Name />...)",
@@ -1297,7 +1439,8 @@
       "status": "machine",
       "srcHash": "01e98d5d7bb59748",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b863417741b8a63a"
     },
     "8acb2148-9705-4740-a7da-70c3a854abcc/Option_4": {
       "en": "(Look at <Character key=ParticipantC str=Name />...)",
@@ -1306,7 +1449,8 @@
       "status": "machine",
       "srcHash": "65be03b8de3d0a1c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "adec0ba621935e28"
     },
     "8acb2148-9705-4740-a7da-70c3a854abcc/Option_5": {
       "en": "(Look at <Character key=ParticipantD str=Name />...)",
@@ -1315,7 +1459,8 @@
       "status": "machine",
       "srcHash": "662b15afecb7153e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "555240b44d8aff79"
     },
     "8acb2148-9705-4740-a7da-70c3a854abcc/Option_6": {
       "en": "(Return to the pavilion...)",
@@ -1324,7 +1469,8 @@
       "status": "machine",
       "srcHash": "38ab4558b7c13e4d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fd5d820c05f10acc"
     },
     "8bedc9ed-936b-49fc-9877-f11c2836fd56/EventContent": {
       "en": "\"Take it easy, don't overindulge...\"<NL><Character key=Participant str=Name /> seemed a bit tipsy and declined the drink...",
@@ -1333,7 +1479,8 @@
       "status": "machine",
       "srcHash": "4803f01d50997c2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8a2497678c2c5370"
     },
     "8bedc9ed-936b-49fc-9877-f11c2836fd56/Option_1": {
       "en": "(...)",
@@ -1342,7 +1489,8 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "8c5cda70-ff8b-412b-add5-dd9606b86b68/EventContent": {
       "en": "nan",
@@ -1351,7 +1499,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "8e358d63-8dd0-4012-8105-8845656048f9/EventContent": {
       "en": "nan",
@@ -1360,16 +1509,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e975abb8a27a41cb"
     },
     "8e358d63-8dd0-4012-8105-8845656048f9/Option_1": {
       "en": "(Toast <Character key=ParticipantC str=Name />...)",
       "cn": "（向<Character key=ParticipantC str=Name />敬酒……）",
-      "ru": "(Тост <Character key=ParticipantC str=Name />...)",
-      "status": "machine",
+      "ru": "(Выпить за <Character key=ParticipantC str=Name />...)",
+      "status": "judged",
       "srcHash": "82d613682c0476f8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "7389a136b45f6e0d"
     },
     "8e358d63-8dd0-4012-8105-8845656048f9/Option_2": {
       "en": "(Have no such intention...)",
@@ -1378,7 +1529,8 @@
       "status": "machine",
       "srcHash": "f09228cec3e277b2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3ed7082f80e2217d"
     },
     "8f04b877-79e4-4ae6-8d88-7b37c2516e79/EventContent": {
       "en": "\"Cheers to a beautiful lady—I wouldn't dare say no!\"<NL><Character key=Participant str=Name /> accepted without hesitation, toasting with <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)?(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color>",
@@ -1387,7 +1539,8 @@
       "status": "machine",
       "srcHash": "e64032f59bfa8828",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "bda802aa5e2f8818"
     },
     "8f04b877-79e4-4ae6-8d88-7b37c2516e79/Option_1": {
       "en": "(Invite for another round...)",
@@ -1396,7 +1549,8 @@
       "status": "machine",
       "srcHash": "928b438e8ae9872e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e98c4a4475c59439"
     },
     "8f04b877-79e4-4ae6-8d88-7b37c2516e79/Option_2": {
       "en": "(Stop drinking and bid farewell...)",
@@ -1405,34 +1559,38 @@
       "status": "machine",
       "srcHash": "73ff003900ed9df0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b6f104ec58f6f79e"
     },
     "9044096b-f89a-4e49-9586-dabd274f1b45/EventContent": {
       "en": "\"Our hearts are aligned.\"<NL><Character key=Participant str=Name />, thrilled, rushed forward and warmly clasped <Character key=RoleTaiwu str=Name />'s hands,<NL>\"I hope that from this day forward, you and I will journey together, never parting ways, and always supporting each other.\"",
       "cn": "“我与姑娘自然同心……”<NL><Character key=Participant str=Name />闻言，大喜过望，连忙上前握紧了<Character key=RoleTaiwu str=Name />的双手，欢喜道：<NL>“只愿从今往后你我二人携手相伴……不离不弃……”",
-      "ru": "\"Наши сердца совпадают\".<NL><Character key=Participant str=Name /> Взволнованный, бросился вперед и тепло обнял <Character key=RoleTaiwu str=Name />чьи-то руки,<NL>\"Я надеюсь, что с этого дня и впредь мы с тобой будем путешествовать вместе, никогда не расставаясь и всегда поддерживая друг друга\".",
-      "status": "machine",
+      "ru": "\"Наши сердца едины\".<NL><Character key=Participant str=Name /> в восторге бросился вперёд и крепко пожал обе руки <Character key=RoleTaiwu str=Name />,<NL>\"Я надеюсь, что с этого дня мы с тобой будем идти вместе, никогда не расставаясь и всегда поддерживая друг друга.\"",
+      "status": "judged",
       "srcHash": "6ec3ebd5b419c046",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "4742e5d73e05e2db"
     },
     "9044096b-f89a-4e49-9586-dabd274f1b45/Option_1": {
       "en": "(I desire nothing more than that!)",
       "cn": "（再好不过！）\n",
-      "ru": "(Я ничего не желаю больше, чем этого!)",
-      "status": "machine",
+      "ru": "(Лучше и быть не может!)",
+      "status": "judged",
       "srcHash": "cc530e4a8d9ebb47",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "062edf23e6aaf28a"
     },
     "90493eca-4bd3-46e8-8ee5-883d51d65f72/EventContent": {
       "en": "\"You're quite the firecracker!\"<NL><Character key=Participant str=Name /> expressed praise with hands folded, returning to the banquet.",
       "cn": "“姑娘豪爽！”<NL><Character key=Participant str=Name />拱手说道，随后回到了酒席……",
-      "ru": "\"Ты настоящий фейерверк!\"<NL><Character key=Participant str=Name /> выразил похвалу, сложив руки на груди, и вернулся на банкет.",
-      "status": "machine",
+      "ru": "\"Ты настоящая героиня!\"<NL><Character key=Participant str=Name /> похвалил её, сложив руки, а затем вернулся к пиршеству.",
+      "status": "judged",
       "srcHash": "ca678470cbd3c191",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "662473cbb6c724e1"
     },
     "90493eca-4bd3-46e8-8ee5-883d51d65f72/Option_1": {
       "en": "(...)",
@@ -1441,16 +1599,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "90541d03-6147-41f0-8d30-1ca6230f2ae9/EventContent": {
       "en": "\"Drinking with those common folks makes the liquor unbearably awful. Let's share a cup between us!\"<NL><Character key=Participant str=Name /> approached the pavilion, extending the liquor toward <Character key=RoleTaiwu str=Name /> from behind the gauze curtains.",
       "cn": "“和那些俗人饮酒，酒也变得臭不可闻啦，还是你我来饮一杯吧！”<NL><Character key=Participant str=Name />行至凉亭，隔着纱幔向<Character key=RoleTaiwu str=Name />递来一杯美酒……",
-      "ru": "- Выпивка с этими простыми людьми делает вино невыносимо ужасным. Давайте выпьем по чашечке на двоих!\"<NL><Character key=Participant str=Name /> подошел к павильону, протягивая вино в сторону <Character key=RoleTaiwu str=Name /> из-за газовых занавесок.",
-      "status": "machine",
+      "ru": "\"Выпивка с этими простыми людьми делает вино невыносимо ужасным. Давайте выпьем по чашке на двоих!\"<NL><Character key=Participant str=Name /> подошёл к павильону, протягивая вино <Character key=RoleTaiwu str=Name /> из-за марлевых занавесок.",
+      "status": "judged",
       "srcHash": "c44504c3a0ada5ce",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "55425708109bad96"
     },
     "90541d03-6147-41f0-8d30-1ca6230f2ae9/Option_1": {
       "en": "(Drink in one gulp...)",
@@ -1459,7 +1619,8 @@
       "status": "machine",
       "srcHash": "e193843d83b334b6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "26c1f6dd4f3ed3d2"
     },
     "90541d03-6147-41f0-8d30-1ca6230f2ae9/Option_2": {
       "en": "(Politely decline...)",
@@ -1468,7 +1629,8 @@
       "status": "machine",
       "srcHash": "623b6d72d418fa07",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "c0afc5cf1357e4d6"
     },
     "90541d03-6147-41f0-8d30-1ca6230f2ae9/Option_3": {
       "en": "(Kick out from the banquet...)",
@@ -1477,16 +1639,18 @@
       "status": "machine",
       "srcHash": "afa38d8f9ccd165d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "333604900a70bb5c"
     },
     "96b22974-5751-45da-be9f-3deb1c28f536/EventContent": {
       "en": "\"Sweet and mellow, better than my usual drink.\"<NL><Character key=Participant str=Name /> accepted without hesitation, toasting with <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)?(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color>",
       "cn": "“这酒甘甜美味，胜过我平日所饮……”<NL><Character key=Participant str=Name />并未推辞，接过<Character key=RoleTaiwu str=Name />手中的美酒，与之共饮……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />将酒饮下，内息因醉酒而紊乱……）（<Character key=Participant str=Name />将酒饮下，内息因醉酒而紊乱……）</color>",
-      "ru": "\"Сладкий и спелый, лучше, чем мой обычный напиток\".<NL><Character key=Participant str=Name /> принял без колебаний, провозгласив тост с <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> выпил напиток, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)?(<Character key=Participant str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)</color>",
-      "status": "machine",
+      "ru": "\"Сладкий и приятный, лучше моего обычного напитка\".<NL><Character key=Participant str=Name /> принял без колебаний, провозгласив тост с <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> выпил напиток, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)?(<Character key=Participant str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)</color>",
+      "status": "judged",
       "srcHash": "5aee0f098500f50a",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "9e331bbb83fda233"
     },
     "96b22974-5751-45da-be9f-3deb1c28f536/Option_1": {
       "en": "(Invite for another round...)",
@@ -1495,7 +1659,8 @@
       "status": "machine",
       "srcHash": "928b438e8ae9872e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e98c4a4475c59439"
     },
     "96b22974-5751-45da-be9f-3deb1c28f536/Option_2": {
       "en": "(Stop drinking and bid farewell...)",
@@ -1504,16 +1669,18 @@
       "status": "machine",
       "srcHash": "73ff003900ed9df0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b6f104ec58f6f79e"
     },
     "982e646a-9c07-4c35-bb78-05505ee981fa/EventContent": {
       "en": "\"The hospitality is overwhelming... I can't handle any more...\"<NL><Character key=Participant str=Name /> accepted without hesitation, toasting with <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)?(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color>",
       "cn": "“盛情难却……不能再喝了……”<NL><Character key=Participant str=Name />并未推辞，接过<Character key=RoleTaiwu str=Name />手中的美酒，与之共饮……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />将酒饮下，内息因醉酒而紊乱……）（<Character key=Participant str=Name />将酒饮下，内息因醉酒而紊乱……）</color>",
-      "ru": "\"Гостеприимство просто ошеломляющее... Я больше не могу этого выносить...\"<NL><Character key=Participant str=Name /> принял без колебаний, провозгласив тост с <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> выпил напиток, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)?(<Character key=Participant str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)</color>",
-      "status": "machine",
+      "ru": "\"От такого гостеприимства не отказаться... Я больше не могу пить...\"<NL><Character key=Participant str=Name /> принял без колебаний, провозгласив тост с <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> выпил напиток, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)?(<Character key=Participant str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)</color>",
+      "status": "judged",
       "srcHash": "11121ee36a2080e2",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "c8d6b68de662b30b"
     },
     "982e646a-9c07-4c35-bb78-05505ee981fa/Option_1": {
       "en": "(Invite for another round...)",
@@ -1522,7 +1689,8 @@
       "status": "machine",
       "srcHash": "928b438e8ae9872e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e98c4a4475c59439"
     },
     "982e646a-9c07-4c35-bb78-05505ee981fa/Option_2": {
       "en": "(Stop drinking and bid farewell...)",
@@ -1531,25 +1699,28 @@
       "status": "machine",
       "srcHash": "73ff003900ed9df0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b6f104ec58f6f79e"
     },
     "99433917-90bd-487f-8527-eca8706fef8e/EventContent": {
       "en": "\"Alcohol, while it may ease worries, shouldn't be consumed in excess.\"<NL><Character key=Participant str=Name /> accepted without hesitation, toasting with <Character key=RoleTaiwu str=Name /> once again.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)<NL>(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color><NL>",
       "cn": "“酒……酒虽解忧，却也不可多饮……”<NL><Character key=Participant str=Name />并未推辞，又再与<Character key=RoleTaiwu str=Name />共饮……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />将酒饮下，内息因醉酒而紊乱……）<NL>（<Character key=Participant str=Name />将酒饮下，内息因醉酒而紊乱……）</color><NL>",
-      "ru": "\"Алкоголь, хотя он и может облегчить беспокойство, не следует употреблять в избытке\".<NL><Character key=Participant str=Name /> принял без колебаний, провозгласив тост с <Character key=RoleTaiwu str=Name /> еще раз.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)<NL>(<Character key=Participant str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)</color><NL>",
-      "status": "machine",
+      "ru": "\"Вино, хоть и помогает развеять тревоги, не следует пить в избытке\".<NL><Character key=Participant str=Name /> принял без колебаний и снова провозгласил тост с <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)<NL>(<Character key=Participant str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)</color><NL>",
+      "status": "judged",
       "srcHash": "a0d6e726ff9b213a",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "27a59a13840fabf5"
     },
     "99433917-90bd-487f-8527-eca8706fef8e/Option_1": {
       "en": "(Return the toast...)",
       "cn": "（回敬美酒……）",
-      "ru": "(Верните тост...)",
-      "status": "machine",
+      "ru": "(Ответить на тост вином...)",
+      "status": "judged",
       "srcHash": "5ddbed7a11db709e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "f1f0b3d2fa4ca5ab"
     },
     "99433917-90bd-487f-8527-eca8706fef8e/Option_2": {
       "en": "(This is good...)",
@@ -1558,7 +1729,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "998fe580-7136-4486-917e-bd2a37941805/EventContent": {
       "en": "\"There's this saying, 'Loving without getting lost in passion, drinking without getting drunk.' It's what defines a true hero.<NL>Allow me to help you find the perfect match, Miss.\"<NL>The girl, holding her cup, came closer to <Character key=RoleTaiwu str=Name />, giving <Character key=RoleTaiwu str=Name /> a respectful bow.",
@@ -1572,56 +1744,62 @@
     "998fe580-7136-4486-917e-bd2a37941805/Option_1": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=Participant str=Name />...)",
       "cn": "（派遣翠娥向<Character key=Participant str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=Participant str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=Participant str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "0f607cfbebb359fb",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "7434037f1de8675f"
     },
     "998fe580-7136-4486-917e-bd2a37941805/Option_2": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantA str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantA str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantA str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantA str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "03d74925112b19dd",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "14016bebc1b74f73"
     },
     "998fe580-7136-4486-917e-bd2a37941805/Option_3": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantB str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantB str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantB str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantB str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "cb5cc6e6b18a48d2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "b86a6e0f3f07c6c5"
     },
     "998fe580-7136-4486-917e-bd2a37941805/Option_4": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantC str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantC str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantC str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantC str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "ba6539c50c2d00e5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "0158e22659d69f57"
     },
     "998fe580-7136-4486-917e-bd2a37941805/Option_5": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantD str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantD str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantD str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantD str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "0146c9fb990b2e0a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "93a8a7329b04bd93"
     },
     "998fe580-7136-4486-917e-bd2a37941805/Option_6": {
       "en": "(There is no need...)",
       "cn": "（不必劝酒……）\n",
-      "ru": "(В этом нет необходимости...)",
-      "status": "machine",
+      "ru": "(Не стоит уговаривать пить……)",
+      "status": "judged",
       "srcHash": "88f73502ccc8ffd6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "a8577f3f5d8a6c0d"
     },
     "9b876d09-8a65-4a4f-b520-85f5fdf2d96a/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name />, not accustomed to heavy drinking, downed just one cup before succumbing to unconsciousness on the ground...<NL>As for the events that unfolded during the remainder of the banquet, she remained oblivious...",
@@ -1630,7 +1808,8 @@
       "status": "machine",
       "srcHash": "a638326c6f31279d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3f0d7b45456598e4"
     },
     "9b876d09-8a65-4a4f-b520-85f5fdf2d96a/Option_1": {
       "en": "(...)",
@@ -1639,7 +1818,8 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "9bd6d583-936f-41bc-9b8a-7b70786f5fc5/EventContent": {
       "en": "\"If not a strong one, who else is worthy of sharing a drink with the lady?\"<NL>The girl, holding her cup, came closer to <Character key=RoleTaiwu str=Name />, giving <Character key=RoleTaiwu str=Name /> a respectful bow.",
@@ -1653,65 +1833,72 @@
     "9bd6d583-936f-41bc-9b8a-7b70786f5fc5/Option_1": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=Participant str=Name />...)",
       "cn": "（派遣翠娥向<Character key=Participant str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=Participant str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=Participant str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "0f607cfbebb359fb",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "7434037f1de8675f"
     },
     "9bd6d583-936f-41bc-9b8a-7b70786f5fc5/Option_2": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantA str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantA str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantA str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantA str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "03d74925112b19dd",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "14016bebc1b74f73"
     },
     "9bd6d583-936f-41bc-9b8a-7b70786f5fc5/Option_3": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantB str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantB str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantB str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantB str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "cb5cc6e6b18a48d2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "b86a6e0f3f07c6c5"
     },
     "9bd6d583-936f-41bc-9b8a-7b70786f5fc5/Option_4": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantC str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantC str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantC str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantC str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "ba6539c50c2d00e5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "0158e22659d69f57"
     },
     "9bd6d583-936f-41bc-9b8a-7b70786f5fc5/Option_5": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantD str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantD str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantD str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantD str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "0146c9fb990b2e0a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "93a8a7329b04bd93"
     },
     "9bd6d583-936f-41bc-9b8a-7b70786f5fc5/Option_6": {
       "en": "(There is no need...)",
       "cn": "（不必劝酒……）\n",
-      "ru": "(В этом нет необходимости...)",
-      "status": "machine",
+      "ru": "(Не стоит уговаривать пить……)",
+      "status": "judged",
       "srcHash": "88f73502ccc8ffd6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "a8577f3f5d8a6c0d"
     },
     "9cd8795c-40b7-41a4-b4ff-c277332ee222/EventContent": {
       "en": "\"Miss, your attitude and grace... truly impressive...\"<NL><Character key=Participant str=Name /> enjoyed a good time and bid farewell to <Character key=RoleTaiwu str=Name />.",
       "cn": "“姑娘处事有度，实……有大家风范……”<NL><Character key=Participant str=Name />饮酒尽兴，向<Character key=RoleTaiwu str=Name />告辞……",
-      "ru": "\"Мисс, ваше отношение и грация... действительно впечатляют...\"<NL><Character key=Participant str=Name /> хорошо провели время и попрощались с <Character key=RoleTaiwu str=Name />.",
-      "status": "machine",
+      "ru": "\"Мисс, ваши манеры и достоинство... поистине впечатляют...\"<NL><Character key=Participant str=Name /> выпил вдоволь и попрощался с <Character key=RoleTaiwu str=Name />.",
+      "status": "judged",
       "srcHash": "62d8405d5d41b64b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "70f8d4cfd7d82d51"
     },
     "9cd8795c-40b7-41a4-b4ff-c277332ee222/Option_1": {
       "en": "(...)",
@@ -1720,16 +1907,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "9d277202-cb38-462a-8140-bf9a991eb157/EventContent": {
       "en": "After observing for a while from the pavilion, <Character key=RoleTaiwu str=Name /> noticed the lively atmosphere at the banquet,<NL>with guests exchanging toasts and enjoying themselves,<NL>piquing her interest...",
       "cn": "<Character key=RoleTaiwu str=Name />在凉亭观察许久，<NL>见众人在席间推杯换盏，邀酒对饮，兴致十分高涨，<NL>不禁也颇为意动……",
-      "ru": "Понаблюдав некоторое время из павильона, <Character key=RoleTaiwu str=Name /> обратил внимание на оживленную атмосферу на банкете,<NL>с гостями, обменивающимися тостами и наслаждающимися друг другом,<NL>возбуждая ее интерес...",
-      "status": "machine",
+      "ru": "Понаблюдав некоторое время из павильона, <Character key=RoleTaiwu str=Name /> заметила оживлённую атмосферу на банкете,<NL>где гости обменивались тостами и весело пили вместе,<NL>что вызвало у неё интерес...",
+      "status": "judged",
       "srcHash": "f10fa4e9769ea114",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "b85b37ace6965fb2"
     },
     "9d277202-cb38-462a-8140-bf9a991eb157/Option_1": {
       "en": "(Invite for a drink...)",
@@ -1738,7 +1927,8 @@
       "status": "machine",
       "srcHash": "9e6e18209e14bcff",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "6cacf99ab238edf2"
     },
     "9d277202-cb38-462a-8140-bf9a991eb157/Option_2": {
       "en": "(Have no such intention...)",
@@ -1747,16 +1937,18 @@
       "status": "machine",
       "srcHash": "f09228cec3e277b2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3ed7082f80e2217d"
     },
     "a434dd27-8b34-40a9-9037-0f8f3c87ddb6/EventContent": {
       "en": "\"You tell me to leave, and I'm supposed to just go? Isn't that a bit too much? If you have what it takes...\"<NL><Character key=Participant str=Name /> laughed and launched an attack on <Character key=RoleTaiwu str=Name />...",
       "cn": "“你叫我走我便走，岂不是好没面子？你若是有本事……”<NL><Character key=Participant str=Name />嘻嘻笑道，说话间，便向<Character key=RoleTaiwu str=Name />出手袭来……",
-      "ru": "- Ты говоришь мне уйти, и я должен просто уйти? Не слишком ли это много? Если у тебя есть то, что для этого нужно...\"<NL><Character key=Participant str=Name /> рассмеялся и начал атаку на <Character key=RoleTaiwu str=Name />...",
-      "status": "machine",
+      "ru": "\"Ты говоришь мне уйти, и я должен просто уйти? Не слишком ли это много? Если у тебя есть что для этого нужно...\"<NL><Character key=Participant str=Name /> рассмеялся и начал атаку на <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "9063fe7dcf295ace",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "f2313b86543e6b8a"
     },
     "a434dd27-8b34-40a9-9037-0f8f3c87ddb6/Option_1": {
       "en": "(Take on the fight...)",
@@ -1765,7 +1957,8 @@
       "status": "machine",
       "srcHash": "3a3f841ba7ed4a7c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "88451a0d9cd7ffac"
     },
     "a56c31d9-11b4-4093-9071-85d65ee15365/EventContent": {
       "en": "\"Or... maybe I'll have more drinks later...\"<NL><Character key=Participant str=Name /> seemed a bit tipsy and declined the drink.",
@@ -1774,7 +1967,8 @@
       "status": "machine",
       "srcHash": "83b3f664693cd4f6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "dcefa58ff85d8f8b"
     },
     "a56c31d9-11b4-4093-9071-85d65ee15365/Option_1": {
       "en": "(Stop drinking and bid farewell...)",
@@ -1783,7 +1977,8 @@
       "status": "machine",
       "srcHash": "73ff003900ed9df0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b6f104ec58f6f79e"
     },
     "a58362d6-f20d-4a33-81a2-76f17efb2bbb/EventContent": {
       "en": "nan",
@@ -1792,7 +1987,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "b0fb248e-7d0b-47f7-a875-dcf60a93e72c/EventContent": {
       "en": "The banquet is empty now, no guests in sight...",
@@ -1801,7 +1997,8 @@
       "status": "machine",
       "srcHash": "5102c7a2320b32e6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "66fd9a0898ca2465"
     },
     "b0fb248e-7d0b-47f7-a875-dcf60a93e72c/Option_1": {
       "en": "(...)",
@@ -1810,16 +2007,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "b4b99ab1-64f0-4cb2-99c8-5c98c827ced2/EventContent": {
       "en": "\"Only a true hero is worthy of you, Miss. What do you think?\"<NL><Character key=Participant str=Name /> approached the pavilion, extending the liquor toward <Character key=RoleTaiwu str=Name /> from behind the gauze curtains.",
       "cn": "“只有真英雄方能配得上小姐，小姐以为如何？”<NL><Character key=Participant str=Name />行至凉亭，隔着纱幔向<Character key=RoleTaiwu str=Name />递来一杯美酒……",
-      "ru": "- Только настоящий герой достоин вас, мисс. А ты как думаешь?\"<NL><Character key=Participant str=Name /> подошел к павильону, протягивая вино в сторону <Character key=RoleTaiwu str=Name /> из-за газовых занавесок.",
-      "status": "machine",
+      "ru": "\"Только настоящий герой достоин вас, мисс. Как вы думаете?\"<NL><Character key=Participant str=Name /> подошел к павильону, протягивая вино к <Character key=RoleTaiwu str=Name /> из-за газовых занавесок.",
+      "status": "judged",
       "srcHash": "c3282448f0da06d9",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "b34e27aae099802a"
     },
     "b4b99ab1-64f0-4cb2-99c8-5c98c827ced2/Option_1": {
       "en": "(Drink in one gulp...)",
@@ -1828,7 +2027,8 @@
       "status": "machine",
       "srcHash": "e193843d83b334b6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "26c1f6dd4f3ed3d2"
     },
     "b4b99ab1-64f0-4cb2-99c8-5c98c827ced2/Option_2": {
       "en": "(Politely decline...)",
@@ -1837,7 +2037,8 @@
       "status": "machine",
       "srcHash": "623b6d72d418fa07",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "c0afc5cf1357e4d6"
     },
     "b4b99ab1-64f0-4cb2-99c8-5c98c827ced2/Option_3": {
       "en": "(Kick out from the banquet...)",
@@ -1846,7 +2047,8 @@
       "status": "machine",
       "srcHash": "afa38d8f9ccd165d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "333604900a70bb5c"
     },
     "b618929a-42e2-4b3d-bcec-37760eff3187/EventContent": {
       "en": "\"Hmph, can't handle your liquor, afraid to share another drink with me...\"<NL><Character key=Participant str=Name /> put down the cup and returned to the banquet.",
@@ -1855,7 +2057,8 @@
       "status": "machine",
       "srcHash": "e5dcfeae8cf8f530",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "e45da581c63aa008"
     },
     "b618929a-42e2-4b3d-bcec-37760eff3187/Option_1": {
       "en": "(...)",
@@ -1864,7 +2067,8 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "b61ed920-5708-457d-b560-497f63f1402a/EventContent": {
       "en": "\"I gotta admit, I've had a blast!\"<NL><Character key=Participant str=Name /> enjoyed a good time and bid farewell to <Character key=RoleTaiwu str=Name />.",
@@ -1873,7 +2077,8 @@
       "status": "machine",
       "srcHash": "912435f4ee34ac04",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "81507044ffd4866e"
     },
     "b61ed920-5708-457d-b560-497f63f1402a/Option_1": {
       "en": "(...)",
@@ -1882,70 +2087,78 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "b763a83e-052a-40c6-8cc4-1bf1642c0437/EventContent": {
       "en": "\"As they say, a happy home leads to a prosperous life.<NL>Allow me to help you find the perfect match...\"<NL>The girl, holding her cup, came closer to <Character key=RoleTaiwu str=Name />, giving <Character key=RoleTaiwu str=Name /> a respectful bow.",
       "cn": "“有道是‘家和万事兴’，<NL>我自然是想为姑娘寻一个可以托付终身的良人……”<NL>少女持酒行至<Character key=RoleTaiwu str=Name />身侧，向<Character key=RoleTaiwu str=Name />福身行礼……",
-      "ru": "\"Как говорится, счастливый дом ведет к благополучной жизни.<NL>Позвольте мне помочь вам найти идеальную пару...\"<NL>Девушка, держа свою чашку, подошла ближе к <Character key=RoleTaiwu str=Name />, дающий <Character key=RoleTaiwu str=Name /> почтительный поклон.",
-      "status": "machine",
+      "ru": "\"Как говорится, счастливый дом ведет к благополучной жизни.<NL>Позвольте мне помочь вам найти идеальную пару...\"<NL>Девушка, держа чашку, подошла к <Character key=RoleTaiwu str=Name /> и почтительно поклонилась <Character key=RoleTaiwu str=Name />.",
+      "status": "judged",
       "srcHash": "5428ba166a648bf8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "6f9d77e99d8612b6"
     },
     "b763a83e-052a-40c6-8cc4-1bf1642c0437/Option_1": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=Participant str=Name />...)",
       "cn": "（派遣翠娥向<Character key=Participant str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=Participant str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=Participant str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "0f607cfbebb359fb",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "7434037f1de8675f"
     },
     "b763a83e-052a-40c6-8cc4-1bf1642c0437/Option_2": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantA str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantA str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantA str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantA str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "03d74925112b19dd",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "14016bebc1b74f73"
     },
     "b763a83e-052a-40c6-8cc4-1bf1642c0437/Option_3": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantB str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantB str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantB str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantB str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "cb5cc6e6b18a48d2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "b86a6e0f3f07c6c5"
     },
     "b763a83e-052a-40c6-8cc4-1bf1642c0437/Option_4": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantC str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantC str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantC str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantC str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "ba6539c50c2d00e5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "0158e22659d69f57"
     },
     "b763a83e-052a-40c6-8cc4-1bf1642c0437/Option_5": {
       "en": "(Dispatch Cui'e to offer a toast to <Character key=ParticipantD str=Name />...)",
       "cn": "（派遣翠娥向<Character key=ParticipantD str=Name />劝酒……）",
-      "ru": "(Отправь Цуйе произнести тост за <Character key=ParticipantD str=Name />...)",
-      "status": "machine",
+      "ru": "(Отправь Цуйэ уговорить <Character key=ParticipantD str=Name /> выпить...)",
+      "status": "judged",
       "srcHash": "0146c9fb990b2e0a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "93a8a7329b04bd93"
     },
     "b763a83e-052a-40c6-8cc4-1bf1642c0437/Option_6": {
       "en": "(There is no need...)",
       "cn": "（不必劝酒……）\n",
-      "ru": "(В этом нет необходимости...)",
-      "status": "machine",
+      "ru": "(Не стоит уговаривать пить……)",
+      "status": "judged",
       "srcHash": "88f73502ccc8ffd6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "a8577f3f5d8a6c0d"
     },
     "bb807183-351b-4313-ac37-ddd64d2d5f55/EventContent": {
       "en": "As the guests were yet to arrive,<NL><Character key=RoleTaiwu str=Name /> took a moment to rest in the pavilion, chatting with the maids nearby.<NL><NL>\"Our Cui'e beauties from Chengdu are renowned for their mastery in testing liquor tolerance.<NL>When those young masters get a bit tipsy later, it's your chance to pick the husband you like.\"<NL>A maid glanced at the banquet and suggested <Character key=RoleTaiwu str=Name />...",
@@ -1954,7 +2167,8 @@
       "status": "machine",
       "srcHash": "ecde4237fc1bbf9b",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "2065f9da8830e4ec"
     },
     "bb807183-351b-4313-ac37-ddd64d2d5f55/Option_1": {
       "en": "Pick a husband?",
@@ -1963,16 +2177,18 @@
       "status": "machine",
       "srcHash": "513e14882a5abaf9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e3c76a7bdeffe1d9"
     },
     "bb807183-351b-4313-ac37-ddd64d2d5f55/Option_2": {
       "en": "Let Cui'e test their liquor tolerance?",
       "cn": "翠娥劝酒？",
-      "ru": "Позволить Цуйе проверить их переносимость вина?",
-      "status": "machine",
+      "ru": "Позволить Цуйэ угостить их вином?",
+      "status": "judged",
       "srcHash": "45dd6b1921080f6f",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "2e8c4689aa5000dc"
     },
     "bb807183-351b-4313-ac37-ddd64d2d5f55/Option_3": {
       "en": "(So that's how it is...)",
@@ -1981,7 +2197,8 @@
       "status": "machine",
       "srcHash": "6718b1318dd51c4c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "99ce73ad103afdff"
     },
     "bc6ce839-79dd-48aa-8abe-51cbec86260a/EventContent": {
       "en": "\"Hehe... having a drink with you is the best thing ever!\"<NL><Character key=Participant str=Name /> enjoyed a good time and bid farewell to <Character key=RoleTaiwu str=Name />.",
@@ -1990,7 +2207,8 @@
       "status": "machine",
       "srcHash": "64b23bb507974dcb",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "0bd1d65c688202ba"
     },
     "bc6ce839-79dd-48aa-8abe-51cbec86260a/Option_1": {
       "en": "(...)",
@@ -1999,16 +2217,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "be3e2c01-5200-4e0b-be7f-aa75ef4b6789/EventContent": {
       "en": "\"Miss... you've got quite the tolerance for alcohol... I humbly concede...\"<NL><Character key=Participant str=Name /> seemed a bit tipsy and declined the drink.",
       "cn": "“姑娘……酒量……不凡，在下甘拜下风……”<NL><Character key=Participant str=Name />似有醉意，于是推辞不饮……",
-      "ru": "- Мисс... у вас неплохая переносимость алкоголя... Я смиренно признаю...\"<NL><Character key=Participant str=Name /> казался немного навеселе и отказался от выпивки.",
-      "status": "machine",
+      "ru": "\"Мисс... у вас отличная переносимость алкоголя... Смиренно признаю своё поражение...\"<NL><Character key=Participant str=Name /> казался немного навеселе и отказался от выпивки.",
+      "status": "judged",
       "srcHash": "e3a6791f44aa6d0e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "c67d84b127981f01"
     },
     "be3e2c01-5200-4e0b-be7f-aa75ef4b6789/Option_1": {
       "en": "(...)",
@@ -2017,7 +2237,8 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "bed181bf-27dc-4413-8181-f0b02f4a8e89/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> accepted without hesitation, toasting with <Character key=Participant str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected Qi disruption due to the effects of liquor...)<NL>(<Character key=Participant str=Name /> downed the drink, feeling an unexpected Qi disruption due to the effects of liquor...)</color><NL>",
@@ -2026,16 +2247,18 @@
       "status": "machine",
       "srcHash": "70008bb8c7c49788",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "924bf923a2188db4"
     },
     "bed181bf-27dc-4413-8181-f0b02f4a8e89/Option_1": {
       "en": "(Return the toast...)",
       "cn": "（回敬美酒……）",
-      "ru": "(Верните тост...)",
-      "status": "machine",
+      "ru": "(Ответить на тост вином...)",
+      "status": "judged",
       "srcHash": "5ddbed7a11db709e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "f1f0b3d2fa4ca5ab"
     },
     "bed181bf-27dc-4413-8181-f0b02f4a8e89/Option_2": {
       "en": "(This is good...)",
@@ -2044,7 +2267,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "bfe45ec0-3ec3-48f0-a6dc-08d6ddcb6b18/EventContent": {
       "en": "\"Strong liquor can be harmful, my lady. You might want to go easy on the liquor...\"<NL><Character key=Participant str=Name /> seemed a bit tipsy and declined the drink.",
@@ -2053,7 +2277,8 @@
       "status": "machine",
       "srcHash": "28d68ba1cf8a732c",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "6121174e09710c70"
     },
     "bfe45ec0-3ec3-48f0-a6dc-08d6ddcb6b18/Option_1": {
       "en": "(Stop drinking and bid farewell...)",
@@ -2062,7 +2287,8 @@
       "status": "machine",
       "srcHash": "73ff003900ed9df0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b6f104ec58f6f79e"
     },
     "c036038d-2c4a-4468-872d-1fc6d8b06b58/EventContent": {
       "en": "\"Let's go with the flow and share this drink...\"<NL><Character key=Participant str=Name /> accepted without hesitation, toasting with <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)?(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color>",
@@ -2071,7 +2297,8 @@
       "status": "machine",
       "srcHash": "78832484668bd057",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "9eca3d54ad46217a"
     },
     "c036038d-2c4a-4468-872d-1fc6d8b06b58/Option_1": {
       "en": "(Invite for another round...)",
@@ -2080,7 +2307,8 @@
       "status": "machine",
       "srcHash": "928b438e8ae9872e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e98c4a4475c59439"
     },
     "c036038d-2c4a-4468-872d-1fc6d8b06b58/Option_2": {
       "en": "(Stop drinking and bid farewell...)",
@@ -2089,7 +2317,8 @@
       "status": "machine",
       "srcHash": "73ff003900ed9df0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b6f104ec58f6f79e"
     },
     "c06c719e-5c24-408b-990a-b224eda214e6/EventContent": {
       "en": "nan",
@@ -2098,7 +2327,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "c0a02098-8fe1-4eff-944b-c746a765f43c/EventContent": {
       "en": "nan",
@@ -2107,7 +2337,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "c128a4ab-6061-425b-b7b8-6c20cefea506/EventContent": {
       "en": "\"I may have been a bit abrupt...\"<NL><Character key=Participant str=Name /> sat down the cup, bid farewell, and returned to the banquet.",
@@ -2116,7 +2347,8 @@
       "status": "machine",
       "srcHash": "bc83e0611a111405",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ec6f7fe020129ea7"
     },
     "c128a4ab-6061-425b-b7b8-6c20cefea506/Option_1": {
       "en": "(...)",
@@ -2125,7 +2357,8 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "c3acc4b5-011c-4534-9576-9e168b05806f/EventContent": {
       "en": "\"Seems there's no one else worthy of your attention...\"<NL><Character key=Participant str=Name /> accepted without hesitation, toasting with <Character key=RoleTaiwu str=Name /> once again.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)<NL>(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color><NL>",
@@ -2134,16 +2367,18 @@
       "status": "machine",
       "srcHash": "693455882330492f",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "8bf11f57f65c60b3"
     },
     "c3acc4b5-011c-4534-9576-9e168b05806f/Option_1": {
       "en": "(Return the toast...)",
       "cn": "（回敬美酒……）",
-      "ru": "(Верните тост...)",
-      "status": "machine",
+      "ru": "(Ответить на тост вином...)",
+      "status": "judged",
       "srcHash": "5ddbed7a11db709e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "f1f0b3d2fa4ca5ab"
     },
     "c3acc4b5-011c-4534-9576-9e168b05806f/Option_2": {
       "en": "(This is good...)",
@@ -2152,7 +2387,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "c589a234-bfd5-4ca4-a48e-b89e6117c815/EventContent": {
       "en": "\"If you're not willing, I won't force you...\"<NL><Character key=Participant str=Name /> sat down the cup, bid farewell, and returned to the banquet.",
@@ -2161,7 +2397,8 @@
       "status": "machine",
       "srcHash": "f0e1387b02d60a36",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "b031d640597cf457"
     },
     "c589a234-bfd5-4ca4-a48e-b89e6117c815/Option_1": {
       "en": "(...)",
@@ -2170,16 +2407,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "c90bd8da-d6e3-452d-a207-6b42ddeef26a/EventContent": {
       "en": "\"Easy there, Miss... Take it slow with the drinks...\"<NL><Character key=Participant str=Name /> seemed a bit tipsy and declined the drink.",
       "cn": "“凡事不能过度，姑娘也……莫要……再饮了……”<NL><Character key=Participant str=Name />似有醉意，于是推辞不饮……",
-      "ru": "- Полегче с этим, мисс... Не торопись с напитками...\"<NL><Character key=Participant str=Name /> казался немного навеселе и отказался от выпивки.",
-      "status": "machine",
+      "ru": "\"Полегче, мисс... Не торопитесь с вином...\"<NL><Character key=Participant str=Name /> казался немного навеселе и отказался от выпивки.",
+      "status": "judged",
       "srcHash": "fb6409b1b3bc9523",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "bd6bdabafbad2b69"
     },
     "c90bd8da-d6e3-452d-a207-6b42ddeef26a/Option_1": {
       "en": "(Stop drinking and bid farewell...)",
@@ -2188,16 +2427,18 @@
       "status": "machine",
       "srcHash": "73ff003900ed9df0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b6f104ec58f6f79e"
     },
     "cd03177f-3c93-4221-8d81-d4dbd63abc4b/EventContent": {
       "en": "On the joyous day of <Character key=RoleTaiwu str=Name />'s betrothal contest.<NL>Outside the mansion, carriages weaved through like a lively current and guests bustled back and forth.<NL>Inside, every nook was adorned with vibrant decorations. Servants and maids, carrying fine liquor and exquisite dishes, navigated through the corridors,<NL>adding to the lively spectacle.",
       "cn": "这日，正是<Character key=RoleTaiwu str=Name />举办招亲的大喜之日，<NL>只见府外车如流水马如龙，人来人往络绎不绝，<NL>府内各处张灯结彩，仆从婢女手持美酒佳肴穿行于回廊之中，<NL>好一副空前的热闹景象……",
-      "ru": "В радостный день <Character key=RoleTaiwu str=Name />это конкурс на помолвку.<NL>Снаружи особняка, подобно оживленному потоку, сновали экипажи, а гости сновали взад и вперед.<NL>Внутри каждый уголок был украшен яркими украшениями. Слуги и служанки, разносившие изысканные вина и яства, сновали по коридорам,<NL>добавляя живости зрелищу.",
-      "status": "machine",
+      "ru": "В радостный день состязания за руку <Character key=RoleTaiwu str=Name />.<NL>Снаружи особняка, подобно оживлённому потоку, сновали экипажи, а гости спешили взад и вперёд.<NL>Внутри каждый уголок был украшен яркими украшениями. Слуги и служанки, разносившие изысканное вино и яства, сновали по коридорам,<NL>создавая необычайно оживлённое зрелище.",
+      "status": "judged",
       "srcHash": "bc734e59264a8e9f",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "f8934a7414c1a659"
     },
     "cd03177f-3c93-4221-8d81-d4dbd63abc4b/Option_1": {
       "en": "(...)",
@@ -2206,25 +2447,28 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "ce422eb5-648c-4949-bfd2-bf2ce4573320/EventContent": {
       "en": "\"Sure thing! I won't turn down a drink from you!\"<NL><Character key=Participant str=Name /> accepted without hesitation, toasting with <Character key=RoleTaiwu str=Name /> once again.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)<NL>(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color><NL>",
       "cn": "“好！姑娘的酒，我定不会推辞！”<NL><Character key=Participant str=Name />并未推辞，又再与<Character key=RoleTaiwu str=Name />共饮……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />将酒饮下，内息因醉酒而紊乱……）<NL>（<Character key=Participant str=Name />将酒饮下，内息因醉酒而紊乱……）</color><NL>",
-      "ru": "- Конечно! Я не откажусь от твоей выпивки!\"<NL><Character key=Participant str=Name /> принял без колебаний, провозгласив тост с <Character key=RoleTaiwu str=Name /> еще раз.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)<NL>(<Character key=Participant str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)</color><NL>",
-      "status": "machine",
+      "ru": "\"Конечно! Я не откажусь выпить с тобой!\"<NL><Character key=Participant str=Name /> принял без колебаний, провозгласив тост с <Character key=RoleTaiwu str=Name /> еще раз.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)<NL>(<Character key=Participant str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)</color><NL>",
+      "status": "judged",
       "srcHash": "5bcdf36043f42d35",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "599bdbddd28edacd"
     },
     "ce422eb5-648c-4949-bfd2-bf2ce4573320/Option_1": {
       "en": "(Return the toast...)",
       "cn": "（回敬美酒……）",
-      "ru": "(Верните тост...)",
-      "status": "machine",
+      "ru": "(Ответить на тост вином...)",
+      "status": "judged",
       "srcHash": "5ddbed7a11db709e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "f1f0b3d2fa4ca5ab"
     },
     "ce422eb5-648c-4949-bfd2-bf2ce4573320/Option_2": {
       "en": "(This is good...)",
@@ -2233,7 +2477,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "cf7c3a67-9ca3-4d92-ad0c-d813b1bbe17d/EventContent": {
       "en": "\"If you are offering, why would I say no?\"<NL><Character key=Participant str=Name /> accepts without hesitation, toasting with <Character key=RoleTaiwu str=Name /> once again.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)<NL>(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color><NL>",
@@ -2242,16 +2487,18 @@
       "status": "machine",
       "srcHash": "f5632aa66bc195aa",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "8b543efb9924c2ca"
     },
     "cf7c3a67-9ca3-4d92-ad0c-d813b1bbe17d/Option_1": {
       "en": "(Return the toast...)",
       "cn": "（回敬美酒……）",
-      "ru": "(Верните тост...)",
-      "status": "machine",
+      "ru": "(Ответить на тост вином...)",
+      "status": "judged",
       "srcHash": "5ddbed7a11db709e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "f1f0b3d2fa4ca5ab"
     },
     "cf7c3a67-9ca3-4d92-ad0c-d813b1bbe17d/Option_2": {
       "en": "(This is good...)",
@@ -2260,7 +2507,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "d1e203d9-c8b2-4069-9f62-71dbceb34efc/EventContent": {
       "en": "\"It looks like you've already caught onto what I'm getting at...\"<NL><Character key=Participant str=Name /> enjoyed a good time and bid farewell to <Character key=RoleTaiwu str=Name />.",
@@ -2269,7 +2517,8 @@
       "status": "machine",
       "srcHash": "00086dcefdb040a3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "c5a55cae51bbeb1e"
     },
     "d1e203d9-c8b2-4069-9f62-71dbceb34efc/Option_1": {
       "en": "(...)",
@@ -2278,16 +2527,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "d3be1a93-29f4-42b6-84ce-c19df9c897ad/EventContent": {
       "en": "As <Character key=Participant str=Name /> spotted <Character key=RoleTaiwu str=Name />, he hesitated for a moment and bowed with hands folded,<NL>\"I've been expecting you, Miss...\"",
       "cn": "<Character key=Participant str=Name />见到<Character key=RoleTaiwu str=Name />，怔愣片刻后方才回神，<NL>随后拱手说道：“在下恭候姑娘多时……”",
-      "ru": "Как <Character key=Participant str=Name /> замеченный <Character key=RoleTaiwu str=Name /> он на мгновение заколебался и поклонился , сложив руки на груди,<NL>\"Я ждал вас, мисс...\"",
-      "status": "machine",
+      "ru": "Увидев <Character key=RoleTaiwu str=Name />, <Character key=Participant str=Name /> на мгновение замешкался, затем сложил руки и поклонился,<NL>\"Я уже давно вас жду, госпожа…\"",
+      "status": "judged",
       "srcHash": "6b12a20c691a46e1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "2c3a3e96d9771698"
     },
     "d3be1a93-29f4-42b6-84ce-c19df9c897ad/Option_1": {
       "en": "(Confess love...)",
@@ -2296,7 +2547,8 @@
       "status": "machine",
       "srcHash": "e66d3935c26e3f46",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "03a0c5a5dfbaf40e"
     },
     "d3be1a93-29f4-42b6-84ce-c19df9c897ad/Option_2": {
       "en": "(A misunderstanding...)",
@@ -2305,7 +2557,8 @@
       "status": "machine",
       "srcHash": "c1a3789e8284c10e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "7f14c42a95ef0ccf"
     },
     "d4f3ea14-b769-427d-a067-018fb85360ce/EventContent": {
       "en": "\"I lost!\"<NL><Character key=Participant str=Name /> left after losing to <Character key=RoleTaiwu str=Name />...",
@@ -2314,7 +2567,8 @@
       "status": "machine",
       "srcHash": "b50019e0595f985f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f32c6c7a52fb133a"
     },
     "d4f3ea14-b769-427d-a067-018fb85360ce/Option_1": {
       "en": "(...)",
@@ -2323,7 +2577,8 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "d5dd8afc-d1b9-41d8-b529-d1503967ffe0/EventContent": {
       "en": "nan",
@@ -2332,7 +2587,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e975abb8a27a41cb"
     },
     "d5dd8afc-d1b9-41d8-b529-d1503967ffe0/Option_1": {
       "en": "(Toast <Character key=ParticipantD str=Name />...)",
@@ -2341,7 +2597,8 @@
       "status": "machine",
       "srcHash": "56c7296c63f31880",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "9342ca19c7642380"
     },
     "d5dd8afc-d1b9-41d8-b529-d1503967ffe0/Option_2": {
       "en": "(Have no such intention...)",
@@ -2350,16 +2607,18 @@
       "status": "machine",
       "srcHash": "f09228cec3e277b2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3ed7082f80e2217d"
     },
     "da4745e2-2404-4d2e-b273-1f8824ec6b28/EventContent": {
       "en": "\"The measure of a person is often found in their ability at the wine table.<NL>A man who can gracefully handle a thousand cups, remaining unfazed, is truly a rare hero.<NL>Only such a man is worthy of matching with you, Miss.\"",
       "cn": "“所谓酒品即是人品，能于酒桌之上千杯不醉，<NL>游刃有余之人岂不正是万里挑一的英豪？<NL>世间也只有这样的男子能与姑娘相配……”",
-      "ru": "\"О человеке часто судят по его способностям за винным столом.<NL>Человек, который может изящно справиться с тысячей чашек, оставаясь невозмутимым, поистине редкий герой.<NL>Только такой мужчина достоин сравниться с вами, мисс.\"",
-      "status": "machine",
+      "ru": "\"О человеке часто судят по его способностям за винным столом.<NL>Человек, способный изящно выпить тысячу чаш, не изменившись в лице, — поистине редкий герой.<NL>Только такой мужчина достоин стать вам парой, госпожа…\"",
+      "status": "judged",
       "srcHash": "23289afaf5193d33",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "31228c97d8964772"
     },
     "da4745e2-2404-4d2e-b273-1f8824ec6b28/Option_1": {
       "en": "Pick a husband?",
@@ -2368,16 +2627,18 @@
       "status": "machine",
       "srcHash": "513e14882a5abaf9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e3c76a7bdeffe1d9"
     },
     "da4745e2-2404-4d2e-b273-1f8824ec6b28/Option_2": {
       "en": "Let Cui'e test their liquor tolerance?",
       "cn": "翠娥劝酒？",
-      "ru": "Позволить Цуйе проверить их переносимость вина?",
-      "status": "machine",
+      "ru": "Позволить Цуйэ угостить их вином?",
+      "status": "judged",
       "srcHash": "45dd6b1921080f6f",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "2e8c4689aa5000dc"
     },
     "da4745e2-2404-4d2e-b273-1f8824ec6b28/Option_3": {
       "en": "(So that's how it is...)",
@@ -2386,7 +2647,8 @@
       "status": "machine",
       "srcHash": "6718b1318dd51c4c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "99ce73ad103afdff"
     },
     "db8674d8-893c-4d3f-b1b2-9dc6471129d8/EventContent": {
       "en": "nan",
@@ -2395,16 +2657,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "ddbd6649-0675-4c01-aaac-ddc7b3e8b757/EventContent": {
       "en": "\"Bold words! Let's see if you can back them up!\"<NL><Character key=Participant str=Name />'s expression changed abruptly as he immediately launched an attack against <Character key=RoleTaiwu str=Name />...",
       "cn": "“好大的口气，就看你有没有这个本事！”<NL><Character key=Participant str=Name />神色一变，竟不由分说地出手向<Character key=RoleTaiwu str=Name />袭来……",
-      "ru": "- Смелые слова! Давай посмотрим, сможешь ли ты их поддержать!\"<NL><Character key=Participant str=Name />выражение его лица резко изменилось, когда он немедленно начал атаку против <Character key=RoleTaiwu str=Name />...",
-      "status": "machine",
+      "ru": "\"Смелые слова! Посмотрим, сможешь ли ты подтвердить их!\"<NL><Character key=Participant str=Name /> резко изменил выражение лица и без лишних слов атаковал <Character key=RoleTaiwu str=Name />…",
+      "status": "judged",
       "srcHash": "5de6f4369c53f5d3",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "56456e71d6de74eb"
     },
     "ddbd6649-0675-4c01-aaac-ddc7b3e8b757/Option_1": {
       "en": "(Take on the fight...)",
@@ -2413,16 +2677,18 @@
       "status": "machine",
       "srcHash": "3a3f841ba7ed4a7c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "88451a0d9cd7ffac"
     },
     "e1aac226-419e-42cc-9a9e-39ec20664ce6/EventContent": {
       "en": "\"I've had a bit too much to drink, not feeling well. Excuse me for now.\"<NL><Character key=Participant str=Name />, without a hint of joy, offered an apology to <Character key=RoleTaiwu str=Name /> and departed,<NL>leaving the joyful event somewhat marred...",
       "cn": "“我饮多了酒，身子不适，暂且告辞……”<NL><Character key=Participant str=Name />闻言不见欢喜，反而向<Character key=RoleTaiwu str=Name />躬身致歉，<NL>随后转身离开了此地，一桩美事就此不欢而散……",
-      "ru": "- Я немного перебрал с выпивкой, плохо себя чувствую. Извините меня сейчас.\"<NL><Character key=Participant str=Name />, без намека на радость, принес извинения перед <Character key=RoleTaiwu str=Name /> и удалился,<NL>оставив радостное событие несколько омраченным...",
-      "status": "machine",
+      "ru": "\"Я выпил лишнего и плохо себя чувствую. Пока позвольте откланяться…\"<NL><Character key=Participant str=Name />, не выказав радости, поклонился <Character key=RoleTaiwu str=Name /> в знак извинения,<NL>затем ушёл, и это радостное событие оказалось омрачено…",
+      "status": "judged",
       "srcHash": "c051d5d0ed9f0bd3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "82a49e3f9f34258c"
     },
     "e1aac226-419e-42cc-9a9e-39ec20664ce6/Option_1": {
       "en": "(...)",
@@ -2431,7 +2697,8 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "e2dfe3f7-89ae-4a32-b272-b8baa916a7ab/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> accepted without hesitation, toasting with <Character key=Participant str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected Qi disruption due to the effects of liquor...)<NL>(<Character key=Participant str=Name /> downed the drink, feeling an unexpected Qi disruption due to the effects of liquor...)</color><NL>",
@@ -2440,16 +2707,18 @@
       "status": "machine",
       "srcHash": "70008bb8c7c49788",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "924bf923a2188db4"
     },
     "e2dfe3f7-89ae-4a32-b272-b8baa916a7ab/Option_1": {
       "en": "(Return the toast...)",
       "cn": "（回敬美酒……）",
-      "ru": "(Верните тост...)",
-      "status": "machine",
+      "ru": "(Ответить на тост вином...)",
+      "status": "judged",
       "srcHash": "5ddbed7a11db709e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "f1f0b3d2fa4ca5ab"
     },
     "e2dfe3f7-89ae-4a32-b272-b8baa916a7ab/Option_2": {
       "en": "(This is good...)",
@@ -2458,16 +2727,18 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "e637de73-48c0-460c-b58c-4e21d3fdb4e7/EventContent": {
       "en": "\"I won!\"<NL><Character key=Participant str=Name /> defeated <Character key=RoleTaiwu str=Name /> and returned to the banquet to continue participating in the marriage contest...",
       "cn": "“是我胜了！”<NL><Character key=RoleTaiwu str=Name />败于<Character key=Participant str=Name />之手，于是回到酒宴当中，继续参与招亲……",
-      "ru": "\"Я победил!\"<NL><Character key=Participant str=Name /> побежденный <Character key=RoleTaiwu str=Name /> и вернулся на банкет, чтобы продолжить участие в брачном конкурсе...",
-      "status": "machine",
+      "ru": "\"Я победил!\"<NL><Character key=Participant str=Name /> победил <Character key=RoleTaiwu str=Name /> и вернулся на банкет, чтобы продолжить участвовать в состязании женихов…",
+      "status": "judged",
       "srcHash": "27862d912fcabe1d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "938cfe6d6f54ce09"
     },
     "e637de73-48c0-460c-b58c-4e21d3fdb4e7/Option_1": {
       "en": "(...)",
@@ -2476,16 +2747,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "ec482d97-a75f-428c-b250-4359f112a228/EventContent": {
       "en": "As the sun set, the banquet came to an end.<NL>Peering through the gauze curtains, <Character key=RoleTaiwu str=Name /> only witnessed the inebriated guests.<NL>It seemed a true hero worthy of a match wasn't found this time...",
       "cn": "随着日落西山，这场酒宴也随即宣告结束，<NL><Character key=RoleTaiwu str=Name />透过纱幔观望，只见宴席中的宾客皆醉得东倒西歪，<NL>看来此次并未能选出真正的英豪与自己相配……",
-      "ru": "Когда солнце село, банкет подошел к концу.<NL>Выглядываю из-за газовых занавесок, <Character key=RoleTaiwu str=Name /> только наблюдал за нетрезвыми гостями.<NL>Казалось, на этот раз не нашлось настоящего героя, достойного соперничества...",
-      "status": "machine",
+      "ru": "Когда солнце село, банкет подошёл к концу.<NL>Заглянув сквозь газовые занавеси, <Character key=RoleTaiwu str=Name /> увидел лишь пьяных гостей.<NL>Похоже, на этот раз настоящего героя, достойного стать ему парой, найти не удалось…",
+      "status": "judged",
       "srcHash": "83317e3316a52022",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "dfd2e867b8bb4e64"
     },
     "ec482d97-a75f-428c-b250-4359f112a228/Option_1": {
       "en": "(So be it. Leave the banquet...)",
@@ -2494,7 +2767,8 @@
       "status": "machine",
       "srcHash": "b426f60d1ac7b3c4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ff238325696dabdb"
     },
     "ee852038-cb20-4476-95b3-cd2d545c9697/EventContent": {
       "en": "\"Hmph, like I relish sharing a drink with you...\"<NL><Character key=Participant str=Name /> put down the cup and returned to the banquet.",
@@ -2503,7 +2777,8 @@
       "status": "machine",
       "srcHash": "34bc9239923852e6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "684b18436137ab05"
     },
     "ee852038-cb20-4476-95b3-cd2d545c9697/Option_1": {
       "en": "(...)",
@@ -2512,7 +2787,8 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "f19db6c1-15cf-4fed-8dc6-89834e4ac097/EventContent": {
       "en": "\"According to the rules, as long as you defeat me...\"<NL><Character key=Participant str=Name /> bowed with hands folded in front, assuming a dueling stance.",
@@ -2521,7 +2797,8 @@
       "status": "machine",
       "srcHash": "50a8bfed0045b431",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "b8a12576c7cf5e3e"
     },
     "f19db6c1-15cf-4fed-8dc6-89834e4ac097/Option_1": {
       "en": "(Take on the fight...)",
@@ -2530,16 +2807,18 @@
       "status": "machine",
       "srcHash": "3a3f841ba7ed4a7c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "88451a0d9cd7ffac"
     },
     "f2ec649e-c775-4f83-bb20-b547b08c08a2/EventContent": {
       "en": "\"I... I'd love to grab another drink with you, but I'm not great at holding my liquor...\"<NL><Character key=Participant str=Name /> seemed a bit tipsy and declined the drink.",
       "cn": "“我虽还想再与姑娘共饮……但……我实在不胜酒力……”<NL><Character key=Participant str=Name />似有醉意，于是推辞不饮……",
-      "ru": "\"Я... Я бы с удовольствием выпил с тобой еще, но я не умею держать в руках вино...\"<NL><Character key=Participant str=Name /> казался немного навеселе и отказался от выпивки.",
-      "status": "machine",
+      "ru": "\"Я… Я бы с удовольствием выпил с тобой ещё, но я плохо переношу вино…\"<NL><Character key=Participant str=Name /> выглядел немного навеселе и отказался пить.",
+      "status": "judged",
       "srcHash": "c56433b2efa52f72",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "6339b931a641fcac"
     },
     "f2ec649e-c775-4f83-bb20-b547b08c08a2/Option_1": {
       "en": "(...)",
@@ -2548,7 +2827,8 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "f371049d-f44b-466f-bed1-49f472807f14/EventContent": {
       "en": "\"Share a drink with me? Well, how could I possibly say no to such a delightful offer...\"<NL><Character key=Participant str=Name /> accepted without hesitation, toasting with <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)?(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color>",
@@ -2557,7 +2837,8 @@
       "status": "machine",
       "srcHash": "382fe46988d6cc2b",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "164ccec6026cbba9"
     },
     "f371049d-f44b-466f-bed1-49f472807f14/Option_1": {
       "en": "(Invite for another round...)",
@@ -2566,7 +2847,8 @@
       "status": "machine",
       "srcHash": "928b438e8ae9872e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e98c4a4475c59439"
     },
     "f371049d-f44b-466f-bed1-49f472807f14/Option_2": {
       "en": "(Stop drinking and bid farewell...)",
@@ -2575,7 +2857,8 @@
       "status": "machine",
       "srcHash": "73ff003900ed9df0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b6f104ec58f6f79e"
     },
     "f7897f00-3150-4403-b76b-067f87edd118/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> left the pavilion and joined the banquet...",
@@ -2584,16 +2867,18 @@
       "status": "machine",
       "srcHash": "481e6abc31b427d9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2f402e81abf36650"
     },
     "f7897f00-3150-4403-b76b-067f87edd118/Option_1": {
       "en": "(Toast <Character key=Participant str=Name />...)",
       "cn": "（向<Character key=Participant str=Name />敬酒……）",
-      "ru": "(Тост <Character key=Participant str=Name />...)",
-      "status": "machine",
+      "ru": "(Поднести тост <Character key=Participant str=Name />...)",
+      "status": "judged",
       "srcHash": "42821d18dcfcdec9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "96acbec10711063a"
     },
     "f7897f00-3150-4403-b76b-067f87edd118/Option_2": {
       "en": "(Look at <Character key=ParticipantA str=Name />...)",
@@ -2602,7 +2887,8 @@
       "status": "machine",
       "srcHash": "180d9beaf58c81d4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "935fae02596539b2"
     },
     "f7897f00-3150-4403-b76b-067f87edd118/Option_3": {
       "en": "(Look at <Character key=ParticipantB str=Name />...)",
@@ -2611,7 +2897,8 @@
       "status": "machine",
       "srcHash": "01e98d5d7bb59748",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b863417741b8a63a"
     },
     "f7897f00-3150-4403-b76b-067f87edd118/Option_4": {
       "en": "(Look at <Character key=ParticipantC str=Name />...)",
@@ -2620,7 +2907,8 @@
       "status": "machine",
       "srcHash": "65be03b8de3d0a1c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "adec0ba621935e28"
     },
     "f7897f00-3150-4403-b76b-067f87edd118/Option_5": {
       "en": "(Look at <Character key=ParticipantD str=Name />...)",
@@ -2629,7 +2917,8 @@
       "status": "machine",
       "srcHash": "662b15afecb7153e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "555240b44d8aff79"
     },
     "f7897f00-3150-4403-b76b-067f87edd118/Option_6": {
       "en": "(Return to the pavilion...)",
@@ -2638,25 +2927,28 @@
       "status": "machine",
       "srcHash": "38ab4558b7c13e4d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fd5d820c05f10acc"
     },
     "f8c0673b-5b43-4c5e-a792-a4ca909f688b/EventContent": {
       "en": "\"Ugh... the liquor might not do the trick, but I'm definitely feeling a bit woozy...\"<NL><Character key=Participant str=Name /> accepted without hesitation, toasting with <Character key=RoleTaiwu str=Name /> once again.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)<NL>(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color><NL>",
       "cn": "“唔……酒不醉人……人自醉……”<NL><Character key=Participant str=Name />并未推辞，又再与<Character key=RoleTaiwu str=Name />共饮……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />将酒饮下，内息因醉酒而紊乱……）<NL>（<Character key=Participant str=Name />将酒饮下，内息因醉酒而紊乱……）</color><NL>",
-      "ru": "- Тьфу... возможно, вино и не поможет, но я определенно чувствую себя немного одурманенным...\"<NL><Character key=Participant str=Name /> принял без колебаний, провозгласив тост с <Character key=RoleTaiwu str=Name /> еще раз.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)<NL>(<Character key=Participant str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)</color><NL>",
-      "status": "machine",
+      "ru": "\"Хм… дело не в вине — человек пьянит себя сам…\"<NL><Character key=Participant str=Name /> без колебаний согласился и снова выпил с <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> выпил вино, почувствовав неожиданное нарушение внутреннего дыхания из-за опьянения...)<NL>(<Character key=Participant str=Name /> выпил вино, почувствовав неожиданное нарушение внутреннего дыхания из-за опьянения...)</color><NL>",
+      "status": "judged",
       "srcHash": "ab46c079b848ecad",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "dfd97e79febc97a2"
     },
     "f8c0673b-5b43-4c5e-a792-a4ca909f688b/Option_1": {
       "en": "(Return the toast...)",
       "cn": "（回敬美酒……）",
-      "ru": "(Верните тост...)",
-      "status": "machine",
+      "ru": "(Ответить на тост вином...)",
+      "status": "judged",
       "srcHash": "5ddbed7a11db709e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "f1f0b3d2fa4ca5ab"
     },
     "f8c0673b-5b43-4c5e-a792-a4ca909f688b/Option_2": {
       "en": "(This is good...)",
@@ -2665,25 +2957,28 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "fc1c0efe-bfe8-43a6-8a3a-3b1e93df8d44/EventContent": {
       "en": "\"I won't turn down a drink from you...\"<NL><Character key=Participant str=Name /> accepted without hesitation, toasting with <Character key=RoleTaiwu str=Name /> once again.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)<NL>(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color><NL>",
       "cn": "“姑娘敬的酒，我自然不会推辞……”<NL><Character key=Participant str=Name />并未推辞，又再与<Character key=RoleTaiwu str=Name />共饮……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />将酒饮下，内息因醉酒而紊乱……）<NL>（<Character key=Participant str=Name />将酒饮下，内息因醉酒而紊乱……）</color><NL>",
-      "ru": "\"Я не откажусь от твоей выпивки...\"<NL><Character key=Participant str=Name /> принял без колебаний, провозгласив тост с <Character key=RoleTaiwu str=Name /> еще раз.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)<NL>(<Character key=Participant str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)</color><NL>",
-      "status": "machine",
+      "ru": "\"Я не откажусь от вина, которым ты меня угостила…\"<NL><Character key=Participant str=Name /> без колебаний согласился и снова выпил с <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> выпил вино, почувствовав неожиданное нарушение внутреннего дыхания из-за опьянения...)<NL>(<Character key=Participant str=Name /> выпил вино, почувствовав неожиданное нарушение внутреннего дыхания из-за опьянения...)</color><NL>",
+      "status": "judged",
       "srcHash": "0fe1286936cf065e",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "82d1e1057a92d679"
     },
     "fc1c0efe-bfe8-43a6-8a3a-3b1e93df8d44/Option_1": {
       "en": "(Return the toast...)",
       "cn": "（回敬美酒……）",
-      "ru": "(Верните тост...)",
-      "status": "machine",
+      "ru": "(Ответить на тост вином...)",
+      "status": "judged",
       "srcHash": "5ddbed7a11db709e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "f1f0b3d2fa4ca5ab"
     },
     "fc1c0efe-bfe8-43a6-8a3a-3b1e93df8d44/Option_2": {
       "en": "(This is good...)",
@@ -2692,7 +2987,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "fccf4ff7-b16a-482b-9dc2-4ab246202b38/EventContent": {
       "en": "\"I can't drink anymore... It might lead to trouble...\"<NL><Character key=Participant str=Name /> seemed a bit tipsy and declined the drink.",
@@ -2701,7 +2997,8 @@
       "status": "machine",
       "srcHash": "eebf5d3c9e1a5a3f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "aad00bdaa79aefb6"
     },
     "fccf4ff7-b16a-482b-9dc2-4ab246202b38/Option_1": {
       "en": "(Stop drinking and bid farewell...)",
@@ -2710,16 +3007,18 @@
       "status": "machine",
       "srcHash": "73ff003900ed9df0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b6f104ec58f6f79e"
     },
     "fea9ff03-a821-4cf1-a181-eda129dae67f/EventContent": {
       "en": "\"Why are you sticking around so much? You gotta crush on me or something...\"<NL><Character key=Participant str=Name /> accepted without hesitation, toasting with <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> downs the liquor, feeling an unexpected inner breath disruption due to the effects of liquor...)?(<Character key=Participant str=Name /> downed the drink, feeling an unexpected inner breath disruption due to the effects of liquor...)</color>",
       "cn": "“你老缠着我……难不成是喜欢我么……”<NL><Character key=Participant str=Name />并未推辞，接过<Character key=RoleTaiwu str=Name />手中的美酒，与之共饮……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />将酒饮下，内息因醉酒而紊乱……）（<Character key=Participant str=Name />将酒饮下，内息因醉酒而紊乱……）</color>",
-      "ru": "\"Почему ты так долго торчишь здесь? Ты, должно быть, запал на меня или что-то в этом роде...\"<NL><Character key=Participant str=Name /> принял без колебаний, провозгласив тост с <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> выпиваете вино, чувствуя неожиданное нарушение внутреннего дыхания из-за воздействия вина...)?(<Character key=Participant str=Name /> осушил бокал, почувствовав неожиданное нарушение внутреннего дыхания из-за воздействия вина...)</color>",
-      "status": "machine",
+      "ru": "\"Почему ты всё время ко мне пристаёшь… Неужели я тебе нравлюсь…\"<NL><Character key=Participant str=Name /> без колебаний согласился и выпил с <Character key=RoleTaiwu str=Name />.<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> выпил вино, почувствовав неожиданное нарушение внутреннего дыхания из-за опьянения...)?(<Character key=Participant str=Name /> выпил вино, почувствовав неожиданное нарушение внутреннего дыхания из-за опьянения...)</color>",
+      "status": "judged",
       "srcHash": "b12224791c587a76",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "da8cdfc0bc8cbc0e"
     },
     "fea9ff03-a821-4cf1-a181-eda129dae67f/Option_1": {
       "en": "(Invite for another round...)",
@@ -2728,7 +3027,8 @@
       "status": "machine",
       "srcHash": "928b438e8ae9872e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e98c4a4475c59439"
     },
     "fea9ff03-a821-4cf1-a181-eda129dae67f/Option_2": {
       "en": "(Stop drinking and bid farewell...)",
@@ -2737,7 +3037,8 @@
       "status": "machine",
       "srcHash": "73ff003900ed9df0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b6f104ec58f6f79e"
     }
   }
 }

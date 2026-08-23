@@ -6,11 +6,12 @@
     "d2894355-6cdf-49d7-adfb-60ac95fc7b5f/EventContent": {
       "en": "\"Well, I heard that <Character key=Guest str=Name /> is in harmony with the Tao...<NL><Character key=Guest str=Gender/> might not have a particular preference when it comes to judging poisons...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，听说<Character key=Guest str=Name />与道亲和……<NL><Character key=Guest str=Gender/>评判毒药，或许并无偏重……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, я слышал, что <Character key=Guest str=Name /> находится в гармонии с Дао...<NL><Character key=Guest str=Gender/> возможно, у меня нет особых предпочтений, когда дело доходит до оценки Ядов...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, я слышал, что <Character key=Guest str=Name /> находится в гармонии с Дао...<NL><Character key=Guest str=Gender/> при оценке ядов, возможно, не имеет особых предпочтений...\"<NL>Ученик кузнеца осторожно принимает серебро и наклоняется к уху <Character key=RoleTaiwu str=Name />, тихо отвечая ему...",
+      "status": "judged",
       "srcHash": "f25eef2b54cb5ea9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "9e6f44754f76f301"
     },
     "d2894355-6cdf-49d7-adfb-60ac95fc7b5f/Option_1": {
       "en": "(I see...)",
@@ -19,16 +20,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "4b6b8d3b-aaf7-4a99-8c7f-786735fb67b9/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might is concerned about the effect of the poisons and if it makes the victim miserable...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的身份……<NL><Character key=Guest str=Gender/>评判毒药，或许更在乎其发作时是否猛烈及能否使人痛苦……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это звание...<NL><Character key=Guest str=Gender/> мощь обеспокоена действием Ядов, и если это делает жертву несчастной...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая звание <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> при оценке ядов, возможно, больше заботится о силе их действия и о том, причиняют ли они жертве страдания...\"<NL>Ученик кузнеца осторожно принимает серебро и наклоняется к уху <Character key=RoleTaiwu str=Name />, тихо отвечая ему...",
+      "status": "judged",
       "srcHash": "5861c1aeaff43899",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "679a84125e542b6a"
     },
     "4b6b8d3b-aaf7-4a99-8c7f-786735fb67b9/Option_1": {
       "en": "(I see...)",
@@ -37,16 +40,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "62ec29d7-1afb-4596-a47f-8b3c1d0daded/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> manages to turn the table this time, earning many praises<NL>and seeing an increase in scores at the Toxicology Tournament!<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />'s score in this Toxicology Tournament has risen...)</color>",
       "cn": "<Character key=RoleTaiwu str=Name />此次转危为安，博得了诸多赞誉，<NL>在毒术大会上的评分上升了！<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />在此次毒术大会中的评分上升了……）</color>",
-      "ru": "<Character key=RoleTaiwu str=Name /> на этот раз ему удается переломить ситуацию, заслужив множество похвал<NL>и наблюдаем увеличение количества баллов на турнире по токсикологии!<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />счет в этом турнире по токсикологии вырос...)</color>",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> на этот раз удаётся переломить ситуацию и заслужить множество похвал<NL>и повысить свой результат на турнире по токсикологии!<NL><NL><color=#lightgrey>(Результат <Character key=RoleTaiwu str=Name /> на этом турнире по токсикологии вырос...)</color>",
+      "status": "judged",
       "srcHash": "71862b2a79425ca9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "366ba4cebf62b516"
     },
     "62ec29d7-1afb-4596-a47f-8b3c1d0daded/Option_1": {
       "en": "(Continue the event...)",
@@ -55,7 +60,8 @@
       "status": "machine",
       "srcHash": "161940e86f8dc7b0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "c4ca248cf01374a2"
     },
     "864896b3-5f5c-47fa-a5a5-db35b6cc5d07/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> had an accident while cultivating toxicology due to <Character key=RoleTaiwu str=GenderPossessive/> lack of expertise, resulting in the destruction of the poison...",
@@ -73,7 +79,8 @@
       "status": "machine",
       "srcHash": "ae94316f9c3896ba",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "57f6ca0cf6784d36"
     },
     "57a83d8c-7cf4-425f-8cbc-7408ea7af883/EventContent": {
       "en": "\"Please enlighten me!\"<NL>During the break in the competition, groups of medical learners gather to exchange ideas and discuss their techniques.<NL>At this moment, <Character key= CharacterId str=Name /> suddenly walks up to <Character key=RoleTaiwu str=Name /> and bluntly invites <Character key=RoleTaiwu str=Name /> to a debate...",
@@ -82,16 +89,18 @@
       "status": "machine",
       "srcHash": "2b3ac29576a3c213",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-07-12T13:58:13.492Z",
+      "judgeHash": "8c2606548c2828e2"
     },
     "57a83d8c-7cf4-425f-8cbc-7408ea7af883/Option_1": {
       "en": "(Agree to the showdown...)",
       "cn": "（同意较艺……）",
-      "ru": "(Соглашаюсь на выяснение отношений...)",
-      "status": "machine",
+      "ru": "(Согласиться на состязание...)",
+      "status": "judged",
       "srcHash": "8ee6d728dc1cd6a2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "4bf880bb44bfa256"
     },
     "57a83d8c-7cf4-425f-8cbc-7408ea7af883/Option_2": {
       "en": "(Have no such intention...)",
@@ -100,7 +109,8 @@
       "status": "machine",
       "srcHash": "f09228cec3e277b2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3ed7082f80e2217d"
     },
     "c71888aa-2057-43f6-9ede-e80f7927ceab/EventContent": {
       "en": "\"Please name this poison...\"",
@@ -109,7 +119,8 @@
       "status": "machine",
       "srcHash": "955d79dd11758c64",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "e766228877a58c09"
     },
     "c71888aa-2057-43f6-9ede-e80f7927ceab/Option_1": {
       "en": "(That's right...)",
@@ -118,7 +129,8 @@
       "status": "machine",
       "srcHash": "df3a3c508686a9e6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "05024d6e952fc2d0"
     },
     "84d05d1f-eebc-495b-a98d-23fa7ed51a21/EventContent": {
       "en": "nan",
@@ -127,7 +139,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "c97e534f-5541-40a7-ad70-c66ba13cbce0/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> had an accident while extracting toxicology juice due to <Character key=RoleTaiwu str=GenderPossessive/> lack of expertise, resulting in the destruction of the poison...",
@@ -145,7 +158,8 @@
       "status": "machine",
       "srcHash": "ae94316f9c3896ba",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "57f6ca0cf6784d36"
     },
     "86f3557c-54fd-4884-acb9-8fac19c01b0d/EventContent": {
       "en": "With the sound of a rapid gong, the Toxicology Tournament officially begins,<NL>and <Character key=Guest str=Name /> has to retreat to <Character key=Guest str=GenderPossessive/> seat on the side...",
@@ -163,16 +177,18 @@
       "status": "machine",
       "srcHash": "76023f9401a70f57",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "968ce5677dd42110"
     },
     "82df519b-16cb-4475-b59e-97bd9401d92d/EventContent": {
       "en": "Seeing no objections from the crowd, the elder nods and continues,<NL>\"I've noticed that all participants in this competition are outstanding figures in our field. Judging solely based on the quality of the works would indeed be difficult,<NL>so this competition will be themed 'Tailored to Each Individual'...\"",
       "cn": "老者见众人并无异议，不由得点了点头，继续说道：<NL>“老夫见此次参与大会之人均是我行中的佼佼者，若只以毒药优胜来作评判，<NL>确实难分各位高下，故而此次大会便以‘因人制宜’为题……”",
-      "ru": "Не видя возражений со стороны толпы, старейшина кивает и продолжает,<NL>\"Я заметил, что все участники этого конкурса являются выдающимися деятелями в нашей области. Судить исключительно по качеству работ действительно было бы сложно,<NL>таким образом, этот конкурс будет посвящен теме \"С учетом особенностей каждого человека\"...\"",
-      "status": "machine",
+      "ru": "Не видя возражений со стороны толпы, старейшина кивает и продолжает,<NL>\"Я заметил, что все участники этого конкурса являются выдающимися деятелями в нашей области. Судить исключительно по качеству работ действительно было бы сложно,<NL>поэтому темой этого конкурса станет «С учётом особенностей каждого человека»...\"",
+      "status": "judged",
       "srcHash": "d459e9f7d3a18bca",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "9fd3c459efd08f14"
     },
     "82df519b-16cb-4475-b59e-97bd9401d92d/Option_1": {
       "en": "(Listen carefully to the rules...)",
@@ -181,7 +197,8 @@
       "status": "machine",
       "srcHash": "13817e6db5e65946",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f8a7ee5d80e5c90e"
     },
     "82df519b-16cb-4475-b59e-97bd9401d92d/Option_2": {
       "en": "(Ignore...)",
@@ -190,16 +207,18 @@
       "status": "machine",
       "srcHash": "5f497f0995e7c432",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "a6b42eaa3a0192d2"
     },
     "eda26b79-51e2-4215-b0cf-cd453b6b8392/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might like poisons that are simple to use...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的身份……<NL><Character key=Guest str=Gender/>评判毒药，或许在乎其是否易于使用……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это звание...<NL><Character key=Guest str=Gender/> возможно, вам понравятся Яды, которые просты в применении...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая звание <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> при оценке ядов, возможно, обращает внимание на простоту их применения...\"<NL>Ученик кузнеца осторожно принимает серебро и наклоняется к уху <Character key=RoleTaiwu str=Name />, тихо отвечая ему...",
+      "status": "judged",
       "srcHash": "caa67d1158342c8e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "6ded68efeb577f5d"
     },
     "eda26b79-51e2-4215-b0cf-cd453b6b8392/Option_1": {
       "en": "(I see...)",
@@ -208,16 +227,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "fef5c2cc-2f2e-4098-b3b7-08ef7ea58f2c/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might like poisons that are unique...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的身份……<NL><Character key=Guest str=Gender/>评判毒药，或许更在乎其是否独特……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это звание...<NL><Character key=Guest str=Gender/> возможно, вам понравятся уникальные Яды...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая звание <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> при оценке ядов, возможно, больше ценит их уникальность...\"<NL>Ученик кузнеца осторожно принимает серебро и наклоняется к уху <Character key=RoleTaiwu str=Name />, тихо отвечая ему...",
+      "status": "judged",
       "srcHash": "78271b855cb7ddf2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "bdf5db67f0598564"
     },
     "fef5c2cc-2f2e-4098-b3b7-08ef7ea58f2c/Option_1": {
       "en": "(I see...)",
@@ -226,7 +247,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "3e1d8620-fd6a-49a9-bbe1-a56cf4a2c0e2/EventContent": {
       "en": "nan",
@@ -235,7 +257,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "4295f33e-b4a5-47bf-aed0-9b9741c765cd/EventContent": {
       "en": "At this point, there's no use overthinking it. It's better to remedy the situation first...<NL><Character key=RoleTaiwu str=Name /> categorizes Herbs like the poisonous herbs and toxic medicine seperately, prepares for reprocessing<NL>but due to lack of skill, <Character key=RoleTaiwu str=GenderSubject/> fails, and has to reapply for Herb from the Medical Art Tournament...",
@@ -253,16 +276,18 @@
       "status": "machine",
       "srcHash": "b6f4c71c741deaac",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "de6539ee079579c5"
     },
     "8b4d75a4-ca6c-40bf-b9a7-aa603b0147bb/EventContent": {
       "en": "\"Well, I heard that <Character key=Guest str=Name /> has been indecisive lately...<NL>If the poison can't make people miserable, <Character key=Guest str=Gender/> might not like it...\"<NL>The forge apprentice carefully acceptes the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“据我所知，<Character key=Guest str=Name />近日心思难定……<NL>若是毒药不能使人痛苦，<Character key=Guest str=Gender/>恐怕不会喜欢……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, я слышал, что <Character key=Guest str=Name /> в последнее время был нерешителен...<NL>Если яд не может сделать людей несчастными, <Character key=Guest str=Gender/> может, это и не понравится...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, я слышал, что <Character key=Guest str=Name /> в последнее время не может определиться...<NL>Если яд не причиняет людям страданий, <Character key=Guest str=Gender/> может его не одобрить...\"<NL>Ученик кузнеца осторожно принимает серебро и наклоняется к уху <Character key=RoleTaiwu str=Name />, тихо отвечая ему...",
+      "status": "judged",
       "srcHash": "9e434e659f32ba78",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "82b9902cf46ed10d"
     },
     "8b4d75a4-ca6c-40bf-b9a7-aa603b0147bb/Option_1": {
       "en": "(I see...)",
@@ -271,7 +296,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "f08707d3-b3fd-4eab-a2bd-7acea9277d81/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> had an accident while producing toxicology due to <Character key=RoleTaiwu str=GenderPossessive/> lack of expertise, resulting in the destruction of the poison...",
@@ -289,16 +315,18 @@
       "status": "machine",
       "srcHash": "ae94316f9c3896ba",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "57f6ca0cf6784d36"
     },
     "fdae70fa-f967-42eb-9be8-a74a18db1167/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s personality...<NL><Character key=Guest str=Gender/> might prefer potent poison for when the symptoms flare up...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的性情……<NL><Character key=Guest str=Gender/>或许会喜欢发作时更猛烈的毒药……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это личность...<NL><Character key=Guest str=Gender/> возможно, я предпочел бы сильнодействующий яд, потому что, когда симптомы обострятся...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая характер <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/>, возможно, предпочитает более сильный яд, который сильнее подействует при проявлении симптомов...\"<NL>Ученик кузнеца осторожно принимает серебро и наклоняется к уху <Character key=RoleTaiwu str=Name />, тихо отвечая ему...",
+      "status": "judged",
       "srcHash": "42e82a6a1b53c353",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "37dee2161a3fda72"
     },
     "fdae70fa-f967-42eb-9be8-a74a18db1167/Option_1": {
       "en": "(I see...)",
@@ -307,7 +335,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "f517b42e-258a-4c08-9e7a-808ac25223d5/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> submerges the poison in water, then modifies it.<NL>After a while, <Character key=RoleTaiwu str=Name /> observes the liquid and sees that the poison has completely dissolved into it.<NL>The poison should cause even more pain when it takes effect...",
@@ -316,7 +345,8 @@
       "status": "machine",
       "srcHash": "722cc301594927fd",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-07-12T13:58:13.492Z",
+      "judgeHash": "7145526ccb773960"
     },
     "f517b42e-258a-4c08-9e7a-808ac25223d5/Option_1": {
       "en": "(This is good...)",
@@ -325,16 +355,18 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "2c3fa74c-95a5-4279-bbe4-f7eaad596ece/EventContent": {
       "en": "Following the elder's words, hundreds of forge apprentices in identical attire carry trays and proceed down the stage,<NL>quickly approaching <Character key=RoleTaiwu str=Name />'s side...",
       "cn": "老者说罢，台上数百名穿着相同的学徒手捧托盘，鱼贯而下，<NL>很快便行至<Character key=RoleTaiwu str=Name />身侧……",
-      "ru": "Следуя словам старейшины, сотни кузнечных подмастерьев в одинаковой одежде несут подносы и спускаются со сцены,<NL>быстро приближаясь к нему <Character key=RoleTaiwu str=Name />...",
-      "status": "machine",
+      "ru": "После слов старейшины сотни кузнечных подмастерьев в одинаковых одеждах несут подносы и один за другим спускаются со сцены,<NL>быстро приближаясь к <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "e0b96560e3bd7b35",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "ad94b0c595e7b353"
     },
     "2c3fa74c-95a5-4279-bbe4-f7eaad596ece/Option_1": {
       "en": "(Deliver the poison...)",
@@ -343,16 +375,18 @@
       "status": "machine",
       "srcHash": "af2c79a865eb8a63",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "900cd118c4066192"
     },
     "57f7376c-15de-47f7-861d-e3c08eb98fdf/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s characteristic...<NL><Character key=Guest str=Gender/> might is concerned about whether the poison makes people miserable...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的为人……<NL><Character key=Guest str=Gender/>评判毒药，或许更在乎其能否会使人痛苦……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это характерно...<NL><Character key=Guest str=Gender/> мощь обеспокоена тем, делает ли яд людей несчастными...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая характер <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> при оценке ядов, возможно, больше заботится о том, причиняют ли они людям страдания...\"<NL>Ученик кузнеца осторожно принимает серебро и наклоняется к уху <Character key=RoleTaiwu str=Name />, тихо отвечая ему...",
+      "status": "judged",
       "srcHash": "ee719bc05deb7fa5",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "39261b1f83a0740d"
     },
     "57f7376c-15de-47f7-861d-e3c08eb98fdf/Option_1": {
       "en": "(I see...)",
@@ -361,7 +395,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "6fc33be0-776a-4ff2-9d3d-eb22b5c98972/EventContent": {
       "en": "After several intense competitions, hundreds of poisons on the stage are quickly eliminated!<NL><NL>The elder hosting the event picks up the \"<ArgBox key=InputResult type=string/>\" designed by <Character key=RoleTaiwu str=Name /> from the remaining few outstanding medicine scripts and announces loudly,\"This poison is superb, and it to the liking of <Character key=Guest str=Name />, earning a score of <Language Num={0}/>.<Character key=RoleTaiwu str=Name /> is the rightful winner of this competition!\"",
@@ -379,16 +414,18 @@
       "status": "machine",
       "srcHash": "245eab4c3ddf87be",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "9b9eb811d1a9a354"
     },
     "a22fe7dd-22a2-430c-a56f-a5ea4dbc2125/EventContent": {
       "en": "\"Well, I heard that <Character key=Guest str=Name /> has been indecisive lately...<NL>If the poison isn't efficient, <Character key=Guest str=Gender/> might not like it...\"<NL>The forge apprentice carefully acceptes the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“据我所知，<Character key=Guest str=Name />近日体力不支……<NL>若是毒药发作时太过缓慢，<Character key=Guest str=Gender/>恐怕不会喜欢……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, я слышал, что <Character key=Guest str=Name /> в последнее время был нерешителен...<NL>Если яд окажется неэффективным, <Character key=Guest str=Gender/> может, это и не понравится...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Что ж, насколько я слышал, <Character key=Guest str=Name /> в последнее время слаб...<NL>Если яд подействует слишком медленно, <Character key=Guest str=Gender/> может его не одобрить...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "48a350c8382cca4f",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "7eed0164cbf57684"
     },
     "a22fe7dd-22a2-430c-a56f-a5ea4dbc2125/Option_1": {
       "en": "(I see...)",
@@ -397,16 +434,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "39359778-6774-49fb-8c3c-299aacb79f30/EventContent": {
       "en": "\"Interesting, interesting! Let me have a closer look...\"<NL>A senior approaches <Character key=RoleTaiwu str=Name /> and is astonished to find the concocted toxicology made by <Character key=RoleTaiwu str=Name />.<NL><Character key=RoleTaiwu str=GenderSubject/> quickly examines it and then exclaims,<NL>\"This toxicology is truly unique. I don't even know how to counteract it!\"<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />'s ratings in the Toxicology Tournament has increased!)</color>",
       "cn": "“有趣有趣，且待我仔细看看……”<NL>一名老者行至<Character key=RoleTaiwu str=Name />身侧，意外发现<Character key=RoleTaiwu str=Name />正在配置的毒药，<NL>一时大为震惊，连忙取毒药细观，随后啧啧称赞道：<NL>“此毒实在奇异，我亦不知如何解此毒！”<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />在此次毒术大会中的评分上升了！）</color>",
-      "ru": "- Интересно, интересно! Дай-ка я посмотрю поближе...\"<NL>Подходит старший <Character key=RoleTaiwu str=Name /> и с удивлением обнаруживает состряпанную токсикологию, составленную <Character key=RoleTaiwu str=Name />.<NL><Character key=RoleTaiwu str=GenderSubject/> быстро осматривает его, а затем восклицает,<NL>\"Эта токсикология действительно уникальна. Я даже не знаю, как этому противостоять!\"<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />рейтинг в турнире по токсикологии вырос!)</color>",
-      "status": "machine",
+      "ru": "\"Интересно, интересно! Дай-ка я посмотрю поближе...\"<NL>Старец подходит к <Character key=RoleTaiwu str=Name /> и с удивлением обнаруживает приготовленный <Character key=RoleTaiwu str=Name /> яд.<NL><Character key=RoleTaiwu str=GenderSubject/> быстро осматривает его, а затем восклицает,<NL>\"Этот яд действительно необычен. Я даже не знаю, как его нейтрализовать!\"<NL><NL><color=#lightgrey>(Рейтинг <Character key=RoleTaiwu str=Name /> в турнире по токсикологии вырос!)</color>",
+      "status": "judged",
       "srcHash": "04386fe0b34104ec",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "9a634dcbeafcd271"
     },
     "39359778-6774-49fb-8c3c-299aacb79f30/Option_1": {
       "en": "(Never been better...)",
@@ -415,16 +454,18 @@
       "status": "machine",
       "srcHash": "49ee8957df32f51f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "acd9b32e7bdc3465"
     },
     "9c2ff441-4338-414f-9228-e1c12ab220b0/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> celebrates with everyone until the end of the competition, still feeling the excitement.<NL>After discussing with several chiefs, <Character key=RoleTaiwu str=GenderSubject/> bids farewell and leaves...",
       "cn": "<Character key=RoleTaiwu str=Name />与众人一同庆祝，直至大赛散场，仍觉余兴未消，<NL>又与数名同行一番请教商讨之后，方才告辞离去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> празднует со всеми до конца соревнований, все еще испытывая волнение.<NL>После обсуждения с несколькими руководителями, <Character key=RoleTaiwu str=GenderSubject/> прощается и уходит...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> празднует со всеми до самого окончания состязания, всё ещё наслаждаясь его атмосферой.<NL>Обсудив всё с несколькими соратниками, <Character key=RoleTaiwu str=GenderSubject/> прощается и уходит...",
+      "status": "judged",
       "srcHash": "612d49af1536b54b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "d5a50bd50ca5f9b7"
     },
     "9c2ff441-4338-414f-9228-e1c12ab220b0/Option_1": {
       "en": "(Leave this place...)",
@@ -433,16 +474,18 @@
       "status": "machine",
       "srcHash": "aaf9123a10e0069a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "866f1cfc3bb3d1c9"
     },
     "ede80f7f-0301-4642-ad2a-123011f61ac5/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might concerns about whether the poison makes people miserable...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的身份……<NL><Character key=Guest str=Gender/>评判毒药，或许更在乎其毒能否使人痛苦……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это звание...<NL><Character key=Guest str=Gender/> возможно, опасения по поводу того, делает ли яд людей несчастными...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Хе-хе, учитывая положение <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> при оценке яда, возможно, больше заботится о том, способен ли он причинить страдания...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "d26e775ada07c13b",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "d5733605a778418c"
     },
     "ede80f7f-0301-4642-ad2a-123011f61ac5/Option_1": {
       "en": "(I see...)",
@@ -451,16 +494,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "3ae06fe0-2b14-407b-9918-1e7ab9f7e665/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might like poisons that the taker won't notice...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的身份……<NL><Character key=Guest str=Gender/>评判毒药，或许更在乎其是否难以察觉……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это звание...<NL><Character key=Guest str=Gender/> возможно, вам понравятся Яды, которые потребитель не заметит...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Хе-хе, учитывая положение <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> при оценке яда, возможно, больше ценит те, которые трудно заметить...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "5f360b170285605a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "3a67e2b7351c605f"
     },
     "3ae06fe0-2b14-407b-9918-1e7ab9f7e665/Option_1": {
       "en": "(I see...)",
@@ -469,16 +514,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "643c1199-96a0-4cc9-85c9-db148fd9bcdf/EventContent": {
       "en": "The Toxicology Tournament is in full swing.<NL>From the bamboo basket, <Character key=RoleTaiwu str=Name /> retrieves usable poison, examining their appearance and contemplating their effects...<NL><NL>To turn these poison into medicine,<NL><Character key=RoleTaiwu str=GenderSubject/> may consider combining them with other substances. By understanding the nature of each poison and selecting complementary<NL>or antagonistic ingredients, the toxicology can become even more potent. Alternatively, consulting ancient texts for traditional methods of concocting toxicologys can provide valuable insights. Utilizing these resources can make the process more manageable.<NL>However, the approach to handling the toxicology at this moment requires careful consideration...",
       "cn": "毒术大会正在如火如荼地进行，<NL><Character key=RoleTaiwu str=Name />从竹篓内取出可用的毒物，观其形貌，想其效用……<NL><NL>毒物若要成药，<NL>或可配伍，依毒物之性，选取其它药物与之混合，相生相克之下，此毒更显奇异，<NL>或可查阅典籍，依先人炼毒之法，制成对应毒药，因有书籍可考，此毒更为易用，<NL>此时应当如何处理，还需细加考量……",
-      "ru": "Турнир по токсикологии в самом разгаре.<NL>Из бамбуковой корзины, <Character key=RoleTaiwu str=Name /> извлекает пригодный для использования яд, изучая его внешний вид и оценивая его действие...<NL><NL>Чтобы превратить этот яд в лекарство,<NL><Character key=RoleTaiwu str=GenderSubject/> возможно, стоит рассмотреть возможность их сочетания с другими веществами. Понимая природу каждого яда и выбирая дополнительные<NL>или антагонистические ингредиенты, токсичность которых может стать еще более сильной. В качестве альтернативы, ознакомление с древними текстами о традиционных методах составления токсикологических заключений может дать ценную информацию. Использование этих ресурсов может сделать процесс более управляемым.<NL>Однако подход к обработке токсикологических данных на данный момент требует тщательного рассмотрения...",
-      "status": "machine",
+      "ru": "Турнир по токсикологии в самом разгаре.<NL>Из бамбуковой корзины <Character key=RoleTaiwu str=Name /> достаёт пригодный яд, изучает его вид и размышляет о его действии...<NL><NL>Чтобы превратить этот яд в лекарство,<NL><Character key=RoleTaiwu str=GenderSubject/> может смешать его с другими веществами. Понимая свойства каждого яда и подбирая сочетающиеся<NL>или противодействующие ингредиенты, можно сделать его ещё необычнее. Можно также обратиться к древним книгам и изготовить яд по описанным в них традиционным методам. Использование этих ресурсов упростит процесс.<NL>Однако сейчас следует тщательно обдумать, как поступить с этим ядом...",
+      "status": "judged",
       "srcHash": "59382915a496790c",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "3a0bd7aced2cf828"
     },
     "643c1199-96a0-4cc9-85c9-db148fd9bcdf/Option_1": {
       "en": "(Combine medications...)",
@@ -487,16 +534,18 @@
       "status": "machine",
       "srcHash": "c8ac9a111cd2c7c2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "97cefb2ef16eb45e"
     },
     "643c1199-96a0-4cc9-85c9-db148fd9bcdf/Option_2": {
       "en": "(Refer to references...)",
       "cn": "（查阅典籍……）\n",
-      "ru": "(Обратитесь к ссылкам...)",
-      "status": "machine",
+      "ru": "(Обратиться к древним книгам...)",
+      "status": "judged",
       "srcHash": "09d68260eb548f41",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "e2588aae5824a346"
     },
     "091b6c37-c6bb-4205-aa97-ccd8bfd8483f/EventContent": {
       "en": "nan",
@@ -505,16 +554,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "f4017abd-ce99-4672-a4f5-0876b3dcc6bd/EventContent": {
       "en": "\"Well, I heard that <Character key=Guest str=Name /> has been sluggish lately...<NL>If the poison isn't ease to apply, <Character key=Guest str=Gender/> might not be fond of it...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“据我所知，<Character key=Guest str=Name />近日手脚迟钝……<NL>若是毒药不便使用，<Character key=Guest str=Gender/>恐怕不会喜欢……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, я слышал, что <Character key=Guest str=Name /> в последнее время был вялым...<NL>Если яд не так прост в применении, <Character key=Guest str=Gender/> возможно, тебе это не понравится...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Что ж, насколько я слышал, <Character key=Guest str=Name /> в последнее время стал неловким...<NL>Если яд неудобен в применении, <Character key=Guest str=Gender/> может его не одобрить...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "ace428354f404d6e",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "9acf401c14ab03d7"
     },
     "f4017abd-ce99-4672-a4f5-0876b3dcc6bd/Option_1": {
       "en": "(I see...)",
@@ -523,7 +574,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "ffa95b20-9021-4b6a-84d3-044e32d10ff7/EventContent": {
       "en": "nan",
@@ -532,16 +584,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "79d5f057-9f93-41e6-844f-bab4ce4c5a48/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> concerns about the contagious of the poison...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的身份……<NL><Character key=Guest str=Gender/>评判毒药，或许更在乎其是否更易传播……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это звание...<NL><Character key=Guest str=Gender/> опасения по поводу заразности яда...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Хе-хе, учитывая положение <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> при оценке яда, возможно, больше заботится о том, насколько легко он распространяется...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "8673e1567fa75a53",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "33cfad463648e380"
     },
     "79d5f057-9f93-41e6-844f-bab4ce4c5a48/Option_1": {
       "en": "(I see...)",
@@ -550,7 +604,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "4c341713-57ab-4f8f-b235-d8560bcd060e/EventContent": {
       "en": "Before long, the sound of gongs echoes through the venue, signaling the imminent start of the Toxicology Tournament!",
@@ -559,7 +614,8 @@
       "status": "machine",
       "srcHash": "2fd340c68265344d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "6d20c961e972d6c9"
     },
     "4c341713-57ab-4f8f-b235-d8560bcd060e/Option_1": {
       "en": "(Enter the venue...)",
@@ -568,7 +624,8 @@
       "status": "machine",
       "srcHash": "35556b48050dac4c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e46d510549c3581f"
     },
     "845a258a-ac40-48a0-8b60-998a534076ac/EventContent": {
       "en": "Because of the flaw on <Character key=RoleTaiwu str=Name />'s toxicology, <Character key=RoleTaiwu str=GenderPossessive/> rating on the Toxicology Tournament has declined!<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />'s rating on the Toxicology Tournament has declined...)</color>",
@@ -586,7 +643,8 @@
       "status": "machine",
       "srcHash": "161940e86f8dc7b0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "c4ca248cf01374a2"
     },
     "fa73ba28-c722-450f-822f-adb8d136f03d/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> places the poison in the earthen jar, and selects several other poisons and seals them together.<NL>After a while, upon opening the jar and examining its contents, <Character key=RoleTaiwu str=Name /> finds that the poisons have mixed and complemented each other.<NL>This poison should now be more easily contagiuous...",
@@ -595,7 +653,8 @@
       "status": "machine",
       "srcHash": "7c5803fb57fd106d",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-07-12T13:58:13.492Z",
+      "judgeHash": "cfb88f297f055139"
     },
     "fa73ba28-c722-450f-822f-adb8d136f03d/Option_1": {
       "en": "(This is good...)",
@@ -604,7 +663,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "732e1ddc-cb39-41a4-ac04-2b35ca781fb9/EventContent": {
       "en": "\"I see that you are quite proficient. If you participate in the Toxicology Tournament, you'll surely make a name for yourself!\"<NL>As soon as <Character key=RoleTaiwu str=Name /> enters the Toxicology Tournament venue, a guide hurriedly approaches <Character key=RoleTaiwu str=Name /><NL>and warmly escorts <Character key=RoleTaiwu str=GenderObject/> into the venue...",
@@ -622,7 +682,8 @@
       "status": "machine",
       "srcHash": "35556b48050dac4c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e46d510549c3581f"
     },
     "8c1dbcb7-1a25-4cf9-8021-11637c65543c/EventContent": {
       "en": "Following the elder's words, the sound of gongs echoes through the venue, signaling the imminent start of the Toxicology Tournament!",
@@ -631,7 +692,8 @@
       "status": "machine",
       "srcHash": "c1b8ae3893a40803",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "9935a6b0ea8606ec"
     },
     "8c1dbcb7-1a25-4cf9-8021-11637c65543c/Option_1": {
       "en": "(Enter the venue...)",
@@ -640,16 +702,18 @@
       "status": "machine",
       "srcHash": "35556b48050dac4c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e46d510549c3581f"
     },
     "c2a00f0c-0cba-48e0-b8af-0fd6428ec9a1/EventContent": {
       "en": "\"Interesting, interesting! Let me have a closer look...\"<NL>A senior approaches <Character key=RoleTaiwu str=Name /> and is astonished to find the concocted toxicology made by <Character key=RoleTaiwu str=Name />.<NL><Character key=RoleTaiwu str=GenderSubject/> quickly examines it and then exclaims,<NL>\"When this toxicology takes effect, it shall be fierce beyond measure, even the gods may struggle to save!\"<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />'s ratings in the Toxicology Tournament has increased!)</color>",
       "cn": "“有趣有趣，且待我仔细看看……”<NL>一名老者行至<Character key=RoleTaiwu str=Name />身侧，意外发现<Character key=RoleTaiwu str=Name />正在配置的毒药，<NL>一时大为震惊，连忙取毒药细观，随后啧啧称赞道：<NL>“此毒发作之时，当是猛烈无比，神仙难救！”<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />在此次毒术大会中的评分上升了！）</color>",
-      "ru": "- Интересно, интересно! Дай-ка я посмотрю поближе...\"<NL>Подходит старший <Character key=RoleTaiwu str=Name /> и с удивлением обнаруживает состряпанную токсикологию, составленную <Character key=RoleTaiwu str=Name />.<NL><Character key=RoleTaiwu str=GenderSubject/> быстро осматривает его, а затем восклицает,<NL>\"Когда эта токсикология вступит в силу, она будет безмерно жестокой, даже боги могут бороться за спасение!\"<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />рейтинг в турнире по токсикологии вырос!)</color>",
-      "status": "machine",
+      "ru": "\"Интересно, интересно! Дай-ка я посмотрю поближе...\"<NL>Старший подходит к <Character key=RoleTaiwu str=Name /> и с удивлением обнаруживает приготовленный <Character key=RoleTaiwu str=Name /> яд.<NL><Character key=RoleTaiwu str=GenderSubject/> быстро осматривает его, а затем восклицает,<NL>\"Когда этот яд подействует, он будет безмерно свирепым — даже богам будет трудно спасти обречённого!\"<NL><NL><color=#lightgrey>(Рейтинг <Character key=RoleTaiwu str=Name /> в турнире по токсикологии вырос!)</color>",
+      "status": "judged",
       "srcHash": "10b4ccde7af49586",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "cf860d52a359be7a"
     },
     "c2a00f0c-0cba-48e0-b8af-0fd6428ec9a1/Option_1": {
       "en": "(Never been better...)",
@@ -658,16 +722,18 @@
       "status": "machine",
       "srcHash": "49ee8957df32f51f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "acd9b32e7bdc3465"
     },
     "09d4915a-3e18-46cd-a99d-efcb8b66cc05/EventContent": {
       "en": "Before long, a guest walks up to <Character key=RoleTaiwu str=Name />'s table and gives a fist-and-palm salute to <Character key=RoleTaiwu str=Name />, saying,<NL>\"Thank you for your poison. I will evaluate honestly later!\"",
       "cn": "不过多时，一名宾客行至<Character key=RoleTaiwu str=Name />桌前，朝<Character key=RoleTaiwu str=Name />拱手说道：<NL>“此次劳烦阁下为我制毒，稍后我必如实为阁下评分！”",
-      "ru": "Вскоре гость подходит к <Character key=RoleTaiwu str=Name />садится за стол и отдает честь кулаком и ладонью <Character key=RoleTaiwu str=Name />, говоря,<NL>- Спасибо тебе за твой яд. Я честно оценю позже!\"",
-      "status": "machine",
+      "ru": "Вскоре гость подходит к столу <Character key=RoleTaiwu str=Name /> и приветствует <Character key=RoleTaiwu str=Name /> традиционным жестом, говоря,<NL>\"Спасибо за ваш яд. Позже я честно оценю его!\"",
+      "status": "judged",
       "srcHash": "a6b2833d24feb6be",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "d65e7780c33a256f"
     },
     "09d4915a-3e18-46cd-a99d-efcb8b66cc05/Option_1": {
       "en": "If you were to use it for nefarious purposes, I certainly wouldn't stand idly by!",
@@ -676,7 +742,8 @@
       "status": "machine",
       "srcHash": "02c93d5d6e087e3a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2cd55a80d7fc58ba"
     },
     "09d4915a-3e18-46cd-a99d-efcb8b66cc05/Option_2": {
       "en": "I only hope that you won't use it to harm others or take lives.",
@@ -685,7 +752,8 @@
       "status": "machine",
       "srcHash": "32c46d0a0b532d72",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "cd9ea007a76b4038"
     },
     "09d4915a-3e18-46cd-a99d-efcb8b66cc05/Option_3": {
       "en": "My knowledge may be limited, but I will do my best...",
@@ -694,7 +762,8 @@
       "status": "machine",
       "srcHash": "7fbd82afe2827b49",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "86af7141beda8fa3"
     },
     "09d4915a-3e18-46cd-a99d-efcb8b66cc05/Option_4": {
       "en": "Just wait and see my work, I'm sure you'll be surprised!",
@@ -703,7 +772,8 @@
       "status": "machine",
       "srcHash": "adb43706cf66d872",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "62a720bd82e21d02"
     },
     "09d4915a-3e18-46cd-a99d-efcb8b66cc05/Option_5": {
       "en": "I won't slack off, and I hope you'll recognize my efforts...",
@@ -712,16 +782,18 @@
       "status": "machine",
       "srcHash": "d372b73187205434",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "15e534118393e2a2"
     },
     "85c851a9-6954-4e31-a189-99a49ee469a4/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might like poisons that are simple to use...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的身份……<NL><Character key=Guest str=Gender/>评判毒药，或许更在乎其是否易于使用……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это звание...<NL><Character key=Guest str=Gender/> возможно, вам понравятся Яды, которые просты в применении...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая звание <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> при оценке яда, возможно, больше ценит простоту применения...\"<NL>Ученик кузнеца осторожно принимает серебро и тихо шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "caa67d1158342c8e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "7dfdd7b3b14854b8"
     },
     "85c851a9-6954-4e31-a189-99a49ee469a4/Option_1": {
       "en": "(I see...)",
@@ -730,7 +802,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "453564ae-dfbc-4fd7-be13-d4a63df397d7/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> puts the poison into the furnace and then contains it in a specially made porcelain bowl,<NL>after a while, <Character key=RoleTaiwu str=Name /> extinguishes the fire and removes any impurities from the bowl, obtaining pure poison.<NL>When the poison acts, it should be even more intense...",
@@ -739,7 +812,8 @@
       "status": "machine",
       "srcHash": "3145206e745ea439",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-07-12T13:58:13.492Z",
+      "judgeHash": "4c47fa8d0a31b703"
     },
     "453564ae-dfbc-4fd7-be13-d4a63df397d7/Option_1": {
       "en": "(This is good...)",
@@ -748,16 +822,18 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "aa776856-3669-4700-be29-017b00aef341/EventContent": {
       "en": "\"Interesting, interesting! Let me have a closer look...\"<NL>A senior approaches <Character key=RoleTaiwu str=Name /> and is astonished to find the concocted toxicology made by <Character key=RoleTaiwu str=Name />.<NL><Character key=RoleTaiwu str=GenderSubject/> quickly examines it and then exclaims,<NL>\"At the onset of this toxicology, one shall endure excruciating torment, begging for death but finding no relief!\"<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />'s ratings in the Toxicology Tournament has increased!)</color>",
       "cn": "“有趣有趣，且待我仔细看看……”<NL>一名老者行至<Character key=RoleTaiwu str=Name />身侧，意外发现<Character key=RoleTaiwu str=Name />正在配置的毒药，<NL>一时大为震惊，连忙取毒药细观，随后啧啧称赞道：<NL>“此毒发作之时，当可使人备受折磨，求死不能！”<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />在此次毒术大会中的评分上升了！）</color>",
-      "ru": "- Интересно, интересно! Дай-ка я посмотрю поближе...\"<NL>Подходит старший <Character key=RoleTaiwu str=Name /> и с удивлением обнаруживает состряпанную токсикологию, составленную <Character key=RoleTaiwu str=Name />.<NL><Character key=RoleTaiwu str=GenderSubject/> быстро осматривает его, а затем восклицает,<NL>\"В начале этой токсикологии человек должен терпеть мучительные муки, моля о смерти, но не находя облегчения!\"<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />рейтинг в турнире по токсикологии вырос!)</color>",
-      "status": "machine",
+      "ru": "\"Интересно, интересно! Дай-ка я посмотрю поближе...\"<NL>Старший подходит к <Character key=RoleTaiwu str=Name /> и с удивлением обнаруживает приготовленный <Character key=RoleTaiwu str=Name /> яд.<NL><Character key=RoleTaiwu str=GenderSubject/> быстро осматривает его, а затем восклицает,<NL>\"Когда этот яд подействует, человек будет испытывать невыносимые мучения, моля о смерти, но не находя облегчения!\"<NL><NL><color=#lightgrey>(Рейтинг <Character key=RoleTaiwu str=Name /> в турнире по токсикологии вырос!)</color>",
+      "status": "judged",
       "srcHash": "1361791be885eaec",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "d259291be83b4721"
     },
     "aa776856-3669-4700-be29-017b00aef341/Option_1": {
       "en": "(Never been better...)",
@@ -766,16 +842,18 @@
       "status": "machine",
       "srcHash": "49ee8957df32f51f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "acd9b32e7bdc3465"
     },
     "663c96e4-0404-4fcb-b804-484c9ce9cb5f/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might like poisons that are unique...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的身份……<NL><Character key=Guest str=Gender/>评判毒药，或许在乎其是否独居巧思……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это звание...<NL><Character key=Guest str=Gender/> возможно, вам понравятся уникальные Яды...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая звание <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> при оценке яда, возможно, больше ценит необычность...\"<NL>Ученик кузнеца осторожно принимает серебро и тихо шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "78271b855cb7ddf2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "0c41fb00522da327"
     },
     "663c96e4-0404-4fcb-b804-484c9ce9cb5f/Option_1": {
       "en": "(I see...)",
@@ -784,7 +862,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "5d7ee274-86ad-4189-84e8-009bbaba8ff8/EventContent": {
       "en": "\"Are you here for the toxicology competition?<NL>With so many talents gathered at this event, you might be wasting your efforts...\"<NL>As soon as <Character key=RoleTaiwu str=Name /> enters the Toxicology Tournament venue, <Character key=RoleTaiwu str=GenderSubject/> is intercepted by a guide...",
@@ -802,7 +881,8 @@
       "status": "machine",
       "srcHash": "36b6d4d6851c4d96",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fcb10cd993c97657"
     },
     "5d7ee274-86ad-4189-84e8-009bbaba8ff8/Option_2": {
       "en": "(Leave...)",
@@ -811,7 +891,8 @@
       "status": "machine",
       "srcHash": "2c1c70fb2e7a92fe",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "49383dbf6599bf14"
     },
     "5ae5a6da-0902-47bf-8749-c2b444de61af/EventContent": {
       "en": "Before long, a guest walks up to <Character key=RoleTaiwu str=Name />'s table and gives a fist-and-palm salute to <Character key=RoleTaiwu str=Name />, saying,<NL>\"You have worked hard for me. Regardless of the result, I am grateful...\"",
@@ -829,7 +910,8 @@
       "status": "machine",
       "srcHash": "02c93d5d6e087e3a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2cd55a80d7fc58ba"
     },
     "5ae5a6da-0902-47bf-8749-c2b444de61af/Option_2": {
       "en": "I only hope that you won't use it to harm others or take lives.",
@@ -838,7 +920,8 @@
       "status": "machine",
       "srcHash": "32c46d0a0b532d72",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "cd9ea007a76b4038"
     },
     "5ae5a6da-0902-47bf-8749-c2b444de61af/Option_3": {
       "en": "My knowledge may be limited, but I will do my best...",
@@ -847,7 +930,8 @@
       "status": "machine",
       "srcHash": "7fbd82afe2827b49",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "86af7141beda8fa3"
     },
     "5ae5a6da-0902-47bf-8749-c2b444de61af/Option_4": {
       "en": "Just wait and see my work, I'm sure you'll be surprised!",
@@ -856,7 +940,8 @@
       "status": "machine",
       "srcHash": "adb43706cf66d872",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "62a720bd82e21d02"
     },
     "5ae5a6da-0902-47bf-8749-c2b444de61af/Option_5": {
       "en": "I won't slack off, and I hope you'll recognize my efforts...",
@@ -865,16 +950,18 @@
       "status": "machine",
       "srcHash": "d372b73187205434",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "15e534118393e2a2"
     },
     "d16d7673-73c9-4149-873e-faeeec1c0bfb/EventContent": {
       "en": "An forge apprentice gives a fist-and-palm salute and walks behind <Character key=RoleTaiwu str=Name />,<NL>clearing away the herb scraps and sundries from the table and surrounding area...",
       "cn": "一名学徒躬身行至<Character key=RoleTaiwu str=Name />身后，<NL>替<Character key=RoleTaiwu str=Name />清扫走了桌上及四周的药渣、杂物……",
-      "ru": "Ученик кузнеца отдает честь кулаком и ладонью и идет позади <Character key=RoleTaiwu str=Name />,<NL>убираю остатки трав и всякую всячину со стола и прилегающей территории...",
-      "status": "machine",
+      "ru": "Ученик кузнеца приветствует его традиционным жестом и идёт за <Character key=RoleTaiwu str=Name />,<NL>убирая со стола и вокруг него остатки трав и всякий мусор...",
+      "status": "judged",
       "srcHash": "9bf7aa42040595ab",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "3d1da349a72c0f54"
     },
     "d16d7673-73c9-4149-873e-faeeec1c0bfb/Option_1": {
       "en": "(...)",
@@ -883,16 +970,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "9fcc74ff-377b-4c3c-b049-21d12c4c0c8e/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s personality...<NL><Character key=Guest str=Gender/> concerns about the contaguious of the poison...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的性情……<NL><Character key=Guest str=Gender/>或许会喜欢更易传播的毒药……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это личность...<NL><Character key=Guest str=Gender/> опасения по поводу заразности яда...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая характер <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> возможно, предпочитает яды, которые легче распространяются...\"<NL>Ученик кузнеца осторожно принимает серебро и тихо шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "2c2024d3a2eb7e43",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "ffa64e4b2f33f443"
     },
     "9fcc74ff-377b-4c3c-b049-21d12c4c0c8e/Option_1": {
       "en": "(I see...)",
@@ -901,16 +990,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "82bd833b-3983-48e9-9b0a-387be219476a/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s characteristic...<NL><Character key=Guest str=Gender/> might not have a particular preference when it comes to judging poisons...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的为人……<NL><Character key=Guest str=Gender/>评判毒药，或许并无偏重……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это характерно...<NL><Character key=Guest str=Gender/> возможно, у меня нет особых предпочтений, когда дело доходит до оценки Ядов...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая характер <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> при оценке яда, возможно, не отдаёт предпочтения чему-либо определённому...\"<NL>Ученик кузнеца осторожно принимает серебро и тихо шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "a9e8316dc1523970",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "d35c845f75a119c1"
     },
     "82bd833b-3983-48e9-9b0a-387be219476a/Option_1": {
       "en": "(I see...)",
@@ -919,16 +1010,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "b8068795-15d4-42a0-a30e-ddda368c36c2/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s personality...<NL><Character key=Guest str=Gender/> might prefer quite poisons...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的性情……<NL><Character key=Guest str=Gender/>或许会喜欢更为隐秘的毒药……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это личность...<NL><Character key=Guest str=Gender/> мог бы предпочесть совсем другие Яды...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая характер <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> возможно, предпочитает довольно скрытные яды...\"<NL>Ученик кузнеца осторожно принимает серебро и тихо шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "2817c26f05cafe34",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "ef4a6f13d5fc17ac"
     },
     "b8068795-15d4-42a0-a30e-ddda368c36c2/Option_1": {
       "en": "(I see...)",
@@ -937,7 +1030,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "18bd6574-e01f-499a-9844-25f2d59d342b/EventContent": {
       "en": "After several intense competitions,<NL>the \"<ArgBox key=InputResult type=string/>\" made by <Character key=RoleTaiwu str=Name /> only receives a score of <Language Num={0}/> and leading to a quick elimination...<NL><NL>After a while, the elder hosting the event finally announces that the highest scorer this time is <Character key=Rival str=Name />,<NL>with a score of <Language Num={1}/> and <Character key=Rival str=GenderSubject/> will receive a <color=#yellow>Bloody Jade Bowl</color>!",
@@ -955,7 +1049,8 @@
       "status": "machine",
       "srcHash": "dca09df26d9feeec",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "449d2392c8f3494d"
     },
     "18bd6574-e01f-499a-9844-25f2d59d342b/Option_2": {
       "en": "(Quietly leave...)",
@@ -964,16 +1059,18 @@
       "status": "machine",
       "srcHash": "c61e541612c0b0ad",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e38c57f2d5b84d51"
     },
     "d1f40b60-bf30-494f-aba9-660886fd9404/EventContent": {
       "en": "As time flies by, the Toxicology Tournament is about to come to an end!<NL>With a series of rapid gong strikes,all medical learners put out the fire in the furnace and stop writing anything,<NL>then lift up their heads to a raised platform in the middle of the venue...",
       "cn": "飞光急逝，毒术大会即将进入尾声！<NL>随着一阵紧促的锣声响起，一众医者闭炉熄火、停笔止书，<NL>翘首看向了赛场当中的一座高台……",
-      "ru": "Время летит незаметно, и турнир по токсикологии подходит к концу!<NL>Серией быстрых ударов в гонг все учащиеся-медики тушат огонь в печи и перестают что-либо писать,<NL>затем поднимите их головы на возвышение в центре зала...",
-      "status": "machine",
+      "ru": "Время летит незаметно, и турнир по токсикологии подходит к концу!<NL>После серии быстрых ударов в гонг все медики тушат огонь в печах и прекращают писать,<NL>затем поднимают головы к возвышению в центре площадки...",
+      "status": "judged",
       "srcHash": "e54b7cf709bedcd6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "3a6a6213dec48fe0"
     },
     "d1f40b60-bf30-494f-aba9-660886fd9404/Option_1": {
       "en": "(Gaze toward the high platform...)",
@@ -982,16 +1079,18 @@
       "status": "machine",
       "srcHash": "02038bf2d6b270a7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "08566ac05379d7ce"
     },
     "bc48ddcd-3fb2-4bc5-a745-b4ac73005324/EventContent": {
       "en": "After drying the poison in the air and then roasting it in the fire, <Character key=RoleTaiwu str=Name /> continuously observes its surface,<NL>after a while, <Character key=RoleTaiwu str=Name /> removes the poison. and sees its surface appears plain, like an ordinary thing.<NL>This poison should be even more concealed...",
       "cn": "<Character key=RoleTaiwu str=Name />将毒物晾晒风干之后，又将其置于火中焙烤，不断观察其表面，<NL>半晌后，<Character key=RoleTaiwu str=Name />取出毒物，只见其外表朴实，如同寻常物什，<NL>此毒应当更为隐秘了……",
-      "ru": "Предварительно высушив яд на воздухе, а затем обжарив его на огне, <Character key=RoleTaiwu str=Name /> непрерывно наблюдает за его поверхностью,<NL>через некоторое время, <Character key=RoleTaiwu str=Name /> выводит яд. и видит, что его поверхность кажется простой, как у обычной вещи.<NL>Этот яд должен быть еще более скрыт...",
-      "status": "machine",
+      "ru": "Предварительно высушив яд на воздухе, а затем обжарив его на огне, <Character key=RoleTaiwu str=Name /> непрерывно наблюдает за его поверхностью,<NL>через некоторое время <Character key=RoleTaiwu str=Name /> вынимает яд и видит, что снаружи он выглядит просто, как обычная вещь.<NL>Этот яд должен стать ещё более незаметным…",
+      "status": "judged",
       "srcHash": "ca16ecfc6c74d738",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "9c4efac94f9a41ae"
     },
     "bc48ddcd-3fb2-4bc5-a745-b4ac73005324/Option_1": {
       "en": "(This is good...)",
@@ -1000,7 +1099,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "8327f785-a687-4e1e-9292-bd91f388852f/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s personality...<NL><Character key=Guest str=Gender/> might prefer unique poisons...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
@@ -1018,7 +1118,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "d059852c-474e-4ab8-bd4e-a7f7f795decf/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might not have a particular preference when it comes to judging poisons...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
@@ -1036,7 +1137,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "8fddb6a4-d7cc-4d94-b3b3-41a20cd0808a/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s personality...<NL><Character key=Guest str=Gender/> might prefer poisons that make people miserable...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
@@ -1054,16 +1156,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "d3723240-a2c5-46c7-a83b-1741dc3bb76e/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might like poisons that are unique...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的身份……<NL><Character key=Guest str=Gender/>评判毒药，或许更在乎其是否独特……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это звание...<NL><Character key=Guest str=Gender/> возможно, вам понравятся уникальные Яды...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая звание <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> при оценке ядов, возможно, больше ценит их уникальность...\"<NL>Ученик кузнеца осторожно принимает серебро и наклоняется к уху <Character key=RoleTaiwu str=Name />, тихо отвечая ему...",
+      "status": "judged",
       "srcHash": "78271b855cb7ddf2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "bdf5db67f0598564"
     },
     "d3723240-a2c5-46c7-a83b-1741dc3bb76e/Option_1": {
       "en": "(I see...)",
@@ -1072,25 +1176,28 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "3d05fb7e-ab5f-4ad6-88be-a8086e87b585/EventContent": {
       "en": "The Toxicology Tournament is in full swing.<NL>From the bamboo basket, usable poison are retrieved by <Character key=RoleTaiwu str=Name />, their appearance observed, and their potential effects contemplated...<NL><NL>If these poison are to be turned into medicine, they must undergo several processes.<NL>One such process is cultivating the poison, where other poison are mixed with the current one. Under this blend of poison, it may become more contaguious.<NL>Alternatively, the poison can be baked, causing its toxicity to be contained within, lying dormant for a long time without being detected by others.<NL>At this moment, which method to choose requires careful consideration...",
       "cn": "毒术大会正在如火如荼地进行，<NL><Character key=RoleTaiwu str=Name />从竹篓内取出可用的毒物，观其形貌，想其效用……<NL><NL>毒物若要成药，要先经过数道工序，<NL>其中养毒是以其它毒物与当前毒物共养，诸毒混杂之下，或许更易传播，<NL>与之相对，则可焙烤毒物，使其毒收敛于内，潜藏许久不被他人察觉，<NL>此时应当选用何种处理，还需细加考量……",
-      "ru": "Турнир по токсикологии в самом разгаре.<NL>Из бамбуковой корзины извлекаются пригодные для использования яды. <Character key=RoleTaiwu str=Name />, наблюдали за их внешним видом и рассматривали их потенциал воздействия...<NL><NL>Если эти яды хотят превратить в лекарство, они должны пройти несколько процессов.<NL>Одним из таких процессов является культивирование яда, при котором другой яд смешивается с текущим. При такой смеси ядов может стать более заразным.<NL>В качестве альтернативы яд можно запекать, в результате чего его токсичность будет содержаться внутри, оставаясь в спящем состоянии в течение длительного времени, не будучи обнаруженной другими.<NL>На данный момент вопрос о том, какой метод выбрать, требует тщательного рассмотрения...",
-      "status": "machine",
+      "ru": "Турнир по токсикологии в самом разгаре.<NL><Character key=RoleTaiwu str=Name /> извлекает из бамбуковой корзины пригодные яды, рассматривает их вид и размышляет об их потенциале воздействия…<NL><NL>Если эти яды хотят превратить в лекарство, они должны пройти несколько процессов.<NL>Один из таких процессов — выращивание яда, при котором к текущему яду примешивают другие яды. Из-за такой смеси ядов он может легче распространяться.<NL>Или же яд можно запечь, чтобы его токсичность скопилась внутри и долго оставалась скрытой от других.<NL>Сейчас нужно тщательно обдумать, какой метод выбрать…",
+      "status": "judged",
       "srcHash": "d13cd9f525b32152",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "a19b3b3ee524e45b"
     },
     "3d05fb7e-ab5f-4ad6-88be-a8086e87b585/Option_1": {
       "en": "(Develop poison...)",
       "cn": "（养毒育毒……）",
-      "ru": "(Вырабатывается яд...)",
-      "status": "machine",
+      "ru": "(Взрастить яд…)",
+      "status": "judged",
       "srcHash": "8b40464677fd3344",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "153b6f65b17d19f8"
     },
     "3d05fb7e-ab5f-4ad6-88be-a8086e87b585/Option_2": {
       "en": "(Bake the poison...)",
@@ -1099,16 +1206,18 @@
       "status": "machine",
       "srcHash": "de6314a5fa2d01e3",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-07-10T20:59:06.747Z",
+      "judgeHash": "27d0033f893582ae"
     },
     "fcebd5e4-4aa8-4da0-bd6c-2bc4b984d7d1/EventContent": {
       "en": "As <Character key=RoleTaiwu str=Name /> enters the venue, <Character key=RoleTaiwu str=GenderSubject/> sees hundreds of square tables neatly arranged.<NL>On the tables are writing implements, paper, ink, and inkstones, along with various medical tools, all meticulously organized.<NL>Toward the rear of the venue, rows of medicine cabinets are placed, stocked with a variety of Herb herbs...<NL><NL>A guide quickly approaches <Character key=RoleTaiwu str=Name /> and directs <Character key=RoleTaiwu str=Name /> to one of the tables to wait...",
       "cn": "<Character key=RoleTaiwu str=Name />进入赛场，只见场中数百方长桌列次排下，<NL>桌上笔墨纸砚、各类医具一应而全，规整不乱，<NL>会场后方则摆放着数排药柜，其中装满药材……<NL><NL>一名接引人很快来到<Character key=RoleTaiwu str=Name />身前，安排<Character key=RoleTaiwu str=Name />到其中一方长桌后等待……",
-      "ru": "Как <Character key=RoleTaiwu str=Name /> входит в зал, <Character key=RoleTaiwu str=GenderSubject/> видит сотни аккуратно расставленных квадратных столов.<NL>На столах разложены письменные принадлежности, бумага, чернила и чернильницы-камешки, а также различные медицинские инструменты, все тщательно разложено.<NL>В задней части зала расположены ряды аптечек, заполненных разнообразными травами травы-невидимки...<NL><NL>Быстро приближается проводник <Character key=RoleTaiwu str=Name /> и направляет <Character key=RoleTaiwu str=Name /> к одному из столиков, чтобы подождать...",
-      "status": "machine",
+      "ru": "Когда <Character key=RoleTaiwu str=Name /> входит в зал, <Character key=RoleTaiwu str=GenderSubject/> видит сотни аккуратно расставленных квадратных столов.<NL>На столах разложены письменные принадлежности, бумага, чернила и чернильницы-камни, а также различные медицинские инструменты — всё тщательно организовано.<NL>В задней части зала стоят ряды шкафов для лекарств, заполненных разнообразными травами…<NL><NL>К <Character key=RoleTaiwu str=Name /> быстро подходит проводник и направляет <Character key=RoleTaiwu str=Name /> к одному из столов ожидать своей очереди…",
+      "status": "judged",
       "srcHash": "3da77b69231f981f",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "1e3e3a2793315939"
     },
     "fcebd5e4-4aa8-4da0-bd6c-2bc4b984d7d1/Option_1": {
       "en": "(Wait for a while...)",
@@ -1117,7 +1226,8 @@
       "status": "machine",
       "srcHash": "22d2bd518c95d9a4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "63e61b7447684742"
     },
     "52b9bceb-0c7a-457a-9162-c69f830ae39c/EventContent": {
       "en": "At this point, there's no use overthinking it. It's better to remedy the situation first...<NL><Character key=RoleTaiwu str=Name /> plans to pick suitable materials and medicines for reboiling.<NL>However, due to lack of skill, <Character key=RoleTaiwu str=GenderSubject/> fails...",
@@ -1126,7 +1236,8 @@
       "status": "machine",
       "srcHash": "60183f6e1896a4d9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "bf51baf95e005c71"
     },
     "52b9bceb-0c7a-457a-9162-c69f830ae39c/Option_1": {
       "en": "(Feeling helpless...)",
@@ -1135,7 +1246,8 @@
       "status": "machine",
       "srcHash": "ae94316f9c3896ba",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "57f6ca0cf6784d36"
     },
     "38fd34f9-f045-4049-a3c5-6855992c69c2/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might not have a particular preference when it comes to judging poisons...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
@@ -1153,16 +1265,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "4a8fcce1-8d65-4cee-bdad-071487ab6336/EventContent": {
       "en": "At this point, there's no use overthinking it. It's better to remedy the situation first...<NL><Character key=RoleTaiwu str=Name /> plans to pick suitable Herbs and Herbs for reboiling, the toxic of the poison is increased...",
       "cn": "事已至此，多想无益，还是先行补救要紧……<NL><Character key=RoleTaiwu str=Name />选取适宜的药材与药物重新煎制，增加了药物的毒性……",
-      "ru": "На данный момент нет смысла переусердствовать с этим. Лучше сначала исправить ситуацию...<NL><Character key=RoleTaiwu str=Name /> при планировании сбора подходящих трав и отвара трав для повторного кипячения токсичность яда повышается...",
-      "status": "machine",
+      "ru": "На данный момент нет смысла слишком много об этом думать. Лучше сначала исправить ситуацию…<NL><Character key=RoleTaiwu str=Name /> выбирает подходящие травы и лекарства для повторного приготовления, но токсичность яда повышается…",
+      "status": "judged",
       "srcHash": "e5607994af056821",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "fd26ab2a0088b155"
     },
     "4a8fcce1-8d65-4cee-bdad-071487ab6336/Option_1": {
       "en": "(This is good...)",
@@ -1171,7 +1285,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "614730ff-2640-4d94-9b31-0e9fd68643a8/EventContent": {
       "en": "Select poison extract...",
@@ -1180,7 +1295,8 @@
       "status": "machine",
       "srcHash": "06b8b345159eef5d",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "f4d9c8b25f288e6f"
     },
     "614730ff-2640-4d94-9b31-0e9fd68643a8/Option_1": {
       "en": "(Choose Yang poison as extract...)",
@@ -1189,7 +1305,8 @@
       "status": "machine",
       "srcHash": "97f2a0d364380553",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "91ec822da4b5f3b5"
     },
     "614730ff-2640-4d94-9b31-0e9fd68643a8/Option_2": {
       "en": "(Choose Yin poison as extract...)",
@@ -1198,7 +1315,8 @@
       "status": "machine",
       "srcHash": "2678cb11b755de26",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "73d1f5e0ab5c13a4"
     },
     "205c9619-08bd-4d7c-bd4e-c8b56119d10c/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might like poisons that are unique...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
@@ -1216,7 +1334,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "011fb29a-9866-4563-a3b7-3e2006332831/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s personality...<NL><Character key=Guest str=Gender/> might prefer poisons that are simple to use...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
@@ -1234,7 +1353,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "6986f832-4167-4e0f-8c38-ed77e1d3f9f6/EventContent": {
       "en": "Before long, a guest approaches <Character key=RoleTaiwu str=Name /> and gives a fist-and-palm salute, saying,<NL>\"I strongly trust in your abilities. Thanks for your hard work...\"",
@@ -1252,7 +1372,8 @@
       "status": "machine",
       "srcHash": "02c93d5d6e087e3a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2cd55a80d7fc58ba"
     },
     "6986f832-4167-4e0f-8c38-ed77e1d3f9f6/Option_2": {
       "en": "I only hope that you won't use it to harm others or take lives.",
@@ -1261,7 +1382,8 @@
       "status": "machine",
       "srcHash": "32c46d0a0b532d72",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "cd9ea007a76b4038"
     },
     "6986f832-4167-4e0f-8c38-ed77e1d3f9f6/Option_3": {
       "en": "My knowledge may be limited, but I will do my best...",
@@ -1270,7 +1392,8 @@
       "status": "machine",
       "srcHash": "7fbd82afe2827b49",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "86af7141beda8fa3"
     },
     "6986f832-4167-4e0f-8c38-ed77e1d3f9f6/Option_4": {
       "en": "Just wait and see my work, I'm sure you'll be surprised!",
@@ -1279,7 +1402,8 @@
       "status": "machine",
       "srcHash": "adb43706cf66d872",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "62a720bd82e21d02"
     },
     "6986f832-4167-4e0f-8c38-ed77e1d3f9f6/Option_5": {
       "en": "I won't slack off, and I hope you'll recognize my efforts...",
@@ -1288,7 +1412,8 @@
       "status": "machine",
       "srcHash": "d372b73187205434",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "15e534118393e2a2"
     },
     "33623cb8-c5bc-4342-b785-f6f391a90563/EventContent": {
       "en": "Before long, a guest approaches <Character key=RoleTaiwu str=Name /> and gives a fist-and-palm salute, saying,<NL>\"The toxicology outside is all the same, not very interesting... it's better to try my luck at this Toxicology Tournament...\"",
@@ -1306,7 +1431,8 @@
       "status": "machine",
       "srcHash": "02c93d5d6e087e3a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2cd55a80d7fc58ba"
     },
     "33623cb8-c5bc-4342-b785-f6f391a90563/Option_2": {
       "en": "I only hope that you won't use it to harm others or take lives.",
@@ -1315,7 +1441,8 @@
       "status": "machine",
       "srcHash": "32c46d0a0b532d72",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "cd9ea007a76b4038"
     },
     "33623cb8-c5bc-4342-b785-f6f391a90563/Option_3": {
       "en": "My knowledge may be limited, but I will do my best...",
@@ -1324,7 +1451,8 @@
       "status": "machine",
       "srcHash": "7fbd82afe2827b49",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "86af7141beda8fa3"
     },
     "33623cb8-c5bc-4342-b785-f6f391a90563/Option_4": {
       "en": "Just wait and see my work, I'm sure you'll be surprised!",
@@ -1333,7 +1461,8 @@
       "status": "machine",
       "srcHash": "adb43706cf66d872",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "62a720bd82e21d02"
     },
     "33623cb8-c5bc-4342-b785-f6f391a90563/Option_5": {
       "en": "I won't slack off, and I hope you'll recognize my efforts...",
@@ -1342,16 +1471,18 @@
       "status": "machine",
       "srcHash": "d372b73187205434",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "15e534118393e2a2"
     },
     "3b7b055a-6330-429c-8fef-19f34210b8d2/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> manages to turn the table this time, earning many praises<NL>and seeing an increase in scores at the Toxicology Tournament!<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />'s score in this Toxicology Tournament has risen...)</color>",
       "cn": "<Character key=RoleTaiwu str=Name />此次转危为安，博得了诸多赞誉，<NL>在毒术大会上的评分上升了！<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />在此次毒术大会中的评分上升了……）</color>",
-      "ru": "<Character key=RoleTaiwu str=Name /> на этот раз ему удается переломить ситуацию, заслужив множество похвал<NL>и наблюдаем увеличение количества баллов на турнире по токсикологии!<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />счет в этом турнире по токсикологии вырос...)</color>",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> на этот раз удаётся переломить ситуацию и заслужить множество похвал<NL>и повысить свой результат на турнире по токсикологии!<NL><NL><color=#lightgrey>(Результат <Character key=RoleTaiwu str=Name /> на этом турнире по токсикологии вырос...)</color>",
+      "status": "judged",
       "srcHash": "71862b2a79425ca9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "366ba4cebf62b516"
     },
     "3b7b055a-6330-429c-8fef-19f34210b8d2/Option_1": {
       "en": "(Continue the event...)",
@@ -1360,7 +1491,8 @@
       "status": "machine",
       "srcHash": "161940e86f8dc7b0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "c4ca248cf01374a2"
     },
     "d105b397-4744-493e-8ebc-1ff91707f39b/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s personality...<NL><Character key=Guest str=Gender/> might prefer unique poisons...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
@@ -1378,7 +1510,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "4b4d72b5-6aaa-4e5e-b0db-31d7359b5a76/EventContent": {
       "en": "\"As far as I know, <Character key=Guest str=Name /> is a nobody in Martial World...<NL><Character key=Guest str=GenderSubject/> might not have a particular preference when it comes to poisons...\"<NL>The apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
@@ -1396,16 +1529,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "ef0c0b4e-a281-4a6b-a5ca-29cad614647f/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> had an accident while mixing toxicologys, due to <Character key=RoleTaiwu str=GenderPossessive/> lack of expertise, resulting in the destruction of the poison...",
       "cn": "<Character key=RoleTaiwu str=Name />毒术不精，在配伍时发生意外，损毁了毒物……",
-      "ru": "<Character key=RoleTaiwu str=Name /> произошел несчастный случай при смешивании токсикологических препаратов из-за <Character key=RoleTaiwu str=GenderPossessive/> недостаток опыта, приводящий к уничтожению яда...",
-      "status": "machine",
+      "ru": "У <Character key=RoleTaiwu str=Name /> произошёл несчастный случай при смешивании ядов из-за <Character key=RoleTaiwu str=GenderPossessive/> недостатка опыта, в результате чего яд был уничтожен…",
+      "status": "judged",
       "srcHash": "310860a53171ee8f",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "cde5eb6f6dff60a8"
     },
     "ef0c0b4e-a281-4a6b-a5ca-29cad614647f/Option_1": {
       "en": "(Feeling helpless...)",
@@ -1414,16 +1549,18 @@
       "status": "machine",
       "srcHash": "ae94316f9c3896ba",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "57f6ca0cf6784d36"
     },
     "d5a3e957-c8b3-4d2e-8324-e632162420fe/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> had an accident while baking toxicologys, due to <Character key=RoleTaiwu str=GenderPossessive/> lack of expertise, resulting in the destruction of the poison...",
       "cn": "<Character key=RoleTaiwu str=Name />毒术不精，在焙烤毒物时发生意外，损毁了毒物……",
-      "ru": "<Character key=RoleTaiwu str=Name /> произошел несчастный случай во время выпечки токсикологических изделий из-за <Character key=RoleTaiwu str=GenderPossessive/> недостаток опыта, приводящий к уничтожению яда...",
-      "status": "machine",
+      "ru": "У <Character key=RoleTaiwu str=Name /> произошёл несчастный случай при запекании яда из-за <Character key=RoleTaiwu str=GenderPossessive/> недостатка опыта, в результате чего яд был уничтожен…",
+      "status": "judged",
       "srcHash": "e1f9093cb2a99749",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "ae7e6900896441c0"
     },
     "d5a3e957-c8b3-4d2e-8324-e632162420fe/Option_1": {
       "en": "(Feeling helpless...)",
@@ -1432,7 +1569,8 @@
       "status": "machine",
       "srcHash": "ae94316f9c3896ba",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "57f6ca0cf6784d36"
     },
     "a0d68cf9-44e7-4ef2-977f-e080affa177b/EventContent": {
       "en": "nan",
@@ -1441,16 +1579,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "9f3863e8-5704-44a3-b5d7-50266ef20c4a/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might is concerned about the effect of the poisons and if it makes the victim miserable...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的身份……<NL><Character key=Guest str=Gender/>评判毒药，或许更在乎其发作时是否猛烈及能否使人痛苦……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это звание...<NL><Character key=Guest str=Gender/> мощь обеспокоена действием Ядов, и если это делает жертву несчастной...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая звание <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> при оценке ядов, возможно, больше заботится о силе их действия и о том, причиняют ли они жертве страдания...\"<NL>Ученик кузнеца осторожно принимает серебро и наклоняется к уху <Character key=RoleTaiwu str=Name />, тихо отвечая ему...",
+      "status": "judged",
       "srcHash": "5861c1aeaff43899",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "679a84125e542b6a"
     },
     "9f3863e8-5704-44a3-b5d7-50266ef20c4a/Option_1": {
       "en": "(I see...)",
@@ -1459,16 +1599,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "210d337e-403c-491e-b72a-74b68b3eda1b/EventContent": {
       "en": "The forge apprentice respectfully takes over the poison made by <Character key=RoleTaiwu str=Name /> and presents it on the high platform...",
       "cn": "学徒躬身接过<Character key=RoleTaiwu str=Name />所制的毒药，转呈于高台之上……",
-      "ru": "Ученик кузнеца почтительно принимает яд, приготовленный <Character key=RoleTaiwu str=Name /> и представляет его на высокой платформе...",
-      "status": "machine",
+      "ru": "Ученик кузнеца почтительно принимает яд, который изготовил <Character key=RoleTaiwu str=Name />, и представляет его на высокой платформе…",
+      "status": "judged",
       "srcHash": "8bfccc4bfdee1b9a",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "5522eeaade5c0a62"
     },
     "210d337e-403c-491e-b72a-74b68b3eda1b/Option_1": {
       "en": "(Wait silently...)",
@@ -1477,25 +1619,28 @@
       "status": "machine",
       "srcHash": "8a6f77e5147d7f07",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "192cd57430b35324"
     },
     "8bb001c2-4b3d-46d6-803f-74caa7066e91/EventContent": {
       "en": "\"Poison making is indeed dull. Why don't we play something else instead...\"<NL>During the break in the competition, groups of medical learners gather to exchange ideas and discuss their techniques.<NL>At this moment, <Character key= CharacterId str=Name /> suddenly walks up to <Character key=RoleTaiwu str=Name /> and bluntly invites <Character key=RoleTaiwu str=Name /> to a debate...",
       "cn": "“制毒实在枯燥，不如你我来玩玩别的……”<NL>大赛休息间隙，一众医者三五成群围聚在一处，相互交流探讨，<NL>这时，<Character key= CharacterId str=Name />忽然行至<Character key=RoleTaiwu str=Name />身前，直言要与<Character key=RoleTaiwu str=Name />较艺……",
-      "ru": "- Приготовление яда действительно скучное занятие. Почему бы нам вместо этого не сыграть во что-нибудь другое...\"<NL>Во время перерыва в соревнованиях группы студентов-медиков собираются, чтобы обменяться идеями и обсудить свои методики.<NL>В этот момент, <Character key= CharacterId str=Name /> внезапно подходит к <Character key=RoleTaiwu str=Name /> и прямо приглашает <Character key=RoleTaiwu str=Name /> на диспут...",
-      "status": "machine",
+      "ru": "\"Приготовление яда действительно скучное занятие. Почему бы нам вместо этого не сыграть во что-нибудь другое...\"<NL>Во время перерыва в соревнованиях группы студентов-медиков собираются, чтобы обменяться идеями и обсудить свои методики.<NL>В этот момент, <Character key= CharacterId str=Name /> внезапно подходит к <Character key=RoleTaiwu str=Name /> и прямо приглашает <Character key=RoleTaiwu str=Name /> на диспут...",
+      "status": "judged",
       "srcHash": "7e2ca43cfe238cc3",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "fe9726d4c8b34090"
     },
     "8bb001c2-4b3d-46d6-803f-74caa7066e91/Option_1": {
       "en": "(Agree to the showdown...)",
       "cn": "（同意较艺……）",
-      "ru": "(Соглашаюсь на выяснение отношений...)",
-      "status": "machine",
+      "ru": "(Согласиться на состязание...)",
+      "status": "judged",
       "srcHash": "8ee6d728dc1cd6a2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "4bf880bb44bfa256"
     },
     "8bb001c2-4b3d-46d6-803f-74caa7066e91/Option_2": {
       "en": "(Have no such intention...)",
@@ -1504,16 +1649,18 @@
       "status": "machine",
       "srcHash": "f09228cec3e277b2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3ed7082f80e2217d"
     },
     "6df10607-1484-479d-9737-ded4d1db0268/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might like poisons that are contaguious...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的为人……<NL><Character key=Guest str=Gender/>评判毒药，或许更在乎其是否能传播得更广……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это звание...<NL><Character key=Guest str=Gender/> возможно, вам понравятся заразные Яды...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая характер <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> возможно, вам понравятся заразные яды...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "55d909f0b0290bce",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "ccb1480446c40eb3"
     },
     "6df10607-1484-479d-9737-ded4d1db0268/Option_1": {
       "en": "(I see...)",
@@ -1522,7 +1669,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "f9c13f89-cb70-4ece-8b29-96894b87c031/EventContent": {
       "en": "nan",
@@ -1531,16 +1679,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "e8103277-e518-48bb-bcd5-b6de9f4dc20d/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s characteristic...<NL><Character key=Guest str=Gender/> might like poisons that are simple to use and if the poisons are easy to be noticed...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的为人……<NL><Character key=Guest str=Gender/>评判毒药，或许更在乎其是否易用、是否可以不被人察觉……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это характерно...<NL><Character key=Guest str=Gender/> возможно, вам понравятся Яды, которые просты в использовании, и если Яды легко заметить...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая характер <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> возможно, вам понравятся яды, простые в использовании и которые трудно заметить...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "22edeaacfedd2013",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "c218c30b8107815a"
     },
     "e8103277-e518-48bb-bcd5-b6de9f4dc20d/Option_1": {
       "en": "(I see...)",
@@ -1549,16 +1699,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "edb80a76-4e9b-42b5-bab8-0c37e882d32c/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> follows the instructions from the ancient texts, sequentially prepares the ingredients.<NL>After a while, <Character key=RoleTaiwu str=Name /> retrieves the poison, and it appears identical in color and forms to the descriptions in the book.<NL>This poison should now be more effective...",
       "cn": "<Character key=RoleTaiwu str=Name />依据典籍所述，依序调制，<NL>半晌之后，<Character key=RoleTaiwu str=Name />取出毒物，只见其色、其形与书中一般无二，<NL>此毒应当变得更加易用了……",
-      "ru": "<Character key=RoleTaiwu str=Name /> следуя инструкциям из древних текстов, последовательно подготавливает ингредиенты.<NL>Через некоторое время, <Character key=RoleTaiwu str=Name /> извлекает яд, и он выглядит идентичным по цвету и форме описаниям в книге.<NL>Теперь этот яд должен быть более эффективным...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> следует указаниям из древних текстов и последовательно подготавливает ингредиенты.<NL>Через некоторое время <Character key=RoleTaiwu str=Name /> извлекает яд, и он выглядит совершенно так же по цвету и форме, как описано в книге.<NL>Теперь этот яд должен стать более удобным в применении...",
+      "status": "judged",
       "srcHash": "685456917d48e016",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "90d5c1ccd7007aef"
     },
     "edb80a76-4e9b-42b5-bab8-0c37e882d32c/Option_1": {
       "en": "(This is good...)",
@@ -1567,7 +1719,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "f7b749df-1fd3-4216-880d-2d90217bd080/EventContent": {
       "en": "\"In this competition,each of you must make poisons according to the age, rank, and abilities of the guests.<NL>The guests will then evaluate the poisons based on their personal preferences. The participant with the highest score will be the winner of this competition!\"",
@@ -1576,7 +1729,8 @@
       "status": "machine",
       "srcHash": "6a4f6a129201c2d0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "dd2a6ca680aacea8"
     },
     "f7b749df-1fd3-4216-880d-2d90217bd080/Option_1": {
       "en": "(...)",
@@ -1585,16 +1739,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "c465c5ca-9cf2-44c4-9f86-14895a099644/EventContent": {
       "en": "After a short while, a guest approaches <Character key=RoleTaiwu str=Name /> and gives a fist-and-palm salute, saying,<NL>\"If you can satisfy me, helping you win shouldn't be difficult...\"",
       "cn": "不多时，一名宾客便来到<Character key=RoleTaiwu str=Name />身前，拱手说道：<NL>“阁下若能令我满意，我助阁下取胜想来也非难事……”",
-      "ru": "Через некоторое время к нам подходит гость <Character key=RoleTaiwu str=Name /> и отдает честь кулаком и ладонью, говоря,<NL>\"Если ты сможешь удовлетворить меня, помочь тебе победить не составит труда...\"",
-      "status": "machine",
+      "ru": "Через некоторое время к <Character key=RoleTaiwu str=Name /> подходит гость и отдаёт честь, сложив кулак и ладонь, говоря,<NL>\"Если ты сможешь удовлетворить меня, помочь тебе победить не составит труда...\"",
+      "status": "judged",
       "srcHash": "99003078fe1e5f7c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "fbad8e4edb58d1c5"
     },
     "c465c5ca-9cf2-44c4-9f86-14895a099644/Option_1": {
       "en": "If you were to use it for nefarious purposes, I certainly wouldn't stand idly by!",
@@ -1603,7 +1759,8 @@
       "status": "machine",
       "srcHash": "02c93d5d6e087e3a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2cd55a80d7fc58ba"
     },
     "c465c5ca-9cf2-44c4-9f86-14895a099644/Option_2": {
       "en": "I only hope that you won't use it to harm others or take lives.",
@@ -1612,7 +1769,8 @@
       "status": "machine",
       "srcHash": "32c46d0a0b532d72",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "cd9ea007a76b4038"
     },
     "c465c5ca-9cf2-44c4-9f86-14895a099644/Option_3": {
       "en": "My knowledge may be limited, but I will do my best...",
@@ -1621,7 +1779,8 @@
       "status": "machine",
       "srcHash": "7fbd82afe2827b49",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "86af7141beda8fa3"
     },
     "c465c5ca-9cf2-44c4-9f86-14895a099644/Option_4": {
       "en": "Just wait and see my work, I'm sure you'll be surprised!",
@@ -1630,7 +1789,8 @@
       "status": "machine",
       "srcHash": "adb43706cf66d872",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "62a720bd82e21d02"
     },
     "c465c5ca-9cf2-44c4-9f86-14895a099644/Option_5": {
       "en": "I won't slack off, and I hope you'll recognize my efforts...",
@@ -1639,16 +1799,18 @@
       "status": "machine",
       "srcHash": "d372b73187205434",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "15e534118393e2a2"
     },
     "5b462235-78ac-4671-b372-0030aa8b6b5d/EventContent": {
       "en": "\"Are you making poisons for <Character key=Guest str=Name />?<NL>I've heard a bit about <Character key=Guest str=GenderPossessive/> preferences... If you're willing... I won't keep it a secret...\"<NL>The forge apprentice whisperes to <Character key=RoleTaiwu str=Name /> as he cleans,<NL>hoping to exchange information about the guest's preferences for some Silver from <Character key=RoleTaiwu str=Name />...",
       "cn": "“阁下是在替<Character key=Guest str=Name />制毒么？<NL>小的倒是略微听闻过此人的喜好……阁下若是肯……小的自然不会藏私……”<NL>那名学徒趁清扫之际挪到<Character key=RoleTaiwu str=Name />身侧，压低声音道……<NL>原来这人是希望以宾客偏好向<Character key=RoleTaiwu str=Name />换取银钱……",
-      "ru": "\"Ты готовишь яды для <Character key=Guest str=Name />?<NL>Я кое-что слышал о <Character key=Guest str=GenderPossessive/> предпочтения... Если ты захочешь... Я не буду держать это в секрете...\"<NL>Ученик кузнеца шепчет <Character key=RoleTaiwu str=Name /> пока он убирает,<NL>надеясь обменять информацию о предпочтениях гостя на немного серебра из <Character key=RoleTaiwu str=Name />...",
-      "status": "machine",
+      "ru": "\"Ты готовишь яды для <Character key=Guest str=Name />?<NL>Я кое-что слышал о предпочтениях <Character key=Guest str=GenderPossessive/>... Если ты захочешь... Я не буду держать это в секрете...\"<NL>Ученик кузнеца шепчет <Character key=RoleTaiwu str=Name />, пока убирает,<NL>надеясь обменять информацию о предпочтениях гостя на немного серебра от <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "0a5af358049dba7e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "9c99b550d6ae4b04"
     },
     "5b462235-78ac-4671-b372-0030aa8b6b5d/Option_1": {
       "en": "(Inquire about preferences...)",
@@ -1657,7 +1819,8 @@
       "status": "machine",
       "srcHash": "6ab43170cd3bdc76",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2468dc57f096212c"
     },
     "5b462235-78ac-4671-b372-0030aa8b6b5d/Option_2": {
       "en": "(Ignore...)",
@@ -1666,16 +1829,18 @@
       "status": "machine",
       "srcHash": "5f497f0995e7c432",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "a3f98f4f074600b7"
     },
     "bfc7c028-f8fd-4470-9327-7b89cb5dd3f5/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s characteristic...<NL><Character key=Guest str=Gender/> might like poisons that are unique, and <Character key=Guest str=GenderSubject/> wants the poison to torture the taker...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的为人……<NL><Character key=Guest str=Gender/>评判毒药，或许更在乎其是否独特、发作时是否猛烈……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это характерно...<NL><Character key=Guest str=Gender/> возможно, вам понравятся уникальные яды, и <Character key=Guest str=GenderSubject/> хочет, чтобы яд мучил принимающего...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая характер <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> возможно, при выборе яда больше всего ценит его уникальность, а <Character key=Guest str=GenderSubject/> — силу действия яда...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "92fb53334b6c3e07",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "be087546344789ba"
     },
     "bfc7c028-f8fd-4470-9327-7b89cb5dd3f5/Option_1": {
       "en": "(I see...)",
@@ -1684,16 +1849,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "788b1d1a-ed27-4558-9acd-6daf5dcb91e2/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might is concerned about the effect of the poisons...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的身份……<NL><Character key=Guest str=Gender/>评判毒药，或许更在乎其发作时是否猛烈……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это звание...<NL><Character key=Guest str=Gender/> мощь обеспокоена действием Ядов...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая статус <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> возможно, при оценке яда больше всего ценит силу его действия...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "0f24a8d2c3b6b6cd",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "47522c6f5ee2fbdf"
     },
     "788b1d1a-ed27-4558-9acd-6daf5dcb91e2/Option_1": {
       "en": "(I see...)",
@@ -1702,7 +1869,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "ff63a13b-e811-40a4-8e30-1e866a3dbf1a/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> had an accident while refining the toxicologys, due to <Character key=RoleTaiwu str=GenderPossessive/> lack of expertise, resulting in the destruction of the poison...",
@@ -1720,16 +1888,18 @@
       "status": "machine",
       "srcHash": "ae94316f9c3896ba",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "57f6ca0cf6784d36"
     },
     "d39e8884-6610-4421-ad6b-7b7de60222a7/EventContent": {
       "en": "\"Interesting, interesting! Let me have a closer look...\"<NL>A senior approaches <Character key=RoleTaiwu str=Name /> and is astonished to find the concocted toxicology made by <Character key=RoleTaiwu str=Name />.<NL><Character key=RoleTaiwu str=GenderSubject/> quickly examines it and then exclaims,<NL>\"If this toxicology were to spread in the world, it may pass from one to ten, and from ten to a hundred!\"<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />'s ratings in the Toxicology Tournament has increased!)</color>",
       "cn": "“有趣有趣，且待我仔细看看……”<NL>一名老者行至<Character key=RoleTaiwu str=Name />身侧，意外发现<Character key=RoleTaiwu str=Name />正在配置的毒药，<NL>一时大为震惊，连忙取毒药细观，随后啧啧称赞道：<NL>“此毒若流传世间，或许可由一传十、由十传百！”<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />在此次毒术大会中的评分上升了！）</color>",
-      "ru": "- Интересно, интересно! Дай-ка я посмотрю поближе...\"<NL>Подходит старший <Character key=RoleTaiwu str=Name /> и с удивлением обнаруживает состряпанную токсикологию, составленную <Character key=RoleTaiwu str=Name />.<NL><Character key=RoleTaiwu str=GenderSubject/> быстро осматривает его, а затем восклицает,<NL>\"Если эта токсикология распространится по миру, она может перейти от одного к десяти, а от десяти к сотне!\"<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />рейтинг в турнире по токсикологии вырос!)</color>",
-      "status": "machine",
+      "ru": "\"Интересно, интересно! Дай-ка я посмотрю поближе...\"<NL>Старший подходит к <Character key=RoleTaiwu str=Name /> и с удивлением обнаруживает приготовленный <Character key=RoleTaiwu str=Name /> яд.<NL><Character key=RoleTaiwu str=GenderSubject/> быстро осматривает его, а затем восклицает,<NL>\"Если этот яд распространится по миру, он может передаваться от одного к десяти, а от десяти к сотне!\"<NL><NL><color=#lightgrey>(Рейтинг <Character key=RoleTaiwu str=Name /> в турнире по токсикологии вырос!)</color>",
+      "status": "judged",
       "srcHash": "0f0061fbf936399f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "d6236af252defc3b"
     },
     "d39e8884-6610-4421-ad6b-7b7de60222a7/Option_1": {
       "en": "(Never been better...)",
@@ -1738,16 +1908,18 @@
       "status": "machine",
       "srcHash": "49ee8957df32f51f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "acd9b32e7bdc3465"
     },
     "76513924-fd5f-4115-adc1-0dc391d7b101/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might is concerned about the effect of the poisons...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的身份……<NL><Character key=Guest str=Gender/>评判毒药，或许更在乎其发作时是否猛烈……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это звание...<NL><Character key=Guest str=Gender/> мощь обеспокоена действием Ядов...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая статус <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> возможно, при оценке яда больше всего ценит силу его действия...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "0f24a8d2c3b6b6cd",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "47522c6f5ee2fbdf"
     },
     "76513924-fd5f-4115-adc1-0dc391d7b101/Option_1": {
       "en": "(I see...)",
@@ -1756,16 +1928,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "f0eb0ac0-36fa-4fa9-a4f8-2ca598c33451/EventContent": {
       "en": "After the snow cleared and the sun shone brightly, outside the <Character key=RoleTaiwu str=CurBlock/> city, carriages and horses flow continuously, with crowds bustling about.<NL>Medical learners travel in groups or alone, heading toward the city—<NL>Where the brocade Toxicology Tournament is about to commence...",
       "cn": "雪后放晴，艳阳高照，<Character key=RoleTaiwu str=CurBlock/>城外车马络绎，人群熙攘，<NL>只见一众肩负药箱的医者或是三五成群、或是傲然独行，纷纷向城中赶去——<NL>原是毒术大会召开在即……",
-      "ru": "После того, как снег растаял и ярко засияло солнце, за окном <Character key=RoleTaiwu str=CurBlock/> город, экипажи и лошади движутся непрерывно, вокруг суетятся толпы.<NL>Учащиеся-медики путешествуют группами или в одиночку, направляясь в город—<NL>Где вот-вот начнется турнир по токсикологии в парче...",
-      "status": "machine",
+      "ru": "После снегопада небо прояснилось и ярко засияло солнце; за пределами города <Character key=RoleTaiwu str=CurBlock/> непрерывно движутся экипажи и лошади, вокруг суетятся толпы.<NL>Ученики-медики группами или в одиночку направляются в город—<NL>где вот-вот начнётся турнир по токсикологии...",
+      "status": "judged",
       "srcHash": "ee8e97d4dd7fe25b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "2951348eeb8c4e51"
     },
     "f0eb0ac0-36fa-4fa9-a4f8-2ca598c33451/Option_1": {
       "en": "(Go to the event...)",
@@ -1774,16 +1948,18 @@
       "status": "machine",
       "srcHash": "148912f8610b932b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "4cc40336b6355e83"
     },
     "53da57f9-29fc-4568-aab3-881e14bebcf2/EventContent": {
       "en": "\"Well, I heard that <Character key=Guest str=Name /> has been having trouble thinking lately...<NL><Character key=Guest str=Gender/> might not like regular poisons...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“据我所知，<Character key=Guest str=Name />近日不擅思考……<NL>若是毒药不够新奇，<Character key=Guest str=Gender/>恐怕不会喜欢……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, я слышал, что <Character key=Guest str=Name /> в последнее время у него были проблемы с мышлением...<NL><Character key=Guest str=Gender/> возможно, вам не понравятся обычные Яды...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, я слышал, что <Character key=Guest str=Name /> в последнее время испытывает трудности с мышлением...<NL><Character key=Guest str=Gender/> возможно, не понравятся обычные яды...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "72db0b9e5e78262c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "8a281b1a129876c2"
     },
     "53da57f9-29fc-4568-aab3-881e14bebcf2/Option_1": {
       "en": "(I see...)",
@@ -1792,7 +1968,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "0ee70eaf-50de-4caa-8225-b4350dddae21/EventContent": {
       "en": "\"Are you here for the Toxicology Tournament?<NL>With so many talents gathered at this event, maybe you should take it seriously...\"<NL>As soon as <Character key=RoleTaiwu str=Name /> enters the Toxicology Tournament venue, a guide hurriedly approaches <Character key=RoleTaiwu str=Name /><NL>and strikes up a conversation...",
@@ -1810,16 +1987,18 @@
       "status": "machine",
       "srcHash": "35556b48050dac4c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e46d510549c3581f"
     },
     "9c529a8f-7737-4d6a-b31f-4e6f20d364f4/EventContent": {
       "en": "Until the end of the competition, <Character key=RoleTaiwu str=Name /> still feeling the excitement.<NL>After discussing with several chiefs, <Character key=RoleTaiwu str=GenderSubject/> bids farewell and leaves...",
       "cn": "直至大赛散场，<Character key=RoleTaiwu str=Name />仍觉余兴未消，<NL>又与数名同行一番请教商讨之后，方才告辞离去……",
-      "ru": "До окончания соревнований, <Character key=RoleTaiwu str=Name /> все еще испытываю волнение.<NL>После обсуждения с несколькими руководителями, <Character key=RoleTaiwu str=GenderSubject/> прощается и уходит...",
-      "status": "machine",
+      "ru": "До окончания соревнований <Character key=RoleTaiwu str=Name /> всё ещё не может успокоиться после пережитого волнения.<NL>После обсуждения с несколькими товарищами по ремеслу <Character key=RoleTaiwu str=GenderSubject/> прощается и уходит...",
+      "status": "judged",
       "srcHash": "4be0c0d659470d9b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "533306f09267b4c6"
     },
     "9c529a8f-7737-4d6a-b31f-4e6f20d364f4/Option_1": {
       "en": "(Leave this place...)",
@@ -1828,7 +2007,8 @@
       "status": "machine",
       "srcHash": "aaf9123a10e0069a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "866f1cfc3bb3d1c9"
     },
     "76e59708-6d65-4ef8-beb6-f9e850788625/EventContent": {
       "en": "There are regulations on the amount of materials used in the competition. Although <Character key=RoleTaiwu str=Name /> can reapply for more materials after losing some in an accident,<NL>relying solely on verbal requests might lead to misunderstandings and unsupported accusations...",
@@ -1837,16 +2017,18 @@
       "status": "machine",
       "srcHash": "21b5d48c23ab8a29",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "47457b377d63241a"
     },
     "76e59708-6d65-4ef8-beb6-f9e850788625/Option_1": {
       "en": "(Make do...)",
       "cn": "（自行制作……）",
-      "ru": "(Сделай что-нибудь...)",
-      "status": "machine",
+      "ru": "(Изготовить самому...)",
+      "status": "judged",
       "srcHash": "2607a6526117e721",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "a43e5dbe86c5927a"
     },
     "76e59708-6d65-4ef8-beb6-f9e850788625/Option_2": {
       "en": "(Ask for materials...)",
@@ -1855,7 +2037,8 @@
       "status": "machine",
       "srcHash": "b6f4c71c741deaac",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "de6539ee079579c5"
     },
     "de9955af-d6c4-447c-a4ed-774f049363d2/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might not have a particular preference when it comes to judging poisons...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
@@ -1873,7 +2056,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "741369cc-6320-4427-9bc1-e5fa1471224c/EventContent": {
       "en": "Because of the flaw on <Character key=RoleTaiwu str=Name />'s toxicology, <Character key=RoleTaiwu str=GenderPossessive/> rating on the Toxicology Tournament has declined!<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />'s rating on the Toxicology Tournament has declined...)</color>",
@@ -1891,16 +2075,18 @@
       "status": "machine",
       "srcHash": "161940e86f8dc7b0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "c4ca248cf01374a2"
     },
     "13e9a03b-5e65-4143-98cb-999fbc36bd97/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might is concerned about the effect of the poisons and if it makes the victim miserable...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的身份……<NL><Character key=Guest str=Gender/>评判毒药，或许更在乎其发作时是否猛烈及能否使人痛苦……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это звание...<NL><Character key=Guest str=Gender/> мощь обеспокоена действием Ядов, и если это делает жертву несчастной...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая звание <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> при оценке ядов, возможно, больше заботится о силе их действия и о том, причиняют ли они жертве страдания...\"<NL>Ученик кузнеца осторожно принимает серебро и наклоняется к уху <Character key=RoleTaiwu str=Name />, тихо отвечая ему...",
+      "status": "judged",
       "srcHash": "5861c1aeaff43899",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "679a84125e542b6a"
     },
     "13e9a03b-5e65-4143-98cb-999fbc36bd97/Option_1": {
       "en": "(I see...)",
@@ -1909,16 +2095,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "c5b3f826-f89b-4b7f-92f3-443d786f6c19/EventContent": {
       "en": "\"Interesting, interesting! Let me have a closer look...\"<NL>A senior approaches <Character key=RoleTaiwu str=Name /> and is astonished to find the concocted toxicology made by <Character key=RoleTaiwu str=Name />.<NL><Character key=RoleTaiwu str=GenderSubject/> quickly examines it and then exclaims,<NL>\"If this toxicology were used for covert harm, it might lurk unnoticed for several years!\"<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />'s ratings in the Toxicology Tournament has increased!)</color>",
       "cn": "“有趣有趣，且待我仔细看看……”<NL>一名老者行至<Character key=RoleTaiwu str=Name />身侧，意外发现<Character key=RoleTaiwu str=Name />正在配置的毒药，<NL>一时大为震惊，连忙取毒药细观，随后啧啧称赞道：<NL>“此毒若用于暗害，或许可潜伏数载不为人察觉！”<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />在此次毒术大会中的评分上升了！）</color>",
-      "ru": "- Интересно, интересно! Дай-ка я посмотрю поближе...\"<NL>Подходит старший <Character key=RoleTaiwu str=Name /> и с удивлением обнаруживает состряпанную токсикологию, составленную <Character key=RoleTaiwu str=Name />.<NL><Character key=RoleTaiwu str=GenderSubject/> быстро осматривает его, а затем восклицает,<NL>\"Если бы эта токсикология использовалась для скрытого нанесения вреда, она могла бы оставаться незамеченной в течение нескольких лет!\"<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />рейтинг в турнире по токсикологии вырос!)</color>",
-      "status": "machine",
+      "ru": "\"Интересно, интересно! Дай-ка я посмотрю поближе...\"<NL>Старец подходит к <Character key=RoleTaiwu str=Name /> и с удивлением обнаруживает приготовленный <Character key=RoleTaiwu str=Name /> яд.<NL><Character key=RoleTaiwu str=GenderSubject/> быстро осматривает его, а затем восклицает,<NL>\"Если бы этот яд использовали для тайного причинения вреда, он мог бы оставаться незамеченным несколько лет!\"<NL><NL><color=#lightgrey>(Рейтинг <Character key=RoleTaiwu str=Name /> на турнире по токсикологии вырос!)</color>",
+      "status": "judged",
       "srcHash": "6d45a35cac377224",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "e81413d1678b7087"
     },
     "c5b3f826-f89b-4b7f-92f3-443d786f6c19/Option_1": {
       "en": "(Never been better...)",
@@ -1927,25 +2115,28 @@
       "status": "machine",
       "srcHash": "49ee8957df32f51f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "acd9b32e7bdc3465"
     },
     "ee9d3ba6-3f4c-4b99-8b45-33d23ebd3409/EventContent": {
       "en": "\"Discussing Fine Arts is supposed to be a pleasure among peers. There's no need to worry about winning or losing...\"<NL>During the break in the competition, groups of medical learners gather to exchange ideas and discuss their techniques.<NL>At this moment, <Character key= CharacterId str=Name /> suddenly walks up to <Character key=RoleTaiwu str=Name /> and politely invites <Character key=RoleTaiwu str=Name /> to a debate...",
       "cn": "“探讨技艺本是同行乐事，不必在意胜负……”<NL>大赛休息间隙，一众医者三五成群围聚在一处，相互交流探讨，<NL>这时，<Character key= CharacterId str=Name />忽然行至<Character key=RoleTaiwu str=Name />身前，婉言邀请<Character key=RoleTaiwu str=Name />较艺……",
-      "ru": "- Предполагается, что обсуждение ремесел в кругу сверстников доставляет удовольствие. Нет необходимости беспокоиться о победе или поражении...\"<NL>Во время перерыва в соревнованиях группы студентов-медиков собираются, чтобы обменяться идеями и обсудить свои методики.<NL>В этот момент, <Character key= CharacterId str=Name /> внезапно подходит к <Character key=RoleTaiwu str=Name /> и вежливо приглашает <Character key=RoleTaiwu str=Name /> на диспут...",
-      "status": "machine",
+      "ru": "\"Обсуждать ремёсла — удовольствие для коллег. Не стоит переживать из-за победы или поражения...\"<NL>Во время перерыва в соревнованиях группы медиков собираются, чтобы обменяться идеями и обсудить свои методы.<NL>В этот момент <Character key= CharacterId str=Name /> внезапно подходит к <Character key=RoleTaiwu str=Name /> и вежливо приглашает <Character key=RoleTaiwu str=Name /> на диспут...",
+      "status": "judged",
       "srcHash": "b1b0f056ef9b360e",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "dcde2e610755cbe2"
     },
     "ee9d3ba6-3f4c-4b99-8b45-33d23ebd3409/Option_1": {
       "en": "(Agree to the showdown...)",
       "cn": "（同意较艺……）",
-      "ru": "(Соглашаюсь на выяснение отношений...)",
-      "status": "machine",
+      "ru": "(Согласиться на состязание...)",
+      "status": "judged",
       "srcHash": "8ee6d728dc1cd6a2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "4bf880bb44bfa256"
     },
     "ee9d3ba6-3f4c-4b99-8b45-33d23ebd3409/Option_2": {
       "en": "(Have no such intention...)",
@@ -1954,16 +2145,18 @@
       "status": "machine",
       "srcHash": "f09228cec3e277b2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3ed7082f80e2217d"
     },
     "691d32eb-8d60-4b4d-9754-78729406256e/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might like poisons that are simple to use, <Character key=Guest str=GenderSubject/> also see importance in that if the poison will torture the taker...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的身份……<NL><Character key=Guest str=Gender/>评判毒药，或许在乎其是否易于使用、发作时是否猛烈……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это звание...<NL><Character key=Guest str=Gender/> возможно, вам понравятся простые в использовании яды, <Character key=Guest str=GenderSubject/> также вижу важность в том, что если яд будет мучить принимающего...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Хе-хе, учитывая положение <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> может предпочитать яды, простые в применении, а <Character key=Guest str=GenderSubject/> также обращает внимание на то, насколько мучительно они действуют на принявшего их...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "ca0d6911e1dadf95",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "42c511efdd1605a7"
     },
     "691d32eb-8d60-4b4d-9754-78729406256e/Option_1": {
       "en": "(I see...)",
@@ -1972,16 +2165,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "7bae9e3d-18a4-4bc5-b288-321c945c18df/EventContent": {
       "en": "\"Interesting, interesting! Let me have a closer look...\"<NL>A senior approaches <Character key=RoleTaiwu str=Name /> and is astonished to find the concocted toxicology made by <Character key=RoleTaiwu str=Name />.<NL><Character key=RoleTaiwu str=GenderSubject/> quickly examines it and then exclaims,<NL>\"I've seen this toxicology mentioned in a book before; it's remarkably convenient!\"<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />'s ratings in the Toxicology Tournament has increased!)</color>",
       "cn": "“有趣有趣，且待我仔细看看……”<NL>一名老者行至<Character key=RoleTaiwu str=Name />身侧，意外发现<Character key=RoleTaiwu str=Name />正在配置的毒药，<NL>一时大为震惊，连忙取毒药细观，随后啧啧称赞道：<NL>“此毒我曾在书中见过，用来十分便利！”<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />在此次毒术大会中的评分上升了！）</color>",
-      "ru": "- Интересно, интересно! Дай-ка я посмотрю поближе...\"<NL>Подходит старший <Character key=RoleTaiwu str=Name /> и с удивлением обнаруживает состряпанную токсикологию, составленную <Character key=RoleTaiwu str=Name />.<NL><Character key=RoleTaiwu str=GenderSubject/> быстро осматривает его, а затем восклицает,<NL>\"Я уже видел упоминание об этой токсикологии в какой-то книге; это удивительно удобно!\"<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />рейтинг в турнире по токсикологии вырос!)</color>",
-      "status": "machine",
+      "ru": "\"Интересно, интересно! Дай-ка я посмотрю поближе...\"<NL>Старец подходит к <Character key=RoleTaiwu str=Name /> и с удивлением обнаруживает приготовленный <Character key=RoleTaiwu str=Name /> яд.<NL><Character key=RoleTaiwu str=GenderSubject/> быстро осматривает его, а затем восклицает,<NL>\"Я уже видел упоминание об этом яде в книге; его очень удобно использовать!\"<NL><NL><color=#lightgrey>(Рейтинг <Character key=RoleTaiwu str=Name /> на турнире по токсикологии вырос!)</color>",
+      "status": "judged",
       "srcHash": "93bddda915312980",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "7cc8b130c4062f50"
     },
     "7bae9e3d-18a4-4bc5-b288-321c945c18df/Option_1": {
       "en": "(Never been better...)",
@@ -1990,16 +2185,18 @@
       "status": "machine",
       "srcHash": "49ee8957df32f51f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "acd9b32e7bdc3465"
     },
     "350f84b3-74a6-4f6c-bc27-3e2a541b3ad7/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> has won this debate, earning many praises<NL>and seeing an increase in scores at the Toxicology Tournament!<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />'s rating in this Toxicology Tournament has risen...)</color>",
       "cn": "<Character key=RoleTaiwu str=Name />在此次较艺中获胜，博得了诸多赞誉，<NL>在毒术大会的评分上升了！<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />在此次毒术大会中的评分上升了……）</color>",
-      "ru": "<Character key=RoleTaiwu str=Name /> выиграл этот диспут, заслужив множество похвал<NL>и наблюдаем увеличение количества баллов на турнире по токсикологии!<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />рейтинг в этом турнире по токсикологии повысился...)</color>",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> выиграл этот диспут, заслужив множество похвал<NL>и повысив свой рейтинг на турнире по токсикологии!<NL><NL><color=#lightgrey>(Рейтинг <Character key=RoleTaiwu str=Name /> на этом турнире по токсикологии повысился...)</color>",
+      "status": "judged",
       "srcHash": "4c346ef0a9401d41",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "63da689d02616b39"
     },
     "350f84b3-74a6-4f6c-bc27-3e2a541b3ad7/Option_1": {
       "en": "(This is good...)",
@@ -2008,7 +2205,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "ec2180cd-a726-4f75-b375-ccad3662a389/EventContent": {
       "en": "As <Character key=RoleTaiwu str=Name /> enters the venue, the debate has not yet begun...<NL>Before long, an elderly man dressed in fine attire ascends a high platform at the center of the venue and gives a fist-and-palm salute to the crowd, saying,<NL>\"Others regard toxicology make as sinister and crooked, and we don't want to mingle with them.<NL>Let's each choose our own 'champion'!\"",
@@ -2017,7 +2215,8 @@
       "status": "machine",
       "srcHash": "2d04dd583f42b026",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-07-12T13:58:13.492Z",
+      "judgeHash": "e8947b12f554d99f"
     },
     "ec2180cd-a726-4f75-b375-ccad3662a389/Option_1": {
       "en": "(That's right...)",
@@ -2026,7 +2225,8 @@
       "status": "machine",
       "srcHash": "df3a3c508686a9e6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "05024d6e952fc2d0"
     },
     "f1be549b-21f9-40b1-9969-822eeec0a79e/EventContent": {
       "en": "nan",
@@ -2035,7 +2235,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "d046f2f1-b8a6-4c1c-b629-10ac68acd91e/EventContent": {
       "en": "\"As far as I know, <Character key=Guest str=Name /> holds great reputation among the Martial World...<NL><Character key=Guest str=Gender/>, even uses poisons, <Character key=Guest str=GenderSubject/> often uses the ones that are uncommon in the market, easy to use, and difficult to be noticed by the taker...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
@@ -2053,16 +2254,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "e35ad656-ab2a-4602-8ffa-749723e7dfd6/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might like poisons that are simple to use...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的身份……<NL><Character key=Guest str=Gender/>评判毒药，或许更在乎其是否易于使用……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это звание...<NL><Character key=Guest str=Gender/> возможно, вам понравятся Яды, которые просты в применении...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая звание <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> при оценке яда, возможно, больше ценит простоту применения...\"<NL>Ученик кузнеца осторожно принимает серебро и тихо шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "caa67d1158342c8e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "7dfdd7b3b14854b8"
     },
     "e35ad656-ab2a-4602-8ffa-749723e7dfd6/Option_1": {
       "en": "(I see...)",
@@ -2071,16 +2274,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "353965d9-c1a8-439d-a82c-279079e98302/EventContent": {
       "en": "For some reason, several detoxification Herbs are mistakenly added to the poison of <Character key=RoleTaiwu str=Name />,<NL>greatly reducing its toxicity. Without prompt remediation, this dose of poison is soon to be rendered ineffective...",
       "cn": "不知何故，<Character key=RoleTaiwu str=Name />的毒药中多出了几味解毒药材，<NL>大大降低了药物中的毒性，若不及时补救，这剂毒药很快便要毁于一旦……",
-      "ru": "По какой-то причине в яд для детоксикации ошибочно добавляют несколько трав для детоксикации организма. <Character key=RoleTaiwu str=Name />,<NL>значительно снижая его токсичность. Без оперативного лечения эта доза яда вскоре станет неэффективной...",
-      "status": "machine",
+      "ru": "По какой-то причине в яд <Character key=RoleTaiwu str=Name /> ошибочно добавили несколько трав для детоксикации,<NL>значительно снизив его токсичность. Без своевременного исправления эта порция яда вскоре станет непригодной...",
+      "status": "judged",
       "srcHash": "c22fd4ca1a2fe08c",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "2fc14a20810159a7"
     },
     "353965d9-c1a8-439d-a82c-279079e98302/Option_1": {
       "en": "(Neutralize the poison...)",
@@ -2089,7 +2294,8 @@
       "status": "machine",
       "srcHash": "bb913e9bb175c920",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "53bef569c5db1583"
     },
     "353965d9-c1a8-439d-a82c-279079e98302/Option_2": {
       "en": "(Feeling helpless...)",
@@ -2098,16 +2304,18 @@
       "status": "machine",
       "srcHash": "ae94316f9c3896ba",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "57f6ca0cf6784d36"
     },
     "c63eb21a-257a-4db3-bd96-dffc9b9a77d9/EventContent": {
       "en": "The elder hosting the competition ascends the platform and, seeing the quietness in the venue, politely says,<NL>\"Though time may be insufficient for everyone to showcase their true toxicologycraft, as it's the convention, we must adhere to the rules...\"<NL>\"Please, name your concoctions and present them to the platform...\"",
       "cn": "主持大会的老者登上高台，见得场内无人喧闹，方才拱手说道：<NL>“这些时间虽不够各位显出真正的毒术来，但既是大会，还是得按规矩行事……”<NL>“便请各位将所制毒药命名之后，呈至台上……”",
-      "ru": "Старейшина, ведущий соревнование, поднимается на помост и, видя тишину в зале, вежливо говорит,<NL>\"Хотя времени может быть недостаточно для того, чтобы каждый смог продемонстрировать свое истинное токсикологическое мастерство, поскольку это конвенция, мы должны придерживаться правил...\"<NL>\"Пожалуйста, назовите свои стряпни и представьте их на платформу...\"",
-      "status": "machine",
+      "ru": "Старейшина, ведущий соревнование, поднимается на помост и, видя тишину в зале, вежливо говорит,<NL>\"Хотя этого времени может быть недостаточно, чтобы каждый продемонстрировал своё истинное искусство приготовления ядов, раз это соревнование, мы должны соблюдать правила...\"<NL>\"Пожалуйста, назовите свои снадобья и представьте их на помосте...\"",
+      "status": "judged",
       "srcHash": "b6ee21447cfa2906",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "a6d794d8e524b426"
     },
     "c63eb21a-257a-4db3-bd96-dffc9b9a77d9/Option_1": {
       "en": "(...)",
@@ -2116,7 +2324,8 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "9dae2345-3401-478b-83ca-0de4331544ba/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might not have a particular preference when it comes to judging poisons...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
@@ -2134,7 +2343,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "fa5ac831-fa9e-49ee-a6d8-c38f8275f3b2/EventContent": {
       "en": "The Toxicology Tournament is in full swing.<NL>From the bamboo basket, usable poison are taken out by <Character key=RoleTaiwu str=Name />, their appearance observed, their efficacy pondered upon...<NL><NL>Poisons, difficult to wield at their base, are either refined, removing unnecessary elements to purify the poison and make their effects more potent when activated,<NL>or distilled, with the poison soaked in water and their essence extracted, making the toxins more soluble in the bloodstream and causing intense pain upon activation.<NL>How to proceed in this situation requires careful consideration...",
@@ -2152,7 +2362,8 @@
       "status": "machine",
       "srcHash": "29918b453100da9c",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "9984184ae289f672"
     },
     "fa5ac831-fa9e-49ee-a6d8-c38f8275f3b2/Option_2": {
       "en": "(Extract the poisonous juice...)",
@@ -2161,7 +2372,8 @@
       "status": "machine",
       "srcHash": "e22efc52501003fe",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f0446c368a894b87"
     },
     "6bf23cfe-5f72-4a19-bcbd-8dfc901fdf13/EventContent": {
       "en": "nan",
@@ -2170,7 +2382,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "de890645-b1f2-43b1-9231-b12ba811f0e4/EventContent": {
       "en": "nan",
@@ -2179,7 +2392,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "fd4df932-e9bb-4679-9635-bc7732e4b241/EventContent": {
       "en": "\"This <color=#yellow>Bloody Jade Bowl</color> is a treasure of this industry.<NL>Today, I present it to you, so that you can help the people among the livings and show great mercy to the world...\"<NL>Amidst the congratulations of the crowd, <Character key=RoleTaiwu str=Name /> ascends the high platform, receives the prize, and for a while, the cheers grew even louder,<NL>with everyone cheering and celebrating, unwilling to stop...",
@@ -2197,16 +2411,18 @@
       "status": "machine",
       "srcHash": "068b824887d8731b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8e64ad5c8c5c26cc"
     },
     "235690bf-06bf-4e6d-a03d-ff974aa778ae/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> focuses on poison making and ignores the forge apprentice...<NL>Seeing that <Character key=RoleTaiwu str=Name /> is not interested,<NL>the forge apprentice tidies up around <Character key=RoleTaiwu str=GenderObject/> hastily and leaves...",
       "cn": "<Character key=RoleTaiwu str=Name />专心制毒，不再理会学徒……<NL>学徒自讨没趣，将<Character key=RoleTaiwu str=Name />四周草草收拾了一番，<NL>便转身离去了……",
-      "ru": "<Character key=RoleTaiwu str=Name /> сосредотачивается на изготовлении яда и игнорирует ученика кузнеца...<NL>Видя, что <Character key=RoleTaiwu str=Name /> не заинтересован,<NL>ученик кузнеца убирает вокруг <Character key=RoleTaiwu str=GenderObject/> поспешно уходит...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> сосредотачивается на изготовлении яда и больше не обращает внимания на ученика кузнеца...<NL>Видя, что <Character key=RoleTaiwu str=Name /> не заинтересован,<NL>ученик кузнеца поспешно убирает вокруг <Character key=RoleTaiwu str=GenderObject/> и уходит...",
+      "status": "judged",
       "srcHash": "c6586ac0914fb0fb",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "7a66ecd44bd4a11e"
     },
     "235690bf-06bf-4e6d-a03d-ff974aa778ae/Option_1": {
       "en": "(Continue the competition...)",
@@ -2215,16 +2431,18 @@
       "status": "machine",
       "srcHash": "a2769c34d968a595",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "9e6aecbd7d952b55"
     },
     "cca10996-f559-4a4c-976a-015bb392d0e5/EventContent": {
       "en": "\"Well, I heard that <Character key=Guest str=Name /> has been weak recently...<NL>If the poison is not contigaious, <Character key=Guest str=Gender/> might not like it...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“据我所知，<Character key=Guest str=Name />近日身衰体弱……<NL>若是毒药不易传播，<Character key=Guest str=Gender/>恐怕不会喜欢……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, я слышал, что <Character key=Guest str=Name /> в последнее время был слаб...<NL>Если яд не соприкасается, <Character key=Guest str=Gender/> может, это и не понравится...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, я слышал, что <Character key=Guest str=Name /> в последнее время был слаб...<NL>Если яд плохо распространяется, <Character key=Guest str=Gender/> это, вероятно, не понравится...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "fa86e76c16bdbc47",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "e80e5541c25b6c57"
     },
     "cca10996-f559-4a4c-976a-015bb392d0e5/Option_1": {
       "en": "(I see...)",
@@ -2233,7 +2451,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "aedea8bd-8512-4640-867e-357f864cefd5/EventContent": {
       "en": "nan",
@@ -2242,16 +2461,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "0ac0174a-1c81-4995-878f-00567f51b319/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might like poisons that are simple to use...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的身份……<NL><Character key=Guest str=Gender/>评判毒药，或许更在乎其是否易于使用……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это звание...<NL><Character key=Guest str=Gender/> возможно, вам понравятся Яды, которые просты в применении...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая звание <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> при оценке яда, возможно, больше ценит простоту применения...\"<NL>Ученик кузнеца осторожно принимает серебро и тихо шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "caa67d1158342c8e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "7dfdd7b3b14854b8"
     },
     "0ac0174a-1c81-4995-878f-00567f51b319/Option_1": {
       "en": "(I see...)",
@@ -2260,25 +2481,28 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "6b455975-47d9-48a8-afcc-5fa59d168d3b/EventContent": {
       "en": "\"We'll see who's the better chef today...\"<NL>During the break in the competition, groups of medical learners gather to exchange ideas and discuss their techniques.<NL>At this moment, <Character key= CharacterId str=Name /> suddenly walks up to <Character key=RoleTaiwu str=Name /> and bluntly invites <Character key=RoleTaiwu str=Name /> to a debate...",
       "cn": "“孰高孰低，今日便能见个分晓……”<NL>大赛休息间隙，一众医者三五成群围聚在一处，相互交流探讨，<NL>这时，<Character key= CharacterId str=Name />忽然行至<Character key=RoleTaiwu str=Name />身前，直言要与<Character key=RoleTaiwu str=Name />较艺……",
-      "ru": "\"Посмотрим, кто сегодня лучший шеф-повар...\"<NL>Во время перерыва в соревнованиях группы студентов-медиков собираются, чтобы обменяться идеями и обсудить свои методики.<NL>В этот момент, <Character key= CharacterId str=Name /> внезапно подходит к <Character key=RoleTaiwu str=Name /> и прямо приглашает <Character key=RoleTaiwu str=Name /> на диспут...",
-      "status": "machine",
+      "ru": "\"Сегодня станет ясно, кто лучше...\"<NL>Во время перерыва в соревнованиях группы студентов-медиков собираются, чтобы обменяться идеями и обсудить свои методики.<NL>В этот момент <Character key= CharacterId str=Name /> внезапно подходит к <Character key=RoleTaiwu str=Name /> и прямо приглашает <Character key=RoleTaiwu str=Name /> на диспут...",
+      "status": "judged",
       "srcHash": "1e2ff616e816cfc2",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "66113cc3d1802514"
     },
     "6b455975-47d9-48a8-afcc-5fa59d168d3b/Option_1": {
       "en": "(Agree to the showdown...)",
       "cn": "（同意较艺……）",
-      "ru": "(Соглашаюсь на выяснение отношений...)",
-      "status": "machine",
+      "ru": "(Согласиться на состязание...)",
+      "status": "judged",
       "srcHash": "8ee6d728dc1cd6a2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "4bf880bb44bfa256"
     },
     "6b455975-47d9-48a8-afcc-5fa59d168d3b/Option_2": {
       "en": "(Have no such intention...)",
@@ -2287,16 +2511,18 @@
       "status": "machine",
       "srcHash": "f09228cec3e277b2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3ed7082f80e2217d"
     },
     "1ec60b54-b9b3-4f25-bcc6-8924267e3ab8/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> is defeated in this debate and becomes a loser to the crowd...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />'s rating on the Toxicology Tournament has declined...)</color>",
       "cn": "<Character key=RoleTaiwu str=Name />在此次较艺中败北，遭到了众人的耻笑……<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />在此次毒术大会中的评分下降了……）</color>",
-      "ru": "<Character key=RoleTaiwu str=Name /> терпит поражение в этом диспуте и становится проигравшим в глазах толпы...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name />рейтинг на турнире по токсикологии снизился...)</color>",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> терпит поражение в этом диспуте, и толпа высмеивает его...<NL><NL><color=#lightgrey>(Рейтинг <Character key=RoleTaiwu str=Name /> на турнире по токсикологии снизился...)</color>",
+      "status": "judged",
       "srcHash": "91ef96f9bd8120b2",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "efdf6ae68180fb78"
     },
     "1ec60b54-b9b3-4f25-bcc6-8924267e3ab8/Option_1": {
       "en": "(Feeling helpless...)",
@@ -2305,16 +2531,18 @@
       "status": "machine",
       "srcHash": "ae94316f9c3896ba",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "57f6ca0cf6784d36"
     },
     "5813014c-549e-486f-91c6-2d70cd0dc49a/EventContent": {
       "en": "At this point, there's no use overthinking it. It's better to remedy the situation first...<NL><Character key=RoleTaiwu str=Name /> categorizes Herbs like the poisonous herbs and toxic medicine, then cleans meticulously.<NL>After several rounds of processing, they are quickly transformed into the various required poison materials...",
       "cn": "事已至此，多想无益，还是先行补救要紧……<NL><Character key=RoleTaiwu str=Name />将毒草、毒物药等药材分门别类，切洗干净后，<NL>再进行数次加工，很快制成了所需的各类毒物材料……",
-      "ru": "На данный момент нет смысла переусердствовать с этим. Лучше сначала исправить ситуацию...<NL><Character key=RoleTaiwu str=Name /> классифицирует травы, такие как ядовитые травы и токсичные лекарства, а затем тщательно очищает.<NL>После нескольких раундов обработки они быстро превращаются в различные необходимые яды...",
-      "status": "machine",
+      "ru": "К этому моменту дальнейшие размышления уже бесполезны. Лучше сначала исправить ситуацию...<NL><Character key=RoleTaiwu str=Name /> сортирует травы, например ядовитые травы и токсичные лекарства, а затем тщательно их очищает.<NL>После нескольких этапов обработки они быстро превращаются в различные необходимые ядовитые материалы...",
+      "status": "judged",
       "srcHash": "51ad2ac4acd8f10a",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "0fbaba3f14736f12"
     },
     "5813014c-549e-486f-91c6-2d70cd0dc49a/Option_1": {
       "en": "(This is good...)",
@@ -2323,7 +2551,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "3171059d-2936-473d-a28f-daa36debd169/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> picks the poison extract and prepares making poison...",
@@ -2332,7 +2561,8 @@
       "status": "machine",
       "srcHash": "215592302e41d0ea",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "be84033cb328fa43"
     },
     "3171059d-2936-473d-a28f-daa36debd169/Option_1": {
       "en": "(Start making poison...)",
@@ -2341,16 +2571,18 @@
       "status": "machine",
       "srcHash": "8eca6e3219b02546",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "b1b5ad56c52312c6"
     },
     "fbd17bbe-079d-4aa2-90fe-20fd80b35602/EventContent": {
       "en": "Just as <Character key=RoleTaiwu str=Name /> is about to gather materials for poison,<NL><Character key=RoleTaiwu str=GenderSubject/> finds that the ingredients <Character key=RoleTaiwu str=GenderSubject/> has originally stored in <Character key=RoleTaiwu str=GenderPossessive/> pocket have disappeared without a trace.<NL><Character key=RoleTaiwu str=Name /> looks around, and sees everyone's expressions are normal, making <Character key=RoleTaiwu str=GenderObject/> difficult to discern who might have stolen them...",
       "cn": "<Character key=RoleTaiwu str=Name />正欲取材煎制时，<NL>却发现原本装置在口袋中的材料竟不翼而飞，<NL><Character key=RoleTaiwu str=Name />环视四周，只见众人神色平常，实在难以分辨是何人偷盗……",
-      "ru": "Точно так же, как <Character key=RoleTaiwu str=Name /> собирается собирать материалы для приготовления яда,<NL><Character key=RoleTaiwu str=GenderSubject/> обнаруживает, что ингредиенты <Character key=RoleTaiwu str=GenderSubject/> первоначально хранился в <Character key=RoleTaiwu str=GenderPossessive/> карман исчез бесследно.<NL><Character key=RoleTaiwu str=Name /> оглядывается вокруг и видит, что выражения лиц у всех нормальные, что заставляет <Character key=RoleTaiwu str=GenderObject/> трудно определить, кто мог их украсть...",
-      "status": "machine",
+      "ru": "Как раз когда <Character key=RoleTaiwu str=Name /> собирается взять материалы для приготовления яда,<NL><Character key=RoleTaiwu str=GenderSubject/> обнаруживает, что ингредиенты, которые <Character key=RoleTaiwu str=GenderSubject/> хранил в <Character key=RoleTaiwu str=GenderPossessive/> кармане, бесследно исчезли.<NL><Character key=RoleTaiwu str=Name /> оглядывается вокруг и видит, что лица у всех спокойны, поэтому <Character key=RoleTaiwu str=GenderObject/> никак не может определить, кто мог их украсть...",
+      "status": "judged",
       "srcHash": "d3176a2803388565",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "bc6add61db77368d"
     },
     "fbd17bbe-079d-4aa2-90fe-20fd80b35602/Option_1": {
       "en": "(...)",
@@ -2359,16 +2591,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2a65f3c6b802957d"
     },
     "2278f969-4829-4811-b952-e467becb2bb8/EventContent": {
       "en": "\"Well, I heard that <Character key=Guest str=Name /> has been suffering from a lack of Primordial Qi recently...<NL>If the poison is easy to be noticed, <Character key=Guest str=Gender/> will be very disappointed...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“据我所知，<Character key=Guest str=Name />近日元气亏损……<NL>若是毒药太容易被人察觉，<Character key=Guest str=Gender/>恐怕不会喜欢……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, я слышал, что <Character key=Guest str=Name /> в последнее время страдает от недостатка Изначальной Ци...<NL>Если яд легко заметить, <Character key=Guest str=Gender/> буду очень разочарован...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, я слышал, что <Character key=Guest str=Name /> в последнее время страдает от недостатка изначальной ци...<NL>Если яд легко обнаружить, <Character key=Guest str=Gender/> будет очень разочарован...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "0cd2f152cb323f7a",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "b2653daa388ca3bc"
     },
     "2278f969-4829-4811-b952-e467becb2bb8/Option_1": {
       "en": "(I see...)",
@@ -2377,7 +2611,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "b8007e03-d580-4419-b86a-3cd9719c34ae/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might not have a particular preference when it comes to judging poisons...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
@@ -2395,16 +2630,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "7dc2a3c8-6454-482c-af0a-6592e31caeb8/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might like poisons that are simple to use...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的身份……<NL><Character key=Guest str=Gender/>评判毒药，或许更在乎其是否易于使用……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это звание...<NL><Character key=Guest str=Gender/> возможно, вам понравятся Яды, которые просты в применении...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая звание <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> при оценке яда, возможно, больше ценит простоту применения...\"<NL>Ученик кузнеца осторожно принимает серебро и тихо шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "caa67d1158342c8e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "7dfdd7b3b14854b8"
     },
     "7dc2a3c8-6454-482c-af0a-6592e31caeb8/Option_1": {
       "en": "(I see...)",
@@ -2413,16 +2650,18 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "6e3f5c76-f5b6-450c-bbb6-6f44eda6604c/EventContent": {
       "en": "\"As far as I know, <Character key=Guest str=Name /> is notorious in the Martial World..<NL>It's said that the poisons <Character key=Guest str=Gender/> uses are highly contaguious and efficient, they make the taker suffer from great misery...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“据我所知，<Character key=Guest str=Name />在上江湖名声不好，<NL>据说<Character key=Guest str=Gender/>平常所用的多是易于传播、发作迅猛且能使人痛苦的毒药……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "- Насколько я знаю, <Character key=Guest str=Name /> пользуется дурной славой в мире боевых искусств..<NL>Говорят, что яды <Character key=Guest str=Gender/> употребление очень заразительно и эффективно, оно заставляет принимающего страдать от больших страданий...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Насколько я знаю, <Character key=Guest str=Name /> пользуется дурной славой в мире боевых искусств...<NL>Говорят, что яды, которые использует <Character key=Guest str=Gender/>, легко распространяются и быстро действуют, причиняя принявшему их сильные страдания...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет на ухо <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "644342a235168a7a",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "66e88d10f3db75a0"
     },
     "6e3f5c76-f5b6-450c-bbb6-6f44eda6604c/Option_1": {
       "en": "(I see...)",
@@ -2431,7 +2670,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     },
     "e9d988cd-2d74-4ae3-852e-4313d5e65834/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> selects several medicinal herbs and boils them together with the toxic materials.<NL>After a while, <Character key=RoleTaiwu str=Name /> removes the poison and its color and shape have changed.<NL>This poison should now be more complex in its usage and effects...",
@@ -2440,7 +2680,8 @@
       "status": "machine",
       "srcHash": "7895329030932111",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-07-12T13:58:13.492Z",
+      "judgeHash": "f4a3ae599e843477"
     },
     "e9d988cd-2d74-4ae3-852e-4313d5e65834/Option_1": {
       "en": "(This is good...)",
@@ -2449,7 +2690,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8d4c33a6d59a7d80"
     },
     "f186c507-a931-4486-bc6d-8aaefeb602e4/EventContent": {
       "en": "\"If there are any doubts, we can learn from each other...\"<NL>During the break in the competition, groups of medical learners gather to exchange ideas and discuss their techniques.<NL>At this moment, <Character key= CharacterId str=Name /> suddenly walks up to <Character key=RoleTaiwu str=Name /> and politely invites <Character key=RoleTaiwu str=Name /> to a debate...",
@@ -2458,16 +2700,18 @@
       "status": "machine",
       "srcHash": "6b43a6ad9a4b5d66",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T13:58:13.492Z"
+      "updatedAt": "2026-07-12T13:58:13.492Z",
+      "judgeHash": "b2ba2e9ab85c2be0"
     },
     "f186c507-a931-4486-bc6d-8aaefeb602e4/Option_1": {
       "en": "(Agree to the showdown...)",
       "cn": "（同意较艺……）",
-      "ru": "(Соглашаюсь на выяснение отношений...)",
-      "status": "machine",
+      "ru": "(Согласиться на состязание...)",
+      "status": "judged",
       "srcHash": "8ee6d728dc1cd6a2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "4bf880bb44bfa256"
     },
     "f186c507-a931-4486-bc6d-8aaefeb602e4/Option_2": {
       "en": "(Have no such intention...)",
@@ -2476,16 +2720,18 @@
       "status": "machine",
       "srcHash": "f09228cec3e277b2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3ed7082f80e2217d"
     },
     "a3f06632-d7de-410e-a2ff-799f4c347cc2/EventContent": {
       "en": "\"Well, considering <Character key=Guest str=Name />'s rank...<NL><Character key=Guest str=Gender/> might like poisons that are unique...\"<NL>The forge apprentice carefully accepts the Silver and whispers to <Character key=RoleTaiwu str=Name />'s ear...",
       "cn": "“嘿嘿，以<Character key=Guest str=Name />的身份……<NL><Character key=Guest str=Gender/>评判毒药，或许更在乎其是否独特……”<NL>学徒小心接过银钱，凑近<Character key=RoleTaiwu str=Name />耳畔小声回答道……",
-      "ru": "\"Ну, учитывая <Character key=Guest str=Name />это звание...<NL><Character key=Guest str=Gender/> возможно, вам понравятся уникальные Яды...\"<NL>Ученик кузнеца осторожно принимает серебро и шепчет <Character key=RoleTaiwu str=Name />его ухо...",
-      "status": "machine",
+      "ru": "\"Ну, учитывая звание <Character key=Guest str=Name />...<NL><Character key=Guest str=Gender/> при оценке ядов, возможно, больше ценит их уникальность...\"<NL>Ученик кузнеца осторожно принимает серебро и наклоняется к уху <Character key=RoleTaiwu str=Name />, тихо отвечая ему...",
+      "status": "judged",
       "srcHash": "78271b855cb7ddf2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T10:21:35.373Z",
+      "judgeHash": "bdf5db67f0598564"
     },
     "a3f06632-d7de-410e-a2ff-799f4c347cc2/Option_1": {
       "en": "(I see...)",
@@ -2494,7 +2740,8 @@
       "status": "machine",
       "srcHash": "e6aed76c3345ab03",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1f7b8a599df295"
     }
   }
 }

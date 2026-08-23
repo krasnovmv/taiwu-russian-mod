@@ -6,20 +6,22 @@
     "r0c0": {
       "en": "<align=\"center\">Village Uncovered</align>",
       "cn": "<align=\"center\">发现村落</align>",
-      "ru": "<align=\"center\">Непокрытая деревня</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Обнаруженная деревня</align>",
+      "status": "judged",
       "srcHash": "51f9966b1fb7b9cb",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "4529a033699c7669"
     },
     "r0c1": {
       "en": "Provisions can be exchanged for goods. Total exchangeable Provisions: 60~80.\\nExchanged Provisions = 5 + (Goods Tier + 1) × 5",
       "cn": "可以用货物换取补给。可换取的补给总量为60~80。\\n换取补给 = 5 + （货物品级 + 1） × 5",
-      "ru": "Провизию можно обменять на товары. Общее количество запасных частей: 60~80.\\nОбмененные запасы = 5 + (ранг товаров + 1) × 5",
-      "status": "machine",
+      "ru": "Провизию можно обменять на товары. Общее количество доступной для обмена провизии: 60~80.\\nОбмен провизии = 5 + (ранг товаров + 1) × 5",
+      "status": "judged",
       "srcHash": "53b1a95e2032e6b8",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "65d4c878a3a2fdf4"
     },
     "r1c0": {
       "en": "<align=\"center\">Caravan Encounter</align>",
@@ -28,16 +30,18 @@
       "status": "machine",
       "srcHash": "3725592fedb43a80",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "946a22b3b50f53d9"
     },
     "r1c1": {
       "en": "Provisions can be exchanged for goods. Total exchangeable Provisions: 40~60.\\nExchanged Provisions = 5 + (Goods Tier + 1) × 5",
       "cn": "可以用货物换取补给。可换取的补给总量为40~60。\\n换取补给 = 5 + （货物品级 + 1） × 5",
-      "ru": "Провизию можно обменять на товары. Общее количество запасных частей: 40~60.\\nОбмененные запасы = 5 + (ранг товаров + 1) × 5",
-      "status": "machine",
+      "ru": "Провизию можно обменять на товары. Общее количество доступной для обмена провизии: 40~60.\\nОбмен провизии = 5 + (ранг товаров + 1) × 5",
+      "status": "judged",
       "srcHash": "3cf786056b6c4204",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "d5ce95f0d3e86451"
     },
     "r2c0": {
       "en": "<align=\"center\">Found Orchard</align>",
@@ -46,7 +50,8 @@
       "status": "machine",
       "srcHash": "b95f439caec7c219",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "001a1e6357ac331d"
     },
     "r2c1": {
       "en": "Caravans may stop here to find provisions.\\nFindable provisions: 30-50. Monthly findable provisions: 10-15",
@@ -55,7 +60,8 @@
       "status": "machine",
       "srcHash": "afa7ef604085f603",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "71c53d4ba4af872e"
     },
     "r3c0": {
       "en": "<align=\"center\">Found Caravan Remains</align>",
@@ -64,7 +70,8 @@
       "status": "machine",
       "srcHash": "a50783385127569b",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "b04945c5db642228"
     },
     "r3c1": {
       "en": "Obtain a random good of Tier 5 to Tier 3. Triggers only when provisions are above 0.",
@@ -73,7 +80,8 @@
       "status": "machine",
       "srcHash": "6a869d4a4d6c34d0",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "77c4486ff27985cc"
     },
     "r4c0": {
       "en": "<align=\"center\">Ran into Bandits</align>",
@@ -82,7 +90,8 @@
       "status": "machine",
       "srcHash": "01ad7d80b295f5af",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "927ffe9ecf0ac9a7"
     },
     "r4c1": {
       "en": "Lose 1-3 random goods.",
@@ -91,7 +100,8 @@
       "status": "machine",
       "srcHash": "dc0ac62a230d8ecd",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "20acf91b5b77919e"
     },
     "r5c0": {
       "en": "Jostled Goods Damage",
@@ -100,7 +110,8 @@
       "status": "machine",
       "srcHash": "06dad77be8a455ad",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "38168ac7940cf35a"
     },
     "r5c1": {
       "en": "Lose 1 random good.",
@@ -109,7 +120,8 @@
       "status": "machine",
       "srcHash": "2a082bfa92163976",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "78a4f8ed2bf4c815"
     },
     "r6c0": {
       "en": "Assistance Received",
@@ -118,7 +130,8 @@
       "status": "machine",
       "srcHash": "e670f4b2e493e32f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "d8a737dfb004e8c8"
     },
     "r6c1": {
       "en": "Obtain 10-30 random provisions.",
@@ -127,16 +140,18 @@
       "status": "machine",
       "srcHash": "61b7286a1c13f4eb",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "201d4d338db55292"
     },
     "r7c0": {
       "en": "Wild Catch Discovered",
       "cn": "偶得野味",
-      "ru": "Обнаружен дикий улов",
-      "status": "machine",
+      "ru": "Случайно добыта дичь",
+      "status": "judged",
       "srcHash": "6eb0e5866d80887e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "0ac982224d72f7be"
     },
     "r7c1": {
       "en": "Obtain 10-30 random provisions.",
@@ -145,7 +160,8 @@
       "status": "machine",
       "srcHash": "61b7286a1c13f4eb",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "201d4d338db55292"
     },
     "r8c0": {
       "en": "Unacclimatized",
@@ -154,16 +170,18 @@
       "status": "machine",
       "srcHash": "dfa29493dfb88e76",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "5799fdb06ca035d4"
     },
     "r8c1": {
       "en": "Use 10-30 random provisions.",
       "cn": "随机消耗10~30补给。",
-      "ru": "Используйте 10-30 произвольных положений.",
-      "status": "machine",
+      "ru": "Используйте 10-30 случайных припасов.",
+      "status": "judged",
       "srcHash": "a22971a0835a8764",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "0c7620cb8bbbe922"
     },
     "r9c0": {
       "en": "Aided Passersby",
@@ -172,16 +190,18 @@
       "status": "machine",
       "srcHash": "341ae13f6e516a04",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "a27727f0d5e31ab7"
     },
     "r9c1": {
       "en": "Use 5-10 random provisions and gain 100 Reputation.",
       "cn": "随机消耗5~10补给，知名度提升100。",
-      "ru": "Используйте 5-10 случайных положений и получите 100 репутации.",
-      "status": "machine",
+      "ru": "Используйте 5-10 случайных припасов и получите 100 репутации.",
+      "status": "judged",
       "srcHash": "4f32feb1cfaa0d77",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "5947f9519b6bf9e3"
     },
     "r10c0": {
       "en": "Report back Insight",
@@ -190,7 +210,8 @@
       "status": "machine",
       "srcHash": "0718d6f658aba140",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-07-10T20:59:06.747Z",
+      "judgeHash": "0577fd3a23a5ea16"
     },
     "r10c1": {
       "en": "Acquire 1 random Western Regions Insight and gain 20 Reputation.",
@@ -199,7 +220,8 @@
       "status": "machine",
       "srcHash": "68da9af672e033f0",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "af23f889f8c6668f"
     },
     "r11c0": {
       "en": "Found Animal",
@@ -208,7 +230,8 @@
       "status": "machine",
       "srcHash": "a4dffef7ed23a6bc",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fd29326a49264fb1"
     },
     "r11c1": {
       "en": "Gain 20 Reputation.",
@@ -217,7 +240,8 @@
       "status": "machine",
       "srcHash": "2d0a547f30ba5b68",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "76358348a68a52a1"
     },
     "r12c0": {
       "en": "Found Plant",
@@ -226,7 +250,8 @@
       "status": "machine",
       "srcHash": "bedc0bd1ee6b49e5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "14d67ba26baf1fbb"
     },
     "r12c1": {
       "en": "Gain 20 Reputation.",
@@ -235,7 +260,8 @@
       "status": "machine",
       "srcHash": "2d0a547f30ba5b68",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "76358348a68a52a1"
     },
     "r13c0": {
       "en": "Rare Weather Encountered",
@@ -244,7 +270,8 @@
       "status": "machine",
       "srcHash": "e98b59cb4d9de20e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "0b2c1795b050489f"
     },
     "r13c1": {
       "en": "Gain 20 Reputation.",
@@ -253,7 +280,8 @@
       "status": "machine",
       "srcHash": "2d0a547f30ba5b68",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "76358348a68a52a1"
     },
     "r14c0": {
       "en": "Mirage Witnessed",
@@ -262,7 +290,8 @@
       "status": "machine",
       "srcHash": "73b741fc286b50f0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "619218078b5c27a8"
     },
     "r14c1": {
       "en": "Gain 30 Reputation.",
@@ -271,7 +300,8 @@
       "status": "machine",
       "srcHash": "191ff6f030afb1c6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "6e635170165c52f8"
     },
     "r15c0": {
       "en": "Found Apeman",
@@ -280,7 +310,8 @@
       "status": "machine",
       "srcHash": "b08d3113e8a71d96",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "44e78cbd79f1183f"
     },
     "r15c1": {
       "en": "Gain 50 Reputation.",
@@ -289,7 +320,8 @@
       "status": "machine",
       "srcHash": "523afa6dc4ee0017",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8b12862bff1be58a"
     },
     "r16c0": {
       "en": "Settlement Uncovered",
@@ -298,7 +330,8 @@
       "status": "machine",
       "srcHash": "5062c03e191afe99",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f627701becf78062"
     },
     "r16c1": {
       "en": "Gain 50 Reputation.",
@@ -307,7 +340,8 @@
       "status": "machine",
       "srcHash": "523afa6dc4ee0017",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8b12862bff1be58a"
     },
     "r17c0": {
       "en": "Got Lost",
@@ -316,16 +350,18 @@
       "status": "machine",
       "srcHash": "c755a1d184ad96a7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "44c576238394dc46"
     },
     "r17c1": {
       "en": "Gain 100 Reputation.",
       "cn": "知名度降低100。",
-      "ru": "Наберите 100 репутации.",
-      "status": "machine",
+      "ru": "Потеряйте 100 репутации.",
+      "status": "judged",
       "srcHash": "28c67263509d7b67",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "a404fc2637c3342e"
     }
   }
 }

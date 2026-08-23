@@ -6,11 +6,12 @@
     "3863fe60-4228-47ac-86b9-f1ef1f4a8115/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> looked through <Character key=TombId str=Name />'s grave,<NL>and alas, nothing was found...",
       "cn": "<Character key=RoleTaiwu str=Name />在<Character key=TombId str=Name />的坟中搜寻了一番，<NL>奈何一无所获……",
-      "ru": "<Character key=RoleTaiwu str=Name /> просмотрел <Character key=TombId str=Name />его могила,<NL>и, увы, ничего найдено не было...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> искал в могиле <Character key=TombId str=Name />,<NL>но, увы, ничего не нашёл...",
+      "status": "judged",
       "srcHash": "a3443e41002a1491",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "6935e827bcd9c5e6"
     },
     "3863fe60-4228-47ac-86b9-f1ef1f4a8115/Option_1": {
       "en": "(So be it...)",
@@ -19,16 +20,18 @@
       "status": "machine",
       "srcHash": "1dc994ed57593e7c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "42815997f7468fac"
     },
     "a0335d7a-6657-4101-a610-8e4ac7418412/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> found <color=#yellow><ArgBox key=RobbedResourceCount type=int/> </color> <Resource key=RobbedResourceType str=Name/> in <Character key=TombId str=Name />'s grave!",
       "cn": "<Character key=RoleTaiwu str=Name />在<Character key=TombId str=Name />的坟中寻得了 <color=#yellow><ArgBox key=RobbedResourceCount type=int/></color> <Resource key=RobbedResourceType str=Name/>！",
-      "ru": "<Character key=RoleTaiwu str=Name /> найденный <color=#yellow><ArgBox key=RobbedResourceCount type=int/> </color> <Resource key=RobbedResourceType str=Name/> в <Character key=TombId str=Name />это могила!",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> нашёл <color=#yellow><ArgBox key=RobbedResourceCount type=int/> </color> <Resource key=RobbedResourceType str=Name/> в могиле <Character key=TombId str=Name />!",
+      "status": "judged",
       "srcHash": "6db6821953f2e142",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "a29082f292b43ff0"
     },
     "a0335d7a-6657-4101-a610-8e4ac7418412/Option_1": {
       "en": "(That's great...)",
@@ -37,7 +40,8 @@
       "status": "machine",
       "srcHash": "7e9a2d0d91c4820f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "4324eb0a1ac9a2fc"
     },
     "00229576-d6f5-4c1c-9f5d-3b8856cffc56/EventContent": {
       "en": "Struck fatally by <Character key=SkeletonCharacterId str=Name />,<NL><Character key=RoleTaiwu str=Name /> collapsed in a pool of blood...",
@@ -46,7 +50,8 @@
       "status": "machine",
       "srcHash": "d04fe3b290ec07ab",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "277c9a29e3cdc8dc"
     },
     "00229576-d6f5-4c1c-9f5d-3b8856cffc56/Option_1": {
       "en": "Ugh... Ahh...",
@@ -55,7 +60,8 @@
       "status": "machine",
       "srcHash": "78d0c65e7e58ad0d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "39e6cbc8e24302ab"
     },
     "8aa1a1b2-14b7-4fa4-906f-a1501008d031/EventContent": {
       "en": "\"To actually make it here,<NL>you must have used something from beyond this world!\"",
@@ -64,7 +70,8 @@
       "status": "machine",
       "srcHash": "2cae024f485e8c99",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2ef83b34e9949820"
     },
     "8aa1a1b2-14b7-4fa4-906f-a1501008d031/Option_1": {
       "en": "(Eliminate them mercilessly...)",
@@ -73,7 +80,8 @@
       "status": "machine",
       "srcHash": "a8e2336390f32a82",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f259b324ed399e5d"
     },
     "93bca684-dfc9-4682-ae80-8108e129fcd2/EventContent": {
       "en": "nan",
@@ -82,16 +90,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "a8352e71-cf7b-49b9-8ea6-27a6af5d8128/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> spent some Silver and time<NL>to renovate <Character key=TombId str=Name />'s grave...",
       "cn": "<Character key=RoleTaiwu str=Name />花费了些许银钱与时间，<NL>为<Character key=TombId str=Name />修葺了坟墓……",
-      "ru": "<Character key=RoleTaiwu str=Name /> потратил немного серебра и времени<NL>для ремонта <Character key=TombId str=Name />это могила...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> потратил немного серебра и времени<NL>на ремонт могилы <Character key=TombId str=Name />...",
+      "status": "judged",
       "srcHash": "f95c089e41862185",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "4d8e889156bbb5e7"
     },
     "a8352e71-cf7b-49b9-8ea6-27a6af5d8128/Option_1": {
       "en": "(That's great...)",
@@ -100,16 +110,18 @@
       "status": "machine",
       "srcHash": "7e9a2d0d91c4820f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "4324eb0a1ac9a2fc"
     },
     "1acb89db-0416-477c-b2d8-c73daca33494/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> faced an attack at <Character key=SkeletonCharacterId str=Name />'s grave!",
       "cn": "<Character key=RoleTaiwu str=Name />在<Character key=SkeletonCharacterId str=Name />的坟中遭遇袭击！",
-      "ru": "<Character key=RoleTaiwu str=Name /> столкнулся с атакой в <Character key=SkeletonCharacterId str=Name />это могила!",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> подвергся атаке в могиле <Character key=SkeletonCharacterId str=Name />!",
+      "status": "judged",
       "srcHash": "1f8c47ac56b06d0e",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T15:28:39.104Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "86532beb33c188b1"
     },
     "1acb89db-0416-477c-b2d8-c73daca33494/Option_1": {
       "en": "(Engage in battle...)",
@@ -118,16 +130,18 @@
       "status": "machine",
       "srcHash": "778c64b705b87cab",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "98333660cb516cad"
     },
     "bd3fc9ec-2b1c-43df-a6f6-12da17d6fc8f/EventContent": {
       "en": "The horrible creature that resembled <Character key=SkeletonCharacterId str=Name /> was defeated by <Character key=RoleTaiwu str=Name /> with a single blow,<NL>and its scattered white bones turned to ash and sunk back into the ground...",
       "cn": "形似<Character key=SkeletonCharacterId str=Name />的可怖之物被<Character key=RoleTaiwu str=Name />一击而溃，<NL>散落在地的白骨化作片片死灰，重又钻入地下……",
-      "ru": "Ужасное существо, похожее на <Character key=SkeletonCharacterId str=Name /> был побежден <Character key=RoleTaiwu str=Name /> одним ударом,<NL>и его разбросанные белые кости превратились в пепел и снова погрузились в землю...",
-      "status": "machine",
+      "ru": "Ужасное существо, похожее на <Character key=SkeletonCharacterId str=Name /> было побеждено <Character key=RoleTaiwu str=Name /> одним ударом,<NL>и его разбросанные белые кости превратились в пепел и снова погрузились в землю...",
+      "status": "judged",
       "srcHash": "aa76fb1731a70181",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "26fa64b2bee68970"
     },
     "bd3fc9ec-2b1c-43df-a6f6-12da17d6fc8f/Option_1": {
       "en": "(Still a bit shaken...)",
@@ -136,16 +150,18 @@
       "status": "machine",
       "srcHash": "4720d401dffa42cc",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "94532b362b765c94"
     },
     "65a437f1-9a91-416f-bbb2-f35d62229191/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> looked through <Character key=TombId str=Name />'s tomb,<NL>and alas, nothing was found despite their effort...",
       "cn": "<Character key=RoleTaiwu str=Name />在<Character key=TombId str=Name />的墓中探寻了一番，<NL>奈何一番辛苦之下，仍旧一无所获……",
-      "ru": "<Character key=RoleTaiwu str=Name /> просмотрел <Character key=TombId str=Name />его могила,<NL>и, увы, несмотря на их усилия, ничего найдено не было...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> искал в могиле <Character key=TombId str=Name />,<NL>но, увы, несмотря на все усилия, ничего не нашёл...",
+      "status": "judged",
       "srcHash": "00e96965b2d49bac",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "3688b3ac25c431df"
     },
     "65a437f1-9a91-416f-bbb2-f35d62229191/Option_1": {
       "en": "(So be it...)",
@@ -154,16 +170,18 @@
       "status": "machine",
       "srcHash": "1dc994ed57593e7c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "42815997f7468fac"
     },
     "e357bf81-75dc-48cc-b47e-98217d622954/EventContent": {
       "en": "Today, <Character key=RoleTaiwu str=Name /> came to <Character key=TombId str=Name />'s grave.<NL>{0}",
       "cn": "这一日，<Character key=RoleTaiwu str=Name />来到<Character key=TombId str=Name />的埋骨之地，<NL>{0}",
-      "ru": "Сегодня, <Character key=RoleTaiwu str=Name /> пришел к <Character key=TombId str=Name />это могила.<NL>{0}",
-      "status": "machine",
+      "ru": "Сегодня <Character key=RoleTaiwu str=Name /> пришёл к могиле <Character key=TombId str=Name />.<NL>{0}",
+      "status": "judged",
       "srcHash": "c90941b0866a119c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "f3d3025d3f0bd2db"
     },
     "e357bf81-75dc-48cc-b47e-98217d622954/Option_1": {
       "en": "(Honor the deceased...)",
@@ -172,7 +190,8 @@
       "status": "machine",
       "srcHash": "b40b7b4530785932",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e1968211137b26ed"
     },
     "e357bf81-75dc-48cc-b47e-98217d622954/Option_2": {
       "en": "(Honor the deceased...)",
@@ -181,7 +200,8 @@
       "status": "machine",
       "srcHash": "b40b7b4530785932",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e1968211137b26ed"
     },
     "e357bf81-75dc-48cc-b47e-98217d622954/Option_3": {
       "en": "(Honor the deceased...)",
@@ -190,7 +210,8 @@
       "status": "machine",
       "srcHash": "b40b7b4530785932",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e1968211137b26ed"
     },
     "e357bf81-75dc-48cc-b47e-98217d622954/Option_4": {
       "en": "(Honor the deceased...)",
@@ -199,7 +220,8 @@
       "status": "machine",
       "srcHash": "b40b7b4530785932",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e1968211137b26ed"
     },
     "e357bf81-75dc-48cc-b47e-98217d622954/Option_5": {
       "en": "(Renovate the grave...)",
@@ -208,7 +230,8 @@
       "status": "machine",
       "srcHash": "8ffdd05d2e7ac29f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "067f87992f0d324f"
     },
     "e357bf81-75dc-48cc-b47e-98217d622954/Option_6": {
       "en": "(Renovate the grave...)",
@@ -217,7 +240,8 @@
       "status": "machine",
       "srcHash": "8ffdd05d2e7ac29f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "067f87992f0d324f"
     },
     "e357bf81-75dc-48cc-b47e-98217d622954/Option_7": {
       "en": "(Renovate the grave...)",
@@ -226,16 +250,18 @@
       "status": "machine",
       "srcHash": "8ffdd05d2e7ac29f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "067f87992f0d324f"
     },
     "e357bf81-75dc-48cc-b47e-98217d622954/Option_8": {
       "en": "(Renovate the grave...)<color=#darkgrey>[The grave has reached its max level]</color>",
       "cn": "（修葺坟墓……）<color=#darkgrey>[该坟墓的等级已达最高]</color>",
-      "ru": "(Отремонтируйте могилу...)<color=#darkgrey>[Количество могил достигло максимального уровня]</color>",
-      "status": "machine",
+      "ru": "(Отремонтируйте могилу...)<color=#darkgrey>[Эта могила достигла максимального уровня]</color>",
+      "status": "judged",
       "srcHash": "aef4ba3dd58350d0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "d5db32d6c0a24219"
     },
     "e357bf81-75dc-48cc-b47e-98217d622954/Option_9": {
       "en": "(Tomb raiding...)",
@@ -244,7 +270,8 @@
       "status": "machine",
       "srcHash": "f1b0ed1cce7067a2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "6cc15a8284d4d8da"
     },
     "e357bf81-75dc-48cc-b47e-98217d622954/Option_10": {
       "en": "(View life story...)",
@@ -253,7 +280,8 @@
       "status": "machine",
       "srcHash": "57e24f3ffae616e9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "4caf5114d7f7a515"
     },
     "e357bf81-75dc-48cc-b47e-98217d622954/Option_11": {
       "en": "(Take leave...)",
@@ -262,16 +290,18 @@
       "status": "machine",
       "srcHash": "68199d8afdebbe59",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "eeb3a7ad02f81f80"
     },
     "fedf02e0-2c4c-45da-b9b0-b9d04b465885/EventContent": {
       "en": "No match for <Character key=SkeletonCharacterId str=Name />,<NL><Character key=RoleTaiwu str=Name /> hastily fled this place...",
       "cn": "<Character key=RoleTaiwu str=Name />不敌<Character key=SkeletonCharacterId str=Name />，<NL>只得仓惶逃离了此地……",
-      "ru": "Не подходит для <Character key=SkeletonCharacterId str=Name />,<NL><Character key=RoleTaiwu str=Name /> поспешно покинул это место...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> не смог одолеть <Character key=SkeletonCharacterId str=Name />,<NL>и поспешно бежал с этого места...",
+      "status": "judged",
       "srcHash": "189f9949e5dfca6e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "538cd2b63ddd999c"
     },
     "fedf02e0-2c4c-45da-b9b0-b9d04b465885/Option_1": {
       "en": "(Leave this place...)",
@@ -280,16 +310,18 @@
       "status": "machine",
       "srcHash": "aaf9123a10e0069a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "866f1cfc3bb3d1c9"
     },
     "314fbab7-3dc4-439d-ac9f-8d9ddd8f4e5c/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> thoroughly cleaned the surrounding area.<NL>Then, they burned some joss paper and placed some offerings to honor the deceased...",
       "cn": "<Character key=RoleTaiwu str=Name />将周边清扫了一番，<NL>又在此处焚烧了一些纸钱，摆上了些许祭品，以示对逝者的敬意……",
-      "ru": "<Character key=RoleTaiwu str=Name /> тщательно очистили прилегающую территорию.<NL>Затем они сожгли немного папиросной бумаги и сделали несколько подношений в честь покойного...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> тщательно очистил прилегающую территорию.<NL>Затем он сжёг немного ритуальной бумаги и поставил подношения в честь покойного...",
+      "status": "judged",
       "srcHash": "67a65dd81cf81c2e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "3975f986825a56f6"
     },
     "314fbab7-3dc4-439d-ac9f-8d9ddd8f4e5c/Option_1": {
       "en": "(That's great...)",
@@ -298,16 +330,18 @@
       "status": "machine",
       "srcHash": "7e9a2d0d91c4820f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "4324eb0a1ac9a2fc"
     },
     "553366e1-54a4-4116-805b-578d472d3c87/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> found <Item key=RobbedItemKey str=ColorName/> in <Character key=TombId str=Name />'s grave!",
       "cn": "<Character key=RoleTaiwu str=Name />在<Character key=TombId str=Name />的坟中寻得了<Item key=RobbedItemKey str=ColorName/>！",
-      "ru": "<Character key=RoleTaiwu str=Name /> найденный <Item key=RobbedItemKey str=ColorName/> в <Character key=TombId str=Name />это могила!",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> нашёл <Item key=RobbedItemKey str=ColorName/> в могиле <Character key=TombId str=Name />!",
+      "status": "judged",
       "srcHash": "6217bb58ccf2ba91",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "680a5acb7fd8d7a7"
     },
     "553366e1-54a4-4116-805b-578d472d3c87/Option_1": {
       "en": "(That's great...)",
@@ -316,7 +350,8 @@
       "status": "machine",
       "srcHash": "7e9a2d0d91c4820f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "4324eb0a1ac9a2fc"
     }
   }
 }

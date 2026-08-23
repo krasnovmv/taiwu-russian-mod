@@ -10,7 +10,8 @@
       "status": "machine",
       "srcHash": "33fed59e4a8e1b93",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "7e1f5e5cd26b1eb3"
     },
     "r0c1": {
       "en": "<align=\"center\">Guard</align>",
@@ -19,25 +20,28 @@
       "status": "machine",
       "srcHash": "e9d4c86642de2cc8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3e06a421bddba1be"
     },
     "r0c2": {
       "en": "Due to growing hostility\\u002c the companion may interrupt the main combatant's <color=#6fb6ff><u><link=\"施展功法\">technique casting</link></u></color>.",
       "cn": "因心生嫌隙，可能在主战者<color=#6fb6ff><u><link=\"施展功法\">施展功法</link></u></color>时，伺机将主战者的施展打断。",
-      "ru": "Из-за растущей враждебности\\u002c компаньон может прервать действия главного бойца. <color=#6fb6ff><u><link=\"施展功法\">техника литья</link></u></color>.",
-      "status": "machine",
+      "ru": "Из-за растущей враждебности\\u002c компаньон может прервать применение техник главного бойца: <color=#6fb6ff><u><link=\"施展功法\">применение техник</link></u></color>.",
+      "status": "judged",
       "srcHash": "02d02e155080ab8d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "2185c42e63c6f87b"
     },
     "r1c0": {
       "en": "<align=\"center\">Entrapment</align>",
       "cn": "<align=\"center\">陷害</align>",
-      "ru": "<align=\"center\">Заманивание в ловушку</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Подстава</align>",
+      "status": "judged",
       "srcHash": "dc9d684824c82560",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "ae35711b7a178033"
     },
     "r1c1": {
       "en": "<align=\"center\">Tactic</align>",
@@ -46,16 +50,18 @@
       "status": "machine",
       "srcHash": "34d90b487685492f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "476a0de3305d00cf"
     },
     "r1c2": {
       "en": "Due to growing hostility\\u002c the companion may push or pull the main combatant into the enemy's <color=#6fb6ff><u><link=\"攻击范围\">attack range</link></u></color>.",
       "cn": "因心生嫌隙，可能在主战者不在敌人的<color=#6fb6ff><u><link=\"攻击范围\">攻击范围</link></u></color>内时，伺机将主战者向敌人的攻击范围内推拉。",
-      "ru": "Из-за растущей враждебности\\u002c напарник может толкнуть или втянуть главного бойца в объятия противника. <color=#6fb6ff><u><link=\"攻击范围\">дальность атаки</link></u></color>.",
-      "status": "machine",
+      "ru": "Из-за растущей враждебности\\u002c напарник может толкнуть или втянуть главного бойца в <color=#6fb6ff><u><link=\"攻击范围\">дальность атаки</link></u></color> противника.",
+      "status": "judged",
       "srcHash": "c38b04c96dcba991",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "956cbe7e548620c1"
     },
     "r2c0": {
       "en": "<align=\"center\">Sneak Attack</align>",
@@ -64,25 +70,28 @@
       "status": "machine",
       "srcHash": "40a701d829cd072b",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "66b191677316f67a"
     },
     "r2c1": {
       "en": "<align=\"center\">Offense</align>",
       "cn": "<align=\"center\">进攻</align>",
-      "ru": "<align=\"center\">Оскорбление</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Наступление</align>",
+      "status": "judged",
       "srcHash": "b17bbfad7f1fe51e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "34f1ad5e6cbbaf74"
     },
     "r2c2": {
       "en": "Due to growing hostility\\u002c the companion may launch an <color=#6fb6ff><u><link=\"兵器攻击\">weapon attack</link></u></color> against the main combatant\\u002c causing <color=#6fb6ff><u><link=\"破绽\">Openings</link></u></color> and <color=#6fb6ff><u><link=\"封穴\">sealed acupoints</link></u></color>.",
       "cn": "因心生嫌隙，可能伺机偷袭主战者，对主战者进行<color=#6fb6ff><u><link=\"兵器攻击\">兵器攻击</link></u></color>，并造成<color=#6fb6ff><u><link=\"破绽\">破绽</link></u></color>、<color=#6fb6ff><u><link=\"封穴\">封穴</link></u></color>。",
-      "ru": "Из-за растущей враждебности\\u002c компаньон может запустить <color=#6fb6ff><u><link=\"兵器攻击\">атака с оружием</link></u></color> против главного участника боевых действий\\u002c вызывающий <color=#6fb6ff><u><link=\"破绽\">Отверстия</link></u></color> и <color=#6fb6ff><u><link=\"封穴\">запечатанные акупунктурные точки</link></u></color>.",
-      "status": "machine",
+      "ru": "Из-за растущей враждебности\\u002c компаньон может провести <color=#6fb6ff><u><link=\"兵器攻击\">атаку оружием</link></u></color> против главного бойца\\u002c вызвав <color=#6fb6ff><u><link=\"破绽\">уязвимости</link></u></color> и <color=#6fb6ff><u><link=\"封穴\">блокировку акупунктурных точек</link></u></color>.",
+      "status": "judged",
       "srcHash": "9f8178bcbca617f0",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "e29d289347ab1e23"
     },
     "r3c0": {
       "en": "<align=\"center\">Energy Dispersion</align>",
@@ -91,7 +100,8 @@
       "status": "machine",
       "srcHash": "308fa4d0c037c7ca",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "eae3fc748add606c"
     },
     "r3c1": {
       "en": "<align=\"center\">Guard</align>",
@@ -100,7 +110,8 @@
       "status": "machine",
       "srcHash": "e9d4c86642de2cc8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3e06a421bddba1be"
     },
     "r3c2": {
       "en": "Due to growing hostility\\u002c the companion may nullify the main combatant's <color=#6fb6ff><u><link=\"护体功法\">Protection Techniques</link></u></color> and <color=#6fb6ff><u><link=\"身法\">Footwork Arts</link></u></color> during their practice.",
@@ -109,7 +120,8 @@
       "status": "machine",
       "srcHash": "e0ec5aad066f7c14",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "d719ba2ffe48680d"
     },
     "r4c0": {
       "en": "<align=\"center\">Covert Harm</align>",
@@ -118,16 +130,18 @@
       "status": "machine",
       "srcHash": "9b781db290270814",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8692925f0f2b3875"
     },
     "r4c1": {
       "en": "<align=\"center\">Offense</align>",
       "cn": "<align=\"center\">进攻</align>",
-      "ru": "<align=\"center\">Оскорбление</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Наступление</align>",
+      "status": "judged",
       "srcHash": "b17bbfad7f1fe51e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "34f1ad5e6cbbaf74"
     },
     "r4c2": {
       "en": "Due to growing hostility\\u002c the companion may use medical art or toxicology to inflict Injuries or Toxins on the main combatant.",
@@ -136,7 +150,8 @@
       "status": "machine",
       "srcHash": "216cc0d9171b25df",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "587db9a6f9149dec"
     },
     "r5c0": {
       "en": "<align=\"center\">Entanglement</align>",
@@ -145,34 +160,38 @@
       "status": "machine",
       "srcHash": "c00ba13758fe1a33",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "174552a356e75090"
     },
     "r5c1": {
       "en": "<align=\"center\">Offense</align>",
       "cn": "<align=\"center\">进攻</align>",
-      "ru": "<align=\"center\">Оскорбление</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Наступление</align>",
+      "status": "judged",
       "srcHash": "b17bbfad7f1fe51e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "34f1ad5e6cbbaf74"
     },
     "r5c2": {
       "en": "Due to growing hostility\\u002c the companion may reduce all Hit attributes and Deflect attributes of the main combatant in a short time.",
       "cn": "因心生嫌隙，可能伺机在短时间内，降低主战者的所有命中属性和化解属性。",
-      "ru": "Из-за растущей враждебности\\u002c компаньон может уменьшить все характеристики попадания и отклонить характеристики основного бойца за короткое время.",
-      "status": "machine",
+      "ru": "Из-за растущей враждебности\\u002c компаньон может за короткое время снизить все характеристики попадания и характеристики отражения главного бойца.",
+      "status": "judged",
       "srcHash": "ce12b5dd346a3ae9",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "fe798bdfad4fd322"
     },
     "r6c0": {
       "en": "<align=\"center\">Disruption</align>",
       "cn": "<align=\"center\">扰乱</align>",
-      "ru": "<align=\"center\">Разрушение</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Нарушение</align>",
+      "status": "judged",
       "srcHash": "e9501b020e8233cd",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "3e79b6818e1580ba"
     },
     "r6c1": {
       "en": "<align=\"center\">Guard</align>",
@@ -181,25 +200,28 @@
       "status": "machine",
       "srcHash": "e9d4c86642de2cc8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3e06a421bddba1be"
     },
     "r6c2": {
       "en": "Due to growing hostility\\u002c the companion may interrupt the main combatant's <color=#6fb6ff><u><link=\"战斗行为\">Combat Actions</link></u></color>.",
       "cn": "因心生嫌隙，可能在主战者进行各项<color=#6fb6ff><u><link=\"战斗行为\">战斗行为</link></u></color>时，伺机将行为打断。",
-      "ru": "Из-за растущей враждебности\\u002c компаньон может прервать действия главного бойца. <color=#6fb6ff><u><link=\"战斗行为\">Боевые действия</link></u></color>.",
-      "status": "machine",
+      "ru": "Из-за растущей враждебности\\u002c компаньон может прервать <color=#6fb6ff><u><link=\"战斗行为\">боевые действия</link></u></color> главного бойца.",
+      "status": "judged",
       "srcHash": "23a1c67eee864a4a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "6a04b3d29b3ee6d5"
     },
     "r7c0": {
       "en": "<align=\"center\">Qi Dispersion</align>",
       "cn": "<align=\"center\">散气</align>",
-      "ru": "<align=\"center\">Дисперсия Ци</align>",
-      "status": "machine",
+      "ru": "<align=\"center\">Рассеивание ци</align>",
+      "status": "judged",
       "srcHash": "0ac226ec59a7960c",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "20e1ef1b02097038"
     },
     "r7c1": {
       "en": "<align=\"center\">Tactic</align>",
@@ -208,7 +230,8 @@
       "status": "machine",
       "srcHash": "34d90b487685492f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "476a0de3305d00cf"
     },
     "r7c2": {
       "en": "Due to growing hostility\\u002c the companion may disperse the main combatant's True Qi.",
@@ -217,7 +240,8 @@
       "status": "machine",
       "srcHash": "6312cd8f4cdff984",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "dc88ebc249cb1d95"
     }
   }
 }

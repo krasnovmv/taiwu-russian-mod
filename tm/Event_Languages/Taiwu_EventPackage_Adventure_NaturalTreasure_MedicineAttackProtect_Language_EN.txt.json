@@ -10,16 +10,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "adc83cd9-c2b6-4649-a363-8e4f1649cf25/EventContent": {
       "en": "Suddenly a figure charges in, though it is <Character key=Enemy str=Name/>, its aura feels discordant at first sight.<NL>Upon closer sniff, a rich medicinal scent lingers around it, presumably it was originally a herbal spirit,<NL>only due to external influence has it become an intruding enemy,<NL>Those well-versed in medical arts know all herbs, and can naturally discern its origin with Medical Art.<NL><NL>(Continuous identification in a short time will increase the Attainment requirement, current required Attainment for identification: <ArgBox key=造诣需求 type=int/>)",
       "cn": "忽见一道身影奔袭而来，虽是<Character key=Enemy str=Name/>，初见便觉气息违和。<NL>细嗅之下，有浓郁药气萦绕其身，想来本是草木灵材，<NL>只因外力作祟，才沦为来犯之敌，<NL>深谙医道者通晓百草，自可以医术辨其根底。<NL><NL>（短时间内连续辨识将会导致造诣需求提高，当前辨识所需造诣：<ArgBox key=造诣需求 type=int/>）",
-      "ru": "Внезапно в комнату врывается фигура, хотя это <Character key=Enemy str=Name/> На первый взгляд его аура кажется диссонирующей.<NL>При ближайшем рассмотрении вокруг него витает насыщенный лекарственный аромат, предположительно, изначально это был травяной дух,<NL>только благодаря внешнему влиянию она превратилась в вторгшегося врага,<NL>Те, кто хорошо разбирается в медицине, знают все травы и, естественно, могут определить их происхождение с помощью медицинского искусства.<NL><NL>(Непрерывная идентификация в течение короткого времени увеличит требования к достижению, текущее требуемое достижение для идентификации: <ArgBox key=造诣需求 type=int/>)",
-      "status": "machine",
+      "ru": "Внезапно врывается какая-то фигура — это <Character key=Enemy str=Name/>; при первом взгляде её аура кажется неестественной.<NL>При ближайшем рассмотрении вокруг неё витает насыщенный лекарственный аромат: по-видимому, изначально это был травяной дух,<NL>но лишь из-за внешнего влияния он превратился во врага, вторгшегося сюда,<NL>Те, кто хорошо разбирается в медицине, знают все травы и могут с помощью медицинского искусства определить его происхождение.<NL><NL>(Непрерывная идентификация в течение короткого времени увеличит требования к достижению, текущее требуемое достижение для идентификации: <ArgBox key=造诣需求 type=int/>)",
+      "status": "judged",
       "srcHash": "9159a5f4fe0e49cb",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "4916d5481d0cf8a4"
     },
     "adc83cd9-c2b6-4649-a363-8e4f1649cf25/Option_1": {
       "en": "(Identify the medicinal herbs...)",
@@ -28,7 +30,8 @@
       "status": "machine",
       "srcHash": "e17a20e772253857",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "81ff36d21fc955c3"
     },
     "adc83cd9-c2b6-4649-a363-8e4f1649cf25/Option_2": {
       "en": "(Engage in battle...)",
@@ -37,25 +40,28 @@
       "status": "machine",
       "srcHash": "778c64b705b87cab",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "530b44731fdb391f"
     },
     "adc83cd9-c2b6-4649-a363-8e4f1649cf25/Option_3": {
       "en": "(Charge straight through...)",
       "cn": "（横闯而过……）",
-      "ru": "(Заряжайте прямо сквозь...)",
-      "status": "machine",
+      "ru": "(Прорваться напрямик...)",
+      "status": "judged",
       "srcHash": "f4f2879eb9905e2e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "1815ca767be3f92e"
     },
     "adc83cd9-c2b6-4649-a363-8e4f1649cf25/Option_4": {
       "en": "(Dodge nimbly...)",
       "cn": "（灵活闪躲……）",
-      "ru": "(Ловко уклоняясь от уклонения...)",
-      "status": "machine",
+      "ru": "(Ловкое уклонение...)",
+      "status": "judged",
       "srcHash": "3efb7bd39189ba9c",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "b4524f274ed3ac86"
     },
     "adc83cd9-c2b6-4649-a363-8e4f1649cf25/Option_5": {
       "en": "(Hold your breath and sneak...)",
@@ -64,7 +70,8 @@
       "status": "machine",
       "srcHash": "bea1fa84f3043240",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "15a6ad49fc4f8b36"
     },
     "adc83cd9-c2b6-4649-a363-8e4f1649cf25/Option_6": {
       "en": "(Try to evade...)",
@@ -73,16 +80,18 @@
       "status": "machine",
       "srcHash": "8f4d5364978d9a7d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "522d4efad8da98c7"
     },
     "6173e4cc-5e2d-43b6-b164-aef4244026fc/EventContent": {
       "en": "If the <color=#orange>Mist Stone</color> here is destroyed, the fog shrouding this place may be dispelled.<NL>Yet the stone carries a sinister power and seems capable of turning nearby herbs into <color=#orange>Xiangshu Underlings</color>.<NL>Attempting to clear the mist will surely provoke their retaliation.",
       "cn": "若将此处的<color=#orange>迷雾石</color>摧毁，便可驱散此地迷雾，<NL>然此石邪异，似会将周遭草药幻化为<color=#orange>相枢爪牙</color>，<NL>清除迷雾之际，必会招致其反击。",
-      "ru": "Если бы <color=#orange>Туманный камень</color> здесь все разрушено, туман, окутывающий это место, может быть рассеян.<NL>Тем не менее, камень обладает зловещей силой и, кажется, способен превращать близлежащие травы в <color=#orange>Подчиненные Сяншу</color>.<NL>Попытка рассеять туман, несомненно, спровоцирует их ответные действия.",
-      "status": "machine",
+      "ru": "Если уничтожить здешний <color=#orange>Туманный камень</color>, туман, окутывающий это место, может рассеяться.<NL>Однако камень обладает зловещей силой и, похоже, способен превращать близлежащие травы в <color=#orange>приспешников Сяншу</color>.<NL>Попытка рассеять туман наверняка вызовет их ответный удар.",
+      "status": "judged",
       "srcHash": "9bfb7ef97ca0bdd9",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "9364d5b792c242aa"
     },
     "6173e4cc-5e2d-43b6-b164-aef4244026fc/Option_1": {
       "en": "(Dispel the mist...)",
@@ -91,7 +100,8 @@
       "status": "machine",
       "srcHash": "8fc6e3c32a8105f8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f98e7d3967a63e28"
     },
     "6173e4cc-5e2d-43b6-b164-aef4244026fc/Option_2": {
       "en": "(Think of another move...)",
@@ -100,16 +110,18 @@
       "status": "machine",
       "srcHash": "bc41b83c2f620588",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "edcad26946efd600"
     },
     "5f5e88f4-ef0c-465d-ab64-274deaf69fac/EventContent": {
       "en": "The creature has been successfully identified, reverting into <ArgBox key=资源量 type=int/> Medicinal and <Item key=奖励引子 str=ColorName/>.",
       "cn": "成功辨识了这个对方，对方化为了<ArgBox key=资源量 type=int/>药材以及<Item key=奖励引子 str=ColorName/>",
-      "ru": "Существо было успешно идентифицировано, возвращаясь в <ArgBox key=资源量 type=int/> Лекарственные и <Item key=奖励引子 str=ColorName/>.",
-      "status": "machine",
+      "ru": "Существо успешно идентифицировано и превратилось в <ArgBox key=资源量 type=int/> лекарственные травы и <Item key=奖励引子 str=ColorName/>.",
+      "status": "judged",
       "srcHash": "275614988e04156a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "f65fa40069750a2e"
     },
     "5f5e88f4-ef0c-465d-ab64-274deaf69fac/Option_1": {
       "en": "(This is good...)",
@@ -118,7 +130,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z",
+      "judgeHash": "9e804963c3d3c75b"
     },
     "2cd201c0-1d27-40bb-bad5-9a6418635f19/EventContent": {
       "en": "nan",
@@ -127,7 +140,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "cf11c5fe-3c4d-4624-a102-2b6bb0b02581/EventContent": {
       "en": "nan",
@@ -136,7 +150,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "0811171b-a718-4c14-a725-171b93958500/EventContent": {
       "en": "nan",
@@ -145,7 +160,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "2ee646e4-41fc-4775-80c1-3bd0d6d8c4c6/EventContent": {
       "en": "nan",
@@ -154,16 +170,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "bf8b1245-8558-4616-9c9c-8a4c30ccd7c8/EventContent": {
       "en": "The land is covered in thick fog, which carries a sinister energy. Amid the mist, <Item key=奖励 str=ColorName/> hovers faintly, its true form impossible to discern.<NL>A Three-Eyed Xiao prowls nearby. Fierce and frightening in appearance, yet from its manner it seems hopelessly lost...<NL><NL>Several <color=#orange>Mist Stones</color> lie scattered throughout the area, each exuding streams of fog.<NL>The surrounding illusions seem to arise from these stones.<NL>If they can be destroyed, the mirages may fade and the beast may leave of its own accord.",
       "cn": "此地大雾漫空，晦气相侵，却有<Item key=奖励 str=ColorName/>浮于雾中，难辨真假，<NL>一头三眼魈逡巡其间，形貌狞恶可怖，观其行止，却似迷途……<NL><NL>周遭散落数枚散发迷雾的<color=#orange>迷雾石</color>，雾霭幻象皆由此而生，<NL>若能设法将其毁去，或能驱散周遭幻象，令那凶兽自离此处……",
-      "ru": "Земля покрыта густым туманом, который несет в себе зловещую энергию. Среди тумана, <Item key=奖励 str=ColorName/> слабо парит, его истинную форму невозможно различить.<NL>Неподалеку бродит Трехглазый Сяо. Свирепый и пугающий на вид, но, судя по его поведению, он кажется безнадежно потерянным...<NL><NL>Несколько <color=#orange>Туманные камни</color> они разбросаны по всей округе, и от каждого исходят струйки тумана.<NL>Окружающие иллюзии, кажется, возникают из-за этих камней.<NL>Если их удастся уничтожить, миражи могут исчезнуть, и зверь может уйти по собственному желанию.",
-      "status": "machine",
+      "ru": "Земля покрыта густым туманом, который несёт в себе зловещую энергию. Среди тумана <Item key=奖励 str=ColorName/> слабо парит, и его истинную форму невозможно различить.<NL>Неподалёку бродит Трёхглазый Сяо. Свирепый и пугающий на вид, но, судя по его поведению, он кажется безнадёжно потерявшимся...<NL><NL>Несколько <color=#orange>Туманных камней</color> разбросаны по всей округе, и от каждого исходят струйки тумана.<NL>Окружающие иллюзии, похоже, возникают из-за этих камней.<NL>Если их удастся уничтожить, миражи могут исчезнуть, и зверь может уйти сам.",
+      "status": "judged",
       "srcHash": "03c92402b36f462d",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "03c691ef41e4da01"
     },
     "bf8b1245-8558-4616-9c9c-8a4c30ccd7c8/Option_1": {
       "en": "(Check the locations of Mist Stones...)",
@@ -172,7 +190,8 @@
       "status": "machine",
       "srcHash": "026975196aca7648",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "92fbd940c7b639e1"
     },
     "bf8b1245-8558-4616-9c9c-8a4c30ccd7c8/Option_2": {
       "en": "(This is good...)",
@@ -181,16 +200,18 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z",
+      "judgeHash": "9e804963c3d3c75b"
     },
     "17b36496-07cd-4580-8b30-e83bf29781d1/EventContent": {
       "en": "A faint treasure light flickers within the mist, hinting at a rare treasure concealed inside.<NL>Yet a Three-Eyed Xiao roams ceaselessly nearby, seemingly enraged after losing its way...<NL><NL>The beast is massive and wild-eyed, crashing through trees and rocks in a fit of fury. Its ferocity is truly intimidating!<NL>Rather than battling the Three-Eyed Xiao, it may be wiser to disperse the mist. Once it regains its bearings, it should leave on its own...",
       "cn": "雾中隐隐透出宝光，想是有珍奇之宝藏于其中，<NL>近旁却有一头三眼魈巡行不休，似乎是因迷失方向，怒火中烧……<NL><NL>那三眼魈身形魁硕，怒目圆瞪，狂躁不已，肆意冲撞着四周的草木山石，威势慑人！<NL>与其与那三眼魈争斗，不如设法破除迷雾，它辨明方向，自会离去……",
-      "ru": "Слабый огонек сокровища мерцает в тумане, намекая на редкое сокровище, спрятанное внутри.<NL>Тем не менее, Трехглазый Сяо непрерывно бродит поблизости, по-видимому, разъяренный тем, что сбился с пути...<NL><NL>Зверь массивный, с дикими глазами, в припадке ярости он ломится сквозь деревья и скалы. Его свирепость действительно пугает!<NL>Вместо того чтобы сражаться с Трехглазым Сяо, возможно, было бы разумнее рассеять туман. Как только он придет в себя, он должен уйти сам...",
-      "status": "machine",
+      "ru": "Слабый огонёк сокровища мерцает в тумане, намекая на редкое сокровище, спрятанное внутри.<NL>Тем не менее, Трёхглазый Сяо непрерывно бродит поблизости, по-видимому, разъярённый тем, что сбился с пути...<NL><NL>Зверь массивный, с дикими глазами, и в припадке ярости ломится сквозь деревья и скалы. Его свирепость действительно пугает!<NL>Вместо того чтобы сражаться с Трёхглазым Сяо, возможно, разумнее рассеять туман. Когда он вновь поймёт, куда идти, то должен уйти сам...",
+      "status": "judged",
       "srcHash": "be27b3d3170d86ee",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "43ba6b1e9f824f06"
     },
     "17b36496-07cd-4580-8b30-e83bf29781d1/Option_1": {
       "en": "(Attack the Three-Eyed Xiao...)",
@@ -199,7 +220,8 @@
       "status": "machine",
       "srcHash": "f082d2f37da8eb79",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "e1d48bd175ddfb02"
     },
     "17b36496-07cd-4580-8b30-e83bf29781d1/Option_2": {
       "en": "(Leave for now...)",
@@ -208,7 +230,8 @@
       "status": "machine",
       "srcHash": "370fcde7b4e903fe",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "81734b6f43d2a5fb"
     },
     "9a5a368f-ecda-4a13-a998-cd32f34b65d1/EventContent": {
       "en": "nan",
@@ -217,7 +240,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "556d351b-a4fe-451e-bf50-c89d8cbd1627/EventContent": {
       "en": "One stone shatters, and its sinister energy dissipates.<NL>The fog begins to thin, and distant shapes gradually emerge...",
@@ -226,7 +250,8 @@
       "status": "machine",
       "srcHash": "2d550608ecd25317",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "495237b72f24e88e"
     },
     "556d351b-a4fe-451e-bf50-c89d8cbd1627/Option_1": {
       "en": "(This is good...)",
@@ -235,7 +260,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z",
+      "judgeHash": "9e804963c3d3c75b"
     },
     "73791f3f-6c1c-46c4-ad4c-312799d8177b/EventContent": {
       "en": "A second stone is destroyed, and the scenery becomes clearer.<NL>The surroundings open up as the lingering haze steadily fades...",
@@ -244,7 +270,8 @@
       "status": "machine",
       "srcHash": "79becf3f7c4e0d32",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "057c552b029cb263"
     },
     "73791f3f-6c1c-46c4-ad4c-312799d8177b/Option_1": {
       "en": "(This is good...)",
@@ -253,7 +280,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z",
+      "judgeHash": "9e804963c3d3c75b"
     },
     "30956e63-5b7d-4ca7-b024-4215deba5b80/EventContent": {
       "en": "With the third stone destroyed, the fog finally parts.<NL>The mist and sinister aura vanish entirely, and the gloom hanging over the area is swept away...",
@@ -262,7 +290,8 @@
       "status": "machine",
       "srcHash": "695eea431b6f74a1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "4f6c851c3741578d"
     },
     "30956e63-5b7d-4ca7-b024-4215deba5b80/Option_1": {
       "en": "(This is good...)",
@@ -271,7 +300,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z",
+      "judgeHash": "9e804963c3d3c75b"
     },
     "5a010c8e-da96-4f7f-8aec-69d23ef98ff1/EventContent": {
       "en": "nan",
@@ -280,7 +310,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "a275826d-09a9-47ca-8c19-312ab2b6d582/EventContent": {
       "en": "nan",
@@ -289,16 +320,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "dae73db7-ef39-4e5a-b1f6-92e161d00db6/EventContent": {
       "en": "The treasure light at the heart of the Secret Realm still lingers, but the Three-Eyed Xiao is nowhere to be seen...<NL>The <Item key=奖励 str=ColorName/> remains where it rests, releasing a strange fragrance as it awaits its destined owner.",
       "cn": "秘境中心宝光未散，唯有那三眼魈已然不在……<NL><Item key=奖励 str=ColorName/>静立原处，散出异香，静待有缘人收取。",
-      "ru": "Свет сокровищ в сердце Тайного царства все еще горит, но Трехглазого Сяо нигде не видно...<NL>То <Item key=奖励 str=ColorName/> остается там, где лежит, издавая странный аромат в ожидании своего суженого.",
-      "status": "machine",
+      "ru": "Свет сокровища в сердце Тайного царства всё ещё не угас, но Трёхглазого Сяо нигде не видно...<NL><Item key=奖励 str=ColorName/> остаётся на прежнем месте, источая странный аромат и ожидая, когда его заберёт предназначенный ему владелец.",
+      "status": "judged",
       "srcHash": "78beede70905f1b0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "6a39639d49d418ba"
     },
     "dae73db7-ef39-4e5a-b1f6-92e161d00db6/Option_1": {
       "en": "(Explore this place...)",
@@ -307,7 +340,8 @@
       "status": "machine",
       "srcHash": "4b4bd55ce6236ee5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "747de926b469fc82"
     },
     "dae73db7-ef39-4e5a-b1f6-92e161d00db6/Option_2": {
       "en": "(Consider further...)",
@@ -316,7 +350,8 @@
       "status": "machine",
       "srcHash": "ecedfd4acf35f9a2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "d5e61f41c2c1c67e"
     },
     "aec4b8f2-6ae7-4e1b-b607-7d340e294f39/EventContent": {
       "en": "The clouds and mist have fully dispersed, and sunlight once again bathes the land.<NL>The roads stretching in every direction can now be seen clearly.",
@@ -325,7 +360,8 @@
       "status": "machine",
       "srcHash": "af9c7077d1cd95d9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "42a1940bd0904448"
     },
     "aec4b8f2-6ae7-4e1b-b607-7d340e294f39/Option_1": {
       "en": "...",
@@ -334,7 +370,8 @@
       "status": "machine",
       "srcHash": "c2ee1dd4ced56365",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "d27cf3a6ea4bf428"
     },
     "47be8ca7-e0bc-4c5c-8cd8-b291e0f8e553/EventContent": {
       "en": "Stepping into the heart of the bewildering Secret Realm, where illusion and reality intertwine,<NL>You searched carefully and eventually discovered <Item key=奖励 str=ColorName/>, a treasure of remarkable quality...",
@@ -343,7 +380,8 @@
       "status": "machine",
       "srcHash": "0895f42eb1484b8c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "7d69e21b779ddd26"
     },
     "47be8ca7-e0bc-4c5c-8cd8-b291e0f8e553/Option_1": {
       "en": "(This is good...)",
@@ -352,7 +390,8 @@
       "status": "machine",
       "srcHash": "0e0524462e25ed91",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z",
+      "judgeHash": "9e804963c3d3c75b"
     },
     "ff4f3066-8f7a-4a4b-a39b-ceff44570f1a/EventContent": {
       "en": "nan",
@@ -361,7 +400,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "ebfd41b4-436f-44b8-9562-3c319b3e00a4/EventContent": {
       "en": "nan",
@@ -370,7 +410,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "e0657af6-f388-4423-bfdd-343e2c1e2241/EventContent": {
       "en": "nan",
@@ -379,7 +420,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "8fdc81df-2733-4785-a8ed-a870b0f862ae/EventContent": {
       "en": "nan",
@@ -388,7 +430,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "11da7ecf09cb95cc"
     },
     "001747c2-88aa-4261-8a67-e7f9ac137544/EventContent": {
       "en": "The Three-Eyed Xiao is furious and highly alert.<NL>Poised to strike at any moment, it watches the surroundings with fierce vigilance. Attack now?",
@@ -397,7 +440,8 @@
       "status": "machine",
       "srcHash": "24abfcc3c6a40a53",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "a1522761f507ad33"
     },
     "001747c2-88aa-4261-8a67-e7f9ac137544/Option_1": {
       "en": "(Attack the Three-Eyed Xiao...)",
@@ -406,7 +450,8 @@
       "status": "machine",
       "srcHash": "f082d2f37da8eb79",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "e1d48bd175ddfb02"
     },
     "001747c2-88aa-4261-8a67-e7f9ac137544/Option_2": {
       "en": "(Consider further...)",
@@ -415,7 +460,8 @@
       "status": "machine",
       "srcHash": "ecedfd4acf35f9a2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "d5e61f41c2c1c67e"
     }
   }
 }

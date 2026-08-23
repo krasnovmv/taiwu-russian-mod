@@ -10,16 +10,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e975abb8a27a41cb"
     },
     "0f474486-6f58-4c0a-ae40-65aff578bc87/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> narrowly dodges <Character key=SectEnemy str=OrgName/>'s disciple's attack and then flees...",
       "cn": null,
-      "ru": "<Character key=RoleTaiwu str=Name /> едва увертывается <Character key=SectEnemy str=OrgName/>атака ученика, а затем бегство...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> едва уворачивается от атаки ученика <Character key=SectEnemy str=OrgName/> и затем убегает...",
+      "status": "judged",
       "srcHash": "8f15d2aeb5b11095",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T10:34:16.688Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "32789270f1eae939"
     },
     "0f474486-6f58-4c0a-ae40-65aff578bc87/Option_1": {
       "en": "(...)",
@@ -28,34 +30,38 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1560bfdaca43a2"
     },
     "1257e6b8-277e-4297-9229-d398adaca4d2/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> carefully treats the wounds on <Character key=SectCharId str=Name />'s body with the herbs they carry and soon stops the bleeding.<NL>After a few hours, <Character key=SectCharId str=Name />'s breathing steadies, <Character key=RoleTaiwu str=GenderPossessive/> mind clears, and <Character key=RoleTaiwu str=GenderSubject/> is no longer in serious danger. Fortunately, no vital organs are harmed...",
       "cn": null,
-      "ru": "<Character key=RoleTaiwu str=Name /> тщательно обрабатывает раны на <Character key=SectCharId str=Name />натирают тело травами, которые они носят с собой, и вскоре останавливают кровотечение.<NL>Через несколько часов, <Character key=SectCharId str=Name />его дыхание успокаивается, <Character key=RoleTaiwu str=GenderPossessive/> разум проясняется, и <Character key=RoleTaiwu str=GenderSubject/> ему больше не угрожает серьезная опасность. К счастью, никакие жизненно важные органы не пострадали...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> тщательно обрабатывает раны на теле <Character key=SectCharId str=Name /> травами, которые они носят с собой, и вскоре останавливает кровотечение.<NL>Через несколько часов дыхание <Character key=SectCharId str=Name /> становится ровнее, разум <Character key=RoleTaiwu str=GenderPossessive/> проясняется, и <Character key=RoleTaiwu str=GenderSubject/> больше не находится в серьёзной опасности. К счастью, жизненно важные органы не пострадали...",
+      "status": "judged",
       "srcHash": "19a5b4c08b233212",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T10:34:16.688Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "4dab30eb87f09285"
     },
     "1257e6b8-277e-4297-9229-d398adaca4d2/Option_1": {
       "en": "Fortunately, no injury was suffered...",
       "cn": null,
-      "ru": "К счастью, никто не пострадал в результате травмы...",
-      "status": "machine",
+      "ru": "К счастью, травм получено не было...",
+      "status": "judged",
       "srcHash": "124227a987a7655e",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "6d73a93decbc390e"
     },
     "1ad1fb3e-4475-4b52-9dd8-77698adf559b/EventContent": {
       "en": "\"I cannot repay the life-saving favor, <Character key=RoleTaiwu str=AutoAgeGender/>...\"<NL><Character key=SectCharId str=Name /> wakes up and says gratefully...<NL>Just then, shouting sounds come from outside the cave. It seems those chasing <Character key=SectCharId str=Name /> have found the area nearby!",
       "cn": null,
-      "ru": "- Я не могу отплатить за услугу, которая спасла мне жизнь, <Character key=RoleTaiwu str=AutoAgeGender/>...\"<NL><Character key=SectCharId str=Name /> просыпается и говорит с благодарностью...<NL>Как раз в этот момент снаружи пещеры доносятся крики. Кажется, те, кто преследует <Character key=SectCharId str=Name /> нашли район поблизости!",
-      "status": "machine",
+      "ru": "\"Я не могу отплатить за услугу, спасшую мне жизнь, <Character key=RoleTaiwu str=AutoAgeGender/>...\"<NL><Character key=SectCharId str=Name /> просыпается и благодарно говорит...<NL>И тут снаружи пещеры доносятся крики. Похоже, те, кто преследует <Character key=SectCharId str=Name />, нашли место неподалёку!",
+      "status": "judged",
       "srcHash": "ba7a1612ac04c434",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "387f83f40a1e49aa"
     },
     "1ad1fb3e-4475-4b52-9dd8-77698adf559b/Option_1": {
       "en": "(No...)",
@@ -64,16 +70,18 @@
       "status": "machine",
       "srcHash": "993acfc8413b27f6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "59133d7f9a53cbd7"
     },
     "349ff818-625f-4446-b2b2-e79ebe28d703/EventContent": {
       "en": "\"Hmph! What a lofty and upright demeanor! I will now show you who the true scheming one is!\"",
       "cn": null,
-      "ru": "- Хм! Какое возвышенное и прямолинейное поведение! Сейчас я покажу тебе, кто на самом деле интриган!\"",
-      "status": "machine",
+      "ru": "\"Хм! Какое возвышенное и прямодушное поведение! Сейчас я покажу тебе, кто здесь настоящий интриган!\"",
+      "status": "judged",
       "srcHash": "3cdf0420ca70b923",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "0e64709d29949c90"
     },
     "349ff818-625f-4446-b2b2-e79ebe28d703/Option_1": {
       "en": "Since it's like this, I have no choice but to offend you!",
@@ -82,7 +90,8 @@
       "status": "machine",
       "srcHash": "1707b364791d3419",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "cac21b9ca35f350c"
     },
     "37c51938-2338-4be2-86c4-fe8a5f9b3933/EventContent": {
       "en": "nan",
@@ -91,16 +100,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e975abb8a27a41cb"
     },
     "47d58db1-a11a-4edb-95f8-6e72eb75465b/EventContent": {
       "en": "\"What mountain god? I am <Character key=SectEnemy str=OrgName/>'s disciple!\"<NL>The perosn clearly has an important mission and cannot waste time with people from the wilderness, and leaves...",
       "cn": null,
-      "ru": "- Какой горный бог? Я есть <Character key=SectEnemy str=OrgName/>его ученик!\"<NL>У перосна явно важная миссия, и он не может тратить время на людей из дикой местности и уходит...",
-      "status": "machine",
+      "ru": "\"Какой ещё горный бог? Я ученик <Character key=SectEnemy str=OrgName/>!\"<NL>У этого человека явно важная миссия, и он не может тратить время на людей из глуши, поэтому уходит...",
+      "status": "judged",
       "srcHash": "cb4c68c2ccc4428e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "7265b64246748a18"
     },
     "47d58db1-a11a-4edb-95f8-6e72eb75465b/Option_1": {
       "en": "Ah, take care!",
@@ -109,16 +120,18 @@
       "status": "machine",
       "srcHash": "d6bbe2be4ea8ecca",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "086983001df69735"
     },
     "4a7aef53-f103-4cab-bc1b-da3ce5a0a35e/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> follows the blood trail to a secret cave...<NL>Using the faint light coming through the cave entrance, <Character key=RoleTaiwu str=GenderSubject/> indeed finds someone curled up on the ground...<NL>The person's breath is weak, mumbling faintly:<NL>\"Who... who is there... is it an enemy? A friend?\"",
       "cn": null,
-      "ru": "<Character key=RoleTaiwu str=Name /> следует по кровавому следу к секретной пещере...<NL>Используя слабый свет, проникающий через вход в пещеру, <Character key=RoleTaiwu str=GenderSubject/> действительно, находит кого-то, свернувшегося калачиком на земле...<NL>Дыхание человека слабое, он что-то слабо бормочет:<NL>- Кто... кто там... это враг? Друг?\"",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> следует по кровавому следу к тайной пещере...<NL>В слабом свете, проникающем через вход в пещеру, <Character key=RoleTaiwu str=GenderSubject/> действительно находит кого-то, свернувшегося на земле...<NL>Дыхание человека слабо, он едва слышно бормочет:<NL>\"Кто... кто там... враг? Друг?\"",
+      "status": "judged",
       "srcHash": "4898ba33c235a19a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "f0e2c170c939d130"
     },
     "4a7aef53-f103-4cab-bc1b-da3ce5a0a35e/Option_1": {
       "en": "We don't know each other; neither enemy nor friend...",
@@ -127,16 +140,18 @@
       "status": "machine",
       "srcHash": "251ff1bbe2fa52b0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ac885f04c616f526"
     },
     "52796441-d6a5-4c98-bca9-526060b4dd6a/EventContent": {
       "en": "\"What a reckless thief! I will show you who the real evil dog is that blocks the way!\" ",
       "cn": null,
-      "ru": "- Какой безрассудный вор! Я покажу тебе, кто на самом деле злая собака, которая преграждает путь!\" ",
-      "status": "machine",
+      "ru": "\"Какой безрассудный вор! Я покажу тебе, кто здесь настоящая злая собака, преграждающая путь!\"",
+      "status": "judged",
       "srcHash": "c03dac597192bb19",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "09fd19139dee5b79"
     },
     "52796441-d6a5-4c98-bca9-526060b4dd6a/Option_1": {
       "en": "No more nonsense, let's fight!",
@@ -145,7 +160,8 @@
       "status": "machine",
       "srcHash": "440eda5906d4420e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "4325a83da49b6b7c"
     },
     "528a6259-35db-4694-8bd9-3e66a533cd64/EventContent": {
       "en": "nan",
@@ -154,16 +170,18 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e975abb8a27a41cb"
     },
     "5a3ad546-1afc-4376-855b-2fe1435a0adb/EventContent": {
       "en": "The <Character key=SectEnemy str=OrgName/> disciple is both shocked and angry, realizing it is difficult to win immediately, so the disciple retreats to a distance...",
       "cn": null,
-      "ru": "Тот <Character key=SectEnemy str=OrgName/> ученик одновременно шокирован и разгневан, понимая, что победить сразу трудно, поэтому ученик отступает на расстояние...",
-      "status": "machine",
+      "ru": "Ученик <Character key=SectEnemy str=OrgName/> одновременно потрясён и разгневан; поняв, что сразу победить не удастся, он отступает на расстояние...",
+      "status": "judged",
       "srcHash": "4c8f009ed6e88b3a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "dde821df6c706983"
     },
     "5a3ad546-1afc-4376-855b-2fe1435a0adb/Option_1": {
       "en": "(...)",
@@ -172,7 +190,8 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1560bfdaca43a2"
     },
     "5db60680-b327-469d-b4b3-6cdef1913cc3/EventContent": {
       "en": "nan",
@@ -181,7 +200,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e975abb8a27a41cb"
     },
     "72fe3dc0-e865-429f-87dd-6261c2418824/EventContent": {
       "en": "\"Hmm... you don't seem to be the accomplice of that little thief...\"",
@@ -190,7 +210,8 @@
       "status": "machine",
       "srcHash": "eeb7f312406b523d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b2a7c4a1323a2bcf"
     },
     "72fe3dc0-e865-429f-87dd-6261c2418824/Option_1": {
       "en": "I will leave now...",
@@ -199,7 +220,8 @@
       "status": "machine",
       "srcHash": "44e89dec4f6dbc7b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "578732a1b43ea335"
     },
     "7791ffb6-1e3c-4708-80c3-11d29fa5c074/EventContent": {
       "en": "nan",
@@ -208,7 +230,8 @@
       "status": "machine",
       "srcHash": "6b6cfe0edf21a4a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e975abb8a27a41cb"
     },
     "8797a9cc-9d88-4736-b1ee-4c18c5d8bdce/EventContent": {
       "en": "I don't know what has happened here...",
@@ -217,7 +240,8 @@
       "status": "machine",
       "srcHash": "0f6d2b19ce4853e8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "77a60e27d6007576"
     },
     "8797a9cc-9d88-4736-b1ee-4c18c5d8bdce/Option_1": {
       "en": "(Follow the blood trail...)",
@@ -226,16 +250,18 @@
       "status": "machine",
       "srcHash": "e869deef0367d044",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "bdb947f4247184e3"
     },
     "8a8fcade-446f-44a0-a377-e62f8533540d/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> follows the blood trail to a secret cave...<NL>Using the faint light coming through the cave entrance, they only find traces of someone having hidden there,<NL><Character key=RoleTaiwu str=Name /> approaches to investigate but can find no other clues. Is that person alive? Dead?<NL>That is something <Character key=RoleTaiwu str=GenderSubject/> can never know...",
       "cn": null,
-      "ru": "<Character key=RoleTaiwu str=Name /> следует по кровавому следу к секретной пещере...<NL>Используя слабый свет, проникающий через вход в пещеру, они находят только следы того, что там кто-то прятался,<NL><Character key=RoleTaiwu str=Name /> подходит к расследованию, но не может найти никаких других зацепок. Жив ли этот человек? Мертв?<NL>Это уже кое-что <Character key=RoleTaiwu str=GenderSubject/> никогда не узнаешь...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> следует по кровавому следу к тайной пещере...<NL>В слабом свете, проникающем через вход в пещеру, они находят лишь следы того, что там кто-то прятался,<NL><Character key=RoleTaiwu str=Name /> подходит осмотреть место, но не находит других улик. Жив ли этот человек? Мёртв?<NL>Этого <Character key=RoleTaiwu str=GenderSubject/> никогда не узнает...",
+      "status": "judged",
       "srcHash": "f9e8c957e6106126",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "bbaa727e849cc99d"
     },
     "8a8fcade-446f-44a0-a377-e62f8533540d/Option_1": {
       "en": "(...)",
@@ -244,16 +270,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1560bfdaca43a2"
     },
     "8c33749b-4647-46b4-97e0-771d6e6082fe/EventContent": {
       "en": "\"Oh? Where did you see the blood trail? Tell me quickly...\"<NL><Character key=RoleTaiwu str=Name /> points out two insignificant blood stains. The <Character key=SectEnemy str=OrgName/> disciple immediately runs toward the location of the blood trail after hearing this...",
       "cn": null,
-      "ru": "- О? Где вы увидели кровавый след? Скажи мне быстро...\"<NL><Character key=RoleTaiwu str=Name /> указывает на два незначительных пятна крови. Тот <Character key=SectEnemy str=OrgName/> услышав это, ученик немедленно бежит к месту, где остался кровавый след...",
-      "status": "machine",
+      "ru": "\"О? Где вы увидели кровавый след? Быстро скажи мне...\"<NL><Character key=RoleTaiwu str=Name /> указывает на два незначительных пятна крови. Услышав это, ученик <Character key=SectEnemy str=OrgName/> немедленно бежит к месту, где находится кровавый след...",
+      "status": "judged",
       "srcHash": "01b975eab78d4019",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "8e0bf392d4b00f6f"
     },
     "8c33749b-4647-46b4-97e0-771d6e6082fe/Option_1": {
       "en": "Whether these people are good or bad, it's still safer for me to find the injured person first...",
@@ -262,25 +290,28 @@
       "status": "machine",
       "srcHash": "e3bf11c2e24017d2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "83999d83ffb7f927"
     },
     "92a43940-d8e4-422c-b63d-8444b4172e42/EventContent": {
       "en": "\"Stop! Who goes there?! <Character key=SectEnemy str=OrgName/> is searching for thieves, and anyone who isn't involved should quickly avoid us!\"<NL>The <Character key=SectEnemy str=OrgName/> disciple blocks <Character key=RoleTaiwu str=Name />'s path...",
       "cn": null,
-      "ru": "- Прекрати! Кто туда ходит?! <Character key=SectEnemy str=OrgName/> ведется поиск воров, и всем, кто не причастен к этому, следует поскорее избегать нас!\"<NL>Тот <Character key=SectEnemy str=OrgName/> блоки ученика <Character key=RoleTaiwu str=Name />это путь...",
-      "status": "machine",
+      "ru": "\"Стой! Кто идёт?! Ученик <Character key=SectEnemy str=OrgName/> ищет воров, а всем непричастным следует поскорее уйти от нас!\"<NL>Ученик <Character key=SectEnemy str=OrgName/> преграждает путь <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "df836676033bc76b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "2613af3ff2a1ca6d"
     },
     "92a43940-d8e4-422c-b63d-8444b4172e42/Option_1": {
       "en": "I am upright and open, not hiding anything before those who are sneaky!",
       "cn": null,
-      "ru": "Я честен и открыт, ничего не скрываю перед теми, кто подлый!",
-      "status": "machine",
+      "ru": "Я честен и открыт и ничего не скрываю от тех, кто действует исподтишка!",
+      "status": "judged",
       "srcHash": "ec8ffeedd0cd1388",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "3fa52e539e8786c0"
     },
     "92a43940-d8e4-422c-b63d-8444b4172e42/Option_2": {
       "en": "I saw many blood stains nearby; someone might have been in danger, so I came to check...",
@@ -289,7 +320,8 @@
       "status": "machine",
       "srcHash": "9d193ab64c6e6fc5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "0b844e5d4f818a0e"
     },
     "92a43940-d8e4-422c-b63d-8444b4172e42/Option_3": {
       "en": "I am lost; please guide me to the right path!",
@@ -298,7 +330,8 @@
       "status": "machine",
       "srcHash": "961eda7dc25b2590",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "001afa426ac4133c"
     },
     "92a43940-d8e4-422c-b63d-8444b4172e42/Option_4": {
       "en": "Ah, isn't the one blocking the way the Mountain God?",
@@ -307,7 +340,8 @@
       "status": "machine",
       "srcHash": "8a216d14a702fd9d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b1e54659d0c5fec1"
     },
     "92a43940-d8e4-422c-b63d-8444b4172e42/Option_5": {
       "en": "A good dog doesn't block the path. If you have the ability to stop me, come and try!",
@@ -316,16 +350,18 @@
       "status": "machine",
       "srcHash": "16bc8eb994032645",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "740d5c0a414f630a"
     },
     "94928518-78cb-46d8-afa1-6ea97455db20/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> follows the blood trail to a secret cave...<NL>Using the faint light coming through the cave entrance, <Character key=RoleTaiwu str=GenderSubject/> indeed finds someone curled up on the ground...<NL>Just as <Character key=RoleTaiwu str=Name /> is about to get closer, the person suddenly jumps up and says:<NL>\"You... are you the one who helped me escape earlier?\" ",
       "cn": null,
-      "ru": "<Character key=RoleTaiwu str=Name /> следует по кровавому следу к секретной пещере...<NL>Используя слабый свет, проникающий через вход в пещеру, <Character key=RoleTaiwu str=GenderSubject/> действительно, находит кого-то, свернувшегося калачиком на земле...<NL>Точно так же, как <Character key=RoleTaiwu str=Name /> уже собираясь подойти ближе, человек вдруг вскакивает и говорит:<NL>\"Ты... ты тот, кто помог мне сбежать ранее?\" ",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> следует по кровавому следу к тайной пещере...<NL>В слабом свете, проникающем через вход в пещеру, <Character key=RoleTaiwu str=GenderSubject/> действительно находит кого-то, свернувшегося на земле...<NL>Когда <Character key=RoleTaiwu str=Name /> собирается подойти ближе, человек вдруг вскакивает и говорит:<NL>\"Ты... это ты помог мне сбежать раньше?\"",
+      "status": "judged",
       "srcHash": "8f63c2a71c366622",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "e96b8119f8646b76"
     },
     "94928518-78cb-46d8-afa1-6ea97455db20/Option_1": {
       "en": "So, outside Taiwu Village, you had already discovered me...",
@@ -334,7 +370,8 @@
       "status": "machine",
       "srcHash": "4916851a91acd1b5",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "f6869efd72e3515e"
     },
     "958394c6-f814-445a-998c-a26c4c9e50a3/EventContent": {
       "en": "\"I am <Character key=SectEnemy str=OrgName/> <Character key=SectCharId str=Name />, severely wounded by the thieves and unable to save myself... I... ah...\"<NL><Character key=SectCharId str=Name /> gasps heavily, which worsens the injury. The disciple collapses again, and faints...",
@@ -343,7 +380,8 @@
       "status": "machine",
       "srcHash": "3c4154376c02935b",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T10:34:16.688Z"
+      "updatedAt": "2026-07-12T10:34:16.688Z",
+      "judgeHash": "30da15633aa012e1"
     },
     "958394c6-f814-445a-998c-a26c4c9e50a3/Option_1": {
       "en": "(Attempt to wake the disciple up...)",
@@ -352,7 +390,8 @@
       "status": "machine",
       "srcHash": "9eaa63b3d7063867",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "d5d6d5f763a04db0"
     },
     "958394c6-f814-445a-998c-a26c4c9e50a3/Option_2": {
       "en": "(Ignore...)",
@@ -361,25 +400,28 @@
       "status": "machine",
       "srcHash": "5f497f0995e7c432",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "6935d28aebd7342a"
     },
     "958394c6-f814-445a-998c-a26c4c9e50a3/Option_3": {
       "en": "(Snatch the disciple's belongings and leave...)",
       "cn": null,
-      "ru": "(Забирает вещи ученика и уходит...)",
-      "status": "machine",
+      "ru": "(Забрать вещи ученика и уйти...)",
+      "status": "judged",
       "srcHash": "9623ead68c74d693",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "9fbc0094d45a3e4b"
     },
     "9c3d782c-1acf-4f56-82f0-e53145624578/EventContent": {
       "en": "\"Just pretend I was never here...\"<NL><Character key=RoleTaiwu str=Name /> thinks to themselves, deciding to let fate decide. <Character key=RoleTaiwu str=GenderSubject/> quickly leaves the cave...",
       "cn": null,
-      "ru": "\"Просто притворись, что меня здесь никогда не было...\"<NL><Character key=RoleTaiwu str=Name /> думают про себя, решая позволить судьбе решать самой. <Character key=RoleTaiwu str=GenderSubject/> быстро выходит из пещеры...",
-      "status": "machine",
+      "ru": "\"Сделай вид, что меня здесь никогда не было...\"<NL><Character key=RoleTaiwu str=Name /> думает про себя, решая предоставить всё судьбе. <Character key=RoleTaiwu str=GenderSubject/> быстро покидает пещеру...",
+      "status": "judged",
       "srcHash": "83c0f7aa25aa6cc4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "a892f2d99dcaad21"
     },
     "9c3d782c-1acf-4f56-82f0-e53145624578/Option_1": {
       "en": "Life and death are determined by fate, we only met once, so let's part here...",
@@ -388,16 +430,18 @@
       "status": "machine",
       "srcHash": "98c5d2efeec8fb45",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "c033b03b925c66b9"
     },
     "9c597557-0f49-41c5-81a3-83375b612e27/EventContent": {
       "en": "\"I cannot bring trouble to <Character key=RoleTaiwu str=AutoAgeGender/>...\"<NL><Character key=SectCharId str=Name /> suddenly says, \"<Character key=SectCharId str=OrgName/>, if I am lucky enough to survive today, please come find me at <Character key=RoleTaiwu str=AutoAgeGender/>!\"<NL>After saying that, <Character key=SectCharId str=Name /> suddenly gains strength from somewhere, jumps up, and rushes out of the cave. Soon after, shouting and yelling fill the air...<NL><Character key=SectCharId str=Name /> hurriedly follows out of the cave, but <Character key=RoleTaiwu str=GenderSubject/> can no longer see anyone...<NL><NL><color=#lightgrey>(Found the routes connected in <Character key=SectCharId str=OrgName/> area...)</color>",
       "cn": null,
-      "ru": "\"Я не могу навлечь беду на <Character key=RoleTaiwu str=AutoAgeGender/>...\"<NL><Character key=SectCharId str=Name /> вдруг говорит: \"<Character key=SectCharId str=OrgName/>, если мне посчастливится выжить сегодня, пожалуйста, найди меня по адресу <Character key=RoleTaiwu str=AutoAgeGender/>!\"<NL>После того, как сказал это, <Character key=SectCharId str=Name /> внезапно откуда-то набирается сил, вскакивает и выбегает из пещеры. Вскоре после этого воздух наполняют крики...<NL><Character key=SectCharId str=Name /> поспешно следует за ним из пещеры, но <Character key=RoleTaiwu str=GenderSubject/> больше никого не вижу...<NL><NL><color=#lightgrey>(Найдены маршруты, соединенные в <Character key=SectCharId str=OrgName/> область...)</color>",
-      "status": "machine",
+      "ru": "\"Я не могу навлечь беду на <Character key=RoleTaiwu str=AutoAgeGender/>...\"<NL><Character key=SectCharId str=Name /> вдруг говорит: \"<Character key=SectCharId str=OrgName/>, если мне посчастливится пережить сегодняшний день, пожалуйста, приходи ко мне, <Character key=RoleTaiwu str=AutoAgeGender/>!\"<NL>Сказав это, <Character key=SectCharId str=Name /> внезапно откуда-то набирается сил, вскакивает и выбегает из пещеры. Вскоре воздух наполняют крики...<NL><Character key=SectCharId str=Name /> поспешно выбегает из пещеры следом, но <Character key=RoleTaiwu str=GenderSubject/> больше никого не видит...<NL><NL><color=#lightgrey>(Найдены маршруты, соединённые в области <Character key=SectCharId str=OrgName/>...)</color>",
+      "status": "judged",
       "srcHash": "32648ad3f7d02632",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T10:34:16.688Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "322e16c398098162"
     },
     "9c597557-0f49-41c5-81a3-83375b612e27/Option_1": {
       "en": "(...)",
@@ -406,16 +450,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1560bfdaca43a2"
     },
     "9d8de3d3-b47b-4bbd-b224-427c036a6274/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> is defeated by <Character key=SectEnemy str=OrgName/>'s disciple and has to flee in disgrace..",
       "cn": null,
-      "ru": "<Character key=RoleTaiwu str=Name /> побежден <Character key=SectEnemy str=OrgName/>является учеником и вынужден с позором бежать..",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> побеждён учеником <Character key=SectEnemy str=OrgName/> и вынужден с позором бежать..",
+      "status": "judged",
       "srcHash": "69d193ef1461e9de",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "b1b08d081cb8c85b"
     },
     "9d8de3d3-b47b-4bbd-b224-427c036a6274/Option_1": {
       "en": "(...)",
@@ -424,16 +470,18 @@
       "status": "machine",
       "srcHash": "24d455d8a76b1430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ba1560bfdaca43a2"
     },
     "9e7c3718-a188-4254-b348-9d0ebd884ae4/EventContent": {
       "en": "\"Hmph, if it weren't for your interference, I, <Character key=SectCharId str=Name />, wouldn't have ended up like this. If you want to kill me, go ahead...\"<NL><Character key=SectCharId str=Name /> sighs heavily, and in the midst of <Character key=RoleTaiwu str=GenderPossessive/> anger, the injury worsens. The disciple collapses, and they faints again...",
       "cn": null,
-      "ru": "- Хм, если бы не твое вмешательство, я, <Character key=SectCharId str=Name />, все бы так не закончилось. Если ты хочешь убить меня, давай...\"<NL><Character key=SectCharId str=Name /> тяжело вздыхает, и в самый разгар <Character key=RoleTaiwu str=GenderPossessive/> от гнева травма усугубляется. Ученик падает в обморок, и они снова теряют сознание...",
-      "status": "machine",
+      "ru": "\"Хм, если бы не твоё вмешательство, я, <Character key=SectCharId str=Name />, не оказался бы в таком положении. Если хочешь убить меня, давай...\"<NL><Character key=SectCharId str=Name /> тяжело вздыхает, и на фоне <Character key=RoleTaiwu str=GenderPossessive/> гнева травма усугубляется. Ученик падает и снова теряет сознание...",
+      "status": "judged",
       "srcHash": "e25b86b494a27556",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T10:34:16.688Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "0c5759653d4e11a1"
     },
     "9e7c3718-a188-4254-b348-9d0ebd884ae4/Option_1": {
       "en": "(Attempt to wake the disciple up...)",
@@ -442,7 +490,8 @@
       "status": "machine",
       "srcHash": "9eaa63b3d7063867",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "d5d6d5f763a04db0"
     },
     "9e7c3718-a188-4254-b348-9d0ebd884ae4/Option_2": {
       "en": "(Ignore...)",
@@ -451,25 +500,28 @@
       "status": "machine",
       "srcHash": "5f497f0995e7c432",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "6935d28aebd7342a"
     },
     "9e7c3718-a188-4254-b348-9d0ebd884ae4/Option_3": {
       "en": "(Snatch the disciple's belongings and leave...)",
       "cn": null,
-      "ru": "(Забирает вещи ученика и уходит...)",
-      "status": "machine",
+      "ru": "(Забрать вещи ученика и уйти...)",
+      "status": "judged",
       "srcHash": "9623ead68c74d693",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "9fbc0094d45a3e4b"
     },
     "aa02de1c-2c9f-43b7-9dd7-aae02bb71157/EventContent": {
       "en": "<Character key=SectCharId str=Name /> didn't carry much, but for some reason, <Character key=RoleTaiwu str=Name /> feels an overwhelming greed...<NL><Character key=RoleTaiwu str=Name /> quickly searches through <Character key=SectCharId str=Name />'s belongings and then leaves the cave...",
       "cn": null,
-      "ru": "<Character key=SectCharId str=Name /> с собой было немного, но по какой-то причине, <Character key=RoleTaiwu str=Name /> испытывает непреодолимую жадность...<NL><Character key=RoleTaiwu str=Name /> быстрый поиск по <Character key=SectCharId str=Name />забирает свои вещи, а затем покидает пещеру...",
-      "status": "machine",
+      "ru": "<Character key=SectCharId str=Name /> носил с собой немного вещей, но по какой-то причине <Character key=RoleTaiwu str=Name /> испытывает непреодолимую жадность...<NL><Character key=RoleTaiwu str=Name /> быстро обыскивает вещи <Character key=SectCharId str=Name /> и покидает пещеру...",
+      "status": "judged",
       "srcHash": "7e25e074f101d14b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "0635ee507969a676"
     },
     "aa02de1c-2c9f-43b7-9dd7-aae02bb71157/Option_1": {
       "en": "Since you are gravely injured and beyond saving, you can't blame me...",
@@ -478,16 +530,18 @@
       "status": "machine",
       "srcHash": "ce2ffbe8333ec260",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "086af2f94b4e04c0"
     },
     "b498f685-b7e4-43eb-a892-8726e6657353/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> follows the blood trail to a secret cave...<NL>Using the faint light coming through the cave entrance, they indeed find someone curled up on the ground...<NL>Just as they are about to get closer, the person suddenly jumps up and shouts:<NL>\"You tried to attack me earlier, and now you want to take my life!\"So, outside Taiwu Village, you had already discovered me...",
       "cn": null,
-      "ru": "<Character key=RoleTaiwu str=Name /> следует по кровавому следу к секретной пещере...<NL>Используя слабый свет, проникающий через вход в пещеру, они действительно находят кого-то, свернувшегося калачиком на земле...<NL>Как раз в тот момент, когда они собираются подойти ближе, человек внезапно вскакивает и кричит:<NL>\"Ты пытался атак на меня раньше, а теперь хочешь лишить меня жизни!\" Итак, за пределами деревни Тайву ты уже обнаружил меня...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> следует по кровавому следу к секретной пещере...<NL>Используя слабый свет, проникающий через вход в пещеру, они действительно находят кого-то, свернувшегося калачиком на земле...<NL>Как раз в тот момент, когда они собираются подойти ближе, человек внезапно вскакивает и кричит:<NL>\"Ты пытался совершить на меня атаку раньше, а теперь хочешь лишить меня жизни!\" Итак, за пределами деревни Тайву ты уже обнаружил меня...",
+      "status": "judged",
       "srcHash": "756d4437e243d547",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T10:34:16.688Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "209467d674c19611"
     },
     "b498f685-b7e4-43eb-a892-8726e6657353/Option_1": {
       "en": "So, outside Taiwu Village... you already found me...",
@@ -496,16 +550,18 @@
       "status": "machine",
       "srcHash": "7250b60e3ed4326d",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "642dc2c86f886505"
     },
     "e52a996b-bf59-4f13-93ee-d6f2338e2431/EventContent": {
       "en": "\"Are you the little thief's accomplice?! Take that!\"<NL><Character key=RoleTaiwu str=Name /> is ambushed by <Character key=SectEnemy str=OrgName/>'s disciple...",
       "cn": null,
-      "ru": "- Ты сообщник маленького воришки?! Возьми это!\"<NL><Character key=RoleTaiwu str=Name /> попадает в засаду от <Character key=SectEnemy str=OrgName/>его ученик...",
-      "status": "machine",
+      "ru": "\"Ты сообщник маленького воришки?! Получай!\"<NL><Character key=RoleTaiwu str=Name /> попадает в засаду, устроенную учеником <Character key=SectEnemy str=OrgName/>...",
+      "status": "judged",
       "srcHash": "034bc6bbc1d7020e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "b04ce9ceb4528282"
     },
     "e52a996b-bf59-4f13-93ee-d6f2338e2431/Option_1": {
       "en": "Uh oh!",
@@ -514,7 +570,8 @@
       "status": "machine",
       "srcHash": "0d6666304baa436d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "862ef4f45f18fff0"
     },
     "f27fb64a-4e43-4f90-a62f-8d5b3185ed4b/EventContent": {
       "en": "\"Unfortunately, my injuries are too severe; I might not survive. I can only repay <Character key=RoleTaiwu str=AutoAgeGender/>'s help in the afterlife...\"<NL><Character key=SectCharId str=Name /> sighs deeply, and in <Character key=RoleTaiwu str=GenderPossessive/> excitement, <Character key=RoleTaiwu str=GenderPossessive/> injury worsens. <Character key=RoleTaiwu str=GenderSubject/> collapses, and faints again...",
@@ -532,7 +589,8 @@
       "status": "machine",
       "srcHash": "9eaa63b3d7063867",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "d5d6d5f763a04db0"
     },
     "f27fb64a-4e43-4f90-a62f-8d5b3185ed4b/Option_2": {
       "en": "(Ignore...)",
@@ -541,16 +599,18 @@
       "status": "machine",
       "srcHash": "5f497f0995e7c432",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "6935d28aebd7342a"
     },
     "f27fb64a-4e43-4f90-a62f-8d5b3185ed4b/Option_3": {
       "en": "(Snatch the disciple's belongings and leave...)",
       "cn": null,
-      "ru": "(Забирает вещи ученика и уходит...)",
-      "status": "machine",
+      "ru": "(Забрать вещи ученика и уйти...)",
+      "status": "judged",
       "srcHash": "9623ead68c74d693",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "9fbc0094d45a3e4b"
     },
     "0dd4a570-2554-4e36-bdc6-2be92c528433/EventContent": {
       "en": "Test Test 123123456456<NL>",
@@ -559,16 +619,18 @@
       "status": "machine",
       "srcHash": "4e0c9f40c735edfd",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "6d2c08a8b412bc61"
     },
     "0dd4a570-2554-4e36-bdc6-2be92c528433/Option_1": {
       "en": "Plus Plus Plus Plus",
       "cn": null,
-      "ru": "Плюс Плюс Плюс Плюс Плюс",
-      "status": "machine",
+      "ru": "Плюс Плюс Плюс Плюс",
+      "status": "judged",
       "srcHash": "a9c0296b593f1f81",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T06:10:04.593Z",
+      "judgeHash": "bc2273c82ea57e7c"
     }
   }
 }
