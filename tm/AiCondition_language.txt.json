@@ -1249,7 +1249,8 @@
       "status": "machine",
       "srcHash": "88717dfccff7e7c3",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "baaba36f73ea23a8"
     },
     "Name_125": {
       "en": "Protection Martial Art 1",
@@ -1891,11 +1892,12 @@
     "Desc_61": {
       "en": "Return true when {0} has at least {1} {2} Marker(s).",
       "cn": "当 {0} {2} 标记不低于 {1} 个时返回真值",
-      "ru": "Возвращает значение true, когда {0} имеет по крайней мере {1} {2} Маркер(ы).",
-      "status": "machine",
+      "ru": "Возвращает истину, когда {0} имеет не менее {1} маркер(ов) {2}.",
+      "status": "judged",
       "srcHash": "ff31bccf13afe918",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T21:43:53.463Z",
+      "judgeHash": "c603995f4f1c9ed5"
     },
     "Desc_62": {
       "en": "When {0}'s Daze Marker is more than {1}, return true",
@@ -1920,38 +1922,42 @@
     "Desc_64": {
       "en": "Return true when {0} has at least {1} Doom Marker(s).",
       "cn": "当 {0} 必死标记不低于 {1} 个时返回真值",
-      "ru": "Возвращает значение true, когда {0} имеет по крайней мере {1} Маркер(ы) обреченности.",
-      "status": "machine",
+      "ru": "Возвращает истину, когда {0} имеет не менее {1} маркер(ов) обречённости.",
+      "status": "judged",
       "srcHash": "9dab829f5deaef86",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T21:43:53.463Z",
+      "judgeHash": "9bb3604bbee321b7"
     },
     "Desc_65": {
       "en": "Return true when {0} has at least {1} Inner Breath Marker(s).",
       "cn": "当 {0} 内息标记不低于 {1} 个时返回真值",
-      "ru": "Возвращает значение true, когда {0} имеет по крайней мере {1} Маркер(маркеры) внутреннего дыхания.",
-      "status": "machine",
+      "ru": "Возвращает истину, когда {0} имеет не менее {1} маркер(ов) внутреннего дыхания.",
+      "status": "judged",
       "srcHash": "33429021d5d288c4",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-22T21:43:53.463Z",
+      "judgeHash": "5f9a4b44f3e2952a"
     },
     "Desc_66": {
       "en": "Return true when {0} has at least {1} Status Marker(s).",
       "cn": "当 {0} 状态标记不低于 {1} 个时返回真值",
-      "ru": "Возвращает значение true, когда {0} имеет по крайней мере {1} Маркер(ы) состояния.",
-      "status": "machine",
+      "ru": "Возвращает истину, когда {0} имеет не менее {1} маркер(ов) состояния.",
+      "status": "judged",
       "srcHash": "10696a20fb1a2305",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T21:43:53.463Z",
+      "judgeHash": "da1a61b061e08658"
     },
     "Desc_67": {
       "en": "Return true when {0} has at least {1} Health Marker(s).",
       "cn": "当 {0} 健康标记不低于 {1} 个时返回真值",
-      "ru": "Возвращает значение true, когда {0} имеет по крайней мере {1} Маркер(ы) здоровья.",
-      "status": "machine",
+      "ru": "Возвращает истину, когда {0} имеет не менее {1} маркер(ов) здоровья.",
+      "status": "judged",
       "srcHash": "6a703b45c97ab3a0",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-22T21:43:53.463Z",
+      "judgeHash": "de347d3eeeb2ea89"
     },
     "Desc_68": {
       "en": "Return true when {0} has {1} and {3} Gu from {2}.",
@@ -1996,11 +2002,12 @@
     "Desc_72": {
       "en": "Return true when {0}'s Martial Art {1} {2} has {3} stack(s).",
       "cn": "当 {0} 功法 {1} {2} 有 {3} 层效果时返回真值",
-      "ru": "Возвращает значение true, когда {0}это боевая техника {1} {2} имеет {3} стопка(ы).",
-      "status": "machine",
+      "ru": "Возвращает истину, когда у {0} боевая техника {1} {2} имеет {3} слой(ёв) эффекта.",
+      "status": "judged",
       "srcHash": "0eae3eca6e687530",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-22T21:43:53.463Z",
+      "judgeHash": "8b1d1313d3b0f46f"
     },
     "Desc_73": {
       "en": "Return true when {1} Stamina value is not less than {0}%",
@@ -2045,11 +2052,12 @@
     "Desc_77": {
       "en": "Return true when {0}'s Style Slots have at least {2} {1} Styles(s).",
       "cn": "当 {0} 式槽中 {1} 式数量不低于 {2} 个时返回真值",
-      "ru": "Возвращает значение true, когда {0}Слоты в стиле s имеют по крайней мере {2} {1} Стили(ы).",
-      "status": "machine",
+      "ru": "Возвращает истину, когда слоты стиля {0} содержат не менее {2} стилей {1}(ей).",
+      "status": "judged",
       "srcHash": "14dfbd20750c1609",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T21:43:53.463Z",
+      "judgeHash": "a93e7560a267eb73"
     },
     "Desc_78": {
       "en": "Return true when a weapon at index {0} is switchable",
@@ -2484,11 +2492,12 @@
     "Desc_122": {
       "en": "{0} Casting Annihilation Martial Arts with a Qi/Physical Ratio of {1} to {2}.",
       "cn": "{0}正在施展内外比为{1}至{2}的摧破功法",
-      "ru": "{0} Применяя боевую технику сокрушения с соотношением Ци/физической силы, равным {1} к {2}.",
-      "status": "machine",
+      "ru": "{0} применяет боевые искусства сокрушения с соотношением ци и физической силы от {1} до {2}.",
+      "status": "judged",
       "srcHash": "f9d7c590729c300c",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-22T21:43:53.463Z",
+      "judgeHash": "5b273df9065075de"
     },
     "Desc_123": {
       "en": "Can perform jump Footwork Arts.",
@@ -2503,11 +2512,12 @@
     "Desc_124": {
       "en": "Can cast Annihilation Martial Arts with an Qi/Physical Ratio of {0} to {1}.",
       "cn": "可以施展内外比为{0}至{1}的摧破功法",
-      "ru": "Может использовать боевую технику сокрушения с соотношением Ци/физической силы, равным {0} к {1}.",
-      "status": "machine",
+      "ru": "Может применять боевые искусства сокрушения с соотношением ци и физической силы от {0} до {1}.",
+      "status": "judged",
       "srcHash": "a22b01b83e2fe232",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-22T21:43:53.463Z",
+      "judgeHash": "195937f8f4dd94a6"
     },
     "Desc_125": {
       "en": "Cast the Protection Martial Art with a reflection multiplier of {0}.",

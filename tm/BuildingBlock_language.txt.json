@@ -1940,7 +1940,8 @@
       "status": "machine",
       "srcHash": "52dd0f96d36da91d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "4b0c5c7c1c359744"
     },
     "Name_194": {
       "en": "Genesis Grotto",
@@ -6796,7 +6797,8 @@
       "status": "machine",
       "srcHash": "091b60c35fbdc135",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-07-11T13:40:34.924Z",
+      "judgeHash": "07e6cf72e148e844"
     },
     "FuncDesc_45": {
       "en": "<color=#pinkyellow>Built with the core material [Taiwu Ancestry], it grants prestige to Taiwu at the turn of each month. The higher the Envoy's reputation in this building, the higher the [Astrology] Attainment of the people, the more prestige they can gain.\\nCan spend prestige to grant Taiwu villagers different Professions and Traits.\\nCan dispatch Envoys as the stewards to lead disciples to operate and study [Astrology].</color>",
@@ -7410,20 +7412,22 @@
     "FuncDesc_106": {
       "en": "<color=#pinkyellow>Increases the efficiency at which characters study [Painting] books within this settlement's influence area.\\nThe effects of multiple Studios do not stack. Yet, the effects of multiple painting chambers do not stack.\\nCan dispatch scholars as stewards to lead disciples to study [Painting].</color>",
       "cn": "<color=#pinkyellow>可提高此定居点影响范围内的人物在研读「绘画」书籍时的效率。\\n多个画阁的效果不会叠加。\\n可派遣文人作为主事，带领门生研习「绘画」。</color>",
-      "ru": "<color=#pinkyellow>Увеличивает эффективность, с которой персонажи изучают книги по рисованию в пределах зоны влияния этого поселения.\\nЭффекты нескольких студий не суммируются. Тем не менее, эффекты от использования нескольких покрасочных камер не суммируются.\\nМожет посылать ученых в качестве распорядителей, чтобы они вели учеников изучать [Живопись].</color>",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>Увеличивает эффективность изучения персонажами книг по [Живописи] в зоне влияния этого поселения.\\nЭффекты нескольких картинных залов не складываются.\\nМожно отправлять учёных в качестве распорядителей, чтобы они вели учеников изучать [Живопись].</color>",
+      "status": "judged",
       "srcHash": "2b162e94985eb654",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-22T21:43:53.463Z",
+      "judgeHash": "f57f3555fe57e811"
     },
     "FuncDesc_107": {
       "en": "<color=#pinkyellow>An expansion structure to the [Studio]. Requires villagers to work.\\nBuys and sells paintings in return for [Silver].\\nScholars can be dispatched as stewards to lead disciples in studying [Painting].</color>",
       "cn": "<color=#pinkyellow>建造在「画阁」旁边的扩展建筑，需派遣村民经营。\\n以买卖画作赚取「银钱」为主。\\n可派遣文人作为主事，带领门生经营并研习「绘画」。</color>",
-      "ru": "<color=#pinkyellow>Структура расширения для [Студии]. Требуется, чтобы сельские жители работали.\\nПокупает и продает картины в обмен на [серебро].\\nУченые могут быть отправлены в качестве распорядителей, чтобы руководить учениками в изучении [живописи].</color>",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>Расширение для [Студии]. Требует работы сельских жителей.\\nПокупает и продаёт картины за [серебро].\\nУчёных можно отправлять в качестве распорядителей, чтобы они руководили учениками в ведении дел и изучении [живописи].</color>",
+      "status": "judged",
       "srcHash": "615c9491eac17bdd",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-22T21:43:53.463Z",
+      "judgeHash": "da80ef9bdab0ae8e"
     },
     "FuncDesc_108": {
       "en": "<color=#pinkyellow>Constructed with the core material [Pure Paint]. An expansion structure to the [Studio]. Requires villagers to work.\\nAllows you to find individuals with outstanding [Painting] Talent. The higher the total [Painting] Attainment of characters in this building, the higher the Talent of the recruitable talents.\\nScholars can be dispatched as stewards to lead disciples in studying [Painting].</color>",
@@ -7662,7 +7666,8 @@
       "status": "machine",
       "srcHash": "301f2a8ad1117a70",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-07-11T13:40:34.924Z",
+      "judgeHash": "ac1b64cb9232276a"
     },
     "FuncDesc_132": {
       "en": "<color=#pinkyellow>An expansion structure to the [Forge]. Requires villagers to work.\\nSells metal products in return for [Prestige].\\nArtisans can be dispatched as stewards to lead assistants in studying [Smithing].</color>",
@@ -8345,11 +8350,12 @@
     "FuncDesc_200": {
       "en": "<color=#pinkyellow>Constructed with the core material [Buddhist Medicine]. An expansion structure to the [Chamber of Chan]. Must be adjacent to a [Herbs].\\nIncreases the Talent-growth rate of characters studying [Buddhism] books within this settlement's influence area.</color>",
       "cn": "<color=#pinkyellow>以「治心佛药」为心材，建造在「禅房」旁边的扩展建筑，需与「草药」相邻。\\n可提高此定居点影响范围内的人物在研习「佛学」时资质增长的几率。</color>",
-      "ru": "<color=#pinkyellow>Изготовлен из сердцевинного материала [буддийская медицина]. Сооружение, расширяющее [Палату Чана]. Должно находиться рядом с [травами].\\nУвеличивает скорость роста таланта персонажей, изучающих книги по [буддизму] в зоне влияния этого поселения.</color>",
-      "status": "machine",
+      "ru": "<color=#pinkyellow>Изготовлен из сердцевинного материала [буддийская медицина]. Расширение для [Палаты Чана]. Должно примыкать к [травам].\\nУвеличивает вероятность роста таланта персонажей, изучающих книги по [буддизму] в зоне влияния этого поселения.</color>",
+      "status": "judged",
       "srcHash": "62bda82813b2eb52",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-22T21:43:53.463Z",
+      "judgeHash": "05f4f634a37eed41"
     },
     "FuncDesc_201": {
       "en": "<color=#pinkyellow>Constructed with the core material [Impermanence Trees]. An expansion structure to the [Chamber of Chan]. Must be adjacent to an [Ancient Forest].\\nIncreases the [Buddhism] Attainment of characters within this settlement's influence area.</color>",
