@@ -37,7 +37,6 @@ import {
   JUDGE_ENGINE,
   JUDGE_SESSION_TURNS,
 } from "../config/judge.js";
-import { EVENT_DLC_PREFIX, EVENT_PREFIX } from "../config/sources.js";
 import { LmStudioClient } from "../engine/lmstudio-client.js";
 import { YandexGptClient } from "../engine/yandex-gpt-client.js";
 import {
@@ -112,14 +111,7 @@ async function main(): Promise<void> {
     return;
   }
 
-  // TEMPORARY: quest text and the encyclopedia tables are out of the judge queue
-  // for now — drop this filter to fold them back in. An explicit <file> argument
-  // still bypasses it.
-  const skipForNow = (f: string): boolean =>
-    f.startsWith(EVENT_PREFIX) || f.startsWith(EVENT_DLC_PREFIX) || f.endsWith(".tsv");
-  const files = args.all
-    ? (await listSourceFiles()).filter((f) => !skipForNow(f))
-    : [args.file as string];
+  const files = args.all ? await listSourceFiles() : [args.file as string];
   const client =
     JUDGE_ENGINE === "lmstudio"
       ? LmStudioClient.fromEnv(args.model)
