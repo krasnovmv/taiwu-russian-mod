@@ -6,11 +6,12 @@
     "4181db5d-146e-4041-a2b8-a67b51e3c784/EventContent": {
       "en": "<Character key=MonthlyEvent_arg1 str=Name/> intercepts <Character key=RoleTaiwu str=Name/> with a cupped-hand salute,<NL>\"Esteemed one, the <Character key=MonthlyEvent_arg2 str=Name/> by your side stands accused<NL>as a wanted criminal on <Settlement key=SettlementId str=Name/>'s bounty list. We have come under orders to apprehend them.<NL>I hope you understand the situation and hand <Character key=RoleTaiwu str=GenderObject/> over to <Settlement key=SettlementId str=Name/>'s jurisdiction...\"<NL><NL>True to bureaucratic duty, <Character key=MonthlyEvent_arg1 str=Name/>'s words carry steel-clad finality.<NL>Refusing to surrender <Character key=MonthlyEvent_arg2 str=Name/> would surely lead to bloodshed...",
       "cn": "<Character key=MonthlyEvent_arg1 str=Name/>拦住<Character key=RoleTaiwu str=Name/>，抱拳说道：<NL>“阁下身旁的<Character key=MonthlyEvent_arg2 str=Name/>有罪在身，<NL>乃是我<Settlement key=SettlementId str=Name/>榜上要犯，故而奉命前来捉拿。<NL>还望阁下识得大体，将此人交由我<Settlement key=SettlementId str=Name/>处置……”<NL><NL><Character key=MonthlyEvent_arg1 str=Name/>既是奉公行事，所言自如斩钉截铁，<NL>若是拒不交出<Character key=MonthlyEvent_arg2 str=Name/>，恐怕难免一场恶战……",
-      "ru": "<Character key=MonthlyEvent_arg1 str=Name/> перехватывает <Character key=RoleTaiwu str=Name/> сложив ладони рупором, он отдал честь,<NL>\"Уважаемый, этот <Character key=MonthlyEvent_arg2 str=Name/> рядом с вами стоит обвиняемый<NL>как разыскиваемый преступник по <Settlement key=SettlementId str=Name/>это список наградных. У нас есть приказ задержать их.<NL>Я надеюсь, вы понимаете ситуацию и передадите <Character key=RoleTaiwu str=GenderObject/> перейдя к <Settlement key=SettlementId str=Name/>юрисдикция...\"<NL><NL>Верный бюрократическому долгу, <Character key=MonthlyEvent_arg1 str=Name/>в его словах звучит непреклонность.<NL>Отказ сдаться <Character key=MonthlyEvent_arg2 str=Name/> несомненно, привел бы к кровопролитию...",
-      "status": "machine",
+      "ru": "<Character key=MonthlyEvent_arg1 str=Name/> перехватывает <Character key=RoleTaiwu str=Name/> и, сложив ладони в приветствии, говорит:<NL>\"Почтенный господин, <Character key=MonthlyEvent_arg2 str=Name/> рядом с вами — преступник, разыскиваемый <NL>как особо опасный преступник в списке <Settlement key=SettlementId str=Name/>. Мы прибыли по приказу его схватить.<NL>Надеюсь, вы понимаете положение и передадите <Character key=RoleTaiwu str=GenderObject/> властям <Settlement key=SettlementId str=Name/> на расправу...\"<NL><NL>Действуя во исполнение служебного долга, <Character key=MonthlyEvent_arg1 str=Name/> говорит с непреклонностью.<NL>Отказ выдать <Character key=MonthlyEvent_arg2 str=Name/> наверняка приведёт к кровопролитию...",
+      "status": "judged",
       "srcHash": "68b4f74ee23c1fb4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "82c1e77e036d75df"
     },
     "4181db5d-146e-4041-a2b8-a67b51e3c784/Option_1": {
       "en": "(Refuse to surrender...)",
@@ -134,11 +135,12 @@
     "61121bf4-8568-4827-bcc7-6eeecbcf8413/EventContent": {
       "en": "The agreed-upon detention period has ended.<NL>If <Character key=RoleTaiwu str=Name/> were to prolong <Character key=MonthlyEvent_arg0 str=Name/>'s confinement,<NL>they'd have to pledge <Settlement key=SettlementId str=Name/>'s \"support\" as collateral...",
       "cn": "此前约定的关押期限已至，<NL><Character key=RoleTaiwu str=Name/>若要继续关押<Character key=MonthlyEvent_arg0 str=Name/>，<NL>势必再以<Settlement key=SettlementId str=Name/>的“支持”作为担保……",
-      "ru": "Согласованный срок содержания под стражей истек.<NL>Если <Character key=RoleTaiwu str=Name/> должны были продлить <Character key=MonthlyEvent_arg0 str=Name/>это заключение,<NL>им пришлось бы дать обещание <Settlement key=SettlementId str=Name/>это \"поддержка\" в качестве залога...",
-      "status": "machine",
+      "ru": "Согласованный срок содержания под стражей истёк.<NL>Если <Character key=RoleTaiwu str=Name/> захочет и дальше держать <Character key=MonthlyEvent_arg0 str=Name/> под стражей,<NL>ему придётся отдать \"поддержку\" <Settlement key=SettlementId str=Name/> в залог...",
+      "status": "judged",
       "srcHash": "fa7fc7914d26c225",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T10:34:16.688Z"
+      "updatedAt": "2026-08-24T11:43:36.586Z",
+      "judgeHash": "3f3af8e6cb6b802e"
     },
     "61121bf4-8568-4827-bcc7-6eeecbcf8413/Option_1": {
       "en": "(Temporary detention...)",
@@ -533,11 +535,12 @@
     "b63d0137-ad7c-49d8-8a38-4a6673f0d6e7/EventContent": {
       "en": "\"How dare you?\"<NL><NL>Without a word, <Character key=RoleTaiwu str=Name/> turns to leave with <Character key=SelectCharacterId str=Name/>!<NL>But the place is heavily guarded, and instantly<NL><Character key=RoleTaiwu str=Name/> is besieged by guards and engaged in {0}!",
       "cn": "“阁下何以如此！”<NL><NL><Character key=RoleTaiwu str=Name/>并不多言，带着<Character key=SelectCharacterId str=Name/>转身便走！<NL>然而此地戒备森严，不过须臾，<NL><Character key=RoleTaiwu str=Name/>便被守卫重重围困，陷入{0}！",
-      "ru": "- Как ты смеешь?<NL><NL>Не сказав ни слова, <Character key=RoleTaiwu str=Name/> поворачивается, чтобы уйти с <Character key=SelectCharacterId str=Name/>!<NL>Но это место усиленно охраняется, и мгновенно<NL><Character key=RoleTaiwu str=Name/> осажден охранниками и занят {0}!",
-      "status": "machine",
+      "ru": "\"Как ты смеешь?\"<NL><NL>Не сказав ни слова, <Character key=RoleTaiwu str=Name/> поворачивается и уходит вместе с <Character key=SelectCharacterId str=Name/>!<NL>Но это место усиленно охраняется, и мгновенно<NL><Character key=RoleTaiwu str=Name/> оказывается окружён стражниками и вступает в {0}!",
+      "status": "judged",
       "srcHash": "b8837635165c9e66",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "ea08c3195718360c"
     },
     "b63d0137-ad7c-49d8-8a38-4a6673f0d6e7/Option_1": {
       "en": "({0}!)",
@@ -722,11 +725,12 @@
     "f3e42f21-e73f-4cfc-92e8-b3d22a48dd50/EventContent": {
       "en": "\"How dare you break in here?\"<NL><NL>Without a word, <Character key=RoleTaiwu str=Name/> insists on breaking into the prison!<NL>But the place is heavily guarded, and instantly<NL><Character key=RoleTaiwu str=Name/> is besieged by guards and engaged in {0}!",
       "cn": "“大胆狂徒，竟敢擅闯监牢！”<NL><NL><Character key=RoleTaiwu str=Name/>并不多言，执意闯入监牢！<NL>然而此地戒备森严，不过须臾，<NL><Character key=RoleTaiwu str=Name/>便被守卫重重围困，陷入{0}！",
-      "ru": "- Как ты посмел вломиться сюда?<NL><NL>Не сказав ни слова, <Character key=RoleTaiwu str=Name/> настаивает на том, чтобы проникнуть в тюрьму!<NL>Но это место усиленно охраняется, и мгновенно<NL><Character key=RoleTaiwu str=Name/> осажден охранниками и занят {0}!",
-      "status": "machine",
+      "ru": "\"Как ты посмел ворваться сюда?\"<NL><NL>Не сказав ни слова, <Character key=RoleTaiwu str=Name/> решительно врывается в тюрьму!<NL>Но это место усиленно охраняется, и мгновенно<NL><Character key=RoleTaiwu str=Name/> оказывается окружён стражниками и вступает в {0}!",
+      "status": "judged",
       "srcHash": "07234a37546fc356",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "40ab72a1136b4bce"
     },
     "f3e42f21-e73f-4cfc-92e8-b3d22a48dd50/Option_1": {
       "en": "({0}!)",
@@ -891,11 +895,12 @@
     "893d5c61-5ceb-41f5-add3-2b21c4519e22/EventContent": {
       "en": "\"This person is from <Settlement key=SettlementId str=Name/>,<NL>and no crimes to warrant imprisonment.<NL><NL>As the Successor of Taiwu, you may detain <Character key=RoleTaiwu str=GenderObject/><NL>if you pledge significant 'support' from <Settlement key=SettlementId str=Name/> as collateral.<NL>Otherwise, it will be hard to justify...\"",
       "cn": "“此人乃是我<Settlement key=SettlementId str=Name/>中人，<NL>并未有何罪名，本不应收押于此。<NL><NL>阁下身为太吾传人，若执意关押此人，<NL>需有<Settlement key=SettlementId str=Name/>中诸多‘支持’作为担保，<NL>如若不然，恐怕难以服众……”",
-      "ru": "\"Этот человек из <Settlement key=SettlementId str=Name/>,<NL>и никаких преступлений, заслуживающих тюремного заключения.<NL><NL>Как преемник Тайву, вы можете задержать <Character key=RoleTaiwu str=GenderObject/><NL>если вы обещаете значительную \"поддержку\" со стороны <Settlement key=SettlementId str=Name/> в качестве залога.<NL>В противном случае это будет трудно оправдать...\"",
-      "status": "machine",
+      "ru": "\"Этот человек из <Settlement key=SettlementId str=Name/>,<NL>и не совершил преступлений, за которые его следовало бы заключать в тюрьму.<NL><NL>Вы, как преемник Тайву, намерены удерживать <Character key=RoleTaiwu str=GenderObject/><NL>под стражей — тогда в залог необходимо предоставить значительную 'поддержку' от <Settlement key=SettlementId str=Name/>.<NL>Иначе это будет трудно оправдать...\"",
+      "status": "judged",
       "srcHash": "712fbfc042742a14",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T10:34:16.688Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "395b2ff900d52139"
     },
     "893d5c61-5ceb-41f5-add3-2b21c4519e22/Option_1": {
       "en": "(Temporary detention...)",
@@ -1024,7 +1029,8 @@
       "status": "machine",
       "srcHash": "42e2d535d95d7369",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T10:34:16.688Z"
+      "updatedAt": "2026-07-12T10:34:16.688Z",
+      "judgeHash": "7aaf06176564a50e"
     },
     "bd12f916-e572-4372-9ef3-b1aba6bb182f/Option_1": {
       "en": "(This is good...)",

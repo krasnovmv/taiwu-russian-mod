@@ -776,11 +776,12 @@
     "6e18b78c-a773-4875-8404-5c3875d9feb8/EventContent": {
       "en": "This is the Merit Board. The \"Ancient Coins\" accumulated by passing merchants are written here in vermilion for all to review and verify.<NL><NL>(<Character key=RoleTaiwu str=Name/> currently holds Ancient Coins: <ArgBox key=fengshou_yinjiBox type=int/>)<NL>(Total Ancient Coins earned by <Character key=RoleTaiwu str=Name/>: <ArgBox key=DaiBiBox type=int/>)",
       "cn": "此乃“功德榜”，以朱笔记录往来客商所积“古币”之数，供人查阅核验……<NL><NL>（<Character key=RoleTaiwu str=Name/>当前拥有的古币：<ArgBox key=fengshou_yinjiBox type=int/>）<NL>（<Character key=RoleTaiwu str=Name/>总共获得的古币：<ArgBox key=DaiBiBox type=int/>）",
-      "ru": "Это Доска почета. Здесь киноварью указаны \"Древние монеты\", накопленные проходящими мимо торговцами, чтобы все могли ознакомиться с ними и убедиться в этом.<NL><NL>(<Character key=RoleTaiwu str=Name/> на данный момент в наличии Древние монеты: <ArgBox key=fengshou_yinjiBox type=int/>)<NL>(Общее количество древних монет, заработанных проходящими мимо торговцами). <Character key=RoleTaiwu str=Name/>: <ArgBox key=DaiBiBox type=int/>)",
-      "status": "machine",
+      "ru": "Это Доска заслуг. Здесь киноварью указаны \"Древние монеты\", накопленные проходящими мимо торговцами, чтобы все могли ознакомиться с ними и проверить их.<NL><NL>(У <Character key=RoleTaiwu str=Name/> сейчас древних монет: <ArgBox key=fengshou_yinjiBox type=int/>)<NL>(Всего древних монет получено <Character key=RoleTaiwu str=Name/>: <ArgBox key=DaiBiBox type=int/>)",
+      "status": "judged",
       "srcHash": "c83b54e5f68d2a89",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-08-24T03:03:21.250Z",
+      "judgeHash": "f4b32b5e8d38ea19"
     },
     "6e18b78c-a773-4875-8404-5c3875d9feb8/Option_1": {
       "en": "(Leave for now...)",
@@ -795,11 +796,12 @@
     "d8932dc4-5ef2-4a22-9e04-1a5604e4c210/EventContent": {
       "en": "The account keeper unrolls the scroll, with neat regular script recording: <NL>I. Total Expenditure: <ArgBox key=Consumption type=int/> Silver.<NL>II. Silver Saved: <ArgBox key=JieShen type=int/> Silver.<NL>III. Ancient Coins Obtained: <ArgBox key=FengShou type=int/> pieces.",
       "cn": "账房先生展开卷册，上面以工整的楷书记录着：<NL>壹、总计开销： <ArgBox key=Consumption type=int/> 银钱。<NL>贰、节省银钱： <ArgBox key=JieShen type=int/> 银钱。<NL>叁、获古币：<ArgBox key=FengShou type=int/> 枚。",
-      "ru": "Хранитель учетной записи разворачивает свиток с аккуратной обычной записью сценария: <NL>I. Общий объем расходов: <ArgBox key=Consumption type=int/> Серебро.<NL>II. Сэкономленное серебро: <ArgBox key=JieShen type=int/> Серебро.<NL>III. Получены древние монеты: <ArgBox key=FengShou type=int/> кусочки.",
-      "status": "machine",
+      "ru": "Счётный распорядитель разворачивает свиток, на котором аккуратным почерком записано: <NL>1. Общие расходы: <ArgBox key=Consumption type=int/> серебра.<NL>2. Сэкономлено серебра: <ArgBox key=JieShen type=int/> серебра.<NL>3. Получено древних монет: <ArgBox key=FengShou type=int/> штук.",
+      "status": "judged",
       "srcHash": "888aa0e2437fc3c3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T03:03:21.250Z",
+      "judgeHash": "b879dee720b19efb"
     },
     "d8932dc4-5ef2-4a22-9e04-1a5604e4c210/Option_1": {
       "en": "(Finish reading...)",

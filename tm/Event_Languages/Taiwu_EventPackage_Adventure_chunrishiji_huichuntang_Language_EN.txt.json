@@ -736,11 +736,12 @@
     "bea8e342-3716-43c8-a1e7-dbe384683b2e/EventContent": {
       "en": "This is the Golden Merit Board, which records the amount of \"Herb Notes\" accumulated by merchants from all directions in red ink, for everyone to check and inspect...<NL><NL>(<Character key=RoleTaiwu str=Name/>'s current Herb Notes: <ArgBox key=fengshou_yinjiBox type=int/>)<NL>(<Character key=RoleTaiwu str=Name/>'s total Herb Notes: <ArgBox key=DaiBiBox type=int/>)",
       "cn": "此为功德金榜，朱笔誊录四方客商“百草笺”积数，任人查阅稽验……<NL><NL>（<Character key=RoleTaiwu str=Name/>当前拥有的百草笺：<ArgBox key=fengshou_yinjiBox type=int/>）<NL>（<Character key=RoleTaiwu str=Name/>总共获得的百草笺：<ArgBox key=DaiBiBox type=int/>）",
-      "ru": "Это Золотая доска почета, на которой красными чернилами записано количество \"Записок о травах\", накопленных Торговцами со всех сторон, чтобы каждый мог их проверить...<NL><NL>(<Character key=RoleTaiwu str=Name/>текущие заметки о травах: <ArgBox key=fengshou_yinjiBox type=int/>)<NL>(<Character key=RoleTaiwu str=Name/>общие ноты трав: <ArgBox key=DaiBiBox type=int/>)",
-      "status": "machine",
+      "ru": "Это Золотая доска заслуг, на которой красными чернилами записано количество \"Записок о травах\", накопленных торговцами со всех сторон, чтобы каждый мог их проверить...<NL><NL>(<Character key=RoleTaiwu str=Name/>текущее количество Записок о травах: <ArgBox key=fengshou_yinjiBox type=int/>)<NL>(<Character key=RoleTaiwu str=Name/>общее количество Записок о травах: <ArgBox key=DaiBiBox type=int/>)",
+      "status": "judged",
       "srcHash": "68e6a4e4c15f1a71",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T03:03:21.250Z",
+      "judgeHash": "d0e845bbbe27cde3"
     },
     "bea8e342-3716-43c8-a1e7-dbe384683b2e/Option_1": {
       "en": "(Leave for now...)",
@@ -805,11 +806,12 @@
     "890f4a94-141f-4e9a-93d6-6dea1b802daf/EventContent": {
       "en": "The account keeper gently unrolls the scroll, with neat regular script clearly recording: <NL>I. Total Expenditure: <ArgBox key=Consumption type=int/> Silver.<NL>II. Silver Saved: <ArgBox key=JieShen type=int/> Silver.<NL>III. Herb Notes Obtained: <ArgBox key=FengShou type=int/> pieces.",
       "cn": "帐房先生轻展书卷，册页之上楷书端整，历历记述：<NL>壹、总计开销： <ArgBox key=Consumption type=int/> 银钱。<NL>贰、节省银钱： <ArgBox key=JieShen type=int/> 银钱。<NL>叁、获得百草笺：<ArgBox key=FengShou type=int/> 个。",
-      "ru": "Хранитель учетной записи аккуратно разворачивает свиток, на котором аккуратным обычным шрифтом четко записано: <NL>I. Общий объем расходов: <ArgBox key=Consumption type=int/> Серебро.<NL>II. Сэкономленное серебро: <ArgBox key=JieShen type=int/> Серебро.<NL>III. Получены ноты Трав: <ArgBox key=FengShou type=int/> кусочки.",
-      "status": "machine",
+      "ru": "Счетовод аккуратно разворачивает свиток, на котором разборчивым уставным почерком ясно записано: <NL>1. Общая сумма расходов: <ArgBox key=Consumption type=int/> серебряных монет.<NL>2. Сэкономлено серебряных монет: <ArgBox key=JieShen type=int/>.<NL>3. Получено записок о травах: <ArgBox key=FengShou type=int/> шт.",
+      "status": "judged",
       "srcHash": "2f9a3bef2bf1ddc6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T11:43:36.586Z",
+      "judgeHash": "df2a433f0f8c4344"
     },
     "890f4a94-141f-4e9a-93d6-6dea1b802daf/Option_1": {
       "en": "(Finish reading...)",
@@ -1154,11 +1156,12 @@
     "0d77621a-fbcb-4e67-be9b-b1ec2400326a/EventContent": {
       "en": "\"Spend to earn 'Herb Notes,' which can be exchanged for all sorts of items.<NL>If you trade with the host, the Revival Apothecary, you will earn even more 'Herb Notes.'\"",
       "cn": "“消费便能积攒‘百草笺’，‘百草笺’可兑换各样好物。<NL>你若是在主办方回春堂商会处交易，可获得更多的‘百草笺’哦。”",
-      "ru": "- Тратьте, чтобы заработать \"Записки о Травах\", которые можно обменять на всевозможные предметы.<NL>Если вы будете торговать с хозяином, Аптекарем Возрождения, вы заработаете еще больше \"Записок о Травах\".\"",
-      "status": "machine",
+      "ru": "\"Тратьте, чтобы заработать 'Записки о травах', которые можно обменять на всевозможные предметы.<NL>Если вы будете торговать с организатором — торговой палатой Аптекарни Возрождения, вы заработаете еще больше 'Записок о травах'.\"",
+      "status": "judged",
       "srcHash": "634c0c08f50d4559",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "9f47b3bf51c20ebb"
     },
     "0d77621a-fbcb-4e67-be9b-b1ec2400326a/Option_1": {
       "en": "Got it...",

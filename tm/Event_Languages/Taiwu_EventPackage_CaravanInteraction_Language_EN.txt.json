@@ -55,11 +55,12 @@
     "6ed72f36-01e2-4ee5-8b80-388ca91b580c/EventContent": {
       "en": "{0}<NL><NL>One of the travelers dusts off their clothes<NL>and strides toward <Character key=RoleTaiwu str=Name />, greeting <Character key=RoleTaiwu str=GenderObject/> with a respectful clasp of hands,<NL>\"We are merchants from {1}, sent by our guild to pay respects to the Successor of Taiwu...\"",
       "cn": "只见{0}<NL><NL>领头的一人拍去衣上尘土，<NL>随后阔步向<Character key=RoleTaiwu str=Name />走来，拱手拜道：<NL>“我等乃是{1}的商人，受商会所托，特意前来拜访「太吾」传人……”",
-      "ru": "{0}<NL><NL>Один из путешественников отряхивает пыль со своей одежды<NL>и шагает навстречу <Character key=RoleTaiwu str=Name />, приветствие <Character key=RoleTaiwu str=GenderObject/> с почтительным пожатием рук,<NL>\"Мы торговцы из {1}, посланный нашей гильдией засвидетельствовать почтение преемнику Тайву...\"",
-      "status": "machine",
+      "ru": "{0}<NL><NL>Предводитель путешественников отряхивает пыль со своей одежды<NL>и широко шагает к <Character key=RoleTaiwu str=Name />, приветствуя <Character key=RoleTaiwu str=GenderObject/> почтительно сложенными руками,<NL>\"Мы торговцы из {1}, посланные нашей гильдией засвидетельствовать почтение преемнику Тайву...\"",
+      "status": "judged",
       "srcHash": "a3653daae30a8fed",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-24T11:43:36.586Z",
+      "judgeHash": "fe212dbaa6e1473d"
     },
     "6ed72f36-01e2-4ee5-8b80-388ca91b580c/Option_1": {
       "en": "I am Taiwu. What brings you here?",
@@ -583,11 +584,12 @@
     "771d53a8-322f-4c83-90b9-565ae40d8a1c/EventContent": {
       "en": "\"With Guangdong's intricate waterways requiring countless porters,<NL>the Oxback Caravan formed in Guangzhou, Guangdong.<NL>As it grew, a northern branch was added in Taiyuan, Shanxi...\"",
       "cn": "“广东一带水网纵横，多需脚夫行商转运，<NL>由众多脚夫聚集而成的服牛帮，其总部便位于广东·广州，<NL>后规模渐大，又于北方设立分部，如今位于山西·太原……”",
-      "ru": "- Учитывая запутанные водные пути Гуандуна, требующие бесчисленного количества носильщиков,<NL>Караван Oxback сформировался в Гуанчжоу, Гуандун.<NL>По мере роста к нему добавился северный филиал в Тайюане, Шаньси...\"",
-      "status": "machine",
+      "ru": "\"Поскольку запутанные водные пути Гуандуна требуют бесчисленных носильщиков,<NL>Караван Волов возник в Гуанчжоу, Гуандун.<NL>По мере роста в Тайюане, Шаньси, к нему добавился северный филиал...\"",
+      "status": "judged",
       "srcHash": "1d851d3a42012fd2",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-24T11:43:36.586Z",
+      "judgeHash": "980fe2ba8a3cfcc2"
     },
     "771d53a8-322f-4c83-90b9-565ae40d8a1c/Option_1": {
       "en": "(I see...)",
@@ -915,7 +917,8 @@
       "status": "machine",
       "srcHash": "f0ba034ce0796e35",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "b4ca3226ba43d3b0"
     },
     "5fea16df-a28f-4272-9fbf-da457db70816/Option_1": {
       "en": "(Browse goods...)",
@@ -924,7 +927,8 @@
       "status": "machine",
       "srcHash": "e0ea4e7605449552",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "d55c791c0930395c"
     },
     "5fea16df-a28f-4272-9fbf-da457db70816/Option_2": {
       "en": "(Bid farewell...)",
@@ -939,11 +943,12 @@
     "a015dd64-0ee8-49e1-8bd7-461290a7b417/EventContent": {
       "en": "The merchant counted the Silvers and gave a fist-and-palm salute with a grin,<NL><NL>\"Taiwu, you are really generous!<NL>Caravans bring new goods every month. You are welcome to visit our guild more often.<NL>When we get to know each other well enough, I'll offer you rare items for old sake's sake...\"<NL><NL><color=#lightgrey>(The higher a guild's Favorability, the higher-tier items the guild will offer.)",
       "cn": "领头人清点完银钱，随即拱手笑道：<NL><NL>“「太吾」传人果真爽快！<NL>商队每月都会重新进货，今后还请多光顾我等商会，<NL>一来二去，你我交情渐深，那些稀罕物件，自然也可为阁下开个偏门……”<NL><NL><color=#lightgrey>（提升商会好感度可购买对应商会更高品阶的物品）",
-      "ru": "Торговец пересчитал серебро и с ухмылкой отсалютовал кулаком и ладонью,<NL><NL>- Тайву, ты действительно великодушен!<NL>Каждый месяц караваны привозят новые товары. Приглашаем вас почаще посещать нашу гильдию.<NL>Когда мы узнаем друг друга достаточно хорошо, я предложу тебе редкие вещи по старой памяти...\"<NL><NL><color=#lightgrey>(Чем выше благосклонность гильдии, тем более высокого ранга предметы гильдия будет предлагать.)",
-      "status": "machine",
+      "ru": "Торговец пересчитал серебро и с улыбкой сложил ладонь на кулаке,<NL><NL>\"Тайву, ты действительно великодушен!<NL>Караваны каждый месяц привозят новые товары. Приглашаем вас почаще посещать нашу гильдию.<NL>Когда мы достаточно хорошо узнаем друг друга, я предложу вам редкие предметы, сделав для вас исключение...\"<NL><NL><color=#lightgrey>(Чем выше благосклонность гильдии, тем более высокого ранга предметы будет предлагать гильдия.)",
+      "status": "judged",
       "srcHash": "ccec4f4bb5476a55",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "18f8857351140941"
     },
     "a015dd64-0ee8-49e1-8bd7-461290a7b417/Option_1": {
       "en": "I see...",
@@ -958,11 +963,12 @@
     "927882b1-4c97-49d9-9385-85e25fb2e36c/EventContent": {
       "en": "The merchant put away the goods and gave a fist-and-palm salute with a grin,<NL><NL>\"Caravans bring new goods every month. If you need anything, come to me.<NL>When we get to know each other well enough after several deals,<NL>I'll offer you rare items for old sake's sake...\"<NL><NL><color=#lightgrey>(The higher a guild's Favorability, the higher-tier items the guild will offer.)",
       "cn": "领头人收起货物，随即拱手笑道：<NL><NL>“商队每月都会重新进货，今后若有所需，还望记起我等，<NL>一来二去成了几笔买卖，你我交情渐深，<NL>那些稀罕物件，自然也可为阁下开个偏门……”<NL><NL><color=#lightgrey>（提升商会好感度可购买对应商会更高品阶的物品）",
-      "ru": "Торговец убрал товар и с ухмылкой отсалютовал кулаком и ладонью,<NL><NL>- Каждый месяц караваны привозят новые товары. Если тебе что-нибудь понадобится, приходи ко мне.<NL>Когда мы узнаем друг друга достаточно хорошо после нескольких сделок,<NL>Я предложу вам редкие предметы по старой памяти...\"<NL><NL><color=#lightgrey>(Чем выше благосклонность гильдии, тем более высокого ранга предметы гильдия будет предлагать.)",
-      "status": "machine",
+      "ru": "Торговец убрал товар и с улыбкой сложил ладонь на кулаке,<NL><NL>\"Караваны каждый месяц привозят новые товары. Если тебе что-нибудь понадобится, приходи ко мне.<NL>После нескольких сделок, когда мы достаточно хорошо узнаем друг друга,<NL>я предложу тебе редкие предметы, сделав для тебя исключение...\"<NL><NL><color=#lightgrey>(Чем выше благосклонность гильдии, тем более высокого ранга предметы будет предлагать гильдия.)",
+      "status": "judged",
       "srcHash": "c55563f3a0e1095a",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "5a1ec388a73dddc1"
     },
     "927882b1-4c97-49d9-9385-85e25fb2e36c/Option_1": {
       "en": "That seems reasonable...",
@@ -971,16 +977,18 @@
       "status": "machine",
       "srcHash": "e60c97110046a5ea",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "29b9b726ddf8aa4c"
     },
     "ebe0f693-666d-4b67-b468-e5a7ed2a1a5d/EventContent": {
       "en": "\"Bad luck for you, merchants!<NL>Hand over your goods now—unless you want trouble!\"<NL><NL><Character key=RoleTaiwu str=Name /> hears the commotion ahead and approaches,<NL>turns out a gang of armed brutes blocking the road, ready to rob the passing caravan...",
       "cn": "“今日且算你等倒霉，路过此地，<NL>还不快快交出身上钱财货物，免得招来杀身之祸！”<NL><NL><Character key=RoleTaiwu str=Name />听闻前有叫嚷之声，上前一看，<NL>原来竟是一伙凶神恶煞的匪徒，横刀拦下了正在行路的商队，意欲抢夺财物……",
-      "ru": "- Не повезло вам, торговцы!<NL>Отдавайте свой товар сейчас же — если не хотите неприятностей!\"<NL><NL><Character key=RoleTaiwu str=Name /> слышит шум впереди и приближается,<NL>оказывается, банда вооруженных головорезов перекрыла дорогу, готовая ограбить проходящий караван...",
-      "status": "machine",
+      "ru": "\"Не повезло вам, торговцы!<NL>Отдавайте сейчас же свои деньги и товары — если не хотите неприятностей!\"<NL><NL><Character key=RoleTaiwu str=Name /> слышит шум впереди и приближается,<NL>оказывается, банда вооружённых головорезов перекрыла дорогу, готовая ограбить проходящий караван...",
+      "status": "judged",
       "srcHash": "57e63f1bc3eb3080",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "f3848fa905bcaba8"
     },
     "ebe0f693-666d-4b67-b468-e5a7ed2a1a5d/Option_1": {
       "en": "You're robbing people in broad daylight? (Fight!)",
@@ -989,7 +997,8 @@
       "status": "machine",
       "srcHash": "ccfa0684eec85a2d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "2be54b6f606f831a"
     },
     "ebe0f693-666d-4b67-b468-e5a7ed2a1a5d/Option_2": {
       "en": "(Don't interfere and walk away...)",
@@ -998,16 +1007,18 @@
       "status": "machine",
       "srcHash": "d07d6aedf917544d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e5b61270d2571c56"
     },
     "1d6c93ae-f64d-44e5-b4ba-1afd355c30d5/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> defeats the bandits decisively.<NL>With the danger gone, the merchants express their deepest thanks, clearly impressed by <Character key=RoleTaiwu str=Name />.<NL>After a round of gratitude, they regroup and continue their journey...",
       "cn": "<Character key=RoleTaiwu str=Name />出手克敌，终是将拦路的匪徒彻底击退！<NL>受劫的商队见前路无虞，顿时千恩万谢，只对<Character key=RoleTaiwu str=Name />钦佩不已，<NL>一番拜谢后又再次启程，继续前行……",
-      "ru": "<Character key=RoleTaiwu str=Name /> решительно побеждает бандитов.<NL>Теперь, когда опасность миновала, торговцы выражают свою глубочайшую благодарность, явно впечатленные <Character key=RoleTaiwu str=Name />.<NL>Поблагодарив друг друга, они перегруппировываются и продолжают свой путь...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> решительно побеждает бандитов.<NL>Теперь, когда опасность миновала, торговцы выражают свою глубочайшую благодарность, явно впечатлённые <Character key=RoleTaiwu str=Name />.<NL>Выразив благодарность, они вновь собираются и продолжают свой путь...",
+      "status": "judged",
       "srcHash": "03cb79c377c64ec5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "8967a3e3203e971c"
     },
     "1d6c93ae-f64d-44e5-b4ba-1afd355c30d5/Option_1": {
       "en": "(This is good...)",
@@ -1022,11 +1033,12 @@
     "c6968d52-7fc7-48fb-b0b2-a9d3a3d33f06/EventContent": {
       "en": "\"Hah! You dare stand against us? Foolish!<NL>This haul is ours now...\"<NL><NL><Character key=RoleTaiwu str=Name /> is overwhelmed and can only watch as the bandits loot the caravan and disappear into the wilderness...<NL><NL>(Caravan profits significantly reduced due to robbery...)",
       "cn": "“哼！敢与我等作对，皆不过是枉费工夫！<NL>这些货物咱们便收下了……”<NL><NL><Character key=RoleTaiwu str=Name />一时不敌，只得任由匪徒劫去商队财物，扬长而去……<NL><NL>（因遭到匪徒劫掠，商队的收益大幅降低了……）",
-      "ru": "- Ха! Ты смеешь выступать против нас? Глупо!<NL>Теперь этот улов наш...\"<NL><NL><Character key=RoleTaiwu str=Name /> он ошеломлен и может только наблюдать, как бандиты грабят караван и исчезают в пустыне...<NL><NL>(Прибыль каравана значительно сократилась из-за грабежа...)",
-      "status": "machine",
+      "ru": "\"Ха! Ты смеешь выступать против нас? Глупо!<NL>Теперь этот улов наш...\"<NL><NL><Character key=RoleTaiwu str=Name /> оказывается не в силах противостоять и может лишь наблюдать, как бандиты грабят караван и скрываются в дикой местности...<NL><NL>(Прибыль каравана значительно сократилась из-за ограбления...)",
+      "status": "judged",
       "srcHash": "e3b9b5612b8a1c8c",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "7a19912c66243e86"
     },
     "c6968d52-7fc7-48fb-b0b2-a9d3a3d33f06/Option_1": {
       "en": "(Feeling helpless...)",
@@ -1045,7 +1057,8 @@
       "status": "machine",
       "srcHash": "e03470906025d668",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-07-12T00:16:01.527Z",
+      "judgeHash": "5ba124726396f470"
     },
     "0710cca8-5f52-43e0-9772-333cad5cdcc9/Option_1": {
       "en": "(...)",
@@ -1070,11 +1083,12 @@
     "080664cc-a0cd-446e-9f03-7299e21bfc7f/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> defeated <Character key=Prisoner str=Name/>,<NL>and firmly restrained <Character key=Prisoner str=Name/> to the ground...",
       "cn": "<Character key=RoleTaiwu str=Name/>将<Character key=Prisoner str=Name/>击倒在地，<NL>并将<Character key=Prisoner str=Name/>五花大绑……",
-      "ru": "<Character key=RoleTaiwu str=Name/> побежденный <Character key=Prisoner str=Name/>,<NL>и крепко сдержанный <Character key=Prisoner str=Name/> на землю...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> повалил <Character key=Prisoner str=Name/> на землю,<NL>и крепко связал <Character key=Prisoner str=Name/>...",
+      "status": "judged",
       "srcHash": "2baf16e115345536",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "0066ecd1283bec54"
     },
     "080664cc-a0cd-446e-9f03-7299e21bfc7f/Option_1": {
       "en": "(This is good...)",

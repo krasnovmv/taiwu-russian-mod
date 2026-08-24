@@ -426,11 +426,12 @@
     "Desc_16": {
       "en": "Input any boolean, True represents Attuned, False represents Un-attuned",
       "cn": "输入任意布尔，True 代表已识主的，False 代表未识主的",
-      "ru": "Введите любое логическое значение, True представляет настроенный, False представляет не настроенный",
-      "status": "machine",
+      "ru": "Введите любое логическое значение: истина означает «узнавший хозяина», ложь — «не узнавший хозяина».",
+      "status": "judged",
       "srcHash": "3c17aa3fdb9e777c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T03:03:21.250Z",
+      "judgeHash": "9302607fb0214f40"
     },
     "Desc_17": {
       "en": "Input the Gu type, such as Red-eye, Illusionary, Corruptive, Inner Demon, Tenebrous, Ice Silkworm, Golden Silkworm, Cyan, or input 0-7 to represent",

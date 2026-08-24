@@ -676,11 +676,12 @@
     "40687494-2a0a-473e-a535-8280a0654110/EventContent": {
       "en": "After several intense competitions,<NL>the dish \"<ArgBox key=InputResult type=string/>\" made by <Character key=RoleTaiwu str=Name /> only receives a score of <Language Num={0}/>,<NL>leading to a quick elimination...<NL><NL>After a while, the elder hosting the event finally announces that the highest scorer this time is <Character key=Rival str=Name />,<NL>with a score of <Language Num={1}/>. <Character key=Rival str=Name /> will receive a set of <color=#yellow>Cornucopia Pot</color>!",
       "cn": "随着几番激烈的角逐，<NL><Character key=RoleTaiwu str=Name />所制的“<ArgBox key=InputResult type=string/>”仅获得了<Language Num={0}/>评分，<NL>很快被淘汰下场……<NL><NL>半晌之后，主持大会的老者终于宣告此次评分最高者乃是<Character key=Rival str=Name />，<NL>其所获评分为<Language Num={1}/>，<Character key=Rival str=Name />将获得<color=#yellow>八宝六合锅</color>一件！",
-      "ru": "После нескольких напряженных соревнований,<NL>блюдо \"<ArgBox key=InputResult type=string/>\" сделано <Character key=RoleTaiwu str=Name /> получает только оценку в <Language Num={0}/>,<NL>приводящий к быстрому устранению...<NL><NL>Через некоторое время старейшина, ведущий мероприятие, наконец объявляет, что на этот раз лучшим бомбардиром стал <Character key=Rival str=Name />,<NL>со счетом <Language Num={1}/>. <Character key=Rival str=Name /> получите набор из <color=#yellow>Горшок из рога изобилия</color>!",
-      "status": "machine",
+      "ru": "После нескольких напряжённых состязаний,<NL>блюдо \"<ArgBox key=InputResult type=string/>\", приготовленное <Character key=RoleTaiwu str=Name />, получило лишь оценку <Language Num={0}/>,<NL>что быстро привело к выбыванию...<NL><NL>Через некоторое время старец, ведущий состязание, наконец объявляет, что на этот раз высшую оценку получил <Character key=Rival str=Name />,<NL>набрав <Language Num={1}/>. <Character key=Rival str=Name /> получит один <color=#yellow>горшок восьми сокровищ и шести гармоний</color>!",
+      "status": "judged",
       "srcHash": "043933ef5bf3ab8c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T03:03:21.250Z",
+      "judgeHash": "0cbac6d49eec5757"
     },
     "40687494-2a0a-473e-a535-8280a0654110/Option_1": {
       "en": "(Congratulate together...)",
@@ -1145,11 +1146,12 @@
     "5859f570-0bee-4e85-8f1d-6da61350868b/EventContent": {
       "en": "At this point, there's no use overthinking it. It's better to remedy the situation first...<NL><Character key=RoleTaiwu str=Name /> categorizes the Foodstuffs and prepares to remake the sauce.<NL>But due to <Character key=RoleTaiwu str=GenderPossessive/> lack of skill, <Character key=RoleTaiwu str=GenderSubject/> fails, and has to reapply for Foodstuffs from the Culinary Arts Tournament...",
       "cn": "事已至此，多想无益，还是先行补救要紧……<NL><Character key=RoleTaiwu str=Name />将食材资源分门别类，准备重新熬制酱料，<NL>奈何手艺不精，功亏一篑，只得重新向厨艺大会申请材料……",
-      "ru": "На данный момент нет смысла слишком много думать об этом. Лучше сначала исправить ситуацию...<NL><Character key=RoleTaiwu str=Name /> распределяет продукты по категориям и готовится к повторному приготовлению соуса.<NL>Но из-за <Character key=RoleTaiwu str=GenderPossessive/> недостаток навыков, <Character key=RoleTaiwu str=GenderSubject/> терпит неудачу и вынужден повторно подать заявку на продукты питания для участия в Турнире по кулинарному искусству...",
-      "status": "machine",
+      "ru": "На данный момент нет смысла слишком много об этом думать. Лучше сначала исправить ситуацию...<NL><Character key=RoleTaiwu str=Name /> распределяет продукты по категориям и готовится заново приготовить соус.<NL>Но из-за <Character key=RoleTaiwu str=GenderPossessive/> недостатка навыков <Character key=RoleTaiwu str=GenderSubject/> терпит неудачу, и ему приходится вновь запросить продукты для участия в Турнире по кулинарному искусству...",
+      "status": "judged",
       "srcHash": "bd6979560d37f9c7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "8f660db535cf3c0b"
     },
     "5859f570-0bee-4e85-8f1d-6da61350868b/Option_1": {
       "en": "(Ask for materials...)",
@@ -2324,11 +2326,12 @@
     "bdcb99d2-e9d1-4a07-8213-f6ab1ed76aee/EventContent": {
       "en": "After several intense competitions, hundreds of dishes on the stage are quickly eliminated!<NL><NL>The elder hosting the event picks up the \"<ArgBox key=InputResult type=string/>\" made by <Character key=RoleTaiwu str=Name /> from the remaining few exquisite dishes and announces loudly,<NL>\"<Character key=RoleTaiwu str=Name />'s culinary arts are superb, and the dishes prepared are all to the liking of <Character key=Guest str=Name />, earning a score of <Language Num={0}/>.<NL><Character key=RoleTaiwu str=Name /> is the rightful winner of this competition!\"",
       "cn": "随着几番激烈的角逐，台上的数百盘菜肴很快被淘汰下场！<NL><NL>只见主持大会的老者从剩余的数盘佳肴美馔中捧起<Character key=RoleTaiwu str=Name />所制的“<ArgBox key=InputResult type=string/>”，<NL>高声宣布道：“<Character key=RoleTaiwu str=Name />厨艺精湛，所烹饪佳肴无不合<Character key=Guest str=Name />心意，获得了<Language Num={0}/>评分，<NL><Character key=RoleTaiwu str=Name />为此次大会的胜者，实乃当之无愧！”",
-      "ru": "После нескольких напряженных конкурсов сотни блюд, выставленных на сцену, быстро выбывают из игры!<NL><NL>Старейшина, ведущий мероприятие, выбирает \"<ArgBox key=InputResult type=string/>\", приготовленное компанией <Character key=RoleTaiwu str=Name /> , из нескольких оставшихся изысканных блюд и громко объявляет об этом,<NL>\"<Character key=RoleTaiwu str=Name />Кулинарное искусство певицы превосходно, а все приготовленные блюда пришлись по вкусу <Character key=Guest str=Name />, набравший балл <Language Num={0}/>.<NL><Character key=RoleTaiwu str=Name /> является полноправным победителем этого конкурса!\"",
-      "status": "machine",
+      "ru": "После нескольких напряжённых состязаний сотни блюд на сцене быстро выбывают из конкурса!<NL><NL>Старейшина, ведущий состязание, выбирает из нескольких оставшихся изысканных блюд приготовленное <Character key=RoleTaiwu str=Name /> блюдо \"<ArgBox key=InputResult type=string/>\" и громко объявляет:<NL>\"<Character key=RoleTaiwu str=Name /> обладает превосходным кулинарным мастерством, а все приготовленные им блюда пришлись по вкусу <Character key=Guest str=Name /> и получили оценку <Language Num={0}/>.<NL><Character key=RoleTaiwu str=Name /> по праву становится победителем этого конкурса!\"",
+      "status": "judged",
       "srcHash": "56e552d77d885d2c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "a24a3ecebb3ee4e4"
     },
     "bdcb99d2-e9d1-4a07-8213-f6ab1ed76aee/Option_1": {
       "en": "(Overwhelmed with joy!)",
@@ -2573,11 +2576,12 @@
     "fae69032-5e50-4b23-aed8-594c866288c0/EventContent": {
       "en": "\"Are you here for the Culinary Arts Tournament?<NL>With so many talents gathered at this event, you might be wasting your efforts...\"<NL>As soon as <Character key=RoleTaiwu str=Name /> enters the Culinary Arts Tournament venue, <Character key=RoleTaiwu str=GenderSubject/> is intercepted by a guide...",
       "cn": "“阁下是来参加厨艺大会么？<NL>此次大会人才云集，阁下或许是白费力气……”<NL><Character key=RoleTaiwu str=Name />甫一进入厨艺大会会场，便被一名接引人横手拦下……",
-      "ru": "\"Вы здесь из-за турнира по кулинарному искусству?<NL>С таким количеством талантов, собранных на этом мероприятии, вы, возможно, напрасно тратите свои усилия...\"<NL>Как только <Character key=RoleTaiwu str=Name /> входит в зал проведения турнира по кулинарному искусству, <Character key=RoleTaiwu str=GenderSubject/> его перехватывает проводник...",
-      "status": "machine",
+      "ru": "\"Вы участвуете в Турнире по кулинарному искусству?<NL>На этом состязании собрались столь талантливые люди, что, возможно, вы зря стараетесь...\"<NL>Как только <Character key=RoleTaiwu str=Name /> входит в зал Турнира по кулинарному искусству, <Character key=RoleTaiwu str=GenderSubject/> сталкивается с проводником, который преграждает ему путь...",
+      "status": "judged",
       "srcHash": "bffc80aa8a770887",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "d9df56cf958ed9ab"
     },
     "fae69032-5e50-4b23-aed8-594c866288c0/Option_1": {
       "en": "(Insist on entering...)",

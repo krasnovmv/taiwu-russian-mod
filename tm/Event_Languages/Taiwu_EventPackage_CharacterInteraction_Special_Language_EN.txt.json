@@ -296,11 +296,12 @@
     "fe4aab08-af18-48e9-b68d-69a0c3ded43a/EventContent": {
       "en": "\"Walk with my foes, and you walk alone; stand against them, and you're a friend of my own.<NL>If you can't agree to that, then it's better if you leave.\"<NL><NL><color=#lightgrey>(Need to have at least two mutual Vindictive targets with <Character key=CharacterId str=Name /> to convince <Character key=CharacterId str=Name />...)</color><NL>",
       "cn": "“‘友吾敌者必我之敌，敌我敌者必我之友’，<NL>阁下若不能为此，便请回吧！”<NL><NL><color=#lightgrey>（需要至少与<Character key=CharacterId str=Name />拥有两位共同的“仇视”之人，才能说服<Character key=CharacterId str=Name />……）</color><NL>",
-      "ru": "- Иди с моими врагами, и ты пойдешь один; выступи против них, и ты станешь моим собственным другом.<NL>Если ты не можешь с этим согласиться, то будет лучше, если ты уйдешь.<NL><NL><color=#lightgrey>(Необходимо иметь по крайней мере две взаимные мстительные цели с <Character key=CharacterId str=Name /> чтобы убедить <Character key=CharacterId str=Name />...)</color><NL>",
-      "status": "machine",
+      "ru": "\"Дружи с моими врагами — станешь моим врагом; выступи против моих врагов — станешь моим другом.<NL>Если ты не можешь с этим согласиться, то лучше тебе уйти.\"<NL><NL><color=#lightgrey>(Необходимо иметь как минимум две общие цели ненависти с <Character key=CharacterId str=Name />, чтобы убедить <Character key=CharacterId str=Name />...)</color><NL>",
+      "status": "judged",
       "srcHash": "11add2b526a15e0a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "a7155d265862a43a"
     },
     "fe4aab08-af18-48e9-b68d-69a0c3ded43a/Option_1": {
       "en": "(Forget it...)",
@@ -755,11 +756,12 @@
     "3fd8291d-6f22-4b24-88ff-e11e9c5dbc6b/EventContent": {
       "en": "\"I have nothing to say to you...\"<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name /> regarded <Character key=RoleTaiwu str=Name/> as an enemy and refuses to speak with <Character key=RoleTaiwu str=Name/>...)</color>",
       "cn": "“我与你无话可说……”<NL><NL><color=#lightgrey>（<Character key=CharacterId str=Name />视<Character key=RoleTaiwu str=Name/>为仇敌，不愿与<Character key=RoleTaiwu str=Name/>说话……）</color>",
-      "ru": "- Мне нечего тебе сказать...<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name /> рассматриваемый <Character key=RoleTaiwu str=Name/> как враг и отказывается разговаривать с <Character key=RoleTaiwu str=Name/>...)</color>",
-      "status": "machine",
+      "ru": "\"Мне нечего тебе сказать...\"<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name /> считает <Character key=RoleTaiwu str=Name/> врагом и отказывается разговаривать с <Character key=RoleTaiwu str=Name/>...)</color>",
+      "status": "judged",
       "srcHash": "d98133085a1dfef7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "4907e95696a247b8"
     },
     "3fd8291d-6f22-4b24-88ff-e11e9c5dbc6b/Option_1": {
       "en": "(Resolve grudges...)",
@@ -824,11 +826,12 @@
     "a66c22f6-1d88-4711-aed5-054255d46e72/EventContent": {
       "en": "\"You... why do you look like this!?\"<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name/> saw <Character key=RoleTaiwu str=Name/> being disheveled, unwilling to talk to <Character key=RoleTaiwu str=Name/>...)</color>",
       "cn": "“你……你……何以这般模样！？”<NL><NL><color=#lightgrey>（<Character key=CharacterId str=Name/>见<Character key=RoleTaiwu str=Name/>衣不蔽体，不愿与<Character key=RoleTaiwu str=Name/>说话……）</color>",
-      "ru": "- Ты... почему у тебя такой вид?!<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name/> увидел <Character key=RoleTaiwu str=Name/> был взъерошен, не желал разговаривать с <Character key=RoleTaiwu str=Name/>...)</color>",
-      "status": "machine",
+      "ru": "\"Ты... почему ты в таком виде!?\"<NL><NL><color=#lightgrey>(<Character key=CharacterId str=Name/> увидел, что <Character key=RoleTaiwu str=Name/> почти без одежды, и не захотел разговаривать с <Character key=RoleTaiwu str=Name/>...)</color>",
+      "status": "judged",
       "srcHash": "d971f92cca8b66ac",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "9216e78612d2be04"
     },
     "a66c22f6-1d88-4711-aed5-054255d46e72/Option_1": {
       "en": "(Take leave...)",

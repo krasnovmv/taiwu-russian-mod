@@ -416,11 +416,12 @@
     "6d762bd5-ad84-4d9d-a606-e8746840603c/EventContent": {
       "en": "\"Welcome everyone to the 'All Implements Thoroughfare' gathering event hosted by Gongshu's Caravan!\"<NL>\"All those who purchase goods will receive generous rewards.<NL>Nobles who meet the spending threshold may ascend to become honored guests, enjoying the highest hospitality!\"<NL>The voice paused, then chuckled and continued: \"Finally, there is also a chance to compete for the ultimate prize.<NL>I wish you all a bountiful return and have fun!\"",
       "cn": "“欢迎诸位参与本次公输坊所举办的‘百器通衢’集会活动！”<NL>“凡购买商品者，皆可收获丰厚回馈。<NL>消费达标的贵客，更能荣升座上宾客，享上宾之礼！”<NL>那声音顿了顿，又含笑续道：“最后，还有机会角逐那终极奖励。<NL>祝各位满载而归，玩得尽兴！”",
-      "ru": "\"Приветствую всех на всех реализует проходной двор' сбор организован Караван Гонгшу караван!\"<NL>\"Все те, кто приобретет товар получит щедрое вознаграждение.<NL>Дворяне, которые встретятся на порог расходов может подняться, чтобы стать почетными гостями, наслаждаясь высоким гостеприимство!\"<NL>Голос помолчал, потом усмехнулся и продолжил: \"есть, наконец, шанс побороться за главный приз.<NL>Я желаю вам всем доброго вернуться и получать удовольствие!\"",
-      "status": "machine",
+      "ru": "\"Приветствую всех на собрании «Все орудия на большой дороге», организованном караваном Гуншу!\"<NL>\"Все, кто купит товары, получат щедрые награды.<NL>Гости, достигшие порога расходов, смогут стать почётными гостями и насладиться высшим гостеприимством!\"<NL>Голос умолк, затем с улыбкой продолжил: \"Наконец, можно побороться за главный приз.<NL>Желаю всем вернуться с богатой добычей и хорошо повеселиться!\"",
+      "status": "judged",
       "srcHash": "4597a259b0266cc3",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "5c4c66fabf7b7866"
     },
     "6d762bd5-ad84-4d9d-a606-e8746840603c/Option_1": {
       "en": "(Hurry and purchase something...)",
@@ -665,11 +666,12 @@
     "2f0cf768-60d2-4b22-b93f-5174fa9b412e/EventContent": {
       "en": "This is the \"Merit Board,\" which records the amount of \"Luban Rulers\" accumulated by passing merchants in red ink, for everyone to check and verify...<NL><NL>(<Character key=RoleTaiwu str=Name/>'s current Luban Rulers: <ArgBox key=fengshou_yinjiBox type=int/>)<NL>(<Character key=RoleTaiwu str=Name/>'s total Luban Rulers: <ArgBox key=DaiBiBox type=int/>)",
       "cn": "此乃“功德榜”，以朱笔记录往来客商所积“鲁班尺”之数，供人查阅核验……<NL><NL>（<Character key=RoleTaiwu str=Name/>当前拥有的鲁班尺：<ArgBox key=fengshou_yinjiBox type=int/>）<NL>（<Character key=RoleTaiwu str=Name/>总共获得的鲁班尺：<ArgBox key=DaiBiBox type=int/>）",
-      "ru": "Это \"Доска почета\", на которой красными чернилами указано количество \"Лубанских правителей\", накопленных проходящими мимо торговцами, чтобы каждый мог проверить...<NL><NL>(<Character key=RoleTaiwu str=Name/>текущие лубанские правители: <ArgBox key=fengshou_yinjiBox type=int/>)<NL>(<Character key=RoleTaiwu str=Name/>общее количество лубанских правителей: <ArgBox key=DaiBiBox type=int/>)",
-      "status": "machine",
+      "ru": "Это \"Доска почета\", на которой красными чернилами указано количество \"линеек Лубаня\", накопленных проходящими мимо торговцами, чтобы каждый мог проверить...<NL><NL>(<Character key=RoleTaiwu str=Name/>текущие линейки Лубаня: <ArgBox key=fengshou_yinjiBox type=int/>)<NL>(<Character key=RoleTaiwu str=Name/>общее количество линеек Лубаня: <ArgBox key=DaiBiBox type=int/>)",
+      "status": "judged",
       "srcHash": "749ad853f7c601bb",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T03:03:21.250Z",
+      "judgeHash": "0510f4b4abc0244b"
     },
     "2f0cf768-60d2-4b22-b93f-5174fa9b412e/Option_1": {
       "en": "(Leave for now...)",
@@ -734,11 +736,12 @@
     "4f2e4a42-e7bc-4dfe-8455-021999ac5ea3/EventContent": {
       "en": "The account keeper slowly unfolds the scroll, with regular script neatly recording: <NL>I. Total Expenditure: <ArgBox key=Consumption type=int/> Silver.<NL>II. Silver Saved: <ArgBox key=JieShen type=int/> Silver.<NL>III. Luban Rulers Obtained: <ArgBox key=FengShou type=int/> pieces.",
       "cn": "帐房先生徐徐展册，卷面楷体端整，一一载录：<NL>壹、总计开销： <ArgBox key=Consumption type=int/> 银钱。<NL>贰、节省银钱： <ArgBox key=JieShen type=int/> 银钱。<NL>叁、获得鲁班尺：<ArgBox key=FengShou type=int/> 个。",
-      "ru": "Хранитель учетной записи медленно разворачивает свиток, при этом обычным шрифтом аккуратно записывается: <NL>I. Общий объем расходов: <ArgBox key=Consumption type=int/> Серебро.<NL>II. Сэкономленное серебро: <ArgBox key=JieShen type=int/> Серебро.<NL>III. Любанские правители получили: <ArgBox key=FengShou type=int/> кусочки.",
-      "status": "machine",
+      "ru": "Счётчик медленно разворачивает свиток, на котором аккуратным уставным почерком записано: <NL>1. Общие расходы: <ArgBox key=Consumption type=int/> серебра.<NL>2. Сэкономлено серебра: <ArgBox key=JieShen type=int/> серебра.<NL>3. Получено линеек Лубаня: <ArgBox key=FengShou type=int/> шт.",
+      "status": "judged",
       "srcHash": "41b286650b154244",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "2f59faed91dd97a1"
     },
     "4f2e4a42-e7bc-4dfe-8455-021999ac5ea3/Option_1": {
       "en": "(Finish reading...)",

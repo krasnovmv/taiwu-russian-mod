@@ -796,11 +796,12 @@
     "6f4643d2-0d22-4849-8240-5e817bf7995e/EventContent": {
       "en": "\"I feel... something's not quite right...\"<NL><NL>(<Character key=RoleTaiwu str=Name /> successfully poisons <Character key=Participant str=Name /> with <Item key=GiftKey str=ColorName/>...)",
       "cn": "“我觉得……似乎有点……不太对劲……”<NL><NL>（<Character key=RoleTaiwu str=Name />成功使用<Item key=GiftKey str=ColorName/>向<Character key=Participant str=Name />下毒，<Character key=Participant str=Name />中毒了……）",
-      "ru": "\"Я чувствую... что-то не совсем правильно...\"<NL><NL>(<Character key=RoleTaiwu str=Name /> успешно Яды <Character key=Participant str=Name /> с <Item key=GiftKey str=ColorName/>...)",
-      "status": "machine",
+      "ru": "\"Я чувствую... что-то не совсем правильно...\"<NL><NL>(<Character key=RoleTaiwu str=Name /> успешно отравляет <Character key=Participant str=Name /> с помощью <Item key=GiftKey str=ColorName/> — жертва отравлена...)",
+      "status": "judged",
       "srcHash": "e48b294ec89e7ed0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-23T19:58:31.292Z",
+      "judgeHash": "9723f549b859aecb"
     },
     "6f4643d2-0d22-4849-8240-5e817bf7995e/Option_1": {
       "en": "(This is good...)",
@@ -1445,11 +1446,12 @@
     "dd49c5da-d574-489f-8429-f7f1ab539588/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> gives a fist-and-palm salute, gives a fist-and-palm salute respectfully to the crowd below, and then steps down from the arena...<NL><NL>Although <Character key=RoleTaiwu str=Name /> did not find <Character key=RoleTaiwu str=GenderPossessive/> ideal match in the Betrothal Contest,<NL><Character key=RoleTaiwu str=GenderPossessive/> valiant performance against numerous formidable opponents has earned the admiration of all the heroes and warriors present!",
       "cn": "<Character key=RoleTaiwu str=Name />朝台下众人拱手见礼，随后退下了擂台……<NL><NL><Character key=RoleTaiwu str=Name />虽未在比武招亲中寻到如意郎君，<NL>但此番力战群豪，也不禁令在场英豪侠士佩服不已！",
-      "ru": "<Character key=RoleTaiwu str=Name /> отдает честь кулаком и ладонью, уважительно отдает честь кулаком и ладонью толпе внизу, а затем спускается с арены...<NL><NL>Хотя <Character key=RoleTaiwu str=Name /> не нашли <Character key=RoleTaiwu str=GenderPossessive/> идеальную пару для участия в конкурсе на обручение,<NL><Character key=RoleTaiwu str=GenderPossessive/> доблестное выступление против многочисленных грозных противников заслужило восхищение всех присутствующих героев и воинов!",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> кланяется, сложив ладонь в кулак, присутствующим внизу, а затем спускается с арены……<NL><NL>Хотя <Character key=RoleTaiwu str=Name /> не удалось найти <Character key=RoleTaiwu str=GenderPossessive/> идеального супруга на состязании по выбору жениха,<NL><Character key=RoleTaiwu str=GenderPossessive/> доблестное выступление в битве против многочисленных грозных противников заслужило восхищение всех присутствующих героев и воинов!",
+      "status": "judged",
       "srcHash": "be2667b266ed6472",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T03:03:21.250Z",
+      "judgeHash": "01db77bef63201cc"
     },
     "dd49c5da-d574-489f-8429-f7f1ab539588/Option_1": {
       "en": "(Leave this place...)",
