@@ -636,11 +636,12 @@
     "87d09a27-2393-4558-b8b8-bdc225dbe8b6/EventContent": {
       "en": "\"The '<LifeSkill key=SkillCanLearn str=SkillName/>' is intricate and requires individual discovery.<NL>I can see your interest in '<LifeSkill key=SkillCanLearn str=SkillName/>.' Are you attempting to Plagiarize this mastery from me?!\"",
       "cn": "“这<LifeSkill key=SkillCanLearn str=SkillName/>其中奥妙万千，须得自寻机缘……<NL>你如此在意这<LifeSkill key=SkillCanLearn str=SkillName/>的要诀……莫非你想偷师吗！？”",
-      "ru": "\"Тот самый '<LifeSkill key=SkillCanLearn str=SkillName/>- это сложная задача, требующая индивидуального подхода.<NL>Я вижу ваш интерес к '<LifeSkill key=SkillCanLearn str=SkillName/>. \"Ты пытаешься позаимствовать у меня это мастерство?!\"",
-      "status": "machine",
+      "ru": "\"'<LifeSkill key=SkillCanLearn str=SkillName/>' полон тайн, и возможность постичь его нужно найти самому.<NL>Я вижу, как тебя интересует '<LifeSkill key=SkillCanLearn str=SkillName/>.' Неужели ты хочешь украсть у меня это мастерство?!\"",
+      "status": "judged",
       "srcHash": "954a2a22debf72ce",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "3f572f1359bd23c2"
     },
     "87d09a27-2393-4558-b8b8-bdc225dbe8b6/Option_1": {
       "en": "(Leave for now...)",
@@ -1125,11 +1126,12 @@
     "e3306c1f-0d4d-408b-afdc-dcbb67c8459d/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> approached <Character key=CharacterId str=Name />, seizing the opportunity to discuss \"<CombatSkill key=TeachCombat str=SkillName/>\" and piquing <Character key=CharacterId str=Name />'s interest...<NL>\"Oh? What's your perspective?\"<NL>Now is the perfect time to use Wide Citation to back up your claim...",
       "cn": "<Character key=RoleTaiwu str=Name />接近<Character key=CharacterId str=Name />，趁机与其谈论<CombatSkill key=TeachCombat str=SkillName/>，引得<Character key=CharacterId str=Name />兴致盎然……<NL>“哦？以你之所见，不知有何高论？”<NL>此时正可旁征博引，以它道佐证……",
-      "ru": "<Character key=RoleTaiwu str=Name /> приблизился <Character key=CharacterId str=Name />, пользуясь возможностью обсудить \"<CombatSkill key=TeachCombat str=SkillName/>- и задевающий <Character key=CharacterId str=Name />его интерес...<NL>- О? Какова ваша точка зрения?\"<NL>Сейчас самое подходящее время использовать широкое цитирование для подкрепления своего утверждения...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> приблизился к <Character key=CharacterId str=Name />, воспользовавшись случаем обсудить с ним \"<CombatSkill key=TeachCombat str=SkillName/>\" и вызвав у <Character key=CharacterId str=Name /> живой интерес...<NL>\"О? Каково твоё мнение?\"<NL>Сейчас самое время подкрепить свои слова многочисленными ссылками...",
+      "status": "judged",
       "srcHash": "5ef1d123a2a35251",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "312884885c52bb66"
     },
     "e3306c1f-0d4d-408b-afdc-dcbb67c8459d/Option_1": {
       "en": "(Swindle by a debate...)",
@@ -1284,11 +1286,12 @@
     "cee2bef1-be67-4fa5-b21e-94a3314cc1bf/EventContent": {
       "en": "\"While I've grasped <CombatSkill key=CantTeachCombat str=SkillName/>,<NL>it's quite abstruse, and it wouldn't be suitable to teach it to you at the moment...\"",
       "cn": "“我虽掌握这<CombatSkill key=CantTeachCombat str=SkillName/>，<NL>但其中法门太过深奥，暂且不宜传授给你……”",
-      "ru": "\"Пока я постигал <CombatSkill key=CantTeachCombat str=SkillName/>,<NL>это довольно заумный язык, и в данный момент было бы неуместно учить вас ему...\"",
-      "status": "machine",
+      "ru": "\"Хотя я и постиг <CombatSkill key=CantTeachCombat str=SkillName/>,<NL>его методы слишком глубоки, и сейчас ещё не время обучать им тебя...\"",
+      "status": "judged",
       "srcHash": "eaff3fe5abfa1079",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "23a793a8b81722d2"
     },
     "cee2bef1-be67-4fa5-b21e-94a3314cc1bf/Option_1": {
       "en": "(Other topics...)",
@@ -1323,11 +1326,12 @@
     "a641b4bb-a8c8-434c-bf17-c822e37984cd/EventContent": {
       "en": "\"Since you've obtained learning permission from our sect as <color=#yellow>Taiwu</color>, teaching you fine arts doesn't violate any rules...\"",
       "cn": "“你既是<color=#yellow>「太吾」</color>，又已取得我派学艺之许可，向你传授技艺也不算违反门规……”",
-      "ru": "\"Поскольку вы получили разрешение на обучение от нашей секты в качестве <color=#yellow>Тайву</color>, обучение вас ремеслам не нарушает никаких правил...\"",
-      "status": "machine",
+      "ru": "\"Поскольку вы — <color=#yellow>Тайву</color> и получили от нашей секты разрешение обучаться, передавать вам ремёсла не нарушает никаких правил...\"",
+      "status": "judged",
       "srcHash": "fe4070f544cb4bca",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "44fc17f2078823ba"
     },
     "a641b4bb-a8c8-434c-bf17-c822e37984cd/Option_1": {
       "en": "(Seek Music guidance...)",
@@ -1521,11 +1525,12 @@
     "31ff35ce-88f4-4c79-819e-e4c13a40dd0e/EventContent": {
       "en": "\"While I've grasped <LifeSkill key=CantTeachLife str=SkillName/>,<NL>it appears that the 'Support' you've garnered within our sect may not be enough to learn it.\"",
       "cn": "“我虽掌握这<LifeSkill key=CantTeachLife str=SkillName/>，<NL>但你于我派所得的‘支持’，似乎还不足以学习此技艺……”",
-      "ru": "\"Пока я постигал <LifeSkill key=CantTeachLife str=SkillName/>,<NL>похоже, что \"поддержки\", которую вы заручились в нашей секте, может оказаться недостаточно, чтобы научиться этому.\"",
-      "status": "machine",
+      "ru": "\"Хотя я и постиг <LifeSkill key=CantTeachLife str=SkillName/>,<NL>похоже, поддержки, которую вы получили в нашей секте, всё ещё недостаточно, чтобы изучить этот навык.\"",
+      "status": "judged",
       "srcHash": "aa3921ac4e1a6b8b",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "42f7457596589a1d"
     },
     "31ff35ce-88f4-4c79-819e-e4c13a40dd0e/Option_1": {
       "en": "(Other topics...)",
@@ -1570,11 +1575,12 @@
     "b65a8ea2-799b-468a-ab8c-7e05f045eb3c/EventContent": {
       "en": "\"{0}, though you're the successor of <color=#yellow>Taiwu</color> and have permission to learn from our sect,<NL>your reputation precedes you, {0}. I'm concerned our goals may not align.<NL>Please seek guidance elsewhere, {0}.\"",
       "cn": "“即便{0}是<color=#yellow>「太吾」</color>传人，又取得了我派学艺之许可……<NL>但{0}名声在外，只怕与我等并非一心……<NL>还请{0}另觅良师吧……”",
-      "ru": "\"{0}, хотя ты и являешься преемником <color=#yellow>Тайву</color> и получите разрешение учиться у нашей секты,<NL>ваша репутация опережает вас, {0} Я обеспокоен тем, что наши цели могут не совпадать.<NL>Пожалуйста, обратитесь за советом в другое место, {0}.\"",
-      "status": "machine",
+      "ru": "\"{0}, хотя ты и являешься преемником <color=#yellow>Тайву</color> и получил разрешение учиться у нашей секты,<NL>твоя репутация говорит сама за себя, {0}. Боюсь, наши цели могут не совпадать.<NL>Пожалуйста, поищи наставника в другом месте, {0}.\"",
+      "status": "judged",
       "srcHash": "f671ee192d1323b1",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "24059a6aa3d2458f"
     },
     "b65a8ea2-799b-468a-ab8c-7e05f045eb3c/Option_1": {
       "en": "(Forget it...)",
@@ -1619,11 +1625,12 @@
     "482e21d1-399f-4aae-bfa4-b63ec2809d26/EventContent": {
       "en": "\"Even though {0}'s gained permission to learn from our sect,<NL>your reputation precedes you. I'm concerned our goals may not align.<NL>But, considering it's you...\"",
       "cn": "“{0}虽取得了我派学艺之许可……<NL>但{0}名声在外，只怕与我等并非一心……<NL>不过……既然是你……”",
-      "ru": "\"Даже несмотря на то, что {0}он получил разрешение учиться у нашей секты,<NL>ваша репутация опережает вас. Я обеспокоен тем, что наши цели могут не совпадать.<NL>Но, учитывая, что это ты...\"",
-      "status": "machine",
+      "ru": "\"Хотя {0} получил разрешение учиться у нашей секты,<NL>ваша репутация говорит сама за себя. Боюсь, наши цели могут не совпадать.<NL>Но... раз это вы...\"",
+      "status": "judged",
       "srcHash": "21b10724d13d5a4f",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "2791c2afdd1a8ecd"
     },
     "482e21d1-399f-4aae-bfa4-b63ec2809d26/Option_1": {
       "en": "(Seek Music guidance...)",
@@ -1918,11 +1925,12 @@
     "9fc10d9c-0efa-4c03-b935-290797adf7ee/EventContent": {
       "en": "\"Even though you've gained permission to learn from our sect,<NL>your reputation precedes you. I'm concerned our goals may not align.<NL>But, considering it's you...\"",
       "cn": "“阁下虽取得了我派学艺之许可……<NL>但阁下名声在外，只怕与我等并非一心……<NL>不过……既然是你……”",
-      "ru": "- Даже несмотря на то, что ты получил разрешение учиться у нашей секты,<NL>ваша репутация опережает вас. Я обеспокоен тем, что наши цели могут не совпадать.<NL>Но, учитывая, что это ты...\"",
-      "status": "machine",
+      "ru": "\"Хотя вы получили разрешение учиться у нашей секты,<NL>ваша репутация говорит сама за себя. Боюсь, наши цели могут не совпадать.<NL>Но... раз это вы...\"",
+      "status": "judged",
       "srcHash": "94ae9e047631bc44",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "3959ebb59ff98db0"
     },
     "9fc10d9c-0efa-4c03-b935-290797adf7ee/Option_1": {
       "en": "(Learn Qi Arts of the Sanguine Sect...)",
@@ -2060,7 +2068,8 @@
       "status": "machine",
       "srcHash": "f26d62d82cdd9288",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e7d7a8c1fbf48ab6"
     },
     "9d5a6366-bf7f-4b54-8169-50a8f00102df/Option_1": {
       "en": "(...)",
@@ -2075,11 +2084,12 @@
     "df126766-9464-492f-b533-db33bed39fea/EventContent": {
       "en": "\"Though you have permission to learn from us,<NL>our martial arts are traditionally not shared with men.<NL>But... since it's you...\"",
       "cn": "“阁下虽取得了我派学艺之许可……<NL>但我派功法向来不传男子……<NL>不过……既然是你……”",
-      "ru": "- Хотя у вас есть разрешение учиться у нас,<NL>нашими боевыми искусствами традиционно не занимаются мужчины.<NL>Но... поскольку это ты...\"",
-      "status": "machine",
+      "ru": "\"Хотя у вас есть разрешение учиться у нас,<NL>наши боевые искусства по традиции не передаются мужчинам.<NL>Но... раз это вы...\"",
+      "status": "judged",
       "srcHash": "c055644277eea03e",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "5a1abef692b355bf"
     },
     "df126766-9464-492f-b533-db33bed39fea/Option_1": {
       "en": "(Learn Qi Arts of the Jade-Maiden Sect...)",
@@ -2244,11 +2254,12 @@
     "893c043f-b8cf-4268-8ad1-274b87f20b3f/EventContent": {
       "en": "\"Though you are the successor of <color=#yellow>Taiwu</color> and have permission to learn from us,<NL>our martial arts are traditionally reserved for the righteous, not Outlaws.<NL>Please seek guidance elsewhere.\"",
       "cn": "“即便阁下是<color=#yellow>「太吾」</color>传人，又取得了我派学艺之许可……<NL>但我派功法向来不传邪魔外道，<NL>还请阁下另觅良师吧……”",
-      "ru": "\"Хотя ты и являешься преемником <color=#yellow>Тайву</color> и получите разрешение учиться у нас,<NL>наши боевые искусства традиционно предназначены для праведников, а не для преступников.<NL>Пожалуйста, обратитесь за советом в другое место\".",
-      "status": "machine",
+      "ru": "\"Хотя ты и являешься преемником <color=#yellow>Тайву</color> и получил разрешение учиться у нас,<NL>наши боевые искусства по традиции предназначены для праведников, а не для злых отступников.<NL>Пожалуйста, поищи наставника в другом месте.\"",
+      "status": "judged",
       "srcHash": "b0e963c02bc1b4d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "143996c0934600fe"
     },
     "893c043f-b8cf-4268-8ad1-274b87f20b3f/Option_1": {
       "en": "(Forget it...)",
@@ -2263,11 +2274,12 @@
     "80509287-2014-4ce7-b796-c6148656e3bd/EventContent": {
       "en": "\"Even though you're the successor of <color=#yellow>Taiwu</color> and have permission to learn from our sect,<NL>your reputation precedes you. I'm concerned our goals may not align.<NL>Please seek guidance elsewhere.\"",
       "cn": "“即便施主是<color=#yellow>「太吾」</color>传人，又取得了我派学艺之许可……<NL>但施主名声在外，只怕与我等并非一心……<NL>还请施主另觅良师吧……”",
-      "ru": "\"Даже несмотря на то, что ты преемник <color=#yellow>Тайву</color> и получите разрешение учиться у нашей секты,<NL>ваша репутация опережает вас. Я обеспокоен тем, что наши цели могут не совпадать.<NL>Пожалуйста, обратитесь за советом в другое место\".",
-      "status": "machine",
+      "ru": "\"Хотя ты и являешься преемником <color=#yellow>Тайву</color> и получил разрешение учиться у нашей секты,<NL>твоя репутация говорит сама за себя. Боюсь, наши цели могут не совпадать.<NL>Пожалуйста, поищи наставника в другом месте.\"",
+      "status": "judged",
       "srcHash": "83db209ed8157c6f",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "7c68b63abe75f272"
     },
     "80509287-2014-4ce7-b796-c6148656e3bd/Option_1": {
       "en": "(Forget it...)",
@@ -2341,11 +2353,12 @@
     "0409f74c-7971-4cc1-a3fc-c0b82c971ec5/EventContent": {
       "en": "\"Even though you've gained permission to learn from our sect,<NL>your reputation precedes you. I'm concerned our goals may not align.<NL>But, considering it's you...\"",
       "cn": "“阁下虽取得了我派学艺之许可……<NL>但阁下名声在外，只怕与我等并非一心……<NL>不过……既然是你……”",
-      "ru": "- Даже несмотря на то, что ты получил разрешение учиться у нашей секты,<NL>ваша репутация опережает вас. Я обеспокоен тем, что наши цели могут не совпадать.<NL>Но, учитывая, что это ты...\"",
-      "status": "machine",
+      "ru": "\"Хотя вы получили разрешение учиться у нашей секты,<NL>ваша репутация говорит сама за себя. Боюсь, наши цели могут не совпадать.<NL>Но... раз это вы...\"",
+      "status": "judged",
       "srcHash": "94ae9e047631bc44",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "3959ebb59ff98db0"
     },
     "0409f74c-7971-4cc1-a3fc-c0b82c971ec5/Option_1": {
       "en": "(Learn Qi Arts of the Veil Scar Sect...)",
@@ -3854,7 +3867,8 @@
       "status": "machine",
       "srcHash": "d6ac0232265d0878",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e01195b3b7547647"
     },
     "f414c562-63c1-4a96-9d91-a8cd3be1da19/Option_1": {
       "en": "(Okay...)",
@@ -4319,11 +4333,12 @@
     "9fbf8be5-9b08-463b-8790-f511798e6a58/EventContent": {
       "en": "\"Your loss. It seems like the <LifeSkill key=SkillCanLearn str=TypeName/> you were just talking about is nothing but nonsense...\"",
       "cn": "“是你败了，如此看来，你对<LifeSkill key=SkillCanLearn str=TypeName/>之道也不过是胡言乱语罢了……”",
-      "ru": "- Твоя потеря. Это похоже на то, что <LifeSkill key=SkillCanLearn str=TypeName/> ты только что говорил не о чем ином, как о чепухе...\"",
-      "status": "machine",
+      "ru": "\"Ты проиграл. Похоже, то, что ты только что говорил о <LifeSkill key=SkillCanLearn str=TypeName/>, — не более чем чепуха...\"",
+      "status": "judged",
       "srcHash": "53006627cfd87936",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "578a58840e646654"
     },
     "9fbf8be5-9b08-463b-8790-f511798e6a58/Option_1": {
       "en": "(...)",
@@ -4338,11 +4353,12 @@
     "67c85621-eddc-4030-bb92-7ba9f3b7f31f/EventContent": {
       "en": "\"<CombatSkill key=TeachCombat str=SkillDesc/><NL>how about I share the wisdom of '<CombatSkill key=TeachCombat str=SkillName/>' with you?\"",
       "cn": "“<CombatSkill key=TeachCombat str=SkillDesc/><NL>我便将这<CombatSkill key=TeachCombat str=SkillName/>传授给你如何？”",
-      "ru": "\"<CombatSkill key=TeachCombat str=SkillDesc/><NL>как насчет того, чтобы я поделился мудростью '<CombatSkill key=TeachCombat str=SkillName/>- с тобой?\"",
-      "status": "machine",
+      "ru": "\"<CombatSkill key=TeachCombat str=SkillDesc/><NL>Как насчёт того, чтобы я обучил тебя <CombatSkill key=TeachCombat str=SkillName/>?\"",
+      "status": "judged",
       "srcHash": "a940324d922bf9ff",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "571c53b80b13f5a4"
     },
     "67c85621-eddc-4030-bb92-7ba9f3b7f31f/Option_1": {
       "en": "(Learn \"<CombatSkill key=TeachCombat str=SkillName/>\"...)",
@@ -4657,11 +4673,12 @@
     "be322270-5796-426b-a46c-1495ebf1abb3/EventContent": {
       "en": "\"Though you are the successor of <color=#yellow>Taiwu</color> and have permission to learn from us,<NL>our martial arts are traditionally reserved for the righteous, not Outlaws.<NL>Please seek guidance elsewhere.\"",
       "cn": "“即便阁下是<color=#yellow>「太吾」</color>传人，又取得了我派学艺之许可……<NL>但我派功法向来不传邪魔外道，<NL>还请阁下另觅良师吧……”",
-      "ru": "\"Хотя ты и являешься преемником <color=#yellow>Тайву</color> и получите разрешение учиться у нас,<NL>наши боевые искусства традиционно предназначены для праведников, а не для преступников.<NL>Пожалуйста, обратитесь за советом в другое место\".",
-      "status": "machine",
+      "ru": "\"Хотя ты и являешься преемником <color=#yellow>Тайву</color> и получил разрешение учиться у нас,<NL>наши боевые искусства по традиции предназначены для праведников, а не для злых отступников.<NL>Пожалуйста, поищи наставника в другом месте.\"",
+      "status": "judged",
       "srcHash": "b0e963c02bc1b4d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "143996c0934600fe"
     },
     "be322270-5796-426b-a46c-1495ebf1abb3/Option_1": {
       "en": "(Forget it...)",
@@ -4776,11 +4793,12 @@
     "c81ccf48-21eb-4a83-b2a6-be896a76692f/EventContent": {
       "en": "\"Though you are the successor of <color=#yellow>Taiwu</color> and have permission to learn from us,<NL>our martial arts are traditionally reserved for the righteous, not Outlaws.<NL>Please seek guidance elsewhere.\"",
       "cn": "“即便阁下是<color=#yellow>「太吾」</color>传人，又取得了我派学艺之许可……<NL>但我派功法向来不传邪魔外道，<NL>还请阁下另觅良师吧……”",
-      "ru": "\"Хотя ты и являешься преемником <color=#yellow>Тайву</color> и получите разрешение учиться у нас,<NL>наши боевые искусства традиционно предназначены для праведников, а не для преступников.<NL>Пожалуйста, обратитесь за советом в другое место\".",
-      "status": "machine",
+      "ru": "\"Хотя ты и являешься преемником <color=#yellow>Тайву</color> и получил разрешение учиться у нас,<NL>наши боевые искусства по традиции предназначены для праведников, а не для злых отступников.<NL>Пожалуйста, поищи наставника в другом месте.\"",
+      "status": "judged",
       "srcHash": "b0e963c02bc1b4d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "143996c0934600fe"
     },
     "c81ccf48-21eb-4a83-b2a6-be896a76692f/Option_1": {
       "en": "(Forget it...)",
@@ -4895,11 +4913,12 @@
     "48b8644d-b8cf-4a94-b9d2-d5dc72950973/EventContent": {
       "en": "\"Well, that's a pity...\"<NL>After asking <Character key=RoleTaiwu str=Name /> a series of questions, <Character key=CharacterId str=Name /> shook <Character key=CharacterId str=GenderPossessive/> head,<NL>\"Your grasp of '<LifeSkill key=SkillBefore str=SkillName/>' is still limited <color=#lightgrey>(Fewer than 3 pages read)</color>. It's not advisable to delve into more advanced techniques right away...\"",
       "cn": "“如此……这般……可惜……”<NL><Character key=CharacterId str=Name />向<Character key=RoleTaiwu str=Name />询问了几个问题，最后摇头说道：<NL>“你对<LifeSkill key=SkillBefore str=SkillName/>的理解尚浅<color=#lightgrey>（研读页数未达到3页）</color>，不宜立刻学习更高深的内容……”",
-      "ru": "\"Что ж, очень жаль...\"<NL>После того, как спросил <Character key=RoleTaiwu str=Name /> ряд вопросов, <Character key=CharacterId str=Name /> встряхнул <Character key=CharacterId str=GenderPossessive/> голова,<NL>\"Ваше понимание '<LifeSkill key=SkillBefore str=SkillName/>\" все еще ограничен <color=#lightgrey>(Прочитано менее 3 страниц)</color> Не рекомендуется сразу углубляться в более продвинутые техники...\"",
-      "status": "machine",
+      "ru": "\"Что ж, очень жаль...\"<NL>Задав <Character key=RoleTaiwu str=Name /> несколько вопросов, <Character key=CharacterId str=Name /> покачал <Character key=CharacterId str=GenderPossessive/> головой и сказал:<NL>\"Твоё понимание «<LifeSkill key=SkillBefore str=SkillName/>» всё ещё поверхностно <color=#lightgrey>(прочитано менее 3 страниц)</color>. Не стоит сразу переходить к более продвинутым техникам...\"",
+      "status": "judged",
       "srcHash": "281a28c943615fe7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "7582e188bb1faafe"
     },
     "48b8644d-b8cf-4a94-b9d2-d5dc72950973/Option_1": {
       "en": "(Other topics...)",
@@ -5194,11 +5213,12 @@
     "ad8ccfcb-fe5b-403a-bb64-d74106071db8/EventContent": {
       "en": "\"Even though you've gained permission to learn from our sect,<NL>your reputation precedes you. I'm concerned our goals may not align.<NL>But, considering it's you...\"",
       "cn": "“阁下虽取得了我派学艺之许可……<NL>但阁下名声在外，只怕与我等并非一心……<NL>不过……既然是你……”",
-      "ru": "- Даже несмотря на то, что ты получил разрешение учиться у нашей секты,<NL>ваша репутация опережает вас. Я обеспокоен тем, что наши цели могут не совпадать.<NL>Но, учитывая, что это ты...\"",
-      "status": "machine",
+      "ru": "\"Хотя вы получили разрешение учиться у нашей секты,<NL>ваша репутация говорит сама за себя. Боюсь, наши цели могут не совпадать.<NL>Но... раз это вы...\"",
+      "status": "judged",
       "srcHash": "94ae9e047631bc44",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "3959ebb59ff98db0"
     },
     "ad8ccfcb-fe5b-403a-bb64-d74106071db8/Option_1": {
       "en": "(Learn Qi Arts of the Fuloong Sanctuary...)",
@@ -5853,11 +5873,12 @@
     "b867e9ce-4515-4397-ad71-3e19f2994d46/EventContent": {
       "en": "A lost opportunity never returns...<NL><Character key=RoleTaiwu str=Name /> tried to swindle the principles of \"<LifeSkill key=SkillCanLearn str=SkillName/>\" from <Character key=CharacterId str=Name /> but the timing was off...",
       "cn": "机不可失，时不再来……<NL><Character key=RoleTaiwu str=Name />错失良机，只得放弃骗取<Character key=CharacterId str=Name />的<LifeSkill key=SkillCanLearn str=SkillName/>秘诀……",
-      "ru": "Упущенная возможность никогда не возвращается...<NL><Character key=RoleTaiwu str=Name /> пытался обмануть принципы \"<LifeSkill key=SkillCanLearn str=SkillName/>\" от <Character key=CharacterId str=Name /> но время было выбрано неподходящее...",
-      "status": "machine",
+      "ru": "Упущенная возможность никогда не возвращается...<NL><Character key=RoleTaiwu str=Name /> упустил подходящий момент и был вынужден отказаться от попытки выведать у <Character key=CharacterId str=Name /> секреты \"<LifeSkill key=SkillCanLearn str=SkillName/>\"...",
+      "status": "judged",
       "srcHash": "b2549140528239ca",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "5176ba5f9bf8e5cf"
     },
     "b867e9ce-4515-4397-ad71-3e19f2994d46/Option_1": {
       "en": "(...)",
@@ -5982,11 +6003,12 @@
     "38f467fd-c772-4186-b753-1e8d3fc3e391/EventContent": {
       "en": "\"Though you are the successor of <color=#yellow>Taiwu</color> and have permission to learn from us,<NL>our martial arts are traditionally reserved for the righteous, not Outlaws.<NL>Please seek guidance elsewhere.\"",
       "cn": "“即便阁下是<color=#yellow>「太吾」</color>传人，又取得了我派学艺之许可……<NL>但我派功法向来不传邪魔外道，<NL>还请阁下另觅良师吧……”",
-      "ru": "\"Хотя ты и являешься преемником <color=#yellow>Тайву</color> и получите разрешение учиться у нас,<NL>наши боевые искусства традиционно предназначены для праведников, а не для преступников.<NL>Пожалуйста, обратитесь за советом в другое место\".",
-      "status": "machine",
+      "ru": "\"Хотя ты и являешься преемником <color=#yellow>Тайву</color> и получил разрешение учиться у нас,<NL>наши боевые искусства по традиции предназначены для праведников, а не для злых отступников.<NL>Пожалуйста, поищи наставника в другом месте.\"",
+      "status": "judged",
       "srcHash": "b0e963c02bc1b4d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "143996c0934600fe"
     },
     "38f467fd-c772-4186-b753-1e8d3fc3e391/Option_1": {
       "en": "(Forget it...)",
@@ -6520,11 +6542,12 @@
     "34c5d720-e343-4328-b10c-995023ec052d/EventContent": {
       "en": "\"Even though you've gained permission to learn from our sect,<NL>your reputation precedes you. I'm concerned our goals may not align.<NL>But, considering it's you...\"",
       "cn": "“阁下虽取得了我派学艺之许可……<NL>但阁下名声在外，只怕与我等并非一心……<NL>不过……既然是你……”",
-      "ru": "- Даже несмотря на то, что ты получил разрешение учиться у нашей секты,<NL>ваша репутация опережает вас. Я обеспокоен тем, что наши цели могут не совпадать.<NL>Но, учитывая, что это ты...\"",
-      "status": "machine",
+      "ru": "\"Хотя вы получили разрешение учиться у нашей секты,<NL>ваша репутация говорит сама за себя. Боюсь, наши цели могут не совпадать.<NL>Но... раз это вы...\"",
+      "status": "judged",
       "srcHash": "94ae9e047631bc44",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "3959ebb59ff98db0"
     },
     "34c5d720-e343-4328-b10c-995023ec052d/Option_1": {
       "en": "(Learn Qi Arts of the Five Immortals Sect...)",

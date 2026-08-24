@@ -176,11 +176,12 @@
     "f3341e73-d607-4d0d-b3c1-ed4c5ccd0e74/EventContent": {
       "en": "As <Character key=RoleTaiwu str=Name /> walked along a remote, deserted place,<NL><Character key=CharacterId str=Name /> suddenly stopped <Character key=RoleTaiwu str=Name /> with an unfriendly expression...<NL><NL>After a brief conversation, <Character key=CharacterId str=Name /> finally revealed their intent:<NL>If <Character key=RoleTaiwu str=Name /> didn't want to be killed, then they must hand over <Item key=ItemKey str=ColorName/>...",
       "cn": "当<Character key=RoleTaiwu str=Name />行至偏僻无人之处时，<NL><Character key=CharacterId str=Name />忽然面色不善地拦住了<Character key=RoleTaiwu str=Name />的去路……<NL><NL>在三言两语的交谈之后，<Character key=CharacterId str=Name />终于言明：<NL>若<Character key=RoleTaiwu str=Name />愿意交出<Item key=ItemKey str=ColorName/>，便可保全性命……",
-      "ru": "Как <Character key=RoleTaiwu str=Name /> шел по отдаленному, безлюдному месту,<NL><Character key=CharacterId str=Name /> внезапно остановился <Character key=RoleTaiwu str=Name /> с недружелюбным выражением лица...<NL><NL>После краткого разговора, <Character key=CharacterId str=Name /> наконец-то раскрылись их намерения:<NL>Если <Character key=RoleTaiwu str=Name /> не хотели, чтобы их убивали, тогда они должны были сдать <Item key=ItemKey str=ColorName/>...",
-      "status": "machine",
+      "ru": "Когда <Character key=RoleTaiwu str=Name /> шёл по отдалённому безлюдному месту,<NL><Character key=CharacterId str=Name /> внезапно преградил <Character key=RoleTaiwu str=Name /> дорогу с недружелюбным выражением лица...<NL><NL>После короткого разговора <Character key=CharacterId str=Name /> наконец объявил о своём намерении:<NL>если <Character key=RoleTaiwu str=Name /> не хочет быть убитым, ему придётся отдать <Item key=ItemKey str=ColorName/>...",
+      "status": "judged",
       "srcHash": "cc27ca35bbfe780c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "6fc809daded12e89"
     },
     "f3341e73-d607-4d0d-b3c1-ed4c5ccd0e74/Option_1": {
       "en": "(Hand over <Item key=ItemKey str=ColorName/>...)",
@@ -1067,7 +1068,8 @@
       "status": "machine",
       "srcHash": "af6b1a10f002035c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e134dddd745be479"
     },
     "488e1325-5d26-454a-a9b2-f62854bbf2ac/EventContent": {
       "en": "\"Who are the mightiest between us? Why don't we find it out today!\"<NL>Today, <Character key=CharacterId str=Name /> stopped <Character key=RoleTaiwu str=Name /> on their way and issued a challenge...",
@@ -2948,11 +2950,12 @@
     "3da0ed73-3abe-47c4-9990-91beeca7e831/EventContent": {
       "en": "As <Character key=MonthlyEvent_arg0 str=Name /> grew older,<NL><Character key=MonthlyEvent_arg0 str=Name /> became more and more interested in everything around them...",
       "cn": "随着<Character key=MonthlyEvent_arg0 str=Name />逐渐长大，<NL><Character key=MonthlyEvent_arg0 str=Name />开始对周边的各类事物不断显现出莫大的兴趣……",
-      "ru": "Как <Character key=MonthlyEvent_arg0 str=Name /> становился старше,<NL><Character key=MonthlyEvent_arg0 str=Name /> они все больше и больше интересовались всем, что их окружало...",
-      "status": "machine",
+      "ru": "По мере того как <Character key=MonthlyEvent_arg0 str=Name /> взрослел,<NL>интерес <Character key=MonthlyEvent_arg0 str=Name /> ко всему вокруг становился всё сильнее...",
+      "status": "judged",
       "srcHash": "6fdaccd833d159c1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "714ee724843e95c3"
     },
     "3da0ed73-3abe-47c4-9990-91beeca7e831/Option_1": {
       "en": "(...)",
@@ -3336,11 +3339,12 @@
     "8d39549c-8c76-44fa-9ded-38d185a331ab/EventContent": {
       "en": "After a considerable effort,<NL><Character key=RoleTaiwu str=Name /> successfully evaded <Character key=MonthlyEvent_arg0 str=Name />'s relentless pursuit...<NL><NL><Character key=RoleTaiwu str=Name /> fled from the fight and kept their <Item key=MonthlyEvent_arg3 str=ColorName/> safe!",
       "cn": "<Character key=RoleTaiwu str=Name />费了许多功夫，<NL>终于摆脱了<Character key=MonthlyEvent_arg0 str=Name />的追赶……<NL><NL><Character key=RoleTaiwu str=Name />从比武中逃脱，成功地保住了手中的<Item key=MonthlyEvent_arg3 str=ColorName/>！",
-      "ru": "После значительных усилий,<NL><Character key=RoleTaiwu str=Name /> успешно уклонился <Character key=MonthlyEvent_arg0 str=Name />неустанное преследование...<NL><NL><Character key=RoleTaiwu str=Name /> бежали от боя и сохранили свои <Item key=MonthlyEvent_arg3 str=ColorName/> в безопасности!",
-      "status": "machine",
+      "ru": "После значительных усилий,<NL><Character key=RoleTaiwu str=Name /> успешно уклонился от неустанного преследования <Character key=MonthlyEvent_arg0 str=Name />...<NL><NL><Character key=RoleTaiwu str=Name /> сбежал с боя и сумел сохранить <Item key=MonthlyEvent_arg3 str=ColorName/>!",
+      "status": "judged",
       "srcHash": "b03a1db5779427d9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "68c6f52e2b4d502a"
     },
     "8d39549c-8c76-44fa-9ded-38d185a331ab/Option_1": {
       "en": "(Flee as fast as possible...)",
@@ -4455,11 +4459,12 @@
     "e8912b09-71bd-4254-93b2-ed6266f5f8fa/EventContent": {
       "en": "Today, <Character key=CharacterId str=Name /> suddenly approached <Character key=RoleTaiwu str=Name /> and chatted with <Character key=RoleTaiwu str=Name />...<NL><NL><Character key=CharacterId str=Name /> quoted a lot from the classics, seemingly trying to lecture someone...<NL>Turned out, they wanted to persuade <Character key=RoleTaiwu str=Name /> to tell the gist of <Item key=ItemKey str=ColorName/> to them...",
       "cn": "这一日，<Character key=CharacterId str=Name />忽然来到<Character key=RoleTaiwu str=Name />身前，与<Character key=RoleTaiwu str=Name />攀谈起来……<NL><NL><Character key=CharacterId str=Name />引经据典，旁征博引——<NL>原来，是想劝说<Character key=RoleTaiwu str=Name />将<Item key=ItemKey str=ColorName/>的些许要点透露给自己……",
-      "ru": "Сегодня, <Character key=CharacterId str=Name /> внезапно приблизившийся <Character key=RoleTaiwu str=Name /> и поболтал с <Character key=RoleTaiwu str=Name />...<NL><NL><Character key=CharacterId str=Name /> много цитировал классиков, похоже, пытаясь прочитать кому-то лекцию...<NL>Оказалось, они хотели убедить <Character key=RoleTaiwu str=Name /> чтобы рассказать суть <Item key=ItemKey str=ColorName/> для них...",
-      "status": "machine",
+      "ru": "Сегодня, <Character key=CharacterId str=Name /> внезапно подошёл к <Character key=RoleTaiwu str=Name /> и разговорился с <Character key=RoleTaiwu str=Name />...<NL><NL><Character key=CharacterId str=Name /> много цитировал классиков, словно пытаясь кого-то поучать...<NL>Оказалось, он хотел убедить <Character key=RoleTaiwu str=Name /> рассказать ему суть <Item key=ItemKey str=ColorName/>...",
+      "status": "judged",
       "srcHash": "f271b29cf691ee54",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "9c782a29d4f02533"
     },
     "e8912b09-71bd-4254-93b2-ed6266f5f8fa/Option_1": {
       "en": "(Argue with them!)",
@@ -4603,11 +4608,12 @@
     "e52c527a-c170-47a9-ad9f-66a0b2c553ca/EventContent": {
       "en": "<Character key=MonthlyEvent_arg0 str=Name /> was no match for <Character key=RoleTaiwu str=Name /> and fled in panic from <Character key=RoleTaiwu str=Name />'s grasp.<NL>In their haste, the swindled Secret Tome of <Item key=MonthlyEvent_arg3 str=ColorName/> was also lost, which returned to <Character key=RoleTaiwu str=Name />'s hand...",
       "cn": "<Character key=MonthlyEvent_arg0 str=Name />不敌<Character key=RoleTaiwu str=Name />,从<Character key=RoleTaiwu str=Name />手中仓惶而逃，<NL>唬骗的<Item key=MonthlyEvent_arg3 str=ColorName/>宝典也不慎遗落，重回<Character key=RoleTaiwu str=Name />手中……",
-      "ru": "<Character key=MonthlyEvent_arg0 str=Name /> был не ровня <Character key=RoleTaiwu str=Name /> и в панике бежал из <Character key=RoleTaiwu str=Name />его хватка.<NL>В спешке они похитили Тайный трактат о <Item key=MonthlyEvent_arg3 str=ColorName/> также был утерян, который вернулся в <Character key=RoleTaiwu str=Name />чья-то рука...",
-      "status": "machine",
+      "ru": "<Character key=MonthlyEvent_arg0 str=Name /> был не ровня <Character key=RoleTaiwu str=Name /> и в панике вырвался из хватки <Character key=RoleTaiwu str=Name />.<NL>В спешке украденный тайный трактат о <Item key=MonthlyEvent_arg3 str=ColorName/> тоже случайно выпал и вернулся в руки <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "054f4f0dd1789009",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T10:34:16.688Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "412bc681603b20e4"
     },
     "e52c527a-c170-47a9-ad9f-66a0b2c553ca/Option_1": {
       "en": "(That's great...)",
@@ -5112,11 +5118,12 @@
     "83960694-3631-4bb5-b8ec-11b3ea67d3d6/EventContent": {
       "en": "\"Let us learn from each other and overcome our shortcomings...\"<NL>Today, <Character key=MonthlyEvent_arg0 str=Name /> was feeling restless and wanted to <color=#yellow>Debate</color> with <Character key=RoleTaiwu str=Name /> to work off some energy!",
       "cn": "“你我之间相互学习，取长补短……”<NL>这一日，<Character key=MonthlyEvent_arg0 str=Name />心血来潮，希望能与<Character key=RoleTaiwu str=Name />进行<color=#yellow>「较艺」</color>！",
-      "ru": "\"Давайте учиться друг у друга и преодолевать наши недостатки...\"<NL>Сегодня, <Character key=MonthlyEvent_arg0 str=Name /> чувствовал беспокойство и хотел <color=#yellow>Диспут</color> с <Character key=RoleTaiwu str=Name /> чтобы выработать немного энергии!",
-      "status": "machine",
+      "ru": "\"Давайте учиться друг у друга и преодолевать наши недостатки...\"<NL>Сегодня, <Character key=MonthlyEvent_arg0 str=Name /> чувствовал беспокойство и хотел провести <color=#yellow>диспут</color> с <Character key=RoleTaiwu str=Name />, чтобы выплеснуть немного энергии!",
+      "status": "judged",
       "srcHash": "50f125f9cd70ff0c",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T10:34:16.688Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "b227912562c19c69"
     },
     "83960694-3631-4bb5-b8ec-11b3ea67d3d6/Option_1": {
       "en": "(Agree to a debate...)",
@@ -5141,11 +5148,12 @@
     "cdb52393-d2f6-4b0d-bc0f-c35659d83193/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> pondered for a moment and turned to leave without a single word.<NL>Seeing that <Character key=RoleTaiwu str=Name /> did not accept the challenge, <Character key=MonthlyEvent_arg0 str=Name /> had no choice but to follow them.<NL>Yet, <Character key=RoleTaiwu str=Name /> left extremely fast. With just a slight lapse in attention, <Character key=MonthlyEvent_arg0 str=Name /> lost sight of them completely...",
       "cn": "<Character key=RoleTaiwu str=Name />若有所思，一言不发，转身便走，<NL><Character key=MonthlyEvent_arg0 str=Name />见<Character key=RoleTaiwu str=Name />并不应战，只得一路跟随，<NL>哪知<Character key=RoleTaiwu str=Name />走得极快，<Character key=MonthlyEvent_arg0 str=Name />稍一疏忽，<Character key=RoleTaiwu str=Name />便已不知了去向……",
-      "ru": "<Character key=RoleTaiwu str=Name /> задумался на мгновение и повернулся, чтобы уйти, не сказав ни единого слова.<NL>Видя, что <Character key=RoleTaiwu str=Name /> не принял вызов, <Character key=MonthlyEvent_arg0 str=Name /> у меня не было другого выбора, кроме как последовать за ними.<NL>Пока что, <Character key=RoleTaiwu str=Name /> ушел очень быстро. С небольшим ослаблением внимания, <Character key=MonthlyEvent_arg0 str=Name /> полностью потерял их из виду...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> задумался на мгновение и повернулся, чтобы уйти, не сказав ни единого слова.<NL>Видя, что <Character key=RoleTaiwu str=Name /> не принял вызов, <Character key=MonthlyEvent_arg0 str=Name /> был вынужден последовать за ним.<NL>Однако <Character key=RoleTaiwu str=Name /> ушёл очень быстро. Стоило <Character key=MonthlyEvent_arg0 str=Name /> лишь слегка отвлечься, как он полностью потерял его из виду...",
+      "status": "judged",
       "srcHash": "3440e9681ac1aa48",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "85a5b48fbd10281a"
     },
     "cdb52393-d2f6-4b0d-bc0f-c35659d83193/Option_1": {
       "en": "(...)",
@@ -6020,11 +6028,12 @@
     "c9ae6860-a00e-464c-bd07-d5018953abd6/EventContent": {
       "en": "When <Character key=MonthlyEvent_arg0 str=Name /> came home today, embarrassment was written on their face.<NL><Character key=RoleTaiwu str=Name /> noticed and worried about them, and only uncovered the cause after gentle questioning:<NL><NL>Turned out, <Character key=MonthlyEvent_arg0 str=Name /> was a kind person who often helped others.<NL>But there were many deceptive people who took advantage of <Character key=MonthlyEvent_arg0 str=Name />'s kindness to obtain dishonest rewards...",
       "cn": "这一日，<NL><Character key=MonthlyEvent_arg0 str=Name />外出归家，面露尴尬，<NL><Character key=RoleTaiwu str=Name />心中担忧，几经询问之后，才终于得知了其中的缘由：<NL><NL>原来，<Character key=MonthlyEvent_arg0 str=Name />心地善良，常常帮助他人，<NL>但不乏有偷奸耍滑之徒，利用<Character key=MonthlyEvent_arg0 str=Name />的善心，不劳而获，坐享其成……",
-      "ru": "Когда <Character key=MonthlyEvent_arg0 str=Name /> пришли сегодня домой, на их лицах было написано смущение.<NL><Character key=RoleTaiwu str=Name /> заметил их и забеспокоился о них, и только после осторожных расспросов выяснил причину:<NL><NL>Получилось, <Character key=MonthlyEvent_arg0 str=Name /> был добрым человеком, который часто помогал другим.<NL>Но было много обманчивых людей, которые воспользовались <Character key=MonthlyEvent_arg0 str=Name />это доброта, направленная на получение нечестного вознаграждения...",
-      "status": "machine",
+      "ru": "Когда <Character key=MonthlyEvent_arg0 str=Name /> сегодня вернулся домой, на его лице было написано смущение.<NL><Character key=RoleTaiwu str=Name /> заметил это и забеспокоился, а после осторожных расспросов выяснил причину:<NL><NL>Оказалось, <Character key=MonthlyEvent_arg0 str=Name /> был добрым человеком, который часто помогал другим.<NL>Но немало хитрецов пользовались добротой <Character key=MonthlyEvent_arg0 str=Name />, получая выгоду, не прилагая усилий...",
+      "status": "judged",
       "srcHash": "80fc7216c834ca38",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "bf39001e516bedb1"
     },
     "c9ae6860-a00e-464c-bd07-d5018953abd6/Option_1": {
       "en": "A noble person can still be tricked with reasons, but other people's wrongdoings are not your fault...",
@@ -6249,11 +6258,12 @@
     "e4df3573-eaa7-4bec-a7f0-b528e2078d0f/EventContent": {
       "en": "When trying to learn <Character key=RoleTaiwu str=Name />'s <Item key=ItemKey str=ColorName/> in secret,<NL><Character key=CharacterId str=Name /> were caught and stopped by <Character key=RoleTaiwu str=Name />!",
       "cn": "<Character key=CharacterId str=Name />在试图偷学<Character key=RoleTaiwu str=Name />的<Item key=ItemKey str=ColorName/>时，<NL>被<Character key=RoleTaiwu str=Name />发现并阻止！",
-      "ru": "Когда пытаешься научиться <Character key=RoleTaiwu str=Name />'s <Item key=ItemKey str=ColorName/> в тайне,<NL><Character key=CharacterId str=Name /> были пойманы и остановлены <Character key=RoleTaiwu str=Name />!",
-      "status": "machine",
+      "ru": "Пытаясь тайно перенять <Character key=RoleTaiwu str=Name /> <Item key=ItemKey str=ColorName/>,<NL><Character key=CharacterId str=Name /> были замечены и остановлены <Character key=RoleTaiwu str=Name />!",
+      "status": "judged",
       "srcHash": "c004fccbb8628952",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "ca966a30e4678ae8"
     },
     "e4df3573-eaa7-4bec-a7f0-b528e2078d0f/Option_1": {
       "en": "(Confront them!)",
@@ -6542,7 +6552,8 @@
       "status": "machine",
       "srcHash": "76c79205a2c3e8d4",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T10:34:16.688Z"
+      "updatedAt": "2026-07-12T10:34:16.688Z",
+      "judgeHash": "c04647833ed62dcb"
     },
     "d7752761-ccaf-4d89-862d-2acfe6e813af/Option_1": {
       "en": "(That's how it should be...)",
@@ -6887,11 +6898,12 @@
     "32e1edf9-4c1c-4adf-819b-a3009e650a32/EventContent": {
       "en": "Today, <Character key=CharacterId str=Name /> suddenly approached <Character key=RoleTaiwu str=Name /> and chatted with <Character key=RoleTaiwu str=Name />...<NL><NL><Character key=CharacterId str=Name /> quoted a lot from the classics, seemingly trying to lecture someone...<NL>Turned out, they wanted to persuade <Character key=RoleTaiwu str=Name /> to gift their <Item key=ItemKey str=ColorName/> to them...",
       "cn": "这一日，<Character key=CharacterId str=Name />忽然来到<Character key=RoleTaiwu str=Name />身前，与<Character key=RoleTaiwu str=Name />攀谈起来……<NL><NL><Character key=CharacterId str=Name />引经据典，旁征博引——<NL>原来，是想劝说<Character key=RoleTaiwu str=Name />将手中的<Item key=ItemKey str=ColorName/>赠予自己……",
-      "ru": "Сегодня, <Character key=CharacterId str=Name /> внезапно приблизившийся <Character key=RoleTaiwu str=Name /> и поболтал с <Character key=RoleTaiwu str=Name />...<NL><NL><Character key=CharacterId str=Name /> много цитировал классиков, похоже, пытаясь прочитать кому-то лекцию...<NL>Оказалось, они хотели убедить <Character key=RoleTaiwu str=Name /> чтобы подарить их <Item key=ItemKey str=ColorName/> для них...",
-      "status": "machine",
+      "ru": "Сегодня, <Character key=CharacterId str=Name /> внезапно подошёл к <Character key=RoleTaiwu str=Name /> и разговорился с <Character key=RoleTaiwu str=Name />...<NL><NL><Character key=CharacterId str=Name /> много цитировал классиков, словно пытаясь кого-то поучать...<NL>Оказалось, он хотел убедить <Character key=RoleTaiwu str=Name /> подарить ему свой <Item key=ItemKey str=ColorName/>...",
+      "status": "judged",
       "srcHash": "f872395e83c95176",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "6a3dad564a5db8e7"
     },
     "32e1edf9-4c1c-4adf-819b-a3009e650a32/Option_1": {
       "en": "(Argue with them!)",
@@ -7246,11 +7258,12 @@
     "cbacdd62-ff8d-4e6f-8655-5d924b40daef/EventContent": {
       "en": "It was no secret that <Character key=RoleTaiwu str=Name /> had <Item key=MonthlyEvent_arg3 str=ColorName/>...<NL>Today, <Character key=MonthlyEvent_arg0 str=Name /> suddenly approached <Character key=RoleTaiwu str=Name /> and bowed deeply...<NL><Character key=MonthlyEvent_arg0 str=Name />, it seemed, had long yearned to lay eyes on <Item key=MonthlyEvent_arg3 str=ColorName/> and aspired to witness its unrivaled secret.<NL>Therefore, <Character key=MonthlyEvent_arg0 str=GenderSubject/> would like to impart <Character key=MonthlyEvent_arg0 str=GenderPossessive/> hard-earned life experience <ArgBox key=ExpCount type=int/> <color=#yellow>XP</color> to <Character key=RoleTaiwu str=Name />,<NL>in exchange for <Character key=RoleTaiwu str=Name />'s <Item key=MonthlyEvent_arg3 str=ColorName/>...",
       "cn": "<Character key=RoleTaiwu str=Name />身怀<Item key=MonthlyEvent_arg3 str=ColorName/>之事，已非秘闻……<NL>这一日，<Character key=MonthlyEvent_arg0 str=Name />忽然来到<Character key=RoleTaiwu str=Name />的身前一揖到地……<NL>原来，<Character key=MonthlyEvent_arg0 str=Name />对<Item key=MonthlyEvent_arg3 str=ColorName/>无比钦慕，只盼有朝一日能够一睹其中的不世之秘，<NL>因此，希望以自己行走江湖之经验<ArgBox key=ExpCount type=int/><color=#yellow>「历练」</color>教与<Character key=RoleTaiwu str=Name />，<NL>与<Character key=RoleTaiwu str=Name />换取<Item key=MonthlyEvent_arg3 str=ColorName/>……",
-      "ru": "Ни для кого не было секретом, что <Character key=RoleTaiwu str=Name /> имел <Item key=MonthlyEvent_arg3 str=ColorName/>...<NL>Сегодня, <Character key=MonthlyEvent_arg0 str=Name /> внезапно приблизившийся <Character key=RoleTaiwu str=Name /> и низко поклонился...<NL><Character key=MonthlyEvent_arg0 str=Name /> казалось, он давно мечтал взглянуть на <Item key=MonthlyEvent_arg3 str=ColorName/> и стремился стать свидетелем его непревзойденной тайны.<NL>Поэтому, <Character key=MonthlyEvent_arg0 str=GenderSubject/> хотел бы поделиться <Character key=MonthlyEvent_arg0 str=GenderPossessive/> с трудом заработанный жизненный опыт <ArgBox key=ExpCount type=int/> <color=#yellow>ОПЫТ</color> к <Character key=RoleTaiwu str=Name />,<NL>в обмен на <Character key=RoleTaiwu str=Name />'s <Item key=MonthlyEvent_arg3 str=ColorName/>...",
-      "status": "machine",
+      "ru": "Ни для кого не было секретом, что <Character key=RoleTaiwu str=Name /> имел <Item key=MonthlyEvent_arg3 str=ColorName/>...<NL>Сегодня, <Character key=MonthlyEvent_arg0 str=Name /> внезапно подошёл к <Character key=RoleTaiwu str=Name /> и низко поклонился...<NL><Character key=MonthlyEvent_arg0 str=Name />, по-видимому, давно мечтал взглянуть на <Item key=MonthlyEvent_arg3 str=ColorName/> и стремился увидеть его непревзойдённую тайну.<NL>Поэтому <Character key=MonthlyEvent_arg0 str=GenderSubject/> хотел бы передать <Character key=MonthlyEvent_arg0 str=GenderPossessive/> с трудом приобретённый жизненный опыт в размере <ArgBox key=ExpCount type=int/> <color=#yellow>ОПЫТА</color> <Character key=RoleTaiwu str=Name />,<NL>в обмен на <Item key=MonthlyEvent_arg3 str=ColorName/> <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "696b6c5a2d6472d7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "df3d52164bc755ad"
     },
     "cbacdd62-ff8d-4e6f-8655-5d924b40daef/Option_1": {
       "en": "(It might just work...)",
@@ -7315,11 +7328,12 @@
     "415a9173-b353-48e5-aa6d-ccb7f4ebddaa/EventContent": {
       "en": "\"Here... With this...\"<NL><Character key=RoleTaiwu str=Name /> was so impressed by <Character key=CharacterId str=Name />'s talent and knowledge<NL>that they acceded to <Character key=CharacterId str=Name />'s request without realizing it, gifting <Item key=ItemKey str=ColorName/> to <Character key=CharacterId str=Name />...",
       "cn": "“如此……这般……”<NL><Character key=RoleTaiwu str=Name />被<Character key=CharacterId str=Name />的才学所折服，<NL>不经意间，便顺应<Character key=CharacterId str=Name />的请求，将<Item key=ItemKey str=ColorName/>赠予了<Character key=CharacterId str=Name />……",
-      "ru": "- Вот... С этим...\"<NL><Character key=RoleTaiwu str=Name /> был так впечатлен <Character key=CharacterId str=Name />его талант и знания<NL>что они присоединились к <Character key=CharacterId str=Name />по просьбе клиента, сам того не осознавая, дарю <Item key=ItemKey str=ColorName/> к <Character key=CharacterId str=Name />...",
-      "status": "machine",
+      "ru": "\"Вот… С этим…\"<NL><Character key=RoleTaiwu str=Name /> был так впечатлён талантом и знаниями <Character key=CharacterId str=Name /><NL>что, не осознавая этого, удовлетворил просьбу <Character key=CharacterId str=Name />, подарив <Item key=ItemKey str=ColorName/> <Character key=CharacterId str=Name />…",
+      "status": "judged",
       "srcHash": "5fec28d93cf3ae36",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T10:34:16.688Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "190b5fc9e5efe2f2"
     },
     "415a9173-b353-48e5-aa6d-ccb7f4ebddaa/Option_1": {
       "en": "(Comply them...)",
@@ -7434,11 +7448,12 @@
     "096c2939-e465-4b9e-bb78-1928b3c0436f/EventContent": {
       "en": "\"Let's do something. Anything is better than just sitting around!\"<NL>Today, <Character key=MonthlyEvent_arg0 str=Name /> was feeling restless and wanted to <color=#yellow>Debate</color> with <Character key=RoleTaiwu str=Name /> to work off some energy!",
       "cn": "“随便做些什么，总比枯坐着有趣！”<NL>这一日，<Character key=MonthlyEvent_arg0 str=Name />心血来潮，希望能与<Character key=RoleTaiwu str=Name />进行<color=#yellow>「较艺」</color>！",
-      "ru": "- Давай что-нибудь сделаем. Все лучше, чем просто сидеть без дела!\"<NL>Сегодня, <Character key=MonthlyEvent_arg0 str=Name /> чувствовал беспокойство и хотел <color=#yellow>Диспут</color> с <Character key=RoleTaiwu str=Name /> чтобы выработать немного энергии!",
-      "status": "machine",
+      "ru": "\"Давай что-нибудь сделаем. Всё лучше, чем просто сидеть без дела!\"<NL>Сегодня <Character key=MonthlyEvent_arg0 str=Name /> почувствовал беспокойство и захотел провести с <Character key=RoleTaiwu str=Name /> <color=#yellow>диспут</color>, чтобы выплеснуть немного энергии!",
+      "status": "judged",
       "srcHash": "0375e309652a524b",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T10:34:16.688Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "45a3efb70dd1ef20"
     },
     "096c2939-e465-4b9e-bb78-1928b3c0436f/Option_1": {
       "en": "(Agree to a debate...)",
@@ -8501,11 +8516,12 @@
     "e81ef0d1-64ac-466d-9c12-730c0da1c6e7/EventContent": {
       "en": "Today, <Character key=CharacterId str=Name /> suddenly approached <Character key=RoleTaiwu str=Name /> and chatted with <Character key=RoleTaiwu str=Name />...<NL><NL><Character key=CharacterId str=Name /> quoted a lot from the classics, seemingly trying to lecture someone...<NL>Turned out, they wanted to persuade <Character key=RoleTaiwu str=Name /> to release the imprisoned <Character key=Prisoner str=Name />...",
       "cn": "这一日，<Character key=CharacterId str=Name />忽然来到<Character key=RoleTaiwu str=Name />身前，与<Character key=RoleTaiwu str=Name />攀谈起来……<NL><NL><Character key=CharacterId str=Name />引经据典，旁征博引——<NL>原来，是想劝说<Character key=RoleTaiwu str=Name />释放所关押的<Character key=Prisoner str=Name />……",
-      "ru": "Сегодня, <Character key=CharacterId str=Name /> внезапно приблизившийся <Character key=RoleTaiwu str=Name /> и поболтал с <Character key=RoleTaiwu str=Name />...<NL><NL><Character key=CharacterId str=Name /> много цитировал классиков, похоже, пытаясь прочитать кому-то лекцию...<NL>Оказалось, они хотели убедить <Character key=RoleTaiwu str=Name /> освободить заключенных <Character key=Prisoner str=Name />...",
-      "status": "machine",
+      "ru": "Сегодня <Character key=CharacterId str=Name /> внезапно подошёл к <Character key=RoleTaiwu str=Name /> и разговорился с <Character key=RoleTaiwu str=Name />…<NL><NL><Character key=CharacterId str=Name /> цитировал множество классических текстов, словно пытаясь кого-то наставить…<NL>Оказалось, он хотел убедить <Character key=RoleTaiwu str=Name /> освободить заключённого <Character key=Prisoner str=Name />…",
+      "status": "judged",
       "srcHash": "fada80c2c32c7957",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "43b4d6382f9d838f"
     },
     "e81ef0d1-64ac-466d-9c12-730c0da1c6e7/Option_1": {
       "en": "(Argue with them!)",
@@ -9976,11 +9992,12 @@
     "250159f0-99e0-48f6-a933-cd9a52dc0647/EventContent": {
       "en": "<Character key=MonthlyEvent_arg0 str=Name /> was no match for <Character key=RoleTaiwu str=Name /> and fled in panic from <Character key=RoleTaiwu str=Name />'s grasp...<NL><NL>Since <Character key=MonthlyEvent_arg0 str=Name /> had fled, <Character key=RoleTaiwu str=Name /> successfully kept their <Item key=MonthlyEvent_arg3 str=ColorName/> safe!",
       "cn": "<Character key=MonthlyEvent_arg0 str=Name />不敌<Character key=RoleTaiwu str=Name />，从<Character key=RoleTaiwu str=Name />手中仓惶而逃……<NL><NL>因为<Character key=MonthlyEvent_arg0 str=Name />的逃脱，<Character key=RoleTaiwu str=Name />成功地保住了手中的<Item key=MonthlyEvent_arg3 str=ColorName/>！",
-      "ru": "<Character key=MonthlyEvent_arg0 str=Name /> был не ровня <Character key=RoleTaiwu str=Name /> и в панике бежал из <Character key=RoleTaiwu str=Name />его хватка...<NL><NL>С тех пор, как <Character key=MonthlyEvent_arg0 str=Name /> сбежал, <Character key=RoleTaiwu str=Name /> успешно сохранили свои <Item key=MonthlyEvent_arg3 str=ColorName/> в безопасности!",
-      "status": "machine",
+      "ru": "<Character key=MonthlyEvent_arg0 str=Name /> был не ровня <Character key=RoleTaiwu str=Name /> и в панике вырвался из рук <Character key=RoleTaiwu str=Name />…<NL><NL>Поскольку <Character key=MonthlyEvent_arg0 str=Name /> сбежал, <Character key=RoleTaiwu str=Name /> удалось сохранить <Item key=MonthlyEvent_arg3 str=ColorName/>, находившийся у него…",
+      "status": "judged",
       "srcHash": "a342681d33884c99",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "c8e4422a016333c1"
     },
     "250159f0-99e0-48f6-a933-cd9a52dc0647/Option_1": {
       "en": "(...)",
@@ -10574,11 +10591,12 @@
     "70f3174e-b9d6-4156-b9e8-5813bd9be488/EventContent": {
       "en": "\"Your hair and beard... They're not really here.<NL>If you're looking for grooming, it might be a bit tricky...\"",
       "cn": "“阁下顶上无毛，面上无须……<NL>若想梳头修面，可当真为难得很……”",
-      "ru": "- Твои волосы и борода... На самом деле их здесь нет.<NL>Если вы ищете уход за собой, это может быть немного сложно...\"",
-      "status": "machine",
+      "ru": "\"Твои волосы и борода... Их ведь на самом деле нет.<NL>Если ты хочешь привести себя в порядок, это будет непросто...\"",
+      "status": "judged",
       "srcHash": "2f9c2585b8547cd8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "2db3458ef2ab5128"
     },
     "70f3174e-b9d6-4156-b9e8-5813bd9be488/Option_1": {
       "en": "(...)",
@@ -10637,7 +10655,8 @@
       "status": "machine",
       "srcHash": "b4343b458e7eb6a1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f1d79b7fe66579c5"
     },
     "1017443c-7ec9-43d0-bf28-d1e2ab882d51/Option_1": {
       "en": "(That's great...)",
@@ -11041,11 +11060,12 @@
     "2e6e8d8e-1b7e-4826-8a88-c7d548a56281/EventContent": {
       "en": "At some point unknown,<NL><Character key=RoleTaiwu str=Name />'s <ArgBox key=MonthlyEvent_arg4 type=int/><Resource key=MonthlyEvent_arg3 str=Name/> was stolen!",
       "cn": "<Character key=RoleTaiwu str=Name />的<ArgBox key=MonthlyEvent_arg4 type=int/><Resource key=MonthlyEvent_arg3 str=Name/>，<NL>不知在何时被人窃走了！",
-      "ru": "В какой-то момент неизвестно,<NL><Character key=RoleTaiwu str=Name />'s <ArgBox key=MonthlyEvent_arg4 type=int/><Resource key=MonthlyEvent_arg3 str=Name/> был украден!",
-      "status": "machine",
+      "ru": "В неизвестный момент<NL><Character key=RoleTaiwu str=Name />' <ArgBox key=MonthlyEvent_arg4 type=int/><Resource key=MonthlyEvent_arg3 str=Name/> был украден!",
+      "status": "judged",
       "srcHash": "5244e231068eddf2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "e37d332308577876"
     },
     "2e6e8d8e-1b7e-4826-8a88-c7d548a56281/Option_1": {
       "en": "(There's nothing can be done...)",
@@ -11328,11 +11348,12 @@
     "98edc5cd-fc42-4962-a0b4-20534054c9d9/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> defeated <Character key=MonthlyEvent_arg0 str=Name />,<NL>and firmly restrained <Character key=MonthlyEvent_arg0 str=Name /> to the ground,<NL>retaking the <Item key=MonthlyEvent_arg3 str=ColorName/> swindled by <Character key=MonthlyEvent_arg0 str=Name />...",
       "cn": "<Character key=RoleTaiwu str=Name />将<Character key=MonthlyEvent_arg0 str=Name />击倒在地，<NL>并将<Character key=MonthlyEvent_arg0 str=Name />五花大绑，<NL>重新夺回了被<Character key=MonthlyEvent_arg0 str=Name />唬骗的<Item key=MonthlyEvent_arg3 str=ColorName/>……",
-      "ru": "<Character key=RoleTaiwu str=Name /> побежденный <Character key=MonthlyEvent_arg0 str=Name />,<NL>и крепко сдержанный <Character key=MonthlyEvent_arg0 str=Name /> на землю,<NL>отвоевывая <Item key=MonthlyEvent_arg3 str=ColorName/> обманутый <Character key=MonthlyEvent_arg0 str=Name />...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> сбил с ног <Character key=MonthlyEvent_arg0 str=Name />,<NL>крепко связал <Character key=MonthlyEvent_arg0 str=Name /> и прижал его к земле,<NL>вернув<Item key=MonthlyEvent_arg3 str=ColorName/>, который <Character key=MonthlyEvent_arg0 str=Name /> выманил обманом...",
+      "status": "judged",
       "srcHash": "57cf93aedeb63fed",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "8bfe327526023fef"
     },
     "98edc5cd-fc42-4962-a0b4-20534054c9d9/Option_1": {
       "en": "(Imprison them publicly...)",
@@ -12227,11 +12248,12 @@
     "bef0f63f-ea19-4b99-9a81-bac8b1f47b02/EventContent": {
       "en": "Then <Character key=MonthlyEvent_arg0 str=Name /> smiles and gently pulls <Character key=RoleTaiwu str=Name /> aside, saying,<NL><NL>\"Everything's more fun with you around...\"<NL><NL><Character key=MonthlyEvent_arg0 str=Name /> says <Character key=RoleTaiwu str=GenderPossessive/> bond with <Character key=RoleTaiwu str=Name /> runs deep and offers <ArgBox key=Count type=int/> <Resource key=ResourceType str=Name/> as a small gesture of support...",
       "cn": "说罢，<Character key=MonthlyEvent_arg0 str=Name />又笑着拉住<Character key=RoleTaiwu str=Name />言道：<NL><NL>“与你一起，凡事皆有趣……”<NL><NL><Character key=MonthlyEvent_arg0 str=Name />称与<Character key=RoleTaiwu str=Name />之间可谓情深义重，愿赠予<ArgBox key=Count type=int/><Resource key=ResourceType str=Name/>聊表心意……",
-      "ru": "Затем <Character key=MonthlyEvent_arg0 str=Name /> улыбается и нежно тянет <Character key=RoleTaiwu str=Name /> в сторону, говоря,<NL><NL>\"Когда ты рядом, все становится веселее...\"<NL><NL><Character key=MonthlyEvent_arg0 str=Name /> говорит <Character key=RoleTaiwu str=GenderPossessive/> связь с <Character key=RoleTaiwu str=Name /> проникает глубоко и предлагает <ArgBox key=Count type=int/> <Resource key=ResourceType str=Name/> в качестве небольшого жеста поддержки...",
-      "status": "machine",
+      "ru": "Затем <Character key=MonthlyEvent_arg0 str=Name /> улыбается и нежно отводит <Character key=RoleTaiwu str=Name /> в сторону, говоря,<NL><NL>\"С тобой всё интереснее...\"<NL><NL><Character key=MonthlyEvent_arg0 str=Name /> говорит, что связь <Character key=RoleTaiwu str=GenderPossessive/> с <Character key=RoleTaiwu str=Name /> глубока, и предлагает <ArgBox key=Count type=int/> <Resource key=ResourceType str=Name/> в качестве небольшого жеста поддержки...",
+      "status": "judged",
       "srcHash": "b9469d232ddf5d79",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T10:34:16.688Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "4055906e98f5dde3"
     },
     "bef0f63f-ea19-4b99-9a81-bac8b1f47b02/Option_1": {
       "en": "(Accept the gift...)",
@@ -12256,11 +12278,12 @@
     "e0347ebc-a06a-4cc9-9b4a-7d8a196717f5/EventContent": {
       "en": "Then <Character key=MonthlyEvent_arg0 str=Name /> smiles and gently pulls <Character key=RoleTaiwu str=Name /> aside, saying,<NL><NL>\"You really have been a big help to me...\"<NL><NL><Character key=MonthlyEvent_arg0 str=Name /> says <Character key=RoleTaiwu str=GenderPossessive/> bond with <Character key=RoleTaiwu str=Name /> runs deep and offers <ArgBox key=Count type=int/> <Resource key=ResourceType str=Name/> as a small gesture of support...",
       "cn": "说罢，<Character key=MonthlyEvent_arg0 str=Name />又笑着拉住<Character key=RoleTaiwu str=Name />言道：<NL><NL>“你果然对我大有裨益……”<NL><NL><Character key=MonthlyEvent_arg0 str=Name />称与<Character key=RoleTaiwu str=Name />之间可谓情深义重，愿赠予<ArgBox key=Count type=int/><Resource key=ResourceType str=Name/>聊表心意……",
-      "ru": "Затем <Character key=MonthlyEvent_arg0 str=Name /> улыбается и нежно тянет <Character key=RoleTaiwu str=Name /> в сторону, говоря,<NL><NL>\"Ты действительно оказал мне большую помощь...\"<NL><NL><Character key=MonthlyEvent_arg0 str=Name /> говорит <Character key=RoleTaiwu str=GenderPossessive/> связь с <Character key=RoleTaiwu str=Name /> проникает глубоко и предлагает <ArgBox key=Count type=int/> <Resource key=ResourceType str=Name/> в качестве небольшого жеста поддержки...",
-      "status": "machine",
+      "ru": "Затем <Character key=MonthlyEvent_arg0 str=Name /> улыбается и нежно отводит <Character key=RoleTaiwu str=Name /> в сторону, говоря,<NL><NL>\"Ты действительно очень мне помог...\"<NL><NL><Character key=MonthlyEvent_arg0 str=Name /> говорит, что связь <Character key=RoleTaiwu str=GenderPossessive/> с <Character key=RoleTaiwu str=Name /> глубока, и предлагает <ArgBox key=Count type=int/> <Resource key=ResourceType str=Name/> в качестве небольшого жеста поддержки...",
+      "status": "judged",
       "srcHash": "264ccbf8654acda5",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T10:34:16.688Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "ae11df9f83de8df4"
     },
     "e0347ebc-a06a-4cc9-9b4a-7d8a196717f5/Option_1": {
       "en": "(Accept the gift...)",
@@ -12285,11 +12308,12 @@
     "ceb0c3f8-7b8f-44fe-900a-f1e19df7746b/EventContent": {
       "en": "Then <Character key=MonthlyEvent_arg0 str=Name /> smiles and gently pulls <Character key=RoleTaiwu str=Name /> aside, saying,<NL><NL>\"Good. The world's a mess. Better to stay prepared...\"<NL><NL><Character key=MonthlyEvent_arg0 str=Name /> says <Character key=RoleTaiwu str=GenderPossessive/> bond with <Character key=RoleTaiwu str=Name /> runs deep and offers <Item key=ItemKey str=ColorName/> as a small gesture of support...",
       "cn": "说罢，<Character key=MonthlyEvent_arg0 str=Name />又笑着拉住<Character key=RoleTaiwu str=Name />言道：<NL><NL>“如此甚好，乱世多舛，你且多备些东西……”<NL><NL><Character key=MonthlyEvent_arg0 str=Name />称与<Character key=RoleTaiwu str=Name />之间可谓情深义重，愿赠予<Item key=ItemKey str=ColorName/>聊表心意……",
-      "ru": "Затем <Character key=MonthlyEvent_arg0 str=Name /> улыбается и нежно тянет <Character key=RoleTaiwu str=Name /> в сторону, говоря,<NL><NL>\"Хорошо. В мире полный бардак. Лучше оставаться готовым...\"<NL><NL><Character key=MonthlyEvent_arg0 str=Name /> говорит <Character key=RoleTaiwu str=GenderPossessive/> связь с <Character key=RoleTaiwu str=Name /> проникает глубоко и предлагает <Item key=ItemKey str=ColorName/> в качестве небольшого жеста поддержки...",
-      "status": "machine",
+      "ru": "Затем <Character key=MonthlyEvent_arg0 str=Name /> улыбается и нежно отводит <Character key=RoleTaiwu str=Name /> в сторону, говоря,<NL><NL>\"Хорошо. В неспокойные времена лучше быть готовым...\"<NL><NL><Character key=MonthlyEvent_arg0 str=Name /> говорит, что связь <Character key=RoleTaiwu str=GenderPossessive/> с <Character key=RoleTaiwu str=Name /> глубока, и предлагает <Item key=ItemKey str=ColorName/> в качестве небольшого жеста поддержки...",
+      "status": "judged",
       "srcHash": "11477ed1d007f237",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T10:34:16.688Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "20ef85a4c1928b0f"
     },
     "ceb0c3f8-7b8f-44fe-900a-f1e19df7746b/Option_1": {
       "en": "(Accept the gift...)",
@@ -12500,11 +12524,12 @@
     "0da7a655-1d35-49fb-9750-bd1e8959d880/EventContent": {
       "en": "This day, <Character key=MonthlyEvent_arg0 str=Name /> sees <Character key=RoleTaiwu str=Name /> focused on studying <Item key=ItemKey str=ColorName/> and gets curious.<NL><Character key=RoleTaiwu str=GenderSubject/> asks <Character key=RoleTaiwu str=Name /> about the book and says everyone has different strengths...<NL><NL>Since this isn't something <Character key=MonthlyEvent_arg0 str=Name /> knows much about, <Character key=RoleTaiwu str=GenderSubject/> sincerely asks <Character key=RoleTaiwu str=Name /> to share the key insights...",
       "cn": "这日，<Character key=MonthlyEvent_arg0 str=Name />见<Character key=RoleTaiwu str=Name />正专心研读<Item key=ItemKey str=ColorName/>，<NL>遂起好奇之心，便问及<Character key=RoleTaiwu str=Name />书中所述，又言及闻道有先后，术业有专攻……<NL><NL><Character key=MonthlyEvent_arg0 str=Name />自觉未曾涉猎此学，遂诚恳请求<Character key=RoleTaiwu str=Name />授以书中精要……",
-      "ru": "Этот день, <Character key=MonthlyEvent_arg0 str=Name /> видит <Character key=RoleTaiwu str=Name /> сосредоточен на изучении <Item key=ItemKey str=ColorName/> и становится любопытно.<NL><Character key=RoleTaiwu str=GenderSubject/> спрашивает <Character key=RoleTaiwu str=Name /> о книге и говорит, что у каждого человека разные сильные стороны...<NL><NL>Поскольку это не что-то особенное <Character key=MonthlyEvent_arg0 str=Name /> много знает о, <Character key=RoleTaiwu str=GenderSubject/> искренне просит <Character key=RoleTaiwu str=Name /> чтобы поделиться ключевыми соображениями...",
-      "status": "machine",
+      "ru": "В этот день <Character key=MonthlyEvent_arg0 str=Name /> видит, как <Character key=RoleTaiwu str=Name /> сосредоточенно изучает <Item key=ItemKey str=ColorName/>, и начинает интересоваться.<NL><Character key=RoleTaiwu str=GenderSubject/> спрашивает <Character key=RoleTaiwu str=Name /> о книге и говорит, что у каждого свои сильные стороны...<NL><NL>Поскольку <Character key=MonthlyEvent_arg0 str=Name /> мало знаком с этой областью, <Character key=RoleTaiwu str=GenderSubject/> искренне просит <Character key=RoleTaiwu str=Name /> поделиться главными идеями...",
+      "status": "judged",
       "srcHash": "a16b68b78ba3cf4c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "315ca8d0702be305"
     },
     "0da7a655-1d35-49fb-9750-bd1e8959d880/Option_1": {
       "en": "(Teach <Item key=ItemKey str=ColorName/> to <Character key=MonthlyEvent_arg0 str=Name />...)",
@@ -12677,11 +12702,12 @@
     "67bb5742-e332-4352-a61d-7d3d843241f6/EventContent": {
       "en": "\"Your face lacks color and your lips are turned yellow.<NL>I fear your illness is severe, and it would be best that I examine you further...\"<NL><NL><Character key=CharacterId str=Name /> suddenly approached <Character key=RoleTaiwu str=Name /> and examined them.<NL>The doctor then offered to diagnose <Character key=RoleTaiwu str=Name /> and treat them...<NL><NL><color=#lightgrey>(Reduce the level of all injuries on the character based on the medicine art of the Doctor)</color>",
       "cn": "“你面无血色，行动迟缓，<NL>只怕身体抱恙，实在令我心忧，<NL>不若让我为你号个脉，以探究竟……”<NL> <NL><Character key=CharacterId str=Name />来到<Character key=RoleTaiwu str=Name />身前，<NL>一番面诊后，面露担忧之色，便提议为<Character key=RoleTaiwu str=Name />号脉诊治……<NL> <NL><color=#lightgrey>（根据大夫的医术，减轻人物身上所有伤口的伤势程度）</color>",
-      "ru": "- Твоему лицу не хватает цвета, а губы пожелтели.<NL>Я боюсь, что ваша болезнь серьезна, и было бы лучше, если бы я еще раз осмотрел вас...\"<NL><NL><Character key=CharacterId str=Name /> внезапно приблизившийся <Character key=RoleTaiwu str=Name /> и осмотрел их.<NL>Затем врач предложил поставить диагноз <Character key=RoleTaiwu str=Name /> и лечить их...<NL><NL><color=#lightgrey>(Уменьшите уровень всех травм персонажа, основываясь на медицинском искусстве Доктора)</color>",
-      "status": "machine",
+      "ru": "\"Твоё лицо побледнело, а движения стали медленными.<NL>Боюсь, ты болен, и это очень меня тревожит. Лучше я проверю твой пульс, чтобы выяснить причину...\"<NL><NL><Character key=CharacterId str=Name /> внезапно подходит к <Character key=RoleTaiwu str=Name /> и осматривает его.<NL>Затем врач предлагает обследовать и вылечить <Character key=RoleTaiwu str=Name />...<NL><NL><color=#lightgrey>(Уменьшение тяжести всех травм персонажа в зависимости от врачебного искусства доктора)</color>",
+      "status": "judged",
       "srcHash": "a95f28e594364335",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "ca0b5b77e7ba8950"
     },
     "67bb5742-e332-4352-a61d-7d3d843241f6/Option_1": {
       "en": "(Heal Injuries...)",
@@ -12730,7 +12756,8 @@
       "status": "machine",
       "srcHash": "9db99b818d4150f6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "9c076a1d5bdce24b"
     },
     "050a8d92-d3f3-4ef7-a395-8ca7325415a8/Option_1": {
       "en": "(Detox...)",
@@ -12864,11 +12891,12 @@
     "e8a6c36e-49d8-49bc-96a2-7fdd35316882/EventContent": {
       "en": "\"I noticed your hair's been a bit messy lately. How about a quick touch-up?<NL>I'd be happy to help you freshen up.\"<NL><NL><Character key=CharacterId str=Name /> steps closer, takes a look at <Character key=RoleTaiwu str=Name />, and offers Grooming for <Character key=RoleTaiwu str=Name />...",
       "cn": "“我观你近日发髻稍显凌乱，何不稍作梳妆？<NL>我愿为你打理一番，助你重焕风采……”<NL><NL><Character key=CharacterId str=Name />来到<Character key=RoleTaiwu str=Name />身前，一番打量之后，便提议为<Character key=RoleTaiwu str=Name />梳头修面……",
-      "ru": "- Я заметил, что в последнее время твои волосы были немного растрепаны. Как насчет быстрой подкраски?<NL>Я был бы рад помочь вам привести себя в порядок.\"<NL><NL><Character key=CharacterId str=Name /> подходит ближе, бросает взгляд на <Character key=RoleTaiwu str=Name />, и предлагает уход за <Character key=RoleTaiwu str=Name />...",
-      "status": "machine",
+      "ru": "\"Я заметил, что в последнее время твои волосы немного растрепались. Как насчёт небольшой причёски?<NL>Я с радостью помогу тебе привести себя в порядок.\"<NL><NL><Character key=CharacterId str=Name /> подходит к <Character key=RoleTaiwu str=Name />, осматривает его и предлагает причесать и привести в порядок <Character key=RoleTaiwu str=Name />...",
+      "status": "judged",
       "srcHash": "fad55b88fe4d711b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "86eeccd5316220dd"
     },
     "e8a6c36e-49d8-49bc-96a2-7fdd35316882/Option_1": {
       "en": "(Grooming...)",
@@ -12893,11 +12921,12 @@
     "4e3d9b02-14bf-4b78-93bd-d04d295b33e3/EventContent": {
       "en": "\"Oops... I'm so sorry...<NL>I meant to take extra care, but looks like the comb and razor had other ideas...\"<NL><NL><color=#lightgrey>(Due to <Character key=CharacterId str=Name />'s mistake, <Character key=RoleTaiwu str=Name />'s {0} gets completely shaved off...)</color>",
       "cn": "“哎哟……对不住……<NL>本想仔细为你打理，可这梳子和剃刀却不这么想……”<NL><NL><color=#lightgrey>（由于<Character key=CharacterId str=Name />的失误，<Character key=RoleTaiwu str=Name />的{0}被剃光了……）</color>",
-      "ru": "\"Упс... Мне так жаль...<NL>Я хотел быть особенно осторожным, но, похоже, у расчески и бритвы были другие идеи...\"<NL><NL><color=#lightgrey>(Из-за <Character key=CharacterId str=Name />это ошибка, <Character key=RoleTaiwu str=Name />'s {0} полностью сбривается...)</color>",
-      "status": "machine",
+      "ru": "\"Упс... Мне так жаль...<NL>Я хотел быть особенно осторожным, но, похоже, у расчёски и бритвы были другие идеи...\"<NL><NL><color=#lightgrey>(Из-за ошибки <Character key=CharacterId str=Name />, {0} у <Character key=RoleTaiwu str=Name /> полностью сбривается...)</color>",
+      "status": "judged",
       "srcHash": "5e4f4e5fb46d56a1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "9abb74dd0f45fb2e"
     },
     "4e3d9b02-14bf-4b78-93bd-d04d295b33e3/Option_1": {
       "en": "(That's ridiculous...)",
@@ -12912,11 +12941,12 @@
     "636711c4-07c6-4d23-84f7-0aae120fae12/EventContent": {
       "en": "\"There we go... all done!<NL>Now that's the dazzling <Character key=RoleTaiwu str=Name /> I had in mind!\"",
       "cn": "“如此……这般……大功告成！<NL>这才是我心中光彩照人的<Character key=RoleTaiwu str=Name />呀！”",
-      "ru": "- Вот так-то... все сделано!<NL>Вот это ослепительно <Character key=RoleTaiwu str=Name /> Я имел в виду!\"",
-      "status": "machine",
+      "ru": "\"Вот так-то... всё готово!<NL>Вот теперь это тот самый ослепительный <Character key=RoleTaiwu str=Name />!\"",
+      "status": "judged",
       "srcHash": "db4bbee8e0044cf0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "c46216bba10d5806"
     },
     "636711c4-07c6-4d23-84f7-0aae120fae12/Option_1": {
       "en": "(That's great...)",
@@ -12931,11 +12961,12 @@
     "b847f44a-af08-4391-b723-d3c2b3b0ff05/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name /> turns down <Character key=CharacterId str=Name />'s offer.<NL><Character key=CharacterId str=Name /> sighs, nods, and quietly takes <Character key=RoleTaiwu str=GenderPossessive/> leave...",
       "cn": "<Character key=RoleTaiwu str=Name />谢绝了<Character key=CharacterId str=Name />的好意，<NL><Character key=CharacterId str=Name />见状，只好就此作罢，辞别而去……",
-      "ru": "<Character key=RoleTaiwu str=Name /> поворачивает вниз <Character key=CharacterId str=Name />это предложение.<NL><Character key=CharacterId str=Name /> вздыхает, кивает и спокойно берет <Character key=RoleTaiwu str=GenderPossessive/> уходи...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> отклоняет любезное предложение <Character key=CharacterId str=Name />.<NL>Увидев это, <Character key=CharacterId str=Name /> лишь сдаётся, прощается с <Character key=RoleTaiwu str=GenderPossessive/> и уходит…",
+      "status": "judged",
       "srcHash": "6ad4a250ce4feacc",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T13:47:33.220Z",
+      "judgeHash": "491efa2b9e1e4e08"
     },
     "b847f44a-af08-4391-b723-d3c2b3b0ff05/Option_1": {
       "en": "(So be it...)",
