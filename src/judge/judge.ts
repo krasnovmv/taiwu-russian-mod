@@ -299,6 +299,30 @@ export function judgeCoverage(tm: TmFile, hashEn: (en: string) => string): Judge
   return out;
 }
 
+/**
+ * The order a run works its files in, given what {@link planJudgeFile} counted
+ * for each. Ties break by name, so a run is reproducible.
+ *
+ * Smallest first by default: whole files finish (and land in the TM) early, so an
+ * interrupted run leaves the most files fully judged.
+ *
+ * `largestFirst` trades exactly that away, and buys full batches. A file holding
+ * one unit is one request carrying one context however high {@link JUDGE_BATCH}
+ * is set, so a queue that opens with hundreds of them spends the run on round
+ * trips. Leading with the big files keeps requests full for as long as possible
+ * and leaves the unavoidable one-unit requests for the tail.
+ */
+export function orderJudgeFiles(
+  files: string[],
+  planned: ReadonlyMap<string, number>,
+  largestFirst = false,
+): string[] {
+  const direction = largestFirst ? -1 : 1;
+  return [...files].sort(
+    (a, b) => direction * ((planned.get(a) ?? 0) - (planned.get(b) ?? 0)) || a.localeCompare(b),
+  );
+}
+
 /** Count the units a judge run would send to the model for `file` (no requests). */
 export async function planJudgeFile(
   file: string,

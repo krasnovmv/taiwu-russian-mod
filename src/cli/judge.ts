@@ -9,6 +9,7 @@
  *   npm run judge -- --all --force          # re-judge units that already have a verdict
  *   npm run judge -- <file> --batch 10          # 10 units per request
  *   npm run judge -- <file> --session-turns 6   # 6 requests per conversation
+ *   npm run judge -- --all --largest-first      # big files first, one-unit files last
  *
  * `--batch` (default {@link JUDGE_BATCH}) is how many review contexts ride in one
  * request; `--batch 1` restores the request-per-unit shape the judge had before
@@ -41,6 +42,7 @@ import { LmStudioClient } from "../engine/lmstudio-client.js";
 import { YandexGptClient } from "../engine/yandex-gpt-client.js";
 import {
   judgeFile,
+  orderJudgeFiles,
   planJudgeFile,
   type JudgeMemo,
   type JudgeOutcome,
@@ -61,6 +63,7 @@ interface Args {
   batch: number | undefined;
   model: string | undefined;
   force: boolean;
+  largestFirst: boolean;
   dryRun: boolean;
 }
 
@@ -76,6 +79,7 @@ function parseArgs(argv: string[]): Args {
     batch: undefined,
     model: undefined,
     force: false,
+    largestFirst: false,
     dryRun: false,
   };
   const num = (v: string | undefined): number | undefined => {
@@ -92,6 +96,7 @@ function parseArgs(argv: string[]): Args {
     else if (arg === "--batch") a.batch = num(argv[++i]);
     else if (arg === "--model") a.model = argv[++i];
     else if (arg === "--force") a.force = true;
+    else if (arg === "--largest-first") a.largestFirst = true;
     else if (arg === "--dry-run") a.dryRun = true;
     else if (arg === "--all") a.all = true;
     else if (arg && !arg.startsWith("--")) a.file = arg;
@@ -105,7 +110,7 @@ async function main(): Promise<void> {
     console.error(
       "Usage: npm run judge -- (<file> | --all) [--limit N] [--min-len N] [--max-len N]\n" +
         "       [--concurrency N] [--batch N] [--session-turns N] [--model ID]\n" +
-        "       [--force] [--dry-run]",
+        "       [--largest-first] [--force] [--dry-run]",
     );
     process.exitCode = 1;
     return;
@@ -138,6 +143,7 @@ async function main(): Promise<void> {
       `concurrency: ${concurrency} | batch: ${batch}` +
       (sessionTurns > 1 ? ` | session: ${sessionTurns} turns` : "") +
       `${window}` +
+      (args.largestFirst ? " | largest first" : "") +
       (args.force ? " | force" : ""),
   );
 
@@ -150,9 +156,7 @@ async function main(): Promise<void> {
   }
   plan.finish();
   const grandTotal = [...planned.values()].reduce((a, b) => a + b, 0);
-  // Judge the smallest files first: whole files finish (and land in the TM) early,
-  // so an interrupted run leaves the most files fully judged.
-  files.sort((a, b) => (planned.get(a) ?? 0) - (planned.get(b) ?? 0) || a.localeCompare(b));
+  const ordered = orderJudgeFiles(files, planned, args.largestFirst);
   console.log(`\nUnits to judge: ${grandTotal}`);
 
   const bars = new FileProgress(files.length, grandTotal);
@@ -163,7 +167,7 @@ async function main(): Promise<void> {
   // write anything, so it gets a throwaway in-memory map instead.
   const memo: JudgeMemo = args.dryRun ? new Map<string, JudgeOutcome>() : await VerdictCache.open();
   let base = 0; // units judged in the already-finished files
-  for (const file of files) {
+  for (const file of ordered) {
     let fileTotal = 0;
     const stats = await judgeFile(file, client, {
       ...select,

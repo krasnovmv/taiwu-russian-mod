@@ -9,6 +9,7 @@ import {
   batchByCost,
   judgeHash,
   judgeTm,
+  orderJudgeFiles,
   selectJudgeWork,
   verdictKey,
   type JudgeOutcome,
@@ -592,6 +593,36 @@ test("concurrent lanes keep separate conversations", async () => {
   const withFirst = client.calls.filter((c) => usersOf(c).some((u) => u.includes("Adventure")));
   assert.ok(withFirst.length > 0);
   assert.ok(withFirst.every((c) => !usersOf(c).some((u) => u.includes("Sect"))));
+});
+
+test("orderJudgeFiles puts the smallest files first, or the largest on request", () => {
+  const planned = new Map([
+    ["big.txt", 900],
+    ["one.txt", 1],
+    ["mid.txt", 40],
+    ["also-one.txt", 1],
+  ]);
+  const files = [...planned.keys()];
+
+  // Default: whole files finish early, so an interrupt leaves the most done.
+  assert.deepEqual(orderJudgeFiles(files, planned), [
+    "also-one.txt",
+    "one.txt",
+    "mid.txt",
+    "big.txt",
+  ]);
+  // --largest-first: the one-unit files (one request each, whatever the batch
+  // size) are pushed to the tail so the run opens with full batches.
+  assert.deepEqual(orderJudgeFiles(files, planned, true), [
+    "big.txt",
+    "mid.txt",
+    "also-one.txt",
+    "one.txt",
+  ]);
+  // Ties break by name in both directions, so a run is reproducible.
+  assert.deepEqual(orderJudgeFiles(["b.txt", "a.txt"], new Map(), true), ["a.txt", "b.txt"]);
+  // The input is not reordered in place.
+  assert.deepEqual(files, ["big.txt", "one.txt", "mid.txt", "also-one.txt"]);
 });
 
 test("batchByCost respects both limits and never drops an oversized item", () => {
