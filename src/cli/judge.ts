@@ -37,7 +37,7 @@
  *
  * Nothing reaches the game until `npm run apply-all`.
  */
-import { mkdir, writeFile } from "node:fs/promises";
+import { appendFile, mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 import {
@@ -185,6 +185,14 @@ async function main(): Promise<void> {
   // cache (cache/judge.jsonl) extends the reuse across runs; a dry run must not
   // write anything, so it gets a throwaway in-memory map instead.
   const memo: JudgeMemo = args.dryRun ? new Map<string, JudgeOutcome>() : await VerdictCache.open();
+
+  // The report is appended per file, not written at the end: a corpus-wide run
+  // takes hours, and one killed halfway must still leave the problems it already
+  // found — the TM and the verdict cache checkpoint, so the report has to as
+  // well. Truncated up front, so it always describes the CURRENT run.
+  await mkdir(path.dirname(args.problemsPath), { recursive: true });
+  await writeFile(args.problemsPath, "", "utf8");
+
   let base = 0; // units judged in the already-finished files
   for (const file of ordered) {
     let fileTotal = 0;
@@ -204,6 +212,10 @@ async function main(): Promise<void> {
     });
     base += fileTotal;
     all.push(stats);
+    if (stats.problems.length > 0) {
+      const lines = stats.problems.map((p) => JSON.stringify({ ...p, file: stats.file }));
+      await appendFile(args.problemsPath, lines.join("\n") + "\n", "utf8");
+    }
     bars.finishFile();
   }
   bars.stop();
@@ -234,16 +246,6 @@ async function main(): Promise<void> {
     if (fixes.length > 15) console.log(`  … and ${fixes.length - 15} more`);
   }
   if (problems.length > 0) {
-    // Dumped in full, because the console only ever shows the first fifteen and
-    // a corpus-wide run leaves thousands. One JSON object per line, each holding
-    // the source texts as well as the failure, so the report can be sorted,
-    // grouped and counted without going back to the TM.
-    await mkdir(path.dirname(args.problemsPath), { recursive: true });
-    await writeFile(
-      args.problemsPath,
-      problems.map((p) => JSON.stringify(p)).join("\n") + "\n",
-      "utf8",
-    );
     const byKind = new Map<string, number>();
     for (const p of problems) byKind.set(p.kind, (byKind.get(p.kind) ?? 0) + 1);
     const breakdown = [...byKind]
