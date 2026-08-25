@@ -11,6 +11,11 @@
  *   npm run judge -- <file> --session-turns 6   # 6 requests per conversation
  *   npm run judge -- --all --largest-first      # big files first, one-unit files last
  *
+ * Every unit the run could not settle — a failed request, an answer it could not
+ * read, a unit the model skipped, a rewrite the QA gates threw away — is dumped
+ * in full to `data/judge-problems.jsonl` (`--problems PATH` to move it). The
+ * console only ever shows the first fifteen; a corpus-wide run leaves thousands.
+ *
  * `--batch` (default {@link JUDGE_BATCH}) is how many review contexts ride in one
  * request; `--batch 1` restores the request-per-unit shape the judge had before
  * batching. `--session-turns` (default 1 = a stateless request) keeps a lane's
@@ -32,12 +37,16 @@
  *
  * Nothing reaches the game until `npm run apply-all`.
  */
+import { mkdir, writeFile } from "node:fs/promises";
+import path from "node:path";
+
 import {
   JUDGE_BATCH,
   JUDGE_CONCURRENCY,
   JUDGE_ENGINE,
   JUDGE_SESSION_TURNS,
 } from "../config/judge.js";
+import { projectRoot } from "../config/paths.js";
 import { LmStudioClient } from "../engine/lmstudio-client.js";
 import { YandexGptClient } from "../engine/yandex-gpt-client.js";
 import {
@@ -65,7 +74,15 @@ interface Args {
   force: boolean;
   largestFirst: boolean;
   dryRun: boolean;
+  /** Where the full problem report is written (JSONL). */
+  problemsPath: string;
 }
+
+/**
+ * Default report path. Under `data/` beside the glossary-mining reports and
+ * gitignored the same way: it is run output, regenerated every run, not history.
+ */
+const DEFAULT_PROBLEMS_PATH = path.join(projectRoot, "data", "judge-problems.jsonl");
 
 function parseArgs(argv: string[]): Args {
   const a: Args = {
@@ -81,6 +98,7 @@ function parseArgs(argv: string[]): Args {
     force: false,
     largestFirst: false,
     dryRun: false,
+    problemsPath: DEFAULT_PROBLEMS_PATH,
   };
   const num = (v: string | undefined): number | undefined => {
     const n = Number(v);
@@ -97,6 +115,7 @@ function parseArgs(argv: string[]): Args {
     else if (arg === "--model") a.model = argv[++i];
     else if (arg === "--force") a.force = true;
     else if (arg === "--largest-first") a.largestFirst = true;
+    else if (arg === "--problems") a.problemsPath = path.resolve(argv[++i] ?? "");
     else if (arg === "--dry-run") a.dryRun = true;
     else if (arg === "--all") a.all = true;
     else if (arg && !arg.startsWith("--")) a.file = arg;
@@ -110,7 +129,7 @@ async function main(): Promise<void> {
     console.error(
       "Usage: npm run judge -- (<file> | --all) [--limit N] [--min-len N] [--max-len N]\n" +
         "       [--concurrency N] [--batch N] [--session-turns N] [--model ID]\n" +
-        "       [--largest-first] [--force] [--dry-run]",
+        "       [--largest-first] [--problems PATH] [--force] [--dry-run]",
     );
     process.exitCode = 1;
     return;
@@ -215,8 +234,24 @@ async function main(): Promise<void> {
     if (fixes.length > 15) console.log(`  … and ${fixes.length - 15} more`);
   }
   if (problems.length > 0) {
-    console.log(`\nProblems (${problems.length}, left unjudged for a later run):`);
-    for (const p of problems.slice(0, 15)) console.log(`  ${p.file} ${p.key}: ${p.error}`);
+    // Dumped in full, because the console only ever shows the first fifteen and
+    // a corpus-wide run leaves thousands. One JSON object per line, each holding
+    // the source texts as well as the failure, so the report can be sorted,
+    // grouped and counted without going back to the TM.
+    await mkdir(path.dirname(args.problemsPath), { recursive: true });
+    await writeFile(
+      args.problemsPath,
+      problems.map((p) => JSON.stringify(p)).join("\n") + "\n",
+      "utf8",
+    );
+    const byKind = new Map<string, number>();
+    for (const p of problems) byKind.set(p.kind, (byKind.get(p.kind) ?? 0) + 1);
+    const breakdown = [...byKind]
+      .sort((a, b) => b[1] - a[1])
+      .map(([kind, n]) => `${kind}: ${n}`)
+      .join(", ");
+    console.log(`\nProblems (${problems.length}) → ${args.problemsPath}  [${breakdown}]`);
+    for (const p of problems.slice(0, 15)) console.log(`  ${p.file} ${p.key}: ${p.detail}`);
     if (problems.length > 15) console.log(`  … and ${problems.length - 15} more`);
   }
 }

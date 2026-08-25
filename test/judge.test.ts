@@ -493,7 +493,7 @@ test("unparseable model output marks and memoizes nothing — the group stays re
   assert.equal(memo.size, 0);
   assert.equal(tm.units.a?.judgeHash, undefined);
   assert.equal(tm.units.b?.judgeHash, undefined);
-  assert.match(stats.problems[0]?.error ?? "", /unparseable/);
+  assert.match(stats.problems[0]?.detail ?? "", /unparseable/);
 });
 
 /** A client that records the WHOLE message array, so a conversation is visible. */
@@ -716,7 +716,7 @@ test("a unit missing from the batch answer stays retryable while its neighbours 
   assert.ok(tm.units.c?.judgeHash);
   assert.equal(tm.units.b?.judgeHash, undefined); // unanswered → next run retries it
   assert.equal(memo.size, 2);
-  assert.match(stats.problems[0]?.error ?? "", /missing from the batch answer/);
+  assert.match(stats.problems[0]?.detail ?? "", /missing from the batch answer/);
 });
 
 test("an unreadable batch answer is split and retried, salvaging the rest", async () => {

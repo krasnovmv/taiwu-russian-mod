@@ -157,7 +157,32 @@ export interface JudgeStats {
    */
   errors: number;
   fixes: { key: string; note: string; before: string; after: string }[];
-  problems: { key: string; error: string }[];
+  problems: JudgeProblem[];
+}
+
+/**
+ * One unit a run could not settle, carrying enough context to triage it without
+ * going back to the TM — which is what the dumped report is for.
+ *
+ *   request      the call itself threw; the whole batch went with it
+ *   unparseable  the answer could not be read even after splitting to this unit
+ *   missing      the batch answer simply had no entry for this unit
+ *   rejected     a rewrite was offered and the QA gates threw it away
+ *
+ * The first three leave the unit unmarked, so a later run retries it; the fourth
+ * does too, and is the one that says something about the judge rather than the
+ * transport.
+ */
+export interface JudgeProblem {
+  key: string;
+  kind: "request" | "unparseable" | "missing" | "rejected";
+  detail: string;
+  en: string;
+  ru: string;
+  /** The rewrite QA threw away — `rejected` only. */
+  fix?: string;
+  /** The errors the judge annotated to justify that rewrite — `rejected` only. */
+  note?: string;
 }
 
 interface Candidate {
@@ -510,9 +535,16 @@ export async function judgeTm(
       stats.requests++;
       raw = await session.ask(buildBatchMessage(contexts, glossary), { jsonSchema: schema });
     } catch (err) {
-      for (const members of batch) {
+      for (const [index, members] of batch.entries()) {
+        const { key, unit } = members[0] as Candidate;
         stats.errors++;
-        stats.problems.push({ key: (members[0] as Candidate).key, error: (err as Error).message });
+        stats.problems.push({
+          key,
+          kind: "request",
+          detail: (err as Error).message,
+          en: unit.en,
+          ru: contexts[index]?.ru ?? "",
+        });
       }
       tick(units(batch));
       return;
@@ -529,10 +561,14 @@ export async function judgeTm(
         await judgeBatch(batch.slice(mid), session);
         return;
       }
+      const lone = (batch[0] as Group)[0] as Candidate;
       stats.errors++;
       stats.problems.push({
-        key: (batch[0] as Group)[0]?.key ?? "",
-        error: "unparseable model output — will retry",
+        key: lone.key,
+        kind: "unparseable",
+        detail: "unparseable model output — will retry",
+        en: lone.unit.en,
+        ru: lone.unit.ru ?? "",
       });
       tick(units(batch));
       return;
@@ -550,7 +586,13 @@ export async function judgeTm(
       const verdict = verdicts.get(index + 1);
       if (verdict === undefined) {
         stats.errors++;
-        stats.problems.push({ key, error: "unit missing from the batch answer — will retry" });
+        stats.problems.push({
+          key,
+          kind: "missing",
+          detail: "unit missing from the batch answer — will retry",
+          en: unit.en,
+          ru,
+        });
         tick(members.length);
         continue;
       }
@@ -584,8 +626,15 @@ export async function judgeTm(
       ];
       if (broken.length > 0) {
         stats.rejected++;
-        const why = broken.map((i) => `${i.kind}: ${i.detail}`).join("; ");
-        stats.problems.push({ key, error: `fix rejected — ${why}` });
+        stats.problems.push({
+          key,
+          kind: "rejected",
+          detail: broken.map((i) => `${i.kind}: ${i.detail}`).join("; "),
+          en: unit.en,
+          ru,
+          fix: verdict.ru,
+          note: summarize(verdict),
+        });
         tick(members.length);
         continue;
       }

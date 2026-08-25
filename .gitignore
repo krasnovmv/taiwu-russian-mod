@@ -24,6 +24,9 @@ yarn-error.log*
 
 /backups
 
+# Full problem report of the last judge run (regenerate: npm run judge-all)
+/data/judge-problems.jsonl
+
 # Generated glossary-mining reports (curated data/glossary.json5 stays tracked)
 /data/glossary-candidates.json
 /data/glossary-candidates.tsv
