@@ -33,6 +33,7 @@
  */
 import type { ApplyOutcome, ExtractResult, FormatAdapter, SourceUnit } from "./adapter.js";
 import { parseRaw, serializeRaw } from "./paired-txt.js";
+import { alignCnRows } from "./tsv-align.js";
 
 const TAG_RE = /<[^>]*>/g;
 /** A cell/element is translatable if it has a letter once markup is removed. */
@@ -90,7 +91,11 @@ function makeAdapter(spec: EncyclopediaSpec): FormatAdapter {
 
     extract(enContent, cnContent): ExtractResult {
       const enRows = rowsOf(enContent);
-      const cnRows = cnContent ? rowsOf(cnContent) : [];
+      // NOT row `r` with row `r`. These two tables are the worst offenders: the
+      // packs do not carry the same entries, so positional pairing gave 61% of
+      // Content's rows and 82% of Reference's the WRONG entry's Chinese — which
+      // the judge then treats as the meaning of record. See `tsv-align.ts`.
+      const cnRows = cnContent ? alignCnRows(enRows, rowsOf(cnContent)) : [];
       const units: SourceUnit[] = [];
 
       for (let r = 0; r < enRows.length; r++) {

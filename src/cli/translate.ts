@@ -32,6 +32,7 @@ import { createEngine, parseEngineId, type EngineId } from "../engine/factory.js
 import type { TranslationEngine } from "../engine/types.js";
 import { listSourceFiles } from "../scan.js";
 import { planFile, translateFile } from "../translate/pipeline.js";
+import { acquireWriteLock } from "../util/lock.js";
 import { FileProgress, Progress } from "./progress.js";
 
 interface Args {
@@ -150,7 +151,7 @@ async function runPass(
   return out;
 }
 
-async function main(): Promise<void> {
+async function run(): Promise<void> {
   const args = parseArgs(process.argv.slice(2));
   if (!args.all && !args.file) {
     console.error(
@@ -249,6 +250,20 @@ async function main(): Promise<void> {
     if (unparsed.size > 20) console.error(`  … and ${unparsed.size - 20} more`);
     console.error("Fix the format adapter before trusting this run; nothing was translated there.");
     process.exitCode = 1;
+  }
+}
+
+/**
+ * `translate` rewrites the TM just as `judge` does, and a second run alongside
+ * the first loses units to last-writer-wins flushes. Same cooperative lock, so
+ * the two commands exclude each other as well as themselves.
+ */
+async function main(): Promise<void> {
+  const release = await acquireWriteLock("npm run translate");
+  try {
+    await run();
+  } finally {
+    await release();
   }
 }
 

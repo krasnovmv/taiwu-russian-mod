@@ -15,7 +15,7 @@ test("extract emits only cells with real text (skips number/markup-only)", () =>
   assert.equal(units[1]!.en, "Emerge here.");
 });
 
-test("CN cells are joined positionally", () => {
+test("CN cells are joined from the matching row (positionally when nothing anchors them)", () => {
   const cn = '<align="center">灌木</align>\t在此出现。\t<align="center">12</align>\n\n';
   const { units } = tsvAdapter.extract(TSV, cn);
   assert.equal(units[0]!.cn, '<align="center">灌木</align>');

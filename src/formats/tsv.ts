@@ -4,7 +4,9 @@
  * Tab-separated rows, no header, variable column count. Cells may hold rich-text
  * markup (`<align="center">…</align>`) or pure numbers/percentages. Only cells
  * containing real letters (outside markup) are emitted as translatable units,
- * keyed by `r{row}c{col}`. CN cells are joined positionally when present.
+ * keyed by `r{row}c{col}`. The CN cell of a unit comes from the row describing the
+ * SAME entry, which is not generally the row at the same index — see
+ * `tsv-align.ts` for why, and for how the two files are lined up.
  *
  * Reuses the lossless line layer ({@link parseRaw}/{@link serializeRaw}); a
  * translation containing a tab or newline would break the table grid, so it is
@@ -12,6 +14,7 @@
  */
 import type { ApplyOutcome, ExtractResult, FormatAdapter } from "./adapter.js";
 import { parseRaw, serializeRaw } from "./paired-txt.js";
+import { alignCnRows } from "./tsv-align.js";
 
 const TAG_RE = /<[^>]*>/g;
 const TAB_OR_NEWLINE = /[\t\r\n]/;
@@ -30,7 +33,10 @@ export const tsvAdapter: FormatAdapter = {
 
   extract(enContent, cnContent): ExtractResult {
     const enRows = rowsOf(enContent);
-    const cnRows = cnContent ? rowsOf(cnContent) : [];
+    // NOT row `r` with row `r`: the language packs are not row-for-row copies of
+    // each other, and pairing them positionally handed most of two big tables the
+    // wrong entry's Chinese. See `tsv-align.ts`.
+    const cnRows = cnContent ? alignCnRows(enRows, rowsOf(cnContent)) : [];
 
     const units = [];
     for (let r = 0; r < enRows.length; r++) {
