@@ -48,3 +48,6 @@ example
 
 # Extracted localized image sources (browse/redraw; regenerate via tools)
 /image-src
+
+# Single-writer lock held by a running judge/translate command
+/.taiwu-write.lock

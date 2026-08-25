@@ -59,6 +59,7 @@ import {
 } from "../judge/judge.js";
 import { VerdictCache } from "../judge/verdict-cache.js";
 import { listSourceFiles } from "../scan.js";
+import { acquireWriteLock } from "../util/lock.js";
 import { FileProgress, Progress } from "./progress.js";
 
 interface Args {
@@ -123,7 +124,7 @@ function parseArgs(argv: string[]): Args {
   return a;
 }
 
-async function main(): Promise<void> {
+async function run(): Promise<void> {
   const args = parseArgs(process.argv.slice(2));
   if (!args.all && !args.file) {
     console.error(
@@ -255,6 +256,22 @@ async function main(): Promise<void> {
     console.log(`\nProblems (${problems.length}) → ${args.problemsPath}  [${breakdown}]`);
     for (const p of problems.slice(0, 15)) console.log(`  ${p.file} ${p.key}: ${p.detail}`);
     if (problems.length > 15) console.log(`  … and ${problems.length - 15} more`);
+  }
+}
+
+/**
+ * A judge run rewrites the TM and leans on a model backend whose concurrency is
+ * already tuned, so a second one running at the same time both loses units to
+ * last-writer-wins flushes and doubles the load on the backend. Hold the write
+ * lock for the whole run — released even when it throws, so a failed run does
+ * not block the next one.
+ */
+async function main(): Promise<void> {
+  const release = await acquireWriteLock("npm run judge");
+  try {
+    await run();
+  } finally {
+    await release();
   }
 }
 
