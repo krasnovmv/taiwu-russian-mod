@@ -176,11 +176,12 @@
     "r8c1": {
       "en": "This node's connection rate decreases by 60%. For each connected adjacent Breakthrough node\\u002c this node's connection rate increases by 20%\\u002c and Power cap +1.",
       "cn": "此格的打通成功率降低60%。此格周围每有1个打通的突破格，此格的打通成功率提高20%，且威力上限+1。",
-      "ru": "Скорость подключения этого узла снижается на 60%. Для каждого подключенного смежного узла прорыва\\u002c скорость подключения этого узла увеличивается на 20%\\u002c и Предел мощи +1.",
-      "status": "machine",
+      "ru": "Вероятность успешного подключения этого узла снижается на 60%. За каждый подключённый смежный узел прорыва вероятность успешного подключения этого узла увеличивается на 20%\\u002c а предел мощи +1.",
+      "status": "judged",
       "srcHash": "8138b8a7b99aa247",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-25T03:22:52.788Z",
+      "judgeHash": "13ab594d9a4c3b44"
     },
     "r9c0": {
       "en": "<align=\"center\">Diligence</align>",
@@ -275,11 +276,12 @@
     "r13c1": {
       "en": "When this node is connected\\u002c Power Cap +1 to all adjacent Breakthrough nodes.",
       "cn": "打通此格时，周围的突破格威力上限+1。",
-      "ru": "Когда этот узел подключен\\u002c Предел мощей +1 ко всем соседним узлам прорыва.",
-      "status": "machine",
+      "ru": "Когда этот узел подключен\\u002c предел мощи +1 для всех соседних узлов прорыва.",
+      "status": "judged",
       "srcHash": "2409e7be7bc91430",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-25T03:22:52.788Z",
+      "judgeHash": "876be1cca53f3222"
     },
     "r14c0": {
       "en": "<align=\"center\">Silence</align>",

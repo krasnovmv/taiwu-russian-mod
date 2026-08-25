@@ -540,7 +540,8 @@
       "status": "machine",
       "srcHash": "b06eba5fc070a7f3",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-07-10T20:59:06.747Z",
+      "judgeHash": "d05884ec8691113c"
     },
     "Name_30": {
       "en": "Set Mood",
@@ -2859,7 +2860,8 @@
       "status": "machine",
       "srcHash": "ddcdfc3f66afa38d",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "c8b28effa7465ffe"
     },
     "Name_201": {
       "en": "Change character's Xiangshu Deviation",
@@ -3474,11 +3476,12 @@
     "Name_266": {
       "en": "Set Encounter Element Variable Value",
       "cn": "设置奇遇元素变量值",
-      "ru": "Установите значение переменной элемента Encounter",
-      "status": "machine",
+      "ru": "Установить значение переменной элемента встречи",
+      "status": "judged",
       "srcHash": "603102e9776bd6df",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "1c589197290a706d"
     },
     "Name_267": {
       "en": "Change Encounter Element Variable Value",
@@ -4227,7 +4230,8 @@
       "status": "machine",
       "srcHash": "bd3845387f88d4d1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fd699ada566e272a"
     },
     "Name_334": {
       "en": "Encounter Element Variable Starts Action - Tag Group",
@@ -4382,11 +4386,12 @@
     "Name_348": {
       "en": "Validate item data",
       "cn": "检查物品数据是否有效",
-      "ru": "Проверка данных элемента",
-      "status": "machine",
+      "ru": "Проверить данные предмета",
+      "status": "judged",
       "srcHash": "89a3a30003acd9d0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "85170185269d1012"
     },
     "Name_349": {
       "en": "Check if a specific variable of an encounter element is in action.",
@@ -4561,11 +4566,12 @@
     "Name_364": {
       "en": "Create and Save Good Talent Character",
       "cn": "生成资质较好的角色并保存",
-      "ru": "Создайте и сохраните хороший талант Персонажа",
-      "status": "machine",
+      "ru": "Создать и сохранить персонажа с хорошим талантом",
+      "status": "judged",
       "srcHash": "bc03df8e2860a193",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "0b1e388504ec5846"
     },
     "Name_365": {
       "en": "Save Encounter Element Instance ID - Taiwu's Major Tile - Tag Group",
@@ -4760,11 +4766,12 @@
     "Name_386": {
       "en": "Get character's current Qi value",
       "cn": "获得角色当前内力值",
-      "ru": "Получить текущее значение Ци персонажа",
-      "status": "machine",
+      "ru": "Получить текущее значение ци персонажа",
+      "status": "judged",
       "srcHash": "8f8c64f33e32ac7b",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "dc158e4df4fbcb1f"
     },
     "Name_387": {
       "en": "Distance from encounter element to reset position",
@@ -5649,65 +5656,72 @@
     "Name_675": {
       "en": "Create All Matching Items",
       "cn": "生成所有匹配的道具",
-      "ru": "Создайте все совпадающие элементы",
-      "status": "machine",
+      "ru": "Создать все подходящие предметы",
+      "status": "judged",
       "srcHash": "9b6452dac80e8eff",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "e04c3c1a5f5c442d"
     },
     "Name_477": {
       "en": "Selects an item from the specified item list",
       "cn": "从指定道具列表中选取一个道具",
-      "ru": "Выбирает элемент из указанного списка элементов",
-      "status": "machine",
+      "ru": "Выбрать предмет из указанного списка предметов",
+      "status": "judged",
       "srcHash": "35fb22671c5b5912",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "c55004a0e91becb6"
     },
     "Name_478": {
       "en": "Removes an item from the specified item list",
       "cn": "从指定道具列表中移除道具",
-      "ru": "Удаляет элемент из указанного списка элементов",
-      "status": "machine",
+      "ru": "Удалить предмет из указанного списка предметов",
+      "status": "judged",
       "srcHash": "6275e1471c9812f8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "93e347815293b6b9"
     },
     "Name_479": {
       "en": "Adds an item from the specified item list",
       "cn": "向指定道具列表中添加道具",
-      "ru": "Добавляет элемент из указанного списка элементов",
-      "status": "machine",
+      "ru": "Добавить предмет из указанного списка предметов",
+      "status": "judged",
       "srcHash": "a18ab25380d24187",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "b3ccf3e4ffde1b09"
     },
     "Name_676": {
       "en": "Add Item List to Target Item List",
       "cn": "向指定道具列表中添加道具列表",
-      "ru": "Добавить список товаров в целевой список товаров",
-      "status": "machine",
+      "ru": "Добавить список предметов в целевой список предметов",
+      "status": "judged",
       "srcHash": "51d54bd7f2a18357",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "57cda2468da0a90a"
     },
     "Name_480": {
       "en": "Deletes all items from the specified item list",
       "cn": "删除道具列表中的所有道具",
-      "ru": "Удаляет все элементы из указанного списка элементов",
-      "status": "machine",
+      "ru": "Удалить все предметы из указанного списка предметов",
+      "status": "judged",
       "srcHash": "b4f6873056c3c60e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "c468524a14870909"
     },
     "Name_487": {
       "en": "Attempts to find the Element corresponding to the character",
       "cn": "尝试寻找角色对应的元素",
-      "ru": "Пытается найти элемент, соответствующий символу",
-      "status": "machine",
+      "ru": "Попытаться найти элемент, соответствующий персонажу",
+      "status": "judged",
       "srcHash": "596562e41cee13aa",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "31ce1b1d62a31d0e"
     },
     "Name_488": {
       "en": "Checks Taiwu Village's original number of chickens",
@@ -5716,7 +5730,8 @@
       "status": "machine",
       "srcHash": "cac03439a8c7457d",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "be252cfb1f2bb019"
     },
     "Name_489": {
       "en": "Removes the specified variables from the parameter container",
@@ -5725,7 +5740,8 @@
       "status": "machine",
       "srcHash": "0fc773dc6b13ff1b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "06c413764fd2f038"
     },
     "Name_490": {
       "en": "Removes all variables from the parameter container",
@@ -5734,7 +5750,8 @@
       "status": "machine",
       "srcHash": "3b6d3418d7c3600c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3c8288ddb11af37b"
     },
     "Name_491": {
       "en": "Get List of Encounter Elements Meeting Variable Needs",
@@ -5743,7 +5760,8 @@
       "status": "machine",
       "srcHash": "3612491c196353c2",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "d0d6e6ac1e713dbc"
     },
     "Name_492": {
       "en": "Retrieves the Element list (tagged) of the tile that the current Element is in",
@@ -5752,16 +5770,18 @@
       "status": "machine",
       "srcHash": "b7866f897b18a781",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "a85cd22921c6a07f"
     },
     "Name_493": {
       "en": "Can Propose Wedded Union to Target",
       "cn": "是否可以对目标角色发起共结连理",
-      "ru": "Может предложить брачный союз целевому",
-      "status": "machine",
+      "ru": "Может предложить брачный союз цели",
+      "status": "judged",
       "srcHash": "a1343beabe3003b9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "e86797418f225368"
     },
     "Name_494": {
       "en": "Get Taiwu's Imprisoned Character List",
@@ -5770,25 +5790,28 @@
       "status": "machine",
       "srcHash": "c652415a8ca4fea5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "d679e8539559661d"
     },
     "Name_495": {
       "en": "Get Encounter Element's Imprisoned Character List",
       "cn": "获得奇遇元素人物的关押人物列表",
-      "ru": "Получить список заключенных персонажей элемента Encounter",
-      "status": "machine",
+      "ru": "Получить список заключенных персонажей элемента встречи",
+      "status": "judged",
       "srcHash": "2493090bc71f55ea",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "a2eec849e11a2e20"
     },
     "Name_496": {
       "en": "Cricket Duel with Encounter Element Character",
       "cn": "与奇遇元素对应人物进行促织决斗",
-      "ru": "Поединок по сверчку с персонажем Encounter Element",
-      "status": "machine",
+      "ru": "Поединок по сверчку с персонажем элемента встречи",
+      "status": "judged",
       "srcHash": "9e406e9f8954ce40",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "fc7f14e3c61f68e3"
     },
     "Name_497": {
       "en": "Save Tile by Encounter Element XY Offset",
@@ -5797,7 +5820,8 @@
       "status": "machine",
       "srcHash": "e0eb9ca8be876af8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "4876994fccbc2838"
     },
     "Name_498": {
       "en": "Save Tile by Encounter Taiwu XY Offset",
@@ -5811,11 +5835,12 @@
     "Name_499": {
       "en": "Encounter Element Template Bound to Character",
       "cn": "奇遇元素模板是否绑定了角色",
-      "ru": "Шаблон элемента Encounter, привязанный к символу",
-      "status": "machine",
+      "ru": "Шаблон элемента встречи, привязанный к персонажу",
+      "status": "judged",
       "srcHash": "a1dcfac2baa9ae02",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "9ad3d1bafae3ae86"
     },
     "Name_500": {
       "en": "Get Tile List by Tile Group",
@@ -5824,7 +5849,8 @@
       "status": "machine",
       "srcHash": "893699243fa34698",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f31b347662b3a355"
     },
     "Name_501": {
       "en": "Is Taiwu on Specific Tile",
@@ -5833,7 +5859,8 @@
       "status": "machine",
       "srcHash": "510a4eeb747b77b7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f8e538061d07fe98"
     },
     "Name_502": {
       "en": "Get Tile List of Element's Large Tile",
@@ -5842,7 +5869,8 @@
       "status": "machine",
       "srcHash": "891665bd3047c711",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "67519d5dbfbabca8"
     },
     "Name_503": {
       "en": "Get Tile List of Taiwu's Large Tile",
@@ -5851,7 +5879,8 @@
       "status": "machine",
       "srcHash": "b12f292bd2bbc45e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "79073b5211f6cf79"
     },
     "Name_504": {
       "en": "Get Element List of Tile",
@@ -5860,7 +5889,8 @@
       "status": "machine",
       "srcHash": "a608ddb3ce075b92",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "80c65578cdf8ec8b"
     },
     "Name_505": {
       "en": "Move Camera to Specific Tile",
@@ -5869,7 +5899,8 @@
       "status": "machine",
       "srcHash": "580aa87c747da187",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "7e39f42ffd320f32"
     },
     "Name_776": {
       "en": "Wait for a Certain Time",
@@ -5878,7 +5909,8 @@
       "status": "machine",
       "srcHash": "518e0dcb1b542f21",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "088e81cd6b87961e"
     },
     "Name_506": {
       "en": "Move Encounter Element to Specific Tile",
@@ -5887,7 +5919,8 @@
       "status": "machine",
       "srcHash": "e340c20d93b6754b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "576e0f2d8598e047"
     },
     "Name_507": {
       "en": "Element on Specific Tile - Instance ID",
@@ -5896,7 +5929,8 @@
       "status": "machine",
       "srcHash": "6b8c274df447e531",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "08dd19d68c9e3e67"
     },
     "Name_508": {
       "en": "Element on Specific Tile - Template ID",
@@ -5905,7 +5939,8 @@
       "status": "machine",
       "srcHash": "218c3e132428c15b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3a5fd25b6c797b75"
     },
     "Name_509": {
       "en": "Element on Specific Tile - Tag",
@@ -5914,25 +5949,28 @@
       "status": "machine",
       "srcHash": "cf591f5616e98acc",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "13ef81ecf761c9ce"
     },
     "Name_510": {
       "en": "Encounter Element Directional Movement",
       "cn": "奇遇元素定向移动",
-      "ru": "Встречный элемент Направленного движения",
-      "status": "machine",
+      "ru": "Направленное перемещение элемента встречи",
+      "status": "judged",
       "srcHash": "c26b21f3fa4f6517",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "3b5e054c27237639"
     },
     "Name_777": {
       "en": "Encounter Element Directional Movement New",
       "cn": "奇遇元素定向移动新",
-      "ru": "Встречный элемент Направленного движения Новый",
-      "status": "machine",
+      "ru": "Новое направленное перемещение элемента встречи",
+      "status": "judged",
       "srcHash": "daa738c89e36dc85",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "5b69910bedb10065"
     },
     "Name_511": {
       "en": "Encounter Element Directional Passability",
@@ -5941,7 +5979,8 @@
       "status": "machine",
       "srcHash": "5173b48e28f3d657",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "968f76b745684205"
     },
     "Name_512": {
       "en": "Play Sound Effect",
@@ -5950,7 +5989,8 @@
       "status": "machine",
       "srcHash": "fcb826b7f2c3fd5b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3fbe2872291f6496"
     },
     "Name_514": {
       "en": "Set Music/SFX Fade In/Out",
@@ -5973,20 +6013,22 @@
     "Name_519": {
       "en": "Encounter Element Directional Passability - Variable",
       "cn": "奇遇元素变量定向是否可通行",
-      "ru": "Проходимость по направлению встречного элемента - переменная",
-      "status": "machine",
+      "ru": "Направленная проходимость элемента события — переменная",
+      "status": "judged",
       "srcHash": "4a9a4976d670f133",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "9f4a68c2fc8da683"
     },
     "Name_521": {
       "en": "Encounter Taiwu Directional Passability",
       "cn": "奇遇太吾定向是否可通行",
-      "ru": "Встречайте Тайву с направленной проходимостью",
-      "status": "machine",
+      "ru": "Проверка направленной проходимости Тайву в событии",
+      "status": "judged",
       "srcHash": "1fd4768664bd8c8e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "164db8d1f86b0104"
     },
     "Name_522": {
       "en": "Check Encounter Element Count at Taiwu Offset Tile",
@@ -5995,25 +6037,28 @@
       "status": "machine",
       "srcHash": "7d0469aba5bb5de5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ded45bcbf6aae52c"
     },
     "Name_523": {
       "en": "Change Element Count at Taiwu Offset Tile",
       "cn": "改变太吾定向格元素数量",
-      "ru": "Измените количество элементов на плитке смещения Тайву",
-      "status": "machine",
+      "ru": "Изменить количество элементов на направленной клетке Тайву",
+      "status": "judged",
       "srcHash": "01636c07a6875c6b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "7505318d12b1cd94"
     },
     "Name_524": {
       "en": "Save Encounter Element Instance ID - Taiwu Offset Tile - Element CoreID",
       "cn": "保存奇遇元素实例id-太吾定向格-元素coreId",
-      "ru": "Сохранить идентификатор экземпляра элемента Encounter - Плитка смещения Тайву - Идентификатор ядра элемента",
-      "status": "machine",
+      "ru": "Сохранить идентификатор экземпляра элемента события — направленная клетка Тайву — основной идентификатор элемента",
+      "status": "judged",
       "srcHash": "535bd242a70bcfa4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "2f5c9fb4d22c3652"
     },
     "Name_525": {
       "en": "Modify Character XP",
@@ -6022,7 +6067,8 @@
       "status": "machine",
       "srcHash": "e87bae6752a8fda9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "7300f43bd279d7cc"
     },
     "Name_604": {
       "en": "Is Taiwu studying any book?",
@@ -6031,7 +6077,8 @@
       "status": "machine",
       "srcHash": "3bb4c689d7ab5fa4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "5a455cd5fcbe8d98"
     },
     "Name_605": {
       "en": "Obtain the book Taiwu is currently studying",
@@ -6040,16 +6087,18 @@
       "status": "machine",
       "srcHash": "219f1feb2553b7c4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "973bf57d6b17033e"
     },
     "Name_526": {
       "en": "Taiwu Study Book",
       "cn": "太吾研读书籍",
-      "ru": "Учебное пособие по Тайву",
-      "status": "machine",
+      "ru": "Тайву изучает книгу",
+      "status": "judged",
       "srcHash": "6d13d44602fb565f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "53e5e3f401dbb345"
     },
     "Name_527": {
       "en": "Taiwu gains Epiphany for the book being studied.",
@@ -6058,7 +6107,8 @@
       "status": "machine",
       "srcHash": "22d7a35762cce605",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3213fc0a93179152"
     },
     "Name_528": {
       "en": "Show/Hide Fog by Vision in Encounter",
@@ -6072,38 +6122,42 @@
     "Name_529": {
       "en": "Hide Fog in Tile Group in Encounter",
       "cn": "奇遇隐藏地格分组内的云雾",
-      "ru": "Скрыть туман в группе плиток в Encounter",
-      "status": "machine",
+      "ru": "Скрыть туман в группе клеток события",
+      "status": "judged",
       "srcHash": "4a10619fe74c0402",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "dd0bfbc40063bf85"
     },
     "Name_530": {
       "en": "Open Trade Items Interface",
       "cn": "打开交换物品界面",
-      "ru": "Откройте интерфейс торговых позиций",
-      "status": "machine",
+      "ru": "Открыть интерфейс предметов обмена",
+      "status": "judged",
       "srcHash": "9f684ae8041c610e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "62b8fcee7dcd99f8"
     },
     "Name_531": {
       "en": "Save Character's specified Type and Tier",
       "cn": "保存角色指定类型和等级的功法",
-      "ru": "Сохранить указанный тип персонажа и его ранг",
-      "status": "machine",
+      "ru": "Сохранить указанный тип и ранг боевой техники персонажа",
+      "status": "judged",
       "srcHash": "74b199c9f5f88043",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "8a1bc04d20d7a964"
     },
     "Name_532": {
       "en": "Modify Taiwu's Martial Art Combat Value",
       "cn": "改变太吾功法实战值",
-      "ru": "Измените боевую ценность боевого искусства Тайву",
-      "status": "machine",
+      "ru": "Изменить боевое значение боевой техники Тайву",
+      "status": "judged",
       "srcHash": "9b7a230f1c1881ab",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "1e9f60ccc9ff6e59"
     },
     "Name_533": {
       "en": "Martial Art Guidance",
@@ -6112,7 +6166,8 @@
       "status": "machine",
       "srcHash": "740db4572d9189ee",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-07-10T20:59:06.747Z",
+      "judgeHash": "1a74af102dba6251"
     },
     "Name_536": {
       "en": "Get Character Martial Power",
@@ -6121,7 +6176,8 @@
       "status": "machine",
       "srcHash": "4a5cfcc7c4d921e6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "98977fbcba570e2d"
     },
     "Name_537": {
       "en": "Get Item Tier",
@@ -6130,16 +6186,18 @@
       "status": "machine",
       "srcHash": "455947e5370c387c",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-07-10T20:59:06.747Z",
+      "judgeHash": "61a3be61003004f8"
     },
     "Name_538": {
       "en": "Check Item Tier",
       "cn": "检测道具品级",
-      "ru": "Проверьте ранг элемента",
-      "status": "machine",
+      "ru": "Проверить ранг предмета",
+      "status": "judged",
       "srcHash": "91be9a058990df41",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "80dcf81c2c4bf555"
     },
     "Name_539": {
       "en": "Specified Relationship Exists",
@@ -6148,7 +6206,8 @@
       "status": "machine",
       "srcHash": "7a42c234045fbfa5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fd087ca6cec47312"
     },
     "Name_861": {
       "en": "Add One-way Relation",
@@ -6157,7 +6216,8 @@
       "status": "machine",
       "srcHash": "4b4b5d1539548430",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f64c3ed2e033cb10"
     },
     "Name_545": {
       "en": "Get List of Elements Performing Specific Action",
@@ -6166,7 +6226,8 @@
       "status": "machine",
       "srcHash": "abfa365a7d2e3690",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "50fede16f3e3c8da"
     },
     "Name_546": {
       "en": "Get List of Elements Co-performing Action with Target",
@@ -6175,7 +6236,8 @@
       "status": "machine",
       "srcHash": "83568ecf728ea9a8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "7abaaacf8708848a"
     },
     "Name_547": {
       "en": "Configure Option Cooldown - Restored next month",
@@ -6184,16 +6246,18 @@
       "status": "machine",
       "srcHash": "3e02d73c611a7385",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "93055ad3e471fcf7"
     },
     "Name_548": {
       "en": "Check Option Cooldown - Reset After Month Change",
       "cn": "检测选项冷却-过月后恢复",
-      "ru": "Проверьте опцию Cooldown - Сброс после изменения месяца",
-      "status": "machine",
+      "ru": "Проверить восстановление опции — восстановление после смены месяца",
+      "status": "judged",
       "srcHash": "bde0bbf686ad76ec",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "faab0dbd1d3351dd"
     },
     "Name_834": {
       "en": "Set Option Cooldown - Specified Value",
@@ -6202,7 +6266,8 @@
       "status": "machine",
       "srcHash": "fa1104d9cb7f376a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "6f434c8ec597c013"
     },
     "Name_835": {
       "en": "Check Option Cooldown - Specified Value",
@@ -6211,7 +6276,8 @@
       "status": "machine",
       "srcHash": "70a0cf11f33f36cc",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "c9d99189bc21b50b"
     },
     "Name_549": {
       "en": "Directional Move Taiwu (1 Tile) in Encounter",
@@ -6220,7 +6286,8 @@
       "status": "machine",
       "srcHash": "8527fdfb608c0781",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "9b779017e873094f"
     },
     "Name_783": {
       "en": "Move Taiwu One Tile in a Specified Direction New",
@@ -7015,11 +7082,12 @@
     "Name_651": {
       "en": "Force Gathering Reward Item",
       "cn": "强制采集收获道具",
-      "ru": "Наградной предмет, собирающий мощь",
-      "status": "machine",
+      "ru": "Мощь принудительного сбора наградного предмета",
+      "status": "judged",
       "srcHash": "f647c7299371f368",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "11abe0cc504ab88e"
     },
     "Name_652": {
       "en": "Force Resource Gathering Amount",
@@ -7846,7 +7914,8 @@
       "status": "machine",
       "srcHash": "84b5e90b65873733",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e6213090f9c511ed"
     },
     "Name_755": {
       "en": "Set Exorcism State",
@@ -7855,7 +7924,8 @@
       "status": "machine",
       "srcHash": "8ecb1a55a3d52c0d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "ac2bcc4a1cd4e24a"
     },
     "Name_756": {
       "en": "Activate the Exorcism",
@@ -7864,7 +7934,8 @@
       "status": "machine",
       "srcHash": "9926067d9a43745e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e5fb3f712e77ec7e"
     },
     "Name_757": {
       "en": "Character is Sword Mound Incarnation",
@@ -7873,7 +7944,8 @@
       "status": "machine",
       "srcHash": "e65ac3e8413fbb63",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "a6dbda5cd7976dfa"
     },
     "Name_758": {
       "en": "Get character corresponding incarnation type",
@@ -7882,34 +7954,38 @@
       "status": "machine",
       "srcHash": "80f3500289ab6f8b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e8667a084d799dae"
     },
     "Name_759": {
       "en": "Mark Taiwu who died in the invasion",
       "cn": "标记太吾死于侵袭",
-      "ru": "Марк Тайву, погибший во время вторжения",
-      "status": "machine",
+      "ru": "Отметить Тайву, погибшего во время вторжения",
+      "status": "judged",
       "srcHash": "926900c0f7363fa3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "22adc54b24296d4d"
     },
     "Name_760": {
       "en": "Set Incarnation Special Portrait Type",
       "cn": "设置化身特殊立绘类型",
-      "ru": "Установите воплощение Особого портретного типа",
-      "status": "machine",
+      "ru": "Установить особый тип портрета воплощения",
+      "status": "judged",
       "srcHash": "616ec0c74f597460",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "9f7f4bbe26988313"
     },
     "Name_761": {
       "en": "The tile has ordinary Sacred Wood",
       "cn": "地格有普通神木",
-      "ru": "Плитка сделана из обычного священного дерева",
-      "status": "machine",
+      "ru": "На клетке есть обычное священное дерево",
+      "status": "judged",
       "srcHash": "041a8dc601fc21b4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "fbd7e9d39fe5f094"
     },
     "Name_762": {
       "en": "Obtain Sword Mound Insights",
@@ -7918,7 +7994,8 @@
       "status": "machine",
       "srcHash": "d713416e00a08d90",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e807e91bc4a69cb4"
     },
     "Name_763": {
       "en": "Start character selection",
@@ -7927,16 +8004,18 @@
       "status": "machine",
       "srcHash": "d6adc5594c820438",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "062d49491a734490"
     },
     "Name_764": {
       "en": "Available characters exist",
       "cn": "存在可选人物",
-      "ru": "Доступные символы существуют",
-      "status": "machine",
+      "ru": "Есть доступные персонажи",
+      "status": "judged",
       "srcHash": "0c56ad0bb4443882",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "bf27a776e8964625"
     },
     "Name_765": {
       "en": "Clear crickets in the area",
@@ -7945,7 +8024,8 @@
       "status": "machine",
       "srcHash": "2a0201860474bc02",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "55d08b378269c0b9"
     },
     "Name_766": {
       "en": "Set Sword Mound Activity countdown timer",
@@ -7954,7 +8034,8 @@
       "status": "machine",
       "srcHash": "4e7733f24bd0ff07",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "c1176e84cab0086b"
     },
     "Name_770": {
       "en": "From Deep Valley to Small Village",
@@ -7963,7 +8044,8 @@
       "status": "machine",
       "srcHash": "9870e2e829d918e3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "0e81f23bb6c388d2"
     },
     "Name_771": {
       "en": "From Small Village to Damaged Region",
@@ -7972,7 +8054,8 @@
       "status": "machine",
       "srcHash": "fd15ab7ef65a4f04",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "d9db8eef600bc8d5"
     },
     "Name_772": {
       "en": "From Damaged Region to Taiwu Village",
@@ -7981,7 +8064,8 @@
       "status": "machine",
       "srcHash": "60394b82b92e5c88",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "25b7425e72db1fa2"
     },
     "Name_773": {
       "en": "From Deep Valley to Taiwu Village",
@@ -7990,7 +8074,8 @@
       "status": "machine",
       "srcHash": "81a2635f4049ce71",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "b7b3780d96428719"
     },
     "Name_813": {
       "en": "Return to Past Taiwu Village",
@@ -8019,7 +8104,8 @@
       "status": "machine",
       "srcHash": "720d23bf043cf085",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fdcef86ee79e689d"
     },
     "Name_842": {
       "en": "Generate Xiangshu Underlings Around Taiwu in Main Story Chapter 9",
@@ -8028,16 +8114,18 @@
       "status": "machine",
       "srcHash": "fb7f2d876eec1d6a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "1d789c3828a9e7cd"
     },
     "Name_843": {
       "en": "Taiwu Has Left the Chapter 9 Xiangshu Underling Generation Area",
       "cn": "太吾已离开第九章生成相枢爪牙的范围",
-      "ru": "Тайву покинул зону подчиненного поколения Главы 9 Сяншу",
-      "status": "machine",
+      "ru": "Тайву покинул зону создания приспешников Сяншу в девятой главе",
+      "status": "judged",
       "srcHash": "30735595ad841076",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "2dec7f09f4e57f80"
     },
     "Name_779": {
       "en": "Spend a Night of Love",
@@ -8046,7 +8134,8 @@
       "status": "machine",
       "srcHash": "3d0432e151fd67fe",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "975d11510aea1133"
     },
     "Name_784": {
       "en": "Whether Event Chain Parameter Is the Specified Building",
@@ -8055,16 +8144,18 @@
       "status": "machine",
       "srcHash": "44c18a578b8a4a4f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "0467e811a5b923fa"
     },
     "Name_785": {
       "en": "Check Whether the Specified Sect Has Had a Favor Interaction with the Current Taiwu",
       "cn": "检查指定门派是否与当前太吾发生过恩义互动",
-      "ru": "Проверьте, имела ли указанная секта благоприятное взаимодействие с текущим Тайву",
-      "status": "machine",
+      "ru": "Проверьте, было ли у указанной секты взаимодействие на основе благосклонности с текущим Тайву",
+      "status": "judged",
       "srcHash": "055b662e08e6257a",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "18f69ea65a36b867"
     },
     "Name_786": {
       "en": "Increase Fuyu's Will",
@@ -8073,16 +8164,18 @@
       "status": "machine",
       "srcHash": "adf4f2ac44344835",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "0582dd0481bc79ce"
     },
     "Name_788": {
       "en": "Unlock Advanced Skill for Bamboo Incarnation",
       "cn": "紫竹化身解锁进阶技能",
-      "ru": "Разблокируйте продвинутый навык для воплощения Бамбука",
-      "status": "machine",
+      "ru": "Разблокировать продвинутый навык для воплощения Фиолетового бамбука",
+      "status": "judged",
       "srcHash": "a36587ef48dd623a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "0a25f3501b2cc604"
     },
     "Name_791": {
       "en": "Has Infidelity Secret",
@@ -8091,25 +8184,28 @@
       "status": "machine",
       "srcHash": "707f9bb97b1e6403",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "931a66df70906122"
     },
     "Name_792": {
       "en": "Play Full-Screen Animation for Added Practice Slots",
       "cn": "播放运功栏增加的全屏动画",
-      "ru": "Воспроизведите полноэкранную анимацию для дополнительных игровых автоматов",
-      "status": "machine",
+      "ru": "Воспроизвести полноэкранную анимацию для добавленных ячеек практики",
+      "status": "judged",
       "srcHash": "0b141e1115126559",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "aac859ca6f02ba1e"
     },
     "Name_793": {
       "en": "Set Regional Story Weather",
       "cn": "设置地区剧情天气",
-      "ru": "Установите региональную историю погоды",
-      "status": "machine",
+      "ru": "Установить погоду для сюжета региона",
+      "status": "judged",
       "srcHash": "fcd318f17c9fc7d6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "9adc81d97e44cfc0"
     },
     "Name_794": {
       "en": "Add Extra Title to Character",
@@ -8118,16 +8214,18 @@
       "status": "machine",
       "srcHash": "74fbe165a72e59ce",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f57ec758137eeb37"
     },
     "Name_795": {
       "en": "Select Character Cricket - Wins",
       "cn": "选择角色促织-胜场",
-      "ru": "Выберите персонажа для сверчка - Выигрывает",
-      "status": "machine",
+      "ru": "Победы сверчка",
+      "status": "judged",
       "srcHash": "4b13a7d23a0a57de",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "64a6e2b5da8beb64"
     },
     "Name_796": {
       "en": "Hold a Cricket Duel with Character",
@@ -8136,7 +8234,8 @@
       "status": "machine",
       "srcHash": "120e8e24c30b42c1",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "d5e72830579f7b4c"
     },
     "Name_797": {
       "en": "Hold a Cricket Duel with Character - Challenge",
@@ -8145,25 +8244,28 @@
       "status": "machine",
       "srcHash": "ce2ec8e330cfbf2f",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "51ee68a0d3f840df"
     },
     "Name_798": {
       "en": "NPC Simulated Cricket Battle",
       "cn": "NPC模拟促织战斗",
-      "ru": "NPC имитировал битву в сверчок",
-      "status": "machine",
+      "ru": "Симуляция боя неигрового персонажа со сверчком",
+      "status": "judged",
       "srcHash": "204ca8fde3f901d8",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "72ffa92a0c1328a4"
     },
     "Name_799": {
       "en": "Clear Cricket Display",
       "cn": "清空促织显示",
-      "ru": "Четкий дисплей для сверчка",
-      "status": "machine",
+      "ru": "Очистить отображение сверчка",
+      "status": "judged",
       "srcHash": "261e4bbbda7f3dac",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "782029d8f6797814"
     },
     "Name_800": {
       "en": "Current Item Durability",
@@ -8172,7 +8274,8 @@
       "status": "machine",
       "srcHash": "310a139073e1cc1c",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "5c48b31516ba8c19"
     },
     "Name_801": {
       "en": "Set Current Item Durability",
@@ -8181,7 +8284,8 @@
       "status": "machine",
       "srcHash": "37cdd0a4044da439",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "eb588fbc316f5565"
     },
     "Name_802": {
       "en": "Item Durability Limit",
@@ -8190,16 +8294,18 @@
       "status": "machine",
       "srcHash": "069a0b8de4ae2185",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "6e78645db75f9667"
     },
     "Name_803": {
       "en": "Cricket Wins",
       "cn": "促织胜场数",
-      "ru": "Выигрывает сверчок",
-      "status": "machine",
+      "ru": "Количество побед сверчка",
+      "status": "judged",
       "srcHash": "ec5eb8e1526a0986",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "8c431b5c1d83b7c0"
     },
     "Name_804": {
       "en": "Character's Cricket Count",
@@ -8208,7 +8314,8 @@
       "status": "machine",
       "srcHash": "58e752d9509fa66f",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "0294abafb32ce7f6"
     },
     "Name_805": {
       "en": "Whether Cricket Is Alive",
@@ -8217,16 +8324,18 @@
       "status": "machine",
       "srcHash": "c2c2f91f137aafc9",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "1bee277a24f72fb7"
     },
     "Name_806": {
       "en": "Adjust Cricket Extra Lifespan Limit",
       "cn": "调整促织额外寿命上限",
-      "ru": "Отрегулируйте дополнительный срок службы сверчка",
-      "status": "machine",
+      "ru": "Настроить предел дополнительной продолжительности жизни сверчка",
+      "status": "judged",
       "srcHash": "1c9ddbae4f62994a",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "7db54bbc9896df16"
     },
     "Name_807": {
       "en": "Start Buying Crickets",
@@ -8235,7 +8344,8 @@
       "status": "machine",
       "srcHash": "d276ab2fc2db0736",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "1c990193b0837572"
     },
     "Name_808": {
       "en": "Buy Cricket from Specified Jar",
@@ -8244,7 +8354,8 @@
       "status": "machine",
       "srcHash": "f2ad77d9891a1ad9",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "8e15d07d611426af"
     },
     "Name_837": {
       "en": "Display Item in Event Window",
@@ -8253,7 +8364,8 @@
       "status": "machine",
       "srcHash": "9c4b657530fc1015",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "8adb6020091385a3"
     },
     "Name_840": {
       "en": "Set the Tier of the Cricket pot Placed on Top",
@@ -8262,7 +8374,8 @@
       "status": "machine",
       "srcHash": "f68892ec47261a97",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "e3fb2901edc225da"
     },
     "Name_814": {
       "en": "Create Hollow-Minded",
@@ -8271,7 +8384,8 @@
       "status": "machine",
       "srcHash": "a0f24fbc126d9b9a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "75812a801bbd68ca"
     },
     "Name_815": {
       "en": "Get Character Reputation",
@@ -8280,7 +8394,8 @@
       "status": "machine",
       "srcHash": "088c217a2fb7bc61",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3cd53e0e00d24fb6"
     },
     "Name_816": {
       "en": "Get Character Positive Reputation Value",
@@ -8289,7 +8404,8 @@
       "status": "machine",
       "srcHash": "fa282430b3d4ce56",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "e239c8a7040d176f"
     },
     "Name_817": {
       "en": "Get Character Negative Reputation Value",
@@ -8298,7 +8414,8 @@
       "status": "machine",
       "srcHash": "85392e2c8c6e0835",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "80299649a183413d"
     },
     "Name_818": {
       "en": "Check Whether Character Reputation Meets a Condition",
@@ -8307,7 +8424,8 @@
       "status": "machine",
       "srcHash": "d926350cf36d2ea9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "6d90ac1afce9d424"
     },
     "Name_819": {
       "en": "Set Iron Plate Unlock",
@@ -8316,7 +8434,8 @@
       "status": "machine",
       "srcHash": "d3827ce9559e4363",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "65edfa65981f9deb"
     },
     "Name_821": {
       "en": "Display Unknown Time",
@@ -8325,7 +8444,8 @@
       "status": "machine",
       "srcHash": "db2436c871b3cfe9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "021aac732f657e89"
     },
     "Name_823": {
       "en": "Release Hollow-Minded",
@@ -8334,16 +8454,18 @@
       "status": "machine",
       "srcHash": "9894c07bb2977d2a",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "48ec70827c634b24"
     },
     "Name_825": {
       "en": "Get Active Wunian Followers List",
       "cn": "获取活跃无念众列表",
-      "ru": "Получите список активных подписчиков Wunian",
-      "status": "machine",
+      "ru": "Получить список активных безмысленных",
+      "status": "judged",
       "srcHash": "dcb7b580090b934c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "d2e61c18748dcea8"
     },
     "Name_826": {
       "en": "Disable Basic Attacks During Drill",
@@ -8352,7 +8474,8 @@
       "status": "machine",
       "srcHash": "ea3b0f1bafcd6533",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-07-13T18:56:48.037Z",
+      "judgeHash": "553779d5fdc38ad5"
     },
     "Name_827": {
       "en": "Disable Movement During Drill",
@@ -8361,7 +8484,8 @@
       "status": "machine",
       "srcHash": "72fd0c146dfb17dd",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "378eac2a972a8e18"
     },
     "Name_828": {
       "en": "Disable Enemy AI During Drill",
@@ -8370,52 +8494,58 @@
       "status": "machine",
       "srcHash": "20a387ff98db52b5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "cfaec9e32e25d54c"
     },
     "Name_830": {
       "en": "Spawn Minor Enemies on the Outlaw Base",
       "cn": "生成外道巢穴地图上小怪",
-      "ru": "Порождайте мелких врагов на базе преступников",
-      "status": "machine",
+      "ru": "Создать мелких врагов в логове еретиков",
+      "status": "judged",
       "srcHash": "5e7db86561257544",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "ee9175498e3ca321"
     },
     "Name_831": {
       "en": "Replenish Minor Enemies on the Outlaw Base",
       "cn": "补充外道巢穴地图上小怪",
-      "ru": "Пополняйте ряды второстепенных врагов на базе преступников",
-      "status": "machine",
+      "ru": "Пополнить мелких врагов в логове еретиков",
+      "status": "judged",
       "srcHash": "b1cc64eebaf42add",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "af51d397f38926a1"
     },
     "Name_855": {
       "en": "Clear Minor Enemies on the Outlaw Base Map",
       "cn": "清除外道巢穴地图上小怪",
-      "ru": "Уничтожьте второстепенных врагов на карте базы преступников",
-      "status": "machine",
+      "ru": "Уничтожить мелких врагов на карте логова еретиков",
+      "status": "judged",
       "srcHash": "f47728034bd1edf3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "ffc01c55c6140876"
     },
     "Name_895": {
       "en": "Clear the Nature's Gift state.",
       "cn": "清除天材地宝状态",
-      "ru": "Очистите состояние дара природы.",
-      "status": "machine",
+      "ru": "Очистить состояние небесных материалов и земных сокровищ.",
+      "status": "judged",
       "srcHash": "b05f2328f7317c47",
       "engine": "yandex",
-      "updatedAt": "2026-07-25T08:27:11.933Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "8f99bbbddc17c7f8"
     },
     "Name_883": {
       "en": "Clear the Soaring Escape state",
       "cn": "清除远走高飞状态",
-      "ru": "Очистите парящее состояние выхода",
-      "status": "machine",
+      "ru": "Очистить состояние далёкого побега",
+      "status": "judged",
       "srcHash": "cbbd6400153f1a92",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "7af6951c3dc746fb"
     },
     "Name_887": {
       "en": "Clear Sword Mound State",
@@ -8424,7 +8554,8 @@
       "status": "machine",
       "srcHash": "9f7223ad19384c6e",
       "engine": "yandex",
-      "updatedAt": "2026-07-25T08:27:11.933Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z",
+      "judgeHash": "055c5dd61b251680"
     },
     "Name_833": {
       "en": "Check Whether the Trinity and Three Demons Have Rebelled",
@@ -8433,7 +8564,8 @@
       "status": "machine",
       "srcHash": "5718bdcedc7aa753",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "43a32d764f8eff83"
     },
     "Name_839": {
       "en": "Clear All Defeat Flags",
@@ -8442,43 +8574,48 @@
       "status": "machine",
       "srcHash": "411046a3e26e0f9b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "26f32367e7ce0d08"
     },
     "Name_845": {
       "en": "Get Current Alive Xie Immortal Count",
       "cn": "获取当前存活邪仙数量",
-      "ru": "Получите текущее количество живых Се Бессмертных",
-      "status": "machine",
+      "ru": "Получить текущее количество живых злых бессмертных",
+      "status": "judged",
       "srcHash": "0e371fde81931d85",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "85becf2523ab0955"
     },
     "Name_846": {
       "en": "Spawn Xie Immortal",
       "cn": "生成邪仙",
-      "ru": "Порождение Се Бессмертного",
-      "status": "machine",
+      "ru": "Создать злого бессмертного",
+      "status": "judged",
       "srcHash": "fe41cec33879b9af",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "122fda9e6a221d6f"
     },
     "Name_847": {
       "en": "Character is Xie Immortal",
       "cn": "人物是邪仙",
-      "ru": "Персонаж Се бессмертен",
-      "status": "machine",
+      "ru": "Персонаж — злой бессмертный",
+      "status": "judged",
       "srcHash": "519dd85037db0532",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "0a34c659a1edfa6e"
     },
     "Name_852": {
       "en": "Set Divine Fire Unlock",
       "cn": "设置神火解锁",
-      "ru": "Зажги Божественный огонь, Разблокируй",
-      "status": "machine",
+      "ru": "Установить разблокировку божественного огня",
+      "status": "judged",
       "srcHash": "0b9cd20d0183b5b4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "13d0c494040d8ff2"
     },
     "Name_853": {
       "en": "Set NPC to Follow Taiwu",
@@ -8487,7 +8624,8 @@
       "status": "machine",
       "srcHash": "2a73bfc3a3d29f1e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "122fa0eafac35d57"
     },
     "Name_854": {
       "en": "Set All Mindless Ones to Follow Taiwu",
@@ -8496,7 +8634,8 @@
       "status": "machine",
       "srcHash": "7bcc0795828b809d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "94fe8ff78f27ad28"
     },
     "Name_857": {
       "en": "Spawn the Three Fiends",
@@ -8505,7 +8644,8 @@
       "status": "machine",
       "srcHash": "7560898fa0c126f3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "7ad2571fc1f58ed4"
     },
     "Name_858": {
       "en": "Taiwu Sets Specified Clothing",
@@ -8514,7 +8654,8 @@
       "status": "machine",
       "srcHash": "18fcecca3433a329",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "cacafa8e4880f5a9"
     },
     "Name_859": {
       "en": "Teleport Back to Taiwu Village",
@@ -8523,7 +8664,8 @@
       "status": "machine",
       "srcHash": "bc5f5d400008ef1b",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "7b33696dacd8c284"
     },
     "Name_862": {
       "en": "Clear Event Listener",
@@ -8532,34 +8674,38 @@
       "status": "machine",
       "srcHash": "fd5655ff02b72a2d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "b893fa6a569eb57c"
     },
     "Name_863": {
       "en": "Taiwu Eliminates Xie Immortal",
       "cn": "太吾消灭邪仙",
-      "ru": "Тайву устраняет Се Бессмертного",
-      "status": "machine",
+      "ru": "Тайву уничтожает злого бессмертного",
+      "status": "judged",
       "srcHash": "03ba4c05b7cd4b12",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "63d31f2fc1d4a333"
     },
     "Name_864": {
       "en": "Assistant Eliminates Xie Immortal",
       "cn": "协助者消灭邪仙",
-      "ru": "Помощник устраняет Се Бессмертного",
-      "status": "machine",
+      "ru": "Помощник уничтожает злого бессмертного",
+      "status": "judged",
       "srcHash": "81478645af35994c",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "125b55db992b1b48"
     },
     "Name_870": {
       "en": "Set Xie Immortal Elimination Assistant State",
       "cn": "设置消灭邪仙协助者状态",
-      "ru": "Установите Се в состояние помощника по Бессмертному устранению",
-      "status": "machine",
+      "ru": "Установить состояние помощника по уничтожению злого бессмертного",
+      "status": "judged",
       "srcHash": "0431dcb30fc541e0",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "6fb128f599581593"
     },
     "Name_865": {
       "en": "Character is Within Su Xia's Influence Area",
@@ -8568,7 +8714,8 @@
       "status": "machine",
       "srcHash": "dc77c6868da8557f",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "0d20ac210f8cfd0e"
     },
     "Name_866": {
       "en": "Rescue Character from Su Xia's Influence Area",
@@ -8577,7 +8724,8 @@
       "status": "machine",
       "srcHash": "526b7576776e2c61",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "5a35412892e72e98"
     },
     "Name_867": {
       "en": "Taiwu Learns the Secret Art Corresponding to the Xie Immortal",
@@ -9673,11 +9821,12 @@
     "Desc_54": {
       "en": "Increase or decrease Favor in the current region by the amount entered (positive = increase, negative = decrease).",
       "cn": "在当前对应地区的恩义值上增加或减少填写的值,正值为增加,负值为减少.",
-      "ru": "Увеличьте или уменьшите пользу в текущем регионе на введенную сумму (положительное = увеличение, отрицательное = уменьшение).",
-      "status": "machine",
+      "ru": "Увеличьте или уменьшите благосклонность в текущем регионе на введённую величину (положительное значение = увеличение, отрицательное = уменьшение).",
+      "status": "judged",
       "srcHash": "e3a6b542c514babf",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "991c4eb93dc0e160"
     },
     "Desc_55": {
       "en": "",
@@ -10429,11 +10578,12 @@
     "Desc_198": {
       "en": "Get Tile Location of AI or Fixed Character",
       "cn": "获取智能人物或固定人物所在地格",
-      "ru": "Получить местоположение плитки искусственного интеллекта или фиксированного персонажа",
-      "status": "machine",
+      "ru": "Получить местоположение умного или фиксированного персонажа",
+      "status": "judged",
       "srcHash": "537b6aabf0bc3366",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "c7c31bdfd4fb24d0"
     },
     "Desc_263": {
       "en": "",
@@ -11213,11 +11363,12 @@
     "Desc_158": {
       "en": "Check If In Memory Recall",
       "cn": "检查是否处于梦回",
-      "ru": "Проверьте, есть ли в памяти Воспоминание",
-      "status": "machine",
+      "ru": "Проверить, происходит ли возвращение во сне",
+      "status": "judged",
       "srcHash": "03c187564e109fad",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "ba2996fcc358b1f6"
     },
     "Desc_159": {
       "en": "Check if a character exists and is alive. Can be used to check if a smart character is alive or if a special character has been permanently deleted. This command cannot be used if the special character is only hidden from the map.",
@@ -12357,11 +12508,12 @@
     "Desc_285": {
       "en": "Sets variable name and multiplier. When time passes, add \"Energy spent times multiplier\" to the variable",
       "cn": "设定变量名与相乘系数，每当时间流逝时变量添加“消耗的精力数”×相乘系数",
-      "ru": "Задает имя переменной и множитель. По истечении времени добавьте к переменной \"Множитель затраченной энергии\"",
-      "status": "machine",
+      "ru": "Задает имя переменной и множитель. По истечении времени к переменной добавляется \"число затраченной энергии\" × множитель",
+      "status": "judged",
       "srcHash": "436c250a9a633964",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "09b389843d915402"
     },
     "Desc_286": {
       "en": "Check if current element is specified element",
@@ -12900,7 +13052,8 @@
       "status": "machine",
       "srcHash": "bd3845387f88d4d1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "fd699ada566e272a"
     },
     "Desc_334": {
       "en": "All encounter elements matching the tag group start an action.",
@@ -13053,11 +13206,12 @@
     "Desc_348": {
       "en": "Validate item data",
       "cn": "检查物品数据是否有效",
-      "ru": "Проверка данных элемента",
-      "status": "machine",
+      "ru": "Проверить данные предмета",
+      "status": "judged",
       "srcHash": "89a3a30003acd9d0",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "85170185269d1012"
     },
     "Desc_349": {
       "en": "Check if a specific variable of an encounter element is in action.",
@@ -13430,11 +13584,12 @@
     "Desc_386": {
       "en": "Get character's current Qi value",
       "cn": "获得角色当前内力值",
-      "ru": "Получить текущее значение Ци персонажа",
-      "status": "machine",
+      "ru": "Получить текущее значение ци персонажа",
+      "status": "judged",
       "srcHash": "8f8c64f33e32ac7b",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "dc158e4df4fbcb1f"
     },
     "Desc_387": {
       "en": "Distance from encounter element to reset position",
@@ -14324,47 +14479,52 @@
     "Desc_477": {
       "en": "Selects an item from the specified item list",
       "cn": "从指定道具列表中选取一个道具",
-      "ru": "Выбирает элемент из указанного списка элементов",
-      "status": "machine",
+      "ru": "Выбрать предмет из указанного списка предметов",
+      "status": "judged",
       "srcHash": "35fb22671c5b5912",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "c55004a0e91becb6"
     },
     "Desc_478": {
       "en": "Removes an item from the specified item list",
       "cn": "从指定道具列表中移除道具",
-      "ru": "Удаляет элемент из указанного списка элементов",
-      "status": "machine",
+      "ru": "Удалить предмет из указанного списка предметов",
+      "status": "judged",
       "srcHash": "6275e1471c9812f8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "93e347815293b6b9"
     },
     "Desc_479": {
       "en": "Adds an item from the specified item list",
       "cn": "向指定道具列表中添加道具",
-      "ru": "Добавляет элемент из указанного списка элементов",
-      "status": "machine",
+      "ru": "Добавить предмет из указанного списка предметов",
+      "status": "judged",
       "srcHash": "a18ab25380d24187",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "b3ccf3e4ffde1b09"
     },
     "Desc_676": {
       "en": "Adds an item from the specified item list",
       "cn": "向指定道具列表中添加道具",
-      "ru": "Добавляет элемент из указанного списка элементов",
-      "status": "machine",
+      "ru": "Добавить предмет из указанного списка предметов",
+      "status": "judged",
       "srcHash": "a18ab25380d24187",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "b3ccf3e4ffde1b09"
     },
     "Desc_480": {
       "en": "Deletes all items from the specified item list",
       "cn": "删除道具列表中的所有道具",
-      "ru": "Удаляет все элементы из указанного списка элементов",
-      "status": "machine",
+      "ru": "Удалить все предметы из указанного списка предметов",
+      "status": "judged",
       "srcHash": "b4f6873056c3c60e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "c468524a14870909"
     },
     "Desc_487": {
       "en": "Attempts to find the Element corresponding to the character and returns the result",
@@ -14383,7 +14543,8 @@
       "status": "machine",
       "srcHash": "cac03439a8c7457d",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "be252cfb1f2bb019"
     },
     "Desc_489": {
       "en": "Removes the specified variables from the parameter container",
@@ -14392,7 +14553,8 @@
       "status": "machine",
       "srcHash": "0fc773dc6b13ff1b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "06c413764fd2f038"
     },
     "Desc_490": {
       "en": "Removes all variables from the parameter container",
@@ -14401,7 +14563,8 @@
       "status": "machine",
       "srcHash": "3b6d3418d7c3600c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3c8288ddb11af37b"
     },
     "Desc_491": {
       "en": "Retrieves Elements specified by an Element ID in the encounter that return True when comparing the Element variable with the given value",
@@ -14419,16 +14582,18 @@
       "status": "machine",
       "srcHash": "b7866f897b18a781",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "a85cd22921c6a07f"
     },
     "Desc_493": {
       "en": "Can Propose Wedded Union to Target",
       "cn": "是否可以对目标角色发起共结连理",
-      "ru": "Может предложить брачный союз целевому",
-      "status": "machine",
+      "ru": "Может предложить брачный союз цели",
+      "status": "judged",
       "srcHash": "a1343beabe3003b9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "e86797418f225368"
     },
     "Desc_494": {
       "en": "Get Taiwu's Imprisoned Character List",
@@ -14437,16 +14602,18 @@
       "status": "machine",
       "srcHash": "c652415a8ca4fea5",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "d679e8539559661d"
     },
     "Desc_495": {
       "en": "Get Encounter Element's Imprisoned Character List",
       "cn": "获得奇遇元素人物的关押人物列表",
-      "ru": "Получить список заключенных персонажей элемента Encounter",
-      "status": "machine",
+      "ru": "Получить список заключенных персонажей элемента встречи",
+      "status": "judged",
       "srcHash": "2493090bc71f55ea",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "a2eec849e11a2e20"
     },
     "Desc_496": {
       "en": "Cricket Duel with the character corresponding to the encounter element; result logic matches Debate.",
@@ -14481,11 +14648,12 @@
     "Desc_499": {
       "en": "Encounter Element Template Bound to Character",
       "cn": "奇遇元素模板是否绑定了角色",
-      "ru": "Шаблон элемента Encounter, привязанный к символу",
-      "status": "machine",
+      "ru": "Шаблон элемента встречи, привязанный к персонажу",
+      "status": "judged",
       "srcHash": "a1dcfac2baa9ae02",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "9ad3d1bafae3ae86"
     },
     "Desc_500": {
       "en": "Get Tile List by Tile Group",
@@ -14494,7 +14662,8 @@
       "status": "machine",
       "srcHash": "893699243fa34698",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f31b347662b3a355"
     },
     "Desc_501": {
       "en": "Is Taiwu on Specific Tile",
@@ -14503,7 +14672,8 @@
       "status": "machine",
       "srcHash": "510a4eeb747b77b7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "f8e538061d07fe98"
     },
     "Desc_502": {
       "en": "Get Tile List of Element's Large Tile",
@@ -14512,7 +14682,8 @@
       "status": "machine",
       "srcHash": "891665bd3047c711",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "67519d5dbfbabca8"
     },
     "Desc_503": {
       "en": "Get Tile List of Taiwu's Large Tile",
@@ -14521,7 +14692,8 @@
       "status": "machine",
       "srcHash": "b12f292bd2bbc45e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "79073b5211f6cf79"
     },
     "Desc_504": {
       "en": "Get Element List of Tile",
@@ -14530,7 +14702,8 @@
       "status": "machine",
       "srcHash": "a608ddb3ce075b92",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "80c65578cdf8ec8b"
     },
     "Desc_505": {
       "en": "Operations are blocked during movement. Delay-type methods should not be called simultaneously and must be called in sequence.",
@@ -14559,7 +14732,8 @@
       "status": "machine",
       "srcHash": "e340c20d93b6754b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "576e0f2d8598e047"
     },
     "Desc_507": {
       "en": "Element on Specific Tile - Instance ID",
@@ -14568,7 +14742,8 @@
       "status": "machine",
       "srcHash": "6b8c274df447e531",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "08dd19d68c9e3e67"
     },
     "Desc_508": {
       "en": "Element on Specific Tile - Template ID",
@@ -14577,7 +14752,8 @@
       "status": "machine",
       "srcHash": "218c3e132428c15b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3a5fd25b6c797b75"
     },
     "Desc_509": {
       "en": "Element on Specific Tile - Tag",
@@ -14586,16 +14762,18 @@
       "status": "machine",
       "srcHash": "cf591f5616e98acc",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "13ef81ecf761c9ce"
     },
     "Desc_510": {
       "en": "Encounter Element Directional Movement",
       "cn": "奇遇元素定向移动",
-      "ru": "Встречный элемент Направленного движения",
-      "status": "machine",
+      "ru": "Направленное перемещение элемента встречи",
+      "status": "judged",
       "srcHash": "c26b21f3fa4f6517",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "3b5e054c27237639"
     },
     "Desc_777": {
       "en": "",
@@ -14613,7 +14791,8 @@
       "status": "machine",
       "srcHash": "5173b48e28f3d657",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "968f76b745684205"
     },
     "Desc_512": {
       "en": "Play Sound Effect",
@@ -14622,7 +14801,8 @@
       "status": "machine",
       "srcHash": "fcb826b7f2c3fd5b",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "3fbe2872291f6496"
     },
     "Desc_514": {
       "en": "Set Music/SFX Fade In/Out",
@@ -14645,20 +14825,22 @@
     "Desc_519": {
       "en": "Encounter Element Directional Passability - Variable",
       "cn": "奇遇元素变量定向是否可通行",
-      "ru": "Проходимость по направлению встречного элемента - переменная",
-      "status": "machine",
+      "ru": "Направленная проходимость элемента события — переменная",
+      "status": "judged",
       "srcHash": "4a9a4976d670f133",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "9f4a68c2fc8da683"
     },
     "Desc_521": {
       "en": "Encounter Taiwu Directional Passability",
       "cn": "奇遇太吾定向是否可通行",
-      "ru": "Встречайте Тайву с направленной проходимостью",
-      "status": "machine",
+      "ru": "Проверка направленной проходимости Тайву в событии",
+      "status": "judged",
       "srcHash": "1fd4768664bd8c8e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "164db8d1f86b0104"
     },
     "Desc_522": {
       "en": "Check the comparison result between the number of encounter elements at Taiwu's offset tile and a given value.",
@@ -14697,7 +14879,8 @@
       "status": "machine",
       "srcHash": "e87bae6752a8fda9",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "7300f43bd279d7cc"
     },
     "Desc_604": {
       "en": "Is Taiwu studying any book?",
@@ -14706,7 +14889,8 @@
       "status": "machine",
       "srcHash": "3bb4c689d7ab5fa4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "5a455cd5fcbe8d98"
     },
     "Desc_605": {
       "en": "Obtain the book Taiwu is currently studying",
@@ -14715,7 +14899,8 @@
       "status": "machine",
       "srcHash": "219f1feb2553b7c4",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "973bf57d6b17033e"
     },
     "Desc_526": {
       "en": "Effect is the same as Wang Chan's Scriptures, consumes 3 Comprehension each time. Failure may be due to insufficient Comprehension.",
@@ -14769,20 +14954,22 @@
     "Desc_531": {
       "en": "Save Character's specified Type and Tier",
       "cn": "保存角色指定类型和等级的功法",
-      "ru": "Сохранить указанный тип персонажа и его ранг",
-      "status": "machine",
+      "ru": "Сохранить указанный тип и ранг боевой техники персонажа",
+      "status": "judged",
       "srcHash": "74b199c9f5f88043",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "8a1bc04d20d7a964"
     },
     "Desc_532": {
       "en": "Modify Taiwu's Martial Art Combat Value",
       "cn": "改变太吾功法实战值",
-      "ru": "Измените боевую ценность боевого искусства Тайву",
-      "status": "machine",
+      "ru": "Изменить боевое значение боевой техники Тайву",
+      "status": "judged",
       "srcHash": "9b7a230f1c1881ab",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "1e9f60ccc9ff6e59"
     },
     "Desc_533": {
       "en": "Martial Art Guidance",
@@ -14791,7 +14978,8 @@
       "status": "machine",
       "srcHash": "740db4572d9189ee",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-07-10T20:59:06.747Z",
+      "judgeHash": "1a74af102dba6251"
     },
     "Desc_536": {
       "en": "Get Character Martial Power",
@@ -14800,7 +14988,8 @@
       "status": "machine",
       "srcHash": "4a5cfcc7c4d921e6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "98977fbcba570e2d"
     },
     "Desc_537": {
       "en": "Get Item Tier",
@@ -14809,16 +14998,18 @@
       "status": "machine",
       "srcHash": "455947e5370c387c",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-07-10T20:59:06.747Z",
+      "judgeHash": "61a3be61003004f8"
     },
     "Desc_538": {
       "en": "Check Item Tier",
       "cn": "检测道具品级",
-      "ru": "Проверьте ранг элемента",
-      "status": "machine",
+      "ru": "Проверить ранг предмета",
+      "status": "judged",
       "srcHash": "91be9a058990df41",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "80dcf81c2c4bf555"
     },
     "Desc_539": {
       "en": "Whether the former has the specified relationship with the latter.",
@@ -14847,7 +15038,8 @@
       "status": "machine",
       "srcHash": "abfa365a7d2e3690",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "50fede16f3e3c8da"
     },
     "Desc_546": {
       "en": "Get List of Elements Co-performing Action with Target. Return value includes the target element. Returns an empty list (Count 0) if no matches are found.",
@@ -17134,7 +17326,8 @@
       "status": "machine",
       "srcHash": "7560898fa0c126f3",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "7ad2571fc1f58ed4"
     },
     "Desc_858": {
       "en": "",
@@ -17152,7 +17345,8 @@
       "status": "machine",
       "srcHash": "bc5f5d400008ef1b",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-07-10T22:05:17.320Z",
+      "judgeHash": "7b33696dacd8c284"
     },
     "Desc_862": {
       "en": "",

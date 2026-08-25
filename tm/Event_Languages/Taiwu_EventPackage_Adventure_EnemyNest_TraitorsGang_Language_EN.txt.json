@@ -1136,11 +1136,12 @@
     "4b5459cf-ff88-44cf-9d70-51d8ca92ce2b/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> leans forward for a close look, offering treatment.<NL>Then <Character key=RoleTaiwu str=GenderSubject/> offers all the medicine with <Character key=RoleTaiwu str=GenderObject/> to the disciple...<NL><Character key=Pupil str=Name/> is touched, keeps thanking <Character key=RoleTaiwu str=Name/>...<NL><NL><color=#lightgrey>(Favorability of the disciple toward <Character key=RoleTaiwu str=Name/> has increased...)</color>",
       "cn": "<Character key=RoleTaiwu str=Name/>俯身细察，施医问诊，<NL>将囊中药材送与弟子疗伤……<NL><Character key=Pupil str=Name/>感激不已，再三拜谢……<NL><NL><color=#lightgrey>（弟子对<Character key=RoleTaiwu str=Name/>的好感上升……）</color>",
-      "ru": "<Character key=RoleTaiwu str=Name/> наклоняется вперед, чтобы рассмотреть поближе, предлагая лечение.<NL>Затем <Character key=RoleTaiwu str=GenderSubject/> предлагает все лекарства с <Character key=RoleTaiwu str=GenderObject/> к ученику...<NL><Character key=Pupil str=Name/> тронут, продолжает благодарить <Character key=RoleTaiwu str=Name/>...<NL><NL><color=#lightgrey>(Благосклонность ученика к <Character key=RoleTaiwu str=Name/> увеличилось...)</color>",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> наклоняется, внимательно осматривает и оказывает помощь.<NL>Затем <Character key=RoleTaiwu str=GenderSubject/> передаёт <Character key=RoleTaiwu str=GenderObject/> все лекарства ученику для лечения...<NL><Character key=Pupil str=Name/> тронут и снова благодарит <Character key=RoleTaiwu str=Name/>...<NL><NL><color=#lightgrey>(Благосклонность ученика к <Character key=RoleTaiwu str=Name/> увеличилась...)</color>",
+      "status": "judged",
       "srcHash": "5758cb08f8037033",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "4b407aa4efafd838"
     },
     "4b5459cf-ff88-44cf-9d70-51d8ca92ce2b/Option_1": {
       "en": "(This is good...)",
@@ -2105,11 +2106,12 @@
     "579a95c9-03ee-46e5-ba0d-110df32fa678/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> slips and gets hit on <Character key=RoleTaiwu str=GenderPossessive/> weak spot, stumbles away defeated...<NL><Character key=Pupil str=Name/> is frustrated about the result...<NL><NL><color=#lightgrey>(Favorability of the disciple toward <Character key=RoleTaiwu str=Name/> is declined...)</color>",
       "cn": "<Character key=RoleTaiwu str=Name/>稍有不慎，被对方一击命中，踉跄败退……<NL><Character key=Pupil str=Name/>观此败绩，亦怏怏不乐……<NL><NL><color=#lightgrey>（弟子对<Character key=RoleTaiwu str=Name/>的好感下降……）</color>",
-      "ru": "<Character key=RoleTaiwu str=Name/> поскальзывается и получает удар по <Character key=RoleTaiwu str=GenderPossessive/> слабое место, спотыкается и уходит побежденным...<NL><Character key=Pupil str=Name/> разочарован результатом...<NL><NL><color=#lightgrey>(Благосклонность ученика к <Character key=RoleTaiwu str=Name/> отклонено...)</color>",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> получает удар по <Character key=RoleTaiwu str=GenderPossessive/> слабому месту и, пошатнувшись, отступает побеждённым...<NL><Character key=Pupil str=Name/> расстроен этим поражением...<NL><NL><color=#lightgrey>(Благосклонность ученика к <Character key=RoleTaiwu str=Name/> снизилась...)</color>",
+      "status": "judged",
       "srcHash": "a7cae30900c9af75",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "4e250f804f2b0265"
     },
     "579a95c9-03ee-46e5-ba0d-110df32fa678/Option_1": {
       "en": "(Feeling helpless...)",
@@ -2814,11 +2816,12 @@
     "722b15c5-85c6-4573-8493-208918140f65/EventContent": {
       "en": "Seeing <Character key=RoleTaiwu str=Name/> actually takes out an object as <Character key=RoleTaiwu str=GenderSubject/> was told,<NL><Character key=Pupil str=Name/> feels pleased and speaks no more when leaving the place with the object...",
       "cn": "<Character key=Pupil str=Name/>见<Character key=RoleTaiwu str=Name/>竟依言从行囊中取出一物，<NL>面露得色，再未多言，拿过此物便拂袖离去……",
-      "ru": "Видя <Character key=RoleTaiwu str=Name/> фактически извлекает объект как <Character key=RoleTaiwu str=GenderSubject/> было сказано,<NL><Character key=Pupil str=Name/> чувствует себя довольным и больше не говорит, когда покидает место с предметом...",
-      "status": "machine",
+      "ru": "<Character key=Pupil str=Name/> видит, что <Character key=RoleTaiwu str=Name/> действительно достаёт предмет, как было велено <Character key=RoleTaiwu str=GenderSubject/>,<NL>довольно улыбается, больше ничего не говорит, забирает предмет и уходит прочь...",
+      "status": "judged",
       "srcHash": "e69bddc7bd6f2543",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "866d7796a436878c"
     },
     "722b15c5-85c6-4573-8493-208918140f65/Option_1": {
       "en": "(So be it...)",
@@ -3663,11 +3666,12 @@
     "755e53d9-206d-4a79-81de-832dbda9a4ac/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> realizes <Character key=RoleTaiwu str=GenderSubject/>'s no match for <Character key=Pupil str=Name/><NL>and decides to avoid the battlefield...<NL><NL><color=#lightgrey>(Favorability of disciples toward <Character key=RoleTaiwu str=Name/> is declined...)</color>",
       "cn": "<Character key=RoleTaiwu str=Name/>眼见不敌<Character key=Pupil str=Name/>，<NL>当即抽身离开，暂避这纷乱之地……<NL><NL><color=#lightgrey>（弟子对<Character key=RoleTaiwu str=Name/>的好感下降……）</color>",
-      "ru": "<Character key=RoleTaiwu str=Name/> осознает <Character key=RoleTaiwu str=GenderSubject/>это не сравнится с <Character key=Pupil str=Name/><NL>и решает избежать поля боя...<NL><NL><color=#lightgrey>(Благосклонность учеников к <Character key=RoleTaiwu str=Name/> отклонено...)</color>",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> понимает, что <Character key=RoleTaiwu str=GenderSubject/> не может сравниться с <Character key=Pupil str=Name/><NL>и сразу покидает это место, чтобы переждать смуту…<NL><NL><color=#lightgrey>(Благосклонность учеников к <Character key=RoleTaiwu str=Name/> снизилась…)</color>",
+      "status": "judged",
       "srcHash": "1fdc466e6a8731c8",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-25T03:22:52.788Z",
+      "judgeHash": "67f355cc630feec1"
     },
     "755e53d9-206d-4a79-81de-832dbda9a4ac/Option_1": {
       "en": "(Feeling helpless...)",
@@ -3682,11 +3686,12 @@
     "a2eb9e33-0995-4c84-b593-88485689e011/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> realizes <Character key=RoleTaiwu str=GenderSubject/>'s no match for <Character key=Pupil str=Name/><NL>and decides to avoid the battlefield...<NL><NL><color=#lightgrey>(Favorability of disciples toward <Character key=RoleTaiwu str=Name/> is declined...)</color>",
       "cn": "<Character key=RoleTaiwu str=Name/>眼见不敌<Character key=Pupil str=Name/>，<NL>当即抽身离开，暂避这纷乱之地……<NL><NL><color=#lightgrey>（弟子对<Character key=RoleTaiwu str=Name/>的好感下降……）</color>",
-      "ru": "<Character key=RoleTaiwu str=Name/> осознает <Character key=RoleTaiwu str=GenderSubject/>это не сравнится с <Character key=Pupil str=Name/><NL>и решает избежать поля боя...<NL><NL><color=#lightgrey>(Благосклонность учеников к <Character key=RoleTaiwu str=Name/> отклонено...)</color>",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> понимает, что <Character key=RoleTaiwu str=GenderSubject/> не может сравниться с <Character key=Pupil str=Name/><NL>и сразу покидает это место, чтобы переждать смуту…<NL><NL><color=#lightgrey>(Благосклонность учеников к <Character key=RoleTaiwu str=Name/> снизилась…)</color>",
+      "status": "judged",
       "srcHash": "1fdc466e6a8731c8",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-25T03:22:52.788Z",
+      "judgeHash": "67f355cc630feec1"
     },
     "a2eb9e33-0995-4c84-b593-88485689e011/Option_1": {
       "en": "Feeling helpless...",
@@ -3741,11 +3746,12 @@
     "955a857c-2865-4bf4-b48b-1c20175a2ef9/EventContent": {
       "en": "<Character key=Pupil str=Name/> stats that keeping running and hiding in the valley is no fun at all.<NL>There's nothing <Character key=Pupil str=GenderSubject/> wants more than resting and recuperating in the Taiwu Village. Then, <Character key=Pupil str=GenderSubject/> heads back to the village...<NL><NL><color=#lightgrey>(<Character key=Pupil str=Name/> will return to Taiwu Village on <Character key=RoleTaiwu str=GenderPossessive/> own...)</color>",
       "cn": "<Character key=Pupil str=Name/>自言，在谷中东躲西藏，已不堪其苦，<NL>如今只愿入太吾村休养生息，便先行返回太吾村了……<NL><NL><color=#lightgrey>（<Character key=Pupil str=Name/>将自行返回太吾村……）</color>",
-      "ru": "<Character key=Pupil str=Name/> статистика показывает, что продолжать бегать и прятаться в долине совсем не весело.<NL>Там ничего нет <Character key=Pupil str=GenderSubject/> хочет большего, чем просто отдохнуть и восстановить силы в деревне Тайву. Затем, <Character key=Pupil str=GenderSubject/> направляется обратно в деревню...<NL><NL><color=#lightgrey>(<Character key=Pupil str=Name/> вернется в деревню Тайву на <Character key=RoleTaiwu str=GenderPossessive/> собственный...)</color>",
-      "status": "machine",
+      "ru": "<Character key=Pupil str=Name/> говорит, что больше не может терпеть постоянные бегство и прятки в долине.<NL>Теперь <Character key=Pupil str=GenderSubject/> больше всего хочет отдохнуть и восстановить силы в деревне Тайву. Затем <Character key=Pupil str=GenderSubject/> возвращается в деревню...<NL><NL><color=#lightgrey>(<Character key=Pupil str=Name/> самостоятельно вернётся в деревню Тайву по <Character key=RoleTaiwu str=GenderPossessive/> решению...)</color>",
+      "status": "judged",
       "srcHash": "d3cbc0cb312d5988",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-25T03:22:52.788Z",
+      "judgeHash": "a6c593e3d97b9605"
     },
     "955a857c-2865-4bf4-b48b-1c20175a2ef9/Option_1": {
       "en": "(This is good...)",
@@ -3760,11 +3766,12 @@
     "61ac537f-2b60-4317-bc60-ec3594e84c0f/EventContent": {
       "en": "<Character key=Pupil str=Name/> stats that keeping running and hiding in the valley is no fun at all.<NL>There's nothing <Character key=Pupil str=GenderSubject/> wants more than resting and recuperating in the Taiwu Village. Then, <Character key=Pupil str=GenderSubject/> heads back to the village...<NL><NL><color=#lightgrey>(<Character key=Pupil str=Name/> will return to Taiwu Village on <Character key=RoleTaiwu str=GenderPossessive/> own...)</color>",
       "cn": "<Character key=Pupil str=Name/>自言，在谷中东躲西藏，已不堪其苦，<NL>如今只愿入太吾村休养生息，便先行返回太吾村了……<NL><NL><color=#lightgrey>（<Character key=Pupil str=Name/>将自行返回太吾村……）</color>",
-      "ru": "<Character key=Pupil str=Name/> статистика показывает, что продолжать бегать и прятаться в долине совсем не весело.<NL>Там ничего нет <Character key=Pupil str=GenderSubject/> хочет большего, чем просто отдохнуть и восстановить силы в деревне Тайву. Затем, <Character key=Pupil str=GenderSubject/> направляется обратно в деревню...<NL><NL><color=#lightgrey>(<Character key=Pupil str=Name/> вернется в деревню Тайву на <Character key=RoleTaiwu str=GenderPossessive/> собственный...)</color>",
-      "status": "machine",
+      "ru": "<Character key=Pupil str=Name/> говорит, что больше не может терпеть постоянные бегство и прятки в долине.<NL>Теперь <Character key=Pupil str=GenderSubject/> больше всего хочет отдохнуть и восстановить силы в деревне Тайву. Затем <Character key=Pupil str=GenderSubject/> возвращается в деревню...<NL><NL><color=#lightgrey>(<Character key=Pupil str=Name/> самостоятельно вернётся в деревню Тайву по <Character key=RoleTaiwu str=GenderPossessive/> решению...)</color>",
+      "status": "judged",
       "srcHash": "d3cbc0cb312d5988",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-25T03:22:52.788Z",
+      "judgeHash": "a6c593e3d97b9605"
     },
     "61ac537f-2b60-4317-bc60-ec3594e84c0f/Option_1": {
       "en": "(This is good...)",
@@ -4149,11 +4156,12 @@
     "d6a7603b-86e1-4758-aa0b-bf1cbff81b92/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> realizes <Character key=RoleTaiwu str=GenderSubject/>'s no match for <Character key=Pupil str=Name/><NL>and decides to avoid the battlefield...<NL><NL><color=#lightgrey>(Favorability of disciples toward <Character key=RoleTaiwu str=Name/> is declined...)</color>",
       "cn": "<Character key=RoleTaiwu str=Name/>眼见不敌<Character key=Pupil str=Name/>，<NL>当即抽身离开，暂避这纷乱之地……<NL><NL><color=#lightgrey>（弟子对<Character key=RoleTaiwu str=Name/>的好感下降……）</color>",
-      "ru": "<Character key=RoleTaiwu str=Name/> осознает <Character key=RoleTaiwu str=GenderSubject/>это не сравнится с <Character key=Pupil str=Name/><NL>и решает избежать поля боя...<NL><NL><color=#lightgrey>(Благосклонность учеников к <Character key=RoleTaiwu str=Name/> отклонено...)</color>",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> понимает, что <Character key=RoleTaiwu str=GenderSubject/> не может сравниться с <Character key=Pupil str=Name/><NL>и сразу покидает это место, чтобы переждать смуту…<NL><NL><color=#lightgrey>(Благосклонность учеников к <Character key=RoleTaiwu str=Name/> снизилась…)</color>",
+      "status": "judged",
       "srcHash": "1fdc466e6a8731c8",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-25T03:22:52.788Z",
+      "judgeHash": "67f355cc630feec1"
     },
     "d6a7603b-86e1-4758-aa0b-bf1cbff81b92/Option_1": {
       "en": "(Feeling helpless...)",
@@ -4338,11 +4346,12 @@
     "4010049d-14b2-4265-889c-fab6e734e027/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> realizes <Character key=RoleTaiwu str=GenderSubject/>'s no match for <Character key=Pupil str=Name/><NL>and decides to avoid the battlefield...<NL><NL><color=#lightgrey>(Favorability of disciples toward <Character key=RoleTaiwu str=Name/> is declined...)</color>",
       "cn": "<Character key=RoleTaiwu str=Name/>眼见不敌<Character key=Pupil str=Name/>，<NL>当即抽身离开，暂避这纷乱之地……<NL><NL><color=#lightgrey>（弟子对<Character key=RoleTaiwu str=Name/>的好感下降……）</color>",
-      "ru": "<Character key=RoleTaiwu str=Name/> осознает <Character key=RoleTaiwu str=GenderSubject/>это не сравнится с <Character key=Pupil str=Name/><NL>и решает избежать поля боя...<NL><NL><color=#lightgrey>(Благосклонность учеников к <Character key=RoleTaiwu str=Name/> отклонено...)</color>",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> понимает, что <Character key=RoleTaiwu str=GenderSubject/> не может сравниться с <Character key=Pupil str=Name/><NL>и сразу покидает это место, чтобы переждать смуту…<NL><NL><color=#lightgrey>(Благосклонность учеников к <Character key=RoleTaiwu str=Name/> снизилась…)</color>",
+      "status": "judged",
       "srcHash": "1fdc466e6a8731c8",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T23:30:44.155Z"
+      "updatedAt": "2026-08-25T03:22:52.788Z",
+      "judgeHash": "67f355cc630feec1"
     },
     "4010049d-14b2-4265-889c-fab6e734e027/Option_1": {
       "en": "Feeling helpless...",

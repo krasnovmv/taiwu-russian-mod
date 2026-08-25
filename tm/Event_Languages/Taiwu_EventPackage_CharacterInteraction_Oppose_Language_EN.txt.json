@@ -814,11 +814,12 @@
     "88b05e12-7e7a-46c8-9c9e-fe5224586cde/EventContent": {
       "en": "\"What...?! Give my <Resource key=GetResType str=Name/> back!\"<NL><Character key=CharacterId str=Name/>, realizing <Character key=CharacterId str=GenderPossessive/> <Resource key=GetResType str=Name/> had been snatched by <Character key=RoleTaiwu str=Name/>, immediately tried to reclaim it...<NL><NL><color=#lightgrey>(Caught <Character key=CharacterId str=Name/> off guard, <Character key=RoleTaiwu str=Name/> snatched <Character key=CharacterId str=Name/>'s <ArgBox key=InputResult type=int/> <Resource key=GetResType str=Name/>!)</color>",
       "cn": "“什么……？！快将我的<Resource key=GetResType str=Name/>还来！”<NL><Character key=CharacterId str=Name/>见自己的<Resource key=GetResType str=Name/>遭<Character key=RoleTaiwu str=Name/>抢劫，立刻出手来夺……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name/>趁<Character key=CharacterId str=Name/>不备，抢夺了<Character key=CharacterId str=Name/>的<ArgBox key=InputResult type=int/><Resource key=GetResType str=Name/>！）</color>",
-      "ru": "\"Что...?! Отдай мой <Resource key=GetResType str=Name/> обратно!\"<NL><Character key=CharacterId str=Name/>, осознав, что <Character key=CharacterId str=GenderPossessive/> <Resource key=GetResType str=Name/> был похищен <Character key=RoleTaiwu str=Name/>, немедленно попытался вернуть его...<NL><NL><color=#lightgrey>(Застигнут <Character key=CharacterId str=Name/> врасплох, <Character key=RoleTaiwu str=Name/> выхватила <Character key=CharacterId str=Name/>'с <ArgBox key=InputResult type=int/> <Resource key=GetResType str=Name/>!)</color>",
-      "status": "machine",
+      "ru": "\"Что...?! Отдай мой <Resource key=GetResType str=Name/> обратно!\"<NL><Character key=CharacterId str=Name/>, осознав, что <Character key=CharacterId str=GenderPossessive/> <Resource key=GetResType str=Name/> был похищен <Character key=RoleTaiwu str=Name/>, немедленно попытался вернуть его...<NL><NL><color=#lightgrey>(Застав <Character key=CharacterId str=Name/> врасплох, <Character key=RoleTaiwu str=Name/> выхватил у <Character key=CharacterId str=Name/> <ArgBox key=InputResult type=int/> <Resource key=GetResType str=Name/>!)</color>",
+      "status": "judged",
       "srcHash": "c403e3360dcf732c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "114d2661b75ac4c6"
     },
     "88b05e12-7e7a-46c8-9c9e-fe5224586cde/Option_1": {
       "en": "(Make a hasty escape...)",
@@ -893,11 +894,12 @@
     "c3cc6fe7-b9cb-4a13-acf9-90a06cbc47fe/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> tried to poison <Character key=CharacterId str=Name/>, but <Character key=CharacterId str=Name/> was already on guard...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name/> noticed <Character key=CharacterId str=Name/>'s attempt...)</color>",
       "cn": "<Character key=RoleTaiwu str=Name/>正欲向<Character key=CharacterId str=Name/>投毒，<Character key=CharacterId str=Name/>却早有警觉……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name/>试图出手时，被<Character key=CharacterId str=Name/>发现了……）</color>",
-      "ru": "<Character key=RoleTaiwu str=Name/> пытался яд <Character key=CharacterId str=Name/>, но <Character key=CharacterId str=Name/> он уже был настороже...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name/> заметил <Character key=CharacterId str=Name/>это попытка...)</color>",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> пытался отравить ядом <Character key=CharacterId str=Name/>, но <Character key=CharacterId str=Name/> уже был настороже...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name/> попытался действовать, но <Character key=CharacterId str=Name/> заметил его попытку...)</color>",
+      "status": "judged",
       "srcHash": "bd178309b6d0fe1e",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "6a3feb872a76b3fa"
     },
     "c3cc6fe7-b9cb-4a13-acf9-90a06cbc47fe/Option_1": {
       "en": "(...)",

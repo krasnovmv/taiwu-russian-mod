@@ -13116,11 +13116,12 @@
     "PartDesc_13_1": {
       "en": "Moundbreakers differ from Xiangshu Incarnations found within the Sword Mounds. They are relatively weaker and, once defeated, do not enter Divine Sword Unsheathed; instead, they retreat back into their Sword Mounds.\\nDefeating a Moundbreaker does not conquer its corresponding Sword Mound, and therefore does not increase Taiwu's Pure Essence or the Invasion Progress.",
       "cn": "破冢化身不同于剑冢内的相枢化身。破冢化身的实力相对较弱，被击败后不会进入「神剑出鞘」状态，而是退回剑冢之中。\\n击败破冢化身并不会攻破对应的剑冢，因此也不会提升太吾的精纯或侵袭进度。",
-      "ru": "Разрушители курганов отличаются от воплощений Сяншу, найденных в Курганах мечей. Они относительно слабее и, потерпев поражение, не вступают в бой с Божественным Мечом обнаженными; вместо этого они отступают обратно в свои Курганы мечей.\\nПобеда над Разрушителем курганов не приводит к завоеванию соответствующего ему Кургана мечей и, следовательно, не увеличивает Чистую эссенцию Тайву или прогресс Вторжения.",
-      "status": "machine",
+      "ru": "Разрушители курганов отличаются от воплощений Сяншу, найденных в Курганах мечей. Они относительно слабее и, потерпев поражение, не переходят в состояние «Божественный меч обнажён»; вместо этого они отступают обратно в Курганы мечей.\\nПобеда над Разрушителем курганов не приводит к завоеванию соответствующего Кургана мечей и, следовательно, не увеличивает чистую эссенцию Тайву или прогресс вторжения.",
+      "status": "judged",
       "srcHash": "29b2122c9c7eee57",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "cf487888869d2b70"
     },
     "PartDesc_14_0": {
       "en": "A Bamboo Incarnation is a form manifested from the echoes of spirit within a Divine Sword Shard.\\nUsing Divine Sword Shards to complete the Encounter Purple Bamboo on Blackstone will cause the corresponding Bamboo Incarnation to appear in Taiwu Village.",
@@ -13235,11 +13236,12 @@
     "PartDesc_18_0": {
       "en": "Regional Favor represents the contributions Taiwu has made to the inhabitants of a Region.\\nCertain character interactions require spending Regional Favor. Entering the local town warehouse also requires Taiwu to have a certain amount of Regional Favor.",
       "cn": "地区恩义代表太吾为此地区的居民做出的贡献。\\n进行部分人物互动需要消耗当地的地区恩义；进入当地的城镇库房也需要太吾持有一定数量的地区恩义。",
-      "ru": "Региональная поддержка представляет собой вклад, который Тайву внесла в жизнь жителей региона.\\nОпределенные взаимодействия персонажей требуют затрат на региональную поддержку. Вход на местный городской склад также требует от Тайву определенной благосклонности со стороны региона.",
-      "status": "machine",
+      "ru": "Региональная поддержка отражает вклад, который Тайву внесла для жителей региона.\\nНекоторые взаимодействия с персонажами требуют тратить региональную поддержку. Для входа на местный городской склад Тайву также должна иметь определённое количество региональной поддержки.",
+      "status": "judged",
       "srcHash": "8c8f3c1690819f39",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "30f16e83ff1699c5"
     },
     "PartDesc_18_1": {
       "en": "Regional Favor can be earned by eliminating Outlaws, curing the Bewitched, or donating resources to the local town warehouse.",
@@ -13254,11 +13256,12 @@
     "PartDesc_19_0": {
       "en": "A tile is the smallest unit on the map. Each Region's map is composed of a number of tiles.\\nTerrain describes the geographic character of each tile, including Settlements, Developed Terrain, Natural Terrain, and other types.",
       "cn": "地格是地图上最小的单元格。每个地区的地图均由若干个地格组成。\\n地形是每个地格的地理样貌，包括定居点、开化地形、野外地形等类型。",
-      "ru": "Плитка - это самая маленькая единица измерения на карте. Карта каждого региона состоит из нескольких фрагментов.\\nРельеф описывает географический характер каждой плитки, включая населенные пункты, развитую местность, естественный рельеф и другие типы.",
-      "status": "machine",
+      "ru": "Клетка — наименьшая единица карты. Карта каждого региона состоит из множества клеток.\\nРельеф описывает географический облик каждой клетки, включая поселения, освоенную местность, дикую местность и другие типы.",
+      "status": "judged",
       "srcHash": "ffb448146def896f",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "8e1dc0dc8642177c"
     },
     "PartDesc_19_1": {
       "en": "Moving across different types of terrain consumes varying amounts of Energy and provides different fields of view.\\nDangerous terrain such as Hidden Rifts and Blackstone Lands can also be found throughout the world. Moving onto these tiles will cause damage to your character or their conveyance.",
@@ -13283,11 +13286,12 @@
     "PartDesc_20_1": {
       "en": "Tile movement consumes Energy. The amount consumed depends on the types of terrain.\\nEquipping a conveyance can reduce the Energy cost of tile movement.",
       "cn": "地格移动会消耗精力，不同地形消耗的精力不同。\\n装备代步可以降低地格移动的精力消耗。",
-      "ru": "Перемещение плитки потребляет энергию. Потребляемое количество зависит от типа местности.\\nОснащение транспортного средства может снизить затраты на энергию, связанные с перемещением плитки.",
-      "status": "machine",
+      "ru": "Перемещение по клетке расходует энергию. Количество расходуемой энергии зависит от типа местности.\\nЭкипировка средства передвижения может снизить расход энергии при перемещении по клеткам.",
+      "status": "judged",
       "srcHash": "b6730c93c5f0affd",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "94d18d6f4314576f"
     },
     "PartDesc_21_0": {
       "en": "Field of view represents the visible range from a character's current tile. Its size is determined by the terrain of that tile.\\nTiles within field of view appear highlighted. Characters, caravans, enemies, and other information on these tiles are all visible.",
@@ -14218,11 +14222,12 @@
     "PartDesc_63_0": {
       "en": "Lion-Face Clan lies in the Lotus Hill area of Guangdong. Its Martial Arts are primarily of the Metal element.\\nLion-Face Clan inclines to Rebellious Mindset, and teems with Rebellious members.",
       "cn": "狮相门位于广东-莲花山地区，门派武学以金刚属性为主。\\n狮相门乃中立门派。\\n狮相门立场以叛逆为主，派中多叛逆之士。",
-      "ru": "Клан Львинолицых расположен в районе Лотосовых холмов Гуандуна. Его Боевые искусства в основном связаны с элементом металла.\\nКлан Львинолицых склонен к бунтарскому позиции и кишит мятежными членами.",
-      "status": "machine",
+      "ru": "Клан Львинолицых расположен в районе Лотосовых холмов Гуандуна. Его боевые искусства в основном связаны с атрибутом Ваджры.\\nКлан Львинолицых — нейтральная фракция. Клан Львинолицых придерживается бунтарской позиции, и в нём много мятежных членов.",
+      "status": "judged",
       "srcHash": "f4d96bb4bc2c0d35",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "068c57fdca725ff5"
     },
     "PartDesc_63_1": {
       "en": "Lion-Face Clan's Martial Arts consist of Fist Arts, Blade Arts, and Polearm Arts (Spear Arts). Their techniques are powerful and domineering, striking with the force of mountains and an unstoppable momentum, embodying an indomitable might that few can withstand.\\nThe Lion-Face Clan's Martial Arts do not lend themselves to written records. Study efficiency for Lion-Face Clan manuals is reduced by 50%, while Practical Insights gain 500% Study efficiency. (This effect does not apply to Outlines.)",
@@ -14237,11 +14242,12 @@
     "PartDesc_64_0": {
       "en": "Ranshan Sect lies in the Ranshan area of Shandong. Its Martial Arts are primarily of the Wood element.\\nRanshan Sect inclines to Moderate Mindset, and teems with Moderate members.",
       "cn": "然山派位于山东-然山地区，门派武学以紫霞属性为主。\\n然山派乃中立门派。\\n然山派立场以中庸为主，派中多中庸之士。",
-      "ru": "Секта Жаньшань находится в районе Жаньшань Шаньдун. Его боевые искусства в основном основаны на элементе дерева.\\nСекта Жаньшань склоняется к умеренной позиции и изобилует умеренными членами.",
-      "status": "machine",
+      "ru": "Секта Жаньшань находится в районе Жаньшань провинции Шаньдун. Её боевые искусства в основном связаны с атрибутом Пурпурного сияния.\\nСекта Жаньшань — нейтральная фракция. Секта Жаньшань придерживается умеренной позиции, и в ней много умеренных членов.",
+      "status": "judged",
       "srcHash": "e3e40db52eebbd1d",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "c398965f9a62a123"
     },
     "PartDesc_64_1": {
       "en": "Ranshan Sect's Martial Arts consist of Finger Arts, Sword Arts, and Exotic Weapons (Talismans). Ranshan masters secret Taoist techniques, wielding mystical powers to summon wind and thunder, command spirits, and control ghosts—enigmatic and beyond the comprehension of ordinary people.\\nRanshan martial art's mantras and incantations are numerous. Study efficiency for Ranshan Sect manuals is increased by 100%, while Practical Insights reduce 80% study efficiency. (This effect does not apply to Outlines.)",
@@ -14325,11 +14331,12 @@
     "PartDesc_68_1": {
       "en": "Vajra Sect inclines to Egocentric Mindset, and teems with Egocentric members.\\nVajra Sect's Martial Arts consist of Fist Arts, Blade Arts, and Exotic Weapons (Vajra Club). Modeled on the tantric Three Mysteries Yoga, they merge into one harmonious whole. They advance with the ferocity of a wrathful Vajra, stand firm as an unmoving Wisdom King, and flow like a turning dharma wheel.\\nThe Vajra Sect favors men. Men gain 50% increased study efficiency for Vajra Sect manuals, and 200% increased Practical Insights. Women suffer 50% reduced study efficiency for Vajra Sect manuals, and 80% reduced Practical Insights. (This effect does not apply to Outlines.)",
       "cn": "金刚宗武学由拳掌、刀法、奇门（短杵）组成，法效三密瑜伽，圆融一体，进取如金刚怒目，持守如明王不动，运行如宝轮圆转。\\n金刚宗以男子为尊，男子研读金刚宗秘籍的效率提高50%；实战领悟金刚宗秘籍时提高200%研读效率。女子研读金刚宗秘籍的效率降低50%；实战领悟金刚宗秘籍时降低80%研读效率。（此效果无法对总纲生效）",
-      "ru": "Секта Ваджра склоняется к эгоцентричной позиции и кишит эгоцентричными членами.\\nБоевые искусства Секты Ваджра состоят из искусства кулаков, искусства клинка и экзотического оружия (Ваджра-клуб). Созданные по образцу тантрической йоги Трех мистерий, они сливаются в одно гармоничное целое. Они наступают со свирепостью гневной Ваджры, стоят твердо, как неподвижный Царь Мудрости, и текут подобно вращающемуся колесу дхармы.\\nСекта Ваджры благоволит мужчинам. Мужчины получают на 50% более высокую эффективность изучения руководств по Секте Ваджры и на 200% больше практических знаний. Эффективность изучения руководств Секты Ваджра женщинами снижается на 50%, а практическое понимание - на 80%. (Этот эффект не применяется к контурам.)",
-      "status": "machine",
+      "ru": "Секта ваджры склоняется к эгоцентричной позиции и кишит эгоцентричными членами.\\nБоевые искусства секты ваджры состоят из искусства кулака, искусства клинка и экзотического оружия (булава ваджры). Созданные по образцу тантрической йоги Трёх тайн, они сливаются в единое гармоничное целое. Они наступают со свирепостью гневной ваджры, стоят твёрдо, как неподвижный Царь мудрости, и движутся подобно вращающемуся колесу дхармы.\\nСекта ваджры благоволит мужчинам. Мужчины получают на 50% более высокую эффективность изучения руководств секты ваджры и на 200% больше практических знаний. Эффективность изучения руководств секты ваджры женщинами снижается на 50%, а практические знания — на 80%. (Этот эффект не применяется к сводным принципам.)",
+      "status": "judged",
       "srcHash": "b0f3eb7a5e6471d4",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "e17f74f4772ad112"
     },
     "PartDesc_69_0": {
       "en": "Five Immortals Sect lies in the Heishui area of Yunnan. Its Martial Arts are primarily of the Wood element.\\nFive Immortals Sect is an evil sect. It will not teach Martial Arts to those whose Reputation is too high.",
@@ -14344,11 +14351,12 @@
     "PartDesc_69_1": {
       "en": "Five Immortals Sect inclines to Rebellious Mindset, and teems with Rebellious members.\\nFive Immortals Sect's Martial Arts consist of Fist Arts, Finger Arts, Sword Arts, and Whip Arts. Inherited from the shamans of the Miao frontier, their methods are dark and unfathomable, and their unique venom and Gu arts are spoken of with nothing but dread.\\nThe Five Immortals Sect's Martial Arts are rooted in Toxicology. When breaking through a Five Immortals Sect Martial Art, your Toxicology Talent can substitute for any other lower Talent that would otherwise be required.",
       "cn": "五仙教武学由拳掌、指法、剑法、软兵（鞭法）组成，秉自苗疆巫觋，其法诡秘莫测，更有独门毒蛊之术，世人闻之无不胆寒。\\n五仙教武学以毒术为根基，突破五仙教武学时，能以毒术资质取代突破所需的其它较低的资质。",
-      "ru": "Секта пяти Бессмертных склоняется к бунтарскому позициям и кишит мятежными членами.\\nБоевые искусства Секты пяти Бессмертных состоят из Искусства кулаков, Искусства пальцев, Искусства меча и кнута. Унаследованные от шаманов пограничья Мяо, их методы темны и непостижимы, а об их уникальном яде и искусствах Гу говорят только с ужасом.\\nБоевые искусства Секты пяти Бессмертных основаны на токсикологии. При прорыве через боевое искусство Секты Пяти Бессмертных ваш токсикологический талант может заменить любой другой более низкий талант, который в противном случае потребовался бы.",
-      "status": "machine",
+      "ru": "Секта пяти бессмертных склоняется к бунтарской позиции и кишит мятежными членами.\\nБоевые искусства секты пяти бессмертных состоят из искусства кулака, искусства пальцев, искусства меча и искусства кнута. Унаследованные от шаманов пограничья Мяо, их методы темны и непостижимы, а об их уникальных ядах и искусствах гу говорят с одним лишь ужасом.\\nБоевые искусства секты пяти бессмертных основаны на токсикологии. При прорыве боевой техники секты пяти бессмертных ваш талант к токсикологии может заменить любой другой талант более низкого уровня, который иначе потребовался бы.",
+      "status": "judged",
       "srcHash": "7b74372e97ea2ea8",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "2eee2118b8f0094f"
     },
     "PartDesc_70_0": {
       "en": "Veil Scar Sect lies in the Veil Scar Cliff area of Huainan. Its Martial Arts are primarily of the Water element.\\nVeil Scar Sect is an evil sect. It will not teach Martial Arts to those whose Reputation is too high.\\nVeil Scar Sect inclines to Rebellious Mindset, and teems with Rebellious members.",
@@ -20057,7 +20065,8 @@
       "status": "machine",
       "srcHash": "b171d919b5fc4759",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-07-11T13:40:34.924Z",
+      "judgeHash": "68d86b1eec0ce13b"
     },
     "PartDesc_317_2": {
       "en": "Usage Requirements: These are the main attributes and Attainment needed to truly unleash this armor piece's power. The more your stats surpass these requirements, the mightier this piece of armor becomes.\\nPower: Determines the level of the armor's Defense and Deflect Attributes.",
@@ -20165,7 +20174,8 @@
       "status": "machine",
       "srcHash": "b335fff0cefd8263",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-07-11T13:40:34.924Z",
+      "judgeHash": "9850d074dc2b42fc"
     },
     "PartDesc_322_2": {
       "en": "Exploration Reward: Randomly enhances the rewards obtained from picking up tile treasures. Captive Capture: Boosts the success rate of capturing enemies while in battle using ropes.\\nLoot Drop: Increases the chance of loot dropping after a battle victory.",
@@ -21400,11 +21410,12 @@
     "PartDesc_375_0": {
       "en": "Complete the regional story \"Peerless Poison\" of Kongsang Sect to unlock the sect-specific function [Command the Ancient Ding].",
       "cn": "完成空桑派的地区故事《奇毒绝方》后，将解锁空桑派的特有功能「驱使古鼎」。\\n与地格上的「廖氏古鼎」互动，即可使用此功能。",
-      "ru": "Завершите региональную историю \"Несравненный яд\" секты Кунсан, чтобы разблокировать специфическую для секты функцию [Командовать древним звоном].",
-      "status": "machine",
+      "ru": "Завершите региональную историю \"Несравненный яд\" секты Кунсан, чтобы разблокировать специфическую для секты функцию [Командовать древним котлом]. Взаимодействуйте с «Древним котлом рода Ляо» на клетке местности, чтобы использовать эту функцию.",
+      "status": "judged",
       "srcHash": "e021d3db60d301d0",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "88ed0e5eedb79b49"
     },
     "PartDesc_375_1": {
       "en": "Interact with the [Liao's Ancient Ding] on the tile to use this function at the cost of all of Taiwu's health. \\nWhen a month advances, the Ancient Ding will randomly select one item from Injuries, Toxin, inner breath, or health and provide treatment for all characters in its location.",
@@ -21559,11 +21570,12 @@
     "PartDesc_382_0": {
       "en": "Complete the epilogue story of \"Fuloong Plumes\" to unlock Fuloong Sanctuary's extra function \"Chicken Plumes\"\\nWhen active, it grows Chicken Feathers continuously for Taiwu to collect.",
       "cn": "完成《伏龙化羽》的后传故事，将解锁伏龙坛的额外功能「元鸡灵羽」。\\n太吾村中的元鸡会不断长出元鸡羽，以供太吾收获。",
-      "ru": "Завершите историю-эпилог \"Перья Фулунга\", чтобы разблокировать дополнительную функцию Святилища усмиренных драконов \"Куриные перья\".\\nКогда он активен, он непрерывно выращивает куриные перья для сбора Тайву.",
-      "status": "machine",
+      "ru": "Завершите историю-эпилог \"Перья усмирённого дракона\", чтобы разблокировать дополнительную функцию Святилища усмирённого дракона \"Куриные перья\".\\nКогда функция активна, в деревне Тайву непрерывно вырастают куриные перья, которые может собирать Тайву.",
+      "status": "judged",
       "srcHash": "9b425b7b99451631",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "a0c20322158fa0e6"
     },
     "PartDesc_382_1": {
       "en": "In the building [Chicken Coop], you can check the growth progress of Chicken Feathers. Whenever it reaches to 100%, a random chicken in Taiwu Village will grow a Chicken Feather.\\nYou can also spend resources to cultivate feathers, significantly increasing the growth progress of Chicken Feathers.",

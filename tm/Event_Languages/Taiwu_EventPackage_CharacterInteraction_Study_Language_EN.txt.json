@@ -1506,11 +1506,12 @@
     "38c0339a-5f2a-4e21-89fd-177476feae5c/EventContent": {
       "en": "Carefully committing \"<LifeSkill key=SkillCanLearn str=SkillName/>\" to memory,<NL><Character key=RoleTaiwu str=Name /> gradually grasped <LifeSkill key=SkillCanLearn str=SkillName/>'s study method...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> has learned the <LifeSkill key=SkillCanLearn str=SkillName/>!)</color>",
       "cn": "<Character key=RoleTaiwu str=Name />用心记忆<LifeSkill key=SkillCanLearn str=SkillName/>的内容，<NL>渐渐掌握了<LifeSkill key=SkillCanLearn str=SkillName/>的研习方法……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />习得了<LifeSkill key=SkillCanLearn str=SkillName/>！）</color>",
-      "ru": "Тщательно фиксируя \"<LifeSkill key=SkillCanLearn str=SkillName/>\" на память,<NL><Character key=RoleTaiwu str=Name /> постепенно постигаемый <LifeSkill key=SkillCanLearn str=SkillName/>это метод изучения...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> научился тому, что <LifeSkill key=SkillCanLearn str=SkillName/>!)</color>",
-      "status": "machine",
+      "ru": "Тщательно запоминая \"<LifeSkill key=SkillCanLearn str=SkillName/>\",<NL><Character key=RoleTaiwu str=Name /> постепенно освоил метод изучения <LifeSkill key=SkillCanLearn str=SkillName/>...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name /> изучил <LifeSkill key=SkillCanLearn str=SkillName/>!)</color>",
+      "status": "judged",
       "srcHash": "cddf8a54f25d6801",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "f4c1ed3b4ee40058"
     },
     "38c0339a-5f2a-4e21-89fd-177476feae5c/Option_1": {
       "en": "(Other topics...)",
@@ -2015,11 +2016,12 @@
     "d69c33c4-c436-4ffa-9606-63e84fa3a3b2/EventContent": {
       "en": "\"You look fishy. What are you up to?\"<NL><Character key=RoleTaiwu str=Name /> attempted to Plagiarize <Character key=CharacterId str=Name />'s \"<LifeSkill key=SkillCanLearn str=SkillName/>\"<NL>but was inadvertently noticed by <Character key=CharacterId str=Name />...",
       "cn": "“你鬼鬼祟祟的，是想做什么？”<NL><Character key=RoleTaiwu str=Name />意图偷师<Character key=CharacterId str=Name />的<LifeSkill key=SkillCanLearn str=SkillName/>，<NL>却不慎被<Character key=CharacterId str=Name />察觉……",
-      "ru": "- Ты выглядишь подозрительно. Что ты задумал?\"<NL><Character key=RoleTaiwu str=Name /> попытка плагиата <Character key=CharacterId str=Name />'s \"<LifeSkill key=SkillCanLearn str=SkillName/>\"<NL>но был непреднамеренно замечен <Character key=CharacterId str=Name />...",
-      "status": "machine",
+      "ru": "\"Ты какой-то подозрительный. Что ты задумал?\"<NL><Character key=RoleTaiwu str=Name /> пытался перенять мастерство у <Character key=CharacterId str=Name />: \"<LifeSkill key=SkillCanLearn str=SkillName/>\"<NL>но его случайно заметил <Character key=CharacterId str=Name />...",
+      "status": "judged",
       "srcHash": "2cc51aa8ad1d12b6",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "e620a490b82f7273"
     },
     "d69c33c4-c436-4ffa-9606-63e84fa3a3b2/Option_1": {
       "en": "(...)",
@@ -2294,11 +2296,12 @@
     "1d9ddceb-a3dd-43b2-b1e5-6892b1033aca/EventContent": {
       "en": "\"Well, that's a pity...\"<NL>After asking <Character key=RoleTaiwu str=Name /> a series of questions, <Character key=CharacterId str=Name /> shook <Character key=CharacterId str=GenderPossessive/> head,<NL>\"You haven't grasped any of the fine arts I previously imparted to you. It's not fitting to seek further guidance.\"<NL><NL><color=#lightgrey>(Fewer than 3 pages read for \"<LifeSkill key=Taught0 str=SkillName/>,\" \"<LifeSkill key=Taught1 str=SkillName/>,\" and \"<LifeSkill key=Taught2 str=SkillName/>\" learned from <Character key=CharacterId str=Name />.)</color>",
       "cn": "“如此……这般……可惜……”<NL><Character key=CharacterId str=Name />向<Character key=RoleTaiwu str=Name />询问了几个问题，最后摇头说道：<NL>“我先前传授予你的那些技艺，你一个也未掌握，岂可再又请教？”<NL><NL><color=#lightgrey>（向<Character key=CharacterId str=Name />请教的<LifeSkill key=Taught0 str=SkillName/>、<LifeSkill key=Taught1 str=SkillName/>、<LifeSkill key=Taught2 str=SkillName/>的研读页数均未达到3页）</color>",
-      "ru": "\"Что ж, очень жаль...\"<NL>После того, как спросил <Character key=RoleTaiwu str=Name /> ряд вопросов, <Character key=CharacterId str=Name /> встряхнул <Character key=CharacterId str=GenderPossessive/> голова,<NL>- Ты не овладел ни одним из тех ремесел, которым я ранее обучал тебя. Не подобает обращаться за дальнейшими указаниями\".<NL><NL><color=#lightgrey>(Прочитано менее 3 страниц для \"<LifeSkill key=Taught0 str=SkillName/>,\" \"<LifeSkill key=Taught1 str=SkillName/>,\" и \"<LifeSkill key=Taught2 str=SkillName/>\" научился у <Character key=CharacterId str=Name />.)</color>",
-      "status": "machine",
+      "ru": "\"Что ж, очень жаль...\"<NL>После того как <Character key=CharacterId str=Name /> задал <Character key=RoleTaiwu str=Name /> несколько вопросов, он покачал <Character key=CharacterId str=GenderPossessive/> головой,<NL>\"Ты не овладел ни одним из тех ремёсел, которым я ранее обучал тебя. Не подобает обращаться за дальнейшими наставлениями\".<NL><NL><color=#lightgrey>(По каждому из ремёсел \"<LifeSkill key=Taught0 str=SkillName/>\", \"<LifeSkill key=Taught1 str=SkillName/>\" и \"<LifeSkill key=Taught2 str=SkillName/>\", которым обучал <Character key=CharacterId str=Name />, прочитано менее 3 страниц.)</color>",
+      "status": "judged",
       "srcHash": "5c9d390ccb738cc8",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "ad6bdda8766f83d1"
     },
     "1d9ddceb-a3dd-43b2-b1e5-6892b1033aca/Option_1": {
       "en": "(Forget it...)",
@@ -6243,11 +6246,12 @@
     "79697f58-62b1-4b03-b9b0-8f4ed49733b3/EventContent": {
       "en": "\"<LifeSkill key=SkillCanLearn str=SkillDesc/>\"<NL><Character key=RoleTaiwu str=Name /> carefully investigated <Character key=CharacterId str=Name /> for a while,<NL>during which <Character key=CharacterId str=Name /> inadvertently let slip some crucial hints about the \"<LifeSkill key=SkillCanLearn str=SkillName/>\"...",
       "cn": "“<LifeSkill key=SkillCanLearn str=SkillDesc/>”<NL>在<Character key=RoleTaiwu str=Name />费尽心思窥伺<Character key=CharacterId str=Name />许久之后，<NL><Character key=CharacterId str=Name />终于不慎透露出<LifeSkill key=SkillCanLearn str=SkillName/>的些许要诀……",
-      "ru": "\"<LifeSkill key=SkillCanLearn str=SkillDesc/>\"<NL><Character key=RoleTaiwu str=Name /> тщательно исследованный <Character key=CharacterId str=Name /> на какое-то время,<NL>в течение которого <Character key=CharacterId str=Name /> непреднамеренно проговорился о некоторых важных намеках на \"<LifeSkill key=SkillCanLearn str=SkillName/>\"...",
-      "status": "machine",
+      "ru": "\"<LifeSkill key=SkillCanLearn str=SkillDesc/>\"<NL><Character key=RoleTaiwu str=Name /> некоторое время тщательно наблюдал за <Character key=CharacterId str=Name />,<NL>и <Character key=CharacterId str=Name /> наконец случайно проговорился о некоторых важных секретах \"<LifeSkill key=SkillCanLearn str=SkillName/>\"...",
+      "status": "judged",
       "srcHash": "59333e2a31b951fa",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "26b9aee00d827729"
     },
     "79697f58-62b1-4b03-b9b0-8f4ed49733b3/Option_1": {
       "en": "(This is good...)",
@@ -6842,11 +6846,12 @@
     "529b0006-b56d-4b74-930c-10d7e7155dd7/EventContent": {
       "en": "\"Although it is said that teaching and passing on knowledge should be without discrimination...<NL>However, your actions are improper and violate the customs of our Shu region, so I regret that I cannot pass on my fine arts to you...\"<NL><NL><Character key=CharacterId str=Name /> shook their head with a sigh, firmly rejecting <Character key=RoleTaiwu str=Name />'s request...\"",
       "cn": "“虽说传道受业，有教无类……<NL>然而你行事不端，有违我蜀地的规矩，恕我不能将技艺传授于你……”<NL><NL><Character key=CharacterId str=Name />摇头一叹，断然回绝了<Character key=RoleTaiwu str=Name />的请求……",
-      "ru": "\"Хотя и говорится, что преподавание и передача знаний должны осуществляться без дискриминации...<NL>Однако ваши действия неподобающи и нарушают обычаи нашего региона Шу, поэтому я сожалею, что не могу передать вам свое ремесло...\"<NL><NL><Character key=CharacterId str=Name /> со вздохом покачали головой, решительно отвергая <Character key=RoleTaiwu str=Name />просьба...\"",
-      "status": "machine",
+      "ru": "\"Хотя и говорится, что преподавание и передача знаний должны осуществляться без дискриминации...<NL>Однако ваши действия неподобающи и нарушают обычаи нашего региона Шу, поэтому я сожалею, что не могу передать вам свои ремёсла...\"<NL><NL><Character key=CharacterId str=Name /> со вздохом покачали головой, решительно отвергнув просьбу <Character key=RoleTaiwu str=Name />...\"",
+      "status": "judged",
       "srcHash": "3abe0e6499583d2b",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T00:16:01.527Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "1dcb2b1b7fb26f2c"
     },
     "529b0006-b56d-4b74-930c-10d7e7155dd7/Option_1": {
       "en": "(Nothing else to say...)",

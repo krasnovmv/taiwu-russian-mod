@@ -11911,11 +11911,12 @@
     "Name_1180": {
       "en": "Crafting Trial Medicine",
       "cn": "试制药品",
-      "ru": "Крафт Испытание Медицина",
-      "status": "machine",
+      "ru": "Испытание изготовления лекарства",
+      "status": "judged",
       "srcHash": "56921f9cd23bbdb8",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "6badd1527b01ca88"
     },
     "Name_1181": {
       "en": "Treat Illnesses",
@@ -14058,11 +14059,12 @@
     "Name_1406": {
       "en": "Demonic Endless",
       "cn": "魔道不绝",
-      "ru": "Демонический бесконечный",
-      "status": "machine",
+      "ru": "Бесконечный демонический путь",
+      "status": "judged",
       "srcHash": "28294b3d728622de",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "bcd6587bc5772f40"
     },
     "Name_1407": {
       "en": "Blazing Demonic Aura",
@@ -16087,56 +16089,62 @@
     "Desc_195": {
       "en": "Tried to use {2} to poison {0} in {1}, but failed to find them...",
       "cn": "在{1}意图以{2}毒害{0}，却一直未能寻得其所在…",
-      "ru": "Пробовал использовать {2} для яда {0} в {1}, но не смог их найти...",
-      "status": "machine",
+      "ru": "Пытался использовать {2} как яд, чтобы отравить {0} в {1}, но не смог его найти...",
+      "status": "judged",
       "srcHash": "cb9df22f732d4728",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "9e8d0b5603c0003b"
     },
     "Desc_196": {
       "en": "Tried to use {2} to poison {0} in {1}, but was spotted before the action...",
       "cn": "在{1}意图以{2}毒害{0}，却提前暴露了行踪…",
-      "ru": "Пробовал использовать {2} для яда {0} в {1}, но был замечен до начала акции...",
-      "status": "machine",
+      "ru": "Пытался использовать {2} как яд, чтобы отравить {0} в {1}, но был замечен до начала действий...",
+      "status": "judged",
       "srcHash": "66546b5fdd53f774",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "e33dbf59667665d9"
     },
     "Desc_197": {
       "en": "Tried to use {2} to poison {0} in {1}, but missed the opportunity...",
       "cn": "在{1}意图以{2}毒害{0}，却错过了时机…",
-      "ru": "Пробовал использовать {2} для яда {0} в {1}, но упустил эту возможность...",
-      "status": "machine",
+      "ru": "Пытался использовать {2} как яд, чтобы отравить {0} в {1}, но упустил момент...",
+      "status": "judged",
       "srcHash": "e46ca358d80a9943",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "53c68b75eb074985"
     },
     "Desc_198": {
       "en": "Tried to use {2} to poison {0} in {1}, but failed...",
       "cn": "在{1}意图以{2}毒害{0}，却失败了…",
-      "ru": "Пробовал использовать {2} для яда {0} в {1}, но потерпел неудачу...",
-      "status": "machine",
+      "ru": "Пытался использовать {2} как яд, чтобы отравить {0} в {1}, но потерпел неудачу...",
+      "status": "judged",
       "srcHash": "bf56810c64e29d46",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "9983d12578f47e02"
     },
     "Desc_199": {
       "en": "Used {2} to poison {0} in {1}...",
       "cn": "在{1}以{2}毒害了{0}…",
-      "ru": "Использованный {2} для яда {0} в {1}...",
-      "status": "machine",
+      "ru": "Использовал {2} как яд, чтобы отравить {0} в {1}...",
+      "status": "judged",
       "srcHash": "81a4fde1135d543b",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "8059e200944fae9c"
     },
     "Desc_200": {
       "en": "Used {2} to poison {0} in {1} and managed to escape unscathed...",
       "cn": "在{1}以{2}毒害了{0}后全身而退…",
-      "ru": "Использованный {2} для яда {0} в {1} и сумел уйти невредимым...",
-      "status": "machine",
+      "ru": "Использовал {2} как яд, чтобы отравить {0} в {1}, а затем невредимым скрылся...",
+      "status": "judged",
       "srcHash": "263b13e7068fd5f8",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T23:18:05.520Z",
+      "judgeHash": "eba95ec3893a562a"
     },
     "Desc_201": {
       "en": "Was poisoned by {0} with {2} in {1}...",
@@ -18211,11 +18219,12 @@
     "Desc_407": {
       "en": "After spreading a Secret, {0} gained {1} prestige.",
       "cn": "因来源于{0}的秘闻得到了传播，{0}获得了{1}威望…",
-      "ru": "После того, как раскрыл секрет, {0} приобретенный {1} престиж.",
-      "status": "machine",
+      "ru": "После распространения тайны {0} приобрёл {1} престижа.",
+      "status": "judged",
       "srcHash": "b4af31227947790e",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-25T04:27:27.904Z",
+      "judgeHash": "8e8241f1780542da"
     },
     "Desc_408": {
       "en": "Was penalized for violating the sect's rules.",
@@ -22207,38 +22216,42 @@
     "Desc_807": {
       "en": "Tried to poison {0} in {1}, but failed to find them...",
       "cn": "在{1}意图毒害{0}，却一直未能寻得其所在…",
-      "ru": "Пытался яд {0} в {1}, но не смог их найти...",
-      "status": "machine",
+      "ru": "Пытался использовать яд, чтобы отравить {0} в {1}, но не смог его найти...",
+      "status": "judged",
       "srcHash": "da3da76f7ff68395",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "25b4c466f2efaa2f"
     },
     "Desc_808": {
       "en": "Tried to poison {0} in {1}, but was spotted before the action...",
       "cn": "在{1}意图毒害{0}，却提前暴露了行踪…",
-      "ru": "Пытался яд {0} в {1}, но был замечен до начала акции...",
-      "status": "machine",
+      "ru": "Пытался использовать яд, чтобы отравить {0} в {1}, но был замечен до начала действий...",
+      "status": "judged",
       "srcHash": "4dfd274f7084798c",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "ce87b0a35e58b47b"
     },
     "Desc_809": {
       "en": "Tried to poison {0} in {1}, but missed the timing...",
       "cn": "在{1}意图毒害{0}，却错过了时机…",
-      "ru": "Пытался яд {0} в {1}, но не рассчитал время...",
-      "status": "machine",
+      "ru": "Пытался использовать яд, чтобы отравить {0} в {1}, но упустил момент...",
+      "status": "judged",
       "srcHash": "4f1ecb3cb597c68a",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "d7b06c4483013b4b"
     },
     "Desc_810": {
       "en": "Tried to poison {0} in {1}, but failed...",
       "cn": "在{1}意图毒害{0}，却失败了…",
-      "ru": "Пытался яд {0} в {1}, но потерпел неудачу...",
-      "status": "machine",
+      "ru": "Пытался использовать яд, чтобы отравить {0} в {1}, но потерпел неудачу...",
+      "status": "judged",
       "srcHash": "2f91dd1cb3ac46ec",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "9cae52e06cea4584"
     },
     "Desc_811": {
       "en": "Poisoned {0} in {1}...",

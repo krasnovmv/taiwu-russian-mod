@@ -235,11 +235,12 @@
     "HeadEvent_7": {
       "en": "While organizing <Character key=RoleTaiwu str=GenderPossessive/> travel bag, <Character key=RoleTaiwu str=Name /> hears someone's stomach growling.\\nTurning around, <Character key=RoleTaiwu str=GenderSubject/> finds <Character key=CharacterId str=Name /> drawn by the aroma, praising the <Item key=ItemKey str=ColorName/> as a particular favorite.\\nThe scent makes <Character key=CharacterId str=GenderObject/> hungrier still, and <Character key=CharacterId str=GenderSubject/> humbly requests for some to satisfy <Character key=CharacterId str=GenderPossessive/> appetite...",
       "cn": "<Character key=RoleTaiwu str=Name />正清点行囊之时，忽听得一阵饥肠辘辘之响，\\n回身一看原是<Character key=CharacterId str=Name />因香味而至，称赞<Item key=ItemKey str=ColorName/>乃其所喜，\\n闻之愈发饥饿，欲求一些<Item key=ItemKey str=ColorName/>以饱腹……",
-      "ru": "Во время организации <Character key=RoleTaiwu str=GenderPossessive/> дорожная сумка, <Character key=RoleTaiwu str=Name /> слышит, как у кого-то урчит в животе.\\nОборачиваясь, <Character key=RoleTaiwu str=GenderSubject/> находит <Character key=CharacterId str=Name /> привлеченный ароматом, восхваляющий <Item key=ItemKey str=ColorName/> как особый фаворит.\\nЭтот аромат заставляет <Character key=CharacterId str=GenderObject/> еще более голодный, и <Character key=CharacterId str=GenderSubject/> смиренно просит кого-нибудь удовлетворить <Character key=CharacterId str=GenderPossessive/> аппетит...",
-      "status": "machine",
+      "ru": "Во время сбора дорожной сумки <Character key=RoleTaiwu str=GenderPossessive/> <Character key=RoleTaiwu str=Name /> внезапно слышит урчание в чьём-то животе.\\nОбернувшись, <Character key=RoleTaiwu str=GenderSubject/> видит <Character key=CharacterId str=Name />, привлечённого ароматом и расхваливающего <Item key=ItemKey str=ColorName/> как своё любимое блюдо.\\nЗапах ещё сильнее разжигает голод <Character key=CharacterId str=GenderObject/>, и <Character key=CharacterId str=GenderSubject/> смиренно просит немного, чтобы утолить <Character key=CharacterId str=GenderPossessive/> голод...",
+      "status": "judged",
       "srcHash": "85fae0da32b2d71c",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "4819955edd92342e"
     },
     "HeadEvent_8": {
       "en": "<Character key=CharacterId str=Name /> approaches <Character key=RoleTaiwu str=Name /> with slow steps,\\nface showing clear despondency as if burdened by heavy thoughts...\\n\\nAfter some conversation, it's revealed <Character key=RoleTaiwu str=GenderSubject/>'s been suffering from unresolved melancholy,\\nand has come specifically to ask for <Item key=ItemKey str=ColorName/> to ease <Character key=RoleTaiwu str=GenderPossessive/> depression.",
@@ -273,20 +274,22 @@
     "HeadEvent_11": {
       "en": "<Character key=RoleTaiwu str=Name /> notices <Character key=CharacterId str=Name /> approaching with damaged <Item key=ItemKey str=ColorName/>...\\n\\nKnowing <Character key=RoleTaiwu str=Name />'s repair skills are renowned,\\n<Character key=RoleTaiwu str=GenderSubject/>'s come specifically to request <Character key=RoleTaiwu str=Name />'s expert hands restore this broken item...",
       "cn": "<Character key=RoleTaiwu str=Name />见<Character key=CharacterId str=Name />携<Item key=ItemKey str=ColorName/>前来，近观方知此物已有破损……\\n\\n<Character key=CharacterId str=Name />称素知<Character key=RoleTaiwu str=Name />颇通晓修理之术，\\n特来请求<Character key=RoleTaiwu str=Name />施展妙手，修复此损坏之物……",
-      "ru": "<Character key=RoleTaiwu str=Name /> уведомления <Character key=CharacterId str=Name /> приближающийся с поврежденным <Item key=ItemKey str=ColorName/>...\\n\\nЗнающий <Character key=RoleTaiwu str=Name />его навыки ремонта известны всем,\\n<Character key=RoleTaiwu str=GenderSubject/>он пришел специально для того, чтобы попросить <Character key=RoleTaiwu str=Name />опытные руки восстановят этот сломанный предмет...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name /> замечает, что <Character key=CharacterId str=Name /> приближается с повреждённым <Item key=ItemKey str=ColorName/>...\\n\\nЗная, что навыки ремонта <Character key=RoleTaiwu str=Name /> широко известны,\\n<Character key=RoleTaiwu str=GenderSubject/> специально пришёл попросить <Character key=RoleTaiwu str=Name /> восстановить этот сломанный предмет своими умелыми руками...",
+      "status": "judged",
       "srcHash": "9b700ce194b06a99",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "f7236d8c6cdd806a"
     },
     "HeadEvent_12": {
       "en": "Today, <Character key=CharacterId str=Name /> arrives in haste before <Character key=RoleTaiwu str=Name />,\\n<Character key=RoleTaiwu str=GenderPossessive/> unusual demeanor suggesting a request...\\n\\nIt turns out he knows of <Character key=RoleTaiwu str=Name />'s expertise in envenomation,\\nand seeks help to envenom <Character key=CharacterId str=GenderPossessive/> <Item key=PoisonedItemKey str=ColorName/> with <Item key=PoisonItemKey str=ColorName/>.",
       "cn": "这日，<Character key=CharacterId str=Name />行色匆匆，来到<Character key=RoleTaiwu str=Name />面前，\\n见其神色有异，或是有事相求……\\n\\n原来，<Character key=CharacterId str=Name />素知<Character key=RoleTaiwu str=Name />颇通淬毒，故特来求助，\\n希望可用<Item key=PoisonItemKey str=ColorName/>为其携带的<Item key=PoisonedItemKey str=ColorName/>淬毒……",
-      "ru": "Сегодня, <Character key=CharacterId str=Name /> прибывает в спешке, прежде чем <Character key=RoleTaiwu str=Name />,\\n<Character key=RoleTaiwu str=GenderPossessive/> необычное поведение, предполагающее просьбу...\\n\\nОказывается, он знает о <Character key=RoleTaiwu str=Name />его опыт в области защиты окружающей среды,\\nи обращается за помощью к envenom <Character key=CharacterId str=GenderPossessive/> <Item key=PoisonedItemKey str=ColorName/> с <Item key=PoisonItemKey str=ColorName/>.",
-      "status": "machine",
+      "ru": "Сегодня <Character key=CharacterId str=Name /> спешно приходит к <Character key=RoleTaiwu str=Name />,\\nа необычное выражение лица <Character key=RoleTaiwu str=GenderPossessive/> говорит о просьбе...\\n\\nОказывается, он давно знает о мастерстве <Character key=RoleTaiwu str=Name /> в отравлении\\nи просит помочь отравить <Character key=CharacterId str=GenderPossessive/> <Item key=PoisonedItemKey str=ColorName/> с помощью <Item key=PoisonItemKey str=ColorName/>.",
+      "status": "judged",
       "srcHash": "c472cb9b4ca408bb",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-24T17:16:49.433Z",
+      "judgeHash": "fffc5e1dd468c128"
     },
     "HeadEvent_13": {
       "en": "Today, <Character key=CharacterId str=Name /> comes before <Character key=RoleTaiwu str=Name />,\\nspeaking of <Character key=RoleTaiwu str=GenderPossessive/> recent studies of <Item key=ItemKey str=ColorName/> and wishing to discuss its profound mysteries together.\\nDuring their conversation, <Character key=CharacterId str=Name /> mentions numerous unresolved questions...\\n\\n<Character key=CharacterId str=Name /> then humbly asks for guidance from <Character key=RoleTaiwu str=Name /> to clear <Character key=RoleTaiwu str=GenderPossessive/> confusion...",
