@@ -8096,12 +8096,12 @@
     "GM_ChangeSpiritualDebt_Name": {
       "en": "Set Regional Favor",
       "cn": "设置地区恩义值",
-      "ru": "Установить региональную энъимость",
+      "ru": "Установить благосклонность региона",
       "status": "judged",
       "srcHash": "2178d767a6f08013",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T23:04:48.763Z",
-      "judgeHash": "232e999b316eb3a1"
+      "updatedAt": "2026-08-25T23:54:42.969Z",
+      "judgeHash": "8c1a94e940418d8a"
     },
     "GM_ChangeXiangshuLevel_Arg0_Name": {
       "en": "Xiangshu Level (Range [0,9])",
@@ -35569,7 +35569,7 @@
       "srcHash": "9e4d0cd7b7657149",
       "engine": "yandex",
       "updatedAt": "2026-08-20T20:18:53.972Z",
-      "judgeHash": "f024f08e03ef837b"
+      "judgeHash": "df3ead81d5ecdbc1"
     },
     "LK_CombatSkill_SwapSkill_Tip_SubTitle_1": {
       "en": "[Resource Cost]",
@@ -40329,7 +40329,7 @@
       "srcHash": "45e5622c4a192ad1",
       "engine": "yandex",
       "updatedAt": "2026-08-20T20:18:53.972Z",
-      "judgeHash": "cb3368384681db3b"
+      "judgeHash": "83f1e228b71b9667"
     },
     "LK_Combat_Skill_Locked_Tip": {
       "en": "This Martial Art has been sealed",
@@ -54071,11 +54071,12 @@
     "LK_Exp_Desc": {
       "en": "<color=#lightgrey>XP represents a character's various experiences, knowledge, and insights...</color>\\n\\n- XP can be used to train Martial Arts\\n- XP can be used to achieve a Martial Art breakthrough at the Bottleneck",
       "cn": "<color=#lightgrey>历练代表着人物的各种经验、才识与感悟…</color>\\n\\n·历练可用于习练功法\\n·历练可用于突破功法玄关",
-      "ru": "<color=#lightgrey>ОПЫТ представляет собой различный опыт, знания и познания, полученные персонажем в ходе игры...</color>\\n\\n- ОПЫТ можно использовать для тренировки боевой техники\\n- ОПЫТ может быть использован для достижения прорыва в боевой технике в узком месте",
-      "status": "machine",
+      "ru": "<color=#lightgrey>ОПЫТ отражает различные переживания, знания и озарения персонажа...</color>\\n\\n- ОПЫТ можно использовать для изучения боевых искусств\\n- ОПЫТ можно использовать для прорыва боевой техники через порог",
+      "status": "judged",
       "srcHash": "12fff1aadf9459cd",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-08-25T21:55:01.259Z",
+      "judgeHash": "2ec03b65c1521aa4"
     },
     "LK_Exp_Not_Enough": {
       "en": "Insufficient XP",
@@ -100571,11 +100572,12 @@
     "LK_SecretInformation_AvailableBroadcastTimes": {
       "en": "Spread Times",
       "cn": "可传播次数",
-      "ru": "Время распространения",
-      "status": "machine",
+      "ru": "Число распространений",
+      "status": "judged",
       "srcHash": "66da7a819c6e409e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-25T23:54:42.969Z",
+      "judgeHash": "6d9a501035700cfe"
     },
     "LK_SecretInformation_Buy_All": {
       "en": "Buy All",
