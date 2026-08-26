@@ -626,11 +626,12 @@
     "d059d433-9337-4019-a328-a611aa18e94a/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> hesitates for a moment. <Character key=RoleTaiwu str=GenderSubject/> thinks <Character key=RoleTaiwu str=GenderSubject/> might have got the right person, so <Character key=RoleTaiwu str=GenderSubject/> hurriedly speaks up to inquire...",
       "cn": "<Character key=RoleTaiwu str=Name/>犹疑再三，<NL>想来应是寻对了人，便赶忙出声问询……",
-      "ru": "<Character key=RoleTaiwu str=Name/> мгновение колеблется. <Character key=RoleTaiwu str=GenderSubject/> думает <Character key=RoleTaiwu str=GenderSubject/> возможно, я нашел нужного человека, так что <Character key=RoleTaiwu str=GenderSubject/> поспешно заговаривает, чтобы спросить...",
-      "status": "machine",
+      "ru": "<Character key=RoleTaiwu str=Name/> на мгновение колеблется. <Character key=RoleTaiwu str=GenderSubject/> думает, что <Character key=RoleTaiwu str=GenderSubject/> мог найти нужного человека, поэтому <Character key=RoleTaiwu str=GenderSubject/> поспешно спрашивает...",
+      "status": "judged",
       "srcHash": "591f23c07cf9fb6e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-26T08:35:38.778Z",
+      "judgeHash": "783a12d0f5003ef8"
     },
     "d059d433-9337-4019-a328-a611aa18e94a/Option_1": {
       "en": "Excuse me, I have something to ask...",
@@ -1345,11 +1346,12 @@
     "989bf6bb-ae10-40da-9eb7-f13dc2d8ecbc/EventContent": {
       "en": "This event is determined to jump to the corresponding death event chain of the target person according to the local mainline ArgBox parameters.",
       "cn": "本事件根据本地区主线ArgBox参数决定跳转到对应寻人目标死亡事件链\n",
-      "ru": "Это событие определяется для перехода к соответствующей цепочке событий смерти целевого пользователя в соответствии с параметрами ArgBox локальной магистрали.",
-      "status": "machine",
+      "ru": "Это событие по параметрам АргБокс основной сюжетной линии данного региона определяет переход к соответствующей цепочке событий, связанной со смертью человека, которого нужно найти.",
+      "status": "judged",
       "srcHash": "d780e0ae129ac30d",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-08-26T08:35:38.778Z",
+      "judgeHash": "50e8295d80ade3fb"
     },
     "313c2410-5dd3-4232-9518-56f777f6b687/EventContent": {
       "en": "Since <Character key=RoleTaiwu str=Name/> has found the person Yun'er longs for,<NL><Character key=RoleTaiwu str=GenderSubject/> should have waited for Xi Wufen to come and return to the top of Celestial Maiden Peak to meet Yun'er again...<NL><NL>Today is the agreed day, but an unfamiliar person hurries over, looking anxious, searching around. After a few attempts, the person walks straight toward <Character key=RoleTaiwu str=Name/>...",

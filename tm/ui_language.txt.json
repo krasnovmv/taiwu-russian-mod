@@ -34795,11 +34795,12 @@
     "LK_CombatSkill_Reverse_Page_4_Desc": {
       "en": "Increases maximum Martial Arts power by 10% upon Martial Arts Breakthrough.\\nThis effect is doubled if you activate Heterodox - effects after the Martial Arts Breakthrough",
       "cn": "突破成功后，功法威力+10%\\n若突破后激活逆练特效，此效果加倍",
-      "ru": "Увеличивает максимальную Боевые искусства Искусство на 10% на боевые искусства прорыв.\\nЭтот эффект удваивается, если вы активируете неортодоксальной эффектов после Боевые искусства прорыв",
-      "status": "machine",
+      "ru": "Увеличивает максимальную мощь боевых искусств на 10% после прорыва боевых искусств.\\nЭффект удваивается, если после прорыва боевых искусств активировать эффект неортодоксальной техники",
+      "status": "judged",
       "srcHash": "63181dbfe67592f0",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-08-26T08:35:38.778Z",
+      "judgeHash": "ba54716d0d86889b"
     },
     "LK_CombatSkill_Revoked_Tips": {
       "en": "<color=#E4504DFF>This Martial Art is banned and cannot be used!</color>",
@@ -34894,12 +34895,12 @@
     "LK_CombatSkill_SpecialBreak_AddBonusProgress_Confirm_Dialog": {
       "en": "The selected items will be given to {0},\\n\\nConfirm giving them?",
       "cn": "选中物品将交于{0}，\\n\\n是否确认给出？",
-      "ru": "Выбранные предметы будут переданы {0},\\n\\nПодтверждаете, что давали их?",
-      "status": "machine",
+      "ru": "Выбранные предметы будут переданы {0},\\n\\nПодтвердить передачу?",
+      "status": "judged",
       "srcHash": "c52fc9d419eca00e",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "3db8922d8b56b388"
+      "updatedAt": "2026-08-26T08:35:38.778Z",
+      "judgeHash": "e328e57197a6b2ef"
     },
     "LK_CombatSkill_SpecialBreak_AddBonusProgress_FitBook": {
       "en": "Suitable items",
@@ -36979,11 +36980,12 @@
     "LK_Combat_CombatDisInfo": {
       "en": "The <color=#yellow>current distance</color> between you and the enemy...\\n\\nIf the <color=#yellow>current distance</color> is not within the character's <color=#yellow>attack range</color>, the character's attack will miss!\\n",
       "cn": "与敌人的<color=#yellow>「当前距离」</color>…\\n\\n如果<color=#yellow>「当前距离」</color>不在人物的<color=#yellow>「攻击范围」</color>之内，人物的攻击就无法命中敌人！\\n",
-      "ru": "Тот <color=#yellow>текущее расстояние</color> между тобой и врагом...\\n\\nЕсли бы <color=#yellow>текущее расстояние</color> это не входит в компетенцию персонажа <color=#yellow>дальность атаки</color>, атака персонажа будет пропущена!\\n",
-      "status": "machine",
+      "ru": "Текущее <color=#yellow>расстояние</color> между вами и врагом...\\n\\nЕсли <color=#yellow>текущее расстояние</color> не входит в <color=#yellow>дальность атаки</color> персонажа, атака персонажа не попадёт по врагу!\\n",
+      "status": "judged",
       "srcHash": "f2233ae838076c58",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T22:41:11.235Z"
+      "updatedAt": "2026-08-26T08:35:38.778Z",
+      "judgeHash": "f6534036406ce8be"
     },
     "LK_Combat_CombatDisTitle": {
       "en": "Current distance",
@@ -107795,12 +107797,12 @@
     "LK_SystemSetting_AutoSaveDebateSpeed": {
       "en": "Auto Sync Debate Speed",
       "cn": "自动同步较艺倍速",
-      "ru": "Автоматическое ускорение диспутов",
+      "ru": "Скорость автоматической синхронизации диспутов",
       "status": "judged",
       "srcHash": "ddc821e0b7058d72",
       "engine": "yandex",
-      "updatedAt": "2026-07-17T00:14:54.711Z",
-      "judgeHash": "cad53a1679ce58a6"
+      "updatedAt": "2026-08-26T08:35:38.778Z",
+      "judgeHash": "a75b4f9fddd434a2"
     },
     "LK_SystemSetting_AutoSaveDebateSpeed_Tips": {
       "en": "Auto sync the Speed set in Debate with the system settings...",
