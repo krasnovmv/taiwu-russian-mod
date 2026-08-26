@@ -29,8 +29,11 @@
 // 5: special characters (quotes, brackets, %) made sacred in the prompt to match
 //    the new special-char-loss gate; the "no quotes" rule reworded so it no longer
 //    tells the model to strip a quoted line's own quotation marks.
-// 6: conciseness rule — a rewrite more than 2× the English length is rejected
+// 6: conciseness rule — a rewrite far longer than the English is rejected
 //    (length-bloat gate), since the UI clips overlong Russian with an ellipsis.
+//    The bar was 2× here; it is 2.5× since 2026-08-26 (see `validate/qa.ts`) and
+//    the prompt says so. Deliberately NOT a version bump: the rule only loosened,
+//    so nothing that passed before fails now and no past verdict is invalidated.
 // 7: no hanzi in the Russian — a rewrite containing even one Chinese character is
 //    rejected (chinese-in-russian gate); the prompt now says the CHINESE block is
 //    to be read, not copied, and that names are transliterated into Cyrillic.

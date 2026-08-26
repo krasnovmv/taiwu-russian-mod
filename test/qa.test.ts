@@ -105,7 +105,7 @@ test("detects length anomaly (RU too short)", () => {
 });
 
 test("detects length bloat (RU much longer than EN)", () => {
-  // ~2.5× the English: risks being clipped by an English-sized UI box.
+  // ~4× the English: an English-sized UI box clips that.
   assert.deepEqual(
     kinds(
       tm({ A: u("Attack the foe", "Стремительно и беспощадно атакуйте своего врага немедленно") }),
@@ -114,6 +114,13 @@ test("detects length bloat (RU much longer than EN)", () => {
   );
   // Normal Russian expansion (~1.3×) is not flagged.
   assert.deepEqual(kinds(tm({ A: u("Attack the enemy now", "Атакуйте врага сейчас") })), []);
+  // Nor is the honest tail: Russian reaches 2.14× at p99.9 of the corpus, so the
+  // old bar of 2× flagged real translations — and threw away the judge's
+  // near-miss corrections with them. This one is 2.1×.
+  assert.deepEqual(
+    kinds(tm({ A: u("Deal fire damage", "Наносит урон огненной стихией цели") })),
+    [],
+  );
 });
 
 test("skips length anomaly when EN field is Chinese", () => {

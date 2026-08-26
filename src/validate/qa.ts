@@ -18,7 +18,7 @@
  *   - chinese in RU:  hanzi left in the Russian — the CN original leaking through
  *                     an untranslated name or a copied reference block
  *   - length anomaly: RU wildly SHORTER than EN (likely dropped content)
- *   - length bloat:   RU much LONGER than EN (> 2×) — an English-sized UI box
+ *   - length bloat:   RU much LONGER than EN (> 2.5×) — an English-sized UI box
  *                     clips the overflow with an ellipsis, so text is lost
  *   (both skipped when the EN field is actually Chinese — CJK density makes the
  *   ratio meaningless)
@@ -50,12 +50,28 @@ export interface QaIssue {
 }
 
 const LENGTH_MIN_RATIO = 0.2;
-// RU beyond this multiple of the EN length is "much longer": the UI is laid out
-// for English widths, so an overlong Russian string is clipped with an ellipsis
-// and part of it is lost. Russian runs ~1.1× English on the median and 1.9× at
-// the 99th percentile (corpus audit 2026-07-15), so 2× flags the genuinely
-// bloated tail (~0.6% of units) without catching normal expansion.
-const LENGTH_BLOAT_RATIO = 2;
+/**
+ * RU beyond this multiple of the EN length is "much longer": the UI is laid out
+ * for English widths, so an overlong Russian string is clipped with an ellipsis
+ * and part of it is lost.
+ *
+ * Re-measured over the whole TM (211622 units in the gate's own population,
+ * 2026-08-26): Russian runs 1.07× English at the median, 1.88× at p99 and 2.14×
+ * at p99.9. The old bar of 2× therefore sat *below* the worst honest
+ * translations and flagged them — and, worse, made the judge's near-miss
+ * rewrites unusable: a correction only slightly longer than the text it fixed was
+ * thrown away, which is a real improvement lost to protect against a hypothetical
+ * clip.
+ *
+ * 2.5× leaves normal expansion alone (35 units of the corpus, 0.02%, are above
+ * it) while still catching the runaway kind this gate exists for — the judge
+ * answering a three-word heading with a whole sentence lands at 5×, not 2.2×.
+ * Raise `TAIWU_QA_BLOAT_RATIO` if even that proves tight.
+ */
+const LENGTH_BLOAT_RATIO = (() => {
+  const v = Number(process.env.TAIWU_QA_BLOAT_RATIO);
+  return Number.isFinite(v) && v > 1 ? v : 2.5;
+})();
 const LENGTH_MIN_CHARS = 12; // ignore ratio checks on very short strings
 
 function hasLetters(s: string): boolean {
