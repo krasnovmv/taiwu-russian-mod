@@ -11,7 +11,8 @@ import {
   judgeTm,
   orderJudgeFiles,
   selectJudgeWork,
-  verdictKey,
+  fixKey,
+  keepKey,
   type JudgeOutcome,
 } from "../src/judge/judge.js";
 import { VerdictCache } from "../src/judge/verdict-cache.js";
@@ -312,20 +313,28 @@ test("the MACHINE block shows the engine's wording a previous judge rewrote", ()
   assert.doesNotMatch(buildUserMessage({ ...ctx, machine: null }, new Map()), /MACHINE/);
 });
 
-test("verdictKey groups by judge context and engine, ignoring the RU wording and status", () => {
-  assert.equal(verdictKey("h", unit()), verdictKey("h", unit()));
+test("fixKey identifies the review context, ignoring the RU wording and status", () => {
+  assert.equal(fixKey("h", unit()), fixKey("h", unit()));
   // A different source hash (EN/glossary), CN or engine is a different context.
-  assert.notEqual(verdictKey("h", unit()), verdictKey("h2", unit()));
-  assert.notEqual(verdictKey("h", unit()), verdictKey("h", unit({ cn: "别的" })));
+  assert.notEqual(fixKey("h", unit()), fixKey("h2", unit()));
+  assert.notEqual(fixKey("h", unit()), fixKey("h", unit({ cn: "别的" })));
   assert.notEqual(
-    verdictKey("h", unit({ engine: "yandex" })),
-    verdictKey("h", unit({ engine: "lmstudio" })),
+    fixKey("h", unit({ engine: "yandex" })),
+    fixKey("h", unit({ engine: "lmstudio" })),
   );
-  // The RU text and the status do NOT split a group: for one engine the RU of a
-  // given EN is single-valued in practice, and the group head's verdict stands
-  // for all members.
-  assert.equal(verdictKey("h", unit()), verdictKey("h", unit({ ru: "Другое" })));
-  assert.equal(verdictKey("h", unit()), verdictKey("h", unit({ status: "judged" })));
+  // A fix says what the Russian SHOULD be, so it does not depend on what a
+  // duplicate currently holds.
+  assert.equal(fixKey("h", unit()), fixKey("h", unit({ ru: "Другое" })));
+  assert.equal(fixKey("h", unit()), fixKey("h", unit({ status: "judged" })));
+});
+
+test("keepKey adds the wording, because that is all a keep claims", () => {
+  assert.equal(keepKey("h", unit()), keepKey("h", unit()));
+  assert.notEqual(keepKey("h", unit()), keepKey("h", unit({ ru: "Другое" })));
+  // Still a different context when the source moves.
+  assert.notEqual(keepKey("h", unit()), keepKey("h2", unit()));
+  // And it stays an extension of the context key, so the two never collide.
+  assert.ok(keepKey("h", unit()).startsWith(fixKey("h", unit()) + " "));
 });
 
 /** In-memory judge run helpers: a real hasher (empty glossary) and a scripted client. */
@@ -408,6 +417,58 @@ test("judgeTm judges each identical context once and fans the verdict out", asyn
   assert.equal(tm.units.c?.judgeHash, judgeHash(realHash("Sect"), "原文:Sect"));
 });
 
+test("duplicates that disagree on the Russian are judged separately", async () => {
+  // The bug this split exists for: 87 units shared one context, 78 holding the
+  // right Russian and the rest wrecked leftovers. The head's "keep" was fanned
+  // onto all of them, freezing wording no model had ever been shown.
+  const memo = new Map<string, JudgeOutcome>();
+  const good = liveUnit("Interaction Effects:", "Эффекты взаимодействия:");
+  const wrecked = liveUnit("Interaction Effects:", "Отправка древнего котла:");
+  const tm = tmOf({ a: good, b: { ...good }, c: wrecked });
+  const client = clientOf((u) =>
+    u.includes("Отправка") ? fixWith("Эффекты взаимодействия:") : KEEP,
+  );
+
+  const stats = await judgeTm(tm, client, emptyGlossary, { memo, now: "T" });
+
+  // Two questions, not one: the shared wording and the odd one out.
+  assert.equal(stats.judged, 2);
+  assert.equal(stats.reused, 1); // only the true duplicate rode along
+  assert.equal(tm.units.c?.ru, "Эффекты взаимодействия:"); // repaired, not frozen
+  assert.equal(tm.units.a?.ru, "Эффекты взаимодействия:");
+});
+
+test("a keep recorded for one wording never settles a different one", async () => {
+  const good = liveUnit("Interaction Effects:", "Эффекты взаимодействия:");
+  const wrecked = liveUnit("Interaction Effects:", "Отправка древнего котла:");
+  // Exactly what the old cache holds: a keep filed under the context alone.
+  const memo = new Map<string, JudgeOutcome>([
+    [fixKey(realHash("Interaction Effects:"), good), { kind: "keep" }],
+  ]);
+  const tm = tmOf({ c: wrecked });
+  const client = clientOf(() => fixWith("Эффекты взаимодействия:"));
+
+  await judgeTm(tm, client, emptyGlossary, { memo });
+
+  assert.equal(client.calls.length, 1); // asked, not settled from that entry
+  assert.equal(tm.units.c?.ru, "Эффекты взаимодействия:");
+});
+
+test("a fix recorded for the context settles any duplicate, whatever it holds", async () => {
+  const wrecked = liveUnit("Interaction Effects:", "Отправка древнего котла:");
+  const memo = new Map<string, JudgeOutcome>([
+    [fixKey(realHash("Interaction Effects:"), wrecked), { kind: "fix", ru: "Эффекты" }],
+  ]);
+  const tm = tmOf({ c: wrecked });
+  const client = clientOf(() => KEEP);
+
+  const stats = await judgeTm(tm, client, emptyGlossary, { memo });
+
+  assert.equal(client.calls.length, 0); // a fix is about the source, not the wording
+  assert.equal(stats.reused, 1);
+  assert.equal(tm.units.c?.ru, "Эффекты");
+});
+
 test("a shared memo settles duplicates across files without a request", async () => {
   const memo = new Map<string, JudgeOutcome>();
   const first = tmOf({ a: liveUnit("Adventure", "Приключение") });
@@ -427,7 +488,7 @@ test("a shared memo settles duplicates across files without a request", async ()
 test("--force bypasses memo reads but still records the fresh verdict", async () => {
   const u = liveUnit("Adventure", "Приключение");
   const memo = new Map<string, JudgeOutcome>([
-    [verdictKey(realHash("Adventure"), u), { kind: "fix", ru: "Из кеша" }],
+    [fixKey(realHash("Adventure"), u), { kind: "fix", ru: "Из кеша" }],
   ]);
   const tm = tmOf({ a: u });
   const client = clientOf(() => KEEP);
@@ -437,7 +498,7 @@ test("--force bypasses memo reads but still records the fresh verdict", async ()
   assert.equal(client.calls.length, 1); // asked the model despite the cached verdict
   assert.equal(stats.judged, 1);
   assert.equal(tm.units.a?.ru, "Приключение"); // fresh "keep" won, not the stale fix
-  assert.deepEqual(memo.get(verdictKey(realHash("Adventure"), u)), { kind: "keep" });
+  assert.deepEqual(memo.get(keepKey(realHash("Adventure"), u)), { kind: "keep" });
 });
 
 test("VerdictCache round-trips outcomes through disk and compacts stale lines", async () => {
@@ -770,7 +831,7 @@ test("a QA-rejected rewrite inside a batch costs only its own unit", async () =>
 test("a memo hit is settled before packing, so it never takes up a batch slot", async () => {
   const settled = liveUnit("Adventure", "Приключение");
   const memo = new Map<string, JudgeOutcome>([
-    [verdictKey(realHash("Adventure"), settled), { kind: "fix", ru: "Странствие" }],
+    [fixKey(realHash("Adventure"), settled), { kind: "fix", ru: "Странствие" }],
   ]);
   const tm = tmOf({ a: settled, b: liveUnit("Sect", "Секта") });
   const client = clientOf(() => KEEP);

@@ -20,7 +20,7 @@
  * untouched AND unmarked, so a later run retries it — corrupt markup is never
  * written (same guarantee as the translation pipeline).
  *
- * Identical review contexts are judged ONCE ({@link verdictKey}): the corpus
+ * Identical review contexts are judged ONCE ({@link keepKey}): the corpus
  * repeats short strings ("Adventure", "Interaction", …) thousands of times, so
  * units with the same EN/CN and engine share one verdict, which fans out to all
  * of them. The CLI passes one {@link JudgeOptions.memo} across every file of a
@@ -123,7 +123,7 @@ export interface JudgeOptions {
   /** Character budget for one request; defaults to {@link JUDGE_BATCH_CHARS}. */
   batchChars?: number;
   /**
-   * Verdict memo: {@link verdictKey} → settled outcome. Pass ONE memo to every
+   * Verdict memo: {@link fixKey}/{@link keepKey} → settled outcome. Pass ONE memo to every
    * call of a run and a context already judged in an earlier file is settled
    * without a request; pass the disk-backed VerdictCache and the reuse extends
    * across runs. Rejected fixes and model errors are deliberately never
@@ -227,23 +227,44 @@ export function batchByCost<T>(
 }
 
 /**
- * The key a verdict is remembered under, in memory and on disk: the unit's
- * {@link judgeHash} — which folds JUDGE_VERSION, the EN source, the applicable
- * glossary terms and the CN reference — plus the engine whose translation was
- * reviewed. Units with the same source translated by the same engine share one
- * verdict. The RU wording is deliberately NOT part of the key: for one engine the
- * translation of a given EN is single-valued (the engine cache is keyed by the
- * masked EN), so duplicates virtually always carry the same RU anyway — and where
- * they don't (an earlier judge rewrite, a cache edit not yet rebuilt in), the
- * group's first unit in TM order is the one shown to the model and its verdict
- * is taken for the rest.
+ * The two kinds of verdict are remembered under DIFFERENT keys, because they are
+ * statements about different things.
+ *
+ * A FIX says "for this source, the right Russian is X". That holds for every
+ * duplicate whatever each currently carries, so {@link fixKey} identifies the
+ * review context alone: the unit's {@link judgeHash} — which folds JUDGE_VERSION,
+ * the EN source, the applicable glossary terms and the CN reference — plus the
+ * engine whose translation was reviewed.
+ *
+ * A KEEP says "THIS Russian is acceptable", which is a claim about the wording in
+ * front of the model, so {@link keepKey} adds that wording. The RU used to be left
+ * out of the key on the reasoning that duplicates virtually always carry the same
+ * text anyway. They do not always: 466 groups across the corpus disagree, and the
+ * misaligned encyclopedia tables made a population of them. When they disagree,
+ * the old key let one member's "keep" settle the whole group — freezing 604 units
+ * as reviewed-and-fine on wording no model had ever been shown. `r1477c6` sat at
+ * "Отправка древнего котла:" for "Interaction Effects:" that way, while the judge,
+ * asked about it directly, corrected it three times out of three.
+ *
+ * Splitting the keys is also what lets the old cache survive the change: fixes
+ * keep their key and stay valid, while the keeps recorded under it are simply
+ * never matched again and get re-earned.
  *
  * `hash` is the unit's CURRENT srcHash (selection guarantees it), so anything
  * that would invalidate a verdict — source, glossary, CN, JUDGE_VERSION —
- * changes the key and a stale cached verdict is simply never hit again.
+ * changes both keys and a stale cached verdict is never hit again.
  */
-export function verdictKey(hash: string, unit: TmUnit): string {
+export function fixKey(hash: string, unit: TmUnit): string {
   return `${judgeHash(hash, unit.cn)} ${unit.engine ?? ""}`;
+}
+
+/** @see fixKey — the same context, plus the exact Russian the verdict was made on. */
+export function keepKey(hash: string, unit: TmUnit): string {
+  const ru = createHash("sha256")
+    .update(unit.ru ?? "")
+    .digest("hex")
+    .slice(0, 16);
+  return `${fixKey(hash, unit)} ${ru}`;
 }
 
 /**
@@ -409,11 +430,14 @@ export async function judgeTm(
   options.onStart?.(work.length);
   if (work.length === 0) return emptyStats(tm.file);
 
-  // One verdict per distinct review context, fanned out to the whole group.
+  // One verdict per distinct review context AND wording, fanned out to the whole
+  // group. Grouped by {@link keepKey}, not by the context alone: members that
+  // disagree on the Russian are different questions, and lumping them together is
+  // how one member's "keep" used to settle wording the model never saw.
   // Progress ticks per UNIT (the plan counted units, not groups or requests).
   const groups = new Map<string, Group>();
   for (const item of work) {
-    const k = verdictKey(item.hash, item.unit);
+    const k = keepKey(item.hash, item.unit);
     const g = groups.get(k);
     if (g) g.push(item);
     else groups.set(k, [item]);
@@ -479,19 +503,35 @@ export async function judgeTm(
       };
   };
 
-  // An earlier file — or, with the disk-backed memo, an earlier run — already
-  // settled some of these contexts: apply their outcomes without a request. The
-  // fix was QA-gated when memoized, and both QA and the glossary derive from the
-  // EN alone, so it holds verbatim here. --force wants fresh verdicts, so it
-  // never reads the memo.
-  //
+  /**
+   * A verdict an earlier file — or, with the disk-backed memo, an earlier run —
+   * already settled for this group, or `undefined` to go and ask.
+   *
+   * The group's own wording is asked about first: a `keep` recorded for exactly
+   * this Russian settles it. Failing that, a `fix` recorded for the context says
+   * what the Russian SHOULD be, which is true of any duplicate whatever it
+   * currently holds, so it applies here too — it was QA-gated when memoized, and
+   * both QA and the glossary derive from the EN alone.
+   *
+   * A `keep` found under the context key is deliberately ignored: those are lines
+   * written before keeps were keyed by wording, and reusing them is precisely the
+   * bug — the wording they were made on is unknown and may not be this one.
+   */
+  const settledFor = (head: Candidate): JudgeOutcome | undefined => {
+    if (options.force) return undefined; // --force wants fresh verdicts
+    const kept = options.memo?.get(keepKey(head.hash, head.unit));
+    if (kept?.kind === "keep") return kept;
+    const fixed = options.memo?.get(fixKey(head.hash, head.unit));
+    return fixed?.kind === "fix" ? fixed : undefined;
+  };
+
   // Settled BEFORE the batches are packed, so a request is never half-full of
-  // work already done. Nothing is lost by resolving them up front: the memo key
+  // work already done. Nothing is lost by resolving them up front: the keep key
   // IS the group key, so two groups of one file can never share one, and no
   // intra-file hit could appear part-way through the run.
   const pending: Group[] = [];
-  for (const [memoKey, members] of groups) {
-    const settled = options.force ? undefined : options.memo?.get(memoKey);
+  for (const members of groups.values()) {
+    const settled = settledFor(members[0] as Candidate);
     if (!settled) {
       pending.push(members);
       continue;
@@ -580,9 +620,9 @@ export async function judgeTm(
     // thirty-nine good worked examples.
     let usable = 0;
     for (const [index, members] of batch.entries()) {
-      const { key, unit } = members[0] as Candidate;
+      const head = members[0] as Candidate;
+      const { key, unit } = head;
       const ru = unit.ru as string;
-      const memoKey = verdictKey((members[0] as Candidate).hash, unit);
       const verdict = verdicts.get(index + 1);
       if (verdict === undefined) {
         stats.errors++;
@@ -607,7 +647,9 @@ export async function judgeTm(
         stats.ok++;
         stats.reused += members.length - 1;
         keepAll(members);
-        options.memo?.set(memoKey, { kind: "keep" });
+        // Remembered against THIS wording: it is what the model was shown, and
+        // all a keep ever claims.
+        options.memo?.set(keepKey(head.hash, unit), { kind: "keep" });
         usable++;
         tick(members.length);
         continue;
@@ -643,7 +685,9 @@ export async function judgeTm(
       stats.reused += members.length - 1;
       stats.fixes.push({ key, note: summarize(verdict), before: ru, after: verdict.ru });
       fixAll(members, verdict.ru);
-      options.memo?.set(memoKey, { kind: "fix", ru: verdict.ru });
+      // Remembered against the CONTEXT: "the right Russian here is X" holds for
+      // every duplicate, whatever wording each of them currently carries.
+      options.memo?.set(fixKey(head.hash, unit), { kind: "fix", ru: verdict.ru });
       usable++;
       tick(members.length);
     }

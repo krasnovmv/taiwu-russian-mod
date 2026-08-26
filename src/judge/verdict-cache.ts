@@ -4,7 +4,7 @@
  * a re-extracted unit, a new file repeating an already-judged string — the
  * outcome is replayed for free instead of re-asking the model.
  *
- * Keys are {@link verdictKey}: the unit's `judgeHash` (which folds JUDGE_VERSION,
+ * Keys are {@link fixKey} / {@link keepKey}: the unit's `judgeHash` (which folds JUDGE_VERSION,
  * the EN source, the applicable glossary terms and the CN reference) plus the
  * engine whose translation was reviewed. Anything that would invalidate a verdict
  * changes the key, so stale entries are never hit again — and bumping

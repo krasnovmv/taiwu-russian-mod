@@ -33,7 +33,7 @@
  * or glossary behind it changes (see config/judge.ts). Units with an identical
  * review context (same EN/CN and engine) share ONE request — the verdict fans
  * out to every duplicate across files, and is persisted in cache/judge.jsonl so
- * later runs replay it for free (see `verdictKey` in judge/judge.ts).
+ * later runs replay it for free (see `fixKey`/`keepKey` in judge/judge.ts).
  *
  * Nothing reaches the game until `npm run apply-all`.
  */
