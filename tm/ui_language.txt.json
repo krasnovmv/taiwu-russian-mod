@@ -39048,12 +39048,12 @@
     "LK_Combat_MarkName_Acupoint_1": {
       "en": "Lv.2 Sealed Acupoint",
       "cn": "2级封穴",
-      "ru": "Уровень 2 Запечатанная точка",
+      "ru": "Уровень 2: Запечатанная акупунктурная точка",
       "status": "judged",
       "srcHash": "d7e91dac728d2033",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T23:32:17.341Z",
-      "judgeHash": "978963e56b4445bd"
+      "updatedAt": "2026-09-03T20:26:28.817Z",
+      "judgeHash": "fc238deee1e3d8f3"
     },
     "LK_Combat_MarkName_Acupoint_2": {
       "en": "Lv. 3 Sealed Acupoint",
@@ -131693,6 +131693,56 @@
       "engine": "yandex",
       "updatedAt": "2026-08-20T20:18:53.972Z",
       "judgeHash": "3e04681cb541878b"
+    },
+    "LK_CharacterMenu_PoisonAccumulator_EatPoisonedItem_Content": {
+      "en": "服食了{0}个含有毒素的{1}！\\n\\n{2}",
+      "cn": null,
+      "ru": "Вы съели {0} предметов типа {1}, содержащих токсины!\\n\\n{2}",
+      "status": "judged",
+      "srcHash": "dcf6a349ad70b1b4",
+      "engine": "yandex",
+      "updatedAt": "2026-09-03T20:26:28.817Z",
+      "judgeHash": "888ae2edfc7e7f72"
+    },
+    "LK_CharacterMenu_PoisonAccumulator_EatPoisonedItem_Content_Detail": {
+      "en": "{0}增加了{1}",
+      "cn": null,
+      "ru": "{0}Увеличился{1}",
+      "status": "machine",
+      "srcHash": "07c4ed872aa320ac",
+      "engine": "yandex",
+      "updatedAt": "2026-09-03T20:23:12.702Z",
+      "judgeHash": "1e8ff854e5f02cba"
+    },
+    "LK_CharacterMenu_PoisonAccumulator_EatPoisonedItem_Dur0": {
+      "en": "误用毒物",
+      "cn": null,
+      "ru": "Неправильное использование ядов",
+      "status": "machine",
+      "srcHash": "445b48f0b2ca5ebd",
+      "engine": "yandex",
+      "updatedAt": "2026-09-03T20:23:12.702Z",
+      "judgeHash": "13a8201d8c77bf6a"
+    },
+    "LK_CharacterMenu_PoisonAccumulator_EatPoisonedItem_DurGt0": {
+      "en": "服食毒物",
+      "cn": null,
+      "ru": "Принимающий яд",
+      "status": "machine",
+      "srcHash": "e92ffc983d59e495",
+      "engine": "yandex",
+      "updatedAt": "2026-09-03T20:23:12.702Z",
+      "judgeHash": "c13ab574f03b1b33"
+    },
+    "LK_Make_Poison_Grade_Not_Meet_Tip": {
+      "en": "<color=#brightred>毒性不符…</color>",
+      "cn": null,
+      "ru": "<color=#brightred>Токсичность не соответствует…</color>",
+      "status": "machine",
+      "srcHash": "3da6b198b25129ea",
+      "engine": "yandex",
+      "updatedAt": "2026-09-03T20:23:12.702Z",
+      "judgeHash": "6948ad3cc235e21c"
     },
     "LK_Resource_Choosy_Input": {
       "en": "输入数量…",
