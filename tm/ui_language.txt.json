@@ -120009,20 +120009,22 @@
     "LK_VillagerRole_Summary_Buy_10": {
       "en": "Procure Martial Arts Manuals<line-height=0>\\n<align=right>{0} Person(s)</align></line-height>",
       "cn": "采购功法书<line-height=0>\\n<align=right>{0}人</align></line-height>",
-      "ru": "Закупать Боевые Искусства Искусство <line-height=0>\\n<align=right>{0} Лицо(лица)</align></line-height>",
-      "status": "machine",
+      "ru": "Закупать руководства по боевым искусствам <line-height=0>\\n<align=right>{0} человек(а)</align></line-height>",
+      "status": "judged",
       "srcHash": "f42ad35db10ca058",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-09-13T17:10:43.460Z",
+      "judgeHash": "38ac002b66db8065"
     },
     "LK_VillagerRole_Summary_Buy_11": {
       "en": "Procure Fine Arts Books<line-height=0>\\n<align=right>{0} Person(s)</align></line-height>",
       "cn": "采购技艺书<line-height=0>\\n<align=right>{0}人</align></line-height>",
-      "ru": "Закупки Ремесла Искусство <line-height=0>\\n<align=right>{0} Лицо(лица)</align></line-height>",
-      "status": "machine",
+      "ru": "Закупать книги по ремёслам <line-height=0>\\n<align=right>{0} человек(а)</align></line-height>",
+      "status": "judged",
       "srcHash": "62d149991d1041ff",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T22:05:17.320Z"
+      "updatedAt": "2026-09-13T17:10:43.460Z",
+      "judgeHash": "94af8b3030845c34"
     },
     "LK_VillagerRole_Summary_Buy_2": {
       "en": "Procure Pills<line-height=0>\\n<align=right>{0} Person(s)</align></line-height>",
@@ -126226,7 +126228,8 @@
       "status": "machine",
       "srcHash": "f9f28466e4820ba8",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-07-03T21:32:41.679Z",
+      "judgeHash": "16639a06e4e16090"
     },
     "UI_EventEditor_Tip_ItemInsertString_Content": {
       "en": "1. Enclose the placeholder label within <>.\\n2. Item placeholders use the label \"Item.\"\\n3. Key fields signify that the item information will be retrieved from the parameter box.\\n4. Key fields render ID and Type fields invalid.\\n5. ID and Type fields must always be used together.\\n6. Str fields signify that this placeholder will be substituted with strings.\\n7. The value of str fields can be \"Name\" or \"ColorName.\"\\n8. Sp fields signify that this placeholder will be substituted with icons.\\n9. The value of sp fields can only be \"Icon.\"",

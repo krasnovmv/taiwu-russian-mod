@@ -396,11 +396,12 @@
     "c26864cc-d8e8-4054-8d34-c48d2f42d64a/EventContent": {
       "en": "The account keeper unrolls the scroll, with neat regular script recording: <NL>I. Total Expenditure: <ArgBox key=Consumption type=int/> Silver.<NL>II. Silver Saved: <ArgBox key=JieShen type=int/> Silver.<NL>III. Book Vouchers Obtained: <ArgBox key=FengShou type=int/> pieces.",
       "cn": "账房先生展开卷册，上面以工整的楷书记录着：<NL>壹、总计开销： <ArgBox key=Consumption type=int/> 银钱。<NL>贰、节省银钱： <ArgBox key=JieShen type=int/> 银钱。<NL>叁、获书票：<ArgBox key=FengShou type=int/> 枚。",
-      "ru": "Бухгалтер разворачивает свиток с аккуратной записью обычным почерком: <NL>I. Общая сумма расходов: <ArgBox key=Consumption type=int/> Серебро.<NL>II. Сэкономленное серебро: <ArgBox key=JieShen type=int/> Серебро.<NL>iii. Полученные ваучеры на бронирование: <ArgBox key=FengShou type=int/> куски.",
-      "status": "machine",
+      "ru": "Бухгалтер разворачивает свиток, где аккуратным уставным почерком записано: <NL>1. Общая сумма расходов: <ArgBox key=Consumption type=int/> серебряных монет.<NL>2. Сэкономлено серебряных монет: <ArgBox key=JieShen type=int/> серебряных монет.<NL>3. Полученные талоны на книги: <ArgBox key=FengShou type=int/> шт.",
+      "status": "judged",
       "srcHash": "3ac20e02729bb252",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-09-13T17:10:43.460Z",
+      "judgeHash": "1875945c3d74409f"
     },
     "c26864cc-d8e8-4054-8d34-c48d2f42d64a/Option_1": {
       "en": "(Finish reading...)",

@@ -9405,20 +9405,22 @@
     "Desc_20": {
       "en": "Directly set a character's Injuries to a target value; None for random.",
       "cn": "直接设置人物的伤势到目标值,传None代表随机",
-      "ru": "Непосредственно установите целевое значение для травм персонажа; Нет для случайных.",
-      "status": "machine",
+      "ru": "Непосредственно задать травмы персонажа целевым значением; пустое значение — случайный выбор.",
+      "status": "judged",
       "srcHash": "adcbb7f85b80e209",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-09-13T17:10:43.460Z",
+      "judgeHash": "288da18c5a0810ab"
     },
     "Desc_21": {
       "en": "Modify a character's Injuries by a specified change rate; None for random.",
       "cn": "根据指定变化量修改人物伤势,传None代表随机",
-      "ru": "Изменяйте травмы персонажа с заданной скоростью изменения; Нет для случайных.",
-      "status": "machine",
+      "ru": "Изменить травмы персонажа на указанную величину; пустое значение — случайный выбор.",
+      "status": "judged",
       "srcHash": "d05bd3a02a741699",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-09-13T17:10:43.460Z",
+      "judgeHash": "5b3d16d7b2a6ad38"
     },
     "Desc_22": {
       "en": "",
@@ -9432,20 +9434,22 @@
     "Desc_23": {
       "en": "Toxin levels 1-3 correspond to Lesser Toxin, Severe Toxin, and Deadly Toxin respectively; None for random.",
       "cn": "毒素级别1-3分别为生毒,剧毒,奇毒;传None代表随机",
-      "ru": "Уровни токсина 1-3 соответствуют меньшему токсину, тяжелому токсину и смертельному токсину соответственно; Нет для случайного.",
-      "status": "machine",
+      "ru": "Уровни токсина 1–3 соответственно означают слабый, сильный и смертельный токсин; пустое значение — случайный выбор.",
+      "status": "judged",
       "srcHash": "49b6abede2267be8",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-09-13T17:10:43.460Z",
+      "judgeHash": "bb89781abbe84ea6"
     },
     "Desc_24": {
       "en": "Toxin levels 1-3 correspond to Lesser Toxin, Severe Toxin, and Deadly Toxin respectively; None for random.",
       "cn": "毒素级别1-3分别为生毒,剧毒,奇毒;传None代表随机",
-      "ru": "Уровни токсина 1-3 соответствуют меньшему токсину, тяжелому токсину и смертельному токсину соответственно; Нет для случайного.",
-      "status": "machine",
+      "ru": "Уровни токсина 1–3 соответственно означают слабый, сильный и смертельный токсин; пустое значение — случайный выбор.",
+      "status": "judged",
       "srcHash": "49b6abede2267be8",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-09-13T17:10:43.460Z",
+      "judgeHash": "bb89781abbe84ea6"
     },
     "Desc_25": {
       "en": "",
@@ -10978,11 +10982,12 @@
     "Desc_141": {
       "en": "Get Specified Aspiration Seniority (0 for locked aspirations). Returns current aspiration seniority if None (-1) is passed.",
       "cn": "获取指定志向的资历值, 对于未解锁的志向资历值为0. 当传入志向为 None (-1) 时, 默认获取角色当前志向的资历.",
-      "ru": "Получите указанный стаж устремления (0 для заблокированных устремлений). Возвращает текущий стаж устремления, если значение None (-1) не передано.",
-      "status": "machine",
+      "ru": "Получить стаж указанного устремления (0 для заблокированных устремлений). Если передано пустое значение (-1), возвращается стаж текущего устремления.",
+      "status": "judged",
       "srcHash": "5d3d4f27d083fd1c",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-09-13T17:10:43.460Z",
+      "judgeHash": "5e84a3f3d35ef643"
     },
     "Desc_85": {
       "en": "This command checks item template and returns True if the character holds an item of the same template",
@@ -13887,11 +13892,12 @@
     "Desc_413": {
       "en": "Encounter tile group effect. \"None\" removes it.",
       "cn": "奇遇地格分组特效，None是移除",
-      "ru": "Столкнитесь с эффектом группы плиток. \"Нет\" удаляет его.",
-      "status": "machine",
+      "ru": "Эффект группы клеток приключения. \"Пустое значение\" удаляет его.",
+      "status": "judged",
       "srcHash": "e4a9057500ea4835",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-09-13T17:10:43.460Z",
+      "judgeHash": "8ea4e3b97b3c6e5a"
     },
     "Desc_414": {
       "en": "Instant Notification - No Parameters",
