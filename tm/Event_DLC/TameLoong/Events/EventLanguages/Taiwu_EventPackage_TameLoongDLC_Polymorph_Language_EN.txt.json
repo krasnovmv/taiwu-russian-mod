@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "file": "Event_DLC/TameLoong/Events/EventLanguages/Taiwu_EventPackage_TameLoongDLC_Polymorph_Language_EN.txt",
+  "glossaryVersion": 10,
+  "units": {
+    "1dfd7439-ae8c-48a9-9acb-c97dadf6dcbf/EventContent": {
+      "en": "纯跳转事件，假设<Item key=SelectItemKey str=ColorName/>已经被移除\n",
+      "cn": null,
+      "ru": "Событие чистого скачка, предполагающее<Item key=SelectItemKey str=ColorName/>Был удален\n",
+      "status": "machine",
+      "srcHash": "57dedc2df52d4234",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "2d75b4fa-2b6d-4c3f-8094-4a2c973ab35e/EventContent": {
+      "en": "<Character key=CharacterId str=Name/>游转盘旋片刻，<NL>光芒变幻间，便见其已化作人形，含笑望向<Character key=RoleTaiwu str=Name/>……",
+      "cn": null,
+      "ru": "<Character key=CharacterId str=Name/>Поверните поворотный стол на мгновение，<NL>Когда свет изменился, он увидел, что тот превратился в человека, и посмотрел на него с улыбкой.<Character key=RoleTaiwu str=Name/>……",
+      "status": "machine",
+      "srcHash": "f782df64e96be98c",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "2d75b4fa-2b6d-4c3f-8094-4a2c973ab35e/Option_1": {
+      "en": "（邀为同道……）",
+      "cn": null,
+      "ru": "(Приглашенный быть таким же...)",
+      "status": "machine",
+      "srcHash": "6bc2091075b87e15",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "2d75b4fa-2b6d-4c3f-8094-4a2c973ab35e/Option_2": {
+      "en": "（令其回村……）\n",
+      "cn": null,
+      "ru": "(Пусть возвращается в деревню...)\n",
+      "status": "machine",
+      "srcHash": "830425aa6800ffa0",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "7ad7f63c-8bd3-486e-92cd-ba1b8d1e111b/EventContent": {
+      "en": "<Character key=CharacterId str=Name/>点头应允，随即迈步上前跟在<Character key=RoleTaiwu str=Name/>的身侧，<NL>自此同游大千世界……",
+      "cn": null,
+      "ru": "<Character key=CharacterId str=Name/>Кивнул в ответ, затем шагнул вперед и последовал за мной.<Character key=RoleTaiwu str=Name/>Боковая часть тела，<NL>С тех пор мы вместе путешествовали по миру……",
+      "status": "machine",
+      "srcHash": "1fd90c91787f340a",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "7ad7f63c-8bd3-486e-92cd-ba1b8d1e111b/Option_1": {
+      "en": "（如此便好……）\n",
+      "cn": null,
+      "ru": "(Вот и все......)\n",
+      "status": "machine",
+      "srcHash": "d26112c17ecd52b3",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "dafe4a75-24e7-443b-8923-3994c79130c3/EventContent": {
+      "en": "<Character key=CharacterId str=Name/>点头应允，与<Character key=RoleTaiwu str=Name/>再三告别，<NL>方才依依不舍地向着太吾村的方向行去……",
+      "cn": null,
+      "ru": "<Character key=CharacterId str=Name/>Кивнул в ответ и<Character key=RoleTaiwu str=Name/>Говори \"прощай\" снова и снова，<NL>Просто неохотно побрел в сторону деревни Тайву……",
+      "status": "machine",
+      "srcHash": "a5ed1d39fde827a0",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "dafe4a75-24e7-443b-8923-3994c79130c3/Option_1": {
+      "en": "（如此便好……）\n",
+      "cn": null,
+      "ru": "(Вот и все......)\n",
+      "status": "machine",
+      "srcHash": "d26112c17ecd52b3",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "764fc9b4-1cbb-4943-8249-503ee45f7a1e/EventContent": {
+      "en": "注意：此触发点会直接移除<Item key=SelectItemKey str=ColorName/>\n",
+      "cn": null,
+      "ru": "Примечание: Эта триггерная точка будет удалена непосредственно<Item key=SelectItemKey str=ColorName/>\n",
+      "status": "machine",
+      "srcHash": "9eb45a55d554178e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    }
+  }
+}

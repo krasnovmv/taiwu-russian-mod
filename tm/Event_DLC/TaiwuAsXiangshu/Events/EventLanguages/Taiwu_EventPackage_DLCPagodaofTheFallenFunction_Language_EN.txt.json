@@ -1,0 +1,684 @@
+{
+  "schemaVersion": 1,
+  "file": "Event_DLC/TaiwuAsXiangshu/Events/EventLanguages/Taiwu_EventPackage_DLCPagodaofTheFallenFunction_Language_EN.txt",
+  "glossaryVersion": 10,
+  "units": {
+    "e731d2ab-c791-4541-bcbe-4bcc3ced2346/EventContent": {
+      "en": "<MapArea key=AreaId str=Name/>忽现弥天黑焰，一时之间日月无光，<NL>周遭行人凡有沾染此黑焰者，皆是恶念陡生，行止乖戾，<NL>犹如魔障缠身，身不由己……",
+      "cn": null,
+      "ru": "<MapArea key=AreaId str=Name/>Внезапно в небе вспыхнуло чёрное пламя, и на некоторое время померкли солнце и луна.<NL>Все прохожие, которых коснулось это чёрное пламя, внезапно преисполнились злых мыслей и стали вести себя свирепо,<NL>словно одержимые демоном и лишённые собственной воли……",
+      "status": "judged",
+      "srcHash": "8b2b8182c68297e2",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "5905fecf5cadea64"
+    },
+    "e731d2ab-c791-4541-bcbe-4bcc3ced2346/Option_1": {
+      "en": "（查看受到影响的人物……）",
+      "cn": null,
+      "ru": "(Проверить затронутых персонажей…)",
+      "status": "judged",
+      "srcHash": "74b437760442f46d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "fe3eca242d13bfdf"
+    },
+    "e731d2ab-c791-4541-bcbe-4bcc3ced2346/Option_2": {
+      "en": "（如此便好……）\n",
+      "cn": null,
+      "ru": "(Вот и все......)\n",
+      "status": "machine",
+      "srcHash": "d26112c17ecd52b3",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "e081509c19214202"
+    },
+    "27ed0dbc-a97f-4312-8642-5fb7c1f290dd/EventContent": {
+      "en": "“如今时移势易，与我从前所知已是全然不同，<NL>我早已别无他念，唯愿你能成事，余者皆不足论……”<NL>言罢，<SpecialName key=AdoptiveFather/>轻叹一声，目光投向远处，似有无限思绪，又似无所凭依……",
+      "cn": null,
+      "ru": "«Ныне времена и обстоятельства изменились, и всё уже совершенно не так, как я знал прежде,<NL>у меня давно нет иных мыслей, я лишь желаю, чтобы ты преуспел, а остальное не имеет значения……»<NL><SpecialName key=AdoptiveFather/> закончил и тихо вздохнул, устремив взгляд вдаль; казалось, его одолевали бесконечные мысли, но он не находил опоры……",
+      "status": "judged",
+      "srcHash": "fd44880f6611fc12",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "32e2eaa03cdadfaf"
+    },
+    "27ed0dbc-a97f-4312-8642-5fb7c1f290dd/Option_1": {
+      "en": "（暂且告别……）\n",
+      "cn": null,
+      "ru": "(Попрощайся на время...)\n",
+      "status": "machine",
+      "srcHash": "7a1793a80945f92b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "deed890476f55eb4"
+    },
+    "db66e8be-5b69-4068-a122-68e3a8f30400/EventContent": {
+      "en": "室述辅双手合十，垂目不语，<NL>观其神色无悲无喜，恍若出神入定，又如深陷禅观，<NL>竟似不知身外尚有他人一般……",
+      "cn": null,
+      "ru": "Му Шуфу сложил ладони и опустил глаза, не произнося ни слова.<NL>На его лице не было ни печали, ни радости; он словно впал в забытьё и глубокую медитацию,<NL>будто вовсе не замечал окружающих……",
+      "status": "judged",
+      "srcHash": "59c6033ea763d8a0",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "9dc47bcc1bb7f928"
+    },
+    "db66e8be-5b69-4068-a122-68e3a8f30400/Option_1": {
+      "en": "（暂且告别……）\n",
+      "cn": null,
+      "ru": "(Попрощайся на время...)\n",
+      "status": "machine",
+      "srcHash": "7a1793a80945f92b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "deed890476f55eb4"
+    },
+    "21891472-f38e-4bbe-84a2-1ca8b8cdfc43/EventContent": {
+      "en": "却见小和尚低眉垂目，面上隐有畏惧之色，<NL>双手合十，朝<Character key=RoleTaiwu str=Name />深深一拜，缓声说道：<NL>“初见之时，小僧便已察觉，施主身上似有几分我主魔气……<NL>眼下施主已建成玄相九塔，小僧微末之身，万不敢生半分不敬，更遑论阻拦施主前路，<NL>如今唯有俯首而已……”",
+      "cn": null,
+      "ru": "Но маленький монах опустил брови и глаза, и на его лице проступил страх.<NL>Сложив ладони, он низко поклонился <Character key=RoleTaiwu str=Name /> и медленно произнёс:<NL>«При первой встрече я уже заметил: от вас, почтенный господин, веет чем-то от моего владыки……<NL>Теперь вы построили девять башен Сюаньсяна, и я, ничтожный монах, не смею выказывать ни малейшего неуважения, не говоря уже о том, чтобы преграждать вам путь,<NL>так что ныне мне остаётся лишь склонить голову……»",
+      "status": "judged",
+      "srcHash": "8a2fcfe1c309589a",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "0d865ac87259547b"
+    },
+    "21891472-f38e-4bbe-84a2-1ca8b8cdfc43/Option_1": {
+      "en": "（暂且告别……）\n",
+      "cn": null,
+      "ru": "(Попрощайся на время...)\n",
+      "status": "machine",
+      "srcHash": "7a1793a80945f92b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "deed890476f55eb4"
+    },
+    "4d564028-393d-4116-922c-dcfb25cb38dd/EventContent": {
+      "en": "\n",
+      "cn": "\n",
+      "ru": "\n",
+      "status": "machine",
+      "srcHash": "170fb78405907811",
+      "engine": "neutral",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "45a88aae-7d82-4f0f-8900-68ab23de66e7/EventContent": {
+      "en": "\n",
+      "cn": "\n",
+      "ru": "\n",
+      "status": "machine",
+      "srcHash": "170fb78405907811",
+      "engine": "neutral",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "6d7a2ff4-3916-4904-acfa-c3229cd1bd94/EventContent": {
+      "en": "“小僧侍奉我主，久有心得。<NL>若施主不弃，小僧愿将心中浅见，说与施主一听……”<NL>小和尚似有相枢之事，意欲向<Character key=RoleTaiwu str=Name />进言……<NL><NL><color=#lightgrey>（听取小和尚指点相枢志向，以提高资历……）</color>",
+      "cn": null,
+      "ru": "«Я давно служу моему владыке и кое-что понял.<NL>Если вы не откажетесь выслушать меня, я охотно поделюсь с вами своими скромными соображениями……»<NL>Похоже, маленький монах хочет рассказать <Character key=RoleTaiwu str=Name /> о Сяншу……<NL><NL><color=#lightgrey>（Выслушать наставления маленького монаха о стремлении Сяншу, чтобы повысить его известность……）</color>",
+      "status": "judged",
+      "srcHash": "28b7ebbdb63d9039",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "15b081a281019451"
+    },
+    "6d7a2ff4-3916-4904-acfa-c3229cd1bd94/Option_1": {
+      "en": "（听取进言……）",
+      "cn": null,
+      "ru": "(Вслушайтесь в слова...)",
+      "status": "machine",
+      "srcHash": "393764634b2d2abe",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "12cb28fe25bd9c71"
+    },
+    "6d7a2ff4-3916-4904-acfa-c3229cd1bd94/Option_2": {
+      "en": "（婉言谢绝……）\n",
+      "cn": null,
+      "ru": "(Вежливо отклонено...)\n",
+      "status": "machine",
+      "srcHash": "8f27ed4b7e58f283",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "cc2760ba-90bf-452f-adf5-d1c4554dfff7/EventContent": {
+      "en": "“如此……<NL>想来机缘未至，倒是小僧多事了……”<NL>小和尚虽有些不解，却也未再多言，双手合十一礼，便即告别而去……",
+      "cn": null,
+      "ru": "«Вот как……<NL>Похоже, время ещё не пришло; это я, маленький монах, вмешался не к месту……»<NL>Хотя маленький монах был немного озадачен, он больше ничего не сказал, сложил ладони и поклонился, после чего попрощался и ушёл……",
+      "status": "judged",
+      "srcHash": "dab5f766afdd36cb",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "b568ac376966ed89"
+    },
+    "cc2760ba-90bf-452f-adf5-d1c4554dfff7/Option_1": {
+      "en": "（如此便好……）\n",
+      "cn": null,
+      "ru": "(Вот и все......)\n",
+      "status": "machine",
+      "srcHash": "d26112c17ecd52b3",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "e081509c19214202"
+    },
+    "a248abc4-6c1c-4d75-9a08-5da8d862a284/EventContent": {
+      "en": "“只盼小僧此言能对施主有所助益，小僧便也心安了……”<NL>小和尚双手合十，躬身一礼，转身缓步而去……<NL><NL><color=#lightgrey>（<Character key=RoleTaiwu str=Name />相枢的志向资历有所增长……）</color>",
+      "cn": null,
+      "ru": "«Если мои слова хоть немного помогут вам, почтенный господин, я, маленький монах, буду спокоен……»<NL>Маленький монах сложил ладони, поклонился, повернулся и медленно ушёл……<NL><NL><color=#lightgrey>（Известность стремления Сяншу у <Character key=RoleTaiwu str=Name /> возросла……）</color>",
+      "status": "judged",
+      "srcHash": "7cf0052cfda0d0a6",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "b16a692ec33e6462"
+    },
+    "a248abc4-6c1c-4d75-9a08-5da8d862a284/Option_1": {
+      "en": "（如此便好……）\n",
+      "cn": null,
+      "ru": "(Вот и все......)\n",
+      "status": "machine",
+      "srcHash": "d26112c17ecd52b3",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "e081509c19214202"
+    },
+    "4eb68789-56ce-450b-b0e5-5d3d467f70ce/EventContent": {
+      "en": "只见小和尚缓步寻来，颔首言道：<NL>“小僧侍奉我主，久有心得。<NL>若施主不弃，小僧愿将心中浅见，说与施主一听……”<NL><NL>小和尚似有相枢之事，意欲向<Character key=RoleTaiwu str=Name />进言……<NL><NL><color=#lightgrey>（听取小和尚指点相枢志向，以提高资历……）</color>",
+      "cn": null,
+      "ru": "Маленький монах медленно подошёл, кивнул и сказал:<NL>«Я давно служу моему владыке и кое-что понял.<NL>Если вы не откажетесь выслушать меня, я охотно поделюсь с вами своими скромными соображениями……»<NL><NL>Похоже, маленький монах хочет рассказать <Character key=RoleTaiwu str=Name /> о Сяншу……<NL><NL><color=#lightgrey>（Выслушать наставления маленького монаха о стремлении Сяншу, чтобы повысить его известность……）</color>",
+      "status": "judged",
+      "srcHash": "93ae0d3231282a9f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "b67770f2327826ba"
+    },
+    "4eb68789-56ce-450b-b0e5-5d3d467f70ce/Option_1": {
+      "en": "（听取进言……）",
+      "cn": null,
+      "ru": "(Вслушайтесь в слова...)",
+      "status": "machine",
+      "srcHash": "393764634b2d2abe",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "12cb28fe25bd9c71"
+    },
+    "4eb68789-56ce-450b-b0e5-5d3d467f70ce/Option_2": {
+      "en": "（婉言谢绝……）\n",
+      "cn": null,
+      "ru": "(Вежливо отклонено...)\n",
+      "status": "machine",
+      "srcHash": "8f27ed4b7e58f283",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "753cde6b-e7d5-4027-9cea-42876d5cfe3e/EventContent": {
+      "en": "“小僧偶然得此<Item key=道具 str=ColorName/>一物，<NL>于施主或有用处，若施主不弃，还请收下……”<NL>小和尚自怀中取出一物，赠予<Character key=RoleTaiwu str=Name />……",
+      "cn": null,
+      "ru": "- Маленький монах получил это случайно<Item key=道具 str=ColorName/>Одна вещь，<NL>Это может быть полезно донору, если донор не сдастся, пожалуйста, примите это...”<NL>Маленький монах взял что-то у него из рук и отдал это<Character key=RoleTaiwu str=Name />……",
+      "status": "machine",
+      "srcHash": "74e085e6c6c9038b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "753cde6b-e7d5-4027-9cea-42876d5cfe3e/Option_1": {
+      "en": "（收入囊中……）",
+      "cn": null,
+      "ru": "(В сумке...)",
+      "status": "machine",
+      "srcHash": "585e0fe03e49af56",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "2297999d7257c701"
+    },
+    "753cde6b-e7d5-4027-9cea-42876d5cfe3e/Option_2": {
+      "en": "（婉言谢绝……）\n",
+      "cn": null,
+      "ru": "(Вежливо отклонено...)\n",
+      "status": "machine",
+      "srcHash": "8f27ed4b7e58f283",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "b46c3ca2-bc6b-4f6b-95e9-70f9d4c8db59/EventContent": {
+      "en": "“如此……<NL>想来机缘未至，倒是小僧多事了……”<NL>小和尚虽有些不解，却也未再多言，只将那物收回怀中，<NL>双手合十一礼，便即告别而去……",
+      "cn": null,
+      "ru": "«Вот как……<NL>Похоже, время ещё не пришло; это я, маленький монах, вмешался не к месту……»<NL>Хотя маленький монах был немного озадачен, он больше ничего не сказал, лишь убрал вещь обратно за пазуху,<NL>сложил ладони и поклонился, после чего попрощался и ушёл……",
+      "status": "judged",
+      "srcHash": "c235af6c2e0858b7",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "c5a87023afee505d"
+    },
+    "b46c3ca2-bc6b-4f6b-95e9-70f9d4c8db59/Option_1": {
+      "en": "（如此便好……）\n",
+      "cn": null,
+      "ru": "(Вот и все......)\n",
+      "status": "machine",
+      "srcHash": "d26112c17ecd52b3",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "e081509c19214202"
+    },
+    "83766c33-8f41-4c4e-8c75-4b9786421cfd/EventContent": {
+      "en": "“只盼此物能对施主有所助益，小僧便也心安了……”<NL>小和尚双手合十，躬身一礼，转身缓步而去……",
+      "cn": null,
+      "ru": "“Я просто надеюсь, что эта вещь поможет жертвователю, и маленький монах будет чувствовать себя спокойно...”<NL>Маленький монах сложил ладони вместе, поклонился, повернулся и медленно пошел прочь.……",
+      "status": "machine",
+      "srcHash": "05ec72c0c34487f7",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "7dbfa68127810a25"
+    },
+    "83766c33-8f41-4c4e-8c75-4b9786421cfd/Option_1": {
+      "en": "（如此便好……）\n",
+      "cn": null,
+      "ru": "(Вот и все......)\n",
+      "status": "machine",
+      "srcHash": "d26112c17ecd52b3",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "e081509c19214202"
+    },
+    "5b69e8da-4941-42ff-8aa0-feea0cf5158c/EventContent": {
+      "en": "只见小和尚缓步寻来，颔首言道：<NL>“小僧偶然得此<Item key=道具 str=ColorName/>一物，于施主或有用处，若施主不弃，还请收下……”<NL><NL>又见其自怀中取出一物，似是意欲赠予<Character key=RoleTaiwu str=Name />……",
+      "cn": null,
+      "ru": "Маленький монах медленно подошёл, кивнул и сказал:<NL>«Мне случайно досталась эта вещь<Item key=道具 str=ColorName/>; возможно, она пригодится вам. Если вы не откажетесь, прошу, возьмите её……»<NL><NL>Он достал вещь из-за пазухи и, похоже, хотел подарить её <Character key=RoleTaiwu str=Name />……",
+      "status": "judged",
+      "srcHash": "7b86b6ac91090961",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "be49bd33eefca0e0"
+    },
+    "5b69e8da-4941-42ff-8aa0-feea0cf5158c/Option_1": {
+      "en": "（收入囊中……）",
+      "cn": null,
+      "ru": "(В сумке...)",
+      "status": "machine",
+      "srcHash": "585e0fe03e49af56",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "2297999d7257c701"
+    },
+    "5b69e8da-4941-42ff-8aa0-feea0cf5158c/Option_2": {
+      "en": "（婉言谢绝……）\n",
+      "cn": null,
+      "ru": "(Вежливо отклонено...)\n",
+      "status": "machine",
+      "srcHash": "8f27ed4b7e58f283",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "03b6783a-38ce-4d60-8fdb-6272e4d7f527/EventContent": {
+      "en": "小和尚静候多时，似有一物，意欲相赠……",
+      "cn": null,
+      "ru": "Маленький монах долго ждал, похоже, он хочет что-то подарить…",
+      "status": "judged",
+      "srcHash": "bdb5c7942f76a334",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "03f42b1feccd20e4"
+    },
+    "03b6783a-38ce-4d60-8fdb-6272e4d7f527/Option_1": {
+      "en": "（查看赠礼……）",
+      "cn": null,
+      "ru": "(Ознакомьтесь с подарком...)",
+      "status": "machine",
+      "srcHash": "fa909a627fc80372",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "4ccd6f217778ac56"
+    },
+    "03b6783a-38ce-4d60-8fdb-6272e4d7f527/Option_2": {
+      "en": "（置之不理……）\n",
+      "cn": null,
+      "ru": "（игнорировать……）\n",
+      "status": "machine",
+      "srcHash": "81139319b4ce9105",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "a79902964328caee"
+    },
+    "99a6c8bf-bdf8-4ede-84a0-cdcbd783289b/EventContent": {
+      "en": "\n",
+      "cn": "\n",
+      "ru": "\n",
+      "status": "machine",
+      "srcHash": "170fb78405907811",
+      "engine": "neutral",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "763d8e82-df79-41f5-9655-39b011765353/EventContent": {
+      "en": "“你这小娃，行事当真出人意料！<NL>不过，老夫早已腻了这木头身子，<NL>若能超脱尘世，便是天大的好事，老夫自然盼你马到功成……”<NL>徐仙公言罢，面上神情似喜还悲，双目遥遥望向天际，满是说不尽的期许与向往……",
+      "cn": null,
+      "ru": "«Эй, малец, от тебя и вправду всего можно ожидать!<NL>Однако старик уже давно устал от этого деревянного тела.<NL>Если удастся вырваться за пределы мирской суеты, это будет величайшим благом. Разумеется, старик желает, чтобы ты добился успеха……»<NL>Сюй Сяньгун умолк; на его лице смешались радость и печаль, а глаза устремились вдаль, к небесам, исполненные невыразимых надежд и чаяний……",
+      "status": "judged",
+      "srcHash": "42d221163a187872",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "127c040383e20b1f"
+    },
+    "763d8e82-df79-41f5-9655-39b011765353/Option_1": {
+      "en": "（暂且告别……）\n",
+      "cn": null,
+      "ru": "(Попрощайся на время...)\n",
+      "status": "machine",
+      "srcHash": "7a1793a80945f92b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "deed890476f55eb4"
+    },
+    "22095131-08f0-4da7-b4af-3691993f94b4/EventContent": {
+      "en": "太吾战斗失败..",
+      "cn": null,
+      "ru": "Тайу потерпел поражение в битве..",
+      "status": "judged",
+      "srcHash": "90008614e30073b1",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "eafc0eef799522f0"
+    },
+    "22095131-08f0-4da7-b4af-3691993f94b4/Option_1": {
+      "en": "无可奈何\n",
+      "cn": null,
+      "ru": "Беспомощный\n",
+      "status": "machine",
+      "srcHash": "4f7b165c06eff25a",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "83620a36c33752a1"
+    },
+    "e83c9542-240b-4cc1-b772-9d87f0190b03/EventContent": {
+      "en": "\n",
+      "cn": "\n",
+      "ru": "\n",
+      "status": "machine",
+      "srcHash": "170fb78405907811",
+      "engine": "neutral",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "5dc19550-f332-4573-ad7f-ec2c2dbf1361/EventContent": {
+      "en": "<Character key=Character str=Name/>与<Character key=RoleTaiwu str=Name/>一战落败，<NL>神识自玄狱幽冥中忽而一瞬清明，<NL>自陈不愿再受相枢罪业折磨，望<Character key=RoleTaiwu str=Name/>助其从玄狱中解脱……",
+      "cn": null,
+      "ru": "<Character key=Character str=Name/>и<Character key=RoleTaiwu str=Name/>Потерпел поражение в Первой мировой войне，<NL>Божественное сознание внезапно на мгновение прояснилось из преисподней таинственной тюрьмы，<NL>Поскольку Чэнь больше не хотел, чтобы его мучила преступная карма Сяншу, он надеялся<Character key=RoleTaiwu str=Name/>Помогите ему освободиться из таинственной тюрьмы……",
+      "status": "machine",
+      "srcHash": "413d139007e0877d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "5dc19550-f332-4573-ad7f-ec2c2dbf1361/Option_1": {
+      "en": "（斩除爪牙……）",
+      "cn": null,
+      "ru": "(Уничтожить приспешников…)",
+      "status": "judged",
+      "srcHash": "9235bb20fc225de1",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "1de9ddac5dc58754"
+    },
+    "5dc19550-f332-4573-ad7f-ec2c2dbf1361/Option_2": {
+      "en": "（收为同道……）",
+      "cn": null,
+      "ru": "(Принять в союзники…)",
+      "status": "judged",
+      "srcHash": "316129f0bb5aeb9d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "2b73c958af0574ea"
+    },
+    "5dc19550-f332-4573-ad7f-ec2c2dbf1361/Option_3": {
+      "en": "（令其回村……）\n",
+      "cn": null,
+      "ru": "(Пусть возвращается в деревню...)\n",
+      "status": "machine",
+      "srcHash": "830425aa6800ffa0",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "d103361f9a4d9936"
+    },
+    "938b06f7-bfea-4488-83b6-2a79f3490132/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/>在<Character key=RoleTaiwu str=CurBlock/>遭遇了<TemplateCharacter key=CharacterTemplateId str=Name/>，<NL><TemplateCharacter key=CharacterTemplateId str=Name/>一看到<Character key=RoleTaiwu str=Name/>的面孔，便吓得落荒而逃……",
+      "cn": null,
+      "ru": "<Character key=RoleTaiwu str=Name/> встретил в <Character key=RoleTaiwu str=CurBlock/> персонажа <TemplateCharacter key=CharacterTemplateId str=Name/>,<NL>но, едва увидев лицо <Character key=RoleTaiwu str=Name/>, <TemplateCharacter key=CharacterTemplateId str=Name/> в страхе бросился бежать……",
+      "status": "judged",
+      "srcHash": "6f9ae1c9864deda2",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "8b9f45cb18b755f8"
+    },
+    "938b06f7-bfea-4488-83b6-2a79f3490132/Option_1": {
+      "en": "（驱灭爪牙……）",
+      "cn": null,
+      "ru": "(Изгони миньонов...)",
+      "status": "machine",
+      "srcHash": "8c8386cdc572aa1e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "b0fb82effab9f6bb"
+    },
+    "938b06f7-bfea-4488-83b6-2a79f3490132/Option_2": {
+      "en": "（迎战爪牙……）",
+      "cn": null,
+      "ru": "(Вступить в бой с приспешниками…)",
+      "status": "judged",
+      "srcHash": "7d2c98ff841af856",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "0ccd246484c796ab"
+    },
+    "938b06f7-bfea-4488-83b6-2a79f3490132/Option_3": {
+      "en": "（置之不理……）\n",
+      "cn": null,
+      "ru": "（игнорировать……）\n",
+      "status": "machine",
+      "srcHash": "81139319b4ce9105",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "a79902964328caee"
+    },
+    "71e70ab8-89d7-4f8b-b15e-d108238b362a/EventContent": {
+      "en": "\n",
+      "cn": "\n",
+      "ru": "\n",
+      "status": "machine",
+      "srcHash": "170fb78405907811",
+      "engine": "neutral",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "6dc979de-6691-4cd9-a09b-2e91468c8268/EventContent": {
+      "en": "<TemplateCharacter key=CharacterTemplateId str=Name/>与<Character key=RoleTaiwu str=Name/>一战落败，<NL>神识自玄狱幽冥中忽而一瞬清明，<NL>自陈不愿再受相枢罪业折磨，望<Character key=RoleTaiwu str=Name/>助其从玄狱中解脱……",
+      "cn": null,
+      "ru": "<TemplateCharacter key=CharacterTemplateId str=Name/>и<Character key=RoleTaiwu str=Name/>Потерпел поражение в Первой мировой войне，<NL>Божественное сознание внезапно на мгновение прояснилось из преисподней таинственной тюрьмы，<NL>Поскольку Чэнь больше не хотел, чтобы его мучила преступная карма Сяншу, он надеялся<Character key=RoleTaiwu str=Name/>Помогите ему освободиться из таинственной тюрьмы……",
+      "status": "machine",
+      "srcHash": "7d7c692ef4eb1942",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "6dc979de-6691-4cd9-a09b-2e91468c8268/Option_1": {
+      "en": "（斩除爪牙……）",
+      "cn": null,
+      "ru": "(Уничтожить приспешников…)",
+      "status": "judged",
+      "srcHash": "9235bb20fc225de1",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "1de9ddac5dc58754"
+    },
+    "6dc979de-6691-4cd9-a09b-2e91468c8268/Option_2": {
+      "en": "（收为同道……）",
+      "cn": null,
+      "ru": "(Принять в союзники…)",
+      "status": "judged",
+      "srcHash": "316129f0bb5aeb9d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "2b73c958af0574ea"
+    },
+    "6dc979de-6691-4cd9-a09b-2e91468c8268/Option_3": {
+      "en": "（令其回村……）",
+      "cn": null,
+      "ru": "(Пусть возвращается в деревню...)",
+      "status": "machine",
+      "srcHash": "ec409f54a9be29ef",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "1c19d4c8ddcbd0c3"
+    },
+    "6dc979de-6691-4cd9-a09b-2e91468c8268/Option_4": {
+      "en": "（令其自行离去……）\n",
+      "cn": null,
+      "ru": "(Пусть он уйдет сам...)\n",
+      "status": "machine",
+      "srcHash": "8e1dc8a15bad5bc2",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "ca8bdea7b8ad24de"
+    },
+    "f525918c-6322-4f59-b7ab-25daf72effe9/EventContent": {
+      "en": "\n",
+      "cn": "\n",
+      "ru": "\n",
+      "status": "machine",
+      "srcHash": "170fb78405907811",
+      "engine": "neutral",
+      "updatedAt": "2026-09-30T07:57:15.301Z"
+    },
+    "bfafa06c-41e5-4980-a273-e60bb3a00b5f/EventContent": {
+      "en": "<Character key=RoleTaiwu str=Name/>遭遇了<Character key=Character str=Name/>，<NL><Character key=Character str=Name/>一看到<Character key=RoleTaiwu str=Name/>的面孔，便吓得落荒而逃……",
+      "cn": null,
+      "ru": "<Character key=RoleTaiwu str=Name/> встретил <Character key=Character str=Name/>,<NL>но, едва увидев лицо <Character key=RoleTaiwu str=Name/>, <Character key=Character str=Name/> в страхе бросился бежать……",
+      "status": "judged",
+      "srcHash": "51ce61dbf6c2fc7b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "c27ae4fa50e5a817"
+    },
+    "bfafa06c-41e5-4980-a273-e60bb3a00b5f/Option_1": {
+      "en": "（驱灭爪牙……）",
+      "cn": null,
+      "ru": "(Изгони миньонов...)",
+      "status": "machine",
+      "srcHash": "8c8386cdc572aa1e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "b0fb82effab9f6bb"
+    },
+    "bfafa06c-41e5-4980-a273-e60bb3a00b5f/Option_2": {
+      "en": "（迎战爪牙……）",
+      "cn": null,
+      "ru": "(Вступить в бой с приспешниками…)",
+      "status": "judged",
+      "srcHash": "7d2c98ff841af856",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "0ccd246484c796ab"
+    },
+    "bfafa06c-41e5-4980-a273-e60bb3a00b5f/Option_3": {
+      "en": "（置之不理……）\n",
+      "cn": null,
+      "ru": "（игнорировать……）\n",
+      "status": "machine",
+      "srcHash": "81139319b4ce9105",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "a79902964328caee"
+    },
+    "de67e322-1660-49d3-b011-6779fb402ffa/EventContent": {
+      "en": "“如今天下大乱，千灾百难，我有心守道持中，<NL>然而太吾村中现下魔气汇聚，远非我凡人之力可以所能承当，<NL>恕我无法襄助于你，同往太吾村……”",
+      "cn": null,
+      "ru": "«Ныне Поднебесная охвачена смутой, повсюду бедствия и несчастья. Я желал бы хранить Дао и придерживаться середины,<NL>но в деревне Тайу ныне скопилась демоническая энергия, и моим смертным силам не вынести её,<NL>простите, но я не могу помочь вам и отправиться вместе с вами в деревню Тайу……»",
+      "status": "judged",
+      "srcHash": "7e52c20611d471ec",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "28356d7e8b9236a2"
+    },
+    "de67e322-1660-49d3-b011-6779fb402ffa/Option_1": {
+      "en": "（无可奈何……）\n",
+      "cn": null,
+      "ru": "(Беспомощный......)\n",
+      "status": "machine",
+      "srcHash": "cdb77f9c66d4995f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "ddd7ff439a017d4f"
+    },
+    "f1457fd8-7146-4c79-b292-ec75301b7294/EventContent": {
+      "en": "“如今生灵涂炭，大劫当前，我不忍坐视苍生受难，<NL>只是太吾村中现下魔气汇聚，如此伟力令我心生畏惧，不敢近前，<NL>恕我无法襄助于你，同往太吾村……”",
+      "cn": null,
+      "ru": "«Ныне живые существа страдают, и великое бедствие уже близко; я не могу сидеть сложа руки, пока народ терпит мучения,<NL>но в деревне Тайу ныне скопилась демоническая энергия, и её могущество внушает мне страх, так что я не осмеливаюсь приблизиться,<NL>простите, но я не могу помочь вам и отправиться вместе с вами в деревню Тайу……»",
+      "status": "judged",
+      "srcHash": "a5ff36bf48a34481",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "43a492be3911029b"
+    },
+    "f1457fd8-7146-4c79-b292-ec75301b7294/Option_1": {
+      "en": "（无可奈何……）\n",
+      "cn": null,
+      "ru": "(Беспомощный......)\n",
+      "status": "machine",
+      "srcHash": "cdb77f9c66d4995f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "ddd7ff439a017d4f"
+    },
+    "bc5c17fe-94a0-4361-99d6-4328630d2a56/EventContent": {
+      "en": "“如今天地倾覆，正当危急存亡之时，我虽有救世除魔之愿，<NL>然太吾村中现下魔气汇聚，我不应涉足，<NL>恕我无法襄助于你，同往太吾村……”",
+      "cn": null,
+      "ru": "«Ныне небо и земля рушатся, и настал час решающей борьбы за жизнь; я желал бы спасти мир и уничтожить демонов,<NL>но в деревне Тайу ныне скопилась демоническая энергия, и мне не следует туда вмешиваться,<NL>простите, но я не могу помочь вам и отправиться вместе с вами в деревню Тайу……»",
+      "status": "judged",
+      "srcHash": "1aa22dc821f288b9",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "62104427a3fd215e"
+    },
+    "bc5c17fe-94a0-4361-99d6-4328630d2a56/Option_1": {
+      "en": "（无可奈何……）\n",
+      "cn": null,
+      "ru": "(Беспомощный......)\n",
+      "status": "machine",
+      "srcHash": "cdb77f9c66d4995f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "ddd7ff439a017d4f"
+    },
+    "b4f156cc-52cc-4b40-93db-32434d845434/EventContent": {
+      "en": "“如今世间妖魔横行，多有不测之忧，我不能如往日般朝欢暮乐，<NL>太吾村中现下魔气汇聚，却远非我凡人之力可以窥测，<NL>既难得其中玄妙，又不得个中趣味，着实非我所愿，<NL>故无法襄助于你，同往太吾村……”",
+      "cn": null,
+      "ru": "«Ныне мир кишит демонами, и повсюду таятся опасности; я уже не могу, как прежде, предаваться веселью с утра до вечера,<NL>в деревне Тайу ныне скопилась демоническая энергия, недоступная пониманию смертного,<NL>мне не постичь её тайны и не познать её прелести — это вовсе не по мне,<NL>поэтому я не могу помочь вам и отправиться вместе с вами в деревню Тайу……»",
+      "status": "judged",
+      "srcHash": "d0727658a2ce46c7",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "f05e7030823a606f"
+    },
+    "b4f156cc-52cc-4b40-93db-32434d845434/Option_1": {
+      "en": "（无可奈何……）\n",
+      "cn": null,
+      "ru": "(Беспомощный......)\n",
+      "status": "machine",
+      "srcHash": "cdb77f9c66d4995f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "ddd7ff439a017d4f"
+    },
+    "5151f30f-3262-44ff-b466-67ea0fbcd79a/EventContent": {
+      "en": "“如今世间妖魔横行，多有不测之忧，我不能如往日般朝欢暮乐，<NL>太吾村中现下魔气汇聚，却远非我凡人之力可以窥测，<NL>既难得其中玄妙，又不得个中趣味，着实非我所愿，<NL>故无法襄助于你，同往太吾村……”",
+      "cn": null,
+      "ru": "«Ныне мир кишит демонами, и повсюду таятся опасности; я уже не могу, как прежде, предаваться веселью с утра до вечера,<NL>в деревне Тайу ныне скопилась демоническая энергия, недоступная пониманию смертного,<NL>мне не постичь её тайны и не познать её прелести — это вовсе не по мне,<NL>поэтому я не могу помочь вам и отправиться вместе с вами в деревню Тайу……»",
+      "status": "judged",
+      "srcHash": "d0727658a2ce46c7",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T08:07:08.833Z",
+      "judgeHash": "f05e7030823a606f"
+    },
+    "5151f30f-3262-44ff-b466-67ea0fbcd79a/Option_1": {
+      "en": "（无可奈何……）\n",
+      "cn": null,
+      "ru": "(Беспомощный......)\n",
+      "status": "machine",
+      "srcHash": "cdb77f9c66d4995f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T07:57:15.301Z",
+      "judgeHash": "ddd7ff439a017d4f"
+    }
+  }
+}
