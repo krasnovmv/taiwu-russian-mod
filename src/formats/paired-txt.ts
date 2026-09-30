@@ -65,6 +65,16 @@ export function serializeRaw(file: RawTextFile): string {
 }
 
 /**
+ * Split a multi-line value into its body and its trailing newlines — in the
+ * anchored formats those are the blank lines separating it from the next
+ * anchor, which must stay last when segments are inserted after it.
+ */
+export function splitTrailingNewlines(value: string): { body: string; tail: string } {
+  const tail = /\n*$/.exec(value)![0];
+  return { body: value.slice(0, value.length - tail.length), tail };
+}
+
+/**
  * Parse into the semantic key/value view used by the pipeline.
  *
  * Collects non-fatal {@link ParseResult.warnings} instead of throwing, so a

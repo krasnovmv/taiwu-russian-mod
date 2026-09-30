@@ -136,3 +136,83 @@ test("extract without markers yields a warning, no units", () => {
   assert.equal(units.length, 0);
   assert.ok(warnings.length > 0);
 });
+
+test("a stale EN event takes every option from CN and gets the missing ones", () => {
+  // CN inserted a new Option_2, so EN Option_2 is really the game's Option_3.
+  const en =
+    "- EventGuid : g1\n" +
+    "\t- EventName : n\n" +
+    "\t\t-- EventContent : Hi.\n" +
+    "\t\t-- Option_1 : Ask.\n" +
+    "\t\t-- Option_2 : Leave.\n" +
+    "\n" +
+    "- EventGuid : g2\n" +
+    "\t- EventName : m\n" +
+    "\t\t-- EventContent : Yo.\n" +
+    "\t\t-- Option_1 : Ok.\n";
+  const cn =
+    "- EventGuid : g1\n" +
+    "\t- EventName : n\n" +
+    "\t\t-- EventContent : 你好。\n" +
+    "\t\t-- Option_1 : 问。\n" +
+    "\t\t-- Option_2 : 新。\n" +
+    "\t\t-- Option_3 : 走。\n" +
+    "- EventGuid : g2\n" +
+    "\t- EventName : m\n" +
+    "\t\t-- EventContent : 哟。\n" +
+    "\t\t-- Option_1 : 好。\n";
+  const { units, onlyCn } = eventLanguagesAdapter.extract(en, cn);
+  assert.deepEqual(onlyCn, []);
+  const byKey = new Map(units.map((u) => [u.key, u]));
+  assert.deepEqual(byKey.get("g1/Option_2"), {
+    key: "g1/Option_2",
+    en: "新。",
+    cn: null,
+    srcLang: "zh",
+  });
+  assert.equal(byKey.get("g1/Option_3")?.en, "走。");
+  assert.equal(byKey.get("g1/EventContent")?.en, "Hi."); // content stays EN-sourced
+  assert.equal(byKey.get("g2/Option_1")?.en, "Ok."); // other events untouched
+
+  const map = new Map(units.map((u) => [u.key, `RU(${u.en})`]));
+  const out = eventLanguagesAdapter.apply(en, map);
+  assert.equal(out.guardOk, true, out.guardError ?? "");
+  assert.equal(
+    out.content,
+    "- EventGuid : g1\n" +
+      "\t- EventName : n\n" +
+      "\t\t-- EventContent : RU(Hi.)\n" +
+      "\t\t-- Option_1 : RU(问。)\n" +
+      "\t\t-- Option_2 : RU(新。)\n" +
+      "\t\t-- Option_3 : RU(走。)\n" +
+      "\n" +
+      "- EventGuid : g2\n" +
+      "\t- EventName : m\n" +
+      "\t\t-- EventContent : RU(Yo.)\n" +
+      "\t\t-- Option_1 : RU(Ok.)\n",
+  );
+});
+
+test("an EN event is stale whenever its option shape disagrees with CN", () => {
+  const block = (lang: string, opts: string[]) =>
+    `- EventGuid : g1\n\t- EventName : n\n\t\t-- EventContent : ${lang}\n` +
+    opts.map((o, i) => `\t\t-- Option_${i + 1} : ${o}\n`).join("");
+  const zhKeys = (en: string, cn: string) =>
+    eventLanguagesAdapter
+      .extract(en, cn)
+      .units.filter((u) => u.srcLang === "zh")
+      .map((u) => u.key);
+  // Same count, different repeats: EN lost the distinct texts of 2 and 3.
+  assert.deepEqual(zhKeys(block("x", ["A", "B", "B"]), block("甲", ["甲", "乙", "丙"])), [
+    "g1/Option_1",
+    "g1/Option_2",
+    "g1/Option_3",
+  ]);
+  // EN has an option CN dropped: the CN ones are re-sourced, the extra keeps EN.
+  assert.deepEqual(zhKeys(block("x", ["A", "B", "C"]), block("甲", ["甲", "乙"])), [
+    "g1/Option_1",
+    "g1/Option_2",
+  ]);
+  // Matching shape: nothing changes.
+  assert.deepEqual(zhKeys(block("x", ["A", "A", "C"]), block("甲", ["甲", "甲", "丙"])), []);
+});

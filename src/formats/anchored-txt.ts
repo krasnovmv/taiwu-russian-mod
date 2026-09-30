@@ -14,7 +14,7 @@
  */
 import type { RawTextFile } from "../model/types.js";
 import type { ApplyOutcome, ExtractResult, FormatAdapter, SourceUnit } from "./adapter.js";
-import { parsePairs, parseRaw, serializeRaw } from "./paired-txt.js";
+import { parsePairs, parseRaw, serializeRaw, splitTrailingNewlines } from "./paired-txt.js";
 
 interface Segment {
   key: string;
@@ -143,16 +143,9 @@ export const anchoredTxtAdapter: FormatAdapter = {
     }
     if (appended.length > 0) {
       const last = newSegments[newSegments.length - 1]!;
-      const lastLines = last.value.split("\n");
-      let blanks = 0;
-      while (blanks < lastLines.length - 1 && lastLines[lastLines.length - 1 - blanks] === "")
-        blanks++;
-      newSegments[newSegments.length - 1] = {
-        ...last,
-        value: lastLines.slice(0, lastLines.length - blanks).join("\n"),
-      };
-      const tail = appended[appended.length - 1]!;
-      tail.value += "\n".repeat(blanks);
+      const { body, tail } = splitTrailingNewlines(last.value);
+      newSegments[newSegments.length - 1] = { ...last, value: body };
+      appended[appended.length - 1]!.value += tail;
       newSegments.push(...appended);
     }
 

@@ -30,7 +30,7 @@
  */
 import type { RawTextFile } from "../model/types.js";
 import type { ApplyOutcome, ExtractResult, FormatAdapter, SourceUnit } from "./adapter.js";
-import { parseRaw, serializeRaw } from "./paired-txt.js";
+import { parseRaw, serializeRaw, splitTrailingNewlines } from "./paired-txt.js";
 
 /** Marker line: `<indent><dashes> <Marker> : <inline value>`. */
 const ANCHOR_RE =
@@ -53,9 +53,54 @@ interface Segmentation {
   segments: Segment[];
 }
 
+const OPTION_RE = /^Option_\d+$/;
+
 /** True for the player-facing markers we translate. */
 function isTranslatable(marker: string): boolean {
-  return marker === "EventContent" || /^Option_\d+$/.test(marker);
+  return marker === "EventContent" || OPTION_RE.test(marker);
+}
+
+/** `<guid>/<marker>` key → its GUID. */
+function guidOf(key: string): string {
+  return key.slice(0, key.lastIndexOf("/"));
+}
+
+/** `<guid>/<marker>` key → its marker. */
+function markerOf(key: string): string {
+  return key.slice(key.lastIndexOf("/") + 1);
+}
+
+function isOptionKey(key: string): boolean {
+  return OPTION_RE.test(markerOf(key));
+}
+
+function optionNumber(key: string): number {
+  return Number(key.slice(key.lastIndexOf("_") + 1));
+}
+
+/** Non-blank option values per GUID (`Option_N` number → trimmed text). */
+function optionsByGuid(
+  entries: Iterable<[string | null, string]>,
+): Map<string, Map<number, string>> {
+  const out = new Map<string, Map<number, string>>();
+  for (const [key, value] of entries) {
+    if (key === null || !isOptionKey(key) || !value.trim()) continue;
+    const guid = guidOf(key);
+    if (!out.has(guid)) out.set(guid, new Map());
+    out.get(guid)!.set(optionNumber(key), value.trim());
+  }
+  return out;
+}
+
+/**
+ * Language-independent shape of an event's options: which numbers exist and
+ * which of them repeat an earlier one ("1:0 2:0 3:2" = options 1 and 2 share a
+ * text). EN and CN agree on it unless the EN options are out of date.
+ */
+function optionShape(options: Map<number, string> | undefined): string {
+  const sorted = [...(options ?? [])].sort(([a], [b]) => a - b);
+  const texts = sorted.map(([, text]) => text);
+  return sorted.map(([n, text]) => `${n}:${texts.indexOf(text)}`).join(" ");
 }
 
 /** Split raw lines into the leading prefix and one segment per marker line. */
@@ -130,12 +175,41 @@ export const eventLanguagesAdapter: FormatAdapter = {
       }
     }
 
+    const enKeyed = keyedSegments(seg.segments);
+    const enGuids = new Set(enKeyed.flatMap(({ key }) => (key === null ? [] : [guidOf(key)])));
+    const fromCn = (key: string): SourceUnit | null => {
+      const cn = cnMap.get(key);
+      // Drop the blank line that separates CN events; apply keeps the EN one.
+      return cn?.trim() ? { key, en: cn.replace(/\n+$/, ""), cn: null, srcLang: "zh" } : null;
+    };
+    // An event whose EN option set disagrees with CN is a stale EN event: the
+    // developers (who write in Chinese) inserted, removed or reordered options,
+    // so EN Option_N no longer lines up with the game's Option_N. CN is the
+    // truth; translate every option of such an event from Chinese.
+    const enOptions = optionsByGuid(enKeyed.map(({ seg: s, key }) => [key, s.value]));
+    const cnOptions = optionsByGuid(cnMap);
+    const stale = new Set(
+      [...cnOptions]
+        .filter(
+          ([guid, cn]) => enGuids.has(guid) && optionShape(cn) !== optionShape(enOptions.get(guid)),
+        )
+        .map(([guid]) => guid),
+    );
+
     const units: SourceUnit[] = [];
     const seen = new Set<string>();
-    for (const { seg: s, key } of keyedSegments(seg.segments)) {
+    for (const { seg: s, key } of enKeyed) {
       if (key === null || seen.has(key)) continue;
       seen.add(key);
-      units.push({ key, en: s.value, cn: cnMap.has(key) ? (cnMap.get(key) ?? null) : null });
+      const zh = stale.has(guidOf(key)) && isOptionKey(key) ? fromCn(key) : null;
+      units.push(zh ?? { key, en: s.value, cn: cnMap.get(key) ?? null });
+    }
+    // The stale events' extra options; `apply` inserts them into their event.
+    for (const key of cnMap.keys()) {
+      if (seen.has(key) || !stale.has(guidOf(key))) continue;
+      seen.add(key);
+      const zh = fromCn(key);
+      if (zh) units.push(zh);
     }
     const onlyCn = [...cnMap.keys()].filter((k) => !seen.has(k));
     return { units, onlyCn, warnings: [] };
@@ -161,23 +235,64 @@ export const eventLanguagesAdapter: FormatAdapter = {
     }
 
     let applied = 0;
-    const newSegments = keyedSegments(seg.segments).map(({ seg: s, key }) => {
-      if (key === null) return s;
-      const ru = translations.get(key);
-      if (ru == null || ru === s.value) return s;
+    const keyed = keyedSegments(seg.segments);
+    const enKeys = new Set(keyed.flatMap(({ key }) => (key === null ? [] : [key])));
+    // Options the EN event lacks (a stale EN event, see `extract`), per GUID.
+    const extra = new Map<string, string[]>();
+    for (const [key, ru] of translations) {
+      if (enKeys.has(key) || ru == null || !isOptionKey(key)) continue;
+      const guid = guidOf(key);
+      extra.set(guid, [...(extra.get(guid) ?? []), key]);
+    }
+
+    const newSegments: Segment[] = [];
+    // The current event: its GUID and its last translatable segment, whose
+    // line prefix the inserted options copy.
+    let block: { guid: string; template: Segment } | null = null;
+    // Close the current event block: insert its extra options after its last
+    // segment, moving that segment's trailing blank lines past them.
+    const flush = (): void => {
+      const keys = block ? extra.get(block.guid) : undefined;
+      if (block && keys) {
+        const last = newSegments[newSegments.length - 1]!;
+        const { body, tail } = splitTrailingNewlines(last.value);
+        newSegments[newSegments.length - 1] = { ...last, value: body };
+        const { template } = block;
+        for (const key of keys.sort((a, b) => optionNumber(a) - optionNumber(b))) {
+          const marker = markerOf(key);
+          const prefix = template.prefix.replace(template.marker, marker);
+          newSegments.push({ marker, prefix, value: translations.get(key)! });
+          applied++;
+        }
+        newSegments[newSegments.length - 1]!.value += tail;
+      }
+      block = null;
+    };
+    for (const { seg: s, key } of keyed) {
+      if (s.marker === "EventGuid") flush();
+      if (key !== null) block = { guid: guidOf(key), template: s };
+      const ru = key === null ? null : translations.get(key);
+      if (ru == null || ru === s.value) {
+        newSegments.push(s);
+        continue;
+      }
       applied++;
-      return { ...s, value: ru };
-    });
+      // A CN-sourced option (stale event) lacks the EN value's trailing blank
+      // lines, which separate this event from the next; keep them.
+      const { tail } = splitTrailingNewlines(s.value);
+      newSegments.push({ ...s, value: ru.endsWith("\n") ? ru : ru + tail });
+    }
+    flush();
 
     const content = reconstruct(seg.prefix, newSegments, raw);
 
-    // Post-guard: re-segmenting must reproduce the same anchor sequence — a
+    // Post-guard: re-segmenting must reproduce the expected anchor sequence — a
     // translation that injected a marker-shaped line would desync the file.
     const reseg = segment(parseRaw(content).lines);
     const sameShape =
       reseg.ok &&
-      reseg.segments.length === seg.segments.length &&
-      reseg.segments.every((s, i) => s.prefix === seg.segments[i]?.prefix);
+      reseg.segments.length === newSegments.length &&
+      reseg.segments.every((s, i) => s.prefix === newSegments[i]?.prefix);
     if (!sameShape) return fail("post-apply anchor sequence drift");
 
     return { content, applied, unsafe: 0, unsafeKeys: [], guardOk: true };
