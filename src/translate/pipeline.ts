@@ -27,7 +27,7 @@ import { loadGlossary } from "../glossary/load.js";
 import { TM_SCHEMA_VERSION, type TmFile, type TmUnit } from "../model/tm.js";
 import { makeSrcHasher, type SrcHasher } from "../tm/hash.js";
 import { loadTm, saveTm, tmKey } from "../tm/store.js";
-import { chineseLeftovers } from "../validate/qa.js";
+import { chineseLeftovers, gameQuotes } from "../validate/qa.js";
 
 export interface TranslateOptions {
   /** Translate at most this many pending units (for sampling/dry runs). */
@@ -283,11 +283,12 @@ export async function translateFile(
         failures.push({ key: item.unit.key, error: restored.error ?? "restore failed" });
         return; // leave the pending placeholder in place
       }
+      const text = gameQuotes(restored.text);
       // A blank output for a text that had translatable letters is a refusal or
       // degenerate reply, never a translation. Rejected like broken markup —
       // counted, reported, left pending — so the TM never takes what
       // `npm run validate` would flag as `empty-output`.
-      if (item.masked.translatable && restored.text.trim() === "") {
+      if (item.masked.translatable && text.trim() === "") {
         failed++;
         failures.push({ key: item.unit.key, error: "empty engine output" });
         return;
@@ -296,7 +297,7 @@ export async function translateFile(
       // zh-source unit back untranslated, or the CN original leaked through a name
       // it gave up on. Rejected exactly like broken markup — counted, reported and
       // left pending — so the TM never takes what `npm run validate` would flag.
-      const hanzi = chineseLeftovers(restored.text);
+      const hanzi = chineseLeftovers(text);
       if (hanzi.length > 0) {
         failed++;
         failures.push({ key: item.unit.key, error: `Chinese in RU: ${hanzi.join(" ")}` });
@@ -308,7 +309,7 @@ export async function translateFile(
       if (
         before &&
         before.status === "machine" &&
-        before.ru === restored.text &&
+        before.ru === text &&
         before.srcHash === item.hash &&
         before.engine === engine.id
       ) {
@@ -318,7 +319,7 @@ export async function translateFile(
       units[item.unit.key] = {
         en: item.unit.en,
         cn: item.unit.cn,
-        ru: restored.text,
+        ru: text,
         status: "machine",
         srcHash: item.hash,
         engine: engine.id,

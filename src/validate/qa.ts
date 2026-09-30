@@ -38,6 +38,7 @@ export type IssueKind =
   | "length-bloat"
   | "latin-in-russian"
   | "chinese-in-russian"
+  | "guillemets"
   | "special-char-loss"
   | "glossary-miss"
   | "cn-divergence";
@@ -161,6 +162,21 @@ const HAN_RUN_RE = /\p{Script=Han}+/gu;
  */
 export function chineseLeftovers(ru: string): string[] {
   return stripMarkup(ru).match(HAN_RUN_RE) ?? [];
+}
+
+const NO_GLYPH_QUOTES_RE = /[«»„]/g;
+
+/**
+ * The game font has no «» or „ glyphs, only the “” the CN pack uses. Every writer
+ * (engine output into the TM, judge rewrites, apply) routes through this; engine
+ * caches keep the raw text. Russian nests „inner“ inside «outer», so the inner
+ * pair is closed first.
+ */
+export function gameQuotes(ru: string): string {
+  return ru
+    .replace(/„([^„“«»]*)“/g, "“$1”")
+    .replace(/[«„]/g, "“")
+    .replace(/»/g, "”");
 }
 
 // Literal symbol characters that carry meaning and must survive translation
@@ -290,6 +306,9 @@ export function checkTranslation(en: string, ru: string): TranslationIssue[] {
     const chinese = chineseLeftovers(ru);
     if (chinese.length > 0) push("chinese-in-russian", `Chinese in RU: ${chinese.join(" ")}`);
   }
+
+  const guillemets = ru.match(NO_GLYPH_QUOTES_RE);
+  if (guillemets) push("guillemets", `no glyph in the game font: ${guillemets.join(" ")} (use “”)`);
 
   // Literal special characters (brackets, quotes, %) the source has but the
   // translation dropped or duplicated — e.g. the wrapping quotes of a quoted tip.

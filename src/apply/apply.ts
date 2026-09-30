@@ -17,6 +17,7 @@ import { resolveSource } from "../config/sources.js";
 import { adapterFor } from "../formats/registry.js";
 import type { TmFile } from "../model/tm.js";
 import { loadTm } from "../tm/store.js";
+import { gameQuotes } from "../validate/qa.js";
 import { writeFileAtomic } from "../util/fs.js";
 
 export interface ApplyOptions {
@@ -37,18 +38,6 @@ export interface ApplyResult {
   unsafeKeys: string[];
   written: boolean;
   reason?: string;
-}
-
-/**
- * The game font has no «» or „ glyphs, only the “” the CN pack uses. Swapped at
- * write time so the TM and engine caches keep whatever the engines produced.
- * Russian nests „inner“ inside «outer», so the inner pair is closed first.
- */
-export function gameQuotes(ru: string): string {
-  return ru
-    .replace(/„([^„“«»]*)“/g, "“$1”")
-    .replace(/[«„]/g, "“")
-    .replace(/»/g, "”");
 }
 
 export async function applyFile(file: string, options: ApplyOptions = {}): Promise<ApplyResult> {

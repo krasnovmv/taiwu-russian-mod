@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 
 import { TM_SCHEMA_VERSION, type TmFile, type TmUnit } from "../src/model/tm.js";
-import { validateBilingual, validateTm } from "../src/validate/qa.js";
+import { checkTranslation, gameQuotes, validateBilingual, validateTm } from "../src/validate/qa.js";
 
 function u(en: string, ru: string | null): TmUnit {
   return { en, cn: null, ru, status: "machine", srcHash: "x", engine: "mock", updatedAt: null };
@@ -143,4 +143,16 @@ test("validateBilingual flags EN<->CN markup divergence, skips missing CN", () =
   assert.equal(issues.length, 1);
   assert.equal(issues[0]!.kind, "cn-divergence");
   assert.equal(issues[0]!.key, "B");
+});
+
+test("gameQuotes swaps «» and „“ for the CN-font “”", () => {
+  assert.equal(gameQuotes("Веер «Цветущий персик»"), "Веер “Цветущий персик”");
+  assert.equal(gameQuotes("«Он сказал: „Тайву“.»"), "“Он сказал: “Тайву”.”");
+  assert.equal(gameQuotes("Уже “так” и \"так\""), "Уже “так” и \"так\"");
+});
+
+test("guillemets the game font cannot draw are flagged", () => {
+  const kinds = (ru: string) => checkTranslation("Peach Fan", ru).map((i) => i.kind);
+  assert.ok(kinds("Веер «Персик»").includes("guillemets"));
+  assert.ok(!kinds("Веер “Персик”").includes("guillemets"));
 });

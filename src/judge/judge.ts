@@ -54,7 +54,7 @@ import { matchGlossary } from "../glossary/match.js";
 import type { TmFile, TmUnit } from "../model/tm.js";
 import { makeSrcHasher } from "../tm/hash.js";
 import { loadTm, saveTm } from "../tm/store.js";
-import { checkTranslation, glossaryMisses } from "../validate/qa.js";
+import { checkTranslation, gameQuotes, glossaryMisses } from "../validate/qa.js";
 import {
   batchVerdictSchema,
   buildBatchMessage,
@@ -537,7 +537,7 @@ export async function judgeTm(
       continue;
     }
     if (settled.kind === "keep") keepAll(members);
-    else fixAll(members, settled.ru);
+    else fixAll(members, gameQuotes(settled.ru)); // verdicts cached before the font fix may hold «»
     stats.reused += members.length;
     tick(members.length);
   }

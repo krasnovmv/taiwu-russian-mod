@@ -32,6 +32,7 @@ const SYSTEM_PROMPT = [
   "3. If a GLOSSARY is given, use exactly those Russian translations for the listed",
   "   terms, declining them naturally to fit the sentence's grammar (case, number).",
   "4. Output ONLY the Russian translation — no quotes, no notes, no original text.",
+  "5. Quotation marks inside the text are “ ” — never «» or „“ (the game font lacks them).",
 ].join(" ");
 
 /** Render the glossary terms that apply to `text` as a prompt block (or null). */

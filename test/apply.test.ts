@@ -4,7 +4,7 @@ import { tmpdir } from "node:os";
 import path from "node:path";
 import { test } from "node:test";
 
-import { applyFile, gameQuotes } from "../src/apply/apply.js";
+import { applyFile } from "../src/apply/apply.js";
 import { writeFileAtomic } from "../src/util/fs.js";
 import { TM_SCHEMA_VERSION, type TmFile } from "../src/model/tm.js";
 
@@ -128,10 +128,4 @@ test("applyFile dry-run writes nothing", async () => {
   assert.equal(r.written, false);
   assert.equal(r.applied, 1);
   await assert.rejects(stat(path.join(out, file)));
-});
-
-test("gameQuotes swaps «» and „“ for the CN-font “”", () => {
-  assert.equal(gameQuotes("Веер «Цветущий персик»"), "Веер “Цветущий персик”");
-  assert.equal(gameQuotes("«Он сказал: „Тайву“.»"), "“Он сказал: “Тайву”.”");
-  assert.equal(gameQuotes("Уже “так” и \"так\""), "Уже “так” и \"так\"");
 });
