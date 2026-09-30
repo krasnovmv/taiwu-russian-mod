@@ -86900,7 +86900,8 @@
       "status": "machine",
       "srcHash": "d812a7ca1fadf52e",
       "engine": "yandex",
-      "updatedAt": "2026-07-10T20:59:06.747Z"
+      "updatedAt": "2026-07-10T20:59:06.747Z",
+      "judgeHash": "4bd7874d3cc5d4e9"
     },
     "LK_MouseTip_Enmity_Amount": {
       "en": "Number of Foes",
@@ -132775,6 +132776,26 @@
       "updatedAt": "2026-09-29T23:23:43.732Z",
       "judgeHash": "802a88bcae3dace7"
     },
+    "LK_Chicken_CancelReserveCombat_Tip_Content": {
+      "en": "下一只元鸡上场所需的时间…\\n点击此处可取消预约的元鸡协力…",
+      "cn": null,
+      "ru": "Время, необходимое для выхода следующего цыплёнка юань…\\nНажмите здесь, чтобы отменить запланированное содействие цыплёнка юань…",
+      "status": "judged",
+      "srcHash": "f9222ab17d4087be",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T10:04:50.911Z",
+      "judgeHash": "1330c2163e95ea32"
+    },
+    "LK_Chicken_CancelReserveCombat_Tip_Title": {
+      "en": "元鸡助战",
+      "cn": null,
+      "ru": "Юаньцзи помогает бороться",
+      "status": "machine",
+      "srcHash": "e246aa253df78930",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T10:04:24.071Z",
+      "judgeHash": "ce2baccd8a5346e9"
+    },
     "LK_CombatSkill_EquipState_GivenBonus": {
       "en": "已赋予：{0}",
       "cn": null,
@@ -132834,6 +132855,36 @@
       "engine": "yandex",
       "updatedAt": "2026-09-29T23:39:19.182Z",
       "judgeHash": "b596026f224b1c79"
+    },
+    "LK_Combat_CancelReserveAttack_Tip_Content_0": {
+      "en": "发起下一次兵器攻击所需的时间…\\n点击此处可取消预约的兵器攻击…",
+      "cn": null,
+      "ru": "Время, необходимое для начала следующей атаки оружием…\\nНажмите здесь, чтобы отменить запланированную атаку с применением оружия…",
+      "status": "machine",
+      "srcHash": "8b63d45e434540f1",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T10:04:24.071Z",
+      "judgeHash": "73aba974963b5a87"
+    },
+    "LK_Combat_CancelReserveAttack_Tip_Content_1": {
+      "en": "发起下一次兵器攻击所需的时间…",
+      "cn": null,
+      "ru": "Время, необходимое для начала следующей атаки оружием…",
+      "status": "machine",
+      "srcHash": "decdf5bdc0d0c970",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T10:04:24.071Z",
+      "judgeHash": "d0086feabcada93e"
+    },
+    "LK_Combat_CancelReserveAttack_Tip_Title": {
+      "en": "攻击准备",
+      "cn": null,
+      "ru": "Подготовка к атаке",
+      "status": "machine",
+      "srcHash": "e1b7d17e657f0725",
+      "engine": "yandex",
+      "updatedAt": "2026-09-30T10:04:24.071Z",
+      "judgeHash": "f40968cbbc56310d"
     },
     "LK_Combat_TeammateCommandBanReason_AddChickenPointNotAllowed": {
       "en": "未开启元鸡出战功能…",
