@@ -39,6 +39,18 @@ export interface ApplyResult {
   reason?: string;
 }
 
+/**
+ * The game font has no «» or „ glyphs, only the “” the CN pack uses. Swapped at
+ * write time so the TM and engine caches keep whatever the engines produced.
+ * Russian nests „inner“ inside «outer», so the inner pair is closed first.
+ */
+export function gameQuotes(ru: string): string {
+  return ru
+    .replace(/„([^„“«»]*)“/g, "“$1”")
+    .replace(/[«„]/g, "“")
+    .replace(/»/g, "”");
+}
+
 export async function applyFile(file: string, options: ApplyOptions = {}): Promise<ApplyResult> {
   const resolved = resolveSource(file);
   const srcPath = options.srcDir ? path.join(options.srcDir, file) : resolved.en;
@@ -56,7 +68,7 @@ export async function applyFile(file: string, options: ApplyOptions = {}): Promi
     for (const [key, unit] of Object.entries(tm.units)) {
       const human = unit.status === "reviewed" || unit.status === "locked";
       const keepSource = !human && unit.cn !== null && unit.en === unit.cn;
-      translations.set(key, keepSource ? unit.en : (unit.ru ?? unit.en));
+      translations.set(key, keepSource ? unit.en : gameQuotes(unit.ru ?? unit.en));
     }
   }
 
