@@ -8,14 +8,16 @@
  * Writes into `Language_RU` (mirroring the source layout); the original
  * `Language_EN` is never modified. Untranslated text stays English, so the
  * output is a complete, loadable language folder. Re-run any time — it is
- * idempotent and overwrites the output.
+ * idempotent and overwrites the output. `--all` first wipes the mod overlay, so
+ * files for sources that no longer exist (an old DLC version) don't linger —
+ * only when the run covers the whole overlay (TAIWU_EVENTS on, no path overrides).
  */
-import { cpSync, existsSync, mkdirSync, readdirSync } from "node:fs";
+import { cpSync, existsSync, mkdirSync, readdirSync, rmSync } from "node:fs";
 import path from "node:path";
 
 import { applyFile } from "../apply/apply.js";
-import { imageSrcDir, languageRuDir } from "../config/paths.js";
-import { listSourceFiles } from "../scan.js";
+import { imageSrcDir, languageRuDir, modOverlayDir, outputRoot } from "../config/paths.js";
+import { eventsEnabled, listSourceFiles } from "../scan.js";
 import { Progress } from "./progress.js";
 
 /**
@@ -55,6 +57,14 @@ async function main(): Promise<void> {
 
   const files = all ? await listSourceFiles() : [fileArg as string];
   console.log(`Output: ${languageRuDir()}${dryRun ? " (dry-run)" : ""}`);
+  // Wipe only when this run rebuilds everything the overlay holds: no output
+  // override (it may point anywhere, or move Language_RU out of the overlay) and
+  // the root quest text included, else its earlier output would vanish.
+  const rebuildsOverlay =
+    outputRoot() === modOverlayDir() && !process.env.TAIWU_LANG_RU_DIR && eventsEnabled();
+  if (all && !dryRun && rebuildsOverlay) {
+    rmSync(modOverlayDir(), { recursive: true, force: true });
+  }
 
   const bar = new Progress(files.length, "apply");
   let written = 0;
