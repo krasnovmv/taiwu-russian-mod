@@ -1735,13 +1735,13 @@
     },
     "FunctionalDesc_29": {
       "en": "<color=#brightblue>Drinking causes no negative effects, but this will not take effect in <color=#brightred><SpName=mousetip_professionskill_0><color=#pinkyellow>Wine Duel</color></color></color>.",
-      "cn": "<color=#brightblue>饮酒不会产生负面影响，<color=#brightred>但<SpName=mousetip_professionskill_0><color=#pinkyellow>「拼豪斗酒」</color>时无法生效</color></color>",
-      "ru": "<color=#brightblue>Употребление алкоголя не вызывает никаких негативных последствий, но это не будет иметь эффекта в <color=#brightred><SpName=mousetip_professionskill_0><color=#pinkyellow>Поединок за вино</color></color></color>.",
-      "status": "machine",
+      "cn": "<color=#brightblue>饮酒时免受酒的负面效果和所淬毒素，<color=#brightred>但无法防止<SpName=mousetip_professionskill_0><color=#pinkyellow>「拼豪斗酒」</color>时增加的内息紊乱</color></color>",
+      "ru": "<color=#brightblue>Во время употребления алкоголя персонаж не подвергается его негативным эффектам и растворённым в нём ядам, <color=#brightred>но это не предотвращает внутреннее расстройство ци во время <SpName=mousetip_professionskill_0><color=#pinkyellow>Поединка за вино</color></color></color>.",
+      "status": "judged",
       "srcHash": "0e79b1ccefed4320",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T19:11:52.236Z",
-      "judgeHash": "ae1a05c2676d0c34"
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "56819af22e4b62ee"
     },
     "FunctionalDesc_30": {
       "en": "<color=#brightblue>For each different type of liquor in the Consumable Slot, the effect of consumed liquor is enhanced further.</color>\\nThe higher the <color=#orange>Gallant Seniority</color>, the greater the enhancement of consumed liquor effects.",
@@ -1836,11 +1836,12 @@
     "FunctionalDesc_39": {
       "en": "<color=#brightblue>Consumes any edible food from anyone in the current tile and increase their <SpName=mousetip_multilove><color=#pinkyellow>Favorability</color> and <SpName=mousetip_moodlcircular><color=#pinkyellow>Mood</color>.</color>",
       "cn": "<color=#brightblue>可服食当前地格任意人物持有的任意可服食的食物，并提升被夺食的人物的<SpName=mousetip_multilove><color=#pinkyellow>好感</color>与<SpName=mousetip_moodlcircular><color=#pinkyellow>心情</color></color>",
-      "ru": "<color=#brightblue>Потребляет любую съедобную еду от любого пользователя на текущей плитке и увеличивает свои <SpName=mousetip_multilove><color=#pinkyellow>Благосклонность</color> и <SpName=mousetip_moodlcircular><color=#pinkyellow>Настроение</color>.</color>",
-      "status": "machine",
+      "ru": "<color=#brightblue>Поглощает любую съедобную еду, имеющуюся у любого персонажа на текущей клетке, и повышает <SpName=mousetip_multilove><color=#pinkyellow>благосклонность</color> и <SpName=mousetip_moodlcircular><color=#pinkyellow>настроение</color> персонажа, у которого отнята еда.</color>",
+      "status": "judged",
       "srcHash": "5b2d5cec8321295a",
       "engine": "yandex",
-      "updatedAt": "2026-07-13T18:56:48.037Z"
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "a434f63793c41d7d"
     },
     "FunctionalDesc_40": {
       "en": "<color=#brightblue>Increases the <SpName=mousetip_multilove><color=#pinkyellow>Favorability</color> gain when meeting non-sect characters for the first time and sending gifts to non-sect characters. Also increases the selected items' Gift Level, allowing characters with higher rank to accept items of lower tier.</color>\\nThe higher <color=#orange>Commoner Seniority</color> is, the more <SpName=mousetip_multilove><color=#pinkyellow>Favorability</color> will be gained from first meeting and gifting, and characters with higher <SpName=mousetip_character><color=#pinkyellow>Rank</color> will accept items of lower tier.",
@@ -2094,7 +2095,7 @@
     },
     "FunctionalDesc_65": {
       "en": "<color=#brightblue>Drinking tea causes no negative effects, <color=#brightred>but this will not take effect in <SpName=mousetip_professionskill_1><color=#pinkyellow>Tea Tasting</color>.</color></color>",
-      "cn": "<color=#brightblue>饮茶不会产生负面影响，<color=#brightred>但<SpName=mousetip_professionskill_1><color=#pinkyellow>「评水品茗」</color>时无法生效</color></color>",
+      "cn": "<color=#brightblue>饮茶时免受茶的负面效果和所淬毒素，<color=#brightred>但无法防止<SpName=mousetip_professionskill_1><color=#pinkyellow>「评水品茗」</color>时增加的内息紊乱</color></color>",
       "ru": "<color=#brightblue>Употребление чая не вызывает никаких негативных последствий, <color=#brightred>но это не вступит в силу в <SpName=mousetip_professionskill_1><color=#pinkyellow>Дегустация чая</color>.</color></color>",
       "status": "machine",
       "srcHash": "1c14c09f049bf221",
@@ -3601,6 +3602,202 @@
       "engine": "yandex",
       "updatedAt": "2026-08-21T15:26:16.919Z",
       "judgeHash": "60888874c595b99a"
+    },
+    "Name_72": {
+      "en": "黑焰弥天",
+      "cn": null,
+      "ru": "Чёрное пламя заполняет небо",
+      "status": "judged",
+      "srcHash": "db47b02f90e45886",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "5673c599dabbbb28"
+    },
+    "Name_73": {
+      "en": "堕心噬元",
+      "cn": null,
+      "ru": "Падение сердца, пожирание сущности",
+      "status": "judged",
+      "srcHash": "61e10e46025ba9bc",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "8b7763c525afc784"
+    },
+    "Name_74": {
+      "en": "呼魔役鬼",
+      "cn": null,
+      "ru": "Призыв демонов и подчинение призраков",
+      "status": "judged",
+      "srcHash": "5337f2258ec83e2e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "da46ba6b3f732fa4"
+    },
+    "Name_75": {
+      "en": "玄相幻影",
+      "cn": null,
+      "ru": "Призрак Сюаньсяна",
+      "status": "machine",
+      "srcHash": "5f93ada40ece39db",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "159df9daf327e311"
+    },
+    "Desc_72": {
+      "en": "玄相化身所到之处往往黑焰弥天，凡人若是不慎沾染，便会为心中欲念所驱，三毒并起，肆行奸恶之事。不过古人有云“人之性恶，善者伪也”，黑焰可令世人本性毕露，不为礼教所缚，却又有何不好？",
+      "cn": null,
+      "ru": "Где бы ни появлялось воплощение Сюаньсяна, небеса часто затягивает чёрное пламя. Если смертный случайно соприкоснётся с ним, его будут побуждать желания в сердце, и три яда пробудятся одновременно, заставляя его творить зло. Однако древние говорили: «Природа человека зла, а добродетель — притворство». Чёрное пламя может раскрыть истинную природу людей, не связанную обрядами и учениями, — и что в этом плохого?",
+      "status": "judged",
+      "srcHash": "c0bf9a137f9a3692",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "bede7cbae676b9c5"
+    },
+    "Desc_73": {
+      "en": "玄相化身者，尤擅蛊惑人心。而相枢入邪之人心旌摇荡，百邪乘衅，是以玄相化身轻易便可引其悲苦、使其怨憎、诱其痴妄……令其遍尝诸般烦恼，沉沦茫茫苦海，最终堕入相枢魔道，永为妖魔傀儡。",
+      "cn": null,
+      "ru": "Воплощение Сюаньсяна особенно искусно смущает людские сердца. У тех, кто вступил на путь зла Сяншу, колеблется дух, и все пороки пользуются этой слабостью. Поэтому воплощение Сюаньсяна легко вызывает в них скорбь, пробуждает ненависть и питает заблуждения… Оно заставляет их испытать всевозможные страдания, погружает в безбрежное море мучений и в конце концов сталкивает на демонический путь Сяншу, навеки превращая их в марионеток демонов.",
+      "status": "judged",
+      "srcHash": "a929894c08b6a8e8",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "bdb183a85be9c24d"
+    },
+    "Desc_74": {
+      "en": "当今天下大乱，相枢爪牙横行无忌，唯有玄相化身可以驱策群邪，无论身在何处，只需一声令下，相枢爪牙必然闻风而至，霎时之间，但见魔影重重，遮天蔽日……",
+      "cn": null,
+      "ru": "Ныне Поднебесная охвачена смутой, и приспешники Сяншу бесчинствуют без всяких ограничений. Только воплощение Сюаньсяна способно погнать за собой множество демонов. Где бы оно ни находилось, достаточно одного приказа — и приспешники Сяншу тотчас явятся. В одно мгновение повсюду взметнутся демонические тени, заслоняя небо и солнце…",
+      "status": "judged",
+      "srcHash": "997dd9df20ab88f6",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "8abff382e74f83a4"
+    },
+    "Desc_75": {
+      "en": "玄相化身游走红尘，或蛊惑人心、或召役妖魔……如此日久岁长，魔念愈深，魔威愈盛，而今竟能召出玄相幻影助战，便纵使神佛漫天，也莫敢当前。",
+      "cn": null,
+      "ru": "Воплощение Сюаньсяна скитается среди людей, то смущая их сердца, то призывая демонов… С течением времени демонические мысли в нём углубляются, а демоническая мощь возрастает. Теперь оно способно призвать на помощь в битве фантом Сюаньсяна; даже если небеса заполнят боги и будды, никто не осмелится встать у него на пути.",
+      "status": "judged",
+      "srcHash": "f903154882e7f32f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "0903d84ef0adabb7"
+    },
+    "FunctionalDesc_72": {
+      "en": "使周围2格范围内除同道外的人物，在月份更替时随机发起作恶行为；玄相化身资历越高，可影响越高身份的人物",
+      "cn": null,
+      "ru": "Заставляет персонажей в радиусе 2 клеток, кроме последователей того же пути, случайно совершать злодеяния при смене месяца; чем выше стаж воплощения Сюаньсяна, тем более высокопоставленных персонажей оно может затронуть.",
+      "status": "judged",
+      "srcHash": "5620cf541f952197",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "c1d000ea49f8dd5d"
+    },
+    "FunctionalDesc_73": {
+      "en": "使周围2格范围内除同道外的所有人物的入魔程度大幅增加；玄相化身资历越高，增加的入魔程度越多",
+      "cn": null,
+      "ru": "Значительно повышает степень одержимости демонами у всех персонажей в радиусе 2 клеток, кроме последователей того же пути; чем выше стаж воплощения Сюаньсяна, тем сильнее повышается эта степень.",
+      "status": "judged",
+      "srcHash": "5c91922d0f4aeb57",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "97e821fc37f3d178"
+    },
+    "FunctionalDesc_74": {
+      "en": "召来相枢爪牙袭击周围3格范围内的人物；玄相化身资历越高，召来的爪牙数量越多、精纯越高；玄相化身可以获得袭击的所有收益；召来的爪牙将在1个月后离开",
+      "cn": null,
+      "ru": "Призывает приспешников Сяншу атаковать персонажей в радиусе 3 клеток; чем выше стаж воплощения Сюаньсяна, тем больше приспешников будет призвано и тем выше будет их качество; воплощение Сюаньсяна получает все награды за нападение; призванные приспешники уйдут через 1 месяц.",
+      "status": "judged",
+      "srcHash": "e7ce68e6e5905538",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "a4ddacd184bdacce"
+    },
+    "FunctionalDesc_75": {
+      "en": "可在战前准备时选择玄相幻影进行助战，玄相幻影拥有特殊的助战指令和强大的助战能力",
+      "cn": null,
+      "ru": "Во время подготовки к бою можно выбрать фантом Сюаньсяна для участия в сражении; фантом Сюаньсяна обладает особыми командами и мощными способностями поддержки.",
+      "status": "judged",
+      "srcHash": "e01dd4aa3a82162d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "fe098123496134e3"
+    },
+    "SkillUnlockDesc_72": {
+      "en": "世人所造诸恶业，皆由无始贪嗔痴。\\n\\n{0}行走江湖，或救失心之人，或诛相枢爪牙，\\n日久年深，所触怨念、邪气渐积于身，凝为弥天黑焰……\\n传闻凡人若是不慎沾染此焰，便将为心中欲念所驱，三毒并起，\\n肆行奸恶之事，与人结下怨仇……",
+      "cn": null,
+      "ru": "Вся злая карма, созданная миром, изначально является жадной, злой и безумной.\\n\\n{0}Бродите по рекам и озерам, спасайте убитых горем или наказывайте приспешников Сяншу，\\nС годами обиды и злые духи, к которым кто-то прикоснулся, постепенно накапливаются в теле, превращаясь в черное пламя.……\\nХодят слухи, что если смертные случайно осквернят это пламя, они будут изгнаны желаниями, живущими в их сердцах, и три яда соединятся.，\\nСовершайте бессмысленные поступки и обижайтесь на других……",
+      "status": "machine",
+      "srcHash": "3b0ce358b5eb7847",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "SkillUnlockDesc_73": {
+      "en": "{0}遍览人世百态，阅尽红尘丑恶，\\n已然洞彻人情，轻易便可蛊惑相枢入邪者心神，\\n引动其四业三彭缠身，七情六欲不休，终至堕入魔道，为己驱策……",
+      "cn": null,
+      "ru": "{0}Исследуйте все государства мира, ознакомьтесь со всем уродством красной пыли，\\nУже досконально познакомившись с человеческими чувствами, легко заворожить умы тех, кто близок друг другу, и впасть во зло.，\\nЭто привело к тому, что его опутали четыре кармы и три Пенга, семь эмоций и шесть желаний, и в конце концов он встал на путь дьявола, управляя автомобилем сам.……",
+      "status": "machine",
+      "srcHash": "f09c28fe228c14f0",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "SkillUnlockDesc_74": {
+      "en": "玄相化身，万魔共主。胣脑淫厉，众魔膜拜。\\n{0}而今俨然天下魔首，号令所至，相枢爪牙莫敢不从，\\n真可谓“一念起则群魔来至，一念动则万姓罹殃”……",
+      "cn": null,
+      "ru": "Воплощенный Сюаньсян, повелитель всех демонов.- Мозг похотлив и свиреп, и демоны поклоняются ему.\\n{0}Теперь он подобен главе демонов в мире, и приказы поступают, а приспешники Сяншу не смеют подчиняться.，\\nЭто можно описать так: “когда вы подумаете об этом, придет группа демонов, и когда вы подумаете об этом, пострадают десять тысяч фамилий”.……",
+      "status": "machine",
+      "srcHash": "c9058e8a2691e03d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "SkillUnlockDesc_75": {
+      "en": "“逢佛杀佛，逢祖杀祖，叱令之下，万神稽首。”\\n\\n{0}历红尘，修魔心，\\n如今已然超凡化魔，敕令一出，即可召出玄相幻影助阵对敌，\\n若然驱从得当，灭神摧佛，倾天覆地，亦不过反掌之间耳……",
+      "cn": null,
+      "ru": "“Каждый Будда убивает Будду, каждый предок убивает предка, и, согласно приказу, глава богов.”\\n\\n{0}Пройди через красную пыль и взращивай сердце дьявола，\\nТеперь, когда демон превратился в демоницу, как только будет издан королевский указ, таинственный призрак может быть вызван на помощь в борьбе с врагом.，\\nЕсли вы должным образом отбросите послушание, уничтожите богов и Будд и перевернете мир с ног на голову, это будет не более чем пощечина.……",
+      "status": "machine",
+      "srcHash": "880d047807a57178",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "SkillUnlockExplain_72": {
+      "en": "（{0}现可激发人心恶念，使其在月份更替时为非作歹……）",
+      "cn": null,
+      "ru": "（{0}Теперь это может стимулировать злые мысли людей и заставлять их совершать зло, когда меняются месяцы...)",
+      "status": "machine",
+      "srcHash": "05a8713305f441e8",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "3d628c672986c5b4"
+    },
+    "SkillUnlockExplain_73": {
+      "en": "（{0}现可侵蚀他人的心智，增加其入魔程度……）",
+      "cn": null,
+      "ru": "（{0}Теперь может разъедать разум других людей, повышая степень их одержимости демонами……）",
+      "status": "judged",
+      "srcHash": "90b7be83e81c8775",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "4692d69928107b77"
+    },
+    "SkillUnlockExplain_74": {
+      "en": "（{0}现可操控相枢爪牙，袭击周围的人物……）",
+      "cn": null,
+      "ru": "（{0}Теперь вы можете управлять приспешниками Сяншу, чтобы они нападали на окружающих персонажей ...)",
+      "status": "machine",
+      "srcHash": "bb2568e9f7b73729",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "905fc688f9836d27"
+    },
+    "SkillUnlockExplain_75": {
+      "en": "（{0}现可于战斗时召来强大的玄相幻影助战……）",
+      "cn": null,
+      "ru": "（{0}Могущественные фантомы Сюаньсяна теперь могут быть вызваны на помощь в битве...)",
+      "status": "machine",
+      "srcHash": "721f4be19b4b1c47",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "0b0a9854d76064de"
     }
   }
 }

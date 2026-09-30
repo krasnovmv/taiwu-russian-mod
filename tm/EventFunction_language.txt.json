@@ -16387,12 +16387,13 @@
     },
     "Desc_727": {
       "en": "",
-      "cn": "",
-      "ru": "",
-      "status": "machine",
+      "cn": "七座",
+      "ru": "Семь башен",
+      "status": "judged",
       "srcHash": "2315852aca8bcf4e",
-      "engine": "neutral",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "c1073f624cb4c385"
     },
     "Desc_728": {
       "en": "",
@@ -34336,7 +34337,7 @@
     },
     "InGameHint_548": {
       "en": "Not yet used on this character this month",
-      "cn": "本月尚未对此人物使用",
+      "cn": "本月尚未对此人物使用{0}",
       "ru": "Еще не использовался для этого персонажа в этом месяце",
       "status": "machine",
       "srcHash": "a3a4196c01718166",
@@ -36790,6 +36791,96 @@
       "updatedAt": "2026-08-22T21:43:53.463Z",
       "judgeHash": "bf94954ca8ac58d3"
     },
+    "Name_903": {
+      "en": "保存Dlc数据",
+      "cn": null,
+      "ru": "Сохранить данные дополнения",
+      "status": "judged",
+      "srcHash": "fabe5ccd7dd0d5d6",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "3b797129a7d48dcf"
+    },
+    "Name_904": {
+      "en": "读取Dlc数据",
+      "cn": null,
+      "ru": "Загрузить данные дополнения",
+      "status": "judged",
+      "srcHash": "3122f08861e39dc9",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "8ee3686914323e36"
+    },
+    "Name_940": {
+      "en": "设置演员Key",
+      "cn": null,
+      "ru": "Задать ключ персонажа",
+      "status": "judged",
+      "srcHash": "243849da37a0afdb",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "8a9efea58a1811c1"
+    },
+    "Name_907": {
+      "en": "试获取Dlc参数",
+      "cn": null,
+      "ru": "Попробовать получить параметры дополнения",
+      "status": "judged",
+      "srcHash": "476d9cf1064fce36",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "c918ee3d8f4fb488"
+    },
+    "Name_927": {
+      "en": "全世界移除指定奇遇",
+      "cn": null,
+      "ru": "Удалить указанную случайную встречу во всём мире",
+      "status": "judged",
+      "srcHash": "94a410244a03ab3f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "7adf55e220a257fb"
+    },
+    "Name_955": {
+      "en": "添加非血亲关系",
+      "cn": null,
+      "ru": "Добавить отношения с некровными родственниками",
+      "status": "judged",
+      "srcHash": "641c5c44acca585b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "d8acb405c2908cc5"
+    },
+    "Name_956": {
+      "en": "移除非血亲关系",
+      "cn": null,
+      "ru": "Удалить отношения с некровными родственниками",
+      "status": "judged",
+      "srcHash": "840598d7dae18f43",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "389f858cde189384"
+    },
+    "Name_933": {
+      "en": "生成八座剑冢奇遇",
+      "cn": null,
+      "ru": "Создать восемь случайных встреч у курганов мечей",
+      "status": "judged",
+      "srcHash": "227980abe2bc332b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "a3f69208fb9e38ad"
+    },
+    "Name_938": {
+      "en": "获取结局线",
+      "cn": null,
+      "ru": "Получить ветку концовки",
+      "status": "judged",
+      "srcHash": "90d168ce1b000185",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "8279bc13e5259d93"
+    },
     "Name_897": {
       "en": "检测首次武林盟会举办门派",
       "cn": null,
@@ -36810,6 +36901,676 @@
       "updatedAt": "2026-08-22T21:43:53.463Z",
       "judgeHash": "e11f260928e47c40"
     },
+    "Name_899": {
+      "en": "按实例移除奇遇元素并处理绑定人物",
+      "cn": null,
+      "ru": "Удалить элементы приключения по экземпляру и обработать связанных персонажей",
+      "status": "judged",
+      "srcHash": "6b81ae1f374d7382",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "c132464741ca1130"
+    },
+    "Name_900": {
+      "en": "获取元鸡显示名称",
+      "cn": null,
+      "ru": "Получить отображаемое имя Первородного петуха",
+      "status": "judged",
+      "srcHash": "1b4102a41d668b83",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "6c34cf1db8bbc944"
+    },
+    "Name_901": {
+      "en": "生成玄相九塔",
+      "cn": null,
+      "ru": "Создать девять башен Сюаньсяна",
+      "status": "judged",
+      "srcHash": "c7c5d9266d71aec3",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "87a2804de4266314"
+    },
+    "Name_902": {
+      "en": "将固定角色转化成智能角色",
+      "cn": null,
+      "ru": "Преобразовать фиксированных персонажей в персонажей с искусственным интеллектом",
+      "status": "judged",
+      "srcHash": "634fb12bd14613cf",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "56e842dd6d47e993"
+    },
+    "Name_943": {
+      "en": "将随机敌人转化成智能角色",
+      "cn": null,
+      "ru": "Преобразовать случайных врагов в персонажей с искусственным интеллектом",
+      "status": "judged",
+      "srcHash": "2bd408c25536a4ff",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "3fc4cd06fe55d1e0"
+    },
+    "Name_920": {
+      "en": "打开相枢进度变化界面",
+      "cn": null,
+      "ru": "Открыть интерфейс изменения прогресса Сяншу",
+      "status": "judged",
+      "srcHash": "3e7a1f4d23f118f6",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "8e7f68ad7e983004"
+    },
+    "Name_905": {
+      "en": "移除全部剑冢演出",
+      "cn": null,
+      "ru": "Удалить все сценические события у курганов мечей",
+      "status": "judged",
+      "srcHash": "65b4692d69a36a82",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "81c61258bd3f7520"
+    },
+    "Name_928": {
+      "en": "移除全部剑冢奇遇",
+      "cn": null,
+      "ru": "Удалить все случайные встречи у курганов мечей",
+      "status": "judged",
+      "srcHash": "365327865a094652",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "c10874e1194ae5db"
+    },
+    "Name_921": {
+      "en": "地图上是否存在剑冢",
+      "cn": null,
+      "ru": "Есть ли на карте курган мечей?",
+      "status": "judged",
+      "srcHash": "ab383b0f1b6998c9",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "2a20ea611d57d2c9"
+    },
+    "Name_906": {
+      "en": "设置大王化影过月事件已触发",
+      "cn": null,
+      "ru": "Установить признак срабатывания события перехода месяца «Тень Великого короля»",
+      "status": "judged",
+      "srcHash": "09836109444f63bf",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "b80010dcc1878941"
+    },
+    "Name_908": {
+      "en": "元鸡返灵",
+      "cn": null,
+      "ru": "Возвращение духа Первородного петуха",
+      "status": "judged",
+      "srcHash": "06bf31f07a586f8b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "fca9320d00fc2fd0"
+    },
+    "Name_909": {
+      "en": "判断元鸡化人状态",
+      "cn": null,
+      "ru": "Проверить состояние превращения Первородного петуха в человека",
+      "status": "judged",
+      "srcHash": "8bcd048deace90c6",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "31471dd7cebed6cb"
+    },
+    "Name_910": {
+      "en": "元鸡化形",
+      "cn": null,
+      "ru": "Превратить Первородного петуха в человеческий облик",
+      "status": "judged",
+      "srcHash": "c0d41b9e7431512c",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "27815cdaad4005e6"
+    },
+    "Name_911": {
+      "en": "玄相通天生成十二邪仙和龙染紫",
+      "cn": null,
+      "ru": "В Сянсян Тунтянь создать двенадцать злых бессмертных и дракона Жаньцзы",
+      "status": "judged",
+      "srcHash": "3a414f65cb937e68",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "a6ee7ea544fbcc8a"
+    },
+    "Name_912": {
+      "en": "选择进入玄相通天",
+      "cn": null,
+      "ru": "Выбрать вход в Сянсян Тунтянь",
+      "status": "judged",
+      "srcHash": "bfa415c7de06a3ea",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "1a9a12a4cf76693b"
+    },
+    "Name_913": {
+      "en": "出神之地中转为同道的化身角色模板id",
+      "cn": null,
+      "ru": "Преобразованный в шаблон персонажа-аватара идентификатор того же персонажа в стране богов",
+      "status": "machine",
+      "srcHash": "210e767609732b21",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_961": {
+      "en": "太吾击败神龙（包含获得物品提示与后续跳转）",
+      "cn": null,
+      "ru": "Тайго побеждает дракона (включая подсказки для получения предметов и последующих прыжков)",
+      "status": "machine",
+      "srcHash": "b157d252235a887f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_914": {
+      "en": "将龙转化为道具",
+      "cn": null,
+      "ru": "Превратите драконов в реквизит",
+      "status": "machine",
+      "srcHash": "895fe515a890d513",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_917": {
+      "en": "龙代步道具化人，并跳转后续事件",
+      "cn": null,
+      "ru": "Реквизит для перевозки драконов преображает людей и позволяет перейти к последующим событиям",
+      "status": "machine",
+      "srcHash": "967f40ed5acbc7b4",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_918": {
+      "en": "将龙人变回道具",
+      "cn": null,
+      "ru": "Превратите человека-дракона обратно в реквизит",
+      "status": "machine",
+      "srcHash": "4640f12a8919f761",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_930": {
+      "en": "放生龙代步道具",
+      "cn": null,
+      "ru": "Освободите реквизит для транспортировки дракона",
+      "status": "machine",
+      "srcHash": "61fb3fda4fe06b2b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_915": {
+      "en": "龙是否已经化人",
+      "cn": null,
+      "ru": "Неужели дракон превратился в человека?",
+      "status": "machine",
+      "srcHash": "69f2a6dfaa585319",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_916": {
+      "en": "获取龙当前状态",
+      "cn": null,
+      "ru": "Получите текущий статус дракона",
+      "status": "machine",
+      "srcHash": "90e6c91b91b932ca",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_937": {
+      "en": "获取龙敌人对应的龙id",
+      "cn": null,
+      "ru": "Получите идентификатор дракона, соответствующий врагу-дракону",
+      "status": "machine",
+      "srcHash": "141661019588433e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_922": {
+      "en": "检查物品是否为龙代步",
+      "cn": null,
+      "ru": "Проверьте, является ли предмет транспортировкой на драконе",
+      "status": "machine",
+      "srcHash": "0de4b5253b6f3464",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_923": {
+      "en": "是否获得过蛟卵",
+      "cn": null,
+      "ru": "Вы когда-нибудь получали яйца Цзяо?",
+      "status": "machine",
+      "srcHash": "801cf4510e50a780",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_936": {
+      "en": "是否获得过龙鳞",
+      "cn": null,
+      "ru": "Вы когда-нибудь получали драконью чешую?",
+      "status": "machine",
+      "srcHash": "211e1775eb47c55a",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_924": {
+      "en": "是否战胜过神龙",
+      "cn": null,
+      "ru": "Ты победил дракона?",
+      "status": "machine",
+      "srcHash": "34bced20706524a4",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_949": {
+      "en": "人物是否为神龙",
+      "cn": null,
+      "ru": "Этот персонаж - дракон?",
+      "status": "machine",
+      "srcHash": "96152a819458ca4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_942": {
+      "en": "尝试通过EnemyId获取龙Character",
+      "cn": null,
+      "ru": "Попробуйте заполучить персонажа-дракона через EnemyId",
+      "status": "machine",
+      "srcHash": "cd51ab4f1c510f04",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_944": {
+      "en": "尝试通过龙Character获取EnemyId",
+      "cn": null,
+      "ru": "Попытайтесь уничтожить врага с помощью персонажа-дракона",
+      "status": "machine",
+      "srcHash": "d51518ac5926a339",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_946": {
+      "en": "尝试通过龙ItemKey获取EnemyId",
+      "cn": null,
+      "ru": "Попытайтесь получить идентификатор врага с помощью ключа от предмета дракона",
+      "status": "machine",
+      "srcHash": "3a84ef9c594b0c6b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_939": {
+      "en": "神龙归心dlc是否可触发",
+      "cn": null,
+      "ru": "Можно ли запустить дополнение \"Возвращение дракона\"?",
+      "status": "machine",
+      "srcHash": "aa39780cfc0db7cd",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_919": {
+      "en": "Dlc是否安装",
+      "cn": null,
+      "ru": "Установлено ли дополнение",
+      "status": "machine",
+      "srcHash": "4af1cac51f470061",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_925": {
+      "en": "收养元鸡到太吾村",
+      "cn": null,
+      "ru": "Удочерить Юаньцзи в деревню Тайву",
+      "status": "machine",
+      "srcHash": "7fbfe678f673f947",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_966": {
+      "en": "创建元鸡的事件演员",
+      "cn": null,
+      "ru": "Создайте участника мероприятия для Yuanji",
+      "status": "machine",
+      "srcHash": "eee17010c92209d8",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_926": {
+      "en": "元鸡是否从太吾村逃离过",
+      "cn": null,
+      "ru": "Неужели Юаньцзи сбежал из деревни Тайву?",
+      "status": "machine",
+      "srcHash": "b4b5308a66379d4b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_959": {
+      "en": "人物是否为元鸡",
+      "cn": null,
+      "ru": "Это персонаж Юань Цзи?",
+      "status": "machine",
+      "srcHash": "d64bd0ab23884795",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_929": {
+      "en": "玄相通天删除剧情固定角色",
+      "cn": null,
+      "ru": "Сюаньхуаньтянь удалил фиксированный персонаж сюжета",
+      "status": "machine",
+      "srcHash": "b851d869d63f268c",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_931": {
+      "en": "玄相通天添加十二仙加成特性",
+      "cn": null,
+      "ru": "Сюаньхуаньтянь добавляет бонусную функцию \"Двенадцать бессмертных\"",
+      "status": "machine",
+      "srcHash": "3f3eaedf4ffd1e7a",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_957": {
+      "en": "玄相通天给十二仙添加十二仙加成特性",
+      "cn": null,
+      "ru": "Сюаньхуаньтянь добавляет двенадцать бонусных характеристик к двенадцати бессмертным",
+      "status": "machine",
+      "srcHash": "e4a0013d3132d471",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_932": {
+      "en": "增加职业资历",
+      "cn": null,
+      "ru": "Повышение профессиональной квалификации",
+      "status": "machine",
+      "srcHash": "c419784c513545a0",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_934": {
+      "en": "设置十二邪仙状态",
+      "cn": null,
+      "ru": "Установите статус двенадцати Злых Бессмертных",
+      "status": "machine",
+      "srcHash": "dcbf5d19de75cf28",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_935": {
+      "en": "清空地格敌人",
+      "cn": null,
+      "ru": "Очистите сетку противника",
+      "status": "machine",
+      "srcHash": "fb17ed84b8324447",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_941": {
+      "en": "玄相通天驱灭爪牙",
+      "cn": null,
+      "ru": "Сюаньхуаньтянь изгоняет демонов из своих приспешников",
+      "status": "machine",
+      "srcHash": "a12eaa02c6057dd4",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_945": {
+      "en": "解锁驿站",
+      "cn": null,
+      "ru": "Разблокируйте станцию",
+      "status": "machine",
+      "srcHash": "1ec38a48bfc033d7",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_951": {
+      "en": "太吾村本州重申信誓",
+      "cn": null,
+      "ru": "Деревня Тайго на острове Хонсю подтверждает свою клятву",
+      "status": "machine",
+      "srcHash": "8ef3bdc7bdd27df7",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_947": {
+      "en": "按类型批量移除奇遇元素并处理绑定人物",
+      "cn": null,
+      "ru": "Удаляйте элементы приключений партиями по типу персонажей и обрабатывайте их с привязкой к процессу",
+      "status": "machine",
+      "srcHash": "4db605b1e28b72e4",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_948": {
+      "en": "按标签批量移除奇遇元素并处理绑定人物",
+      "cn": null,
+      "ru": "Удаляйте элементы приключений партиями по меткам и обрабатывайте привязанных персонажей",
+      "status": "machine",
+      "srcHash": "510456b558f0fe8b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_950": {
+      "en": "打开玄相九塔第四层",
+      "cn": null,
+      "ru": "Откройте четвертый этаж Девяти башен Сюаньсяна",
+      "status": "machine",
+      "srcHash": "ab160a3a9c282e5f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_952": {
+      "en": "应用野性难驯结果",
+      "cn": null,
+      "ru": "Применение диких и трудно поддающихся приручению результатов",
+      "status": "machine",
+      "srcHash": "9dbca11eabbacc88",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_953": {
+      "en": "执行野性难驯跳转",
+      "cn": null,
+      "ru": "Выполняйте дикие и сложные прыжки",
+      "status": "machine",
+      "srcHash": "adfe5f8b27aea4e9",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_954": {
+      "en": "开始野性难驯战斗",
+      "cn": null,
+      "ru": "Начните дикую и трудную битву",
+      "status": "machine",
+      "srcHash": "ed158c75f9d84de8",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_958": {
+      "en": "触发式任务已完成",
+      "cn": null,
+      "ru": "Запущенная задача завершена",
+      "status": "machine",
+      "srcHash": "9af8b4e8a9f96e86",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_960": {
+      "en": "元鸡唤灵界面表演",
+      "cn": null,
+      "ru": "Производительность интерфейса Yuanji Calling Spirit",
+      "status": "machine",
+      "srcHash": "15215de3274cea10",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Name_962": {
+      "en": "是否为转为智能角色的特殊角色",
+      "cn": null,
+      "ru": "Является ли это особым персонажем, преобразованным в интеллектуального персонажа?",
+      "status": "judged",
+      "srcHash": "2293482b0599705b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "73af375cec99568b"
+    },
+    "Name_963": {
+      "en": "人物是否有特殊立绘",
+      "cn": null,
+      "ru": "Есть ли у персонажа особый портрет?",
+      "status": "judged",
+      "srcHash": "65040748895a4f64",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "bd32eab10bbea858"
+    },
+    "Name_964": {
+      "en": "预约三界之力收杀表演",
+      "cn": null,
+      "ru": "Заранее зарезервировать силу Трёх миров для завершения представления",
+      "status": "judged",
+      "srcHash": "16706930210b6e63",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "938c7230a52e7105"
+    },
+    "Name_965": {
+      "en": "弹出新功能解锁界面",
+      "cn": null,
+      "ru": "Откроется новый интерфейс разблокировки функции",
+      "status": "machine",
+      "srcHash": "c610aef4d148e6fb",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "5cbaf5fc7c2a29de"
+    },
+    "Name_967": {
+      "en": "是否快速开局",
+      "cn": null,
+      "ru": "Стоит ли начинать быстро",
+      "status": "machine",
+      "srcHash": "dd8c490338499295",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "a067420d9838d296"
+    },
+    "Name_968": {
+      "en": "选取行囊与装备中全部可梦回物品",
+      "cn": null,
+      "ru": "Выберите все предметы, доступные для возвращения во сне, из своих сумок и снаряжения",
+      "status": "judged",
+      "srcHash": "a69495a22a0138de",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "cbf7bd6a58f2227a"
+    },
+    "Name_969": {
+      "en": "处理梦回物品选择结果",
+      "cn": null,
+      "ru": "Обработка результата выбора предметов для возвращения во сне",
+      "status": "judged",
+      "srcHash": "19dbf0f0aa2d4174",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "bda8e1ac88c6ff71"
+    },
+    "Desc_903": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_904": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_940": {
+      "en": "设置一次性的演员Key，仅应在事件指令（而非选项指令）中使用",
+      "cn": null,
+      "ru": "Установите одноразовый ключ персонажа, используемый только в командах событий, а не в командах вариантов",
+      "status": "judged",
+      "srcHash": "1e62ec8b5b94cb27",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "3c93a4cdc8f0596e"
+    },
+    "Desc_907": {
+      "en": "试获取Dlc参数盒子中保存的值, 当未保存过时条件失败.",
+      "cn": null,
+      "ru": "Попытайтесь получить значение, сохранённое в контейнере параметров дополнения; если оно не сохранено, условие считается невыполненным.",
+      "status": "judged",
+      "srcHash": "d53cbfda7fe2374a",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "91fa6d6516129456"
+    },
+    "Desc_927": {
+      "en": "移除全世界任意位置的指定奇遇，如太吾处于该奇遇会自动退出",
+      "cn": null,
+      "ru": "Удалите назначенное приключение из любой точки мира, и если Тайго участвует в приключении, оно автоматически завершится",
+      "status": "machine",
+      "srcHash": "dbb88bc1b08efeb4",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "009ff98e9c643830"
+    },
+    "Desc_955": {
+      "en": "发起方视角下，目标方在发起方的{关系}栏",
+      "cn": null,
+      "ru": "С точки зрения инициатора цель находится в его разделе {отношения}",
+      "status": "judged",
+      "srcHash": "df2b6b55b6f56d87",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "536dd02c885ee956"
+    },
+    "Desc_956": {
+      "en": "发起方视角下，目标方在发起方的{关系}栏",
+      "cn": null,
+      "ru": "С точки зрения инициатора цель находится в его разделе {отношения}",
+      "status": "judged",
+      "srcHash": "df2b6b55b6f56d87",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "536dd02c885ee956"
+    },
+    "Desc_933": {
+      "en": "八座，Dlc 专用",
+      "cn": null,
+      "ru": "Восемь мест, отведенных для DLC",
+      "status": "machine",
+      "srcHash": "2824a6d175553574",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "981c4ae118e5141f"
+    },
+    "Desc_938": {
+      "en": "结局线 -1: 不存在 0: 神火 1: 铁盘 2: 邪魔",
+      "cn": null,
+      "ru": "Конечная строка -1: Не существует 0: Божественный огонь 1: Железная пластина 2: Демон",
+      "status": "machine",
+      "srcHash": "46e70a9519e0cdce",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "4a9901da00e55fa8"
+    },
     "Desc_897": {
       "en": "",
       "cn": null,
@@ -36829,6 +37590,769 @@
       "engine": "yandex",
       "updatedAt": "2026-08-22T21:43:53.463Z",
       "judgeHash": "65c8bcd0074dbba3"
+    },
+    "Desc_899": {
+      "en": "按元素实例ID精确移除一个奇遇元素。被召集的真实智能人物移动到奇遇所在地格并释放；临时人物删除；未绑定人物时仅移除元素。",
+      "cn": null,
+      "ru": "Точно удалите элемент приключения по идентификатору экземпляра элемента. Призванные настоящие разумные персонажи перемещаются на клетку приключения и освобождаются; временные персонажи удаляются; при отсутствии привязанного персонажа удаляется только элемент.",
+      "status": "judged",
+      "srcHash": "a497953aa0f51845",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "cccbeb5da759a8b7"
+    },
+    "Desc_900": {
+      "en": "根据元鸡种类获取用于事件文本显示的名称；有自定义昵称时返回昵称，否则返回元鸡模板名称。",
+      "cn": null,
+      "ru": "Получите имя для отображения в тексте события по типу первородного существа; при наличии пользовательского прозвища верните его, иначе верните имя шаблона первородного существа.",
+      "status": "judged",
+      "srcHash": "dbe95e37dfe1c8b9",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "7cf05d9c9babd2eb"
+    },
+    "Desc_901": {
+      "en": "Dlc玄相通天专用，使建筑总览中的玄相九塔可见，从而可以被玩家建造",
+      "cn": null,
+      "ru": "Только для дополнения «Сюаньсян Тунтянь»: сделать девять башен Сюаньсяна видимыми в обзоре зданий, чтобы игрок мог их построить.",
+      "status": "judged",
+      "srcHash": "a2769efe8d0fe8a3",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "06e202c4d86961aa"
+    },
+    "Desc_902": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_943": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_920": {
+      "en": "Dlc玄相通天专用，同时会设置精纯为18",
+      "cn": null,
+      "ru": "Только для дополнения «Сюаньсян Тунтянь»; одновременно установить чистоту на 18",
+      "status": "judged",
+      "srcHash": "adf11a3285e33ee4",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "b3d845f7aeb31c71"
+    },
+    "Desc_905": {
+      "en": "Dlc玄相通天专用",
+      "cn": null,
+      "ru": "Только для дополнения «Сюаньсян Тунтянь»",
+      "status": "judged",
+      "srcHash": "673480666ac78cc6",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "efe600163e6b328c"
+    },
+    "Desc_928": {
+      "en": "Dlc玄相通天专用",
+      "cn": null,
+      "ru": "Только для дополнения «Сюаньсян Тунтянь»",
+      "status": "judged",
+      "srcHash": "673480666ac78cc6",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "efe600163e6b328c"
+    },
+    "Desc_921": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_906": {
+      "en": "设置后不会再进触发逻辑，在事件里调一下",
+      "cn": null,
+      "ru": "После установки логика срабатывания больше не запускается; вызовите это в событии.",
+      "status": "judged",
+      "srcHash": "928cb9bd1917a7f9",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "09b69d3c2427e870"
+    },
+    "Desc_908": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_909": {
+      "en": "需要在化形之前调用才能获取旧状态",
+      "cn": null,
+      "ru": "Вызовите до превращения, чтобы получить прежнее состояние",
+      "status": "judged",
+      "srcHash": "e84f13f7a76bf5d4",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "2f8b1aa06b2473e5"
+    },
+    "Desc_910": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_911": {
+      "en": "Dlc玄相通天专用",
+      "cn": null,
+      "ru": "Только для дополнения «Сюаньсян Тунтянь»",
+      "status": "judged",
+      "srcHash": "673480666ac78cc6",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "efe600163e6b328c"
+    },
+    "Desc_912": {
+      "en": "Dlc玄相通天专用",
+      "cn": null,
+      "ru": "Только для дополнения «Сюаньсян Тунтянь»",
+      "status": "judged",
+      "srcHash": "673480666ac78cc6",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "efe600163e6b328c"
+    },
+    "Desc_913": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_961": {
+      "en": "返回代码击败神龙逻辑的龙鳞数",
+      "cn": null,
+      "ru": "Возвращает количество чешуек божественного луна, указанное логикой победы над ним",
+      "status": "judged",
+      "srcHash": "3658198da53b8730",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "c6b986f34f5e32a7"
+    },
+    "Desc_914": {
+      "en": "使用龙在Character表中的TemplateId，将龙转化为对应道具",
+      "cn": null,
+      "ru": "Используйте templateId дракона в таблице персонажей, чтобы превратить дракона в соответствующий реквизит",
+      "status": "machine",
+      "srcHash": "38520c947926b694",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "198d26f9ea67f80d"
+    },
+    "Desc_917": {
+      "en": "需要提供龙代步的ItemKey\\n需要提前将物品从太吾行囊中删除",
+      "cn": null,
+      "ru": "Необходимо предоставить ключ к товару для транспортировки дракона\\nПредметы должны быть удалены из сумки Тайго заранее",
+      "status": "machine",
+      "srcHash": "115633fedd3a048a",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "4a10c489ff1307ff"
+    },
+    "Desc_918": {
+      "en": "需要提供龙人的Character对象",
+      "cn": null,
+      "ru": "Нужно предоставить персонажный объект человека-дракона",
+      "status": "machine",
+      "srcHash": "5f385af84986739d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "0a2ac9fae6967198"
+    },
+    "Desc_930": {
+      "en": "需要给出龙道具，且保证龙道具已经被正确移除",
+      "cn": null,
+      "ru": "Необходимо предоставить реквизит для дракона и убедиться, что реквизит для дракона был правильно удален",
+      "status": "machine",
+      "srcHash": "90c086c372293a48",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "dee985a1da1ab6a9"
+    },
+    "Desc_915": {
+      "en": "使用龙在Character表中的TemplateId，检查龙是否已经化人\\n0: 男性女性均未化形\\n1:已化为男性但为化为女性\\n2:已化为女性但为化为男性\\n3:男性女性均已化形",
+      "cn": null,
+      "ru": "Используйте templateId дракона в таблице персонажей, чтобы проверить, был ли дракон превращен в человека\\n0: Ни мужчина, ни женщина не деформированы\\n1: Превратился в мужчину, но превратился в женщину\\n2: Превратилась в женщину, но превратилась в мужчину.\\n3. Изменились как мужчины, так и женщины.",
+      "status": "machine",
+      "srcHash": "ec2aab3a702d2c6c",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Desc_916": {
+      "en": "使用龙在Character表中的TemplateId，获取龙的具体形态\\n0: 未收服\\n1: 化为代步\\n2: 化为人\\n3: 野生",
+      "cn": null,
+      "ru": "Используйте templateId дракона в таблице персонажей, чтобы получить конкретную форму дракона\\n0: Не убежден\\n1. Превратитесь в транспорт\\n2. Стань человеком\\n3: Дикий",
+      "status": "machine",
+      "srcHash": "4cba4fb8f19082a1",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Desc_937": {
+      "en": "返回值： -1:不是龙 0: 白龙 1: 黑龙 2: 青龙 3: 赤龙4: 黄龙",
+      "cn": null,
+      "ru": "Возвращаемое значение: -1: Черный дракон 0: Белый дракон 1: Черный дракон 2: Зеленый дракон 3: Красный дракон 4: Желтый дракон",
+      "status": "machine",
+      "srcHash": "63b944d19c5d21b7",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Desc_922": {
+      "en": "用于判断龙相关的事件是否可被触发",
+      "cn": null,
+      "ru": "Используется для определения того, могут ли быть запущены события, связанные с драконом",
+      "status": "machine",
+      "srcHash": "743d6494b46137db",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "626b0ee905ed2457"
+    },
+    "Desc_923": {
+      "en": "检查神龙DLC中是否存在蛟卵flag",
+      "cn": null,
+      "ru": "Проверьте, есть ли флаг с драконьим яйцом в дополнении Dragon",
+      "status": "machine",
+      "srcHash": "44a8156038fb2b08",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Desc_936": {
+      "en": "检查神龙DLC中是否存在龙鳞flag",
+      "cn": null,
+      "ru": "Проверьте, существует ли флаг чешуи дракона в дополнении «Божественный лун»",
+      "status": "judged",
+      "srcHash": "2638097507dead53",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "eeda22963202c5ec"
+    },
+    "Desc_924": {
+      "en": "检查是否战胜过神龙（以完成选项区分）",
+      "cn": null,
+      "ru": "Проверьте, победили ли вы дракона (различаются по вариантам завершения).",
+      "status": "machine",
+      "srcHash": "82b590ab4e3a000b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "363278a0c68c9635"
+    },
+    "Desc_949": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_942": {
+      "en": "若不存在，返回false",
+      "cn": null,
+      "ru": "Если он не существует, верните значение false",
+      "status": "machine",
+      "srcHash": "58616864c549fcbc",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "4fd2a1a2b7d4b407"
+    },
+    "Desc_944": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_946": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_939": {
+      "en": "此DLC需要在进入主线之后方可触发",
+      "cn": null,
+      "ru": "Это дополнение должно быть активировано после входа в основную линию",
+      "status": "machine",
+      "srcHash": "74dcae8a91e27344",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "5a833d2e9dd9b3b5"
+    },
+    "Desc_919": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_925": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_966": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_926": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_959": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_929": {
+      "en": "根据character表中的TaiwuAsXiangshuDelete字段去删除固定角色",
+      "cn": null,
+      "ru": "Удалите фиксированную роль в соответствии с полем TaiwuAsXiangshuDelete в таблице персонажей",
+      "status": "machine",
+      "srcHash": "c10ca39f0979a08a",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "70a8aa19152a1005"
+    },
+    "Desc_931": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_957": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_932": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_934": {
+      "en": "玄相通天Dlc专用，设置指定十二邪仙的状态",
+      "cn": null,
+      "ru": "Только для дополнения «Сюаньсян Тунтянь»: установить состояние двенадцати злых бессмертных",
+      "status": "judged",
+      "srcHash": "ccf9db6a45680912",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "c0949c5bd808c436"
+    },
+    "Desc_935": {
+      "en": "移除地格上所有的随机敌人.",
+      "cn": null,
+      "ru": "Уберите всех случайных врагов на сетке.",
+      "status": "machine",
+      "srcHash": "160e1f5a1c0bfde7",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "102afed660351a0d"
+    },
+    "Desc_941": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_945": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_951": {
+      "en": "会添加过月事件",
+      "cn": null,
+      "ru": "Добавляет события при переходе месяца",
+      "status": "judged",
+      "srcHash": "ef77ff8157d691aa",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "6131af4817fe402d"
+    },
+    "Desc_947": {
+      "en": "按元素配置ID批量移除当前奇遇中的全部匹配元素，并处理各元素绑定人物。被召集的真实智能人物移动到奇遇所在地格并释放；临时人物删除；未绑定人物时仅移除元素。",
+      "cn": null,
+      "ru": "По идентификатору конфигурации элемента пакетно удалите все совпадающие элементы текущего приключения и обработайте привязанных к ним персонажей. Призванные настоящие разумные персонажи перемещаются на клетку приключения и освобождаются; временные персонажи удаляются; при отсутствии привязанного персонажа удаляется только элемент.",
+      "status": "judged",
+      "srcHash": "6cb79e24a5fe01ca",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "5477227d0ae01e74"
+    },
+    "Desc_948": {
+      "en": "按元素标签跨元素配置ID批量移除当前奇遇中的全部匹配元素，并处理各元素绑定人物。被召集的真实智能人物移动到奇遇所在地格并释放；临时人物删除；未绑定人物时仅移除元素。",
+      "cn": null,
+      "ru": "По метке элемента и идентификатору конфигурации, общему для элементов, пакетно удалите все совпадающие элементы текущего приключения и обработайте привязанных к ним персонажей. Призванные настоящие разумные персонажи перемещаются на клетку приключения и освобождаются; временные персонажи удаляются; при отсутствии привязанного персонажа удаляется только элемент.",
+      "status": "judged",
+      "srcHash": "887fb115b278ab2c",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "c2f6446d59114d88"
+    },
+    "Desc_950": {
+      "en": "事件结束时打开玄相九塔并直接进入第四层",
+      "cn": null,
+      "ru": "В конце мероприятия откройте девять башен Сюаньсян и поднимитесь прямо на четвертый этаж.",
+      "status": "machine",
+      "srcHash": "92eaa226610aca48",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "fdd7e83ce687b86e"
+    },
+    "Desc_952": {
+      "en": "参数可以闭眼传\"CombatResult\"，或者传-1代表放生",
+      "cn": null,
+      "ru": "Параметр может быть передан \"CombatResult\" с закрытыми глазами, или -1 означает освобождение",
+      "status": "machine",
+      "srcHash": "ef26276da436232e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "fcf28ab32f6f8ed9"
+    },
+    "Desc_953": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_954": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_958": {
+      "en": "单独判定触发式任务是否被设为已完成. 会忽略任务和任务链中配置的条件, 只进行存档数据判断, 且只对触发式任务生效.",
+      "cn": null,
+      "ru": "Отдельно проверяет, отмечена ли триггерная задача как выполненная. Игнорирует условия, заданные для задачи и цепочки задач, проверяя только данные сохранения; действует только для триггерных задач.",
+      "status": "judged",
+      "srcHash": "be8d414e1ad652fe",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "c343592624520182"
+    },
+    "Desc_960": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_962": {
+      "en": "蛐蛐，神龙，元鸡，邪仙，龙紫染，相枢化身等，根据Character配置表的ConvertToIntelligent",
+      "cn": null,
+      "ru": "Крикет, Шенлонг, Юаньцзи, Злая фея, Пурпурный дракон, аватар Сяншу и т.д., в соответствии с преобразованием в интеллект из таблицы конфигурации персонажа",
+      "status": "machine",
+      "srcHash": "755de0484e0e0de1",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Desc_963": {
+      "en": "查人物的templateId，有立绘的返回是，以此屏蔽梳头修面互动",
+      "cn": null,
+      "ru": "Проверьте templateId персонажа, и возврат вертикальной раскраски позволит заблокировать взаимодействие при расчесывании волос и их подстригании.",
+      "status": "machine",
+      "srcHash": "7714ce003d94d764",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Desc_964": {
+      "en": "玄相通天Dlc专用，预约指定三界之力角色的首次杀死/收服表演，玩家打开玄相九塔时播放",
+      "cn": null,
+      "ru": "Только для дополнения «Сюаньсян Тунтянь»: бронирует первое представление убийства или покорения указанного персонажа — носителя силы трёх миров; воспроизводится при открытии игроком Девяти башен Сюаньсяна.",
+      "status": "judged",
+      "srcHash": "098b7307ef6ad48d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "128535229ca51238"
+    },
+    "Desc_965": {
+      "en": "直接弹出 NewFunctionUnlock 表中指定模板的功能解锁提示。第二个参数留空时不结束当前事件，提示会等世界地图重新获得焦点后弹出；填写后续事件后，提示展示完毕会跳转到该事件。",
+      "cn": null,
+      "ru": "Сразу же появляется запрос на разблокировку функции по шаблону, указанному в таблице NewFunctionUnlock.Если оставить второй параметр пустым, текущее событие не завершится, и приглашение появится после того, как карта мира восстановит фокус; после заполнения следующего события приглашение перейдет к событию после завершения отображения.",
+      "status": "machine",
+      "srcHash": "728919451514ef81",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "Desc_967": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "Desc_968": {
+      "en": "梦回前调用，用于销毁物品",
+      "cn": null,
+      "ru": "Вызывается перед возвращением сна, используется для уничтожения предметов",
+      "status": "machine",
+      "srcHash": "ef5c15c3a42505dd",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "449b318020503e85"
+    },
+    "Desc_969": {
+      "en": "处理梦回销毁物品的结果",
+      "cn": null,
+      "ru": "Обрабатывает результат уничтожения предметов при возвращении из сна",
+      "status": "judged",
+      "srcHash": "d02b7e1e858d5ed1",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "fa6076d14933bc5f"
+    },
+    "ParameterNames_903_0": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "ParameterNames_903_1": {
+      "en": "数据名",
+      "cn": null,
+      "ru": "Имя данных",
+      "status": "machine",
+      "srcHash": "cde3132093d7221b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "b754c3069be23a2e"
+    },
+    "ParameterNames_903_2": {
+      "en": "数据值",
+      "cn": null,
+      "ru": "Значение данных",
+      "status": "machine",
+      "srcHash": "bea00a3c5053d557",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "837a40dc75a535f2"
+    },
+    "ParameterNames_904_0": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "ParameterNames_904_1": {
+      "en": "数据名",
+      "cn": null,
+      "ru": "Имя данных",
+      "status": "machine",
+      "srcHash": "cde3132093d7221b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "b754c3069be23a2e"
+    },
+    "ParameterNames_39_0": {
+      "en": "离队角色",
+      "cn": null,
+      "ru": "Персонаж, покидающий отряд",
+      "status": "judged",
+      "srcHash": "72f8067655ac3121",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "e72b91bf90caf7cf"
+    },
+    "ParameterNames_39_1": {
+      "en": "是否携带婴儿",
+      "cn": null,
+      "ru": "Стоит ли брать с собой ребенка",
+      "status": "machine",
+      "srcHash": "5f0720cae0c705b4",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "09d28d76b5373be1"
+    },
+    "ParameterNames_940_0": {
+      "en": "演员Key",
+      "cn": null,
+      "ru": "Ключ актера",
+      "status": "machine",
+      "srcHash": "a9dc15643f7c0c6c",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "fc84477b27dbf345"
+    },
+    "ParameterNames_940_1": {
+      "en": "设置左侧人物而非右侧人物为此Key",
+      "cn": null,
+      "ru": "Назначить персонажу слева этот ключ вместо персонажа справа",
+      "status": "judged",
+      "srcHash": "5ca3e4945abec39e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "c130ea56e65f401c"
+    },
+    "ParameterNames_955_0": {
+      "en": "发起方",
+      "cn": null,
+      "ru": "Инициатор",
+      "status": "machine",
+      "srcHash": "be106c2be17e5c73",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "8a85ff73d2e57310"
+    },
+    "ParameterNames_955_1": {
+      "en": "目标方",
+      "cn": null,
+      "ru": "Целевая группа",
+      "status": "machine",
+      "srcHash": "afe5ce8bbf139903",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "40ef52a7d0c38dee"
+    },
+    "ParameterNames_955_2": {
+      "en": "关系",
+      "cn": null,
+      "ru": "отношение",
+      "status": "machine",
+      "srcHash": "f5a86b3846d1b575",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "ee4be7a7b1389109"
+    },
+    "ParameterNames_956_0": {
+      "en": "发起方",
+      "cn": null,
+      "ru": "Инициатор",
+      "status": "machine",
+      "srcHash": "be106c2be17e5c73",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "8a85ff73d2e57310"
+    },
+    "ParameterNames_956_1": {
+      "en": "目标方",
+      "cn": null,
+      "ru": "Целевая группа",
+      "status": "machine",
+      "srcHash": "afe5ce8bbf139903",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "40ef52a7d0c38dee"
+    },
+    "ParameterNames_956_2": {
+      "en": "关系",
+      "cn": null,
+      "ru": "отношение",
+      "status": "machine",
+      "srcHash": "f5a86b3846d1b575",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "ee4be7a7b1389109"
     },
     "ParameterNames_898_0": {
       "en": "目标人物",
@@ -36860,6 +38384,516 @@
       "updatedAt": "2026-08-22T21:43:53.463Z",
       "judgeHash": "5d89fd86f8847fdc"
     },
+    "ParameterNames_899_0": {
+      "en": "元素实例ID",
+      "cn": null,
+      "ru": "Идентификатор экземпляра элемента",
+      "status": "machine",
+      "srcHash": "bc71789c67bc14f7",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "20a5b263efb8574a"
+    },
+    "ParameterNames_900_0": {
+      "en": "元鸡种类",
+      "cn": null,
+      "ru": "Виды Юаньцзи",
+      "status": "machine",
+      "srcHash": "35e00beb8fbd8ee3",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "cbe7e64495439a69"
+    },
+    "ParameterNames_902_0": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "ParameterNames_902_1": {
+      "en": "是否根据该角色的理想门派重新生成属性",
+      "cn": null,
+      "ru": "Повторно сгенерировать ли атрибуты согласно идеальной секте персонажа",
+      "status": "judged",
+      "srcHash": "f4b71d0be5e4a880",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "0e55cda904f34dec"
+    },
+    "ParameterNames_920_0": {
+      "en": "后续事件",
+      "cn": null,
+      "ru": "Последующие мероприятия",
+      "status": "machine",
+      "srcHash": "b6f6b7d77341b70f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "e18b98c8efd7c317"
+    },
+    "ParameterNames_905_0": {
+      "en": "后续事件",
+      "cn": null,
+      "ru": "Последующие мероприятия",
+      "status": "machine",
+      "srcHash": "b6f6b7d77341b70f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "e18b98c8efd7c317"
+    },
+    "ParameterNames_961_0": {
+      "en": "击败的神龙Id",
+      "cn": null,
+      "ru": "Идентификатор побеждённого божественного луна",
+      "status": "judged",
+      "srcHash": "30dcbf67d02f9f0a",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "1f10c5a719cc74e5"
+    },
+    "ParameterNames_961_1": {
+      "en": "后续跳转事件",
+      "cn": null,
+      "ru": "Последующие события перехода",
+      "status": "machine",
+      "srcHash": "2d3ac0765f310eed",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "b0e49f11e510e121"
+    },
+    "ParameterNames_914_0": {
+      "en": "龙固定敌人的模板id",
+      "cn": null,
+      "ru": "Идентификатор шаблона фиксированного врага дракона",
+      "status": "judged",
+      "srcHash": "5d5ec2dd735e683d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "a5c3f12f0a8c28f1"
+    },
+    "ParameterNames_914_1": {
+      "en": "将道具自动加入太吾行囊",
+      "cn": null,
+      "ru": "Автоматически добавлять предмет в сумку Тайу",
+      "status": "judged",
+      "srcHash": "40e594a17ea3e581",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "cee02c1b42f1b38a"
+    },
+    "ParameterNames_917_0": {
+      "en": "龙代步道具",
+      "cn": null,
+      "ru": "Реквизит для транспортировки дракона",
+      "status": "machine",
+      "srcHash": "c0d7313bdad3327c",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "c479b2c1ac17053b"
+    },
+    "ParameterNames_917_1": {
+      "en": "化形性别",
+      "cn": null,
+      "ru": "Пол при превращении",
+      "status": "judged",
+      "srcHash": "1c19b71895fdbe79",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "4142bf31868d36d6"
+    },
+    "ParameterNames_917_2": {
+      "en": "化形时是否匿名",
+      "cn": null,
+      "ru": "Является ли он анонимным, когда преобразуется?",
+      "status": "machine",
+      "srcHash": "55009f6ce6827304",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "a0b2bb1899e0946c"
+    },
+    "ParameterNames_917_3": {
+      "en": "后续跳转事件",
+      "cn": null,
+      "ru": "Последующие события перехода",
+      "status": "machine",
+      "srcHash": "2d3ac0765f310eed",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "b0e49f11e510e121"
+    },
+    "ParameterNames_918_0": {
+      "en": "龙Character",
+      "cn": null,
+      "ru": "Персонаж-дракон",
+      "status": "machine",
+      "srcHash": "606ed46813cbfa0f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "9969d9e881900eb9"
+    },
+    "ParameterNames_918_1": {
+      "en": "是否将龙放归野生",
+      "cn": null,
+      "ru": "Стоит ли выпускать дракона на волю",
+      "status": "machine",
+      "srcHash": "decc4c9a63bdddad",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "1ac975a9f14e13ee"
+    },
+    "ParameterNames_918_2": {
+      "en": "是否将返灵道具自动加入太吾行囊",
+      "cn": null,
+      "ru": "Автоматически добавлять ли предмет возвращения духа в сумку Тайу",
+      "status": "judged",
+      "srcHash": "e652d32b3830b4e5",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "e9011b5e656a408d"
+    },
+    "ParameterNames_942_0": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "ParameterNames_942_1": {
+      "en": "存储key",
+      "cn": null,
+      "ru": "Ключ от хранилища",
+      "status": "machine",
+      "srcHash": "1ae4cc9ba65de560",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "9c634467891b5f69"
+    },
+    "ParameterNames_925_0": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "ParameterNames_925_1": {
+      "en": "显示完获得元鸡的后续事件",
+      "cn": null,
+      "ru": "Последующее событие после показа получения первородного петуха",
+      "status": "judged",
+      "srcHash": "d8ba66e20bddb0ca",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "4a1be9c93d1524f1"
+    },
+    "ParameterNames_966_0": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "ParameterNames_966_1": {
+      "en": "事件演员键",
+      "cn": null,
+      "ru": "Ключ участника события",
+      "status": "machine",
+      "srcHash": "07e6c0dc5b86d99c",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "95943213b4560556"
+    },
+    "ParameterNames_941_0": {
+      "en": "奖励",
+      "cn": null,
+      "ru": "награда",
+      "status": "machine",
+      "srcHash": "ee254ec3f31f006e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "20952f4bb68c49c4"
+    },
+    "ParameterNames_947_0": {
+      "en": "元素配置ID",
+      "cn": null,
+      "ru": "Идентификатор конфигурации элемента",
+      "status": "machine",
+      "srcHash": "13c1cba493dbe147",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "395c906b67c30bed"
+    },
+    "ParameterNames_948_0": {
+      "en": "元素标签",
+      "cn": null,
+      "ru": "Метка элемента",
+      "status": "machine",
+      "srcHash": "9c904ec778fb9744",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "114450348bb03cb9"
+    },
+    "ParameterNames_953_0": {
+      "en": "玩家胜",
+      "cn": null,
+      "ru": "Игрок выигрывает",
+      "status": "machine",
+      "srcHash": "309a1b68770f4554",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "733f978a7c5c657b"
+    },
+    "ParameterNames_953_1": {
+      "en": "敌人胜",
+      "cn": null,
+      "ru": "Враг побеждает",
+      "status": "machine",
+      "srcHash": "655a66b6851153f7",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "9009aa0c6b753f9f"
+    },
+    "ParameterNames_953_2": {
+      "en": "玩家逃",
+      "cn": null,
+      "ru": "Побег игрока",
+      "status": "machine",
+      "srcHash": "9c1e5b7c6b5d2ce8",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "9f5bf0e55123903d"
+    },
+    "ParameterNames_953_3": {
+      "en": "敌人逃",
+      "cn": null,
+      "ru": "Враг бежал",
+      "status": "machine",
+      "srcHash": "de74293204b23a69",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "f4a04e54e84cbb84"
+    },
+    "ParameterNames_953_4": {
+      "en": "玩家死",
+      "cn": null,
+      "ru": "Игрок мертв",
+      "status": "machine",
+      "srcHash": "73448fb89d71df05",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "53ac6038801b50b2"
+    },
+    "ParameterNames_953_5": {
+      "en": "敌人死",
+      "cn": null,
+      "ru": "Враг мертв",
+      "status": "machine",
+      "srcHash": "fdc2df84c786868f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "b48cb8ac24f02fa3"
+    },
+    "ParameterNames_953_6": {
+      "en": "敌人被捕捉",
+      "cn": null,
+      "ru": "Враг взят в плен",
+      "status": "machine",
+      "srcHash": "d4a5937d436492cb",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "0f605943311e8d37"
+    },
+    "ParameterNames_954_0": {
+      "en": "结算事件",
+      "cn": null,
+      "ru": "Расчетное событие",
+      "status": "machine",
+      "srcHash": "0ba3bb2938bea4cc",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "8e11f0b416e77d1b"
+    },
+    "ParameterNames_954_1": {
+      "en": "战斗配置",
+      "cn": null,
+      "ru": "Боевая конфигурация",
+      "status": "machine",
+      "srcHash": "d19a2f6368e9df26",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "1047f9c6de025690"
+    },
+    "ParameterNames_960_0": {
+      "en": "元鸡唤灵角色",
+      "cn": null,
+      "ru": "Роль Юаньцзи, вызывающего духа",
+      "status": "machine",
+      "srcHash": "1e0aa846a2b7e190",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "9d6680392b70d415"
+    },
+    "ParameterNames_960_1": {
+      "en": "表演完的事件",
+      "cn": null,
+      "ru": "Мероприятие после спектакля",
+      "status": "machine",
+      "srcHash": "3f2027ea9f4b0742",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "688bd9100a66c2ea"
+    },
+    "ParameterNames_964_0": {
+      "en": "三界之力角色",
+      "cn": null,
+      "ru": "Персонаж силы Трёх миров",
+      "status": "judged",
+      "srcHash": "fb2ea2fbd4d35b27",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "f27c86a3e91b8272"
+    },
+    "ParameterNames_964_1": {
+      "en": "结果",
+      "cn": null,
+      "ru": "результат",
+      "status": "machine",
+      "srcHash": "b8adc24145c5d44d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "dd01853718f84e16"
+    },
+    "ParameterNames_965_0": {
+      "en": "模板id",
+      "cn": null,
+      "ru": "Идентификатор шаблона",
+      "status": "machine",
+      "srcHash": "b1b2abef5709522b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "67f47830d4f5741e"
+    },
+    "ParameterNames_965_1": {
+      "en": "提示显示完毕后跳转的事件",
+      "cn": null,
+      "ru": "Событие, к которому переходят после отображения подсказки",
+      "status": "judged",
+      "srcHash": "6031cfb0e5035060",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "f89cf74e74ef098e"
+    },
+    "ParameterNames_968_0": {
+      "en": "FilterKey",
+      "cn": null,
+      "ru": "Ключ фильтра",
+      "status": "machine",
+      "srcHash": "ad9b15b9bc14140a",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "448a4236904f0ab5"
+    },
+    "InGameHint_903": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_904": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_940": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_907": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_927": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_955": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_956": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_933": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_938": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
     "InGameHint_897": {
       "en": "",
       "cn": null,
@@ -36878,6 +38912,626 @@
       "srcHash": "2315852aca8bcf4e",
       "engine": "yandex",
       "updatedAt": "2026-07-22T14:21:52.988Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_899": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_900": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_901": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_902": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_943": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_920": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_905": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_928": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_921": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_906": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_908": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_909": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_910": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_911": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_912": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_913": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_961": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_914": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_917": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_918": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_930": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_915": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_916": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_937": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_922": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_923": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_936": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_924": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_949": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_942": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_944": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_946": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_939": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_919": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_925": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_966": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_926": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_959": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_929": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_931": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_957": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_932": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_934": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_935": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_941": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_945": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_951": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_947": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_948": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_950": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_952": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_953": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_954": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_958": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_960": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_962": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_963": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_964": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_965": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_967": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_968": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_969": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
       "judgeHash": "339edad203236ea3"
     }
   }

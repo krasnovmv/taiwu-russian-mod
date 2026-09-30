@@ -214,43 +214,43 @@
     },
     "9473b66b-3214-4ccc-8a06-661dfb0c672b/EventContent": {
       "en": "The ground here is littered with shattered colored glaze. There's no sign of any flowers, fruits, or grass left.<NL>The Imperial Chicken flutters down from <Character key=RoleTaiwu str=Name/>'s shoulder, bobbing its head, and glances back toward Taiwu Village, as if wanting to return home...",
-      "cn": "此地琉璃尽碎，已寻不得残留的花草瓜果。<NL>大王自<Character key=RoleTaiwu str=Name/>肩头飞落，摇头晃脑，重又望向太吾村之方向，似乎意欲返归……",
+      "cn": "此地琉璃尽碎，已寻不得残留的花草瓜果。<NL><ArgBox key=DawangDisplayName type=string/>自<Character key=RoleTaiwu str=Name/>肩头飞落，摇头晃脑，重又望向太吾村之方向，似乎意欲返归……",
       "ru": "Земля здесь усеяна осколками цветной глазури. Не осталось и следа от цветов, фруктов или травы.<NL>Императорский цыплёнок слетает с плеча <Character key=RoleTaiwu str=Name/>, покачивает головой и оглядывается в сторону деревни Тайву, словно хочет вернуться домой...",
       "status": "judged",
       "srcHash": "54198fa9ba3d5d7b",
       "engine": "yandex",
       "updatedAt": "2026-08-23T06:10:04.593Z",
-      "judgeHash": "c83d19f6f29ebb6a"
+      "judgeHash": "1b4e4045a9229e12"
     },
     "9473b66b-3214-4ccc-8a06-661dfb0c672b/Option_1": {
       "en": "(Say goodbye to the Imperial Chicken...)",
-      "cn": "（告别大王……）\n",
+      "cn": "（告别<ArgBox key=DawangDisplayName type=string/>……）\n",
       "ru": "(Попрощайся с императорским цыпленком...)",
       "status": "machine",
       "srcHash": "2a714702bc0d7def",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "d32ebf28aeeeea23"
+      "judgeHash": "238645d1ea1235ae"
     },
     "9b75c0cd-5408-4d62-9e33-023a8a519cc7/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> seems to understand what the Imperial Chicken is thinking. <Character key=RoleTaiwu str=UpperGenderSubject/> bends down to bid farewell.<NL>The Imperial Chicken fluffs up its feathers, lets out a clear cry, and then takes off, flying straight toward Taiwu Village...",
-      "cn": "<Character key=RoleTaiwu str=Name/>好似猜透大王心意，遂弯腰与大王告别，<NL>随后，只见大王抖擞羽毛，一声清啼，展翅便往太吾村飞去……",
+      "cn": "<Character key=RoleTaiwu str=Name/>好似猜透<ArgBox key=DawangDisplayName type=string/>心意，遂弯腰与<ArgBox key=DawangDisplayName type=string/>告别，<NL>随后，只见<ArgBox key=DawangDisplayName type=string/>抖擞羽毛，一声清啼，展翅便往太吾村飞去……",
       "ru": "<Character key=RoleTaiwu str=Name/> словно понимает, о чём думает Императорский цыплёнок. <Character key=RoleTaiwu str=UpperGenderSubject/> наклоняется, чтобы попрощаться.<NL>Императорский цыплёнок распушает перья, издаёт чистый крик, а затем взлетает и летит прямо к деревне Тайву...",
       "status": "judged",
       "srcHash": "23526715c5c4a40d",
       "engine": "yandex",
       "updatedAt": "2026-08-23T06:10:04.593Z",
-      "judgeHash": "1818473a8dd1e798"
+      "judgeHash": "3f76980d65d997e8"
     },
     "9b75c0cd-5408-4d62-9e33-023a8a519cc7/Option_1": {
       "en": "Maybe the Imperial Chicken really can fly a thousand lis a day. Could it actually be a legendary Thousand-Li Chicken...? (Can't help but wonder...)",
-      "cn": "莫非大王有日行千里之能，乃是一只千里鸡……（若有所思……）\n",
+      "cn": "莫非<ArgBox key=DawangDisplayName type=string/>有日行千里之能，乃是一只千里鸡……（若有所思……）\n",
       "ru": "Может быть, Императорский цыплёнок действительно способен пролетать тысячу ли за день. Неужели это легендарный цыплёнок, способный преодолевать тысячу ли?.. (Не могу не задуматься...)",
       "status": "judged",
       "srcHash": "66099bae664e527c",
       "engine": "yandex",
       "updatedAt": "2026-08-23T06:10:04.593Z",
-      "judgeHash": "7144e778d1038a07"
+      "judgeHash": "d3b0c6ccc37910da"
     },
     "b79188ff-1858-4583-98c5-f72b35eeb4b6/EventContent": {
       "en": "Even though <Character key=RoleTaiwu str=Name/> knows that just holding a rite isn't enough to bring the True Loong into the world,<NL>the strange signs in the sky and the calamity everywhere make it hard to feel at ease. Since <Character key=RoleTaiwu str=GenderSubject/> is already here, might as well go and check things out...",

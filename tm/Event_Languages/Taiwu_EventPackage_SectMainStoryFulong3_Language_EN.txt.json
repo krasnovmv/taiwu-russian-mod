@@ -5,13 +5,13 @@
   "units": {
     "1ead611e-b08e-459d-8080-5d4b7cbaa6e8/EventContent": {
       "en": "One day, while journeying,<NL><Character key=RoleTaiwu str=Name/> hears the familiar crowing of a rooster. It turns out that the Imperial Chicken, traversing a thousand miles, has brought a few words from Liuli...",
-      "cn": "此日，<Character key=RoleTaiwu str=Name/>行路途中，<NL>忽闻得熟悉鸡鸣，原来是大王日行千里，传来了琉璃的只言片语……",
+      "cn": "此日，<Character key=RoleTaiwu str=Name/>行路途中，<NL>忽闻得熟悉鸡鸣，原来是<ArgBox key=DawangDisplayName type=string/>日行千里，传来了琉璃的只言片语……",
       "ru": "Однажды, путешествуя,<NL><Character key=RoleTaiwu str=Name/> слышит знакомое кукареканье петуха. Оказывается, Императорский цыпленок, преодолев тысячу миль, привез несколько слов от Люли...",
       "status": "machine",
       "srcHash": "f6420651133fbeef",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "3abce8ff92a7334f"
+      "judgeHash": "7bfa9ae4a6855afd"
     },
     "1ead611e-b08e-459d-8080-5d4b7cbaa6e8/Option_1": {
       "en": "(...)",
@@ -695,13 +695,13 @@
     },
     "449548ba-eea5-4c55-9aff-0c9322e65363/EventContent": {
       "en": "Liuli has heard that <Character key=RoleTaiwu str=Name/> is no longer the same as before,<NL>feeling a mix of sadness and hesitation. Yet, she still cares deeply about <Character key=RoleTaiwu str=Name/>, so she entrusts the Imperial Chicken with a message,<NL>urging <Character key=RoleTaiwu str=Name/> to be cautious and search for the Chicken Feather when they can...",
-      "cn": "琉璃听闻<Character key=RoleTaiwu str=Name/>已非前人，<NL>心中伤感不知何所言，却又挂怀<Character key=RoleTaiwu str=Name/>，故而托大王传话<NL>只盼<Character key=RoleTaiwu str=Name/>小心行事，闲暇之时，继续帮忙寻找元鸡之羽……",
-      "ru": "Люли слышала, что <Character key=RoleTaiwu str=Name/> уже не тот, что прежде,<NL>и испытывала грусть и нерешительность. Но она по-прежнему глубоко заботится о <Character key=RoleTaiwu str=Name/>, поэтому передаёт через Императорского цыплёнка послание,<NL>умоляя <Character key=RoleTaiwu str=Name/> быть осторожнее и в свободное время продолжать искать перо курицы...",
+      "cn": "琉璃听闻<Character key=RoleTaiwu str=Name/>已非前人，<NL>心中伤感不知何所言，却又挂怀<Character key=RoleTaiwu str=Name/>，故而托<ArgBox key=DawangDisplayName type=string/>传话<NL>只盼<Character key=RoleTaiwu str=Name/>小心行事，闲暇之时，继续帮忙寻找元鸡之羽……",
+      "ru": "Люли слышала, что <Character key=RoleTaiwu str=Name/> уже не тот, что прежде,<NL>ей было грустно, и она не знала, что сказать. Но она по-прежнему глубоко заботится о <Character key=RoleTaiwu str=Name/>, поэтому передаёт через Императорского цыплёнка послание,<NL>умоляя <Character key=RoleTaiwu str=Name/> быть осторожнее и в свободное время продолжать искать перо курицы...",
       "status": "judged",
       "srcHash": "7172567a218517e4",
       "engine": "yandex",
-      "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "a9200a3d3f4c2132"
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "ff36a27792c1a6c4"
     },
     "449548ba-eea5-4c55-9aff-0c9322e65363/Option_1": {
       "en": "(I see...)",
@@ -715,13 +715,13 @@
     },
     "a5bf6ec5-68cd-45ef-9dd8-baf24c0d06e7/EventContent": {
       "en": "Liuli expresses her ideas and feelings through the Imperial Chicken.<NL>She is grieving but can't find the right words, only urging <Character key=RoleTaiwu str=Name/> to take care...",
-      "cn": "琉璃一番感念，由大王一一传达，<NL>只是琉璃一时神伤，难以多言，还望<Character key=RoleTaiwu str=Name/>多保重，便再无别话……",
+      "cn": "琉璃一番感念，由<ArgBox key=DawangDisplayName type=string/>一一传达，<NL>只是琉璃一时神伤，难以多言，还望<Character key=RoleTaiwu str=Name/>多保重，便再无别话……",
       "ru": "Люли выражает свои мысли и чувства через Императорского цыплёнка.<NL>Она скорбит и не может подобрать нужных слов, лишь просит <Character key=RoleTaiwu str=Name/> беречь себя...",
       "status": "judged",
       "srcHash": "4b2afdc7f48989c6",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "426d04171747a598"
+      "judgeHash": "ed2ec7836f32b445"
     },
     "a5bf6ec5-68cd-45ef-9dd8-baf24c0d06e7/Option_1": {
       "en": "(This is good...)",
@@ -745,43 +745,43 @@
     },
     "1d871aef-1417-4bff-bb67-24206c8e8f6a/Option_1": {
       "en": "(This must be the Imperial Chicken...)",
-      "cn": "（应是大王前来……）\n",
+      "cn": "（应是<ArgBox key=DawangDisplayName type=string/>前来……）\n",
       "ru": "(Это, должно быть, Императорский цыпленок...)",
       "status": "machine",
       "srcHash": "c64234501527c22f",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "65201ae0012927c5"
+      "judgeHash": "9747175a2eb58ad5"
     },
     "bee94de4-3cf6-4ee2-a450-a586bc94c9b5/EventContent": {
       "en": "Turning back, <Character key=RoleTaiwu str=Name/> sees the Imperial Chicken,<NL>who crows several times before flapping its wings and flying straight toward <Character key=RoleTaiwu str=GenderObject/>...",
-      "cn": "<Character key=RoleTaiwu str=Name/>回头一望，眼前果真是大王，<NL>接连啼鸣几声后，便扑扇双翅直奔自己而来……",
+      "cn": "<Character key=RoleTaiwu str=Name/>回头一望，眼前果真是<ArgBox key=DawangDisplayName type=string/>，<NL>接连啼鸣几声后，便扑扇双翅直奔自己而来……",
       "ru": "Поворачивая назад, <Character key=RoleTaiwu str=Name/> видит императорского цыпленка,<NL>который каркает несколько раз, прежде чем взмахнуть крыльями и полететь прямо к <Character key=RoleTaiwu str=GenderObject/>...",
       "status": "machine",
       "srcHash": "e98029086682ce53",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "f35660c4321eae6e"
+      "judgeHash": "247bf7a2b4cca910"
     },
     "bee94de4-3cf6-4ee2-a450-a586bc94c9b5/Option_1": {
       "en": "The Imperial Chicken! You've come at the right time!",
-      "cn": "大王！你来得正巧！\n",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>！你来得正巧！\n",
       "ru": "Императорский цыпленок! Вы пришли в нужное время!",
       "status": "machine",
       "srcHash": "3168b1077e58c70f",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "51723c0628aaad04"
+      "judgeHash": "3936b4ceab51c05f"
     },
     "0f6fb026-7d6c-45ea-8b7e-18591bf12057/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> is overjoyed and greets the Imperial Chicken.<NL>It stops before <Character key=RoleTaiwu str=Name/>, proudly puffs out its chest, and crows several more times...",
-      "cn": "<Character key=RoleTaiwu str=Name/>心中一喜，上前相迎，<NL>只见大王很快止步<Character key=RoleTaiwu str=Name/>身前，傲然挺胸，复又咕咕数十声……",
-      "ru": "<Character key=RoleTaiwu str=Name/> вне себя от радости приветствует Императорского цыплёнка.<NL>Тот останавливается перед <Character key=RoleTaiwu str=Name/>, гордо выпячивает грудь и ещё несколько раз кудахчет…",
+      "cn": "<Character key=RoleTaiwu str=Name/>心中一喜，上前相迎，<NL>只见<ArgBox key=DawangDisplayName type=string/>很快止步<Character key=RoleTaiwu str=Name/>身前，傲然挺胸，复又咕咕数十声……",
+      "ru": "<Character key=RoleTaiwu str=Name/> вне себя от радости приветствует Императорского цыплёнка.<NL>Тот останавливается перед <Character key=RoleTaiwu str=Name/>, гордо выпячивает грудь и ещё десятки раз кудахчет…",
       "status": "judged",
       "srcHash": "7116455a8cda186d",
       "engine": "yandex",
-      "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "b08293838a2cee0f"
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "fa7ed7c0ae483b8a"
     },
     "0f6fb026-7d6c-45ea-8b7e-18591bf12057/Option_1": {
       "en": "(Listening to the crow...)",
@@ -795,13 +795,13 @@
     },
     "14117e6b-95d2-4dc3-86c2-a5c9a7fd2c94/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> vaguely understands the language of the Chicken.<NL>Now, barely able to communicate with it, <Character key=RoleTaiwu str=GenderSubject/> listens to its cluck and learns the Imperial Chicken's intentions...",
-      "cn": "<Character key=RoleTaiwu str=Name/>略知元鸡之语，<NL>如今勉强能与大王对谈，听取大王咕咕之声后，得知了大王来意……",
+      "cn": "<Character key=RoleTaiwu str=Name/>略知元鸡之语，<NL>如今勉强能与<ArgBox key=DawangDisplayName type=string/>对谈，听取<ArgBox key=DawangDisplayName type=string/>咕咕之声后，得知了<ArgBox key=DawangDisplayName type=string/>来意……",
       "ru": "<Character key=RoleTaiwu str=Name/> смутно понимает язык Цыплёнка.<NL>Теперь, едва умея с ним общаться, <Character key=RoleTaiwu str=GenderSubject/> прислушивается к его кудахтанью и узнаёт намерения Императорского цыплёнка…",
       "status": "judged",
       "srcHash": "dc1e3bf69d924541",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "c6feb06abeaf9c08"
+      "judgeHash": "905bdd3f4c1d2028"
     },
     "14117e6b-95d2-4dc3-86c2-a5c9a7fd2c94/Option_1": {
       "en": "(...)",
@@ -815,13 +815,13 @@
     },
     "e94976b6-ed81-4422-a2ca-a89e9fe8eac1/EventContent": {
       "en": "The Imperial Chicken is in Taiwu Village but senses something wrong with Liuli.<NL>In a rush, it flies here to find <Character key=RoleTaiwu str=Name/>.<NL>Though it is not skilled in combat, it wishes to travel with <Character key=RoleTaiwu str=Name/>,<NL>offering aid on the journey to save Liuli and the world...",
-      "cn": "原来，大王身在太吾村中，却心有所感，<NL>察知好友琉璃好似有难，心急之下，便特意飞来寻找<Character key=RoleTaiwu str=Name/>。<NL>自己虽并不善战，却意欲随<Character key=RoleTaiwu str=Name/>一同游历江湖，<NL>尽己所长，踏上解救琉璃与世人的道路……",
-      "ru": "Императорский цыпленок находится в деревне Тайву, но чувствует, что с Люли что-то не так.<NL>В спешке он летит сюда, чтобы найти <Character key=RoleTaiwu str=Name/>.<NL>Хотя он не искусен в бою, он хочет путешествовать с <Character key=RoleTaiwu str=Name/>,<NL>предлагая помощь в путешествии по спасению Люли и всего мира...",
-      "status": "machine",
+      "cn": "原来，<ArgBox key=DawangDisplayName type=string/>身在太吾村中，却心有所感，<NL>察知好友琉璃好似有难，心急之下，便特意飞来寻找<Character key=RoleTaiwu str=Name/>。<NL>自己虽并不善战，却意欲随<Character key=RoleTaiwu str=Name/>一同游历江湖，<NL>尽己所长，踏上解救琉璃与世人的道路……",
+      "ru": "Императорский цыплёнок находится в деревне Тайву, но чувствует, что с Люли что-то не так.<NL>В спешке он летит сюда, чтобы найти <Character key=RoleTaiwu str=Name/>.<NL>Хотя он не искусен в бою, он хочет путешествовать с <Character key=RoleTaiwu str=Name/>,<NL>предлагая помощь в путешествии ради спасения Люли и людей всего мира…",
+      "status": "judged",
       "srcHash": "c8b6f9a33e7ebf17",
       "engine": "yandex",
-      "updatedAt": "2026-07-12T11:44:01.617Z",
-      "judgeHash": "b2dfb41d2ba883c5"
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "191482f18ff1129f"
     },
     "e94976b6-ed81-4422-a2ca-a89e9fe8eac1/Option_1": {
       "en": "Now I understand your intentions...",
@@ -835,13 +835,13 @@
     },
     "c1669748-655b-433c-8c73-a59231240121/EventContent": {
       "en": "While <Character key=RoleTaiwu str=Name/> ponders this,<NL>the Imperial Chicken flaps its wings proudly, cawing again.<NL>It is small in size and, as a Chicken, can easily go unnoticed. To sneak into the Fuloong Sanctuary can be painless.<NL>From there, it can deliver messages between <Character key=RoleTaiwu str=Name/> and Liuli...",
-      "cn": "<Character key=RoleTaiwu str=Name/>正叹然之际，<NL>大王得意振翅，继而又咕咕说道：<NL>自己体型不大，身为元鸡更不易引人警惕，若想潜入伏龙坛中，自是轻而易举之事；<NL>此后便可为<Character key=RoleTaiwu str=Name/>与琉璃传信接头，不怕不能互通消息……",
+      "cn": "<Character key=RoleTaiwu str=Name/>正叹然之际，<NL><ArgBox key=DawangDisplayName type=string/>得意振翅，继而又咕咕说道：<NL>自己体型不大，身为元鸡更不易引人警惕，若想潜入伏龙坛中，自是轻而易举之事；<NL>此后便可为<Character key=RoleTaiwu str=Name/>与琉璃传信接头，不怕不能互通消息……",
       "ru": "Пока <Character key=RoleTaiwu str=Name/> размышляет об этом,<NL>Императорский цыплёнок гордо хлопает крыльями и снова кудахчет.<NL>Он невелик и, будучи цыплёнком, легко может остаться незамеченным. Проникнуть в Святилище усмирённого дракона будет проще простого.<NL>Оттуда он сможет передавать сообщения между <Character key=RoleTaiwu str=Name/> и Люли…",
       "status": "judged",
       "srcHash": "7d55e3e4c754038f",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "743114f50fe5fb13"
+      "judgeHash": "d276fe00c58fca64"
     },
     "c1669748-655b-433c-8c73-a59231240121/Option_1": {
       "en": "This is perfect! With your help, I can rest easy...",
@@ -855,13 +855,13 @@
     },
     "8b76860b-b100-44d4-9ccc-48d54bd1d8f2/EventContent": {
       "en": "The Imperial Chicken nods repeatedly<NL>and mentions that it has already visited the Fuloong Sanctuary,<NL>now ready to deliver Liuli's message to <Character key=RoleTaiwu str=Name/>...<NL><NL>The Imperial Chicken clucks several times, and its meaning seems to be:<NL>\"The Chicken Feather, once.\"<NL><NL><Character key=RoleTaiwu str=Name/> starts to ponder...",
-      "cn": "大王亦是连连点头，<NL>随后，便道自己此前已先去了一趟伏龙坛，<NL>此时正可将琉璃欲传之话，告知<Character key=RoleTaiwu str=Name/>……<NL><NL>只听得大王连咕数声，长短不一，所要传达之意似是：<NL>“元鸡之羽，一次。”<NL><NL><Character key=RoleTaiwu str=Name/>若有所思……",
-      "ru": "Императорский цыплёнок несколько раз кивает<NL>и упоминает, что уже побывал в Святилище усмирённого дракона,<NL>теперь готов передать сообщение Люли <Character key=RoleTaiwu str=Name/>…<NL><NL>Императорский цыплёнок несколько раз кудахчет, и смысл его кудахтанья, по-видимому, таков:<NL>\"Перо цыплёнка — однажды.\"<NL><NL><Character key=RoleTaiwu str=Name/> начинает размышлять…",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>亦是连连点头，<NL>随后，便道自己此前已先去了一趟伏龙坛，<NL>此时正可将琉璃欲传之话，告知<Character key=RoleTaiwu str=Name/>……<NL><NL>只听得<ArgBox key=DawangDisplayName type=string/>连咕数声，长短不一，所要传达之意似是：<NL>“元鸡之羽，一次。”<NL><NL><Character key=RoleTaiwu str=Name/>若有所思……",
+      "ru": "Императорский цыплёнок несколько раз кивает<NL>и упоминает, что уже побывал в Святилище усмирённого дракона,<NL>теперь готов передать слова Люли <Character key=RoleTaiwu str=Name/>…<NL><NL>Императорский цыплёнок несколько раз кудахчет, и смысл его кудахтанья, по-видимому, таков:<NL>\"Перо цыплёнка — однажды.\"<NL><NL><Character key=RoleTaiwu str=Name/> начинает размышлять…",
       "status": "judged",
       "srcHash": "80f4af846ae43984",
       "engine": "yandex",
-      "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "983d40b28262a768"
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "3540e06679284293"
     },
     "8b76860b-b100-44d4-9ccc-48d54bd1d8f2/Option_1": {
       "en": "Each Chicken can only have one feather pulled...",
@@ -895,13 +895,13 @@
     },
     "5075c18f-a29e-49ba-ac49-b9663ffe3e67/EventContent": {
       "en": "The Imperial Chicken continues clucking, its message seeming to be:<NL>\"Obtain, the most beautiful, for a long time.\"<NL><NL><Character key=RoleTaiwu str=Name/> comes to understand...",
-      "cn": "大王继续咕咕数声，所要传达之意似是：<NL>“取得，最为美丽，许久。”<NL><NL><Character key=RoleTaiwu str=Name/>恍然大悟……",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>继续咕咕数声，所要传达之意似是：<NL>“取得，最为美丽，许久。”<NL><NL><Character key=RoleTaiwu str=Name/>恍然大悟……",
       "ru": "Императорский цыплёнок продолжает кудахтать, и его послание, по-видимому, таково:<NL>\"Получить самое красивое — надолго.\"<NL><NL><Character key=RoleTaiwu str=Name/> приходит к пониманию…",
       "status": "judged",
       "srcHash": "8d68c21e173b70e9",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "c812a8deef96ef20"
+      "judgeHash": "fb9e76e5232f51bd"
     },
     "5075c18f-a29e-49ba-ac49-b9663ffe3e67/Option_1": {
       "en": "It is necessary to obtain the most beautiful one...",
@@ -935,23 +935,23 @@
     },
     "91f40d4c-5786-4197-b25d-3531970c58da/EventContent": {
       "en": "The Imperial Chicken's final cluck seems to signal:<NL>\"Careful, come and go, actions, don't worry.\"<NL><NL><Character key=RoleTaiwu str=Name/> is aware of the message...",
-      "cn": "大王最后又咕咕数声，所要传达之意似是：<NL>“小心，自会来去，行事，无须担忧。”<NL><NL><Character key=RoleTaiwu str=Name/>了然于胸……",
-      "ru": "Последнее кудахтанье Императорского цыплёнка, по-видимому, служит сигналом:<NL>\"Осторожно, он сам будет приходить и уходить, а о моих действиях не беспокойся\".<NL><NL><Character key=RoleTaiwu str=Name/> понимает смысл сообщения…",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>最后又咕咕数声，所要传达之意似是：<NL>“小心，自会来去，行事，无须担忧。”<NL><NL><Character key=RoleTaiwu str=Name/>了然于胸……",
+      "ru": "Последнее кудахтанье Императорского цыплёнка, по-видимому, служит сигналом:<NL>\"Осторожно, он сам будет приходить и уходить, действуй, не беспокойся\".<NL><NL><Character key=RoleTaiwu str=Name/> понимает смысл сообщения…",
       "status": "judged",
       "srcHash": "2dff5de58ce04be2",
       "engine": "yandex",
-      "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "60d43a33e561b011"
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "5f74226c7fd13bf6"
     },
     "91f40d4c-5786-4197-b25d-3531970c58da/Option_1": {
       "en": "\"Be careful. The Imperial Chicken will deliver messages...\"",
-      "cn": "“你且小心，大王自会来去……”",
+      "cn": "“你且小心，<ArgBox key=DawangDisplayName type=string/>自会来去……”",
       "ru": "\"Будь осторожен. Императорский цыплёнок сам будет приходить и уходить…\"",
       "status": "judged",
       "srcHash": "5eec2910e0f526cd",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "de0bb0239e7ad050"
+      "judgeHash": "4a536edac1b4deaf"
     },
     "91f40d4c-5786-4197-b25d-3531970c58da/Option_2": {
       "en": "Don't worry about my actions...",
@@ -965,13 +965,13 @@
     },
     "91f40d4c-5786-4197-b25d-3531970c58da/Option_3": {
       "en": "The Imperial Chicken will come and go as it pleases... Be cautious in your actions...",
-      "cn": "“大王自会来去，小心行事……”\n",
+      "cn": "“<ArgBox key=DawangDisplayName type=string/>自会来去，小心行事……”\n",
       "ru": "Императорский цыпленок будет приходить и уходить, когда ему заблагорассудится... Будьте осторожны в своих действиях...",
       "status": "machine",
       "srcHash": "e7a869f9d2c49f27",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "754c3801c021ed93"
+      "judgeHash": "5ec3f4759e9e2860"
     },
     "30a3f78f-631e-4a0e-8edf-be188d6a6349/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> quietly listens and understands<NL>the message from Liuli:<NL><NL>\"{0}<NL>{1}<NL>{2}\"",
@@ -995,13 +995,13 @@
     },
     "0b3209a1-a9ca-441b-be22-6651e23f2075/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> finds all doubts dispelled<NL>and turns to the Imperial Chicken once more, who clucks joyfully a few times,<NL>asking if <Character key=RoleTaiwu str=Name/> has more to say to Liuli...",
-      "cn": "<Character key=RoleTaiwu str=Name/>只觉再无不解之处，<NL>再望大王，亦是十分欢喜，接连咕咕几声，<NL>询问<Character key=RoleTaiwu str=Name/>可还有话要传达琉璃……",
+      "cn": "<Character key=RoleTaiwu str=Name/>只觉再无不解之处，<NL>再望<ArgBox key=DawangDisplayName type=string/>，亦是十分欢喜，接连咕咕几声，<NL>询问<Character key=RoleTaiwu str=Name/>可还有话要传达琉璃……",
       "ru": "<Character key=RoleTaiwu str=Name/> чувствует, что больше не осталось неясностей<NL>и снова смотрит на Императорского цыплёнка, который радостно несколько раз кудахчет,<NL>спрашивая, есть ли у <Character key=RoleTaiwu str=Name/> ещё что сказать Люли…",
       "status": "judged",
       "srcHash": "eb13073e3b5ae5a5",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "e5f97a65077e041f"
+      "judgeHash": "b9430d01e22b0b99"
     },
     "0b3209a1-a9ca-441b-be22-6651e23f2075/Option_1": {
       "en": "So be it. I shall entrust you with my reply...",
@@ -1015,13 +1015,13 @@
     },
     "b5a52d4f-df45-485a-a9d4-78ee66ca4f12/EventContent": {
       "en": "The Imperial Chicken bobs its head eagerly, awaiting instructions from <Character key=RoleTaiwu str=Name/>.<NL><Character key=RoleTaiwu str=Name/> speaks calmly...",
-      "cn": "大王连连点头，只待<Character key=RoleTaiwu str=Name/>细细交代，<NL><Character key=RoleTaiwu str=Name/>随即开口说道……",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>连连点头，只待<Character key=RoleTaiwu str=Name/>细细交代，<NL><Character key=RoleTaiwu str=Name/>随即开口说道……",
       "ru": "Императорский цыпленок нетерпеливо качает головой, ожидая указаний от <Character key=RoleTaiwu str=Name/>.<NL><Character key=RoleTaiwu str=Name/> говорит спокойно...",
       "status": "machine",
       "srcHash": "21bd795da577ea63",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "5f403e9738831902"
+      "judgeHash": "d3f3d3ea7623993b"
     },
     "b5a52d4f-df45-485a-a9d4-78ee66ca4f12/Option_1": {
       "en": "I now understand—each Chicken yields but one feather...",
@@ -1055,13 +1055,13 @@
     },
     "11736ded-9d71-48ee-8a21-99d234a00663/EventContent": {
       "en": "The Imperial Chicken listens in solemn stillness. <Character key=RoleTaiwu str=Name/> continues...",
-      "cn": "大王静听不动，<Character key=RoleTaiwu str=Name/>接着说道……",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>静听不动，<Character key=RoleTaiwu str=Name/>接着说道……",
       "ru": "Императорский цыплёнок неподвижно слушает в торжественной тишине. <Character key=RoleTaiwu str=Name/> продолжает…",
       "status": "judged",
       "srcHash": "d3a83cf0edb91281",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "8a7d9919ee924792"
+      "judgeHash": "5c3f6c9786aec2dd"
     },
     "11736ded-9d71-48ee-8a21-99d234a00663/Option_1": {
       "en": "And only the finest feather has any use...",
@@ -1125,23 +1125,23 @@
     },
     "430eb1a7-518d-4343-a7c2-730bc2a4198b/Option_3": {
       "en": "Should you witness any oddities, just pass them on through the Imperial Chicken...",
-      "cn": "有大王代为传话，若是见了什么趣事，亦可一并告知……\n",
-      "ru": "Если вы станете свидетелем каких-либо странностей, просто передайте их через \"Имперского цыпленка\"...",
-      "status": "machine",
+      "cn": "有<ArgBox key=DawangDisplayName type=string/>代为传话，若是见了什么趣事，亦可一并告知……\n",
+      "ru": "Если вы станете свидетелем каких-либо интересных событий, просто передайте их через Императорского цыплёнка…",
+      "status": "judged",
       "srcHash": "1b902f2b9be951c7",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "248443f0cea30d79"
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "5324afdc11c41796"
     },
     "02dca07c-2ba9-40ed-b9eb-3ef7807566f9/EventContent": {
       "en": "After <Character key=RoleTaiwu str=Name/> finishes talking, the Imperial Chicken lifts its voice in a high, proud call,<NL>declaring it shall fly 3,000 li per day and soon every word from <Character key=RoleTaiwu str=Name/> will reach Liuli.",
-      "cn": "<Character key=RoleTaiwu str=Name/>说完之后，便见大王高声一啼，<NL>只道自己日行三千里，不日便能将<Character key=RoleTaiwu str=Name/>所言，尽数传与琉璃知晓。",
+      "cn": "<Character key=RoleTaiwu str=Name/>说完之后，便见<ArgBox key=DawangDisplayName type=string/>高声一啼，<NL>只道自己日行三千里，不日便能将<Character key=RoleTaiwu str=Name/>所言，尽数传与琉璃知晓。",
       "ru": "После того как <Character key=RoleTaiwu str=Name/> закончил говорить, Императорский цыплёнок издаёт громкий гордый крик,<NL>заявляя, что будет пролетать по 3000 ли в день и вскоре донесёт до Люли каждое слово <Character key=RoleTaiwu str=Name/>.",
       "status": "judged",
       "srcHash": "dd05bdbb6000136b",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "c539b8565c237638"
+      "judgeHash": "5e3fa12a0f2eafea"
     },
     "02dca07c-2ba9-40ed-b9eb-3ef7807566f9/Option_1": {
       "en": "All is well...",
@@ -1155,33 +1155,33 @@
     },
     "3a0dd3d4-44f0-4d64-aad9-06c442b74e3c/EventContent": {
       "en": "Once the errand is sealed, the Imperial Chicken shakes its head with great flourish,<NL>then suddenly twists around, plucking a single feather from its tail. Holding it in its beak,<NL>it seems to be offering the feather to <Character key=RoleTaiwu str=Name/>...",
-      "cn": "传信之事言毕，大王便是一番摇头晃脑，<NL>随即，竟扭头自尾羽处啄下一支羽毛，衔在口中，<NL>似要主动赠与<Character key=RoleTaiwu str=Name/>……",
+      "cn": "传信之事言毕，<ArgBox key=DawangDisplayName type=string/>便是一番摇头晃脑，<NL>随即，竟扭头自尾羽处啄下一支羽毛，衔在口中，<NL>似要主动赠与<Character key=RoleTaiwu str=Name/>……",
       "ru": "Как только поручение выполнено, Императорский цыплёнок величественно качает головой,<NL>затем внезапно поворачивается и выдёргивает из хвоста одно перо. Держа его в клюве,<NL>он, кажется, хочет подарить перо <Character key=RoleTaiwu str=Name/>…",
       "status": "judged",
       "srcHash": "5d40556ef7418960",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "d5126cb2ff88a4ab"
+      "judgeHash": "f2a7c36647b9a16e"
     },
     "3a0dd3d4-44f0-4d64-aad9-06c442b74e3c/Option_1": {
       "en": "The Imperial Chicken... is giving me its feather? It must be for Liuli's feather robe... (deeply moved...)",
-      "cn": "大王……赠我羽毛，必是想为琉璃缝制羽衣……（深受触动……）\n",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>……赠我羽毛，必是想为琉璃缝制羽衣……（深受触动……）\n",
       "ru": "Императорский цыплёнок... отдаёт мне своё перо? Должно быть, оно нужно для перьевого одеяния Люли... (глубоко тронут...)",
       "status": "judged",
       "srcHash": "282dcaa6550b6b05",
       "engine": "yandex",
       "updatedAt": "2026-08-24T03:03:21.250Z",
-      "judgeHash": "a33bde121278b076"
+      "judgeHash": "8d89ee4996e6b6f2"
     },
     "d6ded13f-868c-4f31-8d03-faad24b792b1/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> looks down to study the feather in their hand,<NL>soft, sleek, and gleaming with a rare luster.<NL>Unlike any common plume, this seems to be the finest feather the Imperial Chicken has.<NL>Seeing this, <Character key=RoleTaiwu str=Name/> seems to know what kind of feather <Character key=RoleTaiwu str=GenderSubject/> is seeking...",
-      "cn": "<Character key=RoleTaiwu str=Name/>低头细观，<NL>手中羽毛柔润顺滑，富有光泽，<NL>与寻常羽毛大不相同，好似正是大王浑身羽毛之中，最为美丽的一支。<NL>见得此状，<Character key=RoleTaiwu str=Name/>若有所思，似已知晓所需羽毛应是何种形貌……",
+      "cn": "<Character key=RoleTaiwu str=Name/>低头细观，<NL>手中羽毛柔润顺滑，富有光泽，<NL>与寻常羽毛大不相同，好似正是<ArgBox key=DawangDisplayName type=string/>浑身羽毛之中，最为美丽的一支。<NL>见得此状，<Character key=RoleTaiwu str=Name/>若有所思，似已知晓所需羽毛应是何种形貌……",
       "ru": "<Character key=RoleTaiwu str=Name/> опускает взгляд, изучая перо в своей руке,<NL>мягкое, гладкое и сияющее редким блеском.<NL>В отличие от обычных перьев, это, похоже, самое красивое перо Владыки.<NL>Увидев это, <Character key=RoleTaiwu str=Name/> словно понимает, каким должно быть искомое <Character key=RoleTaiwu str=GenderSubject/> перо...",
       "status": "judged",
       "srcHash": "9b0c6f61774a0975",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "373d0f5cbeb550f8"
+      "judgeHash": "f12628039d1eda75"
     },
     "d6ded13f-868c-4f31-8d03-faad24b792b1/Option_1": {
       "en": "(Accept the feather...)",
@@ -1195,33 +1195,33 @@
     },
     "7040c1d0-75b0-439f-abcd-64014af4887d/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> accepts the gift and bows in thanks.<NL>The Imperial Chicken lets out a proud cry, pleased beyond words, as though its heart soars simply for having lent its aid to <Character key=RoleTaiwu str=Name/>...",
-      "cn": "<Character key=RoleTaiwu str=Name/>收下羽毛，再向大王称谢，<NL>大王长鸣一声作答，神情极是得意，似乎只因帮上<Character key=RoleTaiwu str=Name/>便快活不已……",
+      "cn": "<Character key=RoleTaiwu str=Name/>收下羽毛，再向<ArgBox key=DawangDisplayName type=string/>称谢，<NL><ArgBox key=DawangDisplayName type=string/>长鸣一声作答，神情极是得意，似乎只因帮上<Character key=RoleTaiwu str=Name/>便快活不已……",
       "ru": "<Character key=RoleTaiwu str=Name/> принимает подарок и кланяется в знак благодарности.<NL>Императорский цыпленок издает гордый крик, несказанно довольный, как будто его сердце воспаряет просто потому, что он оказал свою помощь <Character key=RoleTaiwu str=Name/>...",
       "status": "machine",
       "srcHash": "6cfd33ff443c4b77",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "52705a1e496b95a7"
+      "judgeHash": "cc4ab19e80457160"
     },
     "7040c1d0-75b0-439f-abcd-64014af4887d/Option_1": {
       "en": "(With the Imperial Chicken's help, I must waste no time in seeking the Chicken Feather...)",
-      "cn": "（好在有大王相助，此后我当尽快取得所需的元鸡羽毛……）\n",
+      "cn": "（好在有<ArgBox key=DawangDisplayName type=string/>相助，此后我当尽快取得所需的元鸡羽毛……）\n",
       "ru": "(С помощью Императорской курицы я не должен терять времени и должен как можно скорее добыть перо первородной курицы...)",
       "status": "judged",
       "srcHash": "bf8b2ce9c7eb31c6",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "69149688afac1b5b"
+      "judgeHash": "ad28972ad33355cc"
     },
     "5feece16-b56a-4cdf-9aa0-06042c0e85df/EventContent": {
       "en": "Soon after, the familiar crowing returns.<NL>The Imperial Chicken, swift as ever, is already back from its journey, bringing Liuli's reply...",
-      "cn": "此时，熟悉鸡鸣又起，<NL>原来是大王日行千里，已然带回了琉璃的传话……",
+      "cn": "此时，熟悉鸡鸣又起，<NL>原来是<ArgBox key=DawangDisplayName type=string/>日行千里，已然带回了琉璃的传话……",
       "ru": "Вскоре вновь раздаётся знакомое кукареканье.<NL>Оказывается, Владыка способен за день преодолеть тысячу ли и уже принёс ответ Люли...",
       "status": "judged",
       "srcHash": "e6b281ab10200465",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "a35026acd736c2fe"
+      "judgeHash": "43a93c93a25d36d1"
     },
     "5feece16-b56a-4cdf-9aa0-06042c0e85df/Option_1": {
       "en": "(Listen closely...)",
@@ -1235,13 +1235,13 @@
     },
     "7736aa22-b397-437d-916e-9afdb68a7915/EventContent": {
       "en": "The Imperial Chicken clucks a few times, indicating Liuli's meaning:<NL><NL>\"The Chicken Feathers meant for the feather robe are rare treasures.<NL>I must trouble you to seek it with care...\"",
-      "cn": "只听得大王咕咕数声，琉璃之意正是：<NL><NL>「用于缝制羽衣的元鸡之羽，乃世间少有，<NL>此事只能劳你辛苦一番……」",
+      "cn": "只听得<ArgBox key=DawangDisplayName type=string/>咕咕数声，琉璃之意正是：<NL><NL>「用于缝制羽衣的元鸡之羽，乃世间少有，<NL>此事只能劳你辛苦一番……」",
       "ru": "Императорский цыплёнок несколько раз кудахчет, передавая смысл слов Люли:<NL><NL>\"Перья первородной курицы, предназначенные для перьевого одеяния, — редчайшее сокровище.<NL>Придётся тебе приложить немало усилий...\"",
       "status": "judged",
       "srcHash": "f91213dff8b698e2",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "c1bb13af19098405"
+      "judgeHash": "70f81b8beade1fbf"
     },
     "7736aa22-b397-437d-916e-9afdb68a7915/Option_1": {
       "en": "(Keep listening...)",
@@ -1255,13 +1255,13 @@
     },
     "29c1630d-b439-4b66-b954-a2ea364bc53b/EventContent": {
       "en": "The Imperial Chicken clucks once more, indicating Liuli's meaning:<NL><NL>\"If you fail to pluck the feather, and the chicken escapes, fret not.<NL>Simply await the next chance...\"",
-      "cn": "只听得大王咕咕数声，琉璃之意正是：<NL><NL>「若你未能取得羽毛，元鸡便已吓跑，不必忧心，<NL>待得下次再行拔取便好……」",
+      "cn": "只听得<ArgBox key=DawangDisplayName type=string/>咕咕数声，琉璃之意正是：<NL><NL>「若你未能取得羽毛，元鸡便已吓跑，不必忧心，<NL>待得下次再行拔取便好……」",
       "ru": "Императорский цыпленок снова кудахчет, указывая на то, что имела в виду Люли:<NL><NL>\"Если вам не удастся выдернуть перо, и цыпленок сбежит, не волнуйтесь.<NL>Просто жди следующего шанса...\"",
       "status": "machine",
       "srcHash": "5e8238c8a5b3103a",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "13366139c9ebf64d"
+      "judgeHash": "7e13ddb421a524e6"
     },
     "29c1630d-b439-4b66-b954-a2ea364bc53b/Option_1": {
       "en": "(Keep listening...)",
@@ -1275,13 +1275,13 @@
     },
     "34be6750-42f5-46e9-b745-c1992b312823/EventContent": {
       "en": "The Imperial Chicken clucks once more, indicating Liuli's meaning:<NL><NL>\"Once a feather is taken, the Chicken is bare.<NL>You must seek out another Chicken...\"",
-      "cn": "只听得大王咕咕数声，琉璃之意正是：<NL><NL>「你若取得了元鸡身上的羽毛，此鸡便无毛可取，<NL>须得再去寻找别的元鸡……」",
+      "cn": "只听得<ArgBox key=DawangDisplayName type=string/>咕咕数声，琉璃之意正是：<NL><NL>「你若取得了元鸡身上的羽毛，此鸡便无毛可取，<NL>须得再去寻找别的元鸡……」",
       "ru": "Императорский цыплёнок снова кудахчет, передавая смысл слов Люли:<NL><NL>\"Стоит снять перо с первородной курицы, и с неё больше нечего будет взять.<NL>Тебе придётся искать другую первородную курицу...\"",
       "status": "judged",
       "srcHash": "dab0ff2e328982a0",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "c51e4c6a33743ba5"
+      "judgeHash": "2dd1b24699cfa622"
     },
     "34be6750-42f5-46e9-b745-c1992b312823/Option_1": {
       "en": "(Keep listening...)",
@@ -1415,13 +1415,13 @@
     },
     "4339a0c8-0ba8-403d-bd1d-87ddd3c3b232/EventContent": {
       "en": "Then Liuli seems to speak of other recent happenings.<NL>The Imperial Chicken clucks anxiously and swiftly, conveying:<NL><NL>\"The villain lurking in the shadows has yet to reveal themselves...<NL>Their schemes seem abandoned... and no trace remains...\"<NL><NL><Character key=RoleTaiwu str=Name/> looks thoughtful...",
-      "cn": "此后，琉璃似又说起近日所见，<NL>只听得大王连声咕咕，又急又快，所说之意正是：<NL><NL>「那藏于暗处的歹人，未曾现身……<NL>只怕早已作罢……至今再未行事……无半分迹象……」<NL><NL><Character key=RoleTaiwu str=Name/>若有所思……",
+      "cn": "此后，琉璃似又说起近日所见，<NL>只听得<ArgBox key=DawangDisplayName type=string/>连声咕咕，又急又快，所说之意正是：<NL><NL>「那藏于暗处的歹人，未曾现身……<NL>只怕早已作罢……至今再未行事……无半分迹象……」<NL><NL><Character key=RoleTaiwu str=Name/>若有所思……",
       "ru": "Затем Люли, кажется, говорит о других недавних событиях.<NL>Императорский цыплёнок тревожно и быстро кудахчет, передавая:<NL><NL>\"Злодей, скрывающийся в тени, всё ещё не показался...<NL>Похоже, он уже отказался от своего замысла... и с тех пор больше не действовал... никаких следов...\"<NL><NL><Character key=RoleTaiwu str=Name/> погружается в размышления...",
       "status": "judged",
       "srcHash": "0774ccce0e4779e5",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "b2dc4d3383c1ccc5"
+      "judgeHash": "d73f0c41aae66c7c"
     },
     "4339a0c8-0ba8-403d-bd1d-87ddd3c3b232/Option_1": {
       "en": "\"The villain is still hiding in the shadows, yet to reveal themselves...\"",
@@ -1455,13 +1455,13 @@
     },
     "a04319fa-998e-4dcd-98b0-f0d9f46e2912/EventContent": {
       "en": "The Imperial Chicken continues to cluck, conveying:<NL><NL>\"I hear... you have already claimed a Chicken Feather...<NL>Fortune smiles upon you... the cause nears its end...\"<NL><NL><Character key=RoleTaiwu str=Name/> comes to understand...",
-      "cn": "大王继续咕咕数声，所说之意正是：<NL><NL>「听闻……你已取得元鸡之羽……<NL>此事极是顺利……很快……便能成事……」<NL><NL><Character key=RoleTaiwu str=Name/>恍然大悟……",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>继续咕咕数声，所说之意正是：<NL><NL>「听闻……你已取得元鸡之羽……<NL>此事极是顺利……很快……便能成事……」<NL><NL><Character key=RoleTaiwu str=Name/>恍然大悟……",
       "ru": "Императорский цыплёнок продолжает кудахтать, передавая:<NL><NL>\"Я слышал... ты уже добыл перо первородной курицы...<NL>Удача на твоей стороне... дело близится к завершению...\"<NL><NL><Character key=RoleTaiwu str=Name/> наконец всё понимает...",
       "status": "judged",
       "srcHash": "caf2881c4db0f8cb",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "1320cba2453a9666"
+      "judgeHash": "e813991e4338b6ff"
     },
     "a04319fa-998e-4dcd-98b0-f0d9f46e2912/Option_1": {
       "en": "\"It seems that when you went to search for the feathers of the Chickens, no one obstructed you...\"",
@@ -1495,13 +1495,13 @@
     },
     "58c67d89-b9a3-40bf-8241-969f386079cd/EventContent": {
       "en": "The Imperial Chicken continues to cluck, conveying:<NL><NL>\"What a pity... the Fuloong Sanctuary...<NL>I cannot journey with you...<NL>I long to roam the mortal world once more...\"<NL><NL><Character key=RoleTaiwu str=Name/> is aware of the message...",
-      "cn": "大王继续咕咕数声，所说之意正是：<NL><NL>「只可惜……伏龙坛……<NL>不能与你同去……继续游历……<NL>再见这凡间美景……十分想念……」<NL><NL><Character key=RoleTaiwu str=Name/>了然于胸……",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>继续咕咕数声，所说之意正是：<NL><NL>「只可惜……伏龙坛……<NL>不能与你同去……继续游历……<NL>再见这凡间美景……十分想念……」<NL><NL><Character key=RoleTaiwu str=Name/>了然于胸……",
       "ru": "Императорский цыплёнок продолжает кудахтать, передавая:<NL><NL>\"Как жаль... Святилище усмирённого дракона...<NL>Я не могу отправиться с тобой...<NL>Мне так хочется ещё раз странствовать по миру смертных...\"<NL><NL><Character key=RoleTaiwu str=Name/> понимает смысл послания...",
       "status": "judged",
       "srcHash": "f2dfe47351e4b774",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "91bffeaf2e4face1"
+      "judgeHash": "e3c4752d56dcdb50"
     },
     "58c67d89-b9a3-40bf-8241-969f386079cd/Option_1": {
       "en": "\"Unfortunately, I am currently in Fuloong Sanctuary and cannot accompany you on this journey...\"",
@@ -1555,13 +1555,13 @@
     },
     "de4d663f-05cd-417a-9e37-a5bc95d39d49/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> finds all doubts dispelled<NL>and turns to the Imperial Chicken once more, who clucks joyfully a few times,<NL>asking if <Character key=RoleTaiwu str=Name/> has more to say to Liuli...",
-      "cn": "<Character key=RoleTaiwu str=Name/>只觉再无不解之处，<NL>再望大王，亦是十分欢喜，接连咕咕几声，<NL>询问<Character key=RoleTaiwu str=Name/>可还有话要传达琉璃……",
+      "cn": "<Character key=RoleTaiwu str=Name/>只觉再无不解之处，<NL>再望<ArgBox key=DawangDisplayName type=string/>，亦是十分欢喜，接连咕咕几声，<NL>询问<Character key=RoleTaiwu str=Name/>可还有话要传达琉璃……",
       "ru": "<Character key=RoleTaiwu str=Name/> чувствует, что больше не осталось неясностей<NL>и снова смотрит на Императорского цыплёнка, который радостно несколько раз кудахчет,<NL>спрашивая, есть ли у <Character key=RoleTaiwu str=Name/> ещё что сказать Люли…",
       "status": "judged",
       "srcHash": "eb13073e3b5ae5a5",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "e5f97a65077e041f"
+      "judgeHash": "b9430d01e22b0b99"
     },
     "de4d663f-05cd-417a-9e37-a5bc95d39d49/Option_1": {
       "en": "So be it. I shall entrust you with my reply...",
@@ -1575,13 +1575,13 @@
     },
     "7c47fe52-5ff2-4d24-89a0-41eb705b8321/EventContent": {
       "en": "The Imperial Chicken bobs its head eagerly, awaiting instructions from <Character key=RoleTaiwu str=Name/>.<NL><Character key=RoleTaiwu str=Name/> speaks calmly...",
-      "cn": "大王连连点头，只待<Character key=RoleTaiwu str=Name/>细细交代，<NL><Character key=RoleTaiwu str=Name/>随即开口说道……",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>连连点头，只待<Character key=RoleTaiwu str=Name/>细细交代，<NL><Character key=RoleTaiwu str=Name/>随即开口说道……",
       "ru": "Императорский цыпленок нетерпеливо качает головой, ожидая указаний от <Character key=RoleTaiwu str=Name/>.<NL><Character key=RoleTaiwu str=Name/> говорит спокойно...",
       "status": "machine",
       "srcHash": "21bd795da577ea63",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "5f403e9738831902"
+      "judgeHash": "d3f3d3ea7623993b"
     },
     "7c47fe52-5ff2-4d24-89a0-41eb705b8321/Option_1": {
       "en": "The enemy lurks, and we stand exposed. Watch for a few days more. Act not in haste...",
@@ -1615,13 +1615,13 @@
     },
     "1431d12b-14f6-4627-878a-ec5234f81926/EventContent": {
       "en": "The Imperial Chicken listens in solemn stillness. <Character key=RoleTaiwu str=Name/> continues...",
-      "cn": "大王静听不动，<Character key=RoleTaiwu str=Name/>接着说道……",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>静听不动，<Character key=RoleTaiwu str=Name/>接着说道……",
       "ru": "Императорский цыплёнок неподвижно слушает в торжественной тишине. <Character key=RoleTaiwu str=Name/> продолжает…",
       "status": "judged",
       "srcHash": "d3a83cf0edb91281",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "8a7d9919ee924792"
+      "judgeHash": "5c3f6c9786aec2dd"
     },
     "1431d12b-14f6-4627-878a-ec5234f81926/Option_1": {
       "en": "Gathering the Chicken Feather is no great hardship. I have committed every instruction you have given to heart...",
@@ -1695,13 +1695,13 @@
     },
     "b417893a-b95a-42dd-bcca-b8390d37805b/EventContent": {
       "en": "After <Character key=RoleTaiwu str=Name/> finishes talking, the Imperial Chicken lifts its voice in a high, proud call,<NL>declaring it shall fly 3,000 li per day, and soon every word from <Character key=RoleTaiwu str=Name/> will reach Liuli...",
-      "cn": "<Character key=RoleTaiwu str=Name/>说完之后，便见大王高声一啼，<NL>只道自己日行三千里，不日便能将<Character key=RoleTaiwu str=Name/>所言，尽数传与琉璃知晓……",
+      "cn": "<Character key=RoleTaiwu str=Name/>说完之后，便见<ArgBox key=DawangDisplayName type=string/>高声一啼，<NL>只道自己日行三千里，不日便能将<Character key=RoleTaiwu str=Name/>所言，尽数传与琉璃知晓……",
       "ru": "После того как <Character key=RoleTaiwu str=Name/> закончит говорить, Императорский цыплёнок издаёт громкий гордый крик,<NL>заявляя, что будет пролетать 3000 ли в день и вскоре донесёт до Люли каждое слово <Character key=RoleTaiwu str=Name/>...",
       "status": "judged",
       "srcHash": "c6709f32f88cb5ae",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "99996a2c5a5cc958"
+      "judgeHash": "dbf628f3e6aa29f2"
     },
     "b417893a-b95a-42dd-bcca-b8390d37805b/Option_1": {
       "en": "All is well...",
@@ -1795,13 +1795,13 @@
     },
     "67034c99-604d-42ab-869a-cc5edf72e502/EventContent": {
       "en": "Soon after, the familiar crowing returns.<NL>The Imperial Chicken, swift as ever, is already back from its journey, bringing Liuli's reply...",
-      "cn": "此时，熟悉鸡鸣又起，<NL>原来是大王日行千里，已然带回了琉璃的传话……",
+      "cn": "此时，熟悉鸡鸣又起，<NL>原来是<ArgBox key=DawangDisplayName type=string/>日行千里，已然带回了琉璃的传话……",
       "ru": "Вскоре вновь раздаётся знакомое кукареканье.<NL>Оказывается, Владыка способен за день преодолеть тысячу ли и уже принёс ответ Люли...",
       "status": "judged",
       "srcHash": "e6b281ab10200465",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "a35026acd736c2fe"
+      "judgeHash": "43a93c93a25d36d1"
     },
     "67034c99-604d-42ab-869a-cc5edf72e502/Option_1": {
       "en": "(Listen closely...)",
@@ -1815,13 +1815,13 @@
     },
     "283ebe90-4d2c-4ef7-a158-9f0dc168087f/EventContent": {
       "en": "The Imperial Chicken clucks a few times, revealing Liuli's words:<NL><NL>\"I have naught to do in this Fuloong Sanctuary but eat and drink.<NL>Not a soul here notices anything suspicious...\"",
-      "cn": "只听得大王咕咕数声，琉璃之意正是：<NL><NL>「我在这伏龙坛中，不是吃，便是喝，实在是无事可做。<NL>向旁人一问，也未曾听说什么形迹可疑之人……」",
+      "cn": "只听得<ArgBox key=DawangDisplayName type=string/>咕咕数声，琉璃之意正是：<NL><NL>「我在这伏龙坛中，不是吃，便是喝，实在是无事可做。<NL>向旁人一问，也未曾听说什么形迹可疑之人……」",
       "ru": "Императорский цыплёнок несколько раз кудахчет, передавая слова Люли:<NL><NL>\"Мне нечего делать в этом Святилище усмирённого дракона, кроме как есть и пить.<NL>Ни одна душа здесь не замечает ничего подозрительного...\"",
       "status": "judged",
       "srcHash": "d81ecfcd888141b8",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "fb25afa5385b6c0e"
+      "judgeHash": "8dda20f14eab1944"
     },
     "283ebe90-4d2c-4ef7-a158-9f0dc168087f/Option_1": {
       "en": "(Keep listening...)",
@@ -1835,13 +1835,13 @@
     },
     "709b35d0-01eb-488d-95e8-830f8a810236/EventContent": {
       "en": "The Imperial Chicken clucks a few times, revealing Liuli's words:<NL><NL>\"I have investigated anew, and still, the villain has left no trace within the Fuloong Sanctuary.<NL>Could it be... that their true prey is not I, but you?\"",
-      "cn": "只听得大王咕咕数声，琉璃之意正是：<NL><NL>「我近日复又暗中查探，伏龙坛中确实不见歹人踪迹。<NL>莫非此人不为害我，实则追你而去？」",
+      "cn": "只听得<ArgBox key=DawangDisplayName type=string/>咕咕数声，琉璃之意正是：<NL><NL>「我近日复又暗中查探，伏龙坛中确实不见歹人踪迹。<NL>莫非此人不为害我，实则追你而去？」",
       "ru": "Императорский цыплёнок несколько раз кудахчет, передавая слова Люли:<NL><NL>\"Я снова всё проверила, но в Святилище усмирённого дракона злодей по-прежнему не оставил следов.<NL>Неужели его настоящая добыча — не я, а ты?\"",
       "status": "judged",
       "srcHash": "978fd1f3c652d4c0",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "54b59338b771b0b8"
+      "judgeHash": "2b092dde698f9074"
     },
     "709b35d0-01eb-488d-95e8-830f8a810236/Option_1": {
       "en": "(Keep listening...)",
@@ -1855,13 +1855,13 @@
     },
     "a153f8eb-4b8a-480d-b3d8-e46fe47ac6d9/EventContent": {
       "en": "The Imperial Chicken clucks a few times, revealing Liuli's words:<NL><NL>\"I remain ever watchful—so much so that I must climb high to sleep restfully.<NL>Yet often upon waking, I fall and suffer much pain...\"",
-      "cn": "只听得大王咕咕数声，琉璃之意正是：<NL><NL>「我如今极是警惕，便连睡觉，也要爬到高处方才安心。<NL>只是醒来时往往不慎摔落，很是疼痛……」",
+      "cn": "只听得<ArgBox key=DawangDisplayName type=string/>咕咕数声，琉璃之意正是：<NL><NL>「我如今极是警惕，便连睡觉，也要爬到高处方才安心。<NL>只是醒来时往往不慎摔落，很是疼痛……」",
       "ru": "Императорский цыпленок несколько раз кудахчет, выдавая слова Люли:<NL><NL>\"Я всегда остаюсь бдительным — настолько, что мне приходится забираться высоко, чтобы спокойно спать.<NL>И все же часто, просыпаясь, я падаю и испытываю сильную боль...\"",
       "status": "machine",
       "srcHash": "2f10e92edae6a3a3",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "22d28c4a6e40ea1d"
+      "judgeHash": "9fc1331711eec4bb"
     },
     "a153f8eb-4b8a-480d-b3d8-e46fe47ac6d9/Option_1": {
       "en": "(Keep listening...)",
@@ -1895,13 +1895,13 @@
     },
     "c097d472-f0cc-4ae9-844f-0469c4e31dcc/EventContent": {
       "en": "[The Imperial Chicken's messages have led me to sense that you have faced countless small tribulations, right?<NL>None are grave, yet enough to weigh on your heart...]",
-      "cn": "「听得大王传话，这一路上，竟不知有多少杂事令你忧心？<NL>或许可称之为：虽无大碍，却有‘小碍’……」",
+      "cn": "「听得<ArgBox key=DawangDisplayName type=string/>传话，这一路上，竟不知有多少杂事令你忧心？<NL>或许可称之为：虽无大碍，却有‘小碍’……」",
       "ru": "[Послания Императорского цыпленка навели меня на мысль, что вы столкнулись с бесчисленными мелкими невзгодами, верно?<NL>Ни один из них не является серьезным, но все же достаточным, чтобы давить на твое сердце...]",
       "status": "machine",
       "srcHash": "f877edc0600265d3",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "79d12f40f19533e0"
+      "judgeHash": "e9ee483874c7d4e5"
     },
     "c097d472-f0cc-4ae9-844f-0469c4e31dcc/Option_1": {
       "en": "(Keep listening...)",
@@ -1995,13 +1995,13 @@
     },
     "521dfa6a-430f-4d0a-9115-cf1b595a196b/EventContent": {
       "en": "Then Liuli speaks of other recent happenings.<NL>The Imperial Chicken clucks anxiously and swiftly, conveying:<NL><NL>\"All remains quiet at the Fuloong Sanctuary...<NL>Could it be the villain has long since left, or perhaps...\"<NL><NL><Character key=RoleTaiwu str=Name/> looks thoughtful...",
-      "cn": "此后，琉璃似又说起近日所见，<NL>只听得大王连声咕咕，又急又快，所说之意正是：<NL><NL>「伏龙坛中实在无事发生……<NL>歹人莫非早已……你可知晓？」<NL><NL><Character key=RoleTaiwu str=Name/>若有所思……",
+      "cn": "此后，琉璃似又说起近日所见，<NL>只听得<ArgBox key=DawangDisplayName type=string/>连声咕咕，又急又快，所说之意正是：<NL><NL>「伏龙坛中实在无事发生……<NL>歹人莫非早已……你可知晓？」<NL><NL><Character key=RoleTaiwu str=Name/>若有所思……",
       "ru": "Затем Люли рассказывает о других недавних событиях.<NL>Императорский цыплёнок тревожно и быстро кудахчет, передавая:<NL><NL>\"В Святилище усмирённого дракона всё спокойно...<NL>Неужели злодей уже давно ушёл, или, возможно...\"<NL><NL><Character key=RoleTaiwu str=Name/> выглядит задумчивым...",
       "status": "judged",
       "srcHash": "29f0f194c0cf5a4e",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "bb16a526e0e200b6"
+      "judgeHash": "5cc63bc0dea340a8"
     },
     "521dfa6a-430f-4d0a-9115-cf1b595a196b/Option_1": {
       "en": "\"Nothing has happened in Fuloong Sanctuary. The villain may have left...\"",
@@ -2025,13 +2025,13 @@
     },
     "a291a3e4-c98c-4188-a382-e45f04946487/EventContent": {
       "en": "The Imperial Chicken continues to cluck, conveying:<NL><NL>Since my return, no more oddities have troubled me...<NL>My only worry each day is... food. I fear I've grown a bit plumper...<NL><NL><Character key=RoleTaiwu str=Name/> comes to understand...",
-      "cn": "大王继续咕咕数声，所说之意正是：<NL><NL>「我自归返以来，未曾再见昔日怪事……<NL>每日只需忧心……吃食……已然长胖些许……」<NL><NL><Character key=RoleTaiwu str=Name/>恍然大悟……",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>继续咕咕数声，所说之意正是：<NL><NL>「我自归返以来，未曾再见昔日怪事……<NL>每日只需忧心……吃食……已然长胖些许……」<NL><NL><Character key=RoleTaiwu str=Name/>恍然大悟……",
       "ru": "Императорский цыпленок продолжает кудахтать, передавая:<NL><NL>С тех пор как я вернулся, никакие странности больше не беспокоили меня...<NL>Моя единственная забота каждый день - это... еда. Боюсь, я немного пополнела...<NL><NL><Character key=RoleTaiwu str=Name/> приходит к пониманию...",
       "status": "machine",
       "srcHash": "527a5f4e176c1a3c",
       "engine": "yandex",
       "updatedAt": "2026-07-12T11:44:01.617Z",
-      "judgeHash": "3b7859c4f575194d"
+      "judgeHash": "b76b13453974a225"
     },
     "a291a3e4-c98c-4188-a382-e45f04946487/Option_1": {
       "en": "\"Now, I have not encountered any strange occurrences... The only concern every day is overeating...\"",
@@ -2055,13 +2055,13 @@
     },
     "e3fac600-9546-4c0b-8584-cc1c704d8d59/EventContent": {
       "en": "The Imperial Chicken continues to cluck, conveying:<NL><NL>\"When speaking with the congregants here...<NL>Their devotion to the common folk... the might of the True Loong...<NL>It seems they mean no harm.\"<NL><NL><Character key=RoleTaiwu str=Name/> is aware of the message...",
-      "cn": "大王继续咕咕数声，所说之意正是：<NL><NL>「我与伏龙坛的各位……闲话之时……<NL>应当一心只为世间百姓……真龙之威……<NL>想来皆是善心之人。」<NL><NL><Character key=RoleTaiwu str=Name/>了然于胸……",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>继续咕咕数声，所说之意正是：<NL><NL>「我与伏龙坛的各位……闲话之时……<NL>应当一心只为世间百姓……真龙之威……<NL>想来皆是善心之人。」<NL><NL><Character key=RoleTaiwu str=Name/>了然于胸……",
       "ru": "Императорский цыплёнок продолжает кудахтать, передавая:<NL><NL>\"Когда я разговаривал с прихожанами здесь...<NL>Их преданность простому народу... могущество истинного луна...<NL>Похоже, они не желают никому зла.\"<NL><NL><Character key=RoleTaiwu str=Name/> понимает смысл сообщения...",
       "status": "judged",
       "srcHash": "d3ad2536f8bb5fe6",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "ae7ac74faaefdc12"
+      "judgeHash": "f4479bf301e2272b"
     },
     "e3fac600-9546-4c0b-8584-cc1c704d8d59/Option_1": {
       "en": "The Fuloong Sanctuary disciples claim their only wish is to rescue the people, and thus spread the True Loong's name.",
@@ -2105,13 +2105,13 @@
     },
     "bb5a8fb4-6f71-42b9-a1b3-4a46e7b0c830/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> finds all doubts dispelled<NL>and turns to the Imperial Chicken once more, who clucks joyfully a few times,<NL>asking if <Character key=RoleTaiwu str=Name/> has more to say to Liuli...",
-      "cn": "<Character key=RoleTaiwu str=Name/>只觉再无不解之处，<NL>再望大王，亦是十分欢喜，接连咕咕几声，<NL>询问<Character key=RoleTaiwu str=Name/>可还有话要传达琉璃……",
+      "cn": "<Character key=RoleTaiwu str=Name/>只觉再无不解之处，<NL>再望<ArgBox key=DawangDisplayName type=string/>，亦是十分欢喜，接连咕咕几声，<NL>询问<Character key=RoleTaiwu str=Name/>可还有话要传达琉璃……",
       "ru": "<Character key=RoleTaiwu str=Name/> чувствует, что больше не осталось неясностей<NL>и снова смотрит на Императорского цыплёнка, который радостно несколько раз кудахчет,<NL>спрашивая, есть ли у <Character key=RoleTaiwu str=Name/> ещё что сказать Люли…",
       "status": "judged",
       "srcHash": "eb13073e3b5ae5a5",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "e5f97a65077e041f"
+      "judgeHash": "b9430d01e22b0b99"
     },
     "bb5a8fb4-6f71-42b9-a1b3-4a46e7b0c830/Option_1": {
       "en": "So be it. I shall entrust you with my reply...",
@@ -2125,13 +2125,13 @@
     },
     "a9e77186-93be-4c10-819e-74d9a4cbe0e5/EventContent": {
       "en": "The Imperial Chicken bobs its head eagerly, awaiting instructions from <Character key=RoleTaiwu str=Name/>.<NL><Character key=RoleTaiwu str=Name/> speaks calmly...",
-      "cn": "大王连连点头，只待<Character key=RoleTaiwu str=Name/>细细交代，<NL><Character key=RoleTaiwu str=Name/>随即开口说道……",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>连连点头，只待<Character key=RoleTaiwu str=Name/>细细交代，<NL><Character key=RoleTaiwu str=Name/>随即开口说道……",
       "ru": "Императорский цыпленок нетерпеливо качает головой, ожидая указаний от <Character key=RoleTaiwu str=Name/>.<NL><Character key=RoleTaiwu str=Name/> говорит спокойно...",
       "status": "machine",
       "srcHash": "21bd795da577ea63",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "5f403e9738831902"
+      "judgeHash": "d3f3d3ea7623993b"
     },
     "a9e77186-93be-4c10-819e-74d9a4cbe0e5/Option_1": {
       "en": "Of late, strange happenings seem to follow me. Perhaps the villain has already come, unseen, to hunt me...",
@@ -2155,13 +2155,13 @@
     },
     "32a5d759-7f32-4922-83ea-853c9247746c/EventContent": {
       "en": "The Imperial Chicken listens in solemn stillness. <Character key=RoleTaiwu str=Name/> continues...",
-      "cn": "大王静听不动，<Character key=RoleTaiwu str=Name/>接着说道……",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>静听不动，<Character key=RoleTaiwu str=Name/>接着说道……",
       "ru": "Императорский цыплёнок неподвижно слушает в торжественной тишине. <Character key=RoleTaiwu str=Name/> продолжает…",
       "status": "judged",
       "srcHash": "d3a83cf0edb91281",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "8a7d9919ee924792"
+      "judgeHash": "5c3f6c9786aec2dd"
     },
     "32a5d759-7f32-4922-83ea-853c9247746c/Option_1": {
       "en": "While peace lasts, eat your fill, and when idle, hone your martial skills...",
@@ -2214,13 +2214,13 @@
     },
     "0f70f37c-b187-477a-9aa5-8dfdbfd255f0/EventContent": {
       "en": "After <Character key=RoleTaiwu str=Name/> finishes talking, the Imperial Chicken lifts its voice in a high, proud call,<NL>declaring it shall fly 3,000 li per day, and soon every word from <Character key=RoleTaiwu str=Name/> will reach Liuli...",
-      "cn": "<Character key=RoleTaiwu str=Name/>说完之后，便见大王高声一啼，<NL>只道自己日行三千里，不日便能将<Character key=RoleTaiwu str=Name/>所言，尽数传与琉璃知晓……",
+      "cn": "<Character key=RoleTaiwu str=Name/>说完之后，便见<ArgBox key=DawangDisplayName type=string/>高声一啼，<NL>只道自己日行三千里，不日便能将<Character key=RoleTaiwu str=Name/>所言，尽数传与琉璃知晓……",
       "ru": "После того как <Character key=RoleTaiwu str=Name/> закончит говорить, Императорский цыплёнок издаёт громкий гордый крик,<NL>заявляя, что будет пролетать 3000 ли в день и вскоре донесёт до Люли каждое слово <Character key=RoleTaiwu str=Name/>...",
       "status": "judged",
       "srcHash": "c6709f32f88cb5ae",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "99996a2c5a5cc958"
+      "judgeHash": "dbf628f3e6aa29f2"
     },
     "0f70f37c-b187-477a-9aa5-8dfdbfd255f0/Option_1": {
       "en": "All is well...",
@@ -2234,13 +2234,13 @@
     },
     "e9761beb-1347-4672-a1c2-fdd281e2bcd9/EventContent": {
       "en": "Soon after, the familiar crowing returns.<NL>The Imperial Chicken, swift as ever, is already back from its journey, bringing Liuli's reply...",
-      "cn": "此时，熟悉鸡鸣又起，<NL>原来是大王日行千里，已然带回了琉璃的传话……",
+      "cn": "此时，熟悉鸡鸣又起，<NL>原来是<ArgBox key=DawangDisplayName type=string/>日行千里，已然带回了琉璃的传话……",
       "ru": "Вскоре вновь раздаётся знакомое кукареканье.<NL>Оказывается, Владыка способен за день преодолеть тысячу ли и уже принёс ответ Люли...",
       "status": "judged",
       "srcHash": "e6b281ab10200465",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "a35026acd736c2fe"
+      "judgeHash": "43a93c93a25d36d1"
     },
     "e9761beb-1347-4672-a1c2-fdd281e2bcd9/Option_1": {
       "en": "(Listen closely...)",
@@ -2254,13 +2254,13 @@
     },
     "ea49735e-960e-4521-a99e-b6f4b75b1c29/EventContent": {
       "en": "The Imperial Chicken clucks a few times, revealing Liuli's words:<NL><NL>\"If the villain has set their sights elsewhere,<NL>all these strange events were never aimed at me, but at you.<NL>Take great care...\"",
-      "cn": "只听得大王咕咕数声，琉璃之意正是：<NL><NL>「那歹人若是另有目标，<NL>岂不是种种怪事，皆不为害我，只为害你？<NL>你且万分小心……」",
+      "cn": "只听得<ArgBox key=DawangDisplayName type=string/>咕咕数声，琉璃之意正是：<NL><NL>「那歹人若是另有目标，<NL>岂不是种种怪事，皆不为害我，只为害你？<NL>你且万分小心……」",
       "ru": "Императорский цыпленок несколько раз кудахчет, выдавая слова Люли:<NL><NL>\"Если злодей нацелился на что-то другое,<NL>все эти странные события были направлены не на меня, а на тебя.<NL>Будь очень осторожен...\"",
       "status": "machine",
       "srcHash": "ff68804e51fdefb2",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "5e07ef2cdbbb4eab"
+      "judgeHash": "e05eac3bf42b69e2"
     },
     "ea49735e-960e-4521-a99e-b6f4b75b1c29/Option_1": {
       "en": "(Keep listening...)",
@@ -2274,13 +2274,13 @@
     },
     "4748ece3-4b62-4e88-98d6-f4926bf6d324/EventContent": {
       "en": "The Imperial Chicken clucks a few times, revealing Liuli's words:<NL><NL>\"The villain dares to seek you out?<NL>If so, I am safe here at the Fuloong Sanctuary, but you must be all the more cautious...\"",
-      "cn": "只听得大王咕咕数声，琉璃之意正是：<NL><NL>「那歹人竟胆敢前去寻你？<NL>若是如此，我在伏龙坛中安然无虞，反倒是你，要越发小心才是……」",
+      "cn": "只听得<ArgBox key=DawangDisplayName type=string/>咕咕数声，琉璃之意正是：<NL><NL>「那歹人竟胆敢前去寻你？<NL>若是如此，我在伏龙坛中安然无虞，反倒是你，要越发小心才是……」",
       "ru": "Императорский цыплёнок несколько раз кудахчет, передавая слова Люли:<NL><NL>\"Этот негодяй осмеливается разыскивать тебя?<NL>Если это так, я в безопасности здесь, в Святилище усмирённого дракона, но тебе нужно быть ещё осторожнее...\"",
       "status": "judged",
       "srcHash": "7a931b2f5c58d37e",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "374750112fcfbf7b"
+      "judgeHash": "173342e40fceaa85"
     },
     "4748ece3-4b62-4e88-98d6-f4926bf6d324/Option_1": {
       "en": "(Keep listening...)",
@@ -2374,13 +2374,13 @@
     },
     "338a707c-93f3-40e3-8d1e-eb932807ea1c/EventContent": {
       "en": "Then Liuli seems to speak of other recent happenings.<NL>The Imperial Chicken clucks anxiously and swiftly, conveying:<NL><NL>\"I hear from the Imperial Chicken<NL>you've already secured half of the Chicken Feathers...\"<NL><NL><Character key=RoleTaiwu str=Name/> looks thoughtful...",
-      "cn": "此后，琉璃似又说起近日所见，<NL>只听得大王连声咕咕，又急又快，所说之意正是：<NL><NL>「好在听得大王传言，你已取得……<NL>半数之多……」<NL><NL><Character key=RoleTaiwu str=Name/>若有所思……",
+      "cn": "此后，琉璃似又说起近日所见，<NL>只听得<ArgBox key=DawangDisplayName type=string/>连声咕咕，又急又快，所说之意正是：<NL><NL>「好在听得<ArgBox key=DawangDisplayName type=string/>传言，你已取得……<NL>半数之多……」<NL><NL><Character key=RoleTaiwu str=Name/>若有所思……",
       "ru": "Затем Люли, кажется, говорит о других недавних событиях.<NL>Императорский цыплёнок тревожно и быстро кудахчет, передавая:<NL><NL>\"Я слышал от Императорского цыплёнка,<NL>что вы уже собрали половину куриных перьев...\"<NL><NL><Character key=RoleTaiwu str=Name/> выглядит задумчивым...",
       "status": "judged",
       "srcHash": "b28ea111efcd7dec",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "a9bbe9e80099f878"
+      "judgeHash": "b57861066cee7101"
     },
     "338a707c-93f3-40e3-8d1e-eb932807ea1c/Option_1": {
       "en": "\"I've heard that you have already obtained half of the feathers of the Chickens...\"",
@@ -2404,13 +2404,13 @@
     },
     "582f08a7-5195-4167-8998-2ff33d78e5be/EventContent": {
       "en": "The Imperial Chicken continues to cluck, conveying:<NL><NL>\"That radiant Five-Sylph Robe seems almost within reach...<NL>I indulge in a few more bites to celebrate...\"<NL><NL><Character key=RoleTaiwu str=Name/> comes to understand...",
-      "cn": "大王继续咕咕数声，所说之意正是：<NL><NL>「那光华闪耀的五彩羽衣，好似已然近在眼前……<NL>我便多吃了一些，以作庆贺……」<NL><NL><Character key=RoleTaiwu str=Name/>恍然大悟……",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>继续咕咕数声，所说之意正是：<NL><NL>「那光华闪耀的五彩羽衣，好似已然近在眼前……<NL>我便多吃了一些，以作庆贺……」<NL><NL><Character key=RoleTaiwu str=Name/>恍然大悟……",
       "ru": "Императорский цыплёнок продолжает кудахтать, передавая:<NL><NL>\"Это сияющее пятицветное перьевое одеяние, кажется, уже почти у меня в руках...<NL>Я съел ещё несколько кусочков в честь этого...\"<NL><NL><Character key=RoleTaiwu str=Name/> вдруг всё понимает...",
       "status": "judged",
       "srcHash": "418dc1a27022e4a9",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "15be5d941244d4c6"
+      "judgeHash": "e448b8aca6f504ba"
     },
     "582f08a7-5195-4167-8998-2ff33d78e5be/Option_1": {
       "en": "\"To celebrate the nearing the completion of the Five-Sylph Robe, I treated myself to a feast...\"",
@@ -2434,13 +2434,13 @@
     },
     "4546660d-bca7-4c7a-ad05-d3c2a7b8705a/EventContent": {
       "en": "The Imperial Chicken continues to cluck, conveying:<NL><NL>\"But tell me, have you been eating well?<NL>And have you caught the villain's scent at last?...\"<NL><NL><Character key=RoleTaiwu str=Name/> is aware of the message...",
-      "cn": "大王继续咕咕数声，所说之意正是：<NL><NL>「却不知你近日如何，可曾好生吃饭？<NL>探得那歹人的行迹……」<NL><NL><Character key=RoleTaiwu str=Name/>了然于胸……",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>继续咕咕数声，所说之意正是：<NL><NL>「却不知你近日如何，可曾好生吃饭？<NL>探得那歹人的行迹……」<NL><NL><Character key=RoleTaiwu str=Name/>了然于胸……",
       "ru": "Императорский цыплёнок продолжает кудахтать, передавая:<NL><NL>\"Но скажи мне, ты хорошо питался?<NL>И наконец напал на след злодея?..\"<NL><NL><Character key=RoleTaiwu str=Name/> понимает смысл сообщения...",
       "status": "judged",
       "srcHash": "04088e5717045a91",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "b60021f29db92597"
+      "judgeHash": "9bfd65d0758c5d79"
     },
     "4546660d-bca7-4c7a-ad05-d3c2a7b8705a/Option_1": {
       "en": "\"I wonder how you are doing now. Have you been eating well...?\"",
@@ -2484,13 +2484,13 @@
     },
     "1c171f95-6cbc-45ed-933b-91e8009059ca/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> finds all doubts dispelled<NL>and turns to the Imperial Chicken once more, who clucks joyfully a few times,<NL>asking if <Character key=RoleTaiwu str=Name/> has more to say to Liuli...",
-      "cn": "<Character key=RoleTaiwu str=Name/>只觉再无不解之处，<NL>再望大王，亦是十分欢喜，接连咕咕几声，<NL>询问<Character key=RoleTaiwu str=Name/>可还有话要传达琉璃……",
+      "cn": "<Character key=RoleTaiwu str=Name/>只觉再无不解之处，<NL>再望<ArgBox key=DawangDisplayName type=string/>，亦是十分欢喜，接连咕咕几声，<NL>询问<Character key=RoleTaiwu str=Name/>可还有话要传达琉璃……",
       "ru": "<Character key=RoleTaiwu str=Name/> чувствует, что больше не осталось неясностей<NL>и снова смотрит на Императорского цыплёнка, который радостно несколько раз кудахчет,<NL>спрашивая, есть ли у <Character key=RoleTaiwu str=Name/> ещё что сказать Люли…",
       "status": "judged",
       "srcHash": "eb13073e3b5ae5a5",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "e5f97a65077e041f"
+      "judgeHash": "b9430d01e22b0b99"
     },
     "1c171f95-6cbc-45ed-933b-91e8009059ca/Option_1": {
       "en": "So be it. I shall entrust you with my reply...",
@@ -2504,13 +2504,13 @@
     },
     "9030b72e-406c-42d3-81a9-59a6b1d17235/EventContent": {
       "en": "The Imperial Chicken bobs its head eagerly, awaiting instructions from <Character key=RoleTaiwu str=Name/>.<NL><Character key=RoleTaiwu str=Name/> speaks calmly...",
-      "cn": "大王连连点头，只待<Character key=RoleTaiwu str=Name/>细细交代，<NL><Character key=RoleTaiwu str=Name/>随即开口说道……",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>连连点头，只待<Character key=RoleTaiwu str=Name/>细细交代，<NL><Character key=RoleTaiwu str=Name/>随即开口说道……",
       "ru": "Императорский цыпленок нетерпеливо качает головой, ожидая указаний от <Character key=RoleTaiwu str=Name/>.<NL><Character key=RoleTaiwu str=Name/> говорит спокойно...",
       "status": "machine",
       "srcHash": "21bd795da577ea63",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "5f403e9738831902"
+      "judgeHash": "d3f3d3ea7623993b"
     },
     "9030b72e-406c-42d3-81a9-59a6b1d17235/Option_1": {
       "en": "With half the Chicken Feathers in hand, you finally have the time to investigate any traces of the villain...",
@@ -2534,13 +2534,13 @@
     },
     "b06d3418-dd54-4811-9bc3-5b5f2235dbde/EventContent": {
       "en": "The Imperial Chicken listens in solemn stillness. <Character key=RoleTaiwu str=Name/> continues...",
-      "cn": "大王静听不动，<Character key=RoleTaiwu str=Name/>接着说道……",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>静听不动，<Character key=RoleTaiwu str=Name/>接着说道……",
       "ru": "Императорский цыплёнок неподвижно слушает в торжественной тишине. <Character key=RoleTaiwu str=Name/> продолжает…",
       "status": "judged",
       "srcHash": "d3a83cf0edb91281",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "8a7d9919ee924792"
+      "judgeHash": "5c3f6c9786aec2dd"
     },
     "b06d3418-dd54-4811-9bc3-5b5f2235dbde/Option_1": {
       "en": "The feather robe need not trouble you. Better you investigate whether any Fuloong Sanctuary disciple has vanished...",
@@ -2594,13 +2594,13 @@
     },
     "34cb17a0-cd68-4a09-aa65-d21b084fed50/EventContent": {
       "en": "After <Character key=RoleTaiwu str=Name/> finishes talking, the Imperial Chicken lifts its voice in a high, proud call,<NL>declaring it shall fly 3,000 li per day, and soon every word from <Character key=RoleTaiwu str=Name/> will reach Liuli...",
-      "cn": "<Character key=RoleTaiwu str=Name/>说完之后，便见大王高声一啼，<NL>只道自己日行三千里，不日便能将<Character key=RoleTaiwu str=Name/>所言，尽数传与琉璃知晓……",
+      "cn": "<Character key=RoleTaiwu str=Name/>说完之后，便见<ArgBox key=DawangDisplayName type=string/>高声一啼，<NL>只道自己日行三千里，不日便能将<Character key=RoleTaiwu str=Name/>所言，尽数传与琉璃知晓……",
       "ru": "После того как <Character key=RoleTaiwu str=Name/> закончит говорить, Императорский цыплёнок издаёт громкий гордый крик,<NL>заявляя, что будет пролетать 3000 ли в день и вскоре донесёт до Люли каждое слово <Character key=RoleTaiwu str=Name/>...",
       "status": "judged",
       "srcHash": "c6709f32f88cb5ae",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "99996a2c5a5cc958"
+      "judgeHash": "dbf628f3e6aa29f2"
     },
     "34cb17a0-cd68-4a09-aa65-d21b084fed50/Option_1": {
       "en": "All is well...",
@@ -2614,13 +2614,13 @@
     },
     "5d092237-a77a-4735-a388-aab0f48d91e9/EventContent": {
       "en": "Soon after, the familiar crowing returns.<NL>The Imperial Chicken, swift as ever, is already back from its journey, bringing Liuli's reply...",
-      "cn": "此时，熟悉鸡鸣又起，<NL>原来是大王日行千里，已然带回了琉璃的传话……",
+      "cn": "此时，熟悉鸡鸣又起，<NL>原来是<ArgBox key=DawangDisplayName type=string/>日行千里，已然带回了琉璃的传话……",
       "ru": "Вскоре вновь раздаётся знакомое кукареканье.<NL>Оказывается, Владыка способен за день преодолеть тысячу ли и уже принёс ответ Люли...",
       "status": "judged",
       "srcHash": "e6b281ab10200465",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "a35026acd736c2fe"
+      "judgeHash": "43a93c93a25d36d1"
     },
     "5d092237-a77a-4735-a388-aab0f48d91e9/Option_1": {
       "en": "(Listen closely...)",
@@ -2634,13 +2634,13 @@
     },
     "6dc125dd-830e-465f-a6b7-7f52569e56cb/EventContent": {
       "en": "The Imperial Chicken clucks a few times, revealing Liuli's words:<NL><NL>\"I send the King this time as I suppose your search for the Chicken Feathers is nearing its end—eight or nine out of ten, perhaps?...\"",
-      "cn": "只听得大王咕咕数声，琉璃之意正是：<NL><NL>「此次再托大王前去传话，想来你所取得的元鸡之羽，应当已十之八九……」",
+      "cn": "只听得<ArgBox key=DawangDisplayName type=string/>咕咕数声，琉璃之意正是：<NL><NL>「此次再托<ArgBox key=DawangDisplayName type=string/>前去传话，想来你所取得的元鸡之羽，应当已十之八九……」",
       "ru": "Императорский цыпленок несколько раз кудахчет, выдавая слова Люли:<NL><NL>\"На этот раз я посылаю короля, поскольку полагаю, что ваши поиски куриных перьев приближаются к концу — возможно, восемь или девять из десяти?..\"",
       "status": "machine",
       "srcHash": "bf11039a4b2992f0",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "1de006cb4ceedcf6"
+      "judgeHash": "ba7af10dfd4c3763"
     },
     "6dc125dd-830e-465f-a6b7-7f52569e56cb/Option_1": {
       "en": "(Keep listening...)",
@@ -2654,13 +2654,13 @@
     },
     "7df85647-f3ba-460b-9038-e5543e521e37/EventContent": {
       "en": "The Imperial Chicken clucks a few times, revealing Liuli's words:<NL><NL>\"Ever since I learned you took on the task of demon hunting, the thought has never left my mind...\"",
-      "cn": "只听得大王咕咕数声，琉璃之意正是：<NL><NL>「自我知晓你身负除魔重任，我便放在心上，从来未曾忘怀……」",
+      "cn": "只听得<ArgBox key=DawangDisplayName type=string/>咕咕数声，琉璃之意正是：<NL><NL>「自我知晓你身负除魔重任，我便放在心上，从来未曾忘怀……」",
       "ru": "Императорский цыпленок несколько раз кудахчет, выдавая слова Люли:<NL><NL>\"С тех пор, как я узнал, что ты взялся за охоту на демонов, эта мысль никогда не покидала мой разум...\"",
       "status": "machine",
       "srcHash": "ad9aed6f2a6fa385",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "a151c11f3e26271b"
+      "judgeHash": "23c3f1afab122057"
     },
     "7df85647-f3ba-460b-9038-e5543e521e37/Option_1": {
       "en": "(Keep listening...)",
@@ -2794,13 +2794,13 @@
     },
     "b20b3fdf-f8fa-4a31-a6ca-568ffba3a018/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> speaks the name aloud.<NL>The Imperial Chicken nods at once, crowing sharply, as if to say: \"Indeed, it is so...\"",
-      "cn": "<Character key=RoleTaiwu str=Name/>此话脱口而出，<NL>便见大王竟连连点头，啼鸣数声，好似在说“正是如此”……",
-      "ru": "<Character key=RoleTaiwu str=Name/> произносит это имя вслух.<NL>Императорская курица сразу же кивает, резко кукарекая, как бы говоря: \"Действительно, это так...\"",
-      "status": "machine",
+      "cn": "<Character key=RoleTaiwu str=Name/>此话脱口而出，<NL>便见<ArgBox key=DawangDisplayName type=string/>竟连连点头，啼鸣数声，好似在说“正是如此”……",
+      "ru": "<Character key=RoleTaiwu str=Name/> произносит это вслух.<NL>Императорская курица сразу же кивает, резко кукарекая, как бы говоря: \"Действительно, это так...\"",
+      "status": "judged",
       "srcHash": "0aef4cb4239b2367",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "e8bdc2d79a925efb"
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "9a524c40dca53c62"
     },
     "b20b3fdf-f8fa-4a31-a6ca-568ffba3a018/Option_1": {
       "en": "(As I suspected—Seventy-Seventh was steeped in suspicion...)",
@@ -2834,13 +2834,13 @@
     },
     "57796e96-45d2-4548-938a-5e3c9ed47b88/EventContent": {
       "en": "The Imperial Chicken lets out a long, urgent cry,<NL>then clucks a few times in response as if to ask whether <Character key=RoleTaiwu str=Name/> has any message delivered to Liuli,<NL>and what is to be done about this Seventy-Seventh...",
-      "cn": "大王闻言，先是长长一鸣，似有几分焦急之意，<NL>继而又亦接连咕咕几声，询问<Character key=RoleTaiwu str=Name/>可有话语交代琉璃，<NL>此事又当如何处置……",
-      "ru": "Императорский цыплёнок издаёт долгий, тревожный крик,<NL>затем несколько раз кудахчет в ответ, словно спрашивая, есть ли у <Character key=RoleTaiwu str=Name/> что передать Люли<NL>и что делать с этим Семьдесят седьмым?..",
+      "cn": "<ArgBox key=DawangDisplayName type=string/>闻言，先是长长一鸣，似有几分焦急之意，<NL>继而又亦接连咕咕几声，询问<Character key=RoleTaiwu str=Name/>可有话语交代琉璃，<NL>此事又当如何处置……",
+      "ru": "Императорский цыплёнок издаёт долгий, тревожный крик,<NL>затем несколько раз кудахчет в ответ, словно спрашивая, есть ли у <Character key=RoleTaiwu str=Name/> что передать Люли<NL>и что делать с этим...",
       "status": "judged",
       "srcHash": "1ece5b8eca33f8a8",
       "engine": "yandex",
-      "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "9c560a2556b75c0b"
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "4efd7512870f47af"
     },
     "57796e96-45d2-4548-938a-5e3c9ed47b88/Option_1": {
       "en": "When the time comes, I shall catch him in the act—and grant him no more chances to harm others.",
@@ -2934,13 +2934,13 @@
     },
     "db934ba6-8d87-48ff-8884-a625417843c8/EventContent": {
       "en": "After <Character key=RoleTaiwu str=Name/> finishes talking, the Imperial Chicken lifts its voice in a high, proud call,<NL>declaring it shall fly 3,000 li per day, and soon every word from <Character key=RoleTaiwu str=Name/> will reach Liuli...<NL>It urges <Character key=RoleTaiwu str=Name/> to remain vigilant until news from Liuli returns...",
-      "cn": "待得<Character key=RoleTaiwu str=Name/>一一交代完毕，便见大王高声一啼，<NL>只道自己日行三千里，不日便能将<Character key=RoleTaiwu str=Name/>所言，尽数传与琉璃知晓，<NL>亦盼<Character key=RoleTaiwu str=Name/>多加小心，静待琉璃探得消息……",
+      "cn": "待得<Character key=RoleTaiwu str=Name/>一一交代完毕，便见<ArgBox key=DawangDisplayName type=string/>高声一啼，<NL>只道自己日行三千里，不日便能将<Character key=RoleTaiwu str=Name/>所言，尽数传与琉璃知晓，<NL>亦盼<Character key=RoleTaiwu str=Name/>多加小心，静待琉璃探得消息……",
       "ru": "После того как <Character key=RoleTaiwu str=Name/> заканчивает говорить, Императорский цыплёнок издаёт высокий, гордый крик,<NL>заявляя, что пролетит за день три тысячи ли и вскоре донесёт до Люли каждое слово <Character key=RoleTaiwu str=Name/>...<NL>Он призывает <Character key=RoleTaiwu str=Name/> сохранять бдительность, пока не придут вести от Люли...",
       "status": "judged",
       "srcHash": "4d295bbed3bfe7c3",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "2d066d354014f74f"
+      "judgeHash": "d785676f4feee606"
     },
     "db934ba6-8d87-48ff-8884-a625417843c8/Option_1": {
       "en": "(First, gather all the Chicken Feathers. Then, once Liuli's news arrives—the rest can be settled...)",
@@ -3074,13 +3074,13 @@
     },
     "c7067034-07dc-4243-9147-afe23117c85c/Option_4": {
       "en": "To sketch the Imperial Chicken so poorly—perhaps fear is only natural...",
-      "cn": "将大王画得这般丑，确实应当畏怯几分……",
-      "ru": "Так плохо нарисовать Великого цыплёнка — неудивительно, что он немного боится…",
+      "cn": "将<ArgBox key=DawangDisplayName type=string/>画得这般丑，确实应当畏怯几分……",
+      "ru": "Так плохо нарисовать Императорского цыплёнка — неудивительно, что он немного боится…",
       "status": "judged",
       "srcHash": "46de8c1e4f943a0a",
       "engine": "yandex",
-      "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "cb4f53fe3b0ea556"
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "5382b3ebd1d7ed16"
     },
     "c7067034-07dc-4243-9147-afe23117c85c/Option_5": {
       "en": "Do they seek the Chicken Feathers for themselves? To hinder me, perhaps...",
@@ -3114,13 +3114,13 @@
     },
     "b7ff3eb2-a7a6-4e8a-a969-bf6c511b7e49/EventContent": {
       "en": "Soon after, the familiar crowing returns.<NL>The Imperial Chicken, swift as ever, is already back from its journey, bringing Liuli's reply...",
-      "cn": "此时，熟悉鸡鸣又起，<NL>原来是大王日行千里，已然带回了琉璃的传话……",
+      "cn": "此时，熟悉鸡鸣又起，<NL>原来是<ArgBox key=DawangDisplayName type=string/>日行千里，已然带回了琉璃的传话……",
       "ru": "Вскоре вновь раздаётся знакомое кукареканье.<NL>Оказывается, Владыка способен за день преодолеть тысячу ли и уже принёс ответ Люли...",
       "status": "judged",
       "srcHash": "e6b281ab10200465",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "a35026acd736c2fe"
+      "judgeHash": "43a93c93a25d36d1"
     },
     "b7ff3eb2-a7a6-4e8a-a969-bf6c511b7e49/Option_1": {
       "en": "(Listen closely...)",
@@ -3134,13 +3134,13 @@
     },
     "4056799a-9a67-4576-be0b-b53a6f7d2279/EventContent": {
       "en": "The Imperial Chicken clucks a few times, revealing Liuli's words:<NL><NL>\"About Seventy-Seventh—I have made thorough inquiries at Fuloong Sanctuary.<NL>Strange to say, few among the disciples seem to recall this person at all.<NL>Even the isle master could barely remember his face, and only after much pressing did he vaguely summon a distant memory...\"",
-      "cn": "只听得大王咕咕数声，琉璃之意正是：<NL><NL>「第七十七此人，我在伏龙坛已好生打听了一番。<NL>未曾想门中弟子，识得第七十七的少之又少，<NL>便连岛主，也不太记得此人平日面貌，仿佛待我特意问起，才模糊想起旧事……」",
+      "cn": "只听得<ArgBox key=DawangDisplayName type=string/>咕咕数声，琉璃之意正是：<NL><NL>「第七十七此人，我在伏龙坛已好生打听了一番。<NL>未曾想门中弟子，识得第七十七的少之又少，<NL>便连岛主，也不太记得此人平日面貌，仿佛待我特意问起，才模糊想起旧事……」",
       "ru": "Императорский цыплёнок несколько раз кудахчет, передавая слова Люли:<NL><NL>\"О Семьдесят Седьмом — я тщательно всё разузнал в Святилище усмирённого дракона.<NL>Как ни странно, лишь немногие ученики вообще помнят этого человека.<NL>Даже хозяин острова едва вспомнил его лицо и лишь после долгих расспросов смутно припомнил давнее событие…\"",
       "status": "judged",
       "srcHash": "4e8d1633831a35d2",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "a57a3a3f2329d2a8"
+      "judgeHash": "f79b9de6fb7bcbcb"
     },
     "4056799a-9a67-4576-be0b-b53a6f7d2279/Option_1": {
       "en": "(Keep listening...)",
@@ -3254,13 +3254,13 @@
     },
     "e8ce1433-b58c-410d-bdf2-446289620afb/EventContent": {
       "en": "Liuli knows nothing of fickle mortal affections,<NL>believing the world is full of kind souls, and seeking 'true friends' with a sincere heart.<NL>Mulling over Liuli's words once more, a cautious reply may be needed...<NL><NL>After a brief moment of thought, <Character key=RoleTaiwu str=Name/> wishes only to entrust <Character key=RoleTaiwu str=GenderPossessive/> intent to Liuli,<NL>and <Character key=RoleTaiwu str=GenderSubject/> asks the Imperial Chicken to convey the message...",
-      "cn": "琉璃不知凡人爱憎无常，<NL>只当世人尽皆心善，一心寻觅“好友”，<NL>再三念及琉璃所说之话，此时或许当谨慎回信……<NL><NL><Character key=RoleTaiwu str=Name/>细思片刻，只欲将心中所想传于琉璃，<NL>随即托大王传话道……",
+      "cn": "琉璃不知凡人爱憎无常，<NL>只当世人尽皆心善，一心寻觅“好友”，<NL>再三念及琉璃所说之话，此时或许当谨慎回信……<NL><NL><Character key=RoleTaiwu str=Name/>细思片刻，只欲将心中所想传于琉璃，<NL>随即托<ArgBox key=DawangDisplayName type=string/>传话道……",
       "ru": "Люли ничего не знает о непостоянных привязанностях смертных,<NL>считая, что мир полон добрых душ, и искренне ища «настоящих друзей».<NL>Обдумывая слова Люли ещё раз, возможно, потребуется осторожный ответ...<NL><NL>После недолгого раздумья, <Character key=RoleTaiwu str=Name/> желает лишь доверить Люли <Character key=RoleTaiwu str=GenderPossessive/> намерение,<NL>и <Character key=RoleTaiwu str=GenderSubject/> просит Императорского цыплёнка передать послание...",
       "status": "judged",
       "srcHash": "e822cbed3f241110",
       "engine": "yandex",
       "updatedAt": "2026-08-25T03:22:52.788Z",
-      "judgeHash": "a1fe0af7f04c4336"
+      "judgeHash": "aaabe864d3ec3559"
     },
     "e8ce1433-b58c-410d-bdf2-446289620afb/Option_1": {
       "en": "Liuli and I are bound by true friendship, steadfast and unyielding—as close as sworn brothers...",
@@ -3294,13 +3294,13 @@
     },
     "96dda1ed-d083-492f-956c-94d4bfc7af54/Option_1": {
       "en": "(The Imperial Chicken is then entrusted to deliver this message...)",
-      "cn": "（便托大王如此传话……）",
+      "cn": "（便托<ArgBox key=DawangDisplayName type=string/>如此传话……）",
       "ru": "(Затем Императорскому цыпленку поручается доставить это сообщение...)",
       "status": "machine",
       "srcHash": "e4ab3ed01f5fd3cb",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "16552b0054151fe2"
+      "judgeHash": "2aa10de3f086b65d"
     },
     "96dda1ed-d083-492f-956c-94d4bfc7af54/Option_2": {
       "en": "(Change their mind...)",
@@ -3324,13 +3324,13 @@
     },
     "0ca6cceb-b238-4300-9890-938928c3ef97/Option_1": {
       "en": "(The Imperial Chicken is then entrusted to deliver this message...)",
-      "cn": "（便托大王如此传话……）",
+      "cn": "（便托<ArgBox key=DawangDisplayName type=string/>如此传话……）",
       "ru": "(Затем Императорскому цыпленку поручается доставить это сообщение...)",
       "status": "machine",
       "srcHash": "e4ab3ed01f5fd3cb",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "16552b0054151fe2"
+      "judgeHash": "2aa10de3f086b65d"
     },
     "0ca6cceb-b238-4300-9890-938928c3ef97/Option_2": {
       "en": "(Change their mind...)",
@@ -3404,13 +3404,13 @@
     },
     "cffc2aec-9b29-46c4-8a6a-e22219754ed7/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> swiftly concludes the arrangements. The Imperial Chicken lets out a proud crow.<NL>It shall fly 3,000 li per day, and soon every word from <Character key=RoleTaiwu str=Name/> will reach Liuli...<NL>urging <Character key=RoleTaiwu str=Name/> to stay alert and catch Seventy-Seventh without delay...",
-      "cn": "<Character key=RoleTaiwu str=Name/>很快便将要事交代完毕，只见大王高声一啼，<NL>咕咕道自己日行三千里，不日便能将<Character key=RoleTaiwu str=Name/>所言，尽数传与琉璃知晓，<NL>亦盼<Character key=RoleTaiwu str=Name/>多加小心，早日捉拿第七十七……",
+      "cn": "<Character key=RoleTaiwu str=Name/>很快便将要事交代完毕，只见<ArgBox key=DawangDisplayName type=string/>高声一啼，<NL>咕咕道自己日行三千里，不日便能将<Character key=RoleTaiwu str=Name/>所言，尽数传与琉璃知晓，<NL>亦盼<Character key=RoleTaiwu str=Name/>多加小心，早日捉拿第七十七……",
       "ru": "<Character key=RoleTaiwu str=Name/> быстро заканчивает все приготовления. Императорская курица издаёт гордое карканье.<NL>Она будет пролетать 3000 ли в день, и вскоре каждое слово <Character key=RoleTaiwu str=Name/> достигнет Люли...<NL>Она также призывает <Character key=RoleTaiwu str=Name/> быть осторожнее и поскорее схватить Семьдесят Седьмого...",
       "status": "judged",
       "srcHash": "d39eb5bc6d62e0a9",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "2bdfb1d7520f1849"
+      "judgeHash": "17526d8f64aa70ba"
     },
     "cffc2aec-9b29-46c4-8a6a-e22219754ed7/Option_1": {
       "en": "(This is good...)",
@@ -3464,7 +3464,7 @@
     },
     "45031b12-c811-4e19-a3cb-810d8a55dd35/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> has gathered all the Chicken Feathers.<NL>Soon after, the familiar crowing returns. The Imperial Chicken, swift as ever, is already back from its journey, bringing Liuli's message...",
-      "cn": "<Character key=RoleTaiwu str=Name/>业已集齐元鸡羽毛，<NL>此时，熟悉鸡鸣果然又起，原来是大王日行千里，已然带回了琉璃的消息……",
+      "cn": "<Character key=RoleTaiwu str=Name/>业已集齐元鸡羽毛，<NL>此时，熟悉鸡鸣果然又起，原来是<ArgBox key=DawangDisplayName type=string/>日行千里，已然带回了琉璃的消息……",
       "ru": "<Character key=RoleTaiwu str=Name/> собрала все куриные перья.<NL>Вскоре после этого знакомое кукареканье возвращается. Императорский цыпленок, быстрый, как всегда, уже вернулся из своего путешествия, принеся послание Люли...",
       "status": "machine",
       "srcHash": "ebd2f715f10f3e71",
@@ -3484,13 +3484,13 @@
     },
     "f581ad4b-188d-4f05-bb05-16813ad9286c/EventContent": {
       "en": "The Imperial Chicken clucks a few times, revealing Liuli's words:<NL><NL>\"Of late, aside from seeking clues,<NL>I've spent my days urging the disciples not to trouble the common folk, nor force the faith of the True Loong upon them.<NL>After much effort, I've calmed the hearts of those at Fuloong Sanctuary and summoned back the scattered zealots.<NL>The spreading of the True Loong's name thus ends.<NL><NL>This should ease your path in gathering the Chicken Feathers...\"",
-      "cn": "只听得大王咕咕数声，琉璃之意正是：<NL><NL>「近些时日，除却查探之事，<NL>我便常常劝诫众多弟子：勿要再欺扰百姓，将真龙信仰强加于人。<NL>历经数日，总算令伏龙坛众人冷静几分，将散布各地的伏龙狂徒召回伏龙坛，<NL>宣扬真龙之事就此罢休。<NL><NL>如此一来，你此行收集元鸡羽毛，应也能更顺畅些……」",
+      "cn": "只听得<ArgBox key=DawangDisplayName type=string/>咕咕数声，琉璃之意正是：<NL><NL>「近些时日，除却查探之事，<NL>我便常常劝诫众多弟子：勿要再欺扰百姓，将真龙信仰强加于人。<NL>历经数日，总算令伏龙坛众人冷静几分，将散布各地的伏龙狂徒召回伏龙坛，<NL>宣扬真龙之事就此罢休。<NL><NL>如此一来，你此行收集元鸡羽毛，应也能更顺畅些……」",
       "ru": "Императорский цыплёнок несколько раз кудахчет, передавая слова Люли:<NL><NL>\"В последнее время, помимо поиска улик,<NL>я проводил свои дни, убеждая учеников не тревожить простой народ и не навязывать ему мощь веры Истинного луна.<NL>После долгих усилий я успокоил сердца тех, кто находится в Святилище усмирённого дракона, и призвал обратно рассеянных фанатиков.<NL>На этом распространение имени Истинного луна заканчивается.<NL><NL>Это должно облегчить тебе сбор Перьев Цыпленка...\"",
       "status": "judged",
       "srcHash": "93ccd317eb854969",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "e1f363d7749147bb"
+      "judgeHash": "b3f311f709253608"
     },
     "f581ad4b-188d-4f05-bb05-16813ad9286c/Option_1": {
       "en": "(Keep listening...)",
@@ -3504,13 +3504,13 @@
     },
     "55efa550-de23-46f0-bdf3-c8e47212636f/EventContent": {
       "en": "\"Now, all that remains is for you to finish the feather robe and return to Fuloong Sanctuary.<NL><NL>There's no need for haste on my account.<NL>If other matters weigh on you, or you wish to wander the rivers and mountains, do as you please.<NL>But if you return with the feather robe sooner, I might be able to convince the Fuloong Sanctuary disciples to put this matter to rest.<NL>When that day comes, we'll roam the world together, side by side...\"<NL><NL>Liuli seems to pause, as if unsaid words linger still, but the Imperial Chicken offers no more.<NL>It only lifts his head high, awaiting <Character key=RoleTaiwu str=Name/>'s next command...",
-      "cn": "「眼下，只待你制成羽衣，重返伏龙坛与我相见。<NL><NL>不过你无需忧心，我此处并无紧急之事，<NL>你若有旁的要事须得处置，或是仍想游山玩水一番，皆是无妨。<NL>只是……若你能早日携羽衣返归，我便能尽早劝服伏龙坛众人，<NL>将此事了结之后，再与你一同上路，携手东游西逛，浪迹江湖……」<NL><NL>琉璃似是话语未尽，再望大王，却已无别话，<NL>只是昂起头颅，静待<Character key=RoleTaiwu str=Name/>交代回话……",
+      "cn": "「眼下，只待你制成羽衣，重返伏龙坛与我相见。<NL><NL>不过你无需忧心，我此处并无紧急之事，<NL>你若有旁的要事须得处置，或是仍想游山玩水一番，皆是无妨。<NL>只是……若你能早日携羽衣返归，我便能尽早劝服伏龙坛众人，<NL>将此事了结之后，再与你一同上路，携手东游西逛，浪迹江湖……」<NL><NL>琉璃似是话语未尽，再望<ArgBox key=DawangDisplayName type=string/>，却已无别话，<NL>只是昂起头颅，静待<Character key=RoleTaiwu str=Name/>交代回话……",
       "ru": "\"Теперь тебе остаётся лишь закончить перьевое одеяние и вернуться в Святилище усмирённого дракона.<NL><NL>Из-за меня тебе не нужно торопиться.<NL>Если тебя тяготят другие дела или ты хочешь побродить по рекам и горам, поступай как знаешь.<NL>Но если ты вернёшься с перьевым одеянием поскорее, я, возможно, смогу убедить учеников Святилища усмирённого дракона оставить это дело.<NL>Когда этот день настанет, мы вместе отправимся странствовать по миру, бок о бок...\"<NL><NL>Люли, кажется, замолкает, словно невысказанные слова всё ещё остаются в воздухе, но Императорский цыплёнок больше ничего не говорит.<NL>Он лишь высоко поднимает голову, ожидая следующей команды <Character key=RoleTaiwu str=Name/>...",
       "status": "judged",
       "srcHash": "664f3fb0dbbc89b0",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "ba7a1131d10c7bcb"
+      "judgeHash": "c5cf42a62d23dbf8"
     },
     "55efa550-de23-46f0-bdf3-c8e47212636f/Option_1": {
       "en": "(Nothing more remains to say to Liuli; once the robe is finished, the return to Fuloong Sanctuary awaits...)",
@@ -3524,53 +3524,53 @@
     },
     "40ed250c-a35b-4fa0-8c3e-066d3271ed46/EventContent": {
       "en": "As <Character key=RoleTaiwu str=Name/> ponders,<NL>a faint rustle arises from behind.<NL>The sound, all too familiar—can be none other than the lurking Seventy-Seventh.<NL><NL>Cast out from the Fuloong Sanctuary, he has shadowed <Character key=RoleTaiwu str=Name/> for days, plotting revenge.<NL>Now, spying <Character key=RoleTaiwu str=Name/> and the Imperial Chicken in quiet council, yet unable to grasp their words,<NL>he grows anxious, revealing his presence at last...",
-      "cn": "<Character key=RoleTaiwu str=Name/>正细思之时，<NL>忽听得身后一阵窸窣，这般熟悉的动静，<NL>必是那暗中窥伺之人——第七十七。<NL><NL>此人遭伏龙坛驱逐之后，尾随自己已久，定是想探听消息，伺机报仇，<NL>如今见<Character key=RoleTaiwu str=Name/>与大王对谈，却难解其意，<NL>想必心焦如焚，方才不慎显露行迹……",
+      "cn": "<Character key=RoleTaiwu str=Name/>正细思之时，<NL>忽听得身后一阵窸窣，这般熟悉的动静，<NL>必是那暗中窥伺之人——第七十七。<NL><NL>此人遭伏龙坛驱逐之后，尾随自己已久，定是想探听消息，伺机报仇，<NL>如今见<Character key=RoleTaiwu str=Name/>与<ArgBox key=DawangDisplayName type=string/>对谈，却难解其意，<NL>想必心焦如焚，方才不慎显露行迹……",
       "ru": "Когда <Character key=RoleTaiwu str=Name/> размышляет,<NL>сзади раздаётся слабый шорох.<NL>Звук слишком знаком — это не кто иной, как притаившийся Семьдесят Седьмой.<NL><NL>После изгнания из Святилища усмирённого дракона он уже несколько дней преследует <Character key=RoleTaiwu str=Name/>, вынашивая планы мести.<NL>Теперь, подглядывая за тихой беседой <Character key=RoleTaiwu str=Name/> и Императорского цыплёнка, но не понимая их слов,<NL>он начинает беспокоиться и наконец выдаёт своё присутствие...",
       "status": "judged",
       "srcHash": "59c8f1df65e040b5",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "d2559f284656e8b9"
+      "judgeHash": "3bf5e0ac280b4032"
     },
     "40ed250c-a35b-4fa0-8c3e-066d3271ed46/Option_1": {
       "en": "(Maybe the Imperial Chicken could draw his attention...)",
-      "cn": "（不如令大王吸引其注意……）\n",
+      "cn": "（不如令<ArgBox key=DawangDisplayName type=string/>吸引其注意……）\n",
       "ru": "(Может быть, Императорский цыпленок смог бы привлечь его внимание...)",
       "status": "machine",
       "srcHash": "fd4f00aeefa0d3bd",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "5716cfac639d54e1"
+      "judgeHash": "b48071b91c3a755a"
     },
     "46dd4c4d-82fa-465a-bdce-0aa733381fc5/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> conjures up a scheme:<NL>Seventy-Seventh knows not that he's been exposed.<NL>Fortune shifts; the hunter has become the prey.<NL><NL>If the Imperial Chicken stirs his interest, <Character key=RoleTaiwu str=Name/> may strike unseen and seize him unguarded...",
-      "cn": "<Character key=RoleTaiwu str=Name/>随即心生一计：<NL>第七十七不知自己已然露馅，<NL>如今局势一转，敌明我暗，恰是引他现身，出手捉拿的大好时机！<NL><NL>若能托大王相助引其注意，<Character key=RoleTaiwu str=Name/>正可趁其不备，下手捉拿……",
+      "cn": "<Character key=RoleTaiwu str=Name/>随即心生一计：<NL>第七十七不知自己已然露馅，<NL>如今局势一转，敌明我暗，恰是引他现身，出手捉拿的大好时机！<NL><NL>若能托<ArgBox key=DawangDisplayName type=string/>相助引其注意，<Character key=RoleTaiwu str=Name/>正可趁其不备，下手捉拿……",
       "ru": "<Character key=RoleTaiwu str=Name/> тут же придумывает план:<NL>Семьдесят Седьмой не знает, что его разоблачили.<NL>Расклад изменился: враг на виду, а мы в тени.<NL><NL>Если Императорский цыплёнок поможет привлечь его внимание, <Character key=RoleTaiwu str=Name/> сможет застать его врасплох и схватить...",
       "status": "judged",
       "srcHash": "f01e488e23611275",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "56fe1f56b29e6762"
+      "judgeHash": "f5b9fefb88890938"
     },
     "46dd4c4d-82fa-465a-bdce-0aa733381fc5/Option_1": {
       "en": "(Tell the Imperial Chicken of this scheme...)",
-      "cn": "（将此计告知大王……）\n",
+      "cn": "（将此计告知<ArgBox key=DawangDisplayName type=string/>……）\n",
       "ru": "(Расскажите Императорскому цыпленку об этом плане...)",
       "status": "machine",
       "srcHash": "176b5c03e6fca034",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "c6d230817cf0506f"
+      "judgeHash": "d1f66e622b6117b5"
     },
     "21e29ad4-f372-4229-9a3b-f2c9c8902548/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> whispers the scheme.<NL>The Imperial Chicken listens intently, nods with understanding, and puffs his chest high, ready to act.<NL>As soon as <Character key=RoleTaiwu str=Name/> finds a hidden place, the trap shall be set...",
-      "cn": "<Character key=RoleTaiwu str=Name/>便将此番计谋细说，<NL>大王仔细听毕，连连点头，低声一鸣便摆出傲然挺立之姿，<NL>只待<Character key=RoleTaiwu str=Name/>寻得隐蔽之地，便要行事……",
-      "ru": "<Character key=RoleTaiwu str=Name/> нашептывает план.<NL>Императорский цыпленок внимательно слушает, понимающе кивает и высоко выпячивает грудь, готовый действовать.<NL>Как только <Character key=RoleTaiwu str=Name/> найдет укромное место, ловушка будет установлена...",
-      "status": "machine",
+      "cn": "<Character key=RoleTaiwu str=Name/>便将此番计谋细说，<NL><ArgBox key=DawangDisplayName type=string/>仔细听毕，连连点头，低声一鸣便摆出傲然挺立之姿，<NL>只待<Character key=RoleTaiwu str=Name/>寻得隐蔽之地，便要行事……",
+      "ru": "<Character key=RoleTaiwu str=Name/> нашёптывает план.<NL>Императорский цыплёнок внимательно слушает, понимающе кивает, тихо кукарекает и гордо выпячивает грудь, готовый действовать.<NL>Как только <Character key=RoleTaiwu str=Name/> найдёт укромное место, можно будет действовать...",
+      "status": "judged",
       "srcHash": "c3db3ddd37a3bd06",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "b9bbba7966eaccbf"
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "f71a2ad5ccfe30b1"
     },
     "21e29ad4-f372-4229-9a3b-f2c9c8902548/Option_1": {
       "en": "(Seek a quiet spot and feign rest...)",
@@ -3604,33 +3604,33 @@
     },
     "80b7a0b5-58e1-452d-b771-5ba38a7baa28/EventContent": {
       "en": "The Imperial Chicken strolls about,<NL>feigning leisure, now dancing and leaping, and every so often offering a playful crow,<NL>his tune strange and otherworldly—unlike any ordinary bird...",
-      "cn": "此时，大王踱步向前，<NL>作出闲适取乐之态，时而起舞，时而蹦跳，间或啼鸣数声，<NL>音调此起彼伏，不似凡间寻常之鸡……",
+      "cn": "此时，<ArgBox key=DawangDisplayName type=string/>踱步向前，<NL>作出闲适取乐之态，时而起舞，时而蹦跳，间或啼鸣数声，<NL>音调此起彼伏，不似凡间寻常之鸡……",
       "ru": "Императорский цыплёнок прогуливается,<NL>притворяясь беззаботным, то танцует и прыгает, то время от времени игриво кудахчет,<NL>его мелодия странная и потусторонняя — совсем не похожая на пение обычной птицы...",
       "status": "judged",
       "srcHash": "afb1fdfb9e7bdaa3",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "a0e761c1016f0e77"
+      "judgeHash": "507f0ea078e8186e"
     },
     "80b7a0b5-58e1-452d-b771-5ba38a7baa28/Option_1": {
       "en": "(The Imperial Chicken's song holds a tune of its own...)",
-      "cn": "（原来大王亦算是擅长音律……）\n",
+      "cn": "（原来<ArgBox key=DawangDisplayName type=string/>亦算是擅长音律……）\n",
       "ru": "(Оказывается, Императорский цыплёнок тоже искусен в музыке...)",
       "status": "judged",
       "srcHash": "051d649e19bc12d0",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "3c81b6b8059c021d"
+      "judgeHash": "f23caaa48640d53c"
     },
     "4a8452bb-ab3a-4ed3-b8ea-5e0a11331bd2/EventContent": {
       "en": "Amused by the sound, <Character key=RoleTaiwu str=Name/> soon catches another—faint, creeping footsteps.<NL>Vigilant and cautious still, drawn by the Imperial Chicken's antics,<NL>Seventy-Seventh cannot help but edge closer, his wariness fraying...",
-      "cn": "<Character key=RoleTaiwu str=Name/>听得有趣，继而便又听得鬼祟脚步之声，<NL>那暗中窥伺之人虽仍是谨小慎微，却果真受大王吸引，<NL>不禁挪步而出，徐徐而来……",
+      "cn": "<Character key=RoleTaiwu str=Name/>听得有趣，继而便又听得鬼祟脚步之声，<NL>那暗中窥伺之人虽仍是谨小慎微，却果真受<ArgBox key=DawangDisplayName type=string/>吸引，<NL>不禁挪步而出，徐徐而来……",
       "ru": "Позабавленный этим звуком, <Character key=RoleTaiwu str=Name/> вскоре слышит ещё одни — слабые, крадущиеся шаги.<NL>Всё ещё бдительный и осторожный, привлечённый выходками Императорского цыплёнка,<NL>Семьдесят Седьмой не может не придвинуться ближе, его настороженность ослабевает...",
       "status": "judged",
       "srcHash": "3d7bcf5c119cf957",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "21378481580a520b"
+      "judgeHash": "9656d98ee89615c1"
     },
     "4a8452bb-ab3a-4ed3-b8ea-5e0a11331bd2/Option_1": {
       "en": "(Hold steady and wait for him to approach...)",
@@ -3644,13 +3644,13 @@
     },
     "8f19aef4-6192-4e07-ab12-3817d7f04aaa/EventContent": {
       "en": "<Character key=RoleTaiwu str=Name/> remains still,<NL>waiting for the moment Seventy-Seventh draws near, so close that he stretches out, ready to snatch the Imperial Chicken...",
-      "cn": "<Character key=RoleTaiwu str=Name/>并不贸然行事，<NL>只待此人越发靠近，行至咫尺之间，松懈戒备欲要扑抓大王之时……",
+      "cn": "<Character key=RoleTaiwu str=Name/>并不贸然行事，<NL>只待此人越发靠近，行至咫尺之间，松懈戒备欲要扑抓<ArgBox key=DawangDisplayName type=string/>之时……",
       "ru": "<Character key=RoleTaiwu str=Name/> остаётся неподвижным,<NL>ожидая момента, когда Семьдесят Седьмой подойдёт совсем близко и, ослабив бдительность, попытается схватить Императорского цыплёнка...",
       "status": "judged",
       "srcHash": "8da3f627dd27b510",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "86605334b73722d5"
+      "judgeHash": "85a55b857b6b1d09"
     },
     "8f19aef4-6192-4e07-ab12-3817d7f04aaa/Option_1": {
       "en": "(Strike now and seize him!)",
@@ -3734,13 +3734,13 @@
     },
     "569fe4b2-bb36-4a24-aee3-908d2ab267d8/Option_1": {
       "en": "(The Imperial Chicken must carry this warning to Liuli now!)",
-      "cn": "（托大王先行传话，将此事告知琉璃！）\n",
+      "cn": "（托<ArgBox key=DawangDisplayName type=string/>先行传话，将此事告知琉璃！）\n",
       "ru": "(Императорский цыплёнок должен немедленно передать это Люли!)",
       "status": "judged",
       "srcHash": "775a551a0bf4526a",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "110c5dcd4a3aea0c"
+      "judgeHash": "2ae1f7a0f773af67"
     },
     "93e5c667-8ce2-4301-8c22-0d6c8f61b425/EventContent": {
       "en": "With care and patience, <Character key=RoleTaiwu str=Name/> completes the robe, as taught by Liuli.<NL><NL>Jade beads gleam like morning dew,<NL>sleeves drift like mist under the moon, and sunset hues drape the robe like twilight clouds.<NL>A garment without seams, woven from light and color...<NL><NL><color=#lightgrey>(<Character key=RoleTaiwu str=Name/> put in great effort, and at last the Five-Sylph Robe is complete...)</color>",
@@ -3784,13 +3784,13 @@
     },
     "dac31d93-196d-44bb-9110-b89005ccc4e1/EventContent": {
       "en": "Once the Imperial Chicken departs, <Character key=RoleTaiwu str=Name/> turns to leave,<NL>yet a sudden rustling of leaves catches their ear. Someone lurks in the shadows, treading softly beneath the canopy.<NL><NL>Though no stranger to strange encounters or silent pursuers, <Character key=RoleTaiwu str=Name/> senses something different this time.<NL>The presence lingers, observing from the dark, but shows no sign of approach.<NL>Their intent remains unknown...",
-      "cn": "待得大王去后，<Character key=RoleTaiwu str=Name/>正欲转身，<NL>耳畔忽闻枝摇叶落之声，似有何人藏于暗处，蹑足而行。<NL><NL><Character key=RoleTaiwu str=Name/>虽见惯江湖怪事，也时常受人尾随，<NL>此时却直觉此人多有不同，好似只在暗中窥视，并不现身，<NL>不知意欲何为……",
+      "cn": "待得<ArgBox key=DawangDisplayName type=string/>去后，<Character key=RoleTaiwu str=Name/>正欲转身，<NL>耳畔忽闻枝摇叶落之声，似有何人藏于暗处，蹑足而行。<NL><NL><Character key=RoleTaiwu str=Name/>虽见惯江湖怪事，也时常受人尾随，<NL>此时却直觉此人多有不同，好似只在暗中窥视，并不现身，<NL>不知意欲何为……",
       "ru": "Как только Императорский цыплёнок уйдёт, <Character key=RoleTaiwu str=Name/> поворачивается, чтобы уйти,<NL>но внезапный шелест листьев привлекает его внимание. Кто-то прячется в тени, тихо ступая под кронами деревьев.<NL><NL>Хотя <Character key=RoleTaiwu str=Name/> не привыкать к странным встречам и молчаливым преследователям, на этот раз он чувствует что-то иное.<NL>Присутствие остаётся в темноте, наблюдая, но не подавая никаких признаков приближения.<NL>Его намерения остаются неизвестными...",
       "status": "judged",
       "srcHash": "44bad61b9c18910a",
       "engine": "yandex",
       "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "c735ce642722db1a"
+      "judgeHash": "526616962a740994"
     },
     "dac31d93-196d-44bb-9110-b89005ccc4e1/Option_1": {
       "en": "(Perhaps a feint may draw them out...)",
@@ -3854,13 +3854,13 @@
     },
     "cceedb87-04ca-460b-ba38-75334c7802ec/Option_1": {
       "en": "(The Divine Chicken... Could it be that they covet the Imperial Chicken?)",
-      "cn": "（神鸡……莫非此人乃是觊觎大王之人……）\n",
-      "ru": "(Божественный цыплёнок... Неужели этот человек замышляет завладеть великим правителем?)",
+      "cn": "（神鸡……莫非此人乃是觊觎<ArgBox key=DawangDisplayName type=string/>之人……）\n",
+      "ru": "(Божественный цыплёнок... Неужели этот человек хочет завладеть Императорским цыплёнком?)",
       "status": "judged",
       "srcHash": "8ac587efe784d0f9",
       "engine": "yandex",
-      "updatedAt": "2026-08-23T19:58:31.292Z",
-      "judgeHash": "ff170adaba7c8132"
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "c980e85255e72d3f"
     },
     "9c940373-b325-42b1-bd3c-95cad08cfc95/EventContent": {
       "en": "Doubt clouds <Character key=RoleTaiwu str=Name/>'s minds.<NL>What game is Seventy-Seventh playing? What truths hide behind his words?<NL>And how much of what was said before was truth, and how much deception?<NL>Now that Liuli resides within the Fuloong Sanctuary, perhaps something more may be uncovered...<NL><NL>With this in mind,<Character key=RoleTaiwu str=Name/> speaks once more...",
@@ -3944,13 +3944,13 @@
     },
     "44b968a6-0763-4699-bf80-c1691f0f6137/EventContent": {
       "en": "Having made up <Character key=RoleTaiwu str=GenderPossessive/> mind,<NL><Character key=RoleTaiwu str=Name/> returns to the Imperial Chicken and speaks of all <Character key=RoleTaiwu str=GenderSubject/> has seen and pondered.<NL>Upon hearing this, the Imperial Chicken's gaze sharpens. With a solemn nod, it takes flight once more—wings cleaving the sky, straight toward the Fuloong Sanctuary...",
-      "cn": "<Character key=RoleTaiwu str=Name/>心中主意已定，<NL>立时返回原处，将所思所想说与大王，<NL>大王闻言更是凛然厉色，道别之后，便振翅飞天，直往伏龙坛而去……",
+      "cn": "<Character key=RoleTaiwu str=Name/>心中主意已定，<NL>立时返回原处，将所思所想说与<ArgBox key=DawangDisplayName type=string/>，<NL><ArgBox key=DawangDisplayName type=string/>闻言更是凛然厉色，道别之后，便振翅飞天，直往伏龙坛而去……",
       "ru": "Приняв <Character key=RoleTaiwu str=GenderPossessive/> решение,<NL><Character key=RoleTaiwu str=Name/> возвращается к Императорскому цыплёнку и рассказывает обо всём, что <Character key=RoleTaiwu str=GenderSubject/> увидел и обдумал.<NL>Услышав это, Императорский цыплёнок сурово смотрит на него. Кивнув, он снова взлетает — его крылья рассекают небо, направляясь прямо к Святилищу усмирённого дракона...",
       "status": "judged",
       "srcHash": "a154bd75594d1c01",
       "engine": "yandex",
       "updatedAt": "2026-08-25T04:27:27.904Z",
-      "judgeHash": "d873e6f3f062403a"
+      "judgeHash": "15547df5f6c6ef15"
     },
     "44b968a6-0763-4699-bf80-c1691f0f6137/Option_1": {
       "en": "(Once the feather robe is complete, I must return to Fuloong Sanctuary at once!)",

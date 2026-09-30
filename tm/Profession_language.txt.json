@@ -734,13 +734,13 @@
     },
     "SeniorityGainTips_5_2": {
       "en": "<color=#orange>When you heal or eliminate the Bewitched:</color>\\n - Gain Seniority based on their Status Rank...",
-      "cn": "<color=#orange>救治或杀死失心人时：</color>\\n  -因对方的身份品阶而增长资历…",
+      "cn": "<color=#orange>救治或消灭失心人时：</color>\\n  -因对方的身份品阶而增长资历…",
       "ru": "<color=#orange>Когда вы исцеляете или убиваете потерявшего разум:</color>\\n - Получайте стаж в зависимости от его статусного ранга...",
       "status": "judged",
       "srcHash": "eba40f0f2d1fea2b",
       "engine": "yandex",
       "updatedAt": "2026-08-21T11:36:54.909Z",
-      "judgeHash": "911f55b0f2c9c3b3"
+      "judgeHash": "1b2014b75264b09c"
     },
     "SeniorityGainTips_5_3": {
       "en": "<color=#orange>When you perform an Evil Repelling Ritual to cleanse someone of evil spirits:</color>\\n - Gain Seniority based on their Status Rank...",
@@ -1801,6 +1801,86 @@
       "engine": "yandex",
       "updatedAt": "2026-08-21T11:36:54.909Z",
       "judgeHash": "cc7fb8b6492f9a81"
+    },
+    "Name_18": {
+      "en": "玄相化身",
+      "cn": null,
+      "ru": "Воплощение Таинственного Образа",
+      "status": "judged",
+      "srcHash": "c241583be9bb111b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "db196c1c2d37c651"
+    },
+    "Desc_18": {
+      "en": "玄相之化身，万相之本相，呼自神魔来谒，召自天地沦亡……",
+      "cn": null,
+      "ru": "Воплощение Таинственного Образа, первообраз всех образов, призывающий богов и демонов явиться на поклонение, вызывающий падение неба и земли……",
+      "status": "judged",
+      "srcHash": "0ecd36dcd580903e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "c93b525dcbb9cdf8"
+    },
+    "SeniorityGainTips_18_0": {
+      "en": "<color=#orange>驱逐或了断失心人时：</color>\\n  -因失心人的精纯而增长资历…",
+      "cn": null,
+      "ru": "<color=#orange>Когда изгоняешь или уничтожаешь потерявшего разум:</color>\\n  - Получай стаж за его чистоту…",
+      "status": "judged",
+      "srcHash": "48d1511df23a01d3",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "d681d4936461e2a4"
+    },
+    "SeniorityGainTips_18_1": {
+      "en": "<color=#orange>通过堕心噬元侵蚀他人心智时：</color>\\n  -因对方的精纯而增长资历…",
+      "cn": null,
+      "ru": "<color=#orange>Когда разрушаешь разум других с помощью Падения сердца и пожирания истока:</color>\\n  - Получай стаж за чистоту противника…",
+      "status": "judged",
+      "srcHash": "b30f2c44f8539745",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "08b4cda6dc0836ac"
+    },
+    "SeniorityGainTips_18_2": {
+      "en": "<color=#orange>消灭或收服相枢爪牙时：</color>\\n  -因爪牙的精纯而增长资历…",
+      "cn": null,
+      "ru": "<color=#orange>При уничтожении или подчинении приспешников Сяншу:</color>\\n  - Получайте стаж за чистоту приспешников…",
+      "status": "judged",
+      "srcHash": "62318ff31a9f8454",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "dc3924c6aef8920e"
+    },
+    "SeniorityGainTips_18_3": {
+      "en": "<color=#orange>战胜染尘子、龙语茯、紫无绡、十二邪仙时：</color>\\n  -因将其诛灭或邀为同道而增长资历…",
+      "cn": null,
+      "ru": "<color=#orange>Победите Жань Чэньцзы, Лун Юйфу, Цзы Усяо и двенадцать злых бессмертных:</color>\\n  - Получайте стаж, уничтожая их или приглашая их в ряды единомышленников…",
+      "status": "judged",
+      "srcHash": "8bc57bed868713aa",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "8b20aa1772c95d51"
+    },
+    "DemandTeachingText_18": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "DemandTeachingFinishText_18": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
     }
   }
 }

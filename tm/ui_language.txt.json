@@ -34064,7 +34064,7 @@
     },
     "LK_CombatSkill_Luohan_Break_Empty": {
       "en": "Buddha Statue Breakthrough",
-      "cn": "佛像突破",
+      "cn": "罗汉开悟",
       "ru": "Прорыв статуи Будды",
       "status": "machine",
       "srcHash": "f32bf57db693e9eb",
@@ -37674,7 +37674,7 @@
       "srcHash": "6ed3bc89a49aa3cb",
       "engine": "yandex",
       "updatedAt": "2026-07-25T08:36:57.749Z",
-      "judgeHash": "8c217e3b13135356"
+      "judgeHash": "656defb051bc5be4"
     },
     "LK_Combat_DefeatMarkTip_Condition_Poison5_1": {
       "en": "When <color=#coldpoison><SpName=mousetip_duxing_2>Cryotoxin</color> takes effect, some <color=#coldpoison><SpName=mousetip_duxing_2>Cryotoxin</color> Toxin transforms into <color=#illusorypoison>Oneirotoxin</color> Toxin.",
@@ -47892,7 +47892,7 @@
     },
     "LK_DangerNotice_SpiritLand": {
       "en": "If you enter the Otherland, irreversible events will occur.\\nTaiwu will face great peril with no way to turn back,\\nYou must think carefully, have no more attachment to the world, and have no doubt about your own strength before overcoming this crisis!\\n\\nAre you sure you want to enter the Otherland?",
-      "cn": "倘若进入出神之地，将发生不可逆转之事，\\n太吾将面临极大的危难并且没有回头之路，\\n需思虑再三，对世间再无留恋，对自身实力再无疑虑，方可突破困境!\\n\\n确定要进入出神之地吗？",
+      "cn": "倘若进入出神之地，将发生不可逆转之事，\\n太吾将面临极大的危难并且没有回头之路，\\n需思虑再三，对世间再无留恋，对自身实力再无疑虑，方可突破困境!\\n\\n确定要进入出神之地吗？\\n\\n<color=#lightgrey>（此处将自动建立存档备份，以备太吾额外所需……）</color>",
       "ru": "Если вы попадете в Другую Страну, произойдут необратимые события.\\nТайву столкнется с большой опасностью, и у него не будет возможности повернуть назад,\\nВы должны хорошенько подумать, не иметь больше привязанности к миру и не сомневаться в своих собственных силах, прежде чем преодолеть этот кризис!\\n\\nВы уверены, что хотите попасть в Другую страну?",
       "status": "machine",
       "srcHash": "59fc189d0d344bfa",
@@ -50794,23 +50794,23 @@
     },
     "LK_EquipCombatSkill_ScrollGroupTitle_0": {
       "en": "<color=#brightblue>Equipped</color>",
-      "cn": "<color=#brightblue>已运功</color>",
+      "cn": "已运功",
       "ru": "<color=#brightblue>Активно</color>",
       "status": "judged",
       "srcHash": "482e79f183a503a7",
       "engine": "yandex",
       "updatedAt": "2026-08-20T20:18:53.972Z",
-      "judgeHash": "c60ef7862d5317df"
+      "judgeHash": "29c6029d5d80159e"
     },
     "LK_EquipCombatSkill_ScrollGroupTitle_1": {
       "en": "<color=#darkgrey>Not Equipped</color>",
-      "cn": "<color=#darkgrey>未运功</color>",
-      "ru": "<color=#darkgrey>Не применяет техники</color>",
+      "cn": "未运功",
+      "ru": "<color=#darkgrey>Не экипировано</color>",
       "status": "judged",
       "srcHash": "65b735eb9b3f2906",
       "engine": "yandex",
-      "updatedAt": "2026-07-16T23:32:17.341Z",
-      "judgeHash": "c023b9b6835e042b"
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "f072e246042afbab"
     },
     "LK_EquipCombatSkill_Switch": {
       "en": "Replace",
@@ -67027,13 +67027,13 @@
     },
     "LK_ItemTips_Property_Recover_Postfix": {
       "en": "Recovery",
-      "cn": "恢复",
+      "cn": null,
       "ru": "Восстановление",
       "status": "machine",
       "srcHash": "d2715131dd603a2e",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "c853591cf7ff0402"
+      "judgeHash": "f1130ef772857b4d"
     },
     "LK_ItemTips_Recover_Neili": {
       "en": "Qi Recovery",
@@ -87353,13 +87353,13 @@
     },
     "LK_MouseTip_Inscribe_IsBeastCarrier": {
       "en": "<color=#brightred>Cannot imprint the companions of extraordinary people...</color>",
-      "cn": "<color=#brightred>无法铭刻非凡人的同道…</color>",
-      "ru": "<color=#brightred>Нельзя запечатлеть спутников выдающихся людей...</color>",
+      "cn": "<color=#brightred>无法铭刻异界生灵…</color>",
+      "ru": "<color=#brightred>Нельзя запечатлеть существ из другого мира...</color>",
       "status": "judged",
       "srcHash": "f556866c29370ead",
       "engine": "yandex",
-      "updatedAt": "2026-07-19T17:35:35.688Z",
-      "judgeHash": "2cb3c87990d39a2c"
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "5616c78cfea3f24c"
     },
     "LK_MouseTip_Inscribe_MirrorCharacter": {
       "en": "<color=#brightred>Cannot imprint beings with anomalous souls or those of the Creation of Life...</color>",
@@ -88693,13 +88693,13 @@
     },
     "LK_MouseTip_Taiwu_Villager_Detail": {
       "en": "Taiwu Village Population: {0}\\n Adult Villagers: {1}\\n Working: {2}\\n Managing: {3}\\n Dispatched: {4}\\n Idle: {5}\\n Minor Villagers: {6}\\n Training: {7}\\n Idle: {8}\\nThe Bewitched in Stone House: {9}",
-      "cn": "太吾村人数：{0}\\n  成年村民：{1}\\n    工作中：{2}\\n      经营中：{3}\\n      派遣中：{4}\\n    空闲：{5}\\n  未成年村民：{6}\\n    培养中：{7}\\n    空闲：{8}\\n石屋失心人：{9}",
+      "cn": "太吾村人数：{0}\\n  成年村民：{1}\\n    同道：{2}\\n    工作中：{3}\\n      经营中：{4}\\n      派遣中：{5}\\n    空闲：{6}\\n  少年村民：{7}\\n    同道：{8}\\n    培养中：{9}\\n    空闲：{10}\\n  婴儿：{11}\\n    同道：{12}\\n\\n石屋失心人：{13}",
       "ru": "Население деревни Тайву: {0}\\n Взрослые жители деревни: {1}\\n Работают: {2}\\n Управляют: {3}\\n Отправлены: {4}\\n Свободны: {5}\\n Несовершеннолетние жители: {6}\\n Обучаются: {7}\\n Свободны: {8}\\nЛишившиеся рассудка в каменном доме: {9}",
       "status": "judged",
       "srcHash": "31114033420fd031",
       "engine": "yandex",
       "updatedAt": "2026-08-20T20:18:53.972Z",
-      "judgeHash": "4d785e51472c0a20"
+      "judgeHash": "32d62e6b919aa557"
     },
     "LK_MouseTip_Taiwu_Villager_Title": {
       "en": "Taiwu Villagers",
@@ -119089,13 +119089,13 @@
     },
     "LK_VillagerRole_Farmer_Collect_0_Desc": {
       "en": "Gather Foodstuff",
-      "cn": "采集食材",
+      "cn": "派遣农户至此地区采集食材…",
       "ru": "Собирайте ингредиенты",
       "status": "judged",
       "srcHash": "456381eb7575fa1e",
       "engine": "yandex",
       "updatedAt": "2026-07-16T23:32:17.341Z",
-      "judgeHash": "5eaaf21dfe67bc8c"
+      "judgeHash": "7f1fdbb05fc217cf"
     },
     "LK_VillagerRole_Farmer_Collect_0_Title": {
       "en": "Gather Foodstuff",
@@ -119109,13 +119109,13 @@
     },
     "LK_VillagerRole_Farmer_Collect_1_Desc": {
       "en": "Gather Wood",
-      "cn": "采集木材",
+      "cn": "派遣农户至此地区采集木材…",
       "ru": "Собирайте дрова",
       "status": "machine",
       "srcHash": "03d089a66e90fd3b",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "d87b42710d667ecb"
+      "judgeHash": "ddefd2aca8706e2a"
     },
     "LK_VillagerRole_Farmer_Collect_1_Title": {
       "en": "Gather Wood",
@@ -119129,13 +119129,13 @@
     },
     "LK_VillagerRole_Farmer_Collect_2_Desc": {
       "en": "Gather Metal",
-      "cn": "采集金铁",
+      "cn": "派遣农户至此地区采集金铁…",
       "ru": "Сбор металлов и железа",
       "status": "judged",
       "srcHash": "ca1dfe5e4afcddfe",
       "engine": "yandex",
       "updatedAt": "2026-07-19T17:35:35.688Z",
-      "judgeHash": "519b51f16829b2ea"
+      "judgeHash": "63ee2946588053c5"
     },
     "LK_VillagerRole_Farmer_Collect_2_Title": {
       "en": "Gather Metal",
@@ -119149,13 +119149,13 @@
     },
     "LK_VillagerRole_Farmer_Collect_3_Desc": {
       "en": "Gather Jade",
-      "cn": "采集玉石",
+      "cn": "派遣农户至此地区采集玉石…",
       "ru": "Соберите нефрит",
       "status": "judged",
       "srcHash": "ce412524b95a5ccd",
       "engine": "yandex",
       "updatedAt": "2026-08-22T21:43:53.463Z",
-      "judgeHash": "07a52a3af8bd761b"
+      "judgeHash": "a0ac1e4e8d12fca9"
     },
     "LK_VillagerRole_Farmer_Collect_3_Title": {
       "en": "Gather Jade",
@@ -119169,13 +119169,13 @@
     },
     "LK_VillagerRole_Farmer_Collect_4_Desc": {
       "en": "Gather Fabric",
-      "cn": "采集织物",
+      "cn": "派遣农户至此地区采集织物…",
       "ru": "Соберите ткань",
       "status": "machine",
       "srcHash": "f5d28998fee0b20a",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "bc9f6111a195830d"
+      "judgeHash": "b9c14570a5e3aa80"
     },
     "LK_VillagerRole_Farmer_Collect_4_Title": {
       "en": "Gather Fabric",
@@ -119189,13 +119189,13 @@
     },
     "LK_VillagerRole_Farmer_Collect_5_Desc": {
       "en": "Gather Herbs",
-      "cn": "采集药材",
+      "cn": "派遣农户至此地区采集药材…",
       "ru": "Соберите Травы",
       "status": "machine",
       "srcHash": "da10cd1659102503",
       "engine": "yandex",
       "updatedAt": "2026-07-10T20:59:06.747Z",
-      "judgeHash": "73f70eba7a96cb00"
+      "judgeHash": "fd3e6ae520750295"
     },
     "LK_VillagerRole_Farmer_Collect_5_Title": {
       "en": "Gather Herbs",
@@ -119249,7 +119249,7 @@
     },
     "LK_VillagerRole_Farmer_Migrate_0_Desc": {
       "en": "Relocate Foodstuff",
-      "cn": "迁移食材",
+      "cn": "派遣农户至此地区迁移食材…\\n启用自动迁移时，农户将在迁移完成后，自动前往其他合适的地区继续迁移…{0}",
       "ru": "Перемещать продукты",
       "status": "judged",
       "srcHash": "d8e09ad2a54720ab",
@@ -119269,7 +119269,7 @@
     },
     "LK_VillagerRole_Farmer_Migrate_1_Desc": {
       "en": "Relocate Wood",
-      "cn": "迁移木材",
+      "cn": "派遣农户至此地区迁移木材…\\n启用自动迁移时，农户将在迁移完成后，自动前往其他合适的地区继续迁移…{0}",
       "ru": "Переместить древесину",
       "status": "machine",
       "srcHash": "092e3096c941b02d",
@@ -119289,7 +119289,7 @@
     },
     "LK_VillagerRole_Farmer_Migrate_2_Desc": {
       "en": "Relocate Metal",
-      "cn": "迁移金铁",
+      "cn": "派遣农户至此地区迁移金铁…\\n启用自动迁移时，农户将在迁移完成后，自动前往其他合适的地区继续迁移…{0}",
       "ru": "Переместить металл",
       "status": "judged",
       "srcHash": "f4578224713421a0",
@@ -119309,7 +119309,7 @@
     },
     "LK_VillagerRole_Farmer_Migrate_3_Desc": {
       "en": "Relocate Jade",
-      "cn": "迁移玉石",
+      "cn": "派遣农户至此地区迁移玉石…\\n启用自动迁移时，农户将在迁移完成后，自动前往其他合适的地区继续迁移…{0}",
       "ru": "Переместить нефрит",
       "status": "judged",
       "srcHash": "18bbf386c7806a64",
@@ -119329,7 +119329,7 @@
     },
     "LK_VillagerRole_Farmer_Migrate_4_Desc": {
       "en": "Relocate Fabric",
-      "cn": "迁移织物",
+      "cn": "派遣农户至此地区迁移织物…\\n启用自动迁移时，农户将在迁移完成后，自动前往其他合适的地区继续迁移…{0}",
       "ru": "Переместить ткань",
       "status": "machine",
       "srcHash": "2b291d2957de0ea9",
@@ -119349,7 +119349,7 @@
     },
     "LK_VillagerRole_Farmer_Migrate_5_Desc": {
       "en": "Relocate Herbs",
-      "cn": "迁移药材",
+      "cn": "派遣农户至此地区迁移药材…\\n启用自动迁移时，农户将在迁移完成后，自动前往其他合适的地区继续迁移…{0}",
       "ru": "Переместить травы",
       "status": "judged",
       "srcHash": "cc9467d2deee8a83",
@@ -131687,6 +131687,615 @@
       "updatedAt": "2026-07-19T17:35:35.688Z",
       "judgeHash": "8f90aa940c04dca8"
     },
+    "Event_ImportantOption_FastForward_Content": {
+      "en": "若随妖魔而去，则其邪念将大量侵入太吾心神，\\n致使太吾更易堕入魔道，化身为妖魔座下恶鬼……",
+      "cn": null,
+      "ru": "Если вы последуете за демоном, его злые мысли проникнут в разум Тайву,\\nиз-за чего Тайву будет легче ступить на путь демонов и превратиться в злого духа под началом демона……",
+      "status": "judged",
+      "srcHash": "a10e54e4eebf0aef",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "c6b7658cd85bab91"
+    },
+    "Event_ImportantOption_IntoDLC_Content": {
+      "en": "<color=#brightred>倘若深入玄狱，\\n原有主线故事将被略过，\\n太吾此行将面临极大的危难，更无回头之路，\\n是否确认深入玄狱？</color>",
+      "cn": null,
+      "ru": "<color=#brightred>Если вы углубитесь в таинственную тюрьму,\\nосновная сюжетная линия будет пропущена,\\nТайву в этом путешествии ждут величайшие опасности, и пути назад не будет,\\nвы уверены, что хотите углубиться в таинственную тюрьму?</color>",
+      "status": "judged",
+      "srcHash": "29cce0a0c18015f5",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "08b1c76827dc33d5"
+    },
+    "Event_ImportantOption_IntoDLC_Title": {
+      "en": "玄相通天",
+      "cn": null,
+      "ru": "Сюаньсян Тунтянь",
+      "status": "judged",
+      "srcHash": "050d5405f6d6f6f6",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "7828d83e4084d540"
+    },
+    "Event_SmarterChicken_Dawang_0": {
+      "en": "“夜间都是本王恢复大王之气的时机，须得保持‘呆若木鸡’之态，\\n白日里，本王方有精神巡视领地……还有……与你说话。”",
+      "cn": null,
+      "ru": "“Ночью я восстанавливаю свою королевскую ауру, поэтому должен сохранять состояние ‘как деревянная курица’,\\nа днём у меня хватает сил патрулировать владения… и… разговаривать с вами.”",
+      "status": "judged",
+      "srcHash": "b8a5b5606417b8af",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "115e6e4856bb437a"
+    },
+    "Event_SmarterChicken_Dawang_1": {
+      "en": "“化为人形亦有一番意趣……\\n只是没了满身覆羽，晨风拂过之时，竟会生出几分凉意……”",
+      "cn": null,
+      "ru": "“Превратиться в человека тоже довольно интересно…\\nТолько без перьев по всему телу от утреннего ветерка становится немного прохладно…”",
+      "status": "judged",
+      "srcHash": "2dcadedbcc0b854f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "a0c84e13cd462665"
+    },
+    "Event_SmarterChicken_Dawang_2": {
+      "en": "“化为人形倒也有些不便……\\n本王昨日在树枝上睡着了，翻身之时竟险些掉了下来……”",
+      "cn": null,
+      "ru": "“Превратиться в человека довольно неудобно…\\nВчера я заснул на ветке и чуть не упал, когда перевернулся…”",
+      "status": "judged",
+      "srcHash": "f35a2ab157107423",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "39f45c7f3b0520da"
+    },
+    "Event_SmarterChicken_Dawang_3": {
+      "en": "“今日在村口寻得几枚红彤彤的野果，甘甜一如往昔。\\n只是这副人身好生奇怪，囫囵吞下后，竟无半分饱足之感……”",
+      "cn": null,
+      "ru": "“Сегодня у входа в деревню я нашёл несколько ярко-красных диких плодов, сладких, как всегда.\\nТолько это человеческое тело такое странное: проглотив их целиком, я совсем не чувствую сытости…”",
+      "status": "judged",
+      "srcHash": "c286addfe069d4b0",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "2a29b178917de6b2"
+    },
+    "Event_SmarterChicken_Dawang_4": {
+      "en": "“村中尚有诸多要务等待本王主持……\\n譬如村南那片刚翻新的软泥地，还有昨夜被风吹落的果子，\\n本王皆得亲自去巡视一番……”",
+      "cn": null,
+      "ru": "“В деревне ещё много важных дел, ожидающих моего решения…\\nНапример, свежевскопанная мягкая земля к югу от деревни и плоды, сбитые ветром прошлой ночью,\\nвсё это я должен лично осмотреть…”",
+      "status": "judged",
+      "srcHash": "e5d3d4c104c68ab6",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "f4e82262df083fa2"
+    },
+    "Event_SmarterChicken_Dawang_5": {
+      "en": "“本王与你本就是无间亲友，为你分忧自是理所应当……\\n你平日在外奔波劳碌，回了村便只管安心歇息。\\n这太吾村，自有本王替你驻守。”",
+      "cn": null,
+      "ru": "“Мы с тобой близкие друзья, поэтому помочь тебе — мой долг…\\nТы каждый день трудишься вне деревни, так что, вернувшись, спокойно отдыхай.\\nВ этой деревне Тайву я сам буду охранять тебя.”",
+      "status": "judged",
+      "srcHash": "e0ec7b7081a10dc2",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "f5526d186d2416e9"
+    },
+    "Event_XiangshuImpersonatorName_0": {
+      "en": "莫女",
+      "cn": null,
+      "ru": "Мо Ну",
+      "status": "machine",
+      "srcHash": "d41121efa5ad06d9",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "e262ebc0660b086c"
+    },
+    "Event_XiangshuImpersonatorName_1": {
+      "en": "大岳瑶常",
+      "cn": null,
+      "ru": "Дайюэ Яочан",
+      "status": "machine",
+      "srcHash": "9a98a5c097670225",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "0a1bbfca62c4c856"
+    },
+    "Event_XiangshuImpersonatorName_2": {
+      "en": "九寒",
+      "cn": null,
+      "ru": "Цзюхань",
+      "status": "machine",
+      "srcHash": "6ba782f29f10f9a4",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "6dd337ad497ba172"
+    },
+    "Event_XiangshuImpersonatorName_3": {
+      "en": "金凰儿",
+      "cn": null,
+      "ru": "Цзинь Хуан Эр",
+      "status": "machine",
+      "srcHash": "ac0c31d176252cbf",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "cb583203995e4618"
+    },
+    "Event_XiangshuImpersonatorName_4": {
+      "en": "衣以侯",
+      "cn": null,
+      "ru": "Йи Йихоу",
+      "status": "machine",
+      "srcHash": "97bd6377a259d04f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "9c011b01f425477a"
+    },
+    "Event_XiangshuImpersonatorName_5": {
+      "en": "卫起",
+      "cn": null,
+      "ru": "Вэйци",
+      "status": "machine",
+      "srcHash": "aada5e95ca71afc5",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "5d07c22b5474807b"
+    },
+    "Event_XiangshuImpersonatorName_6": {
+      "en": "以向",
+      "cn": null,
+      "ru": "Исян",
+      "status": "judged",
+      "srcHash": "04ea7246299ff51d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "2d2f63e07d4df594"
+    },
+    "Event_XiangshuImpersonatorName_7": {
+      "en": "血枫",
+      "cn": null,
+      "ru": "Кровавый клен",
+      "status": "machine",
+      "srcHash": "82e7f9eef33f5b81",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "1b35aac771851c32"
+    },
+    "Event_XiangshuImpersonatorName_8": {
+      "en": "术方",
+      "cn": null,
+      "ru": "Шуфан",
+      "status": "judged",
+      "srcHash": "a1ac4aa1470cfb9c",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "fe9e956ed824ff30"
+    },
+    "GM_AdvanceManyMonths_Arg0_Name": {
+      "en": "过月份数",
+      "cn": null,
+      "ru": "Количество прошедших месяцев",
+      "status": "machine",
+      "srcHash": "411a649aa98060f1",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "45203de0c0d11002"
+    },
+    "GM_AdvanceManyMonths_Arg1_Name": {
+      "en": "存档间隔",
+      "cn": null,
+      "ru": "Интервал сохранения",
+      "status": "judged",
+      "srcHash": "a48e08dae62bed82",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "b08b46a76f66bb41"
+    },
+    "GM_AdvanceManyMonths_Arg2_Name": {
+      "en": "跳过过月事件",
+      "cn": null,
+      "ru": "Пропустить события прошедшего месяца",
+      "status": "machine",
+      "srcHash": "da7833df819c85d3",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "6874614249b68ec2"
+    },
+    "LK_Building_ChickenCoop_Feed": {
+      "en": "给元鸡喂食…",
+      "cn": null,
+      "ru": "Накорми Юаньцзи…",
+      "status": "machine",
+      "srcHash": "ff9f43e95d0e2a49",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "4c005642893b847f"
+    },
+    "LK_Building_ChickenCoop_Rename": {
+      "en": "修改元鸡名称…",
+      "cn": null,
+      "ru": "Измените имя Юаньцзи…",
+      "status": "machine",
+      "srcHash": "d845eaed7d4b1192",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "802f0ffae49949b8"
+    },
+    "LK_Building_IntroPage_FinalBattlePrerequisitesMet": {
+      "en": "可冲破天幕心帷，击败天幕之上的敌人…",
+      "cn": null,
+      "ru": "Может прорваться сквозь сердечную завесу Небесного занавеса и победить врагов над ним…",
+      "status": "judged",
+      "srcHash": "c4713bb61a29854a",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "c1946bc94edae8e7"
+    },
+    "LK_Building_IntroPage_FinalBattlePrerequisitesRequired": {
+      "en": "待取得玄相魔心，取得三界之力后，方可冲破天幕心帷，击败天幕之上的敌人…",
+      "cn": null,
+      "ru": "Получив сердце демона Сюаньсяна и силу трёх миров, вы сможете прорваться сквозь сердечную завесу Небесного занавеса и победить врагов над ним…",
+      "status": "judged",
+      "srcHash": "d54a0c2c22bec468",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "a5a07dbe8ee5c03a"
+    },
+    "LK_Building_IntroPage_FinalBattleWon": {
+      "en": "天幕已破，尽情遨游…",
+      "cn": null,
+      "ru": "Небесный занавес разрушен, странствуйте в своё удовольствие…",
+      "status": "judged",
+      "srcHash": "d8c9db14668ddf5d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "0e19a02e8bde21d1"
+    },
+    "LK_Building_Resource_Upgrade_Tip": {
+      "en": "可培育",
+      "cn": null,
+      "ru": "Может быть культивирован",
+      "status": "machine",
+      "srcHash": "9469bb746471343f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "5b52d4573bc50157"
+    },
+    "LK_Building_XiangshuTower_BottomInfo": {
+      "en": "战胜十二邪仙，取得 <color=#67b7dc>三界之力</color> ({0}/3)、取得 <color=#9c65ce>玄相魔心</color> ({1}/1)、冲破<color=#orange>天幕心帷</color>...",
+      "cn": null,
+      "ru": "Победите двенадцать злых бессмертных, получите <color=#67b7dc>силу трёх миров</color> ({0}/3) и <color=#9c65ce>сердце демона Сюаньсяна</color> ({1}/1), прорвитесь сквозь <color=#orange>сердечную завесу Небесного занавеса</color>…",
+      "status": "judged",
+      "srcHash": "ec149a6db8edee79",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "0a211fd35a19b6b1"
+    },
+    "LK_Building_XiangshuTower_Button_Tip_Heart_Content": {
+      "en": "与相枢战斗，取得玄相魔心…",
+      "cn": null,
+      "ru": "Сразись с Сяншу и добудь сердце демона Сюаньсяна…",
+      "status": "machine",
+      "srcHash": "dea4de6462f89a64",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "f0c845826194d43b"
+    },
+    "LK_Building_XiangshuTower_Button_Tip_Tiandi_Content": {
+      "en": "消灭天帝，冲破天幕心帷…",
+      "cn": null,
+      "ru": "Уничтожьте Императора Небес и прорвитесь сквозь небесный занавес…",
+      "status": "machine",
+      "srcHash": "00718f7cbd078ed5",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "e4221ee4ff6dc218"
+    },
+    "LK_Building_XiangshuTower_CharacterTip_Killed": {
+      "en": "<color=#brightred>已诛灭</color>",
+      "cn": null,
+      "ru": "<color=#brightred>Был стерт с лица земли</color>",
+      "status": "machine",
+      "srcHash": "259b67299c778f42",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "674572b3ed81ef36"
+    },
+    "LK_Building_XiangshuTower_CharacterTip_KilledLocation": {
+      "en": "诛灭地点",
+      "cn": null,
+      "ru": "Место уничтожения",
+      "status": "machine",
+      "srcHash": "5ce3e839e7e8dc6e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "5a54ab3baf2e8a42"
+    },
+    "LK_Building_XiangshuTower_CharacterTip_Tamed": {
+      "en": "<color=#lightblue>已收服</color>",
+      "cn": null,
+      "ru": "<color=#lightblue>Подчиненный</color>",
+      "status": "machine",
+      "srcHash": "53795f9789dfde32",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "073f9f7672a3fa8c"
+    },
+    "LK_Building_XiangshuTower_CharacterTip_TamedLocation": {
+      "en": "所在地点",
+      "cn": null,
+      "ru": "местоположение",
+      "status": "machine",
+      "srcHash": "c0bae2f4ea322667",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "918b9e5de16df6ac"
+    },
+    "LK_Building_XiangshuTower_FinalBattleTiandi": {
+      "en": "挑战天帝",
+      "cn": null,
+      "ru": "Бросьте вызов императору",
+      "status": "machine",
+      "srcHash": "f472ea87a24ce434",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "8c82fa3eb6d67761"
+    },
+    "LK_Building_XiangshuTower_FinalBottomInfo": {
+      "en": "消灭天帝，冲破天幕心帷…",
+      "cn": null,
+      "ru": "Уничтожьте Императора Небес и прорвитесь сквозь небесный занавес…",
+      "status": "machine",
+      "srcHash": "00718f7cbd078ed5",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "e4221ee4ff6dc218"
+    },
+    "LK_Building_XiangshuTower_HeartOtained": {
+      "en": "已取得<color=#darkpurple>玄相魔心</color>…",
+      "cn": null,
+      "ru": "Получено <color=#darkpurple>сердце демона Сюаньсяна</color>…",
+      "status": "judged",
+      "srcHash": "48aa65e15a8858d8",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "f8c5099199ac039b"
+    },
+    "LK_Building_XiangshuTower_HeartOtainedDefaultColor": {
+      "en": "已取得玄相魔心…",
+      "cn": null,
+      "ru": "Заполучил сердце демона Сюаньсяна…",
+      "status": "machine",
+      "srcHash": "16038afce0dfdda9",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "2de3646e616e75f1"
+    },
+    "LK_Building_XiangshuTower_InfoTab": {
+      "en": "玄相梏妖",
+      "cn": null,
+      "ru": "Покорение демонов Сяншу",
+      "status": "judged",
+      "srcHash": "7b0c77244acdbc03",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "a4800a68ccdaf280"
+    },
+    "LK_Building_XiangshuTower_Info_Count": {
+      "en": "({0}/{1})",
+      "cn": null,
+      "ru": "({0}/{1})",
+      "status": "machine",
+      "srcHash": "eeb580b10a68cb39",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "16b12768723d0658"
+    },
+    "LK_Building_XiangshuTower_Info_ThreeRealmsPowerObtained": {
+      "en": "<color=#67b7dc>已取得三界之力!</color>",
+      "cn": null,
+      "ru": "<color=#67b7dc>Могущество трех миров было достигнуто!</color>",
+      "status": "machine",
+      "srcHash": "2a1fdf3003bce0de",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "547053a700752c29"
+    },
+    "LK_Building_XiangshuTower_Info_TwelveImmortalsObtained": {
+      "en": "<color=#orange>已降伏十二邪仙!</color>",
+      "cn": null,
+      "ru": "<color=#orange>Подчинены двенадцать злых бессмертных!</color>",
+      "status": "judged",
+      "srcHash": "882ff120925d073e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "9ee4444810bab8fd"
+    },
+    "LK_Building_XiangshuTower_Name": {
+      "en": "玄相九塔",
+      "cn": null,
+      "ru": "Девять башен Сюаньсяна",
+      "status": "machine",
+      "srcHash": "8d1033b3b673f509",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "0a6d05b5b7e35fa6"
+    },
+    "LK_Building_XiangshuTower_NotInTaiwuVillage": {
+      "en": "未处于太吾村…",
+      "cn": null,
+      "ru": "Не находится в деревне Тайву…",
+      "status": "judged",
+      "srcHash": "fa7d2f4c52dc8aa0",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "a5ac28cf4c8575d1"
+    },
+    "LK_Building_XiangshuTower_RetrieveDemonHeart": {
+      "en": "直取魔心",
+      "cn": null,
+      "ru": "Возьмите волшебное сердце прямо в руки",
+      "status": "machine",
+      "srcHash": "12fd48a3fdf25e4e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "6ff9d7a2cd14a40e"
+    },
+    "LK_Building_XiangshuTower_Suppression_ConfirmContent": {
+      "en": "使用<color=#{1}>{0}</color>镇压邪仙后，\\n将抑制邪仙法力，使其特殊特性失去效果，但神剑将无法取回，\\n是否确认使用<color=#{1}>「{2}」</color>镇压邪仙？",
+      "cn": null,
+      "ru": "использовать<color=#{1}>{0}</color>После подавления злого бессмертного，\\nЭто подавит ману злого бессмертного и приведет к потере его особых характеристик, но Экскалибур не сможет восстановить ее.，\\nСледует ли подтверждать использование<color=#{1}>「{2}」</color>Подавить злого бессмертного?",
+      "status": "machine",
+      "srcHash": "e8970cd2fcd0aa93",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "LK_Building_XiangshuTower_Suppression_ConfirmTitle": {
+      "en": "镇压邪仙",
+      "cn": null,
+      "ru": "Подавите злого бессмертного",
+      "status": "machine",
+      "srcHash": "553803b8ce10f389",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "11c03045d3c3cc7a"
+    },
+    "LK_Building_XiangshuTower_Suppression_SelectSwordFragment": {
+      "en": "选择用于镇压的剑柄",
+      "cn": null,
+      "ru": "Выберите рукоять для подавления",
+      "status": "machine",
+      "srcHash": "6b3f74228c46987b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "8b8ea50132006f79"
+    },
+    "LK_Building_XiangshuTower_Suppression_TipContent": {
+      "en": "{0}已受到{1}镇压，神剑无法取回…",
+      "cn": null,
+      "ru": "{0} подавлен с помощью {1}, божественный меч нельзя вернуть…",
+      "status": "judged",
+      "srcHash": "7684263ece57dde3",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "5142ee7a29c180b5"
+    },
+    "LK_Building_XiangshuTower_Suppression_TipTitle": {
+      "en": "神剑镇压",
+      "cn": null,
+      "ru": "Подавление божественным мечом",
+      "status": "judged",
+      "srcHash": "49aacf7ba5c6d4b2",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "545a0347474bd760"
+    },
+    "LK_Building_XiangshuTower_Tab_0": {
+      "en": "十二邪仙",
+      "cn": null,
+      "ru": "Двенадцать злых Бессмертных",
+      "status": "machine",
+      "srcHash": "ecdcb123eb3150ab",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "006b675e23d0044a"
+    },
+    "LK_Building_XiangshuTower_Tab_1": {
+      "en": "三界之力",
+      "cn": null,
+      "ru": "Сила трех миров",
+      "status": "machine",
+      "srcHash": "d098742e961c6ff0",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "9f5f69c473615a4b"
+    },
+    "LK_Building_XiangshuTower_Tab_2": {
+      "en": "玄相魔心",
+      "cn": null,
+      "ru": "Сердце демона Сюаньсяна",
+      "status": "machine",
+      "srcHash": "b25fbf3dba5dc225",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "d04a6533e1d7561b"
+    },
+    "LK_Building_XiangshuTower_Tab_3": {
+      "en": "天幕心帷",
+      "cn": null,
+      "ru": "Небесный занавес, сердечный занавес",
+      "status": "machine",
+      "srcHash": "6b3915d080eba964",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "20c6cb6455def910"
+    },
+    "LK_Building_XiangshuTower_ThreeRealmsPower_LongYufu": {
+      "en": "破界神光",
+      "cn": null,
+      "ru": "Божественный свет, преодолевающий границы",
+      "status": "machine",
+      "srcHash": "e216115e811d76e0",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "d17d4465ea5920fc"
+    },
+    "LK_Building_XiangshuTower_ThreeRealmsPower_NotObtained": {
+      "en": "尚未取得 - <color=#lightblue>{0}</color>",
+      "cn": null,
+      "ru": "Еще не получено - <color=#lightblue>{0}</color>",
+      "status": "machine",
+      "srcHash": "55153a6fa5902381",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "22b8e845f7cc1873"
+    },
+    "LK_Building_XiangshuTower_ThreeRealmsPower_Obtained": {
+      "en": "已取得 - <color=#lightblue>{0}</color>",
+      "cn": null,
+      "ru": "Был получен - <color=#lightblue>{0}</color>",
+      "status": "machine",
+      "srcHash": "04faa024a0682ec4",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "eebc6072844904d2"
+    },
+    "LK_Building_XiangshuTower_ThreeRealmsPower_Ranchenzi": {
+      "en": "镇界神石",
+      "cn": null,
+      "ru": "Божественный камень, усмиряющий миры",
+      "status": "judged",
+      "srcHash": "29b991db5e0a7243",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "27eb148d9bcb119c"
+    },
+    "LK_Building_XiangshuTower_ThreeRealmsPower_ZiWuxiao": {
+      "en": "化界神火",
+      "cn": null,
+      "ru": "Божественный огонь, преображающий миры",
+      "status": "judged",
+      "srcHash": "03b39a84bf576229",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "4afe5fb1c7ce5505"
+    },
+    "LK_CharacterMenu_DLC_Polymorph": {
+      "en": "化形",
+      "cn": null,
+      "ru": "Форма",
+      "status": "machine",
+      "srcHash": "9a439fd6e1d228b6",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "550a65ea45f23c18"
+    },
+    "LK_CharacterMenu_DLC_Polymorph_LoongTips": {
+      "en": "使得{0}化形为人",
+      "cn": null,
+      "ru": "Превратить {0} в человека",
+      "status": "judged",
+      "srcHash": "413cd31d72e56dee",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "16fb0a7fd98c2f81"
+    },
     "LK_CharacterMenu_HotHealth_Tip": {
       "en": "角色健康状况有恙，请查看伤病信息",
       "cn": null,
@@ -131697,15 +132306,35 @@
       "updatedAt": "2026-08-20T20:18:53.972Z",
       "judgeHash": "3e04681cb541878b"
     },
-    "LK_CharacterMenu_PoisonAccumulator_EatPoisonedItem_Content": {
-      "en": "服食了{0}个含有毒素的{1}！\\n\\n{2}",
+    "LK_CharacterMenu_PoisonAccumulator_EatPoisonedItem_Book": {
+      "en": "误用毒物",
       "cn": null,
-      "ru": "Вы съели {0} предметов типа {1}, содержащих токсины!\\n\\n{2}",
-      "status": "judged",
-      "srcHash": "dcf6a349ad70b1b4",
+      "ru": "Неправильное использование ядов",
+      "status": "machine",
+      "srcHash": "445b48f0b2ca5ebd",
       "engine": "yandex",
-      "updatedAt": "2026-09-03T20:26:28.817Z",
-      "judgeHash": "888ae2edfc7e7f72"
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "13a8201d8c77bf6a"
+    },
+    "LK_CharacterMenu_PoisonAccumulator_EatPoisonedItem_Book_Content": {
+      "en": "因误用含有毒素的{0}x{1}，体内毒素增加了：",
+      "cn": null,
+      "ru": "Из-за ошибочного употребления содержащего токсины предмета {0}x{1} уровень токсинов в организме повысился:",
+      "status": "judged",
+      "srcHash": "aea62441fe479b3a",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "23aa55b6379770e5"
+    },
+    "LK_CharacterMenu_PoisonAccumulator_EatPoisonedItem_Content": {
+      "en": "因服食含有毒素的{0}x{1}，体内毒素增加了：",
+      "cn": null,
+      "ru": "Из-за употребления содержащего токсины предмета {0}x{1} уровень токсинов в организме повысился:",
+      "status": "judged",
+      "srcHash": "ae1a7132f5c947fa",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "fc6f432a13bdaa44"
     },
     "LK_CharacterMenu_PoisonAccumulator_EatPoisonedItem_Content_Detail": {
       "en": "{0}增加了{1}",
@@ -131718,14 +132347,14 @@
       "judgeHash": "1e8ff854e5f02cba"
     },
     "LK_CharacterMenu_PoisonAccumulator_EatPoisonedItem_Dur0": {
-      "en": "误用毒物",
+      "en": "服食毒物",
       "cn": null,
-      "ru": "Неправильное использование ядов",
+      "ru": "Принимающий яд",
       "status": "machine",
-      "srcHash": "445b48f0b2ca5ebd",
+      "srcHash": "e92ffc983d59e495",
       "engine": "yandex",
-      "updatedAt": "2026-09-03T20:23:12.702Z",
-      "judgeHash": "13a8201d8c77bf6a"
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "c13ab574f03b1b33"
     },
     "LK_CharacterMenu_PoisonAccumulator_EatPoisonedItem_DurGt0": {
       "en": "服食毒物",
@@ -131737,6 +132366,615 @@
       "updatedAt": "2026-09-03T20:23:12.702Z",
       "judgeHash": "c13ab574f03b1b33"
     },
+    "LK_ChickenAttack_Tip_Basic": {
+      "en": "助战效果",
+      "cn": null,
+      "ru": "Эффект боевой помощи",
+      "status": "machine",
+      "srcHash": "f4455e64de3efbb6",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "202ce7e29451061c"
+    },
+    "LK_ChickenAttack_Tip_DisableNotice": {
+      "en": "需要选择元鸡进行协力",
+      "cn": null,
+      "ru": "Нужно выбрать Юаньцзи для сотрудничества",
+      "status": "machine",
+      "srcHash": "3f786b1f631a5938",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "4fa59ed66ca84652"
+    },
+    "LK_ChickenAttack_Tip_Extra": {
+      "en": "特殊组合",
+      "cn": null,
+      "ru": "Особая комбинация",
+      "status": "machine",
+      "srcHash": "f097713c166d917d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "43e80631a4b7592a"
+    },
+    "LK_ChickenAttack_Tip_InfoFromat": {
+      "en": "·{0}\\n  {1}",
+      "cn": null,
+      "ru": "·{0}\\n  {1}",
+      "status": "machine",
+      "srcHash": "d1c3e0420cb058b5",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "9763616bc7f7b61a"
+    },
+    "LK_ChickenAttack_Tip_Title": {
+      "en": "元鸡协力",
+      "cn": null,
+      "ru": "Сотрудничество в Юаньцзи",
+      "status": "machine",
+      "srcHash": "3174432ea6a56d16",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "ab0ab77735ba30c1"
+    },
+    "LK_ChickenCombat_Attack": {
+      "en": "元鸡协力",
+      "cn": null,
+      "ru": "Сотрудничество в Юаньцзи",
+      "status": "machine",
+      "srcHash": "3174432ea6a56d16",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "ab0ab77735ba30c1"
+    },
+    "LK_ChickenCombat_Effect_Desc_Brief_0": {
+      "en": "使己方当前出战角色获得提气、架势，总点数越高，获得的提气与架势就越高",
+      "cn": null,
+      "ru": "Заставьте вашего текущего персонажа набраться сил и осанки. чем больше общее количество очков, тем больше силы и осанки вы получите.",
+      "status": "machine",
+      "srcHash": "bc1a83c97af4893b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "a54a0a5a855f3bb9"
+    },
+    "LK_ChickenCombat_Effect_Desc_Brief_1": {
+      "en": "使己方当前出战角色的随机摧破功法威力增加，持续到该功法施展结束，总点数越高，增加的威力值就越高",
+      "cn": null,
+      "ru": "Увеличивает силу случайной разрушительной техники текущего персонажа, пока не закончится её применение. Чем больше общее количество очков, тем выше прибавка к силе.",
+      "status": "judged",
+      "srcHash": "14d73225c0af05d9",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "0fd7f7913aa8d200"
+    },
+    "LK_ChickenCombat_Effect_Desc_Brief_2": {
+      "en": "对敌人施加所有类型的剧毒，总点数越高，施加的剧毒就越多",
+      "cn": null,
+      "ru": "Применяйте все виды яда к врагу, чем выше общее количество очков, тем больше яда будет применено",
+      "status": "machine",
+      "srcHash": "2f845c9b388f1b3a",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "6c3b20e92d85f8ab"
+    },
+    "LK_ChickenCombat_Effect_Desc_Brief_3": {
+      "en": "使己方当前出战角色立即对敌人造成一次无视距离的兵器攻击，总点数越高，造成的伤害就越高",
+      "cn": null,
+      "ru": "Заставьте вашего текущего персонажа немедленно нанести удар оружием, не обращая внимания на расстояние до противника. Чем больше общее количество очков, тем выше наносимый урон.",
+      "status": "machine",
+      "srcHash": "1d63a27b66cee374",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "a6a9dccd265d164f"
+    },
+    "LK_ChickenCombat_Effect_Desc_Brief_4": {
+      "en": "使己方当前出战角色立即对自己进行一次无消耗的「疗伤」、「驱毒」，总点数越高，进行「疗伤」、「驱毒」时的造诣就越高",
+      "cn": null,
+      "ru": "Текущий персонаж немедленно бесплатно применяет к себе «лечение» и «изгнание яда». Чем больше общее количество очков, тем выше его мастерство при «лечении» и «изгнании яда».",
+      "status": "judged",
+      "srcHash": "b9e2920a59f962bf",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "2843597360f8174c"
+    },
+    "LK_ChickenCombat_Effect_Desc_Brief_5": {
+      "en": "使己方当前出战角色吸取敌人随机类型的真气，总点数越高，吸取的次数就越多",
+      "cn": null,
+      "ru": "Текущий персонаж поглощает случайный тип истинной ци врага. Чем больше общее количество очков, тем больше поглощений.",
+      "status": "judged",
+      "srcHash": "98bc36a0618356c4",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "49b6fbcc2dc16621"
+    },
+    "LK_ChickenCombat_Effect_Desc_Brief_6": {
+      "en": "封禁敌人的1个随机功法，总点数越高，封禁的时长就越长",
+      "cn": null,
+      "ru": "Блокируйте 1 случайную технику противника, чем выше общее количество очков, тем дольше будет действовать бан",
+      "status": "machine",
+      "srcHash": "4ce322bbd6347f44",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "38da520bc382de34"
+    },
+    "LK_ChickenCombat_Effect_Desc_Brief_7": {
+      "en": "使己方当前出战角色获得脚力，总点数越高，获得的脚力就越高",
+      "cn": null,
+      "ru": "Текущий персонаж получает манёвренность. Чем больше общее количество очков, тем выше полученная манёвренность.",
+      "status": "judged",
+      "srcHash": "64cbfa96433e792e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "8a1b60fccd3da788"
+    },
+    "LK_ChickenCombat_Effect_Desc_Detail_0": {
+      "en": "使己方当前出战角色获得{0}%的提气、架势",
+      "cn": null,
+      "ru": "Текущий персонаж получает {0}% воодушевления и стойки.",
+      "status": "judged",
+      "srcHash": "b8ef07086c514e8d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "ad73548bf996c891"
+    },
+    "LK_ChickenCombat_Effect_Desc_Detail_1": {
+      "en": "使己方当前出战角色的随机摧破功法威力增加{0}，持续到该功法施展结束",
+      "cn": null,
+      "ru": "Сила случайной разрушительной техники текущего персонажа увеличивается на {0} и сохраняется до окончания её применения.",
+      "status": "judged",
+      "srcHash": "7023ae1e4fae4408",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "76475a35d6eb7d5d"
+    },
+    "LK_ChickenCombat_Effect_Desc_Detail_2": {
+      "en": "对敌人施加所有类型的{0}点剧毒",
+      "cn": null,
+      "ru": "Накладывает на врага все типы сильного яда в количестве {0}.",
+      "status": "judged",
+      "srcHash": "d9252852a590e989",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "b020ec5cabda6cc4"
+    },
+    "LK_ChickenCombat_Effect_Desc_Detail_3": {
+      "en": "使己方当前出战角色立即对敌人造成一次无视距离的兵器攻击，造成的伤害提高{0}%",
+      "cn": null,
+      "ru": "Текущий персонаж немедленно наносит врагу оружейную атаку вне зависимости от расстояния; урон увеличен на {0}%.",
+      "status": "judged",
+      "srcHash": "623672a6c923c9e7",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "842bddf596699155"
+    },
+    "LK_ChickenCombat_Effect_Desc_Detail_4": {
+      "en": "使己方当前出战角色立即对自己进行一次无消耗的「疗伤」、「驱毒」，进行「疗伤」、「驱毒」时角色的造诣提高{0}%",
+      "cn": null,
+      "ru": "Текущий персонаж немедленно бесплатно применяет к себе «лечение» и «изгнание яда»; мастерство персонажа при их применении увеличивается на {0}%.",
+      "status": "judged",
+      "srcHash": "ce91516a77f3f950",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "1930138e07462d68"
+    },
+    "LK_ChickenCombat_Effect_Desc_Detail_5": {
+      "en": "使己方当前出战角色吸取敌人{0}点随机类型的真气",
+      "cn": null,
+      "ru": "Текущий персонаж поглощает у врага {0} единиц случайного типа истинной ци.",
+      "status": "judged",
+      "srcHash": "0fc276f525c76f96",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "18845d041f35c4c9"
+    },
+    "LK_ChickenCombat_Effect_Desc_Detail_6": {
+      "en": "封禁敌人的1个随机功法，持续时间{0}",
+      "cn": null,
+      "ru": "Запрещает 1 случайную технику врага на время {0}.",
+      "status": "judged",
+      "srcHash": "ae567199401c3eac",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "7bd7a4f2c9ab4383"
+    },
+    "LK_ChickenCombat_Effect_Desc_Detail_7": {
+      "en": "使己方当前出战角色获得{0}%的脚力",
+      "cn": null,
+      "ru": "Текущий персонаж получает {0}% манёвренности.",
+      "status": "judged",
+      "srcHash": "2aa18ae400db0a31",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "3b73d4c2f5f3d0f8"
+    },
+    "LK_ChickenCombat_Effect_Title_0": {
+      "en": "凝神",
+      "cn": null,
+      "ru": "Сосредоточенность",
+      "status": "judged",
+      "srcHash": "355bbfa0cac3b014",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "399210c9b5b99e36"
+    },
+    "LK_ChickenCombat_Effect_Title_1": {
+      "en": "增计",
+      "cn": null,
+      "ru": "Усиление замысла",
+      "status": "judged",
+      "srcHash": "6b255fa9dd91cb2c",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "50ef226af9da506e"
+    },
+    "LK_ChickenCombat_Effect_Title_2": {
+      "en": "灼心",
+      "cn": null,
+      "ru": "Пылающее сердце",
+      "status": "machine",
+      "srcHash": "c6e44ebb6a5c6423",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "f640c98eac7db405"
+    },
+    "LK_ChickenCombat_Effect_Title_3": {
+      "en": "破敌",
+      "cn": null,
+      "ru": "Сокрушить врага",
+      "status": "machine",
+      "srcHash": "27e578fee164ed70",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "7dbe459558f7bbc0"
+    },
+    "LK_ChickenCombat_Effect_Title_4": {
+      "en": "坚忍",
+      "cn": null,
+      "ru": "Стойкость",
+      "status": "judged",
+      "srcHash": "c6cbf7bd7c07ac68",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "d66a68f80a6f3084"
+    },
+    "LK_ChickenCombat_Effect_Title_5": {
+      "en": "授取",
+      "cn": null,
+      "ru": "Дарование",
+      "status": "judged",
+      "srcHash": "e32583c089324a0b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "f3e1a5642b067fbd"
+    },
+    "LK_ChickenCombat_Effect_Title_6": {
+      "en": "非道",
+      "cn": null,
+      "ru": "Отклонение от Дао",
+      "status": "judged",
+      "srcHash": "e47ff0efed8abe2d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "833d3f901a5e5da8"
+    },
+    "LK_ChickenCombat_Effect_Title_7": {
+      "en": "添翼",
+      "cn": null,
+      "ru": "Обрести крылья",
+      "status": "judged",
+      "srcHash": "eee26b717372e4a9",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "65cc75a689a9893f"
+    },
+    "LK_ChickenCombat_Tip_Title": {
+      "en": "元鸡助战",
+      "cn": null,
+      "ru": "Юаньцзи помогает бороться",
+      "status": "machine",
+      "srcHash": "e246aa253df78930",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "ce2baccd8a5346e9"
+    },
+    "LK_ChickenPolymorph_CanPolymorph": {
+      "en": "{0}元鸡之灵正待召唤…",
+      "cn": null,
+      "ru": "{0}Дух Юаньцзи ждет, когда его призовут…",
+      "status": "machine",
+      "srcHash": "b71edfa6c8dd41bb",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "7578a54acca64aa6"
+    },
+    "LK_ChickenPolymorph_Confirm": {
+      "en": "元鸡唤灵",
+      "cn": null,
+      "ru": "Юаньцзи призывает духа",
+      "status": "machine",
+      "srcHash": "c10798827120d51c",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "d62ce468cf16433f"
+    },
+    "LK_ChickenPolymorph_Enter_Tips": {
+      "en": "可聚集众元鸡之力，召唤元鸡之灵…",
+      "cn": null,
+      "ru": "Может собрать силу всех Юаньцзи и вызвать дух Юаньцзи…",
+      "status": "machine",
+      "srcHash": "3080b9ac6a6247db",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "ce2745a546d4df46"
+    },
+    "LK_ChickenPolymorph_HasPolymorphed": {
+      "en": "此灵正现身于世…",
+      "cn": null,
+      "ru": "Этот дух появляется в мире…",
+      "status": "machine",
+      "srcHash": "83116cdec57e0624",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "145151718c3d4ce5"
+    },
+    "LK_ChickenPolymorph_MinimumRequirement": {
+      "en": "{0}元鸡数量",
+      "cn": null,
+      "ru": "Количество Юаньцзи: {0}",
+      "status": "judged",
+      "srcHash": "08f8db7ba37ef988",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "e4887b844d7ab502"
+    },
+    "LK_ChickenPolymorph_NeedMoreChicken": {
+      "en": "具有{0}七元赋性的元鸡数量不足，无法唤出此灵…",
+      "cn": null,
+      "ru": "Недостаточно Юаньцзи с семью свойствами {0}, чтобы призвать этого духа…",
+      "status": "judged",
+      "srcHash": "bee1a42a246062dc",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "22d6e195401bd956"
+    },
+    "LK_ChickenPolymorph_NotHaveChicken": {
+      "en": "此元鸡正居于<color=#yellow>[{0}-{1}-{2}]</color>，可前去收养…",
+      "cn": null,
+      "ru": "Этот Юаньцзи живет в<color=#yellow>[{0}-{1}-{2}]</color>, Может пойти на усыновление…",
+      "status": "machine",
+      "srcHash": "d9478c85269d0019",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "dda8b75a5463612e"
+    },
+    "LK_ChickenPolymorph_Title": {
+      "en": "元鸡唤灵",
+      "cn": null,
+      "ru": "Юаньцзи призывает духа",
+      "status": "machine",
+      "srcHash": "c10798827120d51c",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "d62ce468cf16433f"
+    },
+    "LK_ChickenPolymorph_ToggleGroup_Tips_Content": {
+      "en": "收集具有{0}七元赋性的元鸡，召唤{0}元鸡之灵…\\n当前已有：{1} 只具有{0}七元赋性的元鸡",
+      "cn": null,
+      "ru": "Собирать с помощью{0}Цыпленок юань, наделенный семью юанями, призывает{0}Дух Юаньцзи…\\nВ настоящее время доступно：{1} Только иметь{0}Цыпленок, одаренный семью юанями",
+      "status": "machine",
+      "srcHash": "fd142e5ed10774bd",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z"
+    },
+    "LK_ChickenPolymorph_ToggleGroup_Tips_Title": {
+      "en": "{0}元鸡之灵",
+      "cn": null,
+      "ru": "{0}Дух Юаньцзи",
+      "status": "machine",
+      "srcHash": "ddd5ce468fe8b016",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "802a88bcae3dace7"
+    },
+    "LK_CombatSkill_EquipState_GivenBonus": {
+      "en": "已赋予：{0}",
+      "cn": null,
+      "ru": "Было дано：{0}",
+      "status": "machine",
+      "srcHash": "7c601a8073b6b31e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "a767650453800080"
+    },
+    "LK_CombatSkill_EquipState_NeiliFinish": {
+      "en": "运转完成",
+      "cn": null,
+      "ru": "Циркуляция завершена",
+      "status": "judged",
+      "srcHash": "93b7ca2138ab4644",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "5dc88eeb78530bf9"
+    },
+    "LK_CombatSkill_EquipState_Preset": {
+      "en": "预设中",
+      "cn": null,
+      "ru": "Предустановка",
+      "status": "machine",
+      "srcHash": "cd2f1f4328afda63",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "3337f29b17965820"
+    },
+    "LK_CombatSkill_EquipState_Preset_Tips": {
+      "en": "该功法已在预设中……",
+      "cn": null,
+      "ru": "Этот метод уже есть в предустановке……",
+      "status": "machine",
+      "srcHash": "8aebc4cc4fc6fe30",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "f74dfdb6a64f22b1"
+    },
+    "LK_CombatSkill_EquipState_Running": {
+      "en": "已运转",
+      "cn": null,
+      "ru": "Запущено",
+      "status": "judged",
+      "srcHash": "407998ea5440a63f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "2a5fb9cc7d48423a"
+    },
+    "LK_CombatSkill_EquipState_Running_Tips": {
+      "en": "该功法已运起……",
+      "cn": null,
+      "ru": "Эта техника уже запущена…",
+      "status": "judged",
+      "srcHash": "f68813bc123d052b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "b596026f224b1c79"
+    },
+    "LK_Combat_TeammateCommandBanReason_AddChickenPointNotAllowed": {
+      "en": "未开启元鸡出战功能…",
+      "cn": null,
+      "ru": "Функция Юаньцзи сражаться не включена…",
+      "status": "machine",
+      "srcHash": "c292bbcbb18fdb54",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "320654996eaccbb5"
+    },
+    "LK_Combat_TeammateCommandBanReason_GotoTargetDistanceNoTarget": {
+      "en": "未设置目标距离…",
+      "cn": null,
+      "ru": "Дистанция до цели не установлена…",
+      "status": "machine",
+      "srcHash": "55ed7d00fbe97cc1",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "8256052c6979d66f"
+    },
+    "LK_CommonSortAndFilter_Filter_Item_Lock": {
+      "en": "锁定状态",
+      "cn": null,
+      "ru": "Заблокированное состояние",
+      "status": "machine",
+      "srcHash": "31c5e1f2c08c62d6",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "e54f1a136d68aa57"
+    },
+    "LK_CommonSortAndFilter_Filter_Item_Lock_0": {
+      "en": "锁定",
+      "cn": null,
+      "ru": "блокировка",
+      "status": "machine",
+      "srcHash": "c8e95d589b631467",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "4d8c3afd6e587071"
+    },
+    "LK_CommonSortAndFilter_Filter_Item_Lock_1": {
+      "en": "未锁定",
+      "cn": null,
+      "ru": "Разблокирован",
+      "status": "machine",
+      "srcHash": "7cc4636b05402b31",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "07e1f499705e3050"
+    },
+    "LK_EquipCombatSkill_ScrollGroupTitle_2": {
+      "en": "已收藏",
+      "cn": null,
+      "ru": "Собранный",
+      "status": "machine",
+      "srcHash": "295b40f43ef66a65",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "88b7d593a91ac202"
+    },
+    "LK_Event_Tiandi_Alias": {
+      "en": "白衣之人",
+      "cn": null,
+      "ru": "Человек в белом",
+      "status": "judged",
+      "srcHash": "9dcd843659dab24e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "67f879d5009d894e"
+    },
+    "LK_Exchange_Settlement_Resource_Tips_Desc": {
+      "en": "与不同势力的对象交换物资时，各类资源、银钱的价值会按不同的比例折算…\\n·对方所属势力：{7}\\n·食材价值折算：{0}%\\n·木材价值折算：{1}%\\n·金铁价值折算：{2}%\\n·玉石价值折算：{3}%\\n·织物价值折算：{4}%\\n·药材价值折算：{5}%\\n·银钱价值折算：{6}%",
+      "cn": null,
+      "ru": "При обмене ресурсами с представителями разных сил стоимость различных ресурсов и денег пересчитывается по разным коэффициентам…\\n· Сила, к которой принадлежит собеседник: {7}\\n· Коэффициент стоимости продуктов: {0}%\\n· Коэффициент стоимости древесины: {1}%\\n· Коэффициент стоимости металлов: {2}%\\n· Коэффициент стоимости нефрита: {3}%\\n· Коэффициент стоимости тканей: {4}%\\n· Коэффициент стоимости лекарств: {5}%\\n· Коэффициент стоимости серебра: {6}%",
+      "status": "judged",
+      "srcHash": "faea1a6b07a839a7",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "01106d77fc924c7d"
+    },
+    "LK_Exchange_Settlement_Resource_Tips_Title": {
+      "en": "资源价值变化",
+      "cn": null,
+      "ru": "Изменения в стоимости ресурсов",
+      "status": "machine",
+      "srcHash": "1a579135352b0940",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "388328e764a92d72"
+    },
+    "LK_Feature_Tips_Twelve_Immortal_Be_Suppression": {
+      "en": "<color=#brightblue>邪仙受神剑镇压，已失去效果，不再提供相应的特性影响…</color></color>",
+      "cn": null,
+      "ru": "<color=#brightblue>Злой бессмертный был подавлен божественным мечом, утратил силу и больше не оказывает соответствующего воздействия на особенности…</color></color>",
+      "status": "judged",
+      "srcHash": "399cb7afd5d8b946",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "ee0c8cb091b4a1c7"
+    },
+    "LK_HotKeyGroup_CombatPrepare_Tip": {
+      "en": "启用后，可以在战斗开始前调整运功、装备、服食物品等…",
+      "cn": null,
+      "ru": "После активации вы можете перед началом боя настроить циркуляцию внутренней энергии, снаряжение, принимаемые предметы и т. д.…",
+      "status": "judged",
+      "srcHash": "35b7754eea7c8fc4",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "9b3b128624daf11d"
+    },
+    "LK_ItemSubType_405": {
+      "en": "神龙",
+      "cn": null,
+      "ru": "Божественный дракон",
+      "status": "judged",
+      "srcHash": "39d152f38a56da84",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "2a776926fc2dbf0c"
+    },
+    "LK_ItemTips_Eating_Reduce_Wug_Duration": {
+      "en": "每月使{0}的持续时间减少{1}…",
+      "cn": null,
+      "ru": "Каждый месяц сокращает длительность действия {0} на {1}…",
+      "status": "judged",
+      "srcHash": "3b2c9045ac25201f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "e422c3c4a3af4ec6"
+    },
+    "LK_ItemTips_Property_Monthly": {
+      "en": "每月{0}",
+      "cn": null,
+      "ru": "каждый месяц{0}",
+      "status": "machine",
+      "srcHash": "397c374acddbb688",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "b9af1cd035aa51cc"
+    },
     "LK_Make_Poison_Grade_Not_Meet_Tip": {
       "en": "<color=#brightred>毒性不符…</color>",
       "cn": null,
@@ -131746,6 +132984,496 @@
       "engine": "yandex",
       "updatedAt": "2026-09-03T20:23:12.702Z",
       "judgeHash": "6948ad3cc235e21c"
+    },
+    "LK_MouseTip_MapAreaTip_0": {
+      "en": "此地区中存在以下紫竹化身",
+      "cn": null,
+      "ru": "В этой области существуют следующие аватары из фиолетового бамбука",
+      "status": "machine",
+      "srcHash": "f1c4ac032848271a",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "d9747abd0e9ef595"
+    },
+    "LK_MouseTip_MapAreaTip_1": {
+      "en": "此地区中存在以下故事人物",
+      "cn": null,
+      "ru": "В этой области существуют следующие сюжетные персонажи",
+      "status": "machine",
+      "srcHash": "0381817d92fbcb2c",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "cb50ea17793ea15f"
+    },
+    "LK_MouseTip_MapAreaTip_2": {
+      "en": "此地区中存在以下奇遇",
+      "cn": null,
+      "ru": "В этой области происходят следующие приключения",
+      "status": "machine",
+      "srcHash": "838cd261dddc547a",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "f3cacad0167d9189"
+    },
+    "LK_MouseTip_MapAreaTip_3": {
+      "en": "剩余时间：<SpName=ui_mousetip_month_big>{0}",
+      "cn": null,
+      "ru": "Оставшееся время：<SpName=ui_mousetip_month_big>{0}",
+      "status": "machine",
+      "srcHash": "558c2be10e4dd552",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "945a1152843ec6cc"
+    },
+    "LK_MouseTip_MapBlock_BookConsumed": {
+      "en": "执迷入魔",
+      "cn": null,
+      "ru": "Одержимый",
+      "status": "machine",
+      "srcHash": "06f4fbde9f9907c9",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "d5d41da30a5bb40c"
+    },
+    "LK_Mousetip_AttachAnyPoisonBonus": {
+      "en": "施加所有毒素",
+      "cn": null,
+      "ru": "Нанесите все токсины",
+      "status": "machine",
+      "srcHash": "6aad2bcac8fe51c2",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "cdbc447026f42f7a"
+    },
+    "LK_Mousetip_DetoxAnyPoisonBonus": {
+      "en": "驱除所有毒素",
+      "cn": null,
+      "ru": "Избавьтесь от всех токсинов",
+      "status": "machine",
+      "srcHash": "cb7b2e6428b63eb5",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "7d63d177c54bffcc"
+    },
+    "LK_Mousetip_ImmunityAcupoint": {
+      "en": "免疫封穴",
+      "cn": null,
+      "ru": "Иммунитет к блокированию акупунктурных точек",
+      "status": "judged",
+      "srcHash": "34691c9e9bbb5886",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "4ed32a05bcd48d7f"
+    },
+    "LK_Mousetip_ImmunityDie": {
+      "en": "免疫必死",
+      "cn": null,
+      "ru": "Иммунитет к смертельному удару",
+      "status": "judged",
+      "srcHash": "6527dd34201a5c21",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "2324bcab7e67e1fc"
+    },
+    "LK_Mousetip_ImmunityFatal": {
+      "en": "免疫重创",
+      "cn": null,
+      "ru": "Иммунитет к тяжёлым ранениям",
+      "status": "judged",
+      "srcHash": "a0870500bde3f26e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "33654ad656ac4dc2"
+    },
+    "LK_Mousetip_ImmunityFlaw": {
+      "en": "免疫破绽",
+      "cn": null,
+      "ru": "Иммунитет к уязвимостям",
+      "status": "judged",
+      "srcHash": "fd5b1d1482690ff3",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "36f4682660f9f714"
+    },
+    "LK_Mousetip_ImmunityInnerInjury": {
+      "en": "免疫内伤",
+      "cn": null,
+      "ru": "Невосприимчив к повреждениям внутренних органов",
+      "status": "machine",
+      "srcHash": "5755847f7f797508",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "3134b50c6d9f8da4"
+    },
+    "LK_Mousetip_ImmunityMind": {
+      "en": "免疫失神",
+      "cn": null,
+      "ru": "Иммунитет к потере сознания",
+      "status": "judged",
+      "srcHash": "7b3360ab794f0580",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "32f7f1fdec6f0fb2"
+    },
+    "LK_Mousetip_ImmunityOuterInjury": {
+      "en": "免疫外伤",
+      "cn": null,
+      "ru": "Иммунитет к внешним ранениям",
+      "status": "judged",
+      "srcHash": "e1e8dd1cfea6b116",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "c542a2a05149b1aa"
+    },
+    "LK_Mousetip_ImmunityPoison_Cold": {
+      "en": "免疫寒毒",
+      "cn": null,
+      "ru": "Иммунитет к холодному яду",
+      "status": "judged",
+      "srcHash": "1c2b7e0261ba1308",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "ad79a5f8fa681a4e"
+    },
+    "LK_Mousetip_ImmunityPoison_Gloomy": {
+      "en": "免疫郁毒",
+      "cn": null,
+      "ru": "Иммунитет к мрачному яду",
+      "status": "judged",
+      "srcHash": "18366c8e32f6fbc9",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "b8586f7f40a1c6bb"
+    },
+    "LK_Mousetip_ImmunityPoison_Hot": {
+      "en": "免疫烈毒",
+      "cn": null,
+      "ru": "Иммунитет к лютому яду",
+      "status": "judged",
+      "srcHash": "c4ab5ff7a3fb8542",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "5683504f00163424"
+    },
+    "LK_Mousetip_ImmunityPoison_Illusory": {
+      "en": "免疫幻毒",
+      "cn": null,
+      "ru": "Иммунитет к фантомному яду",
+      "status": "judged",
+      "srcHash": "a507336a06bc1672",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "142e18b56f48bfd4"
+    },
+    "LK_Mousetip_ImmunityPoison_Red": {
+      "en": "免疫赤毒",
+      "cn": null,
+      "ru": "Иммунитет к красному яду",
+      "status": "judged",
+      "srcHash": "4eb5d53ab30bf8dd",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "a95b9ef028d72cd6"
+    },
+    "LK_Mousetip_ImmunityPoison_Rotten": {
+      "en": "免疫腐毒",
+      "cn": null,
+      "ru": "Иммунитет к гнилостному яду",
+      "status": "judged",
+      "srcHash": "b008fa83dadecf97",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "23f30bd8c8abb61d"
+    },
+    "LK_Mousetip_TrickType_SpecialTrick": {
+      "en": "因某些效果而产生的特殊蓄式…",
+      "cn": null,
+      "ru": "Особый накапливаемый приём, возникающий из-за определённых эффектов…",
+      "status": "judged",
+      "srcHash": "3a2ac90f409a7396",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "3f871dbda58b60a6"
+    },
+    "LK_Player_ErrorReport": {
+      "en": "故障反馈",
+      "cn": null,
+      "ru": "Обратная связь по неисправностям",
+      "status": "machine",
+      "srcHash": "877fe90c0e5137b6",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "02e804834cdafe9b"
+    },
+    "LK_Player_ErrorReport_Export": {
+      "en": "导出设置",
+      "cn": null,
+      "ru": "Параметры экспорта",
+      "status": "machine",
+      "srcHash": "17a58c08576f7a52",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "2f2881a80c7d2e40"
+    },
+    "LK_Player_ErrorReport_Export_Btn": {
+      "en": "导出存档信息",
+      "cn": null,
+      "ru": "Экспорт архивной информации",
+      "status": "machine",
+      "srcHash": "785a5c59b0550b8f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "f1206e5cccff69db"
+    },
+    "LK_Player_ErrorReport_Export_Bug": {
+      "en": "Bug提交流程：",
+      "cn": null,
+      "ru": "Процесс отправки сообщений об ошибках：",
+      "status": "machine",
+      "srcHash": "f9bca0f9fe335874",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "03352cb6314df1f7"
+    },
+    "LK_Player_ErrorReport_Export_Bug_Desc": {
+      "en": "1.导出存档信息文件\\n2.点击【故障反馈】跳转至螺舟官网→提交问题→提交BUG\\n3.填写故障描述，并上传存档信息文件",
+      "cn": null,
+      "ru": "1. Экспортируйте файл с информацией о сохранении\\n2. Нажмите [Отзыв о неисправности], чтобы перейти на официальный сайт Лочжоу → отправить вопрос → отправить сообщение об ошибке\\n3. Заполните описание неисправности и загрузите файл с информацией о сохранении",
+      "status": "judged",
+      "srcHash": "39f525ef814d9260",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "9095e5d448921b6d"
+    },
+    "LK_Player_ErrorReport_Export_Desc": {
+      "en": "Bug提交流程：\\n1.导出存档信息文件\\n2.点击【故障反馈】跳转至螺舟官网→提交问题→提交BUG\\n3.填写故障描述，并上传存档信息文件",
+      "cn": null,
+      "ru": "Процесс отправки сообщений об ошибках:\\n1. Экспортируйте файл с информацией о сохранении\\n2. Нажмите [Отзыв о неисправности], чтобы перейти на официальный сайт Лочжоу → отправить вопрос → отправить сообщение об ошибке\\n3. Заполните описание неисправности и загрузите файл с информацией о сохранении",
+      "status": "judged",
+      "srcHash": "20166bb67d3d27ca",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "9c5009760fb9bfda"
+    },
+    "LK_Player_ErrorReport_Export_Dir": {
+      "en": "记录文件导出位置",
+      "cn": null,
+      "ru": "Место экспорта файла записи",
+      "status": "machine",
+      "srcHash": "10d04dc0294ee8e0",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "919c2198774deea4"
+    },
+    "LK_Player_ErrorReport_Export_Dir_Open": {
+      "en": "打开文件夹",
+      "cn": null,
+      "ru": "Открыть папку",
+      "status": "machine",
+      "srcHash": "f2a2de0e84df5476",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "df9a2587459ab8aa"
+    },
+    "LK_Player_ErrorReport_Export_Folder_Btn": {
+      "en": "打开文件夹",
+      "cn": null,
+      "ru": "Открыть папку",
+      "status": "machine",
+      "srcHash": "f2a2de0e84df5476",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "df9a2587459ab8aa"
+    },
+    "LK_Player_ErrorReport_Export_Folder_Tips": {
+      "en": "打开导出路径的目标文件夹…",
+      "cn": null,
+      "ru": "Откройте папку назначения, указанную в пути экспорта…",
+      "status": "machine",
+      "srcHash": "71faf9a3fbd43f56",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "7bec8390eb524b2a"
+    },
+    "LK_Player_ErrorReport_Export_OnProgress0": {
+      "en": "正在导出…",
+      "cn": null,
+      "ru": "Выполняется экспорт…",
+      "status": "judged",
+      "srcHash": "2bf5404924095c8f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "90ce869ce86af0f4"
+    },
+    "LK_Player_ErrorReport_Export_OnProgress1": {
+      "en": "正在导出……",
+      "cn": null,
+      "ru": "Экспорт выполняется……",
+      "status": "judged",
+      "srcHash": "511e47c25275994d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "f79286417364ff82"
+    },
+    "LK_Player_ErrorReport_Export_OnProgress_Done": {
+      "en": "导出完成！",
+      "cn": null,
+      "ru": "Экспорт завершен!",
+      "status": "machine",
+      "srcHash": "ef0df9a62e8c7c1e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "bbc0f2fe61b8125a"
+    },
+    "LK_Player_ErrorReport_Export_Record": {
+      "en": "记录文件导出位置",
+      "cn": null,
+      "ru": "Место экспорта файла записи",
+      "status": "machine",
+      "srcHash": "10d04dc0294ee8e0",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "919c2198774deea4"
+    },
+    "LK_Player_ErrorReport_Export_Tips": {
+      "en": "将存档信息导出为压缩包文件…",
+      "cn": null,
+      "ru": "Экспорт сведений о сохранении в архив…",
+      "status": "judged",
+      "srcHash": "68ca770e34deab09",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "48a7db733023b783"
+    },
+    "LK_Player_ErrorReport_Export_Url": {
+      "en": "故障反馈",
+      "cn": null,
+      "ru": "Обратная связь по неисправностям",
+      "status": "machine",
+      "srcHash": "877fe90c0e5137b6",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "02e804834cdafe9b"
+    },
+    "LK_ProfessionSkill_TaiwuAsXiangshu_Skill0_EvilAct": {
+      "en": "作恶行为",
+      "cn": null,
+      "ru": "Дурное поведение",
+      "status": "machine",
+      "srcHash": "6fb32baa86627528",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "f77b15d623afc170"
+    },
+    "LK_ProfessionSkill_TaiwuAsXiangshu_Skill0_EvilAct_Attack": {
+      "en": "袭击了{0}",
+      "cn": null,
+      "ru": "Атаковал {0}",
+      "status": "judged",
+      "srcHash": "ec6ba8248ea479fb",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "b6334a2e3c61b198"
+    },
+    "LK_ProfessionSkill_TaiwuAsXiangshu_Skill0_EvilAct_PlotHarm": {
+      "en": "损伤了{0}",
+      "cn": null,
+      "ru": "Нанёс урон {0}",
+      "status": "judged",
+      "srcHash": "ba8287a77ff50cc2",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "ca34307e2f447e5c"
+    },
+    "LK_ProfessionSkill_TaiwuAsXiangshu_Skill0_EvilAct_Poison": {
+      "en": "毒害了{0}",
+      "cn": null,
+      "ru": "Отравил {0}",
+      "status": "judged",
+      "srcHash": "aad001fa4968904d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "fb29cbd31b5e8e74"
+    },
+    "LK_ProfessionSkill_TaiwuAsXiangshu_Skill0_EvilAct_Rape": {
+      "en": "欺侮了{0}",
+      "cn": null,
+      "ru": "Оскорбил {0}",
+      "status": "judged",
+      "srcHash": "21f0902284fb1011",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "1a4afa2f6f4b32bb"
+    },
+    "LK_Profession_XiangshuSkill1_HappinessChange": {
+      "en": "减少心情值",
+      "cn": null,
+      "ru": "Снизить уровень настроения",
+      "status": "machine",
+      "srcHash": "dc5927f4b1b40bdb",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "fd3fb08f72c6e708"
+    },
+    "LK_Profession_XiangshuSkill1_InfectionChange": {
+      "en": "增加入邪值",
+      "cn": null,
+      "ru": "Увеличивает показатель впадания во зло",
+      "status": "judged",
+      "srcHash": "6d21f6cbfe19c35b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "1cb7903484d2916c"
+    },
+    "LK_Profession_XiangshuSkill2_MinionCount": {
+      "en": "召集爪牙数量",
+      "cn": null,
+      "ru": "Количество вызванных миньонов",
+      "status": "machine",
+      "srcHash": "c7de93dee4cfb90e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "4698c470010f63c5"
+    },
+    "LK_Profession_XiangshuSkill2_MinionType": {
+      "en": "召集爪牙类型",
+      "cn": null,
+      "ru": "Тип призываемого миньона",
+      "status": "machine",
+      "srcHash": "b682d195966fd0eb",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "48573443969ff7ae"
+    },
+    "LK_Profession_XiangshuSkill3_Effect1": {
+      "en": "「化相」：在一段时间内代替主战者进行战斗",
+      "cn": null,
+      "ru": "«Превращение облика»: в течение некоторого времени сражается вместо основного бойца",
+      "status": "judged",
+      "srcHash": "dab0be415b82ff85",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "491f4a57e2d9cb04"
+    },
+    "LK_Profession_XiangshuSkill3_Effect2": {
+      "en": "「玄狱」：以50%概率分别封禁敌人随机最多9个功法",
+      "cn": null,
+      "ru": "«Тюрьма Сюань»: с вероятностью 50% блокирует у каждого врага до 9 случайных техник",
+      "status": "judged",
+      "srcHash": "fda791fd240ca831",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "e65a270a955f4e2a"
+    },
+    "LK_Profession_XiangshuSkill3_Effect3": {
+      "en": "「自在」：使主战者立即移动至设置的目标距离",
+      "cn": null,
+      "ru": "«Свобода»: немедленно перемещает основного бойца на заданное расстояние от цели",
+      "status": "judged",
+      "srcHash": "3c002ce3c86c2954",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "1dda223f3c107a0a"
     },
     "LK_Resource_Choosy_Input": {
       "en": "输入数量…",
@@ -131757,6 +133485,586 @@
       "updatedAt": "2026-07-25T08:36:57.749Z",
       "judgeHash": "2161e98397147c2b"
     },
+    "LK_SelectCombatChicken_BasicEffect_0_0": {
+      "en": "<color=#lowwarning>一元独盛</color>",
+      "cn": null,
+      "ru": "<color=#lowwarning>Один Юань Душэн</color>",
+      "status": "machine",
+      "srcHash": "0045137c694c469f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "4ae6b63e8c3e8d06"
+    },
+    "LK_SelectCombatChicken_BasicEffect_0_1": {
+      "en": "相同类型的元鸡标记至少3个",
+      "cn": null,
+      "ru": "Не менее 3 марок в юанях одного типа",
+      "status": "machine",
+      "srcHash": "849a2f8c3efbd49b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "06196980ce918fdc"
+    },
+    "LK_SelectCombatChicken_BasicEffect_0_2": {
+      "en": "<color=#brightblue>立即获得1个元鸡标记，并将其类型转变为本次触发“一元独盛”的类型</color>",
+      "cn": null,
+      "ru": "<color=#brightblue>Немедленно получает 1 метку Юаньцзи и меняет её тип на тип, вызвавший срабатывание «Одно начало — единственное процветание»</color>",
+      "status": "judged",
+      "srcHash": "e10fc172faa89eb4",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "1a8253ed0b85cb55"
+    },
+    "LK_SelectCombatChicken_BasicEffect_1_0": {
+      "en": "<color=#lowwarning>二元合通</color>",
+      "cn": null,
+      "ru": "<color=#lowwarning>Соединение двух начал</color>",
+      "status": "judged",
+      "srcHash": "04111deeca6327b4",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "cce18c4a850aa490"
+    },
+    "LK_SelectCombatChicken_BasicEffect_1_1": {
+      "en": "2种不同类型的元鸡标记各2个",
+      "cn": null,
+      "ru": "2 различных типа знаков Юаньцзи, по 2 штуки в каждом",
+      "status": "machine",
+      "srcHash": "c02ec512074c9f4a",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "87e4843232a44a63"
+    },
+    "LK_SelectCombatChicken_BasicEffect_1_2": {
+      "en": "<color=#brightblue>将其余所有元鸡标记随机转变为同一类型</color>",
+      "cn": null,
+      "ru": "<color=#brightblue>Случайным образом превращает все остальные метки Юаньцзи в один и тот же тип</color>",
+      "status": "judged",
+      "srcHash": "c6d598efff9d7005",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "f3ff933c75b25018"
+    },
+    "LK_SelectCombatChicken_BasicEffect_2_0": {
+      "en": "<color=#lowwarning>三元归一</color>",
+      "cn": null,
+      "ru": "<color=#lowwarning>Три начала возвращаются к единству</color>",
+      "status": "judged",
+      "srcHash": "2ce446ae06fa7625",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "e3e2f918701ad1c4"
+    },
+    "LK_SelectCombatChicken_BasicEffect_2_1": {
+      "en": "3种不同类型的元鸡标记各1个",
+      "cn": null,
+      "ru": "3 различных типа знаков Юаньцзи, по 1 на каждый",
+      "status": "machine",
+      "srcHash": "79363bb640dcbf60",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "03b19eb1e7e95e96"
+    },
+    "LK_SelectCombatChicken_BasicEffect_2_2": {
+      "en": "<color=#brightblue>其余所有元鸡标记的点数变为1</color>",
+      "cn": null,
+      "ru": "<color=#brightblue>Количество баллов по всем оставшимся отметкам Юаньцзи становится равным 1</color>",
+      "status": "machine",
+      "srcHash": "55009fbe5ffc5663",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "ce99c594988ad758"
+    },
+    "LK_SelectCombatChicken_BasicEffect_3_0": {
+      "en": "<color=#lowwarning>四元升腾</color>",
+      "cn": null,
+      "ru": "<color=#lowwarning>Четвертичное вознесение</color>",
+      "status": "machine",
+      "srcHash": "60b0b7aba2cbbfcd",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "26c24590de818edb"
+    },
+    "LK_SelectCombatChicken_BasicEffect_3_1": {
+      "en": "4种不同类型的元鸡标记各1个",
+      "cn": null,
+      "ru": "4 различных типа знаков Юаньцзи, по 1 на каждый",
+      "status": "machine",
+      "srcHash": "c595b304c727861e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "8847724447eff949"
+    },
+    "LK_SelectCombatChicken_BasicEffect_3_2": {
+      "en": "<color=#brightblue>其余所有元鸡标记的点数变为9</color>",
+      "cn": null,
+      "ru": "<color=#brightblue>Количество баллов по всем оставшимся отметкам Юаньцзи становится равным 9</color>",
+      "status": "machine",
+      "srcHash": "cff808624e030a80",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "43360ba76b888fd3"
+    },
+    "LK_SelectCombatChicken_BasicEffect_4_0": {
+      "en": "<color=#lowwarning>五元还真</color>",
+      "cn": null,
+      "ru": "<color=#lowwarning>Пять начал возвращаются к истинному</color>",
+      "status": "judged",
+      "srcHash": "9404b9669d564c9a",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "aa5e564cc638e9e0"
+    },
+    "LK_SelectCombatChicken_BasicEffect_4_1": {
+      "en": "5种不同类型的元鸡标记各1个",
+      "cn": null,
+      "ru": "5 различных типов знаков Юаньцзи, по 1 на каждый",
+      "status": "machine",
+      "srcHash": "f6b96bfe255462b1",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "a3a027443070ae22"
+    },
+    "LK_SelectCombatChicken_BasicEffect_4_2": {
+      "en": "<color=#brightblue>清除剩余的元鸡标记，然后获得3个元鸡标记</color>",
+      "cn": null,
+      "ru": "<color=#brightblue>Очистите оставшиеся отметки в юаньцзи, а затем получите 3 отметки в юаньцзи</color>",
+      "status": "machine",
+      "srcHash": "f43d60f10fe66fc9",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "c537e37f9b9359d7"
+    },
+    "LK_SelectCombatChicken_BasicEffect_5_0": {
+      "en": "<color=#lowwarning>六元抱虚</color>",
+      "cn": null,
+      "ru": "<color=#lowwarning>Шесть начал объемлют пустоту</color>",
+      "status": "judged",
+      "srcHash": "4e1a77d6327a2613",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "3fd3a2de454c47e7"
+    },
+    "LK_SelectCombatChicken_BasicEffect_5_1": {
+      "en": "6种不同类型的元鸡标记各1个",
+      "cn": null,
+      "ru": "6 различных типов знаков Юаньцзи, по 1 на каждый",
+      "status": "machine",
+      "srcHash": "70847ed443aa3b5b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "8a75b051a3825cd2"
+    },
+    "LK_SelectCombatChicken_BasicEffect_5_2": {
+      "en": "<color=#brightblue>自动触发剩余的元鸡标记，此标记的点数视为100</color>",
+      "cn": null,
+      "ru": "<color=#brightblue>Автоматически срабатывает оставшаяся отметка \"Цыпленок в юанях\", и количество баллов по этой отметке считается равным 100</color>",
+      "status": "machine",
+      "srcHash": "ec97905a5b986695",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "159705c759e8d929"
+    },
+    "LK_SelectCombatChicken_BasicEffect_6_0": {
+      "en": "<color=#lowwarning>七元炽盛</color>",
+      "cn": null,
+      "ru": "<color=#lowwarning>Семь юаней Чишэна</color>",
+      "status": "machine",
+      "srcHash": "b8f16d8a1ab258b2",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "f6579f59faae05ef"
+    },
+    "LK_SelectCombatChicken_BasicEffect_6_1": {
+      "en": "7种不同类型的元鸡标记各1个",
+      "cn": null,
+      "ru": "7 различных типов знаков Юаньцзи, по 1 на каждый",
+      "status": "machine",
+      "srcHash": "0b94c6f03a09590d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "8cdfc6f6d59defc3"
+    },
+    "LK_SelectCombatChicken_BasicEffect_6_2": {
+      "en": "<color=#brightblue>立即获得7个元鸡标记</color>",
+      "cn": null,
+      "ru": "<color=#brightblue>Немедленно получает 7 меток Юаньцзи</color>",
+      "status": "judged",
+      "srcHash": "0d8589b03380ff65",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "b8aa8bc44414517b"
+    },
+    "LK_SelectCombatChicken_ChickenCount": {
+      "en": "数量:{0}",
+      "cn": null,
+      "ru": "количество:{0}",
+      "status": "machine",
+      "srcHash": "20bcd03718220324",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "55427416bec091de"
+    },
+    "LK_SelectCombatChicken_ClearCombatChickenPreset_Notice": {
+      "en": "是否要清空当前「元鸡助战预设」?该操作无法复原!",
+      "cn": null,
+      "ru": "Вы хотите удалить текущую настройку «Помощь Юаньцзи»? Это действие нельзя отменить!",
+      "status": "judged",
+      "srcHash": "428ac19fd4346a3b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "4f65e59f32a673e1"
+    },
+    "LK_SelectCombatChicken_CombatChickenCount": {
+      "en": "已选元鸡({0})",
+      "cn": null,
+      "ru": "Выбранный Юаньцзи ({0})",
+      "status": "machine",
+      "srcHash": "f6d3dbecfdfdae27",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "1c28b4aade25f5f2"
+    },
+    "LK_SelectCombatChicken_CombatSetting": {
+      "en": "出战设置",
+      "cn": null,
+      "ru": "Настройки боя",
+      "status": "machine",
+      "srcHash": "3d23ea6d0ed77b39",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "ff2ad149161a8d60"
+    },
+    "LK_SelectCombatChicken_DeleteCombatChickenPreset_Notice": {
+      "en": "是否要删除当前「元鸡助战预设」?该操作无法复原!",
+      "cn": null,
+      "ru": "Вы хотите удалить текущую настройку «Помощь Юаньцзи»? Это действие нельзя отменить!",
+      "status": "judged",
+      "srcHash": "ede9c410795a2b37",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "4f88a0c1d29961f5"
+    },
+    "LK_SelectCombatChicken_DisableCombatChicken": {
+      "en": "<SpName=sp_tishi_12><color=#lowwarning>未启用元鸡助战功能</color>",
+      "cn": null,
+      "ru": "<SpName=sp_tishi_12><color=#lowwarning>Функция помощи в бою с Юаньцзи не включена</color>",
+      "status": "machine",
+      "srcHash": "db6aae9fe85fc50e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "8b88037d3e0eeaf3"
+    },
+    "LK_SelectCombatChicken_EffectInfoFromat": {
+      "en": "{0}\\n·{1}\\n  {2}",
+      "cn": null,
+      "ru": "{0}\\n·{1}\\n  {2}",
+      "status": "machine",
+      "srcHash": "404437d8fb81c111",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "6418d60d5481b757"
+    },
+    "LK_SelectCombatChicken_EnableCombatChicken": {
+      "en": "已启用元鸡助战功能",
+      "cn": null,
+      "ru": "Включена функция помощи в битве при Юаньцзи",
+      "status": "machine",
+      "srcHash": "39816da376b20480",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "f9ece5de23ac6a18"
+    },
+    "LK_SelectCombatChicken_Enter": {
+      "en": "元鸡助战",
+      "cn": null,
+      "ru": "Юаньцзи помогает бороться",
+      "status": "machine",
+      "srcHash": "e246aa253df78930",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "ce2baccd8a5346e9"
+    },
+    "LK_SelectCombatChicken_ExtraEffect_0_0": {
+      "en": "<color=#lowwarning>一元复始</color>",
+      "cn": null,
+      "ru": "<color=#lowwarning>Начало нового цикла</color>",
+      "status": "judged",
+      "srcHash": "3a5a796cf7f5c04f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "6f1bf99733a6ad4b"
+    },
+    "LK_SelectCombatChicken_ExtraEffect_0_1": {
+      "en": "点数为1的元鸡标记至少4个",
+      "cn": null,
+      "ru": "Минимум 4 метки Юаньцзи со значением 1",
+      "status": "judged",
+      "srcHash": "1d2bcb2406078363",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "368c0eb7ddb3ade3"
+    },
+    "LK_SelectCombatChicken_ExtraEffect_0_2": {
+      "en": "<color=#brightblue>计算本次元鸡助战效果时，所有的1点视为9点</color>",
+      "cn": null,
+      "ru": "<color=#brightblue>При расчёте эффекта помощи Юаньцзи в бою все значения 1 считаются равными 9</color>",
+      "status": "judged",
+      "srcHash": "3b537494c5866182",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "0968298e5afb8205"
+    },
+    "LK_SelectCombatChicken_ExtraEffect_1_0": {
+      "en": "<color=#lowwarning>连星合力</color>",
+      "cn": null,
+      "ru": "<color=#lowwarning>Соединение звёзд</color>",
+      "status": "judged",
+      "srcHash": "e444eb6f753d9e45",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "064e4b93b03a35dd"
+    },
+    "LK_SelectCombatChicken_ExtraEffect_1_1": {
+      "en": "点数相同且不为1或9的元鸡标记至少4个",
+      "cn": null,
+      "ru": "Минимум 4 метки Юаньцзи с одинаковым значением, кроме 1 и 9",
+      "status": "judged",
+      "srcHash": "6cf08a1fd3d4b24c",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "2554f928abf1d418"
+    },
+    "LK_SelectCombatChicken_ExtraEffect_1_2": {
+      "en": "<color=#brightblue>计算本次元鸡助战效果时，所有元鸡标记的点数提高50%</color>",
+      "cn": null,
+      "ru": "<color=#brightblue>При расчёте эффекта помощи Юаньцзи в бою значения всех меток Юаньцзи увеличиваются на 50%</color>",
+      "status": "judged",
+      "srcHash": "000e083be99190df",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "b8438d2331c30808"
+    },
+    "LK_SelectCombatChicken_ExtraEffect_2_0": {
+      "en": "<color=#lowwarning>九九归一</color>",
+      "cn": null,
+      "ru": "<color=#lowwarning>Девять девяток возвращаются к единице</color>",
+      "status": "judged",
+      "srcHash": "f4e388a86c501ec7",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "1118dadb7a8a222b"
+    },
+    "LK_SelectCombatChicken_ExtraEffect_2_1": {
+      "en": "点数为9的元鸡标记至少4个",
+      "cn": null,
+      "ru": "Минимум 4 метки Юаньцзи со значением 9",
+      "status": "judged",
+      "srcHash": "c6044339a575ed4d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "5cdad4b2c0ee41ed"
+    },
+    "LK_SelectCombatChicken_ExtraEffect_2_2": {
+      "en": "<color=#brightblue>计算本次元鸡助战效果时，所有元鸡标记的点数视为9</color>",
+      "cn": null,
+      "ru": "<color=#brightblue>При расчёте эффекта помощи Юаньцзи в бою значения всех меток Юаньцзи считаются равными 9</color>",
+      "status": "judged",
+      "srcHash": "14b556cee2b019d6",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "f44063b669fef40b"
+    },
+    "LK_SelectCombatChicken_ExtraEffect_3_0": {
+      "en": "<color=#lowwarning>节节高升</color>",
+      "cn": null,
+      "ru": "<color=#lowwarning>Растет день ото дня</color>",
+      "status": "machine",
+      "srcHash": "7616e91461815ec1",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "7e613f61af9823e7"
+    },
+    "LK_SelectCombatChicken_ExtraEffect_3_1": {
+      "en": "点数连续的元鸡标记至少5个",
+      "cn": null,
+      "ru": "Минимум 5 меток Юаньцзи с последовательными значениями",
+      "status": "judged",
+      "srcHash": "799fc9445af97466",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "82223fa81a9d2597"
+    },
+    "LK_SelectCombatChicken_ExtraEffect_3_2": {
+      "en": "<color=#brightblue>计算本次元鸡助战效果时，所有元鸡标记的点数翻倍</color>",
+      "cn": null,
+      "ru": "<color=#brightblue>При расчёте эффекта помощи Юаньцзи в бою значения всех меток Юаньцзи удваиваются</color>",
+      "status": "judged",
+      "srcHash": "4997d78ba62f831a",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "bdaed404992963c4"
+    },
+    "LK_SelectCombatChicken_OtherChicken": {
+      "en": "杂号将军",
+      "cn": null,
+      "ru": "Генерал смешанных знаков",
+      "status": "judged",
+      "srcHash": "2173b2825b945d39",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "6d704d2bf04f0a1f"
+    },
+    "LK_SelectCombatChicken_PlanAppend": {
+      "en": "新增一个空白的<color=#pinkyellow>「元鸡助战预设」</color>…",
+      "cn": null,
+      "ru": "Добавить пустой<color=#pinkyellow>«пресет помощи Юаньцзи»</color>…",
+      "status": "judged",
+      "srcHash": "539c012b933d1e98",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "9fb1a1e473aa3767"
+    },
+    "LK_SelectCombatChicken_PlanClear": {
+      "en": "清空当前<color=#pinkyellow>「元鸡助战预设」</color>中选择的所有「元鸡」…",
+      "cn": null,
+      "ru": "Очистить все выбранные в текущем<color=#pinkyellow>«пресете помощи Юаньцзи»</color>метки «Юаньцзи»…",
+      "status": "judged",
+      "srcHash": "2f8fcaee5d4ad702",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "80687be0b83626d1"
+    },
+    "LK_SelectCombatChicken_PlanCopy": {
+      "en": "将当前<color=#pinkyellow>「元鸡助战预设」</color>复制到新的<color=#pinkyellow>「元鸡助战预设」</color>…",
+      "cn": null,
+      "ru": "Скопировать текущий<color=#pinkyellow>«пресет помощи Юаньцзи»</color> в новый<color=#pinkyellow>«пресет помощи Юаньцзи»</color>…",
+      "status": "judged",
+      "srcHash": "adaceb202949f874",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "46acc6748a23fe02"
+    },
+    "LK_SelectCombatChicken_PlanDelete": {
+      "en": "删除当前<color=#pinkyellow>「元鸡助战预设」</color>…<color=#darkred>（该操作无法复原…）</color>",
+      "cn": null,
+      "ru": "Удалить текущий<color=#pinkyellow>«пресет помощи Юаньцзи»</color>…<color=#darkred>（Это действие нельзя отменить…）</color>",
+      "status": "judged",
+      "srcHash": "d359311f7d57a9d3",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "e76d4ef62921016f"
+    },
+    "LK_SelectCombatChicken_PlanDelete_Last": {
+      "en": "<color=#brightred>无法删除初始预设…</color>",
+      "cn": null,
+      "ru": "<color=#brightred>Не удается удалить исходную настройку…</color>",
+      "status": "machine",
+      "srcHash": "e0b3483c9a7a78ba",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "6c4a68612c1a3687"
+    },
+    "LK_SelectCombatChicken_PlanLimitMax": {
+      "en": "「元鸡助战预设」已达上限…",
+      "cn": null,
+      "ru": "\"Предустановка для помощи Юаньцзи в битве\" достигла верхнего предела…",
+      "status": "machine",
+      "srcHash": "526ab850c023267f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "6cbe586be67ecd39"
+    },
+    "LK_SelectCombatChicken_QuickJoinCombat": {
+      "en": "快速出战",
+      "cn": null,
+      "ru": "Быстро вступить в бой",
+      "status": "judged",
+      "srcHash": "94268a1277ec3fda",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "d18b73e16ec7a8de"
+    },
+    "LK_SelectCombatChicken_SelectCombatChicken": {
+      "en": "指派助战的元鸡",
+      "cn": null,
+      "ru": "Назначить Юаньцзи для помощи в бою",
+      "status": "judged",
+      "srcHash": "c7879fbe578d7b12",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "17158398740487d2"
+    },
+    "LK_SelectCombatChicken_SelectCombatChicken_Tip": {
+      "en": "指派助战的元鸡…",
+      "cn": null,
+      "ru": "Назначить Юаньцзи для помощи в бою…",
+      "status": "judged",
+      "srcHash": "8465c6770beea2a7",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "96b585fb7d6a30c7"
+    },
+    "LK_SelectCombatChicken_Selected": {
+      "en": "已选元鸡",
+      "cn": null,
+      "ru": "Выбранный Юаньцзи",
+      "status": "machine",
+      "srcHash": "8a634e111476f83f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "d9dbbb8f74da74f6"
+    },
+    "LK_SelectCombatChicken_SelectedCount": {
+      "en": "已选元鸡：{0}",
+      "cn": null,
+      "ru": "Выбранный Юаньцзи：{0}",
+      "status": "machine",
+      "srcHash": "8e94de2758879d19",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "ecc1e9898d4bf016"
+    },
+    "LK_SelectCombatChicken_SpecialEffect": {
+      "en": "特殊组合",
+      "cn": null,
+      "ru": "Особая комбинация",
+      "status": "machine",
+      "srcHash": "f097713c166d917d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "43e80631a4b7592a"
+    },
+    "LK_SelectCombatChicken_Title": {
+      "en": "元鸡助战",
+      "cn": null,
+      "ru": "Юаньцзи помогает бороться",
+      "status": "machine",
+      "srcHash": "e246aa253df78930",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "ce2baccd8a5346e9"
+    },
+    "LK_SelectCombatChicken_TotalCombatInfo": {
+      "en": "助战总览",
+      "cn": null,
+      "ru": "Обзор военной помощи",
+      "status": "machine",
+      "srcHash": "b91cae58744da4b1",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "ca9c5bc8d3e1dc41"
+    },
+    "LK_SelectCombatChicken_TypeOther": {
+      "en": "杂号",
+      "cn": null,
+      "ru": "Прочее",
+      "status": "judged",
+      "srcHash": "90860de75ce3f133",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "582e492d84275796"
+    },
     "LK_Settings_QuickAccess_Desc": {
       "en": "自定义设置主界面的功能快捷入口…",
       "cn": null,
@@ -131766,6 +134074,466 @@
       "engine": "yandex",
       "updatedAt": "2026-07-25T08:36:57.749Z",
       "judgeHash": "e893659c470b72e9"
+    },
+    "LK_Shop_ExtraGoods_Solar_Tip": {
+      "en": "此货物为{0}节气额外商品",
+      "cn": null,
+      "ru": "Этот товар является дополнительным товаром сезона {0}",
+      "status": "judged",
+      "srcHash": "440ecb373fda9882",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "8c8e22984e291865"
+    },
+    "LK_SoulPiece_Tip_Feature_Title_0": {
+      "en": "以下特性将会保留",
+      "cn": null,
+      "ru": "Следующие функции будут сохранены",
+      "status": "machine",
+      "srcHash": "6768de92f7d745a5",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "21fab94ac7c95a60"
+    },
+    "LK_SoulPiece_Tip_Feature_Title_1": {
+      "en": "以下特性不会保留",
+      "cn": null,
+      "ru": "Следующие функции сохранены не будут",
+      "status": "machine",
+      "srcHash": "5faedf84c79d8fa9",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "02935f83ee7faea0"
+    },
+    "LK_SystemSetting_CgDubbing": {
+      "en": "过场动画配音",
+      "cn": null,
+      "ru": "Дубляж роликов",
+      "status": "machine",
+      "srcHash": "0d8e72f80c8890ca",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "37765b5e1df258e1"
+    },
+    "LK_SystemSetting_CgDubbing_Option_Auto": {
+      "en": "自动",
+      "cn": null,
+      "ru": "автоматический",
+      "status": "machine",
+      "srcHash": "569e9d1518cca50c",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "6fc18c588def660d"
+    },
+    "LK_SystemSetting_CgDubbing_Option_CN": {
+      "en": "普通话",
+      "cn": null,
+      "ru": "Мандарин",
+      "status": "machine",
+      "srcHash": "0c5ad3513a8df4fb",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "d627ecc2ecf38e7d"
+    },
+    "LK_SystemSetting_CgDubbing_Option_EN": {
+      "en": "英语",
+      "cn": null,
+      "ru": "английский язык",
+      "status": "machine",
+      "srcHash": "5f73a263418709c9",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "bf393448fc8ecc98"
+    },
+    "LK_SystemSetting_CgDubbing_Tips": {
+      "en": "在过场动画中使用指定语言的配音…",
+      "cn": null,
+      "ru": "Используйте дубляж на указанном языке в ролике…",
+      "status": "machine",
+      "srcHash": "29fdd81e4b4e322d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "3483190689858cce"
+    },
+    "LK_SystemSetting_ChickenOperateMode": {
+      "en": "元鸡协力模式",
+      "cn": null,
+      "ru": "Режим сотрудничества в Юаньцзи",
+      "status": "machine",
+      "srcHash": "951a58c1b59e5992",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "0c727dded4603cfa"
+    },
+    "LK_SystemSetting_ChickenOperateMode_Dynamic": {
+      "en": "完整",
+      "cn": null,
+      "ru": "полный",
+      "status": "machine",
+      "srcHash": "2267559eaf08ce9f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "0462e78579381593"
+    },
+    "LK_SystemSetting_ChickenOperateMode_Static": {
+      "en": "简易",
+      "cn": null,
+      "ru": "простота",
+      "status": "machine",
+      "srcHash": "2a3b3fc030f0675d",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "f870b6096a72022a"
+    },
+    "LK_SystemSetting_ChickenOperateMode_Tips": {
+      "en": "完整：点击战斗中出现的元鸡进行协力。简易：通过元鸡操作面板上的图标进行协力。",
+      "cn": null,
+      "ru": "Полный режим: нажмите на появившегося в бою цыплёнка Юаня, чтобы помочь ему. Простой режим: помогайте с помощью значка на панели управления цыплёнком Юаня.",
+      "status": "judged",
+      "srcHash": "4745b6da73c3b89e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "4b55734f0ec26379"
+    },
+    "LK_SystemSetting_HotKeyGroup_EmptyKey": {
+      "en": "待绑定按键",
+      "cn": null,
+      "ru": "Кнопка, которую нужно привязать",
+      "status": "machine",
+      "srcHash": "7383909d8df86337",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "0da693650072f2ea"
+    },
+    "LK_VillagerRole_Dispatch_Farmer_Cannot_Dispatch": {
+      "en": "<color=#brightred>\\n此地区没有可迁移的地格…</color>",
+      "cn": null,
+      "ru": "<color=#brightred>\\nВ этом районе нет земель, пригодных для миграции…</color>",
+      "status": "machine",
+      "srcHash": "a67a2d1f6d05cf84",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "0e158e577307a4da"
+    },
+    "LK_VillagerRole_Dispatch_Farmer_General_Rule": {
+      "en": "此类资源达到120的地格方可迁移…{0}",
+      "cn": null,
+      "ru": "Такие ресурсы могут быть перенесены только в том случае, если их количество достигнет 120…{0}",
+      "status": "machine",
+      "srcHash": "07abd61f6ee84f25",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "d5665aa39dcc12f5"
+    },
+    "LK_VillagerRole_Summary_AutoMigrate": {
+      "en": "自动迁移",
+      "cn": null,
+      "ru": "Автоматическая миграция",
+      "status": "machine",
+      "srcHash": "409678d65acc65a3",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "5e6a7d5b1ab09101"
+    },
+    "LK_VillagerRole_Summary_AutoMigrate_Desc": {
+      "en": "启用自动迁移时，农户将在迁移完成后，自动前往其他合适的地区继续迁移…",
+      "cn": null,
+      "ru": "Если включена автоматическая миграция, фермеры автоматически отправятся в другие подходящие районы, чтобы продолжить миграцию после ее завершения.…",
+      "status": "machine",
+      "srcHash": "2f26cbdbce1c04f9",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "0040fd0895b28b05"
+    },
+    "LK_VillagerRole_Summary_Collect_Amount": {
+      "en": "+{0}/<SpName=ui9_icon_month>",
+      "cn": null,
+      "ru": "+{0}/<SpName=ui9_icon_month>",
+      "status": "machine",
+      "srcHash": "cf09cd5158c116b0",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "f97df181575ed1d6"
+    },
+    "LK_VillagerRole_Summary_MerchantJob_0": {
+      "en": "售卖物品",
+      "cn": null,
+      "ru": "Товары для продажи",
+      "status": "machine",
+      "srcHash": "d0d8b4f5a002c585",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "080641216a13e31b"
+    },
+    "LK_VillagerRole_Summary_MerchantJob_1": {
+      "en": "采购引子",
+      "cn": null,
+      "ru": "Покупка заготовок",
+      "status": "judged",
+      "srcHash": "63c22afe8f173757",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "9676efaed2398cb3"
+    },
+    "LK_VillagerRole_Summary_MerchantJob_10": {
+      "en": "采购功法书",
+      "cn": null,
+      "ru": "Покупка книг о боевых искусствах",
+      "status": "judged",
+      "srcHash": "d9ff9986476c6b42",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "c25e1eb885cf48a5"
+    },
+    "LK_VillagerRole_Summary_MerchantJob_11": {
+      "en": "采购技艺书",
+      "cn": null,
+      "ru": "Покупка книг о ремёслах",
+      "status": "judged",
+      "srcHash": "2126b8c37755c9e7",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "da28149582bdd92a"
+    },
+    "LK_VillagerRole_Summary_MerchantJob_2": {
+      "en": "采购丹药",
+      "cn": null,
+      "ru": "Покупка таблетки",
+      "status": "machine",
+      "srcHash": "a058b6b5f0ccf993",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "e8d4e2a41eb0fe7c"
+    },
+    "LK_VillagerRole_Summary_MerchantJob_3": {
+      "en": "采购毒药",
+      "cn": null,
+      "ru": "Покупка яда",
+      "status": "machine",
+      "srcHash": "a90f509244d4c40a",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "85c26ace6d1e1e30"
+    },
+    "LK_VillagerRole_Summary_MerchantJob_4": {
+      "en": "采购食物",
+      "cn": null,
+      "ru": "Покупка продуктов питания",
+      "status": "machine",
+      "srcHash": "e9d17005716ec27f",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "99cc60e09f4a3bf6"
+    },
+    "LK_VillagerRole_Summary_MerchantJob_5": {
+      "en": "采购茶酒",
+      "cn": null,
+      "ru": "Покупка чая и вина",
+      "status": "machine",
+      "srcHash": "10fe430ddace85a4",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "61a3841a72329afb"
+    },
+    "LK_VillagerRole_Summary_MerchantJob_6": {
+      "en": "采购工具",
+      "cn": null,
+      "ru": "Инструменты для приобретения",
+      "status": "machine",
+      "srcHash": "7eba7674eb2bf638",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "7828cc172674d7fd"
+    },
+    "LK_VillagerRole_Summary_MerchantJob_7": {
+      "en": "采购宝物",
+      "cn": null,
+      "ru": "Покупка сокровищ",
+      "status": "machine",
+      "srcHash": "dc98b9f7f00fcb3e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "6f1221db72c80be3"
+    },
+    "LK_VillagerRole_Summary_MerchantJob_8": {
+      "en": "采购兵器",
+      "cn": null,
+      "ru": "Покупка оружия",
+      "status": "machine",
+      "srcHash": "ab256b32786f4baa",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "6cc30383c7e3ad42"
+    },
+    "LK_VillagerRole_Summary_MerchantJob_9": {
+      "en": "采购护具",
+      "cn": null,
+      "ru": "Приобретите защитное снаряжение",
+      "status": "machine",
+      "srcHash": "03d0b49c9b919929",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "993104fbeb208652"
+    },
+    "LK_VillagerRole_Summary_Migrate_Count": {
+      "en": "{0}人",
+      "cn": null,
+      "ru": "{0}человек",
+      "status": "machine",
+      "srcHash": "8aaa7f9758622b36",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "dd1bf031b7355e35"
+    },
+    "LK_VillagerRole_Summary_PeopleCount": {
+      "en": "{0}人",
+      "cn": null,
+      "ru": "{0}человек",
+      "status": "machine",
+      "srcHash": "8aaa7f9758622b36",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "dd1bf031b7355e35"
+    },
+    "LK_VillagerRole_Summary_Resource_0": {
+      "en": "食材",
+      "cn": null,
+      "ru": "Ингредиенты",
+      "status": "machine",
+      "srcHash": "67cbd30f367826f6",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "a2b83f90ccb17847"
+    },
+    "LK_VillagerRole_Summary_Resource_1": {
+      "en": "木材",
+      "cn": null,
+      "ru": "дерево",
+      "status": "machine",
+      "srcHash": "7f4b2afbd8f5f615",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "38619a237c65a197"
+    },
+    "LK_VillagerRole_Summary_Resource_2": {
+      "en": "金铁",
+      "cn": null,
+      "ru": "Металл",
+      "status": "judged",
+      "srcHash": "d24caab9b6150f20",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "bed4621efd9ff62d"
+    },
+    "LK_VillagerRole_Summary_Resource_3": {
+      "en": "玉石",
+      "cn": null,
+      "ru": "Нефрит",
+      "status": "machine",
+      "srcHash": "8baae1bb2c9a5088",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "3396e1a08e906438"
+    },
+    "LK_VillagerRole_Summary_Resource_4": {
+      "en": "织物",
+      "cn": null,
+      "ru": "ткань",
+      "status": "machine",
+      "srcHash": "ad34471210787d19",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "60a33fbcce4cc300"
+    },
+    "LK_VillagerRole_Summary_Resource_5": {
+      "en": "药材",
+      "cn": null,
+      "ru": "Лекарственные материалы",
+      "status": "machine",
+      "srcHash": "0b2312e197bd1994",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "99a1a422884dc67d"
+    },
+    "LK_Wug_Type_0": {
+      "en": "赤目蛊",
+      "cn": null,
+      "ru": "Акаму Гу",
+      "status": "machine",
+      "srcHash": "51d162982f4b314b",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "2162d5ed18292854"
+    },
+    "LK_Wug_Type_1": {
+      "en": "螭魅蛊",
+      "cn": null,
+      "ru": "Чи Мэйгу",
+      "status": "machine",
+      "srcHash": "ed548c4e51bf4a36",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "f846c06037f3c205"
+    },
+    "LK_Wug_Type_2": {
+      "en": "黑血蛊",
+      "cn": null,
+      "ru": "Черная кровь Гу",
+      "status": "machine",
+      "srcHash": "c8251920c7cc8bd9",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "6b437146406f5b79"
+    },
+    "LK_Wug_Type_3": {
+      "en": "心魔蛊",
+      "cn": null,
+      "ru": "Сердечный демон Гу",
+      "status": "judged",
+      "srcHash": "7e2ebfbb0fb78200",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "9f3fcec39f221634"
+    },
+    "LK_Wug_Type_4": {
+      "en": "尸螭蛊",
+      "cn": null,
+      "ru": "Труп Чи Гу",
+      "status": "machine",
+      "srcHash": "455a401142ec0c20",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "b6298a5b1ff1410f"
+    },
+    "LK_Wug_Type_5": {
+      "en": "冰蚕蛊",
+      "cn": null,
+      "ru": "Ледяной шелкопряд Гу",
+      "status": "machine",
+      "srcHash": "6838c083d0479c9e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "22fecf43270e739a"
+    },
+    "LK_Wug_Type_6": {
+      "en": "金蚕蛊",
+      "cn": null,
+      "ru": "Золотой шелкопряд Гу",
+      "status": "machine",
+      "srcHash": "0133c3897bc5547e",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "a0323311f1afd7c8"
+    },
+    "LK_Wug_Type_7": {
+      "en": "青髓蛊",
+      "cn": null,
+      "ru": "Лазурный костный мозг Гу",
+      "status": "judged",
+      "srcHash": "c75c06e67dcb6c38",
+      "engine": "yandex",
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "f01873bef7794aa8"
     }
   }
 }

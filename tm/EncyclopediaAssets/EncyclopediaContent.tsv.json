@@ -85183,13 +85183,13 @@
     },
     "r1901c6": {
       "en": "Favorability Increase = Base Value × (1 + Mindset Influence + Industry Influence) × Rank Influence × Trait Influence × World details Influence",
-      "cn": "好感增加量 = 基础值 × （1 + 立场影响 + 产业影响） × 身份影响 × 特性影响 × 世界细节影响",
-      "ru": "Увеличение благосклонности = Базовое значение × (1 + Влияние позиции + влияние отрасли) × влияние ранга × влияние Черты характера × Влияние деталей мира",
-      "status": "machine",
+      "cn": "好感增加量 = 基础值 × （1 + 立场影响 + 产业影响） × 身份影响 × 特性影响 × 戒心影响 × 世界细节影响",
+      "ru": "Увеличение благосклонности = Базовое значение × (1 + Влияние позиции + Влияние отрасли) × Влияние ранга × Влияние черты × Влияние бдительности × Влияние деталей мира",
+      "status": "judged",
       "srcHash": "c380796bbf3f89e0",
       "engine": "yandex",
-      "updatedAt": "2026-07-25T08:27:11.933Z",
-      "judgeHash": "8cb73b27810dad2a"
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "22deadfa2d13312b"
     },
     "r1902c0": {
       "en": "Character",
@@ -85223,13 +85223,13 @@
     },
     "r1902c6": {
       "en": "Favorability Decrease = Base Value × Industry Influence × Trait Influence × World details Influence",
-      "cn": "好感减少量 = 基础值 × 产业影响 × 特性影响 × 世界细节影响",
-      "ru": "Снижение благосклонности = Базовое значение × влияние отрасли × влияние черты характера × влияние деталей мира.",
-      "status": "machine",
+      "cn": "好感减少量 = 基础值 × 产业影响 × 特性影响 × 戒心影响 × 世界细节影响",
+      "ru": "Снижение благосклонности = Базовое значение × Влияние отрасли × Влияние черты × Влияние бдительности × Влияние деталей мира",
+      "status": "judged",
       "srcHash": "f6dbd5070d6c1d5e",
       "engine": "yandex",
-      "updatedAt": "2026-07-25T08:27:11.933Z",
-      "judgeHash": "2d675f647f2f32d9"
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "1fac6c2dde3a29d4"
     },
     "r1903c0": {
       "en": "Character",
@@ -85393,43 +85393,43 @@
     },
     "r1907c0": {
       "en": "Character",
-      "cn": "人物",
+      "cn": null,
       "ru": "Характер",
       "status": "machine",
       "srcHash": "edc71f8989a9245e",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "b43b769b83316586"
+      "judgeHash": "fb1957017748dde2"
     },
     "r1907c1": {
       "en": "Character Info",
-      "cn": "人物信息",
+      "cn": null,
       "ru": "Информация о персонаже",
       "status": "machine",
       "srcHash": "15cf2758621b6dea",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "6753ba48c57c2c36"
+      "judgeHash": "a2e20c8123cb5879"
     },
     "r1907c2": {
       "en": "Favorability",
-      "cn": "好感",
+      "cn": null,
       "ru": "Благосклонность",
       "status": "machine",
       "srcHash": "af78a3bf4bde86ec",
       "engine": "yandex",
       "updatedAt": "2026-07-10T20:59:06.747Z",
-      "judgeHash": "eaa4c75f29e7c5d3"
+      "judgeHash": "d1933d3442e3ac73"
     },
     "r1907c6": {
       "en": "World details Influence: The <color=#6fb6ff><u><link=\"世界细节\">World details</link></u></color>[Changes in Favorability]setting",
-      "cn": "世界细节影响：<color=#6fb6ff><u><link=\"世界细节\">世界细节</link></u></color>「人情的变化」设置",
+      "cn": null,
       "ru": "Влияние деталей мира: настройка [Изменения благосклонности] в разделе <color=#6fb6ff><u><link=\"世界细节\">Детали мира</link></u></color>",
       "status": "judged",
       "srcHash": "d72fa314c1d39b42",
       "engine": "yandex",
-      "updatedAt": "2026-08-24T13:47:33.220Z",
-      "judgeHash": "175ad29fbaafbddd"
+      "updatedAt": "2026-09-29T23:25:32.190Z",
+      "judgeHash": "940a6d4516816733"
     },
     "r1908c0": {
       "en": "Character",
@@ -186783,7 +186783,7 @@
     },
     "r4084c6": {
       "en": "Qi/Physical Martial Arts Ratio determines the consumption of <color=#6fb6ff><u><link=\"提气\">Inhale</link></u></color> and <color=#6fb6ff><u><link=\"架势\">Stance</link></u></color> for casting a Technique. For Annihilation Techniques\\u002c it also determines the ratio of <color=#6fb6ff><u><link=\"破气\">Qi Penetration</link></u></color> and <color=#6fb6ff><u><link=\"破体\">Phy. Penetration</link></u></color> (i.e.\\u002c whether injuries tend to be internal or external).",
-      "cn": "内外功比例决定施展此功法需要消耗的<color=#6fb6ff><u><link=\"提气\">提气</link></u></color>、<color=#6fb6ff><u><link=\"架势\">架势</link></u></color>比例。如果为摧破功法，还会决定此功法的<color=#6fb6ff><u><link=\"破气\">破气</link></u></color>、<color=#6fb6ff><u><link=\"破体\">破体</link></u></color>比例，以及造成的内伤、外伤的比例。",
+      "cn": "内外功比例决定施展此功法需要消耗的<color=#6fb6ff><u><link=\"提气\">提气</link></u></color>、<color=#6fb6ff><u><link=\"架势\">架势</link></u></color>比例。如果为摧破功法，还会决定此功法的<color=#6fb6ff><u><link=\"破气\">破气</link></u></color>、<color=#6fb6ff><u><link=\"破体\">破体</link></u></color>比例，以及造成的内伤、外伤的比例，并影响攻击时敌人的防御。",
       "ru": "Соотношение ци и боевых искусств определяет расход <color=#6fb6ff><u><link=\"提气\">Вдоха</link></u></color> и <color=#6fb6ff><u><link=\"架势\">Стойки</link></u></color> при применении техники. Для методов сокрушения оно также определяет соотношение <color=#6fb6ff><u><link=\"破气\">урона ци</link></u></color> и <color=#6fb6ff><u><link=\"破体\">физ. урона</link></u></color> (то есть соотношение внутренних и внешних травм).",
       "status": "judged",
       "srcHash": "80a358ed39007394",
@@ -186893,93 +186893,93 @@
     },
     "r4087c0": {
       "en": "Cultivate",
-      "cn": "修习",
+      "cn": null,
       "ru": "Практиковаться",
       "status": "judged",
       "srcHash": "cae743a4dfb9a995",
       "engine": "yandex",
       "updatedAt": "2026-08-24T11:00:18.929Z",
-      "judgeHash": "997f8bf29558908f"
+      "judgeHash": "3668480c424639c0"
     },
     "r4087c1": {
       "en": "Martial Arts",
-      "cn": "武学",
+      "cn": null,
       "ru": "Боевые искусства",
       "status": "machine",
       "srcHash": "385245b0e1d7a15e",
       "engine": "yandex",
       "updatedAt": "2026-07-10T20:59:06.747Z",
-      "judgeHash": "5c0ad1da5c311ab7"
+      "judgeHash": "1f4aec949cf622f9"
     },
     "r4087c2": {
       "en": "Techniques",
-      "cn": "功法",
+      "cn": null,
       "ru": "Боевые техники",
       "status": "judged",
       "srcHash": "9b8c280c990a23a6",
       "engine": "yandex",
       "updatedAt": "2026-08-24T11:00:18.929Z",
-      "judgeHash": "d69a86d31388980a"
+      "judgeHash": "e73491479d8f38de"
     },
     "r4087c3": {
       "en": "Qi/Physical Martial Arts Ratio",
-      "cn": "内外功比例",
+      "cn": null,
       "ru": "Соотношение ци и физических боевых искусств",
       "status": "judged",
       "srcHash": "9ce6de5d9bce1926",
       "engine": "yandex",
       "updatedAt": "2026-08-24T11:00:18.929Z",
-      "judgeHash": "9487c19dbe2a353e"
+      "judgeHash": "9c08eaf68f5fe535"
     },
     "r4087c6": {
       "en": "A Technique's Qi/Physical Martial Arts Ratio can be adjusted at any time. A higher <color=#6fb6ff><u><link=\"内功发挥\">Qi Art Efficacy</link></u></color> allows a wider adjustment range.",
-      "cn": "人物可以随时调节功法的内外功比例。人物的<color=#6fb6ff><u><link=\"内功发挥\">内功发挥</link></u></color>越高，可调节的范围越广。",
+      "cn": null,
       "ru": "Соотношение ци техники и боевых искусств можно регулировать в любое время. Более высокая <color=#6fb6ff><u><link=\"内功发挥\">эффективность внутреннего искусства</link></u></color> обеспечивает более широкий диапазон регулировки.",
       "status": "judged",
       "srcHash": "6718453f1dbd4615",
       "engine": "yandex",
-      "updatedAt": "2026-08-24T13:47:33.220Z",
-      "judgeHash": "17b27e3a67dac89e"
+      "updatedAt": "2026-09-29T23:25:32.190Z",
+      "judgeHash": "60b3f9a8118f591a"
     },
     "r4088c0": {
       "en": "Cultivate",
-      "cn": "修习",
+      "cn": null,
       "ru": "Практиковаться",
       "status": "judged",
       "srcHash": "cae743a4dfb9a995",
       "engine": "yandex",
       "updatedAt": "2026-08-24T11:00:18.929Z",
-      "judgeHash": "997f8bf29558908f"
+      "judgeHash": "3668480c424639c0"
     },
     "r4088c1": {
       "en": "Martial Arts",
-      "cn": "武学",
+      "cn": null,
       "ru": "Боевые искусства",
       "status": "machine",
       "srcHash": "385245b0e1d7a15e",
       "engine": "yandex",
       "updatedAt": "2026-07-10T20:59:06.747Z",
-      "judgeHash": "5c0ad1da5c311ab7"
+      "judgeHash": "1f4aec949cf622f9"
     },
     "r4088c2": {
       "en": "Techniques",
-      "cn": "功法",
+      "cn": null,
       "ru": "Боевые техники",
       "status": "judged",
       "srcHash": "9b8c280c990a23a6",
       "engine": "yandex",
       "updatedAt": "2026-08-24T11:00:18.929Z",
-      "judgeHash": "d69a86d31388980a"
+      "judgeHash": "e73491479d8f38de"
     },
     "r4088c3": {
       "en": "Qi/Physical Martial Arts Ratio",
-      "cn": "内外功比例",
+      "cn": null,
       "ru": "Соотношение ци и физических боевых искусств",
       "status": "judged",
       "srcHash": "9ce6de5d9bce1926",
       "engine": "yandex",
       "updatedAt": "2026-08-24T11:00:18.929Z",
-      "judgeHash": "9487c19dbe2a353e"
+      "judgeHash": "9c08eaf68f5fe535"
     },
     "r4089c0": {
       "en": "Cultivate",
@@ -187023,13 +187023,13 @@
     },
     "r4089c6": {
       "en": "Qi/Physical Martial Arts ratio adjustable range formula:",
-      "cn": "内外功比例可调节范围计算公式：",
+      "cn": "",
       "ru": "Формула диапазона регулировки соотношения ци и боевых искусств:",
       "status": "judged",
       "srcHash": "7fd85f1fed43b7aa",
       "engine": "yandex",
       "updatedAt": "2026-08-24T13:47:33.220Z",
-      "judgeHash": "ad640729fbed9720"
+      "judgeHash": "4ca50e53af48b464"
     },
     "r4090c0": {
       "en": "Cultivate",
@@ -187073,13 +187073,13 @@
     },
     "r4090c6": {
       "en": "Adjustable Range = Base Adjustable Range x Qi Art Efficacy%",
-      "cn": "可调节范围 = 基础可调节范围 × 内功发挥%",
+      "cn": "内外功比例可调节范围计算公式：",
       "ru": "Регулируемый диапазон = базовый регулируемый диапазон × эффективность внутреннего искусства%",
       "status": "judged",
       "srcHash": "b1d53c6fa0a9ceae",
       "engine": "yandex",
       "updatedAt": "2026-08-25T21:55:01.259Z",
-      "judgeHash": "b0b0ac743a893df3"
+      "judgeHash": "bd5a576a51fa45bf"
     },
     "r4091c0": {
       "en": "Cultivate",
@@ -204433,11 +204433,12 @@
     "r4471c6": {
       "en": "If the Qi Art used for Microcosmic Circulation is non-Hunyuan\\u002c it gradually changes the character's <color=#6fb6ff><u><link=\"内力五行\">Elemental Qi</link></u></color> ratios based on that Qi Art's five-element altering effect.",
       "cn": "若周天运转的内功不为混元属性，则根据此内功的五行转移效果，将逐渐转变人物的<color=#6fb6ff><u><link=\"内力五行\">内力五行</link></u></color>比例。",
-      "ru": "Если для циркуляции микрокосмоса используется внутренне искусство, не относящееся к Хуньюань\\u002c это постепенно меняет характер персонажа <color=#6fb6ff><u><link=\"内力五行\">Элементарная Ци</link></u></color> соотношения, основанные на пятиэлементном эффекте изменения этого внутреннее искусство.",
-      "status": "machine",
+      "ru": "Если внутреннее искусство, используемое для циркуляции микрокосмоса, не относится к Хуньюань, оно постепенно изменяет соотношения <color=#6fb6ff><u><link=\"内力五行\">элементальной ци</link></u></color> персонажа согласно своему эффекту изменения пяти стихий.",
+      "status": "judged",
       "srcHash": "bf7dcb03499dbb5a",
       "engine": "yandex",
-      "updatedAt": "2026-07-25T08:27:11.933Z"
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "284debcad3aacd85"
     },
     "r4472c0": {
       "en": "Cultivate",
@@ -272438,7 +272439,8 @@
       "status": "machine",
       "srcHash": "e009321f3b0e1a8c",
       "engine": "yandex",
-      "updatedAt": "2026-07-25T08:27:11.933Z"
+      "updatedAt": "2026-07-25T08:27:11.933Z",
+      "judgeHash": "bdb6c06537314f96"
     },
     "r5963c0": {
       "en": "Industry",
@@ -322301,7 +322303,7 @@
     },
     "r7074c6": {
       "en": "If Critical: Resilience damage dealt to late mover = First mover's Morale − Late mover's Damage Reduction (if blocked)",
-      "cn": "如果暴击：对后手方造成斗性伤害 = 先手方的气势 - 后手方的减伤属性（如果格挡）",
+      "cn": "如果暴击：对后手方造成斗性伤害 = 先手方的气势",
       "ru": "При критическом ударе: урон стойкости, нанесённый поздней стороне = мораль первой стороны − снижение урона поздней стороны (при блоке)",
       "status": "judged",
       "srcHash": "f0c0acc16dadeadd",
@@ -394887,43 +394889,43 @@
     },
     "r8603c0": {
       "en": "Extension",
-      "cn": "扩展",
+      "cn": null,
       "ru": "Расширение",
       "status": "machine",
       "srcHash": "53791438e2340439",
       "engine": "yandex",
       "updatedAt": "2026-07-03T21:32:41.679Z",
-      "judgeHash": "89e149c74264590f"
+      "judgeHash": "fa42a6f35681b4cd"
     },
     "r8603c1": {
       "en": "Five Divine Loongs",
-      "cn": "五方神龙",
+      "cn": null,
       "ru": "Пять Божественных Лун",
       "status": "machine",
       "srcHash": "4faa5116aee36c97",
       "engine": "yandex",
       "updatedAt": "2026-07-25T08:27:11.933Z",
-      "judgeHash": "41fa51b530907e2d"
+      "judgeHash": "a3662aecb0b5f5ac"
     },
     "r8603c2": {
       "en": "Loong Ascension",
-      "cn": "长蛟化龙",
+      "cn": null,
       "ru": "Вознесение луна",
       "status": "judged",
       "srcHash": "80a7af0f763f2080",
       "engine": "yandex",
       "updatedAt": "2026-08-24T13:47:33.220Z",
-      "judgeHash": "44cbd73ee9767641"
+      "judgeHash": "73dc7459de7861ad"
     },
     "r8603c3": {
       "en": "Loong Offspring",
-      "cn": "龙子",
-      "ru": "Отпрыск Лун",
-      "status": "machine",
+      "cn": null,
+      "ru": "Отпрыск луна",
+      "status": "judged",
       "srcHash": "a9345a4fc9a1e064",
       "engine": "yandex",
-      "updatedAt": "2026-07-25T08:27:11.933Z",
-      "judgeHash": "6ab4c54517b8fccb"
+      "updatedAt": "2026-09-29T23:39:19.182Z",
+      "judgeHash": "d3fe795904f562ea"
     },
     "r8604c0": {
       "en": "Extension",
