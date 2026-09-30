@@ -19,7 +19,7 @@
  */
 import path from "node:path";
 
-import { realpathSync } from "node:fs";
+import { existsSync, realpathSync } from "node:fs";
 
 import {
   eventOptionTipsOutDir,
@@ -80,13 +80,13 @@ export function resolveSource(file: string): SourcePaths {
     // EN source and CN reference come from the game tree; the output is re-rooted
     // under the mod-overlay mirror at its real game-root-relative path (so the
     // folder overlays a game install), with the language suffix swapped to outLang.
+    // A CN-only DLC pack (see listDlcEventFiles) has no EN file: the CN file is
+    // then the source too, and the output is named as if mirrored from EN.
     const enPath = path.join(projectRoot, posix);
-    const out = mirrorToOutput(realpathSync(enPath));
-    return {
-      en: enPath,
-      cn: path.join(projectRoot, posix.replace(/_Language_EN\.txt$/, "_Language_CN.txt")),
-      out,
-    };
+    const cnPath = path.join(projectRoot, posix.replace(/_Language_EN\.txt$/, "_Language_CN.txt"));
+    const src = existsSync(enPath) ? enPath : cnPath;
+    const real = realpathSync(src).replace(/_Language_CN\.txt$/, "_Language_EN.txt");
+    return { en: src, cn: cnPath, out: mirrorToOutput(real) };
   }
   return {
     en: path.join(languageDir, file),

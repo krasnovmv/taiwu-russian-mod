@@ -124,9 +124,19 @@ async function readDirNames(dir: string): Promise<string[] | null> {
  * actually carries EN text is used (older ones are CN-only stubs). Ids are full
  * repo-relative paths so {@link resolveSource} can find the CN/KO siblings.
  * Unlike the root quest folder, this is always on (the DLC corpus is small).
+ *
+ * A DLC that ships NO EN text at all (TameLoong at release) is taken from its CN
+ * packs instead, under the same EN-keyed ids: {@link resolveSource} then reads the
+ * CN file as the source, and alignment marks the Chinese units `srcLang: "zh"`.
  */
-export function listDlcEventFiles(): Promise<string[]> {
-  return dlcEventFilesWithSuffix("_Language_EN.txt");
+export async function listDlcEventFiles(): Promise<string[]> {
+  const [en, cn] = await Promise.all([
+    dlcEventFilesWithSuffix("_Language_EN.txt"),
+    dlcEventFilesWithSuffix("_Language_CN.txt"),
+  ]);
+  const dlcOf = (id: string) => id.slice(EVENT_DLC_PREFIX.length).split("/")[0];
+  const withEn = new Set(en.map(dlcOf));
+  return [...en, ...cn.filter((id) => !withEn.has(dlcOf(id)))];
 }
 
 /**
