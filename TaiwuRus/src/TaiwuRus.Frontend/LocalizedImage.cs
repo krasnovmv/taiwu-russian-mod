@@ -5,7 +5,6 @@ using System.IO;
 using FrameWork.UISystem.UIElements;
 using TaiwuRus.Shared;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace TaiwuRus.Frontend
 {
@@ -189,48 +188,6 @@ namespace TaiwuRus.Frontend
                     return;
                 }
                 load(RuImageName.ToCn(ruPath), onLoaded);
-            });
-        }
-
-        /// <summary>
-        /// Button entry point: load a button's four interaction-state sprites from a
-        /// <c>{0}</c>=language, <c>{1}</c>=state pattern, each through the RU PNG → EN → CN policy.
-        /// State indices differ per call site (see the two button patches), so they are parameters.
-        /// The interaction states are chained so the value-type <see cref="SpriteState"/> is fully
-        /// populated before it is copied into the button.
-        /// </summary>
-        public static void ApplyButtonStates(CButton btn, string pattern, Action<string, Action<Sprite?>> load,
-            int normal, int highlighted, int pressed, int disabled)
-        {
-            CImage btnImg = btn.GetComponent<CImage>();
-            SpriteState spriteState = new SpriteState();
-
-            void LoadState(int state, Action<Sprite?> onLoaded) =>
-                LoadSprite(string.Format(CultureInfo.InvariantCulture, pattern, "ru", state), load, onLoaded);
-
-            LoadState(normal, s =>
-            {
-                if (btnImg != null)
-                    btnImg.sprite = s;
-            });
-
-            LoadState(highlighted, s1 =>
-            {
-                spriteState.highlightedSprite = s1;
-                spriteState.selectedSprite = s1;
-                LoadState(pressed, s2 =>
-                {
-                    spriteState.pressedSprite = s2;
-                    LoadState(disabled, s3 =>
-                    {
-                        spriteState.disabledSprite = s3;
-                        // The chain loads async: the menu may have closed by now, destroying
-                        // the button. Unity's overloaded == reports it as null (btnImg above
-                        // is guarded the same way per state).
-                        if (btn != null)
-                            btn.spriteState = spriteState;
-                    });
-                });
             });
         }
 
