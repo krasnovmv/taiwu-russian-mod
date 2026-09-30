@@ -43,7 +43,8 @@ for (const file of files) {
     const en = await readFile(enPath, "utf8");
     const cn = await readIf(cnPath);
     const { units } = adapter.extract(en, cn);
-    const identity = new Map(units.map((u) => [u.key, u.en]));
+    // CN-only (`zh`) units are appended by apply, so identity covers EN keys only.
+    const identity = new Map(units.filter((u) => u.srcLang !== "zh").map((u) => [u.key, u.en]));
     const out = adapter.apply(en, identity);
     assert.equal(out.guardOk, true, out.guardError ?? "guard failed");
     assert.equal(out.content, en);

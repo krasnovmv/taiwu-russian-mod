@@ -39,3 +39,16 @@ test("extract without CN oracle yields a warning, no units", () => {
   assert.equal(units.length, 0);
   assert.ok(warnings.length > 0);
 });
+
+test("CN-only keys are extracted as zh units and appended on apply", () => {
+  const cn = CN.replace(/\n\n$/, "\nDesc_2\n新\n\n");
+  const { units } = anchoredTxtAdapter.extract(EN, cn);
+  const extra = units.find((u) => u.key === "Desc_2")!;
+  assert.deepEqual(extra, { key: "Desc_2", en: "新", cn: null, srcLang: "zh" });
+  const map = new Map(units.map((u) => [u.key, u.en]));
+  map.set("Desc_2", "Новое");
+  const out = anchoredTxtAdapter.apply(EN, map);
+  assert.equal(out.guardOk, true);
+  assert.equal(out.applied, 1);
+  assert.equal(out.content, "Desc_0\nLine one.\nLine two.\nDesc_1\nSingle.\nDesc_2\nНовое\n\n");
+});

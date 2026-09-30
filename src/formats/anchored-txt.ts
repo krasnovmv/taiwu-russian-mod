@@ -95,6 +95,12 @@ export const anchoredTxtAdapter: FormatAdapter = {
       en: s.value,
       cn: cnMap.get(s.key) ?? null,
     }));
+    // CN-only keys (a newer DLC the EN pack lacks) are translated from Chinese,
+    // same convention as the paired-txt adapter; `apply` appends them.
+    const enKeys = new Set(seg.segments.map((s) => s.key));
+    for (const [key, cn] of cnMap) {
+      if (!enKeys.has(key)) units.push({ key, en: cn, cn: null, srcLang: "zh" });
+    }
     return { units, onlyCn: [], warnings: [] };
   },
 
@@ -126,15 +132,39 @@ export const anchoredTxtAdapter: FormatAdapter = {
       return { ...s, value: ru };
     });
 
+    // Append keys absent from EN (CN-only) as new segments. The file's trailing
+    // blank lines belong to the last value; move them past the appended ones.
+    const enKeys = new Set(seg.segments.map((s) => s.key));
+    const appended: Segment[] = [];
+    for (const [key, ru] of translations) {
+      if (enKeys.has(key) || ru == null) continue;
+      appended.push({ key, keyLineRaw: key, value: ru });
+      applied++;
+    }
+    if (appended.length > 0) {
+      const last = newSegments[newSegments.length - 1]!;
+      const lastLines = last.value.split("\n");
+      let blanks = 0;
+      while (blanks < lastLines.length - 1 && lastLines[lastLines.length - 1 - blanks] === "")
+        blanks++;
+      newSegments[newSegments.length - 1] = {
+        ...last,
+        value: lastLines.slice(0, lastLines.length - blanks).join("\n"),
+      };
+      const tail = appended[appended.length - 1]!;
+      tail.value += "\n".repeat(blanks);
+      newSegments.push(...appended);
+    }
+
     const content = reconstruct(seg.prefix, newSegments, raw);
 
-    // Post-guard: re-segmenting must yield the same key sequence (a translation
-    // that introduced a line equal to a key would desync).
+    // Post-guard: re-segmenting must yield the expected key sequence (a
+    // translation that introduced a line equal to a key would desync).
     const reseg = segment(parseRaw(content).lines, keys);
     const sameKeys =
       reseg.ok &&
-      reseg.segments.length === seg.segments.length &&
-      reseg.segments.every((s, i) => s.key === seg.segments[i]?.key);
+      reseg.segments.length === newSegments.length &&
+      reseg.segments.every((s, i) => s.key === newSegments[i]?.key);
     if (!sameKeys) return fail("post-apply key sequence drift");
 
     return { content, applied, unsafe: 0, unsafeKeys: [], guardOk: true };

@@ -38,7 +38,10 @@ for (const file of txtFiles) {
       const { units, warnings } = anchoredTxtAdapter.extract(en, cn);
       assert.deepEqual(warnings, []);
       assert.ok(units.length > 0, `no units extracted from ${file}`);
-      const identity = anchoredTxtAdapter.apply(en, new Map(units.map((u) => [u.key, u.en])));
+      const identity = anchoredTxtAdapter.apply(
+        en,
+        new Map(units.filter((u) => u.srcLang !== "zh").map((u) => [u.key, u.en])),
+      );
       assert.equal(identity.guardOk, true);
       assert.equal(identity.content, en);
     });
