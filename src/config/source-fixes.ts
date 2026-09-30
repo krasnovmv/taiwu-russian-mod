@@ -99,6 +99,15 @@ export const SOURCE_FIXES: ReadonlyMap<string, readonly SourceFix[]> = new Map([
       },
     ],
   ],
+  [
+    "SpecialEffect_language.txt",
+    [
+      // The English column ships the Chinese text. `$0$成` ("$0$ tenths") is what
+      // every translated unit renders as `$0$0%`; left as is, Yandex keeps the
+      // 成 glued to the placeholder and the hanzi gate rejects the translation.
+      { key: "DetailedDesc_1844_0", lang: "en", from: "$0$成", to: "$0$0%" },
+    ],
+  ],
 ]);
 
 /**
