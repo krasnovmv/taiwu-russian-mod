@@ -20,6 +20,9 @@ namespace TaiwuRus.Shared
         /// <summary>Steam AppID of The Scroll of Taiwu — locates the Workshop content folder.</summary>
         private const string SteamAppId = "838350";
 
+        /// <summary>Suffix of the in-flight copy <see cref="Replace"/> renames into place.</summary>
+        private const string TempSuffix = ".taiwurus-tmp";
+
         /// <summary>
         /// Find the mod root — the directory that carries our localization overlay. First walks up
         /// from <paramref name="assemblyLocation"/> (the loaded plugin DLL); the Taiwu loader loads
@@ -113,7 +116,8 @@ namespace TaiwuRus.Shared
         /// the same relative path, creating directories as needed. A file is copied only when the
         /// destination is missing or older than the source. Each file lands via a temp file in the
         /// destination directory plus a rename, never an in-place write — see
-        /// <see cref="Replace"/> for why. Returns the number of files copied.
+        /// <see cref="Replace"/> for why. Then <see cref="Prune"/> removes what the overlay no
+        /// longer ships. Returns the number of files copied.
         /// </summary>
         public static int Copy(string? overlayRoot, string? gameRoot, Action<string>? log = null)
         {
@@ -123,11 +127,12 @@ namespace TaiwuRus.Shared
                 || gameRoot == null || gameRoot.Length == 0)
                 return 0;
 
-            int copied = 0, scanned = 0;
+            int copied = 0;
+            var shipped = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
             foreach (string src in Directory.EnumerateFiles(overlayRoot, "*", SearchOption.AllDirectories))
             {
-                scanned++;
-                string rel = src.Substring(overlayRoot.Length).TrimStart('/', '\\');
+                string rel = Rel(overlayRoot, src);
+                shipped.Add(rel);
                 string dst = Path.Combine(gameRoot, rel);
                 try
                 {
@@ -144,8 +149,62 @@ namespace TaiwuRus.Shared
                     log?.Invoke($"[TaiwuRus] overlay copy failed: {rel} ({e.Message})");
                 }
             }
-            log?.Invoke($"[TaiwuRus] overlay: {copied} file(s) copied / {scanned} scanned -> {gameRoot}");
+            int pruned = Prune(overlayRoot, gameRoot, shipped, log);
+            log?.Invoke($"[TaiwuRus] overlay: {copied} file(s) copied / {shipped.Count} scanned, {pruned} stale removed -> {gameRoot}");
             return copied;
+        }
+
+        /// <summary>
+        /// Delete RU-marked files in the install that the overlay no longer ships — an old DLC
+        /// version's quest pack, a renamed file. <see cref="Copy"/> never removes anything, so they
+        /// would otherwise linger forever. RU-marked is the rule of
+        /// <c>dist/uninstall-localization.bat</c>: the game ships no RU, so every such file is ours.
+        /// Only the trees the overlay mirrors (its top-level folders) are scanned — never
+        /// <c>Mod/</c>, where the overlay itself lives. In-flight temp files are left alone: the
+        /// other process (frontend and backend deploy concurrently) may be about to rename one.
+        /// </summary>
+        private static int Prune(string overlayRoot, string gameRoot, HashSet<string> shipped, Action<string>? log)
+        {
+            int removed = 0;
+            foreach (string top in Directory.GetDirectories(overlayRoot))
+            {
+                string tree = Path.Combine(gameRoot, Path.GetFileName(top));
+                if (!Directory.Exists(tree))
+                    continue;
+                foreach (string dst in Directory.GetFiles(tree, "*", SearchOption.AllDirectories))
+                {
+                    string rel = Rel(gameRoot, dst);
+                    if (!IsRuMarked(rel) || rel.EndsWith(TempSuffix, StringComparison.Ordinal) || shipped.Contains(rel))
+                        continue;
+                    try
+                    {
+                        File.Delete(dst);
+                        removed++;
+                    }
+                    catch (Exception e)
+                    {
+                        log?.Invoke($"[TaiwuRus] overlay prune failed: {rel} ({e.Message})");
+                    }
+                }
+            }
+            return removed;
+        }
+
+        // net48 has no Path.GetRelativePath; `path` is always under `root` here.
+        private static string Rel(string root, string path) => path.Substring(root.Length).TrimStart('/', '\\');
+
+        /// <summary>A <c>*_Language_RU.txt</c> file, or anything under a <c>*_RU</c> folder.</summary>
+        private static bool IsRuMarked(string rel)
+        {
+            if (rel.EndsWith("_Language_RU.txt", StringComparison.OrdinalIgnoreCase))
+                return true;
+            string[] parts = rel.Split('/', '\\');
+            for (int i = 0; i < parts.Length - 1; i++)
+            {
+                if (parts[i].EndsWith("_RU", StringComparison.OrdinalIgnoreCase))
+                    return true;
+            }
+            return false;
         }
 
         /// <summary>
@@ -170,7 +229,7 @@ namespace TaiwuRus.Shared
         {
             // net48 has no overwriting File.Move; delete-then-move leaves only a micro-window
             // with the destination absent, which IsStale treats as stale (self-heals next run).
-            string tmp = dst + ".taiwurus-tmp";
+            string tmp = dst + TempSuffix;
             File.Copy(src, tmp, true);
             if (File.Exists(dst))
                 File.Delete(dst);

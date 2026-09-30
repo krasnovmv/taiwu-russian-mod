@@ -130,6 +130,29 @@ namespace TaiwuRus.Tests
             Assert.Equal(0, OverlayDeployer.Copy(overlayPath, gamePath));
         }
 
+        [Fact]
+        public void Copy_prunes_RU_files_the_overlay_no_longer_ships()
+        {
+            string overlay = Dir("overlay");
+            string game = Dir("game");
+            WriteFile(@"overlay\Data\DLC\1.1\Events\EventLanguages\Pack_Language_RU.txt", "new");
+            WriteFile(@"overlay\Data\StreamingAssets\Language_RU\ui.txt", "ui");
+            string oldPack = WriteFile(@"game\Data\DLC\1.0\Events\EventLanguages\Pack_Language_RU.txt", "old");
+            string oldUi = WriteFile(@"game\Data\StreamingAssets\Language_RU\gone.txt", "old");
+            string gameEn = WriteFile(@"game\Data\DLC\1.0\Events\EventLanguages\Pack_Language_EN.txt", "en");
+            string inFlight = WriteFile(@"game\Data\StreamingAssets\Language_RU\x.txt.taiwurus-tmp", "tmp");
+            string modFile = WriteFile(@"game\Mod\Other\Data\Pack_Language_RU.txt", "not ours to judge");
+
+            OverlayDeployer.Copy(overlay, game);
+
+            Assert.False(File.Exists(oldPack));
+            Assert.False(File.Exists(oldUi));
+            Assert.True(File.Exists(gameEn));
+            Assert.True(File.Exists(inFlight));
+            Assert.True(File.Exists(modFile));
+            Assert.True(File.Exists(Path.Combine(game, "Data", "StreamingAssets", "Language_RU", "ui.txt")));
+        }
+
         // ── FindModRoot ─────────────────────────────────────────────────────────────────────
 
         [Fact]
