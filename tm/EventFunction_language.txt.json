@@ -5826,11 +5826,12 @@
     "Name_498": {
       "en": "Save Tile by Encounter Taiwu XY Offset",
       "cn": "保存奇遇太吾XY偏移的地格",
-      "ru": "Сохранить плитку, столкнувшись со смещением Тайву по оси XY",
-      "status": "machine",
+      "ru": "Сохранить клетку приключения со смещением Тайву по осям X и Y",
+      "status": "judged",
       "srcHash": "44571c5ec498defe",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "3d8f9c313b0f565d"
     },
     "Name_499": {
       "en": "Encounter Element Template Bound to Character",
@@ -14580,11 +14581,12 @@
     "Desc_491": {
       "en": "Retrieves Elements specified by an Element ID in the encounter that return True when comparing the Element variable with the given value",
       "cn": "获取奇遇内某元素id对应的元素中,元素变量和给定值比较结果为True的元素",
-      "ru": "Извлекает элементы, указанные идентификатором элемента в encounter, которые возвращают значение True при сравнении переменной элемента с заданным значением",
-      "status": "machine",
+      "ru": "Извлекает элементы приключения с указанным идентификатором элемента, у которых сравнение переменной элемента с заданным значением даёт значение “истина”",
+      "status": "judged",
       "srcHash": "e696fe110e1d6ae1",
       "engine": "yandex",
-      "updatedAt": "2026-07-03T21:32:41.679Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "e8a90c9542c9f13b"
     },
     "Desc_492": {
       "en": "Retrieves the Element list (tagged) of the tile that the current Element is in",
@@ -36811,6 +36813,16 @@
       "updatedAt": "2026-09-29T23:39:19.182Z",
       "judgeHash": "8ee3686914323e36"
     },
+    "Name_970": {
+      "en": "添加遗惠卡",
+      "cn": null,
+      "ru": "Добавить карту наследия",
+      "status": "judged",
+      "srcHash": "c6f67c120326a063",
+      "engine": "yandex",
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "1f5f2d755d2f8a12"
+    },
     "Name_940": {
       "en": "设置演员Key",
       "cn": null,
@@ -37054,65 +37066,72 @@
     "Name_913": {
       "en": "出神之地中转为同道的化身角色模板id",
       "cn": null,
-      "ru": "Преобразованный в шаблон персонажа-аватара идентификатор того же персонажа в стране богов",
-      "status": "machine",
+      "ru": "Идентификатор шаблона персонажа-аватара, ставшего соратником в Стране божеств",
+      "status": "judged",
       "srcHash": "210e767609732b21",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "2b1ee019e61adc1e"
     },
     "Name_961": {
       "en": "太吾击败神龙（包含获得物品提示与后续跳转）",
       "cn": null,
-      "ru": "Тайго побеждает дракона (включая подсказки для получения предметов и последующих прыжков)",
-      "status": "machine",
+      "ru": "Тайву побеждает божественного луна (включая уведомления о получении предметов и переход к последующим событиям)",
+      "status": "judged",
       "srcHash": "b157d252235a887f",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "20b01ff6fa076dd8"
     },
     "Name_914": {
       "en": "将龙转化为道具",
       "cn": null,
-      "ru": "Превратите драконов в реквизит",
-      "status": "machine",
+      "ru": "Превратить луна в предмет",
+      "status": "judged",
       "srcHash": "895fe515a890d513",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "87109b74afabfbf5"
     },
     "Name_917": {
       "en": "龙代步道具化人，并跳转后续事件",
       "cn": null,
-      "ru": "Реквизит для перевозки драконов преображает людей и позволяет перейти к последующим событиям",
-      "status": "machine",
+      "ru": "Превратить луна, перевозящего персонажа в виде предмета, в человека и перейти к последующему событию",
+      "status": "judged",
       "srcHash": "967f40ed5acbc7b4",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "2f02843afd95c0e9"
     },
     "Name_918": {
       "en": "将龙人变回道具",
       "cn": null,
-      "ru": "Превратите человека-дракона обратно в реквизит",
-      "status": "machine",
+      "ru": "Превратить человека-луна обратно в предмет",
+      "status": "judged",
       "srcHash": "4640f12a8919f761",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "1eaa8a1c4a0bbf41"
     },
     "Name_930": {
       "en": "放生龙代步道具",
       "cn": null,
-      "ru": "Освободите реквизит для транспортировки дракона",
-      "status": "machine",
+      "ru": "Отпустить луна-предмет для перевозки на волю",
+      "status": "judged",
       "srcHash": "61fb3fda4fe06b2b",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "a29dbb0430136d64"
     },
     "Name_915": {
       "en": "龙是否已经化人",
       "cn": null,
-      "ru": "Неужели дракон превратился в человека?",
-      "status": "machine",
+      "ru": "Превратился ли лун уже в человека",
+      "status": "judged",
       "srcHash": "69f2a6dfaa585319",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "3a595e1c8cfb806f"
     },
     "Name_916": {
       "en": "获取龙当前状态",
@@ -37121,61 +37140,68 @@
       "status": "machine",
       "srcHash": "90e6c91b91b932ca",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "d6bc5fb773f5c696"
     },
     "Name_937": {
       "en": "获取龙敌人对应的龙id",
       "cn": null,
-      "ru": "Получите идентификатор дракона, соответствующий врагу-дракону",
-      "status": "machine",
+      "ru": "Получить идентификатор луна, соответствующего врагу",
+      "status": "judged",
       "srcHash": "141661019588433e",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "5b694cfe3c7f91b5"
     },
     "Name_922": {
       "en": "检查物品是否为龙代步",
       "cn": null,
-      "ru": "Проверьте, является ли предмет транспортировкой на драконе",
-      "status": "machine",
+      "ru": "Проверить, является ли предмет предметом для передвижения на луне",
+      "status": "judged",
       "srcHash": "0de4b5253b6f3464",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "6775cca9e7ed6aab"
     },
     "Name_923": {
       "en": "是否获得过蛟卵",
       "cn": null,
-      "ru": "Вы когда-нибудь получали яйца Цзяо?",
-      "status": "machine",
+      "ru": "Получали ли когда-нибудь яйца цзяо",
+      "status": "judged",
       "srcHash": "801cf4510e50a780",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "e08a2aeb82fec552"
     },
     "Name_936": {
       "en": "是否获得过龙鳞",
       "cn": null,
-      "ru": "Вы когда-нибудь получали драконью чешую?",
-      "status": "machine",
+      "ru": "Получали ли когда-нибудь чешую божественного луна",
+      "status": "judged",
       "srcHash": "211e1775eb47c55a",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "368ed2352c96f49c"
     },
     "Name_924": {
       "en": "是否战胜过神龙",
       "cn": null,
-      "ru": "Ты победил дракона?",
-      "status": "machine",
+      "ru": "Побеждали ли вы когда-нибудь божественного луна",
+      "status": "judged",
       "srcHash": "34bced20706524a4",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "06272afeeaef2e87"
     },
     "Name_949": {
       "en": "人物是否为神龙",
       "cn": null,
-      "ru": "Этот персонаж - дракон?",
-      "status": "machine",
+      "ru": "Является ли этот персонаж божественным луном",
+      "status": "judged",
       "srcHash": "96152a819458ca4e",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "da3b7a012322dd8a"
     },
     "Name_942": {
       "en": "尝试通过EnemyId获取龙Character",
@@ -37207,11 +37233,12 @@
     "Name_939": {
       "en": "神龙归心dlc是否可触发",
       "cn": null,
-      "ru": "Можно ли запустить дополнение \"Возвращение дракона\"?",
-      "status": "machine",
+      "ru": "Можно ли запустить дополнение “Возвращение божественного луна”",
+      "status": "judged",
       "srcHash": "aa39780cfc0db7cd",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "19d0d1f937f91e0f"
     },
     "Name_919": {
       "en": "Dlc是否安装",
@@ -37220,7 +37247,8 @@
       "status": "machine",
       "srcHash": "4af1cac51f470061",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "900a9d17593b38e2"
     },
     "Name_925": {
       "en": "收养元鸡到太吾村",
@@ -37229,16 +37257,18 @@
       "status": "machine",
       "srcHash": "7fbfe678f673f947",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "f86b41c7e1249f8c"
     },
     "Name_966": {
       "en": "创建元鸡的事件演员",
       "cn": null,
-      "ru": "Создайте участника мероприятия для Yuanji",
-      "status": "machine",
+      "ru": "Создать персонажа события для Юаньцзи",
+      "status": "judged",
       "srcHash": "eee17010c92209d8",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "6e5a152d5be2b56b"
     },
     "Name_926": {
       "en": "元鸡是否从太吾村逃离过",
@@ -37247,7 +37277,8 @@
       "status": "machine",
       "srcHash": "b4b5308a66379d4b",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "c74aaf4043cf815e"
     },
     "Name_959": {
       "en": "人物是否为元鸡",
@@ -37256,34 +37287,38 @@
       "status": "machine",
       "srcHash": "d64bd0ab23884795",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "fc547c2f885141a6"
     },
     "Name_929": {
       "en": "玄相通天删除剧情固定角色",
       "cn": null,
-      "ru": "Сюаньхуаньтянь удалил фиксированный персонаж сюжета",
-      "status": "machine",
+      "ru": "Сюаньсян Тунтянь удалил фиксированного персонажа сюжета",
+      "status": "judged",
       "srcHash": "b851d869d63f268c",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "a0f24adfe133c567"
     },
     "Name_931": {
       "en": "玄相通天添加十二仙加成特性",
       "cn": null,
-      "ru": "Сюаньхуаньтянь добавляет бонусную функцию \"Двенадцать бессмертных\"",
-      "status": "machine",
+      "ru": "Сюаньсянтунтянь добавляет бонусную особенность “Двенадцать бессмертных”",
+      "status": "judged",
       "srcHash": "3f3eaedf4ffd1e7a",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "111749599a25bdd8"
     },
     "Name_957": {
       "en": "玄相通天给十二仙添加十二仙加成特性",
       "cn": null,
-      "ru": "Сюаньхуаньтянь добавляет двенадцать бонусных характеристик к двенадцати бессмертным",
-      "status": "machine",
+      "ru": "Сюаньсянтунтянь добавляет двенадцати бессмертным бонусную особенность",
+      "status": "judged",
       "srcHash": "e4a0013d3132d471",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "f77839218d5ae7ae"
     },
     "Name_932": {
       "en": "增加职业资历",
@@ -37292,7 +37327,8 @@
       "status": "machine",
       "srcHash": "c419784c513545a0",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "a0f025858c1d7a66"
     },
     "Name_934": {
       "en": "设置十二邪仙状态",
@@ -37301,52 +37337,58 @@
       "status": "machine",
       "srcHash": "dcbf5d19de75cf28",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "14a6c4fed6f2e5a9"
     },
     "Name_935": {
       "en": "清空地格敌人",
       "cn": null,
-      "ru": "Очистите сетку противника",
-      "status": "machine",
+      "ru": "Очистить клетку местности от врагов",
+      "status": "judged",
       "srcHash": "fb17ed84b8324447",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "db59e2c4af5c3662"
     },
     "Name_941": {
       "en": "玄相通天驱灭爪牙",
       "cn": null,
-      "ru": "Сюаньхуаньтянь изгоняет демонов из своих приспешников",
-      "status": "machine",
+      "ru": "Сюаньсянтунтянь уничтожает приспешников",
+      "status": "judged",
       "srcHash": "a12eaa02c6057dd4",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "384672b8bcccc246"
     },
     "Name_945": {
       "en": "解锁驿站",
       "cn": null,
-      "ru": "Разблокируйте станцию",
-      "status": "machine",
+      "ru": "Разблокировать постоялый двор",
+      "status": "judged",
       "srcHash": "1ec38a48bfc033d7",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "adfda0d53daacc05"
     },
     "Name_951": {
       "en": "太吾村本州重申信誓",
       "cn": null,
-      "ru": "Деревня Тайго на острове Хонсю подтверждает свою клятву",
-      "status": "machine",
+      "ru": "Деревня Тайу в своей области подтверждает клятву",
+      "status": "judged",
       "srcHash": "8ef3bdc7bdd27df7",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "6e9b8e3cdd85137a"
     },
     "Name_947": {
       "en": "按类型批量移除奇遇元素并处理绑定人物",
       "cn": null,
-      "ru": "Удаляйте элементы приключений партиями по типу персонажей и обрабатывайте их с привязкой к процессу",
-      "status": "machine",
+      "ru": "Пакетно удалить элементы приключений по типу и обработать привязанных персонажей",
+      "status": "judged",
       "srcHash": "4db605b1e28b72e4",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "0893617be5d3dfdf"
     },
     "Name_948": {
       "en": "按标签批量移除奇遇元素并处理绑定人物",
@@ -37355,7 +37397,8 @@
       "status": "machine",
       "srcHash": "510456b558f0fe8b",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "0db42ef92ec4ca5c"
     },
     "Name_950": {
       "en": "打开玄相九塔第四层",
@@ -37364,34 +37407,38 @@
       "status": "machine",
       "srcHash": "ab160a3a9c282e5f",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "e4cb2fbfa8631a8c"
     },
     "Name_952": {
       "en": "应用野性难驯结果",
       "cn": null,
-      "ru": "Применение диких и трудно поддающихся приручению результатов",
-      "status": "machine",
+      "ru": "Применить результат “Неукротимая дикость”",
+      "status": "judged",
       "srcHash": "9dbca11eabbacc88",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "2fcf8ff780d56459"
     },
     "Name_953": {
       "en": "执行野性难驯跳转",
       "cn": null,
-      "ru": "Выполняйте дикие и сложные прыжки",
-      "status": "machine",
+      "ru": "Выполнить переход “Неукротимая дикость”",
+      "status": "judged",
       "srcHash": "adfe5f8b27aea4e9",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "1699febf19c4bbcf"
     },
     "Name_954": {
       "en": "开始野性难驯战斗",
       "cn": null,
-      "ru": "Начните дикую и трудную битву",
-      "status": "machine",
+      "ru": "Начать битву “Неукротимая дикость”",
+      "status": "judged",
       "srcHash": "ed158c75f9d84de8",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "4bbba28284142311"
     },
     "Name_958": {
       "en": "触发式任务已完成",
@@ -37400,16 +37447,18 @@
       "status": "machine",
       "srcHash": "9af8b4e8a9f96e86",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "13d402165092bc57"
     },
     "Name_960": {
       "en": "元鸡唤灵界面表演",
       "cn": null,
-      "ru": "Производительность интерфейса Yuanji Calling Spirit",
-      "status": "machine",
+      "ru": "Демонстрация на экране призыва духов Юаньцзи",
+      "status": "judged",
       "srcHash": "15215de3274cea10",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "e0f27b83269864e5"
     },
     "Name_962": {
       "en": "是否为转为智能角色的特殊角色",
@@ -37481,6 +37530,16 @@
       "updatedAt": "2026-09-29T23:39:19.182Z",
       "judgeHash": "bda8e1ac88c6ff71"
     },
+    "Name_971": {
+      "en": "根据剑冢获取遗惠",
+      "cn": null,
+      "ru": "Получить наследные дары в зависимости от Могилы мечей",
+      "status": "judged",
+      "srcHash": "529f91cb80774149",
+      "engine": "yandex",
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "56a738901273694a"
+    },
     "Desc_903": {
       "en": "",
       "cn": null,
@@ -37500,6 +37559,16 @@
       "engine": "yandex",
       "updatedAt": "2026-09-29T23:23:43.732Z",
       "judgeHash": "339edad203236ea3"
+    },
+    "Desc_970": {
+      "en": "返回是否成功添加.",
+      "cn": null,
+      "ru": "Возвращает, был ли он успешно добавлен.",
+      "status": "machine",
+      "srcHash": "26c41bdec568a980",
+      "engine": "yandex",
+      "updatedAt": "2026-10-02T18:14:02.916Z",
+      "judgeHash": "3b203d8725f3bd32"
     },
     "Desc_940": {
       "en": "设置一次性的演员Key，仅应在事件指令（而非选项指令）中使用",
@@ -37822,11 +37891,12 @@
     "Desc_937": {
       "en": "返回值： -1:不是龙 0: 白龙 1: 黑龙 2: 青龙 3: 赤龙4: 黄龙",
       "cn": null,
-      "ru": "Возвращаемое значение: -1: Черный дракон 0: Белый дракон 1: Черный дракон 2: Зеленый дракон 3: Красный дракон 4: Желтый дракон",
-      "status": "machine",
+      "ru": "Возвращаемое значение: -1: не дракон 0: белый дракон 1: чёрный дракон 2: синий дракон 3: красный дракон 4: жёлтый дракон",
+      "status": "judged",
       "srcHash": "63b944d19c5d21b7",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "f32abe61f6bddd55"
     },
     "Desc_922": {
       "en": "用于判断龙相关的事件是否可被触发",
@@ -37841,11 +37911,12 @@
     "Desc_923": {
       "en": "检查神龙DLC中是否存在蛟卵flag",
       "cn": null,
-      "ru": "Проверьте, есть ли флаг с драконьим яйцом в дополнении Dragon",
-      "status": "machine",
+      "ru": "Проверить, существует ли флаг яйца драконьего змея в дополнении “Божественный дракон”",
+      "status": "judged",
       "srcHash": "44a8156038fb2b08",
       "engine": "yandex",
-      "updatedAt": "2026-09-29T23:23:43.732Z"
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "25dc130f8c3eca66"
     },
     "Desc_936": {
       "en": "检查神龙DLC中是否存在龙鳞flag",
@@ -38203,6 +38274,16 @@
       "engine": "yandex",
       "updatedAt": "2026-09-29T23:39:19.182Z",
       "judgeHash": "fa6076d14933bc5f"
+    },
+    "Desc_971": {
+      "en": "根据剑冢获取当前世界细节设置难度下对应的遗惠",
+      "cn": null,
+      "ru": "Получить наследный дар, соответствующий текущей сложности, установленной для деталей мира, на основе Могилы мечей",
+      "status": "judged",
+      "srcHash": "ee01f316b89ee596",
+      "engine": "yandex",
+      "updatedAt": "2026-10-02T18:15:27.228Z",
+      "judgeHash": "2b929e3b53e5d6f5"
     },
     "ParameterNames_903_0": {
       "en": "",
@@ -38822,6 +38903,16 @@
       "srcHash": "2315852aca8bcf4e",
       "engine": "yandex",
       "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_970": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-10-02T18:14:02.916Z",
       "judgeHash": "339edad203236ea3"
     },
     "InGameHint_940": {
@@ -39532,6 +39623,16 @@
       "srcHash": "2315852aca8bcf4e",
       "engine": "yandex",
       "updatedAt": "2026-09-29T23:23:43.732Z",
+      "judgeHash": "339edad203236ea3"
+    },
+    "InGameHint_971": {
+      "en": "",
+      "cn": null,
+      "ru": "",
+      "status": "machine",
+      "srcHash": "2315852aca8bcf4e",
+      "engine": "yandex",
+      "updatedAt": "2026-10-02T18:14:02.916Z",
       "judgeHash": "339edad203236ea3"
     }
   }
