@@ -214,4 +214,15 @@ public class SyncTaiwuConfig : Task
         <Message Importance="high" Text="[TaiwuRus] deployed dist -&gt; $(ModDeployDir)" />
     </Target>
 
+    <!-- Zips the deployed mod folder, not dist/: only there is the package whole (dist/ + the art
+         + the Localization overlay staged by `npm run apply`). Frontend only — it builds last
+         (see its ProjectReference), so both plugins are already in place. -->
+    <Target Name="PackMod" AfterTargets="DeployToGame"
+            Condition="'$(MSBuildProjectName)' == 'TaiwuRus.Frontend' and Exists('$(ModDeployDir)')">
+        <ZipDirectory SourceDirectory="$(ModDeployDir)"
+                      DestinationFile="$(DistDir)\..\TaiwuRus.zip"
+                      Overwrite="true" />
+        <Message Importance="high" Text="[TaiwuRus] packed $(ModDeployDir) -&gt; TaiwuRus.zip" />
+    </Target>
+
 </Project>

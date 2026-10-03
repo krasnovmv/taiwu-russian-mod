@@ -360,7 +360,8 @@ dotnet test                   # xunit over the shared BCL core
 `<game>/Mod/TaiwuRus/Localization`; the build deploys the plugins and package
 files (`Config.Lua` is auto-synced — version from `ModInfo.cs`, game version
 read from the install, Workshop `FileId`/`UpdateLogList` carried back after a
-publish). Publishing to the Workshop happens through the in-game mod manager;
+publish). `npm run mod` runs both in that order and leaves the installed mod
+packed as `TaiwuRus/TaiwuRus.zip`. Publishing to the Workshop happens through the in-game mod manager;
 commit the `Config.Lua` changes it writes back.
 
 ## Development

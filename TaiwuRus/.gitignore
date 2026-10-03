@@ -480,6 +480,9 @@ FodyWeavers.xsd
 # Built mod payload (both plugins compile here); the rest of dist/ is the package
 /dist/Plugins/
 
+# The packed mod (built by the PackMod target)
+/TaiwuRus.zip
+
 # Rider per-project settings
 *.DotSettings
 
