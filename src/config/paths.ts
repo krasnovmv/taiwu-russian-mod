@@ -71,7 +71,12 @@ const outputDirOverride = process.env.TAIWU_OUTPUT_DIR
  * output is actually written.
  */
 export function modOverlayDir(): string {
-  return path.join(gameRoot(), "Mod", "TaiwuRus", "Localization");
+  return path.join(modDir(), "Localization");
+}
+
+/** The installed mod package: `<game>/Mod/TaiwuRus` (what the Workshop upload ships). */
+export function modDir(): string {
+  return path.join(gameRoot(), "Mod", "TaiwuRus");
 }
 
 /**
