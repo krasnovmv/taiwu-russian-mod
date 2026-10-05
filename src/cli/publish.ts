@@ -5,9 +5,8 @@
  *   npm run publish -- "change note"   # note is optional, shown on the Workshop page
  *
  * Publishes what is INSTALLED, so run `npm run mod` first. The Workshop item id is
- * the `FileId` in the deployed Config.Lua. `TAIWU_STEAM_USER` names the account;
- * steamcmd reuses its cached session or prompts for the login itself — the script
- * never sees or stores credentials.
+ * the `FileId` in the deployed Config.Lua. steamcmd reuses its cached session or
+ * prompts for the login itself — the script never sees or stores credentials.
  *
  * Like the in-game publish, it appends an `UpdateLogList` entry to the deployed
  * Config.Lua; the next build carries it back into `dist/Config.Lua` to be committed.
@@ -23,17 +22,14 @@ import { writeFileAtomic } from "../util/fs.js";
 
 /** The Scroll of Taiwu on Steam. */
 const APP_ID = 838350;
+/** The account that owns the Workshop item; `TAIWU_STEAM_USER` overrides it. */
+const STEAM_USER = "krasnovmv";
 
 /** steamcmd's VDF: backslash is an escape character, so quote it along with `"`. */
 const vdf = (s: string): string => `"${s.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`;
 
 async function main(): Promise<void> {
-  const user = process.env.TAIWU_STEAM_USER;
-  if (!user) {
-    console.error("Set TAIWU_STEAM_USER (Steam account name) in .env");
-    process.exitCode = 1;
-    return;
-  }
+  const user = process.env.TAIWU_STEAM_USER ?? STEAM_USER;
   const note = process.argv.slice(2).join(" ");
 
   const configFile = path.join(modDir(), "Config.Lua");

@@ -363,7 +363,7 @@ read from the install, Workshop `FileId`/`UpdateLogList` carried back after a
 publish). `npm run mod` runs both in that order and leaves the installed mod
 packed as `TaiwuRus/TaiwuRus.zip`. Publishing to the Workshop happens through the in-game mod manager,
 or with `npm run publish -- "change note"`, which uploads the installed mod via steamcmd
-(`TAIWU_STEAM_USER` in `.env`; steamcmd handles the login itself). Either way,
+(steamcmd handles the login itself; `TAIWU_STEAM_USER` overrides the default account). Either way,
 commit the `Config.Lua` changes it writes back.
 
 ## Development
