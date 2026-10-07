@@ -10028,11 +10028,12 @@
     "Desc_145": {
       "en": "Execute the global advance month action configured. Some require preparation. Advance month encounter needs to be created via this command (only one instance per configuration can be created at the same time; removed automatically after completion). When region is forced to be not None (-1), this command attempts to bypass the configuration and force generate in the designated region.",
       "cn": "运行配置的全局过月行为.部分需要进行提前准备、过月拉人的奇遇需要通过该指令创建（单一配置同一时间只能创建一个,完成后该行为自动移除）.强制区域不为 None (-1) 时,将尝试避开配置强行在指定区域生成.",
-      "ru": "Выполните настроенное глобальное действие за месяц вперед. Некоторые из них требуют подготовки. С помощью этой команды необходимо создать предварительную встречу за месяц (одновременно может быть создан только один экземпляр для каждой конфигурации; автоматически удаляется после завершения). Когда для региона мощь задана не как None (-1), эта команда пытается обойти конфигурацию и мощь генерируется принудительно в указанном регионе.",
-      "status": "machine",
+      "ru": "Выполните настроенное глобальное действие перехода месяца. Некоторые требуют подготовки. С помощью этой команды создаётся событие перехода месяца (одновременно для каждой конфигурации может существовать только один экземпляр; после завершения он удаляется автоматически). Если регион принудительно задан не как отсутствующий (-1), команда пытается обойти конфигурацию и создать событие в указанном регионе.",
+      "status": "judged",
       "srcHash": "c7405bebf4f57710",
       "engine": "yandex",
-      "updatedAt": "2026-07-11T13:40:34.924Z"
+      "updatedAt": "2026-10-07T19:16:42.127Z",
+      "judgeHash": "5b3ec02d3106085e"
     },
     "Desc_92": {
       "en": "Create non-persistent enemy character from template. Match Taiwu's Pure Essence only when the template GroupId ≥ 0.",
